@@ -1,0 +1,45 @@
+term: principles-of-ssi
+aliases:
+  - Principles of SSI
+definition: A set of principles for self-sovereign identity systems originally defined by the Sovrin Foundation and republished by the ToIP Foundation.
+notes:
+  []
+see_also:
+  []
+sources:
+  []
+mental_models:
+  []
+supporting_definitions:
+  - "For more information, see: <https://sovrin.org/principles-of-ssi/> and <https://trustoverip.org/wp-content/uploads/2021/10/ToIP-Principles-of-SSI.pdf>"
+source_file: spec/terms-definitions/principles-of-ssi.md
+governance_profile: descriptive
+governance:
+  authority_scope:
+    - terminology_definition
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: hybrid
+  control_plane_role: reference_term
+  enforcement_points:
+    - definition_approval
+assurance:
+  evidence_artifacts:
+    - definition_change_record
+  assurance_level_hint: informative
+  auditability: basic
+control_plane:
+  decision_points:
+    - definition_approval
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - definition_change_record
+crosswalk:
+  nist:
+    []
+  iso:
+    []

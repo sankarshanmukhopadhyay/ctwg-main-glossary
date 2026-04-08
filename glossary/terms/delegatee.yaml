@@ -1,0 +1,50 @@
+term: delegatee
+aliases:
+  - delegatee
+  - delegatees
+definition: The second party receiving a delegation from a first party (the delegator) and authorized to act only within the granted scope and applicable constraints.
+notes:
+  []
+see_also:
+  []
+sources:
+  []
+mental_models:
+  []
+supporting_definitions:
+  []
+source_file: spec/terms-definitions/delegatee.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+    - delegation_and_scope
+  delegation_mode: direct_or_constrained
+  revocation_supported: true
+  lifecycle_states:
+    - proposed
+    - active
+    - suspended
+    - revoked
+    - retired
+  execution_role: runtime
+  control_plane_role: decision_plane_component
+  enforcement_points:
+    - delegation_grant
+    - revocation_decision
+assurance:
+  evidence_artifacts:
+    - delegation_record
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points:
+    - delegation_grant
+    - revocation_decision
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - delegation_record
+crosswalk:
+  nist:
+    []
+  iso:
+    []

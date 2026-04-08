@@ -1,0 +1,49 @@
+term: federation
+aliases:
+  - federation
+  - federate
+  - federates
+  - federated
+definition: A group of organizations that collaborate to establish a common trust framework or governance framework for the exchange of identity data in a federated identity system.
+notes:
+  []
+see_also:
+  - trust community
+sources:
+  []
+mental_models:
+  []
+supporting_definitions:
+  - "[NIST-CSRC](https://csrc.nist.gov/glossary/term/federation): A collection of realms (domains) that have established trust among themselves. The level of trust may vary, but typically includes authentication and may include authorization."
+source_file: spec/terms-definitions/federation.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+    - policy_definition
+    - governance_recognition
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: runtime
+  control_plane_role: decision_plane_component
+  enforcement_points:
+    - policy_approval
+assurance:
+  evidence_artifacts:
+    - policy_document
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points:
+    - policy_approval
+  accountable_entity: governance_authority
+  evidence_produced:
+    - policy_document
+crosswalk:
+  nist:
+    []
+  iso:
+    []

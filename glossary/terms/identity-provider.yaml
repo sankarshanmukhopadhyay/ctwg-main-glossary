@@ -1,0 +1,53 @@
+term: identity-provider
+aliases:
+  - identity provider
+  - identity providers
+  - IdP
+  - IdPs
+definition: An identity provider (abbreviated IdP or IDP) is a system entity that creates, maintains, and manages identity information for principals and also provides authentication services to relying applications within a federation or distributed network.
+notes:
+  - The term “identity provider” is used in federated identity systems because it is a required component of their architecture. By contrast, decentralized identity and self-sovereign identity systems do not use the term because they are architected to enable entities to create and control their own digital identities without the need to depend on an external provider.
+see_also:
+  []
+sources:
+  - "[Wikipedia](https://en.wikipedia.org/wiki/Identity_provider)."
+mental_models:
+  []
+supporting_definitions:
+  []
+source_file: spec/terms-definitions/identity-provider.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+    - verification_and_reliance
+    - access_decisioning
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: runtime
+  control_plane_role: decision_plane_component
+  enforcement_points:
+    - reliance_decision
+    - access_decision
+assurance:
+  evidence_artifacts:
+    - verification_log
+    - access_decision_log
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points:
+    - reliance_decision
+    - access_decision
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - verification_log
+    - access_decision_log
+crosswalk:
+  nist:
+    []
+  iso:
+    []

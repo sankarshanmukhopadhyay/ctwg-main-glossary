@@ -1,0 +1,47 @@
+term: trust-context
+aliases:
+  - trust context
+  - trust contexts
+definition: "The context in which a specific party makes a specific trust decision. Many different factors may be involved in establishing a trust context, such as: the relevant interaction or transaction; the presence or absence of existing trust relationships; the applicability of one or more governance frameworks; and the location, time, network, and/or devices involved. A trust context may be implicit or explicit; if explicit, it may be identified using an identifier. A ToIP governance framework is an example of an explicit trust context identified by a verifiable identifier (VID)."
+notes:
+  []
+see_also:
+  - trust domain.
+sources:
+  []
+mental_models:
+  []
+supporting_definitions:
+  - "For more information, see: [Design Principles for the ToIP Stack](https://trustoverip.org/our-work/design-principles/)."
+source_file: spec/terms-definitions/trust-context.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+    - policy_definition
+    - governance_recognition
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: runtime
+  control_plane_role: decision_plane_component
+  enforcement_points:
+    - policy_approval
+assurance:
+  evidence_artifacts:
+    - policy_document
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points:
+    - policy_approval
+  accountable_entity: governance_authority
+  evidence_produced:
+    - policy_document
+crosswalk:
+  nist:
+    []
+  iso:
+    []

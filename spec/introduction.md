@@ -23,3 +23,5 @@ A specification document written using ToIP's open source [Spec-Up-T editor](htt
 Where `title` is the text label the document author assigns to the URL of a Web-accessible glossary, and `term` is the term as it appears in that glossary, with spaces replaced by hyphens. For example, a Spec-Up external reference to the term `self-certifying identifier` using the label `toip` for this glossary would look like this:
 
   `[[xref: toip, self-certifying-identifier, Self-certifying identifier]]`
+
+This edition also introduces a governance-executable representation of glossary terms so that high-value operational terms can be consumed by assurance, interoperability, and runtime governance tooling.

@@ -1,0 +1,45 @@
+term: appropriate-friction
+aliases:
+  - appropriate friction
+definition: A user-experience design principle for information systems (such as digital wallets) specifying that the level of attention required of the holder for a particular transaction should provide a reasonable opportunity for an informed choice by the holder.
+notes:
+  []
+see_also:
+  []
+sources:
+  - "[PEMC IGR](https://kantarainitiative.org/download/pemc-implementors-guidance-report/)."
+mental_models:
+  []
+supporting_definitions:
+  []
+source_file: spec/terms-definitions/appropriate-friction.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+    - terminology_definition
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: hybrid
+  control_plane_role: decision_plane_component
+  enforcement_points:
+    - definition_approval
+assurance:
+  evidence_artifacts:
+    - definition_change_record
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points:
+    - definition_approval
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - definition_change_record
+crosswalk:
+  nist:
+    []
+  iso:
+    []

@@ -1,0 +1,48 @@
+term: personal-data-store
+aliases:
+  - personal data store
+  - personal data stores
+  - PDS
+  - PDSs
+definition: "See: personal data vault."
+notes:
+  - In the market, the term “personal data store” has also been used to generally mean a combination of the functions of a personal digital agent, personal wallet, and personal data vault.
+see_also:
+  []
+sources:
+  []
+mental_models:
+  []
+supporting_definitions:
+  []
+source_file: spec/terms-definitions/personal-data-store.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+    - delegation_and_scope
+  delegation_mode: direct_or_constrained
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: runtime
+  control_plane_role: decision_plane_component
+  enforcement_points:
+    - delegation_grant
+assurance:
+  evidence_artifacts:
+    - delegation_record
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points:
+    - delegation_grant
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - delegation_record
+crosswalk:
+  nist:
+    []
+  iso:
+    []

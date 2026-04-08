@@ -1,0 +1,46 @@
+term: owner
+aliases:
+  - owner
+  - owners
+definition: The role that a party performs when it is exercising its legal, rightful or natural title to control a specific entity.
+notes:
+  []
+see_also:
+  - controller.
+sources:
+  - "[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#owner)."
+mental_models:
+  []
+supporting_definitions:
+  []
+source_file: spec/terms-definitions/owner.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+    - terminology_definition
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: design
+  control_plane_role: decision_plane_component
+  enforcement_points:
+    - definition_approval
+assurance:
+  evidence_artifacts:
+    - definition_change_record
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points:
+    - definition_approval
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - definition_change_record
+crosswalk:
+  nist:
+    []
+  iso:
+    []

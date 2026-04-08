@@ -1,0 +1,52 @@
+term: decentralized-identifier
+aliases:
+  - decentralized identifier
+  - decentralized-identifier
+  - decentralized identifiers
+  - DID
+  - DIDs
+definition: A globally unique persistent identifier that does not require a centralized registration authority and is often generated and/or registered cryptographically. The generic format of a DID is defined in section 3.1 DID Syntax of the W3C Decentralized Identifiers (DIDs) 1.0 specification. A specific DID scheme is defined in a DID method specification.
+notes:
+  []
+see_also:
+  - DID method
+  - DID URL.
+sources:
+  - "[W3C DID](https://www.w3.org/TR/did-core/#terminology)."
+mental_models:
+  []
+supporting_definitions:
+  - "Also known as: [[ref: DID]]."
+source_file: spec/terms-definitions/decentralized-identifier.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+    - governance_recognition
+  delegation_mode: direct
+  revocation_supported: true
+  lifecycle_states:
+    - proposed
+    - active
+    - suspended
+    - revoked
+    - retired
+  execution_role: runtime
+  control_plane_role: decision_plane_component
+  enforcement_points:
+    - revocation_decision
+assurance:
+  evidence_artifacts:
+    - definition_change_record
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points:
+    - revocation_decision
+  accountable_entity: governance_authority
+  evidence_produced:
+    - definition_change_record
+crosswalk:
+  nist:
+    []
+  iso:
+    []

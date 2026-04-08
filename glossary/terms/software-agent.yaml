@@ -1,0 +1,46 @@
+term: software-agent
+aliases:
+  - software agent
+  - software agents
+definition: "In computer science, a software agent is a computer program that acts for a user or other program in a relationship of agency, which derives from the Latin *agere* (to do): an agreement to act on one's behalf. A user agent is a specific type of software agent that is used directly by an end-user as the principal."
+notes:
+  []
+see_also:
+  - digital agent.
+sources:
+  - "[Wikipedia](https://en.wikipedia.org/wiki/Software_agent)."
+mental_models:
+  []
+supporting_definitions:
+  []
+source_file: spec/terms-definitions/software-agent.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+    - delegation_and_scope
+  delegation_mode: direct_or_constrained
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: runtime
+  control_plane_role: decision_plane_component
+  enforcement_points:
+    - delegation_grant
+assurance:
+  evidence_artifacts:
+    - delegation_record
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points:
+    - delegation_grant
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - delegation_record
+crosswalk:
+  nist:
+    []
+  iso:
+    []

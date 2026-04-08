@@ -1,0 +1,52 @@
+term: self-sovereign-identity
+aliases:
+  - self-sovereign identity
+  - SSI
+definition: Self-sovereign identity is a decentralized identity architecture that implements the Principles of SSI — principally that it puts the identity controller (e.g., a natural person or organization) directly in control of the identifiers and credentials they use to assert their digital identity.
+notes:
+  []
+see_also:
+  - federated identity.
+sources:
+  []
+mental_models:
+  []
+supporting_definitions:
+  - "Also known as: [[ref: SSI]]."
+  - "[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#ssi-self-sovereign-identity): SSI (Self-Sovereign Identity) is a term that has many different interpretations, and that we use to refer to concepts/ideas, architectures, processes and technologies that aim to support (autonomous) [parties](https://essif-lab.github.io/framework/docs/terms/party) as they negotiate and execute electronic [transactions](https://essif-lab.github.io/framework/docs/terms/transaction) with one another."
+  - "[Wikipedia](https://en.wikipedia.org/wiki/Self-sovereign_identity): Self-sovereign identity (SSI) is an approach to [digital identity](https://en.wikipedia.org/wiki/Digital_identity) that gives individuals control over the information they use to prove who they are to [websites](https://en.wikipedia.org/wiki/Website), services, and [applications](https://en.wikipedia.org/wiki/Application_software) across the web. Without SSI, individuals with persistent accounts (identities) across the [internet](https://en.wikipedia.org/wiki/Internet) must rely on a number of large identity providers, such as [Facebook](https://en.wikipedia.org/wiki/Facebook) (Facebook Connect) and [Google](https://en.wikipedia.org/wiki/Google) (Google Sign-In), that have control of the information associated with their identity."
+source_file: spec/terms-definitions/self-sovereign-identity.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+    - credential_issuance
+  delegation_mode: direct
+  revocation_supported: true
+  lifecycle_states:
+    - proposed
+    - active
+    - suspended
+    - revoked
+    - retired
+  execution_role: runtime
+  control_plane_role: decision_plane_component
+  enforcement_points:
+    - issuance_decision
+    - revocation_decision
+assurance:
+  evidence_artifacts:
+    - issuance_log
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points:
+    - issuance_decision
+    - revocation_decision
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - issuance_log
+crosswalk:
+  nist:
+    []
+  iso:
+    []

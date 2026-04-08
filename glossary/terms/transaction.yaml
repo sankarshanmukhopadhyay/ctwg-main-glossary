@@ -1,0 +1,46 @@
+term: transaction
+aliases:
+  - transaction
+  - transactions
+definition: A discrete event between a user and a system that supports a business or programmatic purpose. A digital system may have multiple categories or types of transactions, which may require separate analysis within the overall digital identity risk assessment.
+notes:
+  []
+see_also:
+  - connection.
+sources:
+  - "[NIST-CSRC](https://csrc.nist.gov/glossary/term/transaction)."
+mental_models:
+  []
+supporting_definitions:
+  - "eSSIF-Lab: the exchange of goods, services, funds, or data between some [parties](https://essif-lab.github.io/framework/docs/terms/party) (called [participants](https://essif-lab.github.io/framework/docs/terms/participant) of the [transaction](https://essif-lab.github.io/framework/docs/terms/transaction))."
+source_file: spec/terms-definitions/transaction.md
+governance_profile: descriptive
+governance:
+  authority_scope:
+    - terminology_definition
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: design
+  control_plane_role: reference_term
+  enforcement_points:
+    - definition_approval
+assurance:
+  evidence_artifacts:
+    - definition_change_record
+  assurance_level_hint: informative
+  auditability: basic
+control_plane:
+  decision_points:
+    - definition_approval
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - definition_change_record
+crosswalk:
+  nist:
+    []
+  iso:
+    []

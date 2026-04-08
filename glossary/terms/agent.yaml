@@ -1,0 +1,52 @@
+term: agent
+aliases:
+  - agent
+  - agents
+definition: An actor that executes an action on behalf of a party (called the principal of that actor). In the context of decentralized digital trust infrastructure, the term “agent” is most frequently used to mean a digital agent.
+notes:
+  - The governance significance of an agent depends on what authority it exercises, under what policies it operates, and what controls exist for oversight, limitation, and revocation.
+  - In a ToIP context, an agent is frequently assumed to have privileged access to the wallet(s) of its principal. In market parlance, a mobile app performing the actions of an agent is often simply called a wallet or a digital wallet.
+see_also:
+  - wallet.
+sources:
+  - "[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#agent)."
+mental_models:
+  []
+supporting_definitions:
+  []
+source_file: spec/terms-definitions/agent.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+    - delegation_and_scope
+    - governance_recognition
+  delegation_mode: direct_or_constrained
+  revocation_supported: true
+  lifecycle_states:
+    - proposed
+    - active
+    - suspended
+    - revoked
+    - retired
+  execution_role: runtime
+  control_plane_role: decision_plane_component
+  enforcement_points:
+    - delegation_grant
+    - revocation_decision
+assurance:
+  evidence_artifacts:
+    - delegation_record
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points:
+    - delegation_grant
+    - revocation_decision
+  accountable_entity: governance_authority
+  evidence_produced:
+    - delegation_record
+crosswalk:
+  nist:
+    []
+  iso:
+    []

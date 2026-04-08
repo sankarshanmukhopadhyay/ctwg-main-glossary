@@ -1,0 +1,46 @@
+term: gateway
+aliases:
+  - gateway
+  - gateways
+definition: "A gateway is a piece of networking hardware or software used in telecommunications networks that allows data to flow from one discrete network to another. Gateways are distinct from routers or switches in that they communicate using more than one protocol to connect multiple networks<sup>\\[1\\]\\[2\\]</sup>#cite_note-1) and can operate at any of the seven layers of the open systems interconnection model (OSI)."
+notes:
+  []
+see_also:
+  - intermediary.
+sources:
+  - "[Wikipedia](https://en.wikipedia.org/wiki/Gateway_\\(telecommunications\\))."
+mental_models:
+  []
+supporting_definitions:
+  []
+source_file: spec/terms-definitions/gateway.md
+governance_profile: descriptive
+governance:
+  authority_scope:
+    - terminology_definition
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: hybrid
+  control_plane_role: reference_term
+  enforcement_points:
+    - definition_approval
+assurance:
+  evidence_artifacts:
+    - definition_change_record
+  assurance_level_hint: informative
+  auditability: basic
+control_plane:
+  decision_points:
+    - definition_approval
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - definition_change_record
+crosswalk:
+  nist:
+    []
+  iso:
+    []

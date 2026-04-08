@@ -1,0 +1,45 @@
+term: proof-of-personhood
+aliases:
+  - proof of personhood
+definition: Proof of personhood (PoP) is a means of resisting malicious attacks on peer-to-peer networks, particularly, attacks that utilize multiple fake identities, otherwise known as a Sybil attack. Decentralized online platforms are particularly vulnerable to such attacks by their very nature, as notionally democratic and responsive to large voting blocks. In PoP, each unique human participant obtains one equal unit of voting power, and any associated rewards.
+notes:
+  []
+see_also:
+  []
+sources:
+  - "[Wikipedia](https://en.wikipedia.org/wiki/Proof_of_personhood)."
+mental_models:
+  []
+supporting_definitions:
+  - "Also known as: [[ref: PoP]]."
+source_file: spec/terms-definitions/proof-of-personhood.md
+governance_profile: descriptive
+governance:
+  authority_scope:
+    - terminology_definition
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: design
+  control_plane_role: reference_term
+  enforcement_points:
+    - definition_approval
+assurance:
+  evidence_artifacts:
+    - definition_change_record
+  assurance_level_hint: informative
+  auditability: basic
+control_plane:
+  decision_points:
+    - definition_approval
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - definition_change_record
+crosswalk:
+  nist:
+    []
+  iso:
+    []

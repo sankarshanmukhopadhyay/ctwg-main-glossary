@@ -1,0 +1,48 @@
+term: guardianship-arrangement
+aliases:
+  - guardianship arrangement
+  - guardianship arrangements
+  - guardianship
+  - guardianships
+definition: "A guardianship arrangement (in a jurisdiction) is the specification of a set of rights and duties between legal entities of the [[ref: jurisdiction] that enforces these rights and duties, for the purpose of caring for, protecting, guarding, and defending one or more of these [[erf: entities]]. At a minimum, the entities participating in a guardianship arrangement are the guardian and the dependent."
+notes:
+  []
+see_also:
+  - custodianship arrangement.
+sources:
+  - "[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#guardian)"
+mental_models:
+  - "[eSSIF-Lab Guardianship](https://essif-lab.github.io/framework/docs/terms/pattern-guardianship)"
+supporting_definitions:
+  - "For more information, see: [On Guardianship in Self-Sovereign Identity V2.0](https://sovrin.org/wp-content/uploads/Guardianship-Whitepaper-V2.0.pdf) (April, 2023)."
+source_file: spec/terms-definitions/guardianship-arrangement.md
+governance_profile: descriptive
+governance:
+  authority_scope:
+    - terminology_definition
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: design
+  control_plane_role: reference_term
+  enforcement_points:
+    - definition_approval
+assurance:
+  evidence_artifacts:
+    - definition_change_record
+  assurance_level_hint: informative
+  auditability: basic
+control_plane:
+  decision_points:
+    - definition_approval
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - definition_change_record
+crosswalk:
+  nist:
+    []
+  iso:
+    []

@@ -1,0 +1,47 @@
+term: rule
+aliases:
+  - rule
+  - rules
+definition: A prescribed guide for conduct, process or action to achieve a defined result or objective. Rules may be human-readable or machine-readable or both.
+notes:
+  []
+see_also:
+  - governance framework
+  - policy.
+sources:
+  []
+mental_models:
+  []
+supporting_definitions:
+  []
+source_file: spec/terms-definitions/rule.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+    - policy_definition
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: design
+  control_plane_role: decision_plane_component
+  enforcement_points:
+    - policy_approval
+assurance:
+  evidence_artifacts:
+    - policy_document
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points:
+    - policy_approval
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - policy_document
+crosswalk:
+  nist:
+    []
+  iso:
+    []

@@ -1,0 +1,46 @@
+term: sybil-attack
+aliases:
+  - Sybil attack
+  - Sybil attacks
+definition: A Sybil attack is a type of attack on a computer network service in which an attacker subverts the service's reputation system by creating a large number of pseudonymous identities and uses them to gain a disproportionately large influence. It is named after the subject of the book _Sybil_, a case study of a woman diagnosed with dissociative identity disorder.
+notes:
+  []
+see_also:
+  []
+sources:
+  - "[Wikipedia](https://en.wikipedia.org/wiki/Sybil_attack)."
+mental_models:
+  []
+supporting_definitions:
+  []
+source_file: spec/terms-definitions/sybil-attack.md
+governance_profile: descriptive
+governance:
+  authority_scope:
+    - terminology_definition
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: design
+  control_plane_role: reference_term
+  enforcement_points:
+    - definition_approval
+assurance:
+  evidence_artifacts:
+    - definition_change_record
+  assurance_level_hint: informative
+  auditability: basic
+control_plane:
+  decision_points:
+    - definition_approval
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - definition_change_record
+crosswalk:
+  nist:
+    []
+  iso:
+    []

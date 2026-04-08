@@ -1,0 +1,46 @@
+term: technical-requirement
+aliases:
+  - technical requirement
+  - technical requirements
+definition: A requirement for a hardware or software component or system. In the context of decentralized digital trust infrastructure, technical requirements are a subset of governance requirements. Technical requirements are often specified in a technical specification.
+notes:
+  - In ToIP architecture, both technical requirements and governance requirements are expressed using the keywords defined in IETF RFC 2119.
+see_also:
+  []
+sources:
+  []
+mental_models:
+  []
+supporting_definitions:
+  - "For more information, see: <https://datatracker.ietf.org/doc/html/rfc2119>"
+source_file: spec/terms-definitions/technical-requirement.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+    - governance_recognition
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: runtime
+  control_plane_role: decision_plane_component
+  enforcement_points:
+    - definition_approval
+assurance:
+  evidence_artifacts:
+    - definition_change_record
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points:
+    - definition_approval
+  accountable_entity: governance_authority
+  evidence_produced:
+    - definition_change_record
+crosswalk:
+  nist:
+    []
+  iso:
+    []

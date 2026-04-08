@@ -1,0 +1,50 @@
+term: broken-object-level-authorization
+aliases:
+  - broken-object-level-authorization
+  - broken object level authorization
+definition: Refers to security flaws where users can access data they shouldn't, due to inadequate permission checks on individual (sub)objects.
+notes:
+  []
+see_also:
+  []
+sources:
+  []
+mental_models:
+  []
+supporting_definitions:
+  - "Also known as [[ref: BOLA]]"
+source_file: spec/terms-definitions/broken-object-level-authorization.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+    - access_decisioning
+  delegation_mode: direct
+  revocation_supported: true
+  lifecycle_states:
+    - proposed
+    - active
+    - suspended
+    - revoked
+    - retired
+  execution_role: runtime
+  control_plane_role: decision_plane_component
+  enforcement_points:
+    - access_decision
+    - revocation_decision
+assurance:
+  evidence_artifacts:
+    - access_decision_log
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points:
+    - access_decision
+    - revocation_decision
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - access_decision_log
+crosswalk:
+  nist:
+    []
+  iso:
+    []

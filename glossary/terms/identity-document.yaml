@@ -1,0 +1,50 @@
+term: identity-document
+aliases:
+  - identity document
+  - identity documents
+definition: A physical or digital document containing identity data. A credential is a specialized form of identity document. Birth certificates, bank statements, and utility bills can all be considered identity documents.
+notes:
+  []
+see_also:
+  []
+sources:
+  []
+mental_models:
+  []
+supporting_definitions:
+  []
+source_file: spec/terms-definitions/identity-document.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+    - credential_issuance
+  delegation_mode: direct
+  revocation_supported: true
+  lifecycle_states:
+    - proposed
+    - active
+    - suspended
+    - revoked
+    - retired
+  execution_role: design
+  control_plane_role: decision_plane_component
+  enforcement_points:
+    - issuance_decision
+    - revocation_decision
+assurance:
+  evidence_artifacts:
+    - issuance_log
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points:
+    - issuance_decision
+    - revocation_decision
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - issuance_log
+crosswalk:
+  nist:
+    []
+  iso:
+    []

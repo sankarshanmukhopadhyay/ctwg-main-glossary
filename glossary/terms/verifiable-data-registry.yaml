@@ -1,0 +1,60 @@
+term: verifiable-data-registry
+aliases:
+  - verifiable data registry
+  - verifiable data registries
+  - VDR
+  - VDRs
+definition: A registry that facilitates the creation, verification, updating, and/or deactivation of decentralized identifiers and DID documents. A verifiable data registry may also be used for other cryptographically-verifiable data structures such as verifiable credentials.
+notes:
+  - There is an earlier definition in the W3C VC 1.1. glossary that is not as mature as this one (it is not clear about the use of cryptographically verifiable data structures). We do not recommend that definition.
+see_also:
+  - authoritative source
+  - trust registry
+  - system of record.
+sources:
+  - "[W3C DID](https://www.w3.org/TR/did-core/#terminology)"
+mental_models:
+  - "[W3C Verifiable Credentials Data Model Roles & Information Flows](https://www.w3.org/TR/vc-data-model/#roles)"
+supporting_definitions:
+  - "Also known as: [[ref: VDR]]."
+  - "For more information, see: [[ref: W3C Verifiable Credentials Data Model Specification]]."
+source_file: spec/terms-definitions/verifiable-data-registry.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+    - credential_issuance
+    - registry_management
+  delegation_mode: direct
+  revocation_supported: true
+  lifecycle_states:
+    - proposed
+    - active
+    - suspended
+    - revoked
+    - retired
+  execution_role: runtime
+  control_plane_role: decision_plane_component
+  enforcement_points:
+    - registration_decision
+    - issuance_decision
+    - revocation_decision
+assurance:
+  evidence_artifacts:
+    - registry_entry
+    - issuance_log
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points:
+    - registration_decision
+    - issuance_decision
+    - revocation_decision
+  accountable_entity: registry_operator
+  evidence_produced:
+    - registry_entry
+    - issuance_log
+crosswalk:
+  nist:
+    []
+  iso:
+    []

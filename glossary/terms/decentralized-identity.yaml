@@ -1,0 +1,48 @@
+term: decentralized-identity
+aliases:
+  - decentralized identity
+  - decentralized identities
+definition: A digital identity architecture in which a digital identity is established via the control of a set of cryptographic keys in a digital wallet so that the controller is not dependent on any external identity provider or other third party.
+notes:
+  []
+see_also:
+  - federated-identity
+  - self-sovereign identity.
+sources:
+  []
+mental_models:
+  []
+supporting_definitions:
+  - "General IT description: [[xref: toip2, decentralized-identity, decentralized identity]]"
+  - "KERI related: [[xref: keri1, decentralized-identity, decentralized identity]]"
+source_file: spec/terms-definitions/decentralized-identity.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+    - terminology_definition
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: runtime
+  control_plane_role: decision_plane_component
+  enforcement_points:
+    - definition_approval
+assurance:
+  evidence_artifacts:
+    - definition_change_record
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points:
+    - definition_approval
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - definition_change_record
+crosswalk:
+  nist:
+    []
+  iso:
+    []

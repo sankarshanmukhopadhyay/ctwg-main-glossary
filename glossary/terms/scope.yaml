@@ -1,0 +1,46 @@
+term: scope
+aliases:
+  - scope
+  - scopes
+definition: "In the context of terminology, scope refers to the set of possible concepts within which: a) a specific term is intended to uniquely identify a concept, or b) a specific glossary is intended to identify a set of concepts. In the context of identification, scope refers to the set of possible entities within which a specific entity must be uniquely identified. In the context of specifications, scope refers to the set of problems (the problem space) within which the specification is intended to specify solutions."
+notes:
+  []
+see_also:
+  []
+sources:
+  []
+mental_models:
+  []
+supporting_definitions:
+  - "[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#scope): the extent of the area or subject matter (which we use, e.g., to define [pattern](https://essif-lab.github.io/framework/docs/@), [concept](https://essif-lab.github.io/framework/docs/@), [term](https://essif-lab.github.io/framework/docs/@) and [glossaries](https://essif-lab.github.io/framework/docs/@) in, but it serves other purposes as well)."
+source_file: spec/terms-definitions/scope.md
+governance_profile: descriptive
+governance:
+  authority_scope:
+    - terminology_definition
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: hybrid
+  control_plane_role: reference_term
+  enforcement_points:
+    - definition_approval
+assurance:
+  evidence_artifacts:
+    - definition_change_record
+  assurance_level_hint: informative
+  auditability: basic
+control_plane:
+  decision_points:
+    - definition_approval
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - definition_change_record
+crosswalk:
+  nist:
+    []
+  iso:
+    []

@@ -1,0 +1,48 @@
+term: deep-link
+aliases:
+  - deep link
+  - deep links
+  - deep linking
+  - deep linked
+definition: "In the context of the World Wide Web, deep linking is the use of a hyperlink that links to a specific, generally searchable or indexed, piece of web content on a website (e.g. \"https\\://example.com/path/page\"), rather than the website's home page (e.g., \"https\\://example.com\"). The URL contains all the information needed to point to a particular item. Deep linking is different from mobile deep linking, which refers to directly linking to in-app content using a non-HTTP URI."
+notes:
+  []
+see_also:
+  - out-of-band introduction.
+sources:
+  - "[Wikipedia](https://en.wikipedia.org/wiki/Deep_linking)."
+mental_models:
+  []
+supporting_definitions:
+  []
+source_file: spec/terms-definitions/deep-link.md
+governance_profile: descriptive
+governance:
+  authority_scope:
+    - terminology_definition
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: design
+  control_plane_role: reference_term
+  enforcement_points:
+    - definition_approval
+assurance:
+  evidence_artifacts:
+    - definition_change_record
+  assurance_level_hint: informative
+  auditability: basic
+control_plane:
+  decision_points:
+    - definition_approval
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - definition_change_record
+crosswalk:
+  nist:
+    []
+  iso:
+    []

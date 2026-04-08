@@ -1,0 +1,49 @@
+term: decryption
+aliases:
+  - decryption
+  - decrypt
+  - decrypts
+  - decrypting
+  - decrypted
+definition: The process of changing ciphertext into plaintext using a cryptographic algorithm and key. The opposite of encryption.
+notes:
+  []
+see_also:
+  []
+sources:
+  - "[NIST-CSRC](https://csrc.nist.gov/glossary/term/decryption)."
+mental_models:
+  []
+supporting_definitions:
+  []
+source_file: spec/terms-definitions/decryption.md
+governance_profile: descriptive
+governance:
+  authority_scope:
+    - terminology_definition
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: design
+  control_plane_role: reference_term
+  enforcement_points:
+    - definition_approval
+assurance:
+  evidence_artifacts:
+    - definition_change_record
+  assurance_level_hint: informative
+  auditability: basic
+control_plane:
+  decision_points:
+    - definition_approval
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - definition_change_record
+crosswalk:
+  nist:
+    []
+  iso:
+    []

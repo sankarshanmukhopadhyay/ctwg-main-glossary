@@ -1,0 +1,45 @@
+term: keys-at-the-edge
+aliases:
+  - keys-at-the-edge
+definition: A key management architecture in which keys are stored on a user’s local edge devices, such as a smartphone, tablet, or laptop, and then used in conjunction with a secure protocol to unlock a key management system (KMS) and/or a digital vault in the cloud. This approach can enable the storage and sharing of large data structures that are not feasible on edge devices. This architecture can also be used in conjunction with confidential computing to enable cloud-based digital agents to safely carry out “user not present” operations.
+notes:
+  []
+see_also:
+  []
+sources:
+  []
+mental_models:
+  []
+supporting_definitions:
+  - "Also known as: [[ref: KATE]]."
+source_file: spec/terms-definitions/keys-at-the-edge.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+    - delegation_and_scope
+  delegation_mode: direct_or_constrained
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: runtime
+  control_plane_role: decision_plane_component
+  enforcement_points:
+    - delegation_grant
+assurance:
+  evidence_artifacts:
+    - delegation_record
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points:
+    - delegation_grant
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - delegation_record
+crosswalk:
+  nist:
+    []
+  iso:
+    []

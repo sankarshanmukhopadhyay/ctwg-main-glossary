@@ -1,0 +1,46 @@
+term: internet-protocol
+aliases:
+  - Internet Protocol
+definition: The Internet Protocol (IP) is the network layer communications protocol in the Internet protocol suite (also known as the TCP/IP suite) for relaying datagrams across network boundaries. Its routing function enables internetworking, and essentially establishes the Internet. IP has the task of delivering packets from the source host to the destination host solely based on the IP addresses in the packet headers. For this purpose, IP defines packet structures that encapsulate the data to be delivered. It also defines addressing methods that are used to label the datagram with source and destination information.
+notes:
+  []
+see_also:
+  - Transmission Control Protocol
+  - User Datagram Protocol.
+sources:
+  - "[Wikipedia](https://en.wikipedia.org/wiki/Internet_Protocol)."
+mental_models:
+  []
+supporting_definitions:
+  - "Also known as: [[ref: IP]]."
+source_file: spec/terms-definitions/internet-protocol.md
+governance_profile: descriptive
+governance:
+  authority_scope:
+    - terminology_definition
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: design
+  control_plane_role: reference_term
+  enforcement_points:
+    - definition_approval
+assurance:
+  evidence_artifacts:
+    - definition_change_record
+  assurance_level_hint: informative
+  auditability: basic
+control_plane:
+  decision_points:
+    - definition_approval
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - definition_change_record
+crosswalk:
+  nist:
+    []
+  iso:
+    []

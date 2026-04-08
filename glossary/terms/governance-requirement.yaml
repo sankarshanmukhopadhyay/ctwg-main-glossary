@@ -1,0 +1,47 @@
+term: governance-requirement
+aliases:
+  - governance requirement
+  - governance requirements
+definition: A requirement such as a policy, rule, or technical specification specified in a governance document.
+notes:
+  []
+see_also:
+  - technical requirement.
+sources:
+  []
+mental_models:
+  []
+supporting_definitions:
+  []
+source_file: spec/terms-definitions/governance-requirement.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+    - policy_definition
+    - governance_recognition
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: runtime
+  control_plane_role: decision_plane_component
+  enforcement_points:
+    - policy_approval
+assurance:
+  evidence_artifacts:
+    - policy_document
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points:
+    - policy_approval
+  accountable_entity: governance_authority
+  evidence_produced:
+    - policy_document
+crosswalk:
+  nist:
+    []
+  iso:
+    []

@@ -1,0 +1,46 @@
+term: communication-channel
+aliases:
+  - communication channel
+  - communication channels
+definition: A communication channel refers either to a physical transmission medium such as a wire, or to a logical connection over a multiplexed medium such as a radio channel in telecommunications and computer networking. A channel is used for information transfer of, for example, a digital bit stream, from one or several senders to one or several receivers.
+notes:
+  []
+see_also:
+  - ToIP channel.
+sources:
+  - "[Wikipedia](https://en.wikipedia.org/wiki/Communication_channel)."
+mental_models:
+  []
+supporting_definitions:
+  - "[eSSIF-Lab](https://essif-lab.github.io/framework/docs/terms/communication-channel): a (digital or non-digital) means by which two [actors](https://essif-lab.github.io/framework/docs/terms/actor) can exchange messages with one another."
+source_file: spec/terms-definitions/communication-channel.md
+governance_profile: descriptive
+governance:
+  authority_scope:
+    - terminology_definition
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: design
+  control_plane_role: reference_term
+  enforcement_points:
+    - definition_approval
+assurance:
+  evidence_artifacts:
+    - definition_change_record
+  assurance_level_hint: informative
+  auditability: basic
+control_plane:
+  decision_points:
+    - definition_approval
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - definition_change_record
+crosswalk:
+  nist:
+    []
+  iso:
+    []

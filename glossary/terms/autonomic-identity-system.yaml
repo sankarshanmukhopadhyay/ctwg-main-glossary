@@ -1,0 +1,46 @@
+term: autonomic-identity-system
+aliases:
+  - autonomic-identity-system
+  - autonomic identity system
+definition: an identity system that includes a primary root-of-trust in self-certifying identifiers that are strongly bound at issuance to a cryptographic signing (public, private) key pair. An AIS enables any entity to establish control over an AN in an independent, interoperable, and portable way.
+notes:
+  []
+see_also:
+  []
+sources:
+  - Dr. S.Smith, 2024
+mental_models:
+  []
+supporting_definitions:
+  - There's nobody that can intervene with the establishment of the authenticity of a control operation because you can verify all the way back to the root-of-trust.
+source_file: spec/terms-definitions/autonomic-identity-system.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+    - terminology_definition
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: design
+  control_plane_role: decision_plane_component
+  enforcement_points:
+    - definition_approval
+assurance:
+  evidence_artifacts:
+    - definition_change_record
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points:
+    - definition_approval
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - definition_change_record
+crosswalk:
+  nist:
+    []
+  iso:
+    []

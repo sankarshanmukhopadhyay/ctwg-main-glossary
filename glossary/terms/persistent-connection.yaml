@@ -1,0 +1,46 @@
+term: persistent-connection
+aliases:
+  - persistent connection
+  - persistent connections
+definition: A connection that is able to persist across multiple communication sessions. In a ToIP context, a persistent connection is established when two ToIP endpoints exchange verifiable identifiers (VIDs) that they can use to re-establish the connection with each other whenever it is needed.
+notes:
+  []
+see_also:
+  []
+sources:
+  []
+mental_models:
+  []
+supporting_definitions:
+  - "Contrast with: [[ref: ephemeral connection]]."
+source_file: spec/terms-definitions/persistent-connection.md
+governance_profile: descriptive
+governance:
+  authority_scope:
+    - terminology_definition
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: design
+  control_plane_role: reference_term
+  enforcement_points:
+    - definition_approval
+assurance:
+  evidence_artifacts:
+    - definition_change_record
+  assurance_level_hint: informative
+  auditability: basic
+control_plane:
+  decision_points:
+    - definition_approval
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - definition_change_record
+crosswalk:
+  nist:
+    []
+  iso:
+    []

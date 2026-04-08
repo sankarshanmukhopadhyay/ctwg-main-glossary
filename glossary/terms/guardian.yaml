@@ -1,0 +1,52 @@
+term: guardian
+aliases:
+  - guardian
+  - guardians
+definition: A party that has been assigned rights and duties in a guardianship arrangement for the purpose of caring for, protecting, guarding, and defending the entity that is the dependent in that guardianship arrangement. In the context of decentralized digital trust infrastructure, a guardian is issued guardianship credentials into their own digital wallet in order to perform such actions on behalf of the dependent as are required by this role.
+notes:
+  - A guardian is a very different role than a custodian, who does not take any actions on behalf of a principal unless explicitly authorized.
+see_also:
+  - custodian
+  - zero-knowledge service provider.
+sources:
+  - "[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#guardian)"
+mental_models:
+  - "[eSSIF-Lab Guardianship](https://essif-lab.github.io/framework/docs/terms/pattern-guardianship)"
+supporting_definitions:
+  - "[Wikipedia](https://en.wikipedia.org/wiki/Legal_guardian): A legal guardian is a person who has been appointed by a court or otherwise has the legal authority (and the corresponding [duty](https://en.wikipedia.org/wiki/Duty)) to make decisions relevant to the personal and [property](https://en.wikipedia.org/wiki/Property) interests of another person who is deemed incompetent, called a [ward](https://en.wikipedia.org/wiki/Ward_\\(law\\))."
+  - "For more information, see: [On Guardianship in Self-Sovereign Identity V2.0](https://sovrin.org/wp-content/uploads/Guardianship-Whitepaper-V2.0.pdf) (April, 2023)."
+source_file: spec/terms-definitions/guardian.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+    - credential_issuance
+  delegation_mode: direct
+  revocation_supported: true
+  lifecycle_states:
+    - proposed
+    - active
+    - suspended
+    - revoked
+    - retired
+  execution_role: design
+  control_plane_role: decision_plane_component
+  enforcement_points:
+    - issuance_decision
+    - revocation_decision
+assurance:
+  evidence_artifacts:
+    - issuance_log
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points:
+    - issuance_decision
+    - revocation_decision
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - issuance_log
+crosswalk:
+  nist:
+    []
+  iso:
+    []

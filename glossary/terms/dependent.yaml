@@ -1,0 +1,46 @@
+term: dependent
+aliases:
+  - dependent
+  - dependents
+definition: An entity for the caring for and/or protecting/guarding/defending of which a guardianship arrangement has been established with a guardian.
+notes:
+  []
+see_also:
+  - custodian.
+sources:
+  - "[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#dependent)"
+mental_models:
+  - "[eSSIF-Lab Guardianship](https://essif-lab.github.io/framework/docs/terms/pattern-guardianship)"
+supporting_definitions:
+  []
+source_file: spec/terms-definitions/dependent.md
+governance_profile: descriptive
+governance:
+  authority_scope:
+    - terminology_definition
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: design
+  control_plane_role: reference_term
+  enforcement_points:
+    - definition_approval
+assurance:
+  evidence_artifacts:
+    - definition_change_record
+  assurance_level_hint: informative
+  auditability: basic
+control_plane:
+  decision_points:
+    - definition_approval
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - definition_change_record
+crosswalk:
+  nist:
+    []
+  iso:
+    []

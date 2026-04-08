@@ -1,0 +1,56 @@
+term: verification
+aliases:
+  - verification
+  - verify
+  - verifies
+  - verified
+  - verifying
+definition: An action an agent (of a principal) performs to determine the authenticity of a claim or other data object. Cryptographic verification uses cryptographic keys.
+notes:
+  []
+see_also:
+  - validation.
+  - "KERI scope definition of [[xref: keri1"
+  - "verification]]"
+sources:
+  []
+mental_models:
+  - "[W3C Verifiable Credentials Data Model Roles & Information Flows](https://www.w3.org/TR/vc-data-model/#roles)"
+supporting_definitions:
+  - "[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#verify): The act, by or on behalf of a [party](https://essif-lab.github.io/framework/docs/terms/party), of determining whether that data is authentic (i.e. originates from the [party](https://essif-lab.github.io/framework/docs/terms/party) that authored it), timely (i.e. has not expired), and conforms to other specifications that apply to its structure."
+source_file: spec/terms-definitions/verification.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+    - credential_issuance
+    - delegation_and_scope
+  delegation_mode: direct_or_constrained
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: runtime
+  control_plane_role: decision_plane_component
+  enforcement_points:
+    - delegation_grant
+    - issuance_decision
+assurance:
+  evidence_artifacts:
+    - delegation_record
+    - issuance_log
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points:
+    - delegation_grant
+    - issuance_decision
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - delegation_record
+    - issuance_log
+crosswalk:
+  nist:
+    []
+  iso:
+    []

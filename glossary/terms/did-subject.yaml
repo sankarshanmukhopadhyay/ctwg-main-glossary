@@ -1,0 +1,46 @@
+term: did-subject
+aliases:
+  - DID subject
+  - DID subjects
+definition: "The entity identified by a DID and described by a DID document. Anything can be a DID subject: person, group, organization, physical thing, digital thing, logical thing, etc."
+notes:
+  []
+see_also:
+  - subject.
+sources:
+  - "[W3C DID](https://www.w3.org/TR/did-core/#dfn-did-subjects)."
+mental_models:
+  []
+supporting_definitions:
+  []
+source_file: spec/terms-definitions/did-subject.md
+governance_profile: descriptive
+governance:
+  authority_scope:
+    - terminology_definition
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: design
+  control_plane_role: reference_term
+  enforcement_points:
+    - definition_approval
+assurance:
+  evidence_artifacts:
+    - definition_change_record
+  assurance_level_hint: informative
+  auditability: basic
+control_plane:
+  decision_points:
+    - definition_approval
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - definition_change_record
+crosswalk:
+  nist:
+    []
+  iso:
+    []

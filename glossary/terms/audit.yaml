@@ -1,0 +1,46 @@
+term: audit
+aliases:
+  - audit
+  - audits
+definition: Independent review and examination of records and activities to assess the adequacy of system controls, to ensure compliance with established policies and operational procedures.
+notes:
+  []
+see_also:
+  []
+sources:
+  - "[NIST-CSRC](https://csrc.nist.gov/glossary/term/audit)."
+mental_models:
+  []
+supporting_definitions:
+  []
+source_file: spec/terms-definitions/audit.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+    - assurance_and_audit
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: runtime
+  control_plane_role: decision_plane_component
+  enforcement_points:
+    - definition_approval
+assurance:
+  evidence_artifacts:
+    - audit_log
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points:
+    - definition_approval
+  accountable_entity: auditor
+  evidence_produced:
+    - audit_log
+crosswalk:
+  nist:
+    []
+  iso:
+    []

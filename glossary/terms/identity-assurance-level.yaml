@@ -1,0 +1,52 @@
+term: identity-assurance-level
+aliases:
+  - identity assurance level
+  - identity assurance levels
+  - IAL
+  - IALs
+definition: "A category that conveys the degree of confidence that a person’s claimed identity is their real identity, for example as defined in NIST SP 800-63-3 in terms of three levels: IAL 1 (Some confidence), IAL 2 (High confidence), IAL 3 (Very high confidence)."
+notes:
+  []
+see_also:
+  - authenticator assurance level
+  - federation assurance level.
+sources:
+  - "[NIST-CSRC](https://csrc.nist.gov/glossary/term/identity_assurance_level)."
+mental_models:
+  []
+supporting_definitions:
+  []
+source_file: spec/terms-definitions/identity-assurance-level.md
+governance_profile: governance-supporting
+governance:
+  authority_scope:
+    - credential_issuance
+    - assurance_and_audit
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: design
+  control_plane_role: decision_plane_component
+  enforcement_points:
+    - issuance_decision
+assurance:
+  evidence_artifacts:
+    - issuance_log
+    - attestation
+  assurance_level_hint: AL1+
+  auditability: moderate
+control_plane:
+  decision_points:
+    - issuance_decision
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - issuance_log
+    - attestation
+crosswalk:
+  nist:
+    []
+  iso:
+    []

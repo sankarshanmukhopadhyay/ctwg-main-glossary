@@ -1,0 +1,49 @@
+term: self-certifying-identifier
+aliases:
+  - self-certifying identifier
+  - self-certifying identifiers
+  - SCID
+  - SCIDs
+definition: A subclass of verifiable identifier (VID) that is cryptographically verifiable without the need to rely on any third party for verification because the identifier is cryptographically bound to the cryptographic keys from which it was generated.
+notes:
+  []
+see_also:
+  - "autonomic identifier and the KERI specific [[xref: keri1"
+  - "self-certifying-identifier]]."
+sources:
+  []
+mental_models:
+  []
+supporting_definitions:
+  - "Also known as: [[ref: SCID]]."
+source_file: spec/terms-definitions/self-certifying-identifier.md
+governance_profile: descriptive
+governance:
+  authority_scope:
+    - verification_and_reliance
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: design
+  control_plane_role: reference_term
+  enforcement_points:
+    - reliance_decision
+assurance:
+  evidence_artifacts:
+    - verification_log
+  assurance_level_hint: informative
+  auditability: basic
+control_plane:
+  decision_points:
+    - reliance_decision
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - verification_log
+crosswalk:
+  nist:
+    []
+  iso:
+    []

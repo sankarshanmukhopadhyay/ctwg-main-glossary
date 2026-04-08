@@ -1,0 +1,52 @@
+term: digital-agent
+aliases:
+  - digital agent
+  - digital agents
+definition: In the context of ​​decentralized digital trust infrastructure, a software agent that operates in conjunction with a digital wallet or similar system component to take actions on behalf of its controller.
+notes:
+  - A digital agent may act with significant operational authority. Its governance characteristics therefore depend on the policies, permissions, lifecycle controls, and revocation mechanisms under which it operates.
+  - In a ToIP context, a digital agent is frequently assumed to have privileged access to the digital wallets of its principal. In market parlance, a mobile app that performs the actions of a digital agent is often simply called a wallet or a digital wallet.
+see_also:
+  []
+sources:
+  []
+mental_models:
+  []
+supporting_definitions:
+  []
+source_file: spec/terms-definitions/digital-agent.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+    - delegation_and_scope
+    - governance_recognition
+  delegation_mode: direct_or_constrained
+  revocation_supported: true
+  lifecycle_states:
+    - proposed
+    - active
+    - suspended
+    - revoked
+    - retired
+  execution_role: runtime
+  control_plane_role: decision_plane_component
+  enforcement_points:
+    - delegation_grant
+    - revocation_decision
+assurance:
+  evidence_artifacts:
+    - delegation_record
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points:
+    - delegation_grant
+    - revocation_decision
+  accountable_entity: governance_authority
+  evidence_produced:
+    - delegation_record
+crosswalk:
+  nist:
+    []
+  iso:
+    []

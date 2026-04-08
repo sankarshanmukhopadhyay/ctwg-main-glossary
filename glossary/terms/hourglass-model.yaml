@@ -1,0 +1,46 @@
+term: hourglass-model
+aliases:
+  - hourglass model
+  - hourglass models
+definition: An architectural model for layered systems—and specifically for the protocol layers in a protocol stack—in which a diversity of supporting protocols and services at the lower layers are able to support a great diversity of protocols and applications at the higher layers through the use of a single protocol in the spanning layer in the middle—the “neck” of the hourglass.
+notes:
+  - The Internet’s TCP/IP stack follows the hourglass model, and it is the design model for the ToIP stack.
+see_also:
+  - trust spanning protocol.
+sources:
+  []
+mental_models:
+  []
+supporting_definitions:
+  - "For more information, see: <https://trustoverip.org/permalink/Design-Principles-for-the-ToIP-Stack-V1.0-2022-11-17.pdf> and <https://cacm.acm.org/magazines/2019/7/237714-on-the-hourglass-model/abstract>"
+source_file: spec/terms-definitions/hourglass-model.md
+governance_profile: descriptive
+governance:
+  authority_scope:
+    - terminology_definition
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: hybrid
+  control_plane_role: reference_term
+  enforcement_points:
+    - definition_approval
+assurance:
+  evidence_artifacts:
+    - definition_change_record
+  assurance_level_hint: informative
+  auditability: basic
+control_plane:
+  decision_points:
+    - definition_approval
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - definition_change_record
+crosswalk:
+  nist:
+    []
+  iso:
+    []

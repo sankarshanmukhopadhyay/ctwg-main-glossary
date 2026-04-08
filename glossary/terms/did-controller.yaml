@@ -1,0 +1,46 @@
+term: did-controller
+aliases:
+  - DID controller
+  - DID controllers
+definition: An entity that has the capability to make changes to a DID document. A DID might have more than one DID controller. The DID controller(s) can be denoted by the optional `controller` property at the top level of the DID document. Note that a DID controller might be the DID subject.
+notes:
+  []
+see_also:
+  - controller.
+sources:
+  - "[W3C DID](https://www.w3.org/TR/did-core/#terminology)."
+mental_models:
+  []
+supporting_definitions:
+  []
+source_file: spec/terms-definitions/did-controller.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+    - access_decisioning
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: runtime
+  control_plane_role: decision_plane_component
+  enforcement_points:
+    - access_decision
+assurance:
+  evidence_artifacts:
+    - access_decision_log
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points:
+    - access_decision
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - access_decision_log
+crosswalk:
+  nist:
+    []
+  iso:
+    []

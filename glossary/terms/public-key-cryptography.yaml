@@ -1,0 +1,45 @@
+term: public-key-cryptography
+aliases:
+  - public key cryptography
+definition: Public key cryptography, or asymmetric cryptography, is the field of cryptographic systems that use pairs of related keys. Each key pair consists of a public key and a corresponding private key. Key pairs are generated with cryptographic algorithms based on mathematical problems termed one-way functions. Security of public key cryptography depends on keeping the private key secret; the public key can be openly distributed without compromising security.
+notes:
+  []
+see_also:
+  - public key infrastructure.
+sources:
+  - "[Wikipedia](https://en.wikipedia.org/wiki/Public-key_cryptography)."
+mental_models:
+  []
+supporting_definitions:
+  []
+source_file: spec/terms-definitions/public-key-cryptography.md
+governance_profile: descriptive
+governance:
+  authority_scope:
+    - terminology_definition
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: design
+  control_plane_role: reference_term
+  enforcement_points:
+    - definition_approval
+assurance:
+  evidence_artifacts:
+    - definition_change_record
+  assurance_level_hint: informative
+  auditability: basic
+control_plane:
+  decision_points:
+    - definition_approval
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - definition_change_record
+crosswalk:
+  nist:
+    []
+  iso:
+    []

@@ -1,0 +1,46 @@
+term: secure-attribution
+aliases:
+  - secure-attribution
+  - secure attribution
+definition: "Secure attribution is strongly related to _making and proving statements_. A controller makes statements to the a validator or verifier, who in turn validates the statements issued. A controller \"_owns_\" the statement: content and attribution via digital signatures. Secure attribution is \"whodunit?!\" in cyberspace."
+notes:
+  []
+see_also:
+  []
+sources:
+  []
+mental_models:
+  []
+supporting_definitions:
+  []
+source_file: spec/terms-definitions/secure-attribution.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+    - verification_and_reliance
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: runtime
+  control_plane_role: decision_plane_component
+  enforcement_points:
+    - reliance_decision
+assurance:
+  evidence_artifacts:
+    - verification_log
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points:
+    - reliance_decision
+  accountable_entity: verifier_operator
+  evidence_produced:
+    - verification_log
+crosswalk:
+  nist:
+    []
+  iso:
+    []

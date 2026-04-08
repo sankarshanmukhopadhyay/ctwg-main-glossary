@@ -1,0 +1,47 @@
+term: legal-person
+aliases:
+  - legal person
+  - legal persons
+definition: "In law, a legal person is any person or 'thing' that can do the things a human person is usually able to do in law – such as enter into contracts, sue and be sued, own property, and so on.<sup>\\[3\\]\\[4\\]\\[5\\]</sup> The reason for the term \"legal person\" is that some legal persons are not people: companies and corporations are \"persons\" legally speaking (they can legally do most of the things an ordinary person can do), but they are not people in a literal sense (human beings)."
+notes:
+  []
+see_also:
+  - legal entity
+  - organization.
+sources:
+  - "[Wikipedia](https://en.wikipedia.org/wiki/Legal_person)."
+mental_models:
+  []
+supporting_definitions:
+  - "Contrast with: [[ref: natural person]]."
+source_file: spec/terms-definitions/legal-person.md
+governance_profile: descriptive
+governance:
+  authority_scope:
+    - terminology_definition
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: design
+  control_plane_role: reference_term
+  enforcement_points:
+    - definition_approval
+assurance:
+  evidence_artifacts:
+    - definition_change_record
+  assurance_level_hint: informative
+  auditability: basic
+control_plane:
+  decision_points:
+    - definition_approval
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - definition_change_record
+crosswalk:
+  nist:
+    []
+  iso:
+    []

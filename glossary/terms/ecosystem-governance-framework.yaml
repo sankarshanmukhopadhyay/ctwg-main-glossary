@@ -1,0 +1,58 @@
+term: ecosystem-governance-framework
+aliases:
+  - ecosystem governance framework
+  - ecosystem governance frameworks
+  - EGF
+  - EGFs
+definition: A governance framework for a digital trust ecosystem. An ecosystem governance framework may incorporate, aggregate, or reference other types of governance frameworks such as a credential governance framework or a utility governance framework.
+notes:
+  - An ecosystem governance framework typically defines the authoritative scope within which participants, registries, policies, and recognition decisions are coordinated.
+see_also:
+  []
+sources:
+  []
+mental_models:
+  []
+supporting_definitions:
+  - "Also known as: [[ref: EGF]]"
+source_file: spec/terms-definitions/ecosystem-governance-framework.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+    - credential_issuance
+    - policy_definition
+    - governance_recognition
+  delegation_mode: direct
+  revocation_supported: true
+  lifecycle_states:
+    - proposed
+    - active
+    - suspended
+    - revoked
+    - retired
+  execution_role: runtime
+  control_plane_role: decision_plane_component
+  enforcement_points:
+    - policy_approval
+    - issuance_decision
+    - revocation_decision
+assurance:
+  evidence_artifacts:
+    - policy_document
+    - issuance_log
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points:
+    - policy_approval
+    - issuance_decision
+    - revocation_decision
+  accountable_entity: governance_authority
+  evidence_produced:
+    - policy_document
+    - issuance_log
+crosswalk:
+  nist:
+    []
+  iso:
+    []

@@ -1,0 +1,47 @@
+term: sociotechnical-system
+aliases:
+  - sociotechnical system
+  - sociotechnical systems
+  - sociotechnical
+definition: An approach to complex organizational work design that recognizes the interaction between people and technology in workplaces. The term also refers to coherent systems of human relations, technical objects, and cybernetic processes that inhere to large, complex infrastructures. Social society, and its constituent substructures, qualify as complex sociotechnical systems.
+notes:
+  []
+see_also:
+  []
+sources:
+  - "[Wikipedia](https://en.wikipedia.org/wiki/Sociotechnical_system)"
+mental_models:
+  []
+supporting_definitions:
+  []
+source_file: spec/terms-definitions/sociotechnical-system.md
+governance_profile: descriptive
+governance:
+  authority_scope:
+    - terminology_definition
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: design
+  control_plane_role: reference_term
+  enforcement_points:
+    - definition_approval
+assurance:
+  evidence_artifacts:
+    - definition_change_record
+  assurance_level_hint: informative
+  auditability: basic
+control_plane:
+  decision_points:
+    - definition_approval
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - definition_change_record
+crosswalk:
+  nist:
+    []
+  iso:
+    []

@@ -1,0 +1,46 @@
+term: risk-management
+aliases:
+  - risk management
+definition: "The process of managing risks to organizational operations (including mission, functions, image, or reputation), organizational assets, or individuals resulting from the operation of an information system, and includes: (i) the conduct of a risk assessment; (ii) the implementation of a risk mitigation strategy; and (iii) employment of techniques and procedures for the continuous monitoring of the security state of the information system."
+notes:
+  []
+see_also:
+  []
+sources:
+  - "[NIST-CSRC](https://csrc.nist.gov/glossary/term/risk_management)."
+mental_models:
+  []
+supporting_definitions:
+  - "[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#risk-management): a process that is run by (or on behalf of) a specific [party](https://essif-lab.github.io/framework/docs/terms/party) for the purpose of [managing](https://essif-lab.github.io/framework/docs/terms/management) the [risks](https://essif-lab.github.io/framework/docs/terms/risk) that it [owns](https://essif-lab.github.io/framework/docs/terms/owner) (thereby realizing specific [risk objectives](https://essif-lab.github.io/framework/docs/terms/risk-objective))."
+  - "[Wikipedia](https://en.wikipedia.org/wiki/Risk_management): Risk management is the identification, evaluation, and prioritization of [risks](https://en.wikipedia.org/wiki/Risk) (defined in [ISO 31000](https://en.wikipedia.org/wiki/ISO_31000) as the effect of uncertainty on objectives) followed by coordinated and economical application of resources to minimize, monitor, and control the probability or impact of unfortunate events or to maximize the realization of opportunities."
+source_file: spec/terms-definitions/risk-management.md
+governance_profile: descriptive
+governance:
+  authority_scope:
+    - terminology_definition
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: design
+  control_plane_role: reference_term
+  enforcement_points:
+    - definition_approval
+assurance:
+  evidence_artifacts:
+    - definition_change_record
+  assurance_level_hint: informative
+  auditability: basic
+control_plane:
+  decision_points:
+    - definition_approval
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - definition_change_record
+crosswalk:
+  nist:
+    []
+  iso:
+    []

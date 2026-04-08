@@ -1,0 +1,46 @@
+term: role
+aliases:
+  - role
+  - roles
+definition: A defined set of characteristics that an entity has in some context, such as responsibilities it may have, actions (behaviors) it may execute, or pieces of knowledge that it is expected to have in that context, which are referenced by a specific role name.
+notes:
+  []
+see_also:
+  - role credential.
+sources:
+  - "[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#role)."
+mental_models:
+  []
+supporting_definitions:
+  []
+source_file: spec/terms-definitions/role.md
+governance_profile: descriptive
+governance:
+  authority_scope:
+    - terminology_definition
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: design
+  control_plane_role: reference_term
+  enforcement_points:
+    - definition_approval
+assurance:
+  evidence_artifacts:
+    - definition_change_record
+  assurance_level_hint: informative
+  auditability: basic
+control_plane:
+  decision_points:
+    - definition_approval
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - definition_change_record
+crosswalk:
+  nist:
+    []
+  iso:
+    []

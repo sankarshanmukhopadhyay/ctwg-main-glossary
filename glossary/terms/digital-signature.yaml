@@ -1,0 +1,51 @@
+term: digital-signature
+aliases:
+  - digital signature
+  - digital signatures
+  - digitally sign
+  - digitally signed
+  - digital signing
+  - cryptographic signature
+  - cryptographic signatures
+definition: A digital signature is a mathematical scheme that uses cryptography for verifying the authenticity of digital messages or documents. A valid digital signature, where the prerequisites are satisfied, gives a recipient very high confidence that the message was created by a known sender (authenticity), and that the message was not altered in transit (integrity).
+notes:
+  []
+see_also:
+  []
+sources:
+  - "[Wikipedia](https://en.wikipedia.org/wiki/Digital_signature)."
+mental_models:
+  []
+supporting_definitions:
+  - "[NIST-CSRC](https://csrc.nist.gov/glossary/term/digital_signature): The result of a cryptographic transformation of data which, when properly implemented, provides the services of: 1. origin authentication, 2. data integrity, and 3. signer non-repudiation."
+source_file: spec/terms-definitions/digital-signature.md
+governance_profile: descriptive
+governance:
+  authority_scope:
+    - terminology_definition
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: design
+  control_plane_role: reference_term
+  enforcement_points:
+    - definition_approval
+assurance:
+  evidence_artifacts:
+    - definition_change_record
+  assurance_level_hint: informative
+  auditability: basic
+control_plane:
+  decision_points:
+    - definition_approval
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - definition_change_record
+crosswalk:
+  nist:
+    []
+  iso:
+    []

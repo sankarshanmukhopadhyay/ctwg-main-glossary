@@ -1,0 +1,46 @@
+term: toip-system
+aliases:
+  - ToIP system
+  - ToIP systems
+definition: "A computing system that participates in the ToIP Technology Stack. There are three types of ToIP systems: endpoint systems, intermediary systems, and supporting systems."
+notes:
+  []
+see_also:
+  []
+sources:
+  []
+mental_models:
+  []
+supporting_definitions:
+  - "For more information, see: [Section 6.3](https://github.com/trustoverip/TechArch/blob/main/spec.md#63-high-level-system-architecture) of the [[ref: ToIP Technology Architecture Specification]]."
+source_file: spec/terms-definitions/toip-system.md
+governance_profile: descriptive
+governance:
+  authority_scope:
+    - terminology_definition
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: design
+  control_plane_role: reference_term
+  enforcement_points:
+    - definition_approval
+assurance:
+  evidence_artifacts:
+    - definition_change_record
+  assurance_level_hint: informative
+  auditability: basic
+control_plane:
+  decision_points:
+    - definition_approval
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - definition_change_record
+crosswalk:
+  nist:
+    []
+  iso:
+    []

@@ -1,0 +1,50 @@
+term: role-based-access-control
+aliases:
+  - role-based access control
+  - role-based access controls
+definition: Access control based on user roles (i.e., a collection of access authorizations a user receives based on an explicit or implicit assumption of a given role). Role permissions may be inherited through a role hierarchy and typically reflect the permissions needed to perform defined functions within an organization. A given role may apply to a single individual or to several individuals.
+notes:
+  []
+see_also:
+  []
+sources:
+  - "[NIST-CSRC](https://csrc.nist.gov/glossary/term/role_based_access_control)."
+mental_models:
+  []
+supporting_definitions:
+  - "[Wikipedia](https://en.wikipedia.org/wiki/Role-based_access_control): In computer systems security, role-based access control (RBAC) or role-based security is an approach to restricting system access to authorized users, and to implementing [mandatory access control](https://en.wikipedia.org/wiki/Mandatory_access_control) (MAC) or [discretionary access control](https://en.wikipedia.org/wiki/Discretionary_access_control) (DAC)."
+source_file: spec/terms-definitions/role-based-access-control.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+    - access_decisioning
+  delegation_mode: direct
+  revocation_supported: true
+  lifecycle_states:
+    - proposed
+    - active
+    - suspended
+    - revoked
+    - retired
+  execution_role: runtime
+  control_plane_role: decision_plane_component
+  enforcement_points:
+    - access_decision
+    - revocation_decision
+assurance:
+  evidence_artifacts:
+    - access_decision_log
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points:
+    - access_decision
+    - revocation_decision
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - access_decision_log
+crosswalk:
+  nist:
+    []
+  iso:
+    []

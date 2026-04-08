@@ -2,67 +2,56 @@
 
 The ToIP Main Glossary is the canonical terminology baseline for decentralized digital trust infrastructure work across Trust over IP working groups, adjacent specifications, and ecosystem implementations.
 
-This repository now includes a **governance-oriented improvement set** designed to make the glossary easier to maintain, easier to implement against, and easier to evolve toward machine-verifiable usage.
+This repository now includes a **Governance-Executable Glossary** layer so that glossary terms can be consumed not only as prose but also as machine-readable governance primitives.
 
-## What this repository contains
+## Repository structure
 
-- `spec/` — source markdown for glossary terms and specification content
-- `docs/` — published site output plus maintainership guidance and governance-oriented improvement notes
-- `schemas/` — machine-readable schema artifacts for glossary extension work
-- `examples/` — example governance-aware term profiles
-- `.github/workflows/` — publication and rendering workflows
+- `spec/` — source markdown for glossary terms and publication content
+- `glossary/terms/` — canonical structured term artifacts with governance metadata
+- `glossary/overlays/` — inventories, evidence patterns, and crosswalk guidance
+- `generated/` — generated markdown and machine-readable bundles
+- `docs/` — governance notes and published site artifacts
+- `schemas/` — schema artifacts for structured term validation
+- `tools/` — build and validation utilities
 
-## Improvement set added in this archive
+## Governance-executable model
 
-This archive introduces a practical first pass at the improvements identified in the glossary review:
+Each term now has a structured representation that can express:
 
-1. **Developer-facing repository documentation**
-   - clearer repository purpose
-   - clearer structure and editing workflow
-   - explicit next-step areas for glossary quality improvement
+- authority scope
+- delegation mode
+- revocation support
+- lifecycle states
+- execution role
+- evidence artifacts
+- control-plane decision points
+- optional crosswalk references
 
-2. **Governance-aware extension model**
-   - machine-readable schema for extended glossary metadata
-   - example term profiles for authority, delegation, issuer, verifier, policy, revocation, and trust registry
+This makes the glossary more useful for assurance tooling, policy automation, runtime governance systems, and audit-oriented implementations.
 
-3. **Term quality uplift for core governance terms**
-   - tighter definitions for authority, delegation, issuer, verifier, policy, revocation, and trust registry
-   - stronger emphasis on scope, enforcement, and lifecycle semantics
-
-4. **Maintainer guidance**
-   - quality rubric for future glossary terms
-   - roadmap for iterative adoption without disrupting the current publication model
-
-## Build and publish
-
-This repository uses `spec-up-t`.
-
-### Local workflow
+## Build and validation
 
 ```bash
 npm install
 npm run render
+python tools/validate_governance_glossary.py
+python tools/build_governance_glossary.py
 ```
 
-Primary source configuration lives in `specs.json`.
+## Generated artifacts
 
-## Recommended next implementation increments
+- `generated/json/governance-executable-glossary.json`
+- `generated/json/governance-executable-glossary.jsonld`
+- `generated/markdown/governance-executable-glossary.md`
+- `glossary/overlays/governance/inventory.json`
 
-- add machine-readable metadata to more high-value terms
-- publish JSON exports for governance-aware term profiles
-- align glossary terms with adjacent ToIP glossaries through crosswalk files
-- add CI validation for term completeness and schema conformance
-- introduce controlled versioning for machine-readable term profiles
+## Maintainer guidance
 
-## Governance-oriented design intent
+1. Update the markdown definition in `spec/terms-definitions/`
+2. Regenerate or revise the corresponding `glossary/terms/<term>.yaml`
+3. Validate the structured layer
+4. Publish the updated site and machine-readable bundles
 
-The glossary already serves as an important human-readable terminology anchor. The additions in this archive are intended to move the repository toward:
+## Design intent
 
-- clearer **authority and scope** semantics
-- more explicit **delegation and revocation** semantics
-- stronger **evidence and auditability** pathways
-- better support for future **machine-verifiable** usage
-
-## Notes
-
-The generated website in `docs/` remains the primary publication artifact. The new markdown and schema files provide a maintainable pathway for future publication and CI work without forcing an immediate structural rewrite of the existing glossary pipeline.
+The objective is to preserve the glossary as a public editorial asset while making it usable as executable governance infrastructure. That means shifting from definitions that are only descriptive to terms that can support evidence, auditability, enforcement, and change control.

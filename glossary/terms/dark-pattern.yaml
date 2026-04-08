@@ -1,0 +1,46 @@
+term: dark-pattern
+aliases:
+  - dark pattern
+  - dark patterns
+definition: A design pattern, mainly in user interfaces, that has the effect of deceiving individuals into making choices that are advantageous to the designer.
+notes:
+  []
+see_also:
+  []
+sources:
+  - Kantara PEMC Implementors Guidance Report
+mental_models:
+  []
+supporting_definitions:
+  - "Also known as: [[ref: deceptive pattern]]."
+source_file: spec/terms-definitions/dark-pattern.md
+governance_profile: descriptive
+governance:
+  authority_scope:
+    - terminology_definition
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: design
+  control_plane_role: reference_term
+  enforcement_points:
+    - definition_approval
+assurance:
+  evidence_artifacts:
+    - definition_change_record
+  assurance_level_hint: informative
+  auditability: basic
+control_plane:
+  decision_points:
+    - definition_approval
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - definition_change_record
+crosswalk:
+  nist:
+    []
+  iso:
+    []

@@ -1,0 +1,46 @@
+term: audit-log
+aliases:
+  - audit log
+  - audit logs
+definition: An audit log is a security-relevant chronological record, set of records, and/or destination and source of records that provide documentary evidence of the sequence of activities that have affected at any time a specific operation, procedure, event, or device.
+notes:
+  []
+see_also:
+  - key event log.
+sources:
+  - "[Wikipedia](https://en.wikipedia.org/wiki/Audit_trail)."
+mental_models:
+  []
+supporting_definitions:
+  - "Also known as: audit trail."
+source_file: spec/terms-definitions/audit-log.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+    - assurance_and_audit
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: runtime
+  control_plane_role: decision_plane_component
+  enforcement_points:
+    - definition_approval
+assurance:
+  evidence_artifacts:
+    - audit_log
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points:
+    - definition_approval
+  accountable_entity: auditor
+  evidence_produced:
+    - audit_log
+crosswalk:
+  nist:
+    []
+  iso:
+    []

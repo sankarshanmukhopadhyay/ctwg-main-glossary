@@ -1,0 +1,46 @@
+term: did-method
+aliases:
+  - DID method
+  - DID methods
+definition: A definition of how a specific DID method scheme is implemented. A DID method is defined by a DID method specification, which specifies the precise operations by which DIDs and DID documents are created, resolved, updated, and deactivated.
+notes:
+  []
+see_also:
+  []
+sources:
+  - "[W3C DID](https://www.w3.org/TR/did-core/#dfn-did-methods)."
+mental_models:
+  []
+supporting_definitions:
+  - "For more information: <https://www.w3.org/TR/did-core/#methods>"
+source_file: spec/terms-definitions/did-method.md
+governance_profile: descriptive
+governance:
+  authority_scope:
+    - terminology_definition
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: design
+  control_plane_role: reference_term
+  enforcement_points:
+    - definition_approval
+assurance:
+  evidence_artifacts:
+    - definition_change_record
+  assurance_level_hint: informative
+  auditability: basic
+control_plane:
+  decision_points:
+    - definition_approval
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - definition_change_record
+crosswalk:
+  nist:
+    []
+  iso:
+    []

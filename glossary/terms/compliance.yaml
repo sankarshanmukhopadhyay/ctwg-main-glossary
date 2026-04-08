@@ -1,0 +1,53 @@
+term: compliance
+aliases:
+  - compliance
+  - comply
+  - complies
+  - complied
+  - complying
+  - compliant
+definition: In the context of decentralized digital trust infrastructure, compliance is the extent to which a system, actor, or party conforms to the requirements of a regulation, governance framework, or trust framework that pertains to that particular entity.
+notes:
+  []
+see_also:
+  - "[[ref: Governance"
+  - Risk Management
+  - "and Compliance]]."
+sources:
+  []
+mental_models:
+  []
+supporting_definitions:
+  - "[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#compliance): The state of realization of a set of conformance criteria or normative framework of a [party](https://essif-lab.github.io/framework/docs/terms/party)."
+source_file: spec/terms-definitions/compliance.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+    - policy_definition
+    - governance_recognition
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: runtime
+  control_plane_role: decision_plane_component
+  enforcement_points:
+    - policy_approval
+assurance:
+  evidence_artifacts:
+    - policy_document
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points:
+    - policy_approval
+  accountable_entity: governance_authority
+  evidence_produced:
+    - policy_document
+crosswalk:
+  nist:
+    []
+  iso:
+    []

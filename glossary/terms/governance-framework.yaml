@@ -1,0 +1,51 @@
+term: governance-framework
+aliases:
+  - governance framework
+  - governance frameworks
+definition: A collection of one or more governance documents published by the governing body of a trust community that defines the rules, roles, responsibilities, and decision rights under which that community operates.
+notes:
+  - In the digital identity industry specifically, a governance framework is better known as a trust framework. ToIP-conformant governance frameworks conform to the ToIP Governance Architecture Specification and follow the ToIP Governance Metamodel.
+see_also:
+  []
+sources:
+  []
+mental_models:
+  []
+supporting_definitions:
+  - "Also known as: [[ref: trust framework]]."
+source_file: spec/terms-definitions/governance-framework.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+    - policy_definition
+    - governance_recognition
+  delegation_mode: direct
+  revocation_supported: true
+  lifecycle_states:
+    - proposed
+    - active
+    - suspended
+    - revoked
+    - retired
+  execution_role: runtime
+  control_plane_role: decision_plane_component
+  enforcement_points:
+    - policy_approval
+    - revocation_decision
+assurance:
+  evidence_artifacts:
+    - policy_document
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points:
+    - policy_approval
+    - revocation_decision
+  accountable_entity: governance_authority
+  evidence_produced:
+    - policy_document
+crosswalk:
+  nist:
+    []
+  iso:
+    []

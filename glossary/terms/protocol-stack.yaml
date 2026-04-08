@@ -1,0 +1,46 @@
+term: protocol-stack
+aliases:
+  - protocol stack
+  - protocol stacks
+definition: The protocol stack or network stack is an implementation of a computer networking protocol suite or protocol family. Some of these terms are used interchangeably but strictly speaking, the _suite_ is the definition of the communication protocols, and the _stack_ is the software implementation of them.
+notes:
+  []
+see_also:
+  - protocol layer.
+sources:
+  - "[Wikipedia](https://en.wikipedia.org/wiki/Protocol_stack)"
+mental_models:
+  []
+supporting_definitions:
+  []
+source_file: spec/terms-definitions/protocol-stack.md
+governance_profile: descriptive
+governance:
+  authority_scope:
+    - terminology_definition
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: design
+  control_plane_role: reference_term
+  enforcement_points:
+    - definition_approval
+assurance:
+  evidence_artifacts:
+    - definition_change_record
+  assurance_level_hint: informative
+  auditability: basic
+control_plane:
+  decision_points:
+    - definition_approval
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - definition_change_record
+crosswalk:
+  nist:
+    []
+  iso:
+    []

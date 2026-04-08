@@ -1,0 +1,51 @@
+term: cryptographically-verifiable
+aliases:
+  - cryptographically verifiable
+  - cryptographically verified
+definition: A property of a data structure that has been digitally signed using a private key such that the digital signature can be verified using the public key. Verifiable data, verifiable messages, verifiable credentials, and verifiable data registries are all cryptographically verifiable. Cryptographic verifiability is a primary goal of the ToIP Technology Stack.
+notes:
+  []
+see_also:
+  - tamper evident
+  - tamper resistant.
+sources:
+  []
+mental_models:
+  []
+supporting_definitions:
+  - "Contrast with: [[ref: human auditable]]."
+source_file: spec/terms-definitions/cryptographically-verifiable.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+    - credential_issuance
+  delegation_mode: direct
+  revocation_supported: true
+  lifecycle_states:
+    - proposed
+    - active
+    - suspended
+    - revoked
+    - retired
+  execution_role: design
+  control_plane_role: decision_plane_component
+  enforcement_points:
+    - issuance_decision
+    - revocation_decision
+assurance:
+  evidence_artifacts:
+    - issuance_log
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points:
+    - issuance_decision
+    - revocation_decision
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - issuance_log
+crosswalk:
+  nist:
+    []
+  iso:
+    []

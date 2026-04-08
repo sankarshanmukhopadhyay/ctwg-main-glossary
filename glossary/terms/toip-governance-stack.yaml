@@ -1,0 +1,45 @@
+term: toip-governance-stack
+aliases:
+  - ToIP Governance Stack
+definition: The governance half of the four layer ToIP stack as defined by the ToIP Governance Architecture Specification.
+notes:
+  []
+see_also:
+  - ToIP Technology Stack.
+sources:
+  []
+mental_models:
+  []
+supporting_definitions:
+  []
+source_file: spec/terms-definitions/toip-governance-stack.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+    - governance_recognition
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: runtime
+  control_plane_role: decision_plane_component
+  enforcement_points:
+    - definition_approval
+assurance:
+  evidence_artifacts:
+    - definition_change_record
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points:
+    - definition_approval
+  accountable_entity: governance_authority
+  evidence_produced:
+    - definition_change_record
+crosswalk:
+  nist:
+    []
+  iso:
+    []

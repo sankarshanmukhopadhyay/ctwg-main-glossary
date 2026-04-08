@@ -1,0 +1,46 @@
+term: zero-knowledge-service
+aliases:
+  - zero-knowledge service
+  - zero-knowledge services
+definition: In cloud computing, the term “zero-knowledge” refers to an online service that stores, transfers or manipulates data in a way that maintains a high level of confidentiality, where the data is only accessible to the data's owner (the client), and not to the service provider. This is achieved by encrypting the raw data at the client's side or end-to-end (in case there is more than one client), without disclosing the password to the service provider. This means that neither the service provider, nor any third party that might intercept the data, can decrypt and access the data without prior permission, allowing the client a higher degree of privacy than would otherwise be possible. In addition, zero-knowledge services often strive to hold as little metadata as possible, holding only that data that is functionally needed by the service.
+notes:
+  []
+see_also:
+  []
+sources:
+  - "[Wikipedia](https://en.wikipedia.org/wiki/Zero-knowledge_service)."
+mental_models:
+  []
+supporting_definitions:
+  - "Also known as: no knowledge, zero access."
+source_file: spec/terms-definitions/zero-knowledge-service.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+    - terminology_definition
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: design
+  control_plane_role: decision_plane_component
+  enforcement_points:
+    - definition_approval
+assurance:
+  evidence_artifacts:
+    - definition_change_record
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points:
+    - definition_approval
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - definition_change_record
+crosswalk:
+  nist:
+    []
+  iso:
+    []

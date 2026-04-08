@@ -1,0 +1,48 @@
+term: authenticity
+aliases:
+  - authenticity
+  - authentic
+definition: The property of being genuine and being able to be verified and trusted; confidence in the validity of a transmission, a message, or message originator.
+notes:
+  []
+see_also:
+  - confidentiality
+  - correlation privacy
+  - cryptographic verifiability.
+sources:
+  - "[NIST-CSRC](https://csrc.nist.gov/glossary/term/authenticity)."
+mental_models:
+  []
+supporting_definitions:
+  []
+source_file: spec/terms-definitions/authenticity.md
+governance_profile: governance-supporting
+governance:
+  authority_scope:
+    - terminology_definition
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: design
+  control_plane_role: decision_plane_component
+  enforcement_points:
+    - definition_approval
+assurance:
+  evidence_artifacts:
+    - definition_change_record
+  assurance_level_hint: AL1+
+  auditability: moderate
+control_plane:
+  decision_points:
+    - definition_approval
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - definition_change_record
+crosswalk:
+  nist:
+    []
+  iso:
+    []

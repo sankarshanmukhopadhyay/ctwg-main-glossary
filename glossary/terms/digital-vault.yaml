@@ -1,0 +1,54 @@
+term: digital-vault
+aliases:
+  - digital vault
+  - digital vaults
+definition: A secure container for data whose controller is the principal. A digital vault is most commonly used in conjunction with a digital wallet and a digital agent. A digital vault may be implemented on a local device or in the cloud; multiple digital vaults may be used by the same principal across different devices and/or the cloud; if so they may use some type of synchronization. If the capability is supported, data may flow into or out of the digital vault automatically based on subscriptions approved by the controller.
+notes:
+  []
+see_also:
+  - enterprise data vault
+  - personal data vault
+  - virtual vault.
+sources:
+  []
+mental_models:
+  []
+supporting_definitions:
+  - "Also known as: [[ref: data vault]], [[ref: encrypted data vault]]."
+  - "For more information, see: <https://en.wikipedia.org/wiki/Personal_data_service>, <https://digitalbazaar.github.io/encrypted-data-vaults/>"
+source_file: spec/terms-definitions/digital-vault.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+    - delegation_and_scope
+    - access_decisioning
+  delegation_mode: direct_or_constrained
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: runtime
+  control_plane_role: decision_plane_component
+  enforcement_points:
+    - delegation_grant
+    - access_decision
+assurance:
+  evidence_artifacts:
+    - delegation_record
+    - access_decision_log
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points:
+    - delegation_grant
+    - access_decision
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - delegation_record
+    - access_decision_log
+crosswalk:
+  nist:
+    []
+  iso:
+    []

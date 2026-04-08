@@ -1,0 +1,46 @@
+term: vid-relationship
+aliases:
+  - VID relationship
+  - VID relationships
+definition: The communications relationship formed between two VIDs using the ToIP Trust Spanning Protocol. A particular feature of this protocol is its ability to establish as many VID relationships as needed to establish different relationship contexts between the communicating entities.
+notes:
+  []
+see_also:
+  []
+sources:
+  []
+mental_models:
+  []
+supporting_definitions:
+  []
+source_file: spec/terms-definitions/vid-relationship.md
+governance_profile: governance-supporting
+governance:
+  authority_scope:
+    - terminology_definition
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: design
+  control_plane_role: decision_plane_component
+  enforcement_points:
+    - definition_approval
+assurance:
+  evidence_artifacts:
+    - definition_change_record
+  assurance_level_hint: AL1+
+  auditability: moderate
+control_plane:
+  decision_points:
+    - definition_approval
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - definition_change_record
+crosswalk:
+  nist:
+    []
+  iso:
+    []

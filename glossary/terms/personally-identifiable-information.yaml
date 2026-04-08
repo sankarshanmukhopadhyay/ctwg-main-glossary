@@ -1,0 +1,47 @@
+term: personally-identifiable-information
+aliases:
+  - personally identifiable information
+  - PII
+definition: Information (any form of data) that can be used to directly or indirectly identify or re-identify an individual person either singly or in combination within a single record or in correlation with other records. This information can be one or more attributes/fields/properties in a record (e.g., date-of-birth) or one or more records (e.g., medical records).
+notes:
+  []
+see_also:
+  - personal data
+  - sensitive data.
+sources:
+  - "[NIST-CSRC](https://csrc.nist.gov/glossary/term/personally_identifiable_information)"
+mental_models:
+  []
+supporting_definitions:
+  - "Also known as: [[ref: PII]]."
+source_file: spec/terms-definitions/personally-identifiable-information.md
+governance_profile: descriptive
+governance:
+  authority_scope:
+    - terminology_definition
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: design
+  control_plane_role: reference_term
+  enforcement_points:
+    - definition_approval
+assurance:
+  evidence_artifacts:
+    - definition_change_record
+  assurance_level_hint: informative
+  auditability: basic
+control_plane:
+  decision_points:
+    - definition_approval
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - definition_change_record
+crosswalk:
+  nist:
+    []
+  iso:
+    []

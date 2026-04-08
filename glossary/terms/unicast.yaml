@@ -1,0 +1,45 @@
+term: unicast
+aliases:
+  - unicast
+definition: In computer networking, unicast is a one-to-one transmission from one point in the network to another point; that is, one sender and one receiver, each identified by a network address (a unicast address). Unicast is in contrast to multicast and broadcast which are one-to-many transmissions. Internet Protocol unicast delivery methods such as Transmission Control Protocol (TCP) and User Datagram Protocol (UDP) are typically used.
+notes:
+  []
+see_also:
+  - anycast.
+sources:
+  - "[Wikipedia](https://en.wikipedia.org/wiki/Unicast)."
+mental_models:
+  []
+supporting_definitions:
+  []
+source_file: spec/terms-definitions/unicast.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+    - terminology_definition
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: design
+  control_plane_role: decision_plane_component
+  enforcement_points:
+    - definition_approval
+assurance:
+  evidence_artifacts:
+    - definition_change_record
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points:
+    - definition_approval
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - definition_change_record
+crosswalk:
+  nist:
+    []
+  iso:
+    []

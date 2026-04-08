@@ -1,0 +1,46 @@
+term: qr-code
+aliases:
+  - QR code
+  - QR codes
+definition: A QR code (short for "quick-response code") is a type of two-dimensional matrix barcode—a machine-readable optical image that contains information specific to the identified item. In practice, QR codes contain data for a locator, an identifier, and web tracking.
+notes:
+  []
+see_also:
+  - out-of-band introduction.
+sources:
+  - "[Wikipedia](https://en.wikipedia.org/wiki/QR_code)."
+mental_models:
+  []
+supporting_definitions:
+  []
+source_file: spec/terms-definitions/qr-code.md
+governance_profile: descriptive
+governance:
+  authority_scope:
+    - terminology_definition
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: design
+  control_plane_role: reference_term
+  enforcement_points:
+    - definition_approval
+assurance:
+  evidence_artifacts:
+    - definition_change_record
+  assurance_level_hint: informative
+  auditability: basic
+control_plane:
+  decision_points:
+    - definition_approval
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - definition_change_record
+crosswalk:
+  nist:
+    []
+  iso:
+    []

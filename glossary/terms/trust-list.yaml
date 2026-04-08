@@ -1,0 +1,51 @@
+term: trust-list
+aliases:
+  - trust list
+  - trust lists
+definition: A one-dimensional trust graph in which an authoritative source publishes a list of entities that are trusted in a specific trust context. A trust list can be considered a simplified form of a trust registry.
+notes:
+  []
+see_also:
+  []
+sources:
+  []
+mental_models:
+  []
+supporting_definitions:
+  []
+source_file: spec/terms-definitions/trust-list.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+    - registry_management
+    - governance_recognition
+  delegation_mode: direct
+  revocation_supported: true
+  lifecycle_states:
+    - proposed
+    - active
+    - suspended
+    - revoked
+    - retired
+  execution_role: runtime
+  control_plane_role: decision_plane_component
+  enforcement_points:
+    - registration_decision
+    - revocation_decision
+assurance:
+  evidence_artifacts:
+    - registry_entry
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points:
+    - registration_decision
+    - revocation_decision
+  accountable_entity: registry_operator
+  evidence_produced:
+    - registry_entry
+crosswalk:
+  nist:
+    []
+  iso:
+    []

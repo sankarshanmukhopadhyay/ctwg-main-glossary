@@ -18,3 +18,5 @@ The Main Glossary is referenced by:
 - various specifications and implementation documents
 
 The objective is to create a single point of definition for terminology used by Trust over IP working groups and associated communities, and to support progressively stronger clarity for implementation, governance, and interoperability.
+
+In addition to human-readable terminology harmonization, the repository now maintains a machine-readable governance layer that captures authority, lifecycle, evidence, and control-plane semantics for glossary terms.

@@ -1,0 +1,50 @@
+term: trusted-timestamp-authority
+aliases:
+  - trusted timestamp authority
+  - trusted timestamp authorities
+  - TTA
+  - TTAs
+definition: An authority that is trusted to provide accurate time information in the form of a timestamp.
+notes:
+  []
+see_also:
+  []
+sources:
+  - "[NIST-CSRC](https://csrc.nist.gov/glossary/term/trusted_timestamp_authority)."
+mental_models:
+  []
+supporting_definitions:
+  - "Also known as: [[ref: TTA]]."
+source_file: spec/terms-definitions/trusted-timestamp-authority.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+    - governance_recognition
+  delegation_mode: direct
+  revocation_supported: true
+  lifecycle_states:
+    - proposed
+    - active
+    - suspended
+    - revoked
+    - retired
+  execution_role: runtime
+  control_plane_role: decision_plane_component
+  enforcement_points:
+    - revocation_decision
+assurance:
+  evidence_artifacts:
+    - definition_change_record
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points:
+    - revocation_decision
+  accountable_entity: governance_authority
+  evidence_produced:
+    - definition_change_record
+crosswalk:
+  nist:
+    []
+  iso:
+    []

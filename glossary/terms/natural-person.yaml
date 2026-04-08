@@ -1,0 +1,47 @@
+term: natural-person
+aliases:
+  - natural person
+  - natural persons
+definition: A person (in legal meaning, one who has its own legal personality) that is an individual human being, as distinguished from the broader category of a legal person, which may refer to either a natural person or an organization of any kind.
+notes:
+  []
+see_also:
+  - legal entity
+  - party.
+sources:
+  - "[Wikipedia](https://en.wikipedia.org/wiki/Natural_person)."
+mental_models:
+  []
+supporting_definitions:
+  - "Contrast with: [[ref: legal person]]"
+source_file: spec/terms-definitions/natural-person.md
+governance_profile: descriptive
+governance:
+  authority_scope:
+    - terminology_definition
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: design
+  control_plane_role: reference_term
+  enforcement_points:
+    - definition_approval
+assurance:
+  evidence_artifacts:
+    - definition_change_record
+  assurance_level_hint: informative
+  auditability: basic
+control_plane:
+  decision_points:
+    - definition_approval
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - definition_change_record
+crosswalk:
+  nist:
+    []
+  iso:
+    []

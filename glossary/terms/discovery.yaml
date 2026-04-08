@@ -1,0 +1,50 @@
+term: discovery
+aliases:
+  - discovery
+definition: A mechanism that helps systems or devices find each other automatically, often used in networks to identify services or resources. In decentralized identifier systems it helps to locate and verify digital identities without relying on a central authority.
+notes:
+  []
+see_also:
+  []
+sources:
+  []
+mental_models:
+  []
+supporting_definitions:
+  []
+source_file: spec/terms-definitions/discovery.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+    - verification_and_reliance
+    - governance_recognition
+  delegation_mode: direct
+  revocation_supported: true
+  lifecycle_states:
+    - proposed
+    - active
+    - suspended
+    - revoked
+    - retired
+  execution_role: runtime
+  control_plane_role: decision_plane_component
+  enforcement_points:
+    - reliance_decision
+    - revocation_decision
+assurance:
+  evidence_artifacts:
+    - verification_log
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points:
+    - reliance_decision
+    - revocation_decision
+  accountable_entity: governance_authority
+  evidence_produced:
+    - verification_log
+crosswalk:
+  nist:
+    []
+  iso:
+    []

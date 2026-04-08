@@ -1,0 +1,74 @@
+term: authorization
+aliases:
+  - authorization
+  - authorizations
+  - authorize
+  - authorized
+  - unauthorized
+  - authorizing
+  - unauthorizing
+  - authorisation
+  - authorisations
+  - authorise
+  - authorised
+  - unauthorised
+  - authorising
+  - unauthorising
+definition: The process of determining whether a requested action or service is approved for a specific entity under applicable policies, rules, credentials, or other governing criteria.
+notes:
+  []
+see_also:
+  - permission.
+sources:
+  - "[NIST-CSRC](https://csrc.nist.gov/glossary/term/authorization)."
+mental_models:
+  []
+supporting_definitions:
+  []
+source_file: spec/terms-definitions/authorization.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+    - credential_issuance
+    - policy_definition
+    - access_decisioning
+  delegation_mode: direct
+  revocation_supported: true
+  lifecycle_states:
+    - proposed
+    - active
+    - suspended
+    - revoked
+    - retired
+  execution_role: runtime
+  control_plane_role: decision_plane_component
+  enforcement_points:
+    - policy_approval
+    - issuance_decision
+    - access_decision
+    - revocation_decision
+assurance:
+  evidence_artifacts:
+    - policy_document
+    - issuance_log
+    - access_decision_log
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points:
+    - policy_approval
+    - issuance_decision
+    - access_decision
+    - revocation_decision
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - policy_document
+    - issuance_log
+    - access_decision_log
+crosswalk:
+  nist:
+    - AC-2
+    - AC-3
+  iso:
+    - ISO/IEC 27001 A.5.15
+    - ISO/IEC 42001 8.2

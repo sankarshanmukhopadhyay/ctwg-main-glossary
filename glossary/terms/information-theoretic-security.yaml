@@ -1,0 +1,46 @@
+term: information-theoretic-security
+aliases:
+  - information-theoretic-security
+  - information-theoretic security
+definition: the highest level of cryptographic security concerning a cryptographic secret (seed, salt, or private key).
+notes:
+  []
+see_also:
+  []
+sources:
+  - Dr. S. Smith
+mental_models:
+  []
+supporting_definitions:
+  []
+source_file: spec/terms-definitions/information-theoretic-security.md
+governance_profile: descriptive
+governance:
+  authority_scope:
+    - terminology_definition
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: design
+  control_plane_role: reference_term
+  enforcement_points:
+    - definition_approval
+assurance:
+  evidence_artifacts:
+    - definition_change_record
+  assurance_level_hint: informative
+  auditability: basic
+control_plane:
+  decision_points:
+    - definition_approval
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - definition_change_record
+crosswalk:
+  nist:
+    []
+  iso:
+    []

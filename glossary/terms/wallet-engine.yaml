@@ -1,0 +1,46 @@
+term: wallet-engine
+aliases:
+  - wallet engine
+  - wallet engines
+definition: The set of software components that form the core of a digital wallet, but which by themselves are not sufficient to deliver a fully functional wallet for use by a digital agent (of a principal). A wallet engine is to a digital wallet what a browser engine is to a web browser.
+notes:
+  []
+see_also:
+  []
+sources:
+  []
+mental_models:
+  []
+supporting_definitions:
+  - "For more information: The charter of the [[ref: OpenWallet Foundation]] is to produce an open source [[ref: digital wallet]] engine."
+source_file: spec/terms-definitions/wallet-engine.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+    - delegation_and_scope
+  delegation_mode: direct_or_constrained
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: runtime
+  control_plane_role: decision_plane_component
+  enforcement_points:
+    - delegation_grant
+assurance:
+  evidence_artifacts:
+    - delegation_record
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points:
+    - delegation_grant
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - delegation_record
+crosswalk:
+  nist:
+    []
+  iso:
+    []

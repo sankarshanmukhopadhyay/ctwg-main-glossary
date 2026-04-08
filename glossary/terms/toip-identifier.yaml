@@ -1,0 +1,48 @@
+term: toip-identifier
+aliases:
+  - ToIP identifier
+  - ToIP identifiers
+definition: A verifiable identifier (VID) for an entity that is addressable using the ToIP stack.
+notes:
+  []
+see_also:
+  - autonomic identifier
+  - decentralized identifier
+  - self-certifying identifier.
+sources:
+  []
+mental_models:
+  []
+supporting_definitions:
+  - "For more information, see: [Section 6.4](https://github.com/trustoverip/TechArch/blob/main/spec.md#64-toip-identifiers) of the [[ref: ToIP Technology Architecture Specification]]."
+source_file: spec/terms-definitions/toip-identifier.md
+governance_profile: descriptive
+governance:
+  authority_scope:
+    - terminology_definition
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: design
+  control_plane_role: reference_term
+  enforcement_points:
+    - definition_approval
+assurance:
+  evidence_artifacts:
+    - definition_change_record
+  assurance_level_hint: informative
+  auditability: basic
+control_plane:
+  decision_points:
+    - definition_approval
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - definition_change_record
+crosswalk:
+  nist:
+    []
+  iso:
+    []

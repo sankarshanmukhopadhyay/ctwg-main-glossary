@@ -1,0 +1,46 @@
+term: principal
+aliases:
+  - principal
+  - principals
+definition: The party for whom, or on behalf of whom, an actor is executing an action (this actor is then called an agent of that party).
+notes:
+  []
+see_also:
+  []
+sources:
+  - "[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#principal)"
+mental_models:
+  []
+supporting_definitions:
+  []
+source_file: spec/terms-definitions/principal.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+    - delegation_and_scope
+  delegation_mode: direct_or_constrained
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: runtime
+  control_plane_role: decision_plane_component
+  enforcement_points:
+    - delegation_grant
+assurance:
+  evidence_artifacts:
+    - delegation_record
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points:
+    - delegation_grant
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - delegation_record
+crosswalk:
+  nist:
+    []
+  iso:
+    []

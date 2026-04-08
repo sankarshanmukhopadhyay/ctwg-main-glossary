@@ -1,0 +1,48 @@
+term: federated-identity
+aliases:
+  - federated identity
+  - federated identities
+definition: A digital identity architecture in which a digital identity established on one computer system, network, or trust domain is linked to other computer systems, networks, or trust domains for the purpose of identifying the same entity across those domains.
+notes:
+  []
+see_also:
+  - decentralized identity
+  - self-sovereign identity.
+sources:
+  []
+mental_models:
+  []
+supporting_definitions:
+  - "[NIST-CSRC](https://csrc.nist.gov/glossary/term/federated_identity_management); A process that allows for the conveyance of identity and authentication information across a set of networked systems."
+  - "[Wikipedia](https://en.wikipedia.org/wiki/Federated_identity): A **federated identity** in [information technology](https://en.wikipedia.org/wiki/Information_technology) is the means of linking a person's [electronic identity](https://en.wikipedia.org/wiki/Digital_identity) and attributes, stored across multiple distinct [identity management](https://en.wikipedia.org/wiki/Identity_management) systems."
+source_file: spec/terms-definitions/federated-identity.md
+governance_profile: governance-supporting
+governance:
+  authority_scope:
+    - terminology_definition
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: design
+  control_plane_role: decision_plane_component
+  enforcement_points:
+    - definition_approval
+assurance:
+  evidence_artifacts:
+    - definition_change_record
+  assurance_level_hint: AL1+
+  auditability: moderate
+control_plane:
+  decision_points:
+    - definition_approval
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - definition_change_record
+crosswalk:
+  nist:
+    []
+  iso:
+    []

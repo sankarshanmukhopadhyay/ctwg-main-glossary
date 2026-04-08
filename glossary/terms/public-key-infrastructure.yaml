@@ -1,0 +1,54 @@
+term: public-key-infrastructure
+aliases:
+  - public key infrastructure
+  - public key infrastructures
+  - PKI
+  - PKIs
+definition: A set of policies, processes, server platforms, software and workstations used for the purpose of administering certificates and public-private key pairs, including the ability to issue, maintain, and revoke public key certificates. The PKI includes the hierarchy of certificate authorities that allow for the deployment of digital certificates that support encryption, digital signature and authentication to meet business and security requirements.
+notes:
+  []
+see_also:
+  []
+sources:
+  - "[NIST-CSRC](https://csrc.nist.gov/glossary/term/public_key_infrastructure)."
+mental_models:
+  []
+supporting_definitions:
+  - "[Wikipedia](https://en.wikipedia.org/wiki/Public_key_infrastructure): A public key infrastructure (PKI) is a set of roles, policies, hardware, software and procedures needed to create, manage, distribute, use, store and revoke [digital certificates](https://en.wikipedia.org/wiki/Public_key_certificate) and manage [public-key encryption](https://en.wikipedia.org/wiki/Public-key_cryptography). The purpose of a PKI is to facilitate the secure electronic transfer of information for a range of network activities such as e-commerce, internet banking and confidential email."
+source_file: spec/terms-definitions/public-key-infrastructure.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+    - access_decisioning
+  delegation_mode: direct
+  revocation_supported: true
+  lifecycle_states:
+    - proposed
+    - active
+    - suspended
+    - revoked
+    - retired
+  execution_role: runtime
+  control_plane_role: decision_plane_component
+  enforcement_points:
+    - access_decision
+    - revocation_decision
+assurance:
+  evidence_artifacts:
+    - status_record
+    - access_decision_log
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points:
+    - access_decision
+    - revocation_decision
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - status_record
+    - access_decision_log
+crosswalk:
+  nist:
+    []
+  iso:
+    []

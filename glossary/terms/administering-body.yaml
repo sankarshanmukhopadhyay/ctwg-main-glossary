@@ -1,0 +1,56 @@
+term: administering-body
+aliases:
+  - administering body
+  - administering bodies
+definition: A legal entity delegated by a governing body to administer the operation of a governance framework and governed infrastructure for a digital trust ecosystem, such as one or more trust registries.
+notes:
+  []
+see_also:
+  []
+sources:
+  []
+mental_models:
+  []
+supporting_definitions:
+  - "Also known as: [[ref: administering authority]]."
+source_file: spec/terms-definitions/administering-body.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+    - policy_definition
+    - delegation_and_scope
+    - governance_recognition
+  delegation_mode: direct_or_constrained
+  revocation_supported: true
+  lifecycle_states:
+    - proposed
+    - active
+    - suspended
+    - revoked
+    - retired
+  execution_role: runtime
+  control_plane_role: decision_plane_component
+  enforcement_points:
+    - policy_approval
+    - delegation_grant
+    - revocation_decision
+assurance:
+  evidence_artifacts:
+    - policy_document
+    - delegation_record
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points:
+    - policy_approval
+    - delegation_grant
+    - revocation_decision
+  accountable_entity: governance_authority
+  evidence_produced:
+    - policy_document
+    - delegation_record
+crosswalk:
+  nist:
+    []
+  iso:
+    []

@@ -1,0 +1,46 @@
+term: security-policy
+aliases:
+  - security policy
+  - security policies
+definition: A set of policies and rules that governs all aspects of security-relevant system and system element behavior.
+notes:
+  []
+see_also:
+  - privacy policy.
+sources:
+  - "[NIST-CSRC](https://csrc.nist.gov/glossary/term/security_policy)"
+mental_models:
+  []
+supporting_definitions:
+  - "Also see: KERI's vision on [[xref: keri1, security]]"
+source_file: spec/terms-definitions/security-policy.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+    - policy_definition
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: runtime
+  control_plane_role: decision_plane_component
+  enforcement_points:
+    - policy_approval
+assurance:
+  evidence_artifacts:
+    - policy_document
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points:
+    - policy_approval
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - policy_document
+crosswalk:
+  nist:
+    []
+  iso:
+    []

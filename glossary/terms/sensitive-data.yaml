@@ -1,0 +1,45 @@
+term: sensitive-data
+aliases:
+  - sensitive data
+definition: Personal data that a reasonable person would view from a privacy protection standpoint as requiring special care above and beyond other personal data.
+notes:
+  []
+see_also:
+  []
+sources:
+  []
+mental_models:
+  []
+supporting_definitions:
+  - "[PEMC IGR](https://kantarainitiative.org/download/pemc-implementors-guidance-report/): While all Personal Information may be regarded as sensitive in that an unauthorized processing of an individual’s data may be offensive to that person, we use the term here to denote information that a reasonable person would view as requiring special care above and beyond other personal data. For reference see [GDPR Recital #51](https://www.privacy-regulation.eu/en/recital-51-GDPR.htm) or [Sensitive Personal Data](https://w3c.github.io/dpv/dpv/#SensitivePersonalData) in the W3C [Data Privacy Vocabulary](https://w3id.org/dpv)."
+source_file: spec/terms-definitions/sensitive-data.md
+governance_profile: descriptive
+governance:
+  authority_scope:
+    - terminology_definition
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: design
+  control_plane_role: reference_term
+  enforcement_points:
+    - definition_approval
+assurance:
+  evidence_artifacts:
+    - definition_change_record
+  assurance_level_hint: informative
+  auditability: basic
+control_plane:
+  decision_points:
+    - definition_approval
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - definition_change_record
+crosswalk:
+  nist:
+    []
+  iso:
+    []

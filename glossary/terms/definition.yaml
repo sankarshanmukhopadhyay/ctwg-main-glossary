@@ -1,0 +1,47 @@
+term: definition
+aliases:
+  - definition
+  - definitions
+definition: A textual statement defining the meaning of a term by specifying criterion that enable the concept identified by the term to be distinguished from all other concepts within the intended scope.
+notes:
+  []
+see_also:
+  []
+sources:
+  []
+mental_models:
+  []
+supporting_definitions:
+  - "[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#definition): a text that helps [parties](https://essif-lab.github.io/framework/docs/@) to have the same understanding about the meaning of (and [concept](https://essif-lab.github.io/framework/docs/@) behind) a [term](https://essif-lab.github.io/framework/docs/@), ideally in such a way that these [parties](https://essif-lab.github.io/framework/docs/@) can determine whether or not they make the same distinction."
+  - "Wikipedia: A definition is a statement of the meaning of a term (a [word](https://en.wikipedia.org/wiki/Word), [phrase](https://en.wikipedia.org/wiki/Phrase), or other set of [symbols](https://en.wikipedia.org/wiki/Symbol)). Definitions can be classified into two large categories: [intensional definitions](https://en.wikipedia.org/wiki/Intensional_definition) (which try to give the sense of a term), and [extensional definitions](https://en.wikipedia.org/wiki/Extensional_definition) (which try to list the objects that a term describes). Another important category of definitions is the class of [ostensive definitions](https://en.wikipedia.org/wiki/Ostensive_definition), which convey the meaning of a term by pointing out examples. A term may have many different senses and multiple meanings, and thus require multiple definitions."
+source_file: spec/terms-definitions/definition.md
+governance_profile: descriptive
+governance:
+  authority_scope:
+    - terminology_definition
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: hybrid
+  control_plane_role: reference_term
+  enforcement_points:
+    - definition_approval
+assurance:
+  evidence_artifacts:
+    - definition_change_record
+  assurance_level_hint: informative
+  auditability: basic
+control_plane:
+  decision_points:
+    - definition_approval
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - definition_change_record
+crosswalk:
+  nist:
+    []
+  iso:
+    []

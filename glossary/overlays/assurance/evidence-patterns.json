@@ -1,0 +1,14 @@
+{
+  "patterns": {
+    "policy_document": "Published policy or governance instrument controlling a term in operation.",
+    "delegation_record": "Evidence of delegated scope, constraints, and revocation conditions.",
+    "registry_entry": "Published registry statement or signed record governing recognition or status.",
+    "status_record": "Lifecycle change record such as suspension, revocation, or retirement.",
+    "issuance_log": "Credential or assertion issuance evidence.",
+    "verification_log": "Verification event or reliance evidence.",
+    "audit_log": "Audit event trail or independent review record.",
+    "attestation": "Formal assurance statement or attested evidence.",
+    "access_decision_log": "Runtime access or authorization decision record.",
+    "definition_change_record": "Governance trail for glossary term changes."
+  }
+}

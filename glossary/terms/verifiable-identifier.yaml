@@ -1,0 +1,49 @@
+term: verifiable-identifier
+aliases:
+  - verifiable identifier
+  - verifiable identifiers
+  - VID
+  - VIDs
+definition: An identifier over which the controller can provide cryptographic proof of control. Each type of VID defines a specific means for discovering the public key, network endpoints, or other metadata necessary to prove control. Decentralized identifiers (DIDs) are a W3C standard for VIDs. VIDs are the cryptographically verifiable identifiers used in the ToIP stack.
+notes:
+  []
+see_also:
+  - decentralized identifier
+  - autonomic identifier.
+sources:
+  []
+mental_models:
+  []
+supporting_definitions:
+  - "- Also known as: [[ref: VID]]"
+source_file: spec/terms-definitions/verifiable-identifier.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+    - terminology_definition
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: runtime
+  control_plane_role: decision_plane_component
+  enforcement_points:
+    - definition_approval
+assurance:
+  evidence_artifacts:
+    - definition_change_record
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points:
+    - definition_approval
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - definition_change_record
+crosswalk:
+  nist:
+    []
+  iso:
+    []

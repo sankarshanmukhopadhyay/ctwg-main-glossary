@@ -1,45 +1,163 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://trustoverip.github.io/ctwg-main-glossary/schemas/governance-term.schema.json",
-  "title": "Governance-Aware Glossary Term Profile",
+  "$id": "https://glossary.trustoverip.org/schemas/governance-term.schema.json",
+  "title": "Governance Executable Glossary Term",
   "type": "object",
-  "required": ["term_id", "display_name", "description"],
+  "required": [
+    "term",
+    "definition",
+    "governance",
+    "assurance",
+    "control_plane"
+  ],
   "properties": {
-    "term_id": { "type": "string" },
-    "display_name": { "type": "string" },
-    "description": { "type": "string" },
-    "authority_scope": {
-      "type": "array",
-      "items": { "type": "string" }
+    "term": {
+      "type": "string"
     },
-    "delegation_supported": { "type": "boolean" },
-    "delegation_constraints": {
+    "aliases": {
       "type": "array",
-      "items": { "type": "string" }
+      "items": {
+        "type": "string"
+      }
     },
-    "lifecycle_states": {
-      "type": "array",
-      "items": { "type": "string" }
+    "definition": {
+      "type": "string"
     },
-    "revocation_supported": { "type": "boolean" },
-    "revocation_actor": { "type": "string" },
-    "policy_artifacts": {
+    "notes": {
       "type": "array",
-      "items": { "type": "string" }
+      "items": {
+        "type": "string"
+      }
     },
-    "evidence_artifacts": {
+    "see_also": {
       "type": "array",
-      "items": { "type": "string" }
+      "items": {
+        "type": "string"
+      }
     },
-    "verification_points": {
+    "sources": {
       "type": "array",
-      "items": { "type": "string" }
+      "items": {
+        "type": "string"
+      }
     },
-    "accountable_actor": { "type": "string" },
-    "cross_refs": {
-      "type": "array",
-      "items": { "type": "string" }
+    "source_file": {
+      "type": "string"
+    },
+    "governance_profile": {
+      "enum": [
+        "core-operational",
+        "governance-supporting",
+        "descriptive"
+      ]
+    },
+    "governance": {
+      "type": "object",
+      "required": [
+        "authority_scope",
+        "delegation_mode",
+        "revocation_supported",
+        "lifecycle_states",
+        "execution_role",
+        "control_plane_role",
+        "enforcement_points"
+      ],
+      "properties": {
+        "authority_scope": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "delegation_mode": {
+          "type": "string"
+        },
+        "revocation_supported": {
+          "type": "boolean"
+        },
+        "lifecycle_states": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "execution_role": {
+          "type": "string"
+        },
+        "control_plane_role": {
+          "type": "string"
+        },
+        "enforcement_points": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "assurance": {
+      "type": "object",
+      "required": [
+        "evidence_artifacts",
+        "assurance_level_hint",
+        "auditability"
+      ],
+      "properties": {
+        "evidence_artifacts": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "assurance_level_hint": {
+          "type": "string"
+        },
+        "auditability": {
+          "type": "string"
+        }
+      }
+    },
+    "control_plane": {
+      "type": "object",
+      "required": [
+        "decision_points",
+        "accountable_entity",
+        "evidence_produced"
+      ],
+      "properties": {
+        "decision_points": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "accountable_entity": {
+          "type": "string"
+        },
+        "evidence_produced": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "crosswalk": {
+      "type": "object",
+      "properties": {
+        "nist": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "iso": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
     }
-  },
-  "additionalProperties": false
+  }
 }

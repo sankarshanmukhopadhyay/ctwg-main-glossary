@@ -1,0 +1,50 @@
+term: issuance-request
+aliases:
+  - issuance request
+  - issuance requests
+definition: A protocol request invoked by the holder of a digital wallet to obtain a digital credential from an issuer.
+notes:
+  []
+see_also:
+  - presentation request.
+sources:
+  []
+mental_models:
+  []
+supporting_definitions:
+  []
+source_file: spec/terms-definitions/issuance-request.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+    - credential_issuance
+  delegation_mode: direct
+  revocation_supported: true
+  lifecycle_states:
+    - proposed
+    - active
+    - suspended
+    - revoked
+    - retired
+  execution_role: runtime
+  control_plane_role: decision_plane_component
+  enforcement_points:
+    - issuance_decision
+    - revocation_decision
+assurance:
+  evidence_artifacts:
+    - issuance_log
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points:
+    - issuance_decision
+    - revocation_decision
+  accountable_entity: issuer_operator
+  evidence_produced:
+    - issuance_log
+crosswalk:
+  nist:
+    []
+  iso:
+    []

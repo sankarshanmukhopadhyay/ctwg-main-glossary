@@ -1,0 +1,49 @@
+term: trust-registry-protocol
+aliases:
+  - trust registry protocol
+definition: "See: ToIP Trust Registry Protocol."
+notes:
+  []
+see_also:
+  []
+sources:
+  []
+mental_models:
+  []
+supporting_definitions:
+  []
+source_file: spec/terms-definitions/trust-registry-protocol.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+    - registry_management
+  delegation_mode: direct
+  revocation_supported: true
+  lifecycle_states:
+    - proposed
+    - active
+    - suspended
+    - revoked
+    - retired
+  execution_role: runtime
+  control_plane_role: decision_plane_component
+  enforcement_points:
+    - registration_decision
+    - revocation_decision
+assurance:
+  evidence_artifacts:
+    - registry_entry
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points:
+    - registration_decision
+    - revocation_decision
+  accountable_entity: registry_operator
+  evidence_produced:
+    - registry_entry
+crosswalk:
+  nist:
+    []
+  iso:
+    []

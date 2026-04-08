@@ -1,0 +1,56 @@
+term: utility-governance-framework
+aliases:
+  - utility governance framework
+  - utility governance frameworks
+definition: A governance framework for a digital trust utility. A utility governance framework may be a component of or referenced by an ecosystem governance framework or a credential governance framework.
+notes:
+  []
+see_also:
+  []
+sources:
+  []
+mental_models:
+  []
+supporting_definitions:
+  []
+source_file: spec/terms-definitions/utility-governance-framework.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+    - credential_issuance
+    - policy_definition
+    - governance_recognition
+  delegation_mode: direct
+  revocation_supported: true
+  lifecycle_states:
+    - proposed
+    - active
+    - suspended
+    - revoked
+    - retired
+  execution_role: runtime
+  control_plane_role: decision_plane_component
+  enforcement_points:
+    - policy_approval
+    - issuance_decision
+    - revocation_decision
+assurance:
+  evidence_artifacts:
+    - policy_document
+    - issuance_log
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points:
+    - policy_approval
+    - issuance_decision
+    - revocation_decision
+  accountable_entity: governance_authority
+  evidence_produced:
+    - policy_document
+    - issuance_log
+crosswalk:
+  nist:
+    []
+  iso:
+    []

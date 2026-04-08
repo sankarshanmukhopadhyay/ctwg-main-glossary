@@ -1,0 +1,49 @@
+term: key-management-system
+aliases:
+  - key management system
+  - key management systems
+  - key management
+  - KMS
+  - KMSs
+definition: A system for the management of cryptographic keys and their metadata (e.g., generation, distribution, storage, backup, archive, recovery, use, revocation, and destruction). An automated key management system may be used to oversee, automate, and secure the key management process. A key management is often protected by implementing it within the trusted execution environment (TEE) of a device. An example is the Secure Enclave on Apple iOS devices.
+notes:
+  []
+see_also:
+  []
+sources:
+  - "[NIST-CRSC](https://csrc.nist.gov/glossary/term/key_management_system)."
+mental_models:
+  []
+supporting_definitions:
+  - "Also known as: [[ref: KMS]]."
+source_file: spec/terms-definitions/key-management-system.md
+governance_profile: governance-supporting
+governance:
+  authority_scope:
+    - terminology_definition
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+    - documented
+    - active
+    - deprecated
+  execution_role: design
+  control_plane_role: decision_plane_component
+  enforcement_points:
+    - definition_approval
+assurance:
+  evidence_artifacts:
+    - definition_change_record
+  assurance_level_hint: AL1+
+  auditability: moderate
+control_plane:
+  decision_points:
+    - definition_approval
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+    - definition_change_record
+crosswalk:
+  nist:
+    []
+  iso:
+    []

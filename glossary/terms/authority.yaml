@@ -1,0 +1,58 @@
+term: authority
+aliases:
+  - authority
+  - authorities
+definition: A party whose decisions, policies, rules, or recognition outcomes are accepted as governing, directive, or controlling by other parties within a defined scope.
+notes:
+  - The practical significance of an authority depends on the scope in which its decisions are recognized, how that scope is established, and whether that recognition can be delegated, constrained, contested, or revoked.
+see_also:
+  []
+sources:
+  - "[eSSIF-Lab](https://essif-lab.github.io/framework/docs/terms/authority)."
+mental_models:
+  []
+supporting_definitions:
+  []
+source_file: spec/terms-definitions/authority.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+    - policy_definition
+    - delegation_and_scope
+    - governance_recognition
+  delegation_mode: direct_or_constrained
+  revocation_supported: true
+  lifecycle_states:
+    - proposed
+    - active
+    - suspended
+    - revoked
+    - retired
+  execution_role: runtime
+  control_plane_role: decision_plane_component
+  enforcement_points:
+    - policy_approval
+    - delegation_grant
+    - revocation_decision
+assurance:
+  evidence_artifacts:
+    - policy_document
+    - delegation_record
+    - status_record
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points:
+    - policy_approval
+    - delegation_grant
+    - revocation_decision
+  accountable_entity: governance_authority
+  evidence_produced:
+    - policy_document
+    - delegation_record
+    - status_record
+crosswalk:
+  nist:
+    - PM-1
+  iso:
+    - ISO/IEC 42001 5.3
