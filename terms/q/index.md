@@ -6,4 +6,4 @@ nav_exclude: true
 
 # Terms: Q
 
-- [qr-code](/terms/qr-code/)
+- [qr-code]({{ '/terms/qr-code/' | relative_url }})

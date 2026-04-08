@@ -134,7 +134,7 @@ def write_indexes(term_refs):
         ''
     ]
     for letter in letters:
-        target = '/terms/num/' if letter == '#' else f'/terms/{letter.lower()}/'
+        target = "{{ '/terms/num/' | relative_url }}" if letter == '#' else f"{{{{ '/terms/{letter.lower()}/' | relative_url }}}}"
         lines.append(f'- [{letter}]({target})')
     lines.append('')
     for letter in letters:
@@ -143,7 +143,7 @@ def write_indexes(term_refs):
         for title, url in grouped[letter][:25]:
             lines.append(f'- [{title}]({url})')
         if len(grouped[letter]) > 25:
-            target = '/terms/num/' if letter == '#' else f'/terms/{letter.lower()}/'
+            target = "{{ '/terms/num/' | relative_url }}" if letter == '#' else f"{{{{ '/terms/{letter.lower()}/' | relative_url }}}}"
             lines.append(f'- [View all {len(grouped[letter])} terms for {letter}]({target})')
         lines.append('')
     TERMS_INDEX.write_text("\n".join(lines), encoding='utf-8')
@@ -179,7 +179,7 @@ def main():
         slug = slugify(path.stem)
         out = OUT_COLLECTION / f'{slug}.md'
         out.write_text(term_page(data), encoding='utf-8')
-        term_refs.append((title, f'/terms/{slug}/'))
+        term_refs.append((title, f"{{{{ '/terms/{slug}/' | relative_url }}}}"))
 
     write_indexes(term_refs)
 

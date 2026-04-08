@@ -6,12 +6,12 @@ nav_exclude: true
 
 # Terms: N
 
-- [natural-person](/terms/natural-person/)
-- [natural-thing](/terms/natural-thing/)
-- [network-address](/terms/network-address/)
-- [nist-csrc](/terms/nist-csrc/)
-- [node](/terms/node/)
-- [non-custodial-wallet](/terms/non-custodial-wallet/)
-- [non-repudiable](/terms/non-repudiable/)
-- [non-transferable](/terms/non-transferable/)
-- [non-transferable-identifier](/terms/non-transferable-identifier/)
+- [natural-person]({{ '/terms/natural-person/' | relative_url }})
+- [natural-thing]({{ '/terms/natural-thing/' | relative_url }})
+- [network-address]({{ '/terms/network-address/' | relative_url }})
+- [nist-csrc]({{ '/terms/nist-csrc/' | relative_url }})
+- [node]({{ '/terms/node/' | relative_url }})
+- [non-custodial-wallet]({{ '/terms/non-custodial-wallet/' | relative_url }})
+- [non-repudiable]({{ '/terms/non-repudiable/' | relative_url }})
+- [non-transferable]({{ '/terms/non-transferable/' | relative_url }})
+- [non-transferable-identifier]({{ '/terms/non-transferable-identifier/' | relative_url }})

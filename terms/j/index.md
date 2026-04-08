@@ -6,4 +6,4 @@ nav_exclude: true
 
 # Terms: J
 
-- [jurisdiction](/terms/jurisdiction/)
+- [jurisdiction]({{ '/terms/jurisdiction/' | relative_url }})
