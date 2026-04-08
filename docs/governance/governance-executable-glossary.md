@@ -11,7 +11,7 @@ This repository now carries a parallel **governance-executable representation** 
 
 ## Operating model
 
-The markdown specification remains the human-readable source for publication. The new structured layer adds:
+The governance-executable YAML layer now acts as the publication source for generated glossary pages, while markdown remains the reader-facing rendering layer. It adds:
 
 - authority and scope hints
 - delegation and lifecycle handling

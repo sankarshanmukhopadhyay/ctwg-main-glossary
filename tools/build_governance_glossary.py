@@ -1,28 +1,80 @@
 #!/usr/bin/env python3
-"""Build the governance-executable glossary bundle from spec/terms-definitions markdown."""
+"""Build machine-readable and markdown bundles from governance-executable glossary YAML artifacts."""
 from pathlib import Path
 import json
-import re
+import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
-TERMS_DIR = ROOT / "spec" / "terms-definitions"
-OUT = ROOT / "generated" / "json" / "governance-executable-glossary.catalog.json"
+TERMS_DIR = ROOT / "glossary" / "terms"
+JSON_OUT = ROOT / "generated" / "json"
+MD_OUT = ROOT / "generated" / "markdown"
 
-def clean_inline(text: str) -> str:
-    text = re.sub(r"\[\[ref: ([^\]]+)\]\]", lambda m: m.group(1), text)
-    text = re.sub(r"\[(.*?)\]\((.*?)\)", r"\1", text)
-    return text.strip()
 
-items = []
-for path in sorted(TERMS_DIR.glob("*.md")):
-    raw = path.read_text(encoding="utf-8")
-    head = next((ln for ln in raw.splitlines() if ln.startswith("[[def:")), "")
-    m = re.match(r"\[\[def: ([^\]]+)\]\]", head)
-    if not m:
-        continue
-    term = m.group(1).split(",")[0].strip()
-    items.append({"term": term, "definition_source": str(path.relative_to(ROOT)).replace("\\", "/"), "preview": clean_inline(raw[:280])})
+def load_terms():
+    terms = []
+    for path in sorted(TERMS_DIR.glob("*.yaml")):
+        data = yaml.safe_load(path.read_text(encoding="utf-8"))
+        if data:
+            terms.append(data)
+    return terms
 
-OUT.parent.mkdir(parents=True, exist_ok=True)
-OUT.write_text(json.dumps({"terms": items}, indent=2), encoding="utf-8")
-print(f"Wrote {len(items)} catalog entries to {OUT}")
+
+def build_jsonld(terms):
+    graph = []
+    for term in terms:
+        graph.append({
+            "@type": "DefinedTerm",
+            "@id": f"urn:toip:glossary:{term.get('term','').strip().lower().replace(' ', '-')}",
+            "name": term.get("term"),
+            "description": term.get("definition"),
+            "inDefinedTermSet": "ToIP Main Glossary",
+            "identifier": term.get("term"),
+            "subjectOf": {
+                "governance": term.get("governance", {}),
+                "assurance": term.get("assurance", {}),
+                "control_plane": term.get("control_plane", {}),
+                "crosswalk": term.get("crosswalk", {})
+            }
+        })
+    return {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "ToIP Main Glossary",
+        "@graph": graph
+    }
+
+
+def build_markdown(terms):
+    lines = ["# Governance-Executable Glossary", "", f"Total terms: **{len(terms)}**", ""]
+    for term in terms:
+        lines.append(f"## {term.get('term', 'Untitled Term')}")
+        lines.append("")
+        lines.append(term.get("definition", ""))
+        lines.append("")
+        gov = term.get("governance", {})
+        if gov:
+            lines.append(f"- Authority scope: {', '.join(gov.get('authority_scope', [])) or 'Not specified'}")
+            lines.append(f"- Delegation mode: {gov.get('delegation_mode', 'Not specified')}")
+            lines.append(f"- Revocation supported: {gov.get('revocation_supported', 'Not specified')}")
+            lines.append("")
+    return "\n".join(lines)
+
+
+def main():
+    terms = load_terms()
+    JSON_OUT.mkdir(parents=True, exist_ok=True)
+    MD_OUT.mkdir(parents=True, exist_ok=True)
+
+    (JSON_OUT / "governance-executable-glossary.json").write_text(json.dumps({"terms": terms}, indent=2), encoding="utf-8")
+    (JSON_OUT / "governance-executable-glossary.catalog.json").write_text(json.dumps({
+        "term_count": len(terms),
+        "terms": [{"term": t.get("term"), "source_file": t.get("source_file"), "governance_profile": t.get("governance_profile")} for t in terms]
+    }, indent=2), encoding="utf-8")
+    (JSON_OUT / "governance-executable-glossary.jsonld").write_text(json.dumps(build_jsonld(terms), indent=2), encoding="utf-8")
+    (MD_OUT / "governance-executable-glossary.md").write_text(build_markdown(terms), encoding="utf-8")
+
+    print(f"Built bundles for {len(terms)} terms")
+
+
+if __name__ == "__main__":
+    main()

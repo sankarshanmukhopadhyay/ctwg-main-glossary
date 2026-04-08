@@ -88,3 +88,11 @@ node_modules
 build
 .history
 /.cache/
+
+# Jekyll / GitHub Pages
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+.bundle/
+vendor/bundle/

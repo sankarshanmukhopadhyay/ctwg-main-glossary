@@ -1,49 +1,40 @@
-# Editing the Specification
+# Editing the Glossary
 
-***June 16th, 2024: Due to migration to Spec-Up-T this document is outdated***.
+This repository is now published as a **Jekyll + Just the Docs + GitHub Pages** site.
 
-To contribute changes to the specification, please
+The governance-executable YAML files under `glossary/terms/` are the operational source for generated glossary pages and machine-readable bundles.
 
-- Review the [Contributions policy](CONTRIBUTING.md) for this specification and ensure that you and your organization are willing to abide by the policy.
-  - **Pull requests submitted to this repository imply acceptance of the [Contributions policy](CONTRIBUTING.md).**
+## Maintenance workflow
 
-- Submit a pull request by:
-  - forking this repo
-  - editing the appropriate markdown files in the [`/spec`](/spec) folder
+1. Update the relevant glossary term in `glossary/terms/`
+2. Run validation
+3. Regenerate machine-readable bundles
+4. Regenerate Jekyll markdown pages
+5. Preview locally with Jekyll if needed
 
-The specification source consists of the markdown files listed in
-[specs.json](/specs.json) and found in the [`/spec`](/spec) folder. The
-specification is automatically rendered (using
- [Spec-Up](https://github.com/decentralized-identity/spec-up)) to the `/docs`
- folder of the `gh-pages` branch of this repository on each pull request merge
- (using a GitHub Action), and then published (using GitHub Pages).
+## Commands
 
-## Testing your Edits Locally
+```bash
+python tools/validate_governance_glossary.py
+python tools/build_governance_glossary.py
+python tools/build_jekyll_site.py
+bundle install
+bundle exec jekyll serve
+```
 
-Full guidance for using Spec-Up is in its
-[repository](https://github.com/decentralized-identity/spec-up). The short
-version of the instructions to render this specification locally while you are
-editing is:
+## Publication
 
-- Install the prerequisites: `node` and `npm`
-- Run `npm install` from the root of the repository
-- Run `npm run edit` from the root of the repository to render the document with
-  live updates to the `docs/index.html` as
-  you edit the source files.
-  - You can also run `npm run render` to just generate the specification file once.
-- Open the rendered file in a browser and refresh to see your updates as you work.
-- When you are done, hit `Ctrl-c` to exit the live rendering.
+GitHub Pages is built through `.github/workflows/pages.yml`.
 
-Please check your edits locally before you submit a pull request!
+The workflow validates the glossary, rebuilds JSON and markdown artifacts, generates the Jekyll pages from the governance-executable source layer, and then deploys the site.
 
-### Handling the Rendered Specification File
+## Source model
 
-When you create a pull request to update the specification, the `docs/index.html` will be
-.gitignore'd and **not** included in your pull request. A GitHub Action triggered on merging pull requests automagically renders the full
-specification (`docs/index.html`) to the `gh-pages` branch in the repository and the
-specification is published (via GitHub Pages) from there.
+- `glossary/terms/` remains the source for structured term semantics
+- `_terms/` is generated and should not be edited manually unless you are intentionally applying an emergency fix
+- `governance/` contains rendered governance documentation pages
+- `generated/` contains consumable machine-readable outputs
 
-## Adding a New Source Markdown File
+## Review expectations
 
-If you add a source markdown file to the specification, you must also add a reference
-to it in the [specs.json](/specs.json) in the root of the repository.
+Any pull request that changes glossary semantics should update the relevant YAML term files and regenerate outputs so reviewers can inspect both the source semantics and the rendered publication changes.

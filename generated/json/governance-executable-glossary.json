@@ -1,216 +1,5 @@
 {
-  "version": "1.0.0-governance-executable",
   "terms": [
-    {
-      "term": "bola",
-      "aliases": [
-        "BOLA"
-      ],
-      "definition": "See broken-object-level-authorization",
-      "notes": [],
-      "see_also": [],
-      "sources": [],
-      "mental_models": [],
-      "supporting_definitions": [],
-      "source_file": "spec/terms-definitions/BOLA.md",
-      "governance_profile": "core-operational",
-      "governance": {
-        "authority_scope": [
-          "access_decisioning"
-        ],
-        "delegation_mode": "direct",
-        "revocation_supported": true,
-        "lifecycle_states": [
-          "proposed",
-          "active",
-          "suspended",
-          "revoked",
-          "retired"
-        ],
-        "execution_role": "runtime",
-        "control_plane_role": "decision_plane_component",
-        "enforcement_points": [
-          "access_decision",
-          "revocation_decision"
-        ]
-      },
-      "assurance": {
-        "evidence_artifacts": [
-          "access_decision_log"
-        ],
-        "assurance_level_hint": "AL2+",
-        "auditability": "high"
-      },
-      "control_plane": {
-        "decision_points": [
-          "access_decision",
-          "revocation_decision"
-        ],
-        "accountable_entity": "glossary_maintainers",
-        "evidence_produced": [
-          "access_decision_log"
-        ]
-      },
-      "crosswalk": {
-        "nist": [],
-        "iso": []
-      }
-    },
-    {
-      "term": "essr",
-      "aliases": [
-        "ESSR",
-        "ESSR"
-      ],
-      "definition": "Encrypt\u2010Sender\u2010Sign\u2010Receiver",
-      "notes": [],
-      "see_also": [],
-      "sources": [],
-      "mental_models": [],
-      "supporting_definitions": [],
-      "source_file": "spec/terms-definitions/ESSR.md",
-      "governance_profile": "descriptive",
-      "governance": {
-        "authority_scope": [
-          "terminology_definition"
-        ],
-        "delegation_mode": "direct",
-        "revocation_supported": false,
-        "lifecycle_states": [
-          "documented",
-          "active",
-          "deprecated"
-        ],
-        "execution_role": "design",
-        "control_plane_role": "reference_term",
-        "enforcement_points": [
-          "definition_approval"
-        ]
-      },
-      "assurance": {
-        "evidence_artifacts": [
-          "definition_change_record"
-        ],
-        "assurance_level_hint": "informative",
-        "auditability": "basic"
-      },
-      "control_plane": {
-        "decision_points": [
-          "definition_approval"
-        ],
-        "accountable_entity": "glossary_maintainers",
-        "evidence_produced": [
-          "definition_change_record"
-        ]
-      },
-      "crosswalk": {
-        "nist": [],
-        "iso": []
-      }
-    },
-    {
-      "term": "itps",
-      "aliases": [
-        "ITPS",
-        "ITPS"
-      ],
-      "definition": "information-theoretic-security",
-      "notes": [],
-      "see_also": [],
-      "sources": [],
-      "mental_models": [],
-      "supporting_definitions": [],
-      "source_file": "spec/terms-definitions/ITPS.md",
-      "governance_profile": "descriptive",
-      "governance": {
-        "authority_scope": [
-          "terminology_definition"
-        ],
-        "delegation_mode": "direct",
-        "revocation_supported": false,
-        "lifecycle_states": [
-          "documented",
-          "active",
-          "deprecated"
-        ],
-        "execution_role": "design",
-        "control_plane_role": "reference_term",
-        "enforcement_points": [
-          "definition_approval"
-        ]
-      },
-      "assurance": {
-        "evidence_artifacts": [
-          "definition_change_record"
-        ],
-        "assurance_level_hint": "informative",
-        "auditability": "basic"
-      },
-      "control_plane": {
-        "decision_points": [
-          "definition_approval"
-        ],
-        "accountable_entity": "glossary_maintainers",
-        "evidence_produced": [
-          "definition_change_record"
-        ]
-      },
-      "crosswalk": {
-        "nist": [],
-        "iso": []
-      }
-    },
-    {
-      "term": "lid",
-      "aliases": [
-        "LID"
-      ],
-      "definition": "legitimized-human-meaningful-identifier",
-      "notes": [],
-      "see_also": [],
-      "sources": [],
-      "mental_models": [],
-      "supporting_definitions": [],
-      "source_file": "spec/terms-definitions/LID.md",
-      "governance_profile": "descriptive",
-      "governance": {
-        "authority_scope": [
-          "terminology_definition"
-        ],
-        "delegation_mode": "direct",
-        "revocation_supported": false,
-        "lifecycle_states": [
-          "documented",
-          "active",
-          "deprecated"
-        ],
-        "execution_role": "design",
-        "control_plane_role": "reference_term",
-        "enforcement_points": [
-          "definition_approval"
-        ]
-      },
-      "assurance": {
-        "evidence_artifacts": [
-          "definition_change_record"
-        ],
-        "assurance_level_hint": "informative",
-        "auditability": "basic"
-      },
-      "control_plane": {
-        "decision_points": [
-          "definition_approval"
-        ],
-        "accountable_entity": "glossary_maintainers",
-        "evidence_produced": [
-          "definition_change_record"
-        ]
-      },
-      "crosswalk": {
-        "nist": [],
-        "iso": []
-      }
-    },
     {
       "term": "aal",
       "aliases": [
@@ -2865,6 +2654,61 @@
         "accountable_entity": "glossary_maintainers",
         "evidence_produced": [
           "policy_document"
+        ]
+      },
+      "crosswalk": {
+        "nist": [],
+        "iso": []
+      }
+    },
+    {
+      "term": "bola",
+      "aliases": [
+        "BOLA"
+      ],
+      "definition": "See broken-object-level-authorization",
+      "notes": [],
+      "see_also": [],
+      "sources": [],
+      "mental_models": [],
+      "supporting_definitions": [],
+      "source_file": "spec/terms-definitions/BOLA.md",
+      "governance_profile": "core-operational",
+      "governance": {
+        "authority_scope": [
+          "access_decisioning"
+        ],
+        "delegation_mode": "direct",
+        "revocation_supported": true,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "suspended",
+          "revoked",
+          "retired"
+        ],
+        "execution_role": "runtime",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "access_decision",
+          "revocation_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "access_decision_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "access_decision",
+          "revocation_decision"
+        ],
+        "accountable_entity": "glossary_maintainers",
+        "evidence_produced": [
+          "access_decision_log"
         ]
       },
       "crosswalk": {
@@ -9512,6 +9356,58 @@
       }
     },
     {
+      "term": "essr",
+      "aliases": [
+        "ESSR",
+        "ESSR"
+      ],
+      "definition": "Encrypt\u2010Sender\u2010Sign\u2010Receiver",
+      "notes": [],
+      "see_also": [],
+      "sources": [],
+      "mental_models": [],
+      "supporting_definitions": [],
+      "source_file": "spec/terms-definitions/ESSR.md",
+      "governance_profile": "descriptive",
+      "governance": {
+        "authority_scope": [
+          "terminology_definition"
+        ],
+        "delegation_mode": "direct",
+        "revocation_supported": false,
+        "lifecycle_states": [
+          "documented",
+          "active",
+          "deprecated"
+        ],
+        "execution_role": "design",
+        "control_plane_role": "reference_term",
+        "enforcement_points": [
+          "definition_approval"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "definition_change_record"
+        ],
+        "assurance_level_hint": "informative",
+        "auditability": "basic"
+      },
+      "control_plane": {
+        "decision_points": [
+          "definition_approval"
+        ],
+        "accountable_entity": "glossary_maintainers",
+        "evidence_produced": [
+          "definition_change_record"
+        ]
+      },
+      "crosswalk": {
+        "nist": [],
+        "iso": []
+      }
+    },
+    {
       "term": "expression-language",
       "aliases": [
         "expression language",
@@ -10293,61 +10189,6 @@
       }
     },
     {
-      "term": "governance-risk-management-compliance",
-      "aliases": [
-        "Governance - Risk Management - Compliance"
-      ],
-      "definition": "Governance, risk management, and compliance (GRC) are three related facets that aim to assure an organization reliably achieves objectives, addresses uncertainty and acts with integrity. Governance is the combination of processes established and executed by the directors (or the board of directors) that are reflected in the organization's structure and how it is managed and led toward achieving goals. Risk management is predicting and managing risks that could hinder the organization from reliably achieving its objectives under uncertainty. Compliance refers to adhering with the mandated boundaries (laws and regulations) and voluntary boundaries (company's policies, procedures, etc.)",
-      "notes": [],
-      "see_also": [],
-      "sources": [
-        "[Wikipedia](https://en.wikipedia.org/wiki/Governance,_risk_management,_and_compliance)."
-      ],
-      "mental_models": [],
-      "supporting_definitions": [
-        "Also known as: [[ref: GRC]]."
-      ],
-      "source_file": "spec/terms-definitions/governance---risk-management---compliance.md",
-      "governance_profile": "core-operational",
-      "governance": {
-        "authority_scope": [
-          "governance_recognition"
-        ],
-        "delegation_mode": "direct",
-        "revocation_supported": false,
-        "lifecycle_states": [
-          "documented",
-          "active",
-          "deprecated"
-        ],
-        "execution_role": "runtime",
-        "control_plane_role": "decision_plane_component",
-        "enforcement_points": [
-          "definition_approval"
-        ]
-      },
-      "assurance": {
-        "evidence_artifacts": [
-          "definition_change_record"
-        ],
-        "assurance_level_hint": "AL2+",
-        "auditability": "high"
-      },
-      "control_plane": {
-        "decision_points": [
-          "definition_approval"
-        ],
-        "accountable_entity": "governance_authority",
-        "evidence_produced": [
-          "definition_change_record"
-        ]
-      },
-      "crosswalk": {
-        "nist": [],
-        "iso": []
-      }
-    },
-    {
       "term": "governance-diamond",
       "aliases": [
         "governance diamond",
@@ -10630,6 +10471,61 @@
         "accountable_entity": "governance_authority",
         "evidence_produced": [
           "policy_document"
+        ]
+      },
+      "crosswalk": {
+        "nist": [],
+        "iso": []
+      }
+    },
+    {
+      "term": "governance-risk-management-compliance",
+      "aliases": [
+        "Governance - Risk Management - Compliance"
+      ],
+      "definition": "Governance, risk management, and compliance (GRC) are three related facets that aim to assure an organization reliably achieves objectives, addresses uncertainty and acts with integrity. Governance is the combination of processes established and executed by the directors (or the board of directors) that are reflected in the organization's structure and how it is managed and led toward achieving goals. Risk management is predicting and managing risks that could hinder the organization from reliably achieving its objectives under uncertainty. Compliance refers to adhering with the mandated boundaries (laws and regulations) and voluntary boundaries (company's policies, procedures, etc.)",
+      "notes": [],
+      "see_also": [],
+      "sources": [
+        "[Wikipedia](https://en.wikipedia.org/wiki/Governance,_risk_management,_and_compliance)."
+      ],
+      "mental_models": [],
+      "supporting_definitions": [
+        "Also known as: [[ref: GRC]]."
+      ],
+      "source_file": "spec/terms-definitions/governance---risk-management---compliance.md",
+      "governance_profile": "core-operational",
+      "governance": {
+        "authority_scope": [
+          "governance_recognition"
+        ],
+        "delegation_mode": "direct",
+        "revocation_supported": false,
+        "lifecycle_states": [
+          "documented",
+          "active",
+          "deprecated"
+        ],
+        "execution_role": "runtime",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "definition_approval"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "definition_change_record"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "definition_approval"
+        ],
+        "accountable_entity": "governance_authority",
+        "evidence_produced": [
+          "definition_change_record"
         ]
       },
       "crosswalk": {
@@ -13273,6 +13169,58 @@
       }
     },
     {
+      "term": "itps",
+      "aliases": [
+        "ITPS",
+        "ITPS"
+      ],
+      "definition": "information-theoretic-security",
+      "notes": [],
+      "see_also": [],
+      "sources": [],
+      "mental_models": [],
+      "supporting_definitions": [],
+      "source_file": "spec/terms-definitions/ITPS.md",
+      "governance_profile": "descriptive",
+      "governance": {
+        "authority_scope": [
+          "terminology_definition"
+        ],
+        "delegation_mode": "direct",
+        "revocation_supported": false,
+        "lifecycle_states": [
+          "documented",
+          "active",
+          "deprecated"
+        ],
+        "execution_role": "design",
+        "control_plane_role": "reference_term",
+        "enforcement_points": [
+          "definition_approval"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "definition_change_record"
+        ],
+        "assurance_level_hint": "informative",
+        "auditability": "basic"
+      },
+      "control_plane": {
+        "decision_points": [
+          "definition_approval"
+        ],
+        "accountable_entity": "glossary_maintainers",
+        "evidence_produced": [
+          "definition_change_record"
+        ]
+      },
+      "crosswalk": {
+        "nist": [],
+        "iso": []
+      }
+    },
+    {
       "term": "jurisdiction",
       "aliases": [
         "jurisdiction",
@@ -14610,6 +14558,57 @@
         "accountable_entity": "glossary_maintainers",
         "evidence_produced": [
           "attestation"
+        ]
+      },
+      "crosswalk": {
+        "nist": [],
+        "iso": []
+      }
+    },
+    {
+      "term": "lid",
+      "aliases": [
+        "LID"
+      ],
+      "definition": "legitimized-human-meaningful-identifier",
+      "notes": [],
+      "see_also": [],
+      "sources": [],
+      "mental_models": [],
+      "supporting_definitions": [],
+      "source_file": "spec/terms-definitions/LID.md",
+      "governance_profile": "descriptive",
+      "governance": {
+        "authority_scope": [
+          "terminology_definition"
+        ],
+        "delegation_mode": "direct",
+        "revocation_supported": false,
+        "lifecycle_states": [
+          "documented",
+          "active",
+          "deprecated"
+        ],
+        "execution_role": "design",
+        "control_plane_role": "reference_term",
+        "enforcement_points": [
+          "definition_approval"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "definition_change_record"
+        ],
+        "assurance_level_hint": "informative",
+        "auditability": "basic"
+      },
+      "control_plane": {
+        "decision_points": [
+          "definition_approval"
+        ],
+        "accountable_entity": "glossary_maintainers",
+        "evidence_produced": [
+          "definition_change_record"
         ]
       },
       "crosswalk": {
@@ -20668,7 +20667,7 @@
       ],
       "definition": "A framework, pattern, or set of rules for enforcing a specific structure on a digital object or a set of digital data. There are many types of schemas, e.g., data schema, credential verification schema, database schema.",
       "notes": [
-        "`credentialSchema `is a Property Definition in the W3C VC Data Model, see 3.2.1"
+        "`credentialSchema` is a Property Definition in the W3C VC Data Model. See section 3.2.1."
       ],
       "see_also": [],
       "sources": [],

@@ -1,57 +1,72 @@
 # ToIP Main Glossary
 
-The ToIP Main Glossary is the canonical terminology baseline for decentralized digital trust infrastructure work across Trust over IP working groups, adjacent specifications, and ecosystem implementations.
+The ToIP Main Glossary is a **Governance-Executable Glossary** published as a **GitHub Pages** documentation site using **Jekyll** and **Just the Docs**.
 
-This repository now includes a **Governance-Executable Glossary** layer so that glossary terms can be consumed not only as prose but also as machine-readable governance primitives.
+This repository now treats the structured glossary layer under `glossary/terms/` as the operational source for generated site pages and machine-readable governance artifacts.
 
-## Repository structure
+## Operating model
 
-- `spec/` — source markdown for glossary terms and publication content
-- `glossary/terms/` — canonical structured term artifacts with governance metadata
-- `glossary/overlays/` — inventories, evidence patterns, and crosswalk guidance
-- `generated/` — generated markdown and machine-readable bundles
-- `docs/` — governance notes and published site artifacts
-- `schemas/` — schema artifacts for structured term validation
+- `glossary/terms/` — governance-executable YAML term artifacts
+- `glossary/overlays/` — governance, assurance, and mapping overlays
+- `generated/json/` — machine-readable glossary bundles
+- `generated/markdown/` — generated markdown bundle artifacts
+- `_terms/` — generated Jekyll pages for individual terms
+- `governance/` — governance documentation rendered by GitHub Pages
 - `tools/` — build and validation utilities
+- `.github/workflows/pages.yml` — GitHub Pages publication workflow
 
-## Governance-executable model
+## Publication architecture
 
-Each term now has a structured representation that can express:
+The repository no longer depends on the previous Spec-Up publication stack.
+
+Instead, publication now follows a simpler and more maintainable path:
+
+1. validate governance-executable term artifacts
+2. regenerate glossary JSON, JSON-LD, and markdown bundles
+3. generate Jekyll markdown pages from the structured source layer
+4. publish the site through GitHub Pages with Just the Docs
+
+## Local maintenance workflow
+
+```bash
+python tools/validate_governance_glossary.py
+python tools/build_governance_glossary.py
+python tools/build_jekyll_site.py
+bundle install
+bundle exec jekyll serve
+```
+
+## Generated site outputs
+
+- landing page at `index.md`
+- governance documentation under `governance/`
+- glossary term pages under `_terms/`
+- artifact download references under `artifacts.md`
+
+## Governance-executable semantics
+
+Each glossary term can express:
 
 - authority scope
 - delegation mode
 - revocation support
 - lifecycle states
 - execution role
+- control-plane role
 - evidence artifacts
-- control-plane decision points
+- assurance level hint
+- auditability
+- decision points
+- accountable entity
 - optional crosswalk references
 
-This makes the glossary more useful for assurance tooling, policy automation, runtime governance systems, and audit-oriented implementations.
+## Contribution guidance
 
-## Build and validation
-
-```bash
-npm install
-npm run render
-python tools/validate_governance_glossary.py
-python tools/build_governance_glossary.py
-```
-
-## Generated artifacts
-
-- `generated/json/governance-executable-glossary.json`
-- `generated/json/governance-executable-glossary.jsonld`
-- `generated/markdown/governance-executable-glossary.md`
-- `glossary/overlays/governance/inventory.json`
-
-## Maintainer guidance
-
-1. Update the markdown definition in `spec/terms-definitions/`
-2. Regenerate or revise the corresponding `glossary/terms/<term>.yaml`
-3. Validate the structured layer
-4. Publish the updated site and machine-readable bundles
+1. Update the relevant YAML file in `glossary/terms/`
+2. Run validation and rebuild scripts
+3. Review regenerated pages and artifact indexes
+4. Submit the change with documentation updates when semantics changed
 
 ## Design intent
 
-The objective is to preserve the glossary as a public editorial asset while making it usable as executable governance infrastructure. That means shifting from definitions that are only descriptive to terms that can support evidence, auditability, enforcement, and change control.
+The objective is to make glossary content easier to publish, easier to maintain, and easier to consume as machine-readable governance infrastructure. Markdown remains first-class for readers. Structured term artifacts remain first-class for assurance, interoperability, and automation workflows.

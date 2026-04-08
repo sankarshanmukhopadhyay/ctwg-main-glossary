@@ -4,7 +4,7 @@ aliases:
   - schemas
 definition: A framework, pattern, or set of rules for enforcing a specific structure on a digital object or a set of digital data. There are many types of schemas, e.g., data schema, credential verification schema, database schema.
 notes:
-  - `credentialSchema `is a Property Definition in the W3C VC Data Model, see 3.2.1
+  - "`credentialSchema` is a Property Definition in the W3C VC Data Model. See section 3.2.1."
 see_also:
   []
 sources:

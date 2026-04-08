@@ -1,10 +1,10 @@
 name: Validate Governance-Executable Glossary
 
 on:
-  push:
-    branches: [ main ]
   pull_request:
   workflow_dispatch:
+  push:
+    branches: [ main, master ]
 
 jobs:
   validate-governance-glossary:
@@ -18,7 +18,11 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Validate structured glossary layer
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Validate and regenerate glossary artifacts
         run: |
           python tools/validate_governance_glossary.py
           python tools/build_governance_glossary.py
+          python tools/build_jekyll_site.py

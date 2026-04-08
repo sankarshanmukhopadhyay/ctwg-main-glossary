@@ -1,0 +1,56 @@
+title: ToIP Main Glossary
+description: Governance-executable glossary for Trust Over IP concepts and ecosystem terminology.
+remote_theme: just-the-docs/just-the-docs
+color_scheme: light
+search_enabled: true
+heading_anchors: true
+nav_sort: case_insensitive
+permalink: pretty
+compress_html:
+  clippings: all
+  comments: all
+
+url: ""
+baseurl: ""
+
+aux_links:
+  "GitHub Repository":
+    - "https://github.com/trustoverip/ctwg-main-glossary"
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-include-cache
+
+exclude:
+  - LICENSE.md
+  - SOURCE_CODE.md
+  - .env.example
+  - package.json
+  - node_modules/
+  - vendor/
+  - spec/
+  - docs/versions/
+  - .github-backup/
+  - package-backup.json
+  - specs-backup.json
+
+just_the_docs:
+  collections:
+    terms:
+      name: Glossary Terms
+      nav_fold: true
+
+collections:
+  terms:
+    permalink: "/terms/:name/"
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "terms"
+    values:
+      layout: "default"
+      parent: "Glossary Terms"
+      nav_exclude: true
