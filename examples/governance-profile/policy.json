@@ -1,0 +1,15 @@
+{
+  "term_id": "policy",
+  "display_name": "policy",
+  "description": "A human-readable, machine-readable, or hybrid expression of rules and expected behavior that can be interpreted or enforced within a defined scope.",
+  "authority_scope": ["rule expression", "behavioral constraint"],
+  "delegation_supported": false,
+  "lifecycle_states": ["draft", "approved", "active", "retired", "superseded"],
+  "revocation_supported": true,
+  "revocation_actor": "policy authority",
+  "policy_artifacts": ["rules", "governance documents", "machine-readable policy files"],
+  "evidence_artifacts": ["version history", "approval records", "enforcement logs"],
+  "verification_points": ["policy evaluation", "runtime enforcement", "audit review"],
+  "accountable_actor": "policy authority",
+  "cross_refs": ["authority", "governance-framework", "authorization"]
+}

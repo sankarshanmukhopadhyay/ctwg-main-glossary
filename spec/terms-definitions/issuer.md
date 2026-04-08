@@ -1,6 +1,8 @@
 [[def: issuer, issuer, issuers]]
 
-~ A [[ref: role]] an [[ref: agent]] performs to package and [[ref: digitally sign]] a set of [[ref: claims]], typically in the form of a [[ref: digital credential]], and transmit them to a [[ref: holder]].
+~ A [[ref: role]] an [[ref: agent]] performs to assert a set of [[ref: claims]], package and [[ref: digitally sign]] them, typically in the form of a [[ref: digital credential]], and transmit them to a [[ref: holder]] under applicable policy and governance constraints.
+
+~ Note: An issuer commonly bears responsibility for issuance criteria, status maintenance, and revocation handling relevant to the credentials it issues.
 
 ~ See also: [[ref: verifier]], [[ref: holder]].
 

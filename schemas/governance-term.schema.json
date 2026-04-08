@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://trustoverip.github.io/ctwg-main-glossary/schemas/governance-term.schema.json",
+  "title": "Governance-Aware Glossary Term Profile",
+  "type": "object",
+  "required": ["term_id", "display_name", "description"],
+  "properties": {
+    "term_id": { "type": "string" },
+    "display_name": { "type": "string" },
+    "description": { "type": "string" },
+    "authority_scope": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "delegation_supported": { "type": "boolean" },
+    "delegation_constraints": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "lifecycle_states": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "revocation_supported": { "type": "boolean" },
+    "revocation_actor": { "type": "string" },
+    "policy_artifacts": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "evidence_artifacts": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "verification_points": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "accountable_actor": { "type": "string" },
+    "cross_refs": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  },
+  "additionalProperties": false
+}

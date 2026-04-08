@@ -1,6 +1,6 @@
 [[def: delegator, delegator, delegators]]
 
-~ The [[ref: first party]] making a [[ref: delegation]] to a [[ref: second party]] (the [[ref: delegatee]]).
+~ The [[ref: first party]] that makes a [[ref: delegation]] to a [[ref: second party]] (the [[ref: delegatee]]) and remains accountable for granting authority within the permitted scope.
 
 ~ Supporting definitions:
 

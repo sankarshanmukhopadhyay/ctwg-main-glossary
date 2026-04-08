@@ -1,7 +1,7 @@
 [[def: delegation, delegation, delegate, delegated, delegates]]
 
-~ A person or group of persons officially elected or appointed to represent another or others.
+~ The act of a [[ref: first party]] (the [[ref: delegator]]) [[ref: authorizing]] a [[ref: second party]] (the [[ref: delegatee]]) to perform a defined set of [[ref: actions]] on behalf of the [[ref: first party]] within an authorized scope and subject to applicable constraints.
 
-~ The act of a [[ref: first party]] [[ref: authorizing]] a [[ref: second party]] to perform a set of [[ref: actions]] for or on behalf of the [[ref: first party]]. Delegation may be performed by the first party (the [[ref: delegator]]) issuing a [[ref: delegation credential]] that gives a certain set of [[ref: capabilities]] to the [[ref: second party]] (the [[ref: delegatee]]).
+~ Delegation may be expressed through a [[ref: delegation credential]] or other policy-governed mechanism and may be limited by scope, time, conditions, or revocation.
 
 ~ More specific for KERI see: [[xref: keri1, delegated-identifier]]

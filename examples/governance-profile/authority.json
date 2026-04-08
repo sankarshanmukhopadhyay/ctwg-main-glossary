@@ -1,0 +1,16 @@
+{
+  "term_id": "authority",
+  "display_name": "authority",
+  "description": "A party whose decisions, policies, or rules are recognized as governing or directive within a stated scope.",
+  "authority_scope": ["decision-making", "rule-setting", "recognition"],
+  "delegation_supported": true,
+  "delegation_constraints": ["must remain within an authorized scope", "must remain contestable under the governing framework"],
+  "lifecycle_states": ["active", "suspended", "revoked", "superseded"],
+  "revocation_supported": true,
+  "revocation_actor": "governing body or other authorized authority",
+  "policy_artifacts": ["governance framework", "policy documents", "rules"],
+  "evidence_artifacts": ["published policies", "registry entries", "decision records"],
+  "verification_points": ["admission checks", "reliance decisions", "audit review"],
+  "accountable_actor": "the authority or its recognized delegate",
+  "cross_refs": ["policy", "delegation", "governance-framework", "control-authority"]
+}

@@ -1,0 +1,16 @@
+{
+  "term_id": "revocation",
+  "display_name": "revocation",
+  "description": "An event or state change by which an authorized actor terminates or withdraws the validity or rely-ability of a credential, key, authorization, or related artifact.",
+  "authority_scope": ["status invalidation"],
+  "delegation_supported": true,
+  "delegation_constraints": ["must be performed by an authorized actor", "must be communicated through valid status mechanisms"],
+  "lifecycle_states": ["valid", "revoked"],
+  "revocation_supported": true,
+  "revocation_actor": "issuer, controller, or other authorized governance actor",
+  "policy_artifacts": ["status policy", "revocation rules"],
+  "evidence_artifacts": ["status list", "revocation log", "timestamped notice"],
+  "verification_points": ["status checks", "reliance decisions", "forensic review"],
+  "accountable_actor": "actor performing revocation or governing authority overseeing the process",
+  "cross_refs": ["issuer", "controller", "credential", "policy"]
+}

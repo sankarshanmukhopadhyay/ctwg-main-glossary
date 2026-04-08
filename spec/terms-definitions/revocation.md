@@ -1,6 +1,8 @@
 [[def: revocation, revocation, revocations, revoke, revokes, revoked, revoking]]
 
-~ In the context of [[ref: digital credentials]], revocation is an event signifying that the [[ref: issuer]] no longer attests to the [[ref: validity]] of a [[ref: credential]] they have [[ref: issued]]. In the context of cryptographic keys, revocation is an event signifying that the [[ref: controller]] no longer attests to the [[ref: validity]] of a public/private key pair for which the [[ref: controller]] is [[ref: authoritative]].
+~ In the context of [[ref: digital credentials]], revocation is an event or status change signifying that the [[ref: issuer]] no longer attests to the [[ref: validity]] of a [[ref: credential]] it has [[ref: issued]]. In the context of cryptographic keys, revocation is an event or status change signifying that the [[ref: controller]] no longer attests to the [[ref: validity]] of a public/private key pair for which the [[ref: controller]] is [[ref: authoritative]].
+
+~ Note: Revocation only has practical effect when relying parties or other affected actors can discover and act on the changed status.
 
 ~ See also: [[ref: issuance]], [[ref: presentation]].
 

@@ -1,6 +1,6 @@
 [[def: governance-framework, governance framework, governance frameworks]]
 
-~ A collection of one or more [[ref: governance documents]] published by the [[ref: governing body]] of a [[ref: trust community]]. 
+~ A collection of one or more [[ref: governance documents]] published by the [[ref: governing body]] of a [[ref: trust community]] that defines the rules, roles, responsibilities, and decision rights under which that community operates.
 
 ~ Also known as: [[ref: trust framework]].
 
