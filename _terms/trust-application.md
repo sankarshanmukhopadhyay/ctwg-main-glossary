@@ -2,6 +2,8 @@
 title: "trust-application"
 ---
 
+> Generated file. Update `glossary/terms/trust-application.yaml` and regenerate artifacts instead of editing this page directly.
+
 # trust-application
 
 ## Definition

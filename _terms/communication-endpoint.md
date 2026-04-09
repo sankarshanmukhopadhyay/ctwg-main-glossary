@@ -2,6 +2,8 @@
 title: "communication-endpoint"
 ---
 
+> Generated file. Update `glossary/terms/communication-endpoint.yaml` and regenerate artifacts instead of editing this page directly.
+
 # communication-endpoint
 
 ## Definition

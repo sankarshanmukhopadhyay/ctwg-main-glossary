@@ -2,6 +2,8 @@
 title: "deceptive-pattern"
 ---
 
+> Generated file. Update `glossary/terms/deceptive-pattern.yaml` and regenerate artifacts instead of editing this page directly.
+
 # deceptive-pattern
 
 ## Definition

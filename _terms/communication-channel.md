@@ -2,6 +2,8 @@
 title: "communication-channel"
 ---
 
+> Generated file. Update `glossary/terms/communication-channel.yaml` and regenerate artifacts instead of editing this page directly.
+
 # communication-channel
 
 ## Definition

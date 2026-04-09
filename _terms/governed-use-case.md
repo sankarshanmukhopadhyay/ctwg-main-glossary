@@ -2,6 +2,8 @@
 title: "governed-use-case"
 ---
 
+> Generated file. Update `glossary/terms/governed-use-case.yaml` and regenerate artifacts instead of editing this page directly.
+
 # governed-use-case
 
 ## Definition

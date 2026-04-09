@@ -2,6 +2,8 @@
 title: "operational-circumstances"
 ---
 
+> Generated file. Update `glossary/terms/operational-circumstances.yaml` and regenerate artifacts instead of editing this page directly.
+
 # operational-circumstances
 
 ## Definition

@@ -2,6 +2,8 @@
 title: "dead-drop"
 ---
 
+> Generated file. Update `glossary/terms/dead-drop.yaml` and regenerate artifacts instead of editing this page directly.
+
 # dead-drop
 
 ## Definition

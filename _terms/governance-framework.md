@@ -2,6 +2,8 @@
 title: "governance-framework"
 ---
 
+> Generated file. Update `glossary/terms/governance-framework.yaml` and regenerate artifacts instead of editing this page directly.
+
 # governance-framework
 
 ## Definition

@@ -2,6 +2,8 @@
 title: "zero-knowledge-service-provider"
 ---
 
+> Generated file. Update `glossary/terms/zero-knowledge-service-provider.yaml` and regenerate artifacts instead of editing this page directly.
+
 # zero-knowledge-service-provider
 
 ## Definition

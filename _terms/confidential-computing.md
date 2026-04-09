@@ -2,6 +2,8 @@
 title: "confidential-computing"
 ---
 
+> Generated file. Update `glossary/terms/confidential-computing.yaml` and regenerate artifacts instead of editing this page directly.
+
 # confidential-computing
 
 ## Definition

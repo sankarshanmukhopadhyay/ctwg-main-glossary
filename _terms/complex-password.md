@@ -2,6 +2,8 @@
 title: "complex-password"
 ---
 
+> Generated file. Update `glossary/terms/complex-password.yaml` and regenerate artifacts instead of editing this page directly.
+
 # complex-password
 
 ## Definition

@@ -2,6 +2,8 @@
 title: "udp"
 ---
 
+> Generated file. Update `glossary/terms/udp.yaml` and regenerate artifacts instead of editing this page directly.
+
 # udp
 
 ## Definition

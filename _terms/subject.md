@@ -2,6 +2,8 @@
 title: "subject"
 ---
 
+> Generated file. Update `glossary/terms/subject.yaml` and regenerate artifacts instead of editing this page directly.
+
 # subject
 
 ## Definition

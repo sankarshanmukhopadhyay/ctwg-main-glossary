@@ -2,6 +2,8 @@
 title: "personal-data-store"
 ---
 
+> Generated file. Update `glossary/terms/personal-data-store.yaml` and regenerate artifacts instead of editing this page directly.
+
 # personal-data-store
 
 ## Definition

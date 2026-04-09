@@ -2,6 +2,8 @@
 title: "self-certified"
 ---
 
+> Generated file. Update `glossary/terms/self-certified.yaml` and regenerate artifacts instead of editing this page directly.
+
 # self-certified
 
 ## Definition

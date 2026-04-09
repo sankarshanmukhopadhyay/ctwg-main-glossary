@@ -2,6 +2,8 @@
 title: "acceptance"
 ---
 
+> Generated file. Update `glossary/terms/acceptance.yaml` and regenerate artifacts instead of editing this page directly.
+
 # acceptance
 
 ## Definition

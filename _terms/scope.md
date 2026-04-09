@@ -2,6 +2,8 @@
 title: "scope"
 ---
 
+> Generated file. Update `glossary/terms/scope.yaml` and regenerate artifacts instead of editing this page directly.
+
 # scope
 
 ## Definition

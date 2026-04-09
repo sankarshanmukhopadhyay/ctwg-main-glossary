@@ -47,6 +47,9 @@ jobs:
       - name: Generate Jekyll pages from governance source layer
         run: python tools/build_jekyll_site.py
 
+      - name: Verify generated artifacts are in sync
+        run: git diff --exit-code -- . ':!docs/'
+
       - name: Build site
         run: bundle exec jekyll build --destination _site
 

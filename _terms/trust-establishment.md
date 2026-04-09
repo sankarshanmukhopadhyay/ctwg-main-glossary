@@ -2,6 +2,8 @@
 title: "trust-establishment"
 ---
 
+> Generated file. Update `glossary/terms/trust-establishment.yaml` and regenerate artifacts instead of editing this page directly.
+
 # trust-establishment
 
 ## Definition

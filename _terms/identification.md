@@ -2,6 +2,8 @@
 title: "identification"
 ---
 
+> Generated file. Update `glossary/terms/identification.yaml` and regenerate artifacts instead of editing this page directly.
+
 # identification
 
 ## Definition

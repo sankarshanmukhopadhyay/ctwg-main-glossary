@@ -2,6 +2,8 @@
 title: "toip-communication"
 ---
 
+> Generated file. Update `glossary/terms/toip-communication.yaml` and regenerate artifacts instead of editing this page directly.
+
 # toip-communication
 
 ## Definition

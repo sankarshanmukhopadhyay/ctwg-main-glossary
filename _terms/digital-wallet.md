@@ -2,6 +2,8 @@
 title: "digital-wallet"
 ---
 
+> Generated file. Update `glossary/terms/digital-wallet.yaml` and regenerate artifacts instead of editing this page directly.
+
 # digital-wallet
 
 ## Definition

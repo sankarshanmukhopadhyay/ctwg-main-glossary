@@ -2,6 +2,8 @@
 title: "man-made-thing"
 ---
 
+> Generated file. Update `glossary/terms/man-made-thing.yaml` and regenerate artifacts instead of editing this page directly.
+
 # man-made-thing
 
 ## Definition

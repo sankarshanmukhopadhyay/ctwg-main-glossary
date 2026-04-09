@@ -2,6 +2,8 @@
 title: "vid"
 ---
 
+> Generated file. Update `glossary/terms/vid.yaml` and regenerate artifacts instead of editing this page directly.
+
 # vid
 
 ## Definition

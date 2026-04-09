@@ -2,6 +2,8 @@
 title: "verifiable"
 ---
 
+> Generated file. Update `glossary/terms/verifiable.yaml` and regenerate artifacts instead of editing this page directly.
+
 # verifiable
 
 ## Definition

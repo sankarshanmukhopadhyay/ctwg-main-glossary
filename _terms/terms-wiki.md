@@ -2,6 +2,8 @@
 title: "terms-wiki"
 ---
 
+> Generated file. Update `glossary/terms/terms-wiki.yaml` and regenerate artifacts instead of editing this page directly.
+
 # terms-wiki
 
 ## Definition

@@ -2,6 +2,8 @@
 title: "self-certifying-identifier"
 ---
 
+> Generated file. Update `glossary/terms/self-certifying-identifier.yaml` and regenerate artifacts instead of editing this page directly.
+
 # self-certifying-identifier
 
 ## Definition

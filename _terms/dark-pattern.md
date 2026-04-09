@@ -2,6 +2,8 @@
 title: "dark-pattern"
 ---
 
+> Generated file. Update `glossary/terms/dark-pattern.yaml` and regenerate artifacts instead of editing this page directly.
+
 # dark-pattern
 
 ## Definition

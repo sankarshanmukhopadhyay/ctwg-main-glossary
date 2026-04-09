@@ -2,6 +2,8 @@
 title: "did-controller"
 ---
 
+> Generated file. Update `glossary/terms/did-controller.yaml` and regenerate artifacts instead of editing this page directly.
+
 # did-controller
 
 ## Definition

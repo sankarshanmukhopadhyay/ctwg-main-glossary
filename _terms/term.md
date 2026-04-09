@@ -2,6 +2,8 @@
 title: "term"
 ---
 
+> Generated file. Update `glossary/terms/term.yaml` and regenerate artifacts instead of editing this page directly.
+
 # term
 
 ## Definition

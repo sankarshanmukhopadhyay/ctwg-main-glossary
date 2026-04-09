@@ -2,6 +2,8 @@
 title: "host"
 ---
 
+> Generated file. Update `glossary/terms/host.yaml` and regenerate artifacts instead of editing this page directly.
+
 # host
 
 ## Definition

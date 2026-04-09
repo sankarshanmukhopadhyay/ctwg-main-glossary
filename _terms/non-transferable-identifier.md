@@ -2,6 +2,8 @@
 title: "non-transferable-identifier"
 ---
 
+> Generated file. Update `glossary/terms/non-transferable-identifier.yaml` and regenerate artifacts instead of editing this page directly.
+
 # non-transferable-identifier
 
 ## Definition

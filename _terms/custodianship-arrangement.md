@@ -2,6 +2,8 @@
 title: "custodianship-arrangement"
 ---
 
+> Generated file. Update `glossary/terms/custodianship-arrangement.yaml` and regenerate artifacts instead of editing this page directly.
+
 # custodianship-arrangement
 
 ## Definition

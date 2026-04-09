@@ -2,6 +2,8 @@
 title: "toip-connection"
 ---
 
+> Generated file. Update `glossary/terms/toip-connection.yaml` and regenerate artifacts instead of editing this page directly.
+
 # toip-connection
 
 ## Definition

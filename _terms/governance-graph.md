@@ -2,6 +2,8 @@
 title: "governance-graph"
 ---
 
+> Generated file. Update `glossary/terms/governance-graph.yaml` and regenerate artifacts instead of editing this page directly.
+
 # governance-graph
 
 ## Definition

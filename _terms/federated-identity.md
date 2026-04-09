@@ -2,6 +2,8 @@
 title: "federated-identity"
 ---
 
+> Generated file. Update `glossary/terms/federated-identity.yaml` and regenerate artifacts instead of editing this page directly.
+
 # federated-identity
 
 ## Definition

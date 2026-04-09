@@ -2,6 +2,8 @@
 title: "locus-of-control"
 ---
 
+> Generated file. Update `glossary/terms/locus-of-control.yaml` and regenerate artifacts instead of editing this page directly.
+
 # locus-of-control
 
 ## Definition

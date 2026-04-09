@@ -2,6 +2,8 @@
 title: "identity-data"
 ---
 
+> Generated file. Update `glossary/terms/identity-data.yaml` and regenerate artifacts instead of editing this page directly.
+
 # identity-data
 
 ## Definition

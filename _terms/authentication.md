@@ -2,6 +2,8 @@
 title: "authentication"
 ---
 
+> Generated file. Update `glossary/terms/authentication.yaml` and regenerate artifacts instead of editing this page directly.
+
 # authentication
 
 ## Definition

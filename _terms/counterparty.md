@@ -2,6 +2,8 @@
 title: "counterparty"
 ---
 
+> Generated file. Update `glossary/terms/counterparty.yaml` and regenerate artifacts instead of editing this page directly.
+
 # counterparty
 
 ## Definition

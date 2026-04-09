@@ -2,6 +2,8 @@
 title: "governance-requirement"
 ---
 
+> Generated file. Update `glossary/terms/governance-requirement.yaml` and regenerate artifacts instead of editing this page directly.
+
 # governance-requirement
 
 ## Definition

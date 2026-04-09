@@ -2,6 +2,8 @@
 title: "presentation-request"
 ---
 
+> Generated file. Update `glossary/terms/presentation-request.yaml` and regenerate artifacts instead of editing this page directly.
+
 # presentation-request
 
 ## Definition

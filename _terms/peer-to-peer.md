@@ -2,6 +2,8 @@
 title: "peer-to-peer"
 ---
 
+> Generated file. Update `glossary/terms/peer-to-peer.yaml` and regenerate artifacts instead of editing this page directly.
+
 # peer-to-peer
 
 ## Definition

@@ -2,6 +2,8 @@
 title: "integrity"
 ---
 
+> Generated file. Update `glossary/terms/integrity.yaml` and regenerate artifacts instead of editing this page directly.
+
 # integrity
 
 ## Definition

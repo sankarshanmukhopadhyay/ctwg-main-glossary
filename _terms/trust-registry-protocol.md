@@ -2,6 +2,8 @@
 title: "trust-registry-protocol"
 ---
 
+> Generated file. Update `glossary/terms/trust-registry-protocol.yaml` and regenerate artifacts instead of editing this page directly.
+
 # trust-registry-protocol
 
 ## Definition

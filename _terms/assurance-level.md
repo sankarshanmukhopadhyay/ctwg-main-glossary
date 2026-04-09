@@ -2,6 +2,8 @@
 title: "assurance-level"
 ---
 
+> Generated file. Update `glossary/terms/assurance-level.yaml` and regenerate artifacts instead of editing this page directly.
+
 # assurance-level
 
 ## Definition

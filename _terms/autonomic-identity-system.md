@@ -2,6 +2,8 @@
 title: "autonomic-identity-system"
 ---
 
+> Generated file. Update `glossary/terms/autonomic-identity-system.yaml` and regenerate artifacts instead of editing this page directly.
+
 # autonomic-identity-system
 
 ## Definition

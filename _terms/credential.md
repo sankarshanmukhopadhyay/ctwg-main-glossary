@@ -2,6 +2,8 @@
 title: "credential"
 ---
 
+> Generated file. Update `glossary/terms/credential.yaml` and regenerate artifacts instead of editing this page directly.
+
 # credential
 
 ## Definition

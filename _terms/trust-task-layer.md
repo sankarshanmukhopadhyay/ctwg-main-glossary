@@ -2,6 +2,8 @@
 title: "trust-task-layer"
 ---
 
+> Generated file. Update `glossary/terms/trust-task-layer.yaml` and regenerate artifacts instead of editing this page directly.
+
 # trust-task-layer
 
 ## Definition

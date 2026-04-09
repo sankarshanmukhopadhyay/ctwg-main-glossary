@@ -2,6 +2,8 @@
 title: "ip-address"
 ---
 
+> Generated file. Update `glossary/terms/ip-address.yaml` and regenerate artifacts instead of editing this page directly.
+
 # ip-address
 
 ## Definition

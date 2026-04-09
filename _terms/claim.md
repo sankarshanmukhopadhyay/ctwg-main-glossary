@@ -2,6 +2,8 @@
 title: "claim"
 ---
 
+> Generated file. Update `glossary/terms/claim.yaml` and regenerate artifacts instead of editing this page directly.
+
 # claim
 
 ## Definition

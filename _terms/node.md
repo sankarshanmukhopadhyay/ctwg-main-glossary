@@ -2,6 +2,8 @@
 title: "node"
 ---
 
+> Generated file. Update `glossary/terms/node.yaml` and regenerate artifacts instead of editing this page directly.
+
 # node
 
 ## Definition

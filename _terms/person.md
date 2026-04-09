@@ -2,6 +2,8 @@
 title: "person"
 ---
 
+> Generated file. Update `glossary/terms/person.yaml` and regenerate artifacts instead of editing this page directly.
+
 # person
 
 ## Definition

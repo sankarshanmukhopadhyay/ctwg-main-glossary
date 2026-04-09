@@ -2,6 +2,8 @@
 title: "ip"
 ---
 
+> Generated file. Update `glossary/terms/ip.yaml` and regenerate artifacts instead of editing this page directly.
+
 # ip
 
 ## Definition

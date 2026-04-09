@@ -2,6 +2,8 @@
 title: "uniform-resource-identifier"
 ---
 
+> Generated file. Update `glossary/terms/uniform-resource-identifier.yaml` and regenerate artifacts instead of editing this page directly.
+
 # uniform-resource-identifier
 
 ## Definition

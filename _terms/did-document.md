@@ -2,6 +2,8 @@
 title: "did-document"
 ---
 
+> Generated file. Update `glossary/terms/did-document.yaml` and regenerate artifacts instead of editing this page directly.
+
 # did-document
 
 ## Definition

@@ -2,6 +2,8 @@
 title: "certificate-authority"
 ---
 
+> Generated file. Update `glossary/terms/certificate-authority.yaml` and regenerate artifacts instead of editing this page directly.
+
 # certificate-authority
 
 ## Definition

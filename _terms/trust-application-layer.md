@@ -2,6 +2,8 @@
 title: "trust-application-layer"
 ---
 
+> Generated file. Update `glossary/terms/trust-application-layer.yaml` and regenerate artifacts instead of editing this page directly.
+
 # trust-application-layer
 
 ## Definition

@@ -1,3 +1,9 @@
+---
+title: "Term Quality Rubric"
+parent: Governance Documentation
+nav_order: 10
+---
+
 # Term Quality Rubric
 
 Use this rubric when creating or refining glossary terms.

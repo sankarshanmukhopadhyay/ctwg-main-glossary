@@ -2,6 +2,8 @@
 title: "legal-entity"
 ---
 
+> Generated file. Update `glossary/terms/legal-entity.yaml` and regenerate artifacts instead of editing this page directly.
+
 # legal-entity
 
 ## Definition

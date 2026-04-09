@@ -1,3 +1,9 @@
+---
+title: "Review and Gap Analysis"
+parent: Governance Documentation
+nav_order: 10
+---
+
 # Main Glossary Review: Gaps and Improvement Areas
 
 This review captures the main repository and content improvements needed to strengthen the glossary as an implementation asset, not only as a terminology reference.

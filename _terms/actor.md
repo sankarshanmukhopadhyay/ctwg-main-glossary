@@ -2,6 +2,8 @@
 title: "actor"
 ---
 
+> Generated file. Update `glossary/terms/actor.yaml` and regenerate artifacts instead of editing this page directly.
+
 # actor
 
 ## Definition

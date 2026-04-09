@@ -2,6 +2,8 @@
 title: "key-event-receipt-infrastructure"
 ---
 
+> Generated file. Update `glossary/terms/key-event-receipt-infrastructure.yaml` and regenerate artifacts instead of editing this page directly.
+
 # key-event-receipt-infrastructure
 
 ## Definition

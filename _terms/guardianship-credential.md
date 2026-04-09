@@ -2,6 +2,8 @@
 title: "guardianship-credential"
 ---
 
+> Generated file. Update `glossary/terms/guardianship-credential.yaml` and regenerate artifacts instead of editing this page directly.
+
 # guardianship-credential
 
 ## Definition

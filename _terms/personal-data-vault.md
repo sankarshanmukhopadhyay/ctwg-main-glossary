@@ -2,6 +2,8 @@
 title: "personal-data-vault"
 ---
 
+> Generated file. Update `glossary/terms/personal-data-vault.yaml` and regenerate artifacts instead of editing this page directly.
+
 # personal-data-vault
 
 ## Definition

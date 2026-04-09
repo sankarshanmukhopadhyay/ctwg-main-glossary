@@ -2,6 +2,8 @@
 title: "acceptance-network"
 ---
 
+> Generated file. Update `glossary/terms/acceptance-network.yaml` and regenerate artifacts instead of editing this page directly.
+
 # acceptance-network
 
 ## Definition

@@ -2,6 +2,8 @@
 title: "ial"
 ---
 
+> Generated file. Update `glossary/terms/ial.yaml` and regenerate artifacts instead of editing this page directly.
+
 # ial
 
 ## Definition

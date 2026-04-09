@@ -2,6 +2,8 @@
 title: "party"
 ---
 
+> Generated file. Update `glossary/terms/party.yaml` and regenerate artifacts instead of editing this page directly.
+
 # party
 
 ## Definition

@@ -2,6 +2,8 @@
 title: "thing"
 ---
 
+> Generated file. Update `glossary/terms/thing.yaml` and regenerate artifacts instead of editing this page directly.
+
 # thing
 
 ## Definition

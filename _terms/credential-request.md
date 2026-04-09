@@ -2,6 +2,8 @@
 title: "credential-request"
 ---
 
+> Generated file. Update `glossary/terms/credential-request.yaml` and regenerate artifacts instead of editing this page directly.
+
 # credential-request
 
 ## Definition

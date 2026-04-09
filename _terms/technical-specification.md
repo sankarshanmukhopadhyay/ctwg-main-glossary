@@ -2,6 +2,8 @@
 title: "technical-specification"
 ---
 
+> Generated file. Update `glossary/terms/technical-specification.yaml` and regenerate artifacts instead of editing this page directly.
+
 # technical-specification
 
 ## Definition

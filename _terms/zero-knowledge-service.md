@@ -2,6 +2,8 @@
 title: "zero-knowledge-service"
 ---
 
+> Generated file. Update `glossary/terms/zero-knowledge-service.yaml` and regenerate artifacts instead of editing this page directly.
+
 # zero-knowledge-service
 
 ## Definition

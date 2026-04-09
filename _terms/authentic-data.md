@@ -2,6 +2,8 @@
 title: "authentic-data"
 ---
 
+> Generated file. Update `glossary/terms/authentic-data.yaml` and regenerate artifacts instead of editing this page directly.
+
 # authentic-data
 
 ## Definition

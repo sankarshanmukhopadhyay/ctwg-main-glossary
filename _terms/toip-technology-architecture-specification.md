@@ -2,6 +2,8 @@
 title: "toip-technology-architecture-specification"
 ---
 
+> Generated file. Update `glossary/terms/toip-technology-architecture-specification.yaml` and regenerate artifacts instead of editing this page directly.
+
 # toip-technology-architecture-specification
 
 ## Definition

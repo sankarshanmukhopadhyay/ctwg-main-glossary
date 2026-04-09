@@ -2,6 +2,8 @@
 title: "privacy-policy"
 ---
 
+> Generated file. Update `glossary/terms/privacy-policy.yaml` and regenerate artifacts instead of editing this page directly.
+
 # privacy-policy
 
 ## Definition

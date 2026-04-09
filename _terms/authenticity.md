@@ -2,6 +2,8 @@
 title: "authenticity"
 ---
 
+> Generated file. Update `glossary/terms/authenticity.yaml` and regenerate artifacts instead of editing this page directly.
+
 # authenticity
 
 ## Definition

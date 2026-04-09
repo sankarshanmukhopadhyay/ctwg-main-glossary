@@ -2,6 +2,8 @@
 title: "rwi"
 ---
 
+> Generated file. Update `glossary/terms/rwi.yaml` and regenerate artifacts instead of editing this page directly.
+
 # rwi
 
 ## Definition

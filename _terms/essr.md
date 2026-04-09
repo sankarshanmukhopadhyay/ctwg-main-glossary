@@ -2,6 +2,8 @@
 title: "essr"
 ---
 
+> Generated file. Update `glossary/terms/essr.yaml` and regenerate artifacts instead of editing this page directly.
+
 # essr
 
 ## Definition

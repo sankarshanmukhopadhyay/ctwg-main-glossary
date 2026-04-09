@@ -2,6 +2,8 @@
 title: "organizational-authority"
 ---
 
+> Generated file. Update `glossary/terms/organizational-authority.yaml` and regenerate artifacts instead of editing this page directly.
+
 # organizational-authority
 
 ## Definition

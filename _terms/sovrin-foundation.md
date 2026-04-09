@@ -2,6 +2,8 @@
 title: "sovrin-foundation"
 ---
 
+> Generated file. Update `glossary/terms/sovrin-foundation.yaml` and regenerate artifacts instead of editing this page directly.
+
 # sovrin-foundation
 
 ## Definition

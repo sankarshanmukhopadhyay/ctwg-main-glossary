@@ -2,6 +2,8 @@
 title: "decentralized-identifier"
 ---
 
+> Generated file. Update `glossary/terms/decentralized-identifier.yaml` and regenerate artifacts instead of editing this page directly.
+
 # decentralized-identifier
 
 ## Definition

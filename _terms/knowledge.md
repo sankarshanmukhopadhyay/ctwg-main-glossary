@@ -2,6 +2,8 @@
 title: "knowledge"
 ---
 
+> Generated file. Update `glossary/terms/knowledge.yaml` and regenerate artifacts instead of editing this page directly.
+
 # knowledge
 
 ## Definition

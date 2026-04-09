@@ -2,6 +2,8 @@
 title: "public-key-certificate"
 ---
 
+> Generated file. Update `glossary/terms/public-key-certificate.yaml` and regenerate artifacts instead of editing this page directly.
+
 # public-key-certificate
 
 ## Definition

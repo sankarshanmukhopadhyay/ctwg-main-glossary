@@ -2,6 +2,8 @@
 title: "user-agent"
 ---
 
+> Generated file. Update `glossary/terms/user-agent.yaml` and regenerate artifacts instead of editing this page directly.
+
 # user-agent
 
 ## Definition

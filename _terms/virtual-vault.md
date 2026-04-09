@@ -2,6 +2,8 @@
 title: "virtual-vault"
 ---
 
+> Generated file. Update `glossary/terms/virtual-vault.yaml` and regenerate artifacts instead of editing this page directly.
+
 # virtual-vault
 
 ## Definition

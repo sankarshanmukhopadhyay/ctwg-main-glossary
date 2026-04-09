@@ -2,6 +2,8 @@
 title: "sensitive-data"
 ---
 
+> Generated file. Update `glossary/terms/sensitive-data.yaml` and regenerate artifacts instead of editing this page directly.
+
 # sensitive-data
 
 ## Definition

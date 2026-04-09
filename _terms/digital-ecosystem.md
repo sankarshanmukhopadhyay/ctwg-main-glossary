@@ -2,6 +2,8 @@
 title: "digital-ecosystem"
 ---
 
+> Generated file. Update `glossary/terms/digital-ecosystem.yaml` and regenerate artifacts instead of editing this page directly.
+
 # digital-ecosystem
 
 ## Definition

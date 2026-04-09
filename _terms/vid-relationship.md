@@ -2,6 +2,8 @@
 title: "vid-relationship"
 ---
 
+> Generated file. Update `glossary/terms/vid-relationship.yaml` and regenerate artifacts instead of editing this page directly.
+
 # vid-relationship
 
 ## Definition

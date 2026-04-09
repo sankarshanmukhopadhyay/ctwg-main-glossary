@@ -2,6 +2,8 @@
 title: "identity-proofing"
 ---
 
+> Generated file. Update `glossary/terms/identity-proofing.yaml` and regenerate artifacts instead of editing this page directly.
+
 # identity-proofing
 
 ## Definition

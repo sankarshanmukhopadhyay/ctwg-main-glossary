@@ -2,6 +2,8 @@
 title: "trust-support-layer"
 ---
 
+> Generated file. Update `glossary/terms/trust-support-layer.yaml` and regenerate artifacts instead of editing this page directly.
+
 # trust-support-layer
 
 ## Definition

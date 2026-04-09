@@ -2,6 +2,8 @@
 title: "toip-relationship"
 ---
 
+> Generated file. Update `glossary/terms/toip-relationship.yaml` and regenerate artifacts instead of editing this page directly.
+
 # toip-relationship
 
 ## Definition

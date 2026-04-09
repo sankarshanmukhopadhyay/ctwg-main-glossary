@@ -2,6 +2,8 @@
 title: "legal-identity"
 ---
 
+> Generated file. Update `glossary/terms/legal-identity.yaml` and regenerate artifacts instead of editing this page directly.
+
 # legal-identity
 
 ## Definition

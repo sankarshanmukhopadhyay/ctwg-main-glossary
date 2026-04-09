@@ -2,6 +2,8 @@
 title: "pki"
 ---
 
+> Generated file. Update `glossary/terms/pki.yaml` and regenerate artifacts instead of editing this page directly.
+
 # pki
 
 ## Definition

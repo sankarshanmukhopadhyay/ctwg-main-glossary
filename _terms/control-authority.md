@@ -2,6 +2,8 @@
 title: "control-authority"
 ---
 
+> Generated file. Update `glossary/terms/control-authority.yaml` and regenerate artifacts instead of editing this page directly.
+
 # control-authority
 
 ## Definition

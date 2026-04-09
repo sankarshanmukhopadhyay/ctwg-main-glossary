@@ -2,6 +2,8 @@
 title: "toip-specification"
 ---
 
+> Generated file. Update `glossary/terms/toip-specification.yaml` and regenerate artifacts instead of editing this page directly.
+
 # toip-specification
 
 ## Definition

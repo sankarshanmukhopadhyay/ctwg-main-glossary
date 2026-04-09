@@ -2,6 +2,8 @@
 title: "digital-vault"
 ---
 
+> Generated file. Update `glossary/terms/digital-vault.yaml` and regenerate artifacts instead of editing this page directly.
+
 # digital-vault
 
 ## Definition

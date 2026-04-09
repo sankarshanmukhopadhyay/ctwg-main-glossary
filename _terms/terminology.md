@@ -2,6 +2,8 @@
 title: "terminology"
 ---
 
+> Generated file. Update `glossary/terms/terminology.yaml` and regenerate artifacts instead of editing this page directly.
+
 # terminology
 
 ## Definition

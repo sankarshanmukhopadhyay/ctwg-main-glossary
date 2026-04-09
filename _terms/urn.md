@@ -2,6 +2,8 @@
 title: "urn"
 ---
 
+> Generated file. Update `glossary/terms/urn.yaml` and regenerate artifacts instead of editing this page directly.
+
 # urn
 
 ## Definition

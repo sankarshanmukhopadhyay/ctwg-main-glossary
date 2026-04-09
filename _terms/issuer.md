@@ -2,6 +2,8 @@
 title: "issuer"
 ---
 
+> Generated file. Update `glossary/terms/issuer.yaml` and regenerate artifacts instead of editing this page directly.
+
 # issuer
 
 ## Definition

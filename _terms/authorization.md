@@ -2,6 +2,8 @@
 title: "authorization"
 ---
 
+> Generated file. Update `glossary/terms/authorization.yaml` and regenerate artifacts instead of editing this page directly.
+
 # authorization
 
 ## Definition

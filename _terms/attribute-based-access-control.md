@@ -2,6 +2,8 @@
 title: "attribute-based-access-control"
 ---
 
+> Generated file. Update `glossary/terms/attribute-based-access-control.yaml` and regenerate artifacts instead of editing this page directly.
+
 # attribute-based-access-control
 
 ## Definition

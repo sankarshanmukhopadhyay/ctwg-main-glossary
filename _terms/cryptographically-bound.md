@@ -2,6 +2,8 @@
 title: "cryptographically-bound"
 ---
 
+> Generated file. Update `glossary/terms/cryptographically-bound.yaml` and regenerate artifacts instead of editing this page directly.
+
 # cryptographically-bound
 
 ## Definition

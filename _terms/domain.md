@@ -2,6 +2,8 @@
 title: "domain"
 ---
 
+> Generated file. Update `glossary/terms/domain.yaml` and regenerate artifacts instead of editing this page directly.
+
 # domain
 
 ## Definition

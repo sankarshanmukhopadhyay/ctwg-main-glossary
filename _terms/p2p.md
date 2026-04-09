@@ -2,6 +2,8 @@
 title: "p2p"
 ---
 
+> Generated file. Update `glossary/terms/p2p.yaml` and regenerate artifacts instead of editing this page directly.
+
 # p2p
 
 ## Definition

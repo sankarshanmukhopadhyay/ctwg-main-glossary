@@ -2,6 +2,8 @@
 title: "delegation"
 ---
 
+> Generated file. Update `glossary/terms/delegation.yaml` and regenerate artifacts instead of editing this page directly.
+
 # delegation
 
 ## Definition

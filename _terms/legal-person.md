@@ -2,6 +2,8 @@
 title: "legal-person"
 ---
 
+> Generated file. Update `glossary/terms/legal-person.yaml` and regenerate artifacts instead of editing this page directly.
+
 # legal-person
 
 ## Definition

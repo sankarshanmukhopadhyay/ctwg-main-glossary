@@ -2,6 +2,8 @@
 title: "oobi"
 ---
 
+> Generated file. Update `glossary/terms/oobi.yaml` and regenerate artifacts instead of editing this page directly.
+
 # oobi
 
 ## Definition

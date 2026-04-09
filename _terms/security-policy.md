@@ -2,6 +2,8 @@
 title: "security-policy"
 ---
 
+> Generated file. Update `glossary/terms/security-policy.yaml` and regenerate artifacts instead of editing this page directly.
+
 # security-policy
 
 ## Definition

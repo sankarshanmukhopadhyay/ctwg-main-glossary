@@ -2,6 +2,8 @@
 title: "trust-spanning-layer"
 ---
 
+> Generated file. Update `glossary/terms/trust-spanning-layer.yaml` and regenerate artifacts instead of editing this page directly.
+
 # trust-spanning-layer
 
 ## Definition

@@ -2,6 +2,8 @@
 title: "broadcast-address"
 ---
 
+> Generated file. Update `glossary/terms/broadcast-address.yaml` and regenerate artifacts instead of editing this page directly.
+
 # broadcast-address
 
 ## Definition

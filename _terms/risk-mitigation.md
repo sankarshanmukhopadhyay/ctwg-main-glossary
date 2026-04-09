@@ -2,6 +2,8 @@
 title: "risk-mitigation"
 ---
 
+> Generated file. Update `glossary/terms/risk-mitigation.yaml` and regenerate artifacts instead of editing this page directly.
+
 # risk-mitigation
 
 ## Definition

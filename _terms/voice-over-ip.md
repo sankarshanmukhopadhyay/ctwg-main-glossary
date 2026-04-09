@@ -2,6 +2,8 @@
 title: "voice-over-ip"
 ---
 
+> Generated file. Update `glossary/terms/voice-over-ip.yaml` and regenerate artifacts instead of editing this page directly.
+
 # voice-over-ip
 
 ## Definition

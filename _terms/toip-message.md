@@ -2,6 +2,8 @@
 title: "toip-message"
 ---
 
+> Generated file. Update `glossary/terms/toip-message.yaml` and regenerate artifacts instead of editing this page directly.
+
 # toip-message
 
 ## Definition

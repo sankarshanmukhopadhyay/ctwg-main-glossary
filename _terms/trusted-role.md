@@ -2,6 +2,8 @@
 title: "trusted-role"
 ---
 
+> Generated file. Update `glossary/terms/trusted-role.yaml` and regenerate artifacts instead of editing this page directly.
+
 # trusted-role
 
 ## Definition

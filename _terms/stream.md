@@ -2,6 +2,8 @@
 title: "stream"
 ---
 
+> Generated file. Update `glossary/terms/stream.yaml` and regenerate artifacts instead of editing this page directly.
+
 # stream
 
 ## Definition

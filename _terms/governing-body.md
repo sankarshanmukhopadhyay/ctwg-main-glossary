@@ -2,6 +2,8 @@
 title: "governing-body"
 ---
 
+> Generated file. Update `glossary/terms/governing-body.yaml` and regenerate artifacts instead of editing this page directly.
+
 # governing-body
 
 ## Definition

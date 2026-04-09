@@ -2,6 +2,8 @@
 title: "software-agent"
 ---
 
+> Generated file. Update `glossary/terms/software-agent.yaml` and regenerate artifacts instead of editing this page directly.
+
 # software-agent
 
 ## Definition

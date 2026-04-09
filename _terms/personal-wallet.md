@@ -2,6 +2,8 @@
 title: "personal-wallet"
 ---
 
+> Generated file. Update `glossary/terms/personal-wallet.yaml` and regenerate artifacts instead of editing this page directly.
+
 # personal-wallet
 
 ## Definition

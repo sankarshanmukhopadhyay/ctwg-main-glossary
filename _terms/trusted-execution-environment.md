@@ -2,6 +2,8 @@
 title: "trusted-execution-environment"
 ---
 
+> Generated file. Update `glossary/terms/trusted-execution-environment.yaml` and regenerate artifacts instead of editing this page directly.
+
 # trusted-execution-environment
 
 ## Definition

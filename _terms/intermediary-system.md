@@ -2,6 +2,8 @@
 title: "intermediary-system"
 ---
 
+> Generated file. Update `glossary/terms/intermediary-system.yaml` and regenerate artifacts instead of editing this page directly.
+
 # intermediary-system
 
 ## Definition

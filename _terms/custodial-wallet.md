@@ -2,6 +2,8 @@
 title: "custodial-wallet"
 ---
 
+> Generated file. Update `glossary/terms/custodial-wallet.yaml` and regenerate artifacts instead of editing this page directly.
+
 # custodial-wallet
 
 ## Definition

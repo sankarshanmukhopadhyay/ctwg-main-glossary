@@ -2,6 +2,8 @@
 title: "governance-diamond"
 ---
 
+> Generated file. Update `glossary/terms/governance-diamond.yaml` and regenerate artifacts instead of editing this page directly.
+
 # governance-diamond
 
 ## Definition

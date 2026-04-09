@@ -2,6 +2,8 @@
 title: "cryptography"
 ---
 
+> Generated file. Update `glossary/terms/cryptography.yaml` and regenerate artifacts instead of editing this page directly.
+
 # cryptography
 
 ## Definition

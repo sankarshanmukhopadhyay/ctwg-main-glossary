@@ -2,6 +2,8 @@
 title: "self-sovereign-identity"
 ---
 
+> Generated file. Update `glossary/terms/self-sovereign-identity.yaml` and regenerate artifacts instead of editing this page directly.
+
 # self-sovereign-identity
 
 ## Definition

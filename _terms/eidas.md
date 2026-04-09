@@ -2,6 +2,8 @@
 title: "eidas"
 ---
 
+> Generated file. Update `glossary/terms/eidas.yaml` and regenerate artifacts instead of editing this page directly.
+
 # eidas
 
 ## Definition

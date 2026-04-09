@@ -2,6 +2,8 @@
 title: "supporting-system"
 ---
 
+> Generated file. Update `glossary/terms/supporting-system.yaml` and regenerate artifacts instead of editing this page directly.
+
 # supporting-system
 
 ## Definition

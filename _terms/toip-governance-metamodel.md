@@ -2,6 +2,8 @@
 title: "toip-governance-metamodel"
 ---
 
+> Generated file. Update `glossary/terms/toip-governance-metamodel.yaml` and regenerate artifacts instead of editing this page directly.
+
 # toip-governance-metamodel
 
 ## Definition

@@ -2,6 +2,8 @@
 title: "trusted-third-party"
 ---
 
+> Generated file. Update `glossary/terms/trusted-third-party.yaml` and regenerate artifacts instead of editing this page directly.
+
 # trusted-third-party
 
 ## Definition

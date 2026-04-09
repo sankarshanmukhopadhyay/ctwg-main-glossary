@@ -2,6 +2,8 @@
 title: "toip-governance-framework"
 ---
 
+> Generated file. Update `glossary/terms/toip-governance-framework.yaml` and regenerate artifacts instead of editing this page directly.
+
 # toip-governance-framework
 
 ## Definition

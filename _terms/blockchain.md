@@ -2,6 +2,8 @@
 title: "blockchain"
 ---
 
+> Generated file. Update `glossary/terms/blockchain.yaml` and regenerate artifacts instead of editing this page directly.
+
 # blockchain
 
 ## Definition

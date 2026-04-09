@@ -2,6 +2,8 @@
 title: "holder-binding"
 ---
 
+> Generated file. Update `glossary/terms/holder-binding.yaml` and regenerate artifacts instead of editing this page directly.
+
 # holder-binding
 
 ## Definition

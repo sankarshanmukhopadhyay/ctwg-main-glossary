@@ -2,6 +2,8 @@
 title: "toip-layer-3"
 ---
 
+> Generated file. Update `glossary/terms/toip-layer-3.yaml` and regenerate artifacts instead of editing this page directly.
+
 # toip-layer-3
 
 ## Definition

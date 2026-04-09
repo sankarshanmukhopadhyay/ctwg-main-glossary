@@ -2,6 +2,8 @@
 title: "sybil-attack"
 ---
 
+> Generated file. Update `glossary/terms/sybil-attack.yaml` and regenerate artifacts instead of editing this page directly.
+
 # sybil-attack
 
 ## Definition

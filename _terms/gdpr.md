@@ -2,6 +2,8 @@
 title: "gdpr"
 ---
 
+> Generated file. Update `glossary/terms/gdpr.yaml` and regenerate artifacts instead of editing this page directly.
+
 # gdpr
 
 ## Definition

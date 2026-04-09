@@ -2,6 +2,8 @@
 title: "mobile-deep-link"
 ---
 
+> Generated file. Update `glossary/terms/mobile-deep-link.yaml` and regenerate artifacts instead of editing this page directly.
+
 # mobile-deep-link
 
 ## Definition

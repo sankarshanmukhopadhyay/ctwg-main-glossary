@@ -2,6 +2,8 @@
 title: "privacy-washing"
 ---
 
+> Generated file. Update `glossary/terms/privacy-washing.yaml` and regenerate artifacts instead of editing this page directly.
+
 # privacy-washing
 
 ## Definition

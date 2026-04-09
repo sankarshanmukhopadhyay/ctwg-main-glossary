@@ -2,6 +2,8 @@
 title: "attestation"
 ---
 
+> Generated file. Update `glossary/terms/attestation.yaml` and regenerate artifacts instead of editing this page directly.
+
 # attestation
 
 ## Definition

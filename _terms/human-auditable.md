@@ -2,6 +2,8 @@
 title: "human-auditable"
 ---
 
+> Generated file. Update `glossary/terms/human-auditable.yaml` and regenerate artifacts instead of editing this page directly.
+
 # human-auditable
 
 ## Definition

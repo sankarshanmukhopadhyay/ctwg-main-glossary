@@ -2,6 +2,8 @@
 title: "authority"
 ---
 
+> Generated file. Update `glossary/terms/authority.yaml` and regenerate artifacts instead of editing this page directly.
+
 # authority
 
 ## Definition

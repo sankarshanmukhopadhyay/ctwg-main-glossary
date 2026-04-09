@@ -2,6 +2,8 @@
 title: "natural-person"
 ---
 
+> Generated file. Update `glossary/terms/natural-person.yaml` and regenerate artifacts instead of editing this page directly.
+
 # natural-person
 
 ## Definition

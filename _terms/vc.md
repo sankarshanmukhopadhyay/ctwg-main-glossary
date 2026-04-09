@@ -2,6 +2,8 @@
 title: "vc"
 ---
 
+> Generated file. Update `glossary/terms/vc.yaml` and regenerate artifacts instead of editing this page directly.
+
 # vc
 
 ## Definition

@@ -1,0 +1,592 @@
+# Governance Inventory
+
+Total terms: **534**
+
+## Coverage summary
+
+- Authority-bearing terms: **201**
+- Delegation-sensitive terms: **31**
+- Revocation-sensitive terms: **108**
+- Lifecycle-sensitive terms: **534**
+- Evidence-producing terms: **534**
+- Control-plane terms: **309**
+
+## Governance profiles
+
+### core-operational
+
+Count: **227**
+
+aal, abac, access-control, accreditation, actor, administering-authority, administering-body, agency, agent, appraisability, appropriate-friction, assurance-level, attribute-based-access-control, audit, audit-log, auditor, authentic-chained-data-container, authentication, authenticator, authenticator-assurance-level
+
+### descriptive
+
+Count: **228**
+
+acdc, action, address, aid, anonymous, anycast, anycast-address, attribute, authentic-data, autonomic-identifier, binding, biometric, broadcast, c2pa, cai, certificate, certification-body, channel, ciphertext, coalition-for-content-provenance-and-authenticity
+
+### governance-supporting
+
+Count: **79**
+
+acceptance, acceptance-network, attestation, attributional-trust, authenticity, chain-of-trust, chaining, cryptographic-trust, end-verifiable, fal, federated-identity, fiduciary, first-party, fourth-party, human-experience, human-trust, ial, identity-assurance, identity-assurance-level, identity-proofing
+
+## Authority-bearing terms
+
+- aal
+- abac
+- access-control
+- accreditation
+- actor
+- administering-authority
+- administering-body
+- agency
+- agent
+- appraisability
+- assurance-level
+- attestation
+- attribute-based-access-control
+- audit
+- audit-log
+- auditor
+- authentic-chained-data-container
+- authentication
+- authenticator
+- authenticator-assurance-level
+- authoritative
+- authoritative-source
+- authority
+- authorization
+- authorization-graph
+- authorized-organizational-representative
+- autonomic-namespace
+- biometric
+- blockchain
+- bola
+- broken-object-level-authorization
+- ca
+- capability
+- certificate-authority
+- certification
+- certification-authority
+- chained-credentials
+- claim
+- communication-session
+- compliance
+- control-authority
+- controlled-document
+- controller
+- credential
+- credential-family
+- credential-governance-framework
+- credential-offer
+- credential-request
+- credential-schema
+- cryptographically-verifiable
+- data-schema
+- dead-drop
+- decentralized-identifier
+- delegatee
+- delegation
+- delegation-credential
+- delegator
+- dictionary
+- did-controller
+- did-document
+- digital-agent
+- digital-credential
+- digital-trust-ecosystem
+- digital-trust-utility
+- digital-vault
+- digital-wallet
+- discovery
+- ecosystem-governance-framework
+- eidas
+- end-to-end-principle
+- end-verifiability
+- fal
+- federation
+- federation-assurance-level
+- foundational-identity
+- functional-identity
+- glossary
+- governance
+- governance-diamond
+- governance-document
+- governance-framework
+- governance-graph
+- governance-requirement
+- governance-risk-management-compliance
+- governed-information
+- governed-party
+- governed-use-case
+- governing-authority
+- governing-body
+- grc
+- guardian
+- guardianship-credential
+- holder
+- host
+- human-auditable
+- human-trust
+- ial
+- identity-assurance
+- identity-assurance-level
+- identity-binding
+- ... and 101 more
+
+## Delegation-sensitive terms
+
+- actor
+- administering-body
+- agency
+- agent
+- authority
+- authorized-organizational-representative
+- capability
+- controller
+- delegatee
+- delegation
+- delegation-credential
+- delegator
+- did-document
+- digital-agent
+- digital-vault
+- digital-wallet
+- governing-body
+- holder
+- issuer
+- keys-at-the-edge
+- personal-data-store
+- principal
+- registration-agent
+- second-party
+- software-agent
+- subscription
+- user-agent
+- validation
+- verification
+- verifier
+- wallet-engine
+
+## Revocation-sensitive terms
+
+- accreditation
+- administering-authority
+- administering-body
+- agent
+- assurance-level
+- auditor
+- authentic-chained-data-container
+- authentication
+- authenticator
+- authoritative
+- authoritative-source
+- authority
+- authorization
+- authorization-graph
+- authorized-organizational-representative
+- autonomic-namespace
+- bola
+- broken-object-level-authorization
+- ca
+- capability
+- certificate-authority
+- certification-authority
+- chained-credentials
+- control-authority
+- controlled-document
+- credential
+- credential-family
+- credential-governance-framework
+- credential-offer
+- credential-request
+- credential-schema
+- cryptographically-verifiable
+- data-schema
+- dead-drop
+- decentralized-identifier
+- delegatee
+- delegation
+- delegation-credential
+- delegator
+- did-document
+- digital-agent
+- digital-credential
+- digital-trust-utility
+- digital-wallet
+- discovery
+- ecosystem-governance-framework
+- foundational-identity
+- functional-identity
+- governance-diamond
+- governance-framework
+- governed-information
+- governed-use-case
+- governing-authority
+- governing-body
+- guardian
+- guardianship-credential
+- holder
+- identity-binding
+- identity-document
+- issuance
+- issuance-request
+- issuer
+- legitimized-human-meaningful-identifier
+- organizational-authority
+- password
+- peer
+- permission
+- physical-credential
+- policy
+- presentation
+- proof
+- public-key-certificate
+- public-key-infrastructure
+- record
+- registrant
+- registration
+- registration-agent
+- registry
+- relying-party
+- revocation
+- role-based-access-control
+- role-credential
+- schema
+- second-party
+- self-asserted
+- self-sovereign-identity
+- subject
+- three-party-model
+- timestamp
+- toip-trust-registry-protocol
+- transitive-trust-decision
+- trust-chain
+- trust-establishment
+- trust-graph
+- trust-list
+- trust-registry
+- trust-registry-protocol
+- trusted-third-party
+- trusted-timestamp-authority
+- tta
+- ... and 8 more
+
+## Lifecycle-sensitive terms
+
+- **aal** — documented, active, deprecated
+- **abac** — documented, active, deprecated
+- **acceptance** — documented, active, deprecated
+- **acceptance-network** — documented, active, deprecated
+- **access-control** — documented, active, deprecated
+- **accreditation** — proposed, active, suspended, revoked, retired
+- **acdc** — documented, active, deprecated
+- **action** — documented, active, deprecated
+- **actor** — documented, active, deprecated
+- **address** — documented, active, deprecated
+- **administering-authority** — proposed, active, suspended, revoked, retired
+- **administering-body** — proposed, active, suspended, revoked, retired
+- **agency** — documented, active, deprecated
+- **agent** — proposed, active, suspended, revoked, retired
+- **aid** — documented, active, deprecated
+- **anonymous** — documented, active, deprecated
+- **anycast** — documented, active, deprecated
+- **anycast-address** — documented, active, deprecated
+- **appraisability** — documented, active, deprecated
+- **appropriate-friction** — documented, active, deprecated
+- **assurance-level** — proposed, active, suspended, revoked, retired
+- **attestation** — documented, active, deprecated
+- **attribute** — documented, active, deprecated
+- **attribute-based-access-control** — documented, active, deprecated
+- **attributional-trust** — documented, active, deprecated
+- **audit** — documented, active, deprecated
+- **audit-log** — documented, active, deprecated
+- **auditor** — proposed, active, suspended, revoked, retired
+- **authentic-chained-data-container** — proposed, active, suspended, revoked, retired
+- **authentic-data** — documented, active, deprecated
+- **authentication** — proposed, active, suspended, revoked, retired
+- **authenticator** — proposed, active, suspended, revoked, retired
+- **authenticator-assurance-level** — documented, active, deprecated
+- **authenticity** — documented, active, deprecated
+- **authoritative** — proposed, active, suspended, revoked, retired
+- **authoritative-source** — proposed, active, suspended, revoked, retired
+- **authority** — proposed, active, suspended, revoked, retired
+- **authorization** — proposed, active, suspended, revoked, retired
+- **authorization-graph** — proposed, active, suspended, revoked, retired
+- **authorized-organizational-representative** — proposed, active, suspended, revoked, retired
+- **autonomic-identifier** — documented, active, deprecated
+- **autonomic-identity-system** — documented, active, deprecated
+- **autonomic-namespace** — proposed, active, suspended, revoked, retired
+- **binding** — documented, active, deprecated
+- **biometric** — documented, active, deprecated
+- **blockchain** — documented, active, deprecated
+- **bola** — proposed, active, suspended, revoked, retired
+- **broadcast** — documented, active, deprecated
+- **broadcast-address** — documented, active, deprecated
+- **broken-object-level-authorization** — proposed, active, suspended, revoked, retired
+- **c2pa** — documented, active, deprecated
+- **ca** — proposed, active, suspended, revoked, retired
+- **cai** — documented, active, deprecated
+- **capability** — proposed, active, suspended, revoked, retired
+- **certificate** — documented, active, deprecated
+- **certificate-authority** — proposed, active, suspended, revoked, retired
+- **certification** — documented, active, deprecated
+- **certification-authority** — proposed, active, suspended, revoked, retired
+- **certification-body** — documented, active, deprecated
+- **chain-of-trust** — documented, active, deprecated
+- **chained-credentials** — proposed, active, suspended, revoked, retired
+- **chaining** — documented, active, deprecated
+- **channel** — documented, active, deprecated
+- **ciphertext** — documented, active, deprecated
+- **claim** — documented, active, deprecated
+- **coalition-for-content-provenance-and-authenticity** — documented, active, deprecated
+- **collective-signature** — documented, active, deprecated
+- **communication** — documented, active, deprecated
+- **communication-channel** — documented, active, deprecated
+- **communication-endpoint** — documented, active, deprecated
+- **communication-metadata** — documented, active, deprecated
+- **communication-session** — documented, active, deprecated
+- **complex-password** — documented, active, deprecated
+- **compliance** — documented, active, deprecated
+- **concept** — documented, active, deprecated
+- **confidential-computing** — documented, active, deprecated
+- **confidentiality** — documented, active, deprecated
+- **connection** — documented, active, deprecated
+- **consent-management** — documented, active, deprecated
+- **content-authenticity-initiative** — documented, active, deprecated
+- **contextual-linkability** — documented, active, deprecated
+- **control-authority** — proposed, active, suspended, revoked, retired
+- **controlled-document** — proposed, active, suspended, revoked, retired
+- **controller** — documented, active, deprecated
+- **correlation-privacy** — documented, active, deprecated
+- **counterparty** — documented, active, deprecated
+- **credential** — proposed, active, suspended, revoked, retired
+- **credential-family** — proposed, active, suspended, revoked, retired
+- **credential-governance-framework** — proposed, active, suspended, revoked, retired
+- **credential-offer** — proposed, active, suspended, revoked, retired
+- **credential-request** — proposed, active, suspended, revoked, retired
+- **credential-schema** — proposed, active, suspended, revoked, retired
+- **criterion** — documented, active, deprecated
+- **cryptographic-binding** — documented, active, deprecated
+- **cryptographic-key** — documented, active, deprecated
+- **cryptographic-trust** — documented, active, deprecated
+- **cryptographic-verifiability** — documented, active, deprecated
+- **cryptographically-bound** — documented, active, deprecated
+- **cryptographically-verifiable** — proposed, active, suspended, revoked, retired
+- **cryptography** — documented, active, deprecated
+- ... and 434 more
+
+## Evidence-producing terms
+
+- **aal** — attestation
+- **abac** — definition_change_record
+- **acceptance** — definition_change_record
+- **acceptance-network** — definition_change_record
+- **access-control** — access_decision_log
+- **accreditation** — definition_change_record
+- **acdc** — definition_change_record
+- **action** — definition_change_record
+- **actor** — delegation_record
+- **address** — definition_change_record
+- **administering-authority** — definition_change_record
+- **administering-body** — delegation_record, policy_document
+- **agency** — delegation_record
+- **agent** — delegation_record
+- **aid** — definition_change_record
+- **anonymous** — definition_change_record
+- **anycast** — definition_change_record
+- **anycast-address** — definition_change_record
+- **appraisability** — verification_log
+- **appropriate-friction** — definition_change_record
+- **assurance-level** — attestation, issuance_log
+- **attestation** — attestation
+- **attribute** — definition_change_record
+- **attribute-based-access-control** — access_decision_log, policy_document
+- **attributional-trust** — definition_change_record
+- **audit** — audit_log
+- **audit-log** — audit_log
+- **auditor** — audit_log
+- **authentic-chained-data-container** — issuance_log
+- **authentic-data** — definition_change_record
+- **authentication** — access_decision_log
+- **authenticator** — issuance_log
+- **authenticator-assurance-level** — access_decision_log, attestation
+- **authenticity** — definition_change_record
+- **authoritative** — definition_change_record
+- **authoritative-source** — policy_document, registry_entry, verification_log
+- **authority** — delegation_record, policy_document, status_record
+- **authorization** — access_decision_log, issuance_log, policy_document
+- **authorization-graph** — access_decision_log
+- **authorized-organizational-representative** — delegation_record, issuance_log
+- **autonomic-identifier** — definition_change_record
+- **autonomic-identity-system** — definition_change_record
+- **autonomic-namespace** — definition_change_record
+- **binding** — definition_change_record
+- **biometric** — issuance_log
+- **blockchain** — policy_document
+- **bola** — access_decision_log
+- **broadcast** — definition_change_record
+- **broadcast-address** — definition_change_record
+- **broken-object-level-authorization** — access_decision_log
+- **c2pa** — definition_change_record
+- **ca** — definition_change_record
+- **cai** — definition_change_record
+- **capability** — access_decision_log, delegation_record
+- **certificate** — definition_change_record
+- **certificate-authority** — policy_document
+- **certification** — definition_change_record
+- **certification-authority** — definition_change_record
+- **certification-body** — definition_change_record
+- **chain-of-trust** — definition_change_record
+- **chained-credentials** — issuance_log
+- **chaining** — definition_change_record
+- **channel** — definition_change_record
+- **ciphertext** — definition_change_record
+- **claim** — issuance_log, verification_log
+- **coalition-for-content-provenance-and-authenticity** — definition_change_record
+- **collective-signature** — definition_change_record
+- **communication** — definition_change_record
+- **communication-channel** — definition_change_record
+- **communication-endpoint** — definition_change_record
+- **communication-metadata** — definition_change_record
+- **communication-session** — access_decision_log
+- **complex-password** — definition_change_record
+- **compliance** — policy_document
+- **concept** — definition_change_record
+- **confidential-computing** — definition_change_record
+- **confidentiality** — definition_change_record
+- **connection** — definition_change_record
+- **consent-management** — definition_change_record
+- **content-authenticity-initiative** — definition_change_record
+- **contextual-linkability** — definition_change_record
+- **control-authority** — definition_change_record
+- **controlled-document** — definition_change_record
+- **controller** — delegation_record
+- **correlation-privacy** — definition_change_record
+- **counterparty** — definition_change_record
+- **credential** — issuance_log
+- **credential-family** — issuance_log, policy_document
+- **credential-governance-framework** — issuance_log, policy_document
+- **credential-offer** — issuance_log
+- **credential-request** — issuance_log
+- **credential-schema** — issuance_log
+- **criterion** — definition_change_record
+- **cryptographic-binding** — definition_change_record
+- **cryptographic-key** — definition_change_record
+- **cryptographic-trust** — definition_change_record
+- **cryptographic-verifiability** — definition_change_record
+- **cryptographically-bound** — definition_change_record
+- **cryptographically-verifiable** — issuance_log
+- **cryptography** — definition_change_record
+- ... and 434 more
+
+## Control-plane terms
+
+- **aal** — access_decision
+- **abac** — access_decision
+- **acceptance** — definition_approval
+- **acceptance-network** — definition_approval
+- **access-control** — access_decision
+- **accreditation** — revocation_decision
+- **actor** — delegation_grant
+- **administering-authority** — revocation_decision
+- **administering-body** — policy_approval, delegation_grant, revocation_decision
+- **agency** — delegation_grant
+- **agent** — delegation_grant, revocation_decision
+- **appraisability** — reliance_decision
+- **appropriate-friction** — definition_approval
+- **assurance-level** — issuance_decision, access_decision, revocation_decision
+- **attestation** — definition_approval
+- **attribute-based-access-control** — policy_approval, access_decision
+- **attributional-trust** — definition_approval
+- **audit** — definition_approval
+- **audit-log** — definition_approval
+- **auditor** — revocation_decision
+- **authentic-chained-data-container** — issuance_decision, revocation_decision
+- **authentication** — access_decision, revocation_decision
+- **authenticator** — issuance_decision, access_decision, revocation_decision
+- **authenticator-assurance-level** — access_decision
+- **authenticity** — definition_approval
+- **authoritative** — revocation_decision
+- **authoritative-source** — policy_approval, registration_decision, reliance_decision, revocation_decision
+- **authority** — policy_approval, delegation_grant, revocation_decision
+- **authorization** — policy_approval, issuance_decision, access_decision, revocation_decision
+- **authorization-graph** — access_decision, revocation_decision
+- **authorized-organizational-representative** — delegation_grant, issuance_decision, revocation_decision
+- **autonomic-identity-system** — definition_approval
+- **autonomic-namespace** — revocation_decision
+- **biometric** — issuance_decision
+- **blockchain** — policy_approval
+- **bola** — access_decision, revocation_decision
+- **broadcast-address** — definition_approval
+- **broken-object-level-authorization** — access_decision, revocation_decision
+- **ca** — revocation_decision
+- **capability** — delegation_grant, access_decision, revocation_decision
+- **certificate-authority** — policy_approval, revocation_decision
+- **certification** — definition_approval
+- **certification-authority** — revocation_decision
+- **chain-of-trust** — definition_approval
+- **chained-credentials** — issuance_decision, revocation_decision
+- **chaining** — definition_approval
+- **claim** — reliance_decision, issuance_decision
+- **communication-session** — access_decision
+- **compliance** — policy_approval
+- **confidentiality** — definition_approval
+- **control-authority** — revocation_decision
+- **controlled-document** — revocation_decision
+- **controller** — delegation_grant
+- **correlation-privacy** — definition_approval
+- **credential** — issuance_decision, revocation_decision
+- **credential-family** — policy_approval, issuance_decision, revocation_decision
+- **credential-governance-framework** — policy_approval, issuance_decision, revocation_decision
+- **credential-offer** — issuance_decision, revocation_decision
+- **credential-request** — issuance_decision, revocation_decision
+- **credential-schema** — issuance_decision, revocation_decision
+- **cryptographic-trust** — definition_approval
+- **cryptographically-verifiable** — issuance_decision, revocation_decision
+- **custodial-wallet** — definition_approval
+- **custodian** — definition_approval
+- **data-packet** — definition_approval
+- **data-schema** — issuance_decision, revocation_decision
+- **dead-drop** — issuance_decision, revocation_decision
+- **decentralized-identifier** — revocation_decision
+- **decentralized-identity** — definition_approval
+- **delegatee** — delegation_grant, revocation_decision
+- **delegation** — delegation_grant, revocation_decision
+- **delegation-credential** — delegation_grant, issuance_decision, revocation_decision
+- **delegator** — delegation_grant, revocation_decision
+- **device-controller** — definition_approval
+- **dictionary** — registration_decision
+- **did-controller** — access_decision
+- **did-document** — delegation_grant, revocation_decision
+- **digital-agent** — delegation_grant, revocation_decision
+- **digital-credential** — reliance_decision, issuance_decision, revocation_decision
+- **digital-rights-management** — definition_approval
+- **digital-trust-ecosystem** — policy_approval, registration_decision, reliance_decision, issuance_decision
+- **digital-trust-utility** — registration_decision, revocation_decision
+- **digital-vault** — delegation_grant, access_decision
+- **digital-wallet** — delegation_grant, reliance_decision, issuance_decision, revocation_decision
+- **discovery** — reliance_decision, revocation_decision
+- **ecosystem-governance-framework** — policy_approval, issuance_decision, revocation_decision
+- **eidas** — access_decision
+- **end-to-end-principle** — policy_approval
+- **end-verifiability** — reliance_decision
+- **end-verifiable** — definition_approval
+- **enterprise-data-vault** — definition_approval
+- **enterprise-wallet** — definition_approval
+- **fal** — definition_approval
+- **federated-identity** — definition_approval
+- **federation** — policy_approval
+- **federation-assurance-level** — reliance_decision, access_decision
+- **fiduciary** — definition_approval
+- **first-party** — definition_approval
+- **foundational-identity** — issuance_decision, revocation_decision
+- **fourth-party** — definition_approval
+- ... and 209 more
+
+## Assurance level hints
+
+- `AL1+`: 79
+- `AL2+`: 227
+- `informative`: 228

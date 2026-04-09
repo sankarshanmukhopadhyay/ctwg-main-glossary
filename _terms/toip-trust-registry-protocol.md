@@ -2,6 +2,8 @@
 title: "toip-trust-registry-protocol"
 ---
 
+> Generated file. Update `glossary/terms/toip-trust-registry-protocol.yaml` and regenerate artifacts instead of editing this page directly.
+
 # toip-trust-registry-protocol
 
 ## Definition

@@ -2,6 +2,8 @@
 title: "registry"
 ---
 
+> Generated file. Update `glossary/terms/registry.yaml` and regenerate artifacts instead of editing this page directly.
+
 # registry
 
 ## Definition

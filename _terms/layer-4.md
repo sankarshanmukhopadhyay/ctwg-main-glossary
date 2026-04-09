@@ -2,6 +2,8 @@
 title: "layer-4"
 ---
 
+> Generated file. Update `glossary/terms/layer-4.yaml` and regenerate artifacts instead of editing this page directly.
+
 # layer-4
 
 ## Definition

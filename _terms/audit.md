@@ -2,6 +2,8 @@
 title: "audit"
 ---
 
+> Generated file. Update `glossary/terms/audit.yaml` and regenerate artifacts instead of editing this page directly.
+
 # audit
 
 ## Definition

@@ -2,6 +2,8 @@
 title: "secure-multi-party-computation"
 ---
 
+> Generated file. Update `glossary/terms/secure-multi-party-computation.yaml` and regenerate artifacts instead of editing this page directly.
+
 # secure-multi-party-computation
 
 ## Definition

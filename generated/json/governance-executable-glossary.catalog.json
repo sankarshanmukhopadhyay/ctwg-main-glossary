@@ -3,2673 +3,3741 @@
   "terms": [
     {
       "term": "aal",
+      "slug": "aal",
       "source_file": "spec/terms-definitions/aal.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "abac",
+      "slug": "abac",
       "source_file": "spec/terms-definitions/abac.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "acceptance-network",
+      "slug": "acceptance-network",
       "source_file": "spec/terms-definitions/acceptance-network.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "acceptance",
+      "slug": "acceptance",
       "source_file": "spec/terms-definitions/acceptance.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "access-control",
+      "slug": "access-control",
       "source_file": "spec/terms-definitions/access-control.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "accreditation",
+      "slug": "accreditation",
       "source_file": "spec/terms-definitions/accreditation.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "acdc",
+      "slug": "acdc",
       "source_file": "spec/terms-definitions/acdc.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "action",
+      "slug": "action",
       "source_file": "spec/terms-definitions/action.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "actor",
+      "slug": "actor",
       "source_file": "spec/terms-definitions/actor.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "address",
+      "slug": "address",
       "source_file": "spec/terms-definitions/address.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "administering-authority",
+      "slug": "administering-authority",
       "source_file": "spec/terms-definitions/administering-authority.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "administering-body",
+      "slug": "administering-body",
       "source_file": "spec/terms-definitions/administering-body.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "agency",
+      "slug": "agency",
       "source_file": "spec/terms-definitions/agency.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "agent",
+      "slug": "agent",
       "source_file": "spec/terms-definitions/agent.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "aid",
+      "slug": "aid",
       "source_file": "spec/terms-definitions/aid.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "anonymous",
+      "slug": "anonymous",
       "source_file": "spec/terms-definitions/anonymous.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "anycast-address",
+      "slug": "anycast-address",
       "source_file": "spec/terms-definitions/anycast-address.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "anycast",
+      "slug": "anycast",
       "source_file": "spec/terms-definitions/anycast.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "appraisability",
+      "slug": "appraisability",
       "source_file": "spec/terms-definitions/appraisability.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "appropriate-friction",
+      "slug": "appropriate-friction",
       "source_file": "spec/terms-definitions/appropriate-friction.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "assurance-level",
+      "slug": "assurance-level",
       "source_file": "spec/terms-definitions/assurance-level.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "attestation",
+      "slug": "attestation",
       "source_file": "spec/terms-definitions/attestation.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "attribute-based-access-control",
+      "slug": "attribute-based-access-control",
       "source_file": "spec/terms-definitions/attribute-based-access-control.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "attribute",
+      "slug": "attribute",
       "source_file": "spec/terms-definitions/attribute.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "attributional-trust",
+      "slug": "attributional-trust",
       "source_file": "spec/terms-definitions/attributional-trust.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "audit-log",
+      "slug": "audit-log",
       "source_file": "spec/terms-definitions/audit-log.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "audit",
+      "slug": "audit",
       "source_file": "spec/terms-definitions/audit.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "auditor",
+      "slug": "auditor",
       "source_file": "spec/terms-definitions/auditor.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "authentic-chained-data-container",
+      "slug": "authentic-chained-data-container",
       "source_file": "spec/terms-definitions/authentic-chained-data-container.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "authentic-data",
+      "slug": "authentic-data",
       "source_file": "spec/terms-definitions/authentic-data.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "authentication",
+      "slug": "authentication",
       "source_file": "spec/terms-definitions/authentication.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "authenticator-assurance-level",
+      "slug": "authenticator-assurance-level",
       "source_file": "spec/terms-definitions/authenticator-assurance-level.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "authenticator",
+      "slug": "authenticator",
       "source_file": "spec/terms-definitions/authenticator.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "authenticity",
+      "slug": "authenticity",
       "source_file": "spec/terms-definitions/authenticity.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "authoritative-source",
+      "slug": "authoritative-source",
       "source_file": "spec/terms-definitions/authoritative-source.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "authoritative",
+      "slug": "authoritative",
       "source_file": "spec/terms-definitions/authoritative.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "authority",
+      "slug": "authority",
       "source_file": "spec/terms-definitions/authority.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "authorization-graph",
+      "slug": "authorization-graph",
       "source_file": "spec/terms-definitions/authorization-graph.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "authorization",
+      "slug": "authorization",
       "source_file": "spec/terms-definitions/authorization.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "authorized-organizational-representative",
+      "slug": "authorized-organizational-representative",
       "source_file": "spec/terms-definitions/authorized-organizational-representative.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "autonomic-identifier",
+      "slug": "autonomic-identifier",
       "source_file": "spec/terms-definitions/autonomic-identifier.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "autonomic-identity-system",
+      "slug": "autonomic-identity-system",
       "source_file": "spec/terms-definitions/autonomic-identity-system.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "autonomic-namespace",
+      "slug": "autonomic-namespace",
       "source_file": "spec/terms-definitions/autonomic-namespace.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "binding",
+      "slug": "binding",
       "source_file": "spec/terms-definitions/binding.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "biometric",
+      "slug": "biometric",
       "source_file": "spec/terms-definitions/biometric.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "blockchain",
+      "slug": "blockchain",
       "source_file": "spec/terms-definitions/blockchain.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "bola",
+      "slug": "bola",
       "source_file": "spec/terms-definitions/BOLA.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "broadcast-address",
+      "slug": "broadcast-address",
       "source_file": "spec/terms-definitions/broadcast-address.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "broadcast",
+      "slug": "broadcast",
       "source_file": "spec/terms-definitions/broadcast.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "broken-object-level-authorization",
+      "slug": "broken-object-level-authorization",
       "source_file": "spec/terms-definitions/broken-object-level-authorization.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "c2pa",
+      "slug": "c2pa",
       "source_file": "spec/terms-definitions/c2pa.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "ca",
+      "slug": "ca",
       "source_file": "spec/terms-definitions/ca.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "cai",
+      "slug": "cai",
       "source_file": "spec/terms-definitions/cai.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "capability",
+      "slug": "capability",
       "source_file": "spec/terms-definitions/capability.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "certificate-authority",
+      "slug": "certificate-authority",
       "source_file": "spec/terms-definitions/certificate-authority.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "certificate",
+      "slug": "certificate",
       "source_file": "spec/terms-definitions/certificate.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "certification-authority",
+      "slug": "certification-authority",
       "source_file": "spec/terms-definitions/certification-authority.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "certification-body",
+      "slug": "certification-body",
       "source_file": "spec/terms-definitions/certification-body.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "certification",
+      "slug": "certification",
       "source_file": "spec/terms-definitions/certification.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "chain-of-trust",
+      "slug": "chain-of-trust",
       "source_file": "spec/terms-definitions/chain-of-trust.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "chained-credentials",
+      "slug": "chained-credentials",
       "source_file": "spec/terms-definitions/chained-credentials.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "chaining",
+      "slug": "chaining",
       "source_file": "spec/terms-definitions/chaining.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "channel",
+      "slug": "channel",
       "source_file": "spec/terms-definitions/channel.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "ciphertext",
+      "slug": "ciphertext",
       "source_file": "spec/terms-definitions/ciphertext.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "claim",
+      "slug": "claim",
       "source_file": "spec/terms-definitions/claim.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "coalition-for-content-provenance-and-authenticity",
+      "slug": "coalition-for-content-provenance-and-authenticity",
       "source_file": "spec/terms-definitions/coalition-for-content-provenance-and-authenticity.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "collective-signature",
+      "slug": "collective-signature",
       "source_file": "spec/terms-definitions/collective-signature.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "communication-channel",
+      "slug": "communication-channel",
       "source_file": "spec/terms-definitions/communication-channel.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "communication-endpoint",
+      "slug": "communication-endpoint",
       "source_file": "spec/terms-definitions/communication-endpoint.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "communication-metadata",
+      "slug": "communication-metadata",
       "source_file": "spec/terms-definitions/communication-metadata.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "communication-session",
+      "slug": "communication-session",
       "source_file": "spec/terms-definitions/communication-session.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "communication",
+      "slug": "communication",
       "source_file": "spec/terms-definitions/communication.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "complex-password",
+      "slug": "complex-password",
       "source_file": "spec/terms-definitions/complex-password.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "compliance",
+      "slug": "compliance",
       "source_file": "spec/terms-definitions/compliance.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "concept",
+      "slug": "concept",
       "source_file": "spec/terms-definitions/concept.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "confidential-computing",
+      "slug": "confidential-computing",
       "source_file": "spec/terms-definitions/confidential-computing.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "confidentiality",
+      "slug": "confidentiality",
       "source_file": "spec/terms-definitions/confidentiality.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "connection",
+      "slug": "connection",
       "source_file": "spec/terms-definitions/connection.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "consent-management",
+      "slug": "consent-management",
       "source_file": "spec/terms-definitions/consent-management.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "content-authenticity-initiative",
+      "slug": "content-authenticity-initiative",
       "source_file": "spec/terms-definitions/content-authenticity-initiative.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "contextual-linkability",
+      "slug": "contextual-linkability",
       "source_file": "spec/terms-definitions/contextual-linkability.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "control-authority",
+      "slug": "control-authority",
       "source_file": "spec/terms-definitions/control-authority.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "controlled-document",
+      "slug": "controlled-document",
       "source_file": "spec/terms-definitions/controlled-document.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "controller",
+      "slug": "controller",
       "source_file": "spec/terms-definitions/controller.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "correlation-privacy",
+      "slug": "correlation-privacy",
       "source_file": "spec/terms-definitions/correlation-privacy.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "counterparty",
+      "slug": "counterparty",
       "source_file": "spec/terms-definitions/counterparty.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "credential-family",
+      "slug": "credential-family",
       "source_file": "spec/terms-definitions/credential-family.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "credential-governance-framework",
+      "slug": "credential-governance-framework",
       "source_file": "spec/terms-definitions/credential-governance-framework.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "credential-offer",
+      "slug": "credential-offer",
       "source_file": "spec/terms-definitions/credential-offer.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "credential-request",
+      "slug": "credential-request",
       "source_file": "spec/terms-definitions/credential-request.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "credential-schema",
+      "slug": "credential-schema",
       "source_file": "spec/terms-definitions/credential-schema.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "credential",
+      "slug": "credential",
       "source_file": "spec/terms-definitions/credential.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "criterion",
+      "slug": "criterion",
       "source_file": "spec/terms-definitions/criterion.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "cryptographic-binding",
+      "slug": "cryptographic-binding",
       "source_file": "spec/terms-definitions/cryptographic-binding.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "cryptographic-key",
+      "slug": "cryptographic-key",
       "source_file": "spec/terms-definitions/cryptographic-key.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "cryptographic-trust",
+      "slug": "cryptographic-trust",
       "source_file": "spec/terms-definitions/cryptographic-trust.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "cryptographic-verifiability",
+      "slug": "cryptographic-verifiability",
       "source_file": "spec/terms-definitions/cryptographic-verifiability.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "cryptographically-bound",
+      "slug": "cryptographically-bound",
       "source_file": "spec/terms-definitions/cryptographically-bound.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "cryptographically-verifiable",
+      "slug": "cryptographically-verifiable",
       "source_file": "spec/terms-definitions/cryptographically-verifiable.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "cryptography",
+      "slug": "cryptography",
       "source_file": "spec/terms-definitions/cryptography.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "custodial-wallet",
+      "slug": "custodial-wallet",
       "source_file": "spec/terms-definitions/custodial-wallet.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "custodian",
+      "slug": "custodian",
       "source_file": "spec/terms-definitions/custodian.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "custodianship-arrangement",
+      "slug": "custodianship-arrangement",
       "source_file": "spec/terms-definitions/custodianship-arrangement.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "dark-pattern",
+      "slug": "dark-pattern",
       "source_file": "spec/terms-definitions/dark-pattern.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "data-packet",
+      "slug": "data-packet",
       "source_file": "spec/terms-definitions/data-packet.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "data-schema",
+      "slug": "data-schema",
       "source_file": "spec/terms-definitions/data-schema.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "data-subject",
+      "slug": "data-subject",
       "source_file": "spec/terms-definitions/data-subject.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "data-vault",
+      "slug": "data-vault",
       "source_file": "spec/terms-definitions/data-vault.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "data",
+      "slug": "data",
       "source_file": "spec/terms-definitions/data.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "datagram",
+      "slug": "datagram",
       "source_file": "spec/terms-definitions/datagram.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "dead-drop",
+      "slug": "dead-drop",
       "source_file": "spec/terms-definitions/dead-drop.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "decentralized-identifier",
+      "slug": "decentralized-identifier",
       "source_file": "spec/terms-definitions/decentralized-identifier.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "decentralized-identity-foundation",
+      "slug": "decentralized-identity-foundation",
       "source_file": "spec/terms-definitions/decentralized-identity-foundation.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "decentralized-identity",
+      "slug": "decentralized-identity",
       "source_file": "spec/terms-definitions/decentralized-identity.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "decentralized-web-node",
+      "slug": "decentralized-web-node",
       "source_file": "spec/terms-definitions/decentralized-web-node.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "deceptive-pattern",
+      "slug": "deceptive-pattern",
       "source_file": "spec/terms-definitions/deceptive-pattern.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "decryption",
+      "slug": "decryption",
       "source_file": "spec/terms-definitions/decryption.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "deep-link",
+      "slug": "deep-link",
       "source_file": "spec/terms-definitions/deep-link.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "definition",
+      "slug": "definition",
       "source_file": "spec/terms-definitions/definition.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "delegatee",
+      "slug": "delegatee",
       "source_file": "spec/terms-definitions/delegatee.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "delegation-credential",
+      "slug": "delegation-credential",
       "source_file": "spec/terms-definitions/delegation-credential.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "delegation",
+      "slug": "delegation",
       "source_file": "spec/terms-definitions/delegation.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "delegator",
+      "slug": "delegator",
       "source_file": "spec/terms-definitions/delegator.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "dependent",
+      "slug": "dependent",
       "source_file": "spec/terms-definitions/dependent.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "device-controller",
+      "slug": "device-controller",
       "source_file": "spec/terms-definitions/device-controller.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "dictionary",
+      "slug": "dictionary",
       "source_file": "spec/terms-definitions/dictionary.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "did-controller",
+      "slug": "did-controller",
       "source_file": "spec/terms-definitions/did-controller.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "did-document",
+      "slug": "did-document",
       "source_file": "spec/terms-definitions/did-document.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "did-method",
+      "slug": "did-method",
       "source_file": "spec/terms-definitions/did-method.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "did-subject",
+      "slug": "did-subject",
       "source_file": "spec/terms-definitions/did-subject.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "did-url",
+      "slug": "did-url",
       "source_file": "spec/terms-definitions/did-url.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "did",
+      "slug": "did",
       "source_file": "spec/terms-definitions/did.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "digital-agent",
+      "slug": "digital-agent",
       "source_file": "spec/terms-definitions/digital-agent.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "digital-asset",
+      "slug": "digital-asset",
       "source_file": "spec/terms-definitions/digital-asset.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "digital-certificate",
+      "slug": "digital-certificate",
       "source_file": "spec/terms-definitions/digital-certificate.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "digital-credential",
+      "slug": "digital-credential",
       "source_file": "spec/terms-definitions/digital-credential.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "digital-ecosystem",
+      "slug": "digital-ecosystem",
       "source_file": "spec/terms-definitions/digital-ecosystem.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "digital-identity",
+      "slug": "digital-identity",
       "source_file": "spec/terms-definitions/digital-identity.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "digital-rights-management",
+      "slug": "digital-rights-management",
       "source_file": "spec/terms-definitions/digital-rights-management.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "digital-signature",
+      "slug": "digital-signature",
       "source_file": "spec/terms-definitions/digital-signature.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "digital-trust-ecosystem",
+      "slug": "digital-trust-ecosystem",
       "source_file": "spec/terms-definitions/digital-trust-ecosystem.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "digital-trust-utility",
+      "slug": "digital-trust-utility",
       "source_file": "spec/terms-definitions/digital-trust-utility.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "digital-vault",
+      "slug": "digital-vault",
       "source_file": "spec/terms-definitions/digital-vault.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "digital-wallet",
+      "slug": "digital-wallet",
       "source_file": "spec/terms-definitions/digital-wallet.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "discovery",
+      "slug": "discovery",
       "source_file": "spec/terms-definitions/discovery.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "distributed-ledger",
+      "slug": "distributed-ledger",
       "source_file": "spec/terms-definitions/distributed-ledger.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "domain",
+      "slug": "domain",
       "source_file": "spec/terms-definitions/domain.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "drm",
+      "slug": "drm",
       "source_file": "spec/terms-definitions/drm.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "dwn",
+      "slug": "dwn",
       "source_file": "spec/terms-definitions/dwn.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "ecosystem-governance-framework",
+      "slug": "ecosystem-governance-framework",
       "source_file": "spec/terms-definitions/ecosystem-governance-framework.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "ecosystem",
+      "slug": "ecosystem",
       "source_file": "spec/terms-definitions/ecosystem.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "eidas",
+      "slug": "eidas",
       "source_file": "spec/terms-definitions/eidas.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "encrypt-sender-sign-receiver",
+      "slug": "encrypt-sender-sign-receiver",
       "source_file": "spec/terms-definitions/encrypt-sender-sign-receiver.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "encrypted-data-vault",
+      "slug": "encrypted-data-vault",
       "source_file": "spec/terms-definitions/encrypted-data-vault.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "encryption",
+      "slug": "encryption",
       "source_file": "spec/terms-definitions/encryption.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "end-to-end-encryption",
+      "slug": "end-to-end-encryption",
       "source_file": "spec/terms-definitions/end-to-end-encryption.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "end-to-end-principle",
+      "slug": "end-to-end-principle",
       "source_file": "spec/terms-definitions/end-to-end-principle.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "end-verifiability",
+      "slug": "end-verifiability",
       "source_file": "spec/terms-definitions/end-verifiability.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "end-verifiable",
+      "slug": "end-verifiable",
       "source_file": "spec/terms-definitions/end-verifiable.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "endpoint-system",
+      "slug": "endpoint-system",
       "source_file": "spec/terms-definitions/endpoint-system.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "endpoint",
+      "slug": "endpoint",
       "source_file": "spec/terms-definitions/endpoint.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "enterprise-data-vault",
+      "slug": "enterprise-data-vault",
       "source_file": "spec/terms-definitions/enterprise-data-vault.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "enterprise-wallet",
+      "slug": "enterprise-wallet",
       "source_file": "spec/terms-definitions/enterprise-wallet.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "entity",
+      "slug": "entity",
       "source_file": "spec/terms-definitions/entity.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "ephemeral-connection",
+      "slug": "ephemeral-connection",
       "source_file": "spec/terms-definitions/ephemeral-connection.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "essr",
+      "slug": "essr",
       "source_file": "spec/terms-definitions/ESSR.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "expression-language",
+      "slug": "expression-language",
       "source_file": "spec/terms-definitions/expression-language.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "fal",
+      "slug": "fal",
       "source_file": "spec/terms-definitions/fal.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "federated-identity",
+      "slug": "federated-identity",
       "source_file": "spec/terms-definitions/federated-identity.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "federation-assurance-level",
+      "slug": "federation-assurance-level",
       "source_file": "spec/terms-definitions/federation-assurance-level.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "federation",
+      "slug": "federation",
       "source_file": "spec/terms-definitions/federation.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "fiduciary",
+      "slug": "fiduciary",
       "source_file": "spec/terms-definitions/fiduciary.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "first-party",
+      "slug": "first-party",
       "source_file": "spec/terms-definitions/first-party.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "foundational-identity",
+      "slug": "foundational-identity",
       "source_file": "spec/terms-definitions/foundational-identity.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "fourth-party",
+      "slug": "fourth-party",
       "source_file": "spec/terms-definitions/fourth-party.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "functional-identity",
+      "slug": "functional-identity",
       "source_file": "spec/terms-definitions/functional-identity.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "gateway",
+      "slug": "gateway",
       "source_file": "spec/terms-definitions/gateway.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "gdpr",
+      "slug": "gdpr",
       "source_file": "spec/terms-definitions/gdpr.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "general-data-protection-regulation",
+      "slug": "general-data-protection-regulation",
       "source_file": "spec/terms-definitions/general-data-protection-regulation.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "glossary",
+      "slug": "glossary",
       "source_file": "spec/terms-definitions/glossary.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "governance-diamond",
+      "slug": "governance-diamond",
       "source_file": "spec/terms-definitions/governance-diamond.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "governance-document",
+      "slug": "governance-document",
       "source_file": "spec/terms-definitions/governance-document.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "governance-framework",
+      "slug": "governance-framework",
       "source_file": "spec/terms-definitions/governance-framework.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "governance-graph",
+      "slug": "governance-graph",
       "source_file": "spec/terms-definitions/governance-graph.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "governance-requirement",
+      "slug": "governance-requirement",
       "source_file": "spec/terms-definitions/governance-requirement.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "governance-risk-management-compliance",
+      "slug": "governance-risk-management-compliance",
       "source_file": "spec/terms-definitions/governance---risk-management---compliance.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "governance",
+      "slug": "governance",
       "source_file": "spec/terms-definitions/governance.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "governed-information",
+      "slug": "governed-information",
       "source_file": "spec/terms-definitions/governed-information.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "governed-party",
+      "slug": "governed-party",
       "source_file": "spec/terms-definitions/governed-party.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "governed-use-case",
+      "slug": "governed-use-case",
       "source_file": "spec/terms-definitions/governed-use-case.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "governing-authority",
+      "slug": "governing-authority",
       "source_file": "spec/terms-definitions/governing-authority.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "governing-body",
+      "slug": "governing-body",
       "source_file": "spec/terms-definitions/governing-body.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "grc",
+      "slug": "grc",
       "source_file": "spec/terms-definitions/grc.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "guardian",
+      "slug": "guardian",
       "source_file": "spec/terms-definitions/guardian.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "guardianship-arrangement",
+      "slug": "guardianship-arrangement",
       "source_file": "spec/terms-definitions/guardianship-arrangement.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "guardianship-credential",
+      "slug": "guardianship-credential",
       "source_file": "spec/terms-definitions/guardianship-credential.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "hardware-security-module",
+      "slug": "hardware-security-module",
       "source_file": "spec/terms-definitions/hardware-security-module.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "hash-function",
+      "slug": "hash-function",
       "source_file": "spec/terms-definitions/hash-function.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "hash",
+      "slug": "hash",
       "source_file": "spec/terms-definitions/hash.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "holder-binding",
+      "slug": "holder-binding",
       "source_file": "spec/terms-definitions/holder-binding.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "holder",
+      "slug": "holder",
       "source_file": "spec/terms-definitions/holder.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "host",
+      "slug": "host",
       "source_file": "spec/terms-definitions/host.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "hourglass-model",
+      "slug": "hourglass-model",
       "source_file": "spec/terms-definitions/hourglass-model.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "hsm",
+      "slug": "hsm",
       "source_file": "spec/terms-definitions/hsm.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "human-auditable",
+      "slug": "human-auditable",
       "source_file": "spec/terms-definitions/human-auditable.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "human-experience",
+      "slug": "human-experience",
       "source_file": "spec/terms-definitions/human-experience.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "human-readable",
+      "slug": "human-readable",
       "source_file": "spec/terms-definitions/human-readable.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "human-trust",
+      "slug": "human-trust",
       "source_file": "spec/terms-definitions/human-trust.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "ial",
+      "slug": "ial",
       "source_file": "spec/terms-definitions/ial.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "identification",
+      "slug": "identification",
       "source_file": "spec/terms-definitions/identification.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "identifier",
+      "slug": "identifier",
       "source_file": "spec/terms-definitions/identifier.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "identity-assurance-level",
+      "slug": "identity-assurance-level",
       "source_file": "spec/terms-definitions/identity-assurance-level.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "identity-assurance",
+      "slug": "identity-assurance",
       "source_file": "spec/terms-definitions/identity-assurance.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "identity-binding",
+      "slug": "identity-binding",
       "source_file": "spec/terms-definitions/identity-binding.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "identity-controller",
+      "slug": "identity-controller",
       "source_file": "spec/terms-definitions/identity-controller.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "identity-data",
+      "slug": "identity-data",
       "source_file": "spec/terms-definitions/identity-data.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "identity-document",
+      "slug": "identity-document",
       "source_file": "spec/terms-definitions/identity-document.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "identity-proofing",
+      "slug": "identity-proofing",
       "source_file": "spec/terms-definitions/identity-proofing.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "identity-provider",
+      "slug": "identity-provider",
       "source_file": "spec/terms-definitions/identity-provider.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "identity",
+      "slug": "identity",
       "source_file": "spec/terms-definitions/identity.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "idp",
+      "slug": "idp",
       "source_file": "spec/terms-definitions/idp.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "impersonation",
+      "slug": "impersonation",
       "source_file": "spec/terms-definitions/impersonation.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "information-theoretic-security",
+      "slug": "information-theoretic-security",
       "source_file": "spec/terms-definitions/information-theoretic-security.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "integrity",
+      "slug": "integrity",
       "source_file": "spec/terms-definitions/integrity.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "intermediary-system",
+      "slug": "intermediary-system",
       "source_file": "spec/terms-definitions/intermediary-system.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "internet-protocol-suite",
+      "slug": "internet-protocol-suite",
       "source_file": "spec/terms-definitions/internet-protocol-suite.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "internet-protocol",
+      "slug": "internet-protocol",
       "source_file": "spec/terms-definitions/internet-protocol.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "ip-address",
+      "slug": "ip-address",
       "source_file": "spec/terms-definitions/ip-address.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "ip",
+      "slug": "ip",
       "source_file": "spec/terms-definitions/ip.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "issuance-request",
+      "slug": "issuance-request",
       "source_file": "spec/terms-definitions/issuance-request.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "issuance",
+      "slug": "issuance",
       "source_file": "spec/terms-definitions/issuance.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "issuer",
+      "slug": "issuer",
       "source_file": "spec/terms-definitions/issuer.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "itps",
+      "slug": "itps",
       "source_file": "spec/terms-definitions/ITPS.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "jurisdiction",
+      "slug": "jurisdiction",
       "source_file": "spec/terms-definitions/jurisdiction.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "kate",
+      "slug": "kate",
       "source_file": "spec/terms-definitions/kate.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "keri",
+      "slug": "keri",
       "source_file": "spec/terms-definitions/keri.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "key-establishment",
+      "slug": "key-establishment",
       "source_file": "spec/terms-definitions/key-establishment.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "key-event-log",
+      "slug": "key-event-log",
       "source_file": "spec/terms-definitions/key-event-log.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "key-event-receipt-infrastructure",
+      "slug": "key-event-receipt-infrastructure",
       "source_file": "spec/terms-definitions/key-event-receipt-infrastructure.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "key-event",
+      "slug": "key-event",
       "source_file": "spec/terms-definitions/key-event.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "key-management-system",
+      "slug": "key-management-system",
       "source_file": "spec/terms-definitions/key-management-system.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "key",
+      "slug": "key",
       "source_file": "spec/terms-definitions/key.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "keys-at-the-edge",
+      "slug": "keys-at-the-edge",
       "source_file": "spec/terms-definitions/keys-at-the-edge.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "kms",
+      "slug": "kms",
       "source_file": "spec/terms-definitions/kms.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "knowledge",
+      "slug": "knowledge",
       "source_file": "spec/terms-definitions/knowledge.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "laws-of-identity",
+      "slug": "laws-of-identity",
       "source_file": "spec/terms-definitions/laws-of-identity.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "layer-1",
+      "slug": "layer-1",
       "source_file": "spec/terms-definitions/layer-1.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "layer-2",
+      "slug": "layer-2",
       "source_file": "spec/terms-definitions/layer-2.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "layer-3",
+      "slug": "layer-3",
       "source_file": "spec/terms-definitions/layer-3.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "layer-4",
+      "slug": "layer-4",
       "source_file": "spec/terms-definitions/layer-4.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "legal-entity-identifier",
+      "slug": "legal-entity-identifier",
       "source_file": "spec/terms-definitions/legal-entity-identifier.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "legal-entity",
+      "slug": "legal-entity",
       "source_file": "spec/terms-definitions/legal-entity.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "legal-identity",
+      "slug": "legal-identity",
       "source_file": "spec/terms-definitions/legal-identity.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "legal-person",
+      "slug": "legal-person",
       "source_file": "spec/terms-definitions/legal-person.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "legal-system",
+      "slug": "legal-system",
       "source_file": "spec/terms-definitions/legal-system.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "legitimized-human-meaningful-identifier",
+      "slug": "legitimized-human-meaningful-identifier",
       "source_file": "spec/terms-definitions/legitimized-human-meaningful-identifier.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "lei",
+      "slug": "lei",
       "source_file": "spec/terms-definitions/lei.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "level-of-assurance",
+      "slug": "level-of-assurance",
       "source_file": "spec/terms-definitions/level-of-assurance.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "lid",
+      "slug": "lid",
       "source_file": "spec/terms-definitions/LID.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "liveness-detection",
+      "slug": "liveness-detection",
       "source_file": "spec/terms-definitions/liveness-detection.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "locus-of-control",
+      "slug": "locus-of-control",
       "source_file": "spec/terms-definitions/locus-of-control.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "machine-readable",
+      "slug": "machine-readable",
       "source_file": "spec/terms-definitions/machine-readable.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "man-made-thing",
+      "slug": "man-made-thing",
       "source_file": "spec/terms-definitions/man-made-thing.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "mandatory",
+      "slug": "mandatory",
       "source_file": "spec/terms-definitions/mandatory.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "message",
+      "slug": "message",
       "source_file": "spec/terms-definitions/message.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "metadata",
+      "slug": "metadata",
       "source_file": "spec/terms-definitions/metadata.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "mobile-deep-link",
+      "slug": "mobile-deep-link",
       "source_file": "spec/terms-definitions/mobile-deep-link.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "mpc",
+      "slug": "mpc",
       "source_file": "spec/terms-definitions/mpc.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "multi-party-computation",
+      "slug": "multi-party-computation",
       "source_file": "spec/terms-definitions/multi-party-computation.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "multi-party-control",
+      "slug": "multi-party-control",
       "source_file": "spec/terms-definitions/multi-party-control.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "multi-signature",
+      "slug": "multi-signature",
       "source_file": "spec/terms-definitions/multi-signature.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "multicast-address",
+      "slug": "multicast-address",
       "source_file": "spec/terms-definitions/multicast-address.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "multicast",
+      "slug": "multicast",
       "source_file": "spec/terms-definitions/multicast.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "natural-person",
+      "slug": "natural-person",
       "source_file": "spec/terms-definitions/natural-person.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "natural-thing",
+      "slug": "natural-thing",
       "source_file": "spec/terms-definitions/natural-thing.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "network-address",
+      "slug": "network-address",
       "source_file": "spec/terms-definitions/network-address.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "nist-csrc",
+      "slug": "nist-csrc",
       "source_file": "spec/terms-definitions/nist-csrc.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "node",
+      "slug": "node",
       "source_file": "spec/terms-definitions/node.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "non-custodial-wallet",
+      "slug": "non-custodial-wallet",
       "source_file": "spec/terms-definitions/non-custodial-wallet.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "non-repudiable",
+      "slug": "non-repudiable",
       "source_file": "spec/terms-definitions/non-repudiable.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "non-transferable-identifier",
+      "slug": "non-transferable-identifier",
       "source_file": "spec/terms-definitions/non-transferable-identifier.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "non-transferable",
+      "slug": "non-transferable",
       "source_file": "spec/terms-definitions/non-transferable.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "objective",
+      "slug": "objective",
       "source_file": "spec/terms-definitions/objective.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "oobi",
+      "slug": "oobi",
       "source_file": "spec/terms-definitions/oobi.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "openwallet-foundation",
+      "slug": "openwallet-foundation",
       "source_file": "spec/terms-definitions/openwallet-foundation.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "operational-circumstances",
+      "slug": "operational-circumstances",
       "source_file": "spec/terms-definitions/operational-circumstances.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "optional",
+      "slug": "optional",
       "source_file": "spec/terms-definitions/optional.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "organization",
+      "slug": "organization",
       "source_file": "spec/terms-definitions/organization.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "organizational-authority",
+      "slug": "organizational-authority",
       "source_file": "spec/terms-definitions/organizational-authority.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "out-of-band-introduction",
+      "slug": "out-of-band-introduction",
       "source_file": "spec/terms-definitions/out-of-band-introduction.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "owner",
+      "slug": "owner",
       "source_file": "spec/terms-definitions/owner.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "p2p",
+      "slug": "p2p",
       "source_file": "spec/terms-definitions/p2p.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "packet",
+      "slug": "packet",
       "source_file": "spec/terms-definitions/packet.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "party",
+      "slug": "party",
       "source_file": "spec/terms-definitions/party.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "password",
+      "slug": "password",
       "source_file": "spec/terms-definitions/password.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "peer-to-peer",
+      "slug": "peer-to-peer",
       "source_file": "spec/terms-definitions/peer-to-peer.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "peer",
+      "slug": "peer",
       "source_file": "spec/terms-definitions/peer.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "permission",
+      "slug": "permission",
       "source_file": "spec/terms-definitions/permission.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "persistent-connection",
+      "slug": "persistent-connection",
       "source_file": "spec/terms-definitions/persistent-connection.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "persistent-identifier",
+      "slug": "persistent-identifier",
       "source_file": "spec/terms-definitions/persistent-identifier.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "person",
+      "slug": "person",
       "source_file": "spec/terms-definitions/person.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "personal-data-store",
+      "slug": "personal-data-store",
       "source_file": "spec/terms-definitions/personal-data-store.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "personal-data-vault",
+      "slug": "personal-data-vault",
       "source_file": "spec/terms-definitions/personal-data-vault.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "personal-data",
+      "slug": "personal-data",
       "source_file": "spec/terms-definitions/personal-data.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "personal-wallet",
+      "slug": "personal-wallet",
       "source_file": "spec/terms-definitions/personal-wallet.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "personally-identifiable-information",
+      "slug": "personally-identifiable-information",
       "source_file": "spec/terms-definitions/personally-identifiable-information.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "physical-credential",
+      "slug": "physical-credential",
       "source_file": "spec/terms-definitions/physical-credential.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "pii",
+      "slug": "pii",
       "source_file": "spec/terms-definitions/pii.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "pki",
+      "slug": "pki",
       "source_file": "spec/terms-definitions/pki.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "plaintext",
+      "slug": "plaintext",
       "source_file": "spec/terms-definitions/plaintext.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "policy",
+      "slug": "policy",
       "source_file": "spec/terms-definitions/policy.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "pop",
+      "slug": "pop",
       "source_file": "spec/terms-definitions/pop.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "presentation-attack",
+      "slug": "presentation-attack",
       "source_file": "spec/terms-definitions/presentation-attack.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "presentation-request",
+      "slug": "presentation-request",
       "source_file": "spec/terms-definitions/presentation-request.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "presentation",
+      "slug": "presentation",
       "source_file": "spec/terms-definitions/presentation.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "primary-document",
+      "slug": "primary-document",
       "source_file": "spec/terms-definitions/primary-document.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "principal",
+      "slug": "principal",
       "source_file": "spec/terms-definitions/principal.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "principles-of-ssi",
+      "slug": "principles-of-ssi",
       "source_file": "spec/terms-definitions/principles-of-ssi.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "privacy-policy",
+      "slug": "privacy-policy",
       "source_file": "spec/terms-definitions/privacy-policy.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "privacy-washing",
+      "slug": "privacy-washing",
       "source_file": "spec/terms-definitions/privacy-washing.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "private-key",
+      "slug": "private-key",
       "source_file": "spec/terms-definitions/private-key.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "proof-of-control",
+      "slug": "proof-of-control",
       "source_file": "spec/terms-definitions/proof-of-control.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "proof-of-personhood",
+      "slug": "proof-of-personhood",
       "source_file": "spec/terms-definitions/proof-of-personhood.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "proof-of-possession",
+      "slug": "proof-of-possession",
       "source_file": "spec/terms-definitions/proof-of-possession.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "proof-of-presence",
+      "slug": "proof-of-presence",
       "source_file": "spec/terms-definitions/proof-of-presence.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "proof",
+      "slug": "proof",
       "source_file": "spec/terms-definitions/proof.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "property",
+      "slug": "property",
       "source_file": "spec/terms-definitions/property.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "protected-data",
+      "slug": "protected-data",
       "source_file": "spec/terms-definitions/protected-data.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "protocol-layer",
+      "slug": "protocol-layer",
       "source_file": "spec/terms-definitions/protocol-layer.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "protocol-stack",
+      "slug": "protocol-stack",
       "source_file": "spec/terms-definitions/protocol-stack.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "pseudonym",
+      "slug": "pseudonym",
       "source_file": "spec/terms-definitions/pseudonym.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "public-key-certificate",
+      "slug": "public-key-certificate",
       "source_file": "spec/terms-definitions/public-key-certificate.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "public-key-cryptography",
+      "slug": "public-key-cryptography",
       "source_file": "spec/terms-definitions/public-key-cryptography.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "public-key-infrastructure",
+      "slug": "public-key-infrastructure",
       "source_file": "spec/terms-definitions/public-key-infrastructure.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "public-key",
+      "slug": "public-key",
       "source_file": "spec/terms-definitions/public-key.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "qr-code",
+      "slug": "qr-code",
       "source_file": "spec/terms-definitions/qr-code.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "rbac",
+      "slug": "rbac",
       "source_file": "spec/terms-definitions/rbac.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "real-world-identity",
+      "slug": "real-world-identity",
       "source_file": "spec/terms-definitions/real-world-identity.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "recommended",
+      "slug": "recommended",
       "source_file": "spec/terms-definitions/recommended.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "record",
+      "slug": "record",
       "source_file": "spec/terms-definitions/record.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "registrant",
+      "slug": "registrant",
       "source_file": "spec/terms-definitions/registrant.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "registrar",
+      "slug": "registrar",
       "source_file": "spec/terms-definitions/registrar.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "registration-agent",
+      "slug": "registration-agent",
       "source_file": "spec/terms-definitions/registration-agent.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "registration",
+      "slug": "registration",
       "source_file": "spec/terms-definitions/registration.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "registry",
+      "slug": "registry",
       "source_file": "spec/terms-definitions/registry.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "relationship-context",
+      "slug": "relationship-context",
       "source_file": "spec/terms-definitions/relationship-context.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "relationship",
+      "slug": "relationship",
       "source_file": "spec/terms-definitions/relationship.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "relying-party",
+      "slug": "relying-party",
       "source_file": "spec/terms-definitions/relying-party.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "reputation-graph",
+      "slug": "reputation-graph",
       "source_file": "spec/terms-definitions/reputation-graph.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "reputation-system",
+      "slug": "reputation-system",
       "source_file": "spec/terms-definitions/reputation-system.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "reputation",
+      "slug": "reputation",
       "source_file": "spec/terms-definitions/reputation.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "reputational-trust",
+      "slug": "reputational-trust",
       "source_file": "spec/terms-definitions/reputational-trust.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "requirement",
+      "slug": "requirement",
       "source_file": "spec/terms-definitions/requirement.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "resolver",
+      "slug": "resolver",
       "source_file": "spec/terms-definitions/resolver.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "revocation",
+      "slug": "revocation",
       "source_file": "spec/terms-definitions/revocation.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "risk-assessment",
+      "slug": "risk-assessment",
       "source_file": "spec/terms-definitions/risk-assessment.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "risk-decision",
+      "slug": "risk-decision",
       "source_file": "spec/terms-definitions/risk-decision.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "risk-management",
+      "slug": "risk-management",
       "source_file": "spec/terms-definitions/risk-management.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "risk-mitigation",
+      "slug": "risk-mitigation",
       "source_file": "spec/terms-definitions/risk-mitigation.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "risk",
+      "slug": "risk",
       "source_file": "spec/terms-definitions/risk.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "role-based-access-control",
+      "slug": "role-based-access-control",
       "source_file": "spec/terms-definitions/role-based-access-control.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "role-credential",
+      "slug": "role-credential",
       "source_file": "spec/terms-definitions/role-credential.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "role",
+      "slug": "role",
       "source_file": "spec/terms-definitions/role.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "rotation",
+      "slug": "rotation",
       "source_file": "spec/terms-definitions/rotation.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "router",
+      "slug": "router",
       "source_file": "spec/terms-definitions/router.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "routing",
+      "slug": "routing",
       "source_file": "spec/terms-definitions/routing.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "rule",
+      "slug": "rule",
       "source_file": "spec/terms-definitions/rule.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "rwi",
+      "slug": "rwi",
       "source_file": "spec/terms-definitions/rwi.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "schema",
+      "slug": "schema",
       "source_file": "spec/terms-definitions/schema.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "scid",
+      "slug": "scid",
       "source_file": "spec/terms-definitions/scid.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "scope",
+      "slug": "scope",
       "source_file": "spec/terms-definitions/scope.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "second-party",
+      "slug": "second-party",
       "source_file": "spec/terms-definitions/second-party.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "secure-attribution",
+      "slug": "secure-attribution",
       "source_file": "spec/terms-definitions/secure-attribution.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "secure-enclave",
+      "slug": "secure-enclave",
       "source_file": "spec/terms-definitions/secure-enclave.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "secure-multi-party-computation",
+      "slug": "secure-multi-party-computation",
       "source_file": "spec/terms-definitions/secure-multi-party-computation.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "security-domain",
+      "slug": "security-domain",
       "source_file": "spec/terms-definitions/security-domain.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "security-policy",
+      "slug": "security-policy",
       "source_file": "spec/terms-definitions/security-policy.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "self-asserted",
+      "slug": "self-asserted",
       "source_file": "spec/terms-definitions/self-asserted.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "self-certified",
+      "slug": "self-certified",
       "source_file": "spec/terms-definitions/self-certified.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "self-certifying-identifier",
+      "slug": "self-certifying-identifier",
       "source_file": "spec/terms-definitions/self-certifying-identifier.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "self-sovereign-identity",
+      "slug": "self-sovereign-identity",
       "source_file": "spec/terms-definitions/self-sovereign-identity.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "sensitive-data",
+      "slug": "sensitive-data",
       "source_file": "spec/terms-definitions/sensitive-data.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "session",
+      "slug": "session",
       "source_file": "spec/terms-definitions/session.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "single-signature-identifier",
+      "slug": "single-signature-identifier",
       "source_file": "spec/terms-definitions/single-signature-identifier.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "sociotechnical-system",
+      "slug": "sociotechnical-system",
       "source_file": "spec/terms-definitions/sociotechnical-system.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "software-agent",
+      "slug": "software-agent",
       "source_file": "spec/terms-definitions/software-agent.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "sovrin-foundation",
+      "slug": "sovrin-foundation",
       "source_file": "spec/terms-definitions/sovrin-foundation.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "spanning-layer",
+      "slug": "spanning-layer",
       "source_file": "spec/terms-definitions/spanning-layer.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "specification",
+      "slug": "specification",
       "source_file": "spec/terms-definitions/specification.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "ssi",
+      "slug": "ssi",
       "source_file": "spec/terms-definitions/ssi.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "stream",
+      "slug": "stream",
       "source_file": "spec/terms-definitions/stream.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "streaming-media",
+      "slug": "streaming-media",
       "source_file": "spec/terms-definitions/streaming-media.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "subject",
+      "slug": "subject",
       "source_file": "spec/terms-definitions/subject.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "subscription",
+      "slug": "subscription",
       "source_file": "spec/terms-definitions/subscription.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "supporting-system",
+      "slug": "supporting-system",
       "source_file": "spec/terms-definitions/supporting-system.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "sybil-attack",
+      "slug": "sybil-attack",
       "source_file": "spec/terms-definitions/sybil-attack.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "system-of-record",
+      "slug": "system-of-record",
       "source_file": "spec/terms-definitions/system-of-record.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "tamper-evident",
+      "slug": "tamper-evident",
       "source_file": "spec/terms-definitions/tamper-evident.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "tamper-resistant",
+      "slug": "tamper-resistant",
       "source_file": "spec/terms-definitions/tamper-resistant.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "tcp-ip-stack",
+      "slug": "tcp-ip-stack",
       "source_file": "spec/terms-definitions/tcp-ip-stack.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "tcp-ip",
+      "slug": "tcp-ip",
       "source_file": "spec/terms-definitions/tcp-ip.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "technical-requirement",
+      "slug": "technical-requirement",
       "source_file": "spec/terms-definitions/technical-requirement.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "technical-specification",
+      "slug": "technical-specification",
       "source_file": "spec/terms-definitions/technical-specification.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "technical-trust",
+      "slug": "technical-trust",
       "source_file": "spec/terms-definitions/technical-trust.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "tee",
+      "slug": "tee",
       "source_file": "spec/terms-definitions/tee.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "term",
+      "slug": "term",
       "source_file": "spec/terms-definitions/term.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "terminology",
+      "slug": "terminology",
       "source_file": "spec/terms-definitions/terminology.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "terms-community",
+      "slug": "terms-community",
       "source_file": "spec/terms-definitions/terms-community.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "terms-wiki",
+      "slug": "terms-wiki",
       "source_file": "spec/terms-definitions/terms-wiki.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "thing",
+      "slug": "thing",
       "source_file": "spec/terms-definitions/thing.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "third-party",
+      "slug": "third-party",
       "source_file": "spec/terms-definitions/third-party.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "three-party-model",
+      "slug": "three-party-model",
       "source_file": "spec/terms-definitions/three-party-model.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "timestamp",
+      "slug": "timestamp",
       "source_file": "spec/terms-definitions/timestamp.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "tls",
+      "slug": "tls",
       "source_file": "spec/terms-definitions/tls.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "toip-application",
+      "slug": "toip-application",
       "source_file": "spec/terms-definitions/toip-application.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "toip-channel",
+      "slug": "toip-channel",
       "source_file": "spec/terms-definitions/toip-channel.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "toip-communication",
+      "slug": "toip-communication",
       "source_file": "spec/terms-definitions/toip-communication.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "toip-connection",
+      "slug": "toip-connection",
       "source_file": "spec/terms-definitions/toip-connection.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "toip-controller",
+      "slug": "toip-controller",
       "source_file": "spec/terms-definitions/toip-controller.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "toip-endpoint",
+      "slug": "toip-endpoint",
       "source_file": "spec/terms-definitions/toip-endpoint.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "toip-foundation",
+      "slug": "toip-foundation",
       "source_file": "spec/terms-definitions/toip-foundation.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "toip-governance-architecture-specification",
+      "slug": "toip-governance-architecture-specification",
       "source_file": "spec/terms-definitions/toip-governance-architecture-specification.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "toip-governance-framework",
+      "slug": "toip-governance-framework",
       "source_file": "spec/terms-definitions/toip-governance-framework.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "toip-governance-metamodel",
+      "slug": "toip-governance-metamodel",
       "source_file": "spec/terms-definitions/toip-governance-metamodel.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "toip-governance-stack",
+      "slug": "toip-governance-stack",
       "source_file": "spec/terms-definitions/toip-governance-stack.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "toip-identifier",
+      "slug": "toip-identifier",
       "source_file": "spec/terms-definitions/toip-identifier.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "toip-intermediary",
+      "slug": "toip-intermediary",
       "source_file": "spec/terms-definitions/toip-intermediary.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "toip-layer-1",
+      "slug": "toip-layer-1",
       "source_file": "spec/terms-definitions/toip-layer-1.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "toip-layer-2",
+      "slug": "toip-layer-2",
       "source_file": "spec/terms-definitions/toip-layer-2.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "toip-layer-3",
+      "slug": "toip-layer-3",
       "source_file": "spec/terms-definitions/toip-layer-3.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "toip-layer-4",
+      "slug": "toip-layer-4",
       "source_file": "spec/terms-definitions/toip-layer-4.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "toip-layer",
+      "slug": "toip-layer",
       "source_file": "spec/terms-definitions/toip-layer.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "toip-message",
+      "slug": "toip-message",
       "source_file": "spec/terms-definitions/toip-message.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "toip-relationship",
+      "slug": "toip-relationship",
       "source_file": "spec/terms-definitions/toip-relationship.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "toip-specification",
+      "slug": "toip-specification",
       "source_file": "spec/terms-definitions/toip-specification.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "toip-stack",
+      "slug": "toip-stack",
       "source_file": "spec/terms-definitions/toip-stack.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "toip-system",
+      "slug": "toip-system",
       "source_file": "spec/terms-definitions/toip-system.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "toip-technology-architecture-specification",
+      "slug": "toip-technology-architecture-specification",
       "source_file": "spec/terms-definitions/toip-technology-architecture-specification.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "toip-technology-stack",
+      "slug": "toip-technology-stack",
       "source_file": "spec/terms-definitions/toip-technology-stack.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "toip-trust-community",
+      "slug": "toip-trust-community",
       "source_file": "spec/terms-definitions/toip-trust-community.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "toip-trust-network",
+      "slug": "toip-trust-network",
       "source_file": "spec/terms-definitions/toip-trust-network.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "toip-trust-registry-protocol",
+      "slug": "toip-trust-registry-protocol",
       "source_file": "spec/terms-definitions/toip-trust-registry-protocol.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "toip-trust-spanning-protocol",
+      "slug": "toip-trust-spanning-protocol",
       "source_file": "spec/terms-definitions/toip-trust-spanning-protocol.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "toip",
+      "slug": "toip",
       "source_file": "spec/terms-definitions/toip.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "transaction",
+      "slug": "transaction",
       "source_file": "spec/terms-definitions/transaction.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "transferable-identifier",
+      "slug": "transferable-identifier",
       "source_file": "spec/terms-definitions/transferable-identifier.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "transferable",
+      "slug": "transferable",
       "source_file": "spec/terms-definitions/transferable.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "transitive-trust-decision",
+      "slug": "transitive-trust-decision",
       "source_file": "spec/terms-definitions/transitive-trust-decision.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "transport-layer-security",
+      "slug": "transport-layer-security",
       "source_file": "spec/terms-definitions/transport-layer-security.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "transport-layer",
+      "slug": "transport-layer",
       "source_file": "spec/terms-definitions/transport-layer.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "tribal-knowledge",
+      "slug": "tribal-knowledge",
       "source_file": "spec/terms-definitions/tribal-knowledge.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "trust-anchor",
+      "slug": "trust-anchor",
       "source_file": "spec/terms-definitions/trust-anchor.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "trust-application-layer",
+      "slug": "trust-application-layer",
       "source_file": "spec/terms-definitions/trust-application-layer.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "trust-application",
+      "slug": "trust-application",
       "source_file": "spec/terms-definitions/trust-application.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "trust-assurance",
+      "slug": "trust-assurance",
       "source_file": "spec/terms-definitions/trust-assurance.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "trust-basis",
+      "slug": "trust-basis",
       "source_file": "spec/terms-definitions/trust-basis.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "trust-boundary",
+      "slug": "trust-boundary",
       "source_file": "spec/terms-definitions/trust-boundary.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "trust-chain",
+      "slug": "trust-chain",
       "source_file": "spec/terms-definitions/trust-chain.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "trust-community",
+      "slug": "trust-community",
       "source_file": "spec/terms-definitions/trust-community.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "trust-context",
+      "slug": "trust-context",
       "source_file": "spec/terms-definitions/trust-context.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "trust-decision",
+      "slug": "trust-decision",
       "source_file": "spec/terms-definitions/trust-decision.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "trust-domain",
+      "slug": "trust-domain",
       "source_file": "spec/terms-definitions/trust-domain.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "trust-ecosystem",
+      "slug": "trust-ecosystem",
       "source_file": "spec/terms-definitions/trust-ecosystem.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "trust-establishment",
+      "slug": "trust-establishment",
       "source_file": "spec/terms-definitions/trust-establishment.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "trust-factor",
+      "slug": "trust-factor",
       "source_file": "spec/terms-definitions/trust-factor.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "trust-framework",
+      "slug": "trust-framework",
       "source_file": "spec/terms-definitions/trust-framework.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "trust-graph",
+      "slug": "trust-graph",
       "source_file": "spec/terms-definitions/trust-graph.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "trust-limit",
+      "slug": "trust-limit",
       "source_file": "spec/terms-definitions/trust-limit.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "trust-list",
+      "slug": "trust-list",
       "source_file": "spec/terms-definitions/trust-list.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "trust-network",
+      "slug": "trust-network",
       "source_file": "spec/terms-definitions/trust-network.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "trust-objective",
+      "slug": "trust-objective",
       "source_file": "spec/terms-definitions/trust-objective.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "trust-over-ip",
+      "slug": "trust-over-ip",
       "source_file": "spec/terms-definitions/trust-over-ip.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "trust-registry-protocol",
+      "slug": "trust-registry-protocol",
       "source_file": "spec/terms-definitions/trust-registry-protocol.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "trust-registry",
+      "slug": "trust-registry",
       "source_file": "spec/terms-definitions/trust-registry.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "trust-relationship",
+      "slug": "trust-relationship",
       "source_file": "spec/terms-definitions/trust-relationship.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "trust-root",
+      "slug": "trust-root",
       "source_file": "spec/terms-definitions/trust-root.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "trust-service-provider",
+      "slug": "trust-service-provider",
       "source_file": "spec/terms-definitions/trust-service-provider.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "trust-spanning-layer",
+      "slug": "trust-spanning-layer",
       "source_file": "spec/terms-definitions/trust-spanning-layer.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "trust-spanning-protocol",
+      "slug": "trust-spanning-protocol",
       "source_file": "spec/terms-definitions/trust-spanning-protocol.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "trust-support-layer",
+      "slug": "trust-support-layer",
       "source_file": "spec/terms-definitions/trust-support-layer.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "trust-support",
+      "slug": "trust-support",
       "source_file": "spec/terms-definitions/trust-support.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "trust-task-layer",
+      "slug": "trust-task-layer",
       "source_file": "spec/terms-definitions/trust-task-layer.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "trust-task-protocol",
+      "slug": "trust-task-protocol",
       "source_file": "spec/terms-definitions/trust-task-protocol.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "trust-task",
+      "slug": "trust-task",
       "source_file": "spec/terms-definitions/trust-task.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "trust-triangle",
+      "slug": "trust-triangle",
       "source_file": "spec/terms-definitions/trust-triangle.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "trust",
+      "slug": "trust",
       "source_file": "spec/terms-definitions/trust.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "trusted-execution-environment",
+      "slug": "trusted-execution-environment",
       "source_file": "spec/terms-definitions/trusted-execution-environment.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "trusted-role",
+      "slug": "trusted-role",
       "source_file": "spec/terms-definitions/trusted-role.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "trusted-third-party",
+      "slug": "trusted-third-party",
       "source_file": "spec/terms-definitions/trusted-third-party.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "trusted-timestamp-authority",
+      "slug": "trusted-timestamp-authority",
       "source_file": "spec/terms-definitions/trusted-timestamp-authority.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "trustworthiness",
+      "slug": "trustworthiness",
       "source_file": "spec/terms-definitions/trustworthiness.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "trustworthy",
+      "slug": "trustworthy",
       "source_file": "spec/terms-definitions/trustworthy.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "tsp",
+      "slug": "tsp",
       "source_file": "spec/terms-definitions/tsp.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "tta",
+      "slug": "tta",
       "source_file": "spec/terms-definitions/tta.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "ttp",
+      "slug": "ttp",
       "source_file": "spec/terms-definitions/ttp.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "udp",
+      "slug": "udp",
       "source_file": "spec/terms-definitions/udp.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "unicast-address",
+      "slug": "unicast-address",
       "source_file": "spec/terms-definitions/unicast-address.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "unicast",
+      "slug": "unicast",
       "source_file": "spec/terms-definitions/unicast.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "uniform-resource-identifier",
+      "slug": "uniform-resource-identifier",
       "source_file": "spec/terms-definitions/uniform-resource-identifier.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "uniform-resource-locator",
+      "slug": "uniform-resource-locator",
       "source_file": "spec/terms-definitions/uniform-resource-locator.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "uniform-resource-name",
+      "slug": "uniform-resource-name",
       "source_file": "spec/terms-definitions/uniform-resource-name.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "uri",
+      "slug": "uri",
       "source_file": "spec/terms-definitions/uri.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "url",
+      "slug": "url",
       "source_file": "spec/terms-definitions/url.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "urn",
+      "slug": "urn",
       "source_file": "spec/terms-definitions/urn.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "user-agent",
+      "slug": "user-agent",
       "source_file": "spec/terms-definitions/user-agent.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "user-datagram-protocol",
+      "slug": "user-datagram-protocol",
       "source_file": "spec/terms-definitions/user-datagram-protocol.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "utility-governance-framework",
+      "slug": "utility-governance-framework",
       "source_file": "spec/terms-definitions/utility-governance-framework.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "validation",
+      "slug": "validation",
       "source_file": "spec/terms-definitions/validation.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "vault",
+      "slug": "vault",
       "source_file": "spec/terms-definitions/vault.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "vc",
+      "slug": "vc",
       "source_file": "spec/terms-definitions/vc.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "verifiable-credential",
+      "slug": "verifiable-credential",
       "source_file": "spec/terms-definitions/verifiable-credential.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "verifiable-data-registry",
+      "slug": "verifiable-data-registry",
       "source_file": "spec/terms-definitions/verifiable-data-registry.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "verifiable-data",
+      "slug": "verifiable-data",
       "source_file": "spec/terms-definitions/verifiable-data.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "verifiable-identifier",
+      "slug": "verifiable-identifier",
       "source_file": "spec/terms-definitions/verifiable-identifier.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "verifiable-message",
+      "slug": "verifiable-message",
       "source_file": "spec/terms-definitions/verifiable-message.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "verifiable",
+      "slug": "verifiable",
       "source_file": "spec/terms-definitions/verifiable.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "verification",
+      "slug": "verification",
       "source_file": "spec/terms-definitions/verification.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "verifier",
+      "slug": "verifier",
       "source_file": "spec/terms-definitions/verifier.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "vid-relationship",
+      "slug": "vid-relationship",
       "source_file": "spec/terms-definitions/vid-relationship.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "vid-to-vid",
+      "slug": "vid-to-vid",
       "source_file": "spec/terms-definitions/vid-to-vid.md",
-      "governance_profile": "governance-supporting"
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "vid",
+      "slug": "vid",
       "source_file": "spec/terms-definitions/vid.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "virtual-credential",
+      "slug": "virtual-credential",
       "source_file": "spec/terms-definitions/virtual-credential.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "virtual-vault",
+      "slug": "virtual-vault",
       "source_file": "spec/terms-definitions/virtual-vault.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "voice-over-ip",
+      "slug": "voice-over-ip",
       "source_file": "spec/terms-definitions/voice-over-ip.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "voip",
+      "slug": "voip",
       "source_file": "spec/terms-definitions/voip.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "w3c-verifiable-credentials-data-model-specification",
+      "slug": "w3c-verifiable-credentials-data-model-specification",
       "source_file": "spec/terms-definitions/w3c-verifiable-credentials-data-model-specification.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "wallet-engine",
+      "slug": "wallet-engine",
       "source_file": "spec/terms-definitions/wallet-engine.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "wallet",
+      "slug": "wallet",
       "source_file": "spec/terms-definitions/wallet.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     },
     {
       "term": "witness",
+      "slug": "witness",
       "source_file": "spec/terms-definitions/witness.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "zero-knowledge-proof",
+      "slug": "zero-knowledge-proof",
       "source_file": "spec/terms-definitions/zero-knowledge-proof.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "zero-knowledge-service-provider",
+      "slug": "zero-knowledge-service-provider",
       "source_file": "spec/terms-definitions/zero-knowledge-service-provider.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "zero-knowledge-service",
+      "slug": "zero-knowledge-service",
       "source_file": "spec/terms-definitions/zero-knowledge-service.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "zero-trust-architecture",
+      "slug": "zero-trust-architecture",
       "source_file": "spec/terms-definitions/zero-trust-architecture.md",
-      "governance_profile": "core-operational"
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "zkp",
+      "slug": "zkp",
       "source_file": "spec/terms-definitions/zkp.md",
-      "governance_profile": "descriptive"
+      "governance_profile": "descriptive",
+      "assurance_level_hint": "informative"
     }
   ]
 }

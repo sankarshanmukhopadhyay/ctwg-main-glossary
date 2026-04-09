@@ -2,6 +2,8 @@
 title: "verifiable-credential"
 ---
 
+> Generated file. Update `glossary/terms/verifiable-credential.yaml` and regenerate artifacts instead of editing this page directly.
+
 # verifiable-credential
 
 ## Definition

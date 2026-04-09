@@ -2,6 +2,8 @@
 title: "ecosystem-governance-framework"
 ---
 
+> Generated file. Update `glossary/terms/ecosystem-governance-framework.yaml` and regenerate artifacts instead of editing this page directly.
+
 # ecosystem-governance-framework
 
 ## Definition

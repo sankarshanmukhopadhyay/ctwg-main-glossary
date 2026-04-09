@@ -2,6 +2,8 @@
 title: "risk-decision"
 ---
 
+> Generated file. Update `glossary/terms/risk-decision.yaml` and regenerate artifacts instead of editing this page directly.
+
 # risk-decision
 
 ## Definition

@@ -2,6 +2,8 @@
 title: "revocation"
 ---
 
+> Generated file. Update `glossary/terms/revocation.yaml` and regenerate artifacts instead of editing this page directly.
+
 # revocation
 
 ## Definition

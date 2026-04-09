@@ -2,6 +2,8 @@
 title: "trust-registry"
 ---
 
+> Generated file. Update `glossary/terms/trust-registry.yaml` and regenerate artifacts instead of editing this page directly.
+
 # trust-registry
 
 ## Definition

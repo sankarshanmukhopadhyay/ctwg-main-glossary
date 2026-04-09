@@ -2,6 +2,8 @@
 title: "non-transferable"
 ---
 
+> Generated file. Update `glossary/terms/non-transferable.yaml` and regenerate artifacts instead of editing this page directly.
+
 # non-transferable
 
 ## Definition

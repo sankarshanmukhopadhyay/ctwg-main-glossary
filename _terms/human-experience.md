@@ -2,6 +2,8 @@
 title: "human-experience"
 ---
 
+> Generated file. Update `glossary/terms/human-experience.yaml` and regenerate artifacts instead of editing this page directly.
+
 # human-experience
 
 ## Definition

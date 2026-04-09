@@ -2,6 +2,8 @@
 title: "dictionary"
 ---
 
+> Generated file. Update `glossary/terms/dictionary.yaml` and regenerate artifacts instead of editing this page directly.
+
 # dictionary
 
 ## Definition

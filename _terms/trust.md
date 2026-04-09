@@ -2,6 +2,8 @@
 title: "trust"
 ---
 
+> Generated file. Update `glossary/terms/trust.yaml` and regenerate artifacts instead of editing this page directly.
+
 # trust
 
 ## Definition

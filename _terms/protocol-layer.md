@@ -2,6 +2,8 @@
 title: "protocol-layer"
 ---
 
+> Generated file. Update `glossary/terms/protocol-layer.yaml` and regenerate artifacts instead of editing this page directly.
+
 # protocol-layer
 
 ## Definition

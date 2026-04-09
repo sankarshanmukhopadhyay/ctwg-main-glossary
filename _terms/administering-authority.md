@@ -2,6 +2,8 @@
 title: "administering-authority"
 ---
 
+> Generated file. Update `glossary/terms/administering-authority.yaml` and regenerate artifacts instead of editing this page directly.
+
 # administering-authority
 
 ## Definition

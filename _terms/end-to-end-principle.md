@@ -2,6 +2,8 @@
 title: "end-to-end-principle"
 ---
 
+> Generated file. Update `glossary/terms/end-to-end-principle.yaml` and regenerate artifacts instead of editing this page directly.
+
 # end-to-end-principle
 
 ## Definition

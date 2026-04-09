@@ -2,6 +2,8 @@
 title: "trust-basis"
 ---
 
+> Generated file. Update `glossary/terms/trust-basis.yaml` and regenerate artifacts instead of editing this page directly.
+
 # trust-basis
 
 ## Definition

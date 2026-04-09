@@ -2,6 +2,8 @@
 title: "digital-asset"
 ---
 
+> Generated file. Update `glossary/terms/digital-asset.yaml` and regenerate artifacts instead of editing this page directly.
+
 # digital-asset
 
 ## Definition

@@ -2,6 +2,8 @@
 title: "security-domain"
 ---
 
+> Generated file. Update `glossary/terms/security-domain.yaml` and regenerate artifacts instead of editing this page directly.
+
 # security-domain
 
 ## Definition

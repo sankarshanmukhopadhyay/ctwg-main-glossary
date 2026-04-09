@@ -2,6 +2,8 @@
 title: "guardian"
 ---
 
+> Generated file. Update `glossary/terms/guardian.yaml` and regenerate artifacts instead of editing this page directly.
+
 # guardian
 
 ## Definition

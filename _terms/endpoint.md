@@ -2,6 +2,8 @@
 title: "endpoint"
 ---
 
+> Generated file. Update `glossary/terms/endpoint.yaml` and regenerate artifacts instead of editing this page directly.
+
 # endpoint
 
 ## Definition

@@ -2,6 +2,8 @@
 title: "governance"
 ---
 
+> Generated file. Update `glossary/terms/governance.yaml` and regenerate artifacts instead of editing this page directly.
+
 # governance
 
 ## Definition

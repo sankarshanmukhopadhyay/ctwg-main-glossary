@@ -2,6 +2,8 @@
 title: "access-control"
 ---
 
+> Generated file. Update `glossary/terms/access-control.yaml` and regenerate artifacts instead of editing this page directly.
+
 # access-control
 
 ## Definition

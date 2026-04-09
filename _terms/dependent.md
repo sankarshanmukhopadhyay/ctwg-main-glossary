@@ -2,6 +2,8 @@
 title: "dependent"
 ---
 
+> Generated file. Update `glossary/terms/dependent.yaml` and regenerate artifacts instead of editing this page directly.
+
 # dependent
 
 ## Definition

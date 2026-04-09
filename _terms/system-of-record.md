@@ -2,6 +2,8 @@
 title: "system-of-record"
 ---
 
+> Generated file. Update `glossary/terms/system-of-record.yaml` and regenerate artifacts instead of editing this page directly.
+
 # system-of-record
 
 ## Definition

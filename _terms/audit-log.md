@@ -2,6 +2,8 @@
 title: "audit-log"
 ---
 
+> Generated file. Update `glossary/terms/audit-log.yaml` and regenerate artifacts instead of editing this page directly.
+
 # audit-log
 
 ## Definition

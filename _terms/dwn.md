@@ -2,6 +2,8 @@
 title: "dwn"
 ---
 
+> Generated file. Update `glossary/terms/dwn.yaml` and regenerate artifacts instead of editing this page directly.
+
 # dwn
 
 ## Definition

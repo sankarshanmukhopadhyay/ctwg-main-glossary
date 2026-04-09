@@ -2,6 +2,8 @@
 title: "proof"
 ---
 
+> Generated file. Update `glossary/terms/proof.yaml` and regenerate artifacts instead of editing this page directly.
+
 # proof
 
 ## Definition

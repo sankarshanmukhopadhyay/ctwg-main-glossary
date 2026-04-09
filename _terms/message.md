@@ -2,6 +2,8 @@
 title: "message"
 ---
 
+> Generated file. Update `glossary/terms/message.yaml` and regenerate artifacts instead of editing this page directly.
+
 # message
 
 ## Definition

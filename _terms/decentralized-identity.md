@@ -2,6 +2,8 @@
 title: "decentralized-identity"
 ---
 
+> Generated file. Update `glossary/terms/decentralized-identity.yaml` and regenerate artifacts instead of editing this page directly.
+
 # decentralized-identity
 
 ## Definition

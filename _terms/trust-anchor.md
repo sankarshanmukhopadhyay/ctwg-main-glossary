@@ -2,6 +2,8 @@
 title: "trust-anchor"
 ---
 
+> Generated file. Update `glossary/terms/trust-anchor.yaml` and regenerate artifacts instead of editing this page directly.
+
 # trust-anchor
 
 ## Definition

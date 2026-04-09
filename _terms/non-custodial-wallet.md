@@ -2,6 +2,8 @@
 title: "non-custodial-wallet"
 ---
 
+> Generated file. Update `glossary/terms/non-custodial-wallet.yaml` and regenerate artifacts instead of editing this page directly.
+
 # non-custodial-wallet
 
 ## Definition

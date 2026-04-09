@@ -2,6 +2,8 @@
 title: "voip"
 ---
 
+> Generated file. Update `glossary/terms/voip.yaml` and regenerate artifacts instead of editing this page directly.
+
 # voip
 
 ## Definition

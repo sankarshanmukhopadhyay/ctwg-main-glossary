@@ -2,6 +2,8 @@
 title: "trust-network"
 ---
 
+> Generated file. Update `glossary/terms/trust-network.yaml` and regenerate artifacts instead of editing this page directly.
+
 # trust-network
 
 ## Definition

@@ -2,6 +2,8 @@
 title: "permission"
 ---
 
+> Generated file. Update `glossary/terms/permission.yaml` and regenerate artifacts instead of editing this page directly.
+
 # permission
 
 ## Definition

@@ -2,6 +2,8 @@
 title: "trust-boundary"
 ---
 
+> Generated file. Update `glossary/terms/trust-boundary.yaml` and regenerate artifacts instead of editing this page directly.
+
 # trust-boundary
 
 ## Definition

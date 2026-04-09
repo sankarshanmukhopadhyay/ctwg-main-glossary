@@ -2,6 +2,8 @@
 title: "human-trust"
 ---
 
+> Generated file. Update `glossary/terms/human-trust.yaml` and regenerate artifacts instead of editing this page directly.
+
 # human-trust
 
 ## Definition

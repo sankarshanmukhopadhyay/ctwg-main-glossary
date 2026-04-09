@@ -2,6 +2,8 @@
 title: "verifiable-message"
 ---
 
+> Generated file. Update `glossary/terms/verifiable-message.yaml` and regenerate artifacts instead of editing this page directly.
+
 # verifiable-message
 
 ## Definition

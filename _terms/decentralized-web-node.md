@@ -2,6 +2,8 @@
 title: "decentralized-web-node"
 ---
 
+> Generated file. Update `glossary/terms/decentralized-web-node.yaml` and regenerate artifacts instead of editing this page directly.
+
 # decentralized-web-node
 
 ## Definition

@@ -2,6 +2,8 @@
 title: "trust-context"
 ---
 
+> Generated file. Update `glossary/terms/trust-context.yaml` and regenerate artifacts instead of editing this page directly.
+
 # trust-context
 
 ## Definition

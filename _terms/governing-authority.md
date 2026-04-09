@@ -2,6 +2,8 @@
 title: "governing-authority"
 ---
 
+> Generated file. Update `glossary/terms/governing-authority.yaml` and regenerate artifacts instead of editing this page directly.
+
 # governing-authority
 
 ## Definition

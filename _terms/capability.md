@@ -2,6 +2,8 @@
 title: "capability"
 ---
 
+> Generated file. Update `glossary/terms/capability.yaml` and regenerate artifacts instead of editing this page directly.
+
 # capability
 
 ## Definition

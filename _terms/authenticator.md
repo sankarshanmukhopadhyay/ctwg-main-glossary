@@ -2,6 +2,8 @@
 title: "authenticator"
 ---
 
+> Generated file. Update `glossary/terms/authenticator.yaml` and regenerate artifacts instead of editing this page directly.
+
 # authenticator
 
 ## Definition

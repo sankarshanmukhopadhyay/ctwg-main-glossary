@@ -2,6 +2,8 @@
 title: "anycast"
 ---
 
+> Generated file. Update `glossary/terms/anycast.yaml` and regenerate artifacts instead of editing this page directly.
+
 # anycast
 
 ## Definition

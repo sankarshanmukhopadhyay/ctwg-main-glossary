@@ -2,6 +2,8 @@
 title: "spanning-layer"
 ---
 
+> Generated file. Update `glossary/terms/spanning-layer.yaml` and regenerate artifacts instead of editing this page directly.
+
 # spanning-layer
 
 ## Definition

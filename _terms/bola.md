@@ -2,6 +2,8 @@
 title: "bola"
 ---
 
+> Generated file. Update `glossary/terms/bola.yaml` and regenerate artifacts instead of editing this page directly.
+
 # bola
 
 ## Definition

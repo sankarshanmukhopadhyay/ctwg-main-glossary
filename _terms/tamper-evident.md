@@ -2,6 +2,8 @@
 title: "tamper-evident"
 ---
 
+> Generated file. Update `glossary/terms/tamper-evident.yaml` and regenerate artifacts instead of editing this page directly.
+
 # tamper-evident
 
 ## Definition

@@ -2,6 +2,8 @@
 title: "glossary"
 ---
 
+> Generated file. Update `glossary/terms/glossary.yaml` and regenerate artifacts instead of editing this page directly.
+
 # glossary
 
 ## Definition

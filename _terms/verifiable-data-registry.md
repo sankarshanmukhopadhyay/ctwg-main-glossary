@@ -2,6 +2,8 @@
 title: "verifiable-data-registry"
 ---
 
+> Generated file. Update `glossary/terms/verifiable-data-registry.yaml` and regenerate artifacts instead of editing this page directly.
+
 # verifiable-data-registry
 
 ## Definition

@@ -2,6 +2,8 @@
 title: "tta"
 ---
 
+> Generated file. Update `glossary/terms/tta.yaml` and regenerate artifacts instead of editing this page directly.
+
 # tta
 
 ## Definition

@@ -2,6 +2,8 @@
 title: "session"
 ---
 
+> Generated file. Update `glossary/terms/session.yaml` and regenerate artifacts instead of editing this page directly.
+
 # session
 
 ## Definition

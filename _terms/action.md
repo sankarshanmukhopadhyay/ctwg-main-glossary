@@ -2,6 +2,8 @@
 title: "action"
 ---
 
+> Generated file. Update `glossary/terms/action.yaml` and regenerate artifacts instead of editing this page directly.
+
 # action
 
 ## Definition

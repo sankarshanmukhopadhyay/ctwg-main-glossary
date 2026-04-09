@@ -2,6 +2,8 @@
 title: "internet-protocol-suite"
 ---
 
+> Generated file. Update `glossary/terms/internet-protocol-suite.yaml` and regenerate artifacts instead of editing this page directly.
+
 # internet-protocol-suite
 
 ## Definition

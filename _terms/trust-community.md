@@ -2,6 +2,8 @@
 title: "trust-community"
 ---
 
+> Generated file. Update `glossary/terms/trust-community.yaml` and regenerate artifacts instead of editing this page directly.
+
 # trust-community
 
 ## Definition

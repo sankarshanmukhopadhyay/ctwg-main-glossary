@@ -2,6 +2,8 @@
 title: "tcp-ip-stack"
 ---
 
+> Generated file. Update `glossary/terms/tcp-ip-stack.yaml` and regenerate artifacts instead of editing this page directly.
+
 # tcp-ip-stack
 
 ## Definition

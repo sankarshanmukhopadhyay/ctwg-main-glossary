@@ -2,6 +2,8 @@
 title: "packet"
 ---
 
+> Generated file. Update `glossary/terms/packet.yaml` and regenerate artifacts instead of editing this page directly.
+
 # packet
 
 ## Definition

@@ -2,6 +2,8 @@
 title: "holder"
 ---
 
+> Generated file. Update `glossary/terms/holder.yaml` and regenerate artifacts instead of editing this page directly.
+
 # holder
 
 ## Definition

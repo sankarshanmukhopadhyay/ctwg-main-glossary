@@ -11,6 +11,9 @@ TERMS_DIR = ROOT / "glossary" / "terms"
 OUT_COLLECTION = ROOT / "_terms"
 TERMS_INDEX = ROOT / "terms-index.md"
 LETTER_DIR = ROOT / "terms"
+GOVERNANCE_DIR = ROOT / "governance"
+GENERATED_MD = ROOT / "generated" / "markdown"
+GENERATED_JSON = ROOT / "generated" / "json"
 
 
 def slugify(value: str) -> str:
@@ -57,6 +60,8 @@ def term_page(data):
     return f"""---
 title: \"{safe_title}\"
 ---
+
+> Generated file. Update `glossary/terms/{slugify(title)}.yaml` and regenerate artifacts instead of editing this page directly.
 
 # {title}
 
@@ -168,6 +173,50 @@ def write_indexes(term_refs):
         (subdir / 'index.md').write_text("\n".join(page), encoding='utf-8')
 
 
+def write_generated_inventory_page():
+    inventory_path = GENERATED_JSON / 'governance-inventory.json'
+    if not inventory_path.exists():
+        return
+    inventory = json.loads(inventory_path.read_text(encoding='utf-8'))
+    page = [
+        '---',
+        'title: "Generated Inventories"',
+        'parent: Governance Documentation',
+        'nav_order: 20',
+        '---',
+        '',
+        '# Generated Inventories',
+        '',
+        'This page summarizes the generated governance inventory built from the structured term layer.',
+        '',
+        f"- Total terms: **{inventory.get('term_count', 0)}**",
+        f"- Authority-bearing terms: **{len(inventory.get('authority_terms', []))}**",
+        f"- Delegation-sensitive terms: **{len(inventory.get('delegation_terms', []))}**",
+        f"- Revocation-sensitive terms: **{len(inventory.get('revocation_terms', []))}**",
+        f"- Lifecycle-sensitive terms: **{len(inventory.get('lifecycle_terms', []))}**",
+        f"- Evidence-producing terms: **{len(inventory.get('evidence_terms', []))}**",
+        f"- Control-plane terms: **{len(inventory.get('control_plane_terms', []))}**",
+        '',
+        '## Top authority scopes',
+        ''
+    ]
+    for scope, count in list(inventory.get('authority_scope_counts', {}).items())[:20]:
+        page.append(f'- `{scope}`: {count}')
+    page.extend(['', '## Assurance level hints', ''])
+    for hint, count in inventory.get('assurance_level_hints', {}).items():
+        page.append(f'- `{hint}`: {count}')
+    page.extend([
+        '',
+        '## Artifact references',
+        '',
+        '- `generated/json/governance-inventory.json`',
+        '- `generated/markdown/governance-inventory.md`',
+        '- `glossary/overlays/governance/inventory.json`',
+        ''
+    ])
+    (GOVERNANCE_DIR / 'generated-inventories.md').write_text("\n".join(page), encoding='utf-8')
+
+
 def main():
     OUT_COLLECTION.mkdir(exist_ok=True)
     term_refs = []
@@ -182,13 +231,16 @@ def main():
         term_refs.append((title, f"{{{{ '/terms/{slug}/' | relative_url }}}}"))
 
     write_indexes(term_refs)
+    write_generated_inventory_page()
 
     summary = {
         'term_count': len(term_refs),
         'collection_dir': str(OUT_COLLECTION.relative_to(ROOT)),
-        'index_page': str(TERMS_INDEX.relative_to(ROOT))
+        'index_page': str(TERMS_INDEX.relative_to(ROOT)),
+        'generated_inventory_page': str((GOVERNANCE_DIR / 'generated-inventories.md').relative_to(ROOT)),
     }
-    (ROOT / 'generated' / 'json' / 'jekyll-site-build-summary.json').write_text(json.dumps(summary, indent=2), encoding='utf-8')
+    GENERATED_JSON.mkdir(parents=True, exist_ok=True)
+    (GENERATED_JSON / 'jekyll-site-build-summary.json').write_text(json.dumps(summary, indent=2), encoding='utf-8')
     print(f'Generated {len(term_refs)} Jekyll term pages')
 
 

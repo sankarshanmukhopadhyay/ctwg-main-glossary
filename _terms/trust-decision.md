@@ -2,6 +2,8 @@
 title: "trust-decision"
 ---
 
+> Generated file. Update `glossary/terms/trust-decision.yaml` and regenerate artifacts instead of editing this page directly.
+
 # trust-decision
 
 ## Definition

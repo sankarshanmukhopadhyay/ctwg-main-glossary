@@ -2,6 +2,8 @@
 title: "trust-task-protocol"
 ---
 
+> Generated file. Update `glossary/terms/trust-task-protocol.yaml` and regenerate artifacts instead of editing this page directly.
+
 # trust-task-protocol
 
 ## Definition

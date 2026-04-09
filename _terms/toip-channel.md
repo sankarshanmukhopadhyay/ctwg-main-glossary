@@ -2,6 +2,8 @@
 title: "toip-channel"
 ---
 
+> Generated file. Update `glossary/terms/toip-channel.yaml` and regenerate artifacts instead of editing this page directly.
+
 # toip-channel
 
 ## Definition

@@ -2,6 +2,8 @@
 title: "identity-document"
 ---
 
+> Generated file. Update `glossary/terms/identity-document.yaml` and regenerate artifacts instead of editing this page directly.
+
 # identity-document
 
 ## Definition

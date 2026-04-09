@@ -2,6 +2,8 @@
 title: "trustworthiness"
 ---
 
+> Generated file. Update `glossary/terms/trustworthiness.yaml` and regenerate artifacts instead of editing this page directly.
+
 # trustworthiness
 
 ## Definition

@@ -2,6 +2,8 @@
 title: "zkp"
 ---
 
+> Generated file. Update `glossary/terms/zkp.yaml` and regenerate artifacts instead of editing this page directly.
+
 # zkp
 
 ## Definition

@@ -2,6 +2,8 @@
 title: "key-event"
 ---
 
+> Generated file. Update `glossary/terms/key-event.yaml` and regenerate artifacts instead of editing this page directly.
+
 # key-event
 
 ## Definition

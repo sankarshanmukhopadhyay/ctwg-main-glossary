@@ -2,6 +2,8 @@
 title: "primary-document"
 ---
 
+> Generated file. Update `glossary/terms/primary-document.yaml` and regenerate artifacts instead of editing this page directly.
+
 # primary-document
 
 ## Definition

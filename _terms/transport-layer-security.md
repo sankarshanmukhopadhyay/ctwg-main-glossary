@@ -2,6 +2,8 @@
 title: "transport-layer-security"
 ---
 
+> Generated file. Update `glossary/terms/transport-layer-security.yaml` and regenerate artifacts instead of editing this page directly.
+
 # transport-layer-security
 
 ## Definition

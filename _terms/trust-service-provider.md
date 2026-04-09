@@ -2,6 +2,8 @@
 title: "trust-service-provider"
 ---
 
+> Generated file. Update `glossary/terms/trust-service-provider.yaml` and regenerate artifacts instead of editing this page directly.
+
 # trust-service-provider
 
 ## Definition

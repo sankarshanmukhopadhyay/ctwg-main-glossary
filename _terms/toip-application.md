@@ -2,6 +2,8 @@
 title: "toip-application"
 ---
 
+> Generated file. Update `glossary/terms/toip-application.yaml` and regenerate artifacts instead of editing this page directly.
+
 # toip-application
 
 ## Definition

@@ -2,6 +2,8 @@
 title: "verification"
 ---
 
+> Generated file. Update `glossary/terms/verification.yaml` and regenerate artifacts instead of editing this page directly.
+
 # verification
 
 ## Definition

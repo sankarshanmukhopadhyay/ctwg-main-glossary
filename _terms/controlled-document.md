@@ -2,6 +2,8 @@
 title: "controlled-document"
 ---
 
+> Generated file. Update `glossary/terms/controlled-document.yaml` and regenerate artifacts instead of editing this page directly.
+
 # controlled-document
 
 ## Definition

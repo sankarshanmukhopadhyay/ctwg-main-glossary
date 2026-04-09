@@ -2,6 +2,8 @@
 title: "toip-trust-community"
 ---
 
+> Generated file. Update `glossary/terms/toip-trust-community.yaml` and regenerate artifacts instead of editing this page directly.
+
 # toip-trust-community
 
 ## Definition

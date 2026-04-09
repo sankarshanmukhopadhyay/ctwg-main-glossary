@@ -2,6 +2,8 @@
 title: "authorized-organizational-representative"
 ---
 
+> Generated file. Update `glossary/terms/authorized-organizational-representative.yaml` and regenerate artifacts instead of editing this page directly.
+
 # authorized-organizational-representative
 
 ## Definition

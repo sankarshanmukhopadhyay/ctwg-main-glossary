@@ -2,6 +2,8 @@
 title: "identity-binding"
 ---
 
+> Generated file. Update `glossary/terms/identity-binding.yaml` and regenerate artifacts instead of editing this page directly.
+
 # identity-binding
 
 ## Definition

@@ -2,6 +2,8 @@
 title: "public-key-cryptography"
 ---
 
+> Generated file. Update `glossary/terms/public-key-cryptography.yaml` and regenerate artifacts instead of editing this page directly.
+
 # public-key-cryptography
 
 ## Definition

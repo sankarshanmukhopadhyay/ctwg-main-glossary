@@ -2,6 +2,8 @@
 title: "subscription"
 ---
 
+> Generated file. Update `glossary/terms/subscription.yaml` and regenerate artifacts instead of editing this page directly.
+
 # subscription
 
 ## Definition

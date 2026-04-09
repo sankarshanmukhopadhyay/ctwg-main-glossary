@@ -2,6 +2,8 @@
 title: "vid-to-vid"
 ---
 
+> Generated file. Update `glossary/terms/vid-to-vid.yaml` and regenerate artifacts instead of editing this page directly.
+
 # vid-to-vid
 
 ## Definition

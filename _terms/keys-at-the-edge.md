@@ -2,6 +2,8 @@
 title: "keys-at-the-edge"
 ---
 
+> Generated file. Update `glossary/terms/keys-at-the-edge.yaml` and regenerate artifacts instead of editing this page directly.
+
 # keys-at-the-edge
 
 ## Definition

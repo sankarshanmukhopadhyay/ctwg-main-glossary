@@ -2,6 +2,8 @@
 title: "credential-schema"
 ---
 
+> Generated file. Update `glossary/terms/credential-schema.yaml` and regenerate artifacts instead of editing this page directly.
+
 # credential-schema
 
 ## Definition

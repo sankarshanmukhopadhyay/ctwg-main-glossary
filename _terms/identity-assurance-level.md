@@ -2,6 +2,8 @@
 title: "identity-assurance-level"
 ---
 
+> Generated file. Update `glossary/terms/identity-assurance-level.yaml` and regenerate artifacts instead of editing this page directly.
+
 # identity-assurance-level
 
 ## Definition

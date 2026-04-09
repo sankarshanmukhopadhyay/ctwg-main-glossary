@@ -2,6 +2,8 @@
 title: "schema"
 ---
 
+> Generated file. Update `glossary/terms/schema.yaml` and regenerate artifacts instead of editing this page directly.
+
 # schema
 
 ## Definition

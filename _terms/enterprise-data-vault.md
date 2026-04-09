@@ -2,6 +2,8 @@
 title: "enterprise-data-vault"
 ---
 
+> Generated file. Update `glossary/terms/enterprise-data-vault.yaml` and regenerate artifacts instead of editing this page directly.
+
 # enterprise-data-vault
 
 ## Definition

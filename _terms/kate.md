@@ -2,6 +2,8 @@
 title: "kate"
 ---
 
+> Generated file. Update `glossary/terms/kate.yaml` and regenerate artifacts instead of editing this page directly.
+
 # kate
 
 ## Definition

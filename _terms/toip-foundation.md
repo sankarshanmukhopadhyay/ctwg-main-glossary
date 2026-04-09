@@ -2,6 +2,8 @@
 title: "toip-foundation"
 ---
 
+> Generated file. Update `glossary/terms/toip-foundation.yaml` and regenerate artifacts instead of editing this page directly.
+
 # toip-foundation
 
 ## Definition

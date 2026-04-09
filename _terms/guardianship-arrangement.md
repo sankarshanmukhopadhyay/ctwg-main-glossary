@@ -2,6 +2,8 @@
 title: "guardianship-arrangement"
 ---
 
+> Generated file. Update `glossary/terms/guardianship-arrangement.yaml` and regenerate artifacts instead of editing this page directly.
+
 # guardianship-arrangement
 
 ## Definition

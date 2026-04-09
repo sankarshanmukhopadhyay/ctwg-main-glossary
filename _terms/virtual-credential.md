@@ -2,6 +2,8 @@
 title: "virtual-credential"
 ---
 
+> Generated file. Update `glossary/terms/virtual-credential.yaml` and regenerate artifacts instead of editing this page directly.
+
 # virtual-credential
 
 ## Definition

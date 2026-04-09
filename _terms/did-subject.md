@@ -2,6 +2,8 @@
 title: "did-subject"
 ---
 
+> Generated file. Update `glossary/terms/did-subject.yaml` and regenerate artifacts instead of editing this page directly.
+
 # did-subject
 
 ## Definition

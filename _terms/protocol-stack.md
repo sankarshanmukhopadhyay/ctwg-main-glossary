@@ -2,6 +2,8 @@
 title: "protocol-stack"
 ---
 
+> Generated file. Update `glossary/terms/protocol-stack.yaml` and regenerate artifacts instead of editing this page directly.
+
 # protocol-stack
 
 ## Definition

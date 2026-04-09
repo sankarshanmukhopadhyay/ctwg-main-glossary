@@ -2,6 +2,8 @@
 title: "single-signature-identifier"
 ---
 
+> Generated file. Update `glossary/terms/single-signature-identifier.yaml` and regenerate artifacts instead of editing this page directly.
+
 # single-signature-identifier
 
 ## Definition

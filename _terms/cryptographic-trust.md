@@ -2,6 +2,8 @@
 title: "cryptographic-trust"
 ---
 
+> Generated file. Update `glossary/terms/cryptographic-trust.yaml` and regenerate artifacts instead of editing this page directly.
+
 # cryptographic-trust
 
 ## Definition

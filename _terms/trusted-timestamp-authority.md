@@ -2,6 +2,8 @@
 title: "trusted-timestamp-authority"
 ---
 
+> Generated file. Update `glossary/terms/trusted-timestamp-authority.yaml` and regenerate artifacts instead of editing this page directly.
+
 # trusted-timestamp-authority
 
 ## Definition

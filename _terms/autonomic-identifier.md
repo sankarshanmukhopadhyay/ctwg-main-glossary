@@ -2,6 +2,8 @@
 title: "autonomic-identifier"
 ---
 
+> Generated file. Update `glossary/terms/autonomic-identifier.yaml` and regenerate artifacts instead of editing this page directly.
+
 # autonomic-identifier
 
 ## Definition

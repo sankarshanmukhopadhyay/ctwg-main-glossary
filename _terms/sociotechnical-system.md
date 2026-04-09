@@ -2,6 +2,8 @@
 title: "sociotechnical-system"
 ---
 
+> Generated file. Update `glossary/terms/sociotechnical-system.yaml` and regenerate artifacts instead of editing this page directly.
+
 # sociotechnical-system
 
 ## Definition

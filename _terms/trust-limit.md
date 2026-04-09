@@ -2,6 +2,8 @@
 title: "trust-limit"
 ---
 
+> Generated file. Update `glossary/terms/trust-limit.yaml` and regenerate artifacts instead of editing this page directly.
+
 # trust-limit
 
 ## Definition

@@ -2,6 +2,8 @@
 title: "layer-1"
 ---
 
+> Generated file. Update `glossary/terms/layer-1.yaml` and regenerate artifacts instead of editing this page directly.
+
 # layer-1
 
 ## Definition

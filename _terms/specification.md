@@ -2,6 +2,8 @@
 title: "specification"
 ---
 
+> Generated file. Update `glossary/terms/specification.yaml` and regenerate artifacts instead of editing this page directly.
+
 # specification
 
 ## Definition

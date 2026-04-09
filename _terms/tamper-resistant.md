@@ -2,6 +2,8 @@
 title: "tamper-resistant"
 ---
 
+> Generated file. Update `glossary/terms/tamper-resistant.yaml` and regenerate artifacts instead of editing this page directly.
+
 # tamper-resistant
 
 ## Definition

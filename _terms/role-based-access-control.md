@@ -2,6 +2,8 @@
 title: "role-based-access-control"
 ---
 
+> Generated file. Update `glossary/terms/role-based-access-control.yaml` and regenerate artifacts instead of editing this page directly.
+
 # role-based-access-control
 
 ## Definition

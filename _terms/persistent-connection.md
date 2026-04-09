@@ -2,6 +2,8 @@
 title: "persistent-connection"
 ---
 
+> Generated file. Update `glossary/terms/persistent-connection.yaml` and regenerate artifacts instead of editing this page directly.
+
 # persistent-connection
 
 ## Definition

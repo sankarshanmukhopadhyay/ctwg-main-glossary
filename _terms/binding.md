@@ -2,6 +2,8 @@
 title: "binding"
 ---
 
+> Generated file. Update `glossary/terms/binding.yaml` and regenerate artifacts instead of editing this page directly.
+
 # binding
 
 ## Definition

@@ -2,6 +2,8 @@
 title: "authenticator-assurance-level"
 ---
 
+> Generated file. Update `glossary/terms/authenticator-assurance-level.yaml` and regenerate artifacts instead of editing this page directly.
+
 # authenticator-assurance-level
 
 ## Definition

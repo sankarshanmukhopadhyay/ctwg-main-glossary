@@ -2,6 +2,8 @@
 title: "digital-credential"
 ---
 
+> Generated file. Update `glossary/terms/digital-credential.yaml` and regenerate artifacts instead of editing this page directly.
+
 # digital-credential
 
 ## Definition

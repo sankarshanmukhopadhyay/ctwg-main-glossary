@@ -2,6 +2,8 @@
 title: "scid"
 ---
 
+> Generated file. Update `glossary/terms/scid.yaml` and regenerate artifacts instead of editing this page directly.
+
 # scid
 
 ## Definition

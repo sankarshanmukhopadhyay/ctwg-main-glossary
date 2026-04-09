@@ -14,15 +14,15 @@ It combines human-readable glossary pages with machine-readable governance metad
 ## What you can do here
 
 - browse glossary terms rendered from the structured YAML source layer
-- review governance-oriented documentation and improvement guidance
+- review governance-oriented documentation and repository operating guidance
+- inspect generated inventories for authority, delegation, revocation, lifecycle, evidence, and control-plane analysis
 - download machine-readable bundles for tooling and analysis
-- use a GitHub-native documentation workflow built on Jekyll and Just the Docs
 
 ## Site sections
 
-- [Glossary Terms](/terms-index/)
-- [Governance Documentation](/governance/)
-- [Machine-readable Artifacts](/artifacts/)
+- [Glossary Terms]({{ '/terms-index/' | relative_url }})
+- [Governance Documentation]({{ '/governance/' | relative_url }})
+- [Machine-readable Artifacts]({{ '/artifacts/' | relative_url }})
 
 ## Governance-executable model
 

@@ -2,6 +2,8 @@
 title: "validation"
 ---
 
+> Generated file. Update `glossary/terms/validation.yaml` and regenerate artifacts instead of editing this page directly.
+
 # validation
 
 ## Definition

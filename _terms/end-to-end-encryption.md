@@ -2,6 +2,8 @@
 title: "end-to-end-encryption"
 ---
 
+> Generated file. Update `glossary/terms/end-to-end-encryption.yaml` and regenerate artifacts instead of editing this page directly.
+
 # end-to-end-encryption
 
 ## Definition

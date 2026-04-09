@@ -2,6 +2,8 @@
 title: "trust-chain"
 ---
 
+> Generated file. Update `glossary/terms/trust-chain.yaml` and regenerate artifacts instead of editing this page directly.
+
 # trust-chain
 
 ## Definition

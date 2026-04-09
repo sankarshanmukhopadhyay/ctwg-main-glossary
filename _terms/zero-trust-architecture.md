@@ -2,6 +2,8 @@
 title: "zero-trust-architecture"
 ---
 
+> Generated file. Update `glossary/terms/zero-trust-architecture.yaml` and regenerate artifacts instead of editing this page directly.
+
 # zero-trust-architecture
 
 ## Definition

@@ -2,6 +2,8 @@
 title: "transferable"
 ---
 
+> Generated file. Update `glossary/terms/transferable.yaml` and regenerate artifacts instead of editing this page directly.
+
 # transferable
 
 ## Definition

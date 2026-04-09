@@ -2,6 +2,8 @@
 title: "contextual-linkability"
 ---
 
+> Generated file. Update `glossary/terms/contextual-linkability.yaml` and regenerate artifacts instead of editing this page directly.
+
 # contextual-linkability
 
 ## Definition

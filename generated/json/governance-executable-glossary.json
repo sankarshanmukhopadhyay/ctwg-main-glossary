@@ -50,7 +50,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "aal"
     },
     {
       "term": "abac",
@@ -101,7 +102,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "abac"
     },
     {
       "term": "acceptance-network",
@@ -152,7 +154,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "acceptance-network"
     },
     {
       "term": "acceptance",
@@ -207,7 +210,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "acceptance"
     },
     {
       "term": "access-control",
@@ -263,7 +267,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "access-control"
     },
     {
       "term": "accreditation",
@@ -320,7 +325,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "accreditation"
     },
     {
       "term": "acdc",
@@ -372,7 +378,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "acdc"
     },
     {
       "term": "action",
@@ -428,7 +435,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "action"
     },
     {
       "term": "actor",
@@ -482,7 +490,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "actor"
     },
     {
       "term": "address",
@@ -535,7 +544,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "address"
     },
     {
       "term": "administering-authority",
@@ -589,7 +599,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "administering-authority"
     },
     {
       "term": "administering-body",
@@ -653,7 +664,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "administering-body"
     },
     {
       "term": "agency",
@@ -706,7 +718,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "agency"
     },
     {
       "term": "agent",
@@ -770,7 +783,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "agent"
     },
     {
       "term": "aid",
@@ -823,7 +837,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "aid"
     },
     {
       "term": "anonymous",
@@ -876,7 +891,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "anonymous"
     },
     {
       "term": "anycast-address",
@@ -928,7 +944,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "anycast-address"
     },
     {
       "term": "anycast",
@@ -985,7 +1002,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "anycast"
     },
     {
       "term": "appraisability",
@@ -1041,7 +1059,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "appraisability"
     },
     {
       "term": "appropriate-friction",
@@ -1094,7 +1113,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "appropriate-friction"
     },
     {
       "term": "assurance-level",
@@ -1164,7 +1184,8 @@
         "iso": [
           "ISO/IEC 29115"
         ]
-      }
+      },
+      "slug": "assurance-level"
     },
     {
       "term": "attestation",
@@ -1218,7 +1239,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "attestation"
     },
     {
       "term": "attribute-based-access-control",
@@ -1279,7 +1301,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "attribute-based-access-control"
     },
     {
       "term": "attribute",
@@ -1338,7 +1361,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "attribute"
     },
     {
       "term": "attributional-trust",
@@ -1392,7 +1416,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "attributional-trust"
     },
     {
       "term": "audit-log",
@@ -1450,7 +1475,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "audit-log"
     },
     {
       "term": "audit",
@@ -1504,7 +1530,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "audit"
     },
     {
       "term": "auditor",
@@ -1560,7 +1587,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "auditor"
     },
     {
       "term": "authentic-chained-data-container",
@@ -1617,7 +1645,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "authentic-chained-data-container"
     },
     {
       "term": "authentic-data",
@@ -1671,7 +1700,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "authentic-data"
     },
     {
       "term": "authentication",
@@ -1741,7 +1771,8 @@
         "iso": [
           "ISO/IEC 27001 A.5.17"
         ]
-      }
+      },
+      "slug": "authentication"
     },
     {
       "term": "authenticator-assurance-level",
@@ -1808,7 +1839,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "authenticator-assurance-level"
     },
     {
       "term": "authenticator",
@@ -1868,7 +1900,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "authenticator"
     },
     {
       "term": "authenticity",
@@ -1926,7 +1959,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "authenticity"
     },
     {
       "term": "authoritative-source",
@@ -1993,7 +2027,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "authoritative-source"
     },
     {
       "term": "authoritative",
@@ -2048,7 +2083,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "authoritative"
     },
     {
       "term": "authority",
@@ -2120,7 +2156,8 @@
         "iso": [
           "ISO/IEC 42001 5.3"
         ]
-      }
+      },
+      "slug": "authority"
     },
     {
       "term": "authorization-graph",
@@ -2179,7 +2216,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "authorization-graph"
     },
     {
       "term": "authorization",
@@ -2267,7 +2305,8 @@
           "ISO/IEC 27001 A.5.15",
           "ISO/IEC 42001 8.2"
         ]
-      }
+      },
+      "slug": "authorization"
     },
     {
       "term": "authorized-organizational-representative",
@@ -2330,7 +2369,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "authorized-organizational-representative"
     },
     {
       "term": "autonomic-identifier",
@@ -2384,7 +2424,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "autonomic-identifier"
     },
     {
       "term": "autonomic-identity-system",
@@ -2440,7 +2481,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "autonomic-identity-system"
     },
     {
       "term": "autonomic-namespace",
@@ -2498,7 +2540,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "autonomic-namespace"
     },
     {
       "term": "binding",
@@ -2549,7 +2592,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "binding"
     },
     {
       "term": "biometric",
@@ -2603,7 +2647,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "biometric"
     },
     {
       "term": "blockchain",
@@ -2659,7 +2704,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "blockchain"
     },
     {
       "term": "bola",
@@ -2714,7 +2760,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "bola"
     },
     {
       "term": "broadcast-address",
@@ -2768,7 +2815,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "broadcast-address"
     },
     {
       "term": "broadcast",
@@ -2827,7 +2875,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "broadcast"
     },
     {
       "term": "broken-object-level-authorization",
@@ -2885,7 +2934,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "broken-object-level-authorization"
     },
     {
       "term": "c2pa",
@@ -2936,7 +2986,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "c2pa"
     },
     {
       "term": "ca",
@@ -2990,7 +3041,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "ca"
     },
     {
       "term": "cai",
@@ -3041,7 +3093,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "cai"
     },
     {
       "term": "capability",
@@ -3102,7 +3155,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "capability"
     },
     {
       "term": "certificate-authority",
@@ -3164,7 +3218,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "certificate-authority"
     },
     {
       "term": "certificate",
@@ -3216,7 +3271,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "certificate"
     },
     {
       "term": "certification-authority",
@@ -3270,7 +3326,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "certification-authority"
     },
     {
       "term": "certification-body",
@@ -3324,7 +3381,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "certification-body"
     },
     {
       "term": "certification",
@@ -3380,7 +3438,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "certification"
     },
     {
       "term": "chain-of-trust",
@@ -3432,7 +3491,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "chain-of-trust"
     },
     {
       "term": "chained-credentials",
@@ -3489,7 +3549,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "chained-credentials"
     },
     {
       "term": "chaining",
@@ -3540,7 +3601,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "chaining"
     },
     {
       "term": "channel",
@@ -3592,7 +3654,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "channel"
     },
     {
       "term": "ciphertext",
@@ -3646,7 +3709,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "ciphertext"
     },
     {
       "term": "claim",
@@ -3710,7 +3774,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "claim"
     },
     {
       "term": "coalition-for-content-provenance-and-authenticity",
@@ -3765,7 +3830,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "coalition-for-content-provenance-and-authenticity"
     },
     {
       "term": "collective-signature",
@@ -3821,7 +3887,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "collective-signature"
     },
     {
       "term": "communication-channel",
@@ -3879,7 +3946,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "communication-channel"
     },
     {
       "term": "communication-endpoint",
@@ -3937,7 +4005,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "communication-endpoint"
     },
     {
       "term": "communication-metadata",
@@ -3991,7 +4060,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "communication-metadata"
     },
     {
       "term": "communication-session",
@@ -4048,7 +4118,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "communication-session"
     },
     {
       "term": "communication",
@@ -4104,7 +4175,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "communication"
     },
     {
       "term": "complex-password",
@@ -4158,7 +4230,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "complex-password"
     },
     {
       "term": "compliance",
@@ -4221,7 +4294,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "compliance"
     },
     {
       "term": "concept",
@@ -4276,7 +4350,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "concept"
     },
     {
       "term": "confidential-computing",
@@ -4331,7 +4406,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "confidential-computing"
     },
     {
       "term": "confidentiality",
@@ -4389,7 +4465,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "confidentiality"
     },
     {
       "term": "connection",
@@ -4443,7 +4520,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "connection"
     },
     {
       "term": "consent-management",
@@ -4496,7 +4574,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "consent-management"
     },
     {
       "term": "content-authenticity-initiative",
@@ -4551,7 +4630,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "content-authenticity-initiative"
     },
     {
       "term": "contextual-linkability",
@@ -4603,7 +4683,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "contextual-linkability"
     },
     {
       "term": "control-authority",
@@ -4668,7 +4749,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "control-authority"
     },
     {
       "term": "controlled-document",
@@ -4722,7 +4804,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "controlled-document"
     },
     {
       "term": "controller",
@@ -4780,7 +4863,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "controller"
     },
     {
       "term": "correlation-privacy",
@@ -4834,7 +4918,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "correlation-privacy"
     },
     {
       "term": "counterparty",
@@ -4892,7 +4977,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "counterparty"
     },
     {
       "term": "credential-family",
@@ -4954,7 +5040,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "credential-family"
     },
     {
       "term": "credential-governance-framework",
@@ -5016,7 +5103,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "credential-governance-framework"
     },
     {
       "term": "credential-offer",
@@ -5072,7 +5160,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "credential-offer"
     },
     {
       "term": "credential-request",
@@ -5128,7 +5217,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "credential-request"
     },
     {
       "term": "credential-schema",
@@ -5184,7 +5274,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "credential-schema"
     },
     {
       "term": "credential",
@@ -5245,7 +5336,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "credential"
     },
     {
       "term": "criterion",
@@ -5296,7 +5388,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "criterion"
     },
     {
       "term": "cryptographic-binding",
@@ -5350,7 +5443,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "cryptographic-binding"
     },
     {
       "term": "cryptographic-key",
@@ -5408,7 +5502,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "cryptographic-key"
     },
     {
       "term": "cryptographic-trust",
@@ -5461,7 +5556,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "cryptographic-trust"
     },
     {
       "term": "cryptographic-verifiability",
@@ -5515,7 +5611,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "cryptographic-verifiability"
     },
     {
       "term": "cryptographically-bound",
@@ -5566,7 +5663,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "cryptographically-bound"
     },
     {
       "term": "cryptographically-verifiable",
@@ -5627,7 +5725,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "cryptographically-verifiable"
     },
     {
       "term": "cryptography",
@@ -5678,7 +5777,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "cryptography"
     },
     {
       "term": "custodial-wallet",
@@ -5730,7 +5830,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "custodial-wallet"
     },
     {
       "term": "custodian",
@@ -5789,7 +5890,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "custodian"
     },
     {
       "term": "custodianship-arrangement",
@@ -5841,7 +5943,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "custodianship-arrangement"
     },
     {
       "term": "dark-pattern",
@@ -5897,7 +6000,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "dark-pattern"
     },
     {
       "term": "data-packet",
@@ -5951,7 +6055,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "data-packet"
     },
     {
       "term": "data-schema",
@@ -6009,7 +6114,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "data-schema"
     },
     {
       "term": "data-subject",
@@ -6061,7 +6167,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "data-subject"
     },
     {
       "term": "data-vault",
@@ -6113,7 +6220,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "data-vault"
     },
     {
       "term": "data",
@@ -6171,7 +6279,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "data"
     },
     {
       "term": "datagram",
@@ -6223,7 +6332,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "datagram"
     },
     {
       "term": "dead-drop",
@@ -6281,7 +6391,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "dead-drop"
     },
     {
       "term": "decentralized-identifier",
@@ -6345,7 +6456,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "decentralized-identifier"
     },
     {
       "term": "decentralized-identity-foundation",
@@ -6401,7 +6513,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "decentralized-identity-foundation"
     },
     {
       "term": "decentralized-identity",
@@ -6459,7 +6572,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "decentralized-identity"
     },
     {
       "term": "decentralized-web-node",
@@ -6516,7 +6630,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "decentralized-web-node"
     },
     {
       "term": "deceptive-pattern",
@@ -6568,7 +6683,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "deceptive-pattern"
     },
     {
       "term": "decryption",
@@ -6625,7 +6741,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "decryption"
     },
     {
       "term": "deep-link",
@@ -6683,7 +6800,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "deep-link"
     },
     {
       "term": "definition",
@@ -6738,7 +6856,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "definition"
     },
     {
       "term": "delegatee",
@@ -6794,7 +6913,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "delegatee"
     },
     {
       "term": "delegation-credential",
@@ -6855,7 +6975,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "delegation-credential"
     },
     {
       "term": "delegation",
@@ -6920,7 +7041,8 @@
         "iso": [
           "ISO/IEC 42001 8.3"
         ]
-      }
+      },
+      "slug": "delegation"
     },
     {
       "term": "delegator",
@@ -6979,7 +7101,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "delegator"
     },
     {
       "term": "dependent",
@@ -7037,7 +7160,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "dependent"
     },
     {
       "term": "device-controller",
@@ -7089,7 +7213,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "device-controller"
     },
     {
       "term": "dictionary",
@@ -7143,7 +7268,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "dictionary"
     },
     {
       "term": "did-controller",
@@ -7199,7 +7325,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "did-controller"
     },
     {
       "term": "did-document",
@@ -7259,7 +7386,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "did-document"
     },
     {
       "term": "did-method",
@@ -7315,7 +7443,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "did-method"
     },
     {
       "term": "did-subject",
@@ -7371,7 +7500,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "did-subject"
     },
     {
       "term": "did-url",
@@ -7425,7 +7555,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "did-url"
     },
     {
       "term": "did",
@@ -7476,7 +7607,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "did"
     },
     {
       "term": "digital-agent",
@@ -7536,7 +7668,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "digital-agent"
     },
     {
       "term": "digital-asset",
@@ -7592,7 +7725,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "digital-asset"
     },
     {
       "term": "digital-certificate",
@@ -7644,7 +7778,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "digital-certificate"
     },
     {
       "term": "digital-credential",
@@ -7712,7 +7847,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "digital-credential"
     },
     {
       "term": "digital-ecosystem",
@@ -7769,7 +7905,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "digital-ecosystem"
     },
     {
       "term": "digital-identity",
@@ -7826,7 +7963,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "digital-identity"
     },
     {
       "term": "digital-rights-management",
@@ -7881,7 +8019,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "digital-rights-management"
     },
     {
       "term": "digital-signature",
@@ -7942,7 +8081,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "digital-signature"
     },
     {
       "term": "digital-trust-ecosystem",
@@ -8013,7 +8153,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "digital-trust-ecosystem"
     },
     {
       "term": "digital-trust-utility",
@@ -8069,7 +8210,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "digital-trust-utility"
     },
     {
       "term": "digital-vault",
@@ -8133,7 +8275,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "digital-vault"
     },
     {
       "term": "digital-wallet",
@@ -8208,7 +8351,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "digital-wallet"
     },
     {
       "term": "discovery",
@@ -8264,7 +8408,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "discovery"
     },
     {
       "term": "distributed-ledger",
@@ -8320,7 +8465,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "distributed-ledger"
     },
     {
       "term": "domain",
@@ -8374,7 +8520,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "domain"
     },
     {
       "term": "drm",
@@ -8425,7 +8572,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "drm"
     },
     {
       "term": "dwn",
@@ -8476,7 +8624,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "dwn"
     },
     {
       "term": "ecosystem-governance-framework",
@@ -8544,7 +8693,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "ecosystem-governance-framework"
     },
     {
       "term": "ecosystem",
@@ -8596,7 +8746,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "ecosystem"
     },
     {
       "term": "eidas",
@@ -8649,7 +8800,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "eidas"
     },
     {
       "term": "encrypt-sender-sign-receiver",
@@ -8701,7 +8853,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "encrypt-sender-sign-receiver"
     },
     {
       "term": "encrypted-data-vault",
@@ -8753,7 +8906,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "encrypted-data-vault"
     },
     {
       "term": "encryption",
@@ -8810,7 +8964,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "encryption"
     },
     {
       "term": "end-to-end-encryption",
@@ -8864,7 +9019,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "end-to-end-encryption"
     },
     {
       "term": "end-to-end-principle",
@@ -8919,7 +9075,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "end-to-end-principle"
     },
     {
       "term": "end-verifiability",
@@ -8976,7 +9133,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "end-verifiability"
     },
     {
       "term": "end-verifiable",
@@ -9030,7 +9188,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "end-verifiable"
     },
     {
       "term": "endpoint-system",
@@ -9085,7 +9244,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "endpoint-system"
     },
     {
       "term": "endpoint",
@@ -9139,7 +9299,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "endpoint"
     },
     {
       "term": "enterprise-data-vault",
@@ -9191,7 +9352,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "enterprise-data-vault"
     },
     {
       "term": "enterprise-wallet",
@@ -9245,7 +9407,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "enterprise-wallet"
     },
     {
       "term": "entity",
@@ -9299,7 +9462,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "entity"
     },
     {
       "term": "ephemeral-connection",
@@ -9353,7 +9517,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "ephemeral-connection"
     },
     {
       "term": "essr",
@@ -9405,7 +9570,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "essr"
     },
     {
       "term": "expression-language",
@@ -9459,7 +9625,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "expression-language"
     },
     {
       "term": "fal",
@@ -9510,7 +9677,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "fal"
     },
     {
       "term": "federated-identity",
@@ -9568,7 +9736,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "federated-identity"
     },
     {
       "term": "federation-assurance-level",
@@ -9635,7 +9804,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "federation-assurance-level"
     },
     {
       "term": "federation",
@@ -9694,7 +9864,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "federation"
     },
     {
       "term": "fiduciary",
@@ -9748,7 +9919,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "fiduciary"
     },
     {
       "term": "first-party",
@@ -9803,7 +9975,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "first-party"
     },
     {
       "term": "foundational-identity",
@@ -9862,7 +10035,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "foundational-identity"
     },
     {
       "term": "fourth-party",
@@ -9914,7 +10088,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "fourth-party"
     },
     {
       "term": "functional-identity",
@@ -9970,7 +10145,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "functional-identity"
     },
     {
       "term": "gateway",
@@ -10026,7 +10202,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "gateway"
     },
     {
       "term": "gdpr",
@@ -10077,7 +10254,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "gdpr"
     },
     {
       "term": "general-data-protection-regulation",
@@ -10132,7 +10310,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "general-data-protection-regulation"
     },
     {
       "term": "glossary",
@@ -10186,7 +10365,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "glossary"
     },
     {
       "term": "governance-diamond",
@@ -10248,7 +10428,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "governance-diamond"
     },
     {
       "term": "governance-document",
@@ -10303,7 +10484,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "governance-document"
     },
     {
       "term": "governance-framework",
@@ -10364,7 +10546,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "governance-framework"
     },
     {
       "term": "governance-graph",
@@ -10421,7 +10604,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "governance-graph"
     },
     {
       "term": "governance-requirement",
@@ -10476,7 +10660,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "governance-requirement"
     },
     {
       "term": "governance-risk-management-compliance",
@@ -10531,7 +10716,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "governance-risk-management-compliance"
     },
     {
       "term": "governance",
@@ -10587,7 +10773,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "governance"
     },
     {
       "term": "governed-information",
@@ -10648,7 +10835,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "governed-information"
     },
     {
       "term": "governed-party",
@@ -10701,7 +10889,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "governed-party"
     },
     {
       "term": "governed-use-case",
@@ -10763,7 +10952,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "governed-use-case"
     },
     {
       "term": "governing-authority",
@@ -10817,7 +11007,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "governing-authority"
     },
     {
       "term": "governing-body",
@@ -10881,7 +11072,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "governing-body"
     },
     {
       "term": "grc",
@@ -10932,7 +11124,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "grc"
     },
     {
       "term": "guardian",
@@ -11000,7 +11193,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "guardian"
     },
     {
       "term": "guardianship-arrangement",
@@ -11062,7 +11256,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "guardianship-arrangement"
     },
     {
       "term": "guardianship-credential",
@@ -11118,7 +11313,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "guardianship-credential"
     },
     {
       "term": "hardware-security-module",
@@ -11178,7 +11374,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "hardware-security-module"
     },
     {
       "term": "hash-function",
@@ -11232,7 +11429,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "hash-function"
     },
     {
       "term": "hash",
@@ -11291,7 +11489,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "hash"
     },
     {
       "term": "holder-binding",
@@ -11343,7 +11542,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "holder-binding"
     },
     {
       "term": "holder",
@@ -11412,7 +11612,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "holder"
     },
     {
       "term": "host",
@@ -11468,7 +11669,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "host"
     },
     {
       "term": "hourglass-model",
@@ -11526,7 +11728,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "hourglass-model"
     },
     {
       "term": "hsm",
@@ -11577,7 +11780,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "hsm"
     },
     {
       "term": "human-auditable",
@@ -11635,7 +11839,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "human-auditable"
     },
     {
       "term": "human-experience",
@@ -11688,7 +11893,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "human-experience"
     },
     {
       "term": "human-readable",
@@ -11740,7 +11946,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "human-readable"
     },
     {
       "term": "human-trust",
@@ -11793,7 +12000,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "human-trust"
     },
     {
       "term": "ial",
@@ -11844,7 +12052,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "ial"
     },
     {
       "term": "identification",
@@ -11901,7 +12110,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "identification"
     },
     {
       "term": "identifier",
@@ -11955,7 +12165,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "identifier"
     },
     {
       "term": "identity-assurance-level",
@@ -12017,7 +12228,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "identity-assurance-level"
     },
     {
       "term": "identity-assurance",
@@ -12071,7 +12283,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "identity-assurance"
     },
     {
       "term": "identity-binding",
@@ -12136,7 +12349,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "identity-binding"
     },
     {
       "term": "identity-controller",
@@ -12187,7 +12401,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "identity-controller"
     },
     {
       "term": "identity-data",
@@ -12238,7 +12453,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "identity-data"
     },
     {
       "term": "identity-document",
@@ -12294,7 +12510,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "identity-document"
     },
     {
       "term": "identity-proofing",
@@ -12351,7 +12568,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "identity-proofing"
     },
     {
       "term": "identity-provider",
@@ -12414,7 +12632,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "identity-provider"
     },
     {
       "term": "identity",
@@ -12470,7 +12689,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "identity"
     },
     {
       "term": "idp",
@@ -12521,7 +12741,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "idp"
     },
     {
       "term": "impersonation",
@@ -12577,7 +12798,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "impersonation"
     },
     {
       "term": "information-theoretic-security",
@@ -12631,7 +12853,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "information-theoretic-security"
     },
     {
       "term": "integrity",
@@ -12686,7 +12909,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "integrity"
     },
     {
       "term": "intermediary-system",
@@ -12743,7 +12967,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "intermediary-system"
     },
     {
       "term": "internet-protocol-suite",
@@ -12800,7 +13025,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "internet-protocol-suite"
     },
     {
       "term": "internet-protocol",
@@ -12858,7 +13084,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "internet-protocol"
     },
     {
       "term": "ip-address",
@@ -12912,7 +13139,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "ip-address"
     },
     {
       "term": "ip",
@@ -12963,7 +13191,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "ip"
     },
     {
       "term": "issuance-request",
@@ -13021,7 +13250,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "issuance-request"
     },
     {
       "term": "issuance",
@@ -13083,7 +13313,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "issuance"
     },
     {
       "term": "issuer",
@@ -13166,7 +13397,8 @@
         "iso": [
           "ISO/IEC 27001 A.5.16"
         ]
-      }
+      },
+      "slug": "issuer"
     },
     {
       "term": "itps",
@@ -13218,7 +13450,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "itps"
     },
     {
       "term": "jurisdiction",
@@ -13274,7 +13507,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "jurisdiction"
     },
     {
       "term": "kate",
@@ -13325,7 +13559,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "kate"
     },
     {
       "term": "keri",
@@ -13376,7 +13611,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "keri"
     },
     {
       "term": "key-establishment",
@@ -13429,7 +13665,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "key-establishment"
     },
     {
       "term": "key-event-log",
@@ -13483,7 +13720,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "key-event-log"
     },
     {
       "term": "key-event-receipt-infrastructure",
@@ -13537,7 +13775,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "key-event-receipt-infrastructure"
     },
     {
       "term": "key-event",
@@ -13592,7 +13831,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "key-event"
     },
     {
       "term": "key-management-system",
@@ -13651,7 +13891,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "key-management-system"
     },
     {
       "term": "key",
@@ -13705,7 +13946,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "key"
     },
     {
       "term": "keys-at-the-edge",
@@ -13758,7 +14000,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "keys-at-the-edge"
     },
     {
       "term": "kms",
@@ -13809,7 +14052,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "kms"
     },
     {
       "term": "knowledge",
@@ -13862,7 +14106,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "knowledge"
     },
     {
       "term": "laws-of-identity",
@@ -13915,7 +14160,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "laws-of-identity"
     },
     {
       "term": "layer-1",
@@ -13966,7 +14212,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "layer-1"
     },
     {
       "term": "layer-2",
@@ -14017,7 +14264,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "layer-2"
     },
     {
       "term": "layer-3",
@@ -14068,7 +14316,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "layer-3"
     },
     {
       "term": "layer-4",
@@ -14119,7 +14368,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "layer-4"
     },
     {
       "term": "legal-entity-identifier",
@@ -14177,7 +14427,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "legal-entity-identifier"
     },
     {
       "term": "legal-entity",
@@ -14233,7 +14484,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "legal-entity"
     },
     {
       "term": "legal-identity",
@@ -14288,7 +14540,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "legal-identity"
     },
     {
       "term": "legal-person",
@@ -14347,7 +14600,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "legal-person"
     },
     {
       "term": "legal-system",
@@ -14402,7 +14656,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "legal-system"
     },
     {
       "term": "legitimized-human-meaningful-identifier",
@@ -14458,7 +14713,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "legitimized-human-meaningful-identifier"
     },
     {
       "term": "lei",
@@ -14509,7 +14765,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "lei"
     },
     {
       "term": "level-of-assurance",
@@ -14563,7 +14820,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "level-of-assurance"
     },
     {
       "term": "lid",
@@ -14614,7 +14872,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "lid"
     },
     {
       "term": "liveness-detection",
@@ -14667,7 +14926,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "liveness-detection"
     },
     {
       "term": "locus-of-control",
@@ -14718,7 +14978,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "locus-of-control"
     },
     {
       "term": "machine-readable",
@@ -14772,7 +15033,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "machine-readable"
     },
     {
       "term": "man-made-thing",
@@ -14830,7 +15092,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "man-made-thing"
     },
     {
       "term": "mandatory",
@@ -14887,7 +15150,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "mandatory"
     },
     {
       "term": "message",
@@ -14944,7 +15208,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "message"
     },
     {
       "term": "metadata",
@@ -15001,7 +15266,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "metadata"
     },
     {
       "term": "mobile-deep-link",
@@ -15056,7 +15322,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "mobile-deep-link"
     },
     {
       "term": "mpc",
@@ -15107,7 +15374,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "mpc"
     },
     {
       "term": "multi-party-computation",
@@ -15162,7 +15430,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "multi-party-computation"
     },
     {
       "term": "multi-party-control",
@@ -15213,7 +15482,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "multi-party-control"
     },
     {
       "term": "multi-signature",
@@ -15267,7 +15537,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "multi-signature"
     },
     {
       "term": "multicast-address",
@@ -15324,7 +15595,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "multicast-address"
     },
     {
       "term": "multicast",
@@ -15381,7 +15653,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "multicast"
     },
     {
       "term": "natural-person",
@@ -15440,7 +15713,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "natural-person"
     },
     {
       "term": "natural-thing",
@@ -15499,7 +15773,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "natural-thing"
     },
     {
       "term": "network-address",
@@ -15553,7 +15828,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "network-address"
     },
     {
       "term": "nist-csrc",
@@ -15604,7 +15880,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "nist-csrc"
     },
     {
       "term": "node",
@@ -15658,7 +15935,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "node"
     },
     {
       "term": "non-custodial-wallet",
@@ -15710,7 +15988,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "non-custodial-wallet"
     },
     {
       "term": "non-repudiable",
@@ -15764,7 +16043,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "non-repudiable"
     },
     {
       "term": "non-transferable-identifier",
@@ -15819,7 +16099,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "non-transferable-identifier"
     },
     {
       "term": "non-transferable",
@@ -15873,7 +16154,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "non-transferable"
     },
     {
       "term": "objective",
@@ -15927,7 +16209,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "objective"
     },
     {
       "term": "oobi",
@@ -15979,7 +16262,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "oobi"
     },
     {
       "term": "openwallet-foundation",
@@ -16035,7 +16319,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "openwallet-foundation"
     },
     {
       "term": "operational-circumstances",
@@ -16088,7 +16373,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "operational-circumstances"
     },
     {
       "term": "optional",
@@ -16145,7 +16431,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "optional"
     },
     {
       "term": "organization",
@@ -16204,7 +16491,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "organization"
     },
     {
       "term": "organizational-authority",
@@ -16258,7 +16546,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "organizational-authority"
     },
     {
       "term": "out-of-band-introduction",
@@ -16314,7 +16603,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "out-of-band-introduction"
     },
     {
       "term": "owner",
@@ -16370,7 +16660,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "owner"
     },
     {
       "term": "p2p",
@@ -16421,7 +16712,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "p2p"
     },
     {
       "term": "packet",
@@ -16475,7 +16767,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "packet"
     },
     {
       "term": "party",
@@ -16533,7 +16826,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "party"
     },
     {
       "term": "password",
@@ -16593,7 +16887,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "password"
     },
     {
       "term": "peer-to-peer",
@@ -16646,7 +16941,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "peer-to-peer"
     },
     {
       "term": "peer",
@@ -16704,7 +17000,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "peer"
     },
     {
       "term": "permission",
@@ -16762,7 +17059,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "permission"
     },
     {
       "term": "persistent-connection",
@@ -16816,7 +17114,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "persistent-connection"
     },
     {
       "term": "persistent-identifier",
@@ -16868,7 +17167,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "persistent-identifier"
     },
     {
       "term": "person",
@@ -16920,7 +17220,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "person"
     },
     {
       "term": "personal-data-store",
@@ -16976,7 +17277,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "personal-data-store"
     },
     {
       "term": "personal-data-vault",
@@ -17028,7 +17330,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "personal-data-vault"
     },
     {
       "term": "personal-data",
@@ -17081,7 +17384,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "personal-data"
     },
     {
       "term": "personal-wallet",
@@ -17135,7 +17439,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "personal-wallet"
     },
     {
       "term": "personally-identifiable-information",
@@ -17194,7 +17499,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "personally-identifiable-information"
     },
     {
       "term": "physical-credential",
@@ -17252,7 +17558,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "physical-credential"
     },
     {
       "term": "pii",
@@ -17303,7 +17610,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "pii"
     },
     {
       "term": "pki",
@@ -17354,7 +17662,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "pki"
     },
     {
       "term": "plaintext",
@@ -17408,7 +17717,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "plaintext"
     },
     {
       "term": "policy",
@@ -17479,7 +17789,8 @@
         "iso": [
           "ISO/IEC 42001 5.2"
         ]
-      }
+      },
+      "slug": "policy"
     },
     {
       "term": "pop",
@@ -17530,7 +17841,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "pop"
     },
     {
       "term": "presentation-attack",
@@ -17584,7 +17896,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "presentation-attack"
     },
     {
       "term": "presentation-request",
@@ -17638,7 +17951,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "presentation-request"
     },
     {
       "term": "presentation",
@@ -17705,7 +18019,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "presentation"
     },
     {
       "term": "primary-document",
@@ -17758,7 +18073,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "primary-document"
     },
     {
       "term": "principal",
@@ -17812,7 +18128,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "principal"
     },
     {
       "term": "principles-of-ssi",
@@ -17865,7 +18182,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "principles-of-ssi"
     },
     {
       "term": "privacy-policy",
@@ -17921,7 +18239,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "privacy-policy"
     },
     {
       "term": "privacy-washing",
@@ -17973,7 +18292,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "privacy-washing"
     },
     {
       "term": "private-key",
@@ -18027,7 +18347,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "private-key"
     },
     {
       "term": "proof-of-control",
@@ -18078,7 +18399,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "proof-of-control"
     },
     {
       "term": "proof-of-personhood",
@@ -18133,7 +18455,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "proof-of-personhood"
     },
     {
       "term": "proof-of-possession",
@@ -18186,7 +18509,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "proof-of-possession"
     },
     {
       "term": "proof-of-presence",
@@ -18237,7 +18561,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "proof-of-presence"
     },
     {
       "term": "proof",
@@ -18295,7 +18620,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "proof"
     },
     {
       "term": "property",
@@ -18350,7 +18676,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "property"
     },
     {
       "term": "protected-data",
@@ -18401,7 +18728,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "protected-data"
     },
     {
       "term": "protocol-layer",
@@ -18458,7 +18786,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "protocol-layer"
     },
     {
       "term": "protocol-stack",
@@ -18514,7 +18843,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "protocol-stack"
     },
     {
       "term": "pseudonym",
@@ -18570,7 +18900,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "pseudonym"
     },
     {
       "term": "public-key-certificate",
@@ -18632,7 +18963,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "public-key-certificate"
     },
     {
       "term": "public-key-cryptography",
@@ -18687,7 +19019,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "public-key-cryptography"
     },
     {
       "term": "public-key-infrastructure",
@@ -18751,7 +19084,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "public-key-infrastructure"
     },
     {
       "term": "public-key",
@@ -18805,7 +19139,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "public-key"
     },
     {
       "term": "qr-code",
@@ -18861,7 +19196,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "qr-code"
     },
     {
       "term": "rbac",
@@ -18912,7 +19248,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "rbac"
     },
     {
       "term": "real-world-identity",
@@ -18968,7 +19305,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "real-world-identity"
     },
     {
       "term": "recommended",
@@ -19025,7 +19363,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "recommended"
     },
     {
       "term": "record",
@@ -19081,7 +19420,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "record"
     },
     {
       "term": "registrant",
@@ -19137,7 +19477,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "registrant"
     },
     {
       "term": "registrar",
@@ -19189,7 +19530,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "registrar"
     },
     {
       "term": "registration-agent",
@@ -19249,7 +19591,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "registration-agent"
     },
     {
       "term": "registration",
@@ -19305,7 +19648,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "registration"
     },
     {
       "term": "registry",
@@ -19364,7 +19708,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "registry"
     },
     {
       "term": "relationship-context",
@@ -19416,7 +19761,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "relationship-context"
     },
     {
       "term": "relationship",
@@ -19469,7 +19815,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "relationship"
     },
     {
       "term": "relying-party",
@@ -19535,7 +19882,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "relying-party"
     },
     {
       "term": "reputation-graph",
@@ -19591,7 +19939,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "reputation-graph"
     },
     {
       "term": "reputation-system",
@@ -19645,7 +19994,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "reputation-system"
     },
     {
       "term": "reputation",
@@ -19699,7 +20049,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "reputation"
     },
     {
       "term": "reputational-trust",
@@ -19751,7 +20102,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "reputational-trust"
     },
     {
       "term": "requirement",
@@ -19809,7 +20161,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "requirement"
     },
     {
       "term": "resolver",
@@ -19858,7 +20211,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "resolver"
     },
     {
       "term": "revocation",
@@ -19938,7 +20292,8 @@
         "iso": [
           "ISO/IEC 27001 A.5.36"
         ]
-      }
+      },
+      "slug": "revocation"
     },
     {
       "term": "risk-assessment",
@@ -19995,7 +20350,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "risk-assessment"
     },
     {
       "term": "risk-decision",
@@ -20047,7 +20403,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "risk-decision"
     },
     {
       "term": "risk-management",
@@ -20103,7 +20460,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "risk-management"
     },
     {
       "term": "risk-mitigation",
@@ -20157,7 +20515,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "risk-mitigation"
     },
     {
       "term": "risk",
@@ -20213,7 +20572,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "risk"
     },
     {
       "term": "role-based-access-control",
@@ -20273,7 +20633,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "role-based-access-control"
     },
     {
       "term": "role-credential",
@@ -20329,7 +20690,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "role-credential"
     },
     {
       "term": "role",
@@ -20385,7 +20747,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "role"
     },
     {
       "term": "rotation",
@@ -20442,7 +20805,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "rotation"
     },
     {
       "term": "router",
@@ -20496,7 +20860,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "router"
     },
     {
       "term": "routing",
@@ -20551,7 +20916,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "routing"
     },
     {
       "term": "rule",
@@ -20606,7 +20972,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "rule"
     },
     {
       "term": "rwi",
@@ -20657,7 +21024,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "rwi"
     },
     {
       "term": "schema",
@@ -20722,7 +21090,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "schema"
     },
     {
       "term": "scid",
@@ -20774,7 +21143,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "scid"
     },
     {
       "term": "scope",
@@ -20828,7 +21198,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "scope"
     },
     {
       "term": "second-party",
@@ -20886,7 +21257,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "second-party"
     },
     {
       "term": "secure-attribution",
@@ -20938,7 +21310,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "secure-attribution"
     },
     {
       "term": "secure-enclave",
@@ -20990,7 +21363,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "secure-enclave"
     },
     {
       "term": "secure-multi-party-computation",
@@ -21041,7 +21415,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "secure-multi-party-computation"
     },
     {
       "term": "security-domain",
@@ -21099,7 +21474,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "security-domain"
     },
     {
       "term": "security-policy",
@@ -21157,7 +21533,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "security-policy"
     },
     {
       "term": "self-asserted",
@@ -21212,7 +21589,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "self-asserted"
     },
     {
       "term": "self-certified",
@@ -21264,7 +21642,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "self-certified"
     },
     {
       "term": "self-certifying-identifier",
@@ -21323,7 +21702,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "self-certifying-identifier"
     },
     {
       "term": "self-sovereign-identity",
@@ -21385,7 +21765,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "self-sovereign-identity"
     },
     {
       "term": "sensitive-data",
@@ -21438,7 +21819,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "sensitive-data"
     },
     {
       "term": "session",
@@ -21490,7 +21872,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "session"
     },
     {
       "term": "single-signature-identifier",
@@ -21542,7 +21925,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "single-signature-identifier"
     },
     {
       "term": "sociotechnical-system",
@@ -21597,7 +21981,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "sociotechnical-system"
     },
     {
       "term": "software-agent",
@@ -21653,7 +22038,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "software-agent"
     },
     {
       "term": "sovrin-foundation",
@@ -21707,7 +22093,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "sovrin-foundation"
     },
     {
       "term": "spanning-layer",
@@ -21763,7 +22150,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "spanning-layer"
     },
     {
       "term": "specification",
@@ -21815,7 +22203,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "specification"
     },
     {
       "term": "ssi",
@@ -21868,7 +22257,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "ssi"
     },
     {
       "term": "stream",
@@ -21920,7 +22310,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "stream"
     },
     {
       "term": "streaming-media",
@@ -21973,7 +22364,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "streaming-media"
     },
     {
       "term": "subject",
@@ -22032,7 +22424,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "subject"
     },
     {
       "term": "subscription",
@@ -22084,7 +22477,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "subscription"
     },
     {
       "term": "supporting-system",
@@ -22139,7 +22533,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "supporting-system"
     },
     {
       "term": "sybil-attack",
@@ -22193,7 +22588,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "sybil-attack"
     },
     {
       "term": "system-of-record",
@@ -22251,7 +22647,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "system-of-record"
     },
     {
       "term": "tamper-evident",
@@ -22305,7 +22702,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "tamper-evident"
     },
     {
       "term": "tamper-resistant",
@@ -22361,7 +22759,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "tamper-resistant"
     },
     {
       "term": "tcp-ip-stack",
@@ -22413,7 +22812,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "tcp-ip-stack"
     },
     {
       "term": "tcp-ip",
@@ -22464,7 +22864,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "tcp-ip"
     },
     {
       "term": "technical-requirement",
@@ -22520,7 +22921,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "technical-requirement"
     },
     {
       "term": "technical-specification",
@@ -22579,7 +22981,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "technical-specification"
     },
     {
       "term": "technical-trust",
@@ -22632,7 +23035,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "technical-trust"
     },
     {
       "term": "tee",
@@ -22683,7 +23087,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "tee"
     },
     {
       "term": "term",
@@ -22740,7 +23145,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "term"
     },
     {
       "term": "terminology",
@@ -22794,7 +23200,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "terminology"
     },
     {
       "term": "terms-community",
@@ -22848,7 +23255,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "terms-community"
     },
     {
       "term": "terms-wiki",
@@ -22900,7 +23308,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "terms-wiki"
     },
     {
       "term": "thing",
@@ -22952,7 +23361,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "thing"
     },
     {
       "term": "third-party",
@@ -23004,7 +23414,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "third-party"
     },
     {
       "term": "three-party-model",
@@ -23066,7 +23477,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "three-party-model"
     },
     {
       "term": "timestamp",
@@ -23125,7 +23537,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "timestamp"
     },
     {
       "term": "tls",
@@ -23176,7 +23589,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "tls"
     },
     {
       "term": "toip-application",
@@ -23228,7 +23642,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "toip-application"
     },
     {
       "term": "toip-channel",
@@ -23280,7 +23695,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "toip-channel"
     },
     {
       "term": "toip-communication",
@@ -23332,7 +23748,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "toip-communication"
     },
     {
       "term": "toip-connection",
@@ -23384,7 +23801,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "toip-connection"
     },
     {
       "term": "toip-controller",
@@ -23436,7 +23854,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "toip-controller"
     },
     {
       "term": "toip-endpoint",
@@ -23488,7 +23907,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "toip-endpoint"
     },
     {
       "term": "toip-foundation",
@@ -23544,7 +23964,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "toip-foundation"
     },
     {
       "term": "toip-governance-architecture-specification",
@@ -23597,7 +24018,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "toip-governance-architecture-specification"
     },
     {
       "term": "toip-governance-framework",
@@ -23650,7 +24072,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "toip-governance-framework"
     },
     {
       "term": "toip-governance-metamodel",
@@ -23702,7 +24125,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "toip-governance-metamodel"
     },
     {
       "term": "toip-governance-stack",
@@ -23755,7 +24179,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "toip-governance-stack"
     },
     {
       "term": "toip-identifier",
@@ -23813,7 +24238,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "toip-identifier"
     },
     {
       "term": "toip-intermediary",
@@ -23865,7 +24291,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "toip-intermediary"
     },
     {
       "term": "toip-layer-1",
@@ -23916,7 +24343,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "toip-layer-1"
     },
     {
       "term": "toip-layer-2",
@@ -23967,7 +24395,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "toip-layer-2"
     },
     {
       "term": "toip-layer-3",
@@ -24018,7 +24447,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "toip-layer-3"
     },
     {
       "term": "toip-layer-4",
@@ -24069,7 +24499,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "toip-layer-4"
     },
     {
       "term": "toip-layer",
@@ -24123,7 +24554,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "toip-layer"
     },
     {
       "term": "toip-message",
@@ -24175,7 +24607,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "toip-message"
     },
     {
       "term": "toip-relationship",
@@ -24226,7 +24659,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "toip-relationship"
     },
     {
       "term": "toip-specification",
@@ -24278,7 +24712,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "toip-specification"
     },
     {
       "term": "toip-stack",
@@ -24332,7 +24767,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "toip-stack"
     },
     {
       "term": "toip-system",
@@ -24386,7 +24822,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "toip-system"
     },
     {
       "term": "toip-technology-architecture-specification",
@@ -24439,7 +24876,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "toip-technology-architecture-specification"
     },
     {
       "term": "toip-technology-stack",
@@ -24493,7 +24931,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "toip-technology-stack"
     },
     {
       "term": "toip-trust-community",
@@ -24545,7 +24984,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "toip-trust-community"
     },
     {
       "term": "toip-trust-network",
@@ -24597,7 +25037,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "toip-trust-network"
     },
     {
       "term": "toip-trust-registry-protocol",
@@ -24652,7 +25093,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "toip-trust-registry-protocol"
     },
     {
       "term": "toip-trust-spanning-protocol",
@@ -24708,7 +25150,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "toip-trust-spanning-protocol"
     },
     {
       "term": "toip",
@@ -24759,7 +25202,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "toip"
     },
     {
       "term": "transaction",
@@ -24817,7 +25261,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "transaction"
     },
     {
       "term": "transferable-identifier",
@@ -24871,7 +25316,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "transferable-identifier"
     },
     {
       "term": "transferable",
@@ -24926,7 +25372,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "transferable"
     },
     {
       "term": "transitive-trust-decision",
@@ -24986,7 +25433,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "transitive-trust-decision"
     },
     {
       "term": "transport-layer-security",
@@ -25043,7 +25491,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "transport-layer-security"
     },
     {
       "term": "transport-layer",
@@ -25096,7 +25545,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "transport-layer"
     },
     {
       "term": "tribal-knowledge",
@@ -25149,7 +25599,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "tribal-knowledge"
     },
     {
       "term": "trust-anchor",
@@ -25206,7 +25657,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "trust-anchor"
     },
     {
       "term": "trust-application-layer",
@@ -25257,7 +25709,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "trust-application-layer"
     },
     {
       "term": "trust-application",
@@ -25309,7 +25762,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "trust-application"
     },
     {
       "term": "trust-assurance",
@@ -25361,7 +25815,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "trust-assurance"
     },
     {
       "term": "trust-basis",
@@ -25414,7 +25869,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "trust-basis"
     },
     {
       "term": "trust-boundary",
@@ -25466,7 +25922,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "trust-boundary"
     },
     {
       "term": "trust-chain",
@@ -25527,7 +25984,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "trust-chain"
     },
     {
       "term": "trust-community",
@@ -25585,7 +26043,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "trust-community"
     },
     {
       "term": "trust-context",
@@ -25642,7 +26101,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "trust-context"
     },
     {
       "term": "trust-decision",
@@ -25698,7 +26158,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "trust-decision"
     },
     {
       "term": "trust-domain",
@@ -25756,7 +26217,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "trust-domain"
     },
     {
       "term": "trust-ecosystem",
@@ -25808,7 +26270,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "trust-ecosystem"
     },
     {
       "term": "trust-establishment",
@@ -25869,7 +26332,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "trust-establishment"
     },
     {
       "term": "trust-factor",
@@ -25921,7 +26385,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "trust-factor"
     },
     {
       "term": "trust-framework",
@@ -25974,7 +26439,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "trust-framework"
     },
     {
       "term": "trust-graph",
@@ -26044,7 +26510,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "trust-graph"
     },
     {
       "term": "trust-limit",
@@ -26098,7 +26565,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "trust-limit"
     },
     {
       "term": "trust-list",
@@ -26155,7 +26623,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "trust-list"
     },
     {
       "term": "trust-network",
@@ -26210,7 +26679,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "trust-network"
     },
     {
       "term": "trust-objective",
@@ -26262,7 +26732,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "trust-objective"
     },
     {
       "term": "trust-over-ip",
@@ -26315,7 +26786,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "trust-over-ip"
     },
     {
       "term": "trust-registry-protocol",
@@ -26370,7 +26842,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "trust-registry-protocol"
     },
     {
       "term": "trust-registry",
@@ -26443,7 +26916,8 @@
         "iso": [
           "ISO/IEC 27001 A.5.19"
         ]
-      }
+      },
+      "slug": "trust-registry"
     },
     {
       "term": "trust-relationship",
@@ -26498,7 +26972,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "trust-relationship"
     },
     {
       "term": "trust-root",
@@ -26550,7 +27025,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "trust-root"
     },
     {
       "term": "trust-service-provider",
@@ -26607,7 +27083,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "trust-service-provider"
     },
     {
       "term": "trust-spanning-layer",
@@ -26662,7 +27139,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "trust-spanning-layer"
     },
     {
       "term": "trust-spanning-protocol",
@@ -26713,7 +27191,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "trust-spanning-protocol"
     },
     {
       "term": "trust-support-layer",
@@ -26764,7 +27243,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "trust-support-layer"
     },
     {
       "term": "trust-support",
@@ -26816,7 +27296,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "trust-support"
     },
     {
       "term": "trust-task-layer",
@@ -26867,7 +27348,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "trust-task-layer"
     },
     {
       "term": "trust-task-protocol",
@@ -26919,7 +27401,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "trust-task-protocol"
     },
     {
       "term": "trust-task",
@@ -26973,7 +27456,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "trust-task"
     },
     {
       "term": "trust-triangle",
@@ -27025,7 +27509,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "trust-triangle"
     },
     {
       "term": "trust",
@@ -27085,7 +27570,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "trust"
     },
     {
       "term": "trusted-execution-environment",
@@ -27145,7 +27631,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "trusted-execution-environment"
     },
     {
       "term": "trusted-role",
@@ -27197,7 +27684,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "trusted-role"
     },
     {
       "term": "trusted-third-party",
@@ -27263,7 +27751,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "trusted-third-party"
     },
     {
       "term": "trusted-timestamp-authority",
@@ -27323,7 +27812,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "trusted-timestamp-authority"
     },
     {
       "term": "trustworthiness",
@@ -27376,7 +27866,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "trustworthiness"
     },
     {
       "term": "trustworthy",
@@ -27427,7 +27918,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "trustworthy"
     },
     {
       "term": "tsp",
@@ -27478,7 +27970,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "tsp"
     },
     {
       "term": "tta",
@@ -27531,7 +28024,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "tta"
     },
     {
       "term": "ttp",
@@ -27582,7 +28076,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "ttp"
     },
     {
       "term": "udp",
@@ -27633,7 +28128,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "udp"
     },
     {
       "term": "unicast-address",
@@ -27685,7 +28181,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "unicast-address"
     },
     {
       "term": "unicast",
@@ -27740,7 +28237,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "unicast"
     },
     {
       "term": "uniform-resource-identifier",
@@ -27794,7 +28292,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "uniform-resource-identifier"
     },
     {
       "term": "uniform-resource-locator",
@@ -27850,7 +28349,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "uniform-resource-locator"
     },
     {
       "term": "uniform-resource-name",
@@ -27906,7 +28406,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "uniform-resource-name"
     },
     {
       "term": "uri",
@@ -27957,7 +28458,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "uri"
     },
     {
       "term": "url",
@@ -28008,7 +28510,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "url"
     },
     {
       "term": "urn",
@@ -28059,7 +28562,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "urn"
     },
     {
       "term": "user-agent",
@@ -28114,7 +28618,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "user-agent"
     },
     {
       "term": "user-datagram-protocol",
@@ -28169,7 +28674,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "user-datagram-protocol"
     },
     {
       "term": "utility-governance-framework",
@@ -28231,7 +28737,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "utility-governance-framework"
     },
     {
       "term": "validation",
@@ -28288,7 +28795,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "validation"
     },
     {
       "term": "vault",
@@ -28340,7 +28848,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "vault"
     },
     {
       "term": "vc",
@@ -28395,7 +28904,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "vc"
     },
     {
       "term": "verifiable-credential",
@@ -28464,7 +28974,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "verifiable-credential"
     },
     {
       "term": "verifiable-data-registry",
@@ -28540,7 +29051,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "verifiable-data-registry"
     },
     {
       "term": "verifiable-data",
@@ -28593,7 +29105,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "verifiable-data"
     },
     {
       "term": "verifiable-identifier",
@@ -28652,7 +29165,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "verifiable-identifier"
     },
     {
       "term": "verifiable-message",
@@ -28707,7 +29221,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "verifiable-message"
     },
     {
       "term": "verifiable",
@@ -28772,7 +29287,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "verifiable"
     },
     {
       "term": "verification",
@@ -28840,7 +29356,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "verification"
     },
     {
       "term": "verifier",
@@ -28926,7 +29443,8 @@
         "iso": [
           "ISO/IEC 27001 A.8.15"
         ]
-      }
+      },
+      "slug": "verifier"
     },
     {
       "term": "vid-relationship",
@@ -28978,7 +29496,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "vid-relationship"
     },
     {
       "term": "vid-to-vid",
@@ -29030,7 +29549,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "vid-to-vid"
     },
     {
       "term": "vid",
@@ -29081,7 +29601,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "vid"
     },
     {
       "term": "virtual-credential",
@@ -29136,7 +29657,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "virtual-credential"
     },
     {
       "term": "virtual-vault",
@@ -29188,7 +29710,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "virtual-vault"
     },
     {
       "term": "voice-over-ip",
@@ -29242,7 +29765,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "voice-over-ip"
     },
     {
       "term": "voip",
@@ -29293,7 +29817,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "voip"
     },
     {
       "term": "w3c-verifiable-credentials-data-model-specification",
@@ -29350,7 +29875,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "w3c-verifiable-credentials-data-model-specification"
     },
     {
       "term": "wallet-engine",
@@ -29404,7 +29930,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "wallet-engine"
     },
     {
       "term": "wallet",
@@ -29456,7 +29983,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "wallet"
     },
     {
       "term": "witness",
@@ -29510,7 +30038,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "witness"
     },
     {
       "term": "zero-knowledge-proof",
@@ -29568,7 +30097,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "zero-knowledge-proof"
     },
     {
       "term": "zero-knowledge-service-provider",
@@ -29620,7 +30150,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "zero-knowledge-service-provider"
     },
     {
       "term": "zero-knowledge-service",
@@ -29676,7 +30207,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "zero-knowledge-service"
     },
     {
       "term": "zero-trust-architecture",
@@ -29735,7 +30267,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "zero-trust-architecture"
     },
     {
       "term": "zkp",
@@ -29786,7 +30319,8 @@
       "crosswalk": {
         "nist": [],
         "iso": []
-      }
+      },
+      "slug": "zkp"
     }
   ]
 }

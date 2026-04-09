@@ -2,6 +2,8 @@
 title: "role-credential"
 ---
 
+> Generated file. Update `glossary/terms/role-credential.yaml` and regenerate artifacts instead of editing this page directly.
+
 # role-credential
 
 ## Definition

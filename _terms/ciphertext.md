@@ -2,6 +2,8 @@
 title: "ciphertext"
 ---
 
+> Generated file. Update `glossary/terms/ciphertext.yaml` and regenerate artifacts instead of editing this page directly.
+
 # ciphertext
 
 ## Definition

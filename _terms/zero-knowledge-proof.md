@@ -2,6 +2,8 @@
 title: "zero-knowledge-proof"
 ---
 
+> Generated file. Update `glossary/terms/zero-knowledge-proof.yaml` and regenerate artifacts instead of editing this page directly.
+
 # zero-knowledge-proof
 
 ## Definition

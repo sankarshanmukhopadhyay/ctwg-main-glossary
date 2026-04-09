@@ -2,6 +2,8 @@
 title: "endpoint-system"
 ---
 
+> Generated file. Update `glossary/terms/endpoint-system.yaml` and regenerate artifacts instead of editing this page directly.
+
 # endpoint-system
 
 ## Definition

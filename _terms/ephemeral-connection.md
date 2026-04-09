@@ -2,6 +2,8 @@
 title: "ephemeral-connection"
 ---
 
+> Generated file. Update `glossary/terms/ephemeral-connection.yaml` and regenerate artifacts instead of editing this page directly.
+
 # ephemeral-connection
 
 ## Definition

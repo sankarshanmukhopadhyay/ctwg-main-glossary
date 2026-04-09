@@ -2,6 +2,8 @@
 title: "issuance"
 ---
 
+> Generated file. Update `glossary/terms/issuance.yaml` and regenerate artifacts instead of editing this page directly.
+
 # issuance
 
 ## Definition

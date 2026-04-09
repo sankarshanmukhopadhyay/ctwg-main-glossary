@@ -2,6 +2,8 @@
 title: "anycast-address"
 ---
 
+> Generated file. Update `glossary/terms/anycast-address.yaml` and regenerate artifacts instead of editing this page directly.
+
 # anycast-address
 
 ## Definition

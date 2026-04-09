@@ -2,6 +2,8 @@
 title: "transferable-identifier"
 ---
 
+> Generated file. Update `glossary/terms/transferable-identifier.yaml` and regenerate artifacts instead of editing this page directly.
+
 # transferable-identifier
 
 ## Definition

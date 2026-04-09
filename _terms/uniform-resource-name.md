@@ -2,6 +2,8 @@
 title: "uniform-resource-name"
 ---
 
+> Generated file. Update `glossary/terms/uniform-resource-name.yaml` and regenerate artifacts instead of editing this page directly.
+
 # uniform-resource-name
 
 ## Definition

@@ -2,6 +2,8 @@
 title: "authentic-chained-data-container"
 ---
 
+> Generated file. Update `glossary/terms/authentic-chained-data-container.yaml` and regenerate artifacts instead of editing this page directly.
+
 # authentic-chained-data-container
 
 ## Definition

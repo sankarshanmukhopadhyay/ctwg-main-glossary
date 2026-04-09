@@ -2,6 +2,8 @@
 title: "data-packet"
 ---
 
+> Generated file. Update `glossary/terms/data-packet.yaml` and regenerate artifacts instead of editing this page directly.
+
 # data-packet
 
 ## Definition

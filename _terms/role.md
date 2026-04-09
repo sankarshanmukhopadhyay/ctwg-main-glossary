@@ -2,6 +2,8 @@
 title: "role"
 ---
 
+> Generated file. Update `glossary/terms/role.yaml` and regenerate artifacts instead of editing this page directly.
+
 # role
 
 ## Definition

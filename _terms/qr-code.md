@@ -2,6 +2,8 @@
 title: "qr-code"
 ---
 
+> Generated file. Update `glossary/terms/qr-code.yaml` and regenerate artifacts instead of editing this page directly.
+
 # qr-code
 
 ## Definition

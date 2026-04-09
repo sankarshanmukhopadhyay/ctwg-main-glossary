@@ -2,6 +2,8 @@
 title: "jurisdiction"
 ---
 
+> Generated file. Update `glossary/terms/jurisdiction.yaml` and regenerate artifacts instead of editing this page directly.
+
 # jurisdiction
 
 ## Definition

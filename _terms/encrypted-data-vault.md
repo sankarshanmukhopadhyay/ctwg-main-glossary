@@ -2,6 +2,8 @@
 title: "encrypted-data-vault"
 ---
 
+> Generated file. Update `glossary/terms/encrypted-data-vault.yaml` and regenerate artifacts instead of editing this page directly.
+
 # encrypted-data-vault
 
 ## Definition

@@ -2,6 +2,8 @@
 title: "auditor"
 ---
 
+> Generated file. Update `glossary/terms/auditor.yaml` and regenerate artifacts instead of editing this page directly.
+
 # auditor
 
 ## Definition

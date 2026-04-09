@@ -2,6 +2,8 @@
 title: "device-controller"
 ---
 
+> Generated file. Update `glossary/terms/device-controller.yaml` and regenerate artifacts instead of editing this page directly.
+
 # device-controller
 
 ## Definition

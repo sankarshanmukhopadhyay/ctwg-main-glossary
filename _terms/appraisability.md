@@ -2,6 +2,8 @@
 title: "appraisability"
 ---
 
+> Generated file. Update `glossary/terms/appraisability.yaml` and regenerate artifacts instead of editing this page directly.
+
 # appraisability
 
 ## Definition

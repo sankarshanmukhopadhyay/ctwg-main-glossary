@@ -2,6 +2,8 @@
 title: "distributed-ledger"
 ---
 
+> Generated file. Update `glossary/terms/distributed-ledger.yaml` and regenerate artifacts instead of editing this page directly.
+
 # distributed-ledger
 
 ## Definition

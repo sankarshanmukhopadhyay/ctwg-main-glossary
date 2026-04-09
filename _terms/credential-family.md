@@ -2,6 +2,8 @@
 title: "credential-family"
 ---
 
+> Generated file. Update `glossary/terms/credential-family.yaml` and regenerate artifacts instead of editing this page directly.
+
 # credential-family
 
 ## Definition

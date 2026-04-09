@@ -2,6 +2,8 @@
 title: "legal-entity-identifier"
 ---
 
+> Generated file. Update `glossary/terms/legal-entity-identifier.yaml` and regenerate artifacts instead of editing this page directly.
+
 # legal-entity-identifier
 
 ## Definition

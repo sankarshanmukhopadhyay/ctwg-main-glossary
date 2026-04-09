@@ -2,6 +2,8 @@
 title: "identity-provider"
 ---
 
+> Generated file. Update `glossary/terms/identity-provider.yaml` and regenerate artifacts instead of editing this page directly.
+
 # identity-provider
 
 ## Definition

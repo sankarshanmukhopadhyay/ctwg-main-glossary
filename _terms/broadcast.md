@@ -2,6 +2,8 @@
 title: "broadcast"
 ---
 
+> Generated file. Update `glossary/terms/broadcast.yaml` and regenerate artifacts instead of editing this page directly.
+
 # broadcast
 
 ## Definition

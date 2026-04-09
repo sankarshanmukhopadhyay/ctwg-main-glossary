@@ -2,6 +2,8 @@
 title: "laws-of-identity"
 ---
 
+> Generated file. Update `glossary/terms/laws-of-identity.yaml` and regenerate artifacts instead of editing this page directly.
+
 # laws-of-identity
 
 ## Definition

@@ -2,6 +2,8 @@
 title: "coalition-for-content-provenance-and-authenticity"
 ---
 
+> Generated file. Update `glossary/terms/coalition-for-content-provenance-and-authenticity.yaml` and regenerate artifacts instead of editing this page directly.
+
 # coalition-for-content-provenance-and-authenticity
 
 ## Definition

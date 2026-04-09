@@ -2,6 +2,8 @@
 title: "public-key-infrastructure"
 ---
 
+> Generated file. Update `glossary/terms/public-key-infrastructure.yaml` and regenerate artifacts instead of editing this page directly.
+
 # public-key-infrastructure
 
 ## Definition

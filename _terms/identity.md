@@ -2,6 +2,8 @@
 title: "identity"
 ---
 
+> Generated file. Update `glossary/terms/identity.yaml` and regenerate artifacts instead of editing this page directly.
+
 # identity
 
 ## Definition

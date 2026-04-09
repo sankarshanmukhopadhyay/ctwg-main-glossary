@@ -2,6 +2,8 @@
 title: "agency"
 ---
 
+> Generated file. Update `glossary/terms/agency.yaml` and regenerate artifacts instead of editing this page directly.
+
 # agency
 
 ## Definition

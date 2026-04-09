@@ -2,6 +2,8 @@
 title: "risk-management"
 ---
 
+> Generated file. Update `glossary/terms/risk-management.yaml` and regenerate artifacts instead of editing this page directly.
+
 # risk-management
 
 ## Definition

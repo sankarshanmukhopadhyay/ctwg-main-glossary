@@ -2,6 +2,8 @@
 title: "certification-body"
 ---
 
+> Generated file. Update `glossary/terms/certification-body.yaml` and regenerate artifacts instead of editing this page directly.
+
 # certification-body
 
 ## Definition

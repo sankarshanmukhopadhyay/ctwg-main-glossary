@@ -2,6 +2,8 @@
 title: "biometric"
 ---
 
+> Generated file. Update `glossary/terms/biometric.yaml` and regenerate artifacts instead of editing this page directly.
+
 # biometric
 
 ## Definition

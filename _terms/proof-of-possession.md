@@ -2,6 +2,8 @@
 title: "proof-of-possession"
 ---
 
+> Generated file. Update `glossary/terms/proof-of-possession.yaml` and regenerate artifacts instead of editing this page directly.
+
 # proof-of-possession
 
 ## Definition

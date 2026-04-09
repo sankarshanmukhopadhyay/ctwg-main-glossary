@@ -2,6 +2,8 @@
 title: "digital-trust-ecosystem"
 ---
 
+> Generated file. Update `glossary/terms/digital-trust-ecosystem.yaml` and regenerate artifacts instead of editing this page directly.
+
 # digital-trust-ecosystem
 
 ## Definition

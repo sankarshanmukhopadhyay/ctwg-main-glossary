@@ -2,6 +2,8 @@
 title: "mpc"
 ---
 
+> Generated file. Update `glossary/terms/mpc.yaml` and regenerate artifacts instead of editing this page directly.
+
 # mpc
 
 ## Definition

@@ -2,6 +2,8 @@
 title: "personal-data"
 ---
 
+> Generated file. Update `glossary/terms/personal-data.yaml` and regenerate artifacts instead of editing this page directly.
+
 # personal-data
 
 ## Definition

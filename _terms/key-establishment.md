@@ -2,6 +2,8 @@
 title: "key-establishment"
 ---
 
+> Generated file. Update `glossary/terms/key-establishment.yaml` and regenerate artifacts instead of editing this page directly.
+
 # key-establishment
 
 ## Definition

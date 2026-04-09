@@ -2,6 +2,8 @@
 title: "property"
 ---
 
+> Generated file. Update `glossary/terms/property.yaml` and regenerate artifacts instead of editing this page directly.
+
 # property
 
 ## Definition

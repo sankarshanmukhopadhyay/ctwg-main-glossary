@@ -2,6 +2,8 @@
 title: "lei"
 ---
 
+> Generated file. Update `glossary/terms/lei.yaml` and regenerate artifacts instead of editing this page directly.
+
 # lei
 
 ## Definition

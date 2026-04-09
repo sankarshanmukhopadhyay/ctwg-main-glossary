@@ -2,6 +2,8 @@
 title: "toip-governance-architecture-specification"
 ---
 
+> Generated file. Update `glossary/terms/toip-governance-architecture-specification.yaml` and regenerate artifacts instead of editing this page directly.
+
 # toip-governance-architecture-specification
 
 ## Definition

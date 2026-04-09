@@ -2,6 +2,8 @@
 title: "administering-body"
 ---
 
+> Generated file. Update `glossary/terms/administering-body.yaml` and regenerate artifacts instead of editing this page directly.
+
 # administering-body
 
 ## Definition

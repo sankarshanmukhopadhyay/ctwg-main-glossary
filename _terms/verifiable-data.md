@@ -2,6 +2,8 @@
 title: "verifiable-data"
 ---
 
+> Generated file. Update `glossary/terms/verifiable-data.yaml` and regenerate artifacts instead of editing this page directly.
+
 # verifiable-data
 
 ## Definition

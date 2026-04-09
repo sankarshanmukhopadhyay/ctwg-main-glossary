@@ -2,6 +2,8 @@
 title: "aid"
 ---
 
+> Generated file. Update `glossary/terms/aid.yaml` and regenerate artifacts instead of editing this page directly.
+
 # aid
 
 ## Definition

@@ -2,6 +2,8 @@
 title: "plaintext"
 ---
 
+> Generated file. Update `glossary/terms/plaintext.yaml` and regenerate artifacts instead of editing this page directly.
+
 # plaintext
 
 ## Definition

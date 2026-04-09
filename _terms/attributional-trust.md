@@ -2,6 +2,8 @@
 title: "attributional-trust"
 ---
 
+> Generated file. Update `glossary/terms/attributional-trust.yaml` and regenerate artifacts instead of editing this page directly.
+
 # attributional-trust
 
 ## Definition

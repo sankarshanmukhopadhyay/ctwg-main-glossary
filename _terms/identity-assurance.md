@@ -2,6 +2,8 @@
 title: "identity-assurance"
 ---
 
+> Generated file. Update `glossary/terms/identity-assurance.yaml` and regenerate artifacts instead of editing this page directly.
+
 # identity-assurance
 
 ## Definition

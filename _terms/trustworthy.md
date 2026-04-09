@@ -2,6 +2,8 @@
 title: "trustworthy"
 ---
 
+> Generated file. Update `glossary/terms/trustworthy.yaml` and regenerate artifacts instead of editing this page directly.
+
 # trustworthy
 
 ## Definition

@@ -2,6 +2,8 @@
 title: "chained-credentials"
 ---
 
+> Generated file. Update `glossary/terms/chained-credentials.yaml` and regenerate artifacts instead of editing this page directly.
+
 # chained-credentials
 
 ## Definition

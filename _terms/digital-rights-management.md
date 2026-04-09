@@ -2,6 +2,8 @@
 title: "digital-rights-management"
 ---
 
+> Generated file. Update `glossary/terms/digital-rights-management.yaml` and regenerate artifacts instead of editing this page directly.
+
 # digital-rights-management
 
 ## Definition

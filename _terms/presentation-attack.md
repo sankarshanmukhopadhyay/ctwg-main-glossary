@@ -2,6 +2,8 @@
 title: "presentation-attack"
 ---
 
+> Generated file. Update `glossary/terms/presentation-attack.yaml` and regenerate artifacts instead of editing this page directly.
+
 # presentation-attack
 
 ## Definition

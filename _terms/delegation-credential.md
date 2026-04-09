@@ -2,6 +2,8 @@
 title: "delegation-credential"
 ---
 
+> Generated file. Update `glossary/terms/delegation-credential.yaml` and regenerate artifacts instead of editing this page directly.
+
 # delegation-credential
 
 ## Definition

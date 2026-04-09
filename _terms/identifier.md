@@ -2,6 +2,8 @@
 title: "identifier"
 ---
 
+> Generated file. Update `glossary/terms/identifier.yaml` and regenerate artifacts instead of editing this page directly.
+
 # identifier
 
 ## Definition

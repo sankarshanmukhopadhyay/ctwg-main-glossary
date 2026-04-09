@@ -2,6 +2,8 @@
 title: "appropriate-friction"
 ---
 
+> Generated file. Update `glossary/terms/appropriate-friction.yaml` and regenerate artifacts instead of editing this page directly.
+
 # appropriate-friction
 
 ## Definition

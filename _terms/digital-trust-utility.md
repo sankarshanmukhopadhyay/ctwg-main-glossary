@@ -2,6 +2,8 @@
 title: "digital-trust-utility"
 ---
 
+> Generated file. Update `glossary/terms/digital-trust-utility.yaml` and regenerate artifacts instead of editing this page directly.
+
 # digital-trust-utility
 
 ## Definition

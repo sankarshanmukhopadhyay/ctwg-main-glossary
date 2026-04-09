@@ -2,6 +2,8 @@
 title: "transitive-trust-decision"
 ---
 
+> Generated file. Update `glossary/terms/transitive-trust-decision.yaml` and regenerate artifacts instead of editing this page directly.
+
 # transitive-trust-decision
 
 ## Definition

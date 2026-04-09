@@ -2,6 +2,8 @@
 title: "cryptographic-verifiability"
 ---
 
+> Generated file. Update `glossary/terms/cryptographic-verifiability.yaml` and regenerate artifacts instead of editing this page directly.
+
 # cryptographic-verifiability
 
 ## Definition

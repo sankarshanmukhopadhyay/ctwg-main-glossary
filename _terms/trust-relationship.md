@@ -2,6 +2,8 @@
 title: "trust-relationship"
 ---
 
+> Generated file. Update `glossary/terms/trust-relationship.yaml` and regenerate artifacts instead of editing this page directly.
+
 # trust-relationship
 
 ## Definition

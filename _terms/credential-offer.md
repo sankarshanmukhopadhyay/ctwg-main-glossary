@@ -2,6 +2,8 @@
 title: "credential-offer"
 ---
 
+> Generated file. Update `glossary/terms/credential-offer.yaml` and regenerate artifacts instead of editing this page directly.
+
 # credential-offer
 
 ## Definition

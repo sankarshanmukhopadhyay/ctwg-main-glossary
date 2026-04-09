@@ -2,6 +2,8 @@
 title: "wallet"
 ---
 
+> Generated file. Update `glossary/terms/wallet.yaml` and regenerate artifacts instead of editing this page directly.
+
 # wallet
 
 ## Definition

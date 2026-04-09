@@ -2,6 +2,8 @@
 title: "fal"
 ---
 
+> Generated file. Update `glossary/terms/fal.yaml` and regenerate artifacts instead of editing this page directly.
+
 # fal
 
 ## Definition

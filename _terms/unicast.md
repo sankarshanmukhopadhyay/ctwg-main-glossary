@@ -2,6 +2,8 @@
 title: "unicast"
 ---
 
+> Generated file. Update `glossary/terms/unicast.yaml` and regenerate artifacts instead of editing this page directly.
+
 # unicast
 
 ## Definition

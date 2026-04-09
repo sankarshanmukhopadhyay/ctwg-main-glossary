@@ -2,6 +2,8 @@
 title: "personally-identifiable-information"
 ---
 
+> Generated file. Update `glossary/terms/personally-identifiable-information.yaml` and regenerate artifacts instead of editing this page directly.
+
 # personally-identifiable-information
 
 ## Definition

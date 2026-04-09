@@ -2,6 +2,8 @@
 title: "timestamp"
 ---
 
+> Generated file. Update `glossary/terms/timestamp.yaml` and regenerate artifacts instead of editing this page directly.
+
 # timestamp
 
 ## Definition

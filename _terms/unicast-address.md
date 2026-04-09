@@ -2,6 +2,8 @@
 title: "unicast-address"
 ---
 
+> Generated file. Update `glossary/terms/unicast-address.yaml` and regenerate artifacts instead of editing this page directly.
+
 # unicast-address
 
 ## Definition

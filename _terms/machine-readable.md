@@ -2,6 +2,8 @@
 title: "machine-readable"
 ---
 
+> Generated file. Update `glossary/terms/machine-readable.yaml` and regenerate artifacts instead of editing this page directly.
+
 # machine-readable
 
 ## Definition

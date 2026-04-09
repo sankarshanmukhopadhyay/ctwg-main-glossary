@@ -2,6 +2,8 @@
 title: "natural-thing"
 ---
 
+> Generated file. Update `glossary/terms/natural-thing.yaml` and regenerate artifacts instead of editing this page directly.
+
 # natural-thing
 
 ## Definition

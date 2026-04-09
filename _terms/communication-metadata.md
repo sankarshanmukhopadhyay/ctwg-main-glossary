@@ -2,6 +2,8 @@
 title: "communication-metadata"
 ---
 
+> Generated file. Update `glossary/terms/communication-metadata.yaml` and regenerate artifacts instead of editing this page directly.
+
 # communication-metadata
 
 ## Definition

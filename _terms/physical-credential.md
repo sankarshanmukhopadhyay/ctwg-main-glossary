@@ -2,6 +2,8 @@
 title: "physical-credential"
 ---
 
+> Generated file. Update `glossary/terms/physical-credential.yaml` and regenerate artifacts instead of editing this page directly.
+
 # physical-credential
 
 ## Definition

@@ -2,6 +2,8 @@
 title: "resolver"
 ---
 
+> Generated file. Update `glossary/terms/resolver.yaml` and regenerate artifacts instead of editing this page directly.
+
 # resolver
 
 ## Definition

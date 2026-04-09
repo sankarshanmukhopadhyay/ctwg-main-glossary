@@ -2,6 +2,8 @@
 title: "multi-signature"
 ---
 
+> Generated file. Update `glossary/terms/multi-signature.yaml` and regenerate artifacts instead of editing this page directly.
+
 # multi-signature
 
 ## Definition

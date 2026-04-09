@@ -2,6 +2,8 @@
 title: "certification"
 ---
 
+> Generated file. Update `glossary/terms/certification.yaml` and regenerate artifacts instead of editing this page directly.
+
 # certification
 
 ## Definition

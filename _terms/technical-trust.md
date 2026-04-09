@@ -2,6 +2,8 @@
 title: "technical-trust"
 ---
 
+> Generated file. Update `glossary/terms/technical-trust.yaml` and regenerate artifacts instead of editing this page directly.
+
 # technical-trust
 
 ## Definition

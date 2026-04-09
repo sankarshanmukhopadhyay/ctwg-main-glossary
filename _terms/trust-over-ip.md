@@ -2,6 +2,8 @@
 title: "trust-over-ip"
 ---
 
+> Generated file. Update `glossary/terms/trust-over-ip.yaml` and regenerate artifacts instead of editing this page directly.
+
 # trust-over-ip
 
 ## Definition

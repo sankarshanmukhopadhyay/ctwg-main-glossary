@@ -2,6 +2,8 @@
 title: "trust-root"
 ---
 
+> Generated file. Update `glossary/terms/trust-root.yaml` and regenerate artifacts instead of editing this page directly.
+
 # trust-root
 
 ## Definition

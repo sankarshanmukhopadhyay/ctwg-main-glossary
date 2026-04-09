@@ -2,6 +2,8 @@
 title: "tribal-knowledge"
 ---
 
+> Generated file. Update `glossary/terms/tribal-knowledge.yaml` and regenerate artifacts instead of editing this page directly.
+
 # tribal-knowledge
 
 ## Definition

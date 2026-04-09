@@ -2,6 +2,8 @@
 title: "toip-trust-network"
 ---
 
+> Generated file. Update `glossary/terms/toip-trust-network.yaml` and regenerate artifacts instead of editing this page directly.
+
 # toip-trust-network
 
 ## Definition

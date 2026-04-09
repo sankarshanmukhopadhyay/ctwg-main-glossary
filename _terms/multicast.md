@@ -2,6 +2,8 @@
 title: "multicast"
 ---
 
+> Generated file. Update `glossary/terms/multicast.yaml` and regenerate artifacts instead of editing this page directly.
+
 # multicast
 
 ## Definition

@@ -2,6 +2,8 @@
 title: "autonomic-namespace"
 ---
 
+> Generated file. Update `glossary/terms/autonomic-namespace.yaml` and regenerate artifacts instead of editing this page directly.
+
 # autonomic-namespace
 
 ## Definition

@@ -2,6 +2,8 @@
 title: "mandatory"
 ---
 
+> Generated file. Update `glossary/terms/mandatory.yaml` and regenerate artifacts instead of editing this page directly.
+
 # mandatory
 
 ## Definition

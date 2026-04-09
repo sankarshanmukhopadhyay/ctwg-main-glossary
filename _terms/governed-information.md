@@ -2,6 +2,8 @@
 title: "governed-information"
 ---
 
+> Generated file. Update `glossary/terms/governed-information.yaml` and regenerate artifacts instead of editing this page directly.
+
 # governed-information
 
 ## Definition

@@ -2,6 +2,8 @@
 title: "tee"
 ---
 
+> Generated file. Update `glossary/terms/tee.yaml` and regenerate artifacts instead of editing this page directly.
+
 # tee
 
 ## Definition

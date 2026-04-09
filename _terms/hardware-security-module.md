@@ -2,6 +2,8 @@
 title: "hardware-security-module"
 ---
 
+> Generated file. Update `glossary/terms/hardware-security-module.yaml` and regenerate artifacts instead of editing this page directly.
+
 # hardware-security-module
 
 ## Definition

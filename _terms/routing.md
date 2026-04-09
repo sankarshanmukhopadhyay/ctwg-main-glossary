@@ -2,6 +2,8 @@
 title: "routing"
 ---
 
+> Generated file. Update `glossary/terms/routing.yaml` and regenerate artifacts instead of editing this page directly.
+
 # routing
 
 ## Definition

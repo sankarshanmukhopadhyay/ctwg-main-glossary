@@ -2,6 +2,8 @@
 title: "gateway"
 ---
 
+> Generated file. Update `glossary/terms/gateway.yaml` and regenerate artifacts instead of editing this page directly.
+
 # gateway
 
 ## Definition

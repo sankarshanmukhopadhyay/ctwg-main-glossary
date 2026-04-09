@@ -2,6 +2,8 @@
 title: "trust-ecosystem"
 ---
 
+> Generated file. Update `glossary/terms/trust-ecosystem.yaml` and regenerate artifacts instead of editing this page directly.
+
 # trust-ecosystem
 
 ## Definition

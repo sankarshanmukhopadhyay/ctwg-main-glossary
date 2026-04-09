@@ -2,6 +2,8 @@
 title: "custodian"
 ---
 
+> Generated file. Update `glossary/terms/custodian.yaml` and regenerate artifacts instead of editing this page directly.
+
 # custodian
 
 ## Definition

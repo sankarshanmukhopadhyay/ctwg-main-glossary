@@ -2,6 +2,8 @@
 title: "drm"
 ---
 
+> Generated file. Update `glossary/terms/drm.yaml` and regenerate artifacts instead of editing this page directly.
+
 # drm
 
 ## Definition

@@ -2,6 +2,8 @@
 title: "cai"
 ---
 
+> Generated file. Update `glossary/terms/cai.yaml` and regenerate artifacts instead of editing this page directly.
+
 # cai
 
 ## Definition

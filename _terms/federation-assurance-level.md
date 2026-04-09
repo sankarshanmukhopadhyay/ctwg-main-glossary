@@ -2,6 +2,8 @@
 title: "federation-assurance-level"
 ---
 
+> Generated file. Update `glossary/terms/federation-assurance-level.yaml` and regenerate artifacts instead of editing this page directly.
+
 # federation-assurance-level
 
 ## Definition

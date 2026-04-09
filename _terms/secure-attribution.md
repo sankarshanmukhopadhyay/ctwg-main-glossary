@@ -2,6 +2,8 @@
 title: "secure-attribution"
 ---
 
+> Generated file. Update `glossary/terms/secure-attribution.yaml` and regenerate artifacts instead of editing this page directly.
+
 # secure-attribution
 
 ## Definition

@@ -2,6 +2,8 @@
 title: "abac"
 ---
 
+> Generated file. Update `glossary/terms/abac.yaml` and regenerate artifacts instead of editing this page directly.
+
 # abac
 
 ## Definition

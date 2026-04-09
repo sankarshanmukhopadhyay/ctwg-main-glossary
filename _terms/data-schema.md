@@ -2,6 +2,8 @@
 title: "data-schema"
 ---
 
+> Generated file. Update `glossary/terms/data-schema.yaml` and regenerate artifacts instead of editing this page directly.
+
 # data-schema
 
 ## Definition

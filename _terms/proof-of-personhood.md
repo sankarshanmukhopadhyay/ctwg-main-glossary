@@ -2,6 +2,8 @@
 title: "proof-of-personhood"
 ---
 
+> Generated file. Update `glossary/terms/proof-of-personhood.yaml` and regenerate artifacts instead of editing this page directly.
+
 # proof-of-personhood
 
 ## Definition

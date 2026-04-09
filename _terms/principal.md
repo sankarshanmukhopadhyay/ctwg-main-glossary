@@ -2,6 +2,8 @@
 title: "principal"
 ---
 
+> Generated file. Update `glossary/terms/principal.yaml` and regenerate artifacts instead of editing this page directly.
+
 # principal
 
 ## Definition

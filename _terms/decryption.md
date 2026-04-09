@@ -2,6 +2,8 @@
 title: "decryption"
 ---
 
+> Generated file. Update `glossary/terms/decryption.yaml` and regenerate artifacts instead of editing this page directly.
+
 # decryption
 
 ## Definition

@@ -2,6 +2,8 @@
 title: "pseudonym"
 ---
 
+> Generated file. Update `glossary/terms/pseudonym.yaml` and regenerate artifacts instead of editing this page directly.
+
 # pseudonym
 
 ## Definition

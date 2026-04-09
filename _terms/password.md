@@ -2,6 +2,8 @@
 title: "password"
 ---
 
+> Generated file. Update `glossary/terms/password.yaml` and regenerate artifacts instead of editing this page directly.
+
 # password
 
 ## Definition

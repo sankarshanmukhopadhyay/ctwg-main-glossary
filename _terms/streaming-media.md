@@ -2,6 +2,8 @@
 title: "streaming-media"
 ---
 
+> Generated file. Update `glossary/terms/streaming-media.yaml` and regenerate artifacts instead of editing this page directly.
+
 # streaming-media
 
 ## Definition

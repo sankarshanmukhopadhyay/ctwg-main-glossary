@@ -2,6 +2,8 @@
 title: "protected-data"
 ---
 
+> Generated file. Update `glossary/terms/protected-data.yaml` and regenerate artifacts instead of editing this page directly.
+
 # protected-data
 
 ## Definition

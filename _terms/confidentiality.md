@@ -2,6 +2,8 @@
 title: "confidentiality"
 ---
 
+> Generated file. Update `glossary/terms/confidentiality.yaml` and regenerate artifacts instead of editing this page directly.
+
 # confidentiality
 
 ## Definition

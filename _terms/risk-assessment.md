@@ -2,6 +2,8 @@
 title: "risk-assessment"
 ---
 
+> Generated file. Update `glossary/terms/risk-assessment.yaml` and regenerate artifacts instead of editing this page directly.
+
 # risk-assessment
 
 ## Definition

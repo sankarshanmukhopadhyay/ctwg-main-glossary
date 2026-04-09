@@ -2,6 +2,8 @@
 title: "transport-layer"
 ---
 
+> Generated file. Update `glossary/terms/transport-layer.yaml` and regenerate artifacts instead of editing this page directly.
+
 # transport-layer
 
 ## Definition

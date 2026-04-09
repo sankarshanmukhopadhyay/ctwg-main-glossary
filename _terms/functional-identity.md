@@ -2,6 +2,8 @@
 title: "functional-identity"
 ---
 
+> Generated file. Update `glossary/terms/functional-identity.yaml` and regenerate artifacts instead of editing this page directly.
+
 # functional-identity
 
 ## Definition

@@ -2,6 +2,8 @@
 title: "rbac"
 ---
 
+> Generated file. Update `glossary/terms/rbac.yaml` and regenerate artifacts instead of editing this page directly.
+
 # rbac
 
 ## Definition

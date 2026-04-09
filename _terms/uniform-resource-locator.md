@@ -2,6 +2,8 @@
 title: "uniform-resource-locator"
 ---
 
+> Generated file. Update `glossary/terms/uniform-resource-locator.yaml` and regenerate artifacts instead of editing this page directly.
+
 # uniform-resource-locator
 
 ## Definition

@@ -2,6 +2,8 @@
 title: "channel"
 ---
 
+> Generated file. Update `glossary/terms/channel.yaml` and regenerate artifacts instead of editing this page directly.
+
 # channel
 
 ## Definition

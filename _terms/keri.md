@@ -2,6 +2,8 @@
 title: "keri"
 ---
 
+> Generated file. Update `glossary/terms/keri.yaml` and regenerate artifacts instead of editing this page directly.
+
 # keri
 
 ## Definition

@@ -2,6 +2,8 @@
 title: "rule"
 ---
 
+> Generated file. Update `glossary/terms/rule.yaml` and regenerate artifacts instead of editing this page directly.
+
 # rule
 
 ## Definition

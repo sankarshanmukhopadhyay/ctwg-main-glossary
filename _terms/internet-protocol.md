@@ -2,6 +2,8 @@
 title: "internet-protocol"
 ---
 
+> Generated file. Update `glossary/terms/internet-protocol.yaml` and regenerate artifacts instead of editing this page directly.
+
 # internet-protocol
 
 ## Definition

@@ -2,6 +2,8 @@
 title: "content-authenticity-initiative"
 ---
 
+> Generated file. Update `glossary/terms/content-authenticity-initiative.yaml` and regenerate artifacts instead of editing this page directly.
+
 # content-authenticity-initiative
 
 ## Definition

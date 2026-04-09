@@ -2,6 +2,8 @@
 title: "issuance-request"
 ---
 
+> Generated file. Update `glossary/terms/issuance-request.yaml` and regenerate artifacts instead of editing this page directly.
+
 # issuance-request
 
 ## Definition

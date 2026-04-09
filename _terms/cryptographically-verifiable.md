@@ -2,6 +2,8 @@
 title: "cryptographically-verifiable"
 ---
 
+> Generated file. Update `glossary/terms/cryptographically-verifiable.yaml` and regenerate artifacts instead of editing this page directly.
+
 # cryptographically-verifiable
 
 ## Definition

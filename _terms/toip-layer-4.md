@@ -2,6 +2,8 @@
 title: "toip-layer-4"
 ---
 
+> Generated file. Update `glossary/terms/toip-layer-4.yaml` and regenerate artifacts instead of editing this page directly.
+
 # toip-layer-4
 
 ## Definition

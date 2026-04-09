@@ -2,6 +2,8 @@
 title: "recommended"
 ---
 
+> Generated file. Update `glossary/terms/recommended.yaml` and regenerate artifacts instead of editing this page directly.
+
 # recommended
 
 ## Definition

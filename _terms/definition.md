@@ -2,6 +2,8 @@
 title: "definition"
 ---
 
+> Generated file. Update `glossary/terms/definition.yaml` and regenerate artifacts instead of editing this page directly.
+
 # definition
 
 ## Definition

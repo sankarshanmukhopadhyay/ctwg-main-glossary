@@ -2,6 +2,8 @@
 title: "reputation-system"
 ---
 
+> Generated file. Update `glossary/terms/reputation-system.yaml` and regenerate artifacts instead of editing this page directly.
+
 # reputation-system
 
 ## Definition

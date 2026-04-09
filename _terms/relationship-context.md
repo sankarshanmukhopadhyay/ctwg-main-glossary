@@ -2,6 +2,8 @@
 title: "relationship-context"
 ---
 
+> Generated file. Update `glossary/terms/relationship-context.yaml` and regenerate artifacts instead of editing this page directly.
+
 # relationship-context
 
 ## Definition

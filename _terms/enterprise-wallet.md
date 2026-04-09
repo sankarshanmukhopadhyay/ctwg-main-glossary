@@ -2,6 +2,8 @@
 title: "enterprise-wallet"
 ---
 
+> Generated file. Update `glossary/terms/enterprise-wallet.yaml` and regenerate artifacts instead of editing this page directly.
+
 # enterprise-wallet
 
 ## Definition

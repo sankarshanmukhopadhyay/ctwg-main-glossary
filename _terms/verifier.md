@@ -2,6 +2,8 @@
 title: "verifier"
 ---
 
+> Generated file. Update `glossary/terms/verifier.yaml` and regenerate artifacts instead of editing this page directly.
+
 # verifier
 
 ## Definition

@@ -2,6 +2,8 @@
 title: "collective-signature"
 ---
 
+> Generated file. Update `glossary/terms/collective-signature.yaml` and regenerate artifacts instead of editing this page directly.
+
 # collective-signature
 
 ## Definition

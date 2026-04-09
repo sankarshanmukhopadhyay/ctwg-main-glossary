@@ -2,6 +2,8 @@
 title: "user-datagram-protocol"
 ---
 
+> Generated file. Update `glossary/terms/user-datagram-protocol.yaml` and regenerate artifacts instead of editing this page directly.
+
 # user-datagram-protocol
 
 ## Definition

@@ -2,6 +2,8 @@
 title: "grc"
 ---
 
+> Generated file. Update `glossary/terms/grc.yaml` and regenerate artifacts instead of editing this page directly.
+
 # grc
 
 ## Definition

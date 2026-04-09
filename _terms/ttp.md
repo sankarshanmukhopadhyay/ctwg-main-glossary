@@ -2,6 +2,8 @@
 title: "ttp"
 ---
 
+> Generated file. Update `glossary/terms/ttp.yaml` and regenerate artifacts instead of editing this page directly.
+
 # ttp
 
 ## Definition

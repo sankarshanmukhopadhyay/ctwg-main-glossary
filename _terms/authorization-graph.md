@@ -2,6 +2,8 @@
 title: "authorization-graph"
 ---
 
+> Generated file. Update `glossary/terms/authorization-graph.yaml` and regenerate artifacts instead of editing this page directly.
+
 # authorization-graph
 
 ## Definition

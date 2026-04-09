@@ -2,6 +2,8 @@
 title: "owner"
 ---
 
+> Generated file. Update `glossary/terms/owner.yaml` and regenerate artifacts instead of editing this page directly.
+
 # owner
 
 ## Definition

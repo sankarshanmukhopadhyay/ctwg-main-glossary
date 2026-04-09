@@ -2,6 +2,8 @@
 title: "nist-csrc"
 ---
 
+> Generated file. Update `glossary/terms/nist-csrc.yaml` and regenerate artifacts instead of editing this page directly.
+
 # nist-csrc
 
 ## Definition

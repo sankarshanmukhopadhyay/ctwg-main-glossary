@@ -2,6 +2,8 @@
 title: "idp"
 ---
 
+> Generated file. Update `glossary/terms/idp.yaml` and regenerate artifacts instead of editing this page directly.
+
 # idp
 
 ## Definition

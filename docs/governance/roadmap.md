@@ -1,3 +1,9 @@
+---
+title: "Governance Improvement Roadmap"
+parent: Governance Documentation
+nav_order: 10
+---
+
 # Governance Improvement Roadmap
 
 ## Phase 1: Foundation

@@ -2,6 +2,8 @@
 title: "fourth-party"
 ---
 
+> Generated file. Update `glossary/terms/fourth-party.yaml` and regenerate artifacts instead of editing this page directly.
+
 # fourth-party
 
 ## Definition

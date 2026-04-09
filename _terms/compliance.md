@@ -2,6 +2,8 @@
 title: "compliance"
 ---
 
+> Generated file. Update `glossary/terms/compliance.yaml` and regenerate artifacts instead of editing this page directly.
+
 # compliance
 
 ## Definition

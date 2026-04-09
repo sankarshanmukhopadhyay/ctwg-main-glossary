@@ -2,6 +2,8 @@
 title: "tls"
 ---
 
+> Generated file. Update `glossary/terms/tls.yaml` and regenerate artifacts instead of editing this page directly.
+
 # tls
 
 ## Definition

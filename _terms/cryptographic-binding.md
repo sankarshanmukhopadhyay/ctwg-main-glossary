@@ -2,6 +2,8 @@
 title: "cryptographic-binding"
 ---
 
+> Generated file. Update `glossary/terms/cryptographic-binding.yaml` and regenerate artifacts instead of editing this page directly.
+
 # cryptographic-binding
 
 ## Definition

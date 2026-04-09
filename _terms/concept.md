@@ -2,6 +2,8 @@
 title: "concept"
 ---
 
+> Generated file. Update `glossary/terms/concept.yaml` and regenerate artifacts instead of editing this page directly.
+
 # concept
 
 ## Definition

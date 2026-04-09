@@ -2,6 +2,8 @@
 title: "rotation"
 ---
 
+> Generated file. Update `glossary/terms/rotation.yaml` and regenerate artifacts instead of editing this page directly.
+
 # rotation
 
 ## Definition

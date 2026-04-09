@@ -2,6 +2,8 @@
 title: "agent"
 ---
 
+> Generated file. Update `glossary/terms/agent.yaml` and regenerate artifacts instead of editing this page directly.
+
 # agent
 
 ## Definition

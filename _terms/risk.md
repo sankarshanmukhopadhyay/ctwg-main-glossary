@@ -2,6 +2,8 @@
 title: "risk"
 ---
 
+> Generated file. Update `glossary/terms/risk.yaml` and regenerate artifacts instead of editing this page directly.
+
 # risk
 
 ## Definition

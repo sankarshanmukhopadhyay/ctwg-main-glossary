@@ -2,6 +2,8 @@
 title: "trust-framework"
 ---
 
+> Generated file. Update `glossary/terms/trust-framework.yaml` and regenerate artifacts instead of editing this page directly.
+
 # trust-framework
 
 ## Definition

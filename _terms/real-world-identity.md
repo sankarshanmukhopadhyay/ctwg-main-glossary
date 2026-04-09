@@ -2,6 +2,8 @@
 title: "real-world-identity"
 ---
 
+> Generated file. Update `glossary/terms/real-world-identity.yaml` and regenerate artifacts instead of editing this page directly.
+
 # real-world-identity
 
 ## Definition

@@ -2,6 +2,8 @@
 title: "uri"
 ---
 
+> Generated file. Update `glossary/terms/uri.yaml` and regenerate artifacts instead of editing this page directly.
+
 # uri
 
 ## Definition

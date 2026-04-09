@@ -2,6 +2,8 @@
 title: "authoritative-source"
 ---
 
+> Generated file. Update `glossary/terms/authoritative-source.yaml` and regenerate artifacts instead of editing this page directly.
+
 # authoritative-source
 
 ## Definition

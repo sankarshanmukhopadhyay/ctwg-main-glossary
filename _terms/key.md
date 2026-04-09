@@ -2,6 +2,8 @@
 title: "key"
 ---
 
+> Generated file. Update `glossary/terms/key.yaml` and regenerate artifacts instead of editing this page directly.
+
 # key
 
 ## Definition

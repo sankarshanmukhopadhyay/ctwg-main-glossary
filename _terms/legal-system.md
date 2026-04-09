@@ -2,6 +2,8 @@
 title: "legal-system"
 ---
 
+> Generated file. Update `glossary/terms/legal-system.yaml` and regenerate artifacts instead of editing this page directly.
+
 # legal-system
 
 ## Definition

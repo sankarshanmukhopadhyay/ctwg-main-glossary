@@ -2,6 +2,8 @@
 title: "trust-factor"
 ---
 
+> Generated file. Update `glossary/terms/trust-factor.yaml` and regenerate artifacts instead of editing this page directly.
+
 # trust-factor
 
 ## Definition

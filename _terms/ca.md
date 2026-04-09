@@ -2,6 +2,8 @@
 title: "ca"
 ---
 
+> Generated file. Update `glossary/terms/ca.yaml` and regenerate artifacts instead of editing this page directly.
+
 # ca
 
 ## Definition

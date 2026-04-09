@@ -2,6 +2,8 @@
 title: "criterion"
 ---
 
+> Generated file. Update `glossary/terms/criterion.yaml` and regenerate artifacts instead of editing this page directly.
+
 # criterion
 
 ## Definition

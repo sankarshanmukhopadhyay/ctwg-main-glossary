@@ -2,6 +2,8 @@
 title: "key-management-system"
 ---
 
+> Generated file. Update `glossary/terms/key-management-system.yaml` and regenerate artifacts instead of editing this page directly.
+
 # key-management-system
 
 ## Definition

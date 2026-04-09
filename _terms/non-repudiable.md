@@ -2,6 +2,8 @@
 title: "non-repudiable"
 ---
 
+> Generated file. Update `glossary/terms/non-repudiable.yaml` and regenerate artifacts instead of editing this page directly.
+
 # non-repudiable
 
 ## Definition

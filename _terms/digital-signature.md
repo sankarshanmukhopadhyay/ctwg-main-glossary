@@ -2,6 +2,8 @@
 title: "digital-signature"
 ---
 
+> Generated file. Update `glossary/terms/digital-signature.yaml` and regenerate artifacts instead of editing this page directly.
+
 # digital-signature
 
 ## Definition

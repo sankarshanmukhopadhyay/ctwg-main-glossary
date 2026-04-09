@@ -2,6 +2,8 @@
 title: "encryption"
 ---
 
+> Generated file. Update `glossary/terms/encryption.yaml` and regenerate artifacts instead of editing this page directly.
+
 # encryption
 
 ## Definition

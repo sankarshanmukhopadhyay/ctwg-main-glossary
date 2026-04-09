@@ -2,6 +2,8 @@
 title: "liveness-detection"
 ---
 
+> Generated file. Update `glossary/terms/liveness-detection.yaml` and regenerate artifacts instead of editing this page directly.
+
 # liveness-detection
 
 ## Definition

@@ -2,6 +2,8 @@
 title: "presentation"
 ---
 
+> Generated file. Update `glossary/terms/presentation.yaml` and regenerate artifacts instead of editing this page directly.
+
 # presentation
 
 ## Definition

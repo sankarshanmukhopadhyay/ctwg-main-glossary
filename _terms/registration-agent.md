@@ -2,6 +2,8 @@
 title: "registration-agent"
 ---
 
+> Generated file. Update `glossary/terms/registration-agent.yaml` and regenerate artifacts instead of editing this page directly.
+
 # registration-agent
 
 ## Definition

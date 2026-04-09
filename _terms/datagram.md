@@ -2,6 +2,8 @@
 title: "datagram"
 ---
 
+> Generated file. Update `glossary/terms/datagram.yaml` and regenerate artifacts instead of editing this page directly.
+
 # datagram
 
 ## Definition

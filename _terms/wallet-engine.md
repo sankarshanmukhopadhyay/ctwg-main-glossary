@@ -2,6 +2,8 @@
 title: "wallet-engine"
 ---
 
+> Generated file. Update `glossary/terms/wallet-engine.yaml` and regenerate artifacts instead of editing this page directly.
+
 # wallet-engine
 
 ## Definition

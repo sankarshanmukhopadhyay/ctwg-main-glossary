@@ -2,6 +2,8 @@
 title: "metadata"
 ---
 
+> Generated file. Update `glossary/terms/metadata.yaml` and regenerate artifacts instead of editing this page directly.
+
 # metadata
 
 ## Definition

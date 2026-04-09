@@ -2,6 +2,8 @@
 title: "did"
 ---
 
+> Generated file. Update `glossary/terms/did.yaml` and regenerate artifacts instead of editing this page directly.
+
 # did
 
 ## Definition

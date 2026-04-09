@@ -2,6 +2,8 @@
 title: "reputation"
 ---
 
+> Generated file. Update `glossary/terms/reputation.yaml` and regenerate artifacts instead of editing this page directly.
+
 # reputation
 
 ## Definition

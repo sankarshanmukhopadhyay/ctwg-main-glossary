@@ -2,6 +2,8 @@
 title: "consent-management"
 ---
 
+> Generated file. Update `glossary/terms/consent-management.yaml` and regenerate artifacts instead of editing this page directly.
+
 # consent-management
 
 ## Definition

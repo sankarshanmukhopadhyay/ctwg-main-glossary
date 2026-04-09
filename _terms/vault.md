@@ -2,6 +2,8 @@
 title: "vault"
 ---
 
+> Generated file. Update `glossary/terms/vault.yaml` and regenerate artifacts instead of editing this page directly.
+
 # vault
 
 ## Definition

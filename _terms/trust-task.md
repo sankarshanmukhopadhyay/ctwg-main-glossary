@@ -2,6 +2,8 @@
 title: "trust-task"
 ---
 
+> Generated file. Update `glossary/terms/trust-task.yaml` and regenerate artifacts instead of editing this page directly.
+
 # trust-task
 
 ## Definition

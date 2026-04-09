@@ -2,6 +2,8 @@
 title: "multicast-address"
 ---
 
+> Generated file. Update `glossary/terms/multicast-address.yaml` and regenerate artifacts instead of editing this page directly.
+
 # multicast-address
 
 ## Definition

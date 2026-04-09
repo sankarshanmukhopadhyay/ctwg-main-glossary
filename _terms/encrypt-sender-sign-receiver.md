@@ -2,6 +2,8 @@
 title: "encrypt-sender-sign-receiver"
 ---
 
+> Generated file. Update `glossary/terms/encrypt-sender-sign-receiver.yaml` and regenerate artifacts instead of editing this page directly.
+
 # encrypt-sender-sign-receiver
 
 ## Definition

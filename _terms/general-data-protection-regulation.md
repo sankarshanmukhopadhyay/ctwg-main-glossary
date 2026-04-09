@@ -2,6 +2,8 @@
 title: "general-data-protection-regulation"
 ---
 
+> Generated file. Update `glossary/terms/general-data-protection-regulation.yaml` and regenerate artifacts instead of editing this page directly.
+
 # general-data-protection-regulation
 
 ## Definition

@@ -2,6 +2,8 @@
 title: "secure-enclave"
 ---
 
+> Generated file. Update `glossary/terms/secure-enclave.yaml` and regenerate artifacts instead of editing this page directly.
+
 # secure-enclave
 
 ## Definition

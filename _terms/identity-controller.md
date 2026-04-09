@@ -2,6 +2,8 @@
 title: "identity-controller"
 ---
 
+> Generated file. Update `glossary/terms/identity-controller.yaml` and regenerate artifacts instead of editing this page directly.
+
 # identity-controller
 
 ## Definition

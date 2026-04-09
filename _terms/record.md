@@ -2,6 +2,8 @@
 title: "record"
 ---
 
+> Generated file. Update `glossary/terms/record.yaml` and regenerate artifacts instead of editing this page directly.
+
 # record
 
 ## Definition

@@ -2,6 +2,8 @@
 title: "foundational-identity"
 ---
 
+> Generated file. Update `glossary/terms/foundational-identity.yaml` and regenerate artifacts instead of editing this page directly.
+
 # foundational-identity
 
 ## Definition

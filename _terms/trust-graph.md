@@ -2,6 +2,8 @@
 title: "trust-graph"
 ---
 
+> Generated file. Update `glossary/terms/trust-graph.yaml` and regenerate artifacts instead of editing this page directly.
+
 # trust-graph
 
 ## Definition

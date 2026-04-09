@@ -2,6 +2,8 @@
 title: "attribute"
 ---
 
+> Generated file. Update `glossary/terms/attribute.yaml` and regenerate artifacts instead of editing this page directly.
+
 # attribute
 
 ## Definition

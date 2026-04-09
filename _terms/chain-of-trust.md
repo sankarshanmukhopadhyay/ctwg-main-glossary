@@ -2,6 +2,8 @@
 title: "chain-of-trust"
 ---
 
+> Generated file. Update `glossary/terms/chain-of-trust.yaml` and regenerate artifacts instead of editing this page directly.
+
 # chain-of-trust
 
 ## Definition

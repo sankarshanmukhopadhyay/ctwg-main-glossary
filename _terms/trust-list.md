@@ -2,6 +2,8 @@
 title: "trust-list"
 ---
 
+> Generated file. Update `glossary/terms/trust-list.yaml` and regenerate artifacts instead of editing this page directly.
+
 # trust-list
 
 ## Definition

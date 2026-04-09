@@ -2,6 +2,8 @@
 title: "communication"
 ---
 
+> Generated file. Update `glossary/terms/communication.yaml` and regenerate artifacts instead of editing this page directly.
+
 # communication
 
 ## Definition

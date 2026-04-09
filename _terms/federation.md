@@ -2,6 +2,8 @@
 title: "federation"
 ---
 
+> Generated file. Update `glossary/terms/federation.yaml` and regenerate artifacts instead of editing this page directly.
+
 # federation
 
 ## Definition

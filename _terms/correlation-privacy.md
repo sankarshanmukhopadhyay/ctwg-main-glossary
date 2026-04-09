@@ -2,6 +2,8 @@
 title: "correlation-privacy"
 ---
 
+> Generated file. Update `glossary/terms/correlation-privacy.yaml` and regenerate artifacts instead of editing this page directly.
+
 # correlation-privacy
 
 ## Definition

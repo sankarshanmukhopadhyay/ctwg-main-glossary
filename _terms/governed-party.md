@@ -2,6 +2,8 @@
 title: "governed-party"
 ---
 
+> Generated file. Update `glossary/terms/governed-party.yaml` and regenerate artifacts instead of editing this page directly.
+
 # governed-party
 
 ## Definition

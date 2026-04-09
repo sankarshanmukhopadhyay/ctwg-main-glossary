@@ -2,6 +2,8 @@
 title: "controller"
 ---
 
+> Generated file. Update `glossary/terms/controller.yaml` and regenerate artifacts instead of editing this page directly.
+
 # controller
 
 ## Definition

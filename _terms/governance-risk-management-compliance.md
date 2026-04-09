@@ -2,6 +2,8 @@
 title: "governance-risk-management-compliance"
 ---
 
+> Generated file. Update `glossary/terms/governance-risk-management-compliance.yaml` and regenerate artifacts instead of editing this page directly.
+
 # governance-risk-management-compliance
 
 ## Definition

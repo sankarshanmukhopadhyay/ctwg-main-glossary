@@ -2,6 +2,8 @@
 title: "proof-of-presence"
 ---
 
+> Generated file. Update `glossary/terms/proof-of-presence.yaml` and regenerate artifacts instead of editing this page directly.
+
 # proof-of-presence
 
 ## Definition

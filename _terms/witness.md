@@ -2,6 +2,8 @@
 title: "witness"
 ---
 
+> Generated file. Update `glossary/terms/witness.yaml` and regenerate artifacts instead of editing this page directly.
+
 # witness
 
 ## Definition

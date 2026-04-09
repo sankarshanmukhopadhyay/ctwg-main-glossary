@@ -2,6 +2,8 @@
 title: "toip-identifier"
 ---
 
+> Generated file. Update `glossary/terms/toip-identifier.yaml` and regenerate artifacts instead of editing this page directly.
+
 # toip-identifier
 
 ## Definition

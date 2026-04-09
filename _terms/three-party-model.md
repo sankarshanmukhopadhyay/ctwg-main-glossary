@@ -2,6 +2,8 @@
 title: "three-party-model"
 ---
 
+> Generated file. Update `glossary/terms/three-party-model.yaml` and regenerate artifacts instead of editing this page directly.
+
 # three-party-model
 
 ## Definition

@@ -2,6 +2,8 @@
 title: "toip-system"
 ---
 
+> Generated file. Update `glossary/terms/toip-system.yaml` and regenerate artifacts instead of editing this page directly.
+
 # toip-system
 
 ## Definition

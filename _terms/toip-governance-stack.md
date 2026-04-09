@@ -2,6 +2,8 @@
 title: "toip-governance-stack"
 ---
 
+> Generated file. Update `glossary/terms/toip-governance-stack.yaml` and regenerate artifacts instead of editing this page directly.
+
 # toip-governance-stack
 
 ## Definition

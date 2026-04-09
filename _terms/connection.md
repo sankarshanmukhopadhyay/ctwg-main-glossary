@@ -2,6 +2,8 @@
 title: "connection"
 ---
 
+> Generated file. Update `glossary/terms/connection.yaml` and regenerate artifacts instead of editing this page directly.
+
 # connection
 
 ## Definition

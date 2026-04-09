@@ -2,6 +2,8 @@
 title: "toip-controller"
 ---
 
+> Generated file. Update `glossary/terms/toip-controller.yaml` and regenerate artifacts instead of editing this page directly.
+
 # toip-controller
 
 ## Definition

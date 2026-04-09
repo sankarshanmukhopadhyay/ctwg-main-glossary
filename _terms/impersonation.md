@@ -2,6 +2,8 @@
 title: "impersonation"
 ---
 
+> Generated file. Update `glossary/terms/impersonation.yaml` and regenerate artifacts instead of editing this page directly.
+
 # impersonation
 
 ## Definition

@@ -2,6 +2,8 @@
 title: "lid"
 ---
 
+> Generated file. Update `glossary/terms/lid.yaml` and regenerate artifacts instead of editing this page directly.
+
 # lid
 
 ## Definition

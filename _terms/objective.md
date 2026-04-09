@@ -2,6 +2,8 @@
 title: "objective"
 ---
 
+> Generated file. Update `glossary/terms/objective.yaml` and regenerate artifacts instead of editing this page directly.
+
 # objective
 
 ## Definition

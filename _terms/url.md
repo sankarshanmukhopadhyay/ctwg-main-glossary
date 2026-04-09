@@ -2,6 +2,8 @@
 title: "url"
 ---
 
+> Generated file. Update `glossary/terms/url.yaml` and regenerate artifacts instead of editing this page directly.
+
 # url
 
 ## Definition

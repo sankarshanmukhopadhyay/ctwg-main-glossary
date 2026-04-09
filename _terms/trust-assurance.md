@@ -2,6 +2,8 @@
 title: "trust-assurance"
 ---
 
+> Generated file. Update `glossary/terms/trust-assurance.yaml` and regenerate artifacts instead of editing this page directly.
+
 # trust-assurance
 
 ## Definition

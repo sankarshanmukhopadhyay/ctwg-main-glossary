@@ -2,6 +2,8 @@
 title: "toip-endpoint"
 ---
 
+> Generated file. Update `glossary/terms/toip-endpoint.yaml` and regenerate artifacts instead of editing this page directly.
+
 # toip-endpoint
 
 ## Definition

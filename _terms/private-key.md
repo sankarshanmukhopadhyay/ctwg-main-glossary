@@ -2,6 +2,8 @@
 title: "private-key"
 ---
 
+> Generated file. Update `glossary/terms/private-key.yaml` and regenerate artifacts instead of editing this page directly.
+
 # private-key
 
 ## Definition

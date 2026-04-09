@@ -2,6 +2,8 @@
 title: "w3c-verifiable-credentials-data-model-specification"
 ---
 
+> Generated file. Update `glossary/terms/w3c-verifiable-credentials-data-model-specification.yaml` and regenerate artifacts instead of editing this page directly.
+
 # w3c-verifiable-credentials-data-model-specification
 
 ## Definition

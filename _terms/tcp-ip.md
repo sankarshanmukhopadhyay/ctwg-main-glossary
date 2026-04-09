@@ -2,6 +2,8 @@
 title: "tcp-ip"
 ---
 
+> Generated file. Update `glossary/terms/tcp-ip.yaml` and regenerate artifacts instead of editing this page directly.
+
 # tcp-ip
 
 ## Definition

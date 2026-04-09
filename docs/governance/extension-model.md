@@ -1,3 +1,9 @@
+---
+title: "Extension Model"
+parent: Governance Documentation
+nav_order: 10
+---
+
 # Governance-Aware Glossary Extension Model
 
 ## Purpose

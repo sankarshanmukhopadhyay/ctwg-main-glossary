@@ -2,6 +2,8 @@
 title: "relationship"
 ---
 
+> Generated file. Update `glossary/terms/relationship.yaml` and regenerate artifacts instead of editing this page directly.
+
 # relationship
 
 ## Definition

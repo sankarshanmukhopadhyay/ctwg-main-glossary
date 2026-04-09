@@ -2,6 +2,8 @@
 title: "c2pa"
 ---
 
+> Generated file. Update `glossary/terms/c2pa.yaml` and regenerate artifacts instead of editing this page directly.
+
 # c2pa
 
 ## Definition

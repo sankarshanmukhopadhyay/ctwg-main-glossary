@@ -2,6 +2,8 @@
 title: "reputation-graph"
 ---
 
+> Generated file. Update `glossary/terms/reputation-graph.yaml` and regenerate artifacts instead of editing this page directly.
+
 # reputation-graph
 
 ## Definition

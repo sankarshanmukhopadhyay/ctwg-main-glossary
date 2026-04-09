@@ -2,6 +2,8 @@
 title: "relying-party"
 ---
 
+> Generated file. Update `glossary/terms/relying-party.yaml` and regenerate artifacts instead of editing this page directly.
+
 # relying-party
 
 ## Definition

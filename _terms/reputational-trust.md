@@ -2,6 +2,8 @@
 title: "reputational-trust"
 ---
 
+> Generated file. Update `glossary/terms/reputational-trust.yaml` and regenerate artifacts instead of editing this page directly.
+
 # reputational-trust
 
 ## Definition

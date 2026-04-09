@@ -2,6 +2,8 @@
 title: "technical-requirement"
 ---
 
+> Generated file. Update `glossary/terms/technical-requirement.yaml` and regenerate artifacts instead of editing this page directly.
+
 # technical-requirement
 
 ## Definition

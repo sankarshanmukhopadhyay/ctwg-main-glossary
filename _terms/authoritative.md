@@ -2,6 +2,8 @@
 title: "authoritative"
 ---
 
+> Generated file. Update `glossary/terms/authoritative.yaml` and regenerate artifacts instead of editing this page directly.
+
 # authoritative
 
 ## Definition

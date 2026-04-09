@@ -2,6 +2,8 @@
 title: "self-asserted"
 ---
 
+> Generated file. Update `glossary/terms/self-asserted.yaml` and regenerate artifacts instead of editing this page directly.
+
 # self-asserted
 
 ## Definition

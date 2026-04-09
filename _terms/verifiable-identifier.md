@@ -2,6 +2,8 @@
 title: "verifiable-identifier"
 ---
 
+> Generated file. Update `glossary/terms/verifiable-identifier.yaml` and regenerate artifacts instead of editing this page directly.
+
 # verifiable-identifier
 
 ## Definition

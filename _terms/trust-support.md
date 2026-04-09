@@ -2,6 +2,8 @@
 title: "trust-support"
 ---
 
+> Generated file. Update `glossary/terms/trust-support.yaml` and regenerate artifacts instead of editing this page directly.
+
 # trust-support
 
 ## Definition

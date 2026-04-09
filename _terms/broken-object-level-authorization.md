@@ -2,6 +2,8 @@
 title: "broken-object-level-authorization"
 ---
 
+> Generated file. Update `glossary/terms/broken-object-level-authorization.yaml` and regenerate artifacts instead of editing this page directly.
+
 # broken-object-level-authorization
 
 ## Definition

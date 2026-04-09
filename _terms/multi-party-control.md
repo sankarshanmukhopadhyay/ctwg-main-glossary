@@ -2,6 +2,8 @@
 title: "multi-party-control"
 ---
 
+> Generated file. Update `glossary/terms/multi-party-control.yaml` and regenerate artifacts instead of editing this page directly.
+
 # multi-party-control
 
 ## Definition

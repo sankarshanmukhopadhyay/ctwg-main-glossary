@@ -2,6 +2,8 @@
 title: "persistent-identifier"
 ---
 
+> Generated file. Update `glossary/terms/persistent-identifier.yaml` and regenerate artifacts instead of editing this page directly.
+
 # persistent-identifier
 
 ## Definition

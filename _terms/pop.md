@@ -2,6 +2,8 @@
 title: "pop"
 ---
 
+> Generated file. Update `glossary/terms/pop.yaml` and regenerate artifacts instead of editing this page directly.
+
 # pop
 
 ## Definition

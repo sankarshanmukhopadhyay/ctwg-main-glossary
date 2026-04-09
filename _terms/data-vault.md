@@ -2,6 +2,8 @@
 title: "data-vault"
 ---
 
+> Generated file. Update `glossary/terms/data-vault.yaml` and regenerate artifacts instead of editing this page directly.
+
 # data-vault
 
 ## Definition

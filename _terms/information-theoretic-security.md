@@ -2,6 +2,8 @@
 title: "information-theoretic-security"
 ---
 
+> Generated file. Update `glossary/terms/information-theoretic-security.yaml` and regenerate artifacts instead of editing this page directly.
+
 # information-theoretic-security
 
 ## Definition

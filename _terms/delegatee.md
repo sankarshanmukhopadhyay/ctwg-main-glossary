@@ -2,6 +2,8 @@
 title: "delegatee"
 ---
 
+> Generated file. Update `glossary/terms/delegatee.yaml` and regenerate artifacts instead of editing this page directly.
+
 # delegatee
 
 ## Definition

@@ -2,6 +2,8 @@
 title: "deep-link"
 ---
 
+> Generated file. Update `glossary/terms/deep-link.yaml` and regenerate artifacts instead of editing this page directly.
+
 # deep-link
 
 ## Definition

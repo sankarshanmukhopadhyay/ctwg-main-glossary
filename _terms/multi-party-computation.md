@@ -2,6 +2,8 @@
 title: "multi-party-computation"
 ---
 
+> Generated file. Update `glossary/terms/multi-party-computation.yaml` and regenerate artifacts instead of editing this page directly.
+
 # multi-party-computation
 
 ## Definition

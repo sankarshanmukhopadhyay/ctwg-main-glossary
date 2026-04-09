@@ -2,6 +2,8 @@
 title: "digital-agent"
 ---
 
+> Generated file. Update `glossary/terms/digital-agent.yaml` and regenerate artifacts instead of editing this page directly.
+
 # digital-agent
 
 ## Definition

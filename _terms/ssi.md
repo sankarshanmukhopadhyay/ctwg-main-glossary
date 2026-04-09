@@ -2,6 +2,8 @@
 title: "ssi"
 ---
 
+> Generated file. Update `glossary/terms/ssi.yaml` and regenerate artifacts instead of editing this page directly.
+
 # ssi
 
 ## Definition

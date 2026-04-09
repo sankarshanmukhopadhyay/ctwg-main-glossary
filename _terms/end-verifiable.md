@@ -2,6 +2,8 @@
 title: "end-verifiable"
 ---
 
+> Generated file. Update `glossary/terms/end-verifiable.yaml` and regenerate artifacts instead of editing this page directly.
+
 # end-verifiable
 
 ## Definition

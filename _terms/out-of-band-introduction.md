@@ -2,6 +2,8 @@
 title: "out-of-band-introduction"
 ---
 
+> Generated file. Update `glossary/terms/out-of-band-introduction.yaml` and regenerate artifacts instead of editing this page directly.
+
 # out-of-band-introduction
 
 ## Definition

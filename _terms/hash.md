@@ -2,6 +2,8 @@
 title: "hash"
 ---
 
+> Generated file. Update `glossary/terms/hash.yaml` and regenerate artifacts instead of editing this page directly.
+
 # hash
 
 ## Definition

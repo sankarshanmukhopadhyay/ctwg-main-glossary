@@ -2,6 +2,8 @@
 title: "registrant"
 ---
 
+> Generated file. Update `glossary/terms/registrant.yaml` and regenerate artifacts instead of editing this page directly.
+
 # registrant
 
 ## Definition

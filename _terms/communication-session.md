@@ -2,6 +2,8 @@
 title: "communication-session"
 ---
 
+> Generated file. Update `glossary/terms/communication-session.yaml` and regenerate artifacts instead of editing this page directly.
+
 # communication-session
 
 ## Definition

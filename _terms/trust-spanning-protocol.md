@@ -2,6 +2,8 @@
 title: "trust-spanning-protocol"
 ---
 
+> Generated file. Update `glossary/terms/trust-spanning-protocol.yaml` and regenerate artifacts instead of editing this page directly.
+
 # trust-spanning-protocol
 
 ## Definition

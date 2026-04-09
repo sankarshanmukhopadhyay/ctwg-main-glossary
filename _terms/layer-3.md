@@ -2,6 +2,8 @@
 title: "layer-3"
 ---
 
+> Generated file. Update `glossary/terms/layer-3.yaml` and regenerate artifacts instead of editing this page directly.
+
 # layer-3
 
 ## Definition

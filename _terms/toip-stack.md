@@ -2,6 +2,8 @@
 title: "toip-stack"
 ---
 
+> Generated file. Update `glossary/terms/toip-stack.yaml` and regenerate artifacts instead of editing this page directly.
+
 # toip-stack
 
 ## Definition

@@ -2,6 +2,8 @@
 title: "kms"
 ---
 
+> Generated file. Update `glossary/terms/kms.yaml` and regenerate artifacts instead of editing this page directly.
+
 # kms
 
 ## Definition

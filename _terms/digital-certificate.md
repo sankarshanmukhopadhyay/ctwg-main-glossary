@@ -2,6 +2,8 @@
 title: "digital-certificate"
 ---
 
+> Generated file. Update `glossary/terms/digital-certificate.yaml` and regenerate artifacts instead of editing this page directly.
+
 # digital-certificate
 
 ## Definition

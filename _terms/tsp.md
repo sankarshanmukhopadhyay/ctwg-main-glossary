@@ -2,6 +2,8 @@
 title: "tsp"
 ---
 
+> Generated file. Update `glossary/terms/tsp.yaml` and regenerate artifacts instead of editing this page directly.
+
 # tsp
 
 ## Definition

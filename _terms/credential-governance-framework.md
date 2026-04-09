@@ -2,6 +2,8 @@
 title: "credential-governance-framework"
 ---
 
+> Generated file. Update `glossary/terms/credential-governance-framework.yaml` and regenerate artifacts instead of editing this page directly.
+
 # credential-governance-framework
 
 ## Definition

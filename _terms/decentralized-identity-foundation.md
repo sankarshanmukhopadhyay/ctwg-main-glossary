@@ -2,6 +2,8 @@
 title: "decentralized-identity-foundation"
 ---
 
+> Generated file. Update `glossary/terms/decentralized-identity-foundation.yaml` and regenerate artifacts instead of editing this page directly.
+
 # decentralized-identity-foundation
 
 ## Definition

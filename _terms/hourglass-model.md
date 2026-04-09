@@ -2,6 +2,8 @@
 title: "hourglass-model"
 ---
 
+> Generated file. Update `glossary/terms/hourglass-model.yaml` and regenerate artifacts instead of editing this page directly.
+
 # hourglass-model
 
 ## Definition

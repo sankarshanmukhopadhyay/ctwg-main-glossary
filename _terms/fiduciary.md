@@ -2,6 +2,8 @@
 title: "fiduciary"
 ---
 
+> Generated file. Update `glossary/terms/fiduciary.yaml` and regenerate artifacts instead of editing this page directly.
+
 # fiduciary
 
 ## Definition

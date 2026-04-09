@@ -2,6 +2,8 @@
 title: "human-readable"
 ---
 
+> Generated file. Update `glossary/terms/human-readable.yaml` and regenerate artifacts instead of editing this page directly.
+
 # human-readable
 
 ## Definition

@@ -2,6 +2,8 @@
 title: "toip-trust-spanning-protocol"
 ---
 
+> Generated file. Update `glossary/terms/toip-trust-spanning-protocol.yaml` and regenerate artifacts instead of editing this page directly.
+
 # toip-trust-spanning-protocol
 
 ## Definition

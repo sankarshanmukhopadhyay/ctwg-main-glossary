@@ -2,6 +2,8 @@
 title: "did-url"
 ---
 
+> Generated file. Update `glossary/terms/did-url.yaml` and regenerate artifacts instead of editing this page directly.
+
 # did-url
 
 ## Definition

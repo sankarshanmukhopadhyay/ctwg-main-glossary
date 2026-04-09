@@ -2,6 +2,8 @@
 title: "legitimized-human-meaningful-identifier"
 ---
 
+> Generated file. Update `glossary/terms/legitimized-human-meaningful-identifier.yaml` and regenerate artifacts instead of editing this page directly.
+
 # legitimized-human-meaningful-identifier
 
 ## Definition

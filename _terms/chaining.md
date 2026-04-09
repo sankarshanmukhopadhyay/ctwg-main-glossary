@@ -2,6 +2,8 @@
 title: "chaining"
 ---
 
+> Generated file. Update `glossary/terms/chaining.yaml` and regenerate artifacts instead of editing this page directly.
+
 # chaining
 
 ## Definition

@@ -2,6 +2,8 @@
 title: "pii"
 ---
 
+> Generated file. Update `glossary/terms/pii.yaml` and regenerate artifacts instead of editing this page directly.
+
 # pii
 
 ## Definition

@@ -2,6 +2,8 @@
 title: "key-event-log"
 ---
 
+> Generated file. Update `glossary/terms/key-event-log.yaml` and regenerate artifacts instead of editing this page directly.
+
 # key-event-log
 
 ## Definition

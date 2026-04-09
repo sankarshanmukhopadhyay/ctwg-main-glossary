@@ -2,6 +2,8 @@
 title: "proof-of-control"
 ---
 
+> Generated file. Update `glossary/terms/proof-of-control.yaml` and regenerate artifacts instead of editing this page directly.
+
 # proof-of-control
 
 ## Definition

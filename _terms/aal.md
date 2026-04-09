@@ -2,6 +2,8 @@
 title: "aal"
 ---
 
+> Generated file. Update `glossary/terms/aal.yaml` and regenerate artifacts instead of editing this page directly.
+
 # aal
 
 ## Definition

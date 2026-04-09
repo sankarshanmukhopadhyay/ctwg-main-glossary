@@ -2,6 +2,8 @@
 title: "network-address"
 ---
 
+> Generated file. Update `glossary/terms/network-address.yaml` and regenerate artifacts instead of editing this page directly.
+
 # network-address
 
 ## Definition

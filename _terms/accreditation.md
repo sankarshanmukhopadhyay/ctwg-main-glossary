@@ -2,6 +2,8 @@
 title: "accreditation"
 ---
 
+> Generated file. Update `glossary/terms/accreditation.yaml` and regenerate artifacts instead of editing this page directly.
+
 # accreditation
 
 ## Definition

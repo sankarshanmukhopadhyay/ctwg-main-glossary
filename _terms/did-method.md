@@ -2,6 +2,8 @@
 title: "did-method"
 ---
 
+> Generated file. Update `glossary/terms/did-method.yaml` and regenerate artifacts instead of editing this page directly.
+
 # did-method
 
 ## Definition

@@ -2,6 +2,8 @@
 title: "trust-domain"
 ---
 
+> Generated file. Update `glossary/terms/trust-domain.yaml` and regenerate artifacts instead of editing this page directly.
+
 # trust-domain
 
 ## Definition

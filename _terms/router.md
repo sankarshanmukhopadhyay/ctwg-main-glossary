@@ -2,6 +2,8 @@
 title: "router"
 ---
 
+> Generated file. Update `glossary/terms/router.yaml` and regenerate artifacts instead of editing this page directly.
+
 # router
 
 ## Definition

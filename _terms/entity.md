@@ -2,6 +2,8 @@
 title: "entity"
 ---
 
+> Generated file. Update `glossary/terms/entity.yaml` and regenerate artifacts instead of editing this page directly.
+
 # entity
 
 ## Definition

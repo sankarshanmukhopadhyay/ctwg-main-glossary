@@ -2,6 +2,8 @@
 title: "openwallet-foundation"
 ---
 
+> Generated file. Update `glossary/terms/openwallet-foundation.yaml` and regenerate artifacts instead of editing this page directly.
+
 # openwallet-foundation
 
 ## Definition

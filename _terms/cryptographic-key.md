@@ -2,6 +2,8 @@
 title: "cryptographic-key"
 ---
 
+> Generated file. Update `glossary/terms/cryptographic-key.yaml` and regenerate artifacts instead of editing this page directly.
+
 # cryptographic-key
 
 ## Definition

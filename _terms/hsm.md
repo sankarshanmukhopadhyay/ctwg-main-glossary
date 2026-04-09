@@ -2,6 +2,8 @@
 title: "hsm"
 ---
 
+> Generated file. Update `glossary/terms/hsm.yaml` and regenerate artifacts instead of editing this page directly.
+
 # hsm
 
 ## Definition

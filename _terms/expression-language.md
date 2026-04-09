@@ -2,6 +2,8 @@
 title: "expression-language"
 ---
 
+> Generated file. Update `glossary/terms/expression-language.yaml` and regenerate artifacts instead of editing this page directly.
+
 # expression-language
 
 ## Definition

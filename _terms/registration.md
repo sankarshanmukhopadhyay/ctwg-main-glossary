@@ -2,6 +2,8 @@
 title: "registration"
 ---
 
+> Generated file. Update `glossary/terms/registration.yaml` and regenerate artifacts instead of editing this page directly.
+
 # registration
 
 ## Definition

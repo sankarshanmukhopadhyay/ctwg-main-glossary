@@ -2,6 +2,8 @@
 title: "hash-function"
 ---
 
+> Generated file. Update `glossary/terms/hash-function.yaml` and regenerate artifacts instead of editing this page directly.
+
 # hash-function
 
 ## Definition

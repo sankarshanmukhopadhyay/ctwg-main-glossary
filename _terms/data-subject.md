@@ -2,6 +2,8 @@
 title: "data-subject"
 ---
 
+> Generated file. Update `glossary/terms/data-subject.yaml` and regenerate artifacts instead of editing this page directly.
+
 # data-subject
 
 ## Definition

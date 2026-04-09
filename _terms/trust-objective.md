@@ -2,6 +2,8 @@
 title: "trust-objective"
 ---
 
+> Generated file. Update `glossary/terms/trust-objective.yaml` and regenerate artifacts instead of editing this page directly.
+
 # trust-objective
 
 ## Definition

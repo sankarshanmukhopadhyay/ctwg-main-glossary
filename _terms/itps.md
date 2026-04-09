@@ -2,6 +2,8 @@
 title: "itps"
 ---
 
+> Generated file. Update `glossary/terms/itps.yaml` and regenerate artifacts instead of editing this page directly.
+
 # itps
 
 ## Definition

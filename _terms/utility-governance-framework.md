@@ -2,6 +2,8 @@
 title: "utility-governance-framework"
 ---
 
+> Generated file. Update `glossary/terms/utility-governance-framework.yaml` and regenerate artifacts instead of editing this page directly.
+
 # utility-governance-framework
 
 ## Definition

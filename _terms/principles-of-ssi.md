@@ -2,6 +2,8 @@
 title: "principles-of-ssi"
 ---
 
+> Generated file. Update `glossary/terms/principles-of-ssi.yaml` and regenerate artifacts instead of editing this page directly.
+
 # principles-of-ssi
 
 ## Definition
