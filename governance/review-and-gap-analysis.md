@@ -1,24 +1,23 @@
 ---
 title: "Review and Gap Analysis"
 parent: Governance Documentation
-nav_order: 10
+nav_order: 45
 ---
 
 # Main Glossary Review: Gaps and Improvement Areas
 
-This review captures the main repository and content improvements needed to strengthen the glossary as an implementation asset, not only as a terminology reference.
+This review tracks remaining improvement areas after the v1.1.0 assurance-ready infrastructure increment.
 
-| Category | Gap / Issue | Why It Matters | Proposed Improvement |
-|---|---|---|---|
-| Authority semantics | Core terms often describe actors but not the scope of authority they exercise | Implementers need to know who is permitted to decide, issue, revoke, or enforce | Add governance-aware metadata fields such as `authority_scope` and `accountable_actor` |
-| Delegation semantics | Delegation is defined, but constraints, transfer boundaries, and revocation handling are not made explicit enough | Delegated authority without boundaries creates ambiguity and governance risk | Add explicit language around scope, duration, constraints, and revocation |
-| Lifecycle semantics | Revocation, suspension, expiry, and replacement are unevenly represented | Glossary terms increasingly map to runtime systems where lifecycle state matters | Add lifecycle guidance and example machine-readable fields |
-| Runtime enforcement | Terms often describe concepts statically rather than where enforcement happens | Governance becomes operational at execution time | Clarify control points, enforcement actors, and verification checkpoints |
-| Evidence and auditability | Limited linkage from terms to audit evidence or proof artifacts | High-assurance deployments need evidence, not only shared vocabulary | Add example metadata for evidence artifacts and assurance-relevant signals |
-| Trust registry specificity | Trust registries are defined at a high level but not strongly enough as governance decision-plane components | Trust registries frequently determine who is recognized, admitted, or relied upon | Expand trust-registry language to cover policy, criteria, publication, and lifecycle impact |
-| Issuer and verifier roles | Roles are defined, but operational obligations and policy application could be sharper | These roles sit directly in the execution path of many trust decisions | Add clearer wording about policy application, acceptance criteria, and status checking |
-| Policy model | Policy is present but does not fully foreground enforcement and machine readability | Modern trust systems increasingly depend on executable policy | Strengthen the definition so it supports both human and machine execution contexts |
-| Developer guidance | Repository landing documentation is too thin for new contributors | Friction slows adoption and contribution quality | Expand README and add maintainer-facing guidance |
-| Machine-readable pathway | The repo is human-readable first, but the extension path for machine-readable overlays is unclear | Machine-verifiable governance needs stable artifacts | Introduce schema and examples for governance-aware term profiles |
-| Quality controls | There is no lightweight rubric for improving term quality consistently | Term quality can drift over time | Add a term-quality rubric and roadmap |
-| Release discipline | Improvement work is not yet grouped into a structured incremental plan | Maintainers need a practical rollout path | Add a roadmap with phased adoption |
+| Priority | Area | Gap / Issue | Why It Matters | Proposed Improvement |
+|---|---|---|---|---|
+| P0 | Source attribution | Many term artifacts still have empty `sources`. | Assurance consumers need provenance, especially for high-impact governance terms. | Prioritize source references for `core-operational` and revocation-sensitive terms. |
+| P0 | Cross-reference quality | Many terms have empty `see_also`. | Readers and machines both need adjacency signals to interpret terms correctly. | Add cross-references for terms that participate in authority, delegation, reliance, or revocation semantics. |
+| P0 | Revocation evidence | Some revocation-sensitive terms require stronger status, audit, verification, or registry evidence. | Revocation without inspectable evidence weakens execution-time governance. | Use the quality report to prioritize terms flagged with `weak_revocation_evidence`. |
+| P1 | Assurance-level calibration | Some decision-plane terms need review to ensure `AL1+` and `AL2+` are consistently applied. | Assurance hints influence downstream prioritization. | Review decision-plane terms by authority scope and evidence artifact. |
+| P1 | Definition quality | Some definitions may be circular or too close to the term label. | Circular definitions reduce adoption and weaken machine-assisted documentation. | Rewrite flagged terms to explain operational meaning and boundary. |
+| P1 | JSON-LD semantics | JSON-LD publication currently uses a pragmatic schema.org mapping. | Advanced consumers may need a richer context. | Add a dedicated context after downstream usage patterns stabilize. |
+| P2 | External compatibility | Consumers need clearer versioning expectations for generated artifacts. | Tooling integrations need stable contracts. | Add artifact compatibility and versioning policy. |
+
+## Operational review source
+
+Use `generated/json/governance-quality-report.json` as the machine-readable backlog and `governance/quality-report.md` as the maintainer-facing review surface.

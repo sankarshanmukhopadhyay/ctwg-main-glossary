@@ -10,7 +10,7 @@ title: "non-transferable-identifier"
 Controlling keys over this identifier cannot be rotated and therefore this identifier is non-transferable to other control.
 
 ## Aliases
-non-transferable-identifier, non-transferable-identifier
+non-transferable-identifier
 
 ## Governance Profile
 - **Authority scope**: terminology_definition

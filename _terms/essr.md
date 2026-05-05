@@ -10,7 +10,7 @@ title: "essr"
 Encrypt‐Sender‐Sign‐Receiver
 
 ## Aliases
-ESSR, ESSR
+ESSR
 
 ## Governance Profile
 - **Authority scope**: terminology_definition

@@ -236,6 +236,117 @@ def render_core_operational_terms(inventory):
     return "\n".join(lines)
 
 
+
+def build_artifact_manifest(term_count):
+    artifacts = [
+        {
+            "path": "generated/json/governance-executable-glossary.json",
+            "type": "json_bundle",
+            "origin": "generated",
+            "source_inputs": ["glossary/terms/*.yaml"],
+            "generator": "tools/build_governance_glossary.py",
+            "consumer_use_case": "Complete machine-readable glossary corpus for indexing, policy mapping, and downstream assurance tooling.",
+            "stability": "stable_generated"
+        },
+        {
+            "path": "generated/json/governance-executable-glossary.catalog.json",
+            "type": "json_catalog",
+            "origin": "generated",
+            "source_inputs": ["glossary/terms/*.yaml"],
+            "generator": "tools/build_governance_glossary.py",
+            "consumer_use_case": "Lightweight term discovery, version comparison, and adoption dashboards.",
+            "stability": "stable_generated"
+        },
+        {
+            "path": "generated/json/governance-executable-glossary.jsonld",
+            "type": "jsonld_bundle",
+            "origin": "generated",
+            "source_inputs": ["glossary/terms/*.yaml"],
+            "generator": "tools/build_governance_glossary.py",
+            "consumer_use_case": "Linked-data publication of defined terms and governance metadata.",
+            "stability": "experimental_semantic_mapping"
+        },
+        {
+            "path": "generated/json/governance-inventory.json",
+            "type": "json_inventory",
+            "origin": "generated",
+            "source_inputs": ["glossary/terms/*.yaml"],
+            "generator": "tools/build_governance_glossary.py",
+            "consumer_use_case": "Authority, delegation, revocation, lifecycle, evidence, and control-plane coverage analysis.",
+            "stability": "stable_generated"
+        },
+        {
+            "path": "generated/json/governance-quality-report.json",
+            "type": "json_quality_report",
+            "origin": "generated",
+            "source_inputs": ["glossary/terms/*.yaml"],
+            "generator": "tools/build_quality_report.py",
+            "consumer_use_case": "Assurance-readiness findings for source attribution, evidence quality, revocation inspectability, and term cross-reference hygiene.",
+            "stability": "stable_generated"
+        },
+        {
+            "path": "generated/markdown/governance-executable-glossary.md",
+            "type": "markdown_bundle",
+            "origin": "generated",
+            "source_inputs": ["glossary/terms/*.yaml"],
+            "generator": "tools/build_governance_glossary.py",
+            "consumer_use_case": "Human-readable full corpus export.",
+            "stability": "stable_generated"
+        },
+        {
+            "path": "generated/markdown/governance-inventory.md",
+            "type": "markdown_inventory",
+            "origin": "generated",
+            "source_inputs": ["glossary/terms/*.yaml"],
+            "generator": "tools/build_governance_glossary.py",
+            "consumer_use_case": "Maintainer-readable governance inventory review.",
+            "stability": "stable_generated"
+        },
+        {
+            "path": "generated/markdown/governance-quality-report.md",
+            "type": "markdown_quality_report",
+            "origin": "generated",
+            "source_inputs": ["glossary/terms/*.yaml"],
+            "generator": "tools/build_quality_report.py",
+            "consumer_use_case": "Maintainer-readable quality and assurance-readiness review.",
+            "stability": "stable_generated"
+        },
+        {
+            "path": "_terms/*.md",
+            "type": "jekyll_collection_pages",
+            "origin": "generated",
+            "source_inputs": ["glossary/terms/*.yaml"],
+            "generator": "tools/build_jekyll_site.py",
+            "consumer_use_case": "Published GitHub Pages term pages.",
+            "stability": "stable_generated"
+        }
+    ]
+    return {
+        "manifest_type": "governance_glossary_artifact_manifest",
+        "version": "1.1.0",
+        "term_count": term_count,
+        "artifacts": artifacts,
+    }
+
+
+def render_artifact_manifest_markdown(manifest):
+    lines = [
+        "# Artifact Manifest",
+        "",
+        "> Generated file. Update `tools/build_governance_glossary.py` and regenerate artifacts instead of editing this manifest directly.",
+        "",
+        f"Terms covered: **{manifest['term_count']}**",
+        "",
+        "| Artifact | Type | Origin | Generator | Consumer use case | Stability |",
+        "|---|---|---|---|---|---|",
+    ]
+    for artifact in manifest["artifacts"]:
+        lines.append(
+            f"| `{artifact['path']}` | `{artifact['type']}` | `{artifact['origin']}` | `{artifact['generator']}` | {artifact['consumer_use_case']} | `{artifact['stability']}` |"
+        )
+    lines.append("")
+    return "\n".join(lines)
+
 def main():
     terms = load_terms()
     JSON_OUT.mkdir(parents=True, exist_ok=True)
@@ -261,6 +372,10 @@ def main():
     (MD_OUT / "governance-inventory.md").write_text(render_inventory_markdown(inventory), encoding="utf-8")
     (OVERLAY_GOV / "inventory.json").write_text(json.dumps(inventory, indent=2), encoding="utf-8")
     (OVERLAY_GOV / "core-operational-terms.md").write_text(render_core_operational_terms(inventory), encoding="utf-8")
+
+    manifest = build_artifact_manifest(len(terms))
+    (JSON_OUT / "artifact-manifest.json").write_text(json.dumps(manifest, indent=2), encoding="utf-8")
+    (MD_OUT / "artifact-manifest.md").write_text(render_artifact_manifest_markdown(manifest), encoding="utf-8")
 
     summary = {
         "term_count": len(terms),

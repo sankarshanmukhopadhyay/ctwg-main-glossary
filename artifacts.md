@@ -5,16 +5,30 @@ nav_order: 4
 
 # Machine-readable Artifacts
 
-The following generated artifacts are maintained in this repository and can be consumed directly by external tooling.
+The repository publishes generated artifacts for downstream systems that need glossary terms as structured governance inputs rather than static prose. These artifacts are regenerated from `glossary/terms/` and must remain synchronized with the source layer.
 
 ## Core bundles
 
 - `generated/json/governance-executable-glossary.json`
 - `generated/json/governance-executable-glossary.jsonld`
 - `generated/json/governance-executable-glossary.catalog.json`
-- `generated/json/governance-inventory.json`
 - `generated/markdown/governance-executable-glossary.md`
+
+## Inventory and assurance-readiness artifacts
+
+- `generated/json/governance-inventory.json`
 - `generated/markdown/governance-inventory.md`
+- `generated/json/governance-quality-report.json`
+- `generated/markdown/governance-quality-report.md`
+- `governance/generated-inventories.md`
+- `governance/quality-report.md`
+
+## Artifact manifest
+
+- `generated/json/artifact-manifest.json`
+- `generated/markdown/artifact-manifest.md`
+
+The manifest identifies each major generated artifact, its source inputs, generator, consumer use case, and stability expectation.
 
 ## Governance overlay artifacts
 
@@ -35,6 +49,12 @@ The inventory bundle and markdown view classify terms across several operational
 - assurance level hints
 - governance profile groupings
 
+## Quality report interpretation
+
+The quality report is a maintainer and adopter signal. It identifies where terms may need stronger sources, better cross-references, more specific evidence artifacts, clearer revocation evidence, or a stronger assurance hint.
+
+The report is not a pass/fail certification. It is a machine-readable evidence-quality backlog that supports review, prioritization, and continuous improvement.
+
 ## Generation workflow
 
 Run the following before publication:
@@ -42,7 +62,8 @@ Run the following before publication:
 ```bash
 python tools/validate_governance_glossary.py
 python tools/build_governance_glossary.py
+python tools/build_quality_report.py
 python tools/build_jekyll_site.py
 ```
 
-The GitHub Actions workflows also run these generation steps and now fail if committed generated artifacts are out of sync with the authoritative source layer.
+GitHub Actions run the same generation steps and fail if committed generated artifacts are out of sync with the authoritative source layer.

@@ -1,0 +1,85 @@
+# Governance glossary controlled vocabularies
+#
+# This file is the reviewable vocabulary layer for governance-executable term
+# artifacts. The JSON Schema mirrors these values for CI enforcement.
+# Update this file, the schema, and validator together when adding a new value.
+
+governance_profile:
+  - core-operational
+  - governance-supporting
+  - descriptive
+
+authority_scope:
+  - access_decisioning
+  - assurance_and_audit
+  - credential_issuance
+  - delegation_and_scope
+  - governance_recognition
+  - policy_definition
+  - registry_management
+  - terminology_definition
+  - verification_and_reliance
+
+delegation_mode:
+  - direct
+  - direct_or_constrained
+
+lifecycle_states:
+  - active
+  - deprecated
+  - documented
+  - proposed
+  - retired
+  - revoked
+  - suspended
+
+execution_role:
+  - design
+  - hybrid
+  - runtime
+
+control_plane_role:
+  - decision_plane_component
+  - reference_term
+
+enforcement_points:
+  - access_decision
+  - definition_approval
+  - delegation_grant
+  - issuance_decision
+  - policy_approval
+  - registration_decision
+  - reliance_decision
+  - revocation_decision
+
+assurance_level_hint:
+  - informative
+  - AL1+
+  - AL2+
+
+auditability:
+  - basic
+  - moderate
+  - high
+
+evidence_artifacts:
+  - access_decision_log
+  - attestation
+  - audit_log
+  - definition_change_record
+  - delegation_record
+  - issuance_log
+  - policy_document
+  - registry_entry
+  - status_record
+  - verification_log
+
+decision_points:
+  - access_decision
+  - definition_approval
+  - delegation_grant
+  - issuance_decision
+  - policy_approval
+  - registration_decision
+  - reliance_decision
+  - revocation_decision

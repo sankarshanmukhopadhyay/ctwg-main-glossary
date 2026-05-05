@@ -1,32 +1,39 @@
 ---
 title: "Governance Improvement Roadmap"
 parent: Governance Documentation
-nav_order: 10
+nav_order: 40
 ---
 
 # Governance Improvement Roadmap
 
-## Phase 1: Foundation
+## Completed: v1.1.0 assurance-ready infrastructure
 
-- improve README and repository guidance
-- tighten high-value governance term definitions
-- add extension model documentation
-- add schema and examples
+- schema-aware validation using `jsonschema`
+- controlled vocabularies for governance and assurance fields
+- schema-aligned examples under `examples/governance-term/`
+- generated governance quality report
+- generated artifact manifest
+- CI updates for validation, generation, quality reporting, and drift detection
+- refreshed maintainer and contributor documentation
 
-## Phase 2: Structured coverage
+## Next: source-quality hardening
 
-- expand governance-aware profiles to all lifecycle-sensitive terms
-- create a controlled inventory of terms that affect authority, delegation, and revocation
-- add CI checks for schema validity
+- reduce terms with empty `sources`
+- improve `see_also` coverage for operational terms
+- refine evidence artifacts for revocation-sensitive and decision-plane terms
+- review terms flagged by `possibly_circular_definition`
+- add stronger source attribution for high-impact governance concepts
 
-## Phase 3: Publication integration
+## Next: downstream consumption support
 
-- expose governance-aware term metadata through generated site artifacts
-- add downloadable machine-readable bundles
-- publish compatibility and change-management guidance
+- publish stable guidance for policy engines, conformance suites, trust registries, and assurance dashboards
+- document artifact versioning expectations
+- define compatibility expectations for consumers of generated JSON and JSON-LD artifacts
+- consider a dedicated JSON-LD context once downstream consumers stabilize
 
-## Phase 4: Assurance integration
+## Future: assurance and conformance alignment
 
-- align glossary extensions with adjacent assurance and trust registry work
-- define evidence expectations for key operational terms
-- support external conformance and crosswalk tooling
+- define AL3+ term-quality expectations for high-assurance ecosystems
+- add optional conformance profiles for downstream consumers
+- link glossary terms to external trust infrastructure schemas where appropriate
+- provide machine-readable mappings for standards working groups and governance frameworks

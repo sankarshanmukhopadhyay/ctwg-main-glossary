@@ -9523,7 +9523,6 @@
     {
       "term": "essr",
       "aliases": [
-        "ESSR",
         "ESSR"
       ],
       "definition": "Encrypt\u2010Sender\u2010Sign\u2010Receiver",
@@ -13403,7 +13402,6 @@
     {
       "term": "itps",
       "aliases": [
-        "ITPS",
         "ITPS"
       ],
       "definition": "information-theoretic-security",
@@ -16049,7 +16047,6 @@
     {
       "term": "non-transferable-identifier",
       "aliases": [
-        "non-transferable-identifier",
         "non-transferable-identifier"
       ],
       "definition": "Controlling keys over this identifier cannot be rotated and therefore this identifier is non-transferable to other control.",
@@ -25322,7 +25319,6 @@
     {
       "term": "transferable",
       "aliases": [
-        "transferable",
         "transferable"
       ],
       "definition": "Capable of being transferred or conveyed from one place or person to another. Place can be its and bits.",

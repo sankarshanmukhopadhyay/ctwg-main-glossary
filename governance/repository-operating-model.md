@@ -10,19 +10,29 @@ nav_order: 5
 
 This repository is operated as a controlled publishing system for glossary content with executable governance semantics.
 
-The key objective is to keep three things aligned:
+The operating model keeps three things aligned:
 
-1. **authority** over what may be changed
-2. **enforcement** of deterministic generation and publication integrity
-3. **evidence** that generated outputs match the authoritative source layer
+1. **authority** over what may be changed;
+2. **enforcement** through deterministic validation and generation; and
+3. **evidence** that generated outputs match the authoritative source layer.
+
+## Authority model
+
+| Area | Authoritative layer | Generated or derived layer |
+|---|---|---|
+| Term semantics | `glossary/terms/*.yaml` | `_terms/*.md`, generated bundles, generated indexes |
+| Validation contract | `schemas/governance-term.schema.json` and `schemas/governance-vocabularies.yaml` | CI validation outcomes |
+| Publication controls | `tools/*.py` and workflow files | generated build summaries and drift checks |
+| Maintainer guidance | `governance/*.md`, `README.md`, `Contributing.md` | generated inventory and quality report pages |
 
 ## Source and generated layers
 
 ### Authoritative source layer
 
 - `glossary/terms/`
-- `governance/`
+- `schemas/`
 - `tools/`
+- `governance/`
 - top-level maintainer documentation
 
 ### Generated publication layer
@@ -33,40 +43,58 @@ The key objective is to keep three things aligned:
 - `terms-index.md`
 - `terms/*/index.md`
 - generated governance overlays
+- generated governance inventory and quality report pages
 
 ## Maintainer rules
 
 ### Rule 1: edit source, not renderings
 
-The expected edit path is through `glossary/terms/` and the repository documentation files. Generated pages and bundles are outputs, not editorial surfaces.
+Change `glossary/terms/*.yaml` rather than `_terms/*.md` or generated JSON/markdown artifacts.
 
-### Rule 2: generation must be reproducible
+### Rule 2: validate before publishing
 
-All generated files committed to the repository must be reproducible by the build scripts in `tools/`.
+Run:
 
-### Rule 3: CI must detect drift
+```bash
+python tools/validate_governance_glossary.py
+python tools/build_governance_glossary.py
+python tools/build_quality_report.py
+python tools/build_jekyll_site.py
+```
 
-Repository workflows are expected to fail if validation fails or if generated outputs differ from what the build scripts produce.
+### Rule 3: keep schema and vocabulary aligned
 
-### Rule 4: documentation is part of the control plane
+When adding a new controlled value, update both:
 
-When the operating model changes, the maintainer documentation must be updated in the same change set.
+- `schemas/governance-vocabularies.yaml`
+- `schemas/governance-term.schema.json`
 
-## Assurance outcomes
+The validator checks that the two remain aligned.
 
-The operating model is designed to produce evidence for:
+### Rule 4: treat generated diffs as evidence
 
-- term-level structural validity
-- alias and slug collision detection
-- bundle and inventory reproducibility
-- publication-readiness of generated pages
-- auditability of change effects through committed generated artifacts
+Generated diffs are not noise. They show the operational effect of source-layer changes. Review them before merging.
 
-## Release posture
+### Rule 5: do not overstate assurance
 
-A release-quality change should include:
+Assurance hints are glossary-level indicators. They do not certify implementations, systems, organizations, or governance frameworks.
 
-- authoritative source updates where applicable
-- regenerated artifacts
-- refreshed documentation
-- validation evidence noted in the commit or release narrative
+## CI enforcement
+
+CI performs four control-plane functions:
+
+1. validates source term artifacts against the JSON Schema and controlled vocabularies;
+2. performs repository-specific integrity checks for slugs, aliases, source-file references, revocation states, and evidence alignment;
+3. regenerates machine-readable and publication artifacts; and
+4. fails on generated artifact drift.
+
+## Evidence produced
+
+The repository produces evidence through:
+
+- validation command output;
+- generated `build-summary.json`;
+- generated inventory artifacts;
+- generated quality report artifacts;
+- deterministic Jekyll term pages; and
+- GitHub Actions execution logs.

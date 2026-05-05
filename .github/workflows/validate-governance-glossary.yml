@@ -19,12 +19,13 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install pyyaml
+        run: pip install pyyaml jsonschema
 
       - name: Validate and regenerate glossary artifacts
         run: |
           python tools/validate_governance_glossary.py
           python tools/build_governance_glossary.py
+          python tools/build_quality_report.py
           python tools/build_jekyll_site.py
 
       - name: Fail if generated artifacts drifted

@@ -211,6 +211,10 @@ def write_generated_inventory_page():
         '',
         '- `generated/json/governance-inventory.json`',
         '- `generated/markdown/governance-inventory.md`',
+        '- `generated/json/governance-quality-report.json`',
+        '- `generated/markdown/governance-quality-report.md`',
+        '- `generated/json/artifact-manifest.json`',
+        '- `generated/markdown/artifact-manifest.md`',
         '- `glossary/overlays/governance/inventory.json`',
         ''
     ])
@@ -238,6 +242,7 @@ def main():
         'collection_dir': str(OUT_COLLECTION.relative_to(ROOT)),
         'index_page': str(TERMS_INDEX.relative_to(ROOT)),
         'generated_inventory_page': str((GOVERNANCE_DIR / 'generated-inventories.md').relative_to(ROOT)),
+        'generated_quality_report_page': str((GOVERNANCE_DIR / 'quality-report.md').relative_to(ROOT)),
     }
     GENERATED_JSON.mkdir(parents=True, exist_ok=True)
     (GENERATED_JSON / 'jekyll-site-build-summary.json').write_text(json.dumps(summary, indent=2), encoding='utf-8')

@@ -10,7 +10,7 @@ title: "itps"
 information-theoretic-security
 
 ## Aliases
-ITPS, ITPS
+ITPS
 
 ## Governance Profile
 - **Authority scope**: terminology_definition

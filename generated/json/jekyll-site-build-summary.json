@@ -2,5 +2,6 @@
   "term_count": 534,
   "collection_dir": "_terms",
   "index_page": "terms-index.md",
-  "generated_inventory_page": "governance/generated-inventories.md"
+  "generated_inventory_page": "governance/generated-inventories.md",
+  "generated_quality_report_page": "governance/quality-report.md"
 }

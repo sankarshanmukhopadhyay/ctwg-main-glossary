@@ -1,16 +1,20 @@
 {
   "term_count": 534,
   "generated_json": [
+    "artifact-manifest.json",
     "build-summary.json",
     "governance-executable-glossary.catalog.json",
     "governance-executable-glossary.json",
     "governance-executable-glossary.jsonld",
     "governance-inventory.json",
+    "governance-quality-report.json",
     "jekyll-site-build-summary.json"
   ],
   "generated_markdown": [
+    "artifact-manifest.md",
     "governance-executable-glossary.md",
-    "governance-inventory.md"
+    "governance-inventory.md",
+    "governance-quality-report.md"
   ],
   "overlay_files": [
     "core-operational-terms.md",

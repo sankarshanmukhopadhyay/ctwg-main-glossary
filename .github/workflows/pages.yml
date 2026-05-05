@@ -36,13 +36,16 @@ jobs:
           python-version: '3.11'
 
       - name: Install Python dependencies
-        run: pip install pyyaml
+        run: pip install pyyaml jsonschema
 
       - name: Validate glossary
         run: python tools/validate_governance_glossary.py
 
       - name: Generate machine-readable bundles
         run: python tools/build_governance_glossary.py
+
+      - name: Generate governance quality report
+        run: python tools/build_quality_report.py
 
       - name: Generate Jekyll pages from governance source layer
         run: python tools/build_jekyll_site.py

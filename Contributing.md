@@ -1,67 +1,48 @@
 # Contributing
 
-Thank you for contributing to the ToIP Main Glossary.
+Thank you for improving the ToIP Main Glossary.
 
-## Contribution model
+This repository is operated as a governance-executable publication system. Contributions should keep the authoritative source layer, generated artifacts, validation logic, and documentation aligned.
 
-This repository is maintained as an executable publication system. A high-quality contribution updates the authoritative source, regenerates dependent outputs, and leaves documentation aligned with the new state of the repository.
+## Before opening a pull request
 
-## Authoritative and generated paths
+Install dependencies:
 
-### Authoritative
+```bash
+pip install pyyaml jsonschema
+```
 
-- `glossary/terms/`
-- `governance/`
-- `tools/`
-- selected top-level documentation files such as `README.md` and `artifacts.md`
-
-### Generated
-
-- `_terms/`
-- `generated/json/`
-- `generated/markdown/`
-- `terms-index.md`
-- `terms/*/index.md`
-- generated governance overlay files under `glossary/overlays/governance/`
-
-Do not hand-edit generated files unless you are also changing the generator and regenerating the output in the same change set.
-
-## Required local workflow
-
-Run the full maintainer sequence before opening a pull request.
+Run:
 
 ```bash
 python tools/validate_governance_glossary.py
 python tools/build_governance_glossary.py
+python tools/build_quality_report.py
 python tools/build_jekyll_site.py
 ```
 
-For site preview work:
+If generated files changed, include those generated diffs in the same pull request.
 
-```bash
-bundle install
-bundle exec jekyll serve
-```
+## Adding or editing a term
+
+1. Edit the YAML artifact under `glossary/terms/`.
+2. Keep the file slug aligned with the `term` value.
+3. Use `examples/governance-term/` as the reference shape.
+4. Use controlled values from `schemas/governance-vocabularies.yaml`.
+5. Add sources and `see_also` references where they improve evidence and interpretation.
+6. Pair decision points with enforcement points.
+7. Add evidence artifacts that can be inspected by downstream governance or assurance tooling.
 
 ## Pull request expectations
 
-Every pull request should answer the following:
+A good pull request explains:
 
-- What source files changed?
-- What generated outputs changed as a result?
-- What validation was run?
-- What documentation changed?
-- Are the generated artifacts fully in sync with source?
+- what terms or controls changed;
+- whether schema or vocabulary values changed;
+- what generated artifacts changed;
+- whether the quality report improved or intentionally changed; and
+- how publication compatibility was preserved.
 
-## Review checklist
+## Generated files
 
-- term metadata is structurally valid
-- slugs and filenames remain deterministic
-- aliases do not create collisions
-- governance fields are internally coherent
-- generated inventories and indexes were rebuilt
-- documentation remains current
-
-## Commit discipline
-
-Prefer substantive commits that keep source, generated output, and documentation synchronized. Avoid splitting generator changes from regenerated artifacts unless there is a strong reason to do so.
+Do not manually edit generated files. Regenerate them from source using the tools above.

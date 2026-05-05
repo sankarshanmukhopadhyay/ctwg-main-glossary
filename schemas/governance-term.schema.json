@@ -2,7 +2,9 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://glossary.trustoverip.org/schemas/governance-term.schema.json",
   "title": "Governance Executable Glossary Term",
+  "description": "Schema for authoritative governance-executable glossary term YAML artifacts under glossary/terms/.",
   "type": "object",
+  "additionalProperties": true,
   "required": [
     "term",
     "definition",
@@ -12,16 +14,20 @@
   ],
   "properties": {
     "term": {
-      "type": "string"
+      "type": "string",
+      "minLength": 1
     },
     "aliases": {
       "type": "array",
       "items": {
-        "type": "string"
-      }
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
     },
     "definition": {
-      "type": "string"
+      "type": "string",
+      "minLength": 1
     },
     "notes": {
       "type": "array",
@@ -33,13 +39,15 @@
       "type": "array",
       "items": {
         "type": "string"
-      }
+      },
+      "uniqueItems": true
     },
     "sources": {
       "type": "array",
       "items": {
         "type": "string"
-      }
+      },
+      "uniqueItems": true
     },
     "source_file": {
       "type": "string"
@@ -65,33 +73,75 @@
       "properties": {
         "authority_scope": {
           "type": "array",
+          "minItems": 1,
           "items": {
-            "type": "string"
-          }
+            "enum": [
+              "access_decisioning",
+              "assurance_and_audit",
+              "credential_issuance",
+              "delegation_and_scope",
+              "governance_recognition",
+              "policy_definition",
+              "registry_management",
+              "terminology_definition",
+              "verification_and_reliance"
+            ]
+          },
+          "uniqueItems": true
         },
         "delegation_mode": {
-          "type": "string"
+          "enum": [
+            "direct",
+            "direct_or_constrained"
+          ]
         },
         "revocation_supported": {
           "type": "boolean"
         },
         "lifecycle_states": {
           "type": "array",
+          "minItems": 1,
           "items": {
-            "type": "string"
-          }
+            "enum": [
+              "active",
+              "deprecated",
+              "documented",
+              "proposed",
+              "retired",
+              "revoked",
+              "suspended"
+            ]
+          },
+          "uniqueItems": true
         },
         "execution_role": {
-          "type": "string"
+          "enum": [
+            "design",
+            "hybrid",
+            "runtime"
+          ]
         },
         "control_plane_role": {
-          "type": "string"
+          "enum": [
+            "decision_plane_component",
+            "reference_term"
+          ]
         },
         "enforcement_points": {
           "type": "array",
           "items": {
-            "type": "string"
-          }
+            "enum": [
+              "access_decision",
+              "definition_approval",
+              "delegation_grant",
+              "issuance_decision",
+              "policy_approval",
+              "registration_decision",
+              "reliance_decision",
+              "revocation_decision"
+            ]
+          },
+          "uniqueItems": true
         }
       }
     },
@@ -106,14 +156,34 @@
         "evidence_artifacts": {
           "type": "array",
           "items": {
-            "type": "string"
-          }
+            "enum": [
+              "access_decision_log",
+              "attestation",
+              "audit_log",
+              "definition_change_record",
+              "delegation_record",
+              "issuance_log",
+              "policy_document",
+              "registry_entry",
+              "status_record",
+              "verification_log"
+            ]
+          },
+          "uniqueItems": true
         },
         "assurance_level_hint": {
-          "type": "string"
+          "enum": [
+            "informative",
+            "AL1+",
+            "AL2+"
+          ]
         },
         "auditability": {
-          "type": "string"
+          "enum": [
+            "basic",
+            "moderate",
+            "high"
+          ]
         }
       }
     },
@@ -128,34 +198,49 @@
         "decision_points": {
           "type": "array",
           "items": {
-            "type": "string"
-          }
+            "enum": [
+              "access_decision",
+              "definition_approval",
+              "delegation_grant",
+              "issuance_decision",
+              "policy_approval",
+              "registration_decision",
+              "reliance_decision",
+              "revocation_decision"
+            ]
+          },
+          "uniqueItems": true
         },
         "accountable_entity": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "evidence_produced": {
           "type": "array",
           "items": {
-            "type": "string"
-          }
+            "enum": [
+              "access_decision_log",
+              "attestation",
+              "audit_log",
+              "definition_change_record",
+              "delegation_record",
+              "issuance_log",
+              "policy_document",
+              "registry_entry",
+              "status_record",
+              "verification_log"
+            ]
+          },
+          "uniqueItems": true
         }
       }
     },
     "crosswalk": {
       "type": "object",
-      "properties": {
-        "nist": {
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
-        },
-        "iso": {
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
+      "additionalProperties": {
+        "type": "array",
+        "items": {
+          "type": "string"
         }
       }
     }
