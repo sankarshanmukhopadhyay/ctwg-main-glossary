@@ -1,50 +1,61 @@
 term: functional-identity
 aliases:
-  - functional identity
-  - functional identities
-definition: A set of identity data, such as a credential, that is issued not for the purpose of establishing a foundational identity for the subject, but for the purpose of establishing other attributes, qualifications, or capabilities of the subject. Loyalty cards, library cards, and employee IDs are all examples of functional identities. Foundational identities are often used to provide identity binding for functional identities.
-notes:
-  []
+- functional identity
+- functional identities
+definition: A set of identity data, such as a credential, that is issued not for the
+  purpose of establishing a foundational identity for the subject, but for the purpose
+  of establishing other attributes, qualifications, or capabilities of the subject.
+  Loyalty cards, library cards, and employee IDs are all examples of functional identities.
+  Foundational identities are often used to provide identity binding for functional
+  identities.
+notes: []
 see_also:
-  []
+- credential
+- issuer
+- issuance
+- verifiable-credential
 sources:
-  []
-mental_models:
-  []
-supporting_definitions:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/functional-identity.md`'
+mental_models: []
+supporting_definitions: []
 source_file: spec/terms-definitions/functional-identity.md
 governance_profile: core-operational
 governance:
   authority_scope:
-    - credential_issuance
+  - credential_issuance
   delegation_mode: direct
   revocation_supported: true
   lifecycle_states:
-    - proposed
-    - active
-    - suspended
-    - revoked
-    - retired
+  - proposed
+  - active
+  - suspended
+  - revoked
+  - retired
   execution_role: design
   control_plane_role: decision_plane_component
   enforcement_points:
-    - issuance_decision
-    - revocation_decision
+  - issuance_decision
+  - revocation_decision
 assurance:
   evidence_artifacts:
-    - issuance_log
+  - issuance_log
+  - registry_entry
+  - status_record
+  - audit_log
+  - verification_log
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
   decision_points:
-    - issuance_decision
-    - revocation_decision
+  - issuance_decision
+  - revocation_decision
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - issuance_log
+  - issuance_log
+  - registry_entry
+  - status_record
+  - audit_log
+  - verification_log
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

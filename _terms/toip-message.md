@@ -26,6 +26,8 @@ ToIP message, ToIP messages
 ## Assurance
 **Evidence artifacts**
 - definition_change_record
+- policy_document
+- audit_log
 
 - **Assurance level hint**: AL1+
 - **Auditability**: moderate
@@ -38,6 +40,8 @@ ToIP message, ToIP messages
 
 **Evidence produced**
 - definition_change_record
+- policy_document
+- audit_log
 
 ## Notes
 Not specified
@@ -49,7 +53,8 @@ Not specified
 Not specified
 
 ## See Also
-Not specified
+- glossary
+- definition
 
 ## Crosswalk References
 Not specified

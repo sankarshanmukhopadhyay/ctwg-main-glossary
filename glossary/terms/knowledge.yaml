@@ -1,45 +1,42 @@
 term: knowledge
 aliases:
-  - knowledge
-definition: The (intangible) sum of what is known by a specific party, as well as the familiarity, awareness or understanding of someone or something by that party.
-notes:
-  []
+- knowledge
+definition: The (intangible) sum of what is known by a specific party, as well as
+  the familiarity, awareness or understanding of someone or something by that party.
+notes: []
 see_also:
-  []
+- glossary
+- definition
 sources:
-  - "[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#knowledge)."
-mental_models:
-  []
-supporting_definitions:
-  []
+- '[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#knowledge).'
+mental_models: []
+supporting_definitions: []
 source_file: spec/terms-definitions/knowledge.md
 governance_profile: descriptive
 governance:
   authority_scope:
-    - terminology_definition
+  - terminology_definition
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: design
   control_plane_role: reference_term
   enforcement_points:
-    - definition_approval
+  - definition_approval
 assurance:
   evidence_artifacts:
-    - definition_change_record
+  - definition_change_record
   assurance_level_hint: informative
   auditability: basic
 control_plane:
   decision_points:
-    - definition_approval
+  - definition_approval
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - definition_change_record
+  - definition_change_record
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

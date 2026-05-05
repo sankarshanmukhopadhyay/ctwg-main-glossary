@@ -1,48 +1,47 @@
 term: trust-community
 aliases:
-  - trust community
-  - trust communities
+- trust community
+- trust communities
 definition: A set of parties who collaborate to achieve a mutual set of trust objectives.
 notes:
-  - A trust community may be large or small, formal or informal. In a formal trust community, the set of policies and rules governing behavior of members are usually published in a governance framework or trust framework. In an informal trust community, the policies or rules governing the behavior of members may be tribal knowledge.
+- A trust community may be large or small, formal or informal. In a formal trust community,
+  the set of policies and rules governing behavior of members are usually published
+  in a governance framework or trust framework. In an informal trust community, the
+  policies or rules governing the behavior of members may be tribal knowledge.
 see_also:
-  - digital trust ecosystem
-  - ToIP trust community.
+- digital trust ecosystem
+- ToIP trust community.
 sources:
-  []
-mental_models:
-  []
-supporting_definitions:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/trust-community.md`'
+mental_models: []
+supporting_definitions: []
 source_file: spec/terms-definitions/trust-community.md
 governance_profile: core-operational
 governance:
   authority_scope:
-    - policy_definition
-    - governance_recognition
+  - policy_definition
+  - governance_recognition
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: runtime
   control_plane_role: decision_plane_component
   enforcement_points:
-    - policy_approval
+  - policy_approval
 assurance:
   evidence_artifacts:
-    - policy_document
+  - policy_document
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
   decision_points:
-    - policy_approval
+  - policy_approval
   accountable_entity: governance_authority
   evidence_produced:
-    - policy_document
+  - policy_document
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

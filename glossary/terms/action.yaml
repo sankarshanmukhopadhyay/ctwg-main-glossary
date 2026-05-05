@@ -1,48 +1,46 @@
 term: action
 aliases:
-  - action
-  - actions
-  - act
-  - acts
-definition: Something that is actually done (a 'unit of work' that is executed) by a single actor (on behalf of a given party), as a single operation, in a specific context.
-notes:
-  []
+- action
+- actions
+- act
+- acts
+definition: Something that is actually done (a 'unit of work' that is executed) by
+  a single actor (on behalf of a given party), as a single operation, in a specific
+  context.
+notes: []
 see_also:
-  []
+- glossary
+- definition
 sources:
-  - "[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#action)."
-mental_models:
-  []
-supporting_definitions:
-  []
+- '[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#action).'
+mental_models: []
+supporting_definitions: []
 source_file: spec/terms-definitions/action.md
 governance_profile: descriptive
 governance:
   authority_scope:
-    - terminology_definition
+  - terminology_definition
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: design
   control_plane_role: reference_term
   enforcement_points:
-    - definition_approval
+  - definition_approval
 assurance:
   evidence_artifacts:
-    - definition_change_record
+  - definition_change_record
   assurance_level_hint: informative
   auditability: basic
 control_plane:
   decision_points:
-    - definition_approval
+  - definition_approval
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - definition_change_record
+  - definition_change_record
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

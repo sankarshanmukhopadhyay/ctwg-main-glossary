@@ -1,47 +1,48 @@
 term: key-event
 aliases:
-  - key event
-  - key-event
-  - key events
-definition: An event in the history of the usage of a cryptographic key pair. There are multiple types of key events. The inception event is when the key pair is first generated. A rotation event is when the key pair is changed to a new key pair. In some key management systems (such as KERI), key events are tracked in a key event log.
-notes:
-  []
+- key event
+- key-event
+- key events
+definition: An event in the history of the usage of a cryptographic key pair. There
+  are multiple types of key events. The inception event is when the key pair is first
+  generated. A rotation event is when the key pair is changed to a new key pair. In
+  some key management systems (such as KERI), key events are tracked in a key event
+  log.
+notes: []
 see_also:
-  []
+- glossary
+- definition
 sources:
-  []
-mental_models:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/key-event.md`'
+mental_models: []
 supporting_definitions:
-  - "The KERI definition: [[xref: keri1, key-event]]"
+- 'The KERI definition: [[xref: keri1, key-event]]'
 source_file: spec/terms-definitions/key-event.md
 governance_profile: descriptive
 governance:
   authority_scope:
-    - terminology_definition
+  - terminology_definition
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: design
   control_plane_role: reference_term
   enforcement_points:
-    - definition_approval
+  - definition_approval
 assurance:
   evidence_artifacts:
-    - definition_change_record
+  - definition_change_record
   assurance_level_hint: informative
   auditability: basic
 control_plane:
   decision_points:
-    - definition_approval
+  - definition_approval
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - definition_change_record
+  - definition_change_record
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

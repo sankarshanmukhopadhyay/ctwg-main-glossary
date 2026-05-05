@@ -26,6 +26,8 @@ ToIP Trust Spanning Protocol, TSP
 ## Assurance
 **Evidence artifacts**
 - definition_change_record
+- policy_document
+- audit_log
 
 - **Assurance level hint**: AL1+
 - **Auditability**: moderate
@@ -38,6 +40,8 @@ ToIP Trust Spanning Protocol, TSP
 
 **Evidence produced**
 - definition_change_record
+- policy_document
+- audit_log
 
 ## Notes
 Not specified
@@ -49,7 +53,10 @@ Not specified
 - [[ref: hourglass model,]] see the [Design Principles for the ToIP Stack](https://trustoverip.org/permalink/Design-Principles-for-the-ToIP-Stack-V1.0-2022-11-17.pdf).
 
 ## See Also
-Not specified
+- glossary
+- definition
+- trust
+- trust-registry
 
 ## Crosswalk References
 Not specified

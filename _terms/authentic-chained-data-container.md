@@ -27,6 +27,10 @@ Authentic Chained Data Container
 ## Assurance
 **Evidence artifacts**
 - issuance_log
+- registry_entry
+- status_record
+- audit_log
+- verification_log
 
 - **Assurance level hint**: AL2+
 - **Auditability**: high
@@ -40,6 +44,10 @@ Authentic Chained Data Container
 
 **Evidence produced**
 - issuance_log
+- registry_entry
+- status_record
+- audit_log
+- verification_log
 
 ## Notes
 Not specified
@@ -51,7 +59,10 @@ Not specified
 Not specified
 
 ## See Also
-Not specified
+- credential
+- issuer
+- issuance
+- verifiable-credential
 
 ## Crosswalk References
 Not specified

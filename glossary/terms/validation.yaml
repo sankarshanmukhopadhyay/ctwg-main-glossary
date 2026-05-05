@@ -1,47 +1,49 @@
 term: validation
 aliases:
-  - validation
-  - validity
-definition: An action an agent (of a principal) performs to determine whether a digital object or set of data meets the requirements of a specific party.
-notes:
-  []
+- validation
+- validity
+definition: An action an agent (of a principal) performs to determine whether a digital
+  object or set of data meets the requirements of a specific party.
+notes: []
 see_also:
-  - verification.
+- verification.
 sources:
-  []
-mental_models:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/validation.md`'
+mental_models: []
 supporting_definitions:
-  - "[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#validate): The act, by or on behalf of a [party](https://essif-lab.github.io/framework/docs/terms/party), of determining whether or not that data is valid to be used for some specific purpose(s) of that [party](https://essif-lab.github.io/framework/docs/terms/party)."
-  - "[NIST](https://csrc.nist.gov/glossary/term/validation)Confirmation, through the provision of objective evidence, that the requirements for a specific intended use or application have been fulfilled."
+- '[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#validate):
+  The act, by or on behalf of a [party](https://essif-lab.github.io/framework/docs/terms/party),
+  of determining whether or not that data is valid to be used for some specific purpose(s)
+  of that [party](https://essif-lab.github.io/framework/docs/terms/party).'
+- '[NIST](https://csrc.nist.gov/glossary/term/validation)Confirmation, through the
+  provision of objective evidence, that the requirements for a specific intended use
+  or application have been fulfilled.'
 source_file: spec/terms-definitions/validation.md
 governance_profile: core-operational
 governance:
   authority_scope:
-    - delegation_and_scope
+  - delegation_and_scope
   delegation_mode: direct_or_constrained
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: runtime
   control_plane_role: decision_plane_component
   enforcement_points:
-    - delegation_grant
+  - delegation_grant
 assurance:
   evidence_artifacts:
-    - delegation_record
+  - delegation_record
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
   decision_points:
-    - delegation_grant
+  - delegation_grant
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - delegation_record
+  - delegation_record
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

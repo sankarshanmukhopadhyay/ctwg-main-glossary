@@ -1,49 +1,48 @@
 term: governance-graph
 aliases:
-  - governance graph
-  - governance graphs
-definition: "A graph of the governance relationships between entities with a trust community. A governance graph shows which nodes are the governing bodies and which are the governed parties. In some cases, a governance graph can be traversed by making queries to one or more trust registries.Note: a party can play both roles and also be a participant in multiple governance frameworks."
-notes:
-  []
+- governance graph
+- governance graphs
+definition: 'A graph of the governance relationships between entities with a trust
+  community. A governance graph shows which nodes are the governing bodies and which
+  are the governed parties. In some cases, a governance graph can be traversed by
+  making queries to one or more trust registries.Note: a party can play both roles
+  and also be a participant in multiple governance frameworks.'
+notes: []
 see_also:
-  - authorization graph
-  - reputation graph
-  - trust graph.
+- authorization graph
+- reputation graph
+- trust graph.
 sources:
-  []
-mental_models:
-  []
-supporting_definitions:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/governance-graph.md`'
+mental_models: []
+supporting_definitions: []
 source_file: spec/terms-definitions/governance-graph.md
 governance_profile: core-operational
 governance:
   authority_scope:
-    - policy_definition
-    - governance_recognition
+  - policy_definition
+  - governance_recognition
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: runtime
   control_plane_role: decision_plane_component
   enforcement_points:
-    - policy_approval
+  - policy_approval
 assurance:
   evidence_artifacts:
-    - policy_document
+  - policy_document
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
   decision_points:
-    - policy_approval
+  - policy_approval
   accountable_entity: governance_authority
   evidence_produced:
-    - policy_document
+  - policy_document
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

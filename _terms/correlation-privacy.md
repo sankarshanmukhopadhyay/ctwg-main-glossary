@@ -26,6 +26,8 @@ correlation privacy
 ## Assurance
 **Evidence artifacts**
 - definition_change_record
+- policy_document
+- audit_log
 
 - **Assurance level hint**: AL2+
 - **Auditability**: high
@@ -38,6 +40,8 @@ correlation privacy
 
 **Evidence produced**
 - definition_change_record
+- policy_document
+- audit_log
 
 ## Notes
 Not specified

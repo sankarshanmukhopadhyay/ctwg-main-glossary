@@ -1,46 +1,49 @@
 term: dictionary
 aliases:
-  - dictionary
-  - dictionaries
-definition: A dictionary is a listing of lexemes (words or terms) from the lexicon of one or more specific languages, often arranged alphabetically, which may include information on definitions, usage, etymologies, pronunciations, translation, etc. It is a lexicographical reference that shows inter-relationships among the data. Unlike a glossary, a dictionary may provide multiple definitions of a term depending on its scope or context.
-notes:
-  []
+- dictionary
+- dictionaries
+definition: A dictionary is a listing of lexemes (words or terms) from the lexicon
+  of one or more specific languages, often arranged alphabetically, which may include
+  information on definitions, usage, etymologies, pronunciations, translation, etc.
+  It is a lexicographical reference that shows inter-relationships among the data.
+  Unlike a glossary, a dictionary may provide multiple definitions of a term depending
+  on its scope or context.
+notes: []
 see_also:
-  []
+- registry
+- trust-registry
+- registration
+- governance-framework
 sources:
-  - "[Wikipedia](https://en.wikipedia.org/wiki/Dictionary)."
-mental_models:
-  []
-supporting_definitions:
-  []
+- '[Wikipedia](https://en.wikipedia.org/wiki/Dictionary).'
+mental_models: []
+supporting_definitions: []
 source_file: spec/terms-definitions/dictionary.md
 governance_profile: core-operational
 governance:
   authority_scope:
-    - registry_management
+  - registry_management
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: design
   control_plane_role: decision_plane_component
   enforcement_points:
-    - registration_decision
+  - registration_decision
 assurance:
   evidence_artifacts:
-    - registry_entry
+  - registry_entry
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
   decision_points:
-    - registration_decision
+  - registration_decision
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - registry_entry
+  - registry_entry
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

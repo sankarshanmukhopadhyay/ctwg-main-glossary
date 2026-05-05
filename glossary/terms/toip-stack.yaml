@@ -1,46 +1,55 @@
 term: toip-stack
 aliases:
-  - ToIP stack
-  - ToIP stacks
-definition: "The layered architecture for decentralized digital trust infrastructure defined by the ToIP Foundation. The ToIP stack is a dual stack consisting of two halves: the ToIP Technology Stack and the ToIP Governance Stack. The four layers in the ToIP stack are ToIP Layer 1, ToIP Layer 2, ToIP Layer 3, and ToIP Layer 4."
-notes:
-  []
+- ToIP stack
+- ToIP stacks
+definition: 'The layered architecture for decentralized digital trust infrastructure
+  defined by the ToIP Foundation. The ToIP stack is a dual stack consisting of two
+  halves: the ToIP Technology Stack and the ToIP Governance Stack. The four layers
+  in the ToIP stack are ToIP Layer 1, ToIP Layer 2, ToIP Layer 3, and ToIP Layer 4.'
+notes: []
 see_also:
-  []
+- governance
+- governance-framework
+- governing-authority
+- trust-registry
+- definition
+- glossary
 sources:
-  []
-mental_models:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/toip-stack.md`'
+mental_models: []
 supporting_definitions:
-  - "For more information, see: [[ref: ToIP Technology Architecture Specification]], [[ref: ToIP Governance Architecture Specification]]."
+- 'For more information, see: [[ref: ToIP Technology Architecture Specification]],
+  [[ref: ToIP Governance Architecture Specification]].'
 source_file: spec/terms-definitions/toip-stack.md
 governance_profile: core-operational
 governance:
   authority_scope:
-    - governance_recognition
+  - governance_recognition
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: runtime
   control_plane_role: decision_plane_component
   enforcement_points:
-    - definition_approval
+  - definition_approval
 assurance:
   evidence_artifacts:
-    - definition_change_record
+  - definition_change_record
+  - policy_document
+  - audit_log
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
   decision_points:
-    - definition_approval
+  - definition_approval
   accountable_entity: governance_authority
   evidence_produced:
-    - definition_change_record
+  - definition_change_record
+  - policy_document
+  - audit_log
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

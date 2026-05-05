@@ -27,6 +27,10 @@ guardian, guardians
 ## Assurance
 **Evidence artifacts**
 - issuance_log
+- registry_entry
+- status_record
+- audit_log
+- verification_log
 
 - **Assurance level hint**: AL2+
 - **Auditability**: high
@@ -40,6 +44,10 @@ guardian, guardians
 
 **Evidence produced**
 - issuance_log
+- registry_entry
+- status_record
+- audit_log
+- verification_log
 
 ## Notes
 - A guardian is a very different role than a custodian, who does not take any actions on behalf of a principal unless explicitly authorized.

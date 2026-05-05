@@ -26,6 +26,10 @@ timestamp, timestamps
 ## Assurance
 **Evidence artifacts**
 - attestation
+- status_record
+- audit_log
+- verification_log
+- registry_entry
 
 - **Assurance level hint**: AL2+
 - **Auditability**: high
@@ -38,6 +42,10 @@ timestamp, timestamps
 
 **Evidence produced**
 - attestation
+- status_record
+- audit_log
+- verification_log
+- registry_entry
 
 ## Notes
 Not specified
@@ -49,7 +57,12 @@ Not specified
 Not specified
 
 ## See Also
-Not specified
+- audit
+- verification
+- governance
+- governance-framework
+- governing-authority
+- trust-registry
 
 ## Crosswalk References
 Not specified

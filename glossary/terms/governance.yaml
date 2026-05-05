@@ -1,46 +1,48 @@
 term: governance
 aliases:
-  - governance
-definition: The act or process of governing or overseeing the realization of (the results associated with) a set of objectives by the owner of these objectives, in order to ensure they will be fit for the purposes that this owner intends to use them for.
-notes:
-  []
+- governance
+definition: The act or process of governing or overseeing the realization of (the
+  results associated with) a set of objectives by the owner of these objectives, in
+  order to ensure they will be fit for the purposes that this owner intends to use
+  them for.
+notes: []
 see_also:
-  - governing body
-  - governance framework
+- governing body
+- governance framework
 sources:
-  - "[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#governance)."
-mental_models:
-  []
-supporting_definitions:
-  []
+- '[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#governance).'
+mental_models: []
+supporting_definitions: []
 source_file: spec/terms-definitions/governance.md
 governance_profile: core-operational
 governance:
   authority_scope:
-    - governance_recognition
+  - governance_recognition
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: runtime
   control_plane_role: decision_plane_component
   enforcement_points:
-    - definition_approval
+  - definition_approval
 assurance:
   evidence_artifacts:
-    - definition_change_record
+  - definition_change_record
+  - policy_document
+  - audit_log
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
   decision_points:
-    - definition_approval
+  - definition_approval
   accountable_entity: governance_authority
   evidence_produced:
-    - definition_change_record
+  - definition_change_record
+  - policy_document
+  - audit_log
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

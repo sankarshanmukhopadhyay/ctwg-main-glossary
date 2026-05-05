@@ -1,49 +1,49 @@
 term: identification
 aliases:
-  - identification
-  - identify
-  - identified
-  - identifies
-  - identifying
-definition: The action of a party obtaining the set of identity data necessary to serve as that party’s identity for a specific entity.
+- identification
+- identify
+- identified
+- identifies
+- identifying
+definition: The action of a party obtaining the set of identity data necessary to
+  serve as that party’s identity for a specific entity.
 notes:
-  - The act of identification of a specific entity is relational to each party that needs to perform that action. Therefore each party may end up with their own set of identity data that meets their specific requirements for their specific scope.
+- The act of identification of a specific entity is relational to each party that
+  needs to perform that action. Therefore each party may end up with their own set
+  of identity data that meets their specific requirements for their specific scope.
 see_also:
-  []
+- glossary
+- definition
 sources:
-  []
-mental_models:
-  []
-supporting_definitions:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/identification.md`'
+mental_models: []
+supporting_definitions: []
 source_file: spec/terms-definitions/identification.md
 governance_profile: descriptive
 governance:
   authority_scope:
-    - terminology_definition
+  - terminology_definition
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: design
   control_plane_role: reference_term
   enforcement_points:
-    - definition_approval
+  - definition_approval
 assurance:
   evidence_artifacts:
-    - definition_change_record
+  - definition_change_record
   assurance_level_hint: informative
   auditability: basic
 control_plane:
   decision_points:
-    - definition_approval
+  - definition_approval
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - definition_change_record
+  - definition_change_record
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

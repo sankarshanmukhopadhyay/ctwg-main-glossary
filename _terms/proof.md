@@ -27,6 +27,10 @@ proof, proofs
 ## Assurance
 **Evidence artifacts**
 - issuance_log
+- registry_entry
+- status_record
+- audit_log
+- verification_log
 
 - **Assurance level hint**: AL2+
 - **Auditability**: high
@@ -40,6 +44,10 @@ proof, proofs
 
 **Evidence produced**
 - issuance_log
+- registry_entry
+- status_record
+- audit_log
+- verification_log
 
 ## Notes
 Not specified

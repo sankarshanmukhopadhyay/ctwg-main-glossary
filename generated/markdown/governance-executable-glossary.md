@@ -584,7 +584,7 @@ A measurable physical characteristic or personal behavioral trait used to recogn
 - Delegation mode: direct
 - Revocation supported: False
 - Lifecycle states: documented, active, deprecated
-- Assurance level hint: informative
+- Assurance level hint: AL1+
 - Accountable entity: glossary_maintainers
 
 ## blockchain
@@ -3860,7 +3860,7 @@ In the context of digital networks, an actor on the network that has the same st
 - Delegation mode: direct
 - Revocation supported: True
 - Lifecycle states: proposed, active, suspended, revoked, retired
-- Assurance level hint: informative
+- Assurance level hint: AL1+
 - Accountable entity: glossary_maintainers
 
 ## permission
@@ -4939,7 +4939,7 @@ A subclass of verifiable identifier (VID) that is cryptographically verifiable w
 - Delegation mode: direct
 - Revocation supported: False
 - Lifecycle states: documented, active, deprecated
-- Assurance level hint: informative
+- Assurance level hint: AL1+
 - Accountable entity: glossary_maintainers
 
 ## self-sovereign-identity

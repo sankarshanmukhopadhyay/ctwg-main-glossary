@@ -1,45 +1,45 @@
 term: content-authenticity-initiative
 aliases:
-  - Content Authenticity Initiative
-definition: The Content Authenticity Initiative (CAI) is an association founded in November 2019 by Adobe, the New York Times and Twitter. The CAI promotes an industry standard for provenance metadata defined by the C2PA. The CAI cites curbing disinformation as one motivation for its activities.
-notes:
-  []
+- Content Authenticity Initiative
+definition: The Content Authenticity Initiative (CAI) is an association founded in
+  November 2019 by Adobe, the New York Times and Twitter. The CAI promotes an industry
+  standard for provenance metadata defined by the C2PA. The CAI cites curbing disinformation
+  as one motivation for its activities.
+notes: []
 see_also:
-  []
+- glossary
+- definition
 sources:
-  - "[Wikipedia](https://en.wikipedia.org/wiki/Content_Authenticity_Initiative)."
-mental_models:
-  []
+- '[Wikipedia](https://en.wikipedia.org/wiki/Content_Authenticity_Initiative).'
+mental_models: []
 supporting_definitions:
-  - "Also known as: [[ref: CAI]]."
+- 'Also known as: [[ref: CAI]].'
 source_file: spec/terms-definitions/content-authenticity-initiative.md
 governance_profile: descriptive
 governance:
   authority_scope:
-    - terminology_definition
+  - terminology_definition
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: design
   control_plane_role: reference_term
   enforcement_points:
-    - definition_approval
+  - definition_approval
 assurance:
   evidence_artifacts:
-    - definition_change_record
+  - definition_change_record
   assurance_level_hint: informative
   auditability: basic
 control_plane:
   decision_points:
-    - definition_approval
+  - definition_approval
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - definition_change_record
+  - definition_change_record
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

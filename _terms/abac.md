@@ -26,6 +26,8 @@ ABAC
 ## Assurance
 **Evidence artifacts**
 - definition_change_record
+- access_decision_log
+- policy_document
 
 - **Assurance level hint**: AL2+
 - **Auditability**: high
@@ -38,6 +40,8 @@ ABAC
 
 **Evidence produced**
 - definition_change_record
+- access_decision_log
+- policy_document
 
 ## Notes
 Not specified
@@ -49,7 +53,10 @@ Not specified
 Not specified
 
 ## See Also
-Not specified
+- authorization
+- permission
+- role-based-access-control
+- attribute-based-access-control
 
 ## Crosswalk References
 Not specified

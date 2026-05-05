@@ -1,47 +1,47 @@
 term: mobile-deep-link
 aliases:
-  - mobile deep link
-  - mobile deep links
-  - mobile deep linking
-definition: In the context of mobile apps, deep linking consists of using a uniform resource identifier (URI) that links to a specific location within a mobile app rather than simply launching the app. Deferred deep linking allows users to deep link to content even if the app is not already installed. Depending on the mobile device platform, the URI required to trigger the app may be different.
-notes:
-  []
+- mobile deep link
+- mobile deep links
+- mobile deep linking
+definition: In the context of mobile apps, deep linking consists of using a uniform
+  resource identifier (URI) that links to a specific location within a mobile app
+  rather than simply launching the app. Deferred deep linking allows users to deep
+  link to content even if the app is not already installed. Depending on the mobile
+  device platform, the URI required to trigger the app may be different.
+notes: []
 see_also:
-  []
+- glossary
+- definition
 sources:
-  - "[Wikipedia](https://en.wikipedia.org/wiki/Mobile_deep_linking)."
-mental_models:
-  []
-supporting_definitions:
-  []
+- '[Wikipedia](https://en.wikipedia.org/wiki/Mobile_deep_linking).'
+mental_models: []
+supporting_definitions: []
 source_file: spec/terms-definitions/mobile-deep-link.md
 governance_profile: descriptive
 governance:
   authority_scope:
-    - terminology_definition
+  - terminology_definition
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: design
   control_plane_role: reference_term
   enforcement_points:
-    - definition_approval
+  - definition_approval
 assurance:
   evidence_artifacts:
-    - definition_change_record
+  - definition_change_record
   assurance_level_hint: informative
   auditability: basic
 control_plane:
   decision_points:
-    - definition_approval
+  - definition_approval
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - definition_change_record
+  - definition_change_record
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

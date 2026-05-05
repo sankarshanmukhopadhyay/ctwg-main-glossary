@@ -26,6 +26,8 @@ verifiable data
 ## Assurance
 **Evidence artifacts**
 - definition_change_record
+- policy_document
+- audit_log
 
 - **Assurance level hint**: AL2+
 - **Auditability**: high
@@ -38,6 +40,8 @@ verifiable data
 
 **Evidence produced**
 - definition_change_record
+- policy_document
+- audit_log
 
 ## Notes
 - In the context of ToIP architecture, verifiable data is signed with the cryptographic keys associated with the verifiable identifier (VID) of the data controller.
@@ -49,7 +53,8 @@ Not specified
 Not specified
 
 ## See Also
-Not specified
+- glossary
+- definition
 
 ## Crosswalk References
 Not specified

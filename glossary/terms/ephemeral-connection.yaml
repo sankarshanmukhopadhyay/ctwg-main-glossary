@@ -1,46 +1,44 @@
 term: ephemeral-connection
 aliases:
-  - ephemeral connection
-  - ephemeral connections
-definition: A connection that only exists for the duration of a single communication session or transaction.
-notes:
-  []
+- ephemeral connection
+- ephemeral connections
+definition: A connection that only exists for the duration of a single communication
+  session or transaction.
+notes: []
 see_also:
-  []
+- glossary
+- definition
 sources:
-  []
-mental_models:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/ephemeral-connection.md`'
+mental_models: []
 supporting_definitions:
-  - "Contrast with: [[ref: persistent connection]]."
+- 'Contrast with: [[ref: persistent connection]].'
 source_file: spec/terms-definitions/ephemeral-connection.md
 governance_profile: descriptive
 governance:
   authority_scope:
-    - terminology_definition
+  - terminology_definition
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: design
   control_plane_role: reference_term
   enforcement_points:
-    - definition_approval
+  - definition_approval
 assurance:
   evidence_artifacts:
-    - definition_change_record
+  - definition_change_record
   assurance_level_hint: informative
   auditability: basic
 control_plane:
   decision_points:
-    - definition_approval
+  - definition_approval
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - definition_change_record
+  - definition_change_record
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

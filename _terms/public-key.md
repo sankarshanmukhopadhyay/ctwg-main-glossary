@@ -26,6 +26,8 @@ public key, public keys
 ## Assurance
 **Evidence artifacts**
 - definition_change_record
+- policy_document
+- audit_log
 
 - **Assurance level hint**: AL2+
 - **Auditability**: high
@@ -38,6 +40,8 @@ public key, public keys
 
 **Evidence produced**
 - definition_change_record
+- policy_document
+- audit_log
 
 ## Notes
 Not specified
@@ -49,7 +53,12 @@ Not specified
 Not specified
 
 ## See Also
-Not specified
+- governance
+- governance-framework
+- governing-authority
+- trust-registry
+- definition
+- glossary
 
 ## Crosswalk References
 Not specified

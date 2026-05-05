@@ -26,6 +26,10 @@ decentralized identifier, decentralized-identifier, decentralized identifiers, D
 ## Assurance
 **Evidence artifacts**
 - definition_change_record
+- status_record
+- audit_log
+- verification_log
+- registry_entry
 
 - **Assurance level hint**: AL2+
 - **Auditability**: high
@@ -38,6 +42,10 @@ decentralized identifier, decentralized-identifier, decentralized identifiers, D
 
 **Evidence produced**
 - definition_change_record
+- status_record
+- audit_log
+- verification_log
+- registry_entry
 
 ## Notes
 Not specified

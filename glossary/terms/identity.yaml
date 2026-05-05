@@ -1,46 +1,55 @@
 term: identity
 aliases:
-  - identity
-  - identities
-definition: A collection of attributes or other identity data that describe an entity and enable it to be distinguished from all other entities within a specific scope of identification. Identity attributes may include one or more identifiers for an entity, however it is possible to establish an identity without using identifiers.
+- identity
+- identities
+definition: A collection of attributes or other identity data that describe an entity
+  and enable it to be distinguished from all other entities within a specific scope
+  of identification. Identity attributes may include one or more identifiers for an
+  entity, however it is possible to establish an identity without using identifiers.
 notes:
-  - Identity is relational to the party performing the identification. For example, if 100 different parties have an identity for the same entity, each of them may hold a different set of identity data enabling identification of that entity.
+- Identity is relational to the party performing the identification. For example,
+  if 100 different parties have an identity for the same entity, each of them may
+  hold a different set of identity data enabling identification of that entity.
 see_also:
-  []
+- glossary
+- definition
 sources:
-  []
-mental_models:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/identity.md`'
+mental_models: []
 supporting_definitions:
-  - "[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#identity): the combined [knowledge](https://essif-lab.github.io/framework/docs/terms/knowledge) about that [entity](https://essif-lab.github.io/framework/docs/terms/entity) of all [parties](https://essif-lab.github.io/framework/docs/terms/party), i.e. the union of all [partial identities](https://essif-lab.github.io/framework/docs/terms/partial-identity) of which that [entity](https://essif-lab.github.io/framework/docs/terms/entity) is the [subject](https://essif-lab.github.io/framework/docs/terms/subject)."
+- '[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#identity):
+  the combined [knowledge](https://essif-lab.github.io/framework/docs/terms/knowledge)
+  about that [entity](https://essif-lab.github.io/framework/docs/terms/entity) of
+  all [parties](https://essif-lab.github.io/framework/docs/terms/party), i.e. the
+  union of all [partial identities](https://essif-lab.github.io/framework/docs/terms/partial-identity)
+  of which that [entity](https://essif-lab.github.io/framework/docs/terms/entity)
+  is the [subject](https://essif-lab.github.io/framework/docs/terms/subject).'
 source_file: spec/terms-definitions/identity.md
 governance_profile: descriptive
 governance:
   authority_scope:
-    - terminology_definition
+  - terminology_definition
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: design
   control_plane_role: reference_term
   enforcement_points:
-    - definition_approval
+  - definition_approval
 assurance:
   evidence_artifacts:
-    - definition_change_record
+  - definition_change_record
   assurance_level_hint: informative
   auditability: basic
 control_plane:
   decision_points:
-    - definition_approval
+  - definition_approval
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - definition_change_record
+  - definition_change_record
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

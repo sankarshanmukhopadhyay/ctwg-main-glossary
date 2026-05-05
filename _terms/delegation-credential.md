@@ -29,6 +29,11 @@ delegation credential, delegation credentials
 **Evidence artifacts**
 - delegation_record
 - issuance_log
+- policy_document
+- registry_entry
+- status_record
+- audit_log
+- verification_log
 
 - **Assurance level hint**: AL2+
 - **Auditability**: high
@@ -44,6 +49,11 @@ delegation credential, delegation credentials
 **Evidence produced**
 - delegation_record
 - issuance_log
+- policy_document
+- registry_entry
+- status_record
+- audit_log
+- verification_log
 
 ## Notes
 Not specified
@@ -55,7 +65,12 @@ Not specified
 Not specified
 
 ## See Also
-Not specified
+- credential
+- issuer
+- issuance
+- verifiable-credential
+- delegation
+- delegator
 
 ## Crosswalk References
 Not specified

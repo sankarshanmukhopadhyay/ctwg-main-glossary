@@ -1,56 +1,69 @@
 term: trusted-third-party
 aliases:
-  - trusted third party
-  - trusted third parties
-  - trusted 3rd party
-  - trusted 3rd parties
-  - TTP
-  - TTPs
-definition: In cryptography, a trusted third party (TTP) is an entity which facilitates interactions between two parties who both trust the third party; the third party reviews all critical transaction communications between the parties, based on the ease of creating fraudulent digital content. In TTP models, the relying parties use this trust to secure their own interactions. TTPs are common in any number of commercial transactions and in cryptographic digital transactions as well as cryptographic protocols, for example, a certificate authority (CA) would issue a digital certificate to one of two parties. The CA then becomes the TTP to that certificate's issuance. Likewise transactions that need a third party recordation would also need a third-party repository service of some kind.
-notes:
-  []
+- trusted third party
+- trusted third parties
+- trusted 3rd party
+- trusted 3rd parties
+- TTP
+- TTPs
+definition: In cryptography, a trusted third party (TTP) is an entity which facilitates
+  interactions between two parties who both trust the third party; the third party
+  reviews all critical transaction communications between the parties, based on the
+  ease of creating fraudulent digital content. In TTP models, the relying parties
+  use this trust to secure their own interactions. TTPs are common in any number of
+  commercial transactions and in cryptographic digital transactions as well as cryptographic
+  protocols, for example, a certificate authority (CA) would issue a digital certificate
+  to one of two parties. The CA then becomes the TTP to that certificate's issuance.
+  Likewise transactions that need a third party recordation would also need a third-party
+  repository service of some kind.
+notes: []
 see_also:
-  []
+- verification
+- verifier
+- relying-party
+- trust-decision
+- governance
+- governance-framework
 sources:
-  - "[Wikipedia](https://en.wikipedia.org/wiki/Trusted_third_party)."
-mental_models:
-  []
+- '[Wikipedia](https://en.wikipedia.org/wiki/Trusted_third_party).'
+mental_models: []
 supporting_definitions:
-  - "Also known as: [[ref: TTP]]."
-  - "[NIST-CSRC](https://csrc.nist.gov/glossary/term/trusted_third_party): A third party, such as a CA, that is trusted by its clients to perform certain services. (By contrast, the two participants in a key-establishment transaction are considered to be the first and second parties.)"
+- 'Also known as: [[ref: TTP]].'
+- '[NIST-CSRC](https://csrc.nist.gov/glossary/term/trusted_third_party): A third party,
+  such as a CA, that is trusted by its clients to perform certain services. (By contrast,
+  the two participants in a key-establishment transaction are considered to be the
+  first and second parties.)'
 source_file: spec/terms-definitions/trusted-third-party.md
 governance_profile: core-operational
 governance:
   authority_scope:
-    - verification_and_reliance
-    - governance_recognition
+  - verification_and_reliance
+  - governance_recognition
   delegation_mode: direct
   revocation_supported: true
   lifecycle_states:
-    - proposed
-    - active
-    - suspended
-    - revoked
-    - retired
+  - proposed
+  - active
+  - suspended
+  - revoked
+  - retired
   execution_role: runtime
   control_plane_role: decision_plane_component
   enforcement_points:
-    - reliance_decision
-    - revocation_decision
+  - reliance_decision
+  - revocation_decision
 assurance:
   evidence_artifacts:
-    - verification_log
+  - verification_log
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
   decision_points:
-    - reliance_decision
-    - revocation_decision
+  - reliance_decision
+  - revocation_decision
   accountable_entity: governance_authority
   evidence_produced:
-    - verification_log
+  - verification_log
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

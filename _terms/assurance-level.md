@@ -29,6 +29,12 @@ assurance level, assurance levels
 **Evidence artifacts**
 - issuance_log
 - attestation
+- access_decision_log
+- policy_document
+- registry_entry
+- status_record
+- audit_log
+- verification_log
 
 - **Assurance level hint**: AL2+
 - **Auditability**: high
@@ -44,6 +50,12 @@ assurance level, assurance levels
 **Evidence produced**
 - issuance_log
 - attestation
+- access_decision_log
+- policy_document
+- registry_entry
+- status_record
+- audit_log
+- verification_log
 
 ## Notes
 - Assurance levels are most useful when the criteria for each level are explicit, testable, and supported by inspectable evidence.
@@ -55,7 +67,12 @@ assurance level, assurance levels
 Not specified
 
 ## See Also
-Not specified
+- credential
+- issuer
+- issuance
+- verifiable-credential
+- authorization
+- permission
 
 ## Crosswalk References
 - **NIST**: IA-8

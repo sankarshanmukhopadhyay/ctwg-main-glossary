@@ -30,9 +30,9 @@ This page summarizes the generated governance inventory built from the structure
 
 ## Assurance level hints
 
-- `AL1+`: 79
+- `AL1+`: 82
 - `AL2+`: 227
-- `informative`: 228
+- `informative`: 225
 
 ## Artifact references
 

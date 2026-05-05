@@ -1,46 +1,47 @@
 term: network-address
 aliases:
-  - network address
-  - network addresses
-definition: A network address is an identifier for a node or host on a telecommunications network. Network addresses are designed to be unique identifiers across the network, although some networks allow for local, private addresses, or locally administered addresses that may not be unique. Special network addresses are allocated as broadcast or multicast addresses. A network address designed to address a single device is called a unicast address.
-notes:
-  []
+- network address
+- network addresses
+definition: A network address is an identifier for a node or host on a telecommunications
+  network. Network addresses are designed to be unique identifiers across the network,
+  although some networks allow for local, private addresses, or locally administered
+  addresses that may not be unique. Special network addresses are allocated as broadcast
+  or multicast addresses. A network address designed to address a single device is
+  called a unicast address.
+notes: []
 see_also:
-  []
+- glossary
+- definition
 sources:
-  - "[Wikipedia](https://en.wikipedia.org/wiki/Network_address)."
-mental_models:
-  []
-supporting_definitions:
-  []
+- '[Wikipedia](https://en.wikipedia.org/wiki/Network_address).'
+mental_models: []
+supporting_definitions: []
 source_file: spec/terms-definitions/network-address.md
 governance_profile: descriptive
 governance:
   authority_scope:
-    - terminology_definition
+  - terminology_definition
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: design
   control_plane_role: reference_term
   enforcement_points:
-    - definition_approval
+  - definition_approval
 assurance:
   evidence_artifacts:
-    - definition_change_record
+  - definition_change_record
   assurance_level_hint: informative
   auditability: basic
 control_plane:
   decision_points:
-    - definition_approval
+  - definition_approval
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - definition_change_record
+  - definition_change_record
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

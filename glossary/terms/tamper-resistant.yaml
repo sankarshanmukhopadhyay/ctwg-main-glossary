@@ -1,48 +1,46 @@
 term: tamper-resistant
 aliases:
-  - tamper resistant
-  - tamper resistance
-  - tamper-resistant
-  - tamper-resistance
-definition: A process which makes alterations to data difficult (hard to perform), costly (expensive to perform), or both. For digital data objects, this is typically achieved via cryptographic verification.
-notes:
-  []
+- tamper resistant
+- tamper resistance
+- tamper-resistant
+- tamper-resistance
+definition: A process which makes alterations to data difficult (hard to perform),
+  costly (expensive to perform), or both. For digital data objects, this is typically
+  achieved via cryptographic verification.
+notes: []
 see_also:
-  []
+- glossary
+- definition
 sources:
-  - "[NIST-CSRC](https://csrc.nist.gov/glossary/term/tamper_resistant)."
-mental_models:
-  []
-supporting_definitions:
-  []
+- '[NIST-CSRC](https://csrc.nist.gov/glossary/term/tamper_resistant).'
+mental_models: []
+supporting_definitions: []
 source_file: spec/terms-definitions/tamper-resistant.md
 governance_profile: descriptive
 governance:
   authority_scope:
-    - terminology_definition
+  - terminology_definition
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: design
   control_plane_role: reference_term
   enforcement_points:
-    - definition_approval
+  - definition_approval
 assurance:
   evidence_artifacts:
-    - definition_change_record
+  - definition_change_record
   assurance_level_hint: informative
   auditability: basic
 control_plane:
   decision_points:
-    - definition_approval
+  - definition_approval
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - definition_change_record
+  - definition_change_record
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

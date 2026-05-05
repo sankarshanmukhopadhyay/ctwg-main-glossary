@@ -26,6 +26,8 @@ verifiable identifier, verifiable identifiers, VID, VIDs
 ## Assurance
 **Evidence artifacts**
 - definition_change_record
+- policy_document
+- audit_log
 
 - **Assurance level hint**: AL2+
 - **Auditability**: high
@@ -38,6 +40,8 @@ verifiable identifier, verifiable identifiers, VID, VIDs
 
 **Evidence produced**
 - definition_change_record
+- policy_document
+- audit_log
 
 ## Notes
 Not specified

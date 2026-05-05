@@ -1,46 +1,47 @@
 term: attestation
 aliases:
-  - attestation
-  - attestations
-definition: The issue of a statement, based on a decision, that fulfillment of specified requirements has been demonstrated. In the context of decentralized digital trust infrastructure, an attestation usually has a digital signature so that it is cryptographically verifiable.
-notes:
-  []
+- attestation
+- attestations
+definition: The issue of a statement, based on a decision, that fulfillment of specified
+  requirements has been demonstrated. In the context of decentralized digital trust
+  infrastructure, an attestation usually has a digital signature so that it is cryptographically
+  verifiable.
+notes: []
 see_also:
-  []
+- audit
+- verification
+- definition
+- glossary
 sources:
-  - "[NIST-CSRC](https://csrc.nist.gov/glossary/term/attestation)."
-mental_models:
-  []
-supporting_definitions:
-  []
+- '[NIST-CSRC](https://csrc.nist.gov/glossary/term/attestation).'
+mental_models: []
+supporting_definitions: []
 source_file: spec/terms-definitions/attestation.md
 governance_profile: governance-supporting
 governance:
   authority_scope:
-    - assurance_and_audit
+  - assurance_and_audit
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: design
   control_plane_role: decision_plane_component
   enforcement_points:
-    - definition_approval
+  - definition_approval
 assurance:
   evidence_artifacts:
-    - attestation
+  - attestation
   assurance_level_hint: AL1+
   auditability: moderate
 control_plane:
   decision_points:
-    - definition_approval
+  - definition_approval
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - attestation
+  - attestation
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

@@ -1,55 +1,66 @@
 term: authorized-organizational-representative
 aliases:
-  - authorized organizational representative
-definition: A person who has the authority to make claims, sign documents or otherwise commit resources on behalf of an organization.
-notes:
-  []
+- authorized organizational representative
+definition: A person who has the authority to make claims, sign documents or otherwise
+  commit resources on behalf of an organization.
+notes: []
 see_also:
-  []
+- credential
+- issuer
+- issuance
+- verifiable-credential
+- delegation
+- delegator
 sources:
-  - "[Law Insider](https://www.lawinsider.com/dictionary/authorized-organizational-representative#:~:text=Authorized%20Organizational%20Representative%20means%20the,the%20resources%20of%20the%20organization.)"
-mental_models:
-  []
-supporting_definitions:
-  []
+- '[Law Insider](https://www.lawinsider.com/dictionary/authorized-organizational-representative#:~:text=Authorized%20Organizational%20Representative%20means%20the,the%20resources%20of%20the%20organization.)'
+mental_models: []
+supporting_definitions: []
 source_file: spec/terms-definitions/authorized-organizational-representative.md
 governance_profile: core-operational
 governance:
   authority_scope:
-    - credential_issuance
-    - delegation_and_scope
-    - governance_recognition
+  - credential_issuance
+  - delegation_and_scope
+  - governance_recognition
   delegation_mode: direct_or_constrained
   revocation_supported: true
   lifecycle_states:
-    - proposed
-    - active
-    - suspended
-    - revoked
-    - retired
+  - proposed
+  - active
+  - suspended
+  - revoked
+  - retired
   execution_role: runtime
   control_plane_role: decision_plane_component
   enforcement_points:
-    - delegation_grant
-    - issuance_decision
-    - revocation_decision
+  - delegation_grant
+  - issuance_decision
+  - revocation_decision
 assurance:
   evidence_artifacts:
-    - delegation_record
-    - issuance_log
+  - delegation_record
+  - issuance_log
+  - policy_document
+  - registry_entry
+  - status_record
+  - audit_log
+  - verification_log
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
   decision_points:
-    - delegation_grant
-    - issuance_decision
-    - revocation_decision
+  - delegation_grant
+  - issuance_decision
+  - revocation_decision
   accountable_entity: governance_authority
   evidence_produced:
-    - delegation_record
-    - issuance_log
+  - delegation_record
+  - issuance_log
+  - policy_document
+  - registry_entry
+  - status_record
+  - audit_log
+  - verification_log
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

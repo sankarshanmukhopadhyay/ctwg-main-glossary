@@ -27,8 +27,8 @@ peer, peers
 **Evidence artifacts**
 - status_record
 
-- **Assurance level hint**: informative
-- **Auditability**: basic
+- **Assurance level hint**: AL1+
+- **Auditability**: moderate
 
 ## Control Plane
 **Decision points**

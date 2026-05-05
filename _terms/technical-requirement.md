@@ -26,6 +26,8 @@ technical requirement, technical requirements
 ## Assurance
 **Evidence artifacts**
 - definition_change_record
+- policy_document
+- audit_log
 
 - **Assurance level hint**: AL2+
 - **Auditability**: high
@@ -38,6 +40,8 @@ technical requirement, technical requirements
 
 **Evidence produced**
 - definition_change_record
+- policy_document
+- audit_log
 
 ## Notes
 - In ToIP architecture, both technical requirements and governance requirements are expressed using the keywords defined in IETF RFC 2119.
@@ -49,7 +53,12 @@ technical requirement, technical requirements
 Not specified
 
 ## See Also
-Not specified
+- governance
+- governance-framework
+- governing-authority
+- trust-registry
+- definition
+- glossary
 
 ## Crosswalk References
 Not specified

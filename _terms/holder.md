@@ -29,6 +29,11 @@ holder, holders
 **Evidence artifacts**
 - delegation_record
 - issuance_log
+- policy_document
+- registry_entry
+- status_record
+- audit_log
+- verification_log
 
 - **Assurance level hint**: AL2+
 - **Auditability**: high
@@ -44,6 +49,11 @@ holder, holders
 **Evidence produced**
 - delegation_record
 - issuance_log
+- policy_document
+- registry_entry
+- status_record
+- audit_log
+- verification_log
 
 ## Notes
 Not specified

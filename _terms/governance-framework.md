@@ -27,6 +27,10 @@ governance framework, governance frameworks
 ## Assurance
 **Evidence artifacts**
 - policy_document
+- audit_log
+- status_record
+- verification_log
+- registry_entry
 
 - **Assurance level hint**: AL2+
 - **Auditability**: high
@@ -40,6 +44,10 @@ governance framework, governance frameworks
 
 **Evidence produced**
 - policy_document
+- audit_log
+- status_record
+- verification_log
+- registry_entry
 
 ## Notes
 - In the digital identity industry specifically, a governance framework is better known as a trust framework. ToIP-conformant governance frameworks conform to the ToIP Governance Architecture Specification and follow the ToIP Governance Metamodel.
@@ -51,7 +59,11 @@ governance framework, governance frameworks
 Not specified
 
 ## See Also
-Not specified
+- policy
+- requirement
+- governance
+- governing-authority
+- trust-registry
 
 ## Crosswalk References
 Not specified

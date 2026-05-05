@@ -1,45 +1,43 @@
 term: fal
 aliases:
-  - FAL
-definition: "See: federation assurance level."
-notes:
-  []
+- FAL
+definition: 'See: federation assurance level.'
+notes: []
 see_also:
-  []
+- audit
+- verification
+- definition
+- glossary
 sources:
-  []
-mental_models:
-  []
-supporting_definitions:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/fal.md`'
+mental_models: []
+supporting_definitions: []
 source_file: spec/terms-definitions/fal.md
 governance_profile: governance-supporting
 governance:
   authority_scope:
-    - assurance_and_audit
+  - assurance_and_audit
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: design
   control_plane_role: decision_plane_component
   enforcement_points:
-    - definition_approval
+  - definition_approval
 assurance:
   evidence_artifacts:
-    - attestation
+  - attestation
   assurance_level_hint: AL1+
   auditability: moderate
 control_plane:
   decision_points:
-    - definition_approval
+  - definition_approval
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - attestation
+  - attestation
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

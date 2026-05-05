@@ -1,46 +1,45 @@
 term: ip-address
 aliases:
-  - IP address
-  - IP addresses
-definition: "An Internet Protocol address (IP address) is a numerical label such as 192.0.2.1 that is connected to a computer network that uses the Internet Protocol for communication. An IP address serves two main functions: network interface identification, and location addressing."
-notes:
-  []
+- IP address
+- IP addresses
+definition: 'An Internet Protocol address (IP address) is a numerical label such as
+  192.0.2.1 that is connected to a computer network that uses the Internet Protocol
+  for communication. An IP address serves two main functions: network interface identification,
+  and location addressing.'
+notes: []
 see_also:
-  []
+- glossary
+- definition
 sources:
-  - "[Wikipedia](https://en.wikipedia.org/wiki/IP_address)."
-mental_models:
-  []
-supporting_definitions:
-  []
+- '[Wikipedia](https://en.wikipedia.org/wiki/IP_address).'
+mental_models: []
+supporting_definitions: []
 source_file: spec/terms-definitions/ip-address.md
 governance_profile: descriptive
 governance:
   authority_scope:
-    - terminology_definition
+  - terminology_definition
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: design
   control_plane_role: reference_term
   enforcement_points:
-    - definition_approval
+  - definition_approval
 assurance:
   evidence_artifacts:
-    - definition_change_record
+  - definition_change_record
   assurance_level_hint: informative
   auditability: basic
 control_plane:
   decision_points:
-    - definition_approval
+  - definition_approval
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - definition_change_record
+  - definition_change_record
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

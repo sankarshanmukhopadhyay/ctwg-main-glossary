@@ -1,59 +1,61 @@
 term: trust-registry
 aliases:
-  - trust registry
-  - trust registries
-definition: A registry that serves as an authoritative source for trust graphs or other governed information describing one or more trust communities. A trust registry is typically authorized by a governance framework.
+- trust registry
+- trust registries
+definition: A registry that serves as an authoritative source for trust graphs or
+  other governed information describing one or more trust communities. A trust registry
+  is typically authorized by a governance framework.
 notes:
-  - In operational terms, a trust registry often functions as a governance decision-plane component because its published information may be used to determine recognition, admission, status, or reliance.
+- In operational terms, a trust registry often functions as a governance decision-plane
+  component because its published information may be used to determine recognition,
+  admission, status, or reliance.
 see_also:
-  - trust list
-  - verifiable data registry.
+- trust list
+- verifiable data registry.
 sources:
-  []
-mental_models:
-  []
-supporting_definitions:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/trust-registry.md`'
+mental_models: []
+supporting_definitions: []
 source_file: spec/terms-definitions/trust-registry.md
 governance_profile: core-operational
 governance:
   authority_scope:
-    - policy_definition
-    - registry_management
-    - governance_recognition
+  - policy_definition
+  - registry_management
+  - governance_recognition
   delegation_mode: direct
   revocation_supported: true
   lifecycle_states:
-    - proposed
-    - active
-    - suspended
-    - revoked
-    - retired
+  - proposed
+  - active
+  - suspended
+  - revoked
+  - retired
   execution_role: runtime
   control_plane_role: decision_plane_component
   enforcement_points:
-    - policy_approval
-    - registration_decision
-    - revocation_decision
+  - policy_approval
+  - registration_decision
+  - revocation_decision
 assurance:
   evidence_artifacts:
-    - policy_document
-    - registry_entry
-    - status_record
+  - policy_document
+  - registry_entry
+  - status_record
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
   decision_points:
-    - policy_approval
-    - registration_decision
-    - revocation_decision
+  - policy_approval
+  - registration_decision
+  - revocation_decision
   accountable_entity: governance_authority
   evidence_produced:
-    - policy_document
-    - registry_entry
-    - status_record
+  - policy_document
+  - registry_entry
+  - status_record
 crosswalk:
   nist:
-    - CA-3
+  - CA-3
   iso:
-    - ISO/IEC 27001 A.5.19
+  - ISO/IEC 27001 A.5.19

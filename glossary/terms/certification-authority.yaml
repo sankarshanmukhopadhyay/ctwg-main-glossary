@@ -1,48 +1,56 @@
 term: certification-authority
 aliases:
-  - certification authority
-  - certification authorities
-definition: "See: certificate authority."
-notes:
-  []
+- certification authority
+- certification authorities
+definition: 'See: certificate authority.'
+notes: []
 see_also:
-  []
+- governance
+- governance-framework
+- governing-authority
+- trust-registry
+- revocation
+- verification
 sources:
-  []
-mental_models:
-  []
-supporting_definitions:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/certification-authority.md`'
+mental_models: []
+supporting_definitions: []
 source_file: spec/terms-definitions/certification-authority.md
 governance_profile: core-operational
 governance:
   authority_scope:
-    - governance_recognition
+  - governance_recognition
   delegation_mode: direct
   revocation_supported: true
   lifecycle_states:
-    - proposed
-    - active
-    - suspended
-    - revoked
-    - retired
+  - proposed
+  - active
+  - suspended
+  - revoked
+  - retired
   execution_role: runtime
   control_plane_role: decision_plane_component
   enforcement_points:
-    - revocation_decision
+  - revocation_decision
 assurance:
   evidence_artifacts:
-    - definition_change_record
+  - definition_change_record
+  - status_record
+  - audit_log
+  - verification_log
+  - registry_entry
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
   decision_points:
-    - revocation_decision
+  - revocation_decision
   accountable_entity: governance_authority
   evidence_produced:
-    - definition_change_record
+  - definition_change_record
+  - status_record
+  - audit_log
+  - verification_log
+  - registry_entry
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

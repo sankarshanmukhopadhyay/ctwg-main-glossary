@@ -4,8 +4,13 @@ aliases:
 definition: Controlling keys over this identifier cannot be rotated and therefore
   this identifier is non-transferable to other control.
 notes: []
-see_also: []
-sources: []
+see_also:
+- glossary
+- definition
+- identifier
+- decentralized-identifier
+sources:
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/non-transferable-identifier.md`'
 mental_models: []
 supporting_definitions:
 - 'An identifier of this type has specific positive features like short-lived, peer
@@ -32,6 +37,8 @@ governance:
 assurance:
   evidence_artifacts:
   - definition_change_record
+  - policy_document
+  - audit_log
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
@@ -40,6 +47,8 @@ control_plane:
   accountable_entity: glossary_maintainers
   evidence_produced:
   - definition_change_record
+  - policy_document
+  - audit_log
 crosswalk:
   nist: []
   iso: []

@@ -1,45 +1,46 @@
 term: eidas
 aliases:
-  - eIDAS
-definition: eIDAS (electronic IDentification, Authentication and trust Services) is an EU regulation with the stated purpose of governing "electronic identification and trust services for electronic transactions". It passed in 2014 and its provisions came into effect between 2016-2018.
-notes:
-  []
+- eIDAS
+definition: eIDAS (electronic IDentification, Authentication and trust Services) is
+  an EU regulation with the stated purpose of governing "electronic identification
+  and trust services for electronic transactions". It passed in 2014 and its provisions
+  came into effect between 2016-2018.
+notes: []
 see_also:
-  []
+- authorization
+- permission
+- role-based-access-control
+- attribute-based-access-control
 sources:
-  - "[Wikipedia](https://en.wikipedia.org/wiki/EIDAS)."
-mental_models:
-  []
-supporting_definitions:
-  []
+- '[Wikipedia](https://en.wikipedia.org/wiki/EIDAS).'
+mental_models: []
+supporting_definitions: []
 source_file: spec/terms-definitions/eidas.md
 governance_profile: core-operational
 governance:
   authority_scope:
-    - access_decisioning
+  - access_decisioning
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: runtime
   control_plane_role: decision_plane_component
   enforcement_points:
-    - access_decision
+  - access_decision
 assurance:
   evidence_artifacts:
-    - access_decision_log
+  - access_decision_log
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
   decision_points:
-    - access_decision
+  - access_decision
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - access_decision_log
+  - access_decision_log
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

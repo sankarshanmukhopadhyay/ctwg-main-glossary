@@ -1,46 +1,47 @@
 term: identity-assurance
 aliases:
-  - identity assurance
-  - identity-assurance
-definition: "The heavy-lifting to be done by a trusted (middle-man) party to establish - and then offer reputational trust. An example of such a party is [[xref:keri1, GLEIF]]. Instead, KERI is for attributional-trust. In the real world you need both."
-notes:
-  []
+- identity assurance
+- identity-assurance
+definition: The heavy-lifting to be done by a trusted (middle-man) party to establish
+  - and then offer reputational trust. An example of such a party is [[xref:keri1,
+  GLEIF]]. Instead, KERI is for attributional-trust. In the real world you need both.
+notes: []
 see_also:
-  []
+- audit
+- verification
+- definition
+- glossary
 sources:
-  []
-mental_models:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/identity-assurance.md`'
+mental_models: []
 supporting_definitions:
-  - "Read more in source [Universal Identifier Theory](https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/IdentifierTheory_web.pdf)"
+- Read more in source [Universal Identifier Theory](https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/IdentifierTheory_web.pdf)
 source_file: spec/terms-definitions/identity-assurance.md
 governance_profile: governance-supporting
 governance:
   authority_scope:
-    - assurance_and_audit
+  - assurance_and_audit
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: design
   control_plane_role: decision_plane_component
   enforcement_points:
-    - definition_approval
+  - definition_approval
 assurance:
   evidence_artifacts:
-    - attestation
+  - attestation
   assurance_level_hint: AL1+
   auditability: moderate
 control_plane:
   decision_points:
-    - definition_approval
+  - definition_approval
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - attestation
+  - attestation
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

@@ -1,46 +1,51 @@
 term: broadcast-address
 aliases:
-  - broadcast address
-  - broadcast addresses
-definition: A broadcast address is a network address used to transmit to all devices connected to a multiple-access communications network. A message sent to a broadcast address may be received by all network-attached hosts. In contrast, a multicast address is used to address a specific group of devices, and a unicast address is used to address a single device. For network layer communications, a broadcast address may be a specific IP address.
-notes:
-  []
+- broadcast address
+- broadcast addresses
+definition: A broadcast address is a network address used to transmit to all devices
+  connected to a multiple-access communications network. A message sent to a broadcast
+  address may be received by all network-attached hosts. In contrast, a multicast
+  address is used to address a specific group of devices, and a unicast address is
+  used to address a single device. For network layer communications, a broadcast address
+  may be a specific IP address.
+notes: []
 see_also:
-  []
+- glossary
+- definition
 sources:
-  - "[Wikipedia](https://en.wikipedia.org/wiki/Network_address)."
-mental_models:
-  []
-supporting_definitions:
-  []
+- '[Wikipedia](https://en.wikipedia.org/wiki/Network_address).'
+mental_models: []
+supporting_definitions: []
 source_file: spec/terms-definitions/broadcast-address.md
 governance_profile: core-operational
 governance:
   authority_scope:
-    - terminology_definition
+  - terminology_definition
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: design
   control_plane_role: decision_plane_component
   enforcement_points:
-    - definition_approval
+  - definition_approval
 assurance:
   evidence_artifacts:
-    - definition_change_record
+  - definition_change_record
+  - policy_document
+  - audit_log
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
   decision_points:
-    - definition_approval
+  - definition_approval
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - definition_change_record
+  - definition_change_record
+  - policy_document
+  - audit_log
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

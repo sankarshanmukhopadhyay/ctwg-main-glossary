@@ -1,47 +1,48 @@
 term: governance-document
 aliases:
-  - governance document
-  - governance documents
-definition: A document with at least one identifier that specifies governance requirements for a trust community.
+- governance document
+- governance documents
+definition: A document with at least one identifier that specifies governance requirements
+  for a trust community.
 notes:
-  - A governance document is a component of a governance framework.
+- A governance document is a component of a governance framework.
 see_also:
-  []
+- policy
+- governance-framework
+- requirement
+- governance
+- governing-authority
 sources:
-  []
-mental_models:
-  []
-supporting_definitions:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/governance-document.md`'
+mental_models: []
+supporting_definitions: []
 source_file: spec/terms-definitions/governance-document.md
 governance_profile: core-operational
 governance:
   authority_scope:
-    - policy_definition
-    - governance_recognition
+  - policy_definition
+  - governance_recognition
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: runtime
   control_plane_role: decision_plane_component
   enforcement_points:
-    - policy_approval
+  - policy_approval
 assurance:
   evidence_artifacts:
-    - policy_document
+  - policy_document
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
   decision_points:
-    - policy_approval
+  - policy_approval
   accountable_entity: governance_authority
   evidence_produced:
-    - policy_document
+  - policy_document
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

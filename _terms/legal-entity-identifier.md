@@ -26,6 +26,8 @@ Legal Entity Identifier, Legal Entity Identifiers, LEI, LEIs
 ## Assurance
 **Evidence artifacts**
 - definition_change_record
+- policy_document
+- audit_log
 
 - **Assurance level hint**: AL2+
 - **Auditability**: high
@@ -38,6 +40,8 @@ Legal Entity Identifier, Legal Entity Identifiers, LEI, LEIs
 
 **Evidence produced**
 - definition_change_record
+- policy_document
+- audit_log
 
 ## Notes
 - LEIs are administered by the Global Legal Entity Identifier Foundation (GLEIF).
@@ -49,7 +53,10 @@ Not specified
 Not specified
 
 ## See Also
-Not specified
+- glossary
+- definition
+- identifier
+- decentralized-identifier
 
 ## Crosswalk References
 Not specified

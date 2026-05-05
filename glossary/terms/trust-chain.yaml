@@ -1,51 +1,56 @@
 term: trust-chain
 aliases:
-  - trust chain
-  - trust chains
-definition: A set of cryptographically verifiable links between digital credentials or other data containers that enable transitive trust decisions.
-notes:
-  []
+- trust chain
+- trust chains
+definition: A set of cryptographically verifiable links between digital credentials
+  or other data containers that enable transitive trust decisions.
+notes: []
 see_also:
-  - chained credentials
-  - trust graph.
+- chained credentials
+- trust graph.
 sources:
-  []
-mental_models:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/trust-chain.md`'
+mental_models: []
 supporting_definitions:
-  - "For more information, see: [Design Principles for the ToIP Stack](https://trustoverip.org/our-work/design-principles/)."
+- 'For more information, see: [Design Principles for the ToIP Stack](https://trustoverip.org/our-work/design-principles/).'
 source_file: spec/terms-definitions/trust-chain.md
 governance_profile: core-operational
 governance:
   authority_scope:
-    - credential_issuance
+  - credential_issuance
   delegation_mode: direct
   revocation_supported: true
   lifecycle_states:
-    - proposed
-    - active
-    - suspended
-    - revoked
-    - retired
+  - proposed
+  - active
+  - suspended
+  - revoked
+  - retired
   execution_role: design
   control_plane_role: decision_plane_component
   enforcement_points:
-    - issuance_decision
-    - revocation_decision
+  - issuance_decision
+  - revocation_decision
 assurance:
   evidence_artifacts:
-    - issuance_log
+  - issuance_log
+  - registry_entry
+  - status_record
+  - audit_log
+  - verification_log
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
   decision_points:
-    - issuance_decision
-    - revocation_decision
+  - issuance_decision
+  - revocation_decision
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - issuance_log
+  - issuance_log
+  - registry_entry
+  - status_record
+  - audit_log
+  - verification_log
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

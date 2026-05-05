@@ -3,8 +3,11 @@ aliases:
 - ITPS
 definition: information-theoretic-security
 notes: []
-see_also: []
-sources: []
+see_also:
+- glossary
+- definition
+sources:
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/ITPS.md`'
 mental_models: []
 supporting_definitions: []
 source_file: spec/terms-definitions/ITPS.md

@@ -1,45 +1,58 @@
 term: governance-risk-management-compliance
 aliases:
-  - Governance - Risk Management - Compliance
-definition: Governance, risk management, and compliance (GRC) are three related facets that aim to assure an organization reliably achieves objectives, addresses uncertainty and acts with integrity. Governance is the combination of processes established and executed by the directors (or the board of directors) that are reflected in the organization's structure and how it is managed and led toward achieving goals. Risk management is predicting and managing risks that could hinder the organization from reliably achieving its objectives under uncertainty. Compliance refers to adhering with the mandated boundaries (laws and regulations) and voluntary boundaries (company's policies, procedures, etc.)
-notes:
-  []
+- Governance - Risk Management - Compliance
+definition: Governance, risk management, and compliance (GRC) are three related facets
+  that aim to assure an organization reliably achieves objectives, addresses uncertainty
+  and acts with integrity. Governance is the combination of processes established
+  and executed by the directors (or the board of directors) that are reflected in
+  the organization's structure and how it is managed and led toward achieving goals.
+  Risk management is predicting and managing risks that could hinder the organization
+  from reliably achieving its objectives under uncertainty. Compliance refers to adhering
+  with the mandated boundaries (laws and regulations) and voluntary boundaries (company's
+  policies, procedures, etc.)
+notes: []
 see_also:
-  []
+- governance
+- governance-framework
+- governing-authority
+- trust-registry
+- definition
+- glossary
 sources:
-  - "[Wikipedia](https://en.wikipedia.org/wiki/Governance,_risk_management,_and_compliance)."
-mental_models:
-  []
+- '[Wikipedia](https://en.wikipedia.org/wiki/Governance,_risk_management,_and_compliance).'
+mental_models: []
 supporting_definitions:
-  - "Also known as: [[ref: GRC]]."
+- 'Also known as: [[ref: GRC]].'
 source_file: spec/terms-definitions/governance---risk-management---compliance.md
 governance_profile: core-operational
 governance:
   authority_scope:
-    - governance_recognition
+  - governance_recognition
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: runtime
   control_plane_role: decision_plane_component
   enforcement_points:
-    - definition_approval
+  - definition_approval
 assurance:
   evidence_artifacts:
-    - definition_change_record
+  - definition_change_record
+  - policy_document
+  - audit_log
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
   decision_points:
-    - definition_approval
+  - definition_approval
   accountable_entity: governance_authority
   evidence_produced:
-    - definition_change_record
+  - definition_change_record
+  - policy_document
+  - audit_log
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

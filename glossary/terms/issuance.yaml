@@ -1,54 +1,58 @@
 term: issuance
 aliases:
-  - issuance
-  - issue
-  - issues
-  - issued
-  - issuing
-definition: The action of an issuer producing and transmitting a digital credential to a holder. A holder may request issuance by submitting an issuance request.
-notes:
-  []
+- issuance
+- issue
+- issues
+- issued
+- issuing
+definition: The action of an issuer producing and transmitting a digital credential
+  to a holder. A holder may request issuance by submitting an issuance request.
+notes: []
 see_also:
-  - presentation
-  - revocation.
+- presentation
+- revocation.
 sources:
-  []
-mental_models:
-  []
-supporting_definitions:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/issuance.md`'
+mental_models: []
+supporting_definitions: []
 source_file: spec/terms-definitions/issuance.md
 governance_profile: core-operational
 governance:
   authority_scope:
-    - credential_issuance
+  - credential_issuance
   delegation_mode: direct
   revocation_supported: true
   lifecycle_states:
-    - proposed
-    - active
-    - suspended
-    - revoked
-    - retired
+  - proposed
+  - active
+  - suspended
+  - revoked
+  - retired
   execution_role: runtime
   control_plane_role: decision_plane_component
   enforcement_points:
-    - issuance_decision
-    - revocation_decision
+  - issuance_decision
+  - revocation_decision
 assurance:
   evidence_artifacts:
-    - issuance_log
+  - issuance_log
+  - registry_entry
+  - status_record
+  - audit_log
+  - verification_log
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
   decision_points:
-    - issuance_decision
-    - revocation_decision
+  - issuance_decision
+  - revocation_decision
   accountable_entity: issuer_operator
   evidence_produced:
-    - issuance_log
+  - issuance_log
+  - registry_entry
+  - status_record
+  - audit_log
+  - verification_log
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

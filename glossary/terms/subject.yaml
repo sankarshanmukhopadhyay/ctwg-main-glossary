@@ -1,51 +1,65 @@
 term: subject
 aliases:
-  - subject
-  - subjects
-definition: The entity described by one or more claims, particularly in the context of credentials.
-notes:
-  []
+- subject
+- subjects
+definition: The entity described by one or more claims, particularly in the context
+  of credentials.
+notes: []
 see_also:
-  []
+- credential
+- issuer
+- issuance
+- verifiable-credential
 sources:
-  []
-mental_models:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/subject.md`'
+mental_models: []
 supporting_definitions:
-  - "[W3C VC](https://www.w3.org/TR/vc-data-model/#terminology): A thing about which [claims](https://www.w3.org/TR/vc-data-model/#dfn-claims) are made."
-  - "[eSSIF-Lab:](https://essif-lab.github.io/framework/docs/essifLab-glossary#subject) the (single) [[ref: entity]] to which a given set of coherent [[ref: data]] relates/pertains. Examples of such sets include attributes, [[ref: Claims]]/Assertions, files/dossiers, [[ref: verifiable credentials]], [(partial) identities](https://essif-lab.github.io/framework/docs/terms/partial-identity), [employment contracts](https://essif-lab.github.io/framework/docs/terms/employment-contract), etc."
+- '[W3C VC](https://www.w3.org/TR/vc-data-model/#terminology): A thing about which
+  [claims](https://www.w3.org/TR/vc-data-model/#dfn-claims) are made.'
+- '[eSSIF-Lab:](https://essif-lab.github.io/framework/docs/essifLab-glossary#subject)
+  the (single) [[ref: entity]] to which a given set of coherent [[ref: data]] relates/pertains.
+  Examples of such sets include attributes, [[ref: Claims]]/Assertions, files/dossiers,
+  [[ref: verifiable credentials]], [(partial) identities](https://essif-lab.github.io/framework/docs/terms/partial-identity),
+  [employment contracts](https://essif-lab.github.io/framework/docs/terms/employment-contract),
+  etc.'
 source_file: spec/terms-definitions/subject.md
 governance_profile: core-operational
 governance:
   authority_scope:
-    - credential_issuance
+  - credential_issuance
   delegation_mode: direct
   revocation_supported: true
   lifecycle_states:
-    - proposed
-    - active
-    - suspended
-    - revoked
-    - retired
+  - proposed
+  - active
+  - suspended
+  - revoked
+  - retired
   execution_role: design
   control_plane_role: decision_plane_component
   enforcement_points:
-    - issuance_decision
-    - revocation_decision
+  - issuance_decision
+  - revocation_decision
 assurance:
   evidence_artifacts:
-    - issuance_log
+  - issuance_log
+  - registry_entry
+  - status_record
+  - audit_log
+  - verification_log
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
   decision_points:
-    - issuance_decision
-    - revocation_decision
+  - issuance_decision
+  - revocation_decision
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - issuance_log
+  - issuance_log
+  - registry_entry
+  - status_record
+  - audit_log
+  - verification_log
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

@@ -1,57 +1,66 @@
 term: identity-binding
 aliases:
-  - identity binding
-  - identity bindings
-definition: The process of associating a set of identity data, such as a credential, with its subject, such as a natural person. The strength of an identity binding is one factor in determining an authenticator assurance level.
-notes:
-  []
+- identity binding
+- identity bindings
+definition: The process of associating a set of identity data, such as a credential,
+  with its subject, such as a natural person. The strength of an identity binding
+  is one factor in determining an authenticator assurance level.
+notes: []
 see_also:
-  - identity assurance level
-  - identity proofing.
+- identity assurance level
+- identity proofing.
 sources:
-  []
-mental_models:
-  []
-supporting_definitions:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/identity-binding.md`'
+mental_models: []
+supporting_definitions: []
 source_file: spec/terms-definitions/identity-binding.md
 governance_profile: core-operational
 governance:
   authority_scope:
-    - credential_issuance
-    - access_decisioning
-    - assurance_and_audit
+  - credential_issuance
+  - access_decisioning
+  - assurance_and_audit
   delegation_mode: direct
   revocation_supported: true
   lifecycle_states:
-    - proposed
-    - active
-    - suspended
-    - revoked
-    - retired
+  - proposed
+  - active
+  - suspended
+  - revoked
+  - retired
   execution_role: design
   control_plane_role: decision_plane_component
   enforcement_points:
-    - issuance_decision
-    - access_decision
-    - revocation_decision
+  - issuance_decision
+  - access_decision
+  - revocation_decision
 assurance:
   evidence_artifacts:
-    - issuance_log
-    - attestation
+  - issuance_log
+  - attestation
+  - access_decision_log
+  - policy_document
+  - registry_entry
+  - status_record
+  - audit_log
+  - verification_log
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
   decision_points:
-    - issuance_decision
-    - access_decision
-    - revocation_decision
+  - issuance_decision
+  - access_decision
+  - revocation_decision
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - issuance_log
-    - attestation
+  - issuance_log
+  - attestation
+  - access_decision_log
+  - policy_document
+  - registry_entry
+  - status_record
+  - audit_log
+  - verification_log
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

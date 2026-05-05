@@ -27,8 +27,8 @@ self-certifying identifier, self-certifying identifiers, SCID, SCIDs
 **Evidence artifacts**
 - verification_log
 
-- **Assurance level hint**: informative
-- **Auditability**: basic
+- **Assurance level hint**: AL1+
+- **Auditability**: moderate
 
 ## Control Plane
 **Decision points**

@@ -27,6 +27,10 @@ cryptographically verifiable, cryptographically verified
 ## Assurance
 **Evidence artifacts**
 - issuance_log
+- registry_entry
+- status_record
+- audit_log
+- verification_log
 
 - **Assurance level hint**: AL2+
 - **Auditability**: high
@@ -40,6 +44,10 @@ cryptographically verifiable, cryptographically verified
 
 **Evidence produced**
 - issuance_log
+- registry_entry
+- status_record
+- audit_log
+- verification_log
 
 ## Notes
 Not specified

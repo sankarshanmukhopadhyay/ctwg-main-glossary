@@ -1,46 +1,42 @@
 term: toip-technology-stack
 aliases:
-  - ToIP Technology Stack
-definition: The technology half of the four layer ToIP stack as defined by the ToIP Technology Architecture Specification.
-notes:
-  []
+- ToIP Technology Stack
+definition: The technology half of the four layer ToIP stack as defined by the ToIP
+  Technology Architecture Specification.
+notes: []
 see_also:
-  - ToIP Governance Stack
-  - ToIP layer.
+- ToIP Governance Stack
+- ToIP layer.
 sources:
-  []
-mental_models:
-  []
-supporting_definitions:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/toip-technology-stack.md`'
+mental_models: []
+supporting_definitions: []
 source_file: spec/terms-definitions/toip-technology-stack.md
 governance_profile: descriptive
 governance:
   authority_scope:
-    - terminology_definition
+  - terminology_definition
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: design
   control_plane_role: reference_term
   enforcement_points:
-    - definition_approval
+  - definition_approval
 assurance:
   evidence_artifacts:
-    - definition_change_record
+  - definition_change_record
   assurance_level_hint: informative
   auditability: basic
 control_plane:
   decision_points:
-    - definition_approval
+  - definition_approval
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - definition_change_record
+  - definition_change_record
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

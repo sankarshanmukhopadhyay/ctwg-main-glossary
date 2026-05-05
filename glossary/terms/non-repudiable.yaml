@@ -1,46 +1,46 @@
 term: non-repudiable
 aliases:
-  - non-repudiable
-  - non repudiable
-definition: Non-repudiation refers to a situation where a statement's author **cannot successfully dispute** its authorship or the validity of an associated contract, signature or commitment.
-notes:
-  []
+- non-repudiable
+- non repudiable
+definition: Non-repudiation refers to a situation where a statement's author **cannot
+  successfully dispute** its authorship or the validity of an associated contract,
+  signature or commitment.
+notes: []
 see_also:
-  []
+- glossary
+- definition
 sources:
-  []
-mental_models:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/non-repudiable.md`'
+mental_models: []
 supporting_definitions:
-  - The term is often seen in a legal setting when the authenticity of a signature is being challenged. In such an instance, the authenticity is being "repudiated".
+- The term is often seen in a legal setting when the authenticity of a signature is
+  being challenged. In such an instance, the authenticity is being "repudiated".
 source_file: spec/terms-definitions/non-repudiable.md
 governance_profile: descriptive
 governance:
   authority_scope:
-    - terminology_definition
+  - terminology_definition
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: design
   control_plane_role: reference_term
   enforcement_points:
-    - definition_approval
+  - definition_approval
 assurance:
   evidence_artifacts:
-    - definition_change_record
+  - definition_change_record
   assurance_level_hint: informative
   auditability: basic
 control_plane:
   decision_points:
-    - definition_approval
+  - definition_approval
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - definition_change_record
+  - definition_change_record
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

@@ -1,48 +1,53 @@
 term: requirement
 aliases:
-  - requirement
-  - requirements
-definition: A specified condition or behavior to which a system needs to comply. Technical requirements are defined in technical specifications and implemented in computer systems to be executed by software actors. Governance requirements are defined in governance documents that specify policies and procedures to be executed by human actors. In ToIP specifications, requirements are expressed using the keywords defined in Internet RFC 2119.
-notes:
-  []
+- requirement
+- requirements
+definition: A specified condition or behavior to which a system needs to comply. Technical
+  requirements are defined in technical specifications and implemented in computer
+  systems to be executed by software actors. Governance requirements are defined in
+  governance documents that specify policies and procedures to be executed by human
+  actors. In ToIP specifications, requirements are expressed using the keywords defined
+  in Internet RFC 2119.
+notes: []
 see_also:
-  - mandatory
-  - recommended
-  - optional.
+- mandatory
+- recommended
+- optional.
 sources:
-  []
-mental_models:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/requirement.md`'
+mental_models: []
 supporting_definitions:
-  - "For more information, see: <https://www.rfc-editor.org/rfc/rfc2119>."
+- 'For more information, see: <https://www.rfc-editor.org/rfc/rfc2119>.'
 source_file: spec/terms-definitions/requirement.md
 governance_profile: core-operational
 governance:
   authority_scope:
-    - governance_recognition
+  - governance_recognition
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: runtime
   control_plane_role: decision_plane_component
   enforcement_points:
-    - definition_approval
+  - definition_approval
 assurance:
   evidence_artifacts:
-    - definition_change_record
+  - definition_change_record
+  - policy_document
+  - audit_log
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
   decision_points:
-    - definition_approval
+  - definition_approval
   accountable_entity: governance_authority
   evidence_produced:
-    - definition_change_record
+  - definition_change_record
+  - policy_document
+  - audit_log
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

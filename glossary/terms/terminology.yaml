@@ -1,46 +1,50 @@
 term: terminology
 aliases:
-  - terminology
-  - terminologies
-definition: Terminology is a group of specialized words and respective meanings in a particular field, and also the study of such terms and their use; the latter meaning is also known as *terminology science*. A term is a word, compound word, or multi-word expressions that in specific contexts is given specific meanings—meaning which may deviate from the meanings the same words have in other contexts and in everyday language. Terminology is a discipline that studies, among other things, the development of such terms and their interrelationships within a specialized domain. Terminology differs from *lexicography*, as the former involves the study of concepts, conceptual systems and their labels (terms), whereas lexicography studies words and their meanings.
-notes:
-  []
+- terminology
+- terminologies
+definition: Terminology is a group of specialized words and respective meanings in
+  a particular field, and also the study of such terms and their use; the latter meaning
+  is also known as *terminology science*. A term is a word, compound word, or multi-word
+  expressions that in specific contexts is given specific meanings—meaning which may
+  deviate from the meanings the same words have in other contexts and in everyday
+  language. Terminology is a discipline that studies, among other things, the development
+  of such terms and their interrelationships within a specialized domain. Terminology
+  differs from *lexicography*, as the former involves the study of concepts, conceptual
+  systems and their labels (terms), whereas lexicography studies words and their meanings.
+notes: []
 see_also:
-  []
+- glossary
+- definition
 sources:
-  - "[Wikipedia](https://en.wikipedia.org/wiki/Terminology)."
-mental_models:
-  []
-supporting_definitions:
-  []
+- '[Wikipedia](https://en.wikipedia.org/wiki/Terminology).'
+mental_models: []
+supporting_definitions: []
 source_file: spec/terms-definitions/terminology.md
 governance_profile: descriptive
 governance:
   authority_scope:
-    - terminology_definition
+  - terminology_definition
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: hybrid
   control_plane_role: reference_term
   enforcement_points:
-    - definition_approval
+  - definition_approval
 assurance:
   evidence_artifacts:
-    - definition_change_record
+  - definition_change_record
   assurance_level_hint: informative
   auditability: basic
 control_plane:
   decision_points:
-    - definition_approval
+  - definition_approval
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - definition_change_record
+  - definition_change_record
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

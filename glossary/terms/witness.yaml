@@ -1,46 +1,51 @@
 term: witness
 aliases:
-  - witness
-  - witnesses
-definition: A computer system that receives, verifies, and stores proofs of key events for a verifiable identifier (especially an autonomic identifier). Each witness controls its own verifiable identifier used to sign key event messages stored by the witness. A witness may use any suitable computer system or database architecture, including a file, centralized database, distributed database, distributed ledger, or blockchain.
+- witness
+- witnesses
+definition: A computer system that receives, verifies, and stores proofs of key events
+  for a verifiable identifier (especially an autonomic identifier). Each witness controls
+  its own verifiable identifier used to sign key event messages stored by the witness.
+  A witness may use any suitable computer system or database architecture, including
+  a file, centralized database, distributed database, distributed ledger, or blockchain.
 notes:
-  - KERI is an example of a key management system that uses witnesses.
+- KERI is an example of a key management system that uses witnesses.
 see_also:
-  []
+- glossary
+- definition
 sources:
-  []
-mental_models:
-  []
-supporting_definitions:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/witness.md`'
+mental_models: []
+supporting_definitions: []
 source_file: spec/terms-definitions/witness.md
 governance_profile: core-operational
 governance:
   authority_scope:
-    - terminology_definition
+  - terminology_definition
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: design
   control_plane_role: decision_plane_component
   enforcement_points:
-    - definition_approval
+  - definition_approval
 assurance:
   evidence_artifacts:
-    - definition_change_record
+  - definition_change_record
+  - policy_document
+  - audit_log
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
   decision_points:
-    - definition_approval
+  - definition_approval
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - definition_change_record
+  - definition_change_record
+  - policy_document
+  - audit_log
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

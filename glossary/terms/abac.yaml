@@ -1,45 +1,47 @@
 term: abac
 aliases:
-  - ABAC
-definition: "See: attribute-based access control."
-notes:
-  []
+- ABAC
+definition: 'See: attribute-based access control.'
+notes: []
 see_also:
-  []
+- authorization
+- permission
+- role-based-access-control
+- attribute-based-access-control
 sources:
-  []
-mental_models:
-  []
-supporting_definitions:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/abac.md`'
+mental_models: []
+supporting_definitions: []
 source_file: spec/terms-definitions/abac.md
 governance_profile: core-operational
 governance:
   authority_scope:
-    - access_decisioning
+  - access_decisioning
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: design
   control_plane_role: decision_plane_component
   enforcement_points:
-    - access_decision
+  - access_decision
 assurance:
   evidence_artifacts:
-    - definition_change_record
+  - definition_change_record
+  - access_decision_log
+  - policy_document
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
   decision_points:
-    - access_decision
+  - access_decision
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - definition_change_record
+  - definition_change_record
+  - access_decision_log
+  - policy_document
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

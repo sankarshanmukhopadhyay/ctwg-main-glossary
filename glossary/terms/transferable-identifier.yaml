@@ -1,46 +1,49 @@
 term: transferable-identifier
 aliases:
-  - transferable-identifier
-  - transferable identifier
-definition: "Control over the identifier transferable by [[xref: keri1, rotation]]."
-notes:
-  []
+- transferable-identifier
+- transferable identifier
+definition: 'Control over the identifier transferable by [[xref: keri1, rotation]].'
+notes: []
 see_also:
-  []
+- glossary
+- definition
+- identifier
+- decentralized-identifier
 sources:
-  []
-mental_models:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/transferable-identifier.md`'
+mental_models: []
 supporting_definitions:
-  - "A synonym is [[ref: persistent identifier]]."
+- 'A synonym is [[ref: persistent identifier]].'
 source_file: spec/terms-definitions/transferable-identifier.md
 governance_profile: core-operational
 governance:
   authority_scope:
-    - terminology_definition
+  - terminology_definition
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: design
   control_plane_role: decision_plane_component
   enforcement_points:
-    - definition_approval
+  - definition_approval
 assurance:
   evidence_artifacts:
-    - definition_change_record
+  - definition_change_record
+  - policy_document
+  - audit_log
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
   decision_points:
-    - definition_approval
+  - definition_approval
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - definition_change_record
+  - definition_change_record
+  - policy_document
+  - audit_log
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

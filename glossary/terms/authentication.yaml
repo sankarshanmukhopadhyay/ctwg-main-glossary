@@ -1,54 +1,65 @@
 term: authentication
 aliases:
-  - authentication
-  - authenticate
-  - authenticates
-  - authenticated
-  - authenticating
-definition: Verifying the identity of a user, process, or device, often as a prerequisite to allowing access to resources in an information system.
-notes:
-  []
+- authentication
+- authenticate
+- authenticates
+- authenticated
+- authenticating
+definition: Verifying the identity of a user, process, or device, often as a prerequisite
+  to allowing access to resources in an information system.
+notes: []
 see_also:
-  - authenticator
-  - verifiable message.
+- authenticator
+- verifiable message.
 sources:
-  - "[NIST-CSRC](https://csrc.nist.gov/glossary/term/authentication)."
-mental_models:
-  []
+- '[NIST-CSRC](https://csrc.nist.gov/glossary/term/authentication).'
+mental_models: []
 supporting_definitions:
-  - "[Wikipedia](https://en.wikipedia.org/wiki/Authentication): The act of proving an [assertion](https://en.wikipedia.org/wiki/Logical_assertion), such as the [identity](https://en.wikipedia.org/wiki/Digital_identity) of a computer system user."
+- '[Wikipedia](https://en.wikipedia.org/wiki/Authentication): The act of proving an
+  [assertion](https://en.wikipedia.org/wiki/Logical_assertion), such as the [identity](https://en.wikipedia.org/wiki/Digital_identity)
+  of a computer system user.'
 source_file: spec/terms-definitions/authentication.md
 governance_profile: core-operational
 governance:
   authority_scope:
-    - access_decisioning
+  - access_decisioning
   delegation_mode: direct
   revocation_supported: true
   lifecycle_states:
-    - proposed
-    - active
-    - suspended
-    - revoked
-    - retired
+  - proposed
+  - active
+  - suspended
+  - revoked
+  - retired
   execution_role: runtime
   control_plane_role: decision_plane_component
   enforcement_points:
-    - access_decision
-    - revocation_decision
+  - access_decision
+  - revocation_decision
 assurance:
   evidence_artifacts:
-    - access_decision_log
+  - access_decision_log
+  - policy_document
+  - status_record
+  - audit_log
+  - verification_log
+  - registry_entry
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
   decision_points:
-    - access_decision
-    - revocation_decision
+  - access_decision
+  - revocation_decision
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - access_decision_log
+  - access_decision_log
+  - policy_document
+  - status_record
+  - audit_log
+  - verification_log
+  - registry_entry
 crosswalk:
   nist:
-    - IA-2
+  - IA-2
   iso:
-    - ISO/IEC 27001 A.5.17
+  - ISO/IEC 27001 A.5.17

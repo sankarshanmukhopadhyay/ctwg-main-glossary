@@ -314,7 +314,7 @@
       "slug": "biometric",
       "source_file": "spec/terms-definitions/biometric.md",
       "governance_profile": "descriptive",
-      "assurance_level_hint": "informative"
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "blockchain",
@@ -2078,7 +2078,7 @@
       "slug": "peer",
       "source_file": "spec/terms-definitions/peer.md",
       "governance_profile": "descriptive",
-      "assurance_level_hint": "informative"
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "permission",
@@ -2659,7 +2659,7 @@
       "slug": "self-certifying-identifier",
       "source_file": "spec/terms-definitions/self-certifying-identifier.md",
       "governance_profile": "descriptive",
-      "assurance_level_hint": "informative"
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "self-sovereign-identity",

@@ -1,47 +1,63 @@
 term: trust-service-provider
 aliases:
-  - trust service provider
-  - trust service providers
-definition: In the context of specific digital trust ecosystems, such as the European Union’s eIDAS regulations, a trust service provider is a legal entity that provides specific trust support services as required by legal regulations, trust frameworks, or governance frameworks. In the larger context of ToIP infrastructure, a trust service provider is a provider of services based on the ToIP stack. Most generally, a trust service provider is to the trust layer for the Internet what an Internet service provider (ISP) is to the Internet layer.
+- trust service provider
+- trust service providers
+definition: In the context of specific digital trust ecosystems, such as the European
+  Union’s eIDAS regulations, a trust service provider is a legal entity that provides
+  specific trust support services as required by legal regulations, trust frameworks,
+  or governance frameworks. In the larger context of ToIP infrastructure, a trust
+  service provider is a provider of services based on the ToIP stack. Most generally,
+  a trust service provider is to the trust layer for the Internet what an Internet
+  service provider (ISP) is to the Internet layer.
 notes:
-  - In the industry, the acronym "TSP" is used for both trust service provider and the ToIP Trust Spanning Protocol. In the ToIP Glossary, the acronmym "TSP" will only be used for the latter.
+- In the industry, the acronym "TSP" is used for both trust service provider and the
+  ToIP Trust Spanning Protocol. In the ToIP Glossary, the acronmym "TSP" will only
+  be used for the latter.
 see_also:
-  []
+- policy
+- governance-framework
+- requirement
+- governance
+- governing-authority
 sources:
-  []
-mental_models:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/trust-service-provider.md`'
+mental_models: []
 supporting_definitions:
-  - "Wikipedia: A trust service provider (TSP) is a person or legal entity providing and preserving [digital certificates](https://en.wikipedia.org/wiki/Digital_certificate) to create and validate [electronic signatures](https://en.wikipedia.org/wiki/Electronic_signature) and to authenticate their signatories as well as websites in general. Trust service providers are qualified [certificate authorities](https://en.wikipedia.org/wiki/Certificate_authority) required in the [European Union](https://en.wikipedia.org/wiki/European_Union) and in Switzerland in the context of regulated [electronic signing](https://en.wikipedia.org/wiki/Electronic_signature) procedures."
+- 'Wikipedia: A trust service provider (TSP) is a person or legal entity providing
+  and preserving [digital certificates](https://en.wikipedia.org/wiki/Digital_certificate)
+  to create and validate [electronic signatures](https://en.wikipedia.org/wiki/Electronic_signature)
+  and to authenticate their signatories as well as websites in general. Trust service
+  providers are qualified [certificate authorities](https://en.wikipedia.org/wiki/Certificate_authority)
+  required in the [European Union](https://en.wikipedia.org/wiki/European_Union) and
+  in Switzerland in the context of regulated [electronic signing](https://en.wikipedia.org/wiki/Electronic_signature)
+  procedures.'
 source_file: spec/terms-definitions/trust-service-provider.md
 governance_profile: core-operational
 governance:
   authority_scope:
-    - policy_definition
-    - governance_recognition
+  - policy_definition
+  - governance_recognition
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: runtime
   control_plane_role: decision_plane_component
   enforcement_points:
-    - policy_approval
+  - policy_approval
 assurance:
   evidence_artifacts:
-    - policy_document
+  - policy_document
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
   decision_points:
-    - policy_approval
+  - policy_approval
   accountable_entity: governance_authority
   evidence_produced:
-    - policy_document
+  - policy_document
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

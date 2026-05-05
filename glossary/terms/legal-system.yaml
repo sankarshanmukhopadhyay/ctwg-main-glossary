@@ -1,47 +1,49 @@
 term: legal-system
 aliases:
-  - legal system
-  - legal systems
-definition: A system in which policies and rules are defined, and mechanisms for their enforcement and conflict resolution are (implicitly or explicitly) specified. Legal systems are not just defined by governments; they can also be defined by a governance framework.
-notes:
-  []
+- legal system
+- legal systems
+definition: A system in which policies and rules are defined, and mechanisms for their
+  enforcement and conflict resolution are (implicitly or explicitly) specified. Legal
+  systems are not just defined by governments; they can also be defined by a governance
+  framework.
+notes: []
 see_also:
-  []
+- policy
+- governance-framework
+- requirement
+- governance
+- governing-authority
 sources:
-  - "[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#legal-system)"
-mental_models:
-  []
-supporting_definitions:
-  []
+- '[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#legal-system)'
+mental_models: []
+supporting_definitions: []
 source_file: spec/terms-definitions/legal-system.md
 governance_profile: core-operational
 governance:
   authority_scope:
-    - policy_definition
-    - governance_recognition
+  - policy_definition
+  - governance_recognition
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: runtime
   control_plane_role: decision_plane_component
   enforcement_points:
-    - policy_approval
+  - policy_approval
 assurance:
   evidence_artifacts:
-    - policy_document
+  - policy_document
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
   decision_points:
-    - policy_approval
+  - policy_approval
   accountable_entity: governance_authority
   evidence_produced:
-    - policy_document
+  - policy_document
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

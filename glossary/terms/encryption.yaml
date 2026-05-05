@@ -1,49 +1,49 @@
 term: encryption
 aliases:
-  - encryption
-  - encrypt
-  - encrypts
-  - encrypted
-  - encrypting
-definition: Cryptographic transformation of data (called plaintext) into a form (called ciphertext) that conceals the data's original meaning to prevent it from being known or used. If the transformation is reversible, the corresponding reversal process is called decryption, which is a transformation that restores encrypted data to its original state.
-notes:
-  []
+- encryption
+- encrypt
+- encrypts
+- encrypted
+- encrypting
+definition: Cryptographic transformation of data (called plaintext) into a form (called
+  ciphertext) that conceals the data's original meaning to prevent it from being known
+  or used. If the transformation is reversible, the corresponding reversal process
+  is called decryption, which is a transformation that restores encrypted data to
+  its original state.
+notes: []
 see_also:
-  []
+- glossary
+- definition
 sources:
-  - "[NIST-CSRC](https://csrc.nist.gov/glossary/term/encryption)."
-mental_models:
-  []
-supporting_definitions:
-  []
+- '[NIST-CSRC](https://csrc.nist.gov/glossary/term/encryption).'
+mental_models: []
+supporting_definitions: []
 source_file: spec/terms-definitions/encryption.md
 governance_profile: descriptive
 governance:
   authority_scope:
-    - terminology_definition
+  - terminology_definition
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: design
   control_plane_role: reference_term
   enforcement_points:
-    - definition_approval
+  - definition_approval
 assurance:
   evidence_artifacts:
-    - definition_change_record
+  - definition_change_record
   assurance_level_hint: informative
   auditability: basic
 control_plane:
   decision_points:
-    - definition_approval
+  - definition_approval
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - definition_change_record
+  - definition_change_record
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

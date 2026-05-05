@@ -1,46 +1,43 @@
 term: key-event-receipt-infrastructure
 aliases:
-  - Key Event Receipt Infrastructure
+- Key Event Receipt Infrastructure
 definition: A decentralized permissionless key management architecture.
-notes:
-  []
+notes: []
 see_also:
-  []
+- glossary
+- definition
 sources:
-  []
-mental_models:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/key-event-receipt-infrastructure.md`'
+mental_models: []
 supporting_definitions:
-  - "Also known as: [[ref: KERI]]."
-  - "For more information, see: <https://keri.one/>, [ToIP ACDC Task Force](https://wiki.trustoverip.org/display/HOME/ACDC+%28Authentic+Chained+Data+Container%29+Task+Force)"
+- 'Also known as: [[ref: KERI]].'
+- 'For more information, see: <https://keri.one/>, [ToIP ACDC Task Force](https://wiki.trustoverip.org/display/HOME/ACDC+%28Authentic+Chained+Data+Container%29+Task+Force)'
 source_file: spec/terms-definitions/key-event-receipt-infrastructure.md
 governance_profile: descriptive
 governance:
   authority_scope:
-    - terminology_definition
+  - terminology_definition
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: design
   control_plane_role: reference_term
   enforcement_points:
-    - definition_approval
+  - definition_approval
 assurance:
   evidence_artifacts:
-    - definition_change_record
+  - definition_change_record
   assurance_level_hint: informative
   auditability: basic
 control_plane:
   decision_points:
-    - definition_approval
+  - definition_approval
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - definition_change_record
+  - definition_change_record
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

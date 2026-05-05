@@ -27,6 +27,11 @@ second party, second parties
 ## Assurance
 **Evidence artifacts**
 - delegation_record
+- policy_document
+- status_record
+- audit_log
+- verification_log
+- registry_entry
 
 - **Assurance level hint**: AL2+
 - **Auditability**: high
@@ -40,6 +45,11 @@ second party, second parties
 
 **Evidence produced**
 - delegation_record
+- policy_document
+- status_record
+- audit_log
+- verification_log
+- registry_entry
 
 ## Notes
 Not specified

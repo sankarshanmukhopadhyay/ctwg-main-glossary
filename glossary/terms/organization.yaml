@@ -1,49 +1,58 @@
 term: organization
 aliases:
-  - organization
-  - organizations
-  - organisation
-  - organisations
-definition: A party that consists of a group of parties who agree to be organized into a specific form in order to better achieve a common set of objectives. Examples include corporations, partnerships, sole proprietorships, non-profit organizations, associations, and governments.
-notes:
-  []
+- organization
+- organizations
+- organisation
+- organisations
+definition: A party that consists of a group of parties who agree to be organized
+  into a specific form in order to better achieve a common set of objectives. Examples
+  include corporations, partnerships, sole proprietorships, non-profit organizations,
+  associations, and governments.
+notes: []
 see_also:
-  - legal entity
-  - legal person.
+- legal entity
+- legal person.
 sources:
-  []
-mental_models:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/organization.md`'
+mental_models: []
 supporting_definitions:
-  - "[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#organization): a [party](https://essif-lab.github.io/framework/docs/terms/party) that is capable of setting [objectives](https://essif-lab.github.io/framework/docs/terms/objective) and making sure these are realized by [actors](https://essif-lab.github.io/framework/docs/terms/actor) that it has [onboarded](https://essif-lab.github.io/framework/docs/terms/onboarding) and/or by (vetted) [parties](https://essif-lab.github.io/framework/docs/terms/party) that are committed to contribute to these [objectives](https://essif-lab.github.io/framework/docs/terms/objective)."
+- '[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#organization):
+  a [party](https://essif-lab.github.io/framework/docs/terms/party) that is capable
+  of setting [objectives](https://essif-lab.github.io/framework/docs/terms/objective)
+  and making sure these are realized by [actors](https://essif-lab.github.io/framework/docs/terms/actor)
+  that it has [onboarded](https://essif-lab.github.io/framework/docs/terms/onboarding)
+  and/or by (vetted) [parties](https://essif-lab.github.io/framework/docs/terms/party)
+  that are committed to contribute to these [objectives](https://essif-lab.github.io/framework/docs/terms/objective).'
 source_file: spec/terms-definitions/organization.md
 governance_profile: governance-supporting
 governance:
   authority_scope:
-    - terminology_definition
+  - terminology_definition
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: design
   control_plane_role: decision_plane_component
   enforcement_points:
-    - definition_approval
+  - definition_approval
 assurance:
   evidence_artifacts:
-    - definition_change_record
+  - definition_change_record
+  - policy_document
+  - audit_log
   assurance_level_hint: AL1+
   auditability: moderate
 control_plane:
   decision_points:
-    - definition_approval
+  - definition_approval
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - definition_change_record
+  - definition_change_record
+  - policy_document
+  - audit_log
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

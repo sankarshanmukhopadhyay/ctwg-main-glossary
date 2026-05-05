@@ -29,6 +29,10 @@ ecosystem governance framework, ecosystem governance frameworks, EGF, EGFs
 **Evidence artifacts**
 - policy_document
 - issuance_log
+- registry_entry
+- audit_log
+- status_record
+- verification_log
 
 - **Assurance level hint**: AL2+
 - **Auditability**: high
@@ -44,6 +48,10 @@ ecosystem governance framework, ecosystem governance frameworks, EGF, EGFs
 **Evidence produced**
 - policy_document
 - issuance_log
+- registry_entry
+- audit_log
+- status_record
+- verification_log
 
 ## Notes
 - An ecosystem governance framework typically defines the authoritative scope within which participants, registries, policies, and recognition decisions are coordinated.
@@ -55,7 +63,12 @@ ecosystem governance framework, ecosystem governance frameworks, EGF, EGFs
 Not specified
 
 ## See Also
-Not specified
+- credential
+- issuer
+- issuance
+- verifiable-credential
+- policy
+- governance-framework
 
 ## Crosswalk References
 Not specified

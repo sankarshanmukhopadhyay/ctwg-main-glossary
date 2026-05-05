@@ -1,50 +1,61 @@
 term: transitive-trust-decision
 aliases:
-  - transitive trust decision
-  - transitive trust decisions
-definition: A trust decision made by a first party about a second party or another entity based on information about the second party or the other entity that is obtained from one or more third parties.
+- transitive trust decision
+- transitive trust decisions
+definition: A trust decision made by a first party about a second party or another
+  entity based on information about the second party or the other entity that is obtained
+  from one or more third parties.
 notes:
-  - A primary purpose of digital credentials, chained credentials, trust registries, and the ToIP stack is to facilitate transitive trust decisions.
+- A primary purpose of digital credentials, chained credentials, trust registries,
+  and the ToIP stack is to facilitate transitive trust decisions.
 see_also:
-  []
+- credential
+- issuer
+- issuance
+- verifiable-credential
 sources:
-  []
-mental_models:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/transitive-trust-decision.md`'
+mental_models: []
 supporting_definitions:
-  - "For more information, see: [Design Principles for the ToIP Stack](https://trustoverip.org/our-work/design-principles/)."
+- 'For more information, see: [Design Principles for the ToIP Stack](https://trustoverip.org/our-work/design-principles/).'
 source_file: spec/terms-definitions/transitive-trust-decision.md
 governance_profile: core-operational
 governance:
   authority_scope:
-    - credential_issuance
+  - credential_issuance
   delegation_mode: direct
   revocation_supported: true
   lifecycle_states:
-    - proposed
-    - active
-    - suspended
-    - revoked
-    - retired
+  - proposed
+  - active
+  - suspended
+  - revoked
+  - retired
   execution_role: design
   control_plane_role: decision_plane_component
   enforcement_points:
-    - issuance_decision
-    - revocation_decision
+  - issuance_decision
+  - revocation_decision
 assurance:
   evidence_artifacts:
-    - issuance_log
+  - issuance_log
+  - registry_entry
+  - status_record
+  - audit_log
+  - verification_log
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
   decision_points:
-    - issuance_decision
-    - revocation_decision
+  - issuance_decision
+  - revocation_decision
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - issuance_log
+  - issuance_log
+  - registry_entry
+  - status_record
+  - audit_log
+  - verification_log
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

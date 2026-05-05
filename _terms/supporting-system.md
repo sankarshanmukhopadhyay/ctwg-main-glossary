@@ -26,6 +26,8 @@ supporting system, supporting systems
 ## Assurance
 **Evidence artifacts**
 - definition_change_record
+- policy_document
+- audit_log
 
 - **Assurance level hint**: AL1+
 - **Auditability**: moderate
@@ -38,6 +40,8 @@ supporting system, supporting systems
 
 **Evidence produced**
 - definition_change_record
+- policy_document
+- audit_log
 
 ## Notes
 Not specified

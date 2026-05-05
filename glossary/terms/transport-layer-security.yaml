@@ -1,45 +1,49 @@
 term: transport-layer-security
 aliases:
-  - Transport Layer Security
-definition: Transport Layer Security (TLS) is a cryptographic protocol designed to provide communications security over a computer network. The protocol is widely used in applications such as email, instant messaging, and Voice over IP, but its use in securing HTTPS remains the most publicly visible. The TLS protocol aims primarily to provide security, including privacy (confidentiality), integrity, and authenticity through the use of cryptography, such as the use of certificates, between two or more communicating computer applications.
+- Transport Layer Security
+definition: Transport Layer Security (TLS) is a cryptographic protocol designed to
+  provide communications security over a computer network. The protocol is widely
+  used in applications such as email, instant messaging, and Voice over IP, but its
+  use in securing HTTPS remains the most publicly visible. The TLS protocol aims primarily
+  to provide security, including privacy (confidentiality), integrity, and authenticity
+  through the use of cryptography, such as the use of certificates, between two or
+  more communicating computer applications.
 notes:
-  - TLS replaced the deprecated Secure Sockets Layer (SSL) protocol.
+- TLS replaced the deprecated Secure Sockets Layer (SSL) protocol.
 see_also:
-  []
+- glossary
+- definition
 sources:
-  - "[Wikipedia](https://en.wikipedia.org/wiki/Transport_Layer_Security)."
-mental_models:
-  []
+- '[Wikipedia](https://en.wikipedia.org/wiki/Transport_Layer_Security).'
+mental_models: []
 supporting_definitions:
-  - "Also known as: [[ref: TLS]]."
+- 'Also known as: [[ref: TLS]].'
 source_file: spec/terms-definitions/transport-layer-security.md
 governance_profile: descriptive
 governance:
   authority_scope:
-    - terminology_definition
+  - terminology_definition
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: design
   control_plane_role: reference_term
   enforcement_points:
-    - definition_approval
+  - definition_approval
 assurance:
   evidence_artifacts:
-    - definition_change_record
+  - definition_change_record
   assurance_level_hint: informative
   auditability: basic
 control_plane:
   decision_points:
-    - definition_approval
+  - definition_approval
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - definition_change_record
+  - definition_change_record
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

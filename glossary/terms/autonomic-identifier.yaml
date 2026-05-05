@@ -1,46 +1,46 @@
 term: autonomic-identifier
 aliases:
-  - autonomic identifier
-  - autonomic identifiers
-definition: "The specific type of self-certifying identifier defined by the KERI specifications: [[xref:keri1, autonomic-identifier]]."
-notes:
-  []
+- autonomic identifier
+- autonomic identifiers
+definition: 'The specific type of self-certifying identifier defined by the KERI specifications:
+  [[xref:keri1, autonomic-identifier]].'
+notes: []
 see_also:
-  []
+- glossary
+- definition
+- identifier
+- decentralized-identifier
 sources:
-  []
-mental_models:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/autonomic-identifier.md`'
+mental_models: []
 supporting_definitions:
-  - "Also known as: [[ref: AID]]."
+- 'Also known as: [[ref: AID]].'
 source_file: spec/terms-definitions/autonomic-identifier.md
 governance_profile: descriptive
 governance:
   authority_scope:
-    - terminology_definition
+  - terminology_definition
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: design
   control_plane_role: reference_term
   enforcement_points:
-    - definition_approval
+  - definition_approval
 assurance:
   evidence_artifacts:
-    - definition_change_record
+  - definition_change_record
   assurance_level_hint: informative
   auditability: basic
 control_plane:
   decision_points:
-    - definition_approval
+  - definition_approval
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - definition_change_record
+  - definition_change_record
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

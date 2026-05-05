@@ -1,48 +1,50 @@
 term: uniform-resource-identifier
 aliases:
-  - Uniform Resource Identifier
-  - Uniform Resource Identifiers
-  - URI
-  - URIs
-definition: A Uniform Resource Identifier (URI) is the generic standard for all types of identifiers used to link resources in the World Wide Web. The most common type of a URI is a URL (Uniform Resource Locator). The URI standard is defined by IETF RFC 3986. URNs (Uniform Resource Names) are another type of URIs intended for persistent identifiers.
-notes:
-  []
+- Uniform Resource Identifier
+- Uniform Resource Identifiers
+- URI
+- URIs
+definition: A Uniform Resource Identifier (URI) is the generic standard for all types
+  of identifiers used to link resources in the World Wide Web. The most common type
+  of a URI is a URL (Uniform Resource Locator). The URI standard is defined by IETF
+  RFC 3986. URNs (Uniform Resource Names) are another type of URIs intended for persistent
+  identifiers.
+notes: []
 see_also:
-  []
+- glossary
+- definition
+- identifier
+- decentralized-identifier
 sources:
-  []
-mental_models:
-  []
-supporting_definitions:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/uniform-resource-identifier.md`'
+mental_models: []
+supporting_definitions: []
 source_file: spec/terms-definitions/uniform-resource-identifier.md
 governance_profile: descriptive
 governance:
   authority_scope:
-    - terminology_definition
+  - terminology_definition
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: design
   control_plane_role: reference_term
   enforcement_points:
-    - definition_approval
+  - definition_approval
 assurance:
   evidence_artifacts:
-    - definition_change_record
+  - definition_change_record
   assurance_level_hint: informative
   auditability: basic
 control_plane:
   decision_points:
-    - definition_approval
+  - definition_approval
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - definition_change_record
+  - definition_change_record
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

@@ -29,6 +29,12 @@ identity binding, identity bindings
 **Evidence artifacts**
 - issuance_log
 - attestation
+- access_decision_log
+- policy_document
+- registry_entry
+- status_record
+- audit_log
+- verification_log
 
 - **Assurance level hint**: AL2+
 - **Auditability**: high
@@ -44,6 +50,12 @@ identity binding, identity bindings
 **Evidence produced**
 - issuance_log
 - attestation
+- access_decision_log
+- policy_document
+- registry_entry
+- status_record
+- audit_log
+- verification_log
 
 ## Notes
 Not specified

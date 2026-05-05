@@ -1,46 +1,49 @@
 term: reputation
 aliases:
-  - reputation
-  - reputations
-definition: The beliefs or opinions that are generally held about an entity, typically developed as a result of social evaluation on a set of criteria, such as behavior, performance, or trustworthiness.
-notes:
-  []
+- reputation
+- reputations
+definition: The beliefs or opinions that are generally held about an entity, typically
+  developed as a result of social evaluation on a set of criteria, such as behavior,
+  performance, or trustworthiness.
+notes: []
 see_also:
-  []
+- glossary
+- definition
 sources:
-  []
-mental_models:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/reputation.md`'
+mental_models: []
 supporting_definitions:
-  - "Also see KERI definition: [[xref:keri1, reputation]]"
+- 'Also see KERI definition: [[xref:keri1, reputation]]'
 source_file: spec/terms-definitions/reputation.md
 governance_profile: governance-supporting
 governance:
   authority_scope:
-    - terminology_definition
+  - terminology_definition
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: design
   control_plane_role: decision_plane_component
   enforcement_points:
-    - definition_approval
+  - definition_approval
 assurance:
   evidence_artifacts:
-    - definition_change_record
+  - definition_change_record
+  - policy_document
+  - audit_log
   assurance_level_hint: AL1+
   auditability: moderate
 control_plane:
   decision_points:
-    - definition_approval
+  - definition_approval
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - definition_change_record
+  - definition_change_record
+  - policy_document
+  - audit_log
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

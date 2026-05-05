@@ -1,64 +1,77 @@
 term: revocation
 aliases:
-  - revocation
-  - revocations
-  - revoke
-  - revokes
-  - revoked
-  - revoking
-definition: In the context of digital credentials, revocation is an event or status change signifying that the issuer no longer attests to the validity of a credential it has issued. In the context of cryptographic keys, revocation is an event or status change signifying that the controller no longer attests to the validity of a public/private key pair for which the controller is authoritative.
+- revocation
+- revocations
+- revoke
+- revokes
+- revoked
+- revoking
+definition: In the context of digital credentials, revocation is an event or status
+  change signifying that the issuer no longer attests to the validity of a credential
+  it has issued. In the context of cryptographic keys, revocation is an event or status
+  change signifying that the controller no longer attests to the validity of a public/private
+  key pair for which the controller is authoritative.
 notes:
-  - Revocation only has practical effect when relying parties or other affected actors can discover and act on the changed status.
+- Revocation only has practical effect when relying parties or other affected actors
+  can discover and act on the changed status.
 see_also:
-  - issuance
-  - presentation.
+- issuance
+- presentation.
 sources:
-  []
-mental_models:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/revocation.md`'
+mental_models: []
 supporting_definitions:
-  - "[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#revokerevocation): the act, by or on behalf of the [party](https://essif-lab.github.io/framework/docs/terms/party) that has issued the [credential](https://essif-lab.github.io/framework/docs/terms/credential), of no longer vouching for the correctness or any other qualification of (arbitrary parts of) that [credential](https://essif-lab.github.io/framework/docs/terms/credential)."
-  - "[NIST-CSRC](https://csrc.nist.gov/glossary/term/revocation): **​​For digital certificates**: The process of permanently ending the binding between a certificate and the identity asserted in the certificate from a specified time forward. **For cryptographic keys**: A process whereby a notice is made available to affected entities that keys should be removed from operational use prior to the end of the established cryptoperiod of those keys."
+- '[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#revokerevocation):
+  the act, by or on behalf of the [party](https://essif-lab.github.io/framework/docs/terms/party)
+  that has issued the [credential](https://essif-lab.github.io/framework/docs/terms/credential),
+  of no longer vouching for the correctness or any other qualification of (arbitrary
+  parts of) that [credential](https://essif-lab.github.io/framework/docs/terms/credential).'
+- '[NIST-CSRC](https://csrc.nist.gov/glossary/term/revocation): **​​For digital certificates**:
+  The process of permanently ending the binding between a certificate and the identity
+  asserted in the certificate from a specified time forward. **For cryptographic keys**:
+  A process whereby a notice is made available to affected entities that keys should
+  be removed from operational use prior to the end of the established cryptoperiod
+  of those keys.'
 source_file: spec/terms-definitions/revocation.md
 governance_profile: core-operational
 governance:
   authority_scope:
-    - credential_issuance
-    - verification_and_reliance
-    - governance_recognition
+  - credential_issuance
+  - verification_and_reliance
+  - governance_recognition
   delegation_mode: direct
   revocation_supported: true
   lifecycle_states:
-    - proposed
-    - active
-    - suspended
-    - revoked
-    - retired
+  - proposed
+  - active
+  - suspended
+  - revoked
+  - retired
   execution_role: runtime
   control_plane_role: decision_plane_component
   enforcement_points:
-    - reliance_decision
-    - issuance_decision
-    - revocation_decision
+  - reliance_decision
+  - issuance_decision
+  - revocation_decision
 assurance:
   evidence_artifacts:
-    - status_record
-    - issuance_log
-    - verification_log
+  - status_record
+  - issuance_log
+  - verification_log
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
   decision_points:
-    - reliance_decision
-    - issuance_decision
-    - revocation_decision
+  - reliance_decision
+  - issuance_decision
+  - revocation_decision
   accountable_entity: issuer_operator
   evidence_produced:
-    - status_record
-    - issuance_log
-    - verification_log
+  - status_record
+  - issuance_log
+  - verification_log
 crosswalk:
   nist:
-    - CM-3
+  - CM-3
   iso:
-    - ISO/IEC 27001 A.5.36
+  - ISO/IEC 27001 A.5.36

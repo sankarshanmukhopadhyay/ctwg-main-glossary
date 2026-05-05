@@ -1,46 +1,46 @@
 term: actor
 aliases:
-  - actor
-  - actors
-definition: An entity that can act (do things/execute actions), e.g. people, machines, but not organizations. A digital agent can serve as an actor acting on behalf of its principal.
-notes:
-  []
+- actor
+- actors
+definition: An entity that can act (do things/execute actions), e.g. people, machines,
+  but not organizations. A digital agent can serve as an actor acting on behalf of
+  its principal.
+notes: []
 see_also:
-  []
+- delegation
+- delegator
+- delegatee
+- authorization
 sources:
-  - "[eSSIF-Lab](https://essif-lab.github.io/framework/docs/terms/actor)."
-mental_models:
-  []
-supporting_definitions:
-  []
+- '[eSSIF-Lab](https://essif-lab.github.io/framework/docs/terms/actor).'
+mental_models: []
+supporting_definitions: []
 source_file: spec/terms-definitions/actor.md
 governance_profile: core-operational
 governance:
   authority_scope:
-    - delegation_and_scope
+  - delegation_and_scope
   delegation_mode: direct_or_constrained
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: runtime
   control_plane_role: decision_plane_component
   enforcement_points:
-    - delegation_grant
+  - delegation_grant
 assurance:
   evidence_artifacts:
-    - delegation_record
+  - delegation_record
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
   decision_points:
-    - delegation_grant
+  - delegation_grant
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - delegation_record
+  - delegation_record
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

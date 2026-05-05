@@ -29,6 +29,11 @@ capability, capabilities
 **Evidence artifacts**
 - delegation_record
 - access_decision_log
+- policy_document
+- status_record
+- audit_log
+- verification_log
+- registry_entry
 
 - **Assurance level hint**: AL2+
 - **Auditability**: high
@@ -44,6 +49,11 @@ capability, capabilities
 **Evidence produced**
 - delegation_record
 - access_decision_log
+- policy_document
+- status_record
+- audit_log
+- verification_log
+- registry_entry
 
 ## Notes
 Not specified
@@ -55,7 +65,11 @@ Not specified
 Not specified
 
 ## See Also
-Not specified
+- delegation
+- delegator
+- delegatee
+- authorization
+- permission
 
 ## Crosswalk References
 Not specified

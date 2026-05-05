@@ -29,6 +29,10 @@ administering body, administering bodies
 **Evidence artifacts**
 - policy_document
 - delegation_record
+- audit_log
+- status_record
+- verification_log
+- registry_entry
 
 - **Assurance level hint**: AL2+
 - **Auditability**: high
@@ -44,6 +48,10 @@ administering body, administering bodies
 **Evidence produced**
 - policy_document
 - delegation_record
+- audit_log
+- status_record
+- verification_log
+- registry_entry
 
 ## Notes
 Not specified
@@ -55,7 +63,12 @@ Not specified
 Not specified
 
 ## See Also
-Not specified
+- policy
+- governance-framework
+- requirement
+- delegation
+- delegator
+- delegatee
 
 ## Crosswalk References
 Not specified

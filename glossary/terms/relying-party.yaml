@@ -1,56 +1,56 @@
 term: relying-party
 aliases:
-  - relying party
-  - relying parties
-definition: A party who accepts claims, credentials, trust graphs, or any other form of verifiable data from other parties (such as issuers, holders, trust registries, or other authoritative sources) in order to make a trust decision.
+- relying party
+- relying parties
+definition: A party who accepts claims, credentials, trust graphs, or any other form
+  of verifiable data from other parties (such as issuers, holders, trust registries,
+  or other authoritative sources) in order to make a trust decision.
 notes:
-  - The term “relying party” is more commonly used in federated identity architecture; the term “verifier” is more commonly used with decentralized identity architecture and verifiable credentials.
+- The term “relying party” is more commonly used in federated identity architecture;
+  the term “verifier” is more commonly used with decentralized identity architecture
+  and verifiable credentials.
 see_also:
-  - verifier.
+- verifier.
 sources:
-  []
-mental_models:
-  []
-supporting_definitions:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/relying-party.md`'
+mental_models: []
+supporting_definitions: []
 source_file: spec/terms-definitions/relying-party.md
 governance_profile: core-operational
 governance:
   authority_scope:
-    - credential_issuance
-    - verification_and_reliance
-    - governance_recognition
+  - credential_issuance
+  - verification_and_reliance
+  - governance_recognition
   delegation_mode: direct
   revocation_supported: true
   lifecycle_states:
-    - proposed
-    - active
-    - suspended
-    - revoked
-    - retired
+  - proposed
+  - active
+  - suspended
+  - revoked
+  - retired
   execution_role: runtime
   control_plane_role: decision_plane_component
   enforcement_points:
-    - reliance_decision
-    - issuance_decision
-    - revocation_decision
+  - reliance_decision
+  - issuance_decision
+  - revocation_decision
 assurance:
   evidence_artifacts:
-    - issuance_log
-    - verification_log
+  - issuance_log
+  - verification_log
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
   decision_points:
-    - reliance_decision
-    - issuance_decision
-    - revocation_decision
+  - reliance_decision
+  - issuance_decision
+  - revocation_decision
   accountable_entity: issuer_operator
   evidence_produced:
-    - issuance_log
-    - verification_log
+  - issuance_log
+  - verification_log
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

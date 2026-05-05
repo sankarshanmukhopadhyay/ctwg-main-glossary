@@ -1,54 +1,63 @@
 term: claim
 aliases:
-  - claim
-  - claims
-  - claimed
-  - claiming
-definition: An assertion about a subject, typically expressed as an attribute or property of the subject. It is called a “claim” because the assertion is always made by some party, called the issuer of the claim, and the validity of the claim must be judged by the verifier.
+- claim
+- claims
+- claimed
+- claiming
+definition: An assertion about a subject, typically expressed as an attribute or property
+  of the subject. It is called a “claim” because the assertion is always made by some
+  party, called the issuer of the claim, and the validity of the claim must be judged
+  by the verifier.
 notes:
-  - If the issuer of the claim is also the subject of the claim, the claim is self-asserted.
+- If the issuer of the claim is also the subject of the claim, the claim is self-asserted.
 see_also:
-  []
+- credential
+- issuer
+- issuance
+- verifiable-credential
+- verification
+- verifier
 sources:
-  []
-mental_models:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/claim.md`'
+mental_models: []
 supporting_definitions:
-  - "[W3C VC](https://www.w3.org/TR/vc-data-model/#terminology): An assertion made about a [subject](https://www.w3.org/TR/vc-data-model/#dfn-subjects)."
-  - "[Wikipedia](https://en.wikipedia.org/wiki/Claims-based_identity): A claim is a statement that one subject, such as a person or organization, makes about itself or another subject. For example, the statement can be about a name, group, buying preference, ethnicity, privilege, association or capability."
+- '[W3C VC](https://www.w3.org/TR/vc-data-model/#terminology): An assertion made about
+  a [subject](https://www.w3.org/TR/vc-data-model/#dfn-subjects).'
+- '[Wikipedia](https://en.wikipedia.org/wiki/Claims-based_identity): A claim is a
+  statement that one subject, such as a person or organization, makes about itself
+  or another subject. For example, the statement can be about a name, group, buying
+  preference, ethnicity, privilege, association or capability.'
 source_file: spec/terms-definitions/claim.md
 governance_profile: core-operational
 governance:
   authority_scope:
-    - credential_issuance
-    - verification_and_reliance
+  - credential_issuance
+  - verification_and_reliance
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: runtime
   control_plane_role: decision_plane_component
   enforcement_points:
-    - reliance_decision
-    - issuance_decision
+  - reliance_decision
+  - issuance_decision
 assurance:
   evidence_artifacts:
-    - issuance_log
-    - verification_log
+  - issuance_log
+  - verification_log
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
   decision_points:
-    - reliance_decision
-    - issuance_decision
+  - reliance_decision
+  - issuance_decision
   accountable_entity: issuer_operator
   evidence_produced:
-    - issuance_log
-    - verification_log
+  - issuance_log
+  - verification_log
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

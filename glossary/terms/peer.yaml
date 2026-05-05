@@ -1,48 +1,48 @@
 term: peer
 aliases:
-  - peer
-  - peers
-definition: In the context of digital networks, an actor on the network that has the same status, privileges, and communications options as the other actors on the network.
-notes:
-  []
+- peer
+- peers
+definition: In the context of digital networks, an actor on the network that has the
+  same status, privileges, and communications options as the other actors on the network.
+notes: []
 see_also:
-  - peer-to-peer.
+- peer-to-peer.
 sources:
-  []
-mental_models:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/peer.md`'
+mental_models: []
 supporting_definitions:
-  - "[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#peer-actor): the [actor](https://essif-lab.github.io/framework/docs/terms/actor) with whom/which this other [actor](https://essif-lab.github.io/framework/docs/terms/actor) is communicating in that [communication session](https://essif-lab.github.io/framework/docs/terms/communication-session)."
+- '[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#peer-actor):
+  the [actor](https://essif-lab.github.io/framework/docs/terms/actor) with whom/which
+  this other [actor](https://essif-lab.github.io/framework/docs/terms/actor) is communicating
+  in that [communication session](https://essif-lab.github.io/framework/docs/terms/communication-session).'
 source_file: spec/terms-definitions/peer.md
 governance_profile: descriptive
 governance:
   authority_scope:
-    - terminology_definition
+  - terminology_definition
   delegation_mode: direct
   revocation_supported: true
   lifecycle_states:
-    - proposed
-    - active
-    - suspended
-    - revoked
-    - retired
+  - proposed
+  - active
+  - suspended
+  - revoked
+  - retired
   execution_role: design
   control_plane_role: reference_term
   enforcement_points:
-    - revocation_decision
+  - revocation_decision
 assurance:
   evidence_artifacts:
-    - status_record
-  assurance_level_hint: informative
-  auditability: basic
+  - status_record
+  assurance_level_hint: AL1+
+  auditability: moderate
 control_plane:
   decision_points:
-    - revocation_decision
+  - revocation_decision
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - status_record
+  - status_record
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

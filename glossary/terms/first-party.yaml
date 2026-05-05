@@ -1,47 +1,47 @@
 term: first-party
 aliases:
-  - first party
-  - first parties
-definition: The party who initiates a trust relationship, connection, or transaction with a second party.
-notes:
-  []
+- first party
+- first parties
+definition: The party who initiates a trust relationship, connection, or transaction
+  with a second party.
+notes: []
 see_also:
-  - third party
-  - fourth party.
+- third party
+- fourth party.
 sources:
-  []
-mental_models:
-  []
-supporting_definitions:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/first-party.md`'
+mental_models: []
+supporting_definitions: []
 source_file: spec/terms-definitions/first-party.md
 governance_profile: governance-supporting
 governance:
   authority_scope:
-    - terminology_definition
+  - terminology_definition
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: design
   control_plane_role: decision_plane_component
   enforcement_points:
-    - definition_approval
+  - definition_approval
 assurance:
   evidence_artifacts:
-    - definition_change_record
+  - definition_change_record
+  - policy_document
+  - audit_log
   assurance_level_hint: AL1+
   auditability: moderate
 control_plane:
   decision_points:
-    - definition_approval
+  - definition_approval
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - definition_change_record
+  - definition_change_record
+  - policy_document
+  - audit_log
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

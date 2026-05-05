@@ -1,54 +1,56 @@
 term: three-party-model
 aliases:
-  - three party model
-definition: The issuer—holder—verifier model used by all types of physical credentials and digital credentials to enable transitive trust decisions.
-notes:
-  []
+- three party model
+definition: The issuer—holder—verifier model used by all types of physical credentials
+  and digital credentials to enable transitive trust decisions.
+notes: []
 see_also:
-  []
+- credential
+- issuer
+- issuance
+- verifiable-credential
+- verification
+- verifier
 sources:
-  []
-mental_models:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/three-party-model.md`'
+mental_models: []
 supporting_definitions:
-  - "Also known as: [[ref: trust triangle]]."
+- 'Also known as: [[ref: trust triangle]].'
 source_file: spec/terms-definitions/three-party-model.md
 governance_profile: core-operational
 governance:
   authority_scope:
-    - credential_issuance
-    - verification_and_reliance
+  - credential_issuance
+  - verification_and_reliance
   delegation_mode: direct
   revocation_supported: true
   lifecycle_states:
-    - proposed
-    - active
-    - suspended
-    - revoked
-    - retired
+  - proposed
+  - active
+  - suspended
+  - revoked
+  - retired
   execution_role: runtime
   control_plane_role: decision_plane_component
   enforcement_points:
-    - reliance_decision
-    - issuance_decision
-    - revocation_decision
+  - reliance_decision
+  - issuance_decision
+  - revocation_decision
 assurance:
   evidence_artifacts:
-    - issuance_log
-    - verification_log
+  - issuance_log
+  - verification_log
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
   decision_points:
-    - reliance_decision
-    - issuance_decision
-    - revocation_decision
+  - reliance_decision
+  - issuance_decision
+  - revocation_decision
   accountable_entity: issuer_operator
   evidence_produced:
-    - issuance_log
-    - verification_log
+  - issuance_log
+  - verification_log
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

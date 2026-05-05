@@ -1,57 +1,65 @@
 term: verifiable
 aliases:
-  - verifiable
-  - verifiability
-definition: In the context of digital communications infrastructure, the ability to determine the authenticity of a communication (e.g., sender, contents, claims, metadata, provenance), or the underlying sociotechnical infrastructure (e.g., governance, roles, policies, authorizations, certifications).
-notes:
-  []
+- verifiable
+- verifiability
+definition: In the context of digital communications infrastructure, the ability to
+  determine the authenticity of a communication (e.g., sender, contents, claims, metadata,
+  provenance), or the underlying sociotechnical infrastructure (e.g., governance,
+  roles, policies, authorizations, certifications).
+notes: []
 see_also:
-  - appraisable
-  - digital signature.
+- appraisable
+- digital signature.
 sources:
-  []
-mental_models:
-  []
-supporting_definitions:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/verifiable.md`'
+mental_models: []
+supporting_definitions: []
 source_file: spec/terms-definitions/verifiable.md
 governance_profile: core-operational
 governance:
   authority_scope:
-    - credential_issuance
-    - access_decisioning
-    - governance_recognition
+  - credential_issuance
+  - access_decisioning
+  - governance_recognition
   delegation_mode: direct
   revocation_supported: true
   lifecycle_states:
-    - proposed
-    - active
-    - suspended
-    - revoked
-    - retired
+  - proposed
+  - active
+  - suspended
+  - revoked
+  - retired
   execution_role: runtime
   control_plane_role: decision_plane_component
   enforcement_points:
-    - issuance_decision
-    - access_decision
-    - revocation_decision
+  - issuance_decision
+  - access_decision
+  - revocation_decision
 assurance:
   evidence_artifacts:
-    - issuance_log
-    - access_decision_log
+  - issuance_log
+  - access_decision_log
+  - policy_document
+  - registry_entry
+  - status_record
+  - audit_log
+  - verification_log
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
   decision_points:
-    - issuance_decision
-    - access_decision
-    - revocation_decision
+  - issuance_decision
+  - access_decision
+  - revocation_decision
   accountable_entity: governance_authority
   evidence_produced:
-    - issuance_log
-    - access_decision_log
+  - issuance_log
+  - access_decision_log
+  - policy_document
+  - registry_entry
+  - status_record
+  - audit_log
+  - verification_log
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

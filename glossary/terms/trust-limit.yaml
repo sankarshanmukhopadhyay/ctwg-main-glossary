@@ -1,46 +1,50 @@
 term: trust-limit
 aliases:
-  - trust limit
-  - trust limits
-definition: A limit to the degree a party is willing to trust an entity in a specific trust relationship within a specific trust context.
-notes:
-  []
+- trust limit
+- trust limits
+definition: A limit to the degree a party is willing to trust an entity in a specific
+  trust relationship within a specific trust context.
+notes: []
 see_also:
-  []
+- glossary
+- definition
+- trust
+- trust-registry
 sources:
-  []
-mental_models:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/trust-limit.md`'
+mental_models: []
 supporting_definitions:
-  - "For more information, see: [Design Principles for the ToIP Stack](https://trustoverip.org/our-work/design-principles/)."
+- 'For more information, see: [Design Principles for the ToIP Stack](https://trustoverip.org/our-work/design-principles/).'
 source_file: spec/terms-definitions/trust-limit.md
 governance_profile: governance-supporting
 governance:
   authority_scope:
-    - terminology_definition
+  - terminology_definition
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: design
   control_plane_role: decision_plane_component
   enforcement_points:
-    - definition_approval
+  - definition_approval
 assurance:
   evidence_artifacts:
-    - definition_change_record
+  - definition_change_record
+  - policy_document
+  - audit_log
   assurance_level_hint: AL1+
   auditability: moderate
 control_plane:
   decision_points:
-    - definition_approval
+  - definition_approval
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - definition_change_record
+  - definition_change_record
+  - policy_document
+  - audit_log
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

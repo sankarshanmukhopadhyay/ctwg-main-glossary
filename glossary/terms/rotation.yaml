@@ -1,49 +1,51 @@
 term: rotation
 aliases:
-  - rotation
-  - rotation-event
-  - key-rotation
-  - rotation event
-  - key rotation
-definition: a change of the key state, including a change to the set of authoritative key pairs for an identifier AID.
-notes:
-  []
+- rotation
+- rotation-event
+- key-rotation
+- rotation event
+- key rotation
+definition: a change of the key state, including a change to the set of authoritative
+  key pairs for an identifier AID.
+notes: []
 see_also:
-  []
+- governance
+- governance-framework
+- governing-authority
+- trust-registry
+- definition
+- glossary
 sources:
-  []
-mental_models:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/rotation.md`'
+mental_models: []
 supporting_definitions:
-  - "Also see KERI [[ref: rotation-event]]"
+- 'Also see KERI [[ref: rotation-event]]'
 source_file: spec/terms-definitions/rotation.md
 governance_profile: descriptive
 governance:
   authority_scope:
-    - governance_recognition
+  - governance_recognition
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: design
   control_plane_role: reference_term
   enforcement_points:
-    - definition_approval
+  - definition_approval
 assurance:
   evidence_artifacts:
-    - definition_change_record
+  - definition_change_record
   assurance_level_hint: informative
   auditability: basic
 control_plane:
   decision_points:
-    - definition_approval
+  - definition_approval
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - definition_change_record
+  - definition_change_record
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

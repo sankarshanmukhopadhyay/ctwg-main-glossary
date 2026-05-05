@@ -1,52 +1,64 @@
 term: did-document
 aliases:
-  - DID document
-  - DID documents
-  - DID doc
-  - DID docs
-definition: A set of data describing the DID subject, including mechanisms, such as cryptographic public keys, that the DID subject or a DID delegate can use to authenticate itself and prove its association with the DID. A DID document might have one or more different representations as defined in section 6 of the W3C Decentralized Identifiers (DIDs) 1.0 specification.
-notes:
-  []
+- DID document
+- DID documents
+- DID doc
+- DID docs
+definition: A set of data describing the DID subject, including mechanisms, such as
+  cryptographic public keys, that the DID subject or a DID delegate can use to authenticate
+  itself and prove its association with the DID. A DID document might have one or
+  more different representations as defined in section 6 of the W3C Decentralized
+  Identifiers (DIDs) 1.0 specification.
+notes: []
 see_also:
-  []
+- delegation
+- delegator
+- delegatee
+- authorization
 sources:
-  - "[W3C DID](https://www.w3.org/TR/did-core/#terminology)."
-mental_models:
-  []
-supporting_definitions:
-  []
+- '[W3C DID](https://www.w3.org/TR/did-core/#terminology).'
+mental_models: []
+supporting_definitions: []
 source_file: spec/terms-definitions/did-document.md
 governance_profile: core-operational
 governance:
   authority_scope:
-    - delegation_and_scope
+  - delegation_and_scope
   delegation_mode: direct_or_constrained
   revocation_supported: true
   lifecycle_states:
-    - proposed
-    - active
-    - suspended
-    - revoked
-    - retired
+  - proposed
+  - active
+  - suspended
+  - revoked
+  - retired
   execution_role: runtime
   control_plane_role: decision_plane_component
   enforcement_points:
-    - delegation_grant
-    - revocation_decision
+  - delegation_grant
+  - revocation_decision
 assurance:
   evidence_artifacts:
-    - delegation_record
+  - delegation_record
+  - policy_document
+  - status_record
+  - audit_log
+  - verification_log
+  - registry_entry
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
   decision_points:
-    - delegation_grant
-    - revocation_decision
+  - delegation_grant
+  - revocation_decision
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - delegation_record
+  - delegation_record
+  - policy_document
+  - status_record
+  - audit_log
+  - verification_log
+  - registry_entry
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

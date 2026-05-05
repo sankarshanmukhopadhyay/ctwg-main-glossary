@@ -27,6 +27,11 @@ permission, permissions
 ## Assurance
 **Evidence artifacts**
 - access_decision_log
+- policy_document
+- status_record
+- audit_log
+- verification_log
+- registry_entry
 
 - **Assurance level hint**: AL2+
 - **Auditability**: high
@@ -40,6 +45,11 @@ permission, permissions
 
 **Evidence produced**
 - access_decision_log
+- policy_document
+- status_record
+- audit_log
+- verification_log
+- registry_entry
 
 ## Notes
 Not specified
@@ -51,7 +61,11 @@ Not specified
 Not specified
 
 ## See Also
-Not specified
+- authorization
+- role-based-access-control
+- attribute-based-access-control
+- access-control
+- revocation
 
 ## Crosswalk References
 Not specified

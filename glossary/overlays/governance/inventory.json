@@ -6402,21 +6402,27 @@
       "term": "abac",
       "slug": "abac",
       "evidence_artifacts": [
-        "definition_change_record"
+        "access_decision_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
       "term": "acceptance",
       "slug": "acceptance",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
       "term": "acceptance-network",
       "slug": "acceptance-network",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -6430,7 +6436,11 @@
       "term": "accreditation",
       "slug": "accreditation",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
@@ -6465,15 +6475,23 @@
       "term": "administering-authority",
       "slug": "administering-authority",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
       "term": "administering-body",
       "slug": "administering-body",
       "evidence_artifacts": [
+        "audit_log",
         "delegation_record",
-        "policy_document"
+        "policy_document",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
@@ -6487,7 +6505,12 @@
       "term": "agent",
       "slug": "agent",
       "evidence_artifacts": [
-        "delegation_record"
+        "audit_log",
+        "delegation_record",
+        "policy_document",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
@@ -6529,15 +6552,23 @@
       "term": "appropriate-friction",
       "slug": "appropriate-friction",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
       "term": "assurance-level",
       "slug": "assurance-level",
       "evidence_artifacts": [
+        "access_decision_log",
         "attestation",
-        "issuance_log"
+        "audit_log",
+        "issuance_log",
+        "policy_document",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
@@ -6566,7 +6597,9 @@
       "term": "attributional-trust",
       "slug": "attributional-trust",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -6594,7 +6627,11 @@
       "term": "authentic-chained-data-container",
       "slug": "authentic-chained-data-container",
       "evidence_artifacts": [
-        "issuance_log"
+        "audit_log",
+        "issuance_log",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
@@ -6608,14 +6645,25 @@
       "term": "authentication",
       "slug": "authentication",
       "evidence_artifacts": [
-        "access_decision_log"
+        "access_decision_log",
+        "audit_log",
+        "policy_document",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
       "term": "authenticator",
       "slug": "authenticator",
       "evidence_artifacts": [
-        "issuance_log"
+        "access_decision_log",
+        "audit_log",
+        "issuance_log",
+        "policy_document",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
@@ -6630,14 +6678,20 @@
       "term": "authenticity",
       "slug": "authenticity",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
       "term": "authoritative",
       "slug": "authoritative",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
@@ -6663,23 +6717,37 @@
       "slug": "authorization",
       "evidence_artifacts": [
         "access_decision_log",
+        "audit_log",
         "issuance_log",
-        "policy_document"
+        "policy_document",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
       "term": "authorization-graph",
       "slug": "authorization-graph",
       "evidence_artifacts": [
-        "access_decision_log"
+        "access_decision_log",
+        "audit_log",
+        "policy_document",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
       "term": "authorized-organizational-representative",
       "slug": "authorized-organizational-representative",
       "evidence_artifacts": [
+        "audit_log",
         "delegation_record",
-        "issuance_log"
+        "issuance_log",
+        "policy_document",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
@@ -6693,14 +6761,20 @@
       "term": "autonomic-identity-system",
       "slug": "autonomic-identity-system",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
       "term": "autonomic-namespace",
       "slug": "autonomic-namespace",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
@@ -6728,7 +6802,12 @@
       "term": "bola",
       "slug": "bola",
       "evidence_artifacts": [
-        "access_decision_log"
+        "access_decision_log",
+        "audit_log",
+        "policy_document",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
@@ -6742,14 +6821,21 @@
       "term": "broadcast-address",
       "slug": "broadcast-address",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
       "term": "broken-object-level-authorization",
       "slug": "broken-object-level-authorization",
       "evidence_artifacts": [
-        "access_decision_log"
+        "access_decision_log",
+        "audit_log",
+        "policy_document",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
@@ -6763,7 +6849,11 @@
       "term": "ca",
       "slug": "ca",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
@@ -6778,7 +6868,12 @@
       "slug": "capability",
       "evidence_artifacts": [
         "access_decision_log",
-        "delegation_record"
+        "audit_log",
+        "delegation_record",
+        "policy_document",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
@@ -6792,21 +6887,31 @@
       "term": "certificate-authority",
       "slug": "certificate-authority",
       "evidence_artifacts": [
-        "policy_document"
+        "audit_log",
+        "policy_document",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
       "term": "certification",
       "slug": "certification",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
       "term": "certification-authority",
       "slug": "certification-authority",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
@@ -6820,21 +6925,29 @@
       "term": "chain-of-trust",
       "slug": "chain-of-trust",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
       "term": "chained-credentials",
       "slug": "chained-credentials",
       "evidence_artifacts": [
-        "issuance_log"
+        "audit_log",
+        "issuance_log",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
       "term": "chaining",
       "slug": "chaining",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -6940,7 +7053,9 @@
       "term": "confidentiality",
       "slug": "confidentiality",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -6975,14 +7090,22 @@
       "term": "control-authority",
       "slug": "control-authority",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
       "term": "controlled-document",
       "slug": "controlled-document",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
@@ -6996,7 +7119,9 @@
       "term": "correlation-privacy",
       "slug": "correlation-privacy",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -7010,44 +7135,68 @@
       "term": "credential",
       "slug": "credential",
       "evidence_artifacts": [
-        "issuance_log"
+        "audit_log",
+        "issuance_log",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
       "term": "credential-family",
       "slug": "credential-family",
       "evidence_artifacts": [
+        "audit_log",
         "issuance_log",
-        "policy_document"
+        "policy_document",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
       "term": "credential-governance-framework",
       "slug": "credential-governance-framework",
       "evidence_artifacts": [
+        "audit_log",
         "issuance_log",
-        "policy_document"
+        "policy_document",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
       "term": "credential-offer",
       "slug": "credential-offer",
       "evidence_artifacts": [
-        "issuance_log"
+        "audit_log",
+        "issuance_log",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
       "term": "credential-request",
       "slug": "credential-request",
       "evidence_artifacts": [
-        "issuance_log"
+        "audit_log",
+        "issuance_log",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
       "term": "credential-schema",
       "slug": "credential-schema",
       "evidence_artifacts": [
-        "issuance_log"
+        "audit_log",
+        "issuance_log",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
@@ -7075,7 +7224,9 @@
       "term": "cryptographic-trust",
       "slug": "cryptographic-trust",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -7096,7 +7247,11 @@
       "term": "cryptographically-verifiable",
       "slug": "cryptographically-verifiable",
       "evidence_artifacts": [
-        "issuance_log"
+        "audit_log",
+        "issuance_log",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
@@ -7110,14 +7265,18 @@
       "term": "custodial-wallet",
       "slug": "custodial-wallet",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
       "term": "custodian",
       "slug": "custodian",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -7145,14 +7304,20 @@
       "term": "data-packet",
       "slug": "data-packet",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
       "term": "data-schema",
       "slug": "data-schema",
       "evidence_artifacts": [
-        "issuance_log"
+        "audit_log",
+        "issuance_log",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
@@ -7180,21 +7345,31 @@
       "term": "dead-drop",
       "slug": "dead-drop",
       "evidence_artifacts": [
-        "issuance_log"
+        "audit_log",
+        "issuance_log",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
       "term": "decentralized-identifier",
       "slug": "decentralized-identifier",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
       "term": "decentralized-identity",
       "slug": "decentralized-identity",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -7243,29 +7418,49 @@
       "term": "delegatee",
       "slug": "delegatee",
       "evidence_artifacts": [
-        "delegation_record"
+        "audit_log",
+        "delegation_record",
+        "policy_document",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
       "term": "delegation",
       "slug": "delegation",
       "evidence_artifacts": [
-        "delegation_record"
+        "audit_log",
+        "delegation_record",
+        "policy_document",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
       "term": "delegation-credential",
       "slug": "delegation-credential",
       "evidence_artifacts": [
+        "audit_log",
         "delegation_record",
-        "issuance_log"
+        "issuance_log",
+        "policy_document",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
       "term": "delegator",
       "slug": "delegator",
       "evidence_artifacts": [
-        "delegation_record"
+        "audit_log",
+        "delegation_record",
+        "policy_document",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
@@ -7279,7 +7474,9 @@
       "term": "device-controller",
       "slug": "device-controller",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -7307,7 +7504,12 @@
       "term": "did-document",
       "slug": "did-document",
       "evidence_artifacts": [
-        "delegation_record"
+        "audit_log",
+        "delegation_record",
+        "policy_document",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
@@ -7335,7 +7537,12 @@
       "term": "digital-agent",
       "slug": "digital-agent",
       "evidence_artifacts": [
-        "delegation_record"
+        "audit_log",
+        "delegation_record",
+        "policy_document",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
@@ -7378,7 +7585,9 @@
       "term": "digital-rights-management",
       "slug": "digital-rights-management",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -7469,8 +7678,12 @@
       "term": "ecosystem-governance-framework",
       "slug": "ecosystem-governance-framework",
       "evidence_artifacts": [
+        "audit_log",
         "issuance_log",
-        "policy_document"
+        "policy_document",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
@@ -7526,7 +7739,9 @@
       "term": "end-verifiable",
       "slug": "end-verifiable",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -7547,14 +7762,18 @@
       "term": "enterprise-data-vault",
       "slug": "enterprise-data-vault",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
       "term": "enterprise-wallet",
       "slug": "enterprise-wallet",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -7596,7 +7815,9 @@
       "term": "federated-identity",
       "slug": "federated-identity",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -7619,35 +7840,49 @@
       "term": "fiduciary",
       "slug": "fiduciary",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
       "term": "first-party",
       "slug": "first-party",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
       "term": "foundational-identity",
       "slug": "foundational-identity",
       "evidence_artifacts": [
-        "issuance_log"
+        "audit_log",
+        "issuance_log",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
       "term": "fourth-party",
       "slug": "fourth-party",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
       "term": "functional-identity",
       "slug": "functional-identity",
       "evidence_artifacts": [
-        "issuance_log"
+        "audit_log",
+        "issuance_log",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
@@ -7668,7 +7903,9 @@
       "term": "general-data-protection-regulation",
       "slug": "general-data-protection-regulation",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -7682,7 +7919,9 @@
       "term": "governance",
       "slug": "governance",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -7704,7 +7943,11 @@
       "term": "governance-framework",
       "slug": "governance-framework",
       "evidence_artifacts": [
-        "policy_document"
+        "audit_log",
+        "policy_document",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
@@ -7725,7 +7968,9 @@
       "term": "governance-risk-management-compliance",
       "slug": "governance-risk-management-compliance",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -7755,29 +8000,43 @@
       "term": "governing-authority",
       "slug": "governing-authority",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
       "term": "governing-body",
       "slug": "governing-body",
       "evidence_artifacts": [
+        "audit_log",
         "delegation_record",
-        "policy_document"
+        "policy_document",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
       "term": "grc",
       "slug": "grc",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
       "term": "guardian",
       "slug": "guardian",
       "evidence_artifacts": [
-        "issuance_log"
+        "audit_log",
+        "issuance_log",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
@@ -7791,7 +8050,11 @@
       "term": "guardianship-credential",
       "slug": "guardianship-credential",
       "evidence_artifacts": [
-        "issuance_log"
+        "audit_log",
+        "issuance_log",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
@@ -7819,15 +8082,22 @@
       "term": "holder",
       "slug": "holder",
       "evidence_artifacts": [
+        "audit_log",
         "delegation_record",
-        "issuance_log"
+        "issuance_log",
+        "policy_document",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
       "term": "holder-binding",
       "slug": "holder-binding",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -7863,7 +8133,9 @@
       "term": "human-experience",
       "slug": "human-experience",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -7927,15 +8199,23 @@
       "term": "identity-binding",
       "slug": "identity-binding",
       "evidence_artifacts": [
+        "access_decision_log",
         "attestation",
-        "issuance_log"
+        "audit_log",
+        "issuance_log",
+        "policy_document",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
       "term": "identity-controller",
       "slug": "identity-controller",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -7949,7 +8229,11 @@
       "term": "identity-document",
       "slug": "identity-document",
       "evidence_artifacts": [
-        "issuance_log"
+        "audit_log",
+        "issuance_log",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
@@ -7999,7 +8283,9 @@
       "term": "intermediary-system",
       "slug": "intermediary-system",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -8034,14 +8320,22 @@
       "term": "issuance",
       "slug": "issuance",
       "evidence_artifacts": [
-        "issuance_log"
+        "audit_log",
+        "issuance_log",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
       "term": "issuance-request",
       "slug": "issuance-request",
       "evidence_artifacts": [
-        "issuance_log"
+        "audit_log",
+        "issuance_log",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
@@ -8065,7 +8359,9 @@
       "term": "jurisdiction",
       "slug": "jurisdiction",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -8121,7 +8417,9 @@
       "term": "key-management-system",
       "slug": "key-management-system",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -8184,14 +8482,18 @@
       "term": "legal-entity",
       "slug": "legal-entity",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
       "term": "legal-entity-identifier",
       "slug": "legal-entity-identifier",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -8219,7 +8521,12 @@
       "term": "legitimized-human-meaningful-identifier",
       "slug": "legitimized-human-meaningful-identifier",
       "evidence_artifacts": [
-        "access_decision_log"
+        "access_decision_log",
+        "audit_log",
+        "policy_document",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
@@ -8254,7 +8561,9 @@
       "term": "locus-of-control",
       "slug": "locus-of-control",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -8317,7 +8626,9 @@
       "term": "multi-party-control",
       "slug": "multi-party-control",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -8380,7 +8691,9 @@
       "term": "non-custodial-wallet",
       "slug": "non-custodial-wallet",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -8394,14 +8707,18 @@
       "term": "non-transferable",
       "slug": "non-transferable",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
       "term": "non-transferable-identifier",
       "slug": "non-transferable-identifier",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -8443,14 +8760,20 @@
       "term": "organization",
       "slug": "organization",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
       "term": "organizational-authority",
       "slug": "organizational-authority",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
@@ -8464,7 +8787,9 @@
       "term": "owner",
       "slug": "owner",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -8492,7 +8817,12 @@
       "term": "password",
       "slug": "password",
       "evidence_artifacts": [
-        "access_decision_log"
+        "access_decision_log",
+        "audit_log",
+        "policy_document",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
@@ -8513,7 +8843,12 @@
       "term": "permission",
       "slug": "permission",
       "evidence_artifacts": [
-        "access_decision_log"
+        "access_decision_log",
+        "audit_log",
+        "policy_document",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
@@ -8555,14 +8890,18 @@
       "term": "personal-data-vault",
       "slug": "personal-data-vault",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
       "term": "personal-wallet",
       "slug": "personal-wallet",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -8576,7 +8915,11 @@
       "term": "physical-credential",
       "slug": "physical-credential",
       "evidence_artifacts": [
-        "issuance_log"
+        "audit_log",
+        "issuance_log",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
@@ -8676,21 +9019,29 @@
       "term": "private-key",
       "slug": "private-key",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
       "term": "proof",
       "slug": "proof",
       "evidence_artifacts": [
-        "issuance_log"
+        "audit_log",
+        "issuance_log",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
       "term": "proof-of-control",
       "slug": "proof-of-control",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -8725,7 +9076,9 @@
       "term": "protected-data",
       "slug": "protected-data",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -8753,14 +9106,20 @@
       "term": "public-key",
       "slug": "public-key",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
       "term": "public-key-certificate",
       "slug": "public-key-certificate",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
@@ -8789,7 +9148,9 @@
       "term": "rbac",
       "slug": "rbac",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -8838,8 +9199,13 @@
       "term": "registration-agent",
       "slug": "registration-agent",
       "evidence_artifacts": [
+        "audit_log",
         "delegation_record",
-        "issuance_log"
+        "issuance_log",
+        "policy_document",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
@@ -8860,7 +9226,9 @@
       "term": "relationship-context",
       "slug": "relationship-context",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -8875,21 +9243,27 @@
       "term": "reputation",
       "slug": "reputation",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
       "term": "reputation-graph",
       "slug": "reputation-graph",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
       "term": "reputation-system",
       "slug": "reputation-system",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -8903,14 +9277,18 @@
       "term": "requirement",
       "slug": "requirement",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
       "term": "resolver",
       "slug": "resolver",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -8933,14 +9311,18 @@
       "term": "risk-assessment",
       "slug": "risk-assessment",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
       "term": "risk-decision",
       "slug": "risk-decision",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -8954,7 +9336,9 @@
       "term": "risk-mitigation",
       "slug": "risk-mitigation",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -8968,14 +9352,23 @@
       "term": "role-based-access-control",
       "slug": "role-based-access-control",
       "evidence_artifacts": [
-        "access_decision_log"
+        "access_decision_log",
+        "audit_log",
+        "policy_document",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
       "term": "role-credential",
       "slug": "role-credential",
       "evidence_artifacts": [
-        "issuance_log"
+        "audit_log",
+        "issuance_log",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
@@ -9017,8 +9410,12 @@
       "term": "schema",
       "slug": "schema",
       "evidence_artifacts": [
+        "audit_log",
         "issuance_log",
-        "policy_document"
+        "policy_document",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
@@ -9039,7 +9436,12 @@
       "term": "second-party",
       "slug": "second-party",
       "evidence_artifacts": [
-        "delegation_record"
+        "audit_log",
+        "delegation_record",
+        "policy_document",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
@@ -9053,7 +9455,9 @@
       "term": "secure-enclave",
       "slug": "secure-enclave",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -9081,7 +9485,11 @@
       "term": "self-asserted",
       "slug": "self-asserted",
       "evidence_artifacts": [
-        "issuance_log"
+        "audit_log",
+        "issuance_log",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
@@ -9102,7 +9510,11 @@
       "term": "self-sovereign-identity",
       "slug": "self-sovereign-identity",
       "evidence_artifacts": [
-        "issuance_log"
+        "audit_log",
+        "issuance_log",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
@@ -9123,7 +9535,9 @@
       "term": "single-signature-identifier",
       "slug": "single-signature-identifier",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -9186,7 +9600,11 @@
       "term": "subject",
       "slug": "subject",
       "evidence_artifacts": [
-        "issuance_log"
+        "audit_log",
+        "issuance_log",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
@@ -9200,7 +9618,9 @@
       "term": "supporting-system",
       "slug": "supporting-system",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -9249,7 +9669,9 @@
       "term": "technical-requirement",
       "slug": "technical-requirement",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -9270,7 +9692,9 @@
       "term": "tee",
       "slug": "tee",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -9312,7 +9736,9 @@
       "term": "third-party",
       "slug": "third-party",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -9327,7 +9753,11 @@
       "term": "timestamp",
       "slug": "timestamp",
       "evidence_artifacts": [
-        "attestation"
+        "attestation",
+        "audit_log",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
@@ -9341,14 +9771,18 @@
       "term": "toip",
       "slug": "toip",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
       "term": "toip-application",
       "slug": "toip-application",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -9376,28 +9810,36 @@
       "term": "toip-controller",
       "slug": "toip-controller",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
       "term": "toip-endpoint",
       "slug": "toip-endpoint",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
       "term": "toip-foundation",
       "slug": "toip-foundation",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
       "term": "toip-governance-architecture-specification",
       "slug": "toip-governance-architecture-specification",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -9418,7 +9860,9 @@
       "term": "toip-governance-stack",
       "slug": "toip-governance-stack",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -9446,42 +9890,54 @@
       "term": "toip-layer-1",
       "slug": "toip-layer-1",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
       "term": "toip-layer-2",
       "slug": "toip-layer-2",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
       "term": "toip-layer-3",
       "slug": "toip-layer-3",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
       "term": "toip-layer-4",
       "slug": "toip-layer-4",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
       "term": "toip-message",
       "slug": "toip-message",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
       "term": "toip-relationship",
       "slug": "toip-relationship",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -9495,7 +9951,9 @@
       "term": "toip-stack",
       "slug": "toip-stack",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -9530,7 +9988,9 @@
       "term": "toip-trust-network",
       "slug": "toip-trust-network",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -9544,7 +10004,9 @@
       "term": "toip-trust-spanning-protocol",
       "slug": "toip-trust-spanning-protocol",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -9565,14 +10027,20 @@
       "term": "transferable-identifier",
       "slug": "transferable-identifier",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
       "term": "transitive-trust-decision",
       "slug": "transitive-trust-decision",
       "evidence_artifacts": [
-        "issuance_log"
+        "audit_log",
+        "issuance_log",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
@@ -9600,28 +10068,36 @@
       "term": "trust",
       "slug": "trust",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
       "term": "trust-anchor",
       "slug": "trust-anchor",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
       "term": "trust-application",
       "slug": "trust-application",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
       "term": "trust-application-layer",
       "slug": "trust-application-layer",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -9635,21 +10111,29 @@
       "term": "trust-basis",
       "slug": "trust-basis",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
       "term": "trust-boundary",
       "slug": "trust-boundary",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
       "term": "trust-chain",
       "slug": "trust-chain",
       "evidence_artifacts": [
-        "issuance_log"
+        "audit_log",
+        "issuance_log",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
@@ -9670,7 +10154,9 @@
       "term": "trust-decision",
       "slug": "trust-decision",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -9684,22 +10170,30 @@
       "term": "trust-ecosystem",
       "slug": "trust-ecosystem",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
       "term": "trust-establishment",
       "slug": "trust-establishment",
       "evidence_artifacts": [
+        "audit_log",
         "issuance_log",
-        "policy_document"
+        "policy_document",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
       "term": "trust-factor",
       "slug": "trust-factor",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -9722,7 +10216,9 @@
       "term": "trust-limit",
       "slug": "trust-limit",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -9743,14 +10239,18 @@
       "term": "trust-objective",
       "slug": "trust-objective",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
       "term": "trust-over-ip",
       "slug": "trust-over-ip",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -9773,14 +10273,18 @@
       "term": "trust-relationship",
       "slug": "trust-relationship",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
       "term": "trust-root",
       "slug": "trust-root",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -9794,70 +10298,90 @@
       "term": "trust-spanning-layer",
       "slug": "trust-spanning-layer",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
       "term": "trust-spanning-protocol",
       "slug": "trust-spanning-protocol",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
       "term": "trust-support",
       "slug": "trust-support",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
       "term": "trust-support-layer",
       "slug": "trust-support-layer",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
       "term": "trust-task",
       "slug": "trust-task",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
       "term": "trust-task-layer",
       "slug": "trust-task-layer",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
       "term": "trust-task-protocol",
       "slug": "trust-task-protocol",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
       "term": "trust-triangle",
       "slug": "trust-triangle",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
       "term": "trusted-execution-environment",
       "slug": "trusted-execution-environment",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
       "term": "trusted-role",
       "slug": "trusted-role",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -9871,42 +10395,58 @@
       "term": "trusted-timestamp-authority",
       "slug": "trusted-timestamp-authority",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
       "term": "trustworthiness",
       "slug": "trustworthiness",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
       "term": "trustworthy",
       "slug": "trustworthy",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
       "term": "tsp",
       "slug": "tsp",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
       "term": "tta",
       "slug": "tta",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
       "term": "ttp",
       "slug": "ttp",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -9920,7 +10460,9 @@
       "term": "unicast",
       "slug": "unicast",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -9990,8 +10532,12 @@
       "term": "utility-governance-framework",
       "slug": "utility-governance-framework",
       "evidence_artifacts": [
+        "audit_log",
         "issuance_log",
-        "policy_document"
+        "policy_document",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
@@ -10012,7 +10558,11 @@
       "term": "vc",
       "slug": "vc",
       "evidence_artifacts": [
-        "issuance_log"
+        "audit_log",
+        "issuance_log",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
@@ -10020,21 +10570,32 @@
       "slug": "verifiable",
       "evidence_artifacts": [
         "access_decision_log",
-        "issuance_log"
+        "audit_log",
+        "issuance_log",
+        "policy_document",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
       "term": "verifiable-credential",
       "slug": "verifiable-credential",
       "evidence_artifacts": [
-        "issuance_log"
+        "audit_log",
+        "issuance_log",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
       "term": "verifiable-data",
       "slug": "verifiable-data",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -10049,7 +10610,9 @@
       "term": "verifiable-identifier",
       "slug": "verifiable-identifier",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -10088,21 +10651,29 @@
       "term": "vid-relationship",
       "slug": "vid-relationship",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
       "term": "vid-to-vid",
       "slug": "vid-to-vid",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
       "term": "virtual-credential",
       "slug": "virtual-credential",
       "evidence_artifacts": [
-        "issuance_log"
+        "audit_log",
+        "issuance_log",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
@@ -10130,7 +10701,11 @@
       "term": "w3c-verifiable-credentials-data-model-specification",
       "slug": "w3c-verifiable-credentials-data-model-specification",
       "evidence_artifacts": [
-        "issuance_log"
+        "audit_log",
+        "issuance_log",
+        "registry_entry",
+        "status_record",
+        "verification_log"
       ]
     },
     {
@@ -10151,7 +10726,9 @@
       "term": "witness",
       "slug": "witness",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -10165,21 +10742,27 @@
       "term": "zero-knowledge-service",
       "slug": "zero-knowledge-service",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
       "term": "zero-knowledge-service-provider",
       "slug": "zero-knowledge-service-provider",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
       "term": "zero-trust-architecture",
       "slug": "zero-trust-architecture",
       "evidence_artifacts": [
-        "definition_change_record"
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -14641,9 +15224,9 @@
     ]
   },
   "assurance_level_hints": {
-    "AL1+": 79,
+    "AL1+": 82,
     "AL2+": 227,
-    "informative": 228
+    "informative": 225
   },
   "authority_scope_counts": {
     "access_decisioning": 27,
@@ -14657,16 +15240,16 @@
     "verification_and_reliance": 23
   },
   "evidence_artifact_counts": {
-    "access_decision_log": 22,
+    "access_decision_log": 26,
     "attestation": 18,
-    "audit_log": 6,
+    "audit_log": 205,
     "definition_change_record": 361,
     "delegation_record": 31,
     "issuance_log": 59,
-    "policy_document": 51,
-    "registry_entry": 17,
-    "status_record": 6,
-    "verification_log": 23
+    "policy_document": 197,
+    "registry_entry": 95,
+    "status_record": 84,
+    "verification_log": 101
   },
   "decision_point_counts": {
     "access_decision": 27,

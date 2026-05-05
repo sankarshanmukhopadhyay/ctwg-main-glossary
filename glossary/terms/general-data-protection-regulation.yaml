@@ -1,45 +1,53 @@
 term: general-data-protection-regulation
 aliases:
-  - General Data Protection Regulation
-definition: The General Data Protection Regulation (Regulation (EU) 2016/679, abbreviated GDPR) is a European Union regulation on information privacy in the European Union (EU) and the European Economic Area (EEA). The GDPR is an important component of EU privacy law and human rights law, in particular Article 8(1) of the Charter of Fundamental Rights of the European Union. It also governs the transfer of personal data outside the EU and EEA. The GDPR's goals are to enhance individuals' control and rights over their personal information and to simplify the regulations for international business.
-notes:
-  []
+- General Data Protection Regulation
+definition: The General Data Protection Regulation (Regulation (EU) 2016/679, abbreviated
+  GDPR) is a European Union regulation on information privacy in the European Union
+  (EU) and the European Economic Area (EEA). The GDPR is an important component of
+  EU privacy law and human rights law, in particular Article 8(1) of the Charter of
+  Fundamental Rights of the European Union. It also governs the transfer of personal
+  data outside the EU and EEA. The GDPR's goals are to enhance individuals' control
+  and rights over their personal information and to simplify the regulations for international
+  business.
+notes: []
 see_also:
-  []
+- glossary
+- definition
 sources:
-  - "[Wikipedia](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation)."
-mental_models:
-  []
+- '[Wikipedia](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation).'
+mental_models: []
 supporting_definitions:
-  - "Also known as: [[ref: GDPR]]."
+- 'Also known as: [[ref: GDPR]].'
 source_file: spec/terms-definitions/general-data-protection-regulation.md
 governance_profile: core-operational
 governance:
   authority_scope:
-    - terminology_definition
+  - terminology_definition
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: design
   control_plane_role: decision_plane_component
   enforcement_points:
-    - definition_approval
+  - definition_approval
 assurance:
   evidence_artifacts:
-    - definition_change_record
+  - definition_change_record
+  - policy_document
+  - audit_log
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
   decision_points:
-    - definition_approval
+  - definition_approval
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - definition_change_record
+  - definition_change_record
+  - policy_document
+  - audit_log
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

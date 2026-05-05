@@ -1,46 +1,42 @@
 term: presentation-request
 aliases:
-  - presentation request
-  - presentation requests
-definition: A protocol request sent by the verifier to the holder of a digital wallet to request a presentation.
-notes:
-  []
+- presentation request
+- presentation requests
+definition: A protocol request sent by the verifier to the holder of a digital wallet
+  to request a presentation.
+notes: []
 see_also:
-  - issuance request.
+- issuance request.
 sources:
-  []
-mental_models:
-  []
-supporting_definitions:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/presentation-request.md`'
+mental_models: []
+supporting_definitions: []
 source_file: spec/terms-definitions/presentation-request.md
 governance_profile: core-operational
 governance:
   authority_scope:
-    - verification_and_reliance
+  - verification_and_reliance
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: runtime
   control_plane_role: decision_plane_component
   enforcement_points:
-    - reliance_decision
+  - reliance_decision
 assurance:
   evidence_artifacts:
-    - verification_log
+  - verification_log
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
   decision_points:
-    - reliance_decision
+  - reliance_decision
   accountable_entity: verifier_operator
   evidence_produced:
-    - verification_log
+  - verification_log
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

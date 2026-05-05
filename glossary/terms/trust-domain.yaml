@@ -1,50 +1,47 @@
 term: trust-domain
 aliases:
-  - trust domain
-  - trust domains
-definition: A security domain defined by a computer hardware or software architecture, a security policy, or a trust community, typically via a trust framework or governance framework.
-notes:
-  []
+- trust domain
+- trust domains
+definition: A security domain defined by a computer hardware or software architecture,
+  a security policy, or a trust community, typically via a trust framework or governance
+  framework.
+notes: []
 see_also:
-  - trust context
-  - digital trust ecosystem.
-  - "[[xref: keri1"
-  - "trust-domain]]"
+- trust context
+- digital trust ecosystem.
+- '[[xref: keri1'
+- trust-domain]]
 sources:
-  []
-mental_models:
-  []
-supporting_definitions:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/trust-domain.md`'
+mental_models: []
+supporting_definitions: []
 source_file: spec/terms-definitions/trust-domain.md
 governance_profile: core-operational
 governance:
   authority_scope:
-    - policy_definition
-    - governance_recognition
+  - policy_definition
+  - governance_recognition
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: runtime
   control_plane_role: decision_plane_component
   enforcement_points:
-    - policy_approval
+  - policy_approval
 assurance:
   evidence_artifacts:
-    - policy_document
+  - policy_document
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
   decision_points:
-    - policy_approval
+  - policy_approval
   accountable_entity: governance_authority
   evidence_produced:
-    - policy_document
+  - policy_document
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

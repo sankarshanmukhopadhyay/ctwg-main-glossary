@@ -1,46 +1,50 @@
 term: access-control
 aliases:
-  - access control
-  - access controls
-definition: The process of granting or denying specific requests for obtaining and using information and related information processing services.
-notes:
-  []
+- access control
+- access controls
+definition: The process of granting or denying specific requests for obtaining and
+  using information and related information processing services.
+notes: []
 see_also:
-  []
+- authorization
+- permission
+- role-based-access-control
+- attribute-based-access-control
 sources:
-  - "[NIST-CSRC](https://csrc.nist.gov/glossary/term/access_control)."
-mental_models:
-  []
+- '[NIST-CSRC](https://csrc.nist.gov/glossary/term/access_control).'
+mental_models: []
 supporting_definitions:
-  - "[Wikipedia](https://en.wikipedia.org/wiki/Access_control): In [physical security](https://en.wikipedia.org/wiki/Physical_security) and [information security](https://en.wikipedia.org/wiki/Information_security), access control (AC) is the selective restriction of access to a place or other resource, while access management describes the process. The act of accessing may mean consuming, entering, or using. Permission to access a resource is called [[ref: authorization]]."
+- '[Wikipedia](https://en.wikipedia.org/wiki/Access_control): In [physical security](https://en.wikipedia.org/wiki/Physical_security)
+  and [information security](https://en.wikipedia.org/wiki/Information_security),
+  access control (AC) is the selective restriction of access to a place or other resource,
+  while access management describes the process. The act of accessing may mean consuming,
+  entering, or using. Permission to access a resource is called [[ref: authorization]].'
 source_file: spec/terms-definitions/access-control.md
 governance_profile: core-operational
 governance:
   authority_scope:
-    - access_decisioning
+  - access_decisioning
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: runtime
   control_plane_role: decision_plane_component
   enforcement_points:
-    - access_decision
+  - access_decision
 assurance:
   evidence_artifacts:
-    - access_decision_log
+  - access_decision_log
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
   decision_points:
-    - access_decision
+  - access_decision
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - access_decision_log
+  - access_decision_log
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

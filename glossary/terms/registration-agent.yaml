@@ -1,54 +1,66 @@
 term: registration-agent
 aliases:
-  - registration agent
-definition: A party responsible for accepting registration requests and authenticating the registrant. The term may also apply to a party accepting issuance requests for digital credentials.
-notes:
-  []
+- registration agent
+definition: A party responsible for accepting registration requests and authenticating
+  the registrant. The term may also apply to a party accepting issuance requests for
+  digital credentials.
+notes: []
 see_also:
-  []
+- credential
+- issuer
+- issuance
+- verifiable-credential
+- delegation
+- delegator
 sources:
-  []
-mental_models:
-  []
-supporting_definitions:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/registration-agent.md`'
+mental_models: []
+supporting_definitions: []
 source_file: spec/terms-definitions/registration-agent.md
 governance_profile: core-operational
 governance:
   authority_scope:
-    - credential_issuance
-    - delegation_and_scope
+  - credential_issuance
+  - delegation_and_scope
   delegation_mode: direct_or_constrained
   revocation_supported: true
   lifecycle_states:
-    - proposed
-    - active
-    - suspended
-    - revoked
-    - retired
+  - proposed
+  - active
+  - suspended
+  - revoked
+  - retired
   execution_role: runtime
   control_plane_role: decision_plane_component
   enforcement_points:
-    - delegation_grant
-    - issuance_decision
-    - revocation_decision
+  - delegation_grant
+  - issuance_decision
+  - revocation_decision
 assurance:
   evidence_artifacts:
-    - delegation_record
-    - issuance_log
+  - delegation_record
+  - issuance_log
+  - policy_document
+  - registry_entry
+  - status_record
+  - audit_log
+  - verification_log
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
   decision_points:
-    - delegation_grant
-    - issuance_decision
-    - revocation_decision
+  - delegation_grant
+  - issuance_decision
+  - revocation_decision
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - delegation_record
-    - issuance_log
+  - delegation_record
+  - issuance_log
+  - policy_document
+  - registry_entry
+  - status_record
+  - audit_log
+  - verification_log
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

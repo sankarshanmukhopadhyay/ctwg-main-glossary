@@ -1,48 +1,53 @@
 term: distributed-ledger
 aliases:
-  - distributed ledger
-  - distributed ledgers
-  - DLT
-  - DLTs
-definition: A distributed ledger (also called a shared ledger or distributed ledger technology or DLT) is the consensus of replicated, shared, and synchronized digital data that is geographically spread (distributed) across many sites, countries, or institutions. In contrast to a centralized database, a distributed ledger does not require a central administrator, and consequently does not have a single (central) point-of-failure. In general, a distributed ledger requires a peer-to-peer (P2P) computer network and consensus algorithms so that the ledger is reliably replicated across distributed computer nodes (servers, clients, etc.). The most common form of distributed ledger technology is the blockchain, which can either be on a public or private network.
-notes:
-  []
+- distributed ledger
+- distributed ledgers
+- DLT
+- DLTs
+definition: A distributed ledger (also called a shared ledger or distributed ledger
+  technology or DLT) is the consensus of replicated, shared, and synchronized digital
+  data that is geographically spread (distributed) across many sites, countries, or
+  institutions. In contrast to a centralized database, a distributed ledger does not
+  require a central administrator, and consequently does not have a single (central)
+  point-of-failure. In general, a distributed ledger requires a peer-to-peer (P2P)
+  computer network and consensus algorithms so that the ledger is reliably replicated
+  across distributed computer nodes (servers, clients, etc.). The most common form
+  of distributed ledger technology is the blockchain, which can either be on a public
+  or private network.
+notes: []
 see_also:
-  []
+- glossary
+- definition
 sources:
-  - "[Wikipedia](https://en.wikipedia.org/wiki/Distributed_ledger)."
-mental_models:
-  []
-supporting_definitions:
-  []
+- '[Wikipedia](https://en.wikipedia.org/wiki/Distributed_ledger).'
+mental_models: []
+supporting_definitions: []
 source_file: spec/terms-definitions/distributed-ledger.md
 governance_profile: descriptive
 governance:
   authority_scope:
-    - terminology_definition
+  - terminology_definition
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: design
   control_plane_role: reference_term
   enforcement_points:
-    - definition_approval
+  - definition_approval
 assurance:
   evidence_artifacts:
-    - definition_change_record
+  - definition_change_record
   assurance_level_hint: informative
   auditability: basic
 control_plane:
   decision_points:
-    - definition_approval
+  - definition_approval
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - definition_change_record
+  - definition_change_record
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

@@ -1,46 +1,46 @@
 term: biometric
 aliases:
-  - biometric
-  - biometrics
-definition: A measurable physical characteristic or personal behavioral trait used to recognize the AID, or verify the claimed identity, of an applicant. Facial images, fingerprints, and iris scan samples are all examples of biometrics.
-notes:
-  []
+- biometric
+- biometrics
+definition: A measurable physical characteristic or personal behavioral trait used
+  to recognize the AID, or verify the claimed identity, of an applicant. Facial images,
+  fingerprints, and iris scan samples are all examples of biometrics.
+notes: []
 see_also:
-  []
+- credential
+- issuer
+- issuance
+- verifiable-credential
 sources:
-  - "[NIST](https://csrc.nist.gov/glossary/term/biometric)"
-mental_models:
-  []
-supporting_definitions:
-  []
+- '[NIST](https://csrc.nist.gov/glossary/term/biometric)'
+mental_models: []
+supporting_definitions: []
 source_file: spec/terms-definitions/biometric.md
 governance_profile: descriptive
 governance:
   authority_scope:
-    - credential_issuance
+  - credential_issuance
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: design
   control_plane_role: reference_term
   enforcement_points:
-    - issuance_decision
+  - issuance_decision
 assurance:
   evidence_artifacts:
-    - issuance_log
-  assurance_level_hint: informative
-  auditability: basic
+  - issuance_log
+  assurance_level_hint: AL1+
+  auditability: moderate
 control_plane:
   decision_points:
-    - issuance_decision
+  - issuance_decision
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - issuance_log
+  - issuance_log
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

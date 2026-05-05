@@ -1,45 +1,46 @@
 term: toip-layer-1
 aliases:
-  - ToIP Layer 1
-definition: The trust support layer of the ToIP stack, responsible for supporting the trust spanning protocol at ToIP Layer 2.
-notes:
-  []
+- ToIP Layer 1
+definition: The trust support layer of the ToIP stack, responsible for supporting
+  the trust spanning protocol at ToIP Layer 2.
+notes: []
 see_also:
-  []
+- glossary
+- definition
 sources:
-  []
-mental_models:
-  []
-supporting_definitions:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/toip-layer-1.md`'
+mental_models: []
+supporting_definitions: []
 source_file: spec/terms-definitions/toip-layer-1.md
 governance_profile: governance-supporting
 governance:
   authority_scope:
-    - terminology_definition
+  - terminology_definition
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: design
   control_plane_role: decision_plane_component
   enforcement_points:
-    - definition_approval
+  - definition_approval
 assurance:
   evidence_artifacts:
-    - definition_change_record
+  - definition_change_record
+  - policy_document
+  - audit_log
   assurance_level_hint: AL1+
   auditability: moderate
 control_plane:
   decision_points:
-    - definition_approval
+  - definition_approval
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - definition_change_record
+  - definition_change_record
+  - policy_document
+  - audit_log
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

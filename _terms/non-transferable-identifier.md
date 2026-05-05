@@ -26,6 +26,8 @@ non-transferable-identifier
 ## Assurance
 **Evidence artifacts**
 - definition_change_record
+- policy_document
+- audit_log
 
 - **Assurance level hint**: AL2+
 - **Auditability**: high
@@ -38,6 +40,8 @@ non-transferable-identifier
 
 **Evidence produced**
 - definition_change_record
+- policy_document
+- audit_log
 
 ## Notes
 Not specified
@@ -50,7 +54,10 @@ Not specified
 Not specified
 
 ## See Also
-Not specified
+- glossary
+- definition
+- identifier
+- decentralized-identifier
 
 ## Crosswalk References
 Not specified

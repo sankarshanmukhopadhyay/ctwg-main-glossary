@@ -26,6 +26,10 @@ control-authority, control authority
 ## Assurance
 **Evidence artifacts**
 - definition_change_record
+- status_record
+- audit_log
+- verification_log
+- registry_entry
 
 - **Assurance level hint**: AL2+
 - **Auditability**: high
@@ -38,6 +42,10 @@ control-authority, control authority
 
 **Evidence produced**
 - definition_change_record
+- status_record
+- audit_log
+- verification_log
+- registry_entry
 
 ## Notes
 - Control authority is especially important because it identifies where effective operational power resides, including the power to change, invalidate, or reassign control relationships.
@@ -56,7 +64,12 @@ control-authority, control authority
 Not specified
 
 ## See Also
-Not specified
+- governance
+- governance-framework
+- governing-authority
+- trust-registry
+- revocation
+- verification
 
 ## Crosswalk References
 Not specified

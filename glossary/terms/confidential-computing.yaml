@@ -1,45 +1,53 @@
 term: confidential-computing
 aliases:
-  - confidential computing
-definition: Hardware-enabled features that isolate and process encrypted data in memory so that the data is at less risk of exposure and compromise from concurrent workloads or the underlying system and platform.
-notes:
-  []
+- confidential computing
+definition: Hardware-enabled features that isolate and process encrypted data in memory
+  so that the data is at less risk of exposure and compromise from concurrent workloads
+  or the underlying system and platform.
+notes: []
 see_also:
-  []
+- glossary
+- definition
 sources:
-  - "[NIST-CSRC](https://csrc.nist.gov/glossary/term/confidential_computing)."
-mental_models:
-  []
+- '[NIST-CSRC](https://csrc.nist.gov/glossary/term/confidential_computing).'
+mental_models: []
 supporting_definitions:
-  - "[Wikipedia](https://en.wikipedia.org/wiki/Confidential_computing): Confidential computing is a security and [privacy-enhancing computational technique](https://en.wikipedia.org/wiki/Privacy-enhancing_technologies) focused on protecting [data in use](https://en.wikipedia.org/wiki/Data_in_use). Confidential computing can be used in conjunction with storage and network encryption, which protect [data at rest](https://en.wikipedia.org/wiki/Data_at_rest) and [data in transit](https://en.wikipedia.org/wiki/Data_in_transit) respectively. It is designed to address software, protocol, cryptographic, and basic physical and supply-chain attacks, although some critics have demonstrated architectural and [side-channel attacks](https://en.wikipedia.org/wiki/Side-channel_attack) effective against the technology."
+- '[Wikipedia](https://en.wikipedia.org/wiki/Confidential_computing): Confidential
+  computing is a security and [privacy-enhancing computational technique](https://en.wikipedia.org/wiki/Privacy-enhancing_technologies)
+  focused on protecting [data in use](https://en.wikipedia.org/wiki/Data_in_use).
+  Confidential computing can be used in conjunction with storage and network encryption,
+  which protect [data at rest](https://en.wikipedia.org/wiki/Data_at_rest) and [data
+  in transit](https://en.wikipedia.org/wiki/Data_in_transit) respectively. It is designed
+  to address software, protocol, cryptographic, and basic physical and supply-chain
+  attacks, although some critics have demonstrated architectural and [side-channel
+  attacks](https://en.wikipedia.org/wiki/Side-channel_attack) effective against the
+  technology.'
 source_file: spec/terms-definitions/confidential-computing.md
 governance_profile: descriptive
 governance:
   authority_scope:
-    - terminology_definition
+  - terminology_definition
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: design
   control_plane_role: reference_term
   enforcement_points:
-    - definition_approval
+  - definition_approval
 assurance:
   evidence_artifacts:
-    - definition_change_record
+  - definition_change_record
   assurance_level_hint: informative
   auditability: basic
 control_plane:
   decision_points:
-    - definition_approval
+  - definition_approval
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - definition_change_record
+  - definition_change_record
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

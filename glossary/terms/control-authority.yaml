@@ -1,55 +1,69 @@
 term: control-authority
 aliases:
-  - control-authority
-  - control authority
-definition: In identity systems, control authority is the power to determine who controls what. It is a primary factor in determining the basis for trust in those systems.
+- control-authority
+- control authority
+definition: In identity systems, control authority is the power to determine who controls
+  what. It is a primary factor in determining the basis for trust in those systems.
 notes:
-  - Control authority is especially important because it identifies where effective operational power resides, including the power to change, invalidate, or reassign control relationships.
+- Control authority is especially important because it identifies where effective
+  operational power resides, including the power to change, invalidate, or reassign
+  control relationships.
 see_also:
-  []
+- governance
+- governance-framework
+- governing-authority
+- trust-registry
+- revocation
+- verification
 sources:
-  []
-mental_models:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/control-authority.md`'
+mental_models: []
 supporting_definitions:
-  - "The entity with *control authority* takes action through operations that affect the:"
-  - "- creation (inception)"
-  - "- updating"
-  - "- rotation"
-  - "- revocation"
-  - "- deletion"
-  - "- delegation"
-  - of authentication factors and their relation to the identifier.
+- 'The entity with *control authority* takes action through operations that affect
+  the:'
+- '- creation (inception)'
+- '- updating'
+- '- rotation'
+- '- revocation'
+- '- deletion'
+- '- delegation'
+- of authentication factors and their relation to the identifier.
 source_file: spec/terms-definitions/control-authority.md
 governance_profile: core-operational
 governance:
   authority_scope:
-    - governance_recognition
+  - governance_recognition
   delegation_mode: direct
   revocation_supported: true
   lifecycle_states:
-    - proposed
-    - active
-    - suspended
-    - revoked
-    - retired
+  - proposed
+  - active
+  - suspended
+  - revoked
+  - retired
   execution_role: runtime
   control_plane_role: decision_plane_component
   enforcement_points:
-    - revocation_decision
+  - revocation_decision
 assurance:
   evidence_artifacts:
-    - definition_change_record
+  - definition_change_record
+  - status_record
+  - audit_log
+  - verification_log
+  - registry_entry
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
   decision_points:
-    - revocation_decision
+  - revocation_decision
   accountable_entity: governance_authority
   evidence_produced:
-    - definition_change_record
+  - definition_change_record
+  - status_record
+  - audit_log
+  - verification_log
+  - registry_entry
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

@@ -1,55 +1,68 @@
 term: schema
 aliases:
-  - schema
-  - schemas
-definition: A framework, pattern, or set of rules for enforcing a specific structure on a digital object or a set of digital data. There are many types of schemas, e.g., data schema, credential verification schema, database schema.
+- schema
+- schemas
+definition: A framework, pattern, or set of rules for enforcing a specific structure
+  on a digital object or a set of digital data. There are many types of schemas, e.g.,
+  data schema, credential verification schema, database schema.
 notes:
-  - "`credentialSchema` is a Property Definition in the W3C VC Data Model. See section 3.2.1."
+- '`credentialSchema` is a Property Definition in the W3C VC Data Model. See section
+  3.2.1.'
 see_also:
-  []
+- credential
+- issuer
+- issuance
+- verifiable-credential
+- policy
+- governance-framework
 sources:
-  []
-mental_models:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/schema.md`'
+mental_models: []
 supporting_definitions:
-  - "For more information, see: W3C [Data Schemas](https://www.w3.org/TR/vc-data-model/#data-schemas)."
+- 'For more information, see: W3C [Data Schemas](https://www.w3.org/TR/vc-data-model/#data-schemas).'
 source_file: spec/terms-definitions/schema.md
 governance_profile: core-operational
 governance:
   authority_scope:
-    - credential_issuance
-    - policy_definition
+  - credential_issuance
+  - policy_definition
   delegation_mode: direct
   revocation_supported: true
   lifecycle_states:
-    - proposed
-    - active
-    - suspended
-    - revoked
-    - retired
+  - proposed
+  - active
+  - suspended
+  - revoked
+  - retired
   execution_role: hybrid
   control_plane_role: decision_plane_component
   enforcement_points:
-    - policy_approval
-    - issuance_decision
-    - revocation_decision
+  - policy_approval
+  - issuance_decision
+  - revocation_decision
 assurance:
   evidence_artifacts:
-    - policy_document
-    - issuance_log
+  - policy_document
+  - issuance_log
+  - registry_entry
+  - audit_log
+  - status_record
+  - verification_log
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
   decision_points:
-    - policy_approval
-    - issuance_decision
-    - revocation_decision
+  - policy_approval
+  - issuance_decision
+  - revocation_decision
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - policy_document
-    - issuance_log
+  - policy_document
+  - issuance_log
+  - registry_entry
+  - audit_log
+  - status_record
+  - verification_log
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

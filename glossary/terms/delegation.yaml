@@ -1,53 +1,67 @@
 term: delegation
 aliases:
-  - delegation
-  - delegate
-  - delegated
-  - delegates
-definition: The act of a first party (the delegator) authorizing a second party (the delegatee) to perform a defined set of actions on behalf of the first party within an authorized scope and subject to applicable constraints.
-notes:
-  []
+- delegation
+- delegate
+- delegated
+- delegates
+definition: The act of a first party (the delegator) authorizing a second party (the
+  delegatee) to perform a defined set of actions on behalf of the first party within
+  an authorized scope and subject to applicable constraints.
+notes: []
 see_also:
-  []
+- delegator
+- delegatee
+- authorization
+- revocation
 sources:
-  []
-mental_models:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/delegation.md`'
+mental_models: []
 supporting_definitions:
-  - "Delegation may be expressed through a [[ref: delegation credential]] or other policy-governed mechanism and may be limited by scope, time, conditions, or revocation."
-  - "More specific for KERI see: [[xref: keri1, delegated-identifier]]"
+- 'Delegation may be expressed through a [[ref: delegation credential]] or other policy-governed
+  mechanism and may be limited by scope, time, conditions, or revocation.'
+- 'More specific for KERI see: [[xref: keri1, delegated-identifier]]'
 source_file: spec/terms-definitions/delegation.md
 governance_profile: core-operational
 governance:
   authority_scope:
-    - delegation_and_scope
+  - delegation_and_scope
   delegation_mode: direct_or_constrained
   revocation_supported: true
   lifecycle_states:
-    - proposed
-    - active
-    - suspended
-    - revoked
-    - retired
+  - proposed
+  - active
+  - suspended
+  - revoked
+  - retired
   execution_role: runtime
   control_plane_role: decision_plane_component
   enforcement_points:
-    - delegation_grant
-    - revocation_decision
+  - delegation_grant
+  - revocation_decision
 assurance:
   evidence_artifacts:
-    - delegation_record
+  - delegation_record
+  - policy_document
+  - status_record
+  - audit_log
+  - verification_log
+  - registry_entry
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
   decision_points:
-    - delegation_grant
-    - revocation_decision
+  - delegation_grant
+  - revocation_decision
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - delegation_record
+  - delegation_record
+  - policy_document
+  - status_record
+  - audit_log
+  - verification_log
+  - registry_entry
 crosswalk:
   nist:
-    - AC-6
+  - AC-6
   iso:
-    - ISO/IEC 42001 8.3
+  - ISO/IEC 42001 8.3

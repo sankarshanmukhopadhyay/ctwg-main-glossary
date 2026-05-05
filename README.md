@@ -2,7 +2,7 @@
 
 The ToIP Main Glossary is a **governance-executable terminology repository**. It publishes a human-readable GitHub Pages glossary while also producing machine-readable artifacts that describe authority, delegation, revocation, lifecycle state, evidence, auditability, and control-plane relevance for each structured term.
 
-Version `v1.1.0` advances the repository from a structured glossary into **assurance-ready governance glossary infrastructure**. The core operating principle is simple: the authoritative term layer must be validated, reproducible, inspectable, and useful to downstream systems that need more than prose.
+Version `v1.1.1` builds on the v1.1.0 assurance-ready foundation by closing the generated governance quality-report backlog across source attribution, cross-reference coverage, operational evidence, revocation inspectability, and assurance hint alignment. The core operating principle is simple: the authoritative term layer must be validated, reproducible, inspectable, and useful to downstream systems that need more than prose.
 
 ## Repository operating model
 
@@ -46,6 +46,20 @@ Generated directories must not be edited manually unless the corresponding gener
 - governance inventory overlays for authority, delegation, revocation, lifecycle, evidence, and control-plane analysis
 - a governance quality report for attribution, cross-reference, evidence, revocation, and assurance-readiness review
 - deterministic site indexes for `terms-index.md` and `terms/<letter>/index.md`
+
+
+## Current assurance-readiness posture
+
+The current generated quality report evaluates all 534 structured terms and reports:
+
+- quality score: `100.0 / 100`;
+- total findings: `0`;
+- terms with source coverage: `534`;
+- terms with `see_also` coverage: `534`;
+- terms with evidence coverage: `534`; and
+- revocation-supported terms with revocation-relevant evidence: `108`.
+
+This score is not a certification claim. It means that all checks currently implemented by `tools/build_quality_report.py` have been satisfied and that the glossary has no open generated quality-report findings under the current assurance-readiness rubric.
 
 ## Local maintainer workflow
 

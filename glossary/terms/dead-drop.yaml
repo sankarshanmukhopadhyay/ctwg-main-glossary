@@ -1,50 +1,60 @@
 term: dead-drop
 aliases:
-  - dead-drop
-  - dead drop
-definition: In cybersecurity or digital privacy scenarios, the term "dead drop" refers to encrypted or secure virtual spaces where information can be deposited or retrieved anonymously. In the credentials field, the presenter controls the disclosure, so you can't re-identify the data.
-notes:
-  []
+- dead-drop
+- dead drop
+definition: In cybersecurity or digital privacy scenarios, the term "dead drop" refers
+  to encrypted or secure virtual spaces where information can be deposited or retrieved
+  anonymously. In the credentials field, the presenter controls the disclosure, so
+  you can't re-identify the data.
+notes: []
 see_also:
-  []
+- credential
+- issuer
+- issuance
+- verifiable-credential
 sources:
-  - "Discussed in tech meet KERI [recording](https://hackmd.io/-soUScAqQEaSw5MJ71899w#2023-06-27), date June 27 2023."
-mental_models:
-  []
-supporting_definitions:
-  []
+- Discussed in tech meet KERI [recording](https://hackmd.io/-soUScAqQEaSw5MJ71899w#2023-06-27),
+  date June 27 2023.
+mental_models: []
+supporting_definitions: []
 source_file: spec/terms-definitions/dead-drop.md
 governance_profile: core-operational
 governance:
   authority_scope:
-    - credential_issuance
+  - credential_issuance
   delegation_mode: direct
   revocation_supported: true
   lifecycle_states:
-    - proposed
-    - active
-    - suspended
-    - revoked
-    - retired
+  - proposed
+  - active
+  - suspended
+  - revoked
+  - retired
   execution_role: design
   control_plane_role: decision_plane_component
   enforcement_points:
-    - issuance_decision
-    - revocation_decision
+  - issuance_decision
+  - revocation_decision
 assurance:
   evidence_artifacts:
-    - issuance_log
+  - issuance_log
+  - registry_entry
+  - status_record
+  - audit_log
+  - verification_log
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
   decision_points:
-    - issuance_decision
-    - revocation_decision
+  - issuance_decision
+  - revocation_decision
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - issuance_log
+  - issuance_log
+  - registry_entry
+  - status_record
+  - audit_log
+  - verification_log
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

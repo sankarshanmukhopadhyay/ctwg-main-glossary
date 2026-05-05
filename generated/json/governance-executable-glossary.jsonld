@@ -78,7 +78,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "access_decision_log",
+            "policy_document"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -89,7 +91,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "access_decision_log",
+            "policy_document"
           ]
         },
         "crosswalk": {
@@ -125,7 +129,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -136,7 +142,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -172,7 +180,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -183,7 +193,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -268,7 +280,11 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -279,7 +295,11 @@
           ],
           "accountable_entity": "governance_authority",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ]
         },
         "crosswalk": {
@@ -505,7 +525,11 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -516,7 +540,11 @@
           ],
           "accountable_entity": "governance_authority",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ]
         },
         "crosswalk": {
@@ -559,7 +587,11 @@
         "assurance": {
           "evidence_artifacts": [
             "policy_document",
-            "delegation_record"
+            "delegation_record",
+            "audit_log",
+            "status_record",
+            "verification_log",
+            "registry_entry"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -573,7 +605,11 @@
           "accountable_entity": "governance_authority",
           "evidence_produced": [
             "policy_document",
-            "delegation_record"
+            "delegation_record",
+            "audit_log",
+            "status_record",
+            "verification_log",
+            "registry_entry"
           ]
         },
         "crosswalk": {
@@ -660,7 +696,12 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "delegation_record"
+            "delegation_record",
+            "policy_document",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -672,7 +713,12 @@
           ],
           "accountable_entity": "governance_authority",
           "evidence_produced": [
-            "delegation_record"
+            "delegation_record",
+            "policy_document",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ]
         },
         "crosswalk": {
@@ -943,7 +989,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -954,7 +1002,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -997,7 +1047,13 @@
         "assurance": {
           "evidence_artifacts": [
             "issuance_log",
-            "attestation"
+            "attestation",
+            "access_decision_log",
+            "policy_document",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -1011,7 +1067,13 @@
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
             "issuance_log",
-            "attestation"
+            "attestation",
+            "access_decision_log",
+            "policy_document",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ]
         },
         "crosswalk": {
@@ -1197,7 +1259,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -1208,7 +1272,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -1390,7 +1456,11 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -1402,7 +1472,11 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ]
         },
         "crosswalk": {
@@ -1488,7 +1562,12 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "access_decision_log"
+            "access_decision_log",
+            "policy_document",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -1500,7 +1579,12 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "access_decision_log"
+            "access_decision_log",
+            "policy_document",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ]
         },
         "crosswalk": {
@@ -1595,7 +1679,13 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "issuance_log"
+            "issuance_log",
+            "access_decision_log",
+            "policy_document",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -1608,7 +1698,13 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "issuance_log"
+            "issuance_log",
+            "access_decision_log",
+            "policy_document",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ]
         },
         "crosswalk": {
@@ -1644,7 +1740,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -1655,7 +1753,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -1755,7 +1855,11 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -1766,7 +1870,11 @@
           ],
           "accountable_entity": "governance_authority",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ]
         },
         "crosswalk": {
@@ -1868,7 +1976,12 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "access_decision_log"
+            "access_decision_log",
+            "policy_document",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -1880,7 +1993,12 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "access_decision_log"
+            "access_decision_log",
+            "policy_document",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ]
         },
         "crosswalk": {
@@ -1925,7 +2043,11 @@
           "evidence_artifacts": [
             "policy_document",
             "issuance_log",
-            "access_decision_log"
+            "access_decision_log",
+            "registry_entry",
+            "audit_log",
+            "status_record",
+            "verification_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -1941,7 +2063,11 @@
           "evidence_produced": [
             "policy_document",
             "issuance_log",
-            "access_decision_log"
+            "access_decision_log",
+            "registry_entry",
+            "audit_log",
+            "status_record",
+            "verification_log"
           ]
         },
         "crosswalk": {
@@ -1990,7 +2116,12 @@
         "assurance": {
           "evidence_artifacts": [
             "delegation_record",
-            "issuance_log"
+            "issuance_log",
+            "policy_document",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -2004,7 +2135,12 @@
           "accountable_entity": "governance_authority",
           "evidence_produced": [
             "delegation_record",
-            "issuance_log"
+            "issuance_log",
+            "policy_document",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ]
         },
         "crosswalk": {
@@ -2087,7 +2223,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -2098,7 +2236,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -2136,7 +2276,11 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -2147,7 +2291,11 @@
           ],
           "accountable_entity": "governance_authority",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ]
         },
         "crosswalk": {
@@ -2232,8 +2380,8 @@
           "evidence_artifacts": [
             "issuance_log"
           ],
-          "assurance_level_hint": "informative",
-          "auditability": "basic"
+          "assurance_level_hint": "AL1+",
+          "auditability": "moderate"
         },
         "control_plane": {
           "decision_points": [
@@ -2327,7 +2475,12 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "access_decision_log"
+            "access_decision_log",
+            "policy_document",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -2339,7 +2492,12 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "access_decision_log"
+            "access_decision_log",
+            "policy_document",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ]
         },
         "crosswalk": {
@@ -2375,7 +2533,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -2386,7 +2546,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -2472,7 +2634,12 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "access_decision_log"
+            "access_decision_log",
+            "policy_document",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -2484,7 +2651,12 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "access_decision_log"
+            "access_decision_log",
+            "policy_document",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ]
         },
         "crosswalk": {
@@ -2569,7 +2741,11 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -2580,7 +2756,11 @@
           ],
           "accountable_entity": "governance_authority",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ]
         },
         "crosswalk": {
@@ -2669,7 +2849,12 @@
         "assurance": {
           "evidence_artifacts": [
             "delegation_record",
-            "access_decision_log"
+            "access_decision_log",
+            "policy_document",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -2683,7 +2868,12 @@
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
             "delegation_record",
-            "access_decision_log"
+            "access_decision_log",
+            "policy_document",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ]
         },
         "crosswalk": {
@@ -2723,7 +2913,11 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "policy_document"
+            "policy_document",
+            "audit_log",
+            "status_record",
+            "verification_log",
+            "registry_entry"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -2735,7 +2929,11 @@
           ],
           "accountable_entity": "governance_authority",
           "evidence_produced": [
-            "policy_document"
+            "policy_document",
+            "audit_log",
+            "status_record",
+            "verification_log",
+            "registry_entry"
           ]
         },
         "crosswalk": {
@@ -2820,7 +3018,11 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -2831,7 +3033,11 @@
           ],
           "accountable_entity": "governance_authority",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ]
         },
         "crosswalk": {
@@ -2914,7 +3120,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -2925,7 +3133,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -2961,7 +3171,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -2972,7 +3184,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -3011,7 +3225,11 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -3023,7 +3241,11 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ]
         },
         "crosswalk": {
@@ -3059,7 +3281,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -3070,7 +3294,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -3770,7 +3996,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -3781,7 +4009,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -4007,7 +4237,11 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -4018,7 +4252,11 @@
           ],
           "accountable_entity": "governance_authority",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ]
         },
         "crosswalk": {
@@ -4056,7 +4294,11 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -4067,7 +4309,11 @@
           ],
           "accountable_entity": "governance_authority",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ]
         },
         "crosswalk": {
@@ -4150,7 +4396,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -4161,7 +4409,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -4251,7 +4501,11 @@
         "assurance": {
           "evidence_artifacts": [
             "policy_document",
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "audit_log",
+            "status_record",
+            "verification_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -4265,7 +4519,11 @@
           "accountable_entity": "governance_authority",
           "evidence_produced": [
             "policy_document",
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "audit_log",
+            "status_record",
+            "verification_log"
           ]
         },
         "crosswalk": {
@@ -4308,7 +4566,11 @@
         "assurance": {
           "evidence_artifacts": [
             "policy_document",
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "audit_log",
+            "status_record",
+            "verification_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -4322,7 +4584,11 @@
           "accountable_entity": "governance_authority",
           "evidence_produced": [
             "policy_document",
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "audit_log",
+            "status_record",
+            "verification_log"
           ]
         },
         "crosswalk": {
@@ -4361,7 +4627,11 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -4373,7 +4643,11 @@
           ],
           "accountable_entity": "issuer_operator",
           "evidence_produced": [
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ]
         },
         "crosswalk": {
@@ -4412,7 +4686,11 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -4424,7 +4702,11 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ]
         },
         "crosswalk": {
@@ -4463,7 +4745,11 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -4475,7 +4761,11 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ]
         },
         "crosswalk": {
@@ -4514,7 +4804,11 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -4526,7 +4820,11 @@
           ],
           "accountable_entity": "issuer_operator",
           "evidence_produced": [
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ]
         },
         "crosswalk": {
@@ -4703,7 +5001,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -4714,7 +5014,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -4847,7 +5149,11 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -4859,7 +5165,11 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ]
         },
         "crosswalk": {
@@ -4942,7 +5252,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -4953,7 +5265,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -4989,7 +5303,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -5000,7 +5316,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -5130,7 +5448,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -5141,7 +5461,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -5180,7 +5502,11 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -5192,7 +5518,11 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ]
         },
         "crosswalk": {
@@ -5419,7 +5749,11 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -5431,7 +5765,11 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ]
         },
         "crosswalk": {
@@ -5469,7 +5807,11 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -5480,7 +5822,11 @@
           ],
           "accountable_entity": "governance_authority",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ]
         },
         "crosswalk": {
@@ -5563,7 +5909,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -5574,7 +5922,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -5848,7 +6198,12 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "delegation_record"
+            "delegation_record",
+            "policy_document",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -5860,7 +6215,12 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "delegation_record"
+            "delegation_record",
+            "policy_document",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ]
         },
         "crosswalk": {
@@ -5902,7 +6262,12 @@
         "assurance": {
           "evidence_artifacts": [
             "delegation_record",
-            "issuance_log"
+            "issuance_log",
+            "policy_document",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -5916,7 +6281,12 @@
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
             "delegation_record",
-            "issuance_log"
+            "issuance_log",
+            "policy_document",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ]
         },
         "crosswalk": {
@@ -5955,7 +6325,12 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "delegation_record"
+            "delegation_record",
+            "policy_document",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -5967,7 +6342,12 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "delegation_record"
+            "delegation_record",
+            "policy_document",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ]
         },
         "crosswalk": {
@@ -6011,7 +6391,12 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "delegation_record"
+            "delegation_record",
+            "policy_document",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -6023,7 +6408,12 @@
           ],
           "accountable_entity": "governance_authority",
           "evidence_produced": [
-            "delegation_record"
+            "delegation_record",
+            "policy_document",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ]
         },
         "crosswalk": {
@@ -6106,7 +6496,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -6117,7 +6509,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -6250,7 +6644,12 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "delegation_record"
+            "delegation_record",
+            "policy_document",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -6262,7 +6661,12 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "delegation_record"
+            "delegation_record",
+            "policy_document",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ]
         },
         "crosswalk": {
@@ -6490,7 +6894,12 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "delegation_record"
+            "delegation_record",
+            "policy_document",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -6502,7 +6911,12 @@
           ],
           "accountable_entity": "governance_authority",
           "evidence_produced": [
-            "delegation_record"
+            "delegation_record",
+            "policy_document",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ]
         },
         "crosswalk": {
@@ -6782,7 +7196,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -6793,7 +7209,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -7353,7 +7771,11 @@
         "assurance": {
           "evidence_artifacts": [
             "policy_document",
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "audit_log",
+            "status_record",
+            "verification_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -7367,7 +7789,11 @@
           "accountable_entity": "governance_authority",
           "evidence_produced": [
             "policy_document",
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "audit_log",
+            "status_record",
+            "verification_log"
           ]
         },
         "crosswalk": {
@@ -7779,7 +8205,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -7790,7 +8218,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -7920,7 +8350,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -7931,7 +8363,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -7967,7 +8401,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -7978,7 +8414,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -8249,7 +8687,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -8260,7 +8700,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -8399,7 +8841,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -8410,7 +8854,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -8446,7 +8892,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -8457,7 +8905,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -8497,7 +8947,11 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -8509,7 +8963,11 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ]
         },
         "crosswalk": {
@@ -8545,7 +9003,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -8556,7 +9016,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -8595,7 +9057,11 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -8607,7 +9073,11 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ]
         },
         "crosswalk": {
@@ -8737,7 +9207,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -8748,7 +9220,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -8940,7 +9414,11 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "policy_document"
+            "policy_document",
+            "audit_log",
+            "status_record",
+            "verification_log",
+            "registry_entry"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -8952,7 +9430,11 @@
           ],
           "accountable_entity": "governance_authority",
           "evidence_produced": [
-            "policy_document"
+            "policy_document",
+            "audit_log",
+            "status_record",
+            "verification_log",
+            "registry_entry"
           ]
         },
         "crosswalk": {
@@ -9084,7 +9566,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -9095,7 +9579,9 @@
           ],
           "accountable_entity": "governance_authority",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -9131,7 +9617,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -9142,7 +9630,9 @@
           ],
           "accountable_entity": "governance_authority",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -9342,7 +9832,11 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -9353,7 +9847,11 @@
           ],
           "accountable_entity": "governance_authority",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ]
         },
         "crosswalk": {
@@ -9396,7 +9894,11 @@
         "assurance": {
           "evidence_artifacts": [
             "policy_document",
-            "delegation_record"
+            "delegation_record",
+            "audit_log",
+            "status_record",
+            "verification_log",
+            "registry_entry"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -9410,7 +9912,11 @@
           "accountable_entity": "governance_authority",
           "evidence_produced": [
             "policy_document",
-            "delegation_record"
+            "delegation_record",
+            "audit_log",
+            "status_record",
+            "verification_log",
+            "registry_entry"
           ]
         },
         "crosswalk": {
@@ -9446,7 +9952,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -9457,7 +9965,9 @@
           ],
           "accountable_entity": "governance_authority",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -9496,7 +10006,11 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -9508,7 +10022,11 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ]
         },
         "crosswalk": {
@@ -9594,7 +10112,11 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -9606,7 +10128,11 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ]
         },
         "crosswalk": {
@@ -9783,7 +10309,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -9794,7 +10322,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -9836,7 +10366,12 @@
         "assurance": {
           "evidence_artifacts": [
             "delegation_record",
-            "issuance_log"
+            "issuance_log",
+            "policy_document",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -9850,7 +10385,12 @@
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
             "delegation_record",
-            "issuance_log"
+            "issuance_log",
+            "policy_document",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ]
         },
         "crosswalk": {
@@ -10078,7 +10618,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -10089,7 +10631,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -10464,7 +11008,13 @@
         "assurance": {
           "evidence_artifacts": [
             "issuance_log",
-            "attestation"
+            "attestation",
+            "access_decision_log",
+            "policy_document",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -10478,7 +11028,13 @@
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
             "issuance_log",
-            "attestation"
+            "attestation",
+            "access_decision_log",
+            "policy_document",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ]
         },
         "crosswalk": {
@@ -10514,7 +11070,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -10525,7 +11083,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -10611,7 +11171,11 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -10623,7 +11187,11 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ]
         },
         "crosswalk": {
@@ -10993,7 +11561,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -11004,7 +11574,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -11231,7 +11803,11 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -11243,7 +11819,11 @@
           ],
           "accountable_entity": "issuer_operator",
           "evidence_produced": [
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ]
         },
         "crosswalk": {
@@ -11282,7 +11862,11 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -11294,7 +11878,11 @@
           ],
           "accountable_entity": "issuer_operator",
           "evidence_produced": [
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ]
         },
         "crosswalk": {
@@ -11445,7 +12033,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -11456,7 +12046,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -11774,7 +12366,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -11785,7 +12379,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -12244,7 +12840,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -12255,7 +12853,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -12291,7 +12891,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -12302,7 +12904,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -12483,7 +13087,12 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "access_decision_log"
+            "access_decision_log",
+            "policy_document",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -12495,7 +13104,12 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "access_decision_log"
+            "access_decision_log",
+            "policy_document",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ]
         },
         "crosswalk": {
@@ -12719,7 +13333,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -12730,7 +13346,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -13143,7 +13761,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -13154,7 +13774,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -13566,7 +14188,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -13577,7 +14201,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -13660,7 +14286,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -13671,7 +14299,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -13707,7 +14337,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -13718,7 +14350,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -13990,7 +14624,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -14001,7 +14637,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -14039,7 +14677,11 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -14050,7 +14692,11 @@
           ],
           "accountable_entity": "governance_authority",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ]
         },
         "crosswalk": {
@@ -14133,7 +14779,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -14144,7 +14792,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -14324,7 +14974,12 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "access_decision_log"
+            "access_decision_log",
+            "policy_document",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -14336,7 +14991,12 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "access_decision_log"
+            "access_decision_log",
+            "policy_document",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ]
         },
         "crosswalk": {
@@ -14423,8 +15083,8 @@
           "evidence_artifacts": [
             "status_record"
           ],
-          "assurance_level_hint": "informative",
-          "auditability": "basic"
+          "assurance_level_hint": "AL1+",
+          "auditability": "moderate"
         },
         "control_plane": {
           "decision_points": [
@@ -14471,7 +15131,12 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "access_decision_log"
+            "access_decision_log",
+            "policy_document",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -14483,7 +15148,12 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "access_decision_log"
+            "access_decision_log",
+            "policy_document",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ]
         },
         "crosswalk": {
@@ -14707,7 +15377,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -14718,7 +15390,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -14801,7 +15475,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -14812,7 +15488,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -14898,7 +15576,11 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -14910,7 +15592,11 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ]
         },
         "crosswalk": {
@@ -15578,7 +16264,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -15589,7 +16277,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -15625,7 +16315,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -15636,7 +16328,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -15816,7 +16510,11 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -15828,7 +16526,11 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ]
         },
         "crosswalk": {
@@ -15911,7 +16613,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -15922,7 +16626,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -16101,7 +16807,11 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -16112,7 +16822,11 @@
           ],
           "accountable_entity": "governance_authority",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ]
         },
         "crosswalk": {
@@ -16248,7 +16962,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -16259,7 +16975,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -16342,7 +17060,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -16353,7 +17073,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -16639,7 +17361,12 @@
         "assurance": {
           "evidence_artifacts": [
             "delegation_record",
-            "issuance_log"
+            "issuance_log",
+            "policy_document",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -16653,7 +17380,12 @@
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
             "delegation_record",
-            "issuance_log"
+            "issuance_log",
+            "policy_document",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ]
         },
         "crosswalk": {
@@ -16792,7 +17524,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -16803,7 +17537,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -16943,7 +17679,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -16954,7 +17692,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -16990,7 +17730,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -17001,7 +17743,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -17037,7 +17781,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -17048,7 +17794,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -17131,7 +17879,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -17142,7 +17892,9 @@
           ],
           "accountable_entity": "governance_authority",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -17178,7 +17930,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -17189,7 +17943,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -17288,7 +18044,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -17299,7 +18057,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -17335,7 +18095,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -17346,7 +18108,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -17429,7 +18193,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -17440,7 +18206,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -17526,7 +18294,12 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "access_decision_log"
+            "access_decision_log",
+            "policy_document",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -17538,7 +18311,12 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "access_decision_log"
+            "access_decision_log",
+            "policy_document",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ]
         },
         "crosswalk": {
@@ -17577,7 +18355,11 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -17589,7 +18371,11 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ]
         },
         "crosswalk": {
@@ -17913,7 +18699,11 @@
         "assurance": {
           "evidence_artifacts": [
             "policy_document",
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "audit_log",
+            "status_record",
+            "verification_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -17927,7 +18717,11 @@
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
             "policy_document",
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "audit_log",
+            "status_record",
+            "verification_log"
           ]
         },
         "crosswalk": {
@@ -18060,7 +18854,12 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "delegation_record"
+            "delegation_record",
+            "policy_document",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -18072,7 +18871,12 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "delegation_record"
+            "delegation_record",
+            "policy_document",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ]
         },
         "crosswalk": {
@@ -18155,7 +18959,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -18166,7 +18972,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -18346,7 +19154,11 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -18358,7 +19170,11 @@
           ],
           "accountable_entity": "issuer_operator",
           "evidence_produced": [
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ]
         },
         "crosswalk": {
@@ -18444,8 +19260,8 @@
           "evidence_artifacts": [
             "verification_log"
           ],
-          "assurance_level_hint": "informative",
-          "auditability": "basic"
+          "assurance_level_hint": "AL1+",
+          "auditability": "moderate"
         },
         "control_plane": {
           "decision_points": [
@@ -18492,7 +19308,11 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -18504,7 +19324,11 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ]
         },
         "crosswalk": {
@@ -18634,7 +19458,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -18645,7 +19471,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -19061,7 +19889,11 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -19073,7 +19905,11 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ]
         },
         "crosswalk": {
@@ -19156,7 +19992,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -19167,7 +20005,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -19485,7 +20325,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -19496,7 +20338,9 @@
           ],
           "accountable_entity": "governance_authority",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -19626,7 +20470,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -19637,7 +20483,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -19908,7 +20756,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -19919,7 +20769,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -20014,7 +20866,11 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "attestation"
+            "attestation",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -20025,7 +20881,11 @@
           ],
           "accountable_entity": "governance_authority",
           "evidence_produced": [
-            "attestation"
+            "attestation",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ]
         },
         "crosswalk": {
@@ -20108,7 +20968,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -20119,7 +20981,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -20296,7 +21160,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -20307,7 +21173,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -20343,7 +21211,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -20354,7 +21224,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -20390,7 +21262,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -20401,7 +21275,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -20437,7 +21313,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -20448,7 +21326,9 @@
           ],
           "accountable_entity": "governance_authority",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -20580,7 +21460,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -20591,7 +21473,9 @@
           ],
           "accountable_entity": "governance_authority",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -20721,7 +21605,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -20732,7 +21618,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -20768,7 +21656,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -20779,7 +21669,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -20815,7 +21707,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -20826,7 +21720,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -20862,7 +21758,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -20873,7 +21771,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -20956,7 +21856,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -20967,7 +21869,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -21003,7 +21907,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -21014,7 +21920,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -21097,7 +22005,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -21108,7 +22018,9 @@
           ],
           "accountable_entity": "governance_authority",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -21333,7 +22245,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -21344,7 +22258,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -21431,7 +22347,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -21442,7 +22360,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -21478,7 +22398,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -21489,7 +22411,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -21572,7 +22496,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -21583,7 +22509,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -21669,7 +22597,11 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -21681,7 +22613,11 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ]
         },
         "crosswalk": {
@@ -21858,7 +22794,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -21869,7 +22807,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -21905,7 +22845,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -21916,7 +22858,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -21952,7 +22896,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -21963,7 +22909,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -22046,7 +22994,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -22057,7 +23007,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -22093,7 +23045,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -22104,7 +23058,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -22143,7 +23099,11 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -22155,7 +23115,11 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ]
         },
         "crosswalk": {
@@ -22287,7 +23251,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -22298,7 +23264,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -22382,7 +23350,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -22393,7 +23363,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -22436,7 +23408,11 @@
         "assurance": {
           "evidence_artifacts": [
             "policy_document",
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "audit_log",
+            "status_record",
+            "verification_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -22450,7 +23426,11 @@
           "accountable_entity": "governance_authority",
           "evidence_produced": [
             "policy_document",
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "audit_log",
+            "status_record",
+            "verification_log"
           ]
         },
         "crosswalk": {
@@ -22486,7 +23466,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -22497,7 +23479,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -22642,7 +23626,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -22653,7 +23639,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -22789,7 +23777,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -22800,7 +23790,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -22836,7 +23828,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -22847,7 +23841,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -22997,7 +23993,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -23008,7 +24006,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -23044,7 +24044,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -23055,7 +24057,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -23139,7 +24143,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -23150,7 +24156,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -23186,7 +24194,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -23197,7 +24207,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -23233,7 +24245,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -23244,7 +24258,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -23280,7 +24296,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -23291,7 +24309,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -23327,7 +24347,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -23338,7 +24360,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -23374,7 +24398,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -23385,7 +24411,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -23421,7 +24449,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -23432,7 +24462,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -23468,7 +24500,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -23479,7 +24513,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -23515,7 +24551,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -23526,7 +24564,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -23562,7 +24602,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -23573,7 +24615,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -23609,7 +24653,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -23620,7 +24666,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -23710,7 +24758,11 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -23721,7 +24773,11 @@
           ],
           "accountable_entity": "governance_authority",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ]
         },
         "crosswalk": {
@@ -23757,7 +24813,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -23768,7 +24826,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -23804,7 +24864,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -23815,7 +24877,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -23851,7 +24915,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -23862,7 +24928,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -23900,7 +24968,11 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -23911,7 +24983,11 @@
           ],
           "accountable_entity": "governance_authority",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "status_record",
+            "audit_log",
+            "verification_log",
+            "registry_entry"
           ]
         },
         "crosswalk": {
@@ -23947,7 +25023,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -23958,7 +25036,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -24088,7 +25168,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -24099,7 +25181,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -24518,7 +25602,11 @@
         "assurance": {
           "evidence_artifacts": [
             "policy_document",
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "audit_log",
+            "status_record",
+            "verification_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -24532,7 +25620,11 @@
           "accountable_entity": "governance_authority",
           "evidence_produced": [
             "policy_document",
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "audit_log",
+            "status_record",
+            "verification_log"
           ]
         },
         "crosswalk": {
@@ -24665,7 +25757,11 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -24677,7 +25773,11 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ]
         },
         "crosswalk": {
@@ -24716,7 +25816,11 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -24728,7 +25832,11 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ]
         },
         "crosswalk": {
@@ -24820,7 +25928,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -24831,7 +25941,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -24867,7 +25979,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -24878,7 +25992,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -24968,7 +26084,12 @@
         "assurance": {
           "evidence_artifacts": [
             "issuance_log",
-            "access_decision_log"
+            "access_decision_log",
+            "policy_document",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -24982,7 +26103,12 @@
           "accountable_entity": "governance_authority",
           "evidence_produced": [
             "issuance_log",
-            "access_decision_log"
+            "access_decision_log",
+            "policy_document",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ]
         },
         "crosswalk": {
@@ -25140,7 +26266,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -25151,7 +26279,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -25187,7 +26317,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL1+",
           "auditability": "moderate"
@@ -25198,7 +26330,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -25284,7 +26418,11 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -25296,7 +26434,11 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ]
         },
         "crosswalk": {
@@ -25476,7 +26618,11 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -25488,7 +26634,11 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "issuance_log"
+            "issuance_log",
+            "registry_entry",
+            "status_record",
+            "audit_log",
+            "verification_log"
           ]
         },
         "crosswalk": {
@@ -25618,7 +26768,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -25629,7 +26781,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -25712,7 +26866,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -25723,7 +26879,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -25759,7 +26917,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -25770,7 +26930,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -25806,7 +26968,9 @@
         },
         "assurance": {
           "evidence_artifacts": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ],
           "assurance_level_hint": "AL2+",
           "auditability": "high"
@@ -25817,7 +26981,9 @@
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
-            "definition_change_record"
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {

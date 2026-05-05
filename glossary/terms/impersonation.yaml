@@ -1,48 +1,52 @@
 term: impersonation
 aliases:
-  - impersonation
-  - impersonate
-  - impersonates
-  - impersonated
-definition: In the context of cybersecurity, impersonation is when an attacker pretends to be another person in order to commit fraud or some other digital crime.
-notes:
-  []
+- impersonation
+- impersonate
+- impersonates
+- impersonated
+definition: In the context of cybersecurity, impersonation is when an attacker pretends
+  to be another person in order to commit fraud or some other digital crime.
+notes: []
 see_also:
-  []
+- glossary
+- definition
 sources:
-  []
-mental_models:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/impersonation.md`'
+mental_models: []
 supporting_definitions:
-  - "[Wikipedia](https://en.wikipedia.org/wiki/Impersonator): An impersonator is someone who imitates or copies the behavior or actions of another. As part of a [criminal act](https://en.wikipedia.org/wiki/Crime) such as [identity theft](https://en.wikipedia.org/wiki/Identity_theft), the criminal is trying to assume the identity of another, in order to commit [fraud](https://en.wikipedia.org/wiki/Fraud), such as accessing confidential information, or to gain property not belonging to them. Also known as [social engineering](https://en.wikipedia.org/wiki/Social_engineering_\\(security\\)) and [impostors](https://en.wikipedia.org/wiki/Impostor)."
+- '[Wikipedia](https://en.wikipedia.org/wiki/Impersonator): An impersonator is someone
+  who imitates or copies the behavior or actions of another. As part of a [criminal
+  act](https://en.wikipedia.org/wiki/Crime) such as [identity theft](https://en.wikipedia.org/wiki/Identity_theft),
+  the criminal is trying to assume the identity of another, in order to commit [fraud](https://en.wikipedia.org/wiki/Fraud),
+  such as accessing confidential information, or to gain property not belonging to
+  them. Also known as [social engineering](https://en.wikipedia.org/wiki/Social_engineering_\(security\))
+  and [impostors](https://en.wikipedia.org/wiki/Impostor).'
 source_file: spec/terms-definitions/impersonation.md
 governance_profile: descriptive
 governance:
   authority_scope:
-    - terminology_definition
+  - terminology_definition
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: design
   control_plane_role: reference_term
   enforcement_points:
-    - definition_approval
+  - definition_approval
 assurance:
   evidence_artifacts:
-    - definition_change_record
+  - definition_change_record
   assurance_level_hint: informative
   auditability: basic
 control_plane:
   decision_points:
-    - definition_approval
+  - definition_approval
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - definition_change_record
+  - definition_change_record
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

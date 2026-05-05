@@ -27,6 +27,11 @@ digital agent, digital agents
 ## Assurance
 **Evidence artifacts**
 - delegation_record
+- policy_document
+- status_record
+- audit_log
+- verification_log
+- registry_entry
 
 - **Assurance level hint**: AL2+
 - **Auditability**: high
@@ -40,6 +45,11 @@ digital agent, digital agents
 
 **Evidence produced**
 - delegation_record
+- policy_document
+- status_record
+- audit_log
+- verification_log
+- registry_entry
 
 ## Notes
 - A digital agent may act with significant operational authority. Its governance characteristics therefore depend on the policies, permissions, lifecycle controls, and revocation mechanisms under which it operates.
@@ -52,7 +62,12 @@ Not specified
 Not specified
 
 ## See Also
-Not specified
+- delegation
+- delegator
+- delegatee
+- authorization
+- governance
+- governance-framework
 
 ## Crosswalk References
 Not specified

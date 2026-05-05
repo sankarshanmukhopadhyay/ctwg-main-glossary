@@ -1,46 +1,48 @@
 term: self-certified
 aliases:
-  - self-certified
-definition: When a party provides its own certification that it is compliant with a set of requirements, such as a governance framework. The term is also applied to data structures that are cryptographically verifiable such as self-certifying identifiers.
-notes:
-  []
+- self-certified
+definition: When a party provides its own certification that it is compliant with
+  a set of requirements, such as a governance framework. The term is also applied
+  to data structures that are cryptographically verifiable such as self-certifying
+  identifiers.
+notes: []
 see_also:
-  []
+- policy
+- governance-framework
+- requirement
+- governance
+- governing-authority
 sources:
-  []
-mental_models:
-  []
-supporting_definitions:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/self-certified.md`'
+mental_models: []
+supporting_definitions: []
 source_file: spec/terms-definitions/self-certified.md
 governance_profile: core-operational
 governance:
   authority_scope:
-    - policy_definition
-    - governance_recognition
+  - policy_definition
+  - governance_recognition
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: runtime
   control_plane_role: decision_plane_component
   enforcement_points:
-    - policy_approval
+  - policy_approval
 assurance:
   evidence_artifacts:
-    - policy_document
+  - policy_document
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
   decision_points:
-    - policy_approval
+  - policy_approval
   accountable_entity: governance_authority
   evidence_produced:
-    - policy_document
+  - policy_document
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

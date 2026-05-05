@@ -1,56 +1,80 @@
 term: assurance-level
 aliases:
-  - assurance level
-  - assurance levels
-definition: A level of confidence in a claim that may be relied on by others. Different types of assurance levels are defined for different types of trust assurance mechanisms. Examples include authenticator assurance level, federation assurance level, and identity assurance level.
+- assurance level
+- assurance levels
+definition: A level of confidence in a claim that may be relied on by others. Different
+  types of assurance levels are defined for different types of trust assurance mechanisms.
+  Examples include authenticator assurance level, federation assurance level, and
+  identity assurance level.
 notes:
-  - Assurance levels are most useful when the criteria for each level are explicit, testable, and supported by inspectable evidence.
+- Assurance levels are most useful when the criteria for each level are explicit,
+  testable, and supported by inspectable evidence.
 see_also:
-  []
+- credential
+- issuer
+- issuance
+- verifiable-credential
+- authorization
+- permission
 sources:
-  []
-mental_models:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/assurance-level.md`'
+mental_models: []
 supporting_definitions:
-  - For verifiable credentials, an assurance level measures the degree of certainty in an identity's authenticity or a credential's validity. It is influenced by the strength of the identity assurance process, the robustness of the authentication process, the management of the credential issuer, and the evidence available to support those assessments.
+- For verifiable credentials, an assurance level measures the degree of certainty
+  in an identity's authenticity or a credential's validity. It is influenced by the
+  strength of the identity assurance process, the robustness of the authentication
+  process, the management of the credential issuer, and the evidence available to
+  support those assessments.
 source_file: spec/terms-definitions/assurance-level.md
 governance_profile: core-operational
 governance:
   authority_scope:
-    - credential_issuance
-    - access_decisioning
-    - assurance_and_audit
+  - credential_issuance
+  - access_decisioning
+  - assurance_and_audit
   delegation_mode: direct
   revocation_supported: true
   lifecycle_states:
-    - proposed
-    - active
-    - suspended
-    - revoked
-    - retired
+  - proposed
+  - active
+  - suspended
+  - revoked
+  - retired
   execution_role: runtime
   control_plane_role: decision_plane_component
   enforcement_points:
-    - issuance_decision
-    - access_decision
-    - revocation_decision
+  - issuance_decision
+  - access_decision
+  - revocation_decision
 assurance:
   evidence_artifacts:
-    - issuance_log
-    - attestation
+  - issuance_log
+  - attestation
+  - access_decision_log
+  - policy_document
+  - registry_entry
+  - status_record
+  - audit_log
+  - verification_log
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
   decision_points:
-    - issuance_decision
-    - access_decision
-    - revocation_decision
+  - issuance_decision
+  - access_decision
+  - revocation_decision
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - issuance_log
-    - attestation
+  - issuance_log
+  - attestation
+  - access_decision_log
+  - policy_document
+  - registry_entry
+  - status_record
+  - audit_log
+  - verification_log
 crosswalk:
   nist:
-    - IA-8
+  - IA-8
   iso:
-    - ISO/IEC 29115
+  - ISO/IEC 29115

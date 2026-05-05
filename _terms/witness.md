@@ -26,6 +26,8 @@ witness, witnesses
 ## Assurance
 **Evidence artifacts**
 - definition_change_record
+- policy_document
+- audit_log
 
 - **Assurance level hint**: AL2+
 - **Auditability**: high
@@ -38,6 +40,8 @@ witness, witnesses
 
 **Evidence produced**
 - definition_change_record
+- policy_document
+- audit_log
 
 ## Notes
 - KERI is an example of a key management system that uses witnesses.
@@ -49,7 +53,8 @@ Not specified
 Not specified
 
 ## See Also
-Not specified
+- glossary
+- definition
 
 ## Crosswalk References
 Not specified

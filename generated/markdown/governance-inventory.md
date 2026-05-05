@@ -380,67 +380,67 @@ acceptance, acceptance-network, attestation, attributional-trust, authenticity, 
 ## Evidence-producing terms
 
 - **aal** — attestation
-- **abac** — definition_change_record
-- **acceptance** — definition_change_record
-- **acceptance-network** — definition_change_record
+- **abac** — access_decision_log, definition_change_record, policy_document
+- **acceptance** — audit_log, definition_change_record, policy_document
+- **acceptance-network** — audit_log, definition_change_record, policy_document
 - **access-control** — access_decision_log
-- **accreditation** — definition_change_record
+- **accreditation** — audit_log, definition_change_record, registry_entry, status_record, verification_log
 - **acdc** — definition_change_record
 - **action** — definition_change_record
 - **actor** — delegation_record
 - **address** — definition_change_record
-- **administering-authority** — definition_change_record
-- **administering-body** — delegation_record, policy_document
+- **administering-authority** — audit_log, definition_change_record, registry_entry, status_record, verification_log
+- **administering-body** — audit_log, delegation_record, policy_document, registry_entry, status_record, verification_log
 - **agency** — delegation_record
-- **agent** — delegation_record
+- **agent** — audit_log, delegation_record, policy_document, registry_entry, status_record, verification_log
 - **aid** — definition_change_record
 - **anonymous** — definition_change_record
 - **anycast** — definition_change_record
 - **anycast-address** — definition_change_record
 - **appraisability** — verification_log
-- **appropriate-friction** — definition_change_record
-- **assurance-level** — attestation, issuance_log
+- **appropriate-friction** — audit_log, definition_change_record, policy_document
+- **assurance-level** — access_decision_log, attestation, audit_log, issuance_log, policy_document, registry_entry, status_record, verification_log
 - **attestation** — attestation
 - **attribute** — definition_change_record
 - **attribute-based-access-control** — access_decision_log, policy_document
-- **attributional-trust** — definition_change_record
+- **attributional-trust** — audit_log, definition_change_record, policy_document
 - **audit** — audit_log
 - **audit-log** — audit_log
 - **auditor** — audit_log
-- **authentic-chained-data-container** — issuance_log
+- **authentic-chained-data-container** — audit_log, issuance_log, registry_entry, status_record, verification_log
 - **authentic-data** — definition_change_record
-- **authentication** — access_decision_log
-- **authenticator** — issuance_log
+- **authentication** — access_decision_log, audit_log, policy_document, registry_entry, status_record, verification_log
+- **authenticator** — access_decision_log, audit_log, issuance_log, policy_document, registry_entry, status_record, verification_log
 - **authenticator-assurance-level** — access_decision_log, attestation
-- **authenticity** — definition_change_record
-- **authoritative** — definition_change_record
+- **authenticity** — audit_log, definition_change_record, policy_document
+- **authoritative** — audit_log, definition_change_record, registry_entry, status_record, verification_log
 - **authoritative-source** — policy_document, registry_entry, verification_log
 - **authority** — delegation_record, policy_document, status_record
-- **authorization** — access_decision_log, issuance_log, policy_document
-- **authorization-graph** — access_decision_log
-- **authorized-organizational-representative** — delegation_record, issuance_log
+- **authorization** — access_decision_log, audit_log, issuance_log, policy_document, registry_entry, status_record, verification_log
+- **authorization-graph** — access_decision_log, audit_log, policy_document, registry_entry, status_record, verification_log
+- **authorized-organizational-representative** — audit_log, delegation_record, issuance_log, policy_document, registry_entry, status_record, verification_log
 - **autonomic-identifier** — definition_change_record
-- **autonomic-identity-system** — definition_change_record
-- **autonomic-namespace** — definition_change_record
+- **autonomic-identity-system** — audit_log, definition_change_record, policy_document
+- **autonomic-namespace** — audit_log, definition_change_record, registry_entry, status_record, verification_log
 - **binding** — definition_change_record
 - **biometric** — issuance_log
 - **blockchain** — policy_document
-- **bola** — access_decision_log
+- **bola** — access_decision_log, audit_log, policy_document, registry_entry, status_record, verification_log
 - **broadcast** — definition_change_record
-- **broadcast-address** — definition_change_record
-- **broken-object-level-authorization** — access_decision_log
+- **broadcast-address** — audit_log, definition_change_record, policy_document
+- **broken-object-level-authorization** — access_decision_log, audit_log, policy_document, registry_entry, status_record, verification_log
 - **c2pa** — definition_change_record
-- **ca** — definition_change_record
+- **ca** — audit_log, definition_change_record, registry_entry, status_record, verification_log
 - **cai** — definition_change_record
-- **capability** — access_decision_log, delegation_record
+- **capability** — access_decision_log, audit_log, delegation_record, policy_document, registry_entry, status_record, verification_log
 - **certificate** — definition_change_record
-- **certificate-authority** — policy_document
-- **certification** — definition_change_record
-- **certification-authority** — definition_change_record
+- **certificate-authority** — audit_log, policy_document, registry_entry, status_record, verification_log
+- **certification** — audit_log, definition_change_record, policy_document
+- **certification-authority** — audit_log, definition_change_record, registry_entry, status_record, verification_log
 - **certification-body** — definition_change_record
-- **chain-of-trust** — definition_change_record
-- **chained-credentials** — issuance_log
-- **chaining** — definition_change_record
+- **chain-of-trust** — audit_log, definition_change_record, policy_document
+- **chained-credentials** — audit_log, issuance_log, registry_entry, status_record, verification_log
+- **chaining** — audit_log, definition_change_record, policy_document
 - **channel** — definition_change_record
 - **ciphertext** — definition_change_record
 - **claim** — issuance_log, verification_log
@@ -455,29 +455,29 @@ acceptance, acceptance-network, attestation, attributional-trust, authenticity, 
 - **compliance** — policy_document
 - **concept** — definition_change_record
 - **confidential-computing** — definition_change_record
-- **confidentiality** — definition_change_record
+- **confidentiality** — audit_log, definition_change_record, policy_document
 - **connection** — definition_change_record
 - **consent-management** — definition_change_record
 - **content-authenticity-initiative** — definition_change_record
 - **contextual-linkability** — definition_change_record
-- **control-authority** — definition_change_record
-- **controlled-document** — definition_change_record
+- **control-authority** — audit_log, definition_change_record, registry_entry, status_record, verification_log
+- **controlled-document** — audit_log, definition_change_record, registry_entry, status_record, verification_log
 - **controller** — delegation_record
-- **correlation-privacy** — definition_change_record
+- **correlation-privacy** — audit_log, definition_change_record, policy_document
 - **counterparty** — definition_change_record
-- **credential** — issuance_log
-- **credential-family** — issuance_log, policy_document
-- **credential-governance-framework** — issuance_log, policy_document
-- **credential-offer** — issuance_log
-- **credential-request** — issuance_log
-- **credential-schema** — issuance_log
+- **credential** — audit_log, issuance_log, registry_entry, status_record, verification_log
+- **credential-family** — audit_log, issuance_log, policy_document, registry_entry, status_record, verification_log
+- **credential-governance-framework** — audit_log, issuance_log, policy_document, registry_entry, status_record, verification_log
+- **credential-offer** — audit_log, issuance_log, registry_entry, status_record, verification_log
+- **credential-request** — audit_log, issuance_log, registry_entry, status_record, verification_log
+- **credential-schema** — audit_log, issuance_log, registry_entry, status_record, verification_log
 - **criterion** — definition_change_record
 - **cryptographic-binding** — definition_change_record
 - **cryptographic-key** — definition_change_record
-- **cryptographic-trust** — definition_change_record
+- **cryptographic-trust** — audit_log, definition_change_record, policy_document
 - **cryptographic-verifiability** — definition_change_record
 - **cryptographically-bound** — definition_change_record
-- **cryptographically-verifiable** — issuance_log
+- **cryptographically-verifiable** — audit_log, issuance_log, registry_entry, status_record, verification_log
 - **cryptography** — definition_change_record
 - ... and 434 more
 
@@ -587,6 +587,6 @@ acceptance, acceptance-network, attestation, attributional-trust, authenticity, 
 
 ## Assurance level hints
 
-- `AL1+`: 79
+- `AL1+`: 82
 - `AL2+`: 227
-- `informative`: 228
+- `informative`: 225

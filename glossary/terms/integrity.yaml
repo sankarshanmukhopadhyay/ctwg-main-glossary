@@ -1,45 +1,45 @@
 term: integrity
 aliases:
-  - integrity
-definition: "- General IT: [[xref:toip2, integrity]] and KERI specific: [[xref:keri1, integrity]]"
-notes:
-  []
+- integrity
+definition: '- General IT: [[xref:toip2, integrity]] and KERI specific: [[xref:keri1,
+  integrity]]'
+notes: []
 see_also:
-  []
+- glossary
+- definition
 sources:
-  - "[Wikipedia](https://en.wikipedia.org/wiki/Information_security#Integrity)."
-mental_models:
-  []
+- '[Wikipedia](https://en.wikipedia.org/wiki/Information_security#Integrity).'
+mental_models: []
 supporting_definitions:
-  - "In IT security, data integrity means maintaining and assuring the accuracy and completeness of [[ref: data]] over its entire lifecycle. This means that [[ref: data]] cannot be modified in an [[ref: unauthorized]] or undetected manner."
+- 'In IT security, data integrity means maintaining and assuring the accuracy and
+  completeness of [[ref: data]] over its entire lifecycle. This means that [[ref:
+  data]] cannot be modified in an [[ref: unauthorized]] or undetected manner.'
 source_file: spec/terms-definitions/integrity.md
 governance_profile: descriptive
 governance:
   authority_scope:
-    - terminology_definition
+  - terminology_definition
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: design
   control_plane_role: reference_term
   enforcement_points:
-    - definition_approval
+  - definition_approval
 assurance:
   evidence_artifacts:
-    - definition_change_record
+  - definition_change_record
   assurance_level_hint: informative
   auditability: basic
 control_plane:
   decision_points:
-    - definition_approval
+  - definition_approval
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - definition_change_record
+  - definition_change_record
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

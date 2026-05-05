@@ -1,45 +1,44 @@
 term: aid
 aliases:
-  - AID
+- AID
 definition: See autonomic-identifier.
-notes:
-  []
+notes: []
 see_also:
-  []
+- glossary
+- definition
+- identifier
+- decentralized-identifier
 sources:
-  []
-mental_models:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/aid.md`'
+mental_models: []
 supporting_definitions:
-  - "KERI specific : [[xref: keri1, autonomic-identifier]]"
+- 'KERI specific : [[xref: keri1, autonomic-identifier]]'
 source_file: spec/terms-definitions/aid.md
 governance_profile: descriptive
 governance:
   authority_scope:
-    - terminology_definition
+  - terminology_definition
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: design
   control_plane_role: reference_term
   enforcement_points:
-    - definition_approval
+  - definition_approval
 assurance:
   evidence_artifacts:
-    - definition_change_record
+  - definition_change_record
   assurance_level_hint: informative
   auditability: basic
 control_plane:
   decision_points:
-    - definition_approval
+  - definition_approval
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - definition_change_record
+  - definition_change_record
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

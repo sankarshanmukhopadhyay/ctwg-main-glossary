@@ -1,48 +1,50 @@
 term: pseudonym
 aliases:
-  - pseudonym
-  - pseudonyms
-  - pseudonymous
-  - pseudonymity
-definition: A pseudonym is a fictitious name that a person assumes for a particular purpose, which differs from their original or true name (orthonym). This also differs from a new name that entirely or legally replaces an individual's own. Many pseudonym holders use pseudonyms because they wish to remain anonymous, but anonymity is difficult to achieve and often fraught with legal issues.
-notes:
-  []
+- pseudonym
+- pseudonyms
+- pseudonymous
+- pseudonymity
+definition: A pseudonym is a fictitious name that a person assumes for a particular
+  purpose, which differs from their original or true name (orthonym). This also differs
+  from a new name that entirely or legally replaces an individual's own. Many pseudonym
+  holders use pseudonyms because they wish to remain anonymous, but anonymity is difficult
+  to achieve and often fraught with legal issues.
+notes: []
 see_also:
-  []
+- verification
+- verifier
+- relying-party
+- trust-decision
 sources:
-  - "[Wikipedia](https://en.wikipedia.org/wiki/Pseudonym)."
-mental_models:
-  []
-supporting_definitions:
-  []
+- '[Wikipedia](https://en.wikipedia.org/wiki/Pseudonym).'
+mental_models: []
+supporting_definitions: []
 source_file: spec/terms-definitions/pseudonym.md
 governance_profile: core-operational
 governance:
   authority_scope:
-    - verification_and_reliance
+  - verification_and_reliance
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: design
   control_plane_role: decision_plane_component
   enforcement_points:
-    - reliance_decision
+  - reliance_decision
 assurance:
   evidence_artifacts:
-    - verification_log
+  - verification_log
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
   decision_points:
-    - reliance_decision
+  - reliance_decision
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - verification_log
+  - verification_log
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

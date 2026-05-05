@@ -26,6 +26,10 @@ public key certificate, public key certificates, PKC, PKCs
 ## Assurance
 **Evidence artifacts**
 - definition_change_record
+- status_record
+- audit_log
+- verification_log
+- registry_entry
 
 - **Assurance level hint**: AL2+
 - **Auditability**: high
@@ -38,6 +42,10 @@ public key certificate, public key certificates, PKC, PKCs
 
 **Evidence produced**
 - definition_change_record
+- status_record
+- audit_log
+- verification_log
+- registry_entry
 
 ## Notes
 Not specified

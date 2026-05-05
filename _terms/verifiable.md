@@ -29,6 +29,11 @@ verifiable, verifiability
 **Evidence artifacts**
 - issuance_log
 - access_decision_log
+- policy_document
+- registry_entry
+- status_record
+- audit_log
+- verification_log
 
 - **Assurance level hint**: AL2+
 - **Auditability**: high
@@ -44,6 +49,11 @@ verifiable, verifiability
 **Evidence produced**
 - issuance_log
 - access_decision_log
+- policy_document
+- registry_entry
+- status_record
+- audit_log
+- verification_log
 
 ## Notes
 Not specified

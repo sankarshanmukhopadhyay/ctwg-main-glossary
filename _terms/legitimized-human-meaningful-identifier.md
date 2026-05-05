@@ -27,6 +27,11 @@ legitimized-human-meaningful-identifier, legitimized human-meaningful identifier
 ## Assurance
 **Evidence artifacts**
 - access_decision_log
+- policy_document
+- status_record
+- audit_log
+- verification_log
+- registry_entry
 
 - **Assurance level hint**: AL2+
 - **Auditability**: high
@@ -40,6 +45,11 @@ legitimized-human-meaningful-identifier, legitimized human-meaningful identifier
 
 **Evidence produced**
 - access_decision_log
+- policy_document
+- status_record
+- audit_log
+- verification_log
+- registry_entry
 
 ## Notes
 Not specified
@@ -51,7 +61,10 @@ Not specified
 Not specified
 
 ## See Also
-Not specified
+- authorization
+- permission
+- role-based-access-control
+- attribute-based-access-control
 
 ## Crosswalk References
 Not specified

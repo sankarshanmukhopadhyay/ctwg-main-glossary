@@ -26,6 +26,8 @@ trust anchor, trust anchors
 ## Assurance
 **Evidence artifacts**
 - definition_change_record
+- policy_document
+- audit_log
 
 - **Assurance level hint**: AL1+
 - **Auditability**: moderate
@@ -38,6 +40,8 @@ trust anchor, trust anchors
 
 **Evidence produced**
 - definition_change_record
+- policy_document
+- audit_log
 
 ## Notes
 - The term “trust anchor” is most commonly used in cryptography and public key infrastructure.
@@ -50,7 +54,12 @@ trust anchor, trust anchors
 Not specified
 
 ## See Also
-Not specified
+- governance
+- governance-framework
+- governing-authority
+- trust-registry
+- definition
+- glossary
 
 ## Crosswalk References
 Not specified

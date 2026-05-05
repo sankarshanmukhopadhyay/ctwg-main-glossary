@@ -26,6 +26,8 @@ human experience
 ## Assurance
 **Evidence artifacts**
 - definition_change_record
+- policy_document
+- audit_log
 
 - **Assurance level hint**: AL1+
 - **Auditability**: moderate
@@ -38,6 +40,8 @@ human experience
 
 **Evidence produced**
 - definition_change_record
+- policy_document
+- audit_log
 
 ## Notes
 - Human experience includes social experiences (e.g., rituals, behaviors, ceremonies and rites of passage), as well as customer experience, worker or employee experience, and user experience.
@@ -49,7 +53,8 @@ Not specified
 Not specified
 
 ## See Also
-Not specified
+- glossary
+- definition
 
 ## Crosswalk References
 Not specified

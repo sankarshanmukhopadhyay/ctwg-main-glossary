@@ -27,6 +27,11 @@ delegatee, delegatees
 ## Assurance
 **Evidence artifacts**
 - delegation_record
+- policy_document
+- status_record
+- audit_log
+- verification_log
+- registry_entry
 
 - **Assurance level hint**: AL2+
 - **Auditability**: high
@@ -40,6 +45,11 @@ delegatee, delegatees
 
 **Evidence produced**
 - delegation_record
+- policy_document
+- status_record
+- audit_log
+- verification_log
+- registry_entry
 
 ## Notes
 Not specified
@@ -51,7 +61,10 @@ Not specified
 Not specified
 
 ## See Also
-Not specified
+- delegation
+- delegator
+- authorization
+- revocation
 
 ## Crosswalk References
 Not specified

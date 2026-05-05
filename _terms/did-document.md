@@ -27,6 +27,11 @@ DID document, DID documents, DID doc, DID docs
 ## Assurance
 **Evidence artifacts**
 - delegation_record
+- policy_document
+- status_record
+- audit_log
+- verification_log
+- registry_entry
 
 - **Assurance level hint**: AL2+
 - **Auditability**: high
@@ -40,6 +45,11 @@ DID document, DID documents, DID doc, DID docs
 
 **Evidence produced**
 - delegation_record
+- policy_document
+- status_record
+- audit_log
+- verification_log
+- registry_entry
 
 ## Notes
 Not specified
@@ -51,7 +61,10 @@ Not specified
 Not specified
 
 ## See Also
-Not specified
+- delegation
+- delegator
+- delegatee
+- authorization
 
 ## Crosswalk References
 Not specified

@@ -1,50 +1,73 @@
 term: public-key-certificate
 aliases:
-  - public key certificate
-  - public key certificates
-  - PKC
-  - PKCs
-definition: A set of data that uniquely identifies a public key (which has a corresponding private key) and an owner that is authorized to use the key pair. The certificate contains the owner’s public key and possibly other information and is digitally signed by a certification authority (i.e., a trusted party), thereby binding the public key to the owner.
-notes:
-  []
+- public key certificate
+- public key certificates
+- PKC
+- PKCs
+definition: A set of data that uniquely identifies a public key (which has a corresponding
+  private key) and an owner that is authorized to use the key pair. The certificate
+  contains the owner’s public key and possibly other information and is digitally
+  signed by a certification authority (i.e., a trusted party), thereby binding the
+  public key to the owner.
+notes: []
 see_also:
-  - public key infrastructure.
+- public key infrastructure.
 sources:
-  - "[NIST-CSRC](https://csrc.nist.gov/glossary/term/public_key_certificate)."
-mental_models:
-  []
+- '[NIST-CSRC](https://csrc.nist.gov/glossary/term/public_key_certificate).'
+mental_models: []
 supporting_definitions:
-  - "Wikipedia : In [cryptography](https://en.wikipedia.org/wiki/Cryptography), a public key certificate, also known as a digital certificate or identity certificate, is an [electronic document](https://en.wikipedia.org/wiki/Electronic_document) used to prove the validity of a [public key](https://en.wikipedia.org/wiki/Key_authentication). The certificate includes information about the key, information about the identity of its owner (called the subject), and the [digital signature](https://en.wikipedia.org/wiki/Digital_signature) of an entity that has verified the certificate's contents (called the issuer). If the signature is valid, and the software examining the certificate trusts the issuer, then it can use that key to communicate securely with the certificate's subject. In [email encryption](https://en.wikipedia.org/wiki/Email_encryption), [code signing](https://en.wikipedia.org/wiki/Code_signing), and [e-signature](https://en.wikipedia.org/wiki/Electronic_signature) systems, a certificate's subject is typically a person or organization. However, in [Transport Layer Security](https://en.wikipedia.org/wiki/Transport_Layer_Security) (TLS) a certificate's subject is typically a computer or other device, though TLS certificates may identify organizations or individuals in addition to their core role in identifying devices."
+- 'Wikipedia : In [cryptography](https://en.wikipedia.org/wiki/Cryptography), a public
+  key certificate, also known as a digital certificate or identity certificate, is
+  an [electronic document](https://en.wikipedia.org/wiki/Electronic_document) used
+  to prove the validity of a [public key](https://en.wikipedia.org/wiki/Key_authentication).
+  The certificate includes information about the key, information about the identity
+  of its owner (called the subject), and the [digital signature](https://en.wikipedia.org/wiki/Digital_signature)
+  of an entity that has verified the certificate''s contents (called the issuer).
+  If the signature is valid, and the software examining the certificate trusts the
+  issuer, then it can use that key to communicate securely with the certificate''s
+  subject. In [email encryption](https://en.wikipedia.org/wiki/Email_encryption),
+  [code signing](https://en.wikipedia.org/wiki/Code_signing), and [e-signature](https://en.wikipedia.org/wiki/Electronic_signature)
+  systems, a certificate''s subject is typically a person or organization. However,
+  in [Transport Layer Security](https://en.wikipedia.org/wiki/Transport_Layer_Security)
+  (TLS) a certificate''s subject is typically a computer or other device, though TLS
+  certificates may identify organizations or individuals in addition to their core
+  role in identifying devices.'
 source_file: spec/terms-definitions/public-key-certificate.md
 governance_profile: core-operational
 governance:
   authority_scope:
-    - governance_recognition
+  - governance_recognition
   delegation_mode: direct
   revocation_supported: true
   lifecycle_states:
-    - proposed
-    - active
-    - suspended
-    - revoked
-    - retired
+  - proposed
+  - active
+  - suspended
+  - revoked
+  - retired
   execution_role: runtime
   control_plane_role: decision_plane_component
   enforcement_points:
-    - revocation_decision
+  - revocation_decision
 assurance:
   evidence_artifacts:
-    - definition_change_record
+  - definition_change_record
+  - status_record
+  - audit_log
+  - verification_log
+  - registry_entry
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
   decision_points:
-    - revocation_decision
+  - revocation_decision
   accountable_entity: governance_authority
   evidence_produced:
-    - definition_change_record
+  - definition_change_record
+  - status_record
+  - audit_log
+  - verification_log
+  - registry_entry
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

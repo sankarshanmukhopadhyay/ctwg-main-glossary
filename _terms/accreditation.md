@@ -26,6 +26,10 @@ accreditation, accredit, accredited
 ## Assurance
 **Evidence artifacts**
 - definition_change_record
+- status_record
+- audit_log
+- verification_log
+- registry_entry
 
 - **Assurance level hint**: AL2+
 - **Auditability**: high
@@ -38,6 +42,10 @@ accreditation, accredit, accredited
 
 **Evidence produced**
 - definition_change_record
+- status_record
+- audit_log
+- verification_log
+- registry_entry
 
 ## Notes
 Not specified
@@ -49,7 +57,12 @@ Not specified
 Not specified
 
 ## See Also
-Not specified
+- governance
+- governance-framework
+- governing-authority
+- trust-registry
+- revocation
+- verification
 
 ## Crosswalk References
 Not specified

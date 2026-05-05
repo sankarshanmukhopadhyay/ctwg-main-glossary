@@ -29,6 +29,10 @@ utility governance framework, utility governance frameworks
 **Evidence artifacts**
 - policy_document
 - issuance_log
+- registry_entry
+- audit_log
+- status_record
+- verification_log
 
 - **Assurance level hint**: AL2+
 - **Auditability**: high
@@ -44,6 +48,10 @@ utility governance framework, utility governance frameworks
 **Evidence produced**
 - policy_document
 - issuance_log
+- registry_entry
+- audit_log
+- status_record
+- verification_log
 
 ## Notes
 Not specified
@@ -55,7 +63,12 @@ Not specified
 Not specified
 
 ## See Also
-Not specified
+- credential
+- issuer
+- issuance
+- verifiable-credential
+- policy
+- governance-framework
 
 ## Crosswalk References
 Not specified

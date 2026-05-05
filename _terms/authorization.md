@@ -31,6 +31,10 @@ authorization, authorizations, authorize, authorized, unauthorized, authorizing,
 - policy_document
 - issuance_log
 - access_decision_log
+- registry_entry
+- audit_log
+- status_record
+- verification_log
 
 - **Assurance level hint**: AL2+
 - **Auditability**: high
@@ -48,6 +52,10 @@ authorization, authorizations, authorize, authorized, unauthorized, authorizing,
 - policy_document
 - issuance_log
 - access_decision_log
+- registry_entry
+- audit_log
+- status_record
+- verification_log
 
 ## Notes
 Not specified

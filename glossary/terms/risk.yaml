@@ -1,46 +1,48 @@
 term: risk
 aliases:
-  - risk
-  - risks
-definition: The effects that uncertainty (i.e. a lack of information, understanding or knowledge of events, their consequences or likelihoods) can have on the intended realization of an objective of a party.
-notes:
-  []
+- risk
+- risks
+definition: The effects that uncertainty (i.e. a lack of information, understanding
+  or knowledge of events, their consequences or likelihoods) can have on the intended
+  realization of an objective of a party.
+notes: []
 see_also:
-  []
+- glossary
+- definition
 sources:
-  - "[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary)"
-mental_models:
-  []
+- '[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary)'
+mental_models: []
 supporting_definitions:
-  - "[NIST-CSRC](https://csrc.nist.gov/glossary/term/risk): A measure of the extent to which an entity is threatened by a potential circumstance or event, and typically a function of: (i) the adverse impacts that would arise if the circumstance or event occurs; and (ii) the likelihood of occurrence."
+- '[NIST-CSRC](https://csrc.nist.gov/glossary/term/risk): A measure of the extent
+  to which an entity is threatened by a potential circumstance or event, and typically
+  a function of: (i) the adverse impacts that would arise if the circumstance or event
+  occurs; and (ii) the likelihood of occurrence.'
 source_file: spec/terms-definitions/risk.md
 governance_profile: descriptive
 governance:
   authority_scope:
-    - terminology_definition
+  - terminology_definition
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: design
   control_plane_role: reference_term
   enforcement_points:
-    - definition_approval
+  - definition_approval
 assurance:
   evidence_artifacts:
-    - definition_change_record
+  - definition_change_record
   assurance_level_hint: informative
   auditability: basic
 control_plane:
   decision_points:
-    - definition_approval
+  - definition_approval
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - definition_change_record
+  - definition_change_record
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

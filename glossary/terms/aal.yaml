@@ -1,46 +1,46 @@
 term: aal
 aliases:
-  - AAL
-definition: "See: authenticator assurance level."
-notes:
-  []
+- AAL
+definition: 'See: authenticator assurance level.'
+notes: []
 see_also:
-  []
+- authorization
+- permission
+- role-based-access-control
+- attribute-based-access-control
+- audit
+- verification
 sources:
-  []
-mental_models:
-  []
-supporting_definitions:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/aal.md`'
+mental_models: []
+supporting_definitions: []
 source_file: spec/terms-definitions/aal.md
 governance_profile: core-operational
 governance:
   authority_scope:
-    - access_decisioning
-    - assurance_and_audit
+  - access_decisioning
+  - assurance_and_audit
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: design
   control_plane_role: decision_plane_component
   enforcement_points:
-    - access_decision
+  - access_decision
 assurance:
   evidence_artifacts:
-    - attestation
+  - attestation
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
   decision_points:
-    - access_decision
+  - access_decision
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - attestation
+  - attestation
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

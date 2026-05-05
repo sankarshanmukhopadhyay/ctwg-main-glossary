@@ -1,47 +1,56 @@
 term: authoritative
 aliases:
-  - authoritative
+- authoritative
 definition: Information or data that comes from an authority for that information.
-notes:
-  []
+notes: []
 see_also:
-  []
+- governance
+- governance-framework
+- governing-authority
+- trust-registry
+- revocation
+- verification
 sources:
-  []
-mental_models:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/authoritative.md`'
+mental_models: []
 supporting_definitions:
-  - "In the KERI context: [[xref:keri1, authoritative]]"
+- 'In the KERI context: [[xref:keri1, authoritative]]'
 source_file: spec/terms-definitions/authoritative.md
 governance_profile: core-operational
 governance:
   authority_scope:
-    - governance_recognition
+  - governance_recognition
   delegation_mode: direct
   revocation_supported: true
   lifecycle_states:
-    - proposed
-    - active
-    - suspended
-    - revoked
-    - retired
+  - proposed
+  - active
+  - suspended
+  - revoked
+  - retired
   execution_role: runtime
   control_plane_role: decision_plane_component
   enforcement_points:
-    - revocation_decision
+  - revocation_decision
 assurance:
   evidence_artifacts:
-    - definition_change_record
+  - definition_change_record
+  - status_record
+  - audit_log
+  - verification_log
+  - registry_entry
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
   decision_points:
-    - revocation_decision
+  - revocation_decision
   accountable_entity: governance_authority
   evidence_produced:
-    - definition_change_record
+  - definition_change_record
+  - status_record
+  - audit_log
+  - verification_log
+  - registry_entry
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

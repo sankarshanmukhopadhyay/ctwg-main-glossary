@@ -27,8 +27,8 @@ biometric, biometrics
 **Evidence artifacts**
 - issuance_log
 
-- **Assurance level hint**: informative
-- **Auditability**: basic
+- **Assurance level hint**: AL1+
+- **Auditability**: moderate
 
 ## Control Plane
 **Decision points**
@@ -49,7 +49,10 @@ Not specified
 Not specified
 
 ## See Also
-Not specified
+- credential
+- issuer
+- issuance
+- verifiable-credential
 
 ## Crosswalk References
 Not specified

@@ -1,46 +1,49 @@
 term: trust-objective
 aliases:
-  - trust objective
-  - trust objectives
-definition: An objective shared by the parties in a trust community to establish and maintain trust relationships.
-notes:
-  []
+- trust objective
+- trust objectives
+definition: An objective shared by the parties in a trust community to establish and
+  maintain trust relationships.
+notes: []
 see_also:
-  []
+- glossary
+- definition
+- trust
+- trust-registry
 sources:
-  []
-mental_models:
-  []
-supporting_definitions:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/trust-objective.md`'
+mental_models: []
+supporting_definitions: []
 source_file: spec/terms-definitions/trust-objective.md
 governance_profile: governance-supporting
 governance:
   authority_scope:
-    - terminology_definition
+  - terminology_definition
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: design
   control_plane_role: decision_plane_component
   enforcement_points:
-    - definition_approval
+  - definition_approval
 assurance:
   evidence_artifacts:
-    - definition_change_record
+  - definition_change_record
+  - policy_document
+  - audit_log
   assurance_level_hint: AL1+
   auditability: moderate
 control_plane:
   decision_points:
-    - definition_approval
+  - definition_approval
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - definition_change_record
+  - definition_change_record
+  - policy_document
+  - audit_log
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

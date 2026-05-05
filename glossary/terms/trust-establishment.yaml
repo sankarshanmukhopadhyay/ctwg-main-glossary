@@ -1,55 +1,69 @@
 term: trust-establishment
 aliases:
-  - trust establishment
-definition: The process two or more parties go through to establish a trust relationship. In the context of decentralized digital trust infrastructure, trust establishment takes place at two levels. At the technical trust level, it includes some form of key establishment. At the human trust level, it may be accomplished via an out-of-band introduction, the exchange of digital credentials, queries to one or more trust registries, or evaluation of some combination of human-readable and machine-readable governance frameworks.
-notes:
-  []
+- trust establishment
+definition: The process two or more parties go through to establish a trust relationship.
+  In the context of decentralized digital trust infrastructure, trust establishment
+  takes place at two levels. At the technical trust level, it includes some form of
+  key establishment. At the human trust level, it may be accomplished via an out-of-band
+  introduction, the exchange of digital credentials, queries to one or more trust
+  registries, or evaluation of some combination of human-readable and machine-readable
+  governance frameworks.
+notes: []
 see_also:
-  []
+- credential
+- issuer
+- issuance
+- verifiable-credential
+- policy
+- governance-framework
 sources:
-  []
-mental_models:
-  []
-supporting_definitions:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/trust-establishment.md`'
+mental_models: []
+supporting_definitions: []
 source_file: spec/terms-definitions/trust-establishment.md
 governance_profile: core-operational
 governance:
   authority_scope:
-    - credential_issuance
-    - policy_definition
-    - governance_recognition
+  - credential_issuance
+  - policy_definition
+  - governance_recognition
   delegation_mode: direct
   revocation_supported: true
   lifecycle_states:
-    - proposed
-    - active
-    - suspended
-    - revoked
-    - retired
+  - proposed
+  - active
+  - suspended
+  - revoked
+  - retired
   execution_role: runtime
   control_plane_role: decision_plane_component
   enforcement_points:
-    - policy_approval
-    - issuance_decision
-    - revocation_decision
+  - policy_approval
+  - issuance_decision
+  - revocation_decision
 assurance:
   evidence_artifacts:
-    - policy_document
-    - issuance_log
+  - policy_document
+  - issuance_log
+  - registry_entry
+  - audit_log
+  - status_record
+  - verification_log
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
   decision_points:
-    - policy_approval
-    - issuance_decision
-    - revocation_decision
+  - policy_approval
+  - issuance_decision
+  - revocation_decision
   accountable_entity: governance_authority
   evidence_produced:
-    - policy_document
-    - issuance_log
+  - policy_document
+  - issuance_log
+  - registry_entry
+  - audit_log
+  - status_record
+  - verification_log
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

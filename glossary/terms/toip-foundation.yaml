@@ -1,46 +1,47 @@
 term: toip-foundation
 aliases:
-  - ToIP Foundation
-definition: A non-profit project of the Linux Foundation chartered to define an overall architecture for decentralized digital trust infrastructure known as the ToIP stack.
-notes:
-  []
+- ToIP Foundation
+definition: A non-profit project of the Linux Foundation chartered to define an overall
+  architecture for decentralized digital trust infrastructure known as the ToIP stack.
+notes: []
 see_also:
-  - Decentralized Identity Foundation
-  - OpenWallet Foundation.
+- Decentralized Identity Foundation
+- OpenWallet Foundation.
 sources:
-  []
-mental_models:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/toip-foundation.md`'
+mental_models: []
 supporting_definitions:
-  - "For more information, see: <https://trustoverip.org/>."
+- 'For more information, see: <https://trustoverip.org/>.'
 source_file: spec/terms-definitions/toip-foundation.md
 governance_profile: governance-supporting
 governance:
   authority_scope:
-    - terminology_definition
+  - terminology_definition
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: design
   control_plane_role: decision_plane_component
   enforcement_points:
-    - definition_approval
+  - definition_approval
 assurance:
   evidence_artifacts:
-    - definition_change_record
+  - definition_change_record
+  - policy_document
+  - audit_log
   assurance_level_hint: AL1+
   auditability: moderate
 control_plane:
   decision_points:
-    - definition_approval
+  - definition_approval
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - definition_change_record
+  - definition_change_record
+  - policy_document
+  - audit_log
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

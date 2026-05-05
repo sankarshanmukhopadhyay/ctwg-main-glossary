@@ -1,52 +1,65 @@
 term: authenticator
 aliases:
-  - authenticator
-definition: Something the claimant possesses and controls (typically a cryptographic module or password) that is used to authenticate the claimant’s identity.
-notes:
-  []
+- authenticator
+definition: Something the claimant possesses and controls (typically a cryptographic
+  module or password) that is used to authenticate the claimant’s identity.
+notes: []
 see_also:
-  []
+- credential
+- issuer
+- issuance
+- verifiable-credential
+- authorization
+- permission
 sources:
-  - "[NIST-CSRC](https://csrc.nist.gov/glossary/term/authenticator)."
-mental_models:
-  []
-supporting_definitions:
-  []
+- '[NIST-CSRC](https://csrc.nist.gov/glossary/term/authenticator).'
+mental_models: []
+supporting_definitions: []
 source_file: spec/terms-definitions/authenticator.md
 governance_profile: core-operational
 governance:
   authority_scope:
-    - credential_issuance
-    - access_decisioning
+  - credential_issuance
+  - access_decisioning
   delegation_mode: direct
   revocation_supported: true
   lifecycle_states:
-    - proposed
-    - active
-    - suspended
-    - revoked
-    - retired
+  - proposed
+  - active
+  - suspended
+  - revoked
+  - retired
   execution_role: runtime
   control_plane_role: decision_plane_component
   enforcement_points:
-    - issuance_decision
-    - access_decision
-    - revocation_decision
+  - issuance_decision
+  - access_decision
+  - revocation_decision
 assurance:
   evidence_artifacts:
-    - issuance_log
+  - issuance_log
+  - access_decision_log
+  - policy_document
+  - registry_entry
+  - status_record
+  - audit_log
+  - verification_log
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
   decision_points:
-    - issuance_decision
-    - access_decision
-    - revocation_decision
+  - issuance_decision
+  - access_decision
+  - revocation_decision
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - issuance_log
+  - issuance_log
+  - access_decision_log
+  - policy_document
+  - registry_entry
+  - status_record
+  - audit_log
+  - verification_log
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

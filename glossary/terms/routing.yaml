@@ -1,47 +1,47 @@
 term: routing
 aliases:
-  - routing
-  - routes
-  - routed
-definition: Routing is the process of selecting a path for traffic in a network or between or across multiple networks. Broadly, routing is performed in many types of networks, including circuit-switched networks, such as the public switched telephone network (PSTN), and computer networks, such as the Internet. A router is a computing device that specializes in performing routing.
-notes:
-  []
+- routing
+- routes
+- routed
+definition: Routing is the process of selecting a path for traffic in a network or
+  between or across multiple networks. Broadly, routing is performed in many types
+  of networks, including circuit-switched networks, such as the public switched telephone
+  network (PSTN), and computer networks, such as the Internet. A router is a computing
+  device that specializes in performing routing.
+notes: []
 see_also:
-  []
+- glossary
+- definition
 sources:
-  - "[Wikipedia](https://en.wikipedia.org/wiki/Routing)."
-mental_models:
-  []
-supporting_definitions:
-  []
+- '[Wikipedia](https://en.wikipedia.org/wiki/Routing).'
+mental_models: []
+supporting_definitions: []
 source_file: spec/terms-definitions/routing.md
 governance_profile: descriptive
 governance:
   authority_scope:
-    - terminology_definition
+  - terminology_definition
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: design
   control_plane_role: reference_term
   enforcement_points:
-    - definition_approval
+  - definition_approval
 assurance:
   evidence_artifacts:
-    - definition_change_record
+  - definition_change_record
   assurance_level_hint: informative
   auditability: basic
 control_plane:
   decision_points:
-    - definition_approval
+  - definition_approval
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - definition_change_record
+  - definition_change_record
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

@@ -1,46 +1,51 @@
 term: identifier
 aliases:
-  - identifier
-  - identifiers
-definition: A single attribute—typically a character string—that uniquely identifies an entity within a specific context (which may be a global context). Examples include the name of a party, the URL of an organization, or a serial number for a man-made thing.
-notes:
-  []
+- identifier
+- identifiers
+definition: A single attribute—typically a character string—that uniquely identifies
+  an entity within a specific context (which may be a global context). Examples include
+  the name of a party, the URL of an organization, or a serial number for a man-made
+  thing.
+notes: []
 see_also:
-  []
+- glossary
+- definition
+- decentralized-identifier
+- verifiable-identifier
 sources:
-  []
-mental_models:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/identifier.md`'
+mental_models: []
 supporting_definitions:
-  - "[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#identifier): a character string that is being used for the identification of some [entity](https://essif-lab.github.io/framework/docs/terms/entity) (yet may refer to 0, 1, or more [entities](https://essif-lab.github.io/framework/docs/terms/entity), depending on the context within which it is being used)."
+- '[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#identifier):
+  a character string that is being used for the identification of some [entity](https://essif-lab.github.io/framework/docs/terms/entity)
+  (yet may refer to 0, 1, or more [entities](https://essif-lab.github.io/framework/docs/terms/entity),
+  depending on the context within which it is being used).'
 source_file: spec/terms-definitions/identifier.md
 governance_profile: descriptive
 governance:
   authority_scope:
-    - terminology_definition
+  - terminology_definition
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: design
   control_plane_role: reference_term
   enforcement_points:
-    - definition_approval
+  - definition_approval
 assurance:
   evidence_artifacts:
-    - definition_change_record
+  - definition_change_record
   assurance_level_hint: informative
   auditability: basic
 control_plane:
   decision_points:
-    - definition_approval
+  - definition_approval
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - definition_change_record
+  - definition_change_record
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

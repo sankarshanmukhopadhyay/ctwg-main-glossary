@@ -27,6 +27,11 @@ authorization graph
 ## Assurance
 **Evidence artifacts**
 - access_decision_log
+- policy_document
+- status_record
+- audit_log
+- verification_log
+- registry_entry
 
 - **Assurance level hint**: AL2+
 - **Auditability**: high
@@ -40,6 +45,11 @@ authorization graph
 
 **Evidence produced**
 - access_decision_log
+- policy_document
+- status_record
+- audit_log
+- verification_log
+- registry_entry
 
 ## Notes
 Not specified

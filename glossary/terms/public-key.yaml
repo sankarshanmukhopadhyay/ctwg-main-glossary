@@ -1,46 +1,54 @@
 term: public-key
 aliases:
-  - public key
-  - public keys
-definition: In public key cryptography, the cryptographic key that can be freely shared with anyone by the controller without compromising security. A party's public key must be verified as authoritative in order to verify their digital signature.
-notes:
-  []
+- public key
+- public keys
+definition: In public key cryptography, the cryptographic key that can be freely shared
+  with anyone by the controller without compromising security. A party's public key
+  must be verified as authoritative in order to verify their digital signature.
+notes: []
 see_also:
-  []
+- governance
+- governance-framework
+- governing-authority
+- trust-registry
+- definition
+- glossary
 sources:
-  []
-mental_models:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/public-key.md`'
+mental_models: []
 supporting_definitions:
-  - "[NIST-CSRC](https://csrc.nist.gov/glossary/term/public_key): The public part of an asymmetric key pair that is typically used to verify signatures or encrypt data."
+- '[NIST-CSRC](https://csrc.nist.gov/glossary/term/public_key): The public part of
+  an asymmetric key pair that is typically used to verify signatures or encrypt data.'
 source_file: spec/terms-definitions/public-key.md
 governance_profile: core-operational
 governance:
   authority_scope:
-    - governance_recognition
+  - governance_recognition
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: runtime
   control_plane_role: decision_plane_component
   enforcement_points:
-    - definition_approval
+  - definition_approval
 assurance:
   evidence_artifacts:
-    - definition_change_record
+  - definition_change_record
+  - policy_document
+  - audit_log
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
   decision_points:
-    - definition_approval
+  - definition_approval
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - definition_change_record
+  - definition_change_record
+  - policy_document
+  - audit_log
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

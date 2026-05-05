@@ -1,51 +1,47 @@
 term: registry
 aliases:
-  - registry
-  - registries
-definition: A specialized database of records that serves as an authoritative source of information about entities.
-notes:
-  []
+- registry
+- registries
+definition: A specialized database of records that serves as an authoritative source
+  of information about entities.
+notes: []
 see_also:
-  - trust registry.
+- trust registry.
 sources:
-  []
-mental_models:
-  []
-supporting_definitions:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/registry.md`'
+mental_models: []
+supporting_definitions: []
 source_file: spec/terms-definitions/registry.md
 governance_profile: core-operational
 governance:
   authority_scope:
-    - registry_management
-    - governance_recognition
+  - registry_management
+  - governance_recognition
   delegation_mode: direct
   revocation_supported: true
   lifecycle_states:
-    - proposed
-    - active
-    - suspended
-    - revoked
-    - retired
+  - proposed
+  - active
+  - suspended
+  - revoked
+  - retired
   execution_role: runtime
   control_plane_role: decision_plane_component
   enforcement_points:
-    - registration_decision
-    - revocation_decision
+  - registration_decision
+  - revocation_decision
 assurance:
   evidence_artifacts:
-    - registry_entry
+  - registry_entry
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
   decision_points:
-    - registration_decision
-    - revocation_decision
+  - registration_decision
+  - revocation_decision
   accountable_entity: registry_operator
   evidence_produced:
-    - registry_entry
+  - registry_entry
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

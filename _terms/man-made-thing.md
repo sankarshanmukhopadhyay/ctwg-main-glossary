@@ -49,7 +49,8 @@ man-made thing, man-made things
 Not specified
 
 ## See Also
-Not specified
+- glossary
+- definition
 
 ## Crosswalk References
 Not specified

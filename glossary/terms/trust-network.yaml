@@ -1,47 +1,46 @@
 term: trust-network
 aliases:
-  - trust network
-  - trust networks
-definition: A network of parties who are connected via trust relationships (such as via a membership agreement) conforming to requirements defined in a legal regulation, trust framework or governance framework. A trust network is more formal than a digital trust ecosystem; the latter may connect parties more loosely via transitive trust relationships and/or across multiple trust networks.
-notes:
-  []
+- trust network
+- trust networks
+definition: A network of parties who are connected via trust relationships (such as
+  via a membership agreement) conforming to requirements defined in a legal regulation,
+  trust framework or governance framework. A trust network is more formal than a digital
+  trust ecosystem; the latter may connect parties more loosely via transitive trust
+  relationships and/or across multiple trust networks.
+notes: []
 see_also:
-  - ToIP trust network.
+- ToIP trust network.
 sources:
-  []
-mental_models:
-  []
-supporting_definitions:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/trust-network.md`'
+mental_models: []
+supporting_definitions: []
 source_file: spec/terms-definitions/trust-network.md
 governance_profile: core-operational
 governance:
   authority_scope:
-    - policy_definition
-    - governance_recognition
+  - policy_definition
+  - governance_recognition
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: runtime
   control_plane_role: decision_plane_component
   enforcement_points:
-    - policy_approval
+  - policy_approval
 assurance:
   evidence_artifacts:
-    - policy_document
+  - policy_document
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
   decision_points:
-    - policy_approval
+  - policy_approval
   accountable_entity: governance_authority
   evidence_produced:
-    - policy_document
+  - policy_document
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

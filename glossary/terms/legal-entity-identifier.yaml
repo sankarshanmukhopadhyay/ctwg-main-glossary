@@ -1,48 +1,55 @@
 term: legal-entity-identifier
 aliases:
-  - Legal Entity Identifier
-  - Legal Entity Identifiers
-  - LEI
-  - LEIs
-definition: The Legal Entity Identifier (LEI) is a unique global identifier for legal entities participating in financial transactions. Also known as an LEI code or LEI number, its purpose is to help identify legal entities on a globally accessible database. Legal entities are organisations such as companies or government entities that participate in financial transactions.
+- Legal Entity Identifier
+- Legal Entity Identifiers
+- LEI
+- LEIs
+definition: The Legal Entity Identifier (LEI) is a unique global identifier for legal
+  entities participating in financial transactions. Also known as an LEI code or LEI
+  number, its purpose is to help identify legal entities on a globally accessible
+  database. Legal entities are organisations such as companies or government entities
+  that participate in financial transactions.
 notes:
-  - LEIs are administered by the Global Legal Entity Identifier Foundation (GLEIF).
+- LEIs are administered by the Global Legal Entity Identifier Foundation (GLEIF).
 see_also:
-  []
+- glossary
+- definition
+- identifier
+- decentralized-identifier
 sources:
-  - "[Wikipedia](https://en.wikipedia.org/wiki/Legal_Entity_Identifier)."
-mental_models:
-  []
-supporting_definitions:
-  []
+- '[Wikipedia](https://en.wikipedia.org/wiki/Legal_Entity_Identifier).'
+mental_models: []
+supporting_definitions: []
 source_file: spec/terms-definitions/legal-entity-identifier.md
 governance_profile: core-operational
 governance:
   authority_scope:
-    - terminology_definition
+  - terminology_definition
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: design
   control_plane_role: decision_plane_component
   enforcement_points:
-    - definition_approval
+  - definition_approval
 assurance:
   evidence_artifacts:
-    - definition_change_record
+  - definition_change_record
+  - policy_document
+  - audit_log
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
   decision_points:
-    - definition_approval
+  - definition_approval
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - definition_change_record
+  - definition_change_record
+  - policy_document
+  - audit_log
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

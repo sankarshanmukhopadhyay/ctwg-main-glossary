@@ -26,6 +26,8 @@ jurisdiction, jurisdictions
 ## Assurance
 **Evidence artifacts**
 - definition_change_record
+- policy_document
+- audit_log
 
 - **Assurance level hint**: AL1+
 - **Auditability**: moderate
@@ -38,6 +40,8 @@ jurisdiction, jurisdictions
 
 **Evidence produced**
 - definition_change_record
+- policy_document
+- audit_log
 
 ## Notes
 Not specified
@@ -49,7 +53,8 @@ Not specified
 - [eSSIF-Lab Jurisdictions ](https://essif-lab.github.io/framework/docs/terms/pattern-jurisdiction)
 
 ## See Also
-Not specified
+- glossary
+- definition
 
 ## Crosswalk References
 Not specified

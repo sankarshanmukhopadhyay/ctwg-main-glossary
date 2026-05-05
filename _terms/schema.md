@@ -29,6 +29,10 @@ schema, schemas
 **Evidence artifacts**
 - policy_document
 - issuance_log
+- registry_entry
+- audit_log
+- status_record
+- verification_log
 
 - **Assurance level hint**: AL2+
 - **Auditability**: high
@@ -44,6 +48,10 @@ schema, schemas
 **Evidence produced**
 - policy_document
 - issuance_log
+- registry_entry
+- audit_log
+- status_record
+- verification_log
 
 ## Notes
 - `credentialSchema` is a Property Definition in the W3C VC Data Model. See section 3.2.1.
@@ -55,7 +63,12 @@ schema, schemas
 Not specified
 
 ## See Also
-Not specified
+- credential
+- issuer
+- issuance
+- verifiable-credential
+- policy
+- governance-framework
 
 ## Crosswalk References
 Not specified

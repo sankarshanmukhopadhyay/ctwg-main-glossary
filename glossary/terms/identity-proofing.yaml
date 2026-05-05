@@ -1,47 +1,46 @@
 term: identity-proofing
 aliases:
-  - identity proofing
-  - identity proof
-  - identity proofs
-definition: The process of a party gathering sufficient identity data to establish an identity for a particular subject at a particular identity assurance level.
-notes:
-  []
+- identity proofing
+- identity proof
+- identity proofs
+definition: The process of a party gathering sufficient identity data to establish
+  an identity for a particular subject at a particular identity assurance level.
+notes: []
 see_also:
-  - identity binding.
+- identity binding.
 sources:
-  []
-mental_models:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/identity-proofing.md`'
+mental_models: []
 supporting_definitions:
-  - "[NIST-CSRC](https://csrc.nist.gov/glossary/term/identity_proofing): The process of providing sufficient information (e.g., identity history, credentials, documents) to establish an identity."
+- '[NIST-CSRC](https://csrc.nist.gov/glossary/term/identity_proofing): The process
+  of providing sufficient information (e.g., identity history, credentials, documents)
+  to establish an identity.'
 source_file: spec/terms-definitions/identity-proofing.md
 governance_profile: governance-supporting
 governance:
   authority_scope:
-    - assurance_and_audit
+  - assurance_and_audit
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: design
   control_plane_role: decision_plane_component
   enforcement_points:
-    - definition_approval
+  - definition_approval
 assurance:
   evidence_artifacts:
-    - attestation
+  - attestation
   assurance_level_hint: AL1+
   auditability: moderate
 control_plane:
   decision_points:
-    - definition_approval
+  - definition_approval
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - attestation
+  - attestation
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

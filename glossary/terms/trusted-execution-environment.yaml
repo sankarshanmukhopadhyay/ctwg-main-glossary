@@ -1,48 +1,53 @@
 term: trusted-execution-environment
 aliases:
-  - trusted execution environment
-  - trusted execution environments
-  - TEE
-  - TEEs
-definition: A trusted execution environment (TEE) is a secure area of a main processor. It helps code and data loaded inside it to be protected with respect to confidentiality and integrity. Data integrity prevents unauthorized entities from outside the TEE from altering data, while code integrity prevents code in the TEE from being replaced or modified by unauthorized entities, which may also be the computer owner itself as in certain DRM schemes.
-notes:
-  []
+- trusted execution environment
+- trusted execution environments
+- TEE
+- TEEs
+definition: A trusted execution environment (TEE) is a secure area of a main processor.
+  It helps code and data loaded inside it to be protected with respect to confidentiality
+  and integrity. Data integrity prevents unauthorized entities from outside the TEE
+  from altering data, while code integrity prevents code in the TEE from being replaced
+  or modified by unauthorized entities, which may also be the computer owner itself
+  as in certain DRM schemes.
+notes: []
 see_also:
-  - Secure Enclave.
+- Secure Enclave.
 sources:
-  - "[Wikipedia](https://en.wikipedia.org/wiki/Trusted_execution_environment)."
-mental_models:
-  []
+- '[Wikipedia](https://en.wikipedia.org/wiki/Trusted_execution_environment).'
+mental_models: []
 supporting_definitions:
-  - "Also known as: [[ref: TEE]]."
+- 'Also known as: [[ref: TEE]].'
 source_file: spec/terms-definitions/trusted-execution-environment.md
 governance_profile: core-operational
 governance:
   authority_scope:
-    - terminology_definition
+  - terminology_definition
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: design
   control_plane_role: decision_plane_component
   enforcement_points:
-    - definition_approval
+  - definition_approval
 assurance:
   evidence_artifacts:
-    - definition_change_record
+  - definition_change_record
+  - policy_document
+  - audit_log
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
   decision_points:
-    - definition_approval
+  - definition_approval
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - definition_change_record
+  - definition_change_record
+  - policy_document
+  - audit_log
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

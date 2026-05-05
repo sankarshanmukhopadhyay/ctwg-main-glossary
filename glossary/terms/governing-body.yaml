@@ -1,56 +1,69 @@
 term: governing-body
 aliases:
-  - governing body
-  - governing bodies
-definition: The party (or set of parties) authoritative for governing a trust community, usually (but not always) by developing, publishing, maintaining, and enforcing a governance framework. A governing body may be a government, a formal legal entity of any kind, an informal group of any kind, or an individual. A governing body may also delegate operational responsibilities to an administering body.
-notes:
-  []
+- governing body
+- governing bodies
+definition: The party (or set of parties) authoritative for governing a trust community,
+  usually (but not always) by developing, publishing, maintaining, and enforcing a
+  governance framework. A governing body may be a government, a formal legal entity
+  of any kind, an informal group of any kind, or an individual. A governing body may
+  also delegate operational responsibilities to an administering body.
+notes: []
 see_also:
-  []
+- policy
+- governance-framework
+- requirement
+- delegation
+- delegator
+- delegatee
 sources:
-  []
-mental_models:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/governing-body.md`'
+mental_models: []
 supporting_definitions:
-  - "Also known as: [[ref: governing authority]]."
+- 'Also known as: [[ref: governing authority]].'
 source_file: spec/terms-definitions/governing-body.md
 governance_profile: core-operational
 governance:
   authority_scope:
-    - policy_definition
-    - delegation_and_scope
-    - governance_recognition
+  - policy_definition
+  - delegation_and_scope
+  - governance_recognition
   delegation_mode: direct_or_constrained
   revocation_supported: true
   lifecycle_states:
-    - proposed
-    - active
-    - suspended
-    - revoked
-    - retired
+  - proposed
+  - active
+  - suspended
+  - revoked
+  - retired
   execution_role: runtime
   control_plane_role: decision_plane_component
   enforcement_points:
-    - policy_approval
-    - delegation_grant
-    - revocation_decision
+  - policy_approval
+  - delegation_grant
+  - revocation_decision
 assurance:
   evidence_artifacts:
-    - policy_document
-    - delegation_record
+  - policy_document
+  - delegation_record
+  - audit_log
+  - status_record
+  - verification_log
+  - registry_entry
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
   decision_points:
-    - policy_approval
-    - delegation_grant
-    - revocation_decision
+  - policy_approval
+  - delegation_grant
+  - revocation_decision
   accountable_entity: governance_authority
   evidence_produced:
-    - policy_document
-    - delegation_record
+  - policy_document
+  - delegation_record
+  - audit_log
+  - status_record
+  - verification_log
+  - registry_entry
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

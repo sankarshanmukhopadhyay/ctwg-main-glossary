@@ -1,55 +1,65 @@
 term: capability
 aliases:
-  - capability
-  - capabilities
-definition: The ability or permission for an actor or agent to perform a specific action on behalf of a party within a defined scope and subject to applicable constraints.
-notes:
-  []
+- capability
+- capabilities
+definition: The ability or permission for an actor or agent to perform a specific
+  action on behalf of a party within a defined scope and subject to applicable constraints.
+notes: []
 see_also:
-  []
+- delegation
+- delegator
+- delegatee
+- authorization
+- permission
 sources:
-  []
-mental_models:
-  []
-supporting_definitions:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/capability.md`'
+mental_models: []
+supporting_definitions: []
 source_file: spec/terms-definitions/capability.md
 governance_profile: core-operational
 governance:
   authority_scope:
-    - delegation_and_scope
-    - access_decisioning
+  - delegation_and_scope
+  - access_decisioning
   delegation_mode: direct_or_constrained
   revocation_supported: true
   lifecycle_states:
-    - proposed
-    - active
-    - suspended
-    - revoked
-    - retired
+  - proposed
+  - active
+  - suspended
+  - revoked
+  - retired
   execution_role: runtime
   control_plane_role: decision_plane_component
   enforcement_points:
-    - delegation_grant
-    - access_decision
-    - revocation_decision
+  - delegation_grant
+  - access_decision
+  - revocation_decision
 assurance:
   evidence_artifacts:
-    - delegation_record
-    - access_decision_log
+  - delegation_record
+  - access_decision_log
+  - policy_document
+  - status_record
+  - audit_log
+  - verification_log
+  - registry_entry
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
   decision_points:
-    - delegation_grant
-    - access_decision
-    - revocation_decision
+  - delegation_grant
+  - access_decision
+  - revocation_decision
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - delegation_record
-    - access_decision_log
+  - delegation_record
+  - access_decision_log
+  - policy_document
+  - status_record
+  - audit_log
+  - verification_log
+  - registry_entry
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

@@ -27,6 +27,10 @@ certificate authority, certificate authorities
 ## Assurance
 **Evidence artifacts**
 - policy_document
+- audit_log
+- status_record
+- verification_log
+- registry_entry
 
 - **Assurance level hint**: AL2+
 - **Auditability**: high
@@ -40,6 +44,10 @@ certificate authority, certificate authorities
 
 **Evidence produced**
 - policy_document
+- audit_log
+- status_record
+- verification_log
+- registry_entry
 
 ## Notes
 Not specified
@@ -52,7 +60,11 @@ Not specified
 Not specified
 
 ## See Also
-Not specified
+- policy
+- governance-framework
+- requirement
+- governance
+- governing-authority
 
 ## Crosswalk References
 Not specified

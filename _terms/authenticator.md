@@ -28,6 +28,12 @@ authenticator
 ## Assurance
 **Evidence artifacts**
 - issuance_log
+- access_decision_log
+- policy_document
+- registry_entry
+- status_record
+- audit_log
+- verification_log
 
 - **Assurance level hint**: AL2+
 - **Auditability**: high
@@ -42,6 +48,12 @@ authenticator
 
 **Evidence produced**
 - issuance_log
+- access_decision_log
+- policy_document
+- registry_entry
+- status_record
+- audit_log
+- verification_log
 
 ## Notes
 Not specified
@@ -53,7 +65,12 @@ Not specified
 Not specified
 
 ## See Also
-Not specified
+- credential
+- issuer
+- issuance
+- verifiable-credential
+- authorization
+- permission
 
 ## Crosswalk References
 Not specified

@@ -1,51 +1,59 @@
 term: authorization-graph
 aliases:
-  - authorization graph
-definition: A graph of the authorization relationships between different entities in a trust-community. In a digital trust ecosystem, the governing body is typically the trust root of an authorization graph. In some cases, an authorization graph can be traversed by making queries to one or more trust registries.
-notes:
-  []
+- authorization graph
+definition: A graph of the authorization relationships between different entities
+  in a trust-community. In a digital trust ecosystem, the governing body is typically
+  the trust root of an authorization graph. In some cases, an authorization graph
+  can be traversed by making queries to one or more trust registries.
+notes: []
 see_also:
-  - governance graph
-  - reputation graph
-  - trust graph.
+- governance graph
+- reputation graph
+- trust graph.
 sources:
-  []
-mental_models:
-  []
-supporting_definitions:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/authorization-graph.md`'
+mental_models: []
+supporting_definitions: []
 source_file: spec/terms-definitions/authorization-graph.md
 governance_profile: core-operational
 governance:
   authority_scope:
-    - access_decisioning
+  - access_decisioning
   delegation_mode: direct
   revocation_supported: true
   lifecycle_states:
-    - proposed
-    - active
-    - suspended
-    - revoked
-    - retired
+  - proposed
+  - active
+  - suspended
+  - revoked
+  - retired
   execution_role: runtime
   control_plane_role: decision_plane_component
   enforcement_points:
-    - access_decision
-    - revocation_decision
+  - access_decision
+  - revocation_decision
 assurance:
   evidence_artifacts:
-    - access_decision_log
+  - access_decision_log
+  - policy_document
+  - status_record
+  - audit_log
+  - verification_log
+  - registry_entry
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
   decision_points:
-    - access_decision
-    - revocation_decision
+  - access_decision
+  - revocation_decision
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - access_decision_log
+  - access_decision_log
+  - policy_document
+  - status_record
+  - audit_log
+  - verification_log
+  - registry_entry
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

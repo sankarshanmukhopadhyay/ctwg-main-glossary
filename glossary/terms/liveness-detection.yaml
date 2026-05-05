@@ -1,45 +1,45 @@
 term: liveness-detection
 aliases:
-  - liveness detection
-definition: Any technique used to detect a presentation attack by determining whether the source of a biometric sample is a live human being or a fake representation. This is typically accomplished using algorithms that analyze biometric sensor data to detect whether the source is live or reproduced.
-notes:
-  []
+- liveness detection
+definition: Any technique used to detect a presentation attack by determining whether
+  the source of a biometric sample is a live human being or a fake representation.
+  This is typically accomplished using algorithms that analyze biometric sensor data
+  to detect whether the source is live or reproduced.
+notes: []
 see_also:
-  []
+- glossary
+- definition
 sources:
-  []
-mental_models:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/liveness-detection.md`'
+mental_models: []
 supporting_definitions:
-  - "Also known as: [[ref: proof of presence]]."
+- 'Also known as: [[ref: proof of presence]].'
 source_file: spec/terms-definitions/liveness-detection.md
 governance_profile: descriptive
 governance:
   authority_scope:
-    - terminology_definition
+  - terminology_definition
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: design
   control_plane_role: reference_term
   enforcement_points:
-    - definition_approval
+  - definition_approval
 assurance:
   evidence_artifacts:
-    - definition_change_record
+  - definition_change_record
   assurance_level_hint: informative
   auditability: basic
 control_plane:
   decision_points:
-    - definition_approval
+  - definition_approval
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - definition_change_record
+  - definition_change_record
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

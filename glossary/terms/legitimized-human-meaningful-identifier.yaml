@@ -1,50 +1,64 @@
 term: legitimized-human-meaningful-identifier
 aliases:
-  - legitimized-human-meaningful-identifier
-  - legitimized human-meaningful identifier
-definition: An AID and its associated self-certifying trust basis gives rise to a trust domain for associated cryptographically verifiable non-repudiable statements. Every other type of identifier including human meaningful identifiers may then be secured in this resultant trust domain via an end-verifiable authorization. This authorization legitimizes that human meaningful identifier as an LID through its association with an AID. The result is a secured trust domain specific identifier couplet of aid|lid.
-notes:
-  []
+- legitimized-human-meaningful-identifier
+- legitimized human-meaningful identifier
+definition: An AID and its associated self-certifying trust basis gives rise to a
+  trust domain for associated cryptographically verifiable non-repudiable statements.
+  Every other type of identifier including human meaningful identifiers may then be
+  secured in this resultant trust domain via an end-verifiable authorization. This
+  authorization legitimizes that human meaningful identifier as an LID through its
+  association with an AID. The result is a secured trust domain specific identifier
+  couplet of aid|lid.
+notes: []
 see_also:
-  []
+- authorization
+- permission
+- role-based-access-control
+- attribute-based-access-control
 sources:
-  []
-mental_models:
-  []
-supporting_definitions:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/legitimized-human-meaningful-identifier.md`'
+mental_models: []
+supporting_definitions: []
 source_file: spec/terms-definitions/legitimized-human-meaningful-identifier.md
 governance_profile: core-operational
 governance:
   authority_scope:
-    - access_decisioning
+  - access_decisioning
   delegation_mode: direct
   revocation_supported: true
   lifecycle_states:
-    - proposed
-    - active
-    - suspended
-    - revoked
-    - retired
+  - proposed
+  - active
+  - suspended
+  - revoked
+  - retired
   execution_role: runtime
   control_plane_role: decision_plane_component
   enforcement_points:
-    - access_decision
-    - revocation_decision
+  - access_decision
+  - revocation_decision
 assurance:
   evidence_artifacts:
-    - access_decision_log
+  - access_decision_log
+  - policy_document
+  - status_record
+  - audit_log
+  - verification_log
+  - registry_entry
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
   decision_points:
-    - access_decision
-    - revocation_decision
+  - access_decision
+  - revocation_decision
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - access_decision_log
+  - access_decision_log
+  - policy_document
+  - status_record
+  - audit_log
+  - verification_log
+  - registry_entry
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

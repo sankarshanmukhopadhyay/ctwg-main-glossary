@@ -4,8 +4,11 @@ aliases:
 definition: Capable of being transferred or conveyed from one place or person to another.
   Place can be its and bits.
 notes: []
-see_also: []
-sources: []
+see_also:
+- glossary
+- definition
+sources:
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/transferable.md`'
 mental_models: []
 supporting_definitions:
 - 'The adjective transferable also means ''Negotiable'', as a note, bill of exchange,

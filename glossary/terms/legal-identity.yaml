@@ -1,47 +1,43 @@
 term: legal-identity
 aliases:
-  - legal identity
-  - legal identities
-definition: A set of identity data considered authoritative to identify a party for purposes of legal accountability under one or more jurisdictions.
-notes:
-  []
+- legal identity
+- legal identities
+definition: A set of identity data considered authoritative to identify a party for
+  purposes of legal accountability under one or more jurisdictions.
+notes: []
 see_also:
-  - foundational identity
-  - functional identity.
+- foundational identity
+- functional identity.
 sources:
-  []
-mental_models:
-  []
-supporting_definitions:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/legal-identity.md`'
+mental_models: []
+supporting_definitions: []
 source_file: spec/terms-definitions/legal-identity.md
 governance_profile: descriptive
 governance:
   authority_scope:
-    - governance_recognition
+  - governance_recognition
   delegation_mode: direct
   revocation_supported: false
   lifecycle_states:
-    - documented
-    - active
-    - deprecated
+  - documented
+  - active
+  - deprecated
   execution_role: design
   control_plane_role: reference_term
   enforcement_points:
-    - definition_approval
+  - definition_approval
 assurance:
   evidence_artifacts:
-    - definition_change_record
+  - definition_change_record
   assurance_level_hint: informative
   auditability: basic
 control_plane:
   decision_points:
-    - definition_approval
+  - definition_approval
   accountable_entity: glossary_maintainers
   evidence_produced:
-    - definition_change_record
+  - definition_change_record
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

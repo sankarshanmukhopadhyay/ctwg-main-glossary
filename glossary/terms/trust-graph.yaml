@@ -1,62 +1,61 @@
 term: trust-graph
 aliases:
-  - trust graph
-  - trust graphs
-definition: A data structure describing the trust relationship between two or more entities. A simple trust graph may be expressed as a trust list. More complex trust graphs can be recorded or registered in and queried from a trust registry. Trust graphs can also be expressed using trust chains and chained credentials. Trust graphs can enable verifiers and relying parties to make transitive trust decisions.
-notes:
-  []
+- trust graph
+- trust graphs
+definition: A data structure describing the trust relationship between two or more
+  entities. A simple trust graph may be expressed as a trust list. More complex trust
+  graphs can be recorded or registered in and queried from a trust registry. Trust
+  graphs can also be expressed using trust chains and chained credentials. Trust graphs
+  can enable verifiers and relying parties to make transitive trust decisions.
+notes: []
 see_also:
-  - authorization graph
-  - governance graph
-  - reputation graph.
+- authorization graph
+- governance graph
+- reputation graph.
 sources:
-  []
-mental_models:
-  []
-supporting_definitions:
-  []
+- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/trust-graph.md`'
+mental_models: []
+supporting_definitions: []
 source_file: spec/terms-definitions/trust-graph.md
 governance_profile: core-operational
 governance:
   authority_scope:
-    - credential_issuance
-    - verification_and_reliance
-    - registry_management
+  - credential_issuance
+  - verification_and_reliance
+  - registry_management
   delegation_mode: direct
   revocation_supported: true
   lifecycle_states:
-    - proposed
-    - active
-    - suspended
-    - revoked
-    - retired
+  - proposed
+  - active
+  - suspended
+  - revoked
+  - retired
   execution_role: runtime
   control_plane_role: decision_plane_component
   enforcement_points:
-    - registration_decision
-    - reliance_decision
-    - issuance_decision
-    - revocation_decision
+  - registration_decision
+  - reliance_decision
+  - issuance_decision
+  - revocation_decision
 assurance:
   evidence_artifacts:
-    - registry_entry
-    - issuance_log
-    - verification_log
+  - registry_entry
+  - issuance_log
+  - verification_log
   assurance_level_hint: AL2+
   auditability: high
 control_plane:
   decision_points:
-    - registration_decision
-    - reliance_decision
-    - issuance_decision
-    - revocation_decision
+  - registration_decision
+  - reliance_decision
+  - issuance_decision
+  - revocation_decision
   accountable_entity: verifier_operator
   evidence_produced:
-    - registry_entry
-    - issuance_log
-    - verification_log
+  - registry_entry
+  - issuance_log
+  - verification_log
 crosswalk:
-  nist:
-    []
-  iso:
-    []
+  nist: []
+  iso: []

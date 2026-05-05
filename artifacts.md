@@ -49,6 +49,11 @@ The inventory bundle and markdown view classify terms across several operational
 - assurance level hints
 - governance profile groupings
 
+
+## Current quality-report status
+
+The regenerated quality report currently has a score of `100.0 / 100` with `0` findings across the implemented checks. This means all terms have source coverage, cross-reference coverage, evidence coverage, and revocation-sensitive terms include revocation-relevant evidence artifacts.
+
 ## Quality report interpretation
 
 The quality report is a maintainer and adopter signal. It identifies where terms may need stronger sources, better cross-references, more specific evidence artifacts, clearer revocation evidence, or a stronger assurance hint.
