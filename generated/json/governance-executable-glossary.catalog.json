@@ -1,5 +1,5 @@
 {
-  "term_count": 534,
+  "term_count": 563,
   "terms": [
     {
       "term": "aal",
@@ -317,6 +317,13 @@
       "assurance_level_hint": "AL1+"
     },
     {
+      "term": "bitstring-status-list",
+      "slug": "bitstring-status-list",
+      "source_file": "spec/terms-definitions/bitstring-status-list.md",
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
+    },
+    {
       "term": "blockchain",
       "slug": "blockchain",
       "source_file": "spec/terms-definitions/blockchain.md",
@@ -348,6 +355,13 @@
       "term": "broken-object-level-authorization",
       "slug": "broken-object-level-authorization",
       "source_file": "spec/terms-definitions/broken-object-level-authorization.md",
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
+    },
+    {
+      "term": "c2pa-manifest",
+      "slug": "c2pa-manifest",
+      "source_file": "spec/terms-definitions/c2pa-manifest.md",
       "governance_profile": "core-operational",
       "assurance_level_hint": "AL2+"
     },
@@ -448,6 +462,13 @@
       "source_file": "spec/terms-definitions/ciphertext.md",
       "governance_profile": "descriptive",
       "assurance_level_hint": "informative"
+    },
+    {
+      "term": "claim-generator",
+      "slug": "claim-generator",
+      "source_file": "spec/terms-definitions/claim-generator.md",
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "claim",
@@ -562,6 +583,13 @@
       "assurance_level_hint": "informative"
     },
     {
+      "term": "content-credential",
+      "slug": "content-credential",
+      "source_file": "spec/terms-definitions/content-credential.md",
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
+    },
+    {
       "term": "contextual-linkability",
       "slug": "contextual-linkability",
       "source_file": "spec/terms-definitions/contextual-linkability.md",
@@ -579,6 +607,13 @@
       "term": "controlled-document",
       "slug": "controlled-document",
       "source_file": "spec/terms-definitions/controlled-document.md",
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
+    },
+    {
+      "term": "controlled-identifier",
+      "slug": "controlled-identifier",
+      "source_file": "spec/terms-definitions/controlled-identifier.md",
       "governance_profile": "core-operational",
       "assurance_level_hint": "AL2+"
     },
@@ -730,6 +765,13 @@
       "assurance_level_hint": "informative"
     },
     {
+      "term": "data-integrity-proof",
+      "slug": "data-integrity-proof",
+      "source_file": "spec/terms-definitions/data-integrity-proof.md",
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
+    },
+    {
       "term": "data-packet",
       "slug": "data-packet",
       "source_file": "spec/terms-definitions/data-packet.md",
@@ -770,6 +812,13 @@
       "source_file": "spec/terms-definitions/datagram.md",
       "governance_profile": "descriptive",
       "assurance_level_hint": "informative"
+    },
+    {
+      "term": "dcql",
+      "slug": "dcql",
+      "source_file": "spec/terms-definitions/dcql.md",
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "dead-drop",
@@ -1031,6 +1080,13 @@
       "assurance_level_hint": "informative"
     },
     {
+      "term": "dpop",
+      "slug": "dpop",
+      "source_file": "spec/terms-definitions/dpop.md",
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
+    },
+    {
       "term": "drm",
       "slug": "drm",
       "source_file": "spec/terms-definitions/drm.md",
@@ -1143,6 +1199,13 @@
       "assurance_level_hint": "AL2+"
     },
     {
+      "term": "entity-statement",
+      "slug": "entity-statement",
+      "source_file": "spec/terms-definitions/entity-statement.md",
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
+    },
+    {
       "term": "entity",
       "slug": "entity",
       "source_file": "spec/terms-definitions/entity.md",
@@ -1162,6 +1225,13 @@
       "source_file": "spec/terms-definitions/ESSR.md",
       "governance_profile": "descriptive",
       "assurance_level_hint": "informative"
+    },
+    {
+      "term": "eudi-wallet",
+      "slug": "eudi-wallet",
+      "source_file": "spec/terms-definitions/eudi-wallet.md",
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "expression-language",
@@ -1619,6 +1689,13 @@
       "assurance_level_hint": "AL2+"
     },
     {
+      "term": "issuer-metadata",
+      "slug": "issuer-metadata",
+      "source_file": "spec/terms-definitions/issuer-metadata.md",
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
+    },
+    {
       "term": "issuer",
       "slug": "issuer",
       "source_file": "spec/terms-definitions/issuer.md",
@@ -1652,6 +1729,13 @@
       "source_file": "spec/terms-definitions/keri.md",
       "governance_profile": "descriptive",
       "assurance_level_hint": "informative"
+    },
+    {
+      "term": "key-binding-jwt",
+      "slug": "key-binding-jwt",
+      "source_file": "spec/terms-definitions/key-binding-jwt.md",
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "key-establishment",
@@ -1850,6 +1934,13 @@
       "assurance_level_hint": "AL2+"
     },
     {
+      "term": "manifest-consumer",
+      "slug": "manifest-consumer",
+      "source_file": "spec/terms-definitions/manifest-consumer.md",
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
+    },
+    {
       "term": "message",
       "slug": "message",
       "source_file": "spec/terms-definitions/message.md",
@@ -1988,6 +2079,27 @@
       "source_file": "spec/terms-definitions/oobi.md",
       "governance_profile": "descriptive",
       "assurance_level_hint": "informative"
+    },
+    {
+      "term": "openid-federation",
+      "slug": "openid-federation",
+      "source_file": "spec/terms-definitions/openid-federation.md",
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
+    },
+    {
+      "term": "openid4vci",
+      "slug": "openid4vci",
+      "source_file": "spec/terms-definitions/openid4vci.md",
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
+    },
+    {
+      "term": "openid4vp",
+      "slug": "openid4vp",
+      "source_file": "spec/terms-definitions/openid4vp.md",
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "openwallet-foundation",
@@ -2147,6 +2259,13 @@
       "term": "physical-credential",
       "slug": "physical-credential",
       "source_file": "spec/terms-definitions/physical-credential.md",
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
+    },
+    {
+      "term": "pid",
+      "slug": "pid",
+      "source_file": "spec/terms-definitions/pid.md",
       "governance_profile": "core-operational",
       "assurance_level_hint": "AL2+"
     },
@@ -2312,6 +2431,13 @@
       "assurance_level_hint": "informative"
     },
     {
+      "term": "provenance",
+      "slug": "provenance",
+      "source_file": "spec/terms-definitions/provenance.md",
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
+    },
+    {
       "term": "pseudonym",
       "slug": "pseudonym",
       "source_file": "spec/terms-definitions/pseudonym.md",
@@ -2352,6 +2478,13 @@
       "source_file": "spec/terms-definitions/qr-code.md",
       "governance_profile": "descriptive",
       "assurance_level_hint": "informative"
+    },
+    {
+      "term": "qualified-electronic-attestation-of-attributes",
+      "slug": "qualified-electronic-attestation-of-attributes",
+      "source_file": "spec/terms-definitions/qualified-electronic-attestation-of-attributes.md",
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "rbac",
@@ -2599,6 +2732,13 @@
       "assurance_level_hint": "informative"
     },
     {
+      "term": "sd-jwt-vc",
+      "slug": "sd-jwt-vc",
+      "source_file": "spec/terms-definitions/sd-jwt-vc.md",
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
+    },
+    {
       "term": "second-party",
       "slug": "second-party",
       "source_file": "spec/terms-definitions/second-party.md",
@@ -2627,6 +2767,13 @@
       "assurance_level_hint": "informative"
     },
     {
+      "term": "secured-verifiable-credential",
+      "slug": "secured-verifiable-credential",
+      "source_file": "spec/terms-definitions/secured-verifiable-credential.md",
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
+    },
+    {
       "term": "security-domain",
       "slug": "security-domain",
       "source_file": "spec/terms-definitions/security-domain.md",
@@ -2637,6 +2784,13 @@
       "term": "security-policy",
       "slug": "security-policy",
       "source_file": "spec/terms-definitions/security-policy.md",
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
+    },
+    {
+      "term": "selective-disclosure",
+      "slug": "selective-disclosure",
+      "source_file": "spec/terms-definitions/selective-disclosure.md",
       "governance_profile": "core-operational",
       "assurance_level_hint": "AL2+"
     },
@@ -2665,6 +2819,13 @@
       "term": "self-sovereign-identity",
       "slug": "self-sovereign-identity",
       "source_file": "spec/terms-definitions/self-sovereign-identity.md",
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
+    },
+    {
+      "term": "sender-constrained-token",
+      "slug": "sender-constrained-token",
+      "source_file": "spec/terms-definitions/sender-constrained-token.md",
       "governance_profile": "core-operational",
       "assurance_level_hint": "AL2+"
     },
@@ -2730,6 +2891,20 @@
       "source_file": "spec/terms-definitions/ssi.md",
       "governance_profile": "descriptive",
       "assurance_level_hint": "informative"
+    },
+    {
+      "term": "status-provider",
+      "slug": "status-provider",
+      "source_file": "spec/terms-definitions/status-provider.md",
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
+    },
+    {
+      "term": "status-record",
+      "slug": "status-record",
+      "source_file": "spec/terms-definitions/status-record.md",
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "stream",
@@ -3572,6 +3747,13 @@
       "assurance_level_hint": "AL2+"
     },
     {
+      "term": "verifiable-credential-data-model-2-0",
+      "slug": "verifiable-credential-data-model-2-0",
+      "source_file": "spec/terms-definitions/verifiable-credential-data-model-2-0.md",
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
+    },
+    {
       "term": "verifiable-credential",
       "slug": "verifiable-credential",
       "source_file": "spec/terms-definitions/verifiable-credential.md",
@@ -3605,6 +3787,13 @@
       "source_file": "spec/terms-definitions/verifiable-message.md",
       "governance_profile": "descriptive",
       "assurance_level_hint": "informative"
+    },
+    {
+      "term": "verifiable-presentation",
+      "slug": "verifiable-presentation",
+      "source_file": "spec/terms-definitions/verifiable-presentation.md",
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "verifiable",
@@ -3677,9 +3866,23 @@
       "assurance_level_hint": "informative"
     },
     {
+      "term": "vp-token",
+      "slug": "vp-token",
+      "source_file": "spec/terms-definitions/vp-token.md",
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
+    },
+    {
       "term": "w3c-verifiable-credentials-data-model-specification",
       "slug": "w3c-verifiable-credentials-data-model-specification",
       "source_file": "spec/terms-definitions/w3c-verifiable-credentials-data-model-specification.md",
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
+    },
+    {
+      "term": "wallet-attestation",
+      "slug": "wallet-attestation",
+      "source_file": "spec/terms-definitions/wallet-attestation.md",
       "governance_profile": "core-operational",
       "assurance_level_hint": "AL2+"
     },

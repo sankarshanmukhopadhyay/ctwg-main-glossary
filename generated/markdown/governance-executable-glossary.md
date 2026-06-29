@@ -1,6 +1,6 @@
 # Governance-Executable Glossary
 
-Total terms: **534**
+Total terms: **563**
 
 ## aal
 
@@ -587,6 +587,19 @@ A measurable physical characteristic or personal behavioral trait used to recogn
 - Assurance level hint: AL1+
 - Accountable entity: glossary_maintainers
 
+## bitstring-status-list
+
+A W3C status mechanism for publishing credential status information such as revocation or suspension using compressed bitstrings.
+
+- Slug: `bitstring-status-list`
+- Governance profile: core-operational
+- Authority scope: credential_issuance, verification_and_reliance
+- Delegation mode: direct
+- Revocation supported: True
+- Lifecycle states: proposed, active, suspended, revoked, retired
+- Assurance level hint: AL2+
+- Accountable entity: glossary_maintainers
+
 ## blockchain
 
 A distributed ledger of cryptographically-signed transactions that are grouped into blocks. Each block is cryptographically linked to the previous one (making it tamper evident) after validation and undergoing a consensus decision. As new blocks are added, older blocks become more difficult to modify (creating tamper resistance). New blocks are replicated across copies of the ledger within the network, and any conflicts are resolved automatically using established rules.
@@ -649,6 +662,19 @@ Refers to security flaws where users can access data they shouldn't, due to inad
 - Delegation mode: direct
 - Revocation supported: True
 - Lifecycle states: proposed, active, suspended, revoked, retired
+- Assurance level hint: AL2+
+- Accountable entity: glossary_maintainers
+
+## c2pa-manifest
+
+A verifiable unit of C2PA provenance information that binds claims, assertions, content bindings, and signatures for an asset.
+
+- Slug: `c2pa-manifest`
+- Governance profile: core-operational
+- Authority scope: assurance_and_audit, verification_and_reliance
+- Delegation mode: direct
+- Revocation supported: False
+- Lifecycle states: proposed, active, retired
 - Assurance level hint: AL2+
 - Accountable entity: glossary_maintainers
 
@@ -832,6 +858,19 @@ Encrypted (enciphered) data. The confidential form of the plaintext that is the 
 - Revocation supported: False
 - Lifecycle states: documented, active, deprecated
 - Assurance level hint: informative
+- Accountable entity: glossary_maintainers
+
+## claim-generator
+
+A hardware or software actor that creates a C2PA claim about an asset and signs or causes the signing of the associated manifest data.
+
+- Slug: `claim-generator`
+- Governance profile: core-operational
+- Authority scope: assurance_and_audit, verification_and_reliance
+- Delegation mode: direct
+- Revocation supported: False
+- Lifecycle states: proposed, active, retired
+- Assurance level hint: AL2+
 - Accountable entity: glossary_maintainers
 
 ## claim
@@ -1042,6 +1081,19 @@ The Content Authenticity Initiative (CAI) is an association founded in November 
 - Assurance level hint: informative
 - Accountable entity: glossary_maintainers
 
+## content-credential
+
+The user-facing C2PA term for provenance information represented by C2PA manifests associated with an asset.
+
+- Slug: `content-credential`
+- Governance profile: core-operational
+- Authority scope: assurance_and_audit, verification_and_reliance
+- Delegation mode: direct
+- Revocation supported: False
+- Lifecycle states: proposed, active, retired
+- Assurance level hint: AL2+
+- Accountable entity: glossary_maintainers
+
 ## contextual-linkability
 
 Refers to the condition where vendors or other data capture points provide enough context at point of capture to be able to use statistical correlation with existing data sets to link any of a person's disclosed attributes to a set of already known data points about a given person.
@@ -1080,6 +1132,19 @@ A governance document whose authority is derived from a primary document.
 - Lifecycle states: proposed, active, suspended, revoked, retired
 - Assurance level hint: AL2+
 - Accountable entity: governance_authority
+
+## controlled-identifier
+
+An identifier whose controller can be discovered through an associated controlled identifier document containing verification material and service endpoints.
+
+- Slug: `controlled-identifier`
+- Governance profile: core-operational
+- Authority scope: verification_and_reliance, delegation_and_scope
+- Delegation mode: direct_or_constrained
+- Revocation supported: False
+- Lifecycle states: proposed, active, retired
+- Assurance level hint: AL2+
+- Accountable entity: glossary_maintainers
 
 ## controller
 
@@ -1354,6 +1419,19 @@ A design pattern, mainly in user interfaces, that has the effect of deceiving in
 - Assurance level hint: informative
 - Accountable entity: glossary_maintainers
 
+## data-integrity-proof
+
+A cryptographic proof mechanism used to protect the authenticity and integrity of verifiable credentials and similar constrained digital documents.
+
+- Slug: `data-integrity-proof`
+- Governance profile: core-operational
+- Authority scope: verification_and_reliance, assurance_and_audit
+- Delegation mode: direct
+- Revocation supported: False
+- Lifecycle states: proposed, active, retired
+- Assurance level hint: AL2+
+- Accountable entity: glossary_maintainers
+
 ## data-packet
 
 In telecommunications and computer networking, a network packet is a formatted unit of data carried by a packet-switched network such as the Internet. A packet consists of control information and user data; the latter is also known as the payload. Control information provides data for delivering the payload (e.g., source and destination network addresses, error detection codes, or sequencing information). Typically, control information is found in packet headers and trailers.
@@ -1430,6 +1508,19 @@ See: data packet.
 - Revocation supported: False
 - Lifecycle states: documented, active, deprecated
 - Assurance level hint: informative
+- Accountable entity: glossary_maintainers
+
+## dcql
+
+A query language defined by OpenID4VP for requesting credential presentations in a flexible and credential-format-aware way.
+
+- Slug: `dcql`
+- Governance profile: core-operational
+- Authority scope: verification_and_reliance, policy_definition
+- Delegation mode: direct
+- Revocation supported: False
+- Lifecycle states: proposed, active, retired
+- Assurance level hint: AL2+
 - Accountable entity: glossary_maintainers
 
 ## dead-drop
@@ -1913,6 +2004,19 @@ See: security domain.
 - Assurance level hint: informative
 - Accountable entity: glossary_maintainers
 
+## dpop
+
+An OAuth 2.0 mechanism for sender-constraining tokens by requiring a client to prove possession of a private key when using a token.
+
+- Slug: `dpop`
+- Governance profile: core-operational
+- Authority scope: access_decisioning, verification_and_reliance
+- Delegation mode: direct
+- Revocation supported: False
+- Lifecycle states: proposed, active, retired
+- Assurance level hint: AL2+
+- Accountable entity: glossary_maintainers
+
 ## drm
 
 See: digital rights management.
@@ -2121,6 +2225,19 @@ A digital wallet whose holder is an organization.
 - Assurance level hint: AL2+
 - Accountable entity: glossary_maintainers
 
+## entity-statement
+
+A signed statement in OpenID Federation that describes metadata, authority, and trust relationships for a federation entity.
+
+- Slug: `entity-statement`
+- Governance profile: core-operational
+- Authority scope: governance_recognition, registry_management
+- Delegation mode: direct
+- Revocation supported: False
+- Lifecycle states: proposed, active, retired
+- Assurance level hint: AL2+
+- Accountable entity: glossary_maintainers
+
 ## entity
 
 Someone or something that is known to exist.
@@ -2158,6 +2275,19 @@ Encrypt‐Sender‐Sign‐Receiver
 - Revocation supported: False
 - Lifecycle states: documented, active, deprecated
 - Assurance level hint: informative
+- Accountable entity: glossary_maintainers
+
+## eudi-wallet
+
+A wallet ecosystem component under the European Digital Identity framework for storing and presenting person identification data, attestations, and credentials across EU contexts.
+
+- Slug: `eudi-wallet`
+- Governance profile: core-operational
+- Authority scope: credential_issuance, verification_and_reliance, governance_recognition
+- Delegation mode: direct
+- Revocation supported: False
+- Lifecycle states: proposed, active, retired
+- Assurance level hint: AL2+
 - Accountable entity: glossary_maintainers
 
 ## expression-language
@@ -2526,7 +2656,7 @@ A party that has been assigned rights and duties in a guardianship arrangement f
 
 ## guardianship-arrangement
 
-A guardianship arrangement (in a jurisdiction) is the specification of a set of rights and duties between legal entities of the [[ref: jurisdiction] that enforces these rights and duties, for the purpose of caring for, protecting, guarding, and defending one or more of these [[erf: entities]]. At a minimum, the entities participating in a guardianship arrangement are the guardian and the dependent.
+A guardianship arrangement is the specification, within a jurisdiction, of rights and duties between legal entities for caring for, protecting, guarding, or defending one or more dependents. At a minimum, the participating entities are the guardian and the dependent.
 
 - Slug: `guardianship-arrangement`
 - Governance profile: descriptive
@@ -3005,6 +3135,19 @@ The action of an issuer producing and transmitting a digital credential to a hol
 - Assurance level hint: AL2+
 - Accountable entity: issuer_operator
 
+## issuer-metadata
+
+Metadata published by a credential issuer describing issuer capabilities, credential configurations, endpoints, and supported formats.
+
+- Slug: `issuer-metadata`
+- Governance profile: core-operational
+- Authority scope: credential_issuance, registry_management
+- Delegation mode: direct
+- Revocation supported: False
+- Lifecycle states: proposed, active, retired
+- Assurance level hint: AL2+
+- Accountable entity: glossary_maintainers
+
 ## issuer
 
 A role an agent performs to assert a set of claims, package and digitally sign them, typically in the form of a digital credential, and transmit them to a holder under applicable policy and governance constraints.
@@ -3068,6 +3211,19 @@ See: Key Event Receipt Infrastructure.
 - Revocation supported: False
 - Lifecycle states: documented, active, deprecated
 - Assurance level hint: informative
+- Accountable entity: glossary_maintainers
+
+## key-binding-jwt
+
+A JWT used to demonstrate holder control of a key associated with an SD-JWT or SD-JWT VC presentation.
+
+- Slug: `key-binding-jwt`
+- Governance profile: core-operational
+- Authority scope: verification_and_reliance
+- Delegation mode: direct
+- Revocation supported: False
+- Lifecycle states: proposed, active, retired
+- Assurance level hint: AL2+
 - Accountable entity: glossary_maintainers
 
 ## key-establishment
@@ -3434,6 +3590,19 @@ A requirement that must be implemented in order for an implementer to be in comp
 - Assurance level hint: AL2+
 - Accountable entity: governance_authority
 
+## manifest-consumer
+
+An actor that consumes an asset with an associated C2PA manifest to obtain and evaluate provenance data.
+
+- Slug: `manifest-consumer`
+- Governance profile: core-operational
+- Authority scope: verification_and_reliance
+- Delegation mode: direct
+- Revocation supported: False
+- Lifecycle states: proposed, active, retired
+- Assurance level hint: AL2+
+- Accountable entity: glossary_maintainers
+
 ## message
 
 A discrete unit of communication intended by the source for consumption by some recipient or group of recipients.
@@ -3692,6 +3861,45 @@ See: out-of-band introduction.
 - Revocation supported: False
 - Lifecycle states: documented, active, deprecated
 - Assurance level hint: informative
+- Accountable entity: glossary_maintainers
+
+## openid-federation
+
+A federation framework for establishing trust among OpenID participants using entity statements, trust chains, and federation metadata.
+
+- Slug: `openid-federation`
+- Governance profile: core-operational
+- Authority scope: governance_recognition, registry_management, verification_and_reliance
+- Delegation mode: direct
+- Revocation supported: False
+- Lifecycle states: proposed, active, retired
+- Assurance level hint: AL2+
+- Accountable entity: glossary_maintainers
+
+## openid4vci
+
+An OpenID Foundation protocol that defines OAuth 2.0-based mechanisms for issuing verifiable credentials from credential issuers to wallets.
+
+- Slug: `openid4vci`
+- Governance profile: core-operational
+- Authority scope: credential_issuance, verification_and_reliance
+- Delegation mode: direct
+- Revocation supported: False
+- Lifecycle states: proposed, active, retired
+- Assurance level hint: AL2+
+- Accountable entity: glossary_maintainers
+
+## openid4vp
+
+An OpenID Foundation protocol that defines mechanisms for requesting and presenting credentials between wallets and verifiers.
+
+- Slug: `openid4vp`
+- Governance profile: core-operational
+- Authority scope: verification_and_reliance
+- Delegation mode: direct
+- Revocation supported: False
+- Lifecycle states: proposed, active, retired
+- Assurance level hint: AL2+
 - Accountable entity: glossary_maintainers
 
 ## openwallet-foundation
@@ -3987,6 +4195,19 @@ A credential in a physical form such as paper, plastic, or metal.
 - Slug: `physical-credential`
 - Governance profile: core-operational
 - Authority scope: credential_issuance
+- Delegation mode: direct
+- Revocation supported: True
+- Lifecycle states: proposed, active, suspended, revoked, retired
+- Assurance level hint: AL2+
+- Accountable entity: glossary_maintainers
+
+## pid
+
+A set of identity attributes used in the EUDI Wallet ecosystem to identify a natural or legal person under the applicable legal and governance framework.
+
+- Slug: `pid`
+- Governance profile: core-operational
+- Authority scope: credential_issuance, verification_and_reliance
 - Delegation mode: direct
 - Revocation supported: True
 - Lifecycle states: proposed, active, suspended, revoked, retired
@@ -4292,6 +4513,19 @@ The protocol stack or network stack is an implementation of a computer networkin
 - Assurance level hint: informative
 - Accountable entity: glossary_maintainers
 
+## provenance
+
+Information about the origin, history, custody, transformation, or source lineage of data, content, credentials, or governed artifacts.
+
+- Slug: `provenance`
+- Governance profile: core-operational
+- Authority scope: assurance_and_audit, verification_and_reliance
+- Delegation mode: direct
+- Revocation supported: False
+- Lifecycle states: proposed, active, retired
+- Assurance level hint: AL2+
+- Accountable entity: glossary_maintainers
+
 ## pseudonym
 
 A pseudonym is a fictitious name that a person assumes for a particular purpose, which differs from their original or true name (orthonym). This also differs from a new name that entirely or legally replaces an individual's own. Many pseudonym holders use pseudonyms because they wish to remain anonymous, but anonymity is difficult to achieve and often fraught with legal issues.
@@ -4368,6 +4602,19 @@ A QR code (short for "quick-response code") is a type of two-dimensional matrix 
 - Revocation supported: False
 - Lifecycle states: documented, active, deprecated
 - Assurance level hint: informative
+- Accountable entity: glossary_maintainers
+
+## qualified-electronic-attestation-of-attributes
+
+An attestation of attributes issued under qualified trust service rules in the European digital identity framework.
+
+- Slug: `qualified-electronic-attestation-of-attributes`
+- Governance profile: core-operational
+- Authority scope: credential_issuance, governance_recognition, verification_and_reliance
+- Delegation mode: direct
+- Revocation supported: True
+- Lifecycle states: proposed, active, suspended, revoked, retired
+- Assurance level hint: AL2+
 - Accountable entity: glossary_maintainers
 
 ## rbac
@@ -4825,6 +5072,19 @@ In the context of terminology, scope refers to the set of possible concepts with
 - Assurance level hint: informative
 - Accountable entity: glossary_maintainers
 
+## sd-jwt-vc
+
+A verifiable credential encoded using Selective Disclosure JWT mechanisms, enabling selected claims to be disclosed while preserving cryptographic verification.
+
+- Slug: `sd-jwt-vc`
+- Governance profile: core-operational
+- Authority scope: credential_issuance, verification_and_reliance
+- Delegation mode: direct
+- Revocation supported: False
+- Lifecycle states: proposed, active, retired
+- Assurance level hint: AL2+
+- Accountable entity: glossary_maintainers
+
 ## second-party
 
 The party with whom a first party engages to form a trust relationship, establish a connection, make a delegation, or execute a transaction.
@@ -4877,6 +5137,19 @@ See: multi-party computation.
 - Assurance level hint: informative
 - Accountable entity: glossary_maintainers
 
+## secured-verifiable-credential
+
+A verifiable credential protected by a securing mechanism such as Data Integrity proofs, JOSE, COSE, or SD-JWT so that authenticity and integrity can be verified.
+
+- Slug: `secured-verifiable-credential`
+- Governance profile: core-operational
+- Authority scope: credential_issuance, verification_and_reliance
+- Delegation mode: direct
+- Revocation supported: False
+- Lifecycle states: proposed, active, retired
+- Assurance level hint: AL2+
+- Accountable entity: glossary_maintainers
+
 ## security-domain
 
 An environment or context that includes a set of system resources and a set of system entities that have the right to access the resources as defined by a common security policy, security model, or security architecture.
@@ -4900,6 +5173,19 @@ A set of policies and rules that governs all aspects of security-relevant system
 - Delegation mode: direct
 - Revocation supported: False
 - Lifecycle states: documented, active, deprecated
+- Assurance level hint: AL2+
+- Accountable entity: glossary_maintainers
+
+## selective-disclosure
+
+A privacy-preserving presentation capability that allows a holder to disclose only selected claims or attributes from a credential while preserving verifiability.
+
+- Slug: `selective-disclosure`
+- Governance profile: core-operational
+- Authority scope: assurance_and_audit, verification_and_reliance
+- Delegation mode: direct
+- Revocation supported: False
+- Lifecycle states: proposed, active, retired
 - Assurance level hint: AL2+
 - Accountable entity: glossary_maintainers
 
@@ -4952,6 +5238,19 @@ Self-sovereign identity is a decentralized identity architecture that implements
 - Delegation mode: direct
 - Revocation supported: True
 - Lifecycle states: proposed, active, suspended, revoked, retired
+- Assurance level hint: AL2+
+- Accountable entity: glossary_maintainers
+
+## sender-constrained-token
+
+A token whose use is cryptographically constrained to a specific sender or key holder, reducing replay risk if the token is copied.
+
+- Slug: `sender-constrained-token`
+- Governance profile: core-operational
+- Authority scope: access_decisioning, verification_and_reliance
+- Delegation mode: direct
+- Revocation supported: False
+- Lifecycle states: proposed, active, retired
 - Assurance level hint: AL2+
 - Accountable entity: glossary_maintainers
 
@@ -5070,6 +5369,32 @@ See: self-sovereign identity.
 - Revocation supported: False
 - Lifecycle states: documented, active, deprecated
 - Assurance level hint: informative
+- Accountable entity: glossary_maintainers
+
+## status-provider
+
+An entity that provides status information such as suspension or revocation for a credential.
+
+- Slug: `status-provider`
+- Governance profile: core-operational
+- Authority scope: registry_management, verification_and_reliance
+- Delegation mode: direct
+- Revocation supported: True
+- Lifecycle states: proposed, active, suspended, revoked, retired
+- Assurance level hint: AL2+
+- Accountable entity: glossary_maintainers
+
+## status-record
+
+An inspectable record that represents the validity, suspension, revocation, or lifecycle status of a credential, authorization, registration, or governed object.
+
+- Slug: `status-record`
+- Governance profile: core-operational
+- Authority scope: assurance_and_audit, verification_and_reliance
+- Delegation mode: direct
+- Revocation supported: True
+- Lifecycle states: proposed, active, suspended, revoked, retired
+- Assurance level hint: AL2+
 - Accountable entity: glossary_maintainers
 
 ## stream
@@ -5945,7 +6270,7 @@ The border of a trust domain.
 
 ## trust-chain
 
-A set of cryptographically verifiable links between digital credentials or other data containers that enable transitive trust decisions.
+A sequence of cryptographically verifiable links, statements, or governance-recognized relationships used to establish whether a participant, key, credential, or federation entity should be trusted for a relying decision.
 
 - Slug: `trust-chain`
 - Governance profile: core-operational
@@ -6632,9 +6957,22 @@ See: verifiable credential.
 - Assurance level hint: AL2+
 - Accountable entity: glossary_maintainers
 
+## verifiable-credential-data-model-2-0
+
+The W3C data model for expressing verifiable credentials and verifiable presentations using common roles, properties, lifecycle semantics, and securing mechanisms.
+
+- Slug: `verifiable-credential-data-model-2-0`
+- Governance profile: core-operational
+- Authority scope: credential_issuance, verification_and_reliance
+- Delegation mode: direct
+- Revocation supported: False
+- Lifecycle states: proposed, active, retired
+- Assurance level hint: AL2+
+- Accountable entity: glossary_maintainers
+
 ## verifiable-credential
 
-A standard data model and representation format for cryptographically-verifiable digital credentials as defined by the W3C Verifiable Credentials Data Model Specification.
+A cryptographically secured credential whose authenticity and integrity can be verified, including credentials represented using the W3C Verifiable Credentials Data Model, ISO mdoc, or SD-JWT VC profiles depending on the ecosystem profile.
 
 - Slug: `verifiable-credential`
 - Governance profile: core-operational
@@ -6695,6 +7033,19 @@ A message communicated as verifiable data by virtue of being digitally signed.
 - Revocation supported: False
 - Lifecycle states: documented, active, deprecated
 - Assurance level hint: informative
+- Accountable entity: glossary_maintainers
+
+## verifiable-presentation
+
+A presentation with cryptographic proof or securing material that enables a verifier to check integrity, holder binding, or other presentation-specific verification requirements.
+
+- Slug: `verifiable-presentation`
+- Governance profile: core-operational
+- Authority scope: verification_and_reliance
+- Delegation mode: direct
+- Revocation supported: False
+- Lifecycle states: proposed, active, retired
+- Assurance level hint: AL2+
 - Accountable entity: glossary_maintainers
 
 ## verifiable
@@ -6827,9 +7178,22 @@ See: Voice over IP.
 - Assurance level hint: informative
 - Accountable entity: glossary_maintainers
 
+## vp-token
+
+An OpenID4VP response artifact containing one or more presentations returned to a verifier in response to an authorization request.
+
+- Slug: `vp-token`
+- Governance profile: core-operational
+- Authority scope: verification_and_reliance
+- Delegation mode: direct
+- Revocation supported: False
+- Lifecycle states: proposed, active, retired
+- Assurance level hint: AL2+
+- Accountable entity: glossary_maintainers
+
 ## w3c-verifiable-credentials-data-model-specification
 
-A W3C Recommendation defining a standard data model and representation format for cryptographically-verifiable digital credentials. Version 1.1 was published on 03 March 2022.
+A W3C Recommendation defining the standard Verifiable Credentials Data Model. The current standards-linked anchor for new work is Verifiable Credentials Data Model v2.0.
 
 - Slug: `w3c-verifiable-credentials-data-model-specification`
 - Governance profile: core-operational
@@ -6837,6 +7201,19 @@ A W3C Recommendation defining a standard data model and representation format fo
 - Delegation mode: direct
 - Revocation supported: True
 - Lifecycle states: proposed, active, suspended, revoked, retired
+- Assurance level hint: AL2+
+- Accountable entity: glossary_maintainers
+
+## wallet-attestation
+
+Evidence about a wallet instance, wallet provider, or wallet capability that can be used by issuers, verifiers, or governance frameworks to make reliance decisions.
+
+- Slug: `wallet-attestation`
+- Governance profile: core-operational
+- Authority scope: assurance_and_audit, verification_and_reliance
+- Delegation mode: direct
+- Revocation supported: False
+- Lifecycle states: proposed, active, retired
 - Assurance level hint: AL2+
 - Accountable entity: glossary_maintainers
 

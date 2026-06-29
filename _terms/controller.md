@@ -9,8 +9,22 @@ title: "controller"
 ## Definition
 In the context of digital communications, the entity in control of sending and receiving digital communications. In the context of decentralized digital trust infrastructure, the entity in control of the cryptographic keys necessary to perform cryptographically verifiable actions using a digital agent and digital wallet. In a ToIP context, the entity in control of a ToIP endpoint.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 controller, controllers
+
+## See Also
+- [device controller]({{ '/terms/device-controller/' | relative_url }})
+- [DID controller]({{ '/terms/did-controller/' | relative_url }})
+- [ToIP controller]({{ '/terms/toip-controller/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/controller.md`
 
 ## Governance Profile
 - **Authority scope**: delegation_and_scope
@@ -47,11 +61,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- device controller
-- DID controller
-- ToIP controller.
 
 ## Crosswalk References
 Not specified

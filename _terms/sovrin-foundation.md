@@ -9,8 +9,24 @@ title: "sovrin-foundation"
 ## Definition
 A 501 (c)(4) nonprofit organization established to administer the governance framework governing the Sovrin Network, a public service utility enabling self-sovereign identity on the internet. The Sovrin Foundation is an independent organization that is responsible for ensuring the Sovrin identity system is public and globally accessible.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 Sovrin Foundation
+
+## See Also
+- [policy]({{ '/terms/policy/' | relative_url }})
+- [governance-framework]({{ '/terms/governance-framework/' | relative_url }})
+- [requirement]({{ '/terms/requirement/' | relative_url }})
+- [governance]({{ '/terms/governance/' | relative_url }})
+- [governing-authority]({{ '/terms/governing-authority/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/sovrin-foundation.md`
 
 ## Governance Profile
 - **Authority scope**: policy_definition, governance_recognition
@@ -47,13 +63,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- policy
-- governance-framework
-- requirement
-- governance
-- governing-authority
 
 ## Crosswalk References
 Not specified

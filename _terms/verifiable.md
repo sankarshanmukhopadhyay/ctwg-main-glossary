@@ -9,8 +9,21 @@ title: "verifiable"
 ## Definition
 In the context of digital communications infrastructure, the ability to determine the authenticity of a communication (e.g., sender, contents, claims, metadata, provenance), or the underlying sociotechnical infrastructure (e.g., governance, roles, policies, authorizations, certifications).
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 verifiable, verifiability
+
+## See Also
+- [appraisable]({{ '/terms/appraisability/' | relative_url }})
+- [digital signature]({{ '/terms/digital-signature/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/verifiable.md`
 
 ## Governance Profile
 - **Authority scope**: credential_issuance, access_decisioning, governance_recognition
@@ -63,10 +76,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- appraisable
-- digital signature.
 
 ## Crosswalk References
 Not specified

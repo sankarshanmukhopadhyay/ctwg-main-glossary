@@ -9,8 +9,23 @@ title: "identifier"
 ## Definition
 A single attribute—typically a character string—that uniquely identifies an entity within a specific context (which may be a global context). Examples include the name of a party, the URL of an organization, or a serial number for a man-made thing.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 identifier, identifiers
+
+## See Also
+- [glossary]({{ '/terms/glossary/' | relative_url }})
+- [definition]({{ '/terms/definition/' | relative_url }})
+- [decentralized-identifier]({{ '/terms/decentralized-identifier/' | relative_url }})
+- [verifiable-identifier]({{ '/terms/verifiable-identifier/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/identifier.md`
 
 ## Governance Profile
 - **Authority scope**: terminology_definition
@@ -47,12 +62,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- glossary
-- definition
-- decentralized-identifier
-- verifiable-identifier
 
 ## Crosswalk References
 Not specified

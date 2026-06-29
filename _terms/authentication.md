@@ -9,8 +9,21 @@ title: "authentication"
 ## Definition
 Verifying the identity of a user, process, or device, often as a prerequisite to allowing access to resources in an information system.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 authentication, authenticate, authenticates, authenticated, authenticating
+
+## See Also
+- [authenticator]({{ '/terms/authenticator/' | relative_url }})
+- [verifiable message]({{ '/terms/verifiable-message/' | relative_url }})
+
+## Standards and Source References
+- [NIST-CSRC](https://csrc.nist.gov/glossary/term/authentication).
 
 ## Governance Profile
 - **Authority scope**: access_decisioning
@@ -59,10 +72,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- authenticator
-- verifiable message.
 
 ## Crosswalk References
 - **NIST**: IA-2

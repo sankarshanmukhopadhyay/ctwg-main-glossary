@@ -9,8 +9,20 @@ title: "coalition-for-content-provenance-and-authenticity"
 ## Definition
 C2PA is a Joint Development Foundation project of the Linux Foundation that addresses the prevalence of misleading information online through the development of technical standards for certifying the source and history (or provenance) of media content.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 Coalition for Content Provenance and Authenticity
+
+## See Also
+- [Content Authenticity Initiative]({{ '/terms/content-authenticity-initiative/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/coalition-for-content-provenance-and-authenticity.md`
 
 ## Governance Profile
 - **Authority scope**: terminology_definition
@@ -47,9 +59,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- Content Authenticity Initiative.
 
 ## Crosswalk References
 Not specified

@@ -1,21 +1,21 @@
 # Governance Inventory
 
-Total terms: **534**
+Total terms: **563**
 
 ## Coverage summary
 
-- Authority-bearing terms: **201**
-- Delegation-sensitive terms: **31**
-- Revocation-sensitive terms: **108**
-- Lifecycle-sensitive terms: **534**
-- Evidence-producing terms: **534**
-- Control-plane terms: **309**
+- Authority-bearing terms: **230**
+- Delegation-sensitive terms: **32**
+- Revocation-sensitive terms: **113**
+- Lifecycle-sensitive terms: **563**
+- Evidence-producing terms: **563**
+- Control-plane terms: **338**
 
 ## Governance profiles
 
 ### core-operational
 
-Count: **227**
+Count: **256**
 
 aal, abac, access-control, accreditation, actor, administering-authority, administering-body, agency, agent, appraisability, appropriate-friction, assurance-level, attribute-based-access-control, audit, audit-log, auditor, authentic-chained-data-container, authentication, authenticator, authenticator-assurance-level
 
@@ -61,9 +61,11 @@ acceptance, acceptance-network, attestation, attributional-trust, authenticity, 
 - authorized-organizational-representative
 - autonomic-namespace
 - biometric
+- bitstring-status-list
 - blockchain
 - bola
 - broken-object-level-authorization
+- c2pa-manifest
 - ca
 - capability
 - certificate-authority
@@ -71,10 +73,13 @@ acceptance, acceptance-network, attestation, attributional-trust, authenticity, 
 - certification-authority
 - chained-credentials
 - claim
+- claim-generator
 - communication-session
 - compliance
+- content-credential
 - control-authority
 - controlled-document
+- controlled-identifier
 - controller
 - credential
 - credential-family
@@ -83,7 +88,9 @@ acceptance, acceptance-network, attestation, attributional-trust, authenticity, 
 - credential-request
 - credential-schema
 - cryptographically-verifiable
+- data-integrity-proof
 - data-schema
+- dcql
 - dead-drop
 - decentralized-identifier
 - delegatee
@@ -100,10 +107,13 @@ acceptance, acceptance-network, attestation, attributional-trust, authenticity, 
 - digital-vault
 - digital-wallet
 - discovery
+- dpop
 - ecosystem-governance-framework
 - eidas
 - end-to-end-principle
 - end-verifiability
+- entity-statement
+- eudi-wallet
 - fal
 - federation
 - federation-assurance-level
@@ -123,17 +133,7 @@ acceptance, acceptance-network, attestation, attributional-trust, authenticity, 
 - governing-authority
 - governing-body
 - grc
-- guardian
-- guardianship-credential
-- holder
-- host
-- human-auditable
-- human-trust
-- ial
-- identity-assurance
-- identity-assurance-level
-- identity-binding
-- ... and 101 more
+- ... and 130 more
 
 ## Delegation-sensitive terms
 
@@ -144,6 +144,7 @@ acceptance, acceptance-network, attestation, attributional-trust, authenticity, 
 - authority
 - authorized-organizational-representative
 - capability
+- controlled-identifier
 - controller
 - delegatee
 - delegation
@@ -187,6 +188,7 @@ acceptance, acceptance-network, attestation, attributional-trust, authenticity, 
 - authorization-graph
 - authorized-organizational-representative
 - autonomic-namespace
+- bitstring-status-list
 - bola
 - broken-object-level-authorization
 - ca
@@ -239,11 +241,13 @@ acceptance, acceptance-network, attestation, attributional-trust, authenticity, 
 - peer
 - permission
 - physical-credential
+- pid
 - policy
 - presentation
 - proof
 - public-key-certificate
 - public-key-infrastructure
+- qualified-electronic-attestation-of-attributes
 - record
 - registrant
 - registration
@@ -257,6 +261,8 @@ acceptance, acceptance-network, attestation, attributional-trust, authenticity, 
 - second-party
 - self-asserted
 - self-sovereign-identity
+- status-provider
+- status-record
 - subject
 - three-party-model
 - timestamp
@@ -266,12 +272,7 @@ acceptance, acceptance-network, attestation, attributional-trust, authenticity, 
 - trust-establishment
 - trust-graph
 - trust-list
-- trust-registry
-- trust-registry-protocol
-- trusted-third-party
-- trusted-timestamp-authority
-- tta
-- ... and 8 more
+- ... and 13 more
 
 ## Lifecycle-sensitive terms
 
@@ -320,12 +321,14 @@ acceptance, acceptance-network, attestation, attributional-trust, authenticity, 
 - **autonomic-namespace** — proposed, active, suspended, revoked, retired
 - **binding** — documented, active, deprecated
 - **biometric** — documented, active, deprecated
+- **bitstring-status-list** — proposed, active, suspended, revoked, retired
 - **blockchain** — documented, active, deprecated
 - **bola** — proposed, active, suspended, revoked, retired
 - **broadcast** — documented, active, deprecated
 - **broadcast-address** — documented, active, deprecated
 - **broken-object-level-authorization** — proposed, active, suspended, revoked, retired
 - **c2pa** — documented, active, deprecated
+- **c2pa-manifest** — proposed, active, retired
 - **ca** — proposed, active, suspended, revoked, retired
 - **cai** — documented, active, deprecated
 - **capability** — proposed, active, suspended, revoked, retired
@@ -340,6 +343,7 @@ acceptance, acceptance-network, attestation, attributional-trust, authenticity, 
 - **channel** — documented, active, deprecated
 - **ciphertext** — documented, active, deprecated
 - **claim** — documented, active, deprecated
+- **claim-generator** — proposed, active, retired
 - **coalition-for-content-provenance-and-authenticity** — documented, active, deprecated
 - **collective-signature** — documented, active, deprecated
 - **communication** — documented, active, deprecated
@@ -355,9 +359,11 @@ acceptance, acceptance-network, attestation, attributional-trust, authenticity, 
 - **connection** — documented, active, deprecated
 - **consent-management** — documented, active, deprecated
 - **content-authenticity-initiative** — documented, active, deprecated
+- **content-credential** — proposed, active, retired
 - **contextual-linkability** — documented, active, deprecated
 - **control-authority** — proposed, active, suspended, revoked, retired
 - **controlled-document** — proposed, active, suspended, revoked, retired
+- **controlled-identifier** — proposed, active, retired
 - **controller** — documented, active, deprecated
 - **correlation-privacy** — documented, active, deprecated
 - **counterparty** — documented, active, deprecated
@@ -370,12 +376,7 @@ acceptance, acceptance-network, attestation, attributional-trust, authenticity, 
 - **criterion** — documented, active, deprecated
 - **cryptographic-binding** — documented, active, deprecated
 - **cryptographic-key** — documented, active, deprecated
-- **cryptographic-trust** — documented, active, deprecated
-- **cryptographic-verifiability** — documented, active, deprecated
-- **cryptographically-bound** — documented, active, deprecated
-- **cryptographically-verifiable** — proposed, active, suspended, revoked, retired
-- **cryptography** — documented, active, deprecated
-- ... and 434 more
+- ... and 463 more
 
 ## Evidence-producing terms
 
@@ -424,12 +425,14 @@ acceptance, acceptance-network, attestation, attributional-trust, authenticity, 
 - **autonomic-namespace** — audit_log, definition_change_record, registry_entry, status_record, verification_log
 - **binding** — definition_change_record
 - **biometric** — issuance_log
+- **bitstring-status-list** — audit_log, registry_entry, status_record, verification_log
 - **blockchain** — policy_document
 - **bola** — access_decision_log, audit_log, policy_document, registry_entry, status_record, verification_log
 - **broadcast** — definition_change_record
 - **broadcast-address** — audit_log, definition_change_record, policy_document
 - **broken-object-level-authorization** — access_decision_log, audit_log, policy_document, registry_entry, status_record, verification_log
 - **c2pa** — definition_change_record
+- **c2pa-manifest** — attestation, audit_log, verification_log
 - **ca** — audit_log, definition_change_record, registry_entry, status_record, verification_log
 - **cai** — definition_change_record
 - **capability** — access_decision_log, audit_log, delegation_record, policy_document, registry_entry, status_record, verification_log
@@ -444,6 +447,7 @@ acceptance, acceptance-network, attestation, attributional-trust, authenticity, 
 - **channel** — definition_change_record
 - **ciphertext** — definition_change_record
 - **claim** — issuance_log, verification_log
+- **claim-generator** — attestation, audit_log, verification_log
 - **coalition-for-content-provenance-and-authenticity** — definition_change_record
 - **collective-signature** — definition_change_record
 - **communication** — definition_change_record
@@ -459,9 +463,11 @@ acceptance, acceptance-network, attestation, attributional-trust, authenticity, 
 - **connection** — definition_change_record
 - **consent-management** — definition_change_record
 - **content-authenticity-initiative** — definition_change_record
+- **content-credential** — attestation, audit_log, verification_log
 - **contextual-linkability** — definition_change_record
 - **control-authority** — audit_log, definition_change_record, registry_entry, status_record, verification_log
 - **controlled-document** — audit_log, definition_change_record, registry_entry, status_record, verification_log
+- **controlled-identifier** — audit_log, delegation_record, verification_log
 - **controller** — delegation_record
 - **correlation-privacy** — audit_log, definition_change_record, policy_document
 - **counterparty** — definition_change_record
@@ -474,12 +480,7 @@ acceptance, acceptance-network, attestation, attributional-trust, authenticity, 
 - **criterion** — definition_change_record
 - **cryptographic-binding** — definition_change_record
 - **cryptographic-key** — definition_change_record
-- **cryptographic-trust** — audit_log, definition_change_record, policy_document
-- **cryptographic-verifiability** — definition_change_record
-- **cryptographically-bound** — definition_change_record
-- **cryptographically-verifiable** — audit_log, issuance_log, registry_entry, status_record, verification_log
-- **cryptography** — definition_change_record
-- ... and 434 more
+- ... and 463 more
 
 ## Control-plane terms
 
@@ -517,10 +518,12 @@ acceptance, acceptance-network, attestation, attributional-trust, authenticity, 
 - **autonomic-identity-system** — definition_approval
 - **autonomic-namespace** — revocation_decision
 - **biometric** — issuance_decision
+- **bitstring-status-list** — revocation_decision, reliance_decision
 - **blockchain** — policy_approval
 - **bola** — access_decision, revocation_decision
 - **broadcast-address** — definition_approval
 - **broken-object-level-authorization** — access_decision, revocation_decision
+- **c2pa-manifest** — reliance_decision
 - **ca** — revocation_decision
 - **capability** — delegation_grant, access_decision, revocation_decision
 - **certificate-authority** — policy_approval, revocation_decision
@@ -530,11 +533,14 @@ acceptance, acceptance-network, attestation, attributional-trust, authenticity, 
 - **chained-credentials** — issuance_decision, revocation_decision
 - **chaining** — definition_approval
 - **claim** — reliance_decision, issuance_decision
+- **claim-generator** — reliance_decision
 - **communication-session** — access_decision
 - **compliance** — policy_approval
 - **confidentiality** — definition_approval
+- **content-credential** — reliance_decision
 - **control-authority** — revocation_decision
 - **controlled-document** — revocation_decision
+- **controlled-identifier** — reliance_decision, delegation_grant
 - **controller** — delegation_grant
 - **correlation-privacy** — definition_approval
 - **credential** — issuance_decision, revocation_decision
@@ -547,8 +553,10 @@ acceptance, acceptance-network, attestation, attributional-trust, authenticity, 
 - **cryptographically-verifiable** — issuance_decision, revocation_decision
 - **custodial-wallet** — definition_approval
 - **custodian** — definition_approval
+- **data-integrity-proof** — reliance_decision
 - **data-packet** — definition_approval
 - **data-schema** — issuance_decision, revocation_decision
+- **dcql** — reliance_decision, policy_approval
 - **dead-drop** — issuance_decision, revocation_decision
 - **decentralized-identifier** — revocation_decision
 - **decentralized-identity** — definition_approval
@@ -568,6 +576,7 @@ acceptance, acceptance-network, attestation, attributional-trust, authenticity, 
 - **digital-vault** — delegation_grant, access_decision
 - **digital-wallet** — delegation_grant, reliance_decision, issuance_decision, revocation_decision
 - **discovery** — reliance_decision, revocation_decision
+- **dpop** — access_decision, reliance_decision
 - **ecosystem-governance-framework** — policy_approval, issuance_decision, revocation_decision
 - **eidas** — access_decision
 - **end-to-end-principle** — policy_approval
@@ -575,18 +584,10 @@ acceptance, acceptance-network, attestation, attributional-trust, authenticity, 
 - **end-verifiable** — definition_approval
 - **enterprise-data-vault** — definition_approval
 - **enterprise-wallet** — definition_approval
-- **fal** — definition_approval
-- **federated-identity** — definition_approval
-- **federation** — policy_approval
-- **federation-assurance-level** — reliance_decision, access_decision
-- **fiduciary** — definition_approval
-- **first-party** — definition_approval
-- **foundational-identity** — issuance_decision, revocation_decision
-- **fourth-party** — definition_approval
-- ... and 209 more
+- ... and 238 more
 
 ## Assurance level hints
 
 - `AL1+`: 82
-- `AL2+`: 227
+- `AL2+`: 256
 - `informative`: 225

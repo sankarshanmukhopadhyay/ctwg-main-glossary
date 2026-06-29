@@ -9,8 +9,25 @@ title: "claim"
 ## Definition
 An assertion about a subject, typically expressed as an attribute or property of the subject. It is called a “claim” because the assertion is always made by some party, called the issuer of the claim, and the validity of the claim must be judged by the verifier.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 claim, claims, claimed, claiming
+
+## See Also
+- [credential]({{ '/terms/credential/' | relative_url }})
+- [issuer]({{ '/terms/issuer/' | relative_url }})
+- [issuance]({{ '/terms/issuance/' | relative_url }})
+- [verifiable-credential]({{ '/terms/verifiable-credential/' | relative_url }})
+- [verification]({{ '/terms/verification/' | relative_url }})
+- [verifier]({{ '/terms/verifier/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/claim.md`
 
 ## Governance Profile
 - **Authority scope**: credential_issuance, verification_and_reliance
@@ -52,14 +69,6 @@ claim, claims, claimed, claiming
 
 ## Mental Models
 Not specified
-
-## See Also
-- credential
-- issuer
-- issuance
-- verifiable-credential
-- verification
-- verifier
 
 ## Crosswalk References
 Not specified

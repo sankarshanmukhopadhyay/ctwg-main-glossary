@@ -9,8 +9,24 @@ title: "trust-list"
 ## Definition
 A one-dimensional trust graph in which an authoritative source publishes a list of entities that are trusted in a specific trust context. A trust list can be considered a simplified form of a trust registry.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 trust list, trust lists
+
+## See Also
+- [registry]({{ '/terms/registry/' | relative_url }})
+- [trust-registry]({{ '/terms/trust-registry/' | relative_url }})
+- [registration]({{ '/terms/registration/' | relative_url }})
+- [governance-framework]({{ '/terms/governance-framework/' | relative_url }})
+- [governance]({{ '/terms/governance/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/trust-list.md`
 
 ## Governance Profile
 - **Authority scope**: registry_management, governance_recognition
@@ -49,13 +65,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- registry
-- trust-registry
-- registration
-- governance-framework
-- governance
 
 ## Crosswalk References
 Not specified

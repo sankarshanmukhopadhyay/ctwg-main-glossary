@@ -9,8 +9,21 @@ title: "ip-address"
 ## Definition
 An Internet Protocol address (IP address) is a numerical label such as 192.0.2.1 that is connected to a computer network that uses the Internet Protocol for communication. An IP address serves two main functions: network interface identification, and location addressing.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 IP address, IP addresses
+
+## See Also
+- [glossary]({{ '/terms/glossary/' | relative_url }})
+- [definition]({{ '/terms/definition/' | relative_url }})
+
+## Standards and Source References
+- [Wikipedia](https://en.wikipedia.org/wiki/IP_address).
 
 ## Governance Profile
 - **Authority scope**: terminology_definition
@@ -47,10 +60,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- glossary
-- definition
 
 ## Crosswalk References
 Not specified

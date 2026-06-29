@@ -9,8 +9,21 @@ title: "endpoint-system"
 ## Definition
 The system that operates a communications endpoint. In the context of the ToIP stack, an endpoint system is one of three types of systems defined in the ToIP Technology Architecture Specification.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 endpoint system, endpoint systems
+
+## See Also
+- [intermediary system]({{ '/terms/intermediary-system/' | relative_url }})
+- [supporting system]({{ '/terms/supporting-system/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/endpoint-system.md`
 
 ## Governance Profile
 - **Authority scope**: terminology_definition
@@ -47,10 +60,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- intermediary system
-- supporting system.
 
 ## Crosswalk References
 Not specified

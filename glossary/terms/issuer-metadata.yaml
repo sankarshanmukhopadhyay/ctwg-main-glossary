@@ -1,0 +1,56 @@
+term: issuer-metadata
+aliases:
+- credential issuer metadata
+- issuer metadata
+definition: Metadata published by a credential issuer describing issuer capabilities,
+  credential configurations, endpoints, and supported formats.
+reader_note: ''
+implementation_relevance: ''
+notes: []
+see_also:
+- issuer
+- openid4vci
+- credential-schema
+- digital-wallet
+sources:
+- title: OpenID for Verifiable Credential Issuance 1.0
+  url: https://openid.net/specs/openid-4-verifiable-credential-issuance-1_0.html
+  publisher: OpenID Foundation
+  normative: true
+  status: Final Specification
+  version: '1.0'
+  date: '2025-09-16'
+mental_models: []
+supporting_definitions: []
+source_file: spec/terms-definitions/issuer-metadata.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+  - credential_issuance
+  - registry_management
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+  - proposed
+  - active
+  - retired
+  execution_role: hybrid
+  control_plane_role: decision_plane_component
+  enforcement_points: &id001
+  - issuance_decision
+  - registration_decision
+assurance:
+  evidence_artifacts: &id002
+  - registry_entry
+  - policy_document
+  - issuance_log
+  - audit_log
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points: *id001
+  accountable_entity: glossary_maintainers
+  evidence_produced: *id002
+crosswalk:
+  openid:
+  - OpenID4VCI 1.0

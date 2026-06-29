@@ -9,8 +9,23 @@ title: "technical-specification"
 ## Definition
 A document that specifies, in a complete, precise, verifiable manner, the requirements, design, behavior, or other characteristics of a system or component and often the procedures for determining whether these provisions have been satisfied.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 technical specification, technical specifications
+
+## See Also
+- [governance framework]({{ '/terms/governance-framework/' | relative_url }})
+- [governance requirement]({{ '/terms/governance-requirement/' | relative_url }})
+- [policy]({{ '/terms/policy/' | relative_url }})
+- [rule]({{ '/terms/rule/' | relative_url }})
+
+## Standards and Source References
+- [NIST-CSRC](https://csrc.nist.gov/glossary/term/specification)
 
 ## Governance Profile
 - **Authority scope**: terminology_definition
@@ -47,12 +62,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- governance framework
-- governance requirement
-- policy
-- rule.
 
 ## Crosswalk References
 Not specified

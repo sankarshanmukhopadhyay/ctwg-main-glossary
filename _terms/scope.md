@@ -9,8 +9,21 @@ title: "scope"
 ## Definition
 In the context of terminology, scope refers to the set of possible concepts within which: a) a specific term is intended to uniquely identify a concept, or b) a specific glossary is intended to identify a set of concepts. In the context of identification, scope refers to the set of possible entities within which a specific entity must be uniquely identified. In the context of specifications, scope refers to the set of problems (the problem space) within which the specification is intended to specify solutions.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 scope, scopes
+
+## See Also
+- [glossary]({{ '/terms/glossary/' | relative_url }})
+- [definition]({{ '/terms/definition/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/scope.md`
 
 ## Governance Profile
 - **Authority scope**: terminology_definition
@@ -47,10 +60,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- glossary
-- definition
 
 ## Crosswalk References
 Not specified

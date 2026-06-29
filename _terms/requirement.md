@@ -9,8 +9,22 @@ title: "requirement"
 ## Definition
 A specified condition or behavior to which a system needs to comply. Technical requirements are defined in technical specifications and implemented in computer systems to be executed by software actors. Governance requirements are defined in governance documents that specify policies and procedures to be executed by human actors. In ToIP specifications, requirements are expressed using the keywords defined in Internet RFC 2119.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 requirement, requirements
+
+## See Also
+- [mandatory]({{ '/terms/mandatory/' | relative_url }})
+- [recommended]({{ '/terms/recommended/' | relative_url }})
+- [optional]({{ '/terms/optional/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/requirement.md`
 
 ## Governance Profile
 - **Authority scope**: governance_recognition
@@ -51,11 +65,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- mandatory
-- recommended
-- optional.
 
 ## Crosswalk References
 Not specified

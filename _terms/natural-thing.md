@@ -9,8 +9,21 @@ title: "natural-thing"
 ## Definition
 A thing that exists in the natural world independently of humans. Although natural things may form part of a man-made thing, natural things are mutually exclusive with man-made things.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 natural thing, natural things
+
+## See Also
+- [glossary]({{ '/terms/glossary/' | relative_url }})
+- [definition]({{ '/terms/definition/' | relative_url }})
+
+## Standards and Source References
+- [Sovrin Foundation Glossary V3](https://docs.google.com/document/d/1gfIz5TT0cNp2kxGMLFXr19x1uoZsruUe_0glHst2fZ8/edit).
 
 ## Governance Profile
 - **Authority scope**: terminology_definition
@@ -48,10 +61,6 @@ natural thing, natural things
 
 ## Mental Models
 Not specified
-
-## See Also
-- glossary
-- definition
 
 ## Crosswalk References
 Not specified

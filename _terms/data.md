@@ -9,8 +9,20 @@ title: "data"
 ## Definition
 In the pursuit of knowledge, data is a collection of discrete values that convey information, describing quantity, quality, fact, statistics, other basic units of meaning, or simply sequences of symbols that may be further interpreted. A datum is an individual value in a collection of data.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 data, datum
+
+## See Also
+- [verifiable data]({{ '/terms/verifiable-data/' | relative_url }})
+
+## Standards and Source References
+- [Wikipedia](https://en.wikipedia.org/wiki/Data).
 
 ## Governance Profile
 - **Authority scope**: terminology_definition
@@ -47,9 +59,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- verifiable data.
 
 ## Crosswalk References
 Not specified

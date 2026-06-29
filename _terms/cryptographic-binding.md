@@ -9,8 +9,21 @@ title: "cryptographic-binding"
 ## Definition
 Associating two or more related elements of information using cryptographic techniques.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 cryptographic binding, cryptographic bindings
+
+## See Also
+- [glossary]({{ '/terms/glossary/' | relative_url }})
+- [definition]({{ '/terms/definition/' | relative_url }})
+
+## Standards and Source References
+- [NIST-CSRC](https://csrc.nist.gov/glossary/term/cryptographic_binding).
 
 ## Governance Profile
 - **Authority scope**: terminology_definition
@@ -47,10 +60,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- glossary
-- definition
 
 ## Crosswalk References
 Not specified

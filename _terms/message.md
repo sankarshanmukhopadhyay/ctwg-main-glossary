@@ -9,8 +9,21 @@ title: "message"
 ## Definition
 A discrete unit of communication intended by the source for consumption by some recipient or group of recipients.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 message, messages
+
+## See Also
+- [ToIP message]({{ '/terms/toip-message/' | relative_url }})
+- [verifiable message]({{ '/terms/verifiable-message/' | relative_url }})
+
+## Standards and Source References
+- [Wikipedia](https://en.wikipedia.org/wiki/Message).
 
 ## Governance Profile
 - **Authority scope**: terminology_definition
@@ -47,10 +60,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- ToIP message
-- verifiable message.
 
 ## Crosswalk References
 Not specified

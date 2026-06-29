@@ -9,8 +9,11 @@ notes:
 - A verifier may function as an execution-time decision point because verification
   outcomes can determine whether access, acceptance, recognition, or reliance is granted.
 see_also:
-- relying party; issuer
-- holder.
+- relying-party
+- issuer
+- holder
+- verification
+- openid4vp
 sources:
 - 'ToIP CTWG maintained glossary source: `spec/terms-definitions/verifier.md`'
 mental_models:

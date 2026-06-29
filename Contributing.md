@@ -9,7 +9,7 @@ This repository is operated as a governance-executable publication system. Contr
 Install dependencies:
 
 ```bash
-pip install pyyaml jsonschema
+pip install -r requirements.txt
 ```
 
 Run:
@@ -32,6 +32,21 @@ If generated files changed, include those generated diffs in the same pull reque
 5. Add sources and `see_also` references where they improve evidence and interpretation.
 6. Pair decision points with enforcement points.
 7. Add evidence artifacts that can be inspected by downstream governance or assurance tooling.
+8. Prefer structured source citations for standards and specifications.
+9. Keep `see_also` values resolvable to term names or aliases.
+
+Structured citation example:
+
+```yaml
+sources:
+  - title: Verifiable Credentials Data Model v2.0
+    url: https://www.w3.org/TR/vc-data-model-2.0/
+    publisher: W3C
+    status: Recommendation
+    version: "2.0"
+    date: "2025-05-15"
+    normative: true
+```
 
 ## Pull request expectations
 

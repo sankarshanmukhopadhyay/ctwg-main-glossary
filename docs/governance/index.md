@@ -19,3 +19,8 @@ The documentation covers:
 - downstream consumption by governance, conformance, and assurance tooling.
 
 The practical aim is to keep the glossary readable for humans while making its operational semantics inspectable by machines.
+
+
+## Current quality closure
+
+The current increment closes the generated v1.1.0 quality-report backlog and records the remediation strategy in [Quality Closure Summary](quality-closure-summary.md).

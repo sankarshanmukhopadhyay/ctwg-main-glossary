@@ -7,6 +7,7 @@ nav_exclude: true
 # Terms: C
 
 - [c2pa]({{ '/terms/c2pa/' | relative_url }})
+- [c2pa-manifest]({{ '/terms/c2pa-manifest/' | relative_url }})
 - [ca]({{ '/terms/ca/' | relative_url }})
 - [cai]({{ '/terms/cai/' | relative_url }})
 - [capability]({{ '/terms/capability/' | relative_url }})
@@ -21,6 +22,7 @@ nav_exclude: true
 - [channel]({{ '/terms/channel/' | relative_url }})
 - [ciphertext]({{ '/terms/ciphertext/' | relative_url }})
 - [claim]({{ '/terms/claim/' | relative_url }})
+- [claim-generator]({{ '/terms/claim-generator/' | relative_url }})
 - [coalition-for-content-provenance-and-authenticity]({{ '/terms/coalition-for-content-provenance-and-authenticity/' | relative_url }})
 - [collective-signature]({{ '/terms/collective-signature/' | relative_url }})
 - [communication]({{ '/terms/communication/' | relative_url }})
@@ -36,9 +38,11 @@ nav_exclude: true
 - [connection]({{ '/terms/connection/' | relative_url }})
 - [consent-management]({{ '/terms/consent-management/' | relative_url }})
 - [content-authenticity-initiative]({{ '/terms/content-authenticity-initiative/' | relative_url }})
+- [content-credential]({{ '/terms/content-credential/' | relative_url }})
 - [contextual-linkability]({{ '/terms/contextual-linkability/' | relative_url }})
 - [control-authority]({{ '/terms/control-authority/' | relative_url }})
 - [controlled-document]({{ '/terms/controlled-document/' | relative_url }})
+- [controlled-identifier]({{ '/terms/controlled-identifier/' | relative_url }})
 - [controller]({{ '/terms/controller/' | relative_url }})
 - [correlation-privacy]({{ '/terms/correlation-privacy/' | relative_url }})
 - [counterparty]({{ '/terms/counterparty/' | relative_url }})

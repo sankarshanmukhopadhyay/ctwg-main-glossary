@@ -9,8 +9,21 @@ title: "tribal-knowledge"
 ## Definition
 Knowledge that is known within an “in-group” of people but unknown outside of it. A tribe, in this sense, is a group of people that share such a common knowledge.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 tribal knowledge
+
+## See Also
+- [glossary]({{ '/terms/glossary/' | relative_url }})
+- [definition]({{ '/terms/definition/' | relative_url }})
+
+## Standards and Source References
+- [Wikipedia](https://en.wikipedia.org/wiki/Tribal_knowledge)
 
 ## Governance Profile
 - **Authority scope**: terminology_definition
@@ -47,10 +60,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- glossary
-- definition
 
 ## Crosswalk References
 Not specified

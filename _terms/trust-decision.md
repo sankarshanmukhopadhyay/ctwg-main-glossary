@@ -9,8 +9,20 @@ title: "trust-decision"
 ## Definition
 A decision that a party needs to make about whether to engage in a specific interaction or transaction with another entity that involves real or perceived risks.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 trust decision, trust decisions
+
+## See Also
+- [transitive trust decision]({{ '/terms/transitive-trust-decision/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/trust-decision.md`
 
 ## Governance Profile
 - **Authority scope**: terminology_definition
@@ -51,9 +63,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- transitive trust decision.
 
 ## Crosswalk References
 Not specified

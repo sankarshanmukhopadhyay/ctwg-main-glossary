@@ -9,8 +9,22 @@ title: "system-of-record"
 ## Definition
 A system of record (SOR) or source system of record (SSoR) is a data management term for an information storage system (commonly implemented on a computer system running a database management system) that is the authoritative source for a given data element or piece of information.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 system of record, systems of record
+
+## See Also
+- [authoritative source]({{ '/terms/authoritative-source/' | relative_url }})
+- [trust registry]({{ '/terms/trust-registry/' | relative_url }})
+- [verifiable data registry]({{ '/terms/verifiable-data-registry/' | relative_url }})
+
+## Standards and Source References
+- [Wikipedia](https://en.wikipedia.org/wiki/System_of_record)
 
 ## Governance Profile
 - **Authority scope**: governance_recognition
@@ -47,11 +61,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- authoritative source
-- trust registry
-- verifiable data registry.
 
 ## Crosswalk References
 Not specified

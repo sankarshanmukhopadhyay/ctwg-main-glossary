@@ -1,0 +1,59 @@
+term: provenance
+aliases:
+- provenance
+definition: Information about the origin, history, custody, transformation, or source
+  lineage of data, content, credentials, or governed artifacts.
+reader_note: This bridge term improves navigation across privacy, status, provenance,
+  and assurance concepts.
+implementation_relevance: Use this term where evidence needs to be carried across
+  both reader-facing documentation and machine-verifiable assurance artifacts.
+notes: []
+see_also:
+- c2pa-manifest
+- content-credential
+- audit-log
+- authenticity
+sources:
+- title: C2PA Technical Specification 2.2
+  url: https://spec.c2pa.org/specifications/specifications/2.2/specs/C2PA_Specification.html
+  publisher: C2PA
+  normative: true
+  status: Technical Specification
+  version: '2.2'
+  date: '2025'
+mental_models: []
+supporting_definitions: []
+source_file: spec/terms-definitions/provenance.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+  - assurance_and_audit
+  - verification_and_reliance
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+  - proposed
+  - active
+  - retired
+  execution_role: hybrid
+  control_plane_role: decision_plane_component
+  enforcement_points:
+  - reliance_decision
+assurance:
+  evidence_artifacts:
+  - verification_log
+  - audit_log
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points:
+  - reliance_decision
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+  - verification_log
+  - audit_log
+crosswalk:
+  w3c: []
+  c2pa:
+  - C2PA Technical Specification 2.2
+  ietf: []

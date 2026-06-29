@@ -9,8 +9,25 @@ title: "delegator"
 ## Definition
 The first party that makes a delegation to a second party (the delegatee) and remains accountable for granting authority within the permitted scope.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 delegator, delegators
+
+## See Also
+- [delegation]({{ '/terms/delegation/' | relative_url }})
+- [delegatee]({{ '/terms/delegatee/' | relative_url }})
+- [authorization]({{ '/terms/authorization/' | relative_url }})
+- [governance]({{ '/terms/governance/' | relative_url }})
+- [governance-framework]({{ '/terms/governance-framework/' | relative_url }})
+- [governing-authority]({{ '/terms/governing-authority/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/delegator.md`
 
 ## Governance Profile
 - **Authority scope**: delegation_and_scope, governance_recognition
@@ -59,14 +76,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- delegation
-- delegatee
-- authorization
-- governance
-- governance-framework
-- governing-authority
 
 ## Crosswalk References
 Not specified

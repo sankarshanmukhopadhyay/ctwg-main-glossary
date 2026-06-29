@@ -1,0 +1,65 @@
+term: status-record
+aliases:
+- status record
+definition: An inspectable record that represents the validity, suspension, revocation,
+  or lifecycle status of a credential, authorization, registration, or governed object.
+reader_note: This bridge term improves navigation across privacy, status, provenance,
+  and assurance concepts.
+implementation_relevance: Use this term where evidence needs to be carried across
+  both reader-facing documentation and machine-verifiable assurance artifacts.
+notes: []
+see_also:
+- revocation
+- bitstring-status-list
+- audit-log
+- verification
+sources:
+- title: Verifiable Credentials Data Model v2.0
+  url: https://www.w3.org/TR/vc-data-model-2.0/
+  publisher: W3C
+  normative: true
+  status: Recommendation
+  version: '2.0'
+  date: '2025-05-15'
+mental_models: []
+supporting_definitions: []
+source_file: spec/terms-definitions/status-record.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+  - assurance_and_audit
+  - verification_and_reliance
+  delegation_mode: direct
+  revocation_supported: true
+  lifecycle_states:
+  - proposed
+  - active
+  - suspended
+  - revoked
+  - retired
+  execution_role: hybrid
+  control_plane_role: decision_plane_component
+  enforcement_points:
+  - revocation_decision
+  - reliance_decision
+assurance:
+  evidence_artifacts:
+  - status_record
+  - verification_log
+  - audit_log
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points:
+  - revocation_decision
+  - reliance_decision
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+  - status_record
+  - verification_log
+  - audit_log
+crosswalk:
+  w3c:
+  - VC Data Model v2.0
+  c2pa: []
+  ietf: []

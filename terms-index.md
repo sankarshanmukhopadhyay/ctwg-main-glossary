@@ -6,7 +6,7 @@ has_children: false
 
 # Glossary Terms
 
-This index is generated from `glossary/terms/` and currently includes **534** terms.
+This index is generated from `glossary/terms/` and currently includes **563** terms.
 
 ## Browse by letter
 
@@ -68,6 +68,7 @@ This index is generated from `glossary/terms/` and currently includes **534** te
 
 - [binding]({{ '/terms/binding/' | relative_url }})
 - [biometric]({{ '/terms/biometric/' | relative_url }})
+- [bitstring-status-list]({{ '/terms/bitstring-status-list/' | relative_url }})
 - [blockchain]({{ '/terms/blockchain/' | relative_url }})
 - [bola]({{ '/terms/bola/' | relative_url }})
 - [broadcast]({{ '/terms/broadcast/' | relative_url }})
@@ -77,6 +78,7 @@ This index is generated from `glossary/terms/` and currently includes **534** te
 ## C
 
 - [c2pa]({{ '/terms/c2pa/' | relative_url }})
+- [c2pa-manifest]({{ '/terms/c2pa-manifest/' | relative_url }})
 - [ca]({{ '/terms/ca/' | relative_url }})
 - [cai]({{ '/terms/cai/' | relative_url }})
 - [capability]({{ '/terms/capability/' | relative_url }})
@@ -91,6 +93,7 @@ This index is generated from `glossary/terms/` and currently includes **534** te
 - [channel]({{ '/terms/channel/' | relative_url }})
 - [ciphertext]({{ '/terms/ciphertext/' | relative_url }})
 - [claim]({{ '/terms/claim/' | relative_url }})
+- [claim-generator]({{ '/terms/claim-generator/' | relative_url }})
 - [coalition-for-content-provenance-and-authenticity]({{ '/terms/coalition-for-content-provenance-and-authenticity/' | relative_url }})
 - [collective-signature]({{ '/terms/collective-signature/' | relative_url }})
 - [communication]({{ '/terms/communication/' | relative_url }})
@@ -99,19 +102,19 @@ This index is generated from `glossary/terms/` and currently includes **534** te
 - [communication-metadata]({{ '/terms/communication-metadata/' | relative_url }})
 - [communication-session]({{ '/terms/communication-session/' | relative_url }})
 - [complex-password]({{ '/terms/complex-password/' | relative_url }})
-- [compliance]({{ '/terms/compliance/' | relative_url }})
-- [concept]({{ '/terms/concept/' | relative_url }})
-- [View all 53 terms for C]({{ '/terms/c/' | relative_url }})
+- [View all 57 terms for C]({{ '/terms/c/' | relative_url }})
 
 ## D
 
 - [dark-pattern]({{ '/terms/dark-pattern/' | relative_url }})
 - [data]({{ '/terms/data/' | relative_url }})
+- [data-integrity-proof]({{ '/terms/data-integrity-proof/' | relative_url }})
 - [data-packet]({{ '/terms/data-packet/' | relative_url }})
 - [data-schema]({{ '/terms/data-schema/' | relative_url }})
 - [data-subject]({{ '/terms/data-subject/' | relative_url }})
 - [data-vault]({{ '/terms/data-vault/' | relative_url }})
 - [datagram]({{ '/terms/datagram/' | relative_url }})
+- [dcql]({{ '/terms/dcql/' | relative_url }})
 - [dead-drop]({{ '/terms/dead-drop/' | relative_url }})
 - [decentralized-identifier]({{ '/terms/decentralized-identifier/' | relative_url }})
 - [decentralized-identity]({{ '/terms/decentralized-identity/' | relative_url }})
@@ -128,9 +131,7 @@ This index is generated from `glossary/terms/` and currently includes **534** te
 - [dependent]({{ '/terms/dependent/' | relative_url }})
 - [device-controller]({{ '/terms/device-controller/' | relative_url }})
 - [dictionary]({{ '/terms/dictionary/' | relative_url }})
-- [did]({{ '/terms/did/' | relative_url }})
-- [did-controller]({{ '/terms/did-controller/' | relative_url }})
-- [View all 46 terms for D]({{ '/terms/d/' | relative_url }})
+- [View all 49 terms for D]({{ '/terms/d/' | relative_url }})
 
 ## E
 
@@ -149,8 +150,10 @@ This index is generated from `glossary/terms/` and currently includes **534** te
 - [enterprise-data-vault]({{ '/terms/enterprise-data-vault/' | relative_url }})
 - [enterprise-wallet]({{ '/terms/enterprise-wallet/' | relative_url }})
 - [entity]({{ '/terms/entity/' | relative_url }})
+- [entity-statement]({{ '/terms/entity-statement/' | relative_url }})
 - [ephemeral-connection]({{ '/terms/ephemeral-connection/' | relative_url }})
 - [essr]({{ '/terms/essr/' | relative_url }})
+- [eudi-wallet]({{ '/terms/eudi-wallet/' | relative_url }})
 - [expression-language]({{ '/terms/expression-language/' | relative_url }})
 
 ## F
@@ -229,7 +232,8 @@ This index is generated from `glossary/terms/` and currently includes **534** te
 - [issuance]({{ '/terms/issuance/' | relative_url }})
 - [issuance-request]({{ '/terms/issuance-request/' | relative_url }})
 - [issuer]({{ '/terms/issuer/' | relative_url }})
-- [itps]({{ '/terms/itps/' | relative_url }})
+- [issuer-metadata]({{ '/terms/issuer-metadata/' | relative_url }})
+- [View all 26 terms for I]({{ '/terms/i/' | relative_url }})
 
 ## J
 
@@ -240,6 +244,7 @@ This index is generated from `glossary/terms/` and currently includes **534** te
 - [kate]({{ '/terms/kate/' | relative_url }})
 - [keri]({{ '/terms/keri/' | relative_url }})
 - [key]({{ '/terms/key/' | relative_url }})
+- [key-binding-jwt]({{ '/terms/key-binding-jwt/' | relative_url }})
 - [key-establishment]({{ '/terms/key-establishment/' | relative_url }})
 - [key-event]({{ '/terms/key-event/' | relative_url }})
 - [key-event-log]({{ '/terms/key-event-log/' | relative_url }})
@@ -273,6 +278,7 @@ This index is generated from `glossary/terms/` and currently includes **534** te
 - [machine-readable]({{ '/terms/machine-readable/' | relative_url }})
 - [man-made-thing]({{ '/terms/man-made-thing/' | relative_url }})
 - [mandatory]({{ '/terms/mandatory/' | relative_url }})
+- [manifest-consumer]({{ '/terms/manifest-consumer/' | relative_url }})
 - [message]({{ '/terms/message/' | relative_url }})
 - [metadata]({{ '/terms/metadata/' | relative_url }})
 - [mobile-deep-link]({{ '/terms/mobile-deep-link/' | relative_url }})
@@ -299,6 +305,9 @@ This index is generated from `glossary/terms/` and currently includes **534** te
 
 - [objective]({{ '/terms/objective/' | relative_url }})
 - [oobi]({{ '/terms/oobi/' | relative_url }})
+- [openid-federation]({{ '/terms/openid-federation/' | relative_url }})
+- [openid4vci]({{ '/terms/openid4vci/' | relative_url }})
+- [openid4vp]({{ '/terms/openid4vp/' | relative_url }})
 - [openwallet-foundation]({{ '/terms/openwallet-foundation/' | relative_url }})
 - [operational-circumstances]({{ '/terms/operational-circumstances/' | relative_url }})
 - [optional]({{ '/terms/optional/' | relative_url }})
@@ -325,6 +334,7 @@ This index is generated from `glossary/terms/` and currently includes **534** te
 - [personal-wallet]({{ '/terms/personal-wallet/' | relative_url }})
 - [personally-identifiable-information]({{ '/terms/personally-identifiable-information/' | relative_url }})
 - [physical-credential]({{ '/terms/physical-credential/' | relative_url }})
+- [pid]({{ '/terms/pid/' | relative_url }})
 - [pii]({{ '/terms/pii/' | relative_url }})
 - [pki]({{ '/terms/pki/' | relative_url }})
 - [plaintext]({{ '/terms/plaintext/' | relative_url }})
@@ -333,12 +343,12 @@ This index is generated from `glossary/terms/` and currently includes **534** te
 - [presentation]({{ '/terms/presentation/' | relative_url }})
 - [presentation-attack]({{ '/terms/presentation-attack/' | relative_url }})
 - [presentation-request]({{ '/terms/presentation-request/' | relative_url }})
-- [primary-document]({{ '/terms/primary-document/' | relative_url }})
-- [View all 44 terms for P]({{ '/terms/p/' | relative_url }})
+- [View all 46 terms for P]({{ '/terms/p/' | relative_url }})
 
 ## Q
 
 - [qr-code]({{ '/terms/qr-code/' | relative_url }})
+- [qualified-electronic-attestation-of-attributes]({{ '/terms/qualified-electronic-attestation-of-attributes/' | relative_url }})
 
 ## R
 
@@ -374,16 +384,20 @@ This index is generated from `glossary/terms/` and currently includes **534** te
 - [schema]({{ '/terms/schema/' | relative_url }})
 - [scid]({{ '/terms/scid/' | relative_url }})
 - [scope]({{ '/terms/scope/' | relative_url }})
+- [sd-jwt-vc]({{ '/terms/sd-jwt-vc/' | relative_url }})
 - [second-party]({{ '/terms/second-party/' | relative_url }})
 - [secure-attribution]({{ '/terms/secure-attribution/' | relative_url }})
 - [secure-enclave]({{ '/terms/secure-enclave/' | relative_url }})
 - [secure-multi-party-computation]({{ '/terms/secure-multi-party-computation/' | relative_url }})
+- [secured-verifiable-credential]({{ '/terms/secured-verifiable-credential/' | relative_url }})
 - [security-domain]({{ '/terms/security-domain/' | relative_url }})
 - [security-policy]({{ '/terms/security-policy/' | relative_url }})
+- [selective-disclosure]({{ '/terms/selective-disclosure/' | relative_url }})
 - [self-asserted]({{ '/terms/self-asserted/' | relative_url }})
 - [self-certified]({{ '/terms/self-certified/' | relative_url }})
 - [self-certifying-identifier]({{ '/terms/self-certifying-identifier/' | relative_url }})
 - [self-sovereign-identity]({{ '/terms/self-sovereign-identity/' | relative_url }})
+- [sender-constrained-token]({{ '/terms/sender-constrained-token/' | relative_url }})
 - [sensitive-data]({{ '/terms/sensitive-data/' | relative_url }})
 - [session]({{ '/terms/session/' | relative_url }})
 - [single-signature-identifier]({{ '/terms/single-signature-identifier/' | relative_url }})
@@ -392,11 +406,7 @@ This index is generated from `glossary/terms/` and currently includes **534** te
 - [sovrin-foundation]({{ '/terms/sovrin-foundation/' | relative_url }})
 - [spanning-layer]({{ '/terms/spanning-layer/' | relative_url }})
 - [specification]({{ '/terms/specification/' | relative_url }})
-- [ssi]({{ '/terms/ssi/' | relative_url }})
-- [stream]({{ '/terms/stream/' | relative_url }})
-- [streaming-media]({{ '/terms/streaming-media/' | relative_url }})
-- [subject]({{ '/terms/subject/' | relative_url }})
-- [View all 29 terms for S]({{ '/terms/s/' | relative_url }})
+- [View all 35 terms for S]({{ '/terms/s/' | relative_url }})
 
 ## T
 
@@ -449,10 +459,12 @@ This index is generated from `glossary/terms/` and currently includes **534** te
 - [vc]({{ '/terms/vc/' | relative_url }})
 - [verifiable]({{ '/terms/verifiable/' | relative_url }})
 - [verifiable-credential]({{ '/terms/verifiable-credential/' | relative_url }})
+- [verifiable-credential-data-model-2-0]({{ '/terms/verifiable-credential-data-model-2-0/' | relative_url }})
 - [verifiable-data]({{ '/terms/verifiable-data/' | relative_url }})
 - [verifiable-data-registry]({{ '/terms/verifiable-data-registry/' | relative_url }})
 - [verifiable-identifier]({{ '/terms/verifiable-identifier/' | relative_url }})
 - [verifiable-message]({{ '/terms/verifiable-message/' | relative_url }})
+- [verifiable-presentation]({{ '/terms/verifiable-presentation/' | relative_url }})
 - [verification]({{ '/terms/verification/' | relative_url }})
 - [verifier]({{ '/terms/verifier/' | relative_url }})
 - [vid]({{ '/terms/vid/' | relative_url }})
@@ -462,11 +474,13 @@ This index is generated from `glossary/terms/` and currently includes **534** te
 - [virtual-vault]({{ '/terms/virtual-vault/' | relative_url }})
 - [voice-over-ip]({{ '/terms/voice-over-ip/' | relative_url }})
 - [voip]({{ '/terms/voip/' | relative_url }})
+- [vp-token]({{ '/terms/vp-token/' | relative_url }})
 
 ## W
 
 - [w3c-verifiable-credentials-data-model-specification]({{ '/terms/w3c-verifiable-credentials-data-model-specification/' | relative_url }})
 - [wallet]({{ '/terms/wallet/' | relative_url }})
+- [wallet-attestation]({{ '/terms/wallet-attestation/' | relative_url }})
 - [wallet-engine]({{ '/terms/wallet-engine/' | relative_url }})
 - [witness]({{ '/terms/witness/' | relative_url }})
 

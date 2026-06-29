@@ -9,8 +9,21 @@ title: "property"
 ## Definition
 In the context of digital communication, an attribute of a digital object or data structure, such as a DID document or a schema.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 property, properties
+
+## See Also
+- [attribute]({{ '/terms/attribute/' | relative_url }})
+- [claim]({{ '/terms/claim/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/property.md`
 
 ## Governance Profile
 - **Authority scope**: terminology_definition
@@ -47,10 +60,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- attribute
-- claim.
 
 ## Crosswalk References
 Not specified

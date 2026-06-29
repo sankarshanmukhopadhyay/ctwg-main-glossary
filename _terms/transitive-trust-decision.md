@@ -9,8 +9,23 @@ title: "transitive-trust-decision"
 ## Definition
 A trust decision made by a first party about a second party or another entity based on information about the second party or the other entity that is obtained from one or more third parties.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 transitive trust decision, transitive trust decisions
+
+## See Also
+- [credential]({{ '/terms/credential/' | relative_url }})
+- [issuer]({{ '/terms/issuer/' | relative_url }})
+- [issuance]({{ '/terms/issuance/' | relative_url }})
+- [verifiable-credential]({{ '/terms/verifiable-credential/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/transitive-trust-decision.md`
 
 ## Governance Profile
 - **Authority scope**: credential_issuance
@@ -57,12 +72,6 @@ transitive trust decision, transitive trust decisions
 
 ## Mental Models
 Not specified
-
-## See Also
-- credential
-- issuer
-- issuance
-- verifiable-credential
 
 ## Crosswalk References
 Not specified

@@ -9,8 +9,20 @@ title: "trust-network"
 ## Definition
 A network of parties who are connected via trust relationships (such as via a membership agreement) conforming to requirements defined in a legal regulation, trust framework or governance framework. A trust network is more formal than a digital trust ecosystem; the latter may connect parties more loosely via transitive trust relationships and/or across multiple trust networks.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 trust network, trust networks
+
+## See Also
+- [ToIP trust network]({{ '/terms/toip-trust-network/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/trust-network.md`
 
 ## Governance Profile
 - **Authority scope**: policy_definition, governance_recognition
@@ -47,9 +59,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- ToIP trust network.
 
 ## Crosswalk References
 Not specified

@@ -1,5 +1,5 @@
 {
-  "term_count": 534,
+  "term_count": 563,
   "authority_terms": [
     {
       "term": "aal",
@@ -114,6 +114,10 @@
       "slug": "biometric"
     },
     {
+      "term": "bitstring-status-list",
+      "slug": "bitstring-status-list"
+    },
+    {
       "term": "blockchain",
       "slug": "blockchain"
     },
@@ -124,6 +128,10 @@
     {
       "term": "broken-object-level-authorization",
       "slug": "broken-object-level-authorization"
+    },
+    {
+      "term": "c2pa-manifest",
+      "slug": "c2pa-manifest"
     },
     {
       "term": "ca",
@@ -154,6 +162,10 @@
       "slug": "claim"
     },
     {
+      "term": "claim-generator",
+      "slug": "claim-generator"
+    },
+    {
       "term": "communication-session",
       "slug": "communication-session"
     },
@@ -162,12 +174,20 @@
       "slug": "compliance"
     },
     {
+      "term": "content-credential",
+      "slug": "content-credential"
+    },
+    {
       "term": "control-authority",
       "slug": "control-authority"
     },
     {
       "term": "controlled-document",
       "slug": "controlled-document"
+    },
+    {
+      "term": "controlled-identifier",
+      "slug": "controlled-identifier"
     },
     {
       "term": "controller",
@@ -202,8 +222,16 @@
       "slug": "cryptographically-verifiable"
     },
     {
+      "term": "data-integrity-proof",
+      "slug": "data-integrity-proof"
+    },
+    {
       "term": "data-schema",
       "slug": "data-schema"
+    },
+    {
+      "term": "dcql",
+      "slug": "dcql"
     },
     {
       "term": "dead-drop",
@@ -270,6 +298,10 @@
       "slug": "discovery"
     },
     {
+      "term": "dpop",
+      "slug": "dpop"
+    },
+    {
       "term": "ecosystem-governance-framework",
       "slug": "ecosystem-governance-framework"
     },
@@ -284,6 +316,14 @@
     {
       "term": "end-verifiability",
       "slug": "end-verifiability"
+    },
+    {
+      "term": "entity-statement",
+      "slug": "entity-statement"
+    },
+    {
+      "term": "eudi-wallet",
+      "slug": "eudi-wallet"
     },
     {
       "term": "fal",
@@ -430,6 +470,14 @@
       "slug": "issuer"
     },
     {
+      "term": "issuer-metadata",
+      "slug": "issuer-metadata"
+    },
+    {
+      "term": "key-binding-jwt",
+      "slug": "key-binding-jwt"
+    },
+    {
       "term": "keys-at-the-edge",
       "slug": "keys-at-the-edge"
     },
@@ -454,6 +502,22 @@
       "slug": "mandatory"
     },
     {
+      "term": "manifest-consumer",
+      "slug": "manifest-consumer"
+    },
+    {
+      "term": "openid-federation",
+      "slug": "openid-federation"
+    },
+    {
+      "term": "openid4vci",
+      "slug": "openid4vci"
+    },
+    {
+      "term": "openid4vp",
+      "slug": "openid4vp"
+    },
+    {
       "term": "optional",
       "slug": "optional"
     },
@@ -476,6 +540,10 @@
     {
       "term": "physical-credential",
       "slug": "physical-credential"
+    },
+    {
+      "term": "pid",
+      "slug": "pid"
     },
     {
       "term": "policy",
@@ -510,6 +578,10 @@
       "slug": "proof-of-possession"
     },
     {
+      "term": "provenance",
+      "slug": "provenance"
+    },
+    {
       "term": "pseudonym",
       "slug": "pseudonym"
     },
@@ -524,6 +596,10 @@
     {
       "term": "public-key-infrastructure",
       "slug": "public-key-infrastructure"
+    },
+    {
+      "term": "qualified-electronic-attestation-of-attributes",
+      "slug": "qualified-electronic-attestation-of-attributes"
     },
     {
       "term": "recommended",
@@ -586,6 +662,10 @@
       "slug": "schema"
     },
     {
+      "term": "sd-jwt-vc",
+      "slug": "sd-jwt-vc"
+    },
+    {
       "term": "second-party",
       "slug": "second-party"
     },
@@ -594,12 +674,20 @@
       "slug": "secure-attribution"
     },
     {
+      "term": "secured-verifiable-credential",
+      "slug": "secured-verifiable-credential"
+    },
+    {
       "term": "security-domain",
       "slug": "security-domain"
     },
     {
       "term": "security-policy",
       "slug": "security-policy"
+    },
+    {
+      "term": "selective-disclosure",
+      "slug": "selective-disclosure"
     },
     {
       "term": "self-asserted",
@@ -618,12 +706,24 @@
       "slug": "self-sovereign-identity"
     },
     {
+      "term": "sender-constrained-token",
+      "slug": "sender-constrained-token"
+    },
+    {
       "term": "software-agent",
       "slug": "software-agent"
     },
     {
       "term": "sovrin-foundation",
       "slug": "sovrin-foundation"
+    },
+    {
+      "term": "status-provider",
+      "slug": "status-provider"
+    },
+    {
+      "term": "status-record",
+      "slug": "status-record"
     },
     {
       "term": "subject",
@@ -778,8 +878,16 @@
       "slug": "verifiable-credential"
     },
     {
+      "term": "verifiable-credential-data-model-2-0",
+      "slug": "verifiable-credential-data-model-2-0"
+    },
+    {
       "term": "verifiable-data-registry",
       "slug": "verifiable-data-registry"
+    },
+    {
+      "term": "verifiable-presentation",
+      "slug": "verifiable-presentation"
     },
     {
       "term": "verification",
@@ -794,8 +902,16 @@
       "slug": "virtual-credential"
     },
     {
+      "term": "vp-token",
+      "slug": "vp-token"
+    },
+    {
       "term": "w3c-verifiable-credentials-data-model-specification",
       "slug": "w3c-verifiable-credentials-data-model-specification"
+    },
+    {
+      "term": "wallet-attestation",
+      "slug": "wallet-attestation"
     },
     {
       "term": "wallet-engine",
@@ -834,6 +950,10 @@
     {
       "term": "capability",
       "slug": "capability"
+    },
+    {
+      "term": "controlled-identifier",
+      "slug": "controlled-identifier"
     },
     {
       "term": "controller",
@@ -996,6 +1116,10 @@
     {
       "term": "autonomic-namespace",
       "slug": "autonomic-namespace"
+    },
+    {
+      "term": "bitstring-status-list",
+      "slug": "bitstring-status-list"
     },
     {
       "term": "bola",
@@ -1206,6 +1330,10 @@
       "slug": "physical-credential"
     },
     {
+      "term": "pid",
+      "slug": "pid"
+    },
+    {
       "term": "policy",
       "slug": "policy"
     },
@@ -1224,6 +1352,10 @@
     {
       "term": "public-key-infrastructure",
       "slug": "public-key-infrastructure"
+    },
+    {
+      "term": "qualified-electronic-attestation-of-attributes",
+      "slug": "qualified-electronic-attestation-of-attributes"
     },
     {
       "term": "record",
@@ -1276,6 +1408,14 @@
     {
       "term": "self-sovereign-identity",
       "slug": "self-sovereign-identity"
+    },
+    {
+      "term": "status-provider",
+      "slug": "status-provider"
+    },
+    {
+      "term": "status-record",
+      "slug": "status-record"
     },
     {
       "term": "subject",
@@ -1805,6 +1945,17 @@
       ]
     },
     {
+      "term": "bitstring-status-list",
+      "slug": "bitstring-status-list",
+      "states": [
+        "proposed",
+        "active",
+        "suspended",
+        "revoked",
+        "retired"
+      ]
+    },
+    {
       "term": "blockchain",
       "slug": "blockchain",
       "states": [
@@ -1860,6 +2011,15 @@
         "documented",
         "active",
         "deprecated"
+      ]
+    },
+    {
+      "term": "c2pa-manifest",
+      "slug": "c2pa-manifest",
+      "states": [
+        "proposed",
+        "active",
+        "retired"
       ]
     },
     {
@@ -1999,6 +2159,15 @@
       ]
     },
     {
+      "term": "claim-generator",
+      "slug": "claim-generator",
+      "states": [
+        "proposed",
+        "active",
+        "retired"
+      ]
+    },
+    {
       "term": "coalition-for-content-provenance-and-authenticity",
       "slug": "coalition-for-content-provenance-and-authenticity",
       "states": [
@@ -2134,6 +2303,15 @@
       ]
     },
     {
+      "term": "content-credential",
+      "slug": "content-credential",
+      "states": [
+        "proposed",
+        "active",
+        "retired"
+      ]
+    },
+    {
       "term": "contextual-linkability",
       "slug": "contextual-linkability",
       "states": [
@@ -2161,6 +2339,15 @@
         "active",
         "suspended",
         "revoked",
+        "retired"
+      ]
+    },
+    {
+      "term": "controlled-identifier",
+      "slug": "controlled-identifier",
+      "states": [
+        "proposed",
+        "active",
         "retired"
       ]
     },
@@ -2377,6 +2564,15 @@
       ]
     },
     {
+      "term": "data-integrity-proof",
+      "slug": "data-integrity-proof",
+      "states": [
+        "proposed",
+        "active",
+        "retired"
+      ]
+    },
+    {
       "term": "data-packet",
       "slug": "data-packet",
       "states": [
@@ -2421,6 +2617,15 @@
         "documented",
         "active",
         "deprecated"
+      ]
+    },
+    {
+      "term": "dcql",
+      "slug": "dcql",
+      "states": [
+        "proposed",
+        "active",
+        "retired"
       ]
     },
     {
@@ -2781,6 +2986,15 @@
       ]
     },
     {
+      "term": "dpop",
+      "slug": "dpop",
+      "states": [
+        "proposed",
+        "active",
+        "retired"
+      ]
+    },
+    {
       "term": "drm",
       "slug": "drm",
       "states": [
@@ -2936,6 +3150,15 @@
       ]
     },
     {
+      "term": "entity-statement",
+      "slug": "entity-statement",
+      "states": [
+        "proposed",
+        "active",
+        "retired"
+      ]
+    },
+    {
       "term": "ephemeral-connection",
       "slug": "ephemeral-connection",
       "states": [
@@ -2951,6 +3174,15 @@
         "documented",
         "active",
         "deprecated"
+      ]
+    },
+    {
+      "term": "eudi-wallet",
+      "slug": "eudi-wallet",
+      "states": [
+        "proposed",
+        "active",
+        "retired"
       ]
     },
     {
@@ -3580,6 +3812,15 @@
       ]
     },
     {
+      "term": "issuer-metadata",
+      "slug": "issuer-metadata",
+      "states": [
+        "proposed",
+        "active",
+        "retired"
+      ]
+    },
+    {
       "term": "itps",
       "slug": "itps",
       "states": [
@@ -3622,6 +3863,15 @@
         "documented",
         "active",
         "deprecated"
+      ]
+    },
+    {
+      "term": "key-binding-jwt",
+      "slug": "key-binding-jwt",
+      "states": [
+        "proposed",
+        "active",
+        "retired"
       ]
     },
     {
@@ -3870,6 +4120,15 @@
       ]
     },
     {
+      "term": "manifest-consumer",
+      "slug": "manifest-consumer",
+      "states": [
+        "proposed",
+        "active",
+        "retired"
+      ]
+    },
+    {
       "term": "message",
       "slug": "message",
       "states": [
@@ -4047,6 +4306,33 @@
         "documented",
         "active",
         "deprecated"
+      ]
+    },
+    {
+      "term": "openid-federation",
+      "slug": "openid-federation",
+      "states": [
+        "proposed",
+        "active",
+        "retired"
+      ]
+    },
+    {
+      "term": "openid4vci",
+      "slug": "openid4vci",
+      "states": [
+        "proposed",
+        "active",
+        "retired"
+      ]
+    },
+    {
+      "term": "openid4vp",
+      "slug": "openid4vp",
+      "states": [
+        "proposed",
+        "active",
+        "retired"
       ]
     },
     {
@@ -4258,6 +4544,17 @@
     {
       "term": "physical-credential",
       "slug": "physical-credential",
+      "states": [
+        "proposed",
+        "active",
+        "suspended",
+        "revoked",
+        "retired"
+      ]
+    },
+    {
+      "term": "pid",
+      "slug": "pid",
       "states": [
         "proposed",
         "active",
@@ -4480,6 +4777,15 @@
       ]
     },
     {
+      "term": "provenance",
+      "slug": "provenance",
+      "states": [
+        "proposed",
+        "active",
+        "retired"
+      ]
+    },
+    {
       "term": "pseudonym",
       "slug": "pseudonym",
       "states": [
@@ -4535,6 +4841,17 @@
         "documented",
         "active",
         "deprecated"
+      ]
+    },
+    {
+      "term": "qualified-electronic-attestation-of-attributes",
+      "slug": "qualified-electronic-attestation-of-attributes",
+      "states": [
+        "proposed",
+        "active",
+        "suspended",
+        "revoked",
+        "retired"
       ]
     },
     {
@@ -4873,6 +5190,15 @@
       ]
     },
     {
+      "term": "sd-jwt-vc",
+      "slug": "sd-jwt-vc",
+      "states": [
+        "proposed",
+        "active",
+        "retired"
+      ]
+    },
+    {
       "term": "second-party",
       "slug": "second-party",
       "states": [
@@ -4911,6 +5237,15 @@
       ]
     },
     {
+      "term": "secured-verifiable-credential",
+      "slug": "secured-verifiable-credential",
+      "states": [
+        "proposed",
+        "active",
+        "retired"
+      ]
+    },
+    {
       "term": "security-domain",
       "slug": "security-domain",
       "states": [
@@ -4926,6 +5261,15 @@
         "documented",
         "active",
         "deprecated"
+      ]
+    },
+    {
+      "term": "selective-disclosure",
+      "slug": "selective-disclosure",
+      "states": [
+        "proposed",
+        "active",
+        "retired"
       ]
     },
     {
@@ -4965,6 +5309,15 @@
         "active",
         "suspended",
         "revoked",
+        "retired"
+      ]
+    },
+    {
+      "term": "sender-constrained-token",
+      "slug": "sender-constrained-token",
+      "states": [
+        "proposed",
+        "active",
         "retired"
       ]
     },
@@ -5047,6 +5400,28 @@
         "documented",
         "active",
         "deprecated"
+      ]
+    },
+    {
+      "term": "status-provider",
+      "slug": "status-provider",
+      "states": [
+        "proposed",
+        "active",
+        "suspended",
+        "revoked",
+        "retired"
+      ]
+    },
+    {
+      "term": "status-record",
+      "slug": "status-record",
+      "states": [
+        "proposed",
+        "active",
+        "suspended",
+        "revoked",
+        "retired"
       ]
     },
     {
@@ -6184,6 +6559,15 @@
       ]
     },
     {
+      "term": "verifiable-credential-data-model-2-0",
+      "slug": "verifiable-credential-data-model-2-0",
+      "states": [
+        "proposed",
+        "active",
+        "retired"
+      ]
+    },
+    {
       "term": "verifiable-data",
       "slug": "verifiable-data",
       "states": [
@@ -6219,6 +6603,15 @@
         "documented",
         "active",
         "deprecated"
+      ]
+    },
+    {
+      "term": "verifiable-presentation",
+      "slug": "verifiable-presentation",
+      "states": [
+        "proposed",
+        "active",
+        "retired"
       ]
     },
     {
@@ -6307,6 +6700,15 @@
       ]
     },
     {
+      "term": "vp-token",
+      "slug": "vp-token",
+      "states": [
+        "proposed",
+        "active",
+        "retired"
+      ]
+    },
+    {
       "term": "w3c-verifiable-credentials-data-model-specification",
       "slug": "w3c-verifiable-credentials-data-model-specification",
       "states": [
@@ -6324,6 +6726,15 @@
         "documented",
         "active",
         "deprecated"
+      ]
+    },
+    {
+      "term": "wallet-attestation",
+      "slug": "wallet-attestation",
+      "states": [
+        "proposed",
+        "active",
+        "retired"
       ]
     },
     {
@@ -6792,6 +7203,16 @@
       ]
     },
     {
+      "term": "bitstring-status-list",
+      "slug": "bitstring-status-list",
+      "evidence_artifacts": [
+        "audit_log",
+        "registry_entry",
+        "status_record",
+        "verification_log"
+      ]
+    },
+    {
       "term": "blockchain",
       "slug": "blockchain",
       "evidence_artifacts": [
@@ -6843,6 +7264,15 @@
       "slug": "c2pa",
       "evidence_artifacts": [
         "definition_change_record"
+      ]
+    },
+    {
+      "term": "c2pa-manifest",
+      "slug": "c2pa-manifest",
+      "evidence_artifacts": [
+        "attestation",
+        "audit_log",
+        "verification_log"
       ]
     },
     {
@@ -6973,6 +7403,15 @@
       ]
     },
     {
+      "term": "claim-generator",
+      "slug": "claim-generator",
+      "evidence_artifacts": [
+        "attestation",
+        "audit_log",
+        "verification_log"
+      ]
+    },
+    {
       "term": "coalition-for-content-provenance-and-authenticity",
       "slug": "coalition-for-content-provenance-and-authenticity",
       "evidence_artifacts": [
@@ -7080,6 +7519,15 @@
       ]
     },
     {
+      "term": "content-credential",
+      "slug": "content-credential",
+      "evidence_artifacts": [
+        "attestation",
+        "audit_log",
+        "verification_log"
+      ]
+    },
+    {
       "term": "contextual-linkability",
       "slug": "contextual-linkability",
       "evidence_artifacts": [
@@ -7105,6 +7553,15 @@
         "definition_change_record",
         "registry_entry",
         "status_record",
+        "verification_log"
+      ]
+    },
+    {
+      "term": "controlled-identifier",
+      "slug": "controlled-identifier",
+      "evidence_artifacts": [
+        "audit_log",
+        "delegation_record",
         "verification_log"
       ]
     },
@@ -7301,6 +7758,15 @@
       ]
     },
     {
+      "term": "data-integrity-proof",
+      "slug": "data-integrity-proof",
+      "evidence_artifacts": [
+        "attestation",
+        "audit_log",
+        "verification_log"
+      ]
+    },
+    {
       "term": "data-packet",
       "slug": "data-packet",
       "evidence_artifacts": [
@@ -7339,6 +7805,15 @@
       "slug": "datagram",
       "evidence_artifacts": [
         "definition_change_record"
+      ]
+    },
+    {
+      "term": "dcql",
+      "slug": "dcql",
+      "evidence_artifacts": [
+        "audit_log",
+        "policy_document",
+        "verification_log"
       ]
     },
     {
@@ -7654,6 +8129,15 @@
       ]
     },
     {
+      "term": "dpop",
+      "slug": "dpop",
+      "evidence_artifacts": [
+        "access_decision_log",
+        "audit_log",
+        "verification_log"
+      ]
+    },
+    {
       "term": "drm",
       "slug": "drm",
       "evidence_artifacts": [
@@ -7784,6 +8268,15 @@
       ]
     },
     {
+      "term": "entity-statement",
+      "slug": "entity-statement",
+      "evidence_artifacts": [
+        "audit_log",
+        "registry_entry",
+        "verification_log"
+      ]
+    },
+    {
       "term": "ephemeral-connection",
       "slug": "ephemeral-connection",
       "evidence_artifacts": [
@@ -7795,6 +8288,17 @@
       "slug": "essr",
       "evidence_artifacts": [
         "definition_change_record"
+      ]
+    },
+    {
+      "term": "eudi-wallet",
+      "slug": "eudi-wallet",
+      "evidence_artifacts": [
+        "audit_log",
+        "issuance_log",
+        "policy_document",
+        "registry_entry",
+        "verification_log"
       ]
     },
     {
@@ -8349,6 +8853,16 @@
       ]
     },
     {
+      "term": "issuer-metadata",
+      "slug": "issuer-metadata",
+      "evidence_artifacts": [
+        "audit_log",
+        "issuance_log",
+        "policy_document",
+        "registry_entry"
+      ]
+    },
+    {
       "term": "itps",
       "slug": "itps",
       "evidence_artifacts": [
@@ -8383,6 +8897,14 @@
       "slug": "key",
       "evidence_artifacts": [
         "definition_change_record"
+      ]
+    },
+    {
+      "term": "key-binding-jwt",
+      "slug": "key-binding-jwt",
+      "evidence_artifacts": [
+        "audit_log",
+        "verification_log"
       ]
     },
     {
@@ -8588,6 +9110,14 @@
       ]
     },
     {
+      "term": "manifest-consumer",
+      "slug": "manifest-consumer",
+      "evidence_artifacts": [
+        "audit_log",
+        "verification_log"
+      ]
+    },
+    {
       "term": "message",
       "slug": "message",
       "evidence_artifacts": [
@@ -8733,6 +9263,35 @@
       "slug": "oobi",
       "evidence_artifacts": [
         "definition_change_record"
+      ]
+    },
+    {
+      "term": "openid-federation",
+      "slug": "openid-federation",
+      "evidence_artifacts": [
+        "audit_log",
+        "policy_document",
+        "registry_entry",
+        "verification_log"
+      ]
+    },
+    {
+      "term": "openid4vci",
+      "slug": "openid4vci",
+      "evidence_artifacts": [
+        "audit_log",
+        "issuance_log",
+        "policy_document",
+        "verification_log"
+      ]
+    },
+    {
+      "term": "openid4vp",
+      "slug": "openid4vp",
+      "evidence_artifacts": [
+        "audit_log",
+        "policy_document",
+        "verification_log"
       ]
     },
     {
@@ -8923,6 +9482,16 @@
       ]
     },
     {
+      "term": "pid",
+      "slug": "pid",
+      "evidence_artifacts": [
+        "audit_log",
+        "issuance_log",
+        "policy_document",
+        "verification_log"
+      ]
+    },
+    {
       "term": "pii",
       "slug": "pii",
       "evidence_artifacts": [
@@ -9096,6 +9665,14 @@
       ]
     },
     {
+      "term": "provenance",
+      "slug": "provenance",
+      "evidence_artifacts": [
+        "audit_log",
+        "verification_log"
+      ]
+    },
+    {
       "term": "pseudonym",
       "slug": "pseudonym",
       "evidence_artifacts": [
@@ -9142,6 +9719,17 @@
       "slug": "qr-code",
       "evidence_artifacts": [
         "definition_change_record"
+      ]
+    },
+    {
+      "term": "qualified-electronic-attestation-of-attributes",
+      "slug": "qualified-electronic-attestation-of-attributes",
+      "evidence_artifacts": [
+        "attestation",
+        "audit_log",
+        "issuance_log",
+        "registry_entry",
+        "verification_log"
       ]
     },
     {
@@ -9433,6 +10021,15 @@
       ]
     },
     {
+      "term": "sd-jwt-vc",
+      "slug": "sd-jwt-vc",
+      "evidence_artifacts": [
+        "audit_log",
+        "issuance_log",
+        "verification_log"
+      ]
+    },
+    {
       "term": "second-party",
       "slug": "second-party",
       "evidence_artifacts": [
@@ -9468,6 +10065,15 @@
       ]
     },
     {
+      "term": "secured-verifiable-credential",
+      "slug": "secured-verifiable-credential",
+      "evidence_artifacts": [
+        "audit_log",
+        "issuance_log",
+        "verification_log"
+      ]
+    },
+    {
       "term": "security-domain",
       "slug": "security-domain",
       "evidence_artifacts": [
@@ -9479,6 +10085,14 @@
       "slug": "security-policy",
       "evidence_artifacts": [
         "policy_document"
+      ]
+    },
+    {
+      "term": "selective-disclosure",
+      "slug": "selective-disclosure",
+      "evidence_artifacts": [
+        "audit_log",
+        "verification_log"
       ]
     },
     {
@@ -9514,6 +10128,15 @@
         "issuance_log",
         "registry_entry",
         "status_record",
+        "verification_log"
+      ]
+    },
+    {
+      "term": "sender-constrained-token",
+      "slug": "sender-constrained-token",
+      "evidence_artifacts": [
+        "access_decision_log",
+        "audit_log",
         "verification_log"
       ]
     },
@@ -9580,6 +10203,25 @@
       "slug": "ssi",
       "evidence_artifacts": [
         "definition_change_record"
+      ]
+    },
+    {
+      "term": "status-provider",
+      "slug": "status-provider",
+      "evidence_artifacts": [
+        "audit_log",
+        "registry_entry",
+        "status_record",
+        "verification_log"
+      ]
+    },
+    {
+      "term": "status-record",
+      "slug": "status-record",
+      "evidence_artifacts": [
+        "audit_log",
+        "status_record",
+        "verification_log"
       ]
     },
     {
@@ -10590,6 +11232,16 @@
       ]
     },
     {
+      "term": "verifiable-credential-data-model-2-0",
+      "slug": "verifiable-credential-data-model-2-0",
+      "evidence_artifacts": [
+        "audit_log",
+        "issuance_log",
+        "policy_document",
+        "verification_log"
+      ]
+    },
+    {
       "term": "verifiable-data",
       "slug": "verifiable-data",
       "evidence_artifacts": [
@@ -10620,6 +11272,14 @@
       "slug": "verifiable-message",
       "evidence_artifacts": [
         "definition_change_record"
+      ]
+    },
+    {
+      "term": "verifiable-presentation",
+      "slug": "verifiable-presentation",
+      "evidence_artifacts": [
+        "audit_log",
+        "verification_log"
       ]
     },
     {
@@ -10698,6 +11358,14 @@
       ]
     },
     {
+      "term": "vp-token",
+      "slug": "vp-token",
+      "evidence_artifacts": [
+        "audit_log",
+        "verification_log"
+      ]
+    },
+    {
       "term": "w3c-verifiable-credentials-data-model-specification",
       "slug": "w3c-verifiable-credentials-data-model-specification",
       "evidence_artifacts": [
@@ -10713,6 +11381,16 @@
       "slug": "wallet",
       "evidence_artifacts": [
         "definition_change_record"
+      ]
+    },
+    {
+      "term": "wallet-attestation",
+      "slug": "wallet-attestation",
+      "evidence_artifacts": [
+        "attestation",
+        "audit_log",
+        "policy_document",
+        "verification_log"
       ]
     },
     {
@@ -11034,6 +11712,14 @@
       ]
     },
     {
+      "term": "bitstring-status-list",
+      "slug": "bitstring-status-list",
+      "decision_points": [
+        "revocation_decision",
+        "reliance_decision"
+      ]
+    },
+    {
       "term": "blockchain",
       "slug": "blockchain",
       "decision_points": [
@@ -11061,6 +11747,13 @@
       "decision_points": [
         "access_decision",
         "revocation_decision"
+      ]
+    },
+    {
+      "term": "c2pa-manifest",
+      "slug": "c2pa-manifest",
+      "decision_points": [
+        "reliance_decision"
       ]
     },
     {
@@ -11132,6 +11825,13 @@
       ]
     },
     {
+      "term": "claim-generator",
+      "slug": "claim-generator",
+      "decision_points": [
+        "reliance_decision"
+      ]
+    },
+    {
       "term": "communication-session",
       "slug": "communication-session",
       "decision_points": [
@@ -11153,6 +11853,13 @@
       ]
     },
     {
+      "term": "content-credential",
+      "slug": "content-credential",
+      "decision_points": [
+        "reliance_decision"
+      ]
+    },
+    {
       "term": "control-authority",
       "slug": "control-authority",
       "decision_points": [
@@ -11164,6 +11871,14 @@
       "slug": "controlled-document",
       "decision_points": [
         "revocation_decision"
+      ]
+    },
+    {
+      "term": "controlled-identifier",
+      "slug": "controlled-identifier",
+      "decision_points": [
+        "reliance_decision",
+        "delegation_grant"
       ]
     },
     {
@@ -11260,6 +11975,13 @@
       ]
     },
     {
+      "term": "data-integrity-proof",
+      "slug": "data-integrity-proof",
+      "decision_points": [
+        "reliance_decision"
+      ]
+    },
+    {
       "term": "data-packet",
       "slug": "data-packet",
       "decision_points": [
@@ -11272,6 +11994,14 @@
       "decision_points": [
         "issuance_decision",
         "revocation_decision"
+      ]
+    },
+    {
+      "term": "dcql",
+      "slug": "dcql",
+      "decision_points": [
+        "reliance_decision",
+        "policy_approval"
       ]
     },
     {
@@ -11427,6 +12157,14 @@
       ]
     },
     {
+      "term": "dpop",
+      "slug": "dpop",
+      "decision_points": [
+        "access_decision",
+        "reliance_decision"
+      ]
+    },
+    {
       "term": "ecosystem-governance-framework",
       "slug": "ecosystem-governance-framework",
       "decision_points": [
@@ -11475,6 +12213,23 @@
       "slug": "enterprise-wallet",
       "decision_points": [
         "definition_approval"
+      ]
+    },
+    {
+      "term": "entity-statement",
+      "slug": "entity-statement",
+      "decision_points": [
+        "registration_decision",
+        "reliance_decision"
+      ]
+    },
+    {
+      "term": "eudi-wallet",
+      "slug": "eudi-wallet",
+      "decision_points": [
+        "issuance_decision",
+        "reliance_decision",
+        "registration_decision"
       ]
     },
     {
@@ -11818,10 +12573,25 @@
       ]
     },
     {
+      "term": "issuer-metadata",
+      "slug": "issuer-metadata",
+      "decision_points": [
+        "issuance_decision",
+        "registration_decision"
+      ]
+    },
+    {
       "term": "jurisdiction",
       "slug": "jurisdiction",
       "decision_points": [
         "definition_approval"
+      ]
+    },
+    {
+      "term": "key-binding-jwt",
+      "slug": "key-binding-jwt",
+      "decision_points": [
+        "reliance_decision"
       ]
     },
     {
@@ -11889,6 +12659,13 @@
       ]
     },
     {
+      "term": "manifest-consumer",
+      "slug": "manifest-consumer",
+      "decision_points": [
+        "reliance_decision"
+      ]
+    },
+    {
       "term": "multi-party-control",
       "slug": "multi-party-control",
       "decision_points": [
@@ -11914,6 +12691,29 @@
       "slug": "non-transferable-identifier",
       "decision_points": [
         "definition_approval"
+      ]
+    },
+    {
+      "term": "openid-federation",
+      "slug": "openid-federation",
+      "decision_points": [
+        "registration_decision",
+        "reliance_decision"
+      ]
+    },
+    {
+      "term": "openid4vci",
+      "slug": "openid4vci",
+      "decision_points": [
+        "issuance_decision",
+        "reliance_decision"
+      ]
+    },
+    {
+      "term": "openid4vp",
+      "slug": "openid4vp",
+      "decision_points": [
+        "reliance_decision"
       ]
     },
     {
@@ -11994,6 +12794,14 @@
       "decision_points": [
         "issuance_decision",
         "revocation_decision"
+      ]
+    },
+    {
+      "term": "pid",
+      "slug": "pid",
+      "decision_points": [
+        "issuance_decision",
+        "reliance_decision"
       ]
     },
     {
@@ -12078,6 +12886,13 @@
       ]
     },
     {
+      "term": "provenance",
+      "slug": "provenance",
+      "decision_points": [
+        "reliance_decision"
+      ]
+    },
+    {
       "term": "pseudonym",
       "slug": "pseudonym",
       "decision_points": [
@@ -12104,6 +12919,15 @@
       "decision_points": [
         "access_decision",
         "revocation_decision"
+      ]
+    },
+    {
+      "term": "qualified-electronic-attestation-of-attributes",
+      "slug": "qualified-electronic-attestation-of-attributes",
+      "decision_points": [
+        "issuance_decision",
+        "registration_decision",
+        "reliance_decision"
       ]
     },
     {
@@ -12282,6 +13106,14 @@
       ]
     },
     {
+      "term": "sd-jwt-vc",
+      "slug": "sd-jwt-vc",
+      "decision_points": [
+        "issuance_decision",
+        "reliance_decision"
+      ]
+    },
+    {
       "term": "second-party",
       "slug": "second-party",
       "decision_points": [
@@ -12304,6 +13136,14 @@
       ]
     },
     {
+      "term": "secured-verifiable-credential",
+      "slug": "secured-verifiable-credential",
+      "decision_points": [
+        "issuance_decision",
+        "reliance_decision"
+      ]
+    },
+    {
       "term": "security-domain",
       "slug": "security-domain",
       "decision_points": [
@@ -12315,6 +13155,13 @@
       "slug": "security-policy",
       "decision_points": [
         "policy_approval"
+      ]
+    },
+    {
+      "term": "selective-disclosure",
+      "slug": "selective-disclosure",
+      "decision_points": [
+        "reliance_decision"
       ]
     },
     {
@@ -12348,6 +13195,14 @@
       ]
     },
     {
+      "term": "sender-constrained-token",
+      "slug": "sender-constrained-token",
+      "decision_points": [
+        "access_decision",
+        "reliance_decision"
+      ]
+    },
+    {
       "term": "single-signature-identifier",
       "slug": "single-signature-identifier",
       "decision_points": [
@@ -12366,6 +13221,22 @@
       "slug": "sovrin-foundation",
       "decision_points": [
         "policy_approval"
+      ]
+    },
+    {
+      "term": "status-provider",
+      "slug": "status-provider",
+      "decision_points": [
+        "revocation_decision",
+        "reliance_decision"
+      ]
+    },
+    {
+      "term": "status-record",
+      "slug": "status-record",
+      "decision_points": [
+        "revocation_decision",
+        "reliance_decision"
       ]
     },
     {
@@ -12965,6 +13836,14 @@
       ]
     },
     {
+      "term": "verifiable-credential-data-model-2-0",
+      "slug": "verifiable-credential-data-model-2-0",
+      "decision_points": [
+        "issuance_decision",
+        "reliance_decision"
+      ]
+    },
+    {
       "term": "verifiable-data",
       "slug": "verifiable-data",
       "decision_points": [
@@ -12985,6 +13864,13 @@
       "slug": "verifiable-identifier",
       "decision_points": [
         "definition_approval"
+      ]
+    },
+    {
+      "term": "verifiable-presentation",
+      "slug": "verifiable-presentation",
+      "decision_points": [
+        "reliance_decision"
       ]
     },
     {
@@ -13029,11 +13915,26 @@
       ]
     },
     {
+      "term": "vp-token",
+      "slug": "vp-token",
+      "decision_points": [
+        "reliance_decision"
+      ]
+    },
+    {
       "term": "w3c-verifiable-credentials-data-model-specification",
       "slug": "w3c-verifiable-credentials-data-model-specification",
       "decision_points": [
         "issuance_decision",
         "revocation_decision"
+      ]
+    },
+    {
+      "term": "wallet-attestation",
+      "slug": "wallet-attestation",
+      "decision_points": [
+        "reliance_decision",
+        "issuance_decision"
       ]
     },
     {
@@ -13194,6 +14095,10 @@
         "slug": "autonomic-namespace"
       },
       {
+        "term": "bitstring-status-list",
+        "slug": "bitstring-status-list"
+      },
+      {
         "term": "blockchain",
         "slug": "blockchain"
       },
@@ -13208,6 +14113,10 @@
       {
         "term": "broken-object-level-authorization",
         "slug": "broken-object-level-authorization"
+      },
+      {
+        "term": "c2pa-manifest",
+        "slug": "c2pa-manifest"
       },
       {
         "term": "ca",
@@ -13238,6 +14147,10 @@
         "slug": "claim"
       },
       {
+        "term": "claim-generator",
+        "slug": "claim-generator"
+      },
+      {
         "term": "communication-session",
         "slug": "communication-session"
       },
@@ -13250,12 +14163,20 @@
         "slug": "confidentiality"
       },
       {
+        "term": "content-credential",
+        "slug": "content-credential"
+      },
+      {
         "term": "control-authority",
         "slug": "control-authority"
       },
       {
         "term": "controlled-document",
         "slug": "controlled-document"
+      },
+      {
+        "term": "controlled-identifier",
+        "slug": "controlled-identifier"
       },
       {
         "term": "controller",
@@ -13302,12 +14223,20 @@
         "slug": "custodian"
       },
       {
+        "term": "data-integrity-proof",
+        "slug": "data-integrity-proof"
+      },
+      {
         "term": "data-packet",
         "slug": "data-packet"
       },
       {
         "term": "data-schema",
         "slug": "data-schema"
+      },
+      {
+        "term": "dcql",
+        "slug": "dcql"
       },
       {
         "term": "dead-drop",
@@ -13386,6 +14315,10 @@
         "slug": "discovery"
       },
       {
+        "term": "dpop",
+        "slug": "dpop"
+      },
+      {
         "term": "ecosystem-governance-framework",
         "slug": "ecosystem-governance-framework"
       },
@@ -13408,6 +14341,14 @@
       {
         "term": "enterprise-wallet",
         "slug": "enterprise-wallet"
+      },
+      {
+        "term": "entity-statement",
+        "slug": "entity-statement"
+      },
+      {
+        "term": "eudi-wallet",
+        "slug": "eudi-wallet"
       },
       {
         "term": "federation",
@@ -13542,6 +14483,14 @@
         "slug": "issuer"
       },
       {
+        "term": "issuer-metadata",
+        "slug": "issuer-metadata"
+      },
+      {
+        "term": "key-binding-jwt",
+        "slug": "key-binding-jwt"
+      },
+      {
         "term": "keys-at-the-edge",
         "slug": "keys-at-the-edge"
       },
@@ -13566,6 +14515,10 @@
         "slug": "mandatory"
       },
       {
+        "term": "manifest-consumer",
+        "slug": "manifest-consumer"
+      },
+      {
         "term": "multi-party-control",
         "slug": "multi-party-control"
       },
@@ -13580,6 +14533,18 @@
       {
         "term": "non-transferable-identifier",
         "slug": "non-transferable-identifier"
+      },
+      {
+        "term": "openid-federation",
+        "slug": "openid-federation"
+      },
+      {
+        "term": "openid4vci",
+        "slug": "openid4vci"
+      },
+      {
+        "term": "openid4vp",
+        "slug": "openid4vp"
       },
       {
         "term": "optional",
@@ -13616,6 +14581,10 @@
       {
         "term": "physical-credential",
         "slug": "physical-credential"
+      },
+      {
+        "term": "pid",
+        "slug": "pid"
       },
       {
         "term": "policy",
@@ -13662,6 +14631,10 @@
         "slug": "protected-data"
       },
       {
+        "term": "provenance",
+        "slug": "provenance"
+      },
+      {
         "term": "pseudonym",
         "slug": "pseudonym"
       },
@@ -13676,6 +14649,10 @@
       {
         "term": "public-key-infrastructure",
         "slug": "public-key-infrastructure"
+      },
+      {
+        "term": "qualified-electronic-attestation-of-attributes",
+        "slug": "qualified-electronic-attestation-of-attributes"
       },
       {
         "term": "rbac",
@@ -13746,6 +14723,10 @@
         "slug": "schema"
       },
       {
+        "term": "sd-jwt-vc",
+        "slug": "sd-jwt-vc"
+      },
+      {
         "term": "second-party",
         "slug": "second-party"
       },
@@ -13754,12 +14735,20 @@
         "slug": "secure-attribution"
       },
       {
+        "term": "secured-verifiable-credential",
+        "slug": "secured-verifiable-credential"
+      },
+      {
         "term": "security-domain",
         "slug": "security-domain"
       },
       {
         "term": "security-policy",
         "slug": "security-policy"
+      },
+      {
+        "term": "selective-disclosure",
+        "slug": "selective-disclosure"
       },
       {
         "term": "self-asserted",
@@ -13774,6 +14763,10 @@
         "slug": "self-sovereign-identity"
       },
       {
+        "term": "sender-constrained-token",
+        "slug": "sender-constrained-token"
+      },
+      {
         "term": "single-signature-identifier",
         "slug": "single-signature-identifier"
       },
@@ -13784,6 +14777,14 @@
       {
         "term": "sovrin-foundation",
         "slug": "sovrin-foundation"
+      },
+      {
+        "term": "status-provider",
+        "slug": "status-provider"
+      },
+      {
+        "term": "status-record",
+        "slug": "status-record"
       },
       {
         "term": "subject",
@@ -13938,6 +14939,10 @@
         "slug": "verifiable-credential"
       },
       {
+        "term": "verifiable-credential-data-model-2-0",
+        "slug": "verifiable-credential-data-model-2-0"
+      },
+      {
         "term": "verifiable-data",
         "slug": "verifiable-data"
       },
@@ -13948,6 +14953,10 @@
       {
         "term": "verifiable-identifier",
         "slug": "verifiable-identifier"
+      },
+      {
+        "term": "verifiable-presentation",
+        "slug": "verifiable-presentation"
       },
       {
         "term": "verification",
@@ -13962,8 +14971,16 @@
         "slug": "virtual-credential"
       },
       {
+        "term": "vp-token",
+        "slug": "vp-token"
+      },
+      {
         "term": "w3c-verifiable-credentials-data-model-specification",
         "slug": "w3c-verifiable-credentials-data-model-specification"
+      },
+      {
+        "term": "wallet-attestation",
+        "slug": "wallet-attestation"
       },
       {
         "term": "wallet-engine",
@@ -15225,40 +16242,40 @@
   },
   "assurance_level_hints": {
     "AL1+": 82,
-    "AL2+": 227,
+    "AL2+": 256,
     "informative": 225
   },
   "authority_scope_counts": {
-    "access_decisioning": 27,
-    "assurance_and_audit": 24,
-    "credential_issuance": 59,
-    "delegation_and_scope": 31,
-    "governance_recognition": 81,
-    "policy_definition": 51,
-    "registry_management": 17,
+    "access_decisioning": 29,
+    "assurance_and_audit": 32,
+    "credential_issuance": 68,
+    "delegation_and_scope": 32,
+    "governance_recognition": 85,
+    "policy_definition": 52,
+    "registry_management": 21,
     "terminology_definition": 333,
-    "verification_and_reliance": 23
+    "verification_and_reliance": 50
   },
   "evidence_artifact_counts": {
-    "access_decision_log": 26,
-    "attestation": 18,
-    "audit_log": 205,
+    "access_decision_log": 28,
+    "attestation": 24,
+    "audit_log": 234,
     "definition_change_record": 361,
-    "delegation_record": 31,
-    "issuance_log": 59,
-    "policy_document": 197,
-    "registry_entry": 95,
-    "status_record": 84,
-    "verification_log": 101
+    "delegation_record": 32,
+    "issuance_log": 67,
+    "policy_document": 206,
+    "registry_entry": 102,
+    "status_record": 87,
+    "verification_log": 129
   },
   "decision_point_counts": {
-    "access_decision": 27,
+    "access_decision": 29,
     "definition_approval": 359,
-    "delegation_grant": 31,
-    "issuance_decision": 59,
-    "policy_approval": 51,
-    "registration_decision": 17,
-    "reliance_decision": 23,
-    "revocation_decision": 108
+    "delegation_grant": 32,
+    "issuance_decision": 68,
+    "policy_approval": 52,
+    "registration_decision": 22,
+    "reliance_decision": 51,
+    "revocation_decision": 111
   }
 }

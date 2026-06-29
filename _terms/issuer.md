@@ -9,8 +9,21 @@ title: "issuer"
 ## Definition
 A role an agent performs to assert a set of claims, package and digitally sign them, typically in the form of a digital credential, and transmit them to a holder under applicable policy and governance constraints.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 issuer, issuers
+
+## See Also
+- [verifier]({{ '/terms/verifier/' | relative_url }})
+- [holder]({{ '/terms/holder/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/issuer.md`
 
 ## Governance Profile
 - **Authority scope**: credential_issuance, policy_definition, delegation_and_scope, governance_recognition
@@ -60,10 +73,6 @@ issuer, issuers
 
 ## Mental Models
 - [W3C Verifiable Credentials Data Model Roles & Information Flows](https://www.w3.org/TR/vc-data-model/#roles)
-
-## See Also
-- verifier
-- holder.
 
 ## Crosswalk References
 - **NIST**: IA-5

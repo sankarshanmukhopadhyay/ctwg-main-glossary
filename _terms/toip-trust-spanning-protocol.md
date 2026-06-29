@@ -9,8 +9,23 @@ title: "toip-trust-spanning-protocol"
 ## Definition
 The ToIP Trust Spanning Protocol (TSP) is the ToIP Layer 2 protocol for verifiable messaging that implements the trust spanning layer of the ToIP stack.  The TSP enables actors in different digital trust domains to interact in a similar way to how the Internet Protocol (IP) enables devices on different local area networks to exchange data.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 ToIP Trust Spanning Protocol, TSP
+
+## See Also
+- [glossary]({{ '/terms/glossary/' | relative_url }})
+- [definition]({{ '/terms/definition/' | relative_url }})
+- [trust]({{ '/terms/trust/' | relative_url }})
+- [trust-registry]({{ '/terms/trust-registry/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/toip-trust-spanning-protocol.md`
 
 ## Governance Profile
 - **Authority scope**: terminology_definition
@@ -51,12 +66,6 @@ Not specified
 
 ## Mental Models
 - [[ref: hourglass model,]] see the [Design Principles for the ToIP Stack](https://trustoverip.org/permalink/Design-Principles-for-the-ToIP-Stack-V1.0-2022-11-17.pdf).
-
-## See Also
-- glossary
-- definition
-- trust
-- trust-registry
 
 ## Crosswalk References
 Not specified

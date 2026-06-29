@@ -9,8 +9,25 @@ title: "trusted-third-party"
 ## Definition
 In cryptography, a trusted third party (TTP) is an entity which facilitates interactions between two parties who both trust the third party; the third party reviews all critical transaction communications between the parties, based on the ease of creating fraudulent digital content. In TTP models, the relying parties use this trust to secure their own interactions. TTPs are common in any number of commercial transactions and in cryptographic digital transactions as well as cryptographic protocols, for example, a certificate authority (CA) would issue a digital certificate to one of two parties. The CA then becomes the TTP to that certificate's issuance. Likewise transactions that need a third party recordation would also need a third-party repository service of some kind.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 trusted third party, trusted third parties, trusted 3rd party, trusted 3rd parties, TTP, TTPs
+
+## See Also
+- [verification]({{ '/terms/verification/' | relative_url }})
+- [verifier]({{ '/terms/verifier/' | relative_url }})
+- [relying-party]({{ '/terms/relying-party/' | relative_url }})
+- [trust-decision]({{ '/terms/trust-decision/' | relative_url }})
+- [governance]({{ '/terms/governance/' | relative_url }})
+- [governance-framework]({{ '/terms/governance-framework/' | relative_url }})
+
+## Standards and Source References
+- [Wikipedia](https://en.wikipedia.org/wiki/Trusted_third_party).
 
 ## Governance Profile
 - **Authority scope**: verification_and_reliance, governance_recognition
@@ -50,14 +67,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- verification
-- verifier
-- relying-party
-- trust-decision
-- governance
-- governance-framework
 
 ## Crosswalk References
 Not specified

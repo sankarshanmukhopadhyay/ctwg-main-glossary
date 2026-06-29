@@ -9,8 +9,21 @@ title: "organization"
 ## Definition
 A party that consists of a group of parties who agree to be organized into a specific form in order to better achieve a common set of objectives. Examples include corporations, partnerships, sole proprietorships, non-profit organizations, associations, and governments.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 organization, organizations, organisation, organisations
+
+## See Also
+- [legal entity]({{ '/terms/legal-entity/' | relative_url }})
+- [legal person]({{ '/terms/legal-person/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/organization.md`
 
 ## Governance Profile
 - **Authority scope**: terminology_definition
@@ -51,10 +64,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- legal entity
-- legal person.
 
 ## Crosswalk References
 Not specified

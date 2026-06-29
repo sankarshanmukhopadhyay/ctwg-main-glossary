@@ -9,8 +9,21 @@ title: "intermediary-system"
 ## Definition
 An intermediary system routes messages between endpoint systems but is not otherwise involved in the processing of those messages. In the context of end-to-end encryption, intermediary systems cannot decrypt the messages sent between the endpoint systems. In the ToIP stack, intermediary systems operate at ToIP Layer 2, the trust spanning layer. An intermediary system is one of three types of systems defined in the ToIP Technology Architecture Specification; the other two are endpoint systems and supporting systems.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 intermediary system, intermediary systems, intermediary, intermediaries
+
+## See Also
+- [endpoint system]({{ '/terms/endpoint-system/' | relative_url }})
+- [supporting system]({{ '/terms/supporting-system/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/intermediary-system.md`
 
 ## Governance Profile
 - **Authority scope**: terminology_definition
@@ -51,10 +64,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- endpoint system
-- supporting system.
 
 ## Crosswalk References
 Not specified

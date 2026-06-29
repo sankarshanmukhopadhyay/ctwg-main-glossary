@@ -9,8 +9,23 @@ title: "credential-offer"
 ## Definition
 A protocol request invoked by an issuer to offer to issue a digital credential to the  holder of a digital wallet. If the request is invoked by the holder, it is called an issuance request.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 credential offer, credential offers
+
+## See Also
+- [credential]({{ '/terms/credential/' | relative_url }})
+- [issuer]({{ '/terms/issuer/' | relative_url }})
+- [issuance]({{ '/terms/issuance/' | relative_url }})
+- [verifiable-credential]({{ '/terms/verifiable-credential/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/credential-offer.md`
 
 ## Governance Profile
 - **Authority scope**: credential_issuance
@@ -57,12 +72,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- credential
-- issuer
-- issuance
-- verifiable-credential
 
 ## Crosswalk References
 Not specified

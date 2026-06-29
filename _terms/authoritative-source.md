@@ -9,8 +9,25 @@ title: "authoritative-source"
 ## Definition
 A source of information that a relying party considers to be authoritative for that information. In ToIP architecture, the trust registry authorized by the governance framework for a trust community is typically considered an authoritative source by the members of that trust community. A system of record is an authoritative source for the data records it holds. A trust anchor is an authoritative source for the beginning of a trust chain.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 authoritative source, authoritative sources
+
+## See Also
+- [verification]({{ '/terms/verification/' | relative_url }})
+- [verifier]({{ '/terms/verifier/' | relative_url }})
+- [relying-party]({{ '/terms/relying-party/' | relative_url }})
+- [trust-decision]({{ '/terms/trust-decision/' | relative_url }})
+- [policy]({{ '/terms/policy/' | relative_url }})
+- [governance-framework]({{ '/terms/governance-framework/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/authoritative-source.md`
 
 ## Governance Profile
 - **Authority scope**: verification_and_reliance, policy_definition, registry_management, governance_recognition
@@ -57,14 +74,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- verification
-- verifier
-- relying-party
-- trust-decision
-- policy
-- governance-framework
 
 ## Crosswalk References
 Not specified

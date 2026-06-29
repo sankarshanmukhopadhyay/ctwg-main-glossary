@@ -9,8 +9,22 @@ title: "authorization-graph"
 ## Definition
 A graph of the authorization relationships between different entities in a trust-community. In a digital trust ecosystem, the governing body is typically the trust root of an authorization graph. In some cases, an authorization graph can be traversed by making queries to one or more trust registries.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 authorization graph
+
+## See Also
+- [governance graph]({{ '/terms/governance-graph/' | relative_url }})
+- [reputation graph]({{ '/terms/reputation-graph/' | relative_url }})
+- [trust graph]({{ '/terms/trust-graph/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/authorization-graph.md`
 
 ## Governance Profile
 - **Authority scope**: access_decisioning
@@ -59,11 +73,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- governance graph
-- reputation graph
-- trust graph.
 
 ## Crosswalk References
 Not specified

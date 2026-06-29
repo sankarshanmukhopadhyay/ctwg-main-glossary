@@ -9,8 +9,25 @@ title: "governing-body"
 ## Definition
 The party (or set of parties) authoritative for governing a trust community, usually (but not always) by developing, publishing, maintaining, and enforcing a governance framework. A governing body may be a government, a formal legal entity of any kind, an informal group of any kind, or an individual. A governing body may also delegate operational responsibilities to an administering body.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 governing body, governing bodies
+
+## See Also
+- [policy]({{ '/terms/policy/' | relative_url }})
+- [governance-framework]({{ '/terms/governance-framework/' | relative_url }})
+- [requirement]({{ '/terms/requirement/' | relative_url }})
+- [delegation]({{ '/terms/delegation/' | relative_url }})
+- [delegator]({{ '/terms/delegator/' | relative_url }})
+- [delegatee]({{ '/terms/delegatee/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/governing-body.md`
 
 ## Governance Profile
 - **Authority scope**: policy_definition, delegation_and_scope, governance_recognition
@@ -61,14 +78,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- policy
-- governance-framework
-- requirement
-- delegation
-- delegator
-- delegatee
 
 ## Crosswalk References
 Not specified

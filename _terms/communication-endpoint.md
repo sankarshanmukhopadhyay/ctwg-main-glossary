@@ -9,8 +9,20 @@ title: "communication-endpoint"
 ## Definition
 A type of communication network node. It is an interface exposed by a communicating party or by a communication channel. An example of the latter type of a communication endpoint is a publish-subscribe topic or a group in group communication systems.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 communication endpoint, communication endpoints, communications endpoint, communications endpoints
+
+## See Also
+- [ToIP endpoint]({{ '/terms/toip-endpoint/' | relative_url }})
+
+## Standards and Source References
+- [Wikipedia](https://en.wikipedia.org/wiki/Communication_endpoint).
 
 ## Governance Profile
 - **Authority scope**: terminology_definition
@@ -47,9 +59,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- ToIP endpoint.
 
 ## Crosswalk References
 Not specified

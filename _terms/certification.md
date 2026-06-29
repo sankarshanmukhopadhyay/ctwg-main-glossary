@@ -9,8 +9,20 @@ title: "certification"
 ## Definition
 A comprehensive assessment of the management, operational, and technical security controls in an information system, made in support of security accreditation, to determine the extent to which the controls are implemented correctly, operating as intended, and producing the desired outcome with respect to meeting the security requirements for the system.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 certification, certifications
+
+## See Also
+- [accreditation]({{ '/terms/accreditation/' | relative_url }})
+
+## Standards and Source References
+- [NIST-CSRC](https://csrc.nist.gov/glossary/term/certification).
 
 ## Governance Profile
 - **Authority scope**: governance_recognition
@@ -51,9 +63,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- accreditation
 
 ## Crosswalk References
 Not specified

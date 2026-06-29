@@ -9,8 +9,23 @@ title: "verification"
 ## Definition
 An action an agent (of a principal) performs to determine the authenticity of a claim or other data object. Cryptographic verification uses cryptographic keys.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 verification, verify, verifies, verified, verifying
+
+## See Also
+- [validation]({{ '/terms/validation/' | relative_url }})
+- [verifier]({{ '/terms/verifier/' | relative_url }})
+- [proof]({{ '/terms/proof/' | relative_url }})
+- [cryptographic-verifiability]({{ '/terms/cryptographic-verifiability/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/verification.md`
 
 ## Governance Profile
 - **Authority scope**: credential_issuance, delegation_and_scope
@@ -51,11 +66,6 @@ Not specified
 
 ## Mental Models
 - [W3C Verifiable Credentials Data Model Roles & Information Flows](https://www.w3.org/TR/vc-data-model/#roles)
-
-## See Also
-- validation.
-- KERI scope definition of [[xref: keri1
-- verification]]
 
 ## Crosswalk References
 Not specified

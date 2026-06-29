@@ -9,8 +9,24 @@ title: "governed-party"
 ## Definition
 A party whose role(s) in a trust community is governed by the governance requirements in a governance framework.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 governed party, governed parties
+
+## See Also
+- [policy]({{ '/terms/policy/' | relative_url }})
+- [governance-framework]({{ '/terms/governance-framework/' | relative_url }})
+- [requirement]({{ '/terms/requirement/' | relative_url }})
+- [governance]({{ '/terms/governance/' | relative_url }})
+- [governing-authority]({{ '/terms/governing-authority/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/governed-party.md`
 
 ## Governance Profile
 - **Authority scope**: policy_definition, governance_recognition
@@ -47,13 +63,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- policy
-- governance-framework
-- requirement
-- governance
-- governing-authority
 
 ## Crosswalk References
 Not specified

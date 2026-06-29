@@ -9,8 +9,23 @@ title: "zero-knowledge-proof"
 ## Definition
 A specific kind of cryptographic proof that proves facts about data to a verifier without revealing the underlying data itself. A common example is proving that a person is over or under a specific age without revealing the person’s exact birthdate.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 zero-knowledge proof, zero-knowledge proofs, ZKP, ZKPs
+
+## See Also
+- [verification]({{ '/terms/verification/' | relative_url }})
+- [verifier]({{ '/terms/verifier/' | relative_url }})
+- [relying-party]({{ '/terms/relying-party/' | relative_url }})
+- [trust-decision]({{ '/terms/trust-decision/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/zero-knowledge-proof.md`
 
 ## Governance Profile
 - **Authority scope**: verification_and_reliance
@@ -49,12 +64,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- verification
-- verifier
-- relying-party
-- trust-decision
 
 ## Crosswalk References
 Not specified

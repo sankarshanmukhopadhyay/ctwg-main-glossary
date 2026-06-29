@@ -9,8 +9,23 @@ title: "delegatee"
 ## Definition
 The second party receiving a delegation from a first party (the delegator) and authorized to act only within the granted scope and applicable constraints.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 delegatee, delegatees
+
+## See Also
+- [delegation]({{ '/terms/delegation/' | relative_url }})
+- [delegator]({{ '/terms/delegator/' | relative_url }})
+- [authorization]({{ '/terms/authorization/' | relative_url }})
+- [revocation]({{ '/terms/revocation/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/delegatee.md`
 
 ## Governance Profile
 - **Authority scope**: delegation_and_scope
@@ -59,12 +74,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- delegation
-- delegator
-- authorization
-- revocation
 
 ## Crosswalk References
 Not specified

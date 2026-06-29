@@ -9,8 +9,22 @@ title: "verifiable-data-registry"
 ## Definition
 A registry that facilitates the creation, verification, updating, and/or deactivation of decentralized identifiers and DID documents. A verifiable data registry may also be used for other cryptographically-verifiable data structures such as verifiable credentials.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 verifiable data registry, verifiable data registries, VDR, VDRs
+
+## See Also
+- [authoritative source]({{ '/terms/authoritative-source/' | relative_url }})
+- [trust registry]({{ '/terms/trust-registry/' | relative_url }})
+- [system of record]({{ '/terms/system-of-record/' | relative_url }})
+
+## Standards and Source References
+- [W3C DID](https://www.w3.org/TR/did-core/#terminology)
 
 ## Governance Profile
 - **Authority scope**: credential_issuance, registry_management
@@ -54,11 +68,6 @@ verifiable data registry, verifiable data registries, VDR, VDRs
 
 ## Mental Models
 - [W3C Verifiable Credentials Data Model Roles & Information Flows](https://www.w3.org/TR/vc-data-model/#roles)
-
-## See Also
-- authoritative source
-- trust registry
-- system of record.
 
 ## Crosswalk References
 Not specified

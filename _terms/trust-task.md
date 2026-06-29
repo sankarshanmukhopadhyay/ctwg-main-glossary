@@ -9,8 +9,23 @@ title: "trust-task"
 ## Definition
 A specific task that involves establishing, verifying, or maintaining trust relationships or exchanging verifiable messages or verifiable data that can be performed on behalf of a trust application by a trust task protocol at Layer 3 of the ToIP stack.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 trust task, trust tasks
+
+## See Also
+- [glossary]({{ '/terms/glossary/' | relative_url }})
+- [definition]({{ '/terms/definition/' | relative_url }})
+- [trust]({{ '/terms/trust/' | relative_url }})
+- [trust-registry]({{ '/terms/trust-registry/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/trust-task.md`
 
 ## Governance Profile
 - **Authority scope**: terminology_definition
@@ -51,12 +66,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- glossary
-- definition
-- trust
-- trust-registry
 
 ## Crosswalk References
 Not specified

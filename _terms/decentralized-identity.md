@@ -9,8 +9,21 @@ title: "decentralized-identity"
 ## Definition
 A digital identity architecture in which a digital identity is established via the control of a set of cryptographic keys in a digital wallet so that the controller is not dependent on any external identity provider or other third party.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 decentralized identity, decentralized identities
+
+## See Also
+- [federated-identity]({{ '/terms/federated-identity/' | relative_url }})
+- [self-sovereign identity]({{ '/terms/self-sovereign-identity/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/decentralized-identity.md`
 
 ## Governance Profile
 - **Authority scope**: terminology_definition
@@ -52,10 +65,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- federated-identity
-- self-sovereign identity.
 
 ## Crosswalk References
 Not specified

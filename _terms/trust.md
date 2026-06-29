@@ -9,8 +9,21 @@ title: "trust"
 ## Definition
 A belief that an entity will behave in a predictable manner in specified circumstances. The entity may be a person, process, object or any combination of such components. The entity can be of any size from a single hardware component or software module, to a piece of equipment identified by make and model, to a site or location, to an organization, to a nation-state. Trust, while inherently a subjective determination, can be based on objective evidence and subjective elements. The objective grounds for trust can include for example, the results of information technology product testing and evaluation. Subjective belief, level of comfort, and experience may supplement (or even replace) objective evidence, or substitute for such evidence when it is unavailable. Trust is usually relative to a specific circumstance or situation (e.g., the amount of money involved in a transaction, the sensitivity or criticality of information, or whether safety is an issue with human lives at stake). Trust is generally not transitive (e.g., you trust a friend but not necessarily a friend of a friend). Finally, trust is generally earned, based on experience or measurement.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 trust, trusts, trusted
+
+## See Also
+- [trust decision]({{ '/terms/trust-decision/' | relative_url }})
+- [transitive trust decision]({{ '/terms/transitive-trust-decision/' | relative_url }})
+
+## Standards and Source References
+- [NIST Special Publication 800-39](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-39.pdf) p.24
 
 ## Governance Profile
 - **Authority scope**: terminology_definition
@@ -51,10 +64,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- trust decision
-- transitive trust decision.
 
 ## Crosswalk References
 Not specified

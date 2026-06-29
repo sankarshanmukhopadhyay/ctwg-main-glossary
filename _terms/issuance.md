@@ -9,8 +9,21 @@ title: "issuance"
 ## Definition
 The action of an issuer producing and transmitting a digital credential to a holder. A holder may request issuance by submitting an issuance request.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 issuance, issue, issues, issued, issuing
+
+## See Also
+- [presentation]({{ '/terms/presentation/' | relative_url }})
+- [revocation]({{ '/terms/revocation/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/issuance.md`
 
 ## Governance Profile
 - **Authority scope**: credential_issuance
@@ -57,10 +70,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- presentation
-- revocation.
 
 ## Crosswalk References
 Not specified

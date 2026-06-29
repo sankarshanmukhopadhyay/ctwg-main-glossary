@@ -9,8 +9,23 @@ title: "glossary"
 ## Definition
 A glossary (from Ancient Greek: γλῶσσα, glossa; language, speech, wording), also known as a _vocabulary_ or _clavis_, is an alphabetical list of terms in a particular domain of knowledge (scope) together with the definitions for those terms. Unlike a dictionary, a glossary has only one definition for each term.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 glossary, glossaries
+
+## See Also
+- [registry]({{ '/terms/registry/' | relative_url }})
+- [trust-registry]({{ '/terms/trust-registry/' | relative_url }})
+- [registration]({{ '/terms/registration/' | relative_url }})
+- [governance-framework]({{ '/terms/governance-framework/' | relative_url }})
+
+## Standards and Source References
+- [Wikipedia](https://en.wikipedia.org/wiki/Glossary).
 
 ## Governance Profile
 - **Authority scope**: registry_management
@@ -47,12 +62,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- registry
-- trust-registry
-- registration
-- governance-framework
 
 ## Crosswalk References
 Not specified

@@ -9,8 +9,23 @@ title: "role-based-access-control"
 ## Definition
 Access control based on user roles (i.e., a collection of access authorizations a user receives based on an explicit or implicit assumption of a given role). Role permissions may be inherited through a role hierarchy and typically reflect the permissions needed to perform defined functions within an organization. A given role may apply to a single individual or to several individuals.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 role-based access control, role-based access controls
+
+## See Also
+- [authorization]({{ '/terms/authorization/' | relative_url }})
+- [permission]({{ '/terms/permission/' | relative_url }})
+- [attribute-based-access-control]({{ '/terms/attribute-based-access-control/' | relative_url }})
+- [access-control]({{ '/terms/access-control/' | relative_url }})
+
+## Standards and Source References
+- [NIST-CSRC](https://csrc.nist.gov/glossary/term/role_based_access_control).
 
 ## Governance Profile
 - **Authority scope**: access_decisioning
@@ -59,12 +74,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- authorization
-- permission
-- attribute-based-access-control
-- access-control
 
 ## Crosswalk References
 Not specified

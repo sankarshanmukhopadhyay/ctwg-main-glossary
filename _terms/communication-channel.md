@@ -9,8 +9,20 @@ title: "communication-channel"
 ## Definition
 A communication channel refers either to a physical transmission medium such as a wire, or to a logical connection over a multiplexed medium such as a radio channel in telecommunications and computer networking. A channel is used for information transfer of, for example, a digital bit stream, from one or several senders to one or several receivers.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 communication channel, communication channels
+
+## See Also
+- [ToIP channel]({{ '/terms/toip-channel/' | relative_url }})
+
+## Standards and Source References
+- [Wikipedia](https://en.wikipedia.org/wiki/Communication_channel).
 
 ## Governance Profile
 - **Authority scope**: terminology_definition
@@ -47,9 +59,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- ToIP channel.
 
 ## Crosswalk References
 Not specified

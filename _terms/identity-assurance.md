@@ -9,8 +9,23 @@ title: "identity-assurance"
 ## Definition
 The heavy-lifting to be done by a trusted (middle-man) party to establish - and then offer reputational trust. An example of such a party is [[xref:keri1, GLEIF]]. Instead, KERI is for attributional-trust. In the real world you need both.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 identity assurance, identity-assurance
+
+## See Also
+- [audit]({{ '/terms/audit/' | relative_url }})
+- [verification]({{ '/terms/verification/' | relative_url }})
+- [definition]({{ '/terms/definition/' | relative_url }})
+- [glossary]({{ '/terms/glossary/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/identity-assurance.md`
 
 ## Governance Profile
 - **Authority scope**: assurance_and_audit
@@ -47,12 +62,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- audit
-- verification
-- definition
-- glossary
 
 ## Crosswalk References
 Not specified

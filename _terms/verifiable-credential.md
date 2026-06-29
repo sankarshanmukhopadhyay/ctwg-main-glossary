@@ -7,10 +7,30 @@ title: "verifiable-credential"
 # verifiable-credential
 
 ## Definition
-A standard data model and representation format for cryptographically-verifiable digital credentials as defined by the W3C Verifiable Credentials Data Model Specification.
+A cryptographically secured credential whose authenticity and integrity can be verified, including credentials represented using the W3C Verifiable Credentials Data Model, ISO mdoc, or SD-JWT VC profiles depending on the ecosystem profile.
+
+## Reader Note
+Use this term for the general governance role of verifiable credentials. Use verifiable-credential-data-model-2-0 when specifically referring to the W3C data model.
+
+## Implementation Relevance
+Implementers should distinguish the credential data model, securing format, transport protocol, holder binding, status mechanism, and presentation protocol.
 
 ## Aliases
 verifiable credential, verifiable credentials, VC, VCs
+
+## See Also
+- [digital-credential]({{ '/terms/digital-credential/' | relative_url }})
+- [verifiable-credential-data-model-2-0]({{ '/terms/verifiable-credential-data-model-2-0/' | relative_url }})
+- [secured-verifiable-credential]({{ '/terms/secured-verifiable-credential/' | relative_url }})
+- [verifiable-presentation]({{ '/terms/verifiable-presentation/' | relative_url }})
+- [bitstring-status-list]({{ '/terms/bitstring-status-list/' | relative_url }})
+- [openid4vci]({{ '/terms/openid4vci/' | relative_url }})
+- [openid4vp]({{ '/terms/openid4vp/' | relative_url }})
+- [sd-jwt-vc]({{ '/terms/sd-jwt-vc/' | relative_url }})
+
+## Standards and Source References
+- [Verifiable Credentials Data Model v2.0](https://www.w3.org/TR/vc-data-model-2.0/) (W3C; Recommendation; 2.0; 2025-05-15) — normative
+- [SD-JWT-based Verifiable Credentials](https://www.rfc-editor.org/rfc/rfc9901.html) (IETF; RFC; 9901; 2025) — normative
 
 ## Governance Profile
 - **Authority scope**: credential_issuance
@@ -59,10 +79,7 @@ Not specified
 ## Mental Models
 - [W3C Verifiable Credentials Data Model Roles & Information Flows](https://www.w3.org/TR/vc-data-model/#roles)
 
-## See Also
-- digital credential.
-- [[xref: keri1
-- verifiable-credential]]
-
 ## Crosswalk References
-Not specified
+- **W3C**: VC Data Model v2.0
+- **IETF**: RFC 9901
+- **OPENID**: OpenID4VCI, OpenID4VP

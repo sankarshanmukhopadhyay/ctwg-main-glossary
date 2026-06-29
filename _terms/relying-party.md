@@ -9,8 +9,20 @@ title: "relying-party"
 ## Definition
 A party who accepts claims, credentials, trust graphs, or any other form of verifiable data from other parties (such as issuers, holders, trust registries, or other authoritative sources) in order to make a trust decision.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 relying party, relying parties
+
+## See Also
+- [verifier]({{ '/terms/verifier/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/relying-party.md`
 
 ## Governance Profile
 - **Authority scope**: credential_issuance, verification_and_reliance, governance_recognition
@@ -53,9 +65,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- verifier.
 
 ## Crosswalk References
 Not specified

@@ -9,8 +9,21 @@ title: "protocol-layer"
 ## Definition
 In modern protocol design, protocols are layered to form a protocol stack. Layering is a design principle that divides the protocol design task into smaller steps, each of which accomplishes a specific part, interacting with the other parts of the protocol only in a small number of well-defined ways. Layering allows the parts of a protocol to be designed and tested without a combinatorial explosion of cases, keeping each design relatively simple.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 protocol layer, protocol layers
+
+## See Also
+- [hourglass model]({{ '/terms/hourglass-model/' | relative_url }})
+- [ToIP stack]({{ '/terms/toip-stack/' | relative_url }})
+
+## Standards and Source References
+- [Wikipedia](https://en.wikipedia.org/wiki/Communication_protocol#Layering).
 
 ## Governance Profile
 - **Authority scope**: terminology_definition
@@ -47,10 +60,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- hourglass model
-- ToIP stack.
 
 ## Crosswalk References
 Not specified

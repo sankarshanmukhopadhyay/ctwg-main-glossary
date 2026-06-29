@@ -9,8 +9,20 @@ title: "custodian"
 ## Definition
 A third party that has been assigned rights and duties in a custodianship arrangement for the purpose of hosting and safeguarding a principal's private keys, digital wallet and digital assets on the principal’s behalf. Depending on the custodianship arrangement, the custodian may act as an exchange and provide additional services, such as staking, lending, account recovery, or security features.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 custodian, custodians
+
+## See Also
+- [custodial wallet]({{ '/terms/custodial-wallet/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/custodian.md`
 
 ## Governance Profile
 - **Authority scope**: terminology_definition
@@ -52,9 +64,6 @@ custodian, custodians
 
 ## Mental Models
 Not specified
-
-## See Also
-- custodial wallet.
 
 ## Crosswalk References
 Not specified

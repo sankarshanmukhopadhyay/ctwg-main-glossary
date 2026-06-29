@@ -9,8 +9,21 @@ title: "federated-identity"
 ## Definition
 A digital identity architecture in which a digital identity established on one computer system, network, or trust domain is linked to other computer systems, networks, or trust domains for the purpose of identifying the same entity across those domains.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 federated identity, federated identities
+
+## See Also
+- [decentralized identity]({{ '/terms/decentralized-identity/' | relative_url }})
+- [self-sovereign identity]({{ '/terms/self-sovereign-identity/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/federated-identity.md`
 
 ## Governance Profile
 - **Authority scope**: terminology_definition
@@ -52,10 +65,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- decentralized identity
-- self-sovereign identity.
 
 ## Crosswalk References
 Not specified

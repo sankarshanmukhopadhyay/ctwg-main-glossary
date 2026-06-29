@@ -1,6 +1,6 @@
 # Core Operational Terms
 
-Count: **227**
+Count: **256**
 
 This generated view lists terms currently classified under the `core-operational` governance profile.
 
@@ -32,10 +32,12 @@ This generated view lists terms currently classified under the `core-operational
 - authorized-organizational-representative
 - autonomic-identity-system
 - autonomic-namespace
+- bitstring-status-list
 - blockchain
 - bola
 - broadcast-address
 - broken-object-level-authorization
+- c2pa-manifest
 - ca
 - capability
 - certificate-authority
@@ -43,11 +45,14 @@ This generated view lists terms currently classified under the `core-operational
 - certification-authority
 - chained-credentials
 - claim
+- claim-generator
 - communication-session
 - compliance
 - confidentiality
+- content-credential
 - control-authority
 - controlled-document
+- controlled-identifier
 - controller
 - correlation-privacy
 - credential
@@ -59,8 +64,10 @@ This generated view lists terms currently classified under the `core-operational
 - cryptographically-verifiable
 - custodial-wallet
 - custodian
+- data-integrity-proof
 - data-packet
 - data-schema
+- dcql
 - dead-drop
 - decentralized-identifier
 - decentralized-identity
@@ -80,12 +87,15 @@ This generated view lists terms currently classified under the `core-operational
 - digital-vault
 - digital-wallet
 - discovery
+- dpop
 - ecosystem-governance-framework
 - eidas
 - end-to-end-principle
 - end-verifiability
 - enterprise-data-vault
 - enterprise-wallet
+- entity-statement
+- eudi-wallet
 - federation
 - federation-assurance-level
 - foundational-identity
@@ -119,16 +129,22 @@ This generated view lists terms currently classified under the `core-operational
 - issuance
 - issuance-request
 - issuer
+- issuer-metadata
+- key-binding-jwt
 - keys-at-the-edge
 - legal-entity-identifier
 - legal-system
 - legitimized-human-meaningful-identifier
 - locus-of-control
 - mandatory
+- manifest-consumer
 - multi-party-control
 - non-custodial-wallet
 - non-transferable
 - non-transferable-identifier
+- openid-federation
+- openid4vci
+- openid4vp
 - optional
 - organizational-authority
 - owner
@@ -138,6 +154,7 @@ This generated view lists terms currently classified under the `core-operational
 - personal-data-vault
 - personal-wallet
 - physical-credential
+- pid
 - policy
 - presentation
 - presentation-request
@@ -149,10 +166,12 @@ This generated view lists terms currently classified under the `core-operational
 - proof-of-control
 - proof-of-possession
 - protected-data
+- provenance
 - pseudonym
 - public-key
 - public-key-certificate
 - public-key-infrastructure
+- qualified-electronic-attestation-of-attributes
 - rbac
 - recommended
 - record
@@ -170,16 +189,22 @@ This generated view lists terms currently classified under the `core-operational
 - role-credential
 - rule
 - schema
+- sd-jwt-vc
 - second-party
 - secure-attribution
+- secured-verifiable-credential
 - security-domain
 - security-policy
+- selective-disclosure
 - self-asserted
 - self-certified
 - self-sovereign-identity
+- sender-constrained-token
 - single-signature-identifier
 - software-agent
 - sovrin-foundation
+- status-provider
+- status-record
 - subject
 - subscription
 - technical-requirement
@@ -218,13 +243,17 @@ This generated view lists terms currently classified under the `core-operational
 - vc
 - verifiable
 - verifiable-credential
+- verifiable-credential-data-model-2-0
 - verifiable-data
 - verifiable-data-registry
 - verifiable-identifier
+- verifiable-presentation
 - verification
 - verifier
 - virtual-credential
+- vp-token
 - w3c-verifiable-credentials-data-model-specification
+- wallet-attestation
 - wallet-engine
 - witness
 - zero-knowledge-proof

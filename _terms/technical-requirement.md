@@ -9,8 +9,25 @@ title: "technical-requirement"
 ## Definition
 A requirement for a hardware or software component or system. In the context of decentralized digital trust infrastructure, technical requirements are a subset of governance requirements. Technical requirements are often specified in a technical specification.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 technical requirement, technical requirements
+
+## See Also
+- [governance]({{ '/terms/governance/' | relative_url }})
+- [governance-framework]({{ '/terms/governance-framework/' | relative_url }})
+- [governing-authority]({{ '/terms/governing-authority/' | relative_url }})
+- [trust-registry]({{ '/terms/trust-registry/' | relative_url }})
+- [definition]({{ '/terms/definition/' | relative_url }})
+- [glossary]({{ '/terms/glossary/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/technical-requirement.md`
 
 ## Governance Profile
 - **Authority scope**: governance_recognition
@@ -51,14 +68,6 @@ technical requirement, technical requirements
 
 ## Mental Models
 Not specified
-
-## See Also
-- governance
-- governance-framework
-- governing-authority
-- trust-registry
-- definition
-- glossary
 
 ## Crosswalk References
 Not specified

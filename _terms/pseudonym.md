@@ -9,8 +9,23 @@ title: "pseudonym"
 ## Definition
 A pseudonym is a fictitious name that a person assumes for a particular purpose, which differs from their original or true name (orthonym). This also differs from a new name that entirely or legally replaces an individual's own. Many pseudonym holders use pseudonyms because they wish to remain anonymous, but anonymity is difficult to achieve and often fraught with legal issues.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 pseudonym, pseudonyms, pseudonymous, pseudonymity
+
+## See Also
+- [verification]({{ '/terms/verification/' | relative_url }})
+- [verifier]({{ '/terms/verifier/' | relative_url }})
+- [relying-party]({{ '/terms/relying-party/' | relative_url }})
+- [trust-decision]({{ '/terms/trust-decision/' | relative_url }})
+
+## Standards and Source References
+- [Wikipedia](https://en.wikipedia.org/wiki/Pseudonym).
 
 ## Governance Profile
 - **Authority scope**: verification_and_reliance
@@ -47,12 +62,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- verification
-- verifier
-- relying-party
-- trust-decision
 
 ## Crosswalk References
 Not specified

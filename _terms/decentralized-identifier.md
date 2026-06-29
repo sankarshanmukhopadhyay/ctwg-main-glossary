@@ -9,8 +9,21 @@ title: "decentralized-identifier"
 ## Definition
 A globally unique persistent identifier that does not require a centralized registration authority and is often generated and/or registered cryptographically. The generic format of a DID is defined in section 3.1 DID Syntax of the W3C Decentralized Identifiers (DIDs) 1.0 specification. A specific DID scheme is defined in a DID method specification.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 decentralized identifier, decentralized-identifier, decentralized identifiers, DID, DIDs
+
+## See Also
+- [DID method]({{ '/terms/did-method/' | relative_url }})
+- [DID URL]({{ '/terms/did-url/' | relative_url }})
+
+## Standards and Source References
+- [W3C DID](https://www.w3.org/TR/did-core/#terminology).
 
 ## Governance Profile
 - **Authority scope**: governance_recognition
@@ -55,10 +68,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- DID method
-- DID URL.
 
 ## Crosswalk References
 Not specified

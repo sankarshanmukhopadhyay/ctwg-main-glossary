@@ -9,8 +9,25 @@ title: "assurance-level"
 ## Definition
 A level of confidence in a claim that may be relied on by others. Different types of assurance levels are defined for different types of trust assurance mechanisms. Examples include authenticator assurance level, federation assurance level, and identity assurance level.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 assurance level, assurance levels
+
+## See Also
+- [credential]({{ '/terms/credential/' | relative_url }})
+- [issuer]({{ '/terms/issuer/' | relative_url }})
+- [issuance]({{ '/terms/issuance/' | relative_url }})
+- [verifiable-credential]({{ '/terms/verifiable-credential/' | relative_url }})
+- [authorization]({{ '/terms/authorization/' | relative_url }})
+- [permission]({{ '/terms/permission/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/assurance-level.md`
 
 ## Governance Profile
 - **Authority scope**: credential_issuance, access_decisioning, assurance_and_audit
@@ -65,14 +82,6 @@ assurance level, assurance levels
 
 ## Mental Models
 Not specified
-
-## See Also
-- credential
-- issuer
-- issuance
-- verifiable-credential
-- authorization
-- permission
 
 ## Crosswalk References
 - **NIST**: IA-8

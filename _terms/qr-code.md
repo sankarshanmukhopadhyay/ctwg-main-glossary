@@ -9,8 +9,20 @@ title: "qr-code"
 ## Definition
 A QR code (short for "quick-response code") is a type of two-dimensional matrix barcode—a machine-readable optical image that contains information specific to the identified item. In practice, QR codes contain data for a locator, an identifier, and web tracking.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 QR code, QR codes
+
+## See Also
+- [out-of-band introduction]({{ '/terms/out-of-band-introduction/' | relative_url }})
+
+## Standards and Source References
+- [Wikipedia](https://en.wikipedia.org/wiki/QR_code).
 
 ## Governance Profile
 - **Authority scope**: terminology_definition
@@ -47,9 +59,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- out-of-band introduction.
 
 ## Crosswalk References
 Not specified

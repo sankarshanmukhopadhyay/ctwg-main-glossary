@@ -9,8 +9,20 @@ title: "role"
 ## Definition
 A defined set of characteristics that an entity has in some context, such as responsibilities it may have, actions (behaviors) it may execute, or pieces of knowledge that it is expected to have in that context, which are referenced by a specific role name.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 role, roles
+
+## See Also
+- [role credential]({{ '/terms/role-credential/' | relative_url }})
+
+## Standards and Source References
+- [eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#role).
 
 ## Governance Profile
 - **Authority scope**: terminology_definition
@@ -47,9 +59,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- role credential.
 
 ## Crosswalk References
 Not specified

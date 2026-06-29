@@ -9,8 +9,24 @@ title: "verifier"
 ## Definition
 A role an agent performs to verify one or more proofs of the claims in a digital credential or other verifiable data, and to evaluate whether the presented material satisfies applicable verification and policy criteria.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 verifier, verifiers
+
+## See Also
+- [relying-party]({{ '/terms/relying-party/' | relative_url }})
+- [issuer]({{ '/terms/issuer/' | relative_url }})
+- [holder]({{ '/terms/holder/' | relative_url }})
+- [verification]({{ '/terms/verification/' | relative_url }})
+- [openid4vp]({{ '/terms/openid4vp/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/verifier.md`
 
 ## Governance Profile
 - **Authority scope**: credential_issuance, verification_and_reliance, policy_definition, delegation_and_scope
@@ -63,10 +79,6 @@ verifier, verifiers
 
 ## Mental Models
 - [W3C Verifiable Credentials Data Model Roles & Information Flows](https://www.w3.org/TR/vc-data-model/#roles)
-
-## See Also
-- relying party; issuer
-- holder.
 
 ## Crosswalk References
 - **NIST**: AU-10

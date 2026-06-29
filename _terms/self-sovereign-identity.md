@@ -9,8 +9,20 @@ title: "self-sovereign-identity"
 ## Definition
 Self-sovereign identity is a decentralized identity architecture that implements the Principles of SSI — principally that it puts the identity controller (e.g., a natural person or organization) directly in control of the identifiers and credentials they use to assert their digital identity.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 self-sovereign identity, SSI
+
+## See Also
+- [federated identity]({{ '/terms/federated-identity/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/self-sovereign-identity.md`
 
 ## Governance Profile
 - **Authority scope**: credential_issuance
@@ -59,9 +71,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- federated identity.
 
 ## Crosswalk References
 Not specified

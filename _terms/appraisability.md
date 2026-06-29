@@ -9,8 +9,21 @@ title: "appraisability"
 ## Definition
 The ability for a communication endpoint identified with a verifiable identifier (VID) to be appraised for the set of its properties that enable a relying party or a verifier to make a trust decision about communicating with that endpoint.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 appraisability, appraisable, appraise
+
+## See Also
+- [trust basis]({{ '/terms/trust-basis/' | relative_url }})
+- [verifiability]({{ '/terms/verifiable/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/appraisability.md`
 
 ## Governance Profile
 - **Authority scope**: verification_and_reliance
@@ -47,10 +60,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- trust basis
-- verifiability.
 
 ## Crosswalk References
 Not specified

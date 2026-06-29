@@ -1,0 +1,74 @@
+term: wallet-attestation
+aliases:
+- wallet attestation
+definition: Evidence about a wallet instance, wallet provider, or wallet capability
+  that can be used by issuers, verifiers, or governance frameworks to make reliance
+  decisions.
+reader_note: ''
+implementation_relevance: ''
+notes: []
+see_also:
+- digital-wallet
+- attestation
+- issuer
+- verifier
+- assurance-level
+sources:
+- title: EUDI Wallet Architecture and Reference Framework 2.0
+  url: https://github.com/eu-digital-identity-wallet/eudi-doc-architecture-and-reference-framework
+  publisher: European Commission
+  normative: true
+  status: Architecture Reference Framework
+  version: '2.0'
+  date: '2025-05-29'
+- title: OpenID for Verifiable Credential Issuance 1.0
+  url: https://openid.net/specs/openid-4-verifiable-credential-issuance-1_0.html
+  publisher: OpenID Foundation
+  normative: true
+  status: Final Specification
+  version: '1.0'
+  date: '2025-09-16'
+- title: OpenID for Verifiable Presentations 1.0
+  url: https://openid.net/specs/openid-4-verifiable-presentations-1_0.html
+  publisher: OpenID Foundation
+  normative: true
+  status: Final Specification
+  version: '1.0'
+  date: '2025-07-09'
+mental_models: []
+supporting_definitions: []
+source_file: spec/terms-definitions/wallet-attestation.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+  - assurance_and_audit
+  - verification_and_reliance
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+  - proposed
+  - active
+  - retired
+  execution_role: hybrid
+  control_plane_role: decision_plane_component
+  enforcement_points: &id001
+  - reliance_decision
+  - issuance_decision
+assurance:
+  evidence_artifacts: &id002
+  - attestation
+  - verification_log
+  - audit_log
+  - policy_document
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points: *id001
+  accountable_entity: glossary_maintainers
+  evidence_produced: *id002
+crosswalk:
+  eu:
+  - EUDI ARF 2.0
+  openid:
+  - OpenID4VCI
+  - OpenID4VP

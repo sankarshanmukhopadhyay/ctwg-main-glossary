@@ -9,8 +9,22 @@ title: "policy"
 ## Definition
 Statements, rules, or assertions that specify required, permitted, prohibited, or expected behavior of an entity within a defined scope. Policies may be human-readable, machine-readable, or both, and may be interpreted, enforced, or audited by people, software, or both.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 policy, policies
+
+## See Also
+- [governance framework]({{ '/terms/governance-framework/' | relative_url }})
+- [governance requirement]({{ '/terms/governance-requirement/' | relative_url }})
+- [rule]({{ '/terms/rule/' | relative_url }})
+
+## Standards and Source References
+- [NIST-CSRC](https://csrc.nist.gov/glossary/term/policy)
 
 ## Governance Profile
 - **Authority scope**: policy_definition, assurance_and_audit
@@ -51,11 +65,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- governance framework
-- governance requirement
-- rule.
 
 ## Crosswalk References
 - **NIST**: PL-1

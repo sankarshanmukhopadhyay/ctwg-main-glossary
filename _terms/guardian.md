@@ -9,8 +9,21 @@ title: "guardian"
 ## Definition
 A party that has been assigned rights and duties in a guardianship arrangement for the purpose of caring for, protecting, guarding, and defending the entity that is the dependent in that guardianship arrangement. In the context of decentralized digital trust infrastructure, a guardian is issued guardianship credentials into their own digital wallet in order to perform such actions on behalf of the dependent as are required by this role.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 guardian, guardians
+
+## See Also
+- [custodian]({{ '/terms/custodian/' | relative_url }})
+- [zero-knowledge service provider]({{ '/terms/zero-knowledge-service-provider/' | relative_url }})
+
+## Standards and Source References
+- [eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#guardian)
 
 ## Governance Profile
 - **Authority scope**: credential_issuance
@@ -58,10 +71,6 @@ guardian, guardians
 
 ## Mental Models
 - [eSSIF-Lab Guardianship](https://essif-lab.github.io/framework/docs/terms/pattern-guardianship)
-
-## See Also
-- custodian
-- zero-knowledge service provider.
 
 ## Crosswalk References
 Not specified

@@ -1,0 +1,67 @@
+term: status-provider
+aliases:
+- credential status provider
+- status provider
+definition: An entity that provides status information such as suspension or revocation
+  for a credential.
+reader_note: ''
+implementation_relevance: ''
+notes: []
+see_also:
+- bitstring-status-list
+- revocation
+- status-record
+- verifiable-credential
+sources:
+- title: SD-JWT-based Verifiable Credentials
+  url: https://www.rfc-editor.org/rfc/rfc9901.html
+  publisher: IETF
+  normative: true
+  status: RFC
+  version: '9901'
+  date: '2025'
+- title: Bitstring Status List v1.0
+  url: https://www.w3.org/TR/vc-bitstring-status-list/
+  publisher: W3C
+  normative: true
+  status: Recommendation
+  version: '1.0'
+  date: '2025-05-15'
+mental_models: []
+supporting_definitions: []
+source_file: spec/terms-definitions/status-provider.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+  - registry_management
+  - verification_and_reliance
+  delegation_mode: direct
+  revocation_supported: true
+  lifecycle_states:
+  - proposed
+  - active
+  - suspended
+  - revoked
+  - retired
+  execution_role: hybrid
+  control_plane_role: decision_plane_component
+  enforcement_points: &id001
+  - revocation_decision
+  - reliance_decision
+assurance:
+  evidence_artifacts: &id002
+  - status_record
+  - registry_entry
+  - verification_log
+  - audit_log
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points: *id001
+  accountable_entity: glossary_maintainers
+  evidence_produced: *id002
+crosswalk:
+  ietf:
+  - RFC 9901
+  w3c:
+  - Bitstring Status List v1.0

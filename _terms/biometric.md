@@ -9,8 +9,23 @@ title: "biometric"
 ## Definition
 A measurable physical characteristic or personal behavioral trait used to recognize the AID, or verify the claimed identity, of an applicant. Facial images, fingerprints, and iris scan samples are all examples of biometrics.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 biometric, biometrics
+
+## See Also
+- [credential]({{ '/terms/credential/' | relative_url }})
+- [issuer]({{ '/terms/issuer/' | relative_url }})
+- [issuance]({{ '/terms/issuance/' | relative_url }})
+- [verifiable-credential]({{ '/terms/verifiable-credential/' | relative_url }})
+
+## Standards and Source References
+- [NIST](https://csrc.nist.gov/glossary/term/biometric)
 
 ## Governance Profile
 - **Authority scope**: credential_issuance
@@ -47,12 +62,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- credential
-- issuer
-- issuance
-- verifiable-credential
 
 ## Crosswalk References
 Not specified

@@ -9,8 +9,23 @@ title: "trust-domain"
 ## Definition
 A security domain defined by a computer hardware or software architecture, a security policy, or a trust community, typically via a trust framework or governance framework.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 trust domain, trust domains
+
+## See Also
+- [trust-context]({{ '/terms/trust-context/' | relative_url }})
+- [digital-trust-ecosystem]({{ '/terms/digital-trust-ecosystem/' | relative_url }})
+- [security-domain]({{ '/terms/security-domain/' | relative_url }})
+- [trust-framework]({{ '/terms/trust-framework/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/trust-domain.md`
 
 ## Governance Profile
 - **Authority scope**: policy_definition, governance_recognition
@@ -47,12 +62,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- trust context
-- digital trust ecosystem.
-- [[xref: keri1
-- trust-domain]]
 
 ## Crosswalk References
 Not specified

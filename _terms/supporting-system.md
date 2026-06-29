@@ -9,8 +9,21 @@ title: "supporting-system"
 ## Definition
 A system that operates at ToIP Layer 1, the trust support layer of the ToIP stack. A supporting system is one of three types of systems defined in the ToIP Technology Architecture Specification.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 supporting system, supporting systems
+
+## See Also
+- [endpoint system]({{ '/terms/endpoint-system/' | relative_url }})
+- [intermediary system]({{ '/terms/intermediary-system/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/supporting-system.md`
 
 ## Governance Profile
 - **Authority scope**: terminology_definition
@@ -51,10 +64,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- endpoint system
-- intermediary system.
 
 ## Crosswalk References
 Not specified

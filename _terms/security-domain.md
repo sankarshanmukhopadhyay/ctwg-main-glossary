@@ -9,8 +9,20 @@ title: "security-domain"
 ## Definition
 An environment or context that includes a set of system resources and a set of system entities that have the right to access the resources as defined by a common security policy, security model, or security architecture.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 security domain, security domains
+
+## See Also
+- [trust domain]({{ '/terms/trust-domain/' | relative_url }})
+
+## Standards and Source References
+- [NIST-CSRC](https://csrc.nist.gov/glossary/term/domain)
 
 ## Governance Profile
 - **Authority scope**: policy_definition
@@ -47,9 +59,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- trust domain.
 
 ## Crosswalk References
 Not specified

@@ -9,8 +9,25 @@ title: "foundational-identity"
 ## Definition
 A set of identity data, such as a credential, issued by an authoritative source for the legal identity of the subject. Birth certificates, passports, driving licenses, and other forms of government ID documents are considered foundational identity documents. Foundational identities are often used to provide identity binding for functional identities.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 foundational identity, foundational identities
+
+## See Also
+- [credential]({{ '/terms/credential/' | relative_url }})
+- [issuer]({{ '/terms/issuer/' | relative_url }})
+- [issuance]({{ '/terms/issuance/' | relative_url }})
+- [verifiable-credential]({{ '/terms/verifiable-credential/' | relative_url }})
+- [governance]({{ '/terms/governance/' | relative_url }})
+- [governance-framework]({{ '/terms/governance-framework/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/foundational-identity.md`
 
 ## Governance Profile
 - **Authority scope**: credential_issuance, governance_recognition
@@ -57,14 +74,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- credential
-- issuer
-- issuance
-- verifiable-credential
-- governance
-- governance-framework
 
 ## Crosswalk References
 Not specified

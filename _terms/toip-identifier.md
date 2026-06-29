@@ -9,8 +9,22 @@ title: "toip-identifier"
 ## Definition
 A verifiable identifier (VID) for an entity that is addressable using the ToIP stack.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 ToIP identifier, ToIP identifiers
+
+## See Also
+- [autonomic identifier]({{ '/terms/autonomic-identifier/' | relative_url }})
+- [decentralized identifier]({{ '/terms/decentralized-identifier/' | relative_url }})
+- [self-certifying identifier]({{ '/terms/self-certifying-identifier/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/toip-identifier.md`
 
 ## Governance Profile
 - **Authority scope**: terminology_definition
@@ -47,11 +61,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- autonomic identifier
-- decentralized identifier
-- self-certifying identifier.
 
 ## Crosswalk References
 Not specified

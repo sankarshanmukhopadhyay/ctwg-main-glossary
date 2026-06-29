@@ -9,8 +9,23 @@ title: "actor"
 ## Definition
 An entity that can act (do things/execute actions), e.g. people, machines, but not organizations. A digital agent can serve as an actor acting on behalf of its principal.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 actor, actors
+
+## See Also
+- [delegation]({{ '/terms/delegation/' | relative_url }})
+- [delegator]({{ '/terms/delegator/' | relative_url }})
+- [delegatee]({{ '/terms/delegatee/' | relative_url }})
+- [authorization]({{ '/terms/authorization/' | relative_url }})
+
+## Standards and Source References
+- [eSSIF-Lab](https://essif-lab.github.io/framework/docs/terms/actor).
 
 ## Governance Profile
 - **Authority scope**: delegation_and_scope
@@ -47,12 +62,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- delegation
-- delegator
-- delegatee
-- authorization
 
 ## Crosswalk References
 Not specified

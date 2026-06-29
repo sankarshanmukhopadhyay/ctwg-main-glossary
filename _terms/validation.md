@@ -9,8 +9,20 @@ title: "validation"
 ## Definition
 An action an agent (of a principal) performs to determine whether a digital object or set of data meets the requirements of a specific party.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 validation, validity
+
+## See Also
+- [verification]({{ '/terms/verification/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/validation.md`
 
 ## Governance Profile
 - **Authority scope**: delegation_and_scope
@@ -48,9 +60,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- verification.
 
 ## Crosswalk References
 Not specified

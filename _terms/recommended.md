@@ -9,8 +9,21 @@ title: "recommended"
 ## Definition
 A requirement that is not mandatory to implement in order for an implementer to be in compliance, but which should be implemented unless the implementer has a good reason. In ToIP governance frameworks, a recommendation is expressed using a SHOULD or RECOMMENDED keyword as defined in IETF RFC 2119.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 recommended
+
+## See Also
+- [mandatory]({{ '/terms/mandatory/' | relative_url }})
+- [optional]({{ '/terms/optional/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/recommended.md`
 
 ## Governance Profile
 - **Authority scope**: policy_definition, governance_recognition
@@ -47,10 +60,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- mandatory
-- optional.
 
 ## Crosswalk References
 Not specified

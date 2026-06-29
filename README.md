@@ -2,7 +2,7 @@
 
 The ToIP Main Glossary is a **governance-executable terminology repository**. It publishes a human-readable GitHub Pages glossary while also producing machine-readable artifacts that describe authority, delegation, revocation, lifecycle state, evidence, auditability, and control-plane relevance for each structured term.
 
-Version `v1.1.1` builds on the v1.1.0 assurance-ready foundation by closing the generated governance quality-report backlog across source attribution, cross-reference coverage, operational evidence, revocation inspectability, and assurance hint alignment. The core operating principle is simple: the authoritative term layer must be validated, reproducible, inspectable, and useful to downstream systems that need more than prose.
+Version `v1.2.0` modernizes the glossary for current standards-linked digital trust vocabulary. It adds structured citation support, expands coverage for VC 2.0, OpenID4VCI, OpenID4VP, SD-JWT VC, OpenID Federation, EUDI Wallet, DPoP, and C2PA provenance terminology, and improves generated term pages for reader accessibility without weakening the machine-readable governance model.
 
 ## Repository operating model
 
@@ -66,7 +66,7 @@ This score is not a certification claim. It means that all checks currently impl
 Install Python dependencies:
 
 ```bash
-pip install pyyaml jsonschema
+pip install -r requirements.txt
 ```
 
 Run the validation and generation pipeline:
@@ -123,3 +123,15 @@ See also:
 The objective is to make glossary content easier to publish, easier to maintain, and more useful as machine-verifiable governance infrastructure. Markdown remains first-class for readers. Structured term artifacts remain first-class for assurance, interoperability, downstream indexing, conformance tooling, and automation workflows.
 
 The glossary is not a certification authority and does not certify implementations. It provides a controlled vocabulary and evidence-aware semantic layer that downstream governance, conformance, and assurance systems can use as an inspectable reference.
+
+## v1.2.0 standards-linked coverage
+
+This release adds or refreshes vocabulary for:
+
+- W3C Verifiable Credentials Data Model v2.0, Data Integrity, Controlled Identifiers, secured credentials, verifiable presentations, and Bitstring Status List;
+- OpenID4VCI, OpenID4VP, VP Token, DCQL, issuer metadata, wallet attestation, OpenID Federation, entity statements, and trust chains;
+- IETF SD-JWT VC, Key Binding JWT, DPoP, and sender-constrained tokens;
+- EUDI Wallet, PID, and qualified electronic attestations of attributes; and
+- C2PA manifests, claim generators, manifest consumers, content credentials, and provenance.
+
+Structured source citations are now supported alongside legacy source strings. New standards-backed terms should prefer structured citation objects so downstream tools can inspect publisher, version, status, date, URL, and normative intent.

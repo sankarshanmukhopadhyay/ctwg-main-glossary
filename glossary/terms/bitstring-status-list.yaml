@@ -1,0 +1,59 @@
+term: bitstring-status-list
+aliases:
+- Bitstring Status List
+- BSL
+definition: A W3C status mechanism for publishing credential status information such
+  as revocation or suspension using compressed bitstrings.
+reader_note: ''
+implementation_relevance: Use this term when modelling inspectable credential status
+  evidence without exposing unnecessary holder-specific information.
+notes: []
+see_also:
+- credential
+- verifiable-credential
+- revocation
+- status-record
+sources:
+- title: Bitstring Status List v1.0
+  url: https://www.w3.org/TR/vc-bitstring-status-list/
+  publisher: W3C
+  normative: true
+  status: Recommendation
+  version: '1.0'
+  date: '2025-05-15'
+mental_models: []
+supporting_definitions: []
+source_file: spec/terms-definitions/bitstring-status-list.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+  - credential_issuance
+  - verification_and_reliance
+  delegation_mode: direct
+  revocation_supported: true
+  lifecycle_states:
+  - proposed
+  - active
+  - suspended
+  - revoked
+  - retired
+  execution_role: hybrid
+  control_plane_role: decision_plane_component
+  enforcement_points: &id001
+  - revocation_decision
+  - reliance_decision
+assurance:
+  evidence_artifacts: &id002
+  - status_record
+  - verification_log
+  - audit_log
+  - registry_entry
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points: *id001
+  accountable_entity: glossary_maintainers
+  evidence_produced: *id002
+crosswalk:
+  w3c:
+  - Bitstring Status List v1.0

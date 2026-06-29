@@ -9,8 +9,21 @@ title: "optional"
 ## Definition
 A requirement that is not mandatory or recommended to implement in order for an implementer to be in compliance, but which is left to the implementer’s choice. In ToIP governance frameworks, an optional requirement is expressed using a MAY or OPTIONAL keyword as defined in IETF RFC 2119.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 optional
+
+## See Also
+- [mandatory]({{ '/terms/mandatory/' | relative_url }})
+- [recommended]({{ '/terms/recommended/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/optional.md`
 
 ## Governance Profile
 - **Authority scope**: policy_definition, governance_recognition
@@ -47,10 +60,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- mandatory
-- recommended.
 
 ## Crosswalk References
 Not specified

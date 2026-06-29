@@ -9,8 +9,20 @@ title: "hourglass-model"
 ## Definition
 An architectural model for layered systems—and specifically for the protocol layers in a protocol stack—in which a diversity of supporting protocols and services at the lower layers are able to support a great diversity of protocols and applications at the higher layers through the use of a single protocol in the spanning layer in the middle—the “neck” of the hourglass.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 hourglass model, hourglass models
+
+## See Also
+- [trust spanning protocol]({{ '/terms/trust-spanning-protocol/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/hourglass-model.md`
 
 ## Governance Profile
 - **Authority scope**: terminology_definition
@@ -47,9 +59,6 @@ hourglass model, hourglass models
 
 ## Mental Models
 Not specified
-
-## See Also
-- trust spanning protocol.
 
 ## Crosswalk References
 Not specified

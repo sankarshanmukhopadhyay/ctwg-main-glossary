@@ -9,8 +9,20 @@ title: "presentation-request"
 ## Definition
 A protocol request sent by the verifier to the holder of a digital wallet to request a presentation.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 presentation request, presentation requests
+
+## See Also
+- [issuance request]({{ '/terms/issuance-request/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/presentation-request.md`
 
 ## Governance Profile
 - **Authority scope**: verification_and_reliance
@@ -47,9 +59,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- issuance request.
 
 ## Crosswalk References
 Not specified

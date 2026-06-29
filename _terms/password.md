@@ -9,8 +9,20 @@ title: "password"
 ## Definition
 A string of characters (letters, numbers and other symbols) that are used to authenticate an identity, verify access authorization or derive cryptographic keys.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 password, passwords
+
+## See Also
+- [complex password]({{ '/terms/complex-password/' | relative_url }})
+
+## Standards and Source References
+- [NIST-CSRC](https://csrc.nist.gov/glossary/term/password).
 
 ## Governance Profile
 - **Authority scope**: access_decisioning
@@ -59,9 +71,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- complex password.
 
 ## Crosswalk References
 Not specified

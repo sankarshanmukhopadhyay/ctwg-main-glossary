@@ -9,8 +9,20 @@ title: "attribute"
 ## Definition
 An identifiable set of data that describes an entity, which is the subject of the attribute.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 attribute, attributes
+
+## See Also
+- [property]({{ '/terms/property/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/attribute.md`
 
 ## Governance Profile
 - **Authority scope**: terminology_definition
@@ -48,9 +60,6 @@ attribute, attributes
 
 ## Mental Models
 Not specified
-
-## See Also
-- property.
 
 ## Crosswalk References
 Not specified

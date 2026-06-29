@@ -9,8 +9,20 @@ title: "definition"
 ## Definition
 A textual statement defining the meaning of a term by specifying criterion that enable the concept identified by the term to be distinguished from all other concepts within the intended scope.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 definition, definitions
+
+## See Also
+- [glossary]({{ '/terms/glossary/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/definition.md`
 
 ## Governance Profile
 - **Authority scope**: terminology_definition
@@ -48,9 +60,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- glossary
 
 ## Crosswalk References
 Not specified

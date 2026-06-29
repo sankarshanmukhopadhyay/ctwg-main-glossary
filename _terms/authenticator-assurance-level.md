@@ -9,8 +9,22 @@ title: "authenticator-assurance-level"
 ## Definition
 A measure of the strength of an authentication mechanism and, therefore, the confidence in it.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 authenticator assurance level, authenticator assurance levels, AAL, AALs
+
+## See Also
+- [federation assurance level]({{ '/terms/federation-assurance-level/' | relative_url }})
+- [identity assurance level]({{ '/terms/identity-assurance-level/' | relative_url }})
+- [identity binding]({{ '/terms/identity-binding/' | relative_url }})
+
+## Standards and Source References
+- [NIST-CSRC](https://csrc.nist.gov/glossary/term/authenticator_assurance_level).
 
 ## Governance Profile
 - **Authority scope**: access_decisioning, assurance_and_audit
@@ -49,11 +63,6 @@ authenticator assurance level, authenticator assurance levels, AAL, AALs
 
 ## Mental Models
 Not specified
-
-## See Also
-- federation assurance level
-- identity assurance level
-- identity binding.
 
 ## Crosswalk References
 Not specified

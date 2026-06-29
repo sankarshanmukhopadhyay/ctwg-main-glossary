@@ -9,8 +9,23 @@ title: "end-verifiability"
 ## Definition
 a data item or statement may be cryptographically securely attributable to its source (party at the source end) by any recipient verifier (party at the destination end) without reliance on any infrastructure not under the verifier’s ultimate control.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 end-verifiability, end verifiability
+
+## See Also
+- [verification]({{ '/terms/verification/' | relative_url }})
+- [verifier]({{ '/terms/verifier/' | relative_url }})
+- [relying-party]({{ '/terms/relying-party/' | relative_url }})
+- [trust-decision]({{ '/terms/trust-decision/' | relative_url }})
+
+## Standards and Source References
+- Dr. S.Smith, 2024
 
 ## Governance Profile
 - **Authority scope**: verification_and_reliance
@@ -48,12 +63,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- verification
-- verifier
-- relying-party
-- trust-decision
 
 ## Crosswalk References
 Not specified

@@ -9,8 +9,20 @@ title: "digital-asset"
 ## Definition
 A digital asset is anything that exists only in digital form and comes with a distinct usage right. Data that do not possess that right are not considered assets.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 digital asset, digital assets
+
+## See Also
+- [digital credential]({{ '/terms/digital-credential/' | relative_url }})
+
+## Standards and Source References
+- [Wikipedia](https://en.wikipedia.org/wiki/Digital_asset).
 
 ## Governance Profile
 - **Authority scope**: terminology_definition
@@ -47,9 +59,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- digital credential.
 
 ## Crosswalk References
 Not specified

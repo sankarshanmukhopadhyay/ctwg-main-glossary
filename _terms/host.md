@@ -9,8 +9,23 @@ title: "host"
 ## Definition
 A host is any hardware device that has the capability of permitting access to a network via a user interface, specialized software, network address, protocol stack, or any other means. Some examples include, but are not limited to, computers, personal electronic devices, thin clients, and multi-functional devices.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 host, hosts
+
+## See Also
+- [authorization]({{ '/terms/authorization/' | relative_url }})
+- [permission]({{ '/terms/permission/' | relative_url }})
+- [role-based-access-control]({{ '/terms/role-based-access-control/' | relative_url }})
+- [attribute-based-access-control]({{ '/terms/attribute-based-access-control/' | relative_url }})
+
+## Standards and Source References
+- [NIST-CSRC](https://csrc.nist.gov/glossary/term/host).
 
 ## Governance Profile
 - **Authority scope**: access_decisioning
@@ -47,12 +62,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- authorization
-- permission
-- role-based-access-control
-- attribute-based-access-control
 
 ## Crosswalk References
 Not specified

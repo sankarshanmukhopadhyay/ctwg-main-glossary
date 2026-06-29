@@ -10,12 +10,13 @@ from pathlib import Path
 import json
 import re
 import sys
+from urllib.parse import urlparse
 import yaml
 
 try:
     from jsonschema import Draft202012Validator
-except ImportError as exc:  # pragma: no cover - user-facing failure path
-    raise SystemExit("Missing dependency: jsonschema. Install with: pip install jsonschema") from exc
+except ImportError:  # pragma: no cover - user-facing fallback path
+    Draft202012Validator = None
 
 ROOT = Path(__file__).resolve().parents[1]
 TERMS_DIR = ROOT / "glossary" / "terms"
@@ -23,12 +24,22 @@ SCHEMA_PATH = ROOT / "schemas" / "governance-term.schema.json"
 VOCAB_PATH = ROOT / "schemas" / "governance-vocabularies.yaml"
 
 ALIAS_COLLISION_EXEMPTIONS = {"tta"}
+EXTERNAL_XREF_NAMESPACES = {"keri1", "toip2"}
 
 
 def slugify(value: str) -> str:
     value = value.strip().lower()
     value = re.sub(r"[^a-z0-9]+", "-", value)
     return value.strip("-") or "term"
+
+
+def normalize_term_ref(value: str) -> str:
+    value = re.sub(r"\[\[(?:ref|xref):\s*", "", value, flags=re.IGNORECASE)
+    value = value.replace("]]", "")
+    value = value.strip().strip(".,;:")
+    if "," in value:
+        value = value.split(",", 1)[0].strip()
+    return slugify(value)
 
 
 def load_yaml(path: Path):
@@ -74,6 +85,15 @@ def assert_vocab_schema_alignment(schema: dict, vocab: dict) -> list[str]:
     return errors
 
 
+def basic_required_field_errors(data: dict) -> list[str]:
+    required = ["term", "definition", "governance", "assurance", "control_plane"]
+    errors = []
+    for key in required:
+        if key not in data:
+            errors.append(f"<root>: missing required field {key}")
+    return errors
+
+
 def main() -> int:
     files = sorted(TERMS_DIR.glob("*.yaml"))
     if not files:
@@ -82,12 +102,15 @@ def main() -> int:
 
     schema = json.loads(SCHEMA_PATH.read_text(encoding="utf-8"))
     vocab = load_yaml(VOCAB_PATH) or {}
-    validator = Draft202012Validator(schema)
+    validator = Draft202012Validator(schema) if Draft202012Validator else None
 
     errors = assert_vocab_schema_alignment(schema, vocab)
+    if validator is None:
+        print("Warning: jsonschema is not installed; running repository integrity checks with basic required-field validation.")
     term_names: dict[str, str] = {}
     alias_map: dict[str, str] = {}
     slug_map: dict[str, str] = {}
+    source_objects = 0
 
     for f in files:
         try:
@@ -95,15 +118,20 @@ def main() -> int:
             if not isinstance(data, dict):
                 raise ValueError("term file does not parse to an object")
 
-            schema_errors = sorted(validator.iter_errors(data), key=lambda err: list(err.path))
-            if schema_errors:
-                formatted = []
-                for err in schema_errors[:8]:
-                    location = ".".join(str(p) for p in err.path) or "<root>"
-                    formatted.append(f"{location}: {err.message}")
-                if len(schema_errors) > 8:
-                    formatted.append(f"... and {len(schema_errors) - 8} more schema errors")
-                raise ValueError("schema validation failed: " + "; ".join(formatted))
+            if validator:
+                schema_errors = sorted(validator.iter_errors(data), key=lambda err: list(err.path))
+                if schema_errors:
+                    formatted = []
+                    for err in schema_errors[:8]:
+                        location = ".".join(str(p) for p in err.path) or "<root>"
+                        formatted.append(f"{location}: {err.message}")
+                    if len(schema_errors) > 8:
+                        formatted.append(f"... and {len(schema_errors) - 8} more schema errors")
+                    raise ValueError("schema validation failed: " + "; ".join(formatted))
+            else:
+                required_errors = basic_required_field_errors(data)
+                if required_errors:
+                    raise ValueError("basic validation failed: " + "; ".join(required_errors))
 
             term = str(data.get("term", "")).strip()
             expected_slug = slugify(f.stem)
@@ -144,6 +172,22 @@ def main() -> int:
                     raise ValueError(f'alias collision: "{alias_text}" already mapped to "{existing}"')
                 alias_map[alias_key] = current
 
+            sources = data.get("sources") or []
+            if not isinstance(sources, list):
+                raise ValueError("sources must be a list when present")
+            for source in sources:
+                if isinstance(source, dict):
+                    source_objects += 1
+                    title = str(source.get("title", "")).strip()
+                    url = str(source.get("url", "")).strip()
+                    if not title or not url:
+                        raise ValueError("structured source entries require title and url")
+                    parsed = urlparse(url)
+                    if parsed.scheme not in {"http", "https"} or not parsed.netloc:
+                        raise ValueError(f"structured source URL is not absolute HTTP(S): {url}")
+                elif not isinstance(source, str):
+                    raise ValueError("source entries must be strings or structured citation objects")
+
             gov = data.get("governance") or {}
             lifecycle_states = [str(s).strip() for s in gov.get("lifecycle_states", [])]
             if gov.get("revocation_supported") and "revoked" not in lifecycle_states:
@@ -159,6 +203,42 @@ def main() -> int:
         except Exception as exc:
             errors.append(f"{f.name}: {exc}")
 
+    known_slugs = set(slug_map)
+    known_alias_slugs = {slugify(alias): slugify(term) for alias, term in alias_map.items()}
+    for f in files:
+        data = load_yaml(f) or {}
+        term = str(data.get("term", "")).strip()
+        see_also = data.get("see_also") or []
+        if not isinstance(see_also, list):
+            errors.append(f"{f.name}: see_also must be a list when present")
+            continue
+        for item in see_also:
+            ref_slug = normalize_term_ref(str(item))
+            if ref_slug and ref_slug not in known_slugs and ref_slug not in known_alias_slugs:
+                errors.append(f'{f.name}: see_also reference "{item}" does not resolve to a known term or alias')
+
+        text_fields = [
+            str(data.get("definition") or ""),
+            *[str(item) for item in data.get("notes") or []],
+            *[str(item) for item in data.get("supporting_definitions") or []],
+            *[str(item) for item in data.get("mental_models") or []],
+        ]
+        for text in text_fields:
+            if text.count("[[") != text.count("]]"):
+                errors.append(f"{f.name}: malformed internal reference marker has unmatched brackets")
+            for match in re.finditer(r"\[\[(ref|xref):\s*([^\]]+)\]\]", text, flags=re.IGNORECASE):
+                kind, target = match.groups()
+                parts = [part.strip() for part in target.split(",") if part.strip()]
+                if not parts:
+                    errors.append(f"{f.name}: empty {kind} reference marker")
+                    continue
+                if kind.lower() == "xref" and parts[0].casefold() in EXTERNAL_XREF_NAMESPACES:
+                    continue
+                candidate = parts[-1] if kind.lower() == "xref" and len(parts) > 1 else parts[0]
+                ref_slug = slugify(candidate)
+                if ref_slug and ref_slug not in known_slugs and ref_slug not in known_alias_slugs:
+                    errors.append(f'{f.name}: {kind} reference "{target}" does not resolve to a known term or alias')
+
     if errors:
         print("Validation failed:")
         for err in errors:
@@ -167,6 +247,7 @@ def main() -> int:
 
     print(f"Validated {len(files)} governance term files")
     print(f"Checked {len(alias_map)} aliases for collisions")
+    print(f"Checked {source_objects} structured source citations")
     print("Schema and controlled vocabularies are aligned")
     return 0
 

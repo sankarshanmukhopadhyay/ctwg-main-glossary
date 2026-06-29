@@ -1,0 +1,56 @@
+term: openid-federation
+aliases:
+- OpenID Federation
+definition: A federation framework for establishing trust among OpenID participants
+  using entity statements, trust chains, and federation metadata.
+reader_note: ''
+implementation_relevance: ''
+notes: []
+see_also:
+- federation
+- trust-chain
+- entity-statement
+- trust-anchor
+sources:
+- title: OpenID Federation 1.0
+  url: https://openid.net/specs/openid-federation-1_0.html
+  publisher: OpenID Foundation
+  normative: true
+  status: Final Specification
+  version: '1.0'
+  date: '2026-02-17'
+mental_models: []
+supporting_definitions: []
+source_file: spec/terms-definitions/openid-federation.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+  - governance_recognition
+  - registry_management
+  - verification_and_reliance
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+  - proposed
+  - active
+  - retired
+  execution_role: hybrid
+  control_plane_role: decision_plane_component
+  enforcement_points: &id001
+  - registration_decision
+  - reliance_decision
+assurance:
+  evidence_artifacts: &id002
+  - registry_entry
+  - verification_log
+  - audit_log
+  - policy_document
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points: *id001
+  accountable_entity: glossary_maintainers
+  evidence_produced: *id002
+crosswalk:
+  openid:
+  - OpenID Federation 1.0

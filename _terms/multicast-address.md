@@ -9,8 +9,21 @@ title: "multicast-address"
 ## Definition
 A multicast address is a logical identifier for a group of hosts in a computer network that are available to process datagrams or frames intended to be multicast for a designated network service.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 multicast address, multicast addresses
+
+## See Also
+- [broadcast address]({{ '/terms/broadcast-address/' | relative_url }})
+- [unicast address]({{ '/terms/unicast-address/' | relative_url }})
+
+## Standards and Source References
+- [Wikipedia](https://en.wikipedia.org/wiki/Multicast_address).
 
 ## Governance Profile
 - **Authority scope**: terminology_definition
@@ -47,10 +60,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- broadcast address
-- unicast address.
 
 ## Crosswalk References
 Not specified

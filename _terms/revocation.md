@@ -9,8 +9,21 @@ title: "revocation"
 ## Definition
 In the context of digital credentials, revocation is an event or status change signifying that the issuer no longer attests to the validity of a credential it has issued. In the context of cryptographic keys, revocation is an event or status change signifying that the controller no longer attests to the validity of a public/private key pair for which the controller is authoritative.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 revocation, revocations, revoke, revokes, revoked, revoking
+
+## See Also
+- [issuance]({{ '/terms/issuance/' | relative_url }})
+- [presentation]({{ '/terms/presentation/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/revocation.md`
 
 ## Governance Profile
 - **Authority scope**: credential_issuance, verification_and_reliance, governance_recognition
@@ -56,10 +69,6 @@ revocation, revocations, revoke, revokes, revoked, revoking
 
 ## Mental Models
 Not specified
-
-## See Also
-- issuance
-- presentation.
 
 ## Crosswalk References
 - **NIST**: CM-3

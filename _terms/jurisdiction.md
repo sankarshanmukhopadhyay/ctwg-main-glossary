@@ -9,8 +9,21 @@ title: "jurisdiction"
 ## Definition
 The composition of: a) a legal system (legislation, enforcement thereof, and conflict resolution), b) a party that governs that legal system, c) a scope within which that legal system is operational, and d) one or more objectives for the purpose of which the legal system is operated.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 jurisdiction, jurisdictions
+
+## See Also
+- [glossary]({{ '/terms/glossary/' | relative_url }})
+- [definition]({{ '/terms/definition/' | relative_url }})
+
+## Standards and Source References
+- [eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#jurisdiction)
 
 ## Governance Profile
 - **Authority scope**: terminology_definition
@@ -51,10 +64,6 @@ Not specified
 
 ## Mental Models
 - [eSSIF-Lab Jurisdictions ](https://essif-lab.github.io/framework/docs/terms/pattern-jurisdiction)
-
-## See Also
-- glossary
-- definition
 
 ## Crosswalk References
 Not specified

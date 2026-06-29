@@ -1,0 +1,52 @@
+term: key-binding-jwt
+aliases:
+- KB-JWT
+- Key Binding JWT
+definition: A JWT used to demonstrate holder control of a key associated with an SD-JWT
+  or SD-JWT VC presentation.
+reader_note: ''
+implementation_relevance: ''
+notes: []
+see_also:
+- holder-binding
+- sd-jwt-vc
+- proof-of-possession
+- cryptographic-key
+sources:
+- title: SD-JWT-based Verifiable Credentials
+  url: https://www.rfc-editor.org/rfc/rfc9901.html
+  publisher: IETF
+  normative: true
+  status: RFC
+  version: '9901'
+  date: '2025'
+mental_models: []
+supporting_definitions: []
+source_file: spec/terms-definitions/key-binding-jwt.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+  - verification_and_reliance
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+  - proposed
+  - active
+  - retired
+  execution_role: hybrid
+  control_plane_role: decision_plane_component
+  enforcement_points: &id001
+  - reliance_decision
+assurance:
+  evidence_artifacts: &id002
+  - verification_log
+  - audit_log
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points: *id001
+  accountable_entity: glossary_maintainers
+  evidence_produced: *id002
+crosswalk:
+  ietf:
+  - RFC 9901

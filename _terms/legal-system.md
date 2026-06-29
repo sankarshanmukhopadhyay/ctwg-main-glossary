@@ -9,8 +9,24 @@ title: "legal-system"
 ## Definition
 A system in which policies and rules are defined, and mechanisms for their enforcement and conflict resolution are (implicitly or explicitly) specified. Legal systems are not just defined by governments; they can also be defined by a governance framework.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 legal system, legal systems
+
+## See Also
+- [policy]({{ '/terms/policy/' | relative_url }})
+- [governance-framework]({{ '/terms/governance-framework/' | relative_url }})
+- [requirement]({{ '/terms/requirement/' | relative_url }})
+- [governance]({{ '/terms/governance/' | relative_url }})
+- [governing-authority]({{ '/terms/governing-authority/' | relative_url }})
+
+## Standards and Source References
+- [eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#legal-system)
 
 ## Governance Profile
 - **Authority scope**: policy_definition, governance_recognition
@@ -47,13 +63,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- policy
-- governance-framework
-- requirement
-- governance
-- governing-authority
 
 ## Crosswalk References
 Not specified

@@ -9,8 +9,20 @@ title: "governance-requirement"
 ## Definition
 A requirement such as a policy, rule, or technical specification specified in a governance document.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 governance requirement, governance requirements
+
+## See Also
+- [technical requirement]({{ '/terms/technical-requirement/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/governance-requirement.md`
 
 ## Governance Profile
 - **Authority scope**: policy_definition, governance_recognition
@@ -47,9 +59,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- technical requirement.
 
 ## Crosswalk References
 Not specified

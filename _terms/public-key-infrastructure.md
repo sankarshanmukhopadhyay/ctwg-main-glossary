@@ -9,8 +9,23 @@ title: "public-key-infrastructure"
 ## Definition
 A set of policies, processes, server platforms, software and workstations used for the purpose of administering certificates and public-private key pairs, including the ability to issue, maintain, and revoke public key certificates. The PKI includes the hierarchy of certificate authorities that allow for the deployment of digital certificates that support encryption, digital signature and authentication to meet business and security requirements.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 public key infrastructure, public key infrastructures, PKI, PKIs
+
+## See Also
+- [authorization]({{ '/terms/authorization/' | relative_url }})
+- [permission]({{ '/terms/permission/' | relative_url }})
+- [role-based-access-control]({{ '/terms/role-based-access-control/' | relative_url }})
+- [attribute-based-access-control]({{ '/terms/attribute-based-access-control/' | relative_url }})
+
+## Standards and Source References
+- [NIST-CSRC](https://csrc.nist.gov/glossary/term/public_key_infrastructure).
 
 ## Governance Profile
 - **Authority scope**: access_decisioning
@@ -51,12 +66,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- authorization
-- permission
-- role-based-access-control
-- attribute-based-access-control
 
 ## Crosswalk References
 Not specified

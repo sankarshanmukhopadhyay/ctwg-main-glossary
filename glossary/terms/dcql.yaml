@@ -1,0 +1,55 @@
+term: dcql
+aliases:
+- Digital Credentials Query Language
+- DCQL
+definition: A query language defined by OpenID4VP for requesting credential presentations
+  in a flexible and credential-format-aware way.
+reader_note: ''
+implementation_relevance: ''
+notes: []
+see_also:
+- openid4vp
+- presentation-request
+- verifiable-presentation
+- credential
+sources:
+- title: OpenID for Verifiable Presentations 1.0
+  url: https://openid.net/specs/openid-4-verifiable-presentations-1_0.html
+  publisher: OpenID Foundation
+  normative: true
+  status: Final Specification
+  version: '1.0'
+  date: '2025-07-09'
+mental_models: []
+supporting_definitions: []
+source_file: spec/terms-definitions/dcql.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+  - verification_and_reliance
+  - policy_definition
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+  - proposed
+  - active
+  - retired
+  execution_role: hybrid
+  control_plane_role: decision_plane_component
+  enforcement_points: &id001
+  - reliance_decision
+  - policy_approval
+assurance:
+  evidence_artifacts: &id002
+  - policy_document
+  - verification_log
+  - audit_log
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points: *id001
+  accountable_entity: glossary_maintainers
+  evidence_produced: *id002
+crosswalk:
+  openid:
+  - OpenID4VP 1.0

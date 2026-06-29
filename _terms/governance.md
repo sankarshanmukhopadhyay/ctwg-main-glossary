@@ -9,8 +9,21 @@ title: "governance"
 ## Definition
 The act or process of governing or overseeing the realization of (the results associated with) a set of objectives by the owner of these objectives, in order to ensure they will be fit for the purposes that this owner intends to use them for.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 governance
+
+## See Also
+- [governing body]({{ '/terms/governing-body/' | relative_url }})
+- [governance framework]({{ '/terms/governance-framework/' | relative_url }})
+
+## Standards and Source References
+- [eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#governance).
 
 ## Governance Profile
 - **Authority scope**: governance_recognition
@@ -51,10 +64,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- governing body
-- governance framework
 
 ## Crosswalk References
 Not specified

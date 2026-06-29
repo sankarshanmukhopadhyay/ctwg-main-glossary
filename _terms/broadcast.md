@@ -9,8 +9,22 @@ title: "broadcast"
 ## Definition
 In computer networking, telecommunication and information theory, broadcasting is a method of transferring a message to all recipients simultaneously. Broadcast delivers a message to all nodes in the network using a one-to-all association; a single datagram (or packet) from one sender is routed to all of the possibly multiple endpoints associated with the broadcast address. The network automatically replicates datagrams as needed to reach all the recipients within the scope of the broadcast, which is generally an entire network subnet.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 broadcast
+
+## See Also
+- [anycast]({{ '/terms/anycast/' | relative_url }})
+- [multicast]({{ '/terms/multicast/' | relative_url }})
+- [unicast]({{ '/terms/unicast/' | relative_url }})
+
+## Standards and Source References
+- [Wikipedia](https://en.wikipedia.org/wiki/Broadcasting_\(networking\)).
 
 ## Governance Profile
 - **Authority scope**: terminology_definition
@@ -47,11 +61,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- anycast
-- multicast
-- unicast.
 
 ## Crosswalk References
 Not specified

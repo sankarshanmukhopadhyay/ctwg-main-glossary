@@ -9,8 +9,21 @@ title: "digital-identity"
 ## Definition
 An identity expressed in a digital form for the purpose representing the identified entity within a computer system or digital network.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 digital identity, digital identities, digital ID, digital IDs
+
+## See Also
+- [glossary]({{ '/terms/glossary/' | relative_url }})
+- [definition]({{ '/terms/definition/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/digital-identity.md`
 
 ## Governance Profile
 - **Authority scope**: terminology_definition
@@ -48,10 +61,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- glossary
-- definition
 
 ## Crosswalk References
 Not specified

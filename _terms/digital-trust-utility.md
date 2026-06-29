@@ -9,8 +9,23 @@ title: "digital-trust-utility"
 ## Definition
 An information system, network, distributed database, or blockchain designed to provide one or more supporting services to higher level components of decentralized digital trust infrastructure. In the ToIP stack, digital trust utilities are at Layer 1. A verifiable data registry is one type of digital trust utility.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 digital trust utility, digital trust utilities
+
+## See Also
+- [registry]({{ '/terms/registry/' | relative_url }})
+- [trust-registry]({{ '/terms/trust-registry/' | relative_url }})
+- [registration]({{ '/terms/registration/' | relative_url }})
+- [governance-framework]({{ '/terms/governance-framework/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/digital-trust-utility.md`
 
 ## Governance Profile
 - **Authority scope**: registry_management
@@ -49,12 +64,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- registry
-- trust-registry
-- registration
-- governance-framework
 
 ## Crosswalk References
 Not specified

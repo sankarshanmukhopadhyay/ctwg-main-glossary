@@ -9,8 +9,21 @@ title: "holder"
 ## Definition
 A role an agent performs by serving as the controller of the cryptographic keys and digital credentials in a digital wallet. The holder makes issuance requests for credentials and responds to presentation requests for credentials. A holder is usually, but not always, a subject of the credentials they are holding.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 holder, holders
+
+## See Also
+- [issuer]({{ '/terms/issuer/' | relative_url }})
+- [verifier]({{ '/terms/verifier/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/holder.md`
 
 ## Governance Profile
 - **Authority scope**: credential_issuance, delegation_and_scope
@@ -64,10 +77,6 @@ Not specified
 
 ## Mental Models
 - [W3C Verifiable Credentials Data Model Roles & Information Flows](https://www.w3.org/TR/vc-data-model/#roles)
-
-## See Also
-- issuer
-- verifier.
 
 ## Crosswalk References
 Not specified

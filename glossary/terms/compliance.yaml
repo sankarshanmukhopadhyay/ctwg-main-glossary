@@ -12,9 +12,9 @@ definition: In the context of decentralized digital trust infrastructure, compli
   entity.
 notes: []
 see_also:
-- '[[ref: Governance'
-- Risk Management
-- and Compliance]].
+- governance-risk-management-compliance
+- governance-framework
+- trust-framework
 sources:
 - 'ToIP CTWG maintained glossary source: `spec/terms-definitions/compliance.md`'
 mental_models: []

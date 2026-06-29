@@ -9,8 +9,21 @@ title: "uniform-resource-name"
 ## Definition
 A Uniform Resource Name (URN) is a type of URI (Uniform Resource Identifier) designed for persistent identifiers that are intended to be assigned once to a resource and never changed to identify a different resource. In some cases a URN is also intended to serve as a persistent way to locate the identified resource over time even as it moves locations on the network. The URN standard is defined by IETF RFC 8141.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 Uniform Resource Name, Uniform Resource Names, URN, URNs
+
+## See Also
+- [glossary]({{ '/terms/glossary/' | relative_url }})
+- [definition]({{ '/terms/definition/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/uniform-resource-name.md`
 
 ## Governance Profile
 - **Authority scope**: terminology_definition
@@ -47,10 +60,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- glossary
-- definition
 
 ## Crosswalk References
 Not specified

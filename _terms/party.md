@@ -9,8 +9,22 @@ title: "party"
 ## Definition
 An entity that sets its objectives, maintains its knowledge, and uses that knowledge to pursue its objectives in an autonomous (sovereign) manner. Natural persons and organizations are the typical examples.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 party, parties
+
+## See Also
+- [first party]({{ '/terms/first-party/' | relative_url }})
+- [second party]({{ '/terms/second-party/' | relative_url }})
+- [third party]({{ '/terms/third-party/' | relative_url }})
+
+## Standards and Source References
+- [eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary).
 
 ## Governance Profile
 - **Authority scope**: terminology_definition
@@ -47,11 +61,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- first party
-- second party
-- third party
 
 ## Crosswalk References
 Not specified

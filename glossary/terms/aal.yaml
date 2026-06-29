@@ -11,7 +11,13 @@ see_also:
 - audit
 - verification
 sources:
-- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/aal.md`'
+- title: NIST SP 800-63-4 Digital Identity Guidelines
+  url: https://doi.org/10.6028/NIST.SP.800-63-4
+  publisher: NIST
+  normative: true
+  status: Final
+  version: 800-63-4
+  date: '2025-08-01'
 mental_models: []
 supporting_definitions: []
 source_file: spec/terms-definitions/aal.md
@@ -42,5 +48,5 @@ control_plane:
   evidence_produced:
   - attestation
 crosswalk:
-  nist: []
-  iso: []
+  nist:
+  - SP 800-63-4

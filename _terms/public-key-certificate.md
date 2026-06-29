@@ -9,8 +9,20 @@ title: "public-key-certificate"
 ## Definition
 A set of data that uniquely identifies a public key (which has a corresponding private key) and an owner that is authorized to use the key pair. The certificate contains the owner’s public key and possibly other information and is digitally signed by a certification authority (i.e., a trusted party), thereby binding the public key to the owner.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 public key certificate, public key certificates, PKC, PKCs
+
+## See Also
+- [public key infrastructure]({{ '/terms/public-key-infrastructure/' | relative_url }})
+
+## Standards and Source References
+- [NIST-CSRC](https://csrc.nist.gov/glossary/term/public_key_certificate).
 
 ## Governance Profile
 - **Authority scope**: governance_recognition
@@ -55,9 +67,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- public key infrastructure.
 
 ## Crosswalk References
 Not specified

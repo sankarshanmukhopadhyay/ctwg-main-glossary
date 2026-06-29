@@ -9,8 +9,21 @@ title: "trust-registry"
 ## Definition
 A registry that serves as an authoritative source for trust graphs or other governed information describing one or more trust communities. A trust registry is typically authorized by a governance framework.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 trust registry, trust registries
+
+## See Also
+- [trust list]({{ '/terms/trust-list/' | relative_url }})
+- [verifiable data registry]({{ '/terms/verifiable-data-registry/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/trust-registry.md`
 
 ## Governance Profile
 - **Authority scope**: policy_definition, registry_management, governance_recognition
@@ -55,10 +68,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- trust list
-- verifiable data registry.
 
 ## Crosswalk References
 - **NIST**: CA-3

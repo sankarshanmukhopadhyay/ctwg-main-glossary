@@ -9,8 +9,22 @@ title: "anycast"
 ## Definition
 Anycast is a network addressing and routing methodology in which a single IP-address is shared by devices (generally servers) in multiple locations. Routers direct packets addressed to this destination to the location nearest the sender, using their normal decision-making algorithms, typically the lowest number of BGP network hops. Anycast routing is widely used by content delivery networks such as web and name servers, to bring their content closer to end users.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 anycast
+
+## See Also
+- [broadcast]({{ '/terms/broadcast/' | relative_url }})
+- [multicast]({{ '/terms/multicast/' | relative_url }})
+- [unicast]({{ '/terms/unicast/' | relative_url }})
+
+## Standards and Source References
+- [Wikipedia](https://en.wikipedia.org/wiki/Anycast).
 
 ## Governance Profile
 - **Authority scope**: terminology_definition
@@ -47,11 +61,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- broadcast
-- multicast
-- unicast.
 
 ## Crosswalk References
 Not specified

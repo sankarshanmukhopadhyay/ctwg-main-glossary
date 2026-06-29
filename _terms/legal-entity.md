@@ -9,8 +9,22 @@ title: "legal-entity"
 ## Definition
 An entity that is not a natural person but is recognized as having legal rights and responsibilities. Examples include corporations, partnerships, sole proprietorships, non-profit organizations, associations, and governments. (In some cases even natural systems such as rivers are treated as legal entities.)
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 legal entity, legal entities
+
+## See Also
+- [Legal Entity Identifier]({{ '/terms/legal-entity-identifier/' | relative_url }})
+- [legal person]({{ '/terms/legal-person/' | relative_url }})
+- [organization]({{ '/terms/organization/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/legal-entity.md`
 
 ## Governance Profile
 - **Authority scope**: terminology_definition
@@ -51,11 +65,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- Legal Entity Identifier
-- legal person
-- organization.
 
 ## Crosswalk References
 Not specified

@@ -7,10 +7,27 @@ title: "w3c-verifiable-credentials-data-model-specification"
 # w3c-verifiable-credentials-data-model-specification
 
 ## Definition
-A W3C Recommendation defining a standard data model and representation format for cryptographically-verifiable digital credentials. Version 1.1 was published on 03 March 2022.
+A W3C Recommendation defining the standard Verifiable Credentials Data Model. The current standards-linked anchor for new work is Verifiable Credentials Data Model v2.0.
+
+## Reader Note
+This legacy glossary entry is retained for continuity with existing ToIP terminology and now points readers toward the v2.0 term.
+
+## Implementation Relevance
+Prefer verifiable-credential-data-model-2-0 for current implementation mapping and use this term when preserving compatibility with earlier glossary references.
 
 ## Aliases
 W3C Verifiable Credentials Data Model Specification
+
+## See Also
+- [verifiable-credential-data-model-2-0]({{ '/terms/verifiable-credential-data-model-2-0/' | relative_url }})
+- [verifiable-credential]({{ '/terms/verifiable-credential/' | relative_url }})
+- [verifiable-presentation]({{ '/terms/verifiable-presentation/' | relative_url }})
+- [issuer]({{ '/terms/issuer/' | relative_url }})
+- [holder]({{ '/terms/holder/' | relative_url }})
+- [verifier]({{ '/terms/verifier/' | relative_url }})
+
+## Standards and Source References
+- [Verifiable Credentials Data Model v2.0](https://www.w3.org/TR/vc-data-model-2.0/) (W3C; Recommendation; 2.0; 2025-05-15) — normative
 
 ## Governance Profile
 - **Authority scope**: credential_issuance
@@ -58,11 +75,5 @@ Not specified
 ## Mental Models
 Not specified
 
-## See Also
-- credential
-- issuer
-- issuance
-- verifiable-credential
-
 ## Crosswalk References
-Not specified
+- **W3C**: VC Data Model v2.0

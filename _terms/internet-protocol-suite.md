@@ -9,8 +9,20 @@ title: "internet-protocol-suite"
 ## Definition
 The Internet protocol suite, commonly known as TCP/IP, is a framework for organizing the set of communication protocols used in the Internet and similar computer networks according to functional criteria. The foundational protocols in the suite are the Transmission Control Protocol (TCP), the User Datagram Protocol (UDP), and the Internet Protocol (IP).
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 Internet protocol suite
+
+## See Also
+- [protocol stack]({{ '/terms/protocol-stack/' | relative_url }})
+
+## Standards and Source References
+- [Wikipedia](https://en.wikipedia.org/wiki/Internet_protocol_suite)
 
 ## Governance Profile
 - **Authority scope**: policy_definition
@@ -47,9 +59,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- protocol stack.
 
 ## Crosswalk References
 Not specified

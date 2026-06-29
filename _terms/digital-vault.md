@@ -9,8 +9,22 @@ title: "digital-vault"
 ## Definition
 A secure container for data whose controller is the principal. A digital vault is most commonly used in conjunction with a digital wallet and a digital agent. A digital vault may be implemented on a local device or in the cloud; multiple digital vaults may be used by the same principal across different devices and/or the cloud; if so they may use some type of synchronization. If the capability is supported, data may flow into or out of the digital vault automatically based on subscriptions approved by the controller.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 digital vault, digital vaults
+
+## See Also
+- [enterprise data vault]({{ '/terms/enterprise-data-vault/' | relative_url }})
+- [personal data vault]({{ '/terms/personal-data-vault/' | relative_url }})
+- [virtual vault]({{ '/terms/virtual-vault/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/digital-vault.md`
 
 ## Governance Profile
 - **Authority scope**: delegation_and_scope, access_decisioning
@@ -52,11 +66,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- enterprise data vault
-- personal data vault
-- virtual vault.
 
 ## Crosswalk References
 Not specified

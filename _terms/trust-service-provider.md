@@ -9,8 +9,24 @@ title: "trust-service-provider"
 ## Definition
 In the context of specific digital trust ecosystems, such as the European Union’s eIDAS regulations, a trust service provider is a legal entity that provides specific trust support services as required by legal regulations, trust frameworks, or governance frameworks. In the larger context of ToIP infrastructure, a trust service provider is a provider of services based on the ToIP stack. Most generally, a trust service provider is to the trust layer for the Internet what an Internet service provider (ISP) is to the Internet layer.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 trust service provider, trust service providers
+
+## See Also
+- [policy]({{ '/terms/policy/' | relative_url }})
+- [governance-framework]({{ '/terms/governance-framework/' | relative_url }})
+- [requirement]({{ '/terms/requirement/' | relative_url }})
+- [governance]({{ '/terms/governance/' | relative_url }})
+- [governing-authority]({{ '/terms/governing-authority/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/trust-service-provider.md`
 
 ## Governance Profile
 - **Authority scope**: policy_definition, governance_recognition
@@ -47,13 +63,6 @@ trust service provider, trust service providers
 
 ## Mental Models
 Not specified
-
-## See Also
-- policy
-- governance-framework
-- requirement
-- governance
-- governing-authority
 
 ## Crosswalk References
 Not specified

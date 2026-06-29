@@ -9,8 +9,20 @@ title: "owner"
 ## Definition
 The role that a party performs when it is exercising its legal, rightful or natural title to control a specific entity.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 owner, owners
+
+## See Also
+- [controller]({{ '/terms/controller/' | relative_url }})
+
+## Standards and Source References
+- [eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#owner).
 
 ## Governance Profile
 - **Authority scope**: terminology_definition
@@ -51,9 +63,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- controller.
 
 ## Crosswalk References
 Not specified

@@ -9,8 +9,20 @@ title: "second-party"
 ## Definition
 The party with whom a first party engages to form a trust relationship, establish a connection, make a delegation, or execute a transaction.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 second party, second parties
+
+## See Also
+- [third party]({{ '/terms/third-party/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/second-party.md`
 
 ## Governance Profile
 - **Authority scope**: delegation_and_scope
@@ -59,9 +71,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- third party.
 
 ## Crosswalk References
 Not specified

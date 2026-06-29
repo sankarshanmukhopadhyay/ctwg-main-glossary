@@ -9,9 +9,10 @@ definition: An action an agent (of a principal) performs to determine the authen
   of a claim or other data object. Cryptographic verification uses cryptographic keys.
 notes: []
 see_also:
-- validation.
-- 'KERI scope definition of [[xref: keri1'
-- verification]]
+- validation
+- verifier
+- proof
+- cryptographic-verifiability
 sources:
 - 'ToIP CTWG maintained glossary source: `spec/terms-definitions/verification.md`'
 mental_models:

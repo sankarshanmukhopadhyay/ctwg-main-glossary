@@ -9,8 +9,9 @@ definition: A subclass of verifiable identifier (VID) that is cryptographically 
   is cryptographically bound to the cryptographic keys from which it was generated.
 notes: []
 see_also:
-- 'autonomic identifier and the KERI specific [[xref: keri1'
-- self-certifying-identifier]].
+- autonomic-identifier
+- verifiable-identifier
+- cryptographic-key
 sources:
 - 'ToIP CTWG maintained glossary source: `spec/terms-definitions/self-certifying-identifier.md`'
 mental_models: []

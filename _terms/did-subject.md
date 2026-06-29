@@ -9,8 +9,20 @@ title: "did-subject"
 ## Definition
 The entity identified by a DID and described by a DID document. Anything can be a DID subject: person, group, organization, physical thing, digital thing, logical thing, etc.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 DID subject, DID subjects
+
+## See Also
+- [subject]({{ '/terms/subject/' | relative_url }})
+
+## Standards and Source References
+- [W3C DID](https://www.w3.org/TR/did-core/#dfn-did-subjects).
 
 ## Governance Profile
 - **Authority scope**: terminology_definition
@@ -47,9 +59,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- subject.
 
 ## Crosswalk References
 Not specified

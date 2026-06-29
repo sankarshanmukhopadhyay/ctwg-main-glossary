@@ -9,8 +9,22 @@ title: "authenticity"
 ## Definition
 The property of being genuine and being able to be verified and trusted; confidence in the validity of a transmission, a message, or message originator.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 authenticity, authentic
+
+## See Also
+- [confidentiality]({{ '/terms/confidentiality/' | relative_url }})
+- [correlation privacy]({{ '/terms/correlation-privacy/' | relative_url }})
+- [cryptographic verifiability]({{ '/terms/cryptographic-verifiability/' | relative_url }})
+
+## Standards and Source References
+- [NIST-CSRC](https://csrc.nist.gov/glossary/term/authenticity).
 
 ## Governance Profile
 - **Authority scope**: terminology_definition
@@ -51,11 +65,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- confidentiality
-- correlation privacy
-- cryptographic verifiability.
 
 ## Crosswalk References
 Not specified

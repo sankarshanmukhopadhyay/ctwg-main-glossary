@@ -1,0 +1,56 @@
+term: claim-generator
+aliases:
+- C2PA claim generator
+- claim generator
+definition: A hardware or software actor that creates a C2PA claim about an asset
+  and signs or causes the signing of the associated manifest data.
+reader_note: This term is part of the v1.2.0 standards-linked refresh and is anchored
+  to active implementation vocabulary.
+implementation_relevance: Use this term when mapping glossary language to implementation
+  profiles, governance controls, conformance checks, or assurance evidence.
+notes: []
+see_also:
+- c2pa-manifest
+- content-credential
+- actor
+- digital-signature
+sources:
+- title: C2PA Technical Specification 2.2
+  url: https://spec.c2pa.org/specifications/specifications/2.2/specs/C2PA_Specification.html
+  publisher: C2PA
+  normative: true
+  status: Technical Specification
+  version: '2.2'
+  date: '2025'
+mental_models: []
+supporting_definitions: []
+source_file: spec/terms-definitions/claim-generator.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+  - assurance_and_audit
+  - verification_and_reliance
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+  - proposed
+  - active
+  - retired
+  execution_role: hybrid
+  control_plane_role: decision_plane_component
+  enforcement_points: &id001
+  - reliance_decision
+assurance:
+  evidence_artifacts: &id002
+  - attestation
+  - verification_log
+  - audit_log
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points: *id001
+  accountable_entity: glossary_maintainers
+  evidence_produced: *id002
+crosswalk:
+  c2pa:
+  - C2PA Technical Specification 2.2

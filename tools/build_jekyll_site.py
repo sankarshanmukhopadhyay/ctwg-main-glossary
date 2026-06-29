@@ -35,7 +35,67 @@ def format_list(items):
     return "\n".join(f"- {i}" for i in items)
 
 
-def term_page(data):
+def build_term_lookup():
+    lookup = {}
+    for path in sorted(TERMS_DIR.glob('*.yaml')):
+        data = yaml.safe_load(path.read_text(encoding='utf-8')) or {}
+        term = clean_text(data.get('term'))
+        if not term:
+            continue
+        slug = slugify(term)
+        lookup[slug] = (term, f"{{{{ '/terms/{slug}/' | relative_url }}}}")
+        for alias in data.get('aliases') or []:
+            lookup[slugify(str(alias))] = (term, f"{{{{ '/terms/{slug}/' | relative_url }}}}")
+    return lookup
+
+
+def term_link(label, lookup):
+    raw = clean_text(label)
+    if not raw:
+        return ""
+    normalized = raw.strip().strip(".,;:")
+    slug = slugify(normalized)
+    if slug in lookup:
+        title, url = lookup[slug]
+        return f"[{normalized}]({url})"
+    return raw
+
+
+def format_term_refs(items, lookup):
+    items = [clean_text(i) for i in (items or []) if clean_text(i)]
+    if not items:
+        return "Not specified"
+    return "\n".join(f"- {term_link(i, lookup)}" for i in items)
+
+
+def format_sources(sources):
+    items = sources or []
+    if not items:
+        return "Not specified"
+    lines = []
+    for source in items:
+        if isinstance(source, dict):
+            title = clean_text(source.get("title")) or "Untitled source"
+            url = clean_text(source.get("url"))
+            publisher = clean_text(source.get("publisher"))
+            status = clean_text(source.get("status"))
+            version = clean_text(source.get("version"))
+            date = clean_text(source.get("date"))
+            normative = source.get("normative")
+            label = f"[{title}]({url})" if url else title
+            details = [part for part in [publisher, status, version, date] if part]
+            suffix = f" ({'; '.join(details)})" if details else ""
+            if normative is True:
+                suffix += " — normative"
+            elif normative is False:
+                suffix += " — informative"
+            lines.append(f"- {label}{suffix}")
+        else:
+            lines.append(f"- {clean_text(source)}")
+    return "\n".join(lines)
+
+
+def term_page(data, lookup):
     title = clean_text(data.get("term", "Untitled Term"))
     aliases = data.get("aliases") or []
     definition = clean_text(data.get("definition"))
@@ -47,6 +107,9 @@ def term_page(data):
     crosswalk = data.get("crosswalk") or {}
     supporting = data.get("supporting_definitions") or []
     mental_models = data.get("mental_models") or []
+    sources = data.get("sources") or []
+    reader_note = clean_text(data.get("reader_note"))
+    implementation_relevance = clean_text(data.get("implementation_relevance"))
 
     aliases_md = ", ".join(aliases) if aliases else "None"
     crosswalk_lines = []
@@ -68,8 +131,20 @@ title: \"{safe_title}\"
 ## Definition
 {definition or 'Definition not yet provided.'}
 
+## Reader Note
+{reader_note or 'This term is provided as a controlled glossary entry for standards, governance, and implementation review.'}
+
+## Implementation Relevance
+{implementation_relevance or 'Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.'}
+
 ## Aliases
 {aliases_md}
+
+## See Also
+{format_term_refs(see_also, lookup)}
+
+## Standards and Source References
+{format_sources(sources)}
 
 ## Governance Profile
 - **Authority scope**: {', '.join(gov.get('authority_scope', [])) or 'Not specified'}
@@ -106,9 +181,6 @@ title: \"{safe_title}\"
 
 ## Mental Models
 {format_list(mental_models)}
-
-## See Also
-{format_list(see_also)}
 
 ## Crosswalk References
 {crosswalk_md}
@@ -223,6 +295,7 @@ def write_generated_inventory_page():
 
 def main():
     OUT_COLLECTION.mkdir(exist_ok=True)
+    lookup = build_term_lookup()
     term_refs = []
     for path in sorted(TERMS_DIR.glob('*.yaml')):
         data = yaml.safe_load(path.read_text(encoding='utf-8'))
@@ -231,7 +304,7 @@ def main():
             continue
         slug = slugify(path.stem)
         out = OUT_COLLECTION / f'{slug}.md'
-        out.write_text(term_page(data), encoding='utf-8')
+        out.write_text(term_page(data, lookup), encoding='utf-8')
         term_refs.append((title, f"{{{{ '/terms/{slug}/' | relative_url }}}}"))
 
     write_indexes(term_refs)

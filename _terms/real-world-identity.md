@@ -9,8 +9,20 @@ title: "real-world-identity"
 ## Definition
 A term used to describe the opposite of digital identity, i.e., an identity (typically for a person) in the physical instead of the digital world.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 real world identity, real world identities
+
+## See Also
+- [legal identity]({{ '/terms/legal-identity/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/real-world-identity.md`
 
 ## Governance Profile
 - **Authority scope**: terminology_definition
@@ -47,9 +59,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- legal identity.
 
 ## Crosswalk References
 Not specified

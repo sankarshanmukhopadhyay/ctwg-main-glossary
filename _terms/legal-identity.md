@@ -9,8 +9,21 @@ title: "legal-identity"
 ## Definition
 A set of identity data considered authoritative to identify a party for purposes of legal accountability under one or more jurisdictions.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 legal identity, legal identities
+
+## See Also
+- [foundational identity]({{ '/terms/foundational-identity/' | relative_url }})
+- [functional identity]({{ '/terms/functional-identity/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/legal-identity.md`
 
 ## Governance Profile
 - **Authority scope**: governance_recognition
@@ -47,10 +60,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- foundational identity
-- functional identity.
 
 ## Crosswalk References
 Not specified

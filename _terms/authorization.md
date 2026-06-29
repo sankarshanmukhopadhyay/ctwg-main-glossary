@@ -9,8 +9,20 @@ title: "authorization"
 ## Definition
 The process of determining whether a requested action or service is approved for a specific entity under applicable policies, rules, credentials, or other governing criteria.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 authorization, authorizations, authorize, authorized, unauthorized, authorizing, unauthorizing, authorisation, authorisations, authorise, authorised, unauthorised, authorising, unauthorising
+
+## See Also
+- [permission]({{ '/terms/permission/' | relative_url }})
+
+## Standards and Source References
+- [NIST-CSRC](https://csrc.nist.gov/glossary/term/authorization).
 
 ## Governance Profile
 - **Authority scope**: credential_issuance, policy_definition, access_decisioning
@@ -65,9 +77,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- permission.
 
 ## Crosswalk References
 - **NIST**: AC-2, AC-3

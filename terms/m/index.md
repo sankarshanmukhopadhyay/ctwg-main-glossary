@@ -9,6 +9,7 @@ nav_exclude: true
 - [machine-readable]({{ '/terms/machine-readable/' | relative_url }})
 - [man-made-thing]({{ '/terms/man-made-thing/' | relative_url }})
 - [mandatory]({{ '/terms/mandatory/' | relative_url }})
+- [manifest-consumer]({{ '/terms/manifest-consumer/' | relative_url }})
 - [message]({{ '/terms/message/' | relative_url }})
 - [metadata]({{ '/terms/metadata/' | relative_url }})
 - [mobile-deep-link]({{ '/terms/mobile-deep-link/' | relative_url }})

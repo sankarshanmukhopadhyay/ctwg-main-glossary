@@ -9,8 +9,20 @@ title: "identity-proofing"
 ## Definition
 The process of a party gathering sufficient identity data to establish an identity for a particular subject at a particular identity assurance level.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 identity proofing, identity proof, identity proofs
+
+## See Also
+- [identity binding]({{ '/terms/identity-binding/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/identity-proofing.md`
 
 ## Governance Profile
 - **Authority scope**: assurance_and_audit
@@ -47,9 +59,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- identity binding.
 
 ## Crosswalk References
 Not specified

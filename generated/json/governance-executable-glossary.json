@@ -16,7 +16,15 @@
         "verification"
       ],
       "sources": [
-        "ToIP CTWG maintained glossary source: `spec/terms-definitions/aal.md`"
+        {
+          "title": "NIST SP 800-63-4 Digital Identity Guidelines",
+          "url": "https://doi.org/10.6028/NIST.SP.800-63-4",
+          "publisher": "NIST",
+          "normative": true,
+          "status": "Final",
+          "version": "800-63-4",
+          "date": "2025-08-01"
+        }
       ],
       "mental_models": [],
       "supporting_definitions": [],
@@ -57,8 +65,9 @@
         ]
       },
       "crosswalk": {
-        "nist": [],
-        "iso": []
+        "nist": [
+          "SP 800-63-4"
+        ]
       },
       "slug": "aal"
     },
@@ -3010,6 +3019,88 @@
       "slug": "biometric"
     },
     {
+      "term": "bitstring-status-list",
+      "aliases": [
+        "Bitstring Status List",
+        "BSL"
+      ],
+      "definition": "A W3C status mechanism for publishing credential status information such as revocation or suspension using compressed bitstrings.",
+      "reader_note": "",
+      "implementation_relevance": "Use this term when modelling inspectable credential status evidence without exposing unnecessary holder-specific information.",
+      "notes": [],
+      "see_also": [
+        "credential",
+        "verifiable-credential",
+        "revocation",
+        "status-record"
+      ],
+      "sources": [
+        {
+          "title": "Bitstring Status List v1.0",
+          "url": "https://www.w3.org/TR/vc-bitstring-status-list/",
+          "publisher": "W3C",
+          "normative": true,
+          "status": "Recommendation",
+          "version": "1.0",
+          "date": "2025-05-15"
+        }
+      ],
+      "mental_models": [],
+      "supporting_definitions": [],
+      "source_file": "spec/terms-definitions/bitstring-status-list.md",
+      "governance_profile": "core-operational",
+      "governance": {
+        "authority_scope": [
+          "credential_issuance",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct",
+        "revocation_supported": true,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "suspended",
+          "revoked",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "revocation_decision",
+          "reliance_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "status_record",
+          "verification_log",
+          "audit_log",
+          "registry_entry"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "revocation_decision",
+          "reliance_decision"
+        ],
+        "accountable_entity": "glossary_maintainers",
+        "evidence_produced": [
+          "status_record",
+          "verification_log",
+          "audit_log",
+          "registry_entry"
+        ]
+      },
+      "crosswalk": {
+        "w3c": [
+          "Bitstring Status List v1.0"
+        ]
+      },
+      "slug": "bitstring-status-list"
+    },
+    {
       "term": "blockchain",
       "aliases": [
         "blockchain",
@@ -3340,6 +3431,82 @@
         "iso": []
       },
       "slug": "broken-object-level-authorization"
+    },
+    {
+      "term": "c2pa-manifest",
+      "aliases": [
+        "C2PA Manifest"
+      ],
+      "definition": "A verifiable unit of C2PA provenance information that binds claims, assertions, content bindings, and signatures for an asset.",
+      "reader_note": "This term is part of the v1.2.0 standards-linked refresh and is anchored to active implementation vocabulary.",
+      "implementation_relevance": "Use this term when mapping glossary language to implementation profiles, governance controls, conformance checks, or assurance evidence.",
+      "notes": [],
+      "see_also": [
+        "c2pa",
+        "content-credential",
+        "claim-generator",
+        "digital-signature",
+        "provenance"
+      ],
+      "sources": [
+        {
+          "title": "C2PA Technical Specification 2.2",
+          "url": "https://spec.c2pa.org/specifications/specifications/2.2/specs/C2PA_Specification.html",
+          "publisher": "C2PA",
+          "normative": true,
+          "status": "Technical Specification",
+          "version": "2.2",
+          "date": "2025"
+        }
+      ],
+      "mental_models": [],
+      "supporting_definitions": [],
+      "source_file": "spec/terms-definitions/c2pa-manifest.md",
+      "governance_profile": "core-operational",
+      "governance": {
+        "authority_scope": [
+          "assurance_and_audit",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct",
+        "revocation_supported": false,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "reliance_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "attestation",
+          "verification_log",
+          "audit_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "reliance_decision"
+        ],
+        "accountable_entity": "glossary_maintainers",
+        "evidence_produced": [
+          "attestation",
+          "verification_log",
+          "audit_log"
+        ]
+      },
+      "crosswalk": {
+        "c2pa": [
+          "C2PA Technical Specification 2.2"
+        ]
+      },
+      "slug": "c2pa-manifest"
     },
     {
       "term": "c2pa",
@@ -4250,6 +4417,82 @@
       "slug": "ciphertext"
     },
     {
+      "term": "claim-generator",
+      "aliases": [
+        "C2PA claim generator",
+        "claim generator"
+      ],
+      "definition": "A hardware or software actor that creates a C2PA claim about an asset and signs or causes the signing of the associated manifest data.",
+      "reader_note": "This term is part of the v1.2.0 standards-linked refresh and is anchored to active implementation vocabulary.",
+      "implementation_relevance": "Use this term when mapping glossary language to implementation profiles, governance controls, conformance checks, or assurance evidence.",
+      "notes": [],
+      "see_also": [
+        "c2pa-manifest",
+        "content-credential",
+        "actor",
+        "digital-signature"
+      ],
+      "sources": [
+        {
+          "title": "C2PA Technical Specification 2.2",
+          "url": "https://spec.c2pa.org/specifications/specifications/2.2/specs/C2PA_Specification.html",
+          "publisher": "C2PA",
+          "normative": true,
+          "status": "Technical Specification",
+          "version": "2.2",
+          "date": "2025"
+        }
+      ],
+      "mental_models": [],
+      "supporting_definitions": [],
+      "source_file": "spec/terms-definitions/claim-generator.md",
+      "governance_profile": "core-operational",
+      "governance": {
+        "authority_scope": [
+          "assurance_and_audit",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct",
+        "revocation_supported": false,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "reliance_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "attestation",
+          "verification_log",
+          "audit_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "reliance_decision"
+        ],
+        "accountable_entity": "glossary_maintainers",
+        "evidence_produced": [
+          "attestation",
+          "verification_log",
+          "audit_log"
+        ]
+      },
+      "crosswalk": {
+        "c2pa": [
+          "C2PA Technical Specification 2.2"
+        ]
+      },
+      "slug": "claim-generator"
+    },
+    {
       "term": "claim",
       "aliases": [
         "claim",
@@ -4813,9 +5056,9 @@
       "definition": "In the context of decentralized digital trust infrastructure, compliance is the extent to which a system, actor, or party conforms to the requirements of a regulation, governance framework, or trust framework that pertains to that particular entity.",
       "notes": [],
       "see_also": [
-        "[[ref: Governance",
-        "Risk Management",
-        "and Compliance]]."
+        "governance-risk-management-compliance",
+        "governance-framework",
+        "trust-framework"
       ],
       "sources": [
         "ToIP CTWG maintained glossary source: `spec/terms-definitions/compliance.md`"
@@ -5227,6 +5470,82 @@
       "slug": "content-authenticity-initiative"
     },
     {
+      "term": "content-credential",
+      "aliases": [
+        "Content Credential",
+        "Content Credentials"
+      ],
+      "definition": "The user-facing C2PA term for provenance information represented by C2PA manifests associated with an asset.",
+      "reader_note": "This term is part of the v1.2.0 standards-linked refresh and is anchored to active implementation vocabulary.",
+      "implementation_relevance": "Use this term when mapping glossary language to implementation profiles, governance controls, conformance checks, or assurance evidence.",
+      "notes": [],
+      "see_also": [
+        "c2pa",
+        "c2pa-manifest",
+        "provenance",
+        "authenticity"
+      ],
+      "sources": [
+        {
+          "title": "C2PA Technical Specification 2.2",
+          "url": "https://spec.c2pa.org/specifications/specifications/2.2/specs/C2PA_Specification.html",
+          "publisher": "C2PA",
+          "normative": true,
+          "status": "Technical Specification",
+          "version": "2.2",
+          "date": "2025"
+        }
+      ],
+      "mental_models": [],
+      "supporting_definitions": [],
+      "source_file": "spec/terms-definitions/content-credential.md",
+      "governance_profile": "core-operational",
+      "governance": {
+        "authority_scope": [
+          "assurance_and_audit",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct",
+        "revocation_supported": false,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "reliance_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "attestation",
+          "verification_log",
+          "audit_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "reliance_decision"
+        ],
+        "accountable_entity": "glossary_maintainers",
+        "evidence_produced": [
+          "attestation",
+          "verification_log",
+          "audit_log"
+        ]
+      },
+      "crosswalk": {
+        "c2pa": [
+          "C2PA Technical Specification 2.2"
+        ]
+      },
+      "slug": "content-credential"
+    },
+    {
       "term": "contextual-linkability",
       "aliases": [
         "contextual-linkability",
@@ -5438,6 +5757,84 @@
         "iso": []
       },
       "slug": "controlled-document"
+    },
+    {
+      "term": "controlled-identifier",
+      "aliases": [
+        "controlled identifier"
+      ],
+      "definition": "An identifier whose controller can be discovered through an associated controlled identifier document containing verification material and service endpoints.",
+      "reader_note": "",
+      "implementation_relevance": "",
+      "notes": [],
+      "see_also": [
+        "decentralized-identifier",
+        "did-document",
+        "controller",
+        "cryptographic-key"
+      ],
+      "sources": [
+        {
+          "title": "Controlled Identifiers v1.0",
+          "url": "https://www.w3.org/TR/cid/",
+          "publisher": "W3C",
+          "normative": true,
+          "status": "Recommendation",
+          "version": "1.0",
+          "date": "2025-05-15"
+        }
+      ],
+      "mental_models": [],
+      "supporting_definitions": [],
+      "source_file": "spec/terms-definitions/controlled-identifier.md",
+      "governance_profile": "core-operational",
+      "governance": {
+        "authority_scope": [
+          "verification_and_reliance",
+          "delegation_and_scope"
+        ],
+        "delegation_mode": "direct_or_constrained",
+        "revocation_supported": false,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "reliance_decision",
+          "delegation_grant"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "verification_log",
+          "delegation_record",
+          "audit_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "reliance_decision",
+          "delegation_grant"
+        ],
+        "accountable_entity": "glossary_maintainers",
+        "evidence_produced": [
+          "verification_log",
+          "delegation_record",
+          "audit_log"
+        ]
+      },
+      "crosswalk": {
+        "w3c": [
+          "Controlled Identifiers v1.0",
+          "DID Core"
+        ]
+      },
+      "slug": "controlled-identifier"
     },
     {
       "term": "controller",
@@ -6802,6 +7199,82 @@
       "slug": "dark-pattern"
     },
     {
+      "term": "data-integrity-proof",
+      "aliases": [
+        "Data Integrity proof",
+        "VC Data Integrity proof"
+      ],
+      "definition": "A cryptographic proof mechanism used to protect the authenticity and integrity of verifiable credentials and similar constrained digital documents.",
+      "reader_note": "",
+      "implementation_relevance": "",
+      "notes": [],
+      "see_also": [
+        "digital-signature",
+        "cryptographic-verifiability",
+        "verifiable-credential",
+        "proof"
+      ],
+      "sources": [
+        {
+          "title": "Verifiable Credential Data Integrity 1.0",
+          "url": "https://www.w3.org/TR/vc-data-integrity/",
+          "publisher": "W3C",
+          "normative": true,
+          "status": "Recommendation",
+          "version": "1.0",
+          "date": "2025-05-15"
+        }
+      ],
+      "mental_models": [],
+      "supporting_definitions": [],
+      "source_file": "spec/terms-definitions/data-integrity-proof.md",
+      "governance_profile": "core-operational",
+      "governance": {
+        "authority_scope": [
+          "verification_and_reliance",
+          "assurance_and_audit"
+        ],
+        "delegation_mode": "direct",
+        "revocation_supported": false,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "reliance_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "verification_log",
+          "audit_log",
+          "attestation"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "reliance_decision"
+        ],
+        "accountable_entity": "glossary_maintainers",
+        "evidence_produced": [
+          "verification_log",
+          "audit_log",
+          "attestation"
+        ]
+      },
+      "crosswalk": {
+        "w3c": [
+          "Verifiable Credential Data Integrity 1.0"
+        ]
+      },
+      "slug": "data-integrity-proof"
+    },
+    {
       "term": "data-packet",
       "aliases": [
         "data packet",
@@ -7169,6 +7642,84 @@
         "iso": []
       },
       "slug": "datagram"
+    },
+    {
+      "term": "dcql",
+      "aliases": [
+        "Digital Credentials Query Language",
+        "DCQL"
+      ],
+      "definition": "A query language defined by OpenID4VP for requesting credential presentations in a flexible and credential-format-aware way.",
+      "reader_note": "",
+      "implementation_relevance": "",
+      "notes": [],
+      "see_also": [
+        "openid4vp",
+        "presentation-request",
+        "verifiable-presentation",
+        "credential"
+      ],
+      "sources": [
+        {
+          "title": "OpenID for Verifiable Presentations 1.0",
+          "url": "https://openid.net/specs/openid-4-verifiable-presentations-1_0.html",
+          "publisher": "OpenID Foundation",
+          "normative": true,
+          "status": "Final Specification",
+          "version": "1.0",
+          "date": "2025-07-09"
+        }
+      ],
+      "mental_models": [],
+      "supporting_definitions": [],
+      "source_file": "spec/terms-definitions/dcql.md",
+      "governance_profile": "core-operational",
+      "governance": {
+        "authority_scope": [
+          "verification_and_reliance",
+          "policy_definition"
+        ],
+        "delegation_mode": "direct",
+        "revocation_supported": false,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "reliance_decision",
+          "policy_approval"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "policy_document",
+          "verification_log",
+          "audit_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "reliance_decision",
+          "policy_approval"
+        ],
+        "accountable_entity": "glossary_maintainers",
+        "evidence_produced": [
+          "policy_document",
+          "verification_log",
+          "audit_log"
+        ]
+      },
+      "crosswalk": {
+        "openid": [
+          "OpenID4VP 1.0"
+        ]
+      },
+      "slug": "dcql"
     },
     {
       "term": "dead-drop",
@@ -9592,6 +10143,87 @@
       "slug": "domain"
     },
     {
+      "term": "dpop",
+      "aliases": [
+        "DPoP",
+        "Demonstrating Proof of Possession"
+      ],
+      "definition": "An OAuth 2.0 mechanism for sender-constraining tokens by requiring a client to prove possession of a private key when using a token.",
+      "reader_note": "This term is part of the v1.2.0 standards-linked refresh and is anchored to active implementation vocabulary.",
+      "implementation_relevance": "Use this term when mapping glossary language to implementation profiles, governance controls, conformance checks, or assurance evidence.",
+      "notes": [],
+      "see_also": [
+        "proof-of-possession",
+        "sender-constrained-token",
+        "cryptographic-key",
+        "authorization"
+      ],
+      "sources": [
+        {
+          "title": "OAuth 2.0 Demonstrating Proof of Possession",
+          "url": "https://www.rfc-editor.org/rfc/rfc9449.html",
+          "publisher": "IETF",
+          "normative": true,
+          "status": "RFC",
+          "version": "9449",
+          "date": "2023-09"
+        }
+      ],
+      "mental_models": [],
+      "supporting_definitions": [],
+      "source_file": "spec/terms-definitions/dpop.md",
+      "governance_profile": "core-operational",
+      "governance": {
+        "authority_scope": [
+          "access_decisioning",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct",
+        "revocation_supported": false,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "access_decision",
+          "reliance_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "access_decision_log",
+          "verification_log",
+          "audit_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "access_decision",
+          "reliance_decision"
+        ],
+        "accountable_entity": "glossary_maintainers",
+        "evidence_produced": [
+          "access_decision_log",
+          "verification_log",
+          "audit_log"
+        ]
+      },
+      "crosswalk": {
+        "ietf": [
+          "RFC 9449"
+        ],
+        "openid": [
+          "OpenID4VCI"
+        ]
+      },
+      "slug": "dpop"
+    },
+    {
       "term": "drm",
       "aliases": [
         "DRM"
@@ -10574,6 +11206,83 @@
       "slug": "enterprise-wallet"
     },
     {
+      "term": "entity-statement",
+      "aliases": [
+        "entity statement"
+      ],
+      "definition": "A signed statement in OpenID Federation that describes metadata, authority, and trust relationships for a federation entity.",
+      "reader_note": "This term is part of the v1.2.0 standards-linked refresh and is anchored to active implementation vocabulary.",
+      "implementation_relevance": "Use this term when mapping glossary language to implementation profiles, governance controls, conformance checks, or assurance evidence.",
+      "notes": [],
+      "see_also": [
+        "openid-federation",
+        "federation",
+        "trust-chain",
+        "metadata"
+      ],
+      "sources": [
+        {
+          "title": "OpenID Federation 1.0",
+          "url": "https://openid.net/specs/openid-federation-1_0.html",
+          "publisher": "OpenID Foundation",
+          "normative": true,
+          "status": "Final Specification",
+          "version": "1.0",
+          "date": "2026-02-17"
+        }
+      ],
+      "mental_models": [],
+      "supporting_definitions": [],
+      "source_file": "spec/terms-definitions/entity-statement.md",
+      "governance_profile": "core-operational",
+      "governance": {
+        "authority_scope": [
+          "governance_recognition",
+          "registry_management"
+        ],
+        "delegation_mode": "direct",
+        "revocation_supported": false,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "registration_decision",
+          "reliance_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "registry_entry",
+          "verification_log",
+          "audit_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "registration_decision",
+          "reliance_decision"
+        ],
+        "accountable_entity": "glossary_maintainers",
+        "evidence_produced": [
+          "registry_entry",
+          "verification_log",
+          "audit_log"
+        ]
+      },
+      "crosswalk": {
+        "openid": [
+          "OpenID Federation 1.0"
+        ]
+      },
+      "slug": "entity-statement"
+    },
+    {
       "term": "entity",
       "aliases": [
         "entity",
@@ -10749,6 +11458,97 @@
       "slug": "essr"
     },
     {
+      "term": "eudi-wallet",
+      "aliases": [
+        "European Digital Identity Wallet",
+        "EUDI Wallet",
+        "EUDIW"
+      ],
+      "definition": "A wallet ecosystem component under the European Digital Identity framework for storing and presenting person identification data, attestations, and credentials across EU contexts.",
+      "reader_note": "This term is part of the v1.2.0 standards-linked refresh and is anchored to active implementation vocabulary.",
+      "implementation_relevance": "Use this term when mapping glossary language to implementation profiles, governance controls, conformance checks, or assurance evidence.",
+      "notes": [],
+      "see_also": [
+        "digital-wallet",
+        "pid",
+        "qualified-electronic-attestation-of-attributes",
+        "eidas"
+      ],
+      "sources": [
+        {
+          "title": "EUDI Wallet Architecture and Reference Framework 2.0",
+          "url": "https://github.com/eu-digital-identity-wallet/eudi-doc-architecture-and-reference-framework",
+          "publisher": "European Commission",
+          "normative": true,
+          "status": "Architecture Reference Framework",
+          "version": "2.0",
+          "date": "2025-05-29"
+        }
+      ],
+      "mental_models": [],
+      "supporting_definitions": [],
+      "source_file": "spec/terms-definitions/eudi-wallet.md",
+      "governance_profile": "core-operational",
+      "governance": {
+        "authority_scope": [
+          "credential_issuance",
+          "verification_and_reliance",
+          "governance_recognition"
+        ],
+        "delegation_mode": "direct",
+        "revocation_supported": false,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "issuance_decision",
+          "reliance_decision",
+          "registration_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "policy_document",
+          "issuance_log",
+          "verification_log",
+          "registry_entry",
+          "audit_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "issuance_decision",
+          "reliance_decision",
+          "registration_decision"
+        ],
+        "accountable_entity": "glossary_maintainers",
+        "evidence_produced": [
+          "policy_document",
+          "issuance_log",
+          "verification_log",
+          "registry_entry",
+          "audit_log"
+        ]
+      },
+      "crosswalk": {
+        "eu": [
+          "EUDI ARF 2.0",
+          "eIDAS 2.0"
+        ],
+        "openid": [
+          "OpenID4VCI",
+          "OpenID4VP"
+        ]
+      },
+      "slug": "eudi-wallet"
+    },
+    {
       "term": "expression-language",
       "aliases": [
         "expression language",
@@ -10820,7 +11620,15 @@
         "glossary"
       ],
       "sources": [
-        "ToIP CTWG maintained glossary source: `spec/terms-definitions/fal.md`"
+        {
+          "title": "NIST SP 800-63-4 Digital Identity Guidelines",
+          "url": "https://doi.org/10.6028/NIST.SP.800-63-4",
+          "publisher": "NIST",
+          "normative": true,
+          "status": "Final",
+          "version": "800-63-4",
+          "date": "2025-08-01"
+        }
       ],
       "mental_models": [],
       "supporting_definitions": [],
@@ -10860,8 +11668,9 @@
         ]
       },
       "crosswalk": {
-        "nist": [],
-        "iso": []
+        "nist": [
+          "SP 800-63-4"
+        ]
       },
       "slug": "fal"
     },
@@ -12600,10 +13409,13 @@
         "guardianship",
         "guardianships"
       ],
-      "definition": "A guardianship arrangement (in a jurisdiction) is the specification of a set of rights and duties between legal entities of the [[ref: jurisdiction] that enforces these rights and duties, for the purpose of caring for, protecting, guarding, and defending one or more of these [[erf: entities]]. At a minimum, the entities participating in a guardianship arrangement are the guardian and the dependent.",
+      "definition": "A guardianship arrangement is the specification, within a jurisdiction, of rights and duties between legal entities for caring for, protecting, guarding, or defending one or more dependents. At a minimum, the participating entities are the guardian and the dependent.",
       "notes": [],
       "see_also": [
-        "custodianship arrangement."
+        "guardian",
+        "dependent",
+        "custodianship-arrangement",
+        "jurisdiction"
       ],
       "sources": [
         "[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#guardian)"
@@ -13502,7 +14314,15 @@
         "glossary"
       ],
       "sources": [
-        "ToIP CTWG maintained glossary source: `spec/terms-definitions/ial.md`"
+        {
+          "title": "NIST SP 800-63-4 Digital Identity Guidelines",
+          "url": "https://doi.org/10.6028/NIST.SP.800-63-4",
+          "publisher": "NIST",
+          "normative": true,
+          "status": "Final",
+          "version": "800-63-4",
+          "date": "2025-08-01"
+        }
       ],
       "mental_models": [],
       "supporting_definitions": [],
@@ -13542,8 +14362,9 @@
         ]
       },
       "crosswalk": {
-        "nist": [],
-        "iso": []
+        "nist": [
+          "SP 800-63-4"
+        ]
       },
       "slug": "ial"
     },
@@ -14626,8 +15447,10 @@
       "definition": "The Internet Protocol (IP) is the network layer communications protocol in the Internet protocol suite (also known as the TCP/IP suite) for relaying datagrams across network boundaries. Its routing function enables internetworking, and essentially establishes the Internet. IP has the task of delivering packets from the source host to the destination host solely based on the IP addresses in the packet headers. For this purpose, IP defines packet structures that encapsulate the data to be delivered. It also defines addressing methods that are used to label the datagram with source and destination information.",
       "notes": [],
       "see_also": [
-        "Transmission Control Protocol",
-        "User Datagram Protocol."
+        "tcp-ip",
+        "user-datagram-protocol",
+        "ip-address",
+        "internet-protocol-suite"
       ],
       "sources": [
         "[Wikipedia](https://en.wikipedia.org/wiki/Internet_Protocol)."
@@ -14933,6 +15756,86 @@
         "iso": []
       },
       "slug": "issuance"
+    },
+    {
+      "term": "issuer-metadata",
+      "aliases": [
+        "credential issuer metadata",
+        "issuer metadata"
+      ],
+      "definition": "Metadata published by a credential issuer describing issuer capabilities, credential configurations, endpoints, and supported formats.",
+      "reader_note": "",
+      "implementation_relevance": "",
+      "notes": [],
+      "see_also": [
+        "issuer",
+        "openid4vci",
+        "credential-schema",
+        "digital-wallet"
+      ],
+      "sources": [
+        {
+          "title": "OpenID for Verifiable Credential Issuance 1.0",
+          "url": "https://openid.net/specs/openid-4-verifiable-credential-issuance-1_0.html",
+          "publisher": "OpenID Foundation",
+          "normative": true,
+          "status": "Final Specification",
+          "version": "1.0",
+          "date": "2025-09-16"
+        }
+      ],
+      "mental_models": [],
+      "supporting_definitions": [],
+      "source_file": "spec/terms-definitions/issuer-metadata.md",
+      "governance_profile": "core-operational",
+      "governance": {
+        "authority_scope": [
+          "credential_issuance",
+          "registry_management"
+        ],
+        "delegation_mode": "direct",
+        "revocation_supported": false,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "issuance_decision",
+          "registration_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "registry_entry",
+          "policy_document",
+          "issuance_log",
+          "audit_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "issuance_decision",
+          "registration_decision"
+        ],
+        "accountable_entity": "glossary_maintainers",
+        "evidence_produced": [
+          "registry_entry",
+          "policy_document",
+          "issuance_log",
+          "audit_log"
+        ]
+      },
+      "crosswalk": {
+        "openid": [
+          "OpenID4VCI 1.0"
+        ]
+      },
+      "slug": "issuer-metadata"
     },
     {
       "term": "issuer",
@@ -15254,6 +16157,79 @@
         "iso": []
       },
       "slug": "keri"
+    },
+    {
+      "term": "key-binding-jwt",
+      "aliases": [
+        "KB-JWT",
+        "Key Binding JWT"
+      ],
+      "definition": "A JWT used to demonstrate holder control of a key associated with an SD-JWT or SD-JWT VC presentation.",
+      "reader_note": "",
+      "implementation_relevance": "",
+      "notes": [],
+      "see_also": [
+        "holder-binding",
+        "sd-jwt-vc",
+        "proof-of-possession",
+        "cryptographic-key"
+      ],
+      "sources": [
+        {
+          "title": "SD-JWT-based Verifiable Credentials",
+          "url": "https://www.rfc-editor.org/rfc/rfc9901.html",
+          "publisher": "IETF",
+          "normative": true,
+          "status": "RFC",
+          "version": "9901",
+          "date": "2025"
+        }
+      ],
+      "mental_models": [],
+      "supporting_definitions": [],
+      "source_file": "spec/terms-definitions/key-binding-jwt.md",
+      "governance_profile": "core-operational",
+      "governance": {
+        "authority_scope": [
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct",
+        "revocation_supported": false,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "reliance_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "verification_log",
+          "audit_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "reliance_decision"
+        ],
+        "accountable_entity": "glossary_maintainers",
+        "evidence_produced": [
+          "verification_log",
+          "audit_log"
+        ]
+      },
+      "crosswalk": {
+        "ietf": [
+          "RFC 9901"
+        ]
+      },
+      "slug": "key-binding-jwt"
     },
     {
       "term": "key-establishment",
@@ -16946,6 +17922,79 @@
       "slug": "mandatory"
     },
     {
+      "term": "manifest-consumer",
+      "aliases": [
+        "C2PA manifest consumer",
+        "manifest consumer"
+      ],
+      "definition": "An actor that consumes an asset with an associated C2PA manifest to obtain and evaluate provenance data.",
+      "reader_note": "This term is part of the v1.2.0 standards-linked refresh and is anchored to active implementation vocabulary.",
+      "implementation_relevance": "Use this term when mapping glossary language to implementation profiles, governance controls, conformance checks, or assurance evidence.",
+      "notes": [],
+      "see_also": [
+        "c2pa-manifest",
+        "content-credential",
+        "validation",
+        "provenance"
+      ],
+      "sources": [
+        {
+          "title": "C2PA Technical Specification 2.2",
+          "url": "https://spec.c2pa.org/specifications/specifications/2.2/specs/C2PA_Specification.html",
+          "publisher": "C2PA",
+          "normative": true,
+          "status": "Technical Specification",
+          "version": "2.2",
+          "date": "2025"
+        }
+      ],
+      "mental_models": [],
+      "supporting_definitions": [],
+      "source_file": "spec/terms-definitions/manifest-consumer.md",
+      "governance_profile": "core-operational",
+      "governance": {
+        "authority_scope": [
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct",
+        "revocation_supported": false,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "reliance_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "verification_log",
+          "audit_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "reliance_decision"
+        ],
+        "accountable_entity": "glossary_maintainers",
+        "evidence_produced": [
+          "verification_log",
+          "audit_log"
+        ]
+      },
+      "crosswalk": {
+        "c2pa": [
+          "C2PA Technical Specification 2.2"
+        ]
+      },
+      "slug": "manifest-consumer"
+    },
+    {
       "term": "message",
       "aliases": [
         "message",
@@ -18134,6 +19183,244 @@
         "iso": []
       },
       "slug": "oobi"
+    },
+    {
+      "term": "openid-federation",
+      "aliases": [
+        "OpenID Federation"
+      ],
+      "definition": "A federation framework for establishing trust among OpenID participants using entity statements, trust chains, and federation metadata.",
+      "reader_note": "",
+      "implementation_relevance": "",
+      "notes": [],
+      "see_also": [
+        "federation",
+        "trust-chain",
+        "entity-statement",
+        "trust-anchor"
+      ],
+      "sources": [
+        {
+          "title": "OpenID Federation 1.0",
+          "url": "https://openid.net/specs/openid-federation-1_0.html",
+          "publisher": "OpenID Foundation",
+          "normative": true,
+          "status": "Final Specification",
+          "version": "1.0",
+          "date": "2026-02-17"
+        }
+      ],
+      "mental_models": [],
+      "supporting_definitions": [],
+      "source_file": "spec/terms-definitions/openid-federation.md",
+      "governance_profile": "core-operational",
+      "governance": {
+        "authority_scope": [
+          "governance_recognition",
+          "registry_management",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct",
+        "revocation_supported": false,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "registration_decision",
+          "reliance_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "registry_entry",
+          "verification_log",
+          "audit_log",
+          "policy_document"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "registration_decision",
+          "reliance_decision"
+        ],
+        "accountable_entity": "glossary_maintainers",
+        "evidence_produced": [
+          "registry_entry",
+          "verification_log",
+          "audit_log",
+          "policy_document"
+        ]
+      },
+      "crosswalk": {
+        "openid": [
+          "OpenID Federation 1.0"
+        ]
+      },
+      "slug": "openid-federation"
+    },
+    {
+      "term": "openid4vci",
+      "aliases": [
+        "OpenID4VCI",
+        "OID4VCI"
+      ],
+      "definition": "An OpenID Foundation protocol that defines OAuth 2.0-based mechanisms for issuing verifiable credentials from credential issuers to wallets.",
+      "reader_note": "",
+      "implementation_relevance": "",
+      "notes": [],
+      "see_also": [
+        "issuer",
+        "credential-offer",
+        "credential-request",
+        "digital-wallet",
+        "verifiable-credential"
+      ],
+      "sources": [
+        {
+          "title": "OpenID for Verifiable Credential Issuance 1.0",
+          "url": "https://openid.net/specs/openid-4-verifiable-credential-issuance-1_0.html",
+          "publisher": "OpenID Foundation",
+          "normative": true,
+          "status": "Final Specification",
+          "version": "1.0",
+          "date": "2025-09-16"
+        }
+      ],
+      "mental_models": [],
+      "supporting_definitions": [],
+      "source_file": "spec/terms-definitions/openid4vci.md",
+      "governance_profile": "core-operational",
+      "governance": {
+        "authority_scope": [
+          "credential_issuance",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct",
+        "revocation_supported": false,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "issuance_decision",
+          "reliance_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "issuance_log",
+          "verification_log",
+          "policy_document",
+          "audit_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "issuance_decision",
+          "reliance_decision"
+        ],
+        "accountable_entity": "glossary_maintainers",
+        "evidence_produced": [
+          "issuance_log",
+          "verification_log",
+          "policy_document",
+          "audit_log"
+        ]
+      },
+      "crosswalk": {
+        "openid": [
+          "OpenID4VCI 1.0"
+        ]
+      },
+      "slug": "openid4vci"
+    },
+    {
+      "term": "openid4vp",
+      "aliases": [
+        "OpenID4VP",
+        "OID4VP"
+      ],
+      "definition": "An OpenID Foundation protocol that defines mechanisms for requesting and presenting credentials between wallets and verifiers.",
+      "reader_note": "",
+      "implementation_relevance": "",
+      "notes": [],
+      "see_also": [
+        "presentation",
+        "presentation-request",
+        "verifiable-presentation",
+        "vp-token",
+        "digital-wallet",
+        "verifier"
+      ],
+      "sources": [
+        {
+          "title": "OpenID for Verifiable Presentations 1.0",
+          "url": "https://openid.net/specs/openid-4-verifiable-presentations-1_0.html",
+          "publisher": "OpenID Foundation",
+          "normative": true,
+          "status": "Final Specification",
+          "version": "1.0",
+          "date": "2025-07-09"
+        }
+      ],
+      "mental_models": [],
+      "supporting_definitions": [],
+      "source_file": "spec/terms-definitions/openid4vp.md",
+      "governance_profile": "core-operational",
+      "governance": {
+        "authority_scope": [
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct",
+        "revocation_supported": false,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "reliance_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "verification_log",
+          "audit_log",
+          "policy_document"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "reliance_decision"
+        ],
+        "accountable_entity": "glossary_maintainers",
+        "evidence_produced": [
+          "verification_log",
+          "audit_log",
+          "policy_document"
+        ]
+      },
+      "crosswalk": {
+        "openid": [
+          "OpenID4VP 1.0"
+        ]
+      },
+      "slug": "openid4vp"
     },
     {
       "term": "openwallet-foundation",
@@ -19570,6 +20857,88 @@
       "slug": "physical-credential"
     },
     {
+      "term": "pid",
+      "aliases": [
+        "Person Identification Data",
+        "PID"
+      ],
+      "definition": "A set of identity attributes used in the EUDI Wallet ecosystem to identify a natural or legal person under the applicable legal and governance framework.",
+      "reader_note": "This term is part of the v1.2.0 standards-linked refresh and is anchored to active implementation vocabulary.",
+      "implementation_relevance": "Use this term when mapping glossary language to implementation profiles, governance controls, conformance checks, or assurance evidence.",
+      "notes": [],
+      "see_also": [
+        "eudi-wallet",
+        "identity-data",
+        "natural-person",
+        "legal-person"
+      ],
+      "sources": [
+        {
+          "title": "EUDI Wallet Architecture and Reference Framework 2.0",
+          "url": "https://github.com/eu-digital-identity-wallet/eudi-doc-architecture-and-reference-framework",
+          "publisher": "European Commission",
+          "normative": true,
+          "status": "Architecture Reference Framework",
+          "version": "2.0",
+          "date": "2025-05-29"
+        }
+      ],
+      "mental_models": [],
+      "supporting_definitions": [],
+      "source_file": "spec/terms-definitions/pid.md",
+      "governance_profile": "core-operational",
+      "governance": {
+        "authority_scope": [
+          "credential_issuance",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct",
+        "revocation_supported": true,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "suspended",
+          "revoked",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "issuance_decision",
+          "reliance_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "issuance_log",
+          "verification_log",
+          "policy_document",
+          "audit_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "issuance_decision",
+          "reliance_decision"
+        ],
+        "accountable_entity": "glossary_maintainers",
+        "evidence_produced": [
+          "issuance_log",
+          "verification_log",
+          "policy_document",
+          "audit_log"
+        ]
+      },
+      "crosswalk": {
+        "eu": [
+          "EUDI ARF 2.0"
+        ]
+      },
+      "slug": "pid"
+    },
+    {
       "term": "pii",
       "aliases": [
         "PII"
@@ -20964,6 +22333,81 @@
       "slug": "protocol-stack"
     },
     {
+      "term": "provenance",
+      "aliases": [
+        "provenance"
+      ],
+      "definition": "Information about the origin, history, custody, transformation, or source lineage of data, content, credentials, or governed artifacts.",
+      "reader_note": "This bridge term improves navigation across privacy, status, provenance, and assurance concepts.",
+      "implementation_relevance": "Use this term where evidence needs to be carried across both reader-facing documentation and machine-verifiable assurance artifacts.",
+      "notes": [],
+      "see_also": [
+        "c2pa-manifest",
+        "content-credential",
+        "audit-log",
+        "authenticity"
+      ],
+      "sources": [
+        {
+          "title": "C2PA Technical Specification 2.2",
+          "url": "https://spec.c2pa.org/specifications/specifications/2.2/specs/C2PA_Specification.html",
+          "publisher": "C2PA",
+          "normative": true,
+          "status": "Technical Specification",
+          "version": "2.2",
+          "date": "2025"
+        }
+      ],
+      "mental_models": [],
+      "supporting_definitions": [],
+      "source_file": "spec/terms-definitions/provenance.md",
+      "governance_profile": "core-operational",
+      "governance": {
+        "authority_scope": [
+          "assurance_and_audit",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct",
+        "revocation_supported": false,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "reliance_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "verification_log",
+          "audit_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "reliance_decision"
+        ],
+        "accountable_entity": "glossary_maintainers",
+        "evidence_produced": [
+          "verification_log",
+          "audit_log"
+        ]
+      },
+      "crosswalk": {
+        "w3c": [],
+        "c2pa": [
+          "C2PA Technical Specification 2.2"
+        ],
+        "ietf": []
+      },
+      "slug": "provenance"
+    },
+    {
       "term": "pseudonym",
       "aliases": [
         "pseudonym",
@@ -21346,6 +22790,94 @@
         "iso": []
       },
       "slug": "qr-code"
+    },
+    {
+      "term": "qualified-electronic-attestation-of-attributes",
+      "aliases": [
+        "QEAA",
+        "qualified attribute attestation"
+      ],
+      "definition": "An attestation of attributes issued under qualified trust service rules in the European digital identity framework.",
+      "reader_note": "This term is part of the v1.2.0 standards-linked refresh and is anchored to active implementation vocabulary.",
+      "implementation_relevance": "Use this term when mapping glossary language to implementation profiles, governance controls, conformance checks, or assurance evidence.",
+      "notes": [],
+      "see_also": [
+        "attestation",
+        "eudi-wallet",
+        "trust-service-provider",
+        "credential"
+      ],
+      "sources": [
+        {
+          "title": "EUDI Wallet Architecture and Reference Framework 2.0",
+          "url": "https://github.com/eu-digital-identity-wallet/eudi-doc-architecture-and-reference-framework",
+          "publisher": "European Commission",
+          "normative": true,
+          "status": "Architecture Reference Framework",
+          "version": "2.0",
+          "date": "2025-05-29"
+        }
+      ],
+      "mental_models": [],
+      "supporting_definitions": [],
+      "source_file": "spec/terms-definitions/qualified-electronic-attestation-of-attributes.md",
+      "governance_profile": "core-operational",
+      "governance": {
+        "authority_scope": [
+          "credential_issuance",
+          "governance_recognition",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct",
+        "revocation_supported": true,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "suspended",
+          "revoked",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "issuance_decision",
+          "registration_decision",
+          "reliance_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "attestation",
+          "issuance_log",
+          "registry_entry",
+          "verification_log",
+          "audit_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "issuance_decision",
+          "registration_decision",
+          "reliance_decision"
+        ],
+        "accountable_entity": "glossary_maintainers",
+        "evidence_produced": [
+          "attestation",
+          "issuance_log",
+          "registry_entry",
+          "verification_log",
+          "audit_log"
+        ]
+      },
+      "crosswalk": {
+        "eu": [
+          "EUDI ARF 2.0",
+          "eIDAS 2.0"
+        ]
+      },
+      "slug": "qualified-electronic-attestation-of-attributes"
     },
     {
       "term": "rbac",
@@ -23579,6 +25111,88 @@
       "slug": "scope"
     },
     {
+      "term": "sd-jwt-vc",
+      "aliases": [
+        "SD-JWT VC",
+        "SD-JWT-based Verifiable Credential"
+      ],
+      "definition": "A verifiable credential encoded using Selective Disclosure JWT mechanisms, enabling selected claims to be disclosed while preserving cryptographic verification.",
+      "reader_note": "",
+      "implementation_relevance": "",
+      "notes": [],
+      "see_also": [
+        "selective-disclosure",
+        "verifiable-credential",
+        "secured-verifiable-credential",
+        "key-binding-jwt"
+      ],
+      "sources": [
+        {
+          "title": "SD-JWT-based Verifiable Credentials",
+          "url": "https://www.rfc-editor.org/rfc/rfc9901.html",
+          "publisher": "IETF",
+          "normative": true,
+          "status": "RFC",
+          "version": "9901",
+          "date": "2025"
+        }
+      ],
+      "mental_models": [],
+      "supporting_definitions": [],
+      "source_file": "spec/terms-definitions/sd-jwt-vc.md",
+      "governance_profile": "core-operational",
+      "governance": {
+        "authority_scope": [
+          "credential_issuance",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct",
+        "revocation_supported": false,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "issuance_decision",
+          "reliance_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "issuance_log",
+          "verification_log",
+          "audit_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "issuance_decision",
+          "reliance_decision"
+        ],
+        "accountable_entity": "glossary_maintainers",
+        "evidence_produced": [
+          "issuance_log",
+          "verification_log",
+          "audit_log"
+        ]
+      },
+      "crosswalk": {
+        "ietf": [
+          "RFC 9901"
+        ],
+        "openid": [
+          "OpenID4VCI",
+          "OpenID4VP"
+        ]
+      },
+      "slug": "sd-jwt-vc"
+    },
+    {
       "term": "second-party",
       "aliases": [
         "second party",
@@ -23829,6 +25443,106 @@
       "slug": "secure-multi-party-computation"
     },
     {
+      "term": "secured-verifiable-credential",
+      "aliases": [
+        "secured VC",
+        "secured credential"
+      ],
+      "definition": "A verifiable credential protected by a securing mechanism such as Data Integrity proofs, JOSE, COSE, or SD-JWT so that authenticity and integrity can be verified.",
+      "reader_note": "",
+      "implementation_relevance": "",
+      "notes": [],
+      "see_also": [
+        "verifiable-credential",
+        "data-integrity-proof",
+        "sd-jwt-vc",
+        "cryptographic-verifiability"
+      ],
+      "sources": [
+        {
+          "title": "Securing Verifiable Credentials using JOSE and COSE",
+          "url": "https://www.w3.org/TR/vc-jose-cose/",
+          "publisher": "W3C",
+          "normative": true,
+          "status": "Recommendation",
+          "version": "1.0",
+          "date": "2025-05-15"
+        },
+        {
+          "title": "Verifiable Credential Data Integrity 1.0",
+          "url": "https://www.w3.org/TR/vc-data-integrity/",
+          "publisher": "W3C",
+          "normative": true,
+          "status": "Recommendation",
+          "version": "1.0",
+          "date": "2025-05-15"
+        },
+        {
+          "title": "SD-JWT-based Verifiable Credentials",
+          "url": "https://www.rfc-editor.org/rfc/rfc9901.html",
+          "publisher": "IETF",
+          "normative": true,
+          "status": "RFC",
+          "version": "9901",
+          "date": "2025"
+        }
+      ],
+      "mental_models": [],
+      "supporting_definitions": [],
+      "source_file": "spec/terms-definitions/secured-verifiable-credential.md",
+      "governance_profile": "core-operational",
+      "governance": {
+        "authority_scope": [
+          "credential_issuance",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct",
+        "revocation_supported": false,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "issuance_decision",
+          "reliance_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "issuance_log",
+          "verification_log",
+          "audit_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "issuance_decision",
+          "reliance_decision"
+        ],
+        "accountable_entity": "glossary_maintainers",
+        "evidence_produced": [
+          "issuance_log",
+          "verification_log",
+          "audit_log"
+        ]
+      },
+      "crosswalk": {
+        "w3c": [
+          "VC JOSE COSE",
+          "VC Data Integrity"
+        ],
+        "ietf": [
+          "RFC 9901"
+        ]
+      },
+      "slug": "secured-verifiable-credential"
+    },
+    {
       "term": "security-domain",
       "aliases": [
         "security domain",
@@ -23945,6 +25659,83 @@
         "iso": []
       },
       "slug": "security-policy"
+    },
+    {
+      "term": "selective-disclosure",
+      "aliases": [
+        "selective disclosure"
+      ],
+      "definition": "A privacy-preserving presentation capability that allows a holder to disclose only selected claims or attributes from a credential while preserving verifiability.",
+      "reader_note": "This bridge term improves navigation across privacy, status, provenance, and assurance concepts.",
+      "implementation_relevance": "Use this term where evidence needs to be carried across both reader-facing documentation and machine-verifiable assurance artifacts.",
+      "notes": [],
+      "see_also": [
+        "sd-jwt-vc",
+        "verifiable-presentation",
+        "zero-knowledge-proof",
+        "correlation-privacy"
+      ],
+      "sources": [
+        {
+          "title": "SD-JWT-based Verifiable Credentials",
+          "url": "https://www.rfc-editor.org/rfc/rfc9901.html",
+          "publisher": "IETF",
+          "normative": true,
+          "status": "RFC",
+          "version": "9901",
+          "date": "2025"
+        }
+      ],
+      "mental_models": [],
+      "supporting_definitions": [],
+      "source_file": "spec/terms-definitions/selective-disclosure.md",
+      "governance_profile": "core-operational",
+      "governance": {
+        "authority_scope": [
+          "assurance_and_audit",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct",
+        "revocation_supported": false,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "reliance_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "verification_log",
+          "audit_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "reliance_decision"
+        ],
+        "accountable_entity": "glossary_maintainers",
+        "evidence_produced": [
+          "verification_log",
+          "audit_log"
+        ]
+      },
+      "crosswalk": {
+        "w3c": [
+          "VC Data Model v2.0"
+        ],
+        "c2pa": [],
+        "ietf": [
+          "RFC 9901"
+        ]
+      },
+      "slug": "selective-disclosure"
     },
     {
       "term": "self-asserted",
@@ -24089,8 +25880,9 @@
       "definition": "A subclass of verifiable identifier (VID) that is cryptographically verifiable without the need to rely on any third party for verification because the identifier is cryptographically bound to the cryptographic keys from which it was generated.",
       "notes": [],
       "see_also": [
-        "autonomic identifier and the KERI specific [[xref: keri1",
-        "self-certifying-identifier]]."
+        "autonomic-identifier",
+        "verifiable-identifier",
+        "cryptographic-key"
       ],
       "sources": [
         "ToIP CTWG maintained glossary source: `spec/terms-definitions/self-certifying-identifier.md`"
@@ -24212,6 +26004,83 @@
         "iso": []
       },
       "slug": "self-sovereign-identity"
+    },
+    {
+      "term": "sender-constrained-token",
+      "aliases": [
+        "sender constrained token"
+      ],
+      "definition": "A token whose use is cryptographically constrained to a specific sender or key holder, reducing replay risk if the token is copied.",
+      "reader_note": "This term is part of the v1.2.0 standards-linked refresh and is anchored to active implementation vocabulary.",
+      "implementation_relevance": "Use this term when mapping glossary language to implementation profiles, governance controls, conformance checks, or assurance evidence.",
+      "notes": [],
+      "see_also": [
+        "dpop",
+        "proof-of-possession",
+        "authorization",
+        "access-control"
+      ],
+      "sources": [
+        {
+          "title": "OAuth 2.0 Demonstrating Proof of Possession",
+          "url": "https://www.rfc-editor.org/rfc/rfc9449.html",
+          "publisher": "IETF",
+          "normative": true,
+          "status": "RFC",
+          "version": "9449",
+          "date": "2023-09"
+        }
+      ],
+      "mental_models": [],
+      "supporting_definitions": [],
+      "source_file": "spec/terms-definitions/sender-constrained-token.md",
+      "governance_profile": "core-operational",
+      "governance": {
+        "authority_scope": [
+          "access_decisioning",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct",
+        "revocation_supported": false,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "access_decision",
+          "reliance_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "access_decision_log",
+          "verification_log",
+          "audit_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "access_decision",
+          "reliance_decision"
+        ],
+        "accountable_entity": "glossary_maintainers",
+        "evidence_produced": [
+          "access_decision_log",
+          "verification_log",
+          "audit_log"
+        ]
+      },
+      "crosswalk": {
+        "ietf": [
+          "RFC 9449"
+        ]
+      },
+      "slug": "sender-constrained-token"
     },
     {
       "term": "sensitive-data",
@@ -24748,6 +26617,181 @@
         "iso": []
       },
       "slug": "ssi"
+    },
+    {
+      "term": "status-provider",
+      "aliases": [
+        "credential status provider",
+        "status provider"
+      ],
+      "definition": "An entity that provides status information such as suspension or revocation for a credential.",
+      "reader_note": "",
+      "implementation_relevance": "",
+      "notes": [],
+      "see_also": [
+        "bitstring-status-list",
+        "revocation",
+        "status-record",
+        "verifiable-credential"
+      ],
+      "sources": [
+        {
+          "title": "SD-JWT-based Verifiable Credentials",
+          "url": "https://www.rfc-editor.org/rfc/rfc9901.html",
+          "publisher": "IETF",
+          "normative": true,
+          "status": "RFC",
+          "version": "9901",
+          "date": "2025"
+        },
+        {
+          "title": "Bitstring Status List v1.0",
+          "url": "https://www.w3.org/TR/vc-bitstring-status-list/",
+          "publisher": "W3C",
+          "normative": true,
+          "status": "Recommendation",
+          "version": "1.0",
+          "date": "2025-05-15"
+        }
+      ],
+      "mental_models": [],
+      "supporting_definitions": [],
+      "source_file": "spec/terms-definitions/status-provider.md",
+      "governance_profile": "core-operational",
+      "governance": {
+        "authority_scope": [
+          "registry_management",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct",
+        "revocation_supported": true,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "suspended",
+          "revoked",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "revocation_decision",
+          "reliance_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "status_record",
+          "registry_entry",
+          "verification_log",
+          "audit_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "revocation_decision",
+          "reliance_decision"
+        ],
+        "accountable_entity": "glossary_maintainers",
+        "evidence_produced": [
+          "status_record",
+          "registry_entry",
+          "verification_log",
+          "audit_log"
+        ]
+      },
+      "crosswalk": {
+        "ietf": [
+          "RFC 9901"
+        ],
+        "w3c": [
+          "Bitstring Status List v1.0"
+        ]
+      },
+      "slug": "status-provider"
+    },
+    {
+      "term": "status-record",
+      "aliases": [
+        "status record"
+      ],
+      "definition": "An inspectable record that represents the validity, suspension, revocation, or lifecycle status of a credential, authorization, registration, or governed object.",
+      "reader_note": "This bridge term improves navigation across privacy, status, provenance, and assurance concepts.",
+      "implementation_relevance": "Use this term where evidence needs to be carried across both reader-facing documentation and machine-verifiable assurance artifacts.",
+      "notes": [],
+      "see_also": [
+        "revocation",
+        "bitstring-status-list",
+        "audit-log",
+        "verification"
+      ],
+      "sources": [
+        {
+          "title": "Verifiable Credentials Data Model v2.0",
+          "url": "https://www.w3.org/TR/vc-data-model-2.0/",
+          "publisher": "W3C",
+          "normative": true,
+          "status": "Recommendation",
+          "version": "2.0",
+          "date": "2025-05-15"
+        }
+      ],
+      "mental_models": [],
+      "supporting_definitions": [],
+      "source_file": "spec/terms-definitions/status-record.md",
+      "governance_profile": "core-operational",
+      "governance": {
+        "authority_scope": [
+          "assurance_and_audit",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct",
+        "revocation_supported": true,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "suspended",
+          "revoked",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "revocation_decision",
+          "reliance_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "status_record",
+          "verification_log",
+          "audit_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "revocation_decision",
+          "reliance_decision"
+        ],
+        "accountable_entity": "glossary_maintainers",
+        "evidence_produced": [
+          "status_record",
+          "verification_log",
+          "audit_log"
+        ]
+      },
+      "crosswalk": {
+        "w3c": [
+          "VC Data Model v2.0"
+        ],
+        "c2pa": [],
+        "ietf": []
+      },
+      "slug": "status-record"
     },
     {
       "term": "stream",
@@ -28889,14 +30933,25 @@
         "trust chain",
         "trust chains"
       ],
-      "definition": "A set of cryptographically verifiable links between digital credentials or other data containers that enable transitive trust decisions.",
+      "definition": "A sequence of cryptographically verifiable links, statements, or governance-recognized relationships used to establish whether a participant, key, credential, or federation entity should be trusted for a relying decision.",
       "notes": [],
       "see_also": [
-        "chained credentials",
-        "trust graph."
+        "openid-federation",
+        "entity-statement",
+        "trust-anchor",
+        "chain-of-trust",
+        "trust-registry"
       ],
       "sources": [
-        "ToIP CTWG maintained glossary source: `spec/terms-definitions/trust-chain.md`"
+        {
+          "title": "OpenID Federation 1.0",
+          "url": "https://openid.net/specs/openid-federation-1_0.html",
+          "publisher": "OpenID Foundation",
+          "normative": true,
+          "status": "Final Specification",
+          "version": "1.0",
+          "date": "2026-02-17"
+        }
       ],
       "mental_models": [],
       "supporting_definitions": [
@@ -28950,9 +31005,12 @@
         ]
       },
       "crosswalk": {
-        "nist": [],
-        "iso": []
+        "openid": [
+          "OpenID Federation 1.0"
+        ]
       },
+      "reader_note": "In OpenID Federation this concept is expressed through signed entity statements and trust anchors. In credential ecosystems it can also describe transitive credential or registry relationships.",
+      "implementation_relevance": "Use this term when a verifier or relying party must validate more than one link of authority before accepting a credential, key, or participant.",
       "slug": "trust-chain"
     },
     {
@@ -29148,10 +31206,10 @@
       "definition": "A security domain defined by a computer hardware or software architecture, a security policy, or a trust community, typically via a trust framework or governance framework.",
       "notes": [],
       "see_also": [
-        "trust context",
-        "digital trust ecosystem.",
-        "[[xref: keri1",
-        "trust-domain]]"
+        "trust-context",
+        "digital-trust-ecosystem",
+        "security-domain",
+        "trust-framework"
       ],
       "sources": [
         "ToIP CTWG maintained glossary source: `spec/terms-definitions/trust-domain.md`"
@@ -32298,6 +34356,94 @@
       "slug": "vc"
     },
     {
+      "term": "verifiable-credential-data-model-2-0",
+      "aliases": [
+        "VC Data Model 2.0",
+        "VCDM 2.0"
+      ],
+      "definition": "The W3C data model for expressing verifiable credentials and verifiable presentations using common roles, properties, lifecycle semantics, and securing mechanisms.",
+      "reader_note": "",
+      "implementation_relevance": "Use this term when distinguishing the W3C credential data model from credential transport protocols and credential securing formats.",
+      "notes": [],
+      "see_also": [
+        "verifiable-credential",
+        "verifiable-presentation",
+        "data-integrity-proof",
+        "secured-verifiable-credential",
+        "bitstring-status-list"
+      ],
+      "sources": [
+        {
+          "title": "Verifiable Credentials Data Model v2.0",
+          "url": "https://www.w3.org/TR/vc-data-model-2.0/",
+          "publisher": "W3C",
+          "normative": true,
+          "status": "Recommendation",
+          "version": "2.0",
+          "date": "2025-05-15"
+        }
+      ],
+      "mental_models": [],
+      "supporting_definitions": [],
+      "source_file": "spec/terms-definitions/verifiable-credential-data-model-2-0.md",
+      "governance_profile": "core-operational",
+      "governance": {
+        "authority_scope": [
+          "credential_issuance",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct",
+        "revocation_supported": false,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "issuance_decision",
+          "reliance_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "policy_document",
+          "issuance_log",
+          "verification_log",
+          "audit_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "issuance_decision",
+          "reliance_decision"
+        ],
+        "accountable_entity": "glossary_maintainers",
+        "evidence_produced": [
+          "policy_document",
+          "issuance_log",
+          "verification_log",
+          "audit_log"
+        ]
+      },
+      "crosswalk": {
+        "w3c": [
+          "VC Data Model v2.0"
+        ],
+        "openid": [
+          "OpenID4VCI",
+          "OpenID4VP"
+        ],
+        "ietf": [
+          "SD-JWT VC"
+        ]
+      },
+      "slug": "verifiable-credential-data-model-2-0"
+    },
+    {
       "term": "verifiable-credential",
       "aliases": [
         "verifiable credential",
@@ -32305,15 +34451,37 @@
         "VC",
         "VCs"
       ],
-      "definition": "A standard data model and representation format for cryptographically-verifiable digital credentials as defined by the W3C Verifiable Credentials Data Model Specification.",
+      "definition": "A cryptographically secured credential whose authenticity and integrity can be verified, including credentials represented using the W3C Verifiable Credentials Data Model, ISO mdoc, or SD-JWT VC profiles depending on the ecosystem profile.",
       "notes": [],
       "see_also": [
-        "digital credential.",
-        "[[xref: keri1",
-        "verifiable-credential]]"
+        "digital-credential",
+        "verifiable-credential-data-model-2-0",
+        "secured-verifiable-credential",
+        "verifiable-presentation",
+        "bitstring-status-list",
+        "openid4vci",
+        "openid4vp",
+        "sd-jwt-vc"
       ],
       "sources": [
-        "[W3C DID](https://www.w3.org/TR/did-core/#terminology)"
+        {
+          "title": "Verifiable Credentials Data Model v2.0",
+          "url": "https://www.w3.org/TR/vc-data-model-2.0/",
+          "publisher": "W3C",
+          "normative": true,
+          "status": "Recommendation",
+          "version": "2.0",
+          "date": "2025-05-15"
+        },
+        {
+          "title": "SD-JWT-based Verifiable Credentials",
+          "url": "https://www.rfc-editor.org/rfc/rfc9901.html",
+          "publisher": "IETF",
+          "normative": true,
+          "status": "RFC",
+          "version": "9901",
+          "date": "2025"
+        }
       ],
       "mental_models": [
         "[W3C Verifiable Credentials Data Model Roles & Information Flows](https://www.w3.org/TR/vc-data-model/#roles)"
@@ -32370,9 +34538,19 @@
         ]
       },
       "crosswalk": {
-        "nist": [],
-        "iso": []
+        "w3c": [
+          "VC Data Model v2.0"
+        ],
+        "ietf": [
+          "RFC 9901"
+        ],
+        "openid": [
+          "OpenID4VCI",
+          "OpenID4VP"
+        ]
       },
+      "reader_note": "Use this term for the general governance role of verifiable credentials. Use verifiable-credential-data-model-2-0 when specifically referring to the W3C data model.",
+      "implementation_relevance": "Implementers should distinguish the credential data model, securing format, transport protocol, holder binding, status mechanism, and presentation protocol.",
       "slug": "verifiable-credential"
     },
     {
@@ -32640,6 +34818,85 @@
       "slug": "verifiable-message"
     },
     {
+      "term": "verifiable-presentation",
+      "aliases": [
+        "verifiable presentation",
+        "verifiable presentations",
+        "VP",
+        "VPs"
+      ],
+      "definition": "A presentation with cryptographic proof or securing material that enables a verifier to check integrity, holder binding, or other presentation-specific verification requirements.",
+      "reader_note": "Use this term for the presented artifact. Use openid4vp or vp-token when referring to the OpenID protocol container and flow.",
+      "implementation_relevance": "A verifier should validate the presentation, intended audience, challenge or nonce binding, status information, and applicable policy before relying on it.",
+      "notes": [],
+      "see_also": [
+        "presentation",
+        "vp-token",
+        "openid4vp",
+        "verifiable-credential",
+        "holder-binding"
+      ],
+      "sources": [
+        {
+          "title": "Verifiable Credentials Data Model v2.0",
+          "url": "https://www.w3.org/TR/vc-data-model-2.0/",
+          "publisher": "W3C",
+          "status": "Recommendation",
+          "version": "2.0",
+          "date": "2025-05-15",
+          "normative": true
+        }
+      ],
+      "mental_models": [],
+      "supporting_definitions": [],
+      "source_file": "spec/terms-definitions/verifiable-presentation.md",
+      "governance_profile": "core-operational",
+      "governance": {
+        "authority_scope": [
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct",
+        "revocation_supported": false,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "retired"
+        ],
+        "execution_role": "runtime",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "reliance_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "verification_log",
+          "audit_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "reliance_decision"
+        ],
+        "accountable_entity": "glossary_maintainers",
+        "evidence_produced": [
+          "verification_log",
+          "audit_log"
+        ]
+      },
+      "crosswalk": {
+        "w3c": [
+          "VC Data Model v2.0"
+        ],
+        "openid": [
+          "OpenID4VP 1.0"
+        ]
+      },
+      "slug": "verifiable-presentation"
+    },
+    {
       "term": "verifiable",
       "aliases": [
         "verifiable",
@@ -32729,9 +34986,10 @@
       "definition": "An action an agent (of a principal) performs to determine the authenticity of a claim or other data object. Cryptographic verification uses cryptographic keys.",
       "notes": [],
       "see_also": [
-        "validation.",
-        "KERI scope definition of [[xref: keri1",
-        "verification]]"
+        "validation",
+        "verifier",
+        "proof",
+        "cryptographic-verifiability"
       ],
       "sources": [
         "ToIP CTWG maintained glossary source: `spec/terms-definitions/verification.md`"
@@ -32799,8 +35057,11 @@
         "A verifier may function as an execution-time decision point because verification outcomes can determine whether access, acceptance, recognition, or reliance is granted."
       ],
       "see_also": [
-        "relying party; issuer",
-        "holder."
+        "relying-party",
+        "issuer",
+        "holder",
+        "verification",
+        "openid4vp"
       ],
       "sources": [
         "ToIP CTWG maintained glossary source: `spec/terms-definitions/verifier.md`"
@@ -33305,20 +35566,103 @@
       "slug": "voip"
     },
     {
+      "term": "vp-token",
+      "aliases": [
+        "VP Token",
+        "vp_token"
+      ],
+      "definition": "An OpenID4VP response artifact containing one or more presentations returned to a verifier in response to an authorization request.",
+      "reader_note": "",
+      "implementation_relevance": "",
+      "notes": [],
+      "see_also": [
+        "openid4vp",
+        "verifiable-presentation",
+        "presentation",
+        "verifier"
+      ],
+      "sources": [
+        {
+          "title": "OpenID for Verifiable Presentations 1.0",
+          "url": "https://openid.net/specs/openid-4-verifiable-presentations-1_0.html",
+          "publisher": "OpenID Foundation",
+          "normative": true,
+          "status": "Final Specification",
+          "version": "1.0",
+          "date": "2025-07-09"
+        }
+      ],
+      "mental_models": [],
+      "supporting_definitions": [],
+      "source_file": "spec/terms-definitions/vp-token.md",
+      "governance_profile": "core-operational",
+      "governance": {
+        "authority_scope": [
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct",
+        "revocation_supported": false,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "reliance_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "verification_log",
+          "audit_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "reliance_decision"
+        ],
+        "accountable_entity": "glossary_maintainers",
+        "evidence_produced": [
+          "verification_log",
+          "audit_log"
+        ]
+      },
+      "crosswalk": {
+        "openid": [
+          "OpenID4VP 1.0"
+        ]
+      },
+      "slug": "vp-token"
+    },
+    {
       "term": "w3c-verifiable-credentials-data-model-specification",
       "aliases": [
         "W3C Verifiable Credentials Data Model Specification"
       ],
-      "definition": "A W3C Recommendation defining a standard data model and representation format for cryptographically-verifiable digital credentials. Version 1.1 was published on 03 March 2022.",
+      "definition": "A W3C Recommendation defining the standard Verifiable Credentials Data Model. The current standards-linked anchor for new work is Verifiable Credentials Data Model v2.0.",
       "notes": [],
       "see_also": [
-        "credential",
+        "verifiable-credential-data-model-2-0",
+        "verifiable-credential",
+        "verifiable-presentation",
         "issuer",
-        "issuance",
-        "verifiable-credential"
+        "holder",
+        "verifier"
       ],
       "sources": [
-        "ToIP CTWG maintained glossary source: `spec/terms-definitions/w3c-verifiable-credentials-data-model-specification.md`"
+        {
+          "title": "Verifiable Credentials Data Model v2.0",
+          "url": "https://www.w3.org/TR/vc-data-model-2.0/",
+          "publisher": "W3C",
+          "normative": true,
+          "status": "Recommendation",
+          "version": "2.0",
+          "date": "2025-05-15"
+        }
       ],
       "mental_models": [],
       "supporting_definitions": [
@@ -33372,10 +35716,115 @@
         ]
       },
       "crosswalk": {
-        "nist": [],
-        "iso": []
+        "w3c": [
+          "VC Data Model v2.0"
+        ]
       },
+      "reader_note": "This legacy glossary entry is retained for continuity with existing ToIP terminology and now points readers toward the v2.0 term.",
+      "implementation_relevance": "Prefer verifiable-credential-data-model-2-0 for current implementation mapping and use this term when preserving compatibility with earlier glossary references.",
       "slug": "w3c-verifiable-credentials-data-model-specification"
+    },
+    {
+      "term": "wallet-attestation",
+      "aliases": [
+        "wallet attestation"
+      ],
+      "definition": "Evidence about a wallet instance, wallet provider, or wallet capability that can be used by issuers, verifiers, or governance frameworks to make reliance decisions.",
+      "reader_note": "",
+      "implementation_relevance": "",
+      "notes": [],
+      "see_also": [
+        "digital-wallet",
+        "attestation",
+        "issuer",
+        "verifier",
+        "assurance-level"
+      ],
+      "sources": [
+        {
+          "title": "EUDI Wallet Architecture and Reference Framework 2.0",
+          "url": "https://github.com/eu-digital-identity-wallet/eudi-doc-architecture-and-reference-framework",
+          "publisher": "European Commission",
+          "normative": true,
+          "status": "Architecture Reference Framework",
+          "version": "2.0",
+          "date": "2025-05-29"
+        },
+        {
+          "title": "OpenID for Verifiable Credential Issuance 1.0",
+          "url": "https://openid.net/specs/openid-4-verifiable-credential-issuance-1_0.html",
+          "publisher": "OpenID Foundation",
+          "normative": true,
+          "status": "Final Specification",
+          "version": "1.0",
+          "date": "2025-09-16"
+        },
+        {
+          "title": "OpenID for Verifiable Presentations 1.0",
+          "url": "https://openid.net/specs/openid-4-verifiable-presentations-1_0.html",
+          "publisher": "OpenID Foundation",
+          "normative": true,
+          "status": "Final Specification",
+          "version": "1.0",
+          "date": "2025-07-09"
+        }
+      ],
+      "mental_models": [],
+      "supporting_definitions": [],
+      "source_file": "spec/terms-definitions/wallet-attestation.md",
+      "governance_profile": "core-operational",
+      "governance": {
+        "authority_scope": [
+          "assurance_and_audit",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct",
+        "revocation_supported": false,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "reliance_decision",
+          "issuance_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "attestation",
+          "verification_log",
+          "audit_log",
+          "policy_document"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "reliance_decision",
+          "issuance_decision"
+        ],
+        "accountable_entity": "glossary_maintainers",
+        "evidence_produced": [
+          "attestation",
+          "verification_log",
+          "audit_log",
+          "policy_document"
+        ]
+      },
+      "crosswalk": {
+        "eu": [
+          "EUDI ARF 2.0"
+        ],
+        "openid": [
+          "OpenID4VCI",
+          "OpenID4VP"
+        ]
+      },
+      "slug": "wallet-attestation"
     },
     {
       "term": "wallet-engine",

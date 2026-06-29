@@ -9,8 +9,25 @@ title: "attribute-based-access-control"
 ## Definition
 An access control approach in which access is mediated based on attributes associated with subjects (requesters) and the objects to be accessed. Each object and subject has a set of associated attributes, such as location, time of creation, access rights, etc. Access to an object is authorized or denied depending upon whether the required (e.g., policy-defined) correlation can be made between the attributes of that object and of the requesting subject.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 attribute-based access control, attribute-based access controls
+
+## See Also
+- [policy]({{ '/terms/policy/' | relative_url }})
+- [governance-framework]({{ '/terms/governance-framework/' | relative_url }})
+- [requirement]({{ '/terms/requirement/' | relative_url }})
+- [authorization]({{ '/terms/authorization/' | relative_url }})
+- [permission]({{ '/terms/permission/' | relative_url }})
+- [role-based-access-control]({{ '/terms/role-based-access-control/' | relative_url }})
+
+## Standards and Source References
+- [NIST-CSRC](https://csrc.nist.gov/glossary/term/attribute_based_access_control).
 
 ## Governance Profile
 - **Authority scope**: policy_definition, access_decisioning
@@ -51,14 +68,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- policy
-- governance-framework
-- requirement
-- authorization
-- permission
-- role-based-access-control
 
 ## Crosswalk References
 Not specified

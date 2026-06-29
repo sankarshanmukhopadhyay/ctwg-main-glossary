@@ -9,8 +9,20 @@ title: "proof"
 ## Definition
 A digital object that enables cryptographic verification of either: a) the claims from one or more digital credentials, or b) facts about claims that do not reveal the data  itself (e.g., proof of the subject being over/under a specific age without revealing a birthdate).
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 proof, proofs
+
+## See Also
+- [zero-knowledge proof]({{ '/terms/zero-knowledge-proof/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/proof.md`
 
 ## Governance Profile
 - **Authority scope**: credential_issuance
@@ -57,9 +69,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- zero-knowledge proof.
 
 ## Crosswalk References
 Not specified

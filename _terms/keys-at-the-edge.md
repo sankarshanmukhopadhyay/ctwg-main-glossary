@@ -9,8 +9,23 @@ title: "keys-at-the-edge"
 ## Definition
 A key management architecture in which keys are stored on a user’s local edge devices, such as a smartphone, tablet, or laptop, and then used in conjunction with a secure protocol to unlock a key management system (KMS) and/or a digital vault in the cloud. This approach can enable the storage and sharing of large data structures that are not feasible on edge devices. This architecture can also be used in conjunction with confidential computing to enable cloud-based digital agents to safely carry out “user not present” operations.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 keys-at-the-edge
+
+## See Also
+- [delegation]({{ '/terms/delegation/' | relative_url }})
+- [delegator]({{ '/terms/delegator/' | relative_url }})
+- [delegatee]({{ '/terms/delegatee/' | relative_url }})
+- [authorization]({{ '/terms/authorization/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/keys-at-the-edge.md`
 
 ## Governance Profile
 - **Authority scope**: delegation_and_scope
@@ -47,12 +62,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- delegation
-- delegator
-- delegatee
-- authorization
 
 ## Crosswalk References
 Not specified

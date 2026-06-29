@@ -30,4 +30,5 @@ nav_exclude: true
 - [issuance]({{ '/terms/issuance/' | relative_url }})
 - [issuance-request]({{ '/terms/issuance-request/' | relative_url }})
 - [issuer]({{ '/terms/issuer/' | relative_url }})
+- [issuer-metadata]({{ '/terms/issuer-metadata/' | relative_url }})
 - [itps]({{ '/terms/itps/' | relative_url }})

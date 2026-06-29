@@ -9,8 +9,24 @@ title: "permission"
 ## Definition
 Authorization to perform some action on a system.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 permission, permissions
+
+## See Also
+- [authorization]({{ '/terms/authorization/' | relative_url }})
+- [role-based-access-control]({{ '/terms/role-based-access-control/' | relative_url }})
+- [attribute-based-access-control]({{ '/terms/attribute-based-access-control/' | relative_url }})
+- [access-control]({{ '/terms/access-control/' | relative_url }})
+- [revocation]({{ '/terms/revocation/' | relative_url }})
+
+## Standards and Source References
+- [NIST-CSRC](https://csrc.nist.gov/glossary/term/permission).
 
 ## Governance Profile
 - **Authority scope**: access_decisioning
@@ -59,13 +75,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- authorization
-- role-based-access-control
-- attribute-based-access-control
-- access-control
-- revocation
 
 ## Crosswalk References
 Not specified

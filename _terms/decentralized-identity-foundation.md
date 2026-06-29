@@ -9,8 +9,21 @@ title: "decentralized-identity-foundation"
 ## Definition
 A non-profit project of the Linux Foundation chartered to develop the foundational components of an open, standards-based, decentralized identity ecosystem for people, organizations, apps, and devices.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 Decentralized Identity Foundation
+
+## See Also
+- [OpenWallet Foundation]({{ '/terms/openwallet-foundation/' | relative_url }})
+- [ToIP Foundation]({{ '/terms/toip-foundation/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/decentralized-identity-foundation.md`
 
 ## Governance Profile
 - **Authority scope**: terminology_definition
@@ -47,10 +60,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- OpenWallet Foundation
-- ToIP Foundation.
 
 ## Crosswalk References
 Not specified

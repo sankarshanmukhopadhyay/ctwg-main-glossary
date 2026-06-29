@@ -9,8 +9,22 @@ title: "audit"
 ## Definition
 Independent review and examination of records and activities to assess the adequacy of system controls, to ensure compliance with established policies and operational procedures.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 audit, audits
+
+## See Also
+- [verification]({{ '/terms/verification/' | relative_url }})
+- [definition]({{ '/terms/definition/' | relative_url }})
+- [glossary]({{ '/terms/glossary/' | relative_url }})
+
+## Standards and Source References
+- [NIST-CSRC](https://csrc.nist.gov/glossary/term/audit).
 
 ## Governance Profile
 - **Authority scope**: assurance_and_audit
@@ -47,11 +61,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- verification
-- definition
-- glossary
 
 ## Crosswalk References
 Not specified

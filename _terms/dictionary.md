@@ -9,8 +9,23 @@ title: "dictionary"
 ## Definition
 A dictionary is a listing of lexemes (words or terms) from the lexicon of one or more specific languages, often arranged alphabetically, which may include information on definitions, usage, etymologies, pronunciations, translation, etc. It is a lexicographical reference that shows inter-relationships among the data. Unlike a glossary, a dictionary may provide multiple definitions of a term depending on its scope or context.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 dictionary, dictionaries
+
+## See Also
+- [registry]({{ '/terms/registry/' | relative_url }})
+- [trust-registry]({{ '/terms/trust-registry/' | relative_url }})
+- [registration]({{ '/terms/registration/' | relative_url }})
+- [governance-framework]({{ '/terms/governance-framework/' | relative_url }})
+
+## Standards and Source References
+- [Wikipedia](https://en.wikipedia.org/wiki/Dictionary).
 
 ## Governance Profile
 - **Authority scope**: registry_management
@@ -47,12 +62,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- registry
-- trust-registry
-- registration
-- governance-framework
 
 ## Crosswalk References
 Not specified

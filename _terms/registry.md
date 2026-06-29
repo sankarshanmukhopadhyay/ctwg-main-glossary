@@ -9,8 +9,20 @@ title: "registry"
 ## Definition
 A specialized database of records that serves as an authoritative source of information about entities.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 registry, registries
+
+## See Also
+- [trust registry]({{ '/terms/trust-registry/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/registry.md`
 
 ## Governance Profile
 - **Authority scope**: registry_management, governance_recognition
@@ -49,9 +61,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- trust registry.
 
 ## Crosswalk References
 Not specified

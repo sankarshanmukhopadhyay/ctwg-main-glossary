@@ -9,8 +9,20 @@ title: "verifiable-message"
 ## Definition
 A message communicated as verifiable data by virtue of being digitally signed.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 verifiable message, verifiable messages, verifiable messaging
+
+## See Also
+- [ToIP messages]({{ '/terms/toip-message/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/verifiable-message.md`
 
 ## Governance Profile
 - **Authority scope**: terminology_definition
@@ -47,9 +59,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- ToIP messages
 
 ## Crosswalk References
 Not specified

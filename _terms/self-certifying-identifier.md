@@ -9,8 +9,22 @@ title: "self-certifying-identifier"
 ## Definition
 A subclass of verifiable identifier (VID) that is cryptographically verifiable without the need to rely on any third party for verification because the identifier is cryptographically bound to the cryptographic keys from which it was generated.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 self-certifying identifier, self-certifying identifiers, SCID, SCIDs
+
+## See Also
+- [autonomic-identifier]({{ '/terms/autonomic-identifier/' | relative_url }})
+- [verifiable-identifier]({{ '/terms/verifiable-identifier/' | relative_url }})
+- [cryptographic-key]({{ '/terms/cryptographic-key/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/self-certifying-identifier.md`
 
 ## Governance Profile
 - **Authority scope**: verification_and_reliance
@@ -47,10 +61,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- autonomic identifier and the KERI specific [[xref: keri1
-- self-certifying-identifier]].
 
 ## Crosswalk References
 Not specified

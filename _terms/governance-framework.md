@@ -9,8 +9,24 @@ title: "governance-framework"
 ## Definition
 A collection of one or more governance documents published by the governing body of a trust community that defines the rules, roles, responsibilities, and decision rights under which that community operates.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 governance framework, governance frameworks
+
+## See Also
+- [policy]({{ '/terms/policy/' | relative_url }})
+- [requirement]({{ '/terms/requirement/' | relative_url }})
+- [governance]({{ '/terms/governance/' | relative_url }})
+- [governing-authority]({{ '/terms/governing-authority/' | relative_url }})
+- [trust-registry]({{ '/terms/trust-registry/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/governance-framework.md`
 
 ## Governance Profile
 - **Authority scope**: policy_definition, governance_recognition
@@ -57,13 +73,6 @@ governance framework, governance frameworks
 
 ## Mental Models
 Not specified
-
-## See Also
-- policy
-- requirement
-- governance
-- governing-authority
-- trust-registry
 
 ## Crosswalk References
 Not specified

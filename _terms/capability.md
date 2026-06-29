@@ -9,8 +9,24 @@ title: "capability"
 ## Definition
 The ability or permission for an actor or agent to perform a specific action on behalf of a party within a defined scope and subject to applicable constraints.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 capability, capabilities
+
+## See Also
+- [delegation]({{ '/terms/delegation/' | relative_url }})
+- [delegator]({{ '/terms/delegator/' | relative_url }})
+- [delegatee]({{ '/terms/delegatee/' | relative_url }})
+- [authorization]({{ '/terms/authorization/' | relative_url }})
+- [permission]({{ '/terms/permission/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/capability.md`
 
 ## Governance Profile
 - **Authority scope**: delegation_and_scope, access_decisioning
@@ -63,13 +79,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- delegation
-- delegator
-- delegatee
-- authorization
-- permission
 
 ## Crosswalk References
 Not specified

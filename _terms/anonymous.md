@@ -9,8 +9,20 @@ title: "anonymous"
 ## Definition
 An adjective describing when the identity of a natural person or other actor is unknown.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 anonymous
+
+## See Also
+- [pseudonym]({{ '/terms/pseudonym/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/anonymous.md`
 
 ## Governance Profile
 - **Authority scope**: terminology_definition
@@ -47,9 +59,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- pseudonym.
 
 ## Crosswalk References
 Not specified

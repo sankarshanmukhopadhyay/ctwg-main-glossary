@@ -9,8 +9,21 @@ title: "identity-binding"
 ## Definition
 The process of associating a set of identity data, such as a credential, with its subject, such as a natural person. The strength of an identity binding is one factor in determining an authenticator assurance level.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 identity binding, identity bindings
+
+## See Also
+- [identity assurance level]({{ '/terms/identity-assurance-level/' | relative_url }})
+- [identity proofing]({{ '/terms/identity-proofing/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/identity-binding.md`
 
 ## Governance Profile
 - **Authority scope**: credential_issuance, access_decisioning, assurance_and_audit
@@ -65,10 +78,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- identity assurance level
-- identity proofing.
 
 ## Crosswalk References
 Not specified

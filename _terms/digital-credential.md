@@ -9,8 +9,22 @@ title: "digital-credential"
 ## Definition
 A credential in digital form that is signed with a digital signature and held in a digital wallet. A digital credential is issued to a holder by an issuer; a proof of the credential is presented by the holder to a verifier.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 digital credential, digital credentials
+
+## See Also
+- [issuance request]({{ '/terms/issuance-request/' | relative_url }})
+- [presentation request]({{ '/terms/presentation-request/' | relative_url }})
+- [verifiable credential]({{ '/terms/verifiable-credential/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/digital-credential.md`
 
 ## Governance Profile
 - **Authority scope**: credential_issuance, verification_and_reliance
@@ -54,11 +68,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- issuance request
-- presentation request
-- verifiable credential.
 
 ## Crosswalk References
 Not specified

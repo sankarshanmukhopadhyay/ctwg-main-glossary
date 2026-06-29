@@ -9,8 +9,23 @@ title: "eidas"
 ## Definition
 eIDAS (electronic IDentification, Authentication and trust Services) is an EU regulation with the stated purpose of governing "electronic identification and trust services for electronic transactions". It passed in 2014 and its provisions came into effect between 2016-2018.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 eIDAS
+
+## See Also
+- [authorization]({{ '/terms/authorization/' | relative_url }})
+- [permission]({{ '/terms/permission/' | relative_url }})
+- [role-based-access-control]({{ '/terms/role-based-access-control/' | relative_url }})
+- [attribute-based-access-control]({{ '/terms/attribute-based-access-control/' | relative_url }})
+
+## Standards and Source References
+- [Wikipedia](https://en.wikipedia.org/wiki/EIDAS).
 
 ## Governance Profile
 - **Authority scope**: access_decisioning
@@ -47,12 +62,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- authorization
-- permission
-- role-based-access-control
-- attribute-based-access-control
 
 ## Crosswalk References
 Not specified

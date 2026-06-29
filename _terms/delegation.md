@@ -9,8 +9,23 @@ title: "delegation"
 ## Definition
 The act of a first party (the delegator) authorizing a second party (the delegatee) to perform a defined set of actions on behalf of the first party within an authorized scope and subject to applicable constraints.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 delegation, delegate, delegated, delegates
+
+## See Also
+- [delegator]({{ '/terms/delegator/' | relative_url }})
+- [delegatee]({{ '/terms/delegatee/' | relative_url }})
+- [authorization]({{ '/terms/authorization/' | relative_url }})
+- [revocation]({{ '/terms/revocation/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/delegation.md`
 
 ## Governance Profile
 - **Authority scope**: delegation_and_scope
@@ -60,12 +75,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- delegator
-- delegatee
-- authorization
-- revocation
 
 ## Crosswalk References
 - **NIST**: AC-6

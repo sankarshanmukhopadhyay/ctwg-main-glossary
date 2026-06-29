@@ -9,8 +9,21 @@ title: "rule"
 ## Definition
 A prescribed guide for conduct, process or action to achieve a defined result or objective. Rules may be human-readable or machine-readable or both.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 rule, rules
+
+## See Also
+- [governance framework]({{ '/terms/governance-framework/' | relative_url }})
+- [policy]({{ '/terms/policy/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/rule.md`
 
 ## Governance Profile
 - **Authority scope**: policy_definition
@@ -47,10 +60,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- governance framework
-- policy.
 
 ## Crosswalk References
 Not specified

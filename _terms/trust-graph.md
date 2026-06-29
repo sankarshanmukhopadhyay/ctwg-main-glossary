@@ -9,8 +9,22 @@ title: "trust-graph"
 ## Definition
 A data structure describing the trust relationship between two or more entities. A simple trust graph may be expressed as a trust list. More complex trust graphs can be recorded or registered in and queried from a trust registry. Trust graphs can also be expressed using trust chains and chained credentials. Trust graphs can enable verifiers and relying parties to make transitive trust decisions.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 trust graph, trust graphs
+
+## See Also
+- [authorization graph]({{ '/terms/authorization-graph/' | relative_url }})
+- [governance graph]({{ '/terms/governance-graph/' | relative_url }})
+- [reputation graph]({{ '/terms/reputation-graph/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/trust-graph.md`
 
 ## Governance Profile
 - **Authority scope**: credential_issuance, verification_and_reliance, registry_management
@@ -57,11 +71,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- authorization graph
-- governance graph
-- reputation graph.
 
 ## Crosswalk References
 Not specified

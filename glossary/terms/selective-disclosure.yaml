@@ -1,0 +1,60 @@
+term: selective-disclosure
+aliases:
+- selective disclosure
+definition: A privacy-preserving presentation capability that allows a holder to disclose
+  only selected claims or attributes from a credential while preserving verifiability.
+reader_note: This bridge term improves navigation across privacy, status, provenance,
+  and assurance concepts.
+implementation_relevance: Use this term where evidence needs to be carried across
+  both reader-facing documentation and machine-verifiable assurance artifacts.
+notes: []
+see_also:
+- sd-jwt-vc
+- verifiable-presentation
+- zero-knowledge-proof
+- correlation-privacy
+sources:
+- title: SD-JWT-based Verifiable Credentials
+  url: https://www.rfc-editor.org/rfc/rfc9901.html
+  publisher: IETF
+  normative: true
+  status: RFC
+  version: '9901'
+  date: '2025'
+mental_models: []
+supporting_definitions: []
+source_file: spec/terms-definitions/selective-disclosure.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+  - assurance_and_audit
+  - verification_and_reliance
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+  - proposed
+  - active
+  - retired
+  execution_role: hybrid
+  control_plane_role: decision_plane_component
+  enforcement_points:
+  - reliance_decision
+assurance:
+  evidence_artifacts:
+  - verification_log
+  - audit_log
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points:
+  - reliance_decision
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+  - verification_log
+  - audit_log
+crosswalk:
+  w3c:
+  - VC Data Model v2.0
+  c2pa: []
+  ietf:
+  - RFC 9901

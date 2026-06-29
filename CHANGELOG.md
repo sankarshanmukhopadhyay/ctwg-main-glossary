@@ -1,5 +1,34 @@
 # Changelog
 
+## v1.2.0 — Standards-Linked Glossary Refresh
+
+This release modernizes the ToIP Main Glossary for current digital trust, verifiable credential, wallet, provenance, federation, and assurance terminology while preserving the repository's governance-executable source model.
+
+### Added
+
+- Added structured citation support for standards and specifications in `sources`.
+- Added standards-backed terms for VC 2.0, Bitstring Status List, Data Integrity proofs, Controlled Identifiers, secured verifiable credentials, OpenID4VCI, OpenID4VP, VP Token, DCQL, SD-JWT VC, Key Binding JWT, status providers, issuer metadata, wallet attestation, OpenID Federation, entity statements, EUDI Wallet, PID, qualified electronic attestations of attributes, C2PA manifests, claim generators, manifest consumers, content credentials, DPoP, sender-constrained tokens, selective disclosure, status records, provenance, and verifiable presentations.
+- Added `requirements.txt` for local and CI dependency bootstrap.
+
+### Changed
+
+- Refreshed key anchor terms including `verifiable-credential`, `w3c-verifiable-credentials-data-model-specification`, `trust-chain`, `aal`, `ial`, and `fal`.
+- Improved generated term pages with reader notes, implementation relevance, linked related terms, and standards/source reference sections.
+- Updated validation to check structured citation objects, resolvable `see_also` entries, and malformed internal reference markers.
+- Updated CI dependency installation to use `requirements.txt`.
+- Synchronized duplicated governance documentation under `docs/governance/`.
+
+### Validation
+
+- Validated 563 governance term files using repository integrity checks.
+- Checked 1,086 aliases for collisions.
+- Checked 41 structured source citations.
+- Rebuilt governance bundles and inventories for 563 terms.
+- Rebuilt the governance quality report with 0 findings.
+- Regenerated 563 Jekyll term pages.
+
+Note: the local workspace package index did not expose `jsonschema`, so the validator used its built-in fallback for required-field and repository integrity checks. CI remains configured to install full schema-validation dependencies from `requirements.txt`.
+
 ## v1.1.1 — Governance Quality Closure and Evidence Coverage Hardening
 
 This maintenance increment uses the v1.1.0 governance quality report as an executable backlog and closes all reported assurance-readiness findings.

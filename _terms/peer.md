@@ -9,8 +9,20 @@ title: "peer"
 ## Definition
 In the context of digital networks, an actor on the network that has the same status, privileges, and communications options as the other actors on the network.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 peer, peers
+
+## See Also
+- [peer-to-peer]({{ '/terms/peer-to-peer/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/peer.md`
 
 ## Governance Profile
 - **Authority scope**: terminology_definition
@@ -47,9 +59,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- peer-to-peer.
 
 ## Crosswalk References
 Not specified

@@ -9,8 +9,20 @@ title: "auditor"
 ## Definition
 The party responsible for performing an audit. Typically an auditor must be accredited.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 auditor, auditors
+
+## See Also
+- [human auditable]({{ '/terms/human-auditable/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/auditor.md`
 
 ## Governance Profile
 - **Authority scope**: assurance_and_audit
@@ -47,9 +59,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- human auditable.
 
 ## Crosswalk References
 Not specified

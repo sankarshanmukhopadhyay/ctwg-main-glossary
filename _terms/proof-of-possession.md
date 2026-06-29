@@ -9,8 +9,23 @@ title: "proof-of-possession"
 ## Definition
 A verification process whereby a level of assurance is obtained that the owner of a key pair actually controls the private key associated with the public key.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 proof of possession
+
+## See Also
+- [audit]({{ '/terms/audit/' | relative_url }})
+- [verification]({{ '/terms/verification/' | relative_url }})
+- [definition]({{ '/terms/definition/' | relative_url }})
+- [glossary]({{ '/terms/glossary/' | relative_url }})
+
+## Standards and Source References
+- [NIST-CSRC](https://csrc.nist.gov/glossary/term/proof_of_possession).
 
 ## Governance Profile
 - **Authority scope**: assurance_and_audit
@@ -47,12 +62,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- audit
-- verification
-- definition
-- glossary
 
 ## Crosswalk References
 Not specified

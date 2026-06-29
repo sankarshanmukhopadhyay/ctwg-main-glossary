@@ -9,8 +9,20 @@ title: "trust-basis"
 ## Definition
 The properties of a verifiable identifier (VID) or a ToIP system that enable a party to appraise it to determine a trust limit.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 trust basis
+
+## See Also
+- [appraisability]({{ '/terms/appraisability/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/trust-basis.md`
 
 ## Governance Profile
 - **Authority scope**: terminology_definition
@@ -51,9 +63,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- appraisability.
 
 ## Crosswalk References
 Not specified

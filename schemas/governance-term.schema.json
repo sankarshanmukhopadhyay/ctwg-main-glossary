@@ -45,9 +45,53 @@
     "sources": {
       "type": "array",
       "items": {
-        "type": "string"
+        "oneOf": [
+          {
+            "type": "string",
+            "minLength": 1
+          },
+          {
+            "type": "object",
+            "required": [
+              "title",
+              "url"
+            ],
+            "properties": {
+              "title": {
+                "type": "string",
+                "minLength": 1
+              },
+              "url": {
+                "type": "string",
+                "minLength": 1
+              },
+              "publisher": {
+                "type": "string"
+              },
+              "status": {
+                "type": "string"
+              },
+              "version": {
+                "type": "string"
+              },
+              "date": {
+                "type": "string"
+              },
+              "normative": {
+                "type": "boolean"
+              }
+            },
+            "additionalProperties": true
+          }
+        ]
       },
       "uniqueItems": true
+    },
+    "reader_note": {
+      "type": "string"
+    },
+    "implementation_relevance": {
+      "type": "string"
     },
     "source_file": {
       "type": "string"

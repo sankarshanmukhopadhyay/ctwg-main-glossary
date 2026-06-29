@@ -9,8 +9,24 @@ title: "governing-authority"
 ## Definition
 See: governing body.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 governing authority, governing authorities
+
+## See Also
+- [governance]({{ '/terms/governance/' | relative_url }})
+- [governance-framework]({{ '/terms/governance-framework/' | relative_url }})
+- [trust-registry]({{ '/terms/trust-registry/' | relative_url }})
+- [revocation]({{ '/terms/revocation/' | relative_url }})
+- [verification]({{ '/terms/verification/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/governing-authority.md`
 
 ## Governance Profile
 - **Authority scope**: governance_recognition
@@ -55,13 +71,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- governance
-- governance-framework
-- trust-registry
-- revocation
-- verification
 
 ## Crosswalk References
 Not specified

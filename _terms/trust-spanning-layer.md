@@ -9,8 +9,23 @@ title: "trust-spanning-layer"
 ## Definition
 A spanning layer designed to span between different digital trust domains. In the ToIP stack, the trust spanning layer is ToIP Layer 2.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 trust spanning layer
+
+## See Also
+- [glossary]({{ '/terms/glossary/' | relative_url }})
+- [definition]({{ '/terms/definition/' | relative_url }})
+- [trust]({{ '/terms/trust/' | relative_url }})
+- [trust-registry]({{ '/terms/trust-registry/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/trust-spanning-layer.md`
 
 ## Governance Profile
 - **Authority scope**: terminology_definition
@@ -51,12 +66,6 @@ Not specified
 
 ## Mental Models
 - [[ref: hourglass model,]] see [[ref: ToIP Technology Architecture Specification]]
-
-## See Also
-- glossary
-- definition
-- trust
-- trust-registry
 
 ## Crosswalk References
 Not specified

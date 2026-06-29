@@ -9,8 +9,21 @@ title: "openwallet-foundation"
 ## Definition
 A non-profit project of the Linux Foundation chartered to build a world-class open source wallet engine.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 OpenWallet Foundation
+
+## See Also
+- [Decentralized Identity Foundation]({{ '/terms/decentralized-identity-foundation/' | relative_url }})
+- [ToIP Foundation]({{ '/terms/toip-foundation/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/openwallet-foundation.md`
 
 ## Governance Profile
 - **Authority scope**: terminology_definition
@@ -47,10 +60,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- Decentralized Identity Foundation
-- ToIP Foundation.
 
 ## Crosswalk References
 Not specified

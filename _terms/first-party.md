@@ -9,8 +9,21 @@ title: "first-party"
 ## Definition
 The party who initiates a trust relationship, connection, or transaction with a second party.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 first party, first parties
+
+## See Also
+- [third party]({{ '/terms/third-party/' | relative_url }})
+- [fourth party]({{ '/terms/fourth-party/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/first-party.md`
 
 ## Governance Profile
 - **Authority scope**: terminology_definition
@@ -51,10 +64,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- third party
-- fourth party.
 
 ## Crosswalk References
 Not specified

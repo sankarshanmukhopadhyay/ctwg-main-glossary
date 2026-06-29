@@ -9,8 +9,20 @@ title: "federation"
 ## Definition
 A group of organizations that collaborate to establish a common trust framework or governance framework for the exchange of identity data in a federated identity system.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 federation, federate, federates, federated
+
+## See Also
+- [trust community]({{ '/terms/trust-community/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/federation.md`
 
 ## Governance Profile
 - **Authority scope**: policy_definition, governance_recognition
@@ -47,9 +59,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- trust community
 
 ## Crosswalk References
 Not specified

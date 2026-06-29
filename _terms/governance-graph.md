@@ -9,8 +9,22 @@ title: "governance-graph"
 ## Definition
 A graph of the governance relationships between entities with a trust community. A governance graph shows which nodes are the governing bodies and which are the governed parties. In some cases, a governance graph can be traversed by making queries to one or more trust registries.Note: a party can play both roles and also be a participant in multiple governance frameworks.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 governance graph, governance graphs
+
+## See Also
+- [authorization graph]({{ '/terms/authorization-graph/' | relative_url }})
+- [reputation graph]({{ '/terms/reputation-graph/' | relative_url }})
+- [trust graph]({{ '/terms/trust-graph/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/governance-graph.md`
 
 ## Governance Profile
 - **Authority scope**: policy_definition, governance_recognition
@@ -47,11 +61,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- authorization graph
-- reputation graph
-- trust graph.
 
 ## Crosswalk References
 Not specified

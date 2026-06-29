@@ -9,8 +9,21 @@ title: "correlation-privacy"
 ## Definition
 In a communications context, a type of privacy protection in which messages use encryption, hashes, or other privacy-preserving technologies to avoid the use of identifiers or other content that unauthorized parties may use to correlate the sender and/or receiver(s).
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 correlation privacy
+
+## See Also
+- [authenticity]({{ '/terms/authenticity/' | relative_url }})
+- [confidentiality]({{ '/terms/confidentiality/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/correlation-privacy.md`
 
 ## Governance Profile
 - **Authority scope**: terminology_definition
@@ -51,10 +64,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- authenticity
-- confidentiality.
 
 ## Crosswalk References
 Not specified

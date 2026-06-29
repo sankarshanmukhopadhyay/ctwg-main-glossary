@@ -9,8 +9,23 @@ title: "internet-protocol"
 ## Definition
 The Internet Protocol (IP) is the network layer communications protocol in the Internet protocol suite (also known as the TCP/IP suite) for relaying datagrams across network boundaries. Its routing function enables internetworking, and essentially establishes the Internet. IP has the task of delivering packets from the source host to the destination host solely based on the IP addresses in the packet headers. For this purpose, IP defines packet structures that encapsulate the data to be delivered. It also defines addressing methods that are used to label the datagram with source and destination information.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 Internet Protocol
+
+## See Also
+- [tcp-ip]({{ '/terms/tcp-ip/' | relative_url }})
+- [user-datagram-protocol]({{ '/terms/user-datagram-protocol/' | relative_url }})
+- [ip-address]({{ '/terms/ip-address/' | relative_url }})
+- [internet-protocol-suite]({{ '/terms/internet-protocol-suite/' | relative_url }})
+
+## Standards and Source References
+- [Wikipedia](https://en.wikipedia.org/wiki/Internet_Protocol).
 
 ## Governance Profile
 - **Authority scope**: terminology_definition
@@ -47,10 +62,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- Transmission Control Protocol
-- User Datagram Protocol.
 
 ## Crosswalk References
 Not specified

@@ -2,14 +2,24 @@ term: trust-chain
 aliases:
 - trust chain
 - trust chains
-definition: A set of cryptographically verifiable links between digital credentials
-  or other data containers that enable transitive trust decisions.
+definition: A sequence of cryptographically verifiable links, statements, or governance-recognized
+  relationships used to establish whether a participant, key, credential, or federation
+  entity should be trusted for a relying decision.
 notes: []
 see_also:
-- chained credentials
-- trust graph.
+- openid-federation
+- entity-statement
+- trust-anchor
+- chain-of-trust
+- trust-registry
 sources:
-- 'ToIP CTWG maintained glossary source: `spec/terms-definitions/trust-chain.md`'
+- title: OpenID Federation 1.0
+  url: https://openid.net/specs/openid-federation-1_0.html
+  publisher: OpenID Foundation
+  normative: true
+  status: Final Specification
+  version: '1.0'
+  date: '2026-02-17'
 mental_models: []
 supporting_definitions:
 - 'For more information, see: [Design Principles for the ToIP Stack](https://trustoverip.org/our-work/design-principles/).'
@@ -52,5 +62,10 @@ control_plane:
   - audit_log
   - verification_log
 crosswalk:
-  nist: []
-  iso: []
+  openid:
+  - OpenID Federation 1.0
+reader_note: In OpenID Federation this concept is expressed through signed entity
+  statements and trust anchors. In credential ecosystems it can also describe transitive
+  credential or registry relationships.
+implementation_relevance: Use this term when a verifier or relying party must validate
+  more than one link of authority before accepting a credential, key, or participant.

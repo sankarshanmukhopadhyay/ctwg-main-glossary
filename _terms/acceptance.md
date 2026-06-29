@@ -9,8 +9,20 @@ title: "acceptance"
 ## Definition
 The action of a party receiving any form of verifiable data and using it to make a trust decision.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 acceptance, accept, accepts
+
+## See Also
+- [acceptance network]({{ '/terms/acceptance-network/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/acceptance.md`
 
 ## Governance Profile
 - **Authority scope**: terminology_definition
@@ -51,9 +63,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- acceptance network.
 
 ## Crosswalk References
 Not specified

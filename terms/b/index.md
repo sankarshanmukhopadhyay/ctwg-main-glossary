@@ -8,6 +8,7 @@ nav_exclude: true
 
 - [binding]({{ '/terms/binding/' | relative_url }})
 - [biometric]({{ '/terms/biometric/' | relative_url }})
+- [bitstring-status-list]({{ '/terms/bitstring-status-list/' | relative_url }})
 - [blockchain]({{ '/terms/blockchain/' | relative_url }})
 - [bola]({{ '/terms/bola/' | relative_url }})
 - [broadcast]({{ '/terms/broadcast/' | relative_url }})

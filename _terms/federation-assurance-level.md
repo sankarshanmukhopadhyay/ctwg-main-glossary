@@ -9,8 +9,21 @@ title: "federation-assurance-level"
 ## Definition
 A category that describes the federation protocol used to communicate an assertion containing authentication) and attribute information (if applicable) to a relying party, as defined in NIST SP 800-63-3 in terms of three levels: FAL 1 (Some confidence), FAL 2 (High confidence), FAL 3 (Very high confidence).
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 federation assurance level, federation assurance levels, FAL, FALs
+
+## See Also
+- [authenticator assurance level]({{ '/terms/authenticator-assurance-level/' | relative_url }})
+- [identity assurance level]({{ '/terms/identity-assurance-level/' | relative_url }})
+
+## Standards and Source References
+- [NIST-CSRC](https://csrc.nist.gov/glossary/term/federation_assurance_level).
 
 ## Governance Profile
 - **Authority scope**: verification_and_reliance, access_decisioning, assurance_and_audit
@@ -53,10 +66,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- authenticator assurance level
-- identity assurance level.
 
 ## Crosswalk References
 Not specified

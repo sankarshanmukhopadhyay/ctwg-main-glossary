@@ -2,7 +2,7 @@
 
 > Generated file. Update `tools/build_governance_glossary.py` and regenerate artifacts instead of editing this manifest directly.
 
-Terms covered: **534**
+Terms covered: **563**
 
 | Artifact | Type | Origin | Generator | Consumer use case | Stability |
 |---|---|---|---|---|---|

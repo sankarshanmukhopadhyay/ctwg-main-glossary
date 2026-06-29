@@ -34,7 +34,14 @@ aliases: []
 definition: A precise operational definition.
 notes: []
 see_also: []
-sources: []
+sources:
+  - title: Example Standard or Specification
+    url: https://example.org/specification
+    publisher: Example Publisher
+    status: Published
+    version: "1.0"
+    date: "2026-01-01"
+    normative: true
 source_file: spec/terms-definitions/example-term.md
 governance_profile: descriptive
 governance:
@@ -113,6 +120,23 @@ Evidence artifacts should be specific enough for downstream systems to test or i
 ## Crosswalk guidance
 
 Crosswalk references should be conservative. A crosswalk means the term is relevant to a cited framework or control family. It does not mean the glossary term satisfies that control.
+
+## Structured source guidance
+
+Use structured citations for standards, specifications, and normative references. Legacy source strings remain supported for backward compatibility, but new standards-backed terms should use citation objects so downstream tools can inspect source title, URL, publisher, status, version, date, and whether the citation is normative.
+
+```yaml
+sources:
+  - title: OpenID for Verifiable Presentations 1.0
+    url: https://openid.net/specs/openid-4-verifiable-presentations-1_0.html
+    publisher: OpenID Foundation
+    status: Final Specification
+    version: "1.0"
+    date: "2025-07-09"
+    normative: true
+```
+
+Keep `see_also` values resolvable to local term names or aliases. Use `crosswalk` for framework mappings and `sources` for citation provenance.
 
 ## Examples
 

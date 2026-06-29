@@ -9,8 +9,23 @@ title: "non-transferable-identifier"
 ## Definition
 Controlling keys over this identifier cannot be rotated and therefore this identifier is non-transferable to other control.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 non-transferable-identifier
+
+## See Also
+- [glossary]({{ '/terms/glossary/' | relative_url }})
+- [definition]({{ '/terms/definition/' | relative_url }})
+- [identifier]({{ '/terms/identifier/' | relative_url }})
+- [decentralized-identifier]({{ '/terms/decentralized-identifier/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/non-transferable-identifier.md`
 
 ## Governance Profile
 - **Authority scope**: terminology_definition
@@ -52,12 +67,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- glossary
-- definition
-- identifier
-- decentralized-identifier
 
 ## Crosswalk References
 Not specified

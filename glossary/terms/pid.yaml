@@ -1,0 +1,60 @@
+term: pid
+aliases:
+- Person Identification Data
+- PID
+definition: A set of identity attributes used in the EUDI Wallet ecosystem to identify
+  a natural or legal person under the applicable legal and governance framework.
+reader_note: This term is part of the v1.2.0 standards-linked refresh and is anchored
+  to active implementation vocabulary.
+implementation_relevance: Use this term when mapping glossary language to implementation
+  profiles, governance controls, conformance checks, or assurance evidence.
+notes: []
+see_also:
+- eudi-wallet
+- identity-data
+- natural-person
+- legal-person
+sources:
+- title: EUDI Wallet Architecture and Reference Framework 2.0
+  url: https://github.com/eu-digital-identity-wallet/eudi-doc-architecture-and-reference-framework
+  publisher: European Commission
+  normative: true
+  status: Architecture Reference Framework
+  version: '2.0'
+  date: '2025-05-29'
+mental_models: []
+supporting_definitions: []
+source_file: spec/terms-definitions/pid.md
+governance_profile: core-operational
+governance:
+  authority_scope:
+  - credential_issuance
+  - verification_and_reliance
+  delegation_mode: direct
+  revocation_supported: true
+  lifecycle_states:
+  - proposed
+  - active
+  - suspended
+  - revoked
+  - retired
+  execution_role: hybrid
+  control_plane_role: decision_plane_component
+  enforcement_points: &id001
+  - issuance_decision
+  - reliance_decision
+assurance:
+  evidence_artifacts: &id002
+  - issuance_log
+  - verification_log
+  - policy_document
+  - audit_log
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points: *id001
+  accountable_entity: glossary_maintainers
+  evidence_produced: *id002
+crosswalk:
+  eu:
+  - EUDI ARF 2.0

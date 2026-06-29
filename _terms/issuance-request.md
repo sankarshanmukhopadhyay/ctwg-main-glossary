@@ -9,8 +9,20 @@ title: "issuance-request"
 ## Definition
 A protocol request invoked by the holder of a digital wallet to obtain a digital credential from an issuer.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 issuance request, issuance requests
+
+## See Also
+- [presentation request]({{ '/terms/presentation-request/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/issuance-request.md`
 
 ## Governance Profile
 - **Authority scope**: credential_issuance
@@ -57,9 +69,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- presentation request.
 
 ## Crosswalk References
 Not specified

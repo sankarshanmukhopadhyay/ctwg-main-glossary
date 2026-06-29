@@ -9,8 +9,21 @@ title: "spanning-layer"
 ## Definition
 A specific layer within a protocol stack that consists of a single protocol explicitly designed to provide interoperability between the protocol layers above it and below it.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 spanning layer
+
+## See Also
+- [hourglass model]({{ '/terms/hourglass-model/' | relative_url }})
+- [trust spanning layer]({{ '/terms/trust-spanning-layer/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/spanning-layer.md`
 
 ## Governance Profile
 - **Authority scope**: terminology_definition
@@ -47,10 +60,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- hourglass model
-- trust spanning layer.
 
 ## Crosswalk References
 Not specified

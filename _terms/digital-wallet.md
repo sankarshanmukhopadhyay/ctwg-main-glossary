@@ -9,8 +9,22 @@ title: "digital-wallet"
 ## Definition
 A user agent, optionally including a hardware component, capable of securely storing and processing cryptographic keys, digital credentials, digital assets and other sensitive private data that enables the controller to perform cryptographically verifiable operations. A non-custodial wallet is directly in the custody of a principal. A custodial wallet is in the custody of a third party. Personal wallets are held by individual persons; enterprise wallets are held by organizations or other legal entities.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 digital wallet, digital wallets
+
+## See Also
+- [digital agent]({{ '/terms/digital-agent/' | relative_url }})
+- [key management system]({{ '/terms/key-management-system/' | relative_url }})
+- [wallet engine]({{ '/terms/wallet-engine/' | relative_url }})
+
+## Standards and Source References
+- ToIP CTWG maintained glossary source: `spec/terms-definitions/digital-wallet.md`
 
 ## Governance Profile
 - **Authority scope**: credential_issuance, verification_and_reliance, delegation_and_scope
@@ -58,11 +72,6 @@ digital wallet, digital wallets
 
 ## Mental Models
 Not specified
-
-## See Also
-- digital agent
-- key management system
-- wallet engine.
 
 ## Crosswalk References
 Not specified

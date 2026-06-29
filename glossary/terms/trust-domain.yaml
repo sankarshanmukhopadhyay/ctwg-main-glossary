@@ -7,10 +7,10 @@ definition: A security domain defined by a computer hardware or software archite
   framework.
 notes: []
 see_also:
-- trust context
-- digital trust ecosystem.
-- '[[xref: keri1'
-- trust-domain]]
+- trust-context
+- digital-trust-ecosystem
+- security-domain
+- trust-framework
 sources:
 - 'ToIP CTWG maintained glossary source: `spec/terms-definitions/trust-domain.md`'
 mental_models: []

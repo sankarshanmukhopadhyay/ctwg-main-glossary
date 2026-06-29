@@ -9,8 +9,21 @@ title: "digital-ecosystem"
 ## Definition
 A digital ecosystem is a distributed, adaptive, open socio-technical system with properties of self-organization, scalability and sustainability inspired from natural ecosystems. Digital ecosystem models are informed by knowledge of natural ecosystems, especially for aspects related to competition and collaboration among diverse entities.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 digital ecosystem, digital ecosystems
+
+## See Also
+- [digital trust ecosystem]({{ '/terms/digital-trust-ecosystem/' | relative_url }})
+- [trust community]({{ '/terms/trust-community/' | relative_url }})
+
+## Standards and Source References
+- [Wikipedia](https://en.wikipedia.org/wiki/Digital_ecosystem).
 
 ## Governance Profile
 - **Authority scope**: terminology_definition
@@ -47,10 +60,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- digital trust ecosystem
-- trust community.
 
 ## Crosswalk References
 Not specified

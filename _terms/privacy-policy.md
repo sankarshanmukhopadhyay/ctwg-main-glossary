@@ -9,8 +9,20 @@ title: "privacy-policy"
 ## Definition
 A statement or legal document (in privacy law) that discloses some or all of the ways a party gathers, uses, discloses, and manages a customer or client's data.
 
+## Reader Note
+This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+## Implementation Relevance
+Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
 ## Aliases
 privacy policy, privacy policies
+
+## See Also
+- [security policy]({{ '/terms/security-policy/' | relative_url }})
+
+## Standards and Source References
+- [Wikipedia](https://en.wikipedia.org/wiki/Privacy_policy)
 
 ## Governance Profile
 - **Authority scope**: policy_definition
@@ -47,9 +59,6 @@ Not specified
 
 ## Mental Models
 Not specified
-
-## See Also
-- security policy.
 
 ## Crosswalk References
 Not specified
