@@ -1,5 +1,35 @@
 # Changelog
 
+## v1.3.0 — Publication Integrity and Contributor Onboarding
+
+This release keeps the glossary vocabulary and schema stable while improving publication integrity, repository hygiene, and external contribution mechanics.
+
+### Added
+
+- Added `CODEOWNERS`, `CODE_OF_CONDUCT.md`, and `CITATION.cff`.
+- Added issue templates for term proposals and generated quality-report findings.
+- Added a pull request template aligned with source, generated artifact, and downstream-impact checks.
+- Added README badges and a downstream consumer quickstart for generated JSON and JSON-LD artifacts.
+- Added `tools/check_readme_quality_posture.py` and CI execution to prevent README quality posture drift from the generated report.
+
+### Changed
+
+- Updated README release framing to v1.3.0.
+- Updated GitHub Pages `url` to the canonical Trust Over IP Pages origin.
+- Made `governance/` the single maintainer-authored governance documentation source.
+- Tightened CI generated-artifact drift detection now that the duplicated docs mirror has been removed.
+
+### Fixed
+
+- Corrected README quality posture from 534 terms to the generated 563-term report.
+- Corrected revocation-supported coverage from 108 to the generated 113 value.
+- Removed legacy spec-up-era workflow, script, and backup files while preserving `spec/terms-definitions/` as repository-local source evidence.
+
+### Validation
+
+- README quality posture is checked against `generated/json/governance-quality-report.json`.
+- Generated report remains at 563 terms, 0 findings, and 100.0 / 100 quality score.
+
 ## v1.2.0 — Standards-Linked Glossary Refresh
 
 This release modernizes the ToIP Main Glossary for current digital trust, verifiable credential, wallet, provenance, federation, and assurance terminology while preserving the repository's governance-executable source model.

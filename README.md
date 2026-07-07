@@ -1,8 +1,14 @@
 # ToIP Main Glossary
 
+[![Validate Governance-Executable Glossary](https://github.com/trustoverip/ctwg-main-glossary/actions/workflows/validate-governance-glossary.yml/badge.svg)](https://github.com/trustoverip/ctwg-main-glossary/actions/workflows/validate-governance-glossary.yml)
+[![Pages](https://github.com/trustoverip/ctwg-main-glossary/actions/workflows/pages.yml/badge.svg)](https://github.com/trustoverip/ctwg-main-glossary/actions/workflows/pages.yml)
+![Terms](https://img.shields.io/badge/terms-563-blue)
+![Quality](https://img.shields.io/badge/quality-100.0%2F100-brightgreen)
+![License](https://img.shields.io/badge/license-OWFa%201.0-blue)
+
 The ToIP Main Glossary is a **governance-executable terminology repository**. It publishes a human-readable GitHub Pages glossary while also producing machine-readable artifacts that describe authority, delegation, revocation, lifecycle state, evidence, auditability, and control-plane relevance for each structured term.
 
-Version `v1.2.0` modernizes the glossary for current standards-linked digital trust vocabulary. It adds structured citation support, expands coverage for VC 2.0, OpenID4VCI, OpenID4VP, SD-JWT VC, OpenID Federation, EUDI Wallet, DPoP, and C2PA provenance terminology, and improves generated term pages for reader accessibility without weakening the machine-readable governance model.
+Version `v1.3.0` improves publication integrity and contributor onboarding. It keeps the vocabulary and schema stable while fixing stale landing-page posture, removing migration artifacts, clarifying the canonical Pages configuration, and adding issue templates, code ownership, citation metadata, and README drift checks.
 
 ## Repository operating model
 
@@ -36,6 +42,26 @@ Generated directories must not be edited manually unless the corresponding gener
 - `governance/generated-inventories.md`
 - `governance/quality-report.md`
 
+## Using the glossary in your project
+
+Most downstream consumers do not need the maintainer build pipeline. Use the generated artifacts directly and pin to a release tag when reproducibility matters.
+
+Fetch the JSON bundle:
+
+```bash
+curl -L -o governance-glossary.json \
+  https://raw.githubusercontent.com/trustoverip/ctwg-main-glossary/main/generated/json/governance-executable-glossary.json
+```
+
+Fetch the JSON-LD bundle:
+
+```bash
+curl -L -o governance-glossary.jsonld \
+  https://raw.githubusercontent.com/trustoverip/ctwg-main-glossary/main/generated/json/governance-executable-glossary.jsonld
+```
+
+Use `generated/json/artifact-manifest.json` to discover the current machine-readable bundle set and `generated/json/governance-quality-report.json` to inspect quality posture.
+
 ## What the generated layer provides
 
 - per-term Jekyll pages under `_terms/`
@@ -50,14 +76,14 @@ Generated directories must not be edited manually unless the corresponding gener
 
 ## Current assurance-readiness posture
 
-The current generated quality report evaluates all 534 structured terms and reports:
+The current generated quality report evaluates all 563 structured terms and reports:
 
 - quality score: `100.0 / 100`;
 - total findings: `0`;
-- terms with source coverage: `534`;
-- terms with `see_also` coverage: `534`;
-- terms with evidence coverage: `534`; and
-- revocation-supported terms with revocation-relevant evidence: `108`.
+- terms with source coverage: `563`;
+- terms with `see_also` coverage: `563`;
+- terms with evidence coverage: `563`; and
+- revocation-supported terms with revocation-relevant evidence: `113`.
 
 This score is not a certification claim. It means that all checks currently implemented by `tools/build_quality_report.py` have been satisfied and that the glossary has no open generated quality-report findings under the current assurance-readiness rubric.
 
@@ -112,6 +138,7 @@ Publication sequence:
 See also:
 
 - [Contributing](Contributing.md)
+- [Code of Conduct](CODE_OF_CONDUCT.md)
 - [Repository Operating Model](governance/repository-operating-model.md)
 - [Term Authoring Guide](governance/term-authoring-guide.md)
 - [Assurance Model](governance/assurance-model.md)

@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: ToIP Main Glossary
+message: "If you use this glossary in specifications, research, or implementation guidance, cite the repository and release version."
+type: dataset
+version: 1.3.0
+date-released: 2026-07-06
+repository-code: "https://github.com/trustoverip/ctwg-main-glossary"
+url: "https://trustoverip.github.io/ctwg-main-glossary"
+license: "OWFa-1.0"
+authors:
+  - name: Trust Over IP CTWG contributors
