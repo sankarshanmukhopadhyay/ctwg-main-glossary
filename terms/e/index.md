@@ -1,7 +1,7 @@
 ---
 title: "Terms: E"
 parent: "Glossary Terms"
-nav_exclude: true
+nav_order: 5
 ---
 
 # Terms: E
@@ -25,4 +25,7 @@ nav_exclude: true
 - [ephemeral-connection]({{ '/terms/ephemeral-connection/' | relative_url }})
 - [essr]({{ '/terms/essr/' | relative_url }})
 - [eudi-wallet]({{ '/terms/eudi-wallet/' | relative_url }})
+- [Evidence Artifact]({{ '/terms/evidence-artifact/' | relative_url }})
+- [Evidence Bundle]({{ '/terms/evidence-bundle/' | relative_url }})
 - [expression-language]({{ '/terms/expression-language/' | relative_url }})
+- [Extension Contract]({{ '/terms/extension-contract/' | relative_url }})

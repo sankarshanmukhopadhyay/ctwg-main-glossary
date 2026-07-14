@@ -1,7 +1,7 @@
 ---
 title: "Terms: R"
 parent: "Glossary Terms"
-nav_exclude: true
+nav_order: 18
 ---
 
 # Terms: R
@@ -37,4 +37,6 @@ nav_exclude: true
 - [router]({{ '/terms/router/' | relative_url }})
 - [routing]({{ '/terms/routing/' | relative_url }})
 - [rule]({{ '/terms/rule/' | relative_url }})
+- [Runtime Authority Envelope]({{ '/terms/runtime-authority-envelope/' | relative_url }})
+- [Runtime Governance Envelope]({{ '/terms/runtime-governance-envelope/' | relative_url }})
 - [rwi]({{ '/terms/rwi/' | relative_url }})

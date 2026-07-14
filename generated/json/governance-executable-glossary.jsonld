@@ -668,6 +668,128 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "urn:toip:glossary:agent-class",
+      "name": "Agent Class",
+      "description": "A typed descriptor for the operating posture of an agentic actor, used to distinguish the kind of role the agent performs from the controls governing how it operates.",
+      "inDefinedTermSet": "ToIP Main Glossary",
+      "identifier": "Agent Class",
+      "subjectOf": {
+        "governance": {
+          "authority_scope": [
+            "assurance_and_audit",
+            "delegation_and_scope",
+            "policy_definition",
+            "verification_and_reliance"
+          ],
+          "delegation_mode": "direct_or_constrained",
+          "revocation_supported": true,
+          "lifecycle_states": [
+            "proposed",
+            "active",
+            "suspended",
+            "revoked",
+            "retired"
+          ],
+          "execution_role": "hybrid",
+          "control_plane_role": "decision_plane_component",
+          "enforcement_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ]
+        },
+        "assurance": {
+          "evidence_artifacts": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ],
+          "assurance_level_hint": "AL2+",
+          "auditability": "high"
+        },
+        "control_plane": {
+          "decision_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ],
+          "accountable_entity": "governance_authority",
+          "evidence_produced": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ]
+        },
+        "crosswalk": {}
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "urn:toip:glossary:agent-mandate-envelope",
+      "name": "Agent Mandate Envelope",
+      "description": "A structured artifact that binds an agent to an originating principal, delegated mandate, permitted scope, conditions, expiry, revocation semantics, and evidence requirements.",
+      "inDefinedTermSet": "ToIP Main Glossary",
+      "identifier": "Agent Mandate Envelope",
+      "subjectOf": {
+        "governance": {
+          "authority_scope": [
+            "assurance_and_audit",
+            "delegation_and_scope",
+            "policy_definition",
+            "verification_and_reliance"
+          ],
+          "delegation_mode": "direct_or_constrained",
+          "revocation_supported": true,
+          "lifecycle_states": [
+            "proposed",
+            "active",
+            "suspended",
+            "revoked",
+            "retired"
+          ],
+          "execution_role": "hybrid",
+          "control_plane_role": "decision_plane_component",
+          "enforcement_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ]
+        },
+        "assurance": {
+          "evidence_artifacts": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ],
+          "assurance_level_hint": "AL2+",
+          "auditability": "high"
+        },
+        "control_plane": {
+          "decision_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ],
+          "accountable_entity": "governance_authority",
+          "evidence_produced": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ]
+        },
+        "crosswalk": {}
+      }
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "urn:toip:glossary:agent",
       "name": "agent",
       "description": "An actor that executes an action on behalf of a party (called the principal of that actor). In the context of decentralized digital trust infrastructure, the term \u201cagent\u201d is most frequently used to mean a digital agent.",
@@ -726,6 +848,67 @@
           "nist": [],
           "iso": []
         }
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "urn:toip:glossary:aggregation-amplification",
+      "name": "Aggregation Amplification",
+      "description": "A delegation failure mode in which individually valid and attenuated authority branches combine to produce an effect broader than the originating mandate permits.",
+      "inDefinedTermSet": "ToIP Main Glossary",
+      "identifier": "Aggregation Amplification",
+      "subjectOf": {
+        "governance": {
+          "authority_scope": [
+            "assurance_and_audit",
+            "delegation_and_scope",
+            "policy_definition",
+            "verification_and_reliance"
+          ],
+          "delegation_mode": "direct_or_constrained",
+          "revocation_supported": true,
+          "lifecycle_states": [
+            "proposed",
+            "active",
+            "suspended",
+            "revoked",
+            "retired"
+          ],
+          "execution_role": "hybrid",
+          "control_plane_role": "decision_plane_component",
+          "enforcement_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ]
+        },
+        "assurance": {
+          "evidence_artifacts": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ],
+          "assurance_level_hint": "AL2+",
+          "auditability": "high"
+        },
+        "control_plane": {
+          "decision_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ],
+          "accountable_entity": "governance_authority",
+          "evidence_produced": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ]
+        },
+        "crosswalk": {}
       }
     },
     {
@@ -1085,6 +1268,67 @@
             "ISO/IEC 29115"
           ]
         }
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "urn:toip:glossary:attention-policy",
+      "name": "Attention Policy",
+      "description": "A policy that governs how inbound signals are admitted, deferred, summarized, rerouted, escalated, or rejected before reaching a principal or downstream decision layer.",
+      "inDefinedTermSet": "ToIP Main Glossary",
+      "identifier": "Attention Policy",
+      "subjectOf": {
+        "governance": {
+          "authority_scope": [
+            "assurance_and_audit",
+            "delegation_and_scope",
+            "policy_definition",
+            "verification_and_reliance"
+          ],
+          "delegation_mode": "direct_or_constrained",
+          "revocation_supported": true,
+          "lifecycle_states": [
+            "proposed",
+            "active",
+            "suspended",
+            "revoked",
+            "retired"
+          ],
+          "execution_role": "hybrid",
+          "control_plane_role": "decision_plane_component",
+          "enforcement_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ]
+        },
+        "assurance": {
+          "evidence_artifacts": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ],
+          "assurance_level_hint": "AL2+",
+          "auditability": "high"
+        },
+        "control_plane": {
+          "decision_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ],
+          "accountable_entity": "governance_authority",
+          "evidence_produced": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ]
+        },
+        "crosswalk": {}
       }
     },
     {
@@ -1886,6 +2130,67 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "urn:toip:glossary:authority-boundary",
+      "name": "Authority Boundary",
+      "description": "A machine- or human-readable constraint that identifies where authority begins and ends, including the permitted actor, scope, action, target, conditions, and lifecycle state.",
+      "inDefinedTermSet": "ToIP Main Glossary",
+      "identifier": "Authority Boundary",
+      "subjectOf": {
+        "governance": {
+          "authority_scope": [
+            "assurance_and_audit",
+            "delegation_and_scope",
+            "policy_definition",
+            "verification_and_reliance"
+          ],
+          "delegation_mode": "direct_or_constrained",
+          "revocation_supported": true,
+          "lifecycle_states": [
+            "proposed",
+            "active",
+            "suspended",
+            "revoked",
+            "retired"
+          ],
+          "execution_role": "hybrid",
+          "control_plane_role": "decision_plane_component",
+          "enforcement_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ]
+        },
+        "assurance": {
+          "evidence_artifacts": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ],
+          "assurance_level_hint": "AL2+",
+          "auditability": "high"
+        },
+        "control_plane": {
+          "decision_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ],
+          "accountable_entity": "governance_authority",
+          "evidence_produced": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ]
+        },
+        "crosswalk": {}
+      }
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "urn:toip:glossary:authority",
       "name": "authority",
       "description": "A party whose decisions, policies, rules, or recognition outcomes are accepted as governing, directive, or controlling by other parties within a defined scope.",
@@ -1945,6 +2250,67 @@
             "ISO/IEC 42001 5.3"
           ]
         }
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "urn:toip:glossary:authorization-checkpoint",
+      "name": "Authorization Checkpoint",
+      "description": "A runtime trust event that pauses or interrupts an interaction because required authorization, scope, evidence, or input is absent or insufficient.",
+      "inDefinedTermSet": "ToIP Main Glossary",
+      "identifier": "Authorization Checkpoint",
+      "subjectOf": {
+        "governance": {
+          "authority_scope": [
+            "assurance_and_audit",
+            "delegation_and_scope",
+            "policy_definition",
+            "verification_and_reliance"
+          ],
+          "delegation_mode": "direct_or_constrained",
+          "revocation_supported": true,
+          "lifecycle_states": [
+            "proposed",
+            "active",
+            "suspended",
+            "revoked",
+            "retired"
+          ],
+          "execution_role": "hybrid",
+          "control_plane_role": "decision_plane_component",
+          "enforcement_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ]
+        },
+        "assurance": {
+          "evidence_artifacts": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ],
+          "assurance_level_hint": "AL2+",
+          "auditability": "high"
+        },
+        "control_plane": {
+          "decision_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ],
+          "accountable_entity": "governance_authority",
+          "evidence_produced": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ]
+        },
+        "crosswalk": {}
       }
     },
     {
@@ -2927,6 +3293,67 @@
           "nist": [],
           "iso": []
         }
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "urn:toip:glossary:capability-negotiation",
+      "name": "Capability Negotiation",
+      "description": "A governed process for determining whether an advertised capability is discoverable, compatible, authorized, accepted, and permitted to execute under applicable policy.",
+      "inDefinedTermSet": "ToIP Main Glossary",
+      "identifier": "Capability Negotiation",
+      "subjectOf": {
+        "governance": {
+          "authority_scope": [
+            "assurance_and_audit",
+            "delegation_and_scope",
+            "policy_definition",
+            "verification_and_reliance"
+          ],
+          "delegation_mode": "direct_or_constrained",
+          "revocation_supported": true,
+          "lifecycle_states": [
+            "proposed",
+            "active",
+            "suspended",
+            "revoked",
+            "retired"
+          ],
+          "execution_role": "hybrid",
+          "control_plane_role": "decision_plane_component",
+          "enforcement_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ]
+        },
+        "assurance": {
+          "evidence_artifacts": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ],
+          "assurance_level_hint": "AL2+",
+          "auditability": "high"
+        },
+        "control_plane": {
+          "decision_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ],
+          "accountable_entity": "governance_authority",
+          "evidence_produced": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ]
+        },
+        "crosswalk": {}
       }
     },
     {
@@ -4382,6 +4809,67 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "urn:toip:glossary:content-provenance-policy",
+      "name": "Content Provenance Policy",
+      "description": "A governance policy that specifies what provenance, integrity, sanitization, redaction, and evidence conditions must be satisfied before content may be acted upon, stored, or forwarded.",
+      "inDefinedTermSet": "ToIP Main Glossary",
+      "identifier": "Content Provenance Policy",
+      "subjectOf": {
+        "governance": {
+          "authority_scope": [
+            "assurance_and_audit",
+            "delegation_and_scope",
+            "policy_definition",
+            "verification_and_reliance"
+          ],
+          "delegation_mode": "direct_or_constrained",
+          "revocation_supported": true,
+          "lifecycle_states": [
+            "proposed",
+            "active",
+            "suspended",
+            "revoked",
+            "retired"
+          ],
+          "execution_role": "hybrid",
+          "control_plane_role": "decision_plane_component",
+          "enforcement_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ]
+        },
+        "assurance": {
+          "evidence_artifacts": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ],
+          "assurance_level_hint": "AL2+",
+          "auditability": "high"
+        },
+        "control_plane": {
+          "decision_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ],
+          "accountable_entity": "governance_authority",
+          "evidence_produced": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ]
+        },
+        "crosswalk": {}
+      }
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "urn:toip:glossary:contextual-linkability",
       "name": "contextual-linkability",
       "description": "Refers to the condition where vendors or other data capture points provide enough context at point of capture to be able to use statistical correlation with existing data sets to link any of a person's disclosed attributes to a set of already known data points about a given person.",
@@ -4482,6 +4970,128 @@
           "nist": [],
           "iso": []
         }
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "urn:toip:glossary:control-mode",
+      "name": "Control Mode",
+      "description": "A descriptor for the human-oversight shape of an agent or automated system at runtime, including whether intervention occurs in-loop, on-loop, through a sidecar, or within pre-bounded autonomy.",
+      "inDefinedTermSet": "ToIP Main Glossary",
+      "identifier": "Control Mode",
+      "subjectOf": {
+        "governance": {
+          "authority_scope": [
+            "assurance_and_audit",
+            "delegation_and_scope",
+            "policy_definition",
+            "verification_and_reliance"
+          ],
+          "delegation_mode": "direct_or_constrained",
+          "revocation_supported": true,
+          "lifecycle_states": [
+            "proposed",
+            "active",
+            "suspended",
+            "revoked",
+            "retired"
+          ],
+          "execution_role": "hybrid",
+          "control_plane_role": "decision_plane_component",
+          "enforcement_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ]
+        },
+        "assurance": {
+          "evidence_artifacts": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ],
+          "assurance_level_hint": "AL2+",
+          "auditability": "high"
+        },
+        "control_plane": {
+          "decision_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ],
+          "accountable_entity": "governance_authority",
+          "evidence_produced": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ]
+        },
+        "crosswalk": {}
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "urn:toip:glossary:control-plane-shift",
+      "name": "Control-Plane Shift",
+      "description": "A change in which actor, policy, infrastructure component, or governance mechanism can determine, constrain, or revoke system behavior.",
+      "inDefinedTermSet": "ToIP Main Glossary",
+      "identifier": "Control-Plane Shift",
+      "subjectOf": {
+        "governance": {
+          "authority_scope": [
+            "assurance_and_audit",
+            "delegation_and_scope",
+            "policy_definition",
+            "verification_and_reliance"
+          ],
+          "delegation_mode": "direct_or_constrained",
+          "revocation_supported": true,
+          "lifecycle_states": [
+            "proposed",
+            "active",
+            "suspended",
+            "revoked",
+            "retired"
+          ],
+          "execution_role": "hybrid",
+          "control_plane_role": "decision_plane_component",
+          "enforcement_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ]
+        },
+        "assurance": {
+          "evidence_artifacts": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ],
+          "assurance_level_hint": "AL2+",
+          "auditability": "high"
+        },
+        "control_plane": {
+          "decision_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ],
+          "accountable_entity": "governance_authority",
+          "evidence_produced": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ]
+        },
+        "crosswalk": {}
       }
     },
     {
@@ -6412,6 +7022,67 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "urn:toip:glossary:decision-receipt",
+      "name": "Decision Receipt",
+      "description": "A structured, integrity-protected record of a trust or governance decision, including the decision context, authority, policy, evidence, outcome, obligations, and traceability data.",
+      "inDefinedTermSet": "ToIP Main Glossary",
+      "identifier": "Decision Receipt",
+      "subjectOf": {
+        "governance": {
+          "authority_scope": [
+            "assurance_and_audit",
+            "delegation_and_scope",
+            "policy_definition",
+            "verification_and_reliance"
+          ],
+          "delegation_mode": "direct_or_constrained",
+          "revocation_supported": true,
+          "lifecycle_states": [
+            "proposed",
+            "active",
+            "suspended",
+            "revoked",
+            "retired"
+          ],
+          "execution_role": "hybrid",
+          "control_plane_role": "decision_plane_component",
+          "enforcement_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ]
+        },
+        "assurance": {
+          "evidence_artifacts": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ],
+          "assurance_level_hint": "AL2+",
+          "auditability": "high"
+        },
+        "control_plane": {
+          "decision_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ],
+          "accountable_entity": "governance_authority",
+          "evidence_produced": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ]
+        },
+        "crosswalk": {}
+      }
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "urn:toip:glossary:decryption",
       "name": "decryption",
       "description": "The process of changing ciphertext into plaintext using a cryptographic algorithm and key. The opposite of encryption.",
@@ -6676,6 +7347,67 @@
           "nist": [],
           "iso": []
         }
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "urn:toip:glossary:delegation-lineage",
+      "name": "Delegation Lineage",
+      "description": "The ordered, verifiable path by which authority exercised by a current actor resolves through intermediate delegators to an originating principal and mandate.",
+      "inDefinedTermSet": "ToIP Main Glossary",
+      "identifier": "Delegation Lineage",
+      "subjectOf": {
+        "governance": {
+          "authority_scope": [
+            "assurance_and_audit",
+            "delegation_and_scope",
+            "policy_definition",
+            "verification_and_reliance"
+          ],
+          "delegation_mode": "direct_or_constrained",
+          "revocation_supported": true,
+          "lifecycle_states": [
+            "proposed",
+            "active",
+            "suspended",
+            "revoked",
+            "retired"
+          ],
+          "execution_role": "hybrid",
+          "control_plane_role": "decision_plane_component",
+          "enforcement_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ]
+        },
+        "assurance": {
+          "evidence_artifacts": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ],
+          "assurance_level_hint": "AL2+",
+          "auditability": "high"
+        },
+        "control_plane": {
+          "decision_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ],
+          "accountable_entity": "governance_authority",
+          "evidence_produced": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ]
+        },
+        "crosswalk": {}
       }
     },
     {
@@ -7882,6 +8614,67 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "urn:toip:glossary:discovery-governance",
+      "name": "Discovery Governance",
+      "description": "The policies and controls that determine how descriptors or services are discovered, who mediates discovery, what access and freshness rules apply, and how discovery failures are handled.",
+      "inDefinedTermSet": "ToIP Main Glossary",
+      "identifier": "Discovery Governance",
+      "subjectOf": {
+        "governance": {
+          "authority_scope": [
+            "assurance_and_audit",
+            "delegation_and_scope",
+            "policy_definition",
+            "verification_and_reliance"
+          ],
+          "delegation_mode": "direct_or_constrained",
+          "revocation_supported": true,
+          "lifecycle_states": [
+            "proposed",
+            "active",
+            "suspended",
+            "revoked",
+            "retired"
+          ],
+          "execution_role": "hybrid",
+          "control_plane_role": "decision_plane_component",
+          "enforcement_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ]
+        },
+        "assurance": {
+          "evidence_artifacts": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ],
+          "assurance_level_hint": "AL2+",
+          "auditability": "high"
+        },
+        "control_plane": {
+          "decision_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ],
+          "accountable_entity": "governance_authority",
+          "evidence_produced": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ]
+        },
+        "crosswalk": {}
+      }
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "urn:toip:glossary:discovery",
       "name": "discovery",
       "description": "A mechanism that helps systems or devices find each other automatically, often used in networks to identify services or resources. In decentralized identifier systems it helps to locate and verify digital identities without relying on a central authority.",
@@ -8176,6 +8969,67 @@
           "nist": [],
           "iso": []
         }
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "urn:toip:glossary:dynamic-authorization",
+      "name": "Dynamic Authorization",
+      "description": "An authorization approach in which runtime decisions are produced by evaluating contextual attributes, evidence, and policy rather than relying only on static permissions.",
+      "inDefinedTermSet": "ToIP Main Glossary",
+      "identifier": "Dynamic Authorization",
+      "subjectOf": {
+        "governance": {
+          "authority_scope": [
+            "assurance_and_audit",
+            "delegation_and_scope",
+            "policy_definition",
+            "verification_and_reliance"
+          ],
+          "delegation_mode": "direct_or_constrained",
+          "revocation_supported": true,
+          "lifecycle_states": [
+            "proposed",
+            "active",
+            "suspended",
+            "revoked",
+            "retired"
+          ],
+          "execution_role": "hybrid",
+          "control_plane_role": "decision_plane_component",
+          "enforcement_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ]
+        },
+        "assurance": {
+          "evidence_artifacts": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ],
+          "assurance_level_hint": "AL2+",
+          "auditability": "high"
+        },
+        "control_plane": {
+          "decision_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ],
+          "accountable_entity": "governance_authority",
+          "evidence_produced": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ]
+        },
+        "crosswalk": {}
       }
     },
     {
@@ -9131,6 +9985,128 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "urn:toip:glossary:evidence-artifact",
+      "name": "Evidence Artifact",
+      "description": "A typed, structured output produced by a system, authorized actor, or assessment process to demonstrate that a rule was checked, a behavior occurred, or a condition holds.",
+      "inDefinedTermSet": "ToIP Main Glossary",
+      "identifier": "Evidence Artifact",
+      "subjectOf": {
+        "governance": {
+          "authority_scope": [
+            "assurance_and_audit",
+            "delegation_and_scope",
+            "policy_definition",
+            "verification_and_reliance"
+          ],
+          "delegation_mode": "direct_or_constrained",
+          "revocation_supported": true,
+          "lifecycle_states": [
+            "proposed",
+            "active",
+            "suspended",
+            "revoked",
+            "retired"
+          ],
+          "execution_role": "hybrid",
+          "control_plane_role": "decision_plane_component",
+          "enforcement_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ]
+        },
+        "assurance": {
+          "evidence_artifacts": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ],
+          "assurance_level_hint": "AL2+",
+          "auditability": "high"
+        },
+        "control_plane": {
+          "decision_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ],
+          "accountable_entity": "governance_authority",
+          "evidence_produced": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ]
+        },
+        "crosswalk": {}
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "urn:toip:glossary:evidence-bundle",
+      "name": "Evidence Bundle",
+      "description": "A bounded collection of evidence artifacts assembled for a decision, assessment, verification, or audit purpose, with sufficient metadata to support integrity and traceability.",
+      "inDefinedTermSet": "ToIP Main Glossary",
+      "identifier": "Evidence Bundle",
+      "subjectOf": {
+        "governance": {
+          "authority_scope": [
+            "assurance_and_audit",
+            "delegation_and_scope",
+            "policy_definition",
+            "verification_and_reliance"
+          ],
+          "delegation_mode": "direct_or_constrained",
+          "revocation_supported": true,
+          "lifecycle_states": [
+            "proposed",
+            "active",
+            "suspended",
+            "revoked",
+            "retired"
+          ],
+          "execution_role": "hybrid",
+          "control_plane_role": "decision_plane_component",
+          "enforcement_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ]
+        },
+        "assurance": {
+          "evidence_artifacts": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ],
+          "assurance_level_hint": "AL2+",
+          "auditability": "high"
+        },
+        "control_plane": {
+          "decision_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ],
+          "accountable_entity": "governance_authority",
+          "evidence_produced": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ]
+        },
+        "crosswalk": {}
+      }
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "urn:toip:glossary:expression-language",
       "name": "expression-language",
       "description": "A language for creating a computer-interpretable (machine-readable) representation of specific knowledge.",
@@ -9174,6 +10150,67 @@
           "nist": [],
           "iso": []
         }
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "urn:toip:glossary:extension-contract",
+      "name": "Extension Contract",
+      "description": "A protocol-neutral record of whether an optional or required extension was proposed, supported, accepted, degraded, rejected, or not attempted, including the applicable failure behavior.",
+      "inDefinedTermSet": "ToIP Main Glossary",
+      "identifier": "Extension Contract",
+      "subjectOf": {
+        "governance": {
+          "authority_scope": [
+            "assurance_and_audit",
+            "delegation_and_scope",
+            "policy_definition",
+            "verification_and_reliance"
+          ],
+          "delegation_mode": "direct_or_constrained",
+          "revocation_supported": true,
+          "lifecycle_states": [
+            "proposed",
+            "active",
+            "suspended",
+            "revoked",
+            "retired"
+          ],
+          "execution_role": "hybrid",
+          "control_plane_role": "decision_plane_component",
+          "enforcement_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ]
+        },
+        "assurance": {
+          "evidence_artifacts": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ],
+          "assurance_level_hint": "AL2+",
+          "auditability": "high"
+        },
+        "control_plane": {
+          "decision_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ],
+          "accountable_entity": "governance_authority",
+          "evidence_produced": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ]
+        },
+        "crosswalk": {}
       }
     },
     {
@@ -12101,6 +13138,128 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "urn:toip:glossary:interaction-context",
+      "name": "Interaction Context",
+      "description": "A session-level governance envelope that groups related tasks, messages, authority, evidence, and trust decisions across a sequence of interactions.",
+      "inDefinedTermSet": "ToIP Main Glossary",
+      "identifier": "Interaction Context",
+      "subjectOf": {
+        "governance": {
+          "authority_scope": [
+            "assurance_and_audit",
+            "delegation_and_scope",
+            "policy_definition",
+            "verification_and_reliance"
+          ],
+          "delegation_mode": "direct_or_constrained",
+          "revocation_supported": true,
+          "lifecycle_states": [
+            "proposed",
+            "active",
+            "suspended",
+            "revoked",
+            "retired"
+          ],
+          "execution_role": "hybrid",
+          "control_plane_role": "decision_plane_component",
+          "enforcement_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ]
+        },
+        "assurance": {
+          "evidence_artifacts": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ],
+          "assurance_level_hint": "AL2+",
+          "auditability": "high"
+        },
+        "control_plane": {
+          "decision_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ],
+          "accountable_entity": "governance_authority",
+          "evidence_produced": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ]
+        },
+        "crosswalk": {}
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "urn:toip:glossary:interaction-task",
+      "name": "Interaction Task",
+      "description": "A durable work unit with governance-significant state transitions, artifact accumulation, continuation or cancellation semantics, and evidence obligations.",
+      "inDefinedTermSet": "ToIP Main Glossary",
+      "identifier": "Interaction Task",
+      "subjectOf": {
+        "governance": {
+          "authority_scope": [
+            "assurance_and_audit",
+            "delegation_and_scope",
+            "policy_definition",
+            "verification_and_reliance"
+          ],
+          "delegation_mode": "direct_or_constrained",
+          "revocation_supported": true,
+          "lifecycle_states": [
+            "proposed",
+            "active",
+            "suspended",
+            "revoked",
+            "retired"
+          ],
+          "execution_role": "hybrid",
+          "control_plane_role": "decision_plane_component",
+          "enforcement_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ]
+        },
+        "assurance": {
+          "evidence_artifacts": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ],
+          "assurance_level_hint": "AL2+",
+          "auditability": "high"
+        },
+        "control_plane": {
+          "decision_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ],
+          "accountable_entity": "governance_authority",
+          "evidence_produced": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ]
+        },
+        "crosswalk": {}
+      }
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "urn:toip:glossary:intermediary-system",
       "name": "intermediary-system",
       "description": "An intermediary system routes messages between endpoint systems but is not otherwise involved in the processing of those messages. In the context of end-to-end encryption, intermediary systems cannot decrypt the messages sent between the endpoint systems. In the ToIP stack, intermediary systems operate at ToIP Layer 2, the trust spanning layer. An intermediary system is one of three types of systems defined in the ToIP Technology Architecture Specification; the other two are endpoint systems and supporting systems.",
@@ -12454,6 +13613,67 @@
           "nist": [],
           "iso": []
         }
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "urn:toip:glossary:issuer-concealment",
+      "name": "Issuer Concealment",
+      "description": "A privacy property in which a proof or presentation does not disclose the identity of the issuer to the verifier, subject to the requirements and trust model of the applicable profile.",
+      "inDefinedTermSet": "ToIP Main Glossary",
+      "identifier": "Issuer Concealment",
+      "subjectOf": {
+        "governance": {
+          "authority_scope": [
+            "assurance_and_audit",
+            "delegation_and_scope",
+            "policy_definition",
+            "verification_and_reliance"
+          ],
+          "delegation_mode": "direct_or_constrained",
+          "revocation_supported": true,
+          "lifecycle_states": [
+            "proposed",
+            "active",
+            "suspended",
+            "revoked",
+            "retired"
+          ],
+          "execution_role": "hybrid",
+          "control_plane_role": "decision_plane_component",
+          "enforcement_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ]
+        },
+        "assurance": {
+          "evidence_artifacts": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ],
+          "assurance_level_hint": "AL2+",
+          "auditability": "high"
+        },
+        "control_plane": {
+          "decision_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ],
+          "accountable_entity": "governance_authority",
+          "evidence_produced": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ]
+        },
+        "crosswalk": {}
       }
     },
     {
@@ -13731,6 +14951,67 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "urn:toip:glossary:legitimacy-gap",
+      "name": "Legitimacy Gap",
+      "description": "A mismatch between an action or decision that a system can technically execute and the authority, recognition, consent, or governance basis required for that action to be legitimate.",
+      "inDefinedTermSet": "ToIP Main Glossary",
+      "identifier": "Legitimacy Gap",
+      "subjectOf": {
+        "governance": {
+          "authority_scope": [
+            "assurance_and_audit",
+            "delegation_and_scope",
+            "policy_definition",
+            "verification_and_reliance"
+          ],
+          "delegation_mode": "direct_or_constrained",
+          "revocation_supported": true,
+          "lifecycle_states": [
+            "proposed",
+            "active",
+            "suspended",
+            "revoked",
+            "retired"
+          ],
+          "execution_role": "hybrid",
+          "control_plane_role": "decision_plane_component",
+          "enforcement_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ]
+        },
+        "assurance": {
+          "evidence_artifacts": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ],
+          "assurance_level_hint": "AL2+",
+          "auditability": "high"
+        },
+        "control_plane": {
+          "decision_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ],
+          "accountable_entity": "governance_authority",
+          "evidence_produced": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ]
+        },
+        "crosswalk": {}
+      }
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "urn:toip:glossary:legitimized-human-meaningful-identifier",
       "name": "legitimized-human-meaningful-identifier",
       "description": "An AID and its associated self-certifying trust basis gives rise to a trust domain for associated cryptographically verifiable non-repudiable statements. Every other type of identifier including human meaningful identifiers may then be secured in this resultant trust domain via an end-verifiable authorization. This authorization legitimizes that human meaningful identifier as an LID through its association with an AID. The result is a secured trust domain specific identifier couplet of aid|lid.",
@@ -14360,6 +15641,67 @@
           "nist": [],
           "iso": []
         }
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "urn:toip:glossary:monotonic-attenuation",
+      "name": "Monotonic Attenuation",
+      "description": "The delegation invariant that authority may remain unchanged or become narrower at each delegation hop but must never expand beyond the parent grant.",
+      "inDefinedTermSet": "ToIP Main Glossary",
+      "identifier": "Monotonic Attenuation",
+      "subjectOf": {
+        "governance": {
+          "authority_scope": [
+            "assurance_and_audit",
+            "delegation_and_scope",
+            "policy_definition",
+            "verification_and_reliance"
+          ],
+          "delegation_mode": "direct_or_constrained",
+          "revocation_supported": true,
+          "lifecycle_states": [
+            "proposed",
+            "active",
+            "suspended",
+            "revoked",
+            "retired"
+          ],
+          "execution_role": "hybrid",
+          "control_plane_role": "decision_plane_component",
+          "enforcement_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ]
+        },
+        "assurance": {
+          "evidence_artifacts": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ],
+          "assurance_level_hint": "AL2+",
+          "auditability": "high"
+        },
+        "control_plane": {
+          "decision_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ],
+          "accountable_entity": "governance_authority",
+          "evidence_produced": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ]
+        },
+        "crosswalk": {}
       }
     },
     {
@@ -15085,6 +16427,67 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "urn:toip:glossary:nullifier",
+      "name": "Nullifier",
+      "description": "A cryptographically derived value used to detect prohibited reuse or duplication within a defined scope without revealing the underlying secret or necessarily enabling correlation across other scopes.",
+      "inDefinedTermSet": "ToIP Main Glossary",
+      "identifier": "Nullifier",
+      "subjectOf": {
+        "governance": {
+          "authority_scope": [
+            "assurance_and_audit",
+            "delegation_and_scope",
+            "policy_definition",
+            "verification_and_reliance"
+          ],
+          "delegation_mode": "direct_or_constrained",
+          "revocation_supported": true,
+          "lifecycle_states": [
+            "proposed",
+            "active",
+            "suspended",
+            "revoked",
+            "retired"
+          ],
+          "execution_role": "hybrid",
+          "control_plane_role": "decision_plane_component",
+          "enforcement_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ]
+        },
+        "assurance": {
+          "evidence_artifacts": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ],
+          "assurance_level_hint": "AL2+",
+          "auditability": "high"
+        },
+        "control_plane": {
+          "decision_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ],
+          "accountable_entity": "governance_authority",
+          "evidence_produced": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ]
+        },
+        "crosswalk": {}
+      }
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "urn:toip:glossary:objective",
       "name": "objective",
       "description": "Something toward which a party (its owner) directs effort (an aim, goal, or end of action).",
@@ -15132,6 +16535,67 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "urn:toip:glossary:observability-mode",
+      "name": "Observability Mode",
+      "description": "A descriptor for what can be known and evidenced about delivery, timing, progress, and user awareness for an interaction channel or execution path.",
+      "inDefinedTermSet": "ToIP Main Glossary",
+      "identifier": "Observability Mode",
+      "subjectOf": {
+        "governance": {
+          "authority_scope": [
+            "assurance_and_audit",
+            "delegation_and_scope",
+            "policy_definition",
+            "verification_and_reliance"
+          ],
+          "delegation_mode": "direct_or_constrained",
+          "revocation_supported": true,
+          "lifecycle_states": [
+            "proposed",
+            "active",
+            "suspended",
+            "revoked",
+            "retired"
+          ],
+          "execution_role": "hybrid",
+          "control_plane_role": "decision_plane_component",
+          "enforcement_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ]
+        },
+        "assurance": {
+          "evidence_artifacts": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ],
+          "assurance_level_hint": "AL2+",
+          "auditability": "high"
+        },
+        "control_plane": {
+          "decision_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ],
+          "accountable_entity": "governance_authority",
+          "evidence_produced": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ]
+        },
+        "crosswalk": {}
+      }
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "urn:toip:glossary:oobi",
       "name": "oobi",
       "description": "See: out-of-band introduction.",
@@ -15175,6 +16639,67 @@
           "nist": [],
           "iso": []
         }
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "urn:toip:glossary:opacity-boundary",
+      "name": "Opacity Boundary",
+      "description": "A declared limit on what can be observed about an agent or system and the resulting constraints on trust, evidence, assurance, and permitted reliance.",
+      "inDefinedTermSet": "ToIP Main Glossary",
+      "identifier": "Opacity Boundary",
+      "subjectOf": {
+        "governance": {
+          "authority_scope": [
+            "assurance_and_audit",
+            "delegation_and_scope",
+            "policy_definition",
+            "verification_and_reliance"
+          ],
+          "delegation_mode": "direct_or_constrained",
+          "revocation_supported": true,
+          "lifecycle_states": [
+            "proposed",
+            "active",
+            "suspended",
+            "revoked",
+            "retired"
+          ],
+          "execution_role": "hybrid",
+          "control_plane_role": "decision_plane_component",
+          "enforcement_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ]
+        },
+        "assurance": {
+          "evidence_artifacts": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ],
+          "assurance_level_hint": "AL2+",
+          "auditability": "high"
+        },
+        "control_plane": {
+          "decision_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ],
+          "accountable_entity": "governance_authority",
+          "evidence_produced": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ]
+        },
+        "crosswalk": {}
       }
     },
     {
@@ -15943,6 +17468,67 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "urn:toip:glossary:peer-trust-relation",
+      "name": "Peer Trust Relation",
+      "description": "A lateral trust relationship between parties that do not hold hierarchical authority over one another and that rely on an explicit trust basis such as credential exchange, policy acceptance, or third-party introduction.",
+      "inDefinedTermSet": "ToIP Main Glossary",
+      "identifier": "Peer Trust Relation",
+      "subjectOf": {
+        "governance": {
+          "authority_scope": [
+            "assurance_and_audit",
+            "delegation_and_scope",
+            "policy_definition",
+            "verification_and_reliance"
+          ],
+          "delegation_mode": "direct_or_constrained",
+          "revocation_supported": true,
+          "lifecycle_states": [
+            "proposed",
+            "active",
+            "suspended",
+            "revoked",
+            "retired"
+          ],
+          "execution_role": "hybrid",
+          "control_plane_role": "decision_plane_component",
+          "enforcement_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ]
+        },
+        "assurance": {
+          "evidence_artifacts": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ],
+          "assurance_level_hint": "AL2+",
+          "auditability": "high"
+        },
+        "control_plane": {
+          "decision_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ],
+          "accountable_entity": "governance_authority",
+          "evidence_produced": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ]
+        },
+        "crosswalk": {}
+      }
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "urn:toip:glossary:peer",
       "name": "peer",
       "description": "In the context of digital networks, an actor on the network that has the same status, privileges, and communications options as the other actors on the network.",
@@ -16437,6 +18023,67 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "urn:toip:glossary:personhood",
+      "name": "Personhood",
+      "description": "The status or quality of being treated as a person for a defined social, legal, governance, or technical purpose; it is not equivalent to civil identity or the possession of an identifier.",
+      "inDefinedTermSet": "ToIP Main Glossary",
+      "identifier": "Personhood",
+      "subjectOf": {
+        "governance": {
+          "authority_scope": [
+            "assurance_and_audit",
+            "delegation_and_scope",
+            "policy_definition",
+            "verification_and_reliance"
+          ],
+          "delegation_mode": "direct_or_constrained",
+          "revocation_supported": true,
+          "lifecycle_states": [
+            "proposed",
+            "active",
+            "suspended",
+            "revoked",
+            "retired"
+          ],
+          "execution_role": "hybrid",
+          "control_plane_role": "decision_plane_component",
+          "enforcement_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ]
+        },
+        "assurance": {
+          "evidence_artifacts": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ],
+          "assurance_level_hint": "AL2+",
+          "auditability": "high"
+        },
+        "control_plane": {
+          "decision_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ],
+          "accountable_entity": "governance_authority",
+          "evidence_produced": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ]
+        },
+        "crosswalk": {}
+      }
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "urn:toip:glossary:physical-credential",
       "name": "physical-credential",
       "description": "A credential in a physical form such as paper, plastic, or metal.",
@@ -16797,6 +18444,67 @@
           "nist": [],
           "iso": []
         }
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "urn:toip:glossary:predicate-proof",
+      "name": "Predicate Proof",
+      "description": "A proof that establishes whether a defined condition about one or more attributes is satisfied without necessarily disclosing the underlying attribute values.",
+      "inDefinedTermSet": "ToIP Main Glossary",
+      "identifier": "Predicate Proof",
+      "subjectOf": {
+        "governance": {
+          "authority_scope": [
+            "assurance_and_audit",
+            "delegation_and_scope",
+            "policy_definition",
+            "verification_and_reliance"
+          ],
+          "delegation_mode": "direct_or_constrained",
+          "revocation_supported": true,
+          "lifecycle_states": [
+            "proposed",
+            "active",
+            "suspended",
+            "revoked",
+            "retired"
+          ],
+          "execution_role": "hybrid",
+          "control_plane_role": "decision_plane_component",
+          "enforcement_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ]
+        },
+        "assurance": {
+          "evidence_artifacts": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ],
+          "assurance_level_hint": "AL2+",
+          "auditability": "high"
+        },
+        "control_plane": {
+          "decision_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ],
+          "accountable_entity": "governance_authority",
+          "evidence_produced": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ]
+        },
+        "crosswalk": {}
       }
     },
     {
@@ -17234,6 +18942,67 @@
           "nist": [],
           "iso": []
         }
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "urn:toip:glossary:proof-carrying-commitment-receipt",
+      "name": "Proof-Carrying Commitment Receipt",
+      "description": "A receipt that records a commitment together with cryptographic or verifiable evidence sufficient to evaluate who was authorized, what was committed, under which conditions, and with what lifecycle status.",
+      "inDefinedTermSet": "ToIP Main Glossary",
+      "identifier": "Proof-Carrying Commitment Receipt",
+      "subjectOf": {
+        "governance": {
+          "authority_scope": [
+            "assurance_and_audit",
+            "delegation_and_scope",
+            "policy_definition",
+            "verification_and_reliance"
+          ],
+          "delegation_mode": "direct_or_constrained",
+          "revocation_supported": true,
+          "lifecycle_states": [
+            "proposed",
+            "active",
+            "suspended",
+            "revoked",
+            "retired"
+          ],
+          "execution_role": "hybrid",
+          "control_plane_role": "decision_plane_component",
+          "enforcement_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ]
+        },
+        "assurance": {
+          "evidence_artifacts": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ],
+          "assurance_level_hint": "AL2+",
+          "auditability": "high"
+        },
+        "control_plane": {
+          "decision_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ],
+          "accountable_entity": "governance_authority",
+          "evidence_produced": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ]
+        },
+        "crosswalk": {}
       }
     },
     {
@@ -19687,6 +21456,128 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "urn:toip:glossary:runtime-authority-envelope",
+      "name": "Runtime Authority Envelope",
+      "description": "A runtime artifact that carries the currently valid authority, scope, constraints, delegation lineage, and status required before an action may be executed.",
+      "inDefinedTermSet": "ToIP Main Glossary",
+      "identifier": "Runtime Authority Envelope",
+      "subjectOf": {
+        "governance": {
+          "authority_scope": [
+            "assurance_and_audit",
+            "delegation_and_scope",
+            "policy_definition",
+            "verification_and_reliance"
+          ],
+          "delegation_mode": "direct_or_constrained",
+          "revocation_supported": true,
+          "lifecycle_states": [
+            "proposed",
+            "active",
+            "suspended",
+            "revoked",
+            "retired"
+          ],
+          "execution_role": "hybrid",
+          "control_plane_role": "decision_plane_component",
+          "enforcement_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ]
+        },
+        "assurance": {
+          "evidence_artifacts": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ],
+          "assurance_level_hint": "AL2+",
+          "auditability": "high"
+        },
+        "control_plane": {
+          "decision_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ],
+          "accountable_entity": "governance_authority",
+          "evidence_produced": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ]
+        },
+        "crosswalk": {}
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "urn:toip:glossary:runtime-governance-envelope",
+      "name": "Runtime Governance Envelope",
+      "description": "A structured envelope that binds the authority, policy, evidence, constraints, obligations, and lifecycle state applicable to a runtime interaction or task.",
+      "inDefinedTermSet": "ToIP Main Glossary",
+      "identifier": "Runtime Governance Envelope",
+      "subjectOf": {
+        "governance": {
+          "authority_scope": [
+            "assurance_and_audit",
+            "delegation_and_scope",
+            "policy_definition",
+            "verification_and_reliance"
+          ],
+          "delegation_mode": "direct_or_constrained",
+          "revocation_supported": true,
+          "lifecycle_states": [
+            "proposed",
+            "active",
+            "suspended",
+            "revoked",
+            "retired"
+          ],
+          "execution_role": "hybrid",
+          "control_plane_role": "decision_plane_component",
+          "enforcement_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ]
+        },
+        "assurance": {
+          "evidence_artifacts": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ],
+          "assurance_level_hint": "AL2+",
+          "auditability": "high"
+        },
+        "control_plane": {
+          "decision_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ],
+          "accountable_entity": "governance_authority",
+          "evidence_produced": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ]
+        },
+        "crosswalk": {}
+      }
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "urn:toip:glossary:rwi",
       "name": "rwi",
       "description": "See: real world identity.",
@@ -20680,6 +22571,67 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "urn:toip:glossary:service-descriptor",
+      "name": "Service Descriptor",
+      "description": "A policy-governed disclosure artifact through which an agent, service, or system states what it is, what it can do, how it can be reached, and under what visibility conditions.",
+      "inDefinedTermSet": "ToIP Main Glossary",
+      "identifier": "Service Descriptor",
+      "subjectOf": {
+        "governance": {
+          "authority_scope": [
+            "assurance_and_audit",
+            "delegation_and_scope",
+            "policy_definition",
+            "verification_and_reliance"
+          ],
+          "delegation_mode": "direct_or_constrained",
+          "revocation_supported": true,
+          "lifecycle_states": [
+            "proposed",
+            "active",
+            "suspended",
+            "revoked",
+            "retired"
+          ],
+          "execution_role": "hybrid",
+          "control_plane_role": "decision_plane_component",
+          "enforcement_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ]
+        },
+        "assurance": {
+          "evidence_artifacts": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ],
+          "assurance_level_hint": "AL2+",
+          "auditability": "high"
+        },
+        "control_plane": {
+          "decision_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ],
+          "accountable_entity": "governance_authority",
+          "evidence_produced": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ]
+        },
+        "crosswalk": {}
+      }
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "urn:toip:glossary:session",
       "name": "session",
       "description": "See: communication session.",
@@ -20774,6 +22726,67 @@
           "nist": [],
           "iso": []
         }
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "urn:toip:glossary:skill-contract",
+      "name": "Skill Contract",
+      "description": "An operational contract for a discrete capability that defines permitted inputs, outputs, authorization scope, policy conditions, and evidence obligations.",
+      "inDefinedTermSet": "ToIP Main Glossary",
+      "identifier": "Skill Contract",
+      "subjectOf": {
+        "governance": {
+          "authority_scope": [
+            "assurance_and_audit",
+            "delegation_and_scope",
+            "policy_definition",
+            "verification_and_reliance"
+          ],
+          "delegation_mode": "direct_or_constrained",
+          "revocation_supported": true,
+          "lifecycle_states": [
+            "proposed",
+            "active",
+            "suspended",
+            "revoked",
+            "retired"
+          ],
+          "execution_role": "hybrid",
+          "control_plane_role": "decision_plane_component",
+          "enforcement_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ]
+        },
+        "assurance": {
+          "evidence_artifacts": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ],
+          "assurance_level_hint": "AL2+",
+          "auditability": "high"
+        },
+        "control_plane": {
+          "decision_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ],
+          "accountable_entity": "governance_authority",
+          "evidence_produced": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ]
+        },
+        "crosswalk": {}
       }
     },
     {
@@ -21617,6 +23630,67 @@
           "nist": [],
           "iso": []
         }
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "urn:toip:glossary:task-evidence-lifecycle",
+      "name": "Task Evidence Lifecycle",
+      "description": "The sequence of evidence, receipts, artifacts, and review triggers associated with governance-significant task state transitions from initiation through completion, cancellation, or failure.",
+      "inDefinedTermSet": "ToIP Main Glossary",
+      "identifier": "Task Evidence Lifecycle",
+      "subjectOf": {
+        "governance": {
+          "authority_scope": [
+            "assurance_and_audit",
+            "delegation_and_scope",
+            "policy_definition",
+            "verification_and_reliance"
+          ],
+          "delegation_mode": "direct_or_constrained",
+          "revocation_supported": true,
+          "lifecycle_states": [
+            "proposed",
+            "active",
+            "suspended",
+            "revoked",
+            "retired"
+          ],
+          "execution_role": "hybrid",
+          "control_plane_role": "decision_plane_component",
+          "enforcement_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ]
+        },
+        "assurance": {
+          "evidence_artifacts": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ],
+          "assurance_level_hint": "AL2+",
+          "auditability": "high"
+        },
+        "control_plane": {
+          "decision_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ],
+          "accountable_entity": "governance_authority",
+          "evidence_produced": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ]
+        },
+        "crosswalk": {}
       }
     },
     {
@@ -25738,6 +27812,67 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "urn:toip:glossary:trust-task-execution-receipt",
+      "name": "Trust Task Execution Receipt",
+      "description": "A structured receipt that records how a trust-relevant task was authorized, executed, evidenced, and completed or terminated.",
+      "inDefinedTermSet": "ToIP Main Glossary",
+      "identifier": "Trust Task Execution Receipt",
+      "subjectOf": {
+        "governance": {
+          "authority_scope": [
+            "assurance_and_audit",
+            "delegation_and_scope",
+            "policy_definition",
+            "verification_and_reliance"
+          ],
+          "delegation_mode": "direct_or_constrained",
+          "revocation_supported": true,
+          "lifecycle_states": [
+            "proposed",
+            "active",
+            "suspended",
+            "revoked",
+            "retired"
+          ],
+          "execution_role": "hybrid",
+          "control_plane_role": "decision_plane_component",
+          "enforcement_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ]
+        },
+        "assurance": {
+          "evidence_artifacts": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ],
+          "assurance_level_hint": "AL2+",
+          "auditability": "high"
+        },
+        "control_plane": {
+          "decision_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ],
+          "accountable_entity": "governance_authority",
+          "evidence_produced": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ]
+        },
+        "crosswalk": {}
+      }
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "urn:toip:glossary:trust-task-layer",
       "name": "trust-task-layer",
       "description": "In the context of the ToIP stack, the trust task layer is ToIP Layer 3. It supports trust applications operating at ToIP Layer 4.",
@@ -26747,6 +28882,67 @@
           "nist": [],
           "iso": []
         }
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "urn:toip:glossary:unlinkability",
+      "name": "Unlinkability",
+      "description": "A privacy property under which two or more transactions, proofs, identifiers, or observations cannot reasonably be determined to concern the same party beyond the permitted correlation scope.",
+      "inDefinedTermSet": "ToIP Main Glossary",
+      "identifier": "Unlinkability",
+      "subjectOf": {
+        "governance": {
+          "authority_scope": [
+            "assurance_and_audit",
+            "delegation_and_scope",
+            "policy_definition",
+            "verification_and_reliance"
+          ],
+          "delegation_mode": "direct_or_constrained",
+          "revocation_supported": true,
+          "lifecycle_states": [
+            "proposed",
+            "active",
+            "suspended",
+            "revoked",
+            "retired"
+          ],
+          "execution_role": "hybrid",
+          "control_plane_role": "decision_plane_component",
+          "enforcement_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ]
+        },
+        "assurance": {
+          "evidence_artifacts": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ],
+          "assurance_level_hint": "AL2+",
+          "auditability": "high"
+        },
+        "control_plane": {
+          "decision_points": [
+            "policy_approval",
+            "delegation_grant",
+            "reliance_decision",
+            "revocation_decision"
+          ],
+          "accountable_entity": "governance_authority",
+          "evidence_produced": [
+            "policy_document",
+            "delegation_record",
+            "status_record",
+            "verification_log"
+          ]
+        },
+        "crosswalk": {}
       }
     },
     {

@@ -1,12 +1,12 @@
 ---
 title: "Glossary Terms"
 nav_order: 2
-has_children: false
+has_children: true
 ---
 
 # Glossary Terms
 
-This index is generated from `glossary/terms/` and currently includes **563** terms.
+This index is generated from `glossary/terms/` and currently includes **599** terms.
 
 ## Browse by letter
 
@@ -51,6 +51,9 @@ This index is generated from `glossary/terms/` and currently includes **563** te
 - [administering-body]({{ '/terms/administering-body/' | relative_url }})
 - [agency]({{ '/terms/agency/' | relative_url }})
 - [agent]({{ '/terms/agent/' | relative_url }})
+- [Agent Class]({{ '/terms/agent-class/' | relative_url }})
+- [Agent Mandate Envelope]({{ '/terms/agent-mandate-envelope/' | relative_url }})
+- [Aggregation Amplification]({{ '/terms/aggregation-amplification/' | relative_url }})
 - [aid]({{ '/terms/aid/' | relative_url }})
 - [anonymous]({{ '/terms/anonymous/' | relative_url }})
 - [anycast]({{ '/terms/anycast/' | relative_url }})
@@ -58,11 +61,8 @@ This index is generated from `glossary/terms/` and currently includes **563** te
 - [appraisability]({{ '/terms/appraisability/' | relative_url }})
 - [appropriate-friction]({{ '/terms/appropriate-friction/' | relative_url }})
 - [assurance-level]({{ '/terms/assurance-level/' | relative_url }})
-- [attestation]({{ '/terms/attestation/' | relative_url }})
-- [attribute]({{ '/terms/attribute/' | relative_url }})
-- [attribute-based-access-control]({{ '/terms/attribute-based-access-control/' | relative_url }})
-- [attributional-trust]({{ '/terms/attributional-trust/' | relative_url }})
-- [View all 43 terms for A]({{ '/terms/a/' | relative_url }})
+- [Attention Policy]({{ '/terms/attention-policy/' | relative_url }})
+- [View all 49 terms for A]({{ '/terms/a/' | relative_url }})
 
 ## B
 
@@ -82,6 +82,7 @@ This index is generated from `glossary/terms/` and currently includes **563** te
 - [ca]({{ '/terms/ca/' | relative_url }})
 - [cai]({{ '/terms/cai/' | relative_url }})
 - [capability]({{ '/terms/capability/' | relative_url }})
+- [Capability Negotiation]({{ '/terms/capability-negotiation/' | relative_url }})
 - [certificate]({{ '/terms/certificate/' | relative_url }})
 - [certificate-authority]({{ '/terms/certificate-authority/' | relative_url }})
 - [certification]({{ '/terms/certification/' | relative_url }})
@@ -101,8 +102,7 @@ This index is generated from `glossary/terms/` and currently includes **563** te
 - [communication-endpoint]({{ '/terms/communication-endpoint/' | relative_url }})
 - [communication-metadata]({{ '/terms/communication-metadata/' | relative_url }})
 - [communication-session]({{ '/terms/communication-session/' | relative_url }})
-- [complex-password]({{ '/terms/complex-password/' | relative_url }})
-- [View all 57 terms for C]({{ '/terms/c/' | relative_url }})
+- [View all 61 terms for C]({{ '/terms/c/' | relative_url }})
 
 ## D
 
@@ -121,17 +121,17 @@ This index is generated from `glossary/terms/` and currently includes **563** te
 - [decentralized-identity-foundation]({{ '/terms/decentralized-identity-foundation/' | relative_url }})
 - [decentralized-web-node]({{ '/terms/decentralized-web-node/' | relative_url }})
 - [deceptive-pattern]({{ '/terms/deceptive-pattern/' | relative_url }})
+- [Decision Receipt]({{ '/terms/decision-receipt/' | relative_url }})
 - [decryption]({{ '/terms/decryption/' | relative_url }})
 - [deep-link]({{ '/terms/deep-link/' | relative_url }})
 - [definition]({{ '/terms/definition/' | relative_url }})
 - [delegatee]({{ '/terms/delegatee/' | relative_url }})
 - [delegation]({{ '/terms/delegation/' | relative_url }})
+- [Delegation Lineage]({{ '/terms/delegation-lineage/' | relative_url }})
 - [delegation-credential]({{ '/terms/delegation-credential/' | relative_url }})
 - [delegator]({{ '/terms/delegator/' | relative_url }})
 - [dependent]({{ '/terms/dependent/' | relative_url }})
-- [device-controller]({{ '/terms/device-controller/' | relative_url }})
-- [dictionary]({{ '/terms/dictionary/' | relative_url }})
-- [View all 49 terms for D]({{ '/terms/d/' | relative_url }})
+- [View all 53 terms for D]({{ '/terms/d/' | relative_url }})
 
 ## E
 
@@ -154,7 +154,10 @@ This index is generated from `glossary/terms/` and currently includes **563** te
 - [ephemeral-connection]({{ '/terms/ephemeral-connection/' | relative_url }})
 - [essr]({{ '/terms/essr/' | relative_url }})
 - [eudi-wallet]({{ '/terms/eudi-wallet/' | relative_url }})
+- [Evidence Artifact]({{ '/terms/evidence-artifact/' | relative_url }})
+- [Evidence Bundle]({{ '/terms/evidence-bundle/' | relative_url }})
 - [expression-language]({{ '/terms/expression-language/' | relative_url }})
+- [Extension Contract]({{ '/terms/extension-contract/' | relative_url }})
 
 ## F
 
@@ -224,6 +227,8 @@ This index is generated from `glossary/terms/` and currently includes **563** te
 - [impersonation]({{ '/terms/impersonation/' | relative_url }})
 - [information-theoretic-security]({{ '/terms/information-theoretic-security/' | relative_url }})
 - [integrity]({{ '/terms/integrity/' | relative_url }})
+- [Interaction Context]({{ '/terms/interaction-context/' | relative_url }})
+- [Interaction Task]({{ '/terms/interaction-task/' | relative_url }})
 - [intermediary-system]({{ '/terms/intermediary-system/' | relative_url }})
 - [internet-protocol]({{ '/terms/internet-protocol/' | relative_url }})
 - [internet-protocol-suite]({{ '/terms/internet-protocol-suite/' | relative_url }})
@@ -231,9 +236,7 @@ This index is generated from `glossary/terms/` and currently includes **563** te
 - [ip-address]({{ '/terms/ip-address/' | relative_url }})
 - [issuance]({{ '/terms/issuance/' | relative_url }})
 - [issuance-request]({{ '/terms/issuance-request/' | relative_url }})
-- [issuer]({{ '/terms/issuer/' | relative_url }})
-- [issuer-metadata]({{ '/terms/issuer-metadata/' | relative_url }})
-- [View all 26 terms for I]({{ '/terms/i/' | relative_url }})
+- [View all 29 terms for I]({{ '/terms/i/' | relative_url }})
 
 ## J
 
@@ -266,6 +269,7 @@ This index is generated from `glossary/terms/` and currently includes **563** te
 - [legal-identity]({{ '/terms/legal-identity/' | relative_url }})
 - [legal-person]({{ '/terms/legal-person/' | relative_url }})
 - [legal-system]({{ '/terms/legal-system/' | relative_url }})
+- [Legitimacy Gap]({{ '/terms/legitimacy-gap/' | relative_url }})
 - [legitimized-human-meaningful-identifier]({{ '/terms/legitimized-human-meaningful-identifier/' | relative_url }})
 - [lei]({{ '/terms/lei/' | relative_url }})
 - [level-of-assurance]({{ '/terms/level-of-assurance/' | relative_url }})
@@ -282,6 +286,7 @@ This index is generated from `glossary/terms/` and currently includes **563** te
 - [message]({{ '/terms/message/' | relative_url }})
 - [metadata]({{ '/terms/metadata/' | relative_url }})
 - [mobile-deep-link]({{ '/terms/mobile-deep-link/' | relative_url }})
+- [Monotonic Attenuation]({{ '/terms/monotonic-attenuation/' | relative_url }})
 - [mpc]({{ '/terms/mpc/' | relative_url }})
 - [multi-party-computation]({{ '/terms/multi-party-computation/' | relative_url }})
 - [multi-party-control]({{ '/terms/multi-party-control/' | relative_url }})
@@ -300,11 +305,14 @@ This index is generated from `glossary/terms/` and currently includes **563** te
 - [non-repudiable]({{ '/terms/non-repudiable/' | relative_url }})
 - [non-transferable]({{ '/terms/non-transferable/' | relative_url }})
 - [non-transferable-identifier]({{ '/terms/non-transferable-identifier/' | relative_url }})
+- [Nullifier]({{ '/terms/nullifier/' | relative_url }})
 
 ## O
 
 - [objective]({{ '/terms/objective/' | relative_url }})
+- [Observability Mode]({{ '/terms/observability-mode/' | relative_url }})
 - [oobi]({{ '/terms/oobi/' | relative_url }})
+- [Opacity Boundary]({{ '/terms/opacity-boundary/' | relative_url }})
 - [openid-federation]({{ '/terms/openid-federation/' | relative_url }})
 - [openid4vci]({{ '/terms/openid4vci/' | relative_url }})
 - [openid4vp]({{ '/terms/openid4vp/' | relative_url }})
@@ -323,6 +331,7 @@ This index is generated from `glossary/terms/` and currently includes **563** te
 - [party]({{ '/terms/party/' | relative_url }})
 - [password]({{ '/terms/password/' | relative_url }})
 - [peer]({{ '/terms/peer/' | relative_url }})
+- [Peer Trust Relation]({{ '/terms/peer-trust-relation/' | relative_url }})
 - [peer-to-peer]({{ '/terms/peer-to-peer/' | relative_url }})
 - [permission]({{ '/terms/permission/' | relative_url }})
 - [persistent-connection]({{ '/terms/persistent-connection/' | relative_url }})
@@ -333,6 +342,7 @@ This index is generated from `glossary/terms/` and currently includes **563** te
 - [personal-data-vault]({{ '/terms/personal-data-vault/' | relative_url }})
 - [personal-wallet]({{ '/terms/personal-wallet/' | relative_url }})
 - [personally-identifiable-information]({{ '/terms/personally-identifiable-information/' | relative_url }})
+- [Personhood]({{ '/terms/personhood/' | relative_url }})
 - [physical-credential]({{ '/terms/physical-credential/' | relative_url }})
 - [pid]({{ '/terms/pid/' | relative_url }})
 - [pii]({{ '/terms/pii/' | relative_url }})
@@ -340,10 +350,8 @@ This index is generated from `glossary/terms/` and currently includes **563** te
 - [plaintext]({{ '/terms/plaintext/' | relative_url }})
 - [policy]({{ '/terms/policy/' | relative_url }})
 - [pop]({{ '/terms/pop/' | relative_url }})
-- [presentation]({{ '/terms/presentation/' | relative_url }})
-- [presentation-attack]({{ '/terms/presentation-attack/' | relative_url }})
-- [presentation-request]({{ '/terms/presentation-request/' | relative_url }})
-- [View all 46 terms for P]({{ '/terms/p/' | relative_url }})
+- [Predicate Proof]({{ '/terms/predicate-proof/' | relative_url }})
+- [View all 50 terms for P]({{ '/terms/p/' | relative_url }})
 
 ## Q
 
@@ -377,7 +385,7 @@ This index is generated from `glossary/terms/` and currently includes **563** te
 - [risk-management]({{ '/terms/risk-management/' | relative_url }})
 - [risk-mitigation]({{ '/terms/risk-mitigation/' | relative_url }})
 - [role]({{ '/terms/role/' | relative_url }})
-- [View all 32 terms for R]({{ '/terms/r/' | relative_url }})
+- [View all 34 terms for R]({{ '/terms/r/' | relative_url }})
 
 ## S
 
@@ -399,19 +407,20 @@ This index is generated from `glossary/terms/` and currently includes **563** te
 - [self-sovereign-identity]({{ '/terms/self-sovereign-identity/' | relative_url }})
 - [sender-constrained-token]({{ '/terms/sender-constrained-token/' | relative_url }})
 - [sensitive-data]({{ '/terms/sensitive-data/' | relative_url }})
+- [Service Descriptor]({{ '/terms/service-descriptor/' | relative_url }})
 - [session]({{ '/terms/session/' | relative_url }})
 - [single-signature-identifier]({{ '/terms/single-signature-identifier/' | relative_url }})
+- [Skill Contract]({{ '/terms/skill-contract/' | relative_url }})
 - [sociotechnical-system]({{ '/terms/sociotechnical-system/' | relative_url }})
 - [software-agent]({{ '/terms/software-agent/' | relative_url }})
 - [sovrin-foundation]({{ '/terms/sovrin-foundation/' | relative_url }})
-- [spanning-layer]({{ '/terms/spanning-layer/' | relative_url }})
-- [specification]({{ '/terms/specification/' | relative_url }})
-- [View all 35 terms for S]({{ '/terms/s/' | relative_url }})
+- [View all 37 terms for S]({{ '/terms/s/' | relative_url }})
 
 ## T
 
 - [tamper-evident]({{ '/terms/tamper-evident/' | relative_url }})
 - [tamper-resistant]({{ '/terms/tamper-resistant/' | relative_url }})
+- [Task Evidence Lifecycle]({{ '/terms/task-evidence-lifecycle/' | relative_url }})
 - [tcp-ip]({{ '/terms/tcp-ip/' | relative_url }})
 - [tcp-ip-stack]({{ '/terms/tcp-ip-stack/' | relative_url }})
 - [technical-requirement]({{ '/terms/technical-requirement/' | relative_url }})
@@ -434,8 +443,7 @@ This index is generated from `glossary/terms/` and currently includes **563** te
 - [toip-connection]({{ '/terms/toip-connection/' | relative_url }})
 - [toip-controller]({{ '/terms/toip-controller/' | relative_url }})
 - [toip-endpoint]({{ '/terms/toip-endpoint/' | relative_url }})
-- [toip-foundation]({{ '/terms/toip-foundation/' | relative_url }})
-- [View all 98 terms for T]({{ '/terms/t/' | relative_url }})
+- [View all 100 terms for T]({{ '/terms/t/' | relative_url }})
 
 ## U
 
@@ -445,6 +453,7 @@ This index is generated from `glossary/terms/` and currently includes **563** te
 - [uniform-resource-identifier]({{ '/terms/uniform-resource-identifier/' | relative_url }})
 - [uniform-resource-locator]({{ '/terms/uniform-resource-locator/' | relative_url }})
 - [uniform-resource-name]({{ '/terms/uniform-resource-name/' | relative_url }})
+- [Unlinkability]({{ '/terms/unlinkability/' | relative_url }})
 - [uri]({{ '/terms/uri/' | relative_url }})
 - [url]({{ '/terms/url/' | relative_url }})
 - [urn]({{ '/terms/urn/' | relative_url }})

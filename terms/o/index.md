@@ -1,13 +1,15 @@
 ---
 title: "Terms: O"
 parent: "Glossary Terms"
-nav_exclude: true
+nav_order: 15
 ---
 
 # Terms: O
 
 - [objective]({{ '/terms/objective/' | relative_url }})
+- [Observability Mode]({{ '/terms/observability-mode/' | relative_url }})
 - [oobi]({{ '/terms/oobi/' | relative_url }})
+- [Opacity Boundary]({{ '/terms/opacity-boundary/' | relative_url }})
 - [openid-federation]({{ '/terms/openid-federation/' | relative_url }})
 - [openid4vci]({{ '/terms/openid4vci/' | relative_url }})
 - [openid4vp]({{ '/terms/openid4vp/' | relative_url }})

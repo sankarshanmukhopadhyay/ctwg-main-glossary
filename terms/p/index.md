@@ -1,7 +1,7 @@
 ---
 title: "Terms: P"
 parent: "Glossary Terms"
-nav_exclude: true
+nav_order: 16
 ---
 
 # Terms: P
@@ -11,6 +11,7 @@ nav_exclude: true
 - [party]({{ '/terms/party/' | relative_url }})
 - [password]({{ '/terms/password/' | relative_url }})
 - [peer]({{ '/terms/peer/' | relative_url }})
+- [Peer Trust Relation]({{ '/terms/peer-trust-relation/' | relative_url }})
 - [peer-to-peer]({{ '/terms/peer-to-peer/' | relative_url }})
 - [permission]({{ '/terms/permission/' | relative_url }})
 - [persistent-connection]({{ '/terms/persistent-connection/' | relative_url }})
@@ -21,6 +22,7 @@ nav_exclude: true
 - [personal-data-vault]({{ '/terms/personal-data-vault/' | relative_url }})
 - [personal-wallet]({{ '/terms/personal-wallet/' | relative_url }})
 - [personally-identifiable-information]({{ '/terms/personally-identifiable-information/' | relative_url }})
+- [Personhood]({{ '/terms/personhood/' | relative_url }})
 - [physical-credential]({{ '/terms/physical-credential/' | relative_url }})
 - [pid]({{ '/terms/pid/' | relative_url }})
 - [pii]({{ '/terms/pii/' | relative_url }})
@@ -28,6 +30,7 @@ nav_exclude: true
 - [plaintext]({{ '/terms/plaintext/' | relative_url }})
 - [policy]({{ '/terms/policy/' | relative_url }})
 - [pop]({{ '/terms/pop/' | relative_url }})
+- [Predicate Proof]({{ '/terms/predicate-proof/' | relative_url }})
 - [presentation]({{ '/terms/presentation/' | relative_url }})
 - [presentation-attack]({{ '/terms/presentation-attack/' | relative_url }})
 - [presentation-request]({{ '/terms/presentation-request/' | relative_url }})
@@ -38,6 +41,7 @@ nav_exclude: true
 - [privacy-washing]({{ '/terms/privacy-washing/' | relative_url }})
 - [private-key]({{ '/terms/private-key/' | relative_url }})
 - [proof]({{ '/terms/proof/' | relative_url }})
+- [Proof-Carrying Commitment Receipt]({{ '/terms/proof-carrying-commitment-receipt/' | relative_url }})
 - [proof-of-control]({{ '/terms/proof-of-control/' | relative_url }})
 - [proof-of-personhood]({{ '/terms/proof-of-personhood/' | relative_url }})
 - [proof-of-possession]({{ '/terms/proof-of-possession/' | relative_url }})

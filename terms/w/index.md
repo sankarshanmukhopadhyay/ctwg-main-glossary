@@ -1,7 +1,7 @@
 ---
 title: "Terms: W"
 parent: "Glossary Terms"
-nav_exclude: true
+nav_order: 23
 ---
 
 # Terms: W

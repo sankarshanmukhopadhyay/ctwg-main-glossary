@@ -1,7 +1,7 @@
 ---
 title: "Terms: M"
 parent: "Glossary Terms"
-nav_exclude: true
+nav_order: 13
 ---
 
 # Terms: M
@@ -13,6 +13,7 @@ nav_exclude: true
 - [message]({{ '/terms/message/' | relative_url }})
 - [metadata]({{ '/terms/metadata/' | relative_url }})
 - [mobile-deep-link]({{ '/terms/mobile-deep-link/' | relative_url }})
+- [Monotonic Attenuation]({{ '/terms/monotonic-attenuation/' | relative_url }})
 - [mpc]({{ '/terms/mpc/' | relative_url }})
 - [multi-party-computation]({{ '/terms/multi-party-computation/' | relative_url }})
 - [multi-party-control]({{ '/terms/multi-party-control/' | relative_url }})

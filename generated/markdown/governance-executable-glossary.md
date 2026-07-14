@@ -1,6 +1,6 @@
 # Governance-Executable Glossary
 
-Total terms: **563**
+Total terms: **599**
 
 ## aal
 
@@ -171,6 +171,32 @@ In the context of decentralized digital trust infrastructure, the empowering of 
 - Assurance level hint: AL2+
 - Accountable entity: glossary_maintainers
 
+## Agent Class
+
+A typed descriptor for the operating posture of an agentic actor, used to distinguish the kind of role the agent performs from the controls governing how it operates.
+
+- Slug: `agent-class`
+- Governance profile: governance-supporting
+- Authority scope: assurance_and_audit, delegation_and_scope, policy_definition, verification_and_reliance
+- Delegation mode: direct_or_constrained
+- Revocation supported: True
+- Lifecycle states: proposed, active, suspended, revoked, retired
+- Assurance level hint: AL2+
+- Accountable entity: governance_authority
+
+## Agent Mandate Envelope
+
+A structured artifact that binds an agent to an originating principal, delegated mandate, permitted scope, conditions, expiry, revocation semantics, and evidence requirements.
+
+- Slug: `agent-mandate-envelope`
+- Governance profile: governance-supporting
+- Authority scope: assurance_and_audit, delegation_and_scope, policy_definition, verification_and_reliance
+- Delegation mode: direct_or_constrained
+- Revocation supported: True
+- Lifecycle states: proposed, active, suspended, revoked, retired
+- Assurance level hint: AL2+
+- Accountable entity: governance_authority
+
 ## agent
 
 An actor that executes an action on behalf of a party (called the principal of that actor). In the context of decentralized digital trust infrastructure, the term “agent” is most frequently used to mean a digital agent.
@@ -178,6 +204,19 @@ An actor that executes an action on behalf of a party (called the principal of t
 - Slug: `agent`
 - Governance profile: core-operational
 - Authority scope: delegation_and_scope, governance_recognition
+- Delegation mode: direct_or_constrained
+- Revocation supported: True
+- Lifecycle states: proposed, active, suspended, revoked, retired
+- Assurance level hint: AL2+
+- Accountable entity: governance_authority
+
+## Aggregation Amplification
+
+A delegation failure mode in which individually valid and attenuated authority branches combine to produce an effect broader than the originating mandate permits.
+
+- Slug: `aggregation-amplification`
+- Governance profile: governance-supporting
+- Authority scope: assurance_and_audit, delegation_and_scope, policy_definition, verification_and_reliance
 - Delegation mode: direct_or_constrained
 - Revocation supported: True
 - Lifecycle states: proposed, active, suspended, revoked, retired
@@ -274,6 +313,19 @@ A level of confidence in a claim that may be relied on by others. Different type
 - Lifecycle states: proposed, active, suspended, revoked, retired
 - Assurance level hint: AL2+
 - Accountable entity: glossary_maintainers
+
+## Attention Policy
+
+A policy that governs how inbound signals are admitted, deferred, summarized, rerouted, escalated, or rejected before reaching a principal or downstream decision layer.
+
+- Slug: `attention-policy`
+- Governance profile: governance-supporting
+- Authority scope: assurance_and_audit, delegation_and_scope, policy_definition, verification_and_reliance
+- Delegation mode: direct_or_constrained
+- Revocation supported: True
+- Lifecycle states: proposed, active, suspended, revoked, retired
+- Assurance level hint: AL2+
+- Accountable entity: governance_authority
 
 ## attestation
 
@@ -470,6 +522,19 @@ Information or data that comes from an authority for that information.
 - Assurance level hint: AL2+
 - Accountable entity: governance_authority
 
+## Authority Boundary
+
+A machine- or human-readable constraint that identifies where authority begins and ends, including the permitted actor, scope, action, target, conditions, and lifecycle state.
+
+- Slug: `authority-boundary`
+- Governance profile: governance-supporting
+- Authority scope: assurance_and_audit, delegation_and_scope, policy_definition, verification_and_reliance
+- Delegation mode: direct_or_constrained
+- Revocation supported: True
+- Lifecycle states: proposed, active, suspended, revoked, retired
+- Assurance level hint: AL2+
+- Accountable entity: governance_authority
+
 ## authority
 
 A party whose decisions, policies, rules, or recognition outcomes are accepted as governing, directive, or controlling by other parties within a defined scope.
@@ -477,6 +542,19 @@ A party whose decisions, policies, rules, or recognition outcomes are accepted a
 - Slug: `authority`
 - Governance profile: core-operational
 - Authority scope: policy_definition, delegation_and_scope, governance_recognition
+- Delegation mode: direct_or_constrained
+- Revocation supported: True
+- Lifecycle states: proposed, active, suspended, revoked, retired
+- Assurance level hint: AL2+
+- Accountable entity: governance_authority
+
+## Authorization Checkpoint
+
+A runtime trust event that pauses or interrupts an interaction because required authorization, scope, evidence, or input is absent or insufficient.
+
+- Slug: `authorization-checkpoint`
+- Governance profile: governance-supporting
+- Authority scope: assurance_and_audit, delegation_and_scope, policy_definition, verification_and_reliance
 - Delegation mode: direct_or_constrained
 - Revocation supported: True
 - Lifecycle states: proposed, active, suspended, revoked, retired
@@ -716,6 +794,19 @@ See: Content Authenticity Initiative.
 - Lifecycle states: documented, active, deprecated
 - Assurance level hint: informative
 - Accountable entity: glossary_maintainers
+
+## Capability Negotiation
+
+A governed process for determining whether an advertised capability is discoverable, compatible, authorized, accepted, and permitted to execute under applicable policy.
+
+- Slug: `capability-negotiation`
+- Governance profile: governance-supporting
+- Authority scope: assurance_and_audit, delegation_and_scope, policy_definition, verification_and_reliance
+- Delegation mode: direct_or_constrained
+- Revocation supported: True
+- Lifecycle states: proposed, active, suspended, revoked, retired
+- Assurance level hint: AL2+
+- Accountable entity: governance_authority
 
 ## capability
 
@@ -1094,6 +1185,19 @@ The user-facing C2PA term for provenance information represented by C2PA manifes
 - Assurance level hint: AL2+
 - Accountable entity: glossary_maintainers
 
+## Content Provenance Policy
+
+A governance policy that specifies what provenance, integrity, sanitization, redaction, and evidence conditions must be satisfied before content may be acted upon, stored, or forwarded.
+
+- Slug: `content-provenance-policy`
+- Governance profile: governance-supporting
+- Authority scope: assurance_and_audit, delegation_and_scope, policy_definition, verification_and_reliance
+- Delegation mode: direct_or_constrained
+- Revocation supported: True
+- Lifecycle states: proposed, active, suspended, revoked, retired
+- Assurance level hint: AL2+
+- Accountable entity: governance_authority
+
 ## contextual-linkability
 
 Refers to the condition where vendors or other data capture points provide enough context at point of capture to be able to use statistical correlation with existing data sets to link any of a person's disclosed attributes to a set of already known data points about a given person.
@@ -1115,6 +1219,32 @@ In identity systems, control authority is the power to determine who controls wh
 - Governance profile: core-operational
 - Authority scope: governance_recognition
 - Delegation mode: direct
+- Revocation supported: True
+- Lifecycle states: proposed, active, suspended, revoked, retired
+- Assurance level hint: AL2+
+- Accountable entity: governance_authority
+
+## Control Mode
+
+A descriptor for the human-oversight shape of an agent or automated system at runtime, including whether intervention occurs in-loop, on-loop, through a sidecar, or within pre-bounded autonomy.
+
+- Slug: `control-mode`
+- Governance profile: governance-supporting
+- Authority scope: assurance_and_audit, delegation_and_scope, policy_definition, verification_and_reliance
+- Delegation mode: direct_or_constrained
+- Revocation supported: True
+- Lifecycle states: proposed, active, suspended, revoked, retired
+- Assurance level hint: AL2+
+- Accountable entity: governance_authority
+
+## Control-Plane Shift
+
+A change in which actor, policy, infrastructure component, or governance mechanism can determine, constrain, or revoke system behavior.
+
+- Slug: `control-plane-shift`
+- Governance profile: governance-supporting
+- Authority scope: assurance_and_audit, delegation_and_scope, policy_definition, verification_and_reliance
+- Delegation mode: direct_or_constrained
 - Revocation supported: True
 - Lifecycle states: proposed, active, suspended, revoked, retired
 - Assurance level hint: AL2+
@@ -1601,6 +1731,19 @@ See: dark pattern.
 - Assurance level hint: informative
 - Accountable entity: glossary_maintainers
 
+## Decision Receipt
+
+A structured, integrity-protected record of a trust or governance decision, including the decision context, authority, policy, evidence, outcome, obligations, and traceability data.
+
+- Slug: `decision-receipt`
+- Governance profile: governance-supporting
+- Authority scope: assurance_and_audit, delegation_and_scope, policy_definition, verification_and_reliance
+- Delegation mode: direct_or_constrained
+- Revocation supported: True
+- Lifecycle states: proposed, active, suspended, revoked, retired
+- Assurance level hint: AL2+
+- Accountable entity: governance_authority
+
 ## decryption
 
 The process of changing ciphertext into plaintext using a cryptographic algorithm and key. The opposite of encryption.
@@ -1665,6 +1808,19 @@ A credential used to perform delegation.
 - Lifecycle states: proposed, active, suspended, revoked, retired
 - Assurance level hint: AL2+
 - Accountable entity: glossary_maintainers
+
+## Delegation Lineage
+
+The ordered, verifiable path by which authority exercised by a current actor resolves through intermediate delegators to an originating principal and mandate.
+
+- Slug: `delegation-lineage`
+- Governance profile: governance-supporting
+- Authority scope: assurance_and_audit, delegation_and_scope, policy_definition, verification_and_reliance
+- Delegation mode: direct_or_constrained
+- Revocation supported: True
+- Lifecycle states: proposed, active, suspended, revoked, retired
+- Assurance level hint: AL2+
+- Accountable entity: governance_authority
 
 ## delegation
 
@@ -1965,6 +2121,19 @@ A user agent, optionally including a hardware component, capable of securely sto
 - Assurance level hint: AL2+
 - Accountable entity: glossary_maintainers
 
+## Discovery Governance
+
+The policies and controls that determine how descriptors or services are discovered, who mediates discovery, what access and freshness rules apply, and how discovery failures are handled.
+
+- Slug: `discovery-governance`
+- Governance profile: governance-supporting
+- Authority scope: assurance_and_audit, delegation_and_scope, policy_definition, verification_and_reliance
+- Delegation mode: direct_or_constrained
+- Revocation supported: True
+- Lifecycle states: proposed, active, suspended, revoked, retired
+- Assurance level hint: AL2+
+- Accountable entity: governance_authority
+
 ## discovery
 
 A mechanism that helps systems or devices find each other automatically, often used in networks to identify services or resources. In decentralized identifier systems it helps to locate and verify digital identities without relying on a central authority.
@@ -2042,6 +2211,19 @@ See: Decentralized Web Node.
 - Lifecycle states: documented, active, deprecated
 - Assurance level hint: informative
 - Accountable entity: glossary_maintainers
+
+## Dynamic Authorization
+
+An authorization approach in which runtime decisions are produced by evaluating contextual attributes, evidence, and policy rather than relying only on static permissions.
+
+- Slug: `dynamic-authorization`
+- Governance profile: governance-supporting
+- Authority scope: assurance_and_audit, delegation_and_scope, policy_definition, verification_and_reliance
+- Delegation mode: direct_or_constrained
+- Revocation supported: True
+- Lifecycle states: proposed, active, suspended, revoked, retired
+- Assurance level hint: AL2+
+- Accountable entity: governance_authority
 
 ## ecosystem-governance-framework
 
@@ -2290,6 +2472,32 @@ A wallet ecosystem component under the European Digital Identity framework for s
 - Assurance level hint: AL2+
 - Accountable entity: glossary_maintainers
 
+## Evidence Artifact
+
+A typed, structured output produced by a system, authorized actor, or assessment process to demonstrate that a rule was checked, a behavior occurred, or a condition holds.
+
+- Slug: `evidence-artifact`
+- Governance profile: governance-supporting
+- Authority scope: assurance_and_audit, delegation_and_scope, policy_definition, verification_and_reliance
+- Delegation mode: direct_or_constrained
+- Revocation supported: True
+- Lifecycle states: proposed, active, suspended, revoked, retired
+- Assurance level hint: AL2+
+- Accountable entity: governance_authority
+
+## Evidence Bundle
+
+A bounded collection of evidence artifacts assembled for a decision, assessment, verification, or audit purpose, with sufficient metadata to support integrity and traceability.
+
+- Slug: `evidence-bundle`
+- Governance profile: governance-supporting
+- Authority scope: assurance_and_audit, delegation_and_scope, policy_definition, verification_and_reliance
+- Delegation mode: direct_or_constrained
+- Revocation supported: True
+- Lifecycle states: proposed, active, suspended, revoked, retired
+- Assurance level hint: AL2+
+- Accountable entity: governance_authority
+
 ## expression-language
 
 A language for creating a computer-interpretable (machine-readable) representation of specific knowledge.
@@ -2302,6 +2510,19 @@ A language for creating a computer-interpretable (machine-readable) representati
 - Lifecycle states: documented, active, deprecated
 - Assurance level hint: informative
 - Accountable entity: glossary_maintainers
+
+## Extension Contract
+
+A protocol-neutral record of whether an optional or required extension was proposed, supported, accepted, degraded, rejected, or not attempted, including the applicable failure behavior.
+
+- Slug: `extension-contract`
+- Governance profile: governance-supporting
+- Authority scope: assurance_and_audit, delegation_and_scope, policy_definition, verification_and_reliance
+- Delegation mode: direct_or_constrained
+- Revocation supported: True
+- Lifecycle states: proposed, active, suspended, revoked, retired
+- Assurance level hint: AL2+
+- Accountable entity: governance_authority
 
 ## fal
 
@@ -3044,6 +3265,32 @@ the highest level of cryptographic security concerning a cryptographic secret (s
 - Assurance level hint: informative
 - Accountable entity: glossary_maintainers
 
+## Interaction Context
+
+A session-level governance envelope that groups related tasks, messages, authority, evidence, and trust decisions across a sequence of interactions.
+
+- Slug: `interaction-context`
+- Governance profile: governance-supporting
+- Authority scope: assurance_and_audit, delegation_and_scope, policy_definition, verification_and_reliance
+- Delegation mode: direct_or_constrained
+- Revocation supported: True
+- Lifecycle states: proposed, active, suspended, revoked, retired
+- Assurance level hint: AL2+
+- Accountable entity: governance_authority
+
+## Interaction Task
+
+A durable work unit with governance-significant state transitions, artifact accumulation, continuation or cancellation semantics, and evidence obligations.
+
+- Slug: `interaction-task`
+- Governance profile: governance-supporting
+- Authority scope: assurance_and_audit, delegation_and_scope, policy_definition, verification_and_reliance
+- Delegation mode: direct_or_constrained
+- Revocation supported: True
+- Lifecycle states: proposed, active, suspended, revoked, retired
+- Assurance level hint: AL2+
+- Accountable entity: governance_authority
+
 ## intermediary-system
 
 An intermediary system routes messages between endpoint systems but is not otherwise involved in the processing of those messages. In the context of end-to-end encryption, intermediary systems cannot decrypt the messages sent between the endpoint systems. In the ToIP stack, intermediary systems operate at ToIP Layer 2, the trust spanning layer. An intermediary system is one of three types of systems defined in the ToIP Technology Architecture Specification; the other two are endpoint systems and supporting systems.
@@ -3134,6 +3381,19 @@ The action of an issuer producing and transmitting a digital credential to a hol
 - Lifecycle states: proposed, active, suspended, revoked, retired
 - Assurance level hint: AL2+
 - Accountable entity: issuer_operator
+
+## Issuer Concealment
+
+A privacy property in which a proof or presentation does not disclose the identity of the issuer to the verifier, subject to the requirements and trust model of the applicable profile.
+
+- Slug: `issuer-concealment`
+- Governance profile: governance-supporting
+- Authority scope: assurance_and_audit, delegation_and_scope, policy_definition, verification_and_reliance
+- Delegation mode: direct_or_constrained
+- Revocation supported: True
+- Lifecycle states: proposed, active, suspended, revoked, retired
+- Assurance level hint: AL2+
+- Accountable entity: governance_authority
 
 ## issuer-metadata
 
@@ -3473,6 +3733,19 @@ A system in which policies and rules are defined, and mechanisms for their enfor
 - Assurance level hint: AL2+
 - Accountable entity: governance_authority
 
+## Legitimacy Gap
+
+A mismatch between an action or decision that a system can technically execute and the authority, recognition, consent, or governance basis required for that action to be legitimate.
+
+- Slug: `legitimacy-gap`
+- Governance profile: governance-supporting
+- Authority scope: assurance_and_audit, delegation_and_scope, policy_definition, verification_and_reliance
+- Delegation mode: direct_or_constrained
+- Revocation supported: True
+- Lifecycle states: proposed, active, suspended, revoked, retired
+- Assurance level hint: AL2+
+- Accountable entity: governance_authority
+
 ## legitimized-human-meaningful-identifier
 
 An AID and its associated self-certifying trust basis gives rise to a trust domain for associated cryptographically verifiable non-repudiable statements. Every other type of identifier including human meaningful identifiers may then be secured in this resultant trust domain via an end-verifiable authorization. This authorization legitimizes that human meaningful identifier as an LID through its association with an AID. The result is a secured trust domain specific identifier couplet of aid|lid.
@@ -3641,6 +3914,19 @@ In the context of mobile apps, deep linking consists of using a uniform resource
 - Lifecycle states: documented, active, deprecated
 - Assurance level hint: informative
 - Accountable entity: glossary_maintainers
+
+## Monotonic Attenuation
+
+The delegation invariant that authority may remain unchanged or become narrower at each delegation hop but must never expand beyond the parent grant.
+
+- Slug: `monotonic-attenuation`
+- Governance profile: governance-supporting
+- Authority scope: assurance_and_audit, delegation_and_scope, policy_definition, verification_and_reliance
+- Delegation mode: direct_or_constrained
+- Revocation supported: True
+- Lifecycle states: proposed, active, suspended, revoked, retired
+- Assurance level hint: AL2+
+- Accountable entity: governance_authority
 
 ## mpc
 
@@ -3837,6 +4123,19 @@ No transferable (the control over) a certain digital asset in an unobstructed or
 - Assurance level hint: AL2+
 - Accountable entity: glossary_maintainers
 
+## Nullifier
+
+A cryptographically derived value used to detect prohibited reuse or duplication within a defined scope without revealing the underlying secret or necessarily enabling correlation across other scopes.
+
+- Slug: `nullifier`
+- Governance profile: governance-supporting
+- Authority scope: assurance_and_audit, delegation_and_scope, policy_definition, verification_and_reliance
+- Delegation mode: direct_or_constrained
+- Revocation supported: True
+- Lifecycle states: proposed, active, suspended, revoked, retired
+- Assurance level hint: AL2+
+- Accountable entity: governance_authority
+
 ## objective
 
 Something toward which a party (its owner) directs effort (an aim, goal, or end of action).
@@ -3850,6 +4149,19 @@ Something toward which a party (its owner) directs effort (an aim, goal, or end 
 - Assurance level hint: informative
 - Accountable entity: glossary_maintainers
 
+## Observability Mode
+
+A descriptor for what can be known and evidenced about delivery, timing, progress, and user awareness for an interaction channel or execution path.
+
+- Slug: `observability-mode`
+- Governance profile: governance-supporting
+- Authority scope: assurance_and_audit, delegation_and_scope, policy_definition, verification_and_reliance
+- Delegation mode: direct_or_constrained
+- Revocation supported: True
+- Lifecycle states: proposed, active, suspended, revoked, retired
+- Assurance level hint: AL2+
+- Accountable entity: governance_authority
+
 ## oobi
 
 See: out-of-band introduction.
@@ -3862,6 +4174,19 @@ See: out-of-band introduction.
 - Lifecycle states: documented, active, deprecated
 - Assurance level hint: informative
 - Accountable entity: glossary_maintainers
+
+## Opacity Boundary
+
+A declared limit on what can be observed about an agent or system and the resulting constraints on trust, evidence, assurance, and permitted reliance.
+
+- Slug: `opacity-boundary`
+- Governance profile: governance-supporting
+- Authority scope: assurance_and_audit, delegation_and_scope, policy_definition, verification_and_reliance
+- Delegation mode: direct_or_constrained
+- Revocation supported: True
+- Lifecycle states: proposed, active, suspended, revoked, retired
+- Assurance level hint: AL2+
+- Accountable entity: governance_authority
 
 ## openid-federation
 
@@ -4058,6 +4383,19 @@ Peer-to-peer (P2P) computing or networking is a distributed application architec
 - Assurance level hint: informative
 - Accountable entity: glossary_maintainers
 
+## Peer Trust Relation
+
+A lateral trust relationship between parties that do not hold hierarchical authority over one another and that rely on an explicit trust basis such as credential exchange, policy acceptance, or third-party introduction.
+
+- Slug: `peer-trust-relation`
+- Governance profile: governance-supporting
+- Authority scope: assurance_and_audit, delegation_and_scope, policy_definition, verification_and_reliance
+- Delegation mode: direct_or_constrained
+- Revocation supported: True
+- Lifecycle states: proposed, active, suspended, revoked, retired
+- Assurance level hint: AL2+
+- Accountable entity: governance_authority
+
 ## peer
 
 In the context of digital networks, an actor on the network that has the same status, privileges, and communications options as the other actors on the network.
@@ -4188,6 +4526,19 @@ Information (any form of data) that can be used to directly or indirectly identi
 - Assurance level hint: informative
 - Accountable entity: glossary_maintainers
 
+## Personhood
+
+The status or quality of being treated as a person for a defined social, legal, governance, or technical purpose; it is not equivalent to civil identity or the possession of an identifier.
+
+- Slug: `personhood`
+- Governance profile: governance-supporting
+- Authority scope: assurance_and_audit, delegation_and_scope, policy_definition, verification_and_reliance
+- Delegation mode: direct_or_constrained
+- Revocation supported: True
+- Lifecycle states: proposed, active, suspended, revoked, retired
+- Assurance level hint: AL2+
+- Accountable entity: governance_authority
+
 ## physical-credential
 
 A credential in a physical form such as paper, plastic, or metal.
@@ -4278,6 +4629,19 @@ See: proof of personhood.
 - Lifecycle states: documented, active, deprecated
 - Assurance level hint: informative
 - Accountable entity: glossary_maintainers
+
+## Predicate Proof
+
+A proof that establishes whether a defined condition about one or more attributes is satisfied without necessarily disclosing the underlying attribute values.
+
+- Slug: `predicate-proof`
+- Governance profile: governance-supporting
+- Authority scope: assurance_and_audit, delegation_and_scope, policy_definition, verification_and_reliance
+- Delegation mode: direct_or_constrained
+- Revocation supported: True
+- Lifecycle states: proposed, active, suspended, revoked, retired
+- Assurance level hint: AL2+
+- Accountable entity: governance_authority
 
 ## presentation-attack
 
@@ -4395,6 +4759,19 @@ In public key cryptography, the cryptographic key which must be kept secret by t
 - Lifecycle states: documented, active, deprecated
 - Assurance level hint: AL2+
 - Accountable entity: glossary_maintainers
+
+## Proof-Carrying Commitment Receipt
+
+A receipt that records a commitment together with cryptographic or verifiable evidence sufficient to evaluate who was authorized, what was committed, under which conditions, and with what lifecycle status.
+
+- Slug: `proof-carrying-commitment-receipt`
+- Governance profile: governance-supporting
+- Authority scope: assurance_and_audit, delegation_and_scope, policy_definition, verification_and_reliance
+- Delegation mode: direct_or_constrained
+- Revocation supported: True
+- Lifecycle states: proposed, active, suspended, revoked, retired
+- Assurance level hint: AL2+
+- Accountable entity: governance_authority
 
 ## proof-of-control
 
@@ -5020,6 +5397,32 @@ A prescribed guide for conduct, process or action to achieve a defined result or
 - Assurance level hint: AL2+
 - Accountable entity: glossary_maintainers
 
+## Runtime Authority Envelope
+
+A runtime artifact that carries the currently valid authority, scope, constraints, delegation lineage, and status required before an action may be executed.
+
+- Slug: `runtime-authority-envelope`
+- Governance profile: governance-supporting
+- Authority scope: assurance_and_audit, delegation_and_scope, policy_definition, verification_and_reliance
+- Delegation mode: direct_or_constrained
+- Revocation supported: True
+- Lifecycle states: proposed, active, suspended, revoked, retired
+- Assurance level hint: AL2+
+- Accountable entity: governance_authority
+
+## Runtime Governance Envelope
+
+A structured envelope that binds the authority, policy, evidence, constraints, obligations, and lifecycle state applicable to a runtime interaction or task.
+
+- Slug: `runtime-governance-envelope`
+- Governance profile: governance-supporting
+- Authority scope: assurance_and_audit, delegation_and_scope, policy_definition, verification_and_reliance
+- Delegation mode: direct_or_constrained
+- Revocation supported: True
+- Lifecycle states: proposed, active, suspended, revoked, retired
+- Assurance level hint: AL2+
+- Accountable entity: governance_authority
+
 ## rwi
 
 See: real world identity.
@@ -5267,6 +5670,19 @@ Personal data that a reasonable person would view from a privacy protection stan
 - Assurance level hint: informative
 - Accountable entity: glossary_maintainers
 
+## Service Descriptor
+
+A policy-governed disclosure artifact through which an agent, service, or system states what it is, what it can do, how it can be reached, and under what visibility conditions.
+
+- Slug: `service-descriptor`
+- Governance profile: governance-supporting
+- Authority scope: assurance_and_audit, delegation_and_scope, policy_definition, verification_and_reliance
+- Delegation mode: direct_or_constrained
+- Revocation supported: True
+- Lifecycle states: proposed, active, suspended, revoked, retired
+- Assurance level hint: AL2+
+- Accountable entity: governance_authority
+
 ## session
 
 See: communication session.
@@ -5292,6 +5708,19 @@ or single sig identifier; is an identifier controlled by a one-of-one signing ke
 - Lifecycle states: documented, active, deprecated
 - Assurance level hint: AL2+
 - Accountable entity: glossary_maintainers
+
+## Skill Contract
+
+An operational contract for a discrete capability that defines permitted inputs, outputs, authorization scope, policy conditions, and evidence obligations.
+
+- Slug: `skill-contract`
+- Governance profile: governance-supporting
+- Authority scope: assurance_and_audit, delegation_and_scope, policy_definition, verification_and_reliance
+- Delegation mode: direct_or_constrained
+- Revocation supported: True
+- Lifecycle states: proposed, active, suspended, revoked, retired
+- Assurance level hint: AL2+
+- Accountable entity: governance_authority
 
 ## sociotechnical-system
 
@@ -5513,6 +5942,19 @@ A process which makes alterations to data difficult (hard to perform), costly (e
 - Lifecycle states: documented, active, deprecated
 - Assurance level hint: informative
 - Accountable entity: glossary_maintainers
+
+## Task Evidence Lifecycle
+
+The sequence of evidence, receipts, artifacts, and review triggers associated with governance-significant task state transitions from initiation through completion, cancellation, or failure.
+
+- Slug: `task-evidence-lifecycle`
+- Governance profile: governance-supporting
+- Authority scope: assurance_and_audit, delegation_and_scope, policy_definition, verification_and_reliance
+- Delegation mode: direct_or_constrained
+- Revocation supported: True
+- Lifecycle states: proposed, active, suspended, revoked, retired
+- Assurance level hint: AL2+
+- Accountable entity: governance_authority
 
 ## tcp-ip-stack
 
@@ -6580,6 +7022,19 @@ A system, protocol, or other infrastructure whose function is to facilitate the 
 - Assurance level hint: AL1+
 - Accountable entity: glossary_maintainers
 
+## Trust Task Execution Receipt
+
+A structured receipt that records how a trust-relevant task was authorized, executed, evidenced, and completed or terminated.
+
+- Slug: `trust-task-execution-receipt`
+- Governance profile: governance-supporting
+- Authority scope: assurance_and_audit, delegation_and_scope, policy_definition, verification_and_reliance
+- Delegation mode: direct_or_constrained
+- Revocation supported: True
+- Lifecycle states: proposed, active, suspended, revoked, retired
+- Assurance level hint: AL2+
+- Accountable entity: governance_authority
+
 ## trust-task-layer
 
 In the context of the ToIP stack, the trust task layer is ToIP Layer 3. It supports trust applications operating at ToIP Layer 4.
@@ -6839,6 +7294,19 @@ A Uniform Resource Name (URN) is a type of URI (Uniform Resource Identifier) des
 - Lifecycle states: documented, active, deprecated
 - Assurance level hint: informative
 - Accountable entity: glossary_maintainers
+
+## Unlinkability
+
+A privacy property under which two or more transactions, proofs, identifiers, or observations cannot reasonably be determined to concern the same party beyond the permitted correlation scope.
+
+- Slug: `unlinkability`
+- Governance profile: governance-supporting
+- Authority scope: assurance_and_audit, delegation_and_scope, policy_definition, verification_and_reliance
+- Delegation mode: direct_or_constrained
+- Revocation supported: True
+- Lifecycle states: proposed, active, suspended, revoked, retired
+- Assurance level hint: AL2+
+- Accountable entity: governance_authority
 
 ## uri
 

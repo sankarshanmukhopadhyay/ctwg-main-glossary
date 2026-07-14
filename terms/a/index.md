@@ -1,7 +1,7 @@
 ---
 title: "Terms: A"
 parent: "Glossary Terms"
-nav_exclude: true
+nav_order: 1
 ---
 
 # Terms: A
@@ -20,6 +20,9 @@ nav_exclude: true
 - [administering-body]({{ '/terms/administering-body/' | relative_url }})
 - [agency]({{ '/terms/agency/' | relative_url }})
 - [agent]({{ '/terms/agent/' | relative_url }})
+- [Agent Class]({{ '/terms/agent-class/' | relative_url }})
+- [Agent Mandate Envelope]({{ '/terms/agent-mandate-envelope/' | relative_url }})
+- [Aggregation Amplification]({{ '/terms/aggregation-amplification/' | relative_url }})
 - [aid]({{ '/terms/aid/' | relative_url }})
 - [anonymous]({{ '/terms/anonymous/' | relative_url }})
 - [anycast]({{ '/terms/anycast/' | relative_url }})
@@ -27,6 +30,7 @@ nav_exclude: true
 - [appraisability]({{ '/terms/appraisability/' | relative_url }})
 - [appropriate-friction]({{ '/terms/appropriate-friction/' | relative_url }})
 - [assurance-level]({{ '/terms/assurance-level/' | relative_url }})
+- [Attention Policy]({{ '/terms/attention-policy/' | relative_url }})
 - [attestation]({{ '/terms/attestation/' | relative_url }})
 - [attribute]({{ '/terms/attribute/' | relative_url }})
 - [attribute-based-access-control]({{ '/terms/attribute-based-access-control/' | relative_url }})
@@ -43,7 +47,9 @@ nav_exclude: true
 - [authoritative]({{ '/terms/authoritative/' | relative_url }})
 - [authoritative-source]({{ '/terms/authoritative-source/' | relative_url }})
 - [authority]({{ '/terms/authority/' | relative_url }})
+- [Authority Boundary]({{ '/terms/authority-boundary/' | relative_url }})
 - [authorization]({{ '/terms/authorization/' | relative_url }})
+- [Authorization Checkpoint]({{ '/terms/authorization-checkpoint/' | relative_url }})
 - [authorization-graph]({{ '/terms/authorization-graph/' | relative_url }})
 - [authorized-organizational-representative]({{ '/terms/authorized-organizational-representative/' | relative_url }})
 - [autonomic-identifier]({{ '/terms/autonomic-identifier/' | relative_url }})

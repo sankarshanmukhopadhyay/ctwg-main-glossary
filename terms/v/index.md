@@ -1,7 +1,7 @@
 ---
 title: "Terms: V"
 parent: "Glossary Terms"
-nav_exclude: true
+nav_order: 22
 ---
 
 # Terms: V

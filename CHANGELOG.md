@@ -1,5 +1,30 @@
 # Changelog
 
+## v1.4.0 — Cross-Repository Runtime Governance Vocabulary
+
+This release aligns the CTWG Main Glossary with terminology emerging across TSMM, TIS, TGA, and the DTG ZKP Task Force workspace, while improving the rendered GitHub Pages information architecture.
+
+### Added
+
+- Added 36 structured, cross-repository terms covering runtime interaction governance, authority and delegation lineage, executable evidence, legitimacy analysis, and privacy-preserving proofs.
+- Added `governance/cross-repository-terminology-review.md` to document scope, inclusion criteria, exclusions, and assurance implications.
+- Added ordered alphabet pages as visible children beneath the generated Glossary Terms navigation node.
+
+### Changed
+
+- Updated the generated glossary count from 563 to 599 terms.
+- Changed the Glossary Terms page to a foldable parent and assigned deterministic navigation order to alphabet pages.
+- Refreshed generated JSON, JSON-LD, Markdown, Jekyll term pages, inventories, manifests, and quality reports.
+- Updated README release posture and generated assurance metrics.
+
+### Validation
+
+- Validated 599 structured term files.
+- Checked 1,155 aliases for collisions.
+- Checked 80 structured source citations.
+- Rebuilt all generated artifacts with 0 quality findings and a 100.0 / 100 quality score.
+- Built the Jekyll site to verify GitHub Pages compatibility.
+
 ## v1.3.0 — Publication Integrity and Contributor Onboarding
 
 This release keeps the glossary vocabulary and schema stable while improving publication integrity, repository hygiene, and external contribution mechanics.

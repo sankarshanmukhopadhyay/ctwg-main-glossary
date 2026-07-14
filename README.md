@@ -2,13 +2,13 @@
 
 [![Validate Governance-Executable Glossary](https://github.com/trustoverip/ctwg-main-glossary/actions/workflows/validate-governance-glossary.yml/badge.svg)](https://github.com/trustoverip/ctwg-main-glossary/actions/workflows/validate-governance-glossary.yml)
 [![Pages](https://github.com/trustoverip/ctwg-main-glossary/actions/workflows/pages.yml/badge.svg)](https://github.com/trustoverip/ctwg-main-glossary/actions/workflows/pages.yml)
-![Terms](https://img.shields.io/badge/terms-563-blue)
+![Terms](https://img.shields.io/badge/terms-599-blue)
 ![Quality](https://img.shields.io/badge/quality-100.0%2F100-brightgreen)
 ![License](https://img.shields.io/badge/license-OWFa%201.0-blue)
 
 The ToIP Main Glossary is a **governance-executable terminology repository**. It publishes a human-readable GitHub Pages glossary while also producing machine-readable artifacts that describe authority, delegation, revocation, lifecycle state, evidence, auditability, and control-plane relevance for each structured term.
 
-Version `v1.3.0` improves publication integrity and contributor onboarding. It keeps the vocabulary and schema stable while fixing stale landing-page posture, removing migration artifacts, clarifying the canonical Pages configuration, and adding issue templates, code ownership, citation metadata, and README drift checks.
+Version `v1.4.0` expands the shared vocabulary for runtime governance, delegation lineage, executable evidence, and privacy-preserving proofs. It also streamlines GitHub Pages navigation by publishing ordered alphabet pages beneath the glossary index.
 
 ## Repository operating model
 
@@ -76,14 +76,14 @@ Use `generated/json/artifact-manifest.json` to discover the current machine-read
 
 ## Current assurance-readiness posture
 
-The current generated quality report evaluates all 563 structured terms and reports:
+The current generated quality report evaluates all 599 structured terms and reports:
 
 - quality score: `100.0 / 100`;
 - total findings: `0`;
-- terms with source coverage: `563`;
-- terms with `see_also` coverage: `563`;
-- terms with evidence coverage: `563`; and
-- revocation-supported terms with revocation-relevant evidence: `113`.
+- terms with source coverage: `599`;
+- terms with `see_also` coverage: `599`;
+- terms with evidence coverage: `599`; and
+- revocation-supported terms with revocation-relevant evidence: `149`.
 
 This score is not a certification claim. It means that all checks currently implemented by `tools/build_quality_report.py` have been satisfied and that the glossary has no open generated quality-report findings under the current assurance-readiness rubric.
 

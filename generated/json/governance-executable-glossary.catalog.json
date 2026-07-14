@@ -1,5 +1,5 @@
 {
-  "term_count": 563,
+  "term_count": 599,
   "terms": [
     {
       "term": "aal",
@@ -93,10 +93,31 @@
       "assurance_level_hint": "AL2+"
     },
     {
+      "term": "Agent Class",
+      "slug": "agent-class",
+      "source_file": null,
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL2+"
+    },
+    {
+      "term": "Agent Mandate Envelope",
+      "slug": "agent-mandate-envelope",
+      "source_file": null,
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL2+"
+    },
+    {
       "term": "agent",
       "slug": "agent",
       "source_file": "spec/terms-definitions/agent.md",
       "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
+    },
+    {
+      "term": "Aggregation Amplification",
+      "slug": "aggregation-amplification",
+      "source_file": null,
+      "governance_profile": "governance-supporting",
       "assurance_level_hint": "AL2+"
     },
     {
@@ -146,6 +167,13 @@
       "slug": "assurance-level",
       "source_file": "spec/terms-definitions/assurance-level.md",
       "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
+    },
+    {
+      "term": "Attention Policy",
+      "slug": "attention-policy",
+      "source_file": null,
+      "governance_profile": "governance-supporting",
       "assurance_level_hint": "AL2+"
     },
     {
@@ -254,10 +282,24 @@
       "assurance_level_hint": "AL2+"
     },
     {
+      "term": "Authority Boundary",
+      "slug": "authority-boundary",
+      "source_file": null,
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL2+"
+    },
+    {
       "term": "authority",
       "slug": "authority",
       "source_file": "spec/terms-definitions/authority.md",
       "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
+    },
+    {
+      "term": "Authorization Checkpoint",
+      "slug": "authorization-checkpoint",
+      "source_file": null,
+      "governance_profile": "governance-supporting",
       "assurance_level_hint": "AL2+"
     },
     {
@@ -385,6 +427,13 @@
       "source_file": "spec/terms-definitions/cai.md",
       "governance_profile": "descriptive",
       "assurance_level_hint": "informative"
+    },
+    {
+      "term": "Capability Negotiation",
+      "slug": "capability-negotiation",
+      "source_file": null,
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "capability",
@@ -590,6 +639,13 @@
       "assurance_level_hint": "AL2+"
     },
     {
+      "term": "Content Provenance Policy",
+      "slug": "content-provenance-policy",
+      "source_file": null,
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL2+"
+    },
+    {
       "term": "contextual-linkability",
       "slug": "contextual-linkability",
       "source_file": "spec/terms-definitions/contextual-linkability.md",
@@ -601,6 +657,20 @@
       "slug": "control-authority",
       "source_file": "spec/terms-definitions/control-authority.md",
       "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
+    },
+    {
+      "term": "Control Mode",
+      "slug": "control-mode",
+      "source_file": null,
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL2+"
+    },
+    {
+      "term": "Control-Plane Shift",
+      "slug": "control-plane-shift",
+      "source_file": null,
+      "governance_profile": "governance-supporting",
       "assurance_level_hint": "AL2+"
     },
     {
@@ -863,6 +933,13 @@
       "assurance_level_hint": "informative"
     },
     {
+      "term": "Decision Receipt",
+      "slug": "decision-receipt",
+      "source_file": null,
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL2+"
+    },
+    {
       "term": "decryption",
       "slug": "decryption",
       "source_file": "spec/terms-definitions/decryption.md",
@@ -895,6 +972,13 @@
       "slug": "delegation-credential",
       "source_file": "spec/terms-definitions/delegation-credential.md",
       "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
+    },
+    {
+      "term": "Delegation Lineage",
+      "slug": "delegation-lineage",
+      "source_file": null,
+      "governance_profile": "governance-supporting",
       "assurance_level_hint": "AL2+"
     },
     {
@@ -1059,6 +1143,13 @@
       "assurance_level_hint": "AL2+"
     },
     {
+      "term": "Discovery Governance",
+      "slug": "discovery-governance",
+      "source_file": null,
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL2+"
+    },
+    {
       "term": "discovery",
       "slug": "discovery",
       "source_file": "spec/terms-definitions/discovery.md",
@@ -1099,6 +1190,13 @@
       "source_file": "spec/terms-definitions/dwn.md",
       "governance_profile": "descriptive",
       "assurance_level_hint": "informative"
+    },
+    {
+      "term": "Dynamic Authorization",
+      "slug": "dynamic-authorization",
+      "source_file": null,
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "ecosystem-governance-framework",
@@ -1234,11 +1332,32 @@
       "assurance_level_hint": "AL2+"
     },
     {
+      "term": "Evidence Artifact",
+      "slug": "evidence-artifact",
+      "source_file": null,
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL2+"
+    },
+    {
+      "term": "Evidence Bundle",
+      "slug": "evidence-bundle",
+      "source_file": null,
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL2+"
+    },
+    {
       "term": "expression-language",
       "slug": "expression-language",
       "source_file": "spec/terms-definitions/expression-language.md",
       "governance_profile": "descriptive",
       "assurance_level_hint": "informative"
+    },
+    {
+      "term": "Extension Contract",
+      "slug": "extension-contract",
+      "source_file": null,
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "fal",
@@ -1640,6 +1759,20 @@
       "assurance_level_hint": "informative"
     },
     {
+      "term": "Interaction Context",
+      "slug": "interaction-context",
+      "source_file": null,
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL2+"
+    },
+    {
+      "term": "Interaction Task",
+      "slug": "interaction-task",
+      "source_file": null,
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL2+"
+    },
+    {
       "term": "intermediary-system",
       "slug": "intermediary-system",
       "source_file": "spec/terms-definitions/intermediary-system.md",
@@ -1686,6 +1819,13 @@
       "slug": "issuance",
       "source_file": "spec/terms-definitions/issuance.md",
       "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
+    },
+    {
+      "term": "Issuer Concealment",
+      "slug": "issuer-concealment",
+      "source_file": null,
+      "governance_profile": "governance-supporting",
       "assurance_level_hint": "AL2+"
     },
     {
@@ -1871,6 +2011,13 @@
       "assurance_level_hint": "AL2+"
     },
     {
+      "term": "Legitimacy Gap",
+      "slug": "legitimacy-gap",
+      "source_file": null,
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL2+"
+    },
+    {
       "term": "legitimized-human-meaningful-identifier",
       "slug": "legitimized-human-meaningful-identifier",
       "source_file": "spec/terms-definitions/legitimized-human-meaningful-identifier.md",
@@ -1960,6 +2107,13 @@
       "source_file": "spec/terms-definitions/mobile-deep-link.md",
       "governance_profile": "descriptive",
       "assurance_level_hint": "informative"
+    },
+    {
+      "term": "Monotonic Attenuation",
+      "slug": "monotonic-attenuation",
+      "source_file": null,
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "mpc",
@@ -2067,6 +2221,13 @@
       "assurance_level_hint": "AL2+"
     },
     {
+      "term": "Nullifier",
+      "slug": "nullifier",
+      "source_file": null,
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL2+"
+    },
+    {
       "term": "objective",
       "slug": "objective",
       "source_file": "spec/terms-definitions/objective.md",
@@ -2074,11 +2235,25 @@
       "assurance_level_hint": "informative"
     },
     {
+      "term": "Observability Mode",
+      "slug": "observability-mode",
+      "source_file": null,
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL2+"
+    },
+    {
       "term": "oobi",
       "slug": "oobi",
       "source_file": "spec/terms-definitions/oobi.md",
       "governance_profile": "descriptive",
       "assurance_level_hint": "informative"
+    },
+    {
+      "term": "Opacity Boundary",
+      "slug": "opacity-boundary",
+      "source_file": null,
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "openid-federation",
@@ -2186,6 +2361,13 @@
       "assurance_level_hint": "informative"
     },
     {
+      "term": "Peer Trust Relation",
+      "slug": "peer-trust-relation",
+      "source_file": null,
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL2+"
+    },
+    {
       "term": "peer",
       "slug": "peer",
       "source_file": "spec/terms-definitions/peer.md",
@@ -2256,6 +2438,13 @@
       "assurance_level_hint": "informative"
     },
     {
+      "term": "Personhood",
+      "slug": "personhood",
+      "source_file": null,
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL2+"
+    },
+    {
       "term": "physical-credential",
       "slug": "physical-credential",
       "source_file": "spec/terms-definitions/physical-credential.md",
@@ -2303,6 +2492,13 @@
       "source_file": "spec/terms-definitions/pop.md",
       "governance_profile": "descriptive",
       "assurance_level_hint": "informative"
+    },
+    {
+      "term": "Predicate Proof",
+      "slug": "predicate-proof",
+      "source_file": null,
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "presentation-attack",
@@ -2365,6 +2561,13 @@
       "slug": "private-key",
       "source_file": "spec/terms-definitions/private-key.md",
       "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
+    },
+    {
+      "term": "Proof-Carrying Commitment Receipt",
+      "slug": "proof-carrying-commitment-receipt",
+      "source_file": null,
+      "governance_profile": "governance-supporting",
       "assurance_level_hint": "AL2+"
     },
     {
@@ -2704,6 +2907,20 @@
       "assurance_level_hint": "AL2+"
     },
     {
+      "term": "Runtime Authority Envelope",
+      "slug": "runtime-authority-envelope",
+      "source_file": null,
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL2+"
+    },
+    {
+      "term": "Runtime Governance Envelope",
+      "slug": "runtime-governance-envelope",
+      "source_file": null,
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL2+"
+    },
+    {
       "term": "rwi",
       "slug": "rwi",
       "source_file": "spec/terms-definitions/rwi.md",
@@ -2837,6 +3054,13 @@
       "assurance_level_hint": "informative"
     },
     {
+      "term": "Service Descriptor",
+      "slug": "service-descriptor",
+      "source_file": null,
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL2+"
+    },
+    {
       "term": "session",
       "slug": "session",
       "source_file": "spec/terms-definitions/session.md",
@@ -2848,6 +3072,13 @@
       "slug": "single-signature-identifier",
       "source_file": "spec/terms-definitions/single-signature-identifier.md",
       "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
+    },
+    {
+      "term": "Skill Contract",
+      "slug": "skill-contract",
+      "source_file": null,
+      "governance_profile": "governance-supporting",
       "assurance_level_hint": "AL2+"
     },
     {
@@ -2968,6 +3199,13 @@
       "source_file": "spec/terms-definitions/tamper-resistant.md",
       "governance_profile": "descriptive",
       "assurance_level_hint": "informative"
+    },
+    {
+      "term": "Task Evidence Lifecycle",
+      "slug": "task-evidence-lifecycle",
+      "source_file": null,
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "tcp-ip-stack",
@@ -3544,6 +3782,13 @@
       "assurance_level_hint": "AL1+"
     },
     {
+      "term": "Trust Task Execution Receipt",
+      "slug": "trust-task-execution-receipt",
+      "source_file": null,
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL2+"
+    },
+    {
       "term": "trust-task-layer",
       "slug": "trust-task-layer",
       "source_file": "spec/terms-definitions/trust-task-layer.md",
@@ -3682,6 +3927,13 @@
       "source_file": "spec/terms-definitions/uniform-resource-name.md",
       "governance_profile": "descriptive",
       "assurance_level_hint": "informative"
+    },
+    {
+      "term": "Unlinkability",
+      "slug": "unlinkability",
+      "source_file": null,
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL2+"
     },
     {
       "term": "uri",

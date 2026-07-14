@@ -1,7 +1,7 @@
 ---
 title: "Terms: C"
 parent: "Glossary Terms"
-nav_exclude: true
+nav_order: 3
 ---
 
 # Terms: C
@@ -11,6 +11,7 @@ nav_exclude: true
 - [ca]({{ '/terms/ca/' | relative_url }})
 - [cai]({{ '/terms/cai/' | relative_url }})
 - [capability]({{ '/terms/capability/' | relative_url }})
+- [Capability Negotiation]({{ '/terms/capability-negotiation/' | relative_url }})
 - [certificate]({{ '/terms/certificate/' | relative_url }})
 - [certificate-authority]({{ '/terms/certificate-authority/' | relative_url }})
 - [certification]({{ '/terms/certification/' | relative_url }})
@@ -37,10 +38,13 @@ nav_exclude: true
 - [confidentiality]({{ '/terms/confidentiality/' | relative_url }})
 - [connection]({{ '/terms/connection/' | relative_url }})
 - [consent-management]({{ '/terms/consent-management/' | relative_url }})
+- [Content Provenance Policy]({{ '/terms/content-provenance-policy/' | relative_url }})
 - [content-authenticity-initiative]({{ '/terms/content-authenticity-initiative/' | relative_url }})
 - [content-credential]({{ '/terms/content-credential/' | relative_url }})
 - [contextual-linkability]({{ '/terms/contextual-linkability/' | relative_url }})
+- [Control Mode]({{ '/terms/control-mode/' | relative_url }})
 - [control-authority]({{ '/terms/control-authority/' | relative_url }})
+- [Control-Plane Shift]({{ '/terms/control-plane-shift/' | relative_url }})
 - [controlled-document]({{ '/terms/controlled-document/' | relative_url }})
 - [controlled-identifier]({{ '/terms/controlled-identifier/' | relative_url }})
 - [controller]({{ '/terms/controller/' | relative_url }})

@@ -12,7 +12,7 @@ This report is an assurance-readiness view over the structured glossary source l
 
 ## Summary
 
-- Terms evaluated: **563**
+- Terms evaluated: **599**
 - Quality score: **100.0 / 100**
 - Total findings: **0**
 
@@ -24,11 +24,11 @@ This report is an assurance-readiness view over the structured glossary source l
 
 ## Coverage
 
-- `decision_plane_component`: 335
-- `revocation_supported`: 113
-- `with_evidence`: 563
-- `with_see_also`: 563
-- `with_sources`: 563
+- `decision_plane_component`: 371
+- `revocation_supported`: 149
+- `with_evidence`: 599
+- `with_see_also`: 599
+- `with_sources`: 599
 
 ## Finding categories
 

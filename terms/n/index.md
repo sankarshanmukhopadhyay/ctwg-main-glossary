@@ -1,7 +1,7 @@
 ---
 title: "Terms: N"
 parent: "Glossary Terms"
-nav_exclude: true
+nav_order: 14
 ---
 
 # Terms: N
@@ -15,3 +15,4 @@ nav_exclude: true
 - [non-repudiable]({{ '/terms/non-repudiable/' | relative_url }})
 - [non-transferable]({{ '/terms/non-transferable/' | relative_url }})
 - [non-transferable-identifier]({{ '/terms/non-transferable-identifier/' | relative_url }})
+- [Nullifier]({{ '/terms/nullifier/' | relative_url }})

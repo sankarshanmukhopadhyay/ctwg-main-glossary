@@ -1,7 +1,7 @@
 ---
 title: "Terms: J"
 parent: "Glossary Terms"
-nav_exclude: true
+nav_order: 10
 ---
 
 # Terms: J

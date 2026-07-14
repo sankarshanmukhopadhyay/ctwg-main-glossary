@@ -1,5 +1,5 @@
 {
-  "term_count": 563,
+  "term_count": 599,
   "authority_terms": [
     {
       "term": "aal",
@@ -38,12 +38,28 @@
       "slug": "agent"
     },
     {
+      "term": "Agent Class",
+      "slug": "agent-class"
+    },
+    {
+      "term": "Agent Mandate Envelope",
+      "slug": "agent-mandate-envelope"
+    },
+    {
+      "term": "Aggregation Amplification",
+      "slug": "aggregation-amplification"
+    },
+    {
       "term": "appraisability",
       "slug": "appraisability"
     },
     {
       "term": "assurance-level",
       "slug": "assurance-level"
+    },
+    {
+      "term": "Attention Policy",
+      "slug": "attention-policy"
     },
     {
       "term": "attestation",
@@ -94,8 +110,16 @@
       "slug": "authority"
     },
     {
+      "term": "Authority Boundary",
+      "slug": "authority-boundary"
+    },
+    {
       "term": "authorization",
       "slug": "authorization"
+    },
+    {
+      "term": "Authorization Checkpoint",
+      "slug": "authorization-checkpoint"
     },
     {
       "term": "authorization-graph",
@@ -142,6 +166,10 @@
       "slug": "capability"
     },
     {
+      "term": "Capability Negotiation",
+      "slug": "capability-negotiation"
+    },
+    {
       "term": "certificate-authority",
       "slug": "certificate-authority"
     },
@@ -174,12 +202,24 @@
       "slug": "compliance"
     },
     {
+      "term": "Content Provenance Policy",
+      "slug": "content-provenance-policy"
+    },
+    {
       "term": "content-credential",
       "slug": "content-credential"
     },
     {
+      "term": "Control Mode",
+      "slug": "control-mode"
+    },
+    {
       "term": "control-authority",
       "slug": "control-authority"
+    },
+    {
+      "term": "Control-Plane Shift",
+      "slug": "control-plane-shift"
     },
     {
       "term": "controlled-document",
@@ -242,12 +282,20 @@
       "slug": "decentralized-identifier"
     },
     {
+      "term": "Decision Receipt",
+      "slug": "decision-receipt"
+    },
+    {
       "term": "delegatee",
       "slug": "delegatee"
     },
     {
       "term": "delegation",
       "slug": "delegation"
+    },
+    {
+      "term": "Delegation Lineage",
+      "slug": "delegation-lineage"
     },
     {
       "term": "delegation-credential",
@@ -298,8 +346,16 @@
       "slug": "discovery"
     },
     {
+      "term": "Discovery Governance",
+      "slug": "discovery-governance"
+    },
+    {
       "term": "dpop",
       "slug": "dpop"
+    },
+    {
+      "term": "Dynamic Authorization",
+      "slug": "dynamic-authorization"
     },
     {
       "term": "ecosystem-governance-framework",
@@ -324,6 +380,18 @@
     {
       "term": "eudi-wallet",
       "slug": "eudi-wallet"
+    },
+    {
+      "term": "Evidence Artifact",
+      "slug": "evidence-artifact"
+    },
+    {
+      "term": "Evidence Bundle",
+      "slug": "evidence-bundle"
+    },
+    {
+      "term": "Extension Contract",
+      "slug": "extension-contract"
     },
     {
       "term": "fal",
@@ -454,6 +522,14 @@
       "slug": "identity-provider"
     },
     {
+      "term": "Interaction Context",
+      "slug": "interaction-context"
+    },
+    {
+      "term": "Interaction Task",
+      "slug": "interaction-task"
+    },
+    {
       "term": "internet-protocol-suite",
       "slug": "internet-protocol-suite"
     },
@@ -468,6 +544,10 @@
     {
       "term": "issuer",
       "slug": "issuer"
+    },
+    {
+      "term": "Issuer Concealment",
+      "slug": "issuer-concealment"
     },
     {
       "term": "issuer-metadata",
@@ -490,6 +570,10 @@
       "slug": "legal-system"
     },
     {
+      "term": "Legitimacy Gap",
+      "slug": "legitimacy-gap"
+    },
+    {
       "term": "legitimized-human-meaningful-identifier",
       "slug": "legitimized-human-meaningful-identifier"
     },
@@ -504,6 +588,22 @@
     {
       "term": "manifest-consumer",
       "slug": "manifest-consumer"
+    },
+    {
+      "term": "Monotonic Attenuation",
+      "slug": "monotonic-attenuation"
+    },
+    {
+      "term": "Nullifier",
+      "slug": "nullifier"
+    },
+    {
+      "term": "Observability Mode",
+      "slug": "observability-mode"
+    },
+    {
+      "term": "Opacity Boundary",
+      "slug": "opacity-boundary"
     },
     {
       "term": "openid-federation",
@@ -530,12 +630,20 @@
       "slug": "password"
     },
     {
+      "term": "Peer Trust Relation",
+      "slug": "peer-trust-relation"
+    },
+    {
       "term": "permission",
       "slug": "permission"
     },
     {
       "term": "personal-data-store",
       "slug": "personal-data-store"
+    },
+    {
+      "term": "Personhood",
+      "slug": "personhood"
     },
     {
       "term": "physical-credential",
@@ -548,6 +656,10 @@
     {
       "term": "policy",
       "slug": "policy"
+    },
+    {
+      "term": "Predicate Proof",
+      "slug": "predicate-proof"
     },
     {
       "term": "presentation",
@@ -572,6 +684,10 @@
     {
       "term": "proof",
       "slug": "proof"
+    },
+    {
+      "term": "Proof-Carrying Commitment Receipt",
+      "slug": "proof-carrying-commitment-receipt"
     },
     {
       "term": "proof-of-possession",
@@ -658,6 +774,14 @@
       "slug": "rule"
     },
     {
+      "term": "Runtime Authority Envelope",
+      "slug": "runtime-authority-envelope"
+    },
+    {
+      "term": "Runtime Governance Envelope",
+      "slug": "runtime-governance-envelope"
+    },
+    {
       "term": "schema",
       "slug": "schema"
     },
@@ -710,6 +834,14 @@
       "slug": "sender-constrained-token"
     },
     {
+      "term": "Service Descriptor",
+      "slug": "service-descriptor"
+    },
+    {
+      "term": "Skill Contract",
+      "slug": "skill-contract"
+    },
+    {
       "term": "software-agent",
       "slug": "software-agent"
     },
@@ -736,6 +868,10 @@
     {
       "term": "system-of-record",
       "slug": "system-of-record"
+    },
+    {
+      "term": "Task Evidence Lifecycle",
+      "slug": "task-evidence-lifecycle"
     },
     {
       "term": "technical-requirement",
@@ -784,6 +920,10 @@
     {
       "term": "transitive-trust-decision",
       "slug": "transitive-trust-decision"
+    },
+    {
+      "term": "Trust Task Execution Receipt",
+      "slug": "trust-task-execution-receipt"
     },
     {
       "term": "trust-anchor",
@@ -852,6 +992,10 @@
     {
       "term": "tta",
       "slug": "tta"
+    },
+    {
+      "term": "Unlinkability",
+      "slug": "unlinkability"
     },
     {
       "term": "user-agent",
@@ -940,8 +1084,32 @@
       "slug": "agent"
     },
     {
+      "term": "Agent Class",
+      "slug": "agent-class"
+    },
+    {
+      "term": "Agent Mandate Envelope",
+      "slug": "agent-mandate-envelope"
+    },
+    {
+      "term": "Aggregation Amplification",
+      "slug": "aggregation-amplification"
+    },
+    {
+      "term": "Attention Policy",
+      "slug": "attention-policy"
+    },
+    {
       "term": "authority",
       "slug": "authority"
+    },
+    {
+      "term": "Authority Boundary",
+      "slug": "authority-boundary"
+    },
+    {
+      "term": "Authorization Checkpoint",
+      "slug": "authorization-checkpoint"
     },
     {
       "term": "authorized-organizational-representative",
@@ -952,6 +1120,22 @@
       "slug": "capability"
     },
     {
+      "term": "Capability Negotiation",
+      "slug": "capability-negotiation"
+    },
+    {
+      "term": "Content Provenance Policy",
+      "slug": "content-provenance-policy"
+    },
+    {
+      "term": "Control Mode",
+      "slug": "control-mode"
+    },
+    {
+      "term": "Control-Plane Shift",
+      "slug": "control-plane-shift"
+    },
+    {
       "term": "controlled-identifier",
       "slug": "controlled-identifier"
     },
@@ -960,12 +1144,20 @@
       "slug": "controller"
     },
     {
+      "term": "Decision Receipt",
+      "slug": "decision-receipt"
+    },
+    {
       "term": "delegatee",
       "slug": "delegatee"
     },
     {
       "term": "delegation",
       "slug": "delegation"
+    },
+    {
+      "term": "Delegation Lineage",
+      "slug": "delegation-lineage"
     },
     {
       "term": "delegation-credential",
@@ -992,6 +1184,26 @@
       "slug": "digital-wallet"
     },
     {
+      "term": "Discovery Governance",
+      "slug": "discovery-governance"
+    },
+    {
+      "term": "Dynamic Authorization",
+      "slug": "dynamic-authorization"
+    },
+    {
+      "term": "Evidence Artifact",
+      "slug": "evidence-artifact"
+    },
+    {
+      "term": "Evidence Bundle",
+      "slug": "evidence-bundle"
+    },
+    {
+      "term": "Extension Contract",
+      "slug": "extension-contract"
+    },
+    {
       "term": "governing-body",
       "slug": "governing-body"
     },
@@ -1000,28 +1212,92 @@
       "slug": "holder"
     },
     {
+      "term": "Interaction Context",
+      "slug": "interaction-context"
+    },
+    {
+      "term": "Interaction Task",
+      "slug": "interaction-task"
+    },
+    {
       "term": "issuer",
       "slug": "issuer"
+    },
+    {
+      "term": "Issuer Concealment",
+      "slug": "issuer-concealment"
     },
     {
       "term": "keys-at-the-edge",
       "slug": "keys-at-the-edge"
     },
     {
+      "term": "Legitimacy Gap",
+      "slug": "legitimacy-gap"
+    },
+    {
+      "term": "Monotonic Attenuation",
+      "slug": "monotonic-attenuation"
+    },
+    {
+      "term": "Nullifier",
+      "slug": "nullifier"
+    },
+    {
+      "term": "Observability Mode",
+      "slug": "observability-mode"
+    },
+    {
+      "term": "Opacity Boundary",
+      "slug": "opacity-boundary"
+    },
+    {
+      "term": "Peer Trust Relation",
+      "slug": "peer-trust-relation"
+    },
+    {
       "term": "personal-data-store",
       "slug": "personal-data-store"
+    },
+    {
+      "term": "Personhood",
+      "slug": "personhood"
+    },
+    {
+      "term": "Predicate Proof",
+      "slug": "predicate-proof"
     },
     {
       "term": "principal",
       "slug": "principal"
     },
     {
+      "term": "Proof-Carrying Commitment Receipt",
+      "slug": "proof-carrying-commitment-receipt"
+    },
+    {
       "term": "registration-agent",
       "slug": "registration-agent"
     },
     {
+      "term": "Runtime Authority Envelope",
+      "slug": "runtime-authority-envelope"
+    },
+    {
+      "term": "Runtime Governance Envelope",
+      "slug": "runtime-governance-envelope"
+    },
+    {
       "term": "second-party",
       "slug": "second-party"
+    },
+    {
+      "term": "Service Descriptor",
+      "slug": "service-descriptor"
+    },
+    {
+      "term": "Skill Contract",
+      "slug": "skill-contract"
     },
     {
       "term": "software-agent",
@@ -1030,6 +1306,18 @@
     {
       "term": "subscription",
       "slug": "subscription"
+    },
+    {
+      "term": "Task Evidence Lifecycle",
+      "slug": "task-evidence-lifecycle"
+    },
+    {
+      "term": "Trust Task Execution Receipt",
+      "slug": "trust-task-execution-receipt"
+    },
+    {
+      "term": "Unlinkability",
+      "slug": "unlinkability"
     },
     {
       "term": "user-agent",
@@ -1070,8 +1358,24 @@
       "slug": "agent"
     },
     {
+      "term": "Agent Class",
+      "slug": "agent-class"
+    },
+    {
+      "term": "Agent Mandate Envelope",
+      "slug": "agent-mandate-envelope"
+    },
+    {
+      "term": "Aggregation Amplification",
+      "slug": "aggregation-amplification"
+    },
+    {
       "term": "assurance-level",
       "slug": "assurance-level"
+    },
+    {
+      "term": "Attention Policy",
+      "slug": "attention-policy"
     },
     {
       "term": "auditor",
@@ -1102,8 +1406,16 @@
       "slug": "authority"
     },
     {
+      "term": "Authority Boundary",
+      "slug": "authority-boundary"
+    },
+    {
       "term": "authorization",
       "slug": "authorization"
+    },
+    {
+      "term": "Authorization Checkpoint",
+      "slug": "authorization-checkpoint"
     },
     {
       "term": "authorization-graph",
@@ -1138,6 +1450,10 @@
       "slug": "capability"
     },
     {
+      "term": "Capability Negotiation",
+      "slug": "capability-negotiation"
+    },
+    {
       "term": "certificate-authority",
       "slug": "certificate-authority"
     },
@@ -1150,8 +1466,20 @@
       "slug": "chained-credentials"
     },
     {
+      "term": "Content Provenance Policy",
+      "slug": "content-provenance-policy"
+    },
+    {
+      "term": "Control Mode",
+      "slug": "control-mode"
+    },
+    {
       "term": "control-authority",
       "slug": "control-authority"
+    },
+    {
+      "term": "Control-Plane Shift",
+      "slug": "control-plane-shift"
     },
     {
       "term": "controlled-document",
@@ -1198,12 +1526,20 @@
       "slug": "decentralized-identifier"
     },
     {
+      "term": "Decision Receipt",
+      "slug": "decision-receipt"
+    },
+    {
       "term": "delegatee",
       "slug": "delegatee"
     },
     {
       "term": "delegation",
       "slug": "delegation"
+    },
+    {
+      "term": "Delegation Lineage",
+      "slug": "delegation-lineage"
     },
     {
       "term": "delegation-credential",
@@ -1238,8 +1574,28 @@
       "slug": "discovery"
     },
     {
+      "term": "Discovery Governance",
+      "slug": "discovery-governance"
+    },
+    {
+      "term": "Dynamic Authorization",
+      "slug": "dynamic-authorization"
+    },
+    {
       "term": "ecosystem-governance-framework",
       "slug": "ecosystem-governance-framework"
+    },
+    {
+      "term": "Evidence Artifact",
+      "slug": "evidence-artifact"
+    },
+    {
+      "term": "Evidence Bundle",
+      "slug": "evidence-bundle"
+    },
+    {
+      "term": "Extension Contract",
+      "slug": "extension-contract"
     },
     {
       "term": "foundational-identity",
@@ -1294,6 +1650,14 @@
       "slug": "identity-document"
     },
     {
+      "term": "Interaction Context",
+      "slug": "interaction-context"
+    },
+    {
+      "term": "Interaction Task",
+      "slug": "interaction-task"
+    },
+    {
       "term": "issuance",
       "slug": "issuance"
     },
@@ -1306,8 +1670,32 @@
       "slug": "issuer"
     },
     {
+      "term": "Issuer Concealment",
+      "slug": "issuer-concealment"
+    },
+    {
+      "term": "Legitimacy Gap",
+      "slug": "legitimacy-gap"
+    },
+    {
       "term": "legitimized-human-meaningful-identifier",
       "slug": "legitimized-human-meaningful-identifier"
+    },
+    {
+      "term": "Monotonic Attenuation",
+      "slug": "monotonic-attenuation"
+    },
+    {
+      "term": "Nullifier",
+      "slug": "nullifier"
+    },
+    {
+      "term": "Observability Mode",
+      "slug": "observability-mode"
+    },
+    {
+      "term": "Opacity Boundary",
+      "slug": "opacity-boundary"
     },
     {
       "term": "organizational-authority",
@@ -1322,8 +1710,16 @@
       "slug": "peer"
     },
     {
+      "term": "Peer Trust Relation",
+      "slug": "peer-trust-relation"
+    },
+    {
       "term": "permission",
       "slug": "permission"
+    },
+    {
+      "term": "Personhood",
+      "slug": "personhood"
     },
     {
       "term": "physical-credential",
@@ -1338,12 +1734,20 @@
       "slug": "policy"
     },
     {
+      "term": "Predicate Proof",
+      "slug": "predicate-proof"
+    },
+    {
       "term": "presentation",
       "slug": "presentation"
     },
     {
       "term": "proof",
       "slug": "proof"
+    },
+    {
+      "term": "Proof-Carrying Commitment Receipt",
+      "slug": "proof-carrying-commitment-receipt"
     },
     {
       "term": "public-key-certificate",
@@ -1394,6 +1798,14 @@
       "slug": "role-credential"
     },
     {
+      "term": "Runtime Authority Envelope",
+      "slug": "runtime-authority-envelope"
+    },
+    {
+      "term": "Runtime Governance Envelope",
+      "slug": "runtime-governance-envelope"
+    },
+    {
       "term": "schema",
       "slug": "schema"
     },
@@ -1410,6 +1822,14 @@
       "slug": "self-sovereign-identity"
     },
     {
+      "term": "Service Descriptor",
+      "slug": "service-descriptor"
+    },
+    {
+      "term": "Skill Contract",
+      "slug": "skill-contract"
+    },
+    {
       "term": "status-provider",
       "slug": "status-provider"
     },
@@ -1420,6 +1840,10 @@
     {
       "term": "subject",
       "slug": "subject"
+    },
+    {
+      "term": "Task Evidence Lifecycle",
+      "slug": "task-evidence-lifecycle"
     },
     {
       "term": "three-party-model",
@@ -1436,6 +1860,10 @@
     {
       "term": "transitive-trust-decision",
       "slug": "transitive-trust-decision"
+    },
+    {
+      "term": "Trust Task Execution Receipt",
+      "slug": "trust-task-execution-receipt"
     },
     {
       "term": "trust-chain",
@@ -1472,6 +1900,10 @@
     {
       "term": "tta",
       "slug": "tta"
+    },
+    {
+      "term": "Unlinkability",
+      "slug": "unlinkability"
     },
     {
       "term": "utility-governance-framework",
@@ -1642,6 +2074,39 @@
       ]
     },
     {
+      "term": "Agent Class",
+      "slug": "agent-class",
+      "states": [
+        "proposed",
+        "active",
+        "suspended",
+        "revoked",
+        "retired"
+      ]
+    },
+    {
+      "term": "Agent Mandate Envelope",
+      "slug": "agent-mandate-envelope",
+      "states": [
+        "proposed",
+        "active",
+        "suspended",
+        "revoked",
+        "retired"
+      ]
+    },
+    {
+      "term": "Aggregation Amplification",
+      "slug": "aggregation-amplification",
+      "states": [
+        "proposed",
+        "active",
+        "suspended",
+        "revoked",
+        "retired"
+      ]
+    },
+    {
       "term": "aid",
       "slug": "aid",
       "states": [
@@ -1698,6 +2163,17 @@
     {
       "term": "assurance-level",
       "slug": "assurance-level",
+      "states": [
+        "proposed",
+        "active",
+        "suspended",
+        "revoked",
+        "retired"
+      ]
+    },
+    {
+      "term": "Attention Policy",
+      "slug": "attention-policy",
       "states": [
         "proposed",
         "active",
@@ -1865,8 +2341,30 @@
       ]
     },
     {
+      "term": "Authority Boundary",
+      "slug": "authority-boundary",
+      "states": [
+        "proposed",
+        "active",
+        "suspended",
+        "revoked",
+        "retired"
+      ]
+    },
+    {
       "term": "authorization",
       "slug": "authorization",
+      "states": [
+        "proposed",
+        "active",
+        "suspended",
+        "revoked",
+        "retired"
+      ]
+    },
+    {
+      "term": "Authorization Checkpoint",
+      "slug": "authorization-checkpoint",
       "states": [
         "proposed",
         "active",
@@ -2045,6 +2543,17 @@
     {
       "term": "capability",
       "slug": "capability",
+      "states": [
+        "proposed",
+        "active",
+        "suspended",
+        "revoked",
+        "retired"
+      ]
+    },
+    {
+      "term": "Capability Negotiation",
+      "slug": "capability-negotiation",
       "states": [
         "proposed",
         "active",
@@ -2294,6 +2803,17 @@
       ]
     },
     {
+      "term": "Content Provenance Policy",
+      "slug": "content-provenance-policy",
+      "states": [
+        "proposed",
+        "active",
+        "suspended",
+        "revoked",
+        "retired"
+      ]
+    },
+    {
       "term": "content-authenticity-initiative",
       "slug": "content-authenticity-initiative",
       "states": [
@@ -2321,8 +2841,30 @@
       ]
     },
     {
+      "term": "Control Mode",
+      "slug": "control-mode",
+      "states": [
+        "proposed",
+        "active",
+        "suspended",
+        "revoked",
+        "retired"
+      ]
+    },
+    {
       "term": "control-authority",
       "slug": "control-authority",
+      "states": [
+        "proposed",
+        "active",
+        "suspended",
+        "revoked",
+        "retired"
+      ]
+    },
+    {
+      "term": "Control-Plane Shift",
+      "slug": "control-plane-shift",
       "states": [
         "proposed",
         "active",
@@ -2687,6 +3229,17 @@
       ]
     },
     {
+      "term": "Decision Receipt",
+      "slug": "decision-receipt",
+      "states": [
+        "proposed",
+        "active",
+        "suspended",
+        "revoked",
+        "retired"
+      ]
+    },
+    {
       "term": "decryption",
       "slug": "decryption",
       "states": [
@@ -2727,6 +3280,17 @@
     {
       "term": "delegation",
       "slug": "delegation",
+      "states": [
+        "proposed",
+        "active",
+        "suspended",
+        "revoked",
+        "retired"
+      ]
+    },
+    {
+      "term": "Delegation Lineage",
+      "slug": "delegation-lineage",
       "states": [
         "proposed",
         "active",
@@ -2968,6 +3532,17 @@
       ]
     },
     {
+      "term": "Discovery Governance",
+      "slug": "discovery-governance",
+      "states": [
+        "proposed",
+        "active",
+        "suspended",
+        "revoked",
+        "retired"
+      ]
+    },
+    {
       "term": "distributed-ledger",
       "slug": "distributed-ledger",
       "states": [
@@ -3010,6 +3585,17 @@
         "documented",
         "active",
         "deprecated"
+      ]
+    },
+    {
+      "term": "Dynamic Authorization",
+      "slug": "dynamic-authorization",
+      "states": [
+        "proposed",
+        "active",
+        "suspended",
+        "revoked",
+        "retired"
       ]
     },
     {
@@ -3186,12 +3772,45 @@
       ]
     },
     {
+      "term": "Evidence Artifact",
+      "slug": "evidence-artifact",
+      "states": [
+        "proposed",
+        "active",
+        "suspended",
+        "revoked",
+        "retired"
+      ]
+    },
+    {
+      "term": "Evidence Bundle",
+      "slug": "evidence-bundle",
+      "states": [
+        "proposed",
+        "active",
+        "suspended",
+        "revoked",
+        "retired"
+      ]
+    },
+    {
       "term": "expression-language",
       "slug": "expression-language",
       "states": [
         "documented",
         "active",
         "deprecated"
+      ]
+    },
+    {
+      "term": "Extension Contract",
+      "slug": "extension-contract",
+      "states": [
+        "proposed",
+        "active",
+        "suspended",
+        "revoked",
+        "retired"
       ]
     },
     {
@@ -3734,6 +4353,28 @@
       ]
     },
     {
+      "term": "Interaction Context",
+      "slug": "interaction-context",
+      "states": [
+        "proposed",
+        "active",
+        "suspended",
+        "revoked",
+        "retired"
+      ]
+    },
+    {
+      "term": "Interaction Task",
+      "slug": "interaction-task",
+      "states": [
+        "proposed",
+        "active",
+        "suspended",
+        "revoked",
+        "retired"
+      ]
+    },
+    {
       "term": "intermediary-system",
       "slug": "intermediary-system",
       "states": [
@@ -3803,6 +4444,17 @@
     {
       "term": "issuer",
       "slug": "issuer",
+      "states": [
+        "proposed",
+        "active",
+        "suspended",
+        "revoked",
+        "retired"
+      ]
+    },
+    {
+      "term": "Issuer Concealment",
+      "slug": "issuer-concealment",
       "states": [
         "proposed",
         "active",
@@ -4037,6 +4689,17 @@
       ]
     },
     {
+      "term": "Legitimacy Gap",
+      "slug": "legitimacy-gap",
+      "states": [
+        "proposed",
+        "active",
+        "suspended",
+        "revoked",
+        "retired"
+      ]
+    },
+    {
       "term": "legitimized-human-meaningful-identifier",
       "slug": "legitimized-human-meaningful-identifier",
       "states": [
@@ -4153,6 +4816,17 @@
         "documented",
         "active",
         "deprecated"
+      ]
+    },
+    {
+      "term": "Monotonic Attenuation",
+      "slug": "monotonic-attenuation",
+      "states": [
+        "proposed",
+        "active",
+        "suspended",
+        "revoked",
+        "retired"
       ]
     },
     {
@@ -4291,6 +4965,17 @@
       ]
     },
     {
+      "term": "Nullifier",
+      "slug": "nullifier",
+      "states": [
+        "proposed",
+        "active",
+        "suspended",
+        "revoked",
+        "retired"
+      ]
+    },
+    {
       "term": "objective",
       "slug": "objective",
       "states": [
@@ -4300,12 +4985,34 @@
       ]
     },
     {
+      "term": "Observability Mode",
+      "slug": "observability-mode",
+      "states": [
+        "proposed",
+        "active",
+        "suspended",
+        "revoked",
+        "retired"
+      ]
+    },
+    {
       "term": "oobi",
       "slug": "oobi",
       "states": [
         "documented",
         "active",
         "deprecated"
+      ]
+    },
+    {
+      "term": "Opacity Boundary",
+      "slug": "opacity-boundary",
+      "states": [
+        "proposed",
+        "active",
+        "suspended",
+        "revoked",
+        "retired"
       ]
     },
     {
@@ -4450,6 +5157,17 @@
       ]
     },
     {
+      "term": "Peer Trust Relation",
+      "slug": "peer-trust-relation",
+      "states": [
+        "proposed",
+        "active",
+        "suspended",
+        "revoked",
+        "retired"
+      ]
+    },
+    {
       "term": "peer-to-peer",
       "slug": "peer-to-peer",
       "states": [
@@ -4542,6 +5260,17 @@
       ]
     },
     {
+      "term": "Personhood",
+      "slug": "personhood",
+      "states": [
+        "proposed",
+        "active",
+        "suspended",
+        "revoked",
+        "retired"
+      ]
+    },
+    {
       "term": "physical-credential",
       "slug": "physical-credential",
       "states": [
@@ -4608,6 +5337,17 @@
         "documented",
         "active",
         "deprecated"
+      ]
+    },
+    {
+      "term": "Predicate Proof",
+      "slug": "predicate-proof",
+      "states": [
+        "proposed",
+        "active",
+        "suspended",
+        "revoked",
+        "retired"
       ]
     },
     {
@@ -4696,6 +5436,17 @@
     {
       "term": "proof",
       "slug": "proof",
+      "states": [
+        "proposed",
+        "active",
+        "suspended",
+        "revoked",
+        "retired"
+      ]
+    },
+    {
+      "term": "Proof-Carrying Commitment Receipt",
+      "slug": "proof-carrying-commitment-receipt",
       "states": [
         "proposed",
         "active",
@@ -5152,6 +5903,28 @@
       ]
     },
     {
+      "term": "Runtime Authority Envelope",
+      "slug": "runtime-authority-envelope",
+      "states": [
+        "proposed",
+        "active",
+        "suspended",
+        "revoked",
+        "retired"
+      ]
+    },
+    {
+      "term": "Runtime Governance Envelope",
+      "slug": "runtime-governance-envelope",
+      "states": [
+        "proposed",
+        "active",
+        "suspended",
+        "revoked",
+        "retired"
+      ]
+    },
+    {
       "term": "rwi",
       "slug": "rwi",
       "states": [
@@ -5331,6 +6104,17 @@
       ]
     },
     {
+      "term": "Service Descriptor",
+      "slug": "service-descriptor",
+      "states": [
+        "proposed",
+        "active",
+        "suspended",
+        "revoked",
+        "retired"
+      ]
+    },
+    {
       "term": "session",
       "slug": "session",
       "states": [
@@ -5346,6 +6130,17 @@
         "documented",
         "active",
         "deprecated"
+      ]
+    },
+    {
+      "term": "Skill Contract",
+      "slug": "skill-contract",
+      "states": [
+        "proposed",
+        "active",
+        "suspended",
+        "revoked",
+        "retired"
       ]
     },
     {
@@ -5505,6 +6300,17 @@
         "documented",
         "active",
         "deprecated"
+      ]
+    },
+    {
+      "term": "Task Evidence Lifecycle",
+      "slug": "task-evidence-lifecycle",
+      "states": [
+        "proposed",
+        "active",
+        "suspended",
+        "revoked",
+        "retired"
       ]
     },
     {
@@ -5993,6 +6799,17 @@
       ]
     },
     {
+      "term": "Trust Task Execution Receipt",
+      "slug": "trust-task-execution-receipt",
+      "states": [
+        "proposed",
+        "active",
+        "suspended",
+        "revoked",
+        "retired"
+      ]
+    },
+    {
       "term": "trust-anchor",
       "slug": "trust-anchor",
       "states": [
@@ -6449,6 +7266,17 @@
         "documented",
         "active",
         "deprecated"
+      ]
+    },
+    {
+      "term": "Unlinkability",
+      "slug": "unlinkability",
+      "states": [
+        "proposed",
+        "active",
+        "suspended",
+        "revoked",
+        "retired"
       ]
     },
     {
@@ -6925,6 +7753,36 @@
       ]
     },
     {
+      "term": "Agent Class",
+      "slug": "agent-class",
+      "evidence_artifacts": [
+        "delegation_record",
+        "policy_document",
+        "status_record",
+        "verification_log"
+      ]
+    },
+    {
+      "term": "Agent Mandate Envelope",
+      "slug": "agent-mandate-envelope",
+      "evidence_artifacts": [
+        "delegation_record",
+        "policy_document",
+        "status_record",
+        "verification_log"
+      ]
+    },
+    {
+      "term": "Aggregation Amplification",
+      "slug": "aggregation-amplification",
+      "evidence_artifacts": [
+        "delegation_record",
+        "policy_document",
+        "status_record",
+        "verification_log"
+      ]
+    },
+    {
       "term": "aid",
       "slug": "aid",
       "evidence_artifacts": [
@@ -6978,6 +7836,16 @@
         "issuance_log",
         "policy_document",
         "registry_entry",
+        "status_record",
+        "verification_log"
+      ]
+    },
+    {
+      "term": "Attention Policy",
+      "slug": "attention-policy",
+      "evidence_artifacts": [
+        "delegation_record",
+        "policy_document",
         "status_record",
         "verification_log"
       ]
@@ -7124,6 +7992,16 @@
       ]
     },
     {
+      "term": "Authority Boundary",
+      "slug": "authority-boundary",
+      "evidence_artifacts": [
+        "delegation_record",
+        "policy_document",
+        "status_record",
+        "verification_log"
+      ]
+    },
+    {
       "term": "authorization",
       "slug": "authorization",
       "evidence_artifacts": [
@@ -7132,6 +8010,16 @@
         "issuance_log",
         "policy_document",
         "registry_entry",
+        "status_record",
+        "verification_log"
+      ]
+    },
+    {
+      "term": "Authorization Checkpoint",
+      "slug": "authorization-checkpoint",
+      "evidence_artifacts": [
+        "delegation_record",
+        "policy_document",
         "status_record",
         "verification_log"
       ]
@@ -7302,6 +8190,16 @@
         "delegation_record",
         "policy_document",
         "registry_entry",
+        "status_record",
+        "verification_log"
+      ]
+    },
+    {
+      "term": "Capability Negotiation",
+      "slug": "capability-negotiation",
+      "evidence_artifacts": [
+        "delegation_record",
+        "policy_document",
         "status_record",
         "verification_log"
       ]
@@ -7512,6 +8410,16 @@
       ]
     },
     {
+      "term": "Content Provenance Policy",
+      "slug": "content-provenance-policy",
+      "evidence_artifacts": [
+        "delegation_record",
+        "policy_document",
+        "status_record",
+        "verification_log"
+      ]
+    },
+    {
       "term": "content-authenticity-initiative",
       "slug": "content-authenticity-initiative",
       "evidence_artifacts": [
@@ -7535,12 +8443,32 @@
       ]
     },
     {
+      "term": "Control Mode",
+      "slug": "control-mode",
+      "evidence_artifacts": [
+        "delegation_record",
+        "policy_document",
+        "status_record",
+        "verification_log"
+      ]
+    },
+    {
       "term": "control-authority",
       "slug": "control-authority",
       "evidence_artifacts": [
         "audit_log",
         "definition_change_record",
         "registry_entry",
+        "status_record",
+        "verification_log"
+      ]
+    },
+    {
+      "term": "Control-Plane Shift",
+      "slug": "control-plane-shift",
+      "evidence_artifacts": [
+        "delegation_record",
+        "policy_document",
         "status_record",
         "verification_log"
       ]
@@ -7869,6 +8797,16 @@
       ]
     },
     {
+      "term": "Decision Receipt",
+      "slug": "decision-receipt",
+      "evidence_artifacts": [
+        "delegation_record",
+        "policy_document",
+        "status_record",
+        "verification_log"
+      ]
+    },
+    {
       "term": "decryption",
       "slug": "decryption",
       "evidence_artifacts": [
@@ -7909,6 +8847,16 @@
         "delegation_record",
         "policy_document",
         "registry_entry",
+        "status_record",
+        "verification_log"
+      ]
+    },
+    {
+      "term": "Delegation Lineage",
+      "slug": "delegation-lineage",
+      "evidence_artifacts": [
+        "delegation_record",
+        "policy_document",
         "status_record",
         "verification_log"
       ]
@@ -8115,6 +9063,16 @@
       ]
     },
     {
+      "term": "Discovery Governance",
+      "slug": "discovery-governance",
+      "evidence_artifacts": [
+        "delegation_record",
+        "policy_document",
+        "status_record",
+        "verification_log"
+      ]
+    },
+    {
       "term": "distributed-ledger",
       "slug": "distributed-ledger",
       "evidence_artifacts": [
@@ -8149,6 +9107,16 @@
       "slug": "dwn",
       "evidence_artifacts": [
         "definition_change_record"
+      ]
+    },
+    {
+      "term": "Dynamic Authorization",
+      "slug": "dynamic-authorization",
+      "evidence_artifacts": [
+        "delegation_record",
+        "policy_document",
+        "status_record",
+        "verification_log"
       ]
     },
     {
@@ -8302,10 +9270,40 @@
       ]
     },
     {
+      "term": "Evidence Artifact",
+      "slug": "evidence-artifact",
+      "evidence_artifacts": [
+        "delegation_record",
+        "policy_document",
+        "status_record",
+        "verification_log"
+      ]
+    },
+    {
+      "term": "Evidence Bundle",
+      "slug": "evidence-bundle",
+      "evidence_artifacts": [
+        "delegation_record",
+        "policy_document",
+        "status_record",
+        "verification_log"
+      ]
+    },
+    {
       "term": "expression-language",
       "slug": "expression-language",
       "evidence_artifacts": [
         "definition_change_record"
+      ]
+    },
+    {
+      "term": "Extension Contract",
+      "slug": "extension-contract",
+      "evidence_artifacts": [
+        "delegation_record",
+        "policy_document",
+        "status_record",
+        "verification_log"
       ]
     },
     {
@@ -8784,6 +9782,26 @@
       ]
     },
     {
+      "term": "Interaction Context",
+      "slug": "interaction-context",
+      "evidence_artifacts": [
+        "delegation_record",
+        "policy_document",
+        "status_record",
+        "verification_log"
+      ]
+    },
+    {
+      "term": "Interaction Task",
+      "slug": "interaction-task",
+      "evidence_artifacts": [
+        "delegation_record",
+        "policy_document",
+        "status_record",
+        "verification_log"
+      ]
+    },
+    {
       "term": "intermediary-system",
       "slug": "intermediary-system",
       "evidence_artifacts": [
@@ -8850,6 +9868,16 @@
         "issuance_log",
         "policy_document",
         "status_record"
+      ]
+    },
+    {
+      "term": "Issuer Concealment",
+      "slug": "issuer-concealment",
+      "evidence_artifacts": [
+        "delegation_record",
+        "policy_document",
+        "status_record",
+        "verification_log"
       ]
     },
     {
@@ -9040,6 +10068,16 @@
       ]
     },
     {
+      "term": "Legitimacy Gap",
+      "slug": "legitimacy-gap",
+      "evidence_artifacts": [
+        "delegation_record",
+        "policy_document",
+        "status_record",
+        "verification_log"
+      ]
+    },
+    {
       "term": "legitimized-human-meaningful-identifier",
       "slug": "legitimized-human-meaningful-identifier",
       "evidence_artifacts": [
@@ -9136,6 +10174,16 @@
       "slug": "mobile-deep-link",
       "evidence_artifacts": [
         "definition_change_record"
+      ]
+    },
+    {
+      "term": "Monotonic Attenuation",
+      "slug": "monotonic-attenuation",
+      "evidence_artifacts": [
+        "delegation_record",
+        "policy_document",
+        "status_record",
+        "verification_log"
       ]
     },
     {
@@ -9252,6 +10300,16 @@
       ]
     },
     {
+      "term": "Nullifier",
+      "slug": "nullifier",
+      "evidence_artifacts": [
+        "delegation_record",
+        "policy_document",
+        "status_record",
+        "verification_log"
+      ]
+    },
+    {
       "term": "objective",
       "slug": "objective",
       "evidence_artifacts": [
@@ -9259,10 +10317,30 @@
       ]
     },
     {
+      "term": "Observability Mode",
+      "slug": "observability-mode",
+      "evidence_artifacts": [
+        "delegation_record",
+        "policy_document",
+        "status_record",
+        "verification_log"
+      ]
+    },
+    {
       "term": "oobi",
       "slug": "oobi",
       "evidence_artifacts": [
         "definition_change_record"
+      ]
+    },
+    {
+      "term": "Opacity Boundary",
+      "slug": "opacity-boundary",
+      "evidence_artifacts": [
+        "delegation_record",
+        "policy_document",
+        "status_record",
+        "verification_log"
       ]
     },
     {
@@ -9392,6 +10470,16 @@
       ]
     },
     {
+      "term": "Peer Trust Relation",
+      "slug": "peer-trust-relation",
+      "evidence_artifacts": [
+        "delegation_record",
+        "policy_document",
+        "status_record",
+        "verification_log"
+      ]
+    },
+    {
       "term": "peer-to-peer",
       "slug": "peer-to-peer",
       "evidence_artifacts": [
@@ -9471,6 +10559,16 @@
       ]
     },
     {
+      "term": "Personhood",
+      "slug": "personhood",
+      "evidence_artifacts": [
+        "delegation_record",
+        "policy_document",
+        "status_record",
+        "verification_log"
+      ]
+    },
+    {
       "term": "physical-credential",
       "slug": "physical-credential",
       "evidence_artifacts": [
@@ -9525,6 +10623,16 @@
       "slug": "pop",
       "evidence_artifacts": [
         "definition_change_record"
+      ]
+    },
+    {
+      "term": "Predicate Proof",
+      "slug": "predicate-proof",
+      "evidence_artifacts": [
+        "delegation_record",
+        "policy_document",
+        "status_record",
+        "verification_log"
       ]
     },
     {
@@ -9600,6 +10708,16 @@
         "audit_log",
         "issuance_log",
         "registry_entry",
+        "status_record",
+        "verification_log"
+      ]
+    },
+    {
+      "term": "Proof-Carrying Commitment Receipt",
+      "slug": "proof-carrying-commitment-receipt",
+      "evidence_artifacts": [
+        "delegation_record",
+        "policy_document",
         "status_record",
         "verification_log"
       ]
@@ -9988,6 +11106,26 @@
       ]
     },
     {
+      "term": "Runtime Authority Envelope",
+      "slug": "runtime-authority-envelope",
+      "evidence_artifacts": [
+        "delegation_record",
+        "policy_document",
+        "status_record",
+        "verification_log"
+      ]
+    },
+    {
+      "term": "Runtime Governance Envelope",
+      "slug": "runtime-governance-envelope",
+      "evidence_artifacts": [
+        "delegation_record",
+        "policy_document",
+        "status_record",
+        "verification_log"
+      ]
+    },
+    {
       "term": "rwi",
       "slug": "rwi",
       "evidence_artifacts": [
@@ -10148,6 +11286,16 @@
       ]
     },
     {
+      "term": "Service Descriptor",
+      "slug": "service-descriptor",
+      "evidence_artifacts": [
+        "delegation_record",
+        "policy_document",
+        "status_record",
+        "verification_log"
+      ]
+    },
+    {
       "term": "session",
       "slug": "session",
       "evidence_artifacts": [
@@ -10161,6 +11309,16 @@
         "audit_log",
         "definition_change_record",
         "policy_document"
+      ]
+    },
+    {
+      "term": "Skill Contract",
+      "slug": "skill-contract",
+      "evidence_artifacts": [
+        "delegation_record",
+        "policy_document",
+        "status_record",
+        "verification_log"
       ]
     },
     {
@@ -10291,6 +11449,16 @@
       "slug": "tamper-resistant",
       "evidence_artifacts": [
         "definition_change_record"
+      ]
+    },
+    {
+      "term": "Task Evidence Lifecycle",
+      "slug": "task-evidence-lifecycle",
+      "evidence_artifacts": [
+        "delegation_record",
+        "policy_document",
+        "status_record",
+        "verification_log"
       ]
     },
     {
@@ -10716,6 +11884,16 @@
       ]
     },
     {
+      "term": "Trust Task Execution Receipt",
+      "slug": "trust-task-execution-receipt",
+      "evidence_artifacts": [
+        "delegation_record",
+        "policy_document",
+        "status_record",
+        "verification_log"
+      ]
+    },
+    {
       "term": "trust-anchor",
       "slug": "trust-anchor",
       "evidence_artifacts": [
@@ -11136,6 +12314,16 @@
       ]
     },
     {
+      "term": "Unlinkability",
+      "slug": "unlinkability",
+      "evidence_artifacts": [
+        "delegation_record",
+        "policy_document",
+        "status_record",
+        "verification_log"
+      ]
+    },
+    {
       "term": "uri",
       "slug": "uri",
       "evidence_artifacts": [
@@ -11533,6 +12721,36 @@
       ]
     },
     {
+      "term": "Agent Class",
+      "slug": "agent-class",
+      "decision_points": [
+        "policy_approval",
+        "delegation_grant",
+        "reliance_decision",
+        "revocation_decision"
+      ]
+    },
+    {
+      "term": "Agent Mandate Envelope",
+      "slug": "agent-mandate-envelope",
+      "decision_points": [
+        "policy_approval",
+        "delegation_grant",
+        "reliance_decision",
+        "revocation_decision"
+      ]
+    },
+    {
+      "term": "Aggregation Amplification",
+      "slug": "aggregation-amplification",
+      "decision_points": [
+        "policy_approval",
+        "delegation_grant",
+        "reliance_decision",
+        "revocation_decision"
+      ]
+    },
+    {
       "term": "appraisability",
       "slug": "appraisability",
       "decision_points": [
@@ -11552,6 +12770,16 @@
       "decision_points": [
         "issuance_decision",
         "access_decision",
+        "revocation_decision"
+      ]
+    },
+    {
+      "term": "Attention Policy",
+      "slug": "attention-policy",
+      "decision_points": [
+        "policy_approval",
+        "delegation_grant",
+        "reliance_decision",
         "revocation_decision"
       ]
     },
@@ -11664,12 +12892,32 @@
       ]
     },
     {
+      "term": "Authority Boundary",
+      "slug": "authority-boundary",
+      "decision_points": [
+        "policy_approval",
+        "delegation_grant",
+        "reliance_decision",
+        "revocation_decision"
+      ]
+    },
+    {
       "term": "authorization",
       "slug": "authorization",
       "decision_points": [
         "policy_approval",
         "issuance_decision",
         "access_decision",
+        "revocation_decision"
+      ]
+    },
+    {
+      "term": "Authorization Checkpoint",
+      "slug": "authorization-checkpoint",
+      "decision_points": [
+        "policy_approval",
+        "delegation_grant",
+        "reliance_decision",
         "revocation_decision"
       ]
     },
@@ -11773,6 +13021,16 @@
       ]
     },
     {
+      "term": "Capability Negotiation",
+      "slug": "capability-negotiation",
+      "decision_points": [
+        "policy_approval",
+        "delegation_grant",
+        "reliance_decision",
+        "revocation_decision"
+      ]
+    },
+    {
       "term": "certificate-authority",
       "slug": "certificate-authority",
       "decision_points": [
@@ -11853,6 +13111,16 @@
       ]
     },
     {
+      "term": "Content Provenance Policy",
+      "slug": "content-provenance-policy",
+      "decision_points": [
+        "policy_approval",
+        "delegation_grant",
+        "reliance_decision",
+        "revocation_decision"
+      ]
+    },
+    {
       "term": "content-credential",
       "slug": "content-credential",
       "decision_points": [
@@ -11860,9 +13128,29 @@
       ]
     },
     {
+      "term": "Control Mode",
+      "slug": "control-mode",
+      "decision_points": [
+        "policy_approval",
+        "delegation_grant",
+        "reliance_decision",
+        "revocation_decision"
+      ]
+    },
+    {
       "term": "control-authority",
       "slug": "control-authority",
       "decision_points": [
+        "revocation_decision"
+      ]
+    },
+    {
+      "term": "Control-Plane Shift",
+      "slug": "control-plane-shift",
+      "decision_points": [
+        "policy_approval",
+        "delegation_grant",
+        "reliance_decision",
         "revocation_decision"
       ]
     },
@@ -12027,6 +13315,16 @@
       ]
     },
     {
+      "term": "Decision Receipt",
+      "slug": "decision-receipt",
+      "decision_points": [
+        "policy_approval",
+        "delegation_grant",
+        "reliance_decision",
+        "revocation_decision"
+      ]
+    },
+    {
       "term": "delegatee",
       "slug": "delegatee",
       "decision_points": [
@@ -12039,6 +13337,16 @@
       "slug": "delegation",
       "decision_points": [
         "delegation_grant",
+        "revocation_decision"
+      ]
+    },
+    {
+      "term": "Delegation Lineage",
+      "slug": "delegation-lineage",
+      "decision_points": [
+        "policy_approval",
+        "delegation_grant",
+        "reliance_decision",
         "revocation_decision"
       ]
     },
@@ -12157,11 +13465,31 @@
       ]
     },
     {
+      "term": "Discovery Governance",
+      "slug": "discovery-governance",
+      "decision_points": [
+        "policy_approval",
+        "delegation_grant",
+        "reliance_decision",
+        "revocation_decision"
+      ]
+    },
+    {
       "term": "dpop",
       "slug": "dpop",
       "decision_points": [
         "access_decision",
         "reliance_decision"
+      ]
+    },
+    {
+      "term": "Dynamic Authorization",
+      "slug": "dynamic-authorization",
+      "decision_points": [
+        "policy_approval",
+        "delegation_grant",
+        "reliance_decision",
+        "revocation_decision"
       ]
     },
     {
@@ -12230,6 +13558,36 @@
         "issuance_decision",
         "reliance_decision",
         "registration_decision"
+      ]
+    },
+    {
+      "term": "Evidence Artifact",
+      "slug": "evidence-artifact",
+      "decision_points": [
+        "policy_approval",
+        "delegation_grant",
+        "reliance_decision",
+        "revocation_decision"
+      ]
+    },
+    {
+      "term": "Evidence Bundle",
+      "slug": "evidence-bundle",
+      "decision_points": [
+        "policy_approval",
+        "delegation_grant",
+        "reliance_decision",
+        "revocation_decision"
+      ]
+    },
+    {
+      "term": "Extension Contract",
+      "slug": "extension-contract",
+      "decision_points": [
+        "policy_approval",
+        "delegation_grant",
+        "reliance_decision",
+        "revocation_decision"
       ]
     },
     {
@@ -12533,6 +13891,26 @@
       ]
     },
     {
+      "term": "Interaction Context",
+      "slug": "interaction-context",
+      "decision_points": [
+        "policy_approval",
+        "delegation_grant",
+        "reliance_decision",
+        "revocation_decision"
+      ]
+    },
+    {
+      "term": "Interaction Task",
+      "slug": "interaction-task",
+      "decision_points": [
+        "policy_approval",
+        "delegation_grant",
+        "reliance_decision",
+        "revocation_decision"
+      ]
+    },
+    {
       "term": "intermediary-system",
       "slug": "intermediary-system",
       "decision_points": [
@@ -12569,6 +13947,16 @@
         "policy_approval",
         "delegation_grant",
         "issuance_decision",
+        "revocation_decision"
+      ]
+    },
+    {
+      "term": "Issuer Concealment",
+      "slug": "issuer-concealment",
+      "decision_points": [
+        "policy_approval",
+        "delegation_grant",
+        "reliance_decision",
         "revocation_decision"
       ]
     },
@@ -12630,6 +14018,16 @@
       ]
     },
     {
+      "term": "Legitimacy Gap",
+      "slug": "legitimacy-gap",
+      "decision_points": [
+        "policy_approval",
+        "delegation_grant",
+        "reliance_decision",
+        "revocation_decision"
+      ]
+    },
+    {
       "term": "legitimized-human-meaningful-identifier",
       "slug": "legitimized-human-meaningful-identifier",
       "decision_points": [
@@ -12666,6 +14064,16 @@
       ]
     },
     {
+      "term": "Monotonic Attenuation",
+      "slug": "monotonic-attenuation",
+      "decision_points": [
+        "policy_approval",
+        "delegation_grant",
+        "reliance_decision",
+        "revocation_decision"
+      ]
+    },
+    {
       "term": "multi-party-control",
       "slug": "multi-party-control",
       "decision_points": [
@@ -12691,6 +14099,36 @@
       "slug": "non-transferable-identifier",
       "decision_points": [
         "definition_approval"
+      ]
+    },
+    {
+      "term": "Nullifier",
+      "slug": "nullifier",
+      "decision_points": [
+        "policy_approval",
+        "delegation_grant",
+        "reliance_decision",
+        "revocation_decision"
+      ]
+    },
+    {
+      "term": "Observability Mode",
+      "slug": "observability-mode",
+      "decision_points": [
+        "policy_approval",
+        "delegation_grant",
+        "reliance_decision",
+        "revocation_decision"
+      ]
+    },
+    {
+      "term": "Opacity Boundary",
+      "slug": "opacity-boundary",
+      "decision_points": [
+        "policy_approval",
+        "delegation_grant",
+        "reliance_decision",
+        "revocation_decision"
       ]
     },
     {
@@ -12760,6 +14198,16 @@
       ]
     },
     {
+      "term": "Peer Trust Relation",
+      "slug": "peer-trust-relation",
+      "decision_points": [
+        "policy_approval",
+        "delegation_grant",
+        "reliance_decision",
+        "revocation_decision"
+      ]
+    },
+    {
       "term": "permission",
       "slug": "permission",
       "decision_points": [
@@ -12789,6 +14237,16 @@
       ]
     },
     {
+      "term": "Personhood",
+      "slug": "personhood",
+      "decision_points": [
+        "policy_approval",
+        "delegation_grant",
+        "reliance_decision",
+        "revocation_decision"
+      ]
+    },
+    {
       "term": "physical-credential",
       "slug": "physical-credential",
       "decision_points": [
@@ -12809,6 +14267,16 @@
       "slug": "policy",
       "decision_points": [
         "policy_approval",
+        "revocation_decision"
+      ]
+    },
+    {
+      "term": "Predicate Proof",
+      "slug": "predicate-proof",
+      "decision_points": [
+        "policy_approval",
+        "delegation_grant",
+        "reliance_decision",
         "revocation_decision"
       ]
     },
@@ -12861,6 +14329,16 @@
       "slug": "proof",
       "decision_points": [
         "issuance_decision",
+        "revocation_decision"
+      ]
+    },
+    {
+      "term": "Proof-Carrying Commitment Receipt",
+      "slug": "proof-carrying-commitment-receipt",
+      "decision_points": [
+        "policy_approval",
+        "delegation_grant",
+        "reliance_decision",
         "revocation_decision"
       ]
     },
@@ -13097,6 +14575,26 @@
       ]
     },
     {
+      "term": "Runtime Authority Envelope",
+      "slug": "runtime-authority-envelope",
+      "decision_points": [
+        "policy_approval",
+        "delegation_grant",
+        "reliance_decision",
+        "revocation_decision"
+      ]
+    },
+    {
+      "term": "Runtime Governance Envelope",
+      "slug": "runtime-governance-envelope",
+      "decision_points": [
+        "policy_approval",
+        "delegation_grant",
+        "reliance_decision",
+        "revocation_decision"
+      ]
+    },
+    {
       "term": "schema",
       "slug": "schema",
       "decision_points": [
@@ -13203,10 +14701,30 @@
       ]
     },
     {
+      "term": "Service Descriptor",
+      "slug": "service-descriptor",
+      "decision_points": [
+        "policy_approval",
+        "delegation_grant",
+        "reliance_decision",
+        "revocation_decision"
+      ]
+    },
+    {
       "term": "single-signature-identifier",
       "slug": "single-signature-identifier",
       "decision_points": [
         "definition_approval"
+      ]
+    },
+    {
+      "term": "Skill Contract",
+      "slug": "skill-contract",
+      "decision_points": [
+        "policy_approval",
+        "delegation_grant",
+        "reliance_decision",
+        "revocation_decision"
       ]
     },
     {
@@ -13259,6 +14777,16 @@
       "slug": "supporting-system",
       "decision_points": [
         "definition_approval"
+      ]
+    },
+    {
+      "term": "Task Evidence Lifecycle",
+      "slug": "task-evidence-lifecycle",
+      "decision_points": [
+        "policy_approval",
+        "delegation_grant",
+        "reliance_decision",
+        "revocation_decision"
       ]
     },
     {
@@ -13466,6 +14994,16 @@
       "slug": "trust",
       "decision_points": [
         "definition_approval"
+      ]
+    },
+    {
+      "term": "Trust Task Execution Receipt",
+      "slug": "trust-task-execution-receipt",
+      "decision_points": [
+        "policy_approval",
+        "delegation_grant",
+        "reliance_decision",
+        "revocation_decision"
       ]
     },
     {
@@ -13785,6 +15323,16 @@
       "slug": "unicast",
       "decision_points": [
         "definition_approval"
+      ]
+    },
+    {
+      "term": "Unlinkability",
+      "slug": "unlinkability",
+      "decision_points": [
+        "policy_approval",
+        "delegation_grant",
+        "reliance_decision",
+        "revocation_decision"
       ]
     },
     {
@@ -15931,6 +17479,22 @@
         "slug": "acceptance-network"
       },
       {
+        "term": "Agent Class",
+        "slug": "agent-class"
+      },
+      {
+        "term": "Agent Mandate Envelope",
+        "slug": "agent-mandate-envelope"
+      },
+      {
+        "term": "Aggregation Amplification",
+        "slug": "aggregation-amplification"
+      },
+      {
+        "term": "Attention Policy",
+        "slug": "attention-policy"
+      },
+      {
         "term": "attestation",
         "slug": "attestation"
       },
@@ -15943,6 +17507,18 @@
         "slug": "authenticity"
       },
       {
+        "term": "Authority Boundary",
+        "slug": "authority-boundary"
+      },
+      {
+        "term": "Authorization Checkpoint",
+        "slug": "authorization-checkpoint"
+      },
+      {
+        "term": "Capability Negotiation",
+        "slug": "capability-negotiation"
+      },
+      {
         "term": "chain-of-trust",
         "slug": "chain-of-trust"
       },
@@ -15951,12 +17527,52 @@
         "slug": "chaining"
       },
       {
+        "term": "Content Provenance Policy",
+        "slug": "content-provenance-policy"
+      },
+      {
+        "term": "Control Mode",
+        "slug": "control-mode"
+      },
+      {
+        "term": "Control-Plane Shift",
+        "slug": "control-plane-shift"
+      },
+      {
         "term": "cryptographic-trust",
         "slug": "cryptographic-trust"
       },
       {
+        "term": "Decision Receipt",
+        "slug": "decision-receipt"
+      },
+      {
+        "term": "Delegation Lineage",
+        "slug": "delegation-lineage"
+      },
+      {
+        "term": "Discovery Governance",
+        "slug": "discovery-governance"
+      },
+      {
+        "term": "Dynamic Authorization",
+        "slug": "dynamic-authorization"
+      },
+      {
         "term": "end-verifiable",
         "slug": "end-verifiable"
+      },
+      {
+        "term": "Evidence Artifact",
+        "slug": "evidence-artifact"
+      },
+      {
+        "term": "Evidence Bundle",
+        "slug": "evidence-bundle"
+      },
+      {
+        "term": "Extension Contract",
+        "slug": "extension-contract"
       },
       {
         "term": "fal",
@@ -16003,8 +17619,20 @@
         "slug": "identity-proofing"
       },
       {
+        "term": "Interaction Context",
+        "slug": "interaction-context"
+      },
+      {
+        "term": "Interaction Task",
+        "slug": "interaction-task"
+      },
+      {
         "term": "intermediary-system",
         "slug": "intermediary-system"
+      },
+      {
+        "term": "Issuer Concealment",
+        "slug": "issuer-concealment"
       },
       {
         "term": "jurisdiction",
@@ -16019,12 +17647,48 @@
         "slug": "legal-entity"
       },
       {
+        "term": "Legitimacy Gap",
+        "slug": "legitimacy-gap"
+      },
+      {
         "term": "level-of-assurance",
         "slug": "level-of-assurance"
       },
       {
+        "term": "Monotonic Attenuation",
+        "slug": "monotonic-attenuation"
+      },
+      {
+        "term": "Nullifier",
+        "slug": "nullifier"
+      },
+      {
+        "term": "Observability Mode",
+        "slug": "observability-mode"
+      },
+      {
+        "term": "Opacity Boundary",
+        "slug": "opacity-boundary"
+      },
+      {
         "term": "organization",
         "slug": "organization"
+      },
+      {
+        "term": "Peer Trust Relation",
+        "slug": "peer-trust-relation"
+      },
+      {
+        "term": "Personhood",
+        "slug": "personhood"
+      },
+      {
+        "term": "Predicate Proof",
+        "slug": "predicate-proof"
+      },
+      {
+        "term": "Proof-Carrying Commitment Receipt",
+        "slug": "proof-carrying-commitment-receipt"
       },
       {
         "term": "relationship-context",
@@ -16051,12 +17715,32 @@
         "slug": "risk-decision"
       },
       {
+        "term": "Runtime Authority Envelope",
+        "slug": "runtime-authority-envelope"
+      },
+      {
+        "term": "Runtime Governance Envelope",
+        "slug": "runtime-governance-envelope"
+      },
+      {
         "term": "secure-enclave",
         "slug": "secure-enclave"
       },
       {
+        "term": "Service Descriptor",
+        "slug": "service-descriptor"
+      },
+      {
+        "term": "Skill Contract",
+        "slug": "skill-contract"
+      },
+      {
         "term": "supporting-system",
         "slug": "supporting-system"
+      },
+      {
+        "term": "Task Evidence Lifecycle",
+        "slug": "task-evidence-lifecycle"
       },
       {
         "term": "technical-trust",
@@ -16121,6 +17805,10 @@
       {
         "term": "trust",
         "slug": "trust"
+      },
+      {
+        "term": "Trust Task Execution Receipt",
+        "slug": "trust-task-execution-receipt"
       },
       {
         "term": "trust-anchor",
@@ -16231,6 +17919,10 @@
         "slug": "ttp"
       },
       {
+        "term": "Unlinkability",
+        "slug": "unlinkability"
+      },
+      {
         "term": "vid-relationship",
         "slug": "vid-relationship"
       },
@@ -16242,40 +17934,40 @@
   },
   "assurance_level_hints": {
     "AL1+": 82,
-    "AL2+": 256,
+    "AL2+": 292,
     "informative": 225
   },
   "authority_scope_counts": {
     "access_decisioning": 29,
-    "assurance_and_audit": 32,
+    "assurance_and_audit": 68,
     "credential_issuance": 68,
-    "delegation_and_scope": 32,
+    "delegation_and_scope": 68,
     "governance_recognition": 85,
-    "policy_definition": 52,
+    "policy_definition": 88,
     "registry_management": 21,
     "terminology_definition": 333,
-    "verification_and_reliance": 50
+    "verification_and_reliance": 86
   },
   "evidence_artifact_counts": {
     "access_decision_log": 28,
     "attestation": 24,
     "audit_log": 234,
     "definition_change_record": 361,
-    "delegation_record": 32,
+    "delegation_record": 68,
     "issuance_log": 67,
-    "policy_document": 206,
+    "policy_document": 242,
     "registry_entry": 102,
-    "status_record": 87,
-    "verification_log": 129
+    "status_record": 123,
+    "verification_log": 165
   },
   "decision_point_counts": {
     "access_decision": 29,
     "definition_approval": 359,
-    "delegation_grant": 32,
+    "delegation_grant": 68,
     "issuance_decision": 68,
-    "policy_approval": 52,
+    "policy_approval": 88,
     "registration_decision": 22,
-    "reliance_decision": 51,
-    "revocation_decision": 111
+    "reliance_decision": 87,
+    "revocation_decision": 147
   }
 }

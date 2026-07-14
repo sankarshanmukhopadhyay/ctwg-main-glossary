@@ -1,7 +1,7 @@
 ---
 title: "Terms: U"
 parent: "Glossary Terms"
-nav_exclude: true
+nav_order: 21
 ---
 
 # Terms: U
@@ -12,6 +12,7 @@ nav_exclude: true
 - [uniform-resource-identifier]({{ '/terms/uniform-resource-identifier/' | relative_url }})
 - [uniform-resource-locator]({{ '/terms/uniform-resource-locator/' | relative_url }})
 - [uniform-resource-name]({{ '/terms/uniform-resource-name/' | relative_url }})
+- [Unlinkability]({{ '/terms/unlinkability/' | relative_url }})
 - [uri]({{ '/terms/uri/' | relative_url }})
 - [url]({{ '/terms/url/' | relative_url }})
 - [urn]({{ '/terms/urn/' | relative_url }})

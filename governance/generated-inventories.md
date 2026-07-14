@@ -8,30 +8,30 @@ nav_order: 20
 
 This page summarizes the generated governance inventory built from the structured term layer.
 
-- Total terms: **563**
-- Authority-bearing terms: **230**
-- Delegation-sensitive terms: **32**
-- Revocation-sensitive terms: **113**
-- Lifecycle-sensitive terms: **563**
-- Evidence-producing terms: **563**
-- Control-plane terms: **338**
+- Total terms: **599**
+- Authority-bearing terms: **266**
+- Delegation-sensitive terms: **68**
+- Revocation-sensitive terms: **149**
+- Lifecycle-sensitive terms: **599**
+- Evidence-producing terms: **599**
+- Control-plane terms: **374**
 
 ## Top authority scopes
 
 - `access_decisioning`: 29
-- `assurance_and_audit`: 32
+- `assurance_and_audit`: 68
 - `credential_issuance`: 68
-- `delegation_and_scope`: 32
+- `delegation_and_scope`: 68
 - `governance_recognition`: 85
-- `policy_definition`: 52
+- `policy_definition`: 88
 - `registry_management`: 21
 - `terminology_definition`: 333
-- `verification_and_reliance`: 50
+- `verification_and_reliance`: 86
 
 ## Assurance level hints
 
 - `AL1+`: 82
-- `AL2+`: 256
+- `AL2+`: 292
 - `informative`: 225
 
 ## Artifact references

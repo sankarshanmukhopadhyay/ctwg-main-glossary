@@ -1,7 +1,7 @@
 ---
 title: "Terms: S"
 parent: "Glossary Terms"
-nav_exclude: true
+nav_order: 19
 ---
 
 # Terms: S
@@ -24,8 +24,10 @@ nav_exclude: true
 - [self-sovereign-identity]({{ '/terms/self-sovereign-identity/' | relative_url }})
 - [sender-constrained-token]({{ '/terms/sender-constrained-token/' | relative_url }})
 - [sensitive-data]({{ '/terms/sensitive-data/' | relative_url }})
+- [Service Descriptor]({{ '/terms/service-descriptor/' | relative_url }})
 - [session]({{ '/terms/session/' | relative_url }})
 - [single-signature-identifier]({{ '/terms/single-signature-identifier/' | relative_url }})
+- [Skill Contract]({{ '/terms/skill-contract/' | relative_url }})
 - [sociotechnical-system]({{ '/terms/sociotechnical-system/' | relative_url }})
 - [software-agent]({{ '/terms/software-agent/' | relative_url }})
 - [sovrin-foundation]({{ '/terms/sovrin-foundation/' | relative_url }})

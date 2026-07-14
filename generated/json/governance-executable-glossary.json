@@ -845,6 +845,160 @@
       "slug": "agency"
     },
     {
+      "term": "Agent Class",
+      "aliases": [
+        "agent class",
+        "agent-class"
+      ],
+      "definition": "A typed descriptor for the operating posture of an agentic actor, used to distinguish the kind of role the agent performs from the controls governing how it operates.",
+      "notes": [
+        "This definition is normalized for cross-repository use and should be applied together with the governing profile or specification that supplies domain-specific constraints."
+      ],
+      "see_also": [
+        "agent",
+        "role"
+      ],
+      "sources": [
+        {
+          "title": "TSMM repository terminology and model documentation",
+          "publisher": "GitHub",
+          "url": "https://github.com/sankarshanmukhopadhyay/trust-systems-meta-model",
+          "normative": false
+        }
+      ],
+      "reader_note": "This term was added following a cross-repository terminology review of TSMM, TIS, TGA, and the DTG ZKP Task Force workspace.",
+      "implementation_relevance": "Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.",
+      "governance_profile": "governance-supporting",
+      "governance": {
+        "authority_scope": [
+          "assurance_and_audit",
+          "delegation_and_scope",
+          "policy_definition",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct_or_constrained",
+        "revocation_supported": true,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "suspended",
+          "revoked",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ],
+        "accountable_entity": "governance_authority",
+        "evidence_produced": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ]
+      },
+      "slug": "agent-class"
+    },
+    {
+      "term": "Agent Mandate Envelope",
+      "aliases": [
+        "agent mandate envelope",
+        "agent-mandate-envelope"
+      ],
+      "definition": "A structured artifact that binds an agent to an originating principal, delegated mandate, permitted scope, conditions, expiry, revocation semantics, and evidence requirements.",
+      "notes": [
+        "This definition is normalized for cross-repository use and should be applied together with the governing profile or specification that supplies domain-specific constraints."
+      ],
+      "see_also": [
+        "agent",
+        "authority"
+      ],
+      "sources": [
+        {
+          "title": "TGA repository terminology and model documentation",
+          "publisher": "GitHub",
+          "url": "https://github.com/sankarshanmukhopadhyay/trust-graph-artifacts",
+          "normative": false
+        }
+      ],
+      "reader_note": "This term was added following a cross-repository terminology review of TSMM, TIS, TGA, and the DTG ZKP Task Force workspace.",
+      "implementation_relevance": "Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.",
+      "governance_profile": "governance-supporting",
+      "governance": {
+        "authority_scope": [
+          "assurance_and_audit",
+          "delegation_and_scope",
+          "policy_definition",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct_or_constrained",
+        "revocation_supported": true,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "suspended",
+          "revoked",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ],
+        "accountable_entity": "governance_authority",
+        "evidence_produced": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ]
+      },
+      "slug": "agent-mandate-envelope"
+    },
+    {
       "term": "agent",
       "aliases": [
         "agent",
@@ -918,6 +1072,83 @@
         "iso": []
       },
       "slug": "agent"
+    },
+    {
+      "term": "Aggregation Amplification",
+      "aliases": [
+        "aggregation amplification",
+        "aggregation-amplification"
+      ],
+      "definition": "A delegation failure mode in which individually valid and attenuated authority branches combine to produce an effect broader than the originating mandate permits.",
+      "notes": [
+        "This definition is normalized for cross-repository use and should be applied together with the governing profile or specification that supplies domain-specific constraints."
+      ],
+      "see_also": [
+        "authority",
+        "scope"
+      ],
+      "sources": [
+        {
+          "title": "TSMM repository terminology and model documentation",
+          "publisher": "GitHub",
+          "url": "https://github.com/sankarshanmukhopadhyay/trust-systems-meta-model",
+          "normative": false
+        }
+      ],
+      "reader_note": "This term was added following a cross-repository terminology review of TSMM, TIS, TGA, and the DTG ZKP Task Force workspace.",
+      "implementation_relevance": "Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.",
+      "governance_profile": "governance-supporting",
+      "governance": {
+        "authority_scope": [
+          "assurance_and_audit",
+          "delegation_and_scope",
+          "policy_definition",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct_or_constrained",
+        "revocation_supported": true,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "suspended",
+          "revoked",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ],
+        "accountable_entity": "governance_authority",
+        "evidence_produced": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ]
+      },
+      "slug": "aggregation-amplification"
     },
     {
       "term": "aid",
@@ -1363,6 +1594,83 @@
         ]
       },
       "slug": "assurance-level"
+    },
+    {
+      "term": "Attention Policy",
+      "aliases": [
+        "attention policy",
+        "attention-policy"
+      ],
+      "definition": "A policy that governs how inbound signals are admitted, deferred, summarized, rerouted, escalated, or rejected before reaching a principal or downstream decision layer.",
+      "notes": [
+        "This definition is normalized for cross-repository use and should be applied together with the governing profile or specification that supplies domain-specific constraints."
+      ],
+      "see_also": [
+        "policy",
+        "agent"
+      ],
+      "sources": [
+        {
+          "title": "TSMM repository terminology and model documentation",
+          "publisher": "GitHub",
+          "url": "https://github.com/sankarshanmukhopadhyay/trust-systems-meta-model",
+          "normative": false
+        }
+      ],
+      "reader_note": "This term was added following a cross-repository terminology review of TSMM, TIS, TGA, and the DTG ZKP Task Force workspace.",
+      "implementation_relevance": "Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.",
+      "governance_profile": "governance-supporting",
+      "governance": {
+        "authority_scope": [
+          "assurance_and_audit",
+          "delegation_and_scope",
+          "policy_definition",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct_or_constrained",
+        "revocation_supported": true,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "suspended",
+          "revoked",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ],
+        "accountable_entity": "governance_authority",
+        "evidence_produced": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ]
+      },
+      "slug": "attention-policy"
     },
     {
       "term": "attestation",
@@ -2372,6 +2680,90 @@
       "slug": "authoritative"
     },
     {
+      "term": "Authority Boundary",
+      "aliases": [
+        "authority boundary",
+        "authority-boundary"
+      ],
+      "definition": "A machine- or human-readable constraint that identifies where authority begins and ends, including the permitted actor, scope, action, target, conditions, and lifecycle state.",
+      "notes": [
+        "This definition is normalized for cross-repository use and should be applied together with the governing profile or specification that supplies domain-specific constraints."
+      ],
+      "see_also": [
+        "authority",
+        "scope",
+        "trust-boundary"
+      ],
+      "sources": [
+        {
+          "title": "TIS repository terminology and model documentation",
+          "publisher": "GitHub",
+          "url": "https://github.com/sankarshanmukhopadhyay/trust-infrastructure-schemas",
+          "normative": false
+        },
+        {
+          "title": "TGA repository terminology and model documentation",
+          "publisher": "GitHub",
+          "url": "https://github.com/sankarshanmukhopadhyay/trust-graph-artifacts",
+          "normative": false
+        }
+      ],
+      "reader_note": "This term was added following a cross-repository terminology review of TSMM, TIS, TGA, and the DTG ZKP Task Force workspace.",
+      "implementation_relevance": "Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.",
+      "governance_profile": "governance-supporting",
+      "governance": {
+        "authority_scope": [
+          "assurance_and_audit",
+          "delegation_and_scope",
+          "policy_definition",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct_or_constrained",
+        "revocation_supported": true,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "suspended",
+          "revoked",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ],
+        "accountable_entity": "governance_authority",
+        "evidence_produced": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ]
+      },
+      "slug": "authority-boundary"
+    },
+    {
       "term": "authority",
       "aliases": [
         "authority",
@@ -2450,6 +2842,84 @@
         ]
       },
       "slug": "authority"
+    },
+    {
+      "term": "Authorization Checkpoint",
+      "aliases": [
+        "authorization checkpoint",
+        "authorization-checkpoint"
+      ],
+      "definition": "A runtime trust event that pauses or interrupts an interaction because required authorization, scope, evidence, or input is absent or insufficient.",
+      "notes": [
+        "This definition is normalized for cross-repository use and should be applied together with the governing profile or specification that supplies domain-specific constraints."
+      ],
+      "see_also": [
+        "authorization",
+        "authority",
+        "policy"
+      ],
+      "sources": [
+        {
+          "title": "TSMM repository terminology and model documentation",
+          "publisher": "GitHub",
+          "url": "https://github.com/sankarshanmukhopadhyay/trust-systems-meta-model",
+          "normative": false
+        }
+      ],
+      "reader_note": "This term was added following a cross-repository terminology review of TSMM, TIS, TGA, and the DTG ZKP Task Force workspace.",
+      "implementation_relevance": "Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.",
+      "governance_profile": "governance-supporting",
+      "governance": {
+        "authority_scope": [
+          "assurance_and_audit",
+          "delegation_and_scope",
+          "policy_definition",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct_or_constrained",
+        "revocation_supported": true,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "suspended",
+          "revoked",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ],
+        "accountable_entity": "governance_authority",
+        "evidence_produced": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ]
+      },
+      "slug": "authorization-checkpoint"
     },
     {
       "term": "authorization-graph",
@@ -3693,6 +4163,84 @@
         "iso": []
       },
       "slug": "cai"
+    },
+    {
+      "term": "Capability Negotiation",
+      "aliases": [
+        "capability negotiation",
+        "capability-negotiation"
+      ],
+      "definition": "A governed process for determining whether an advertised capability is discoverable, compatible, authorized, accepted, and permitted to execute under applicable policy.",
+      "notes": [
+        "This definition is normalized for cross-repository use and should be applied together with the governing profile or specification that supplies domain-specific constraints."
+      ],
+      "see_also": [
+        "capability",
+        "authority",
+        "policy"
+      ],
+      "sources": [
+        {
+          "title": "TSMM repository terminology and model documentation",
+          "publisher": "GitHub",
+          "url": "https://github.com/sankarshanmukhopadhyay/trust-systems-meta-model",
+          "normative": false
+        }
+      ],
+      "reader_note": "This term was added following a cross-repository terminology review of TSMM, TIS, TGA, and the DTG ZKP Task Force workspace.",
+      "implementation_relevance": "Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.",
+      "governance_profile": "governance-supporting",
+      "governance": {
+        "authority_scope": [
+          "assurance_and_audit",
+          "delegation_and_scope",
+          "policy_definition",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct_or_constrained",
+        "revocation_supported": true,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "suspended",
+          "revoked",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ],
+        "accountable_entity": "governance_authority",
+        "evidence_produced": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ]
+      },
+      "slug": "capability-negotiation"
     },
     {
       "term": "capability",
@@ -5546,6 +6094,84 @@
       "slug": "content-credential"
     },
     {
+      "term": "Content Provenance Policy",
+      "aliases": [
+        "content provenance policy",
+        "content-provenance-policy"
+      ],
+      "definition": "A governance policy that specifies what provenance, integrity, sanitization, redaction, and evidence conditions must be satisfied before content may be acted upon, stored, or forwarded.",
+      "notes": [
+        "This definition is normalized for cross-repository use and should be applied together with the governing profile or specification that supplies domain-specific constraints."
+      ],
+      "see_also": [
+        "policy",
+        "provenance",
+        "attestation"
+      ],
+      "sources": [
+        {
+          "title": "TSMM repository terminology and model documentation",
+          "publisher": "GitHub",
+          "url": "https://github.com/sankarshanmukhopadhyay/trust-systems-meta-model",
+          "normative": false
+        }
+      ],
+      "reader_note": "This term was added following a cross-repository terminology review of TSMM, TIS, TGA, and the DTG ZKP Task Force workspace.",
+      "implementation_relevance": "Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.",
+      "governance_profile": "governance-supporting",
+      "governance": {
+        "authority_scope": [
+          "assurance_and_audit",
+          "delegation_and_scope",
+          "policy_definition",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct_or_constrained",
+        "revocation_supported": true,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "suspended",
+          "revoked",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ],
+        "accountable_entity": "governance_authority",
+        "evidence_produced": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ]
+      },
+      "slug": "content-provenance-policy"
+    },
+    {
       "term": "contextual-linkability",
       "aliases": [
         "contextual-linkability",
@@ -5685,6 +6311,162 @@
         "iso": []
       },
       "slug": "control-authority"
+    },
+    {
+      "term": "Control Mode",
+      "aliases": [
+        "control mode",
+        "control-mode"
+      ],
+      "definition": "A descriptor for the human-oversight shape of an agent or automated system at runtime, including whether intervention occurs in-loop, on-loop, through a sidecar, or within pre-bounded autonomy.",
+      "notes": [
+        "This definition is normalized for cross-repository use and should be applied together with the governing profile or specification that supplies domain-specific constraints."
+      ],
+      "see_also": [
+        "access-control",
+        "agent",
+        "appropriate-friction"
+      ],
+      "sources": [
+        {
+          "title": "TSMM repository terminology and model documentation",
+          "publisher": "GitHub",
+          "url": "https://github.com/sankarshanmukhopadhyay/trust-systems-meta-model",
+          "normative": false
+        }
+      ],
+      "reader_note": "This term was added following a cross-repository terminology review of TSMM, TIS, TGA, and the DTG ZKP Task Force workspace.",
+      "implementation_relevance": "Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.",
+      "governance_profile": "governance-supporting",
+      "governance": {
+        "authority_scope": [
+          "assurance_and_audit",
+          "delegation_and_scope",
+          "policy_definition",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct_or_constrained",
+        "revocation_supported": true,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "suspended",
+          "revoked",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ],
+        "accountable_entity": "governance_authority",
+        "evidence_produced": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ]
+      },
+      "slug": "control-mode"
+    },
+    {
+      "term": "Control-Plane Shift",
+      "aliases": [
+        "control-plane shift",
+        "control-plane-shift"
+      ],
+      "definition": "A change in which actor, policy, infrastructure component, or governance mechanism can determine, constrain, or revoke system behavior.",
+      "notes": [
+        "This definition is normalized for cross-repository use and should be applied together with the governing profile or specification that supplies domain-specific constraints."
+      ],
+      "see_also": [
+        "locus-of-control",
+        "authority",
+        "governance"
+      ],
+      "sources": [
+        {
+          "title": "TGA repository terminology and model documentation",
+          "publisher": "GitHub",
+          "url": "https://github.com/sankarshanmukhopadhyay/trust-graph-artifacts",
+          "normative": false
+        }
+      ],
+      "reader_note": "This term was added following a cross-repository terminology review of TSMM, TIS, TGA, and the DTG ZKP Task Force workspace.",
+      "implementation_relevance": "Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.",
+      "governance_profile": "governance-supporting",
+      "governance": {
+        "authority_scope": [
+          "assurance_and_audit",
+          "delegation_and_scope",
+          "policy_definition",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct_or_constrained",
+        "revocation_supported": true,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "suspended",
+          "revoked",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ],
+        "accountable_entity": "governance_authority",
+        "evidence_produced": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ]
+      },
+      "slug": "control-plane-shift"
     },
     {
       "term": "controlled-document",
@@ -8110,6 +8892,90 @@
       "slug": "deceptive-pattern"
     },
     {
+      "term": "Decision Receipt",
+      "aliases": [
+        "decision receipt",
+        "decision-receipt"
+      ],
+      "definition": "A structured, integrity-protected record of a trust or governance decision, including the decision context, authority, policy, evidence, outcome, obligations, and traceability data.",
+      "notes": [
+        "This definition is normalized for cross-repository use and should be applied together with the governing profile or specification that supplies domain-specific constraints."
+      ],
+      "see_also": [
+        "trust-decision",
+        "audit-log",
+        "attestation"
+      ],
+      "sources": [
+        {
+          "title": "TIS repository terminology and model documentation",
+          "publisher": "GitHub",
+          "url": "https://github.com/sankarshanmukhopadhyay/trust-infrastructure-schemas",
+          "normative": false
+        },
+        {
+          "title": "TGA repository terminology and model documentation",
+          "publisher": "GitHub",
+          "url": "https://github.com/sankarshanmukhopadhyay/trust-graph-artifacts",
+          "normative": false
+        }
+      ],
+      "reader_note": "This term was added following a cross-repository terminology review of TSMM, TIS, TGA, and the DTG ZKP Task Force workspace.",
+      "implementation_relevance": "Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.",
+      "governance_profile": "governance-supporting",
+      "governance": {
+        "authority_scope": [
+          "assurance_and_audit",
+          "delegation_and_scope",
+          "policy_definition",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct_or_constrained",
+        "revocation_supported": true,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "suspended",
+          "revoked",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ],
+        "accountable_entity": "governance_authority",
+        "evidence_produced": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ]
+      },
+      "slug": "decision-receipt"
+    },
+    {
       "term": "decryption",
       "aliases": [
         "decryption",
@@ -8443,6 +9309,84 @@
         "iso": []
       },
       "slug": "delegation-credential"
+    },
+    {
+      "term": "Delegation Lineage",
+      "aliases": [
+        "delegation lineage",
+        "delegation-lineage"
+      ],
+      "definition": "The ordered, verifiable path by which authority exercised by a current actor resolves through intermediate delegators to an originating principal and mandate.",
+      "notes": [
+        "This definition is normalized for cross-repository use and should be applied together with the governing profile or specification that supplies domain-specific constraints."
+      ],
+      "see_also": [
+        "delegation",
+        "delegator",
+        "principal"
+      ],
+      "sources": [
+        {
+          "title": "TSMM repository terminology and model documentation",
+          "publisher": "GitHub",
+          "url": "https://github.com/sankarshanmukhopadhyay/trust-systems-meta-model",
+          "normative": false
+        }
+      ],
+      "reader_note": "This term was added following a cross-repository terminology review of TSMM, TIS, TGA, and the DTG ZKP Task Force workspace.",
+      "implementation_relevance": "Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.",
+      "governance_profile": "governance-supporting",
+      "governance": {
+        "authority_scope": [
+          "assurance_and_audit",
+          "delegation_and_scope",
+          "policy_definition",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct_or_constrained",
+        "revocation_supported": true,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "suspended",
+          "revoked",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ],
+        "accountable_entity": "governance_authority",
+        "evidence_produced": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ]
+      },
+      "slug": "delegation-lineage"
     },
     {
       "term": "delegation",
@@ -9960,6 +10904,83 @@
       "slug": "digital-wallet"
     },
     {
+      "term": "Discovery Governance",
+      "aliases": [
+        "discovery governance",
+        "discovery-governance"
+      ],
+      "definition": "The policies and controls that determine how descriptors or services are discovered, who mediates discovery, what access and freshness rules apply, and how discovery failures are handled.",
+      "notes": [
+        "This definition is normalized for cross-repository use and should be applied together with the governing profile or specification that supplies domain-specific constraints."
+      ],
+      "see_also": [
+        "discovery",
+        "policy"
+      ],
+      "sources": [
+        {
+          "title": "TSMM repository terminology and model documentation",
+          "publisher": "GitHub",
+          "url": "https://github.com/sankarshanmukhopadhyay/trust-systems-meta-model",
+          "normative": false
+        }
+      ],
+      "reader_note": "This term was added following a cross-repository terminology review of TSMM, TIS, TGA, and the DTG ZKP Task Force workspace.",
+      "implementation_relevance": "Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.",
+      "governance_profile": "governance-supporting",
+      "governance": {
+        "authority_scope": [
+          "assurance_and_audit",
+          "delegation_and_scope",
+          "policy_definition",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct_or_constrained",
+        "revocation_supported": true,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "suspended",
+          "revoked",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ],
+        "accountable_entity": "governance_authority",
+        "evidence_produced": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ]
+      },
+      "slug": "discovery-governance"
+    },
+    {
       "term": "discovery",
       "aliases": [
         "discovery"
@@ -10336,6 +11357,83 @@
         "iso": []
       },
       "slug": "dwn"
+    },
+    {
+      "term": "Dynamic Authorization",
+      "aliases": [
+        "dynamic authorization",
+        "dynamic-authorization"
+      ],
+      "definition": "An authorization approach in which runtime decisions are produced by evaluating contextual attributes, evidence, and policy rather than relying only on static permissions.",
+      "notes": [
+        "This definition is normalized for cross-repository use and should be applied together with the governing profile or specification that supplies domain-specific constraints."
+      ],
+      "see_also": [
+        "authorization",
+        "attribute-based-access-control"
+      ],
+      "sources": [
+        {
+          "title": "TSMM repository terminology and model documentation",
+          "publisher": "GitHub",
+          "url": "https://github.com/sankarshanmukhopadhyay/trust-systems-meta-model",
+          "normative": false
+        }
+      ],
+      "reader_note": "This term was added following a cross-repository terminology review of TSMM, TIS, TGA, and the DTG ZKP Task Force workspace.",
+      "implementation_relevance": "Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.",
+      "governance_profile": "governance-supporting",
+      "governance": {
+        "authority_scope": [
+          "assurance_and_audit",
+          "delegation_and_scope",
+          "policy_definition",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct_or_constrained",
+        "revocation_supported": true,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "suspended",
+          "revoked",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ],
+        "accountable_entity": "governance_authority",
+        "evidence_produced": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ]
+      },
+      "slug": "dynamic-authorization"
     },
     {
       "term": "ecosystem-governance-framework",
@@ -11549,6 +12647,161 @@
       "slug": "eudi-wallet"
     },
     {
+      "term": "Evidence Artifact",
+      "aliases": [
+        "evidence artifact",
+        "evidence-artifact"
+      ],
+      "definition": "A typed, structured output produced by a system, authorized actor, or assessment process to demonstrate that a rule was checked, a behavior occurred, or a condition holds.",
+      "notes": [
+        "This definition is normalized for cross-repository use and should be applied together with the governing profile or specification that supplies domain-specific constraints."
+      ],
+      "see_also": [
+        "attestation",
+        "controlled-document",
+        "audit-log"
+      ],
+      "sources": [
+        {
+          "title": "TSMM repository terminology and model documentation",
+          "publisher": "GitHub",
+          "url": "https://github.com/sankarshanmukhopadhyay/trust-systems-meta-model",
+          "normative": false
+        }
+      ],
+      "reader_note": "This term was added following a cross-repository terminology review of TSMM, TIS, TGA, and the DTG ZKP Task Force workspace.",
+      "implementation_relevance": "Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.",
+      "governance_profile": "governance-supporting",
+      "governance": {
+        "authority_scope": [
+          "assurance_and_audit",
+          "delegation_and_scope",
+          "policy_definition",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct_or_constrained",
+        "revocation_supported": true,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "suspended",
+          "revoked",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ],
+        "accountable_entity": "governance_authority",
+        "evidence_produced": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ]
+      },
+      "slug": "evidence-artifact"
+    },
+    {
+      "term": "Evidence Bundle",
+      "aliases": [
+        "evidence bundle",
+        "evidence-bundle"
+      ],
+      "definition": "A bounded collection of evidence artifacts assembled for a decision, assessment, verification, or audit purpose, with sufficient metadata to support integrity and traceability.",
+      "notes": [
+        "This definition is normalized for cross-repository use and should be applied together with the governing profile or specification that supplies domain-specific constraints."
+      ],
+      "see_also": [
+        "attestation",
+        "c2pa-manifest"
+      ],
+      "sources": [
+        {
+          "title": "TIS repository terminology and model documentation",
+          "publisher": "GitHub",
+          "url": "https://github.com/sankarshanmukhopadhyay/trust-infrastructure-schemas",
+          "normative": false
+        }
+      ],
+      "reader_note": "This term was added following a cross-repository terminology review of TSMM, TIS, TGA, and the DTG ZKP Task Force workspace.",
+      "implementation_relevance": "Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.",
+      "governance_profile": "governance-supporting",
+      "governance": {
+        "authority_scope": [
+          "assurance_and_audit",
+          "delegation_and_scope",
+          "policy_definition",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct_or_constrained",
+        "revocation_supported": true,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "suspended",
+          "revoked",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ],
+        "accountable_entity": "governance_authority",
+        "evidence_produced": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ]
+      },
+      "slug": "evidence-bundle"
+    },
+    {
       "term": "expression-language",
       "aliases": [
         "expression language",
@@ -11605,6 +12858,83 @@
         "iso": []
       },
       "slug": "expression-language"
+    },
+    {
+      "term": "Extension Contract",
+      "aliases": [
+        "extension contract",
+        "extension-contract"
+      ],
+      "definition": "A protocol-neutral record of whether an optional or required extension was proposed, supported, accepted, degraded, rejected, or not attempted, including the applicable failure behavior.",
+      "notes": [
+        "This definition is normalized for cross-repository use and should be applied together with the governing profile or specification that supplies domain-specific constraints."
+      ],
+      "see_also": [
+        "policy",
+        "trust-framework"
+      ],
+      "sources": [
+        {
+          "title": "TSMM repository terminology and model documentation",
+          "publisher": "GitHub",
+          "url": "https://github.com/sankarshanmukhopadhyay/trust-systems-meta-model",
+          "normative": false
+        }
+      ],
+      "reader_note": "This term was added following a cross-repository terminology review of TSMM, TIS, TGA, and the DTG ZKP Task Force workspace.",
+      "implementation_relevance": "Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.",
+      "governance_profile": "governance-supporting",
+      "governance": {
+        "authority_scope": [
+          "assurance_and_audit",
+          "delegation_and_scope",
+          "policy_definition",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct_or_constrained",
+        "revocation_supported": true,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "suspended",
+          "revoked",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ],
+        "accountable_entity": "governance_authority",
+        "evidence_produced": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ]
+      },
+      "slug": "extension-contract"
     },
     {
       "term": "fal",
@@ -15318,6 +16648,162 @@
       "slug": "integrity"
     },
     {
+      "term": "Interaction Context",
+      "aliases": [
+        "interaction context",
+        "interaction-context"
+      ],
+      "definition": "A session-level governance envelope that groups related tasks, messages, authority, evidence, and trust decisions across a sequence of interactions.",
+      "notes": [
+        "This definition is normalized for cross-repository use and should be applied together with the governing profile or specification that supplies domain-specific constraints."
+      ],
+      "see_also": [
+        "trust-context",
+        "authority",
+        "policy"
+      ],
+      "sources": [
+        {
+          "title": "TSMM repository terminology and model documentation",
+          "publisher": "GitHub",
+          "url": "https://github.com/sankarshanmukhopadhyay/trust-systems-meta-model",
+          "normative": false
+        }
+      ],
+      "reader_note": "This term was added following a cross-repository terminology review of TSMM, TIS, TGA, and the DTG ZKP Task Force workspace.",
+      "implementation_relevance": "Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.",
+      "governance_profile": "governance-supporting",
+      "governance": {
+        "authority_scope": [
+          "assurance_and_audit",
+          "delegation_and_scope",
+          "policy_definition",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct_or_constrained",
+        "revocation_supported": true,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "suspended",
+          "revoked",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ],
+        "accountable_entity": "governance_authority",
+        "evidence_produced": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ]
+      },
+      "slug": "interaction-context"
+    },
+    {
+      "term": "Interaction Task",
+      "aliases": [
+        "interaction task",
+        "interaction-task"
+      ],
+      "definition": "A durable work unit with governance-significant state transitions, artifact accumulation, continuation or cancellation semantics, and evidence obligations.",
+      "notes": [
+        "This definition is normalized for cross-repository use and should be applied together with the governing profile or specification that supplies domain-specific constraints."
+      ],
+      "see_also": [
+        "trust-task",
+        "authority",
+        "policy"
+      ],
+      "sources": [
+        {
+          "title": "TSMM repository terminology and model documentation",
+          "publisher": "GitHub",
+          "url": "https://github.com/sankarshanmukhopadhyay/trust-systems-meta-model",
+          "normative": false
+        }
+      ],
+      "reader_note": "This term was added following a cross-repository terminology review of TSMM, TIS, TGA, and the DTG ZKP Task Force workspace.",
+      "implementation_relevance": "Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.",
+      "governance_profile": "governance-supporting",
+      "governance": {
+        "authority_scope": [
+          "assurance_and_audit",
+          "delegation_and_scope",
+          "policy_definition",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct_or_constrained",
+        "revocation_supported": true,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "suspended",
+          "revoked",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ],
+        "accountable_entity": "governance_authority",
+        "evidence_produced": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ]
+      },
+      "slug": "interaction-task"
+    },
+    {
       "term": "intermediary-system",
       "aliases": [
         "intermediary system",
@@ -15756,6 +17242,84 @@
         "iso": []
       },
       "slug": "issuance"
+    },
+    {
+      "term": "Issuer Concealment",
+      "aliases": [
+        "issuer concealment",
+        "issuer-concealment"
+      ],
+      "definition": "A privacy property in which a proof or presentation does not disclose the identity of the issuer to the verifier, subject to the requirements and trust model of the applicable profile.",
+      "notes": [
+        "This definition is normalized for cross-repository use and should be applied together with the governing profile or specification that supplies domain-specific constraints."
+      ],
+      "see_also": [
+        "issuer",
+        "privacy-policy",
+        "zero-knowledge-proof"
+      ],
+      "sources": [
+        {
+          "title": "ZKP repository terminology and model documentation",
+          "publisher": "GitHub",
+          "url": "https://github.com/trustoverip/dtgwg-zkp-tf",
+          "normative": false
+        }
+      ],
+      "reader_note": "This term was added following a cross-repository terminology review of TSMM, TIS, TGA, and the DTG ZKP Task Force workspace.",
+      "implementation_relevance": "Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.",
+      "governance_profile": "governance-supporting",
+      "governance": {
+        "authority_scope": [
+          "assurance_and_audit",
+          "delegation_and_scope",
+          "policy_definition",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct_or_constrained",
+        "revocation_supported": true,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "suspended",
+          "revoked",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ],
+        "accountable_entity": "governance_authority",
+        "evidence_produced": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ]
+      },
+      "slug": "issuer-concealment"
     },
     {
       "term": "issuer-metadata",
@@ -17370,6 +18934,84 @@
       "slug": "legal-system"
     },
     {
+      "term": "Legitimacy Gap",
+      "aliases": [
+        "legitimacy gap",
+        "legitimacy-gap"
+      ],
+      "definition": "A mismatch between an action or decision that a system can technically execute and the authority, recognition, consent, or governance basis required for that action to be legitimate.",
+      "notes": [
+        "This definition is normalized for cross-repository use and should be applied together with the governing profile or specification that supplies domain-specific constraints."
+      ],
+      "see_also": [
+        "governance-framework",
+        "authority",
+        "governance"
+      ],
+      "sources": [
+        {
+          "title": "TGA repository terminology and model documentation",
+          "publisher": "GitHub",
+          "url": "https://github.com/sankarshanmukhopadhyay/trust-graph-artifacts",
+          "normative": false
+        }
+      ],
+      "reader_note": "This term was added following a cross-repository terminology review of TSMM, TIS, TGA, and the DTG ZKP Task Force workspace.",
+      "implementation_relevance": "Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.",
+      "governance_profile": "governance-supporting",
+      "governance": {
+        "authority_scope": [
+          "assurance_and_audit",
+          "delegation_and_scope",
+          "policy_definition",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct_or_constrained",
+        "revocation_supported": true,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "suspended",
+          "revoked",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ],
+        "accountable_entity": "governance_authority",
+        "evidence_produced": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ]
+      },
+      "slug": "legitimacy-gap"
+    },
+    {
       "term": "legitimized-human-meaningful-identifier",
       "aliases": [
         "legitimized-human-meaningful-identifier",
@@ -18168,6 +19810,83 @@
         "iso": []
       },
       "slug": "mobile-deep-link"
+    },
+    {
+      "term": "Monotonic Attenuation",
+      "aliases": [
+        "monotonic attenuation",
+        "monotonic-attenuation"
+      ],
+      "definition": "The delegation invariant that authority may remain unchanged or become narrower at each delegation hop but must never expand beyond the parent grant.",
+      "notes": [
+        "This definition is normalized for cross-repository use and should be applied together with the governing profile or specification that supplies domain-specific constraints."
+      ],
+      "see_also": [
+        "delegation",
+        "scope"
+      ],
+      "sources": [
+        {
+          "title": "TSMM repository terminology and model documentation",
+          "publisher": "GitHub",
+          "url": "https://github.com/sankarshanmukhopadhyay/trust-systems-meta-model",
+          "normative": false
+        }
+      ],
+      "reader_note": "This term was added following a cross-repository terminology review of TSMM, TIS, TGA, and the DTG ZKP Task Force workspace.",
+      "implementation_relevance": "Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.",
+      "governance_profile": "governance-supporting",
+      "governance": {
+        "authority_scope": [
+          "assurance_and_audit",
+          "delegation_and_scope",
+          "policy_definition",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct_or_constrained",
+        "revocation_supported": true,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "suspended",
+          "revoked",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ],
+        "accountable_entity": "governance_authority",
+        "evidence_produced": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ]
+      },
+      "slug": "monotonic-attenuation"
     },
     {
       "term": "mpc",
@@ -19069,6 +20788,82 @@
       "slug": "non-transferable"
     },
     {
+      "term": "Nullifier",
+      "aliases": [
+        "nullifier"
+      ],
+      "definition": "A cryptographically derived value used to detect prohibited reuse or duplication within a defined scope without revealing the underlying secret or necessarily enabling correlation across other scopes.",
+      "notes": [
+        "This definition is normalized for cross-repository use and should be applied together with the governing profile or specification that supplies domain-specific constraints."
+      ],
+      "see_also": [
+        "zero-knowledge-proof",
+        "correlation-privacy"
+      ],
+      "sources": [
+        {
+          "title": "ZKP repository terminology and model documentation",
+          "publisher": "GitHub",
+          "url": "https://github.com/trustoverip/dtgwg-zkp-tf",
+          "normative": false
+        }
+      ],
+      "reader_note": "This term was added following a cross-repository terminology review of TSMM, TIS, TGA, and the DTG ZKP Task Force workspace.",
+      "implementation_relevance": "Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.",
+      "governance_profile": "governance-supporting",
+      "governance": {
+        "authority_scope": [
+          "assurance_and_audit",
+          "delegation_and_scope",
+          "policy_definition",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct_or_constrained",
+        "revocation_supported": true,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "suspended",
+          "revoked",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ],
+        "accountable_entity": "governance_authority",
+        "evidence_produced": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ]
+      },
+      "slug": "nullifier"
+    },
+    {
       "term": "objective",
       "aliases": [
         "objective",
@@ -19127,6 +20922,84 @@
       "slug": "objective"
     },
     {
+      "term": "Observability Mode",
+      "aliases": [
+        "observability mode",
+        "observability-mode"
+      ],
+      "definition": "A descriptor for what can be known and evidenced about delivery, timing, progress, and user awareness for an interaction channel or execution path.",
+      "notes": [
+        "This definition is normalized for cross-repository use and should be applied together with the governing profile or specification that supplies domain-specific constraints."
+      ],
+      "see_also": [
+        "audit-log",
+        "human-auditable",
+        "communication-channel"
+      ],
+      "sources": [
+        {
+          "title": "TSMM repository terminology and model documentation",
+          "publisher": "GitHub",
+          "url": "https://github.com/sankarshanmukhopadhyay/trust-systems-meta-model",
+          "normative": false
+        }
+      ],
+      "reader_note": "This term was added following a cross-repository terminology review of TSMM, TIS, TGA, and the DTG ZKP Task Force workspace.",
+      "implementation_relevance": "Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.",
+      "governance_profile": "governance-supporting",
+      "governance": {
+        "authority_scope": [
+          "assurance_and_audit",
+          "delegation_and_scope",
+          "policy_definition",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct_or_constrained",
+        "revocation_supported": true,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "suspended",
+          "revoked",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ],
+        "accountable_entity": "governance_authority",
+        "evidence_produced": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ]
+      },
+      "slug": "observability-mode"
+    },
+    {
       "term": "oobi",
       "aliases": [
         "OOBI",
@@ -19183,6 +21056,83 @@
         "iso": []
       },
       "slug": "oobi"
+    },
+    {
+      "term": "Opacity Boundary",
+      "aliases": [
+        "opacity boundary",
+        "opacity-boundary"
+      ],
+      "definition": "A declared limit on what can be observed about an agent or system and the resulting constraints on trust, evidence, assurance, and permitted reliance.",
+      "notes": [
+        "This definition is normalized for cross-repository use and should be applied together with the governing profile or specification that supplies domain-specific constraints."
+      ],
+      "see_also": [
+        "trust-boundary",
+        "trust-assurance"
+      ],
+      "sources": [
+        {
+          "title": "TSMM repository terminology and model documentation",
+          "publisher": "GitHub",
+          "url": "https://github.com/sankarshanmukhopadhyay/trust-systems-meta-model",
+          "normative": false
+        }
+      ],
+      "reader_note": "This term was added following a cross-repository terminology review of TSMM, TIS, TGA, and the DTG ZKP Task Force workspace.",
+      "implementation_relevance": "Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.",
+      "governance_profile": "governance-supporting",
+      "governance": {
+        "authority_scope": [
+          "assurance_and_audit",
+          "delegation_and_scope",
+          "policy_definition",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct_or_constrained",
+        "revocation_supported": true,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "suspended",
+          "revoked",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ],
+        "accountable_entity": "governance_authority",
+        "evidence_produced": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ]
+      },
+      "slug": "opacity-boundary"
     },
     {
       "term": "openid-federation",
@@ -20162,6 +22112,84 @@
       "slug": "peer-to-peer"
     },
     {
+      "term": "Peer Trust Relation",
+      "aliases": [
+        "peer trust relation",
+        "peer-trust-relation"
+      ],
+      "definition": "A lateral trust relationship between parties that do not hold hierarchical authority over one another and that rely on an explicit trust basis such as credential exchange, policy acceptance, or third-party introduction.",
+      "notes": [
+        "This definition is normalized for cross-repository use and should be applied together with the governing profile or specification that supplies domain-specific constraints."
+      ],
+      "see_also": [
+        "trust-relationship",
+        "counterparty",
+        "delegation"
+      ],
+      "sources": [
+        {
+          "title": "TSMM repository terminology and model documentation",
+          "publisher": "GitHub",
+          "url": "https://github.com/sankarshanmukhopadhyay/trust-systems-meta-model",
+          "normative": false
+        }
+      ],
+      "reader_note": "This term was added following a cross-repository terminology review of TSMM, TIS, TGA, and the DTG ZKP Task Force workspace.",
+      "implementation_relevance": "Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.",
+      "governance_profile": "governance-supporting",
+      "governance": {
+        "authority_scope": [
+          "assurance_and_audit",
+          "delegation_and_scope",
+          "policy_definition",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct_or_constrained",
+        "revocation_supported": true,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "suspended",
+          "revoked",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ],
+        "accountable_entity": "governance_authority",
+        "evidence_produced": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ]
+      },
+      "slug": "peer-trust-relation"
+    },
+    {
       "term": "peer",
       "aliases": [
         "peer",
@@ -20783,6 +22811,83 @@
       "slug": "personally-identifiable-information"
     },
     {
+      "term": "Personhood",
+      "aliases": [
+        "personhood"
+      ],
+      "definition": "The status or quality of being treated as a person for a defined social, legal, governance, or technical purpose; it is not equivalent to civil identity or the possession of an identifier.",
+      "notes": [
+        "This definition is normalized for cross-repository use and should be applied together with the governing profile or specification that supplies domain-specific constraints."
+      ],
+      "see_also": [
+        "proof-of-personhood",
+        "identity",
+        "natural-person"
+      ],
+      "sources": [
+        {
+          "title": "ZKP repository terminology and model documentation",
+          "publisher": "GitHub",
+          "url": "https://github.com/trustoverip/dtgwg-zkp-tf",
+          "normative": false
+        }
+      ],
+      "reader_note": "This term was added following a cross-repository terminology review of TSMM, TIS, TGA, and the DTG ZKP Task Force workspace.",
+      "implementation_relevance": "Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.",
+      "governance_profile": "governance-supporting",
+      "governance": {
+        "authority_scope": [
+          "assurance_and_audit",
+          "delegation_and_scope",
+          "policy_definition",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct_or_constrained",
+        "revocation_supported": true,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "suspended",
+          "revoked",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ],
+        "accountable_entity": "governance_authority",
+        "evidence_produced": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ]
+      },
+      "slug": "personhood"
+    },
+    {
       "term": "physical-credential",
       "aliases": [
         "physical credential",
@@ -21238,6 +23343,84 @@
         "iso": []
       },
       "slug": "pop"
+    },
+    {
+      "term": "Predicate Proof",
+      "aliases": [
+        "predicate proof",
+        "predicate-proof"
+      ],
+      "definition": "A proof that establishes whether a defined condition about one or more attributes is satisfied without necessarily disclosing the underlying attribute values.",
+      "notes": [
+        "This definition is normalized for cross-repository use and should be applied together with the governing profile or specification that supplies domain-specific constraints."
+      ],
+      "see_also": [
+        "zero-knowledge-proof",
+        "selective-disclosure",
+        "claim"
+      ],
+      "sources": [
+        {
+          "title": "ZKP repository terminology and model documentation",
+          "publisher": "GitHub",
+          "url": "https://github.com/trustoverip/dtgwg-zkp-tf",
+          "normative": false
+        }
+      ],
+      "reader_note": "This term was added following a cross-repository terminology review of TSMM, TIS, TGA, and the DTG ZKP Task Force workspace.",
+      "implementation_relevance": "Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.",
+      "governance_profile": "governance-supporting",
+      "governance": {
+        "authority_scope": [
+          "assurance_and_audit",
+          "delegation_and_scope",
+          "policy_definition",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct_or_constrained",
+        "revocation_supported": true,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "suspended",
+          "revoked",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ],
+        "accountable_entity": "governance_authority",
+        "evidence_produced": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ]
+      },
+      "slug": "predicate-proof"
     },
     {
       "term": "presentation-attack",
@@ -21792,6 +23975,83 @@
         "iso": []
       },
       "slug": "private-key"
+    },
+    {
+      "term": "Proof-Carrying Commitment Receipt",
+      "aliases": [
+        "proof-carrying commitment receipt",
+        "proof-carrying-commitment-receipt"
+      ],
+      "definition": "A receipt that records a commitment together with cryptographic or verifiable evidence sufficient to evaluate who was authorized, what was committed, under which conditions, and with what lifecycle status.",
+      "notes": [
+        "This definition is normalized for cross-repository use and should be applied together with the governing profile or specification that supplies domain-specific constraints."
+      ],
+      "see_also": [
+        "claim",
+        "proof"
+      ],
+      "sources": [
+        {
+          "title": "TGA repository terminology and model documentation",
+          "publisher": "GitHub",
+          "url": "https://github.com/sankarshanmukhopadhyay/trust-graph-artifacts",
+          "normative": false
+        }
+      ],
+      "reader_note": "This term was added following a cross-repository terminology review of TSMM, TIS, TGA, and the DTG ZKP Task Force workspace.",
+      "implementation_relevance": "Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.",
+      "governance_profile": "governance-supporting",
+      "governance": {
+        "authority_scope": [
+          "assurance_and_audit",
+          "delegation_and_scope",
+          "policy_definition",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct_or_constrained",
+        "revocation_supported": true,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "suspended",
+          "revoked",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ],
+        "accountable_entity": "governance_authority",
+        "evidence_produced": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ]
+      },
+      "slug": "proof-carrying-commitment-receipt"
     },
     {
       "term": "proof-of-control",
@@ -24853,6 +27113,168 @@
       "slug": "rule"
     },
     {
+      "term": "Runtime Authority Envelope",
+      "aliases": [
+        "runtime authority envelope",
+        "runtime-authority-envelope"
+      ],
+      "definition": "A runtime artifact that carries the currently valid authority, scope, constraints, delegation lineage, and status required before an action may be executed.",
+      "notes": [
+        "This definition is normalized for cross-repository use and should be applied together with the governing profile or specification that supplies domain-specific constraints."
+      ],
+      "see_also": [
+        "authority",
+        "policy",
+        "governance-framework"
+      ],
+      "sources": [
+        {
+          "title": "TGA repository terminology and model documentation",
+          "publisher": "GitHub",
+          "url": "https://github.com/sankarshanmukhopadhyay/trust-graph-artifacts",
+          "normative": false
+        }
+      ],
+      "reader_note": "This term was added following a cross-repository terminology review of TSMM, TIS, TGA, and the DTG ZKP Task Force workspace.",
+      "implementation_relevance": "Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.",
+      "governance_profile": "governance-supporting",
+      "governance": {
+        "authority_scope": [
+          "assurance_and_audit",
+          "delegation_and_scope",
+          "policy_definition",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct_or_constrained",
+        "revocation_supported": true,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "suspended",
+          "revoked",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ],
+        "accountable_entity": "governance_authority",
+        "evidence_produced": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ]
+      },
+      "slug": "runtime-authority-envelope"
+    },
+    {
+      "term": "Runtime Governance Envelope",
+      "aliases": [
+        "runtime governance envelope",
+        "runtime-governance-envelope"
+      ],
+      "definition": "A structured envelope that binds the authority, policy, evidence, constraints, obligations, and lifecycle state applicable to a runtime interaction or task.",
+      "notes": [
+        "This definition is normalized for cross-repository use and should be applied together with the governing profile or specification that supplies domain-specific constraints."
+      ],
+      "see_also": [
+        "governance",
+        "authority",
+        "policy"
+      ],
+      "sources": [
+        {
+          "title": "TIS repository terminology and model documentation",
+          "publisher": "GitHub",
+          "url": "https://github.com/sankarshanmukhopadhyay/trust-infrastructure-schemas",
+          "normative": false
+        },
+        {
+          "title": "TGA repository terminology and model documentation",
+          "publisher": "GitHub",
+          "url": "https://github.com/sankarshanmukhopadhyay/trust-graph-artifacts",
+          "normative": false
+        }
+      ],
+      "reader_note": "This term was added following a cross-repository terminology review of TSMM, TIS, TGA, and the DTG ZKP Task Force workspace.",
+      "implementation_relevance": "Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.",
+      "governance_profile": "governance-supporting",
+      "governance": {
+        "authority_scope": [
+          "assurance_and_audit",
+          "delegation_and_scope",
+          "policy_definition",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct_or_constrained",
+        "revocation_supported": true,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "suspended",
+          "revoked",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ],
+        "accountable_entity": "governance_authority",
+        "evidence_produced": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ]
+      },
+      "slug": "runtime-governance-envelope"
+    },
+    {
       "term": "rwi",
       "aliases": [
         "RWI"
@@ -26142,6 +28564,83 @@
       "slug": "sensitive-data"
     },
     {
+      "term": "Service Descriptor",
+      "aliases": [
+        "service descriptor",
+        "service-descriptor"
+      ],
+      "definition": "A policy-governed disclosure artifact through which an agent, service, or system states what it is, what it can do, how it can be reached, and under what visibility conditions.",
+      "notes": [
+        "This definition is normalized for cross-repository use and should be applied together with the governing profile or specification that supplies domain-specific constraints."
+      ],
+      "see_also": [
+        "trust-service-provider",
+        "capability"
+      ],
+      "sources": [
+        {
+          "title": "TSMM repository terminology and model documentation",
+          "publisher": "GitHub",
+          "url": "https://github.com/sankarshanmukhopadhyay/trust-systems-meta-model",
+          "normative": false
+        }
+      ],
+      "reader_note": "This term was added following a cross-repository terminology review of TSMM, TIS, TGA, and the DTG ZKP Task Force workspace.",
+      "implementation_relevance": "Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.",
+      "governance_profile": "governance-supporting",
+      "governance": {
+        "authority_scope": [
+          "assurance_and_audit",
+          "delegation_and_scope",
+          "policy_definition",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct_or_constrained",
+        "revocation_supported": true,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "suspended",
+          "revoked",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ],
+        "accountable_entity": "governance_authority",
+        "evidence_produced": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ]
+      },
+      "slug": "service-descriptor"
+    },
+    {
       "term": "session",
       "aliases": [
         "session",
@@ -26262,6 +28761,84 @@
         "iso": []
       },
       "slug": "single-signature-identifier"
+    },
+    {
+      "term": "Skill Contract",
+      "aliases": [
+        "skill contract",
+        "skill-contract"
+      ],
+      "definition": "An operational contract for a discrete capability that defines permitted inputs, outputs, authorization scope, policy conditions, and evidence obligations.",
+      "notes": [
+        "This definition is normalized for cross-repository use and should be applied together with the governing profile or specification that supplies domain-specific constraints."
+      ],
+      "see_also": [
+        "capability",
+        "policy",
+        "authorization"
+      ],
+      "sources": [
+        {
+          "title": "TSMM repository terminology and model documentation",
+          "publisher": "GitHub",
+          "url": "https://github.com/sankarshanmukhopadhyay/trust-systems-meta-model",
+          "normative": false
+        }
+      ],
+      "reader_note": "This term was added following a cross-repository terminology review of TSMM, TIS, TGA, and the DTG ZKP Task Force workspace.",
+      "implementation_relevance": "Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.",
+      "governance_profile": "governance-supporting",
+      "governance": {
+        "authority_scope": [
+          "assurance_and_audit",
+          "delegation_and_scope",
+          "policy_definition",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct_or_constrained",
+        "revocation_supported": true,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "suspended",
+          "revoked",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ],
+        "accountable_entity": "governance_authority",
+        "evidence_produced": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ]
+      },
+      "slug": "skill-contract"
     },
     {
       "term": "sociotechnical-system",
@@ -27339,6 +29916,84 @@
         "iso": []
       },
       "slug": "tamper-resistant"
+    },
+    {
+      "term": "Task Evidence Lifecycle",
+      "aliases": [
+        "task evidence lifecycle",
+        "task-evidence-lifecycle"
+      ],
+      "definition": "The sequence of evidence, receipts, artifacts, and review triggers associated with governance-significant task state transitions from initiation through completion, cancellation, or failure.",
+      "notes": [
+        "This definition is normalized for cross-repository use and should be applied together with the governing profile or specification that supplies domain-specific constraints."
+      ],
+      "see_also": [
+        "trust-task",
+        "audit-log",
+        "attestation"
+      ],
+      "sources": [
+        {
+          "title": "TSMM repository terminology and model documentation",
+          "publisher": "GitHub",
+          "url": "https://github.com/sankarshanmukhopadhyay/trust-systems-meta-model",
+          "normative": false
+        }
+      ],
+      "reader_note": "This term was added following a cross-repository terminology review of TSMM, TIS, TGA, and the DTG ZKP Task Force workspace.",
+      "implementation_relevance": "Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.",
+      "governance_profile": "governance-supporting",
+      "governance": {
+        "authority_scope": [
+          "assurance_and_audit",
+          "delegation_and_scope",
+          "policy_definition",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct_or_constrained",
+        "revocation_supported": true,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "suspended",
+          "revoked",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ],
+        "accountable_entity": "governance_authority",
+        "evidence_produced": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ]
+      },
+      "slug": "task-evidence-lifecycle"
     },
     {
       "term": "tcp-ip-stack",
@@ -32513,6 +35168,84 @@
       "slug": "trust-support"
     },
     {
+      "term": "Trust Task Execution Receipt",
+      "aliases": [
+        "trust task execution receipt",
+        "trust-task-execution-receipt"
+      ],
+      "definition": "A structured receipt that records how a trust-relevant task was authorized, executed, evidenced, and completed or terminated.",
+      "notes": [
+        "This definition is normalized for cross-repository use and should be applied together with the governing profile or specification that supplies domain-specific constraints."
+      ],
+      "see_also": [
+        "trust-task",
+        "authority",
+        "policy"
+      ],
+      "sources": [
+        {
+          "title": "TIS repository terminology and model documentation",
+          "publisher": "GitHub",
+          "url": "https://github.com/sankarshanmukhopadhyay/trust-infrastructure-schemas",
+          "normative": false
+        }
+      ],
+      "reader_note": "This term was added following a cross-repository terminology review of TSMM, TIS, TGA, and the DTG ZKP Task Force workspace.",
+      "implementation_relevance": "Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.",
+      "governance_profile": "governance-supporting",
+      "governance": {
+        "authority_scope": [
+          "assurance_and_audit",
+          "delegation_and_scope",
+          "policy_definition",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct_or_constrained",
+        "revocation_supported": true,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "suspended",
+          "revoked",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ],
+        "accountable_entity": "governance_authority",
+        "evidence_produced": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ]
+      },
+      "slug": "trust-task-execution-receipt"
+    },
+    {
       "term": "trust-task-layer",
       "aliases": [
         "trust task layer"
@@ -33792,6 +36525,83 @@
         "iso": []
       },
       "slug": "uniform-resource-name"
+    },
+    {
+      "term": "Unlinkability",
+      "aliases": [
+        "unlinkability"
+      ],
+      "definition": "A privacy property under which two or more transactions, proofs, identifiers, or observations cannot reasonably be determined to concern the same party beyond the permitted correlation scope.",
+      "notes": [
+        "This definition is normalized for cross-repository use and should be applied together with the governing profile or specification that supplies domain-specific constraints."
+      ],
+      "see_also": [
+        "correlation-privacy",
+        "selective-disclosure",
+        "zero-knowledge-proof"
+      ],
+      "sources": [
+        {
+          "title": "ZKP repository terminology and model documentation",
+          "publisher": "GitHub",
+          "url": "https://github.com/trustoverip/dtgwg-zkp-tf",
+          "normative": false
+        }
+      ],
+      "reader_note": "This term was added following a cross-repository terminology review of TSMM, TIS, TGA, and the DTG ZKP Task Force workspace.",
+      "implementation_relevance": "Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.",
+      "governance_profile": "governance-supporting",
+      "governance": {
+        "authority_scope": [
+          "assurance_and_audit",
+          "delegation_and_scope",
+          "policy_definition",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct_or_constrained",
+        "revocation_supported": true,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "suspended",
+          "revoked",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "control_plane": {
+        "decision_points": [
+          "policy_approval",
+          "delegation_grant",
+          "reliance_decision",
+          "revocation_decision"
+        ],
+        "accountable_entity": "governance_authority",
+        "evidence_produced": [
+          "policy_document",
+          "delegation_record",
+          "status_record",
+          "verification_log"
+        ]
+      },
+      "slug": "unlinkability"
     },
     {
       "term": "uri",

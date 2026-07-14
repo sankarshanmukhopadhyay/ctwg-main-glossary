@@ -1,13 +1,14 @@
 ---
 title: "Terms: T"
 parent: "Glossary Terms"
-nav_exclude: true
+nav_order: 20
 ---
 
 # Terms: T
 
 - [tamper-evident]({{ '/terms/tamper-evident/' | relative_url }})
 - [tamper-resistant]({{ '/terms/tamper-resistant/' | relative_url }})
+- [Task Evidence Lifecycle]({{ '/terms/task-evidence-lifecycle/' | relative_url }})
 - [tcp-ip]({{ '/terms/tcp-ip/' | relative_url }})
 - [tcp-ip-stack]({{ '/terms/tcp-ip-stack/' | relative_url }})
 - [technical-requirement]({{ '/terms/technical-requirement/' | relative_url }})
@@ -61,6 +62,7 @@ nav_exclude: true
 - [transport-layer-security]({{ '/terms/transport-layer-security/' | relative_url }})
 - [tribal-knowledge]({{ '/terms/tribal-knowledge/' | relative_url }})
 - [trust]({{ '/terms/trust/' | relative_url }})
+- [Trust Task Execution Receipt]({{ '/terms/trust-task-execution-receipt/' | relative_url }})
 - [trust-anchor]({{ '/terms/trust-anchor/' | relative_url }})
 - [trust-application]({{ '/terms/trust-application/' | relative_url }})
 - [trust-application-layer]({{ '/terms/trust-application-layer/' | relative_url }})

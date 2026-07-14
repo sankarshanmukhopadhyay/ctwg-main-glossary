@@ -1,0 +1,65 @@
+term: Evidence Artifact
+aliases:
+- evidence artifact
+- evidence-artifact
+definition: A typed, structured output produced by a system, authorized actor, or
+  assessment process to demonstrate that a rule was checked, a behavior occurred,
+  or a condition holds.
+notes:
+- This definition is normalized for cross-repository use and should be applied together
+  with the governing profile or specification that supplies domain-specific constraints.
+see_also:
+- attestation
+- controlled-document
+- audit-log
+sources:
+- title: TSMM repository terminology and model documentation
+  publisher: GitHub
+  url: https://github.com/sankarshanmukhopadhyay/trust-systems-meta-model
+  normative: false
+reader_note: This term was added following a cross-repository terminology review of
+  TSMM, TIS, TGA, and the DTG ZKP Task Force workspace.
+implementation_relevance: Use this term to keep runtime governance, delegation, evidence,
+  and privacy semantics consistent across interoperating trust infrastructure repositories.
+governance_profile: governance-supporting
+governance:
+  authority_scope:
+  - assurance_and_audit
+  - delegation_and_scope
+  - policy_definition
+  - verification_and_reliance
+  delegation_mode: direct_or_constrained
+  revocation_supported: true
+  lifecycle_states:
+  - proposed
+  - active
+  - suspended
+  - revoked
+  - retired
+  execution_role: hybrid
+  control_plane_role: decision_plane_component
+  enforcement_points:
+  - policy_approval
+  - delegation_grant
+  - reliance_decision
+  - revocation_decision
+assurance:
+  evidence_artifacts:
+  - policy_document
+  - delegation_record
+  - status_record
+  - verification_log
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points:
+  - policy_approval
+  - delegation_grant
+  - reliance_decision
+  - revocation_decision
+  accountable_entity: governance_authority
+  evidence_produced:
+  - policy_document
+  - delegation_record
+  - status_record
+  - verification_log

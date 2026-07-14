@@ -1,7 +1,7 @@
 ---
 title: "Terms: Z"
 parent: "Glossary Terms"
-nav_exclude: true
+nav_order: 24
 ---
 
 # Terms: Z
