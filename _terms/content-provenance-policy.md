@@ -1,10 +1,10 @@
 ---
-title: "Content Provenance Policy"
+title: "content provenance policy"
 ---
 
 > Generated file. Update `glossary/terms/content-provenance-policy.yaml` and regenerate artifacts instead of editing this page directly.
 
-# Content Provenance Policy
+# content provenance policy
 
 ## Definition
 A governance policy that specifies what provenance, integrity, sanitization, redaction, and evidence conditions must be satisfied before content may be acted upon, stored, or forwarded.

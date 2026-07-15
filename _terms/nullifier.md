@@ -1,10 +1,10 @@
 ---
-title: "Nullifier"
+title: "nullifier"
 ---
 
 > Generated file. Update `glossary/terms/nullifier.yaml` and regenerate artifacts instead of editing this page directly.
 
-# Nullifier
+# nullifier
 
 ## Definition
 A cryptographically derived value used to detect prohibited reuse or duplication within a defined scope without revealing the underlying secret or necessarily enabling correlation across other scopes.

@@ -1,12 +1,10 @@
-term: Interaction Context
+term: interaction context
 aliases:
 - interaction context
 - interaction-context
-definition: A session-level governance envelope that groups related tasks, messages,
-  authority, evidence, and trust decisions across a sequence of interactions.
+definition: A session-level governance envelope that groups related tasks, messages, authority, evidence, and trust decisions across a sequence of interactions.
 notes:
-- This definition is normalized for cross-repository use and should be applied together
-  with the governing profile or specification that supplies domain-specific constraints.
+- This definition is normalized for cross-repository use and should be applied together with the governing profile or specification that supplies domain-specific constraints.
 see_also:
 - trust-context
 - authority
@@ -16,10 +14,8 @@ sources:
   publisher: GitHub
   url: https://github.com/sankarshanmukhopadhyay/trust-systems-meta-model
   normative: false
-reader_note: This term was added following a cross-repository terminology review of
-  TSMM, TIS, TGA, and the DTG ZKP Task Force workspace.
-implementation_relevance: Use this term to keep runtime governance, delegation, evidence,
-  and privacy semantics consistent across interoperating trust infrastructure repositories.
+reader_note: This term was added following a cross-repository terminology review of TSMM, TIS, TGA, and the DTG ZKP Task Force workspace.
+implementation_relevance: Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.
 governance_profile: governance-supporting
 governance:
   authority_scope:

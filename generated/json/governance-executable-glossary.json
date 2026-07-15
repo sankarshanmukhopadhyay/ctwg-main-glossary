@@ -845,7 +845,7 @@
       "slug": "agency"
     },
     {
-      "term": "Agent Class",
+      "term": "agent class",
       "aliases": [
         "agent class",
         "agent-class"
@@ -922,7 +922,7 @@
       "slug": "agent-class"
     },
     {
-      "term": "Agent Mandate Envelope",
+      "term": "agent mandate envelope",
       "aliases": [
         "agent mandate envelope",
         "agent-mandate-envelope"
@@ -1074,7 +1074,7 @@
       "slug": "agent"
     },
     {
-      "term": "Aggregation Amplification",
+      "term": "aggregation amplification",
       "aliases": [
         "aggregation amplification",
         "aggregation-amplification"
@@ -1596,7 +1596,7 @@
       "slug": "assurance-level"
     },
     {
-      "term": "Attention Policy",
+      "term": "attention policy",
       "aliases": [
         "attention policy",
         "attention-policy"
@@ -2680,7 +2680,7 @@
       "slug": "authoritative"
     },
     {
-      "term": "Authority Boundary",
+      "term": "authority boundary",
       "aliases": [
         "authority boundary",
         "authority-boundary"
@@ -2844,7 +2844,7 @@
       "slug": "authority"
     },
     {
-      "term": "Authorization Checkpoint",
+      "term": "authorization checkpoint",
       "aliases": [
         "authorization checkpoint",
         "authorization-checkpoint"
@@ -4165,7 +4165,7 @@
       "slug": "cai"
     },
     {
-      "term": "Capability Negotiation",
+      "term": "capability negotiation",
       "aliases": [
         "capability negotiation",
         "capability-negotiation"
@@ -6094,7 +6094,7 @@
       "slug": "content-credential"
     },
     {
-      "term": "Content Provenance Policy",
+      "term": "content provenance policy",
       "aliases": [
         "content provenance policy",
         "content-provenance-policy"
@@ -6313,7 +6313,7 @@
       "slug": "control-authority"
     },
     {
-      "term": "Control Mode",
+      "term": "control mode",
       "aliases": [
         "control mode",
         "control-mode"
@@ -6391,7 +6391,7 @@
       "slug": "control-mode"
     },
     {
-      "term": "Control-Plane Shift",
+      "term": "control-plane shift",
       "aliases": [
         "control-plane shift",
         "control-plane-shift"
@@ -8892,7 +8892,7 @@
       "slug": "deceptive-pattern"
     },
     {
-      "term": "Decision Receipt",
+      "term": "decision receipt",
       "aliases": [
         "decision receipt",
         "decision-receipt"
@@ -9311,7 +9311,7 @@
       "slug": "delegation-credential"
     },
     {
-      "term": "Delegation Lineage",
+      "term": "delegation lineage",
       "aliases": [
         "delegation lineage",
         "delegation-lineage"
@@ -10904,7 +10904,7 @@
       "slug": "digital-wallet"
     },
     {
-      "term": "Discovery Governance",
+      "term": "discovery governance",
       "aliases": [
         "discovery governance",
         "discovery-governance"
@@ -11359,7 +11359,7 @@
       "slug": "dwn"
     },
     {
-      "term": "Dynamic Authorization",
+      "term": "dynamic authorization",
       "aliases": [
         "dynamic authorization",
         "dynamic-authorization"
@@ -12647,7 +12647,7 @@
       "slug": "eudi-wallet"
     },
     {
-      "term": "Evidence Artifact",
+      "term": "evidence artifact",
       "aliases": [
         "evidence artifact",
         "evidence-artifact"
@@ -12725,7 +12725,7 @@
       "slug": "evidence-artifact"
     },
     {
-      "term": "Evidence Bundle",
+      "term": "evidence bundle",
       "aliases": [
         "evidence bundle",
         "evidence-bundle"
@@ -12860,7 +12860,7 @@
       "slug": "expression-language"
     },
     {
-      "term": "Extension Contract",
+      "term": "extension contract",
       "aliases": [
         "extension contract",
         "extension-contract"
@@ -16648,7 +16648,7 @@
       "slug": "integrity"
     },
     {
-      "term": "Interaction Context",
+      "term": "interaction context",
       "aliases": [
         "interaction context",
         "interaction-context"
@@ -16726,7 +16726,7 @@
       "slug": "interaction-context"
     },
     {
-      "term": "Interaction Task",
+      "term": "interaction task",
       "aliases": [
         "interaction task",
         "interaction-task"
@@ -17244,7 +17244,7 @@
       "slug": "issuance"
     },
     {
-      "term": "Issuer Concealment",
+      "term": "issuer concealment",
       "aliases": [
         "issuer concealment",
         "issuer-concealment"
@@ -18934,7 +18934,7 @@
       "slug": "legal-system"
     },
     {
-      "term": "Legitimacy Gap",
+      "term": "legitimacy gap",
       "aliases": [
         "legitimacy gap",
         "legitimacy-gap"
@@ -19812,7 +19812,7 @@
       "slug": "mobile-deep-link"
     },
     {
-      "term": "Monotonic Attenuation",
+      "term": "monotonic attenuation",
       "aliases": [
         "monotonic attenuation",
         "monotonic-attenuation"
@@ -20788,7 +20788,7 @@
       "slug": "non-transferable"
     },
     {
-      "term": "Nullifier",
+      "term": "nullifier",
       "aliases": [
         "nullifier"
       ],
@@ -20922,7 +20922,7 @@
       "slug": "objective"
     },
     {
-      "term": "Observability Mode",
+      "term": "observability mode",
       "aliases": [
         "observability mode",
         "observability-mode"
@@ -21058,7 +21058,7 @@
       "slug": "oobi"
     },
     {
-      "term": "Opacity Boundary",
+      "term": "opacity boundary",
       "aliases": [
         "opacity boundary",
         "opacity-boundary"
@@ -22112,7 +22112,7 @@
       "slug": "peer-to-peer"
     },
     {
-      "term": "Peer Trust Relation",
+      "term": "peer trust relation",
       "aliases": [
         "peer trust relation",
         "peer-trust-relation"
@@ -22811,7 +22811,7 @@
       "slug": "personally-identifiable-information"
     },
     {
-      "term": "Personhood",
+      "term": "personhood",
       "aliases": [
         "personhood"
       ],
@@ -23345,7 +23345,7 @@
       "slug": "pop"
     },
     {
-      "term": "Predicate Proof",
+      "term": "predicate proof",
       "aliases": [
         "predicate proof",
         "predicate-proof"
@@ -23977,7 +23977,7 @@
       "slug": "private-key"
     },
     {
-      "term": "Proof-Carrying Commitment Receipt",
+      "term": "proof-carrying commitment receipt",
       "aliases": [
         "proof-carrying commitment receipt",
         "proof-carrying-commitment-receipt"
@@ -27113,7 +27113,7 @@
       "slug": "rule"
     },
     {
-      "term": "Runtime Authority Envelope",
+      "term": "runtime authority envelope",
       "aliases": [
         "runtime authority envelope",
         "runtime-authority-envelope"
@@ -27191,7 +27191,7 @@
       "slug": "runtime-authority-envelope"
     },
     {
-      "term": "Runtime Governance Envelope",
+      "term": "runtime governance envelope",
       "aliases": [
         "runtime governance envelope",
         "runtime-governance-envelope"
@@ -28564,7 +28564,7 @@
       "slug": "sensitive-data"
     },
     {
-      "term": "Service Descriptor",
+      "term": "service descriptor",
       "aliases": [
         "service descriptor",
         "service-descriptor"
@@ -28763,7 +28763,7 @@
       "slug": "single-signature-identifier"
     },
     {
-      "term": "Skill Contract",
+      "term": "skill contract",
       "aliases": [
         "skill contract",
         "skill-contract"
@@ -29918,7 +29918,7 @@
       "slug": "tamper-resistant"
     },
     {
-      "term": "Task Evidence Lifecycle",
+      "term": "task evidence lifecycle",
       "aliases": [
         "task evidence lifecycle",
         "task-evidence-lifecycle"
@@ -35168,7 +35168,7 @@
       "slug": "trust-support"
     },
     {
-      "term": "Trust Task Execution Receipt",
+      "term": "trust task execution receipt",
       "aliases": [
         "trust task execution receipt",
         "trust-task-execution-receipt"
@@ -36527,7 +36527,7 @@
       "slug": "uniform-resource-name"
     },
     {
-      "term": "Unlinkability",
+      "term": "unlinkability",
       "aliases": [
         "unlinkability"
       ],

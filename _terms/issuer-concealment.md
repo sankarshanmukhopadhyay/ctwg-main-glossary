@@ -1,10 +1,10 @@
 ---
-title: "Issuer Concealment"
+title: "issuer concealment"
 ---
 
 > Generated file. Update `glossary/terms/issuer-concealment.yaml` and regenerate artifacts instead of editing this page directly.
 
-# Issuer Concealment
+# issuer concealment
 
 ## Definition
 A privacy property in which a proof or presentation does not disclose the identity of the issuer to the verifier, subject to the requirements and trust model of the applicable profile.

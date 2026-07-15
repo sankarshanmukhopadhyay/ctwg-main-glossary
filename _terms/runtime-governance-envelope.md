@@ -1,10 +1,10 @@
 ---
-title: "Runtime Governance Envelope"
+title: "runtime governance envelope"
 ---
 
 > Generated file. Update `glossary/terms/runtime-governance-envelope.yaml` and regenerate artifacts instead of editing this page directly.
 
-# Runtime Governance Envelope
+# runtime governance envelope
 
 ## Definition
 A structured envelope that binds the authority, policy, evidence, constraints, obligations, and lifecycle state applicable to a runtime interaction or task.

@@ -1,10 +1,10 @@
 ---
-title: "Agent Mandate Envelope"
+title: "agent mandate envelope"
 ---
 
 > Generated file. Update `glossary/terms/agent-mandate-envelope.yaml` and regenerate artifacts instead of editing this page directly.
 
-# Agent Mandate Envelope
+# agent mandate envelope
 
 ## Definition
 A structured artifact that binds an agent to an originating principal, delegated mandate, permitted scope, conditions, expiry, revocation semantics, and evidence requirements.

@@ -1,13 +1,10 @@
-term: Legitimacy Gap
+term: legitimacy gap
 aliases:
 - legitimacy gap
 - legitimacy-gap
-definition: A mismatch between an action or decision that a system can technically
-  execute and the authority, recognition, consent, or governance basis required for
-  that action to be legitimate.
+definition: A mismatch between an action or decision that a system can technically execute and the authority, recognition, consent, or governance basis required for that action to be legitimate.
 notes:
-- This definition is normalized for cross-repository use and should be applied together
-  with the governing profile or specification that supplies domain-specific constraints.
+- This definition is normalized for cross-repository use and should be applied together with the governing profile or specification that supplies domain-specific constraints.
 see_also:
 - governance-framework
 - authority
@@ -17,10 +14,8 @@ sources:
   publisher: GitHub
   url: https://github.com/sankarshanmukhopadhyay/trust-graph-artifacts
   normative: false
-reader_note: This term was added following a cross-repository terminology review of
-  TSMM, TIS, TGA, and the DTG ZKP Task Force workspace.
-implementation_relevance: Use this term to keep runtime governance, delegation, evidence,
-  and privacy semantics consistent across interoperating trust infrastructure repositories.
+reader_note: This term was added following a cross-repository terminology review of TSMM, TIS, TGA, and the DTG ZKP Task Force workspace.
+implementation_relevance: Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.
 governance_profile: governance-supporting
 governance:
   authority_scope:

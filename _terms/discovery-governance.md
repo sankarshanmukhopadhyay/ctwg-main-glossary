@@ -1,10 +1,10 @@
 ---
-title: "Discovery Governance"
+title: "discovery governance"
 ---
 
 > Generated file. Update `glossary/terms/discovery-governance.yaml` and regenerate artifacts instead of editing this page directly.
 
-# Discovery Governance
+# discovery governance
 
 ## Definition
 The policies and controls that determine how descriptors or services are discovered, who mediates discovery, what access and freshness rules apply, and how discovery failures are handled.

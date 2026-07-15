@@ -1,10 +1,10 @@
 ---
-title: "Agent Class"
+title: "agent class"
 ---
 
 > Generated file. Update `glossary/terms/agent-class.yaml` and regenerate artifacts instead of editing this page directly.
 
-# Agent Class
+# agent class
 
 ## Definition
 A typed descriptor for the operating posture of an agentic actor, used to distinguish the kind of role the agent performs from the controls governing how it operates.

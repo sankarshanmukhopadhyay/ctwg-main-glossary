@@ -1,10 +1,10 @@
 ---
-title: "Evidence Bundle"
+title: "evidence bundle"
 ---
 
 > Generated file. Update `glossary/terms/evidence-bundle.yaml` and regenerate artifacts instead of editing this page directly.
 
-# Evidence Bundle
+# evidence bundle
 
 ## Definition
 A bounded collection of evidence artifacts assembled for a decision, assessment, verification, or audit purpose, with sufficient metadata to support integrity and traceability.

@@ -1,10 +1,10 @@
 ---
-title: "Skill Contract"
+title: "skill contract"
 ---
 
 > Generated file. Update `glossary/terms/skill-contract.yaml` and regenerate artifacts instead of editing this page directly.
 
-# Skill Contract
+# skill contract
 
 ## Definition
 An operational contract for a discrete capability that defines permitted inputs, outputs, authorization scope, policy conditions, and evidence obligations.

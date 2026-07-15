@@ -1,13 +1,10 @@
-term: Task Evidence Lifecycle
+term: task evidence lifecycle
 aliases:
 - task evidence lifecycle
 - task-evidence-lifecycle
-definition: The sequence of evidence, receipts, artifacts, and review triggers associated
-  with governance-significant task state transitions from initiation through completion,
-  cancellation, or failure.
+definition: The sequence of evidence, receipts, artifacts, and review triggers associated with governance-significant task state transitions from initiation through completion, cancellation, or failure.
 notes:
-- This definition is normalized for cross-repository use and should be applied together
-  with the governing profile or specification that supplies domain-specific constraints.
+- This definition is normalized for cross-repository use and should be applied together with the governing profile or specification that supplies domain-specific constraints.
 see_also:
 - trust-task
 - audit-log
@@ -17,10 +14,8 @@ sources:
   publisher: GitHub
   url: https://github.com/sankarshanmukhopadhyay/trust-systems-meta-model
   normative: false
-reader_note: This term was added following a cross-repository terminology review of
-  TSMM, TIS, TGA, and the DTG ZKP Task Force workspace.
-implementation_relevance: Use this term to keep runtime governance, delegation, evidence,
-  and privacy semantics consistent across interoperating trust infrastructure repositories.
+reader_note: This term was added following a cross-repository terminology review of TSMM, TIS, TGA, and the DTG ZKP Task Force workspace.
+implementation_relevance: Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.
 governance_profile: governance-supporting
 governance:
   authority_scope:

@@ -1,10 +1,10 @@
 ---
-title: "Unlinkability"
+title: "unlinkability"
 ---
 
 > Generated file. Update `glossary/terms/unlinkability.yaml` and regenerate artifacts instead of editing this page directly.
 
-# Unlinkability
+# unlinkability
 
 ## Definition
 A privacy property under which two or more transactions, proofs, identifiers, or observations cannot reasonably be determined to concern the same party beyond the permitted correlation scope.

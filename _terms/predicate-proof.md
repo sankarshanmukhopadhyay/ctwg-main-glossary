@@ -1,10 +1,10 @@
 ---
-title: "Predicate Proof"
+title: "predicate proof"
 ---
 
 > Generated file. Update `glossary/terms/predicate-proof.yaml` and regenerate artifacts instead of editing this page directly.
 
-# Predicate Proof
+# predicate proof
 
 ## Definition
 A proof that establishes whether a defined condition about one or more attributes is satisfied without necessarily disclosing the underlying attribute values.

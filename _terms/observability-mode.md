@@ -1,10 +1,10 @@
 ---
-title: "Observability Mode"
+title: "observability mode"
 ---
 
 > Generated file. Update `glossary/terms/observability-mode.yaml` and regenerate artifacts instead of editing this page directly.
 
-# Observability Mode
+# observability mode
 
 ## Definition
 A descriptor for what can be known and evidenced about delivery, timing, progress, and user awareness for an interaction channel or execution path.

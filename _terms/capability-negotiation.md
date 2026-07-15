@@ -1,10 +1,10 @@
 ---
-title: "Capability Negotiation"
+title: "capability negotiation"
 ---
 
 > Generated file. Update `glossary/terms/capability-negotiation.yaml` and regenerate artifacts instead of editing this page directly.
 
-# Capability Negotiation
+# capability negotiation
 
 ## Definition
 A governed process for determining whether an advertised capability is discoverable, compatible, authorized, accepted, and permitted to execute under applicable policy.

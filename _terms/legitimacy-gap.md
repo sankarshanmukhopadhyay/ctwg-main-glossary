@@ -1,10 +1,10 @@
 ---
-title: "Legitimacy Gap"
+title: "legitimacy gap"
 ---
 
 > Generated file. Update `glossary/terms/legitimacy-gap.yaml` and regenerate artifacts instead of editing this page directly.
 
-# Legitimacy Gap
+# legitimacy gap
 
 ## Definition
 A mismatch between an action or decision that a system can technically execute and the authority, recognition, consent, or governance basis required for that action to be legitimate.

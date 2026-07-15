@@ -1,10 +1,10 @@
 ---
-title: "Interaction Task"
+title: "interaction task"
 ---
 
 > Generated file. Update `glossary/terms/interaction-task.yaml` and regenerate artifacts instead of editing this page directly.
 
-# Interaction Task
+# interaction task
 
 ## Definition
 A durable work unit with governance-significant state transitions, artifact accumulation, continuation or cancellation semantics, and evidence obligations.

@@ -1,10 +1,10 @@
 ---
-title: "Attention Policy"
+title: "attention policy"
 ---
 
 > Generated file. Update `glossary/terms/attention-policy.yaml` and regenerate artifacts instead of editing this page directly.
 
-# Attention Policy
+# attention policy
 
 ## Definition
 A policy that governs how inbound signals are admitted, deferred, summarized, rerouted, escalated, or rejected before reaching a principal or downstream decision layer.

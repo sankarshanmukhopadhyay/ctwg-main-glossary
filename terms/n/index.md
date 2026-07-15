@@ -15,4 +15,4 @@ nav_order: 14
 - [non-repudiable]({{ '/terms/non-repudiable/' | relative_url }})
 - [non-transferable]({{ '/terms/non-transferable/' | relative_url }})
 - [non-transferable-identifier]({{ '/terms/non-transferable-identifier/' | relative_url }})
-- [Nullifier]({{ '/terms/nullifier/' | relative_url }})
+- [nullifier]({{ '/terms/nullifier/' | relative_url }})

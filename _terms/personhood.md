@@ -1,10 +1,10 @@
 ---
-title: "Personhood"
+title: "personhood"
 ---
 
 > Generated file. Update `glossary/terms/personhood.yaml` and regenerate artifacts instead of editing this page directly.
 
-# Personhood
+# personhood
 
 ## Definition
 The status or quality of being treated as a person for a defined social, legal, governance, or technical purpose; it is not equivalent to civil identity or the possession of an identifier.

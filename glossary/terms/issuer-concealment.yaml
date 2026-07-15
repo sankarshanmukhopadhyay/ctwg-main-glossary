@@ -1,13 +1,10 @@
-term: Issuer Concealment
+term: issuer concealment
 aliases:
 - issuer concealment
 - issuer-concealment
-definition: A privacy property in which a proof or presentation does not disclose
-  the identity of the issuer to the verifier, subject to the requirements and trust
-  model of the applicable profile.
+definition: A privacy property in which a proof or presentation does not disclose the identity of the issuer to the verifier, subject to the requirements and trust model of the applicable profile.
 notes:
-- This definition is normalized for cross-repository use and should be applied together
-  with the governing profile or specification that supplies domain-specific constraints.
+- This definition is normalized for cross-repository use and should be applied together with the governing profile or specification that supplies domain-specific constraints.
 see_also:
 - issuer
 - privacy-policy
@@ -17,10 +14,8 @@ sources:
   publisher: GitHub
   url: https://github.com/trustoverip/dtgwg-zkp-tf
   normative: false
-reader_note: This term was added following a cross-repository terminology review of
-  TSMM, TIS, TGA, and the DTG ZKP Task Force workspace.
-implementation_relevance: Use this term to keep runtime governance, delegation, evidence,
-  and privacy semantics consistent across interoperating trust infrastructure repositories.
+reader_note: This term was added following a cross-repository terminology review of TSMM, TIS, TGA, and the DTG ZKP Task Force workspace.
+implementation_relevance: Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.
 governance_profile: governance-supporting
 governance:
   authority_scope:

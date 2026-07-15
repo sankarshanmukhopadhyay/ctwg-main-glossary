@@ -1,13 +1,10 @@
-term: Decision Receipt
+term: decision receipt
 aliases:
 - decision receipt
 - decision-receipt
-definition: A structured, integrity-protected record of a trust or governance decision,
-  including the decision context, authority, policy, evidence, outcome, obligations,
-  and traceability data.
+definition: A structured, integrity-protected record of a trust or governance decision, including the decision context, authority, policy, evidence, outcome, obligations, and traceability data.
 notes:
-- This definition is normalized for cross-repository use and should be applied together
-  with the governing profile or specification that supplies domain-specific constraints.
+- This definition is normalized for cross-repository use and should be applied together with the governing profile or specification that supplies domain-specific constraints.
 see_also:
 - trust-decision
 - audit-log
@@ -21,10 +18,8 @@ sources:
   publisher: GitHub
   url: https://github.com/sankarshanmukhopadhyay/trust-graph-artifacts
   normative: false
-reader_note: This term was added following a cross-repository terminology review of
-  TSMM, TIS, TGA, and the DTG ZKP Task Force workspace.
-implementation_relevance: Use this term to keep runtime governance, delegation, evidence,
-  and privacy semantics consistent across interoperating trust infrastructure repositories.
+reader_note: This term was added following a cross-repository terminology review of TSMM, TIS, TGA, and the DTG ZKP Task Force workspace.
+implementation_relevance: Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.
 governance_profile: governance-supporting
 governance:
   authority_scope:

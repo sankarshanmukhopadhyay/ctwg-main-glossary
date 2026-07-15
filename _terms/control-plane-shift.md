@@ -1,10 +1,10 @@
 ---
-title: "Control-Plane Shift"
+title: "control-plane shift"
 ---
 
 > Generated file. Update `glossary/terms/control-plane-shift.yaml` and regenerate artifacts instead of editing this page directly.
 
-# Control-Plane Shift
+# control-plane shift
 
 ## Definition
 A change in which actor, policy, infrastructure component, or governance mechanism can determine, constrain, or revoke system behavior.

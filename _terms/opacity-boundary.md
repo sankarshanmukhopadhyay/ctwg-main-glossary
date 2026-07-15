@@ -1,10 +1,10 @@
 ---
-title: "Opacity Boundary"
+title: "opacity boundary"
 ---
 
 > Generated file. Update `glossary/terms/opacity-boundary.yaml` and regenerate artifacts instead of editing this page directly.
 
-# Opacity Boundary
+# opacity boundary
 
 ## Definition
 A declared limit on what can be observed about an agent or system and the resulting constraints on trust, evidence, assurance, and permitted reliance.

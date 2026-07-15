@@ -171,7 +171,7 @@ In the context of decentralized digital trust infrastructure, the empowering of 
 - Assurance level hint: AL2+
 - Accountable entity: glossary_maintainers
 
-## Agent Class
+## agent class
 
 A typed descriptor for the operating posture of an agentic actor, used to distinguish the kind of role the agent performs from the controls governing how it operates.
 
@@ -184,7 +184,7 @@ A typed descriptor for the operating posture of an agentic actor, used to distin
 - Assurance level hint: AL2+
 - Accountable entity: governance_authority
 
-## Agent Mandate Envelope
+## agent mandate envelope
 
 A structured artifact that binds an agent to an originating principal, delegated mandate, permitted scope, conditions, expiry, revocation semantics, and evidence requirements.
 
@@ -210,7 +210,7 @@ An actor that executes an action on behalf of a party (called the principal of t
 - Assurance level hint: AL2+
 - Accountable entity: governance_authority
 
-## Aggregation Amplification
+## aggregation amplification
 
 A delegation failure mode in which individually valid and attenuated authority branches combine to produce an effect broader than the originating mandate permits.
 
@@ -314,7 +314,7 @@ A level of confidence in a claim that may be relied on by others. Different type
 - Assurance level hint: AL2+
 - Accountable entity: glossary_maintainers
 
-## Attention Policy
+## attention policy
 
 A policy that governs how inbound signals are admitted, deferred, summarized, rerouted, escalated, or rejected before reaching a principal or downstream decision layer.
 
@@ -522,7 +522,7 @@ Information or data that comes from an authority for that information.
 - Assurance level hint: AL2+
 - Accountable entity: governance_authority
 
-## Authority Boundary
+## authority boundary
 
 A machine- or human-readable constraint that identifies where authority begins and ends, including the permitted actor, scope, action, target, conditions, and lifecycle state.
 
@@ -548,7 +548,7 @@ A party whose decisions, policies, rules, or recognition outcomes are accepted a
 - Assurance level hint: AL2+
 - Accountable entity: governance_authority
 
-## Authorization Checkpoint
+## authorization checkpoint
 
 A runtime trust event that pauses or interrupts an interaction because required authorization, scope, evidence, or input is absent or insufficient.
 
@@ -795,7 +795,7 @@ See: Content Authenticity Initiative.
 - Assurance level hint: informative
 - Accountable entity: glossary_maintainers
 
-## Capability Negotiation
+## capability negotiation
 
 A governed process for determining whether an advertised capability is discoverable, compatible, authorized, accepted, and permitted to execute under applicable policy.
 
@@ -1185,7 +1185,7 @@ The user-facing C2PA term for provenance information represented by C2PA manifes
 - Assurance level hint: AL2+
 - Accountable entity: glossary_maintainers
 
-## Content Provenance Policy
+## content provenance policy
 
 A governance policy that specifies what provenance, integrity, sanitization, redaction, and evidence conditions must be satisfied before content may be acted upon, stored, or forwarded.
 
@@ -1224,7 +1224,7 @@ In identity systems, control authority is the power to determine who controls wh
 - Assurance level hint: AL2+
 - Accountable entity: governance_authority
 
-## Control Mode
+## control mode
 
 A descriptor for the human-oversight shape of an agent or automated system at runtime, including whether intervention occurs in-loop, on-loop, through a sidecar, or within pre-bounded autonomy.
 
@@ -1237,7 +1237,7 @@ A descriptor for the human-oversight shape of an agent or automated system at ru
 - Assurance level hint: AL2+
 - Accountable entity: governance_authority
 
-## Control-Plane Shift
+## control-plane shift
 
 A change in which actor, policy, infrastructure component, or governance mechanism can determine, constrain, or revoke system behavior.
 
@@ -1731,7 +1731,7 @@ See: dark pattern.
 - Assurance level hint: informative
 - Accountable entity: glossary_maintainers
 
-## Decision Receipt
+## decision receipt
 
 A structured, integrity-protected record of a trust or governance decision, including the decision context, authority, policy, evidence, outcome, obligations, and traceability data.
 
@@ -1809,7 +1809,7 @@ A credential used to perform delegation.
 - Assurance level hint: AL2+
 - Accountable entity: glossary_maintainers
 
-## Delegation Lineage
+## delegation lineage
 
 The ordered, verifiable path by which authority exercised by a current actor resolves through intermediate delegators to an originating principal and mandate.
 
@@ -2121,7 +2121,7 @@ A user agent, optionally including a hardware component, capable of securely sto
 - Assurance level hint: AL2+
 - Accountable entity: glossary_maintainers
 
-## Discovery Governance
+## discovery governance
 
 The policies and controls that determine how descriptors or services are discovered, who mediates discovery, what access and freshness rules apply, and how discovery failures are handled.
 
@@ -2212,7 +2212,7 @@ See: Decentralized Web Node.
 - Assurance level hint: informative
 - Accountable entity: glossary_maintainers
 
-## Dynamic Authorization
+## dynamic authorization
 
 An authorization approach in which runtime decisions are produced by evaluating contextual attributes, evidence, and policy rather than relying only on static permissions.
 
@@ -2472,7 +2472,7 @@ A wallet ecosystem component under the European Digital Identity framework for s
 - Assurance level hint: AL2+
 - Accountable entity: glossary_maintainers
 
-## Evidence Artifact
+## evidence artifact
 
 A typed, structured output produced by a system, authorized actor, or assessment process to demonstrate that a rule was checked, a behavior occurred, or a condition holds.
 
@@ -2485,7 +2485,7 @@ A typed, structured output produced by a system, authorized actor, or assessment
 - Assurance level hint: AL2+
 - Accountable entity: governance_authority
 
-## Evidence Bundle
+## evidence bundle
 
 A bounded collection of evidence artifacts assembled for a decision, assessment, verification, or audit purpose, with sufficient metadata to support integrity and traceability.
 
@@ -2511,7 +2511,7 @@ A language for creating a computer-interpretable (machine-readable) representati
 - Assurance level hint: informative
 - Accountable entity: glossary_maintainers
 
-## Extension Contract
+## extension contract
 
 A protocol-neutral record of whether an optional or required extension was proposed, supported, accepted, degraded, rejected, or not attempted, including the applicable failure behavior.
 
@@ -3265,7 +3265,7 @@ the highest level of cryptographic security concerning a cryptographic secret (s
 - Assurance level hint: informative
 - Accountable entity: glossary_maintainers
 
-## Interaction Context
+## interaction context
 
 A session-level governance envelope that groups related tasks, messages, authority, evidence, and trust decisions across a sequence of interactions.
 
@@ -3278,7 +3278,7 @@ A session-level governance envelope that groups related tasks, messages, authori
 - Assurance level hint: AL2+
 - Accountable entity: governance_authority
 
-## Interaction Task
+## interaction task
 
 A durable work unit with governance-significant state transitions, artifact accumulation, continuation or cancellation semantics, and evidence obligations.
 
@@ -3382,7 +3382,7 @@ The action of an issuer producing and transmitting a digital credential to a hol
 - Assurance level hint: AL2+
 - Accountable entity: issuer_operator
 
-## Issuer Concealment
+## issuer concealment
 
 A privacy property in which a proof or presentation does not disclose the identity of the issuer to the verifier, subject to the requirements and trust model of the applicable profile.
 
@@ -3733,7 +3733,7 @@ A system in which policies and rules are defined, and mechanisms for their enfor
 - Assurance level hint: AL2+
 - Accountable entity: governance_authority
 
-## Legitimacy Gap
+## legitimacy gap
 
 A mismatch between an action or decision that a system can technically execute and the authority, recognition, consent, or governance basis required for that action to be legitimate.
 
@@ -3915,7 +3915,7 @@ In the context of mobile apps, deep linking consists of using a uniform resource
 - Assurance level hint: informative
 - Accountable entity: glossary_maintainers
 
-## Monotonic Attenuation
+## monotonic attenuation
 
 The delegation invariant that authority may remain unchanged or become narrower at each delegation hop but must never expand beyond the parent grant.
 
@@ -4123,7 +4123,7 @@ No transferable (the control over) a certain digital asset in an unobstructed or
 - Assurance level hint: AL2+
 - Accountable entity: glossary_maintainers
 
-## Nullifier
+## nullifier
 
 A cryptographically derived value used to detect prohibited reuse or duplication within a defined scope without revealing the underlying secret or necessarily enabling correlation across other scopes.
 
@@ -4149,7 +4149,7 @@ Something toward which a party (its owner) directs effort (an aim, goal, or end 
 - Assurance level hint: informative
 - Accountable entity: glossary_maintainers
 
-## Observability Mode
+## observability mode
 
 A descriptor for what can be known and evidenced about delivery, timing, progress, and user awareness for an interaction channel or execution path.
 
@@ -4175,7 +4175,7 @@ See: out-of-band introduction.
 - Assurance level hint: informative
 - Accountable entity: glossary_maintainers
 
-## Opacity Boundary
+## opacity boundary
 
 A declared limit on what can be observed about an agent or system and the resulting constraints on trust, evidence, assurance, and permitted reliance.
 
@@ -4383,7 +4383,7 @@ Peer-to-peer (P2P) computing or networking is a distributed application architec
 - Assurance level hint: informative
 - Accountable entity: glossary_maintainers
 
-## Peer Trust Relation
+## peer trust relation
 
 A lateral trust relationship between parties that do not hold hierarchical authority over one another and that rely on an explicit trust basis such as credential exchange, policy acceptance, or third-party introduction.
 
@@ -4526,7 +4526,7 @@ Information (any form of data) that can be used to directly or indirectly identi
 - Assurance level hint: informative
 - Accountable entity: glossary_maintainers
 
-## Personhood
+## personhood
 
 The status or quality of being treated as a person for a defined social, legal, governance, or technical purpose; it is not equivalent to civil identity or the possession of an identifier.
 
@@ -4630,7 +4630,7 @@ See: proof of personhood.
 - Assurance level hint: informative
 - Accountable entity: glossary_maintainers
 
-## Predicate Proof
+## predicate proof
 
 A proof that establishes whether a defined condition about one or more attributes is satisfied without necessarily disclosing the underlying attribute values.
 
@@ -4760,7 +4760,7 @@ In public key cryptography, the cryptographic key which must be kept secret by t
 - Assurance level hint: AL2+
 - Accountable entity: glossary_maintainers
 
-## Proof-Carrying Commitment Receipt
+## proof-carrying commitment receipt
 
 A receipt that records a commitment together with cryptographic or verifiable evidence sufficient to evaluate who was authorized, what was committed, under which conditions, and with what lifecycle status.
 
@@ -5397,7 +5397,7 @@ A prescribed guide for conduct, process or action to achieve a defined result or
 - Assurance level hint: AL2+
 - Accountable entity: glossary_maintainers
 
-## Runtime Authority Envelope
+## runtime authority envelope
 
 A runtime artifact that carries the currently valid authority, scope, constraints, delegation lineage, and status required before an action may be executed.
 
@@ -5410,7 +5410,7 @@ A runtime artifact that carries the currently valid authority, scope, constraint
 - Assurance level hint: AL2+
 - Accountable entity: governance_authority
 
-## Runtime Governance Envelope
+## runtime governance envelope
 
 A structured envelope that binds the authority, policy, evidence, constraints, obligations, and lifecycle state applicable to a runtime interaction or task.
 
@@ -5670,7 +5670,7 @@ Personal data that a reasonable person would view from a privacy protection stan
 - Assurance level hint: informative
 - Accountable entity: glossary_maintainers
 
-## Service Descriptor
+## service descriptor
 
 A policy-governed disclosure artifact through which an agent, service, or system states what it is, what it can do, how it can be reached, and under what visibility conditions.
 
@@ -5709,7 +5709,7 @@ or single sig identifier; is an identifier controlled by a one-of-one signing ke
 - Assurance level hint: AL2+
 - Accountable entity: glossary_maintainers
 
-## Skill Contract
+## skill contract
 
 An operational contract for a discrete capability that defines permitted inputs, outputs, authorization scope, policy conditions, and evidence obligations.
 
@@ -5943,7 +5943,7 @@ A process which makes alterations to data difficult (hard to perform), costly (e
 - Assurance level hint: informative
 - Accountable entity: glossary_maintainers
 
-## Task Evidence Lifecycle
+## task evidence lifecycle
 
 The sequence of evidence, receipts, artifacts, and review triggers associated with governance-significant task state transitions from initiation through completion, cancellation, or failure.
 
@@ -7022,7 +7022,7 @@ A system, protocol, or other infrastructure whose function is to facilitate the 
 - Assurance level hint: AL1+
 - Accountable entity: glossary_maintainers
 
-## Trust Task Execution Receipt
+## trust task execution receipt
 
 A structured receipt that records how a trust-relevant task was authorized, executed, evidenced, and completed or terminated.
 
@@ -7295,7 +7295,7 @@ A Uniform Resource Name (URN) is a type of URI (Uniform Resource Identifier) des
 - Assurance level hint: informative
 - Accountable entity: glossary_maintainers
 
-## Unlinkability
+## unlinkability
 
 A privacy property under which two or more transactions, proofs, identifiers, or observations cannot reasonably be determined to concern the same party beyond the permitted correlation scope.
 

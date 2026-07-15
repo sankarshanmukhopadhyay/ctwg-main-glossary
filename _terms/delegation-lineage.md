@@ -1,10 +1,10 @@
 ---
-title: "Delegation Lineage"
+title: "delegation lineage"
 ---
 
 > Generated file. Update `glossary/terms/delegation-lineage.yaml` and regenerate artifacts instead of editing this page directly.
 
-# Delegation Lineage
+# delegation lineage
 
 ## Definition
 The ordered, verifiable path by which authority exercised by a current actor resolves through intermediate delegators to an originating principal and mandate.

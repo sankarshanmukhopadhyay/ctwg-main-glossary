@@ -1,12 +1,10 @@
-term: Skill Contract
+term: skill contract
 aliases:
 - skill contract
 - skill-contract
-definition: An operational contract for a discrete capability that defines permitted
-  inputs, outputs, authorization scope, policy conditions, and evidence obligations.
+definition: An operational contract for a discrete capability that defines permitted inputs, outputs, authorization scope, policy conditions, and evidence obligations.
 notes:
-- This definition is normalized for cross-repository use and should be applied together
-  with the governing profile or specification that supplies domain-specific constraints.
+- This definition is normalized for cross-repository use and should be applied together with the governing profile or specification that supplies domain-specific constraints.
 see_also:
 - capability
 - policy
@@ -16,10 +14,8 @@ sources:
   publisher: GitHub
   url: https://github.com/sankarshanmukhopadhyay/trust-systems-meta-model
   normative: false
-reader_note: This term was added following a cross-repository terminology review of
-  TSMM, TIS, TGA, and the DTG ZKP Task Force workspace.
-implementation_relevance: Use this term to keep runtime governance, delegation, evidence,
-  and privacy semantics consistent across interoperating trust infrastructure repositories.
+reader_note: This term was added following a cross-repository terminology review of TSMM, TIS, TGA, and the DTG ZKP Task Force workspace.
+implementation_relevance: Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.
 governance_profile: governance-supporting
 governance:
   authority_scope:

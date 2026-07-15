@@ -1,10 +1,10 @@
 ---
-title: "Interaction Context"
+title: "interaction context"
 ---
 
 > Generated file. Update `glossary/terms/interaction-context.yaml` and regenerate artifacts instead of editing this page directly.
 
-# Interaction Context
+# interaction context
 
 ## Definition
 A session-level governance envelope that groups related tasks, messages, authority, evidence, and trust decisions across a sequence of interactions.

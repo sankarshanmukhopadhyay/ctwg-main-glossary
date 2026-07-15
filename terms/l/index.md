@@ -16,7 +16,7 @@ nav_order: 12
 - [legal-identity]({{ '/terms/legal-identity/' | relative_url }})
 - [legal-person]({{ '/terms/legal-person/' | relative_url }})
 - [legal-system]({{ '/terms/legal-system/' | relative_url }})
-- [Legitimacy Gap]({{ '/terms/legitimacy-gap/' | relative_url }})
+- [legitimacy gap]({{ '/terms/legitimacy-gap/' | relative_url }})
 - [legitimized-human-meaningful-identifier]({{ '/terms/legitimized-human-meaningful-identifier/' | relative_url }})
 - [lei]({{ '/terms/lei/' | relative_url }})
 - [level-of-assurance]({{ '/terms/level-of-assurance/' | relative_url }})

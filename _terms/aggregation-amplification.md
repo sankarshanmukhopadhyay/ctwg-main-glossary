@@ -1,10 +1,10 @@
 ---
-title: "Aggregation Amplification"
+title: "aggregation amplification"
 ---
 
 > Generated file. Update `glossary/terms/aggregation-amplification.yaml` and regenerate artifacts instead of editing this page directly.
 
-# Aggregation Amplification
+# aggregation amplification
 
 ## Definition
 A delegation failure mode in which individually valid and attenuated authority branches combine to produce an effect broader than the originating mandate permits.

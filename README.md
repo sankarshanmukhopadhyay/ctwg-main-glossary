@@ -1,14 +1,14 @@
 # ToIP Main Glossary
 
-[![Validate Governance-Executable Glossary](https://github.com/trustoverip/ctwg-main-glossary/actions/workflows/validate-governance-glossary.yml/badge.svg)](https://github.com/trustoverip/ctwg-main-glossary/actions/workflows/validate-governance-glossary.yml)
-[![Pages](https://github.com/trustoverip/ctwg-main-glossary/actions/workflows/pages.yml/badge.svg)](https://github.com/trustoverip/ctwg-main-glossary/actions/workflows/pages.yml)
+[![Validate Governance-Executable Glossary](https://github.com/sankarshanmukhopadhyay/ctwg-main-glossary/actions/workflows/validate-governance-glossary.yml/badge.svg)](https://github.com/sankarshanmukhopadhyay/ctwg-main-glossary/actions/workflows/validate-governance-glossary.yml)
+[![Pages](https://github.com/sankarshanmukhopadhyay/ctwg-main-glossary/actions/workflows/pages.yml/badge.svg)](https://github.com/sankarshanmukhopadhyay/ctwg-main-glossary/actions/workflows/pages.yml)
 ![Terms](https://img.shields.io/badge/terms-599-blue)
 ![Quality](https://img.shields.io/badge/quality-100.0%2F100-brightgreen)
 ![License](https://img.shields.io/badge/license-OWFa%201.0-blue)
 
 The ToIP Main Glossary is a **governance-executable terminology repository**. It publishes a human-readable GitHub Pages glossary while also producing machine-readable artifacts that describe authority, delegation, revocation, lifecycle state, evidence, auditability, and control-plane relevance for each structured term.
 
-Version `v1.4.0` expands the shared vocabulary for runtime governance, delegation lineage, executable evidence, and privacy-preserving proofs. It also streamlines GitHub Pages navigation by publishing ordered alphabet pages beneath the glossary index.
+Version `v1.4.1` fixes duplicated GitHub Pages navigation, normalizes glossary display-term casing, and adds publication-integrity checks that prevent the same defects from recurring.
 
 ## Repository operating model
 
@@ -50,14 +50,14 @@ Fetch the JSON bundle:
 
 ```bash
 curl -L -o governance-glossary.json \
-  https://raw.githubusercontent.com/trustoverip/ctwg-main-glossary/main/generated/json/governance-executable-glossary.json
+  https://raw.githubusercontent.com/sankarshanmukhopadhyay/ctwg-main-glossary/main/generated/json/governance-executable-glossary.json
 ```
 
 Fetch the JSON-LD bundle:
 
 ```bash
 curl -L -o governance-glossary.jsonld \
-  https://raw.githubusercontent.com/trustoverip/ctwg-main-glossary/main/generated/json/governance-executable-glossary.jsonld
+  https://raw.githubusercontent.com/sankarshanmukhopadhyay/ctwg-main-glossary/main/generated/json/governance-executable-glossary.jsonld
 ```
 
 Use `generated/json/artifact-manifest.json` to discover the current machine-readable bundle set and `generated/json/governance-quality-report.json` to inspect quality posture.

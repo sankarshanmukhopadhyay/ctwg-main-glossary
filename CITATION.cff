@@ -4,7 +4,7 @@ message: "If you use this glossary in specifications, research, or implementatio
 type: dataset
 version: 1.3.0
 date-released: 2026-07-06
-repository-code: "https://github.com/trustoverip/ctwg-main-glossary"
+repository-code: "https://github.com/sankarshanmukhopadhyay/ctwg-main-glossary"
 url: "https://trustoverip.github.io/ctwg-main-glossary"
 license: "OWFa-1.0"
 authors:

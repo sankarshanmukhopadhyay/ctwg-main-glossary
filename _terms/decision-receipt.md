@@ -1,10 +1,10 @@
 ---
-title: "Decision Receipt"
+title: "decision receipt"
 ---
 
 > Generated file. Update `glossary/terms/decision-receipt.yaml` and regenerate artifacts instead of editing this page directly.
 
-# Decision Receipt
+# decision receipt
 
 ## Definition
 A structured, integrity-protected record of a trust or governance decision, including the decision context, authority, policy, evidence, outcome, obligations, and traceability data.

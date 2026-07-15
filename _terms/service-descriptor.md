@@ -1,10 +1,10 @@
 ---
-title: "Service Descriptor"
+title: "service descriptor"
 ---
 
 > Generated file. Update `glossary/terms/service-descriptor.yaml` and regenerate artifacts instead of editing this page directly.
 
-# Service Descriptor
+# service descriptor
 
 ## Definition
 A policy-governed disclosure artifact through which an agent, service, or system states what it is, what it can do, how it can be reached, and under what visibility conditions.

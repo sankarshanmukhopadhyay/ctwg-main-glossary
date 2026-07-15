@@ -1,10 +1,10 @@
 ---
-title: "Task Evidence Lifecycle"
+title: "task evidence lifecycle"
 ---
 
 > Generated file. Update `glossary/terms/task-evidence-lifecycle.yaml` and regenerate artifacts instead of editing this page directly.
 
-# Task Evidence Lifecycle
+# task evidence lifecycle
 
 ## Definition
 The sequence of evidence, receipts, artifacts, and review triggers associated with governance-significant task state transitions from initiation through completion, cancellation, or failure.

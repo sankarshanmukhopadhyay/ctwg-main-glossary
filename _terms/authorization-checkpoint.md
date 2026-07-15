@@ -1,10 +1,10 @@
 ---
-title: "Authorization Checkpoint"
+title: "authorization checkpoint"
 ---
 
 > Generated file. Update `glossary/terms/authorization-checkpoint.yaml` and regenerate artifacts instead of editing this page directly.
 
-# Authorization Checkpoint
+# authorization checkpoint
 
 ## Definition
 A runtime trust event that pauses or interrupts an interaction because required authorization, scope, evidence, or input is absent or insufficient.

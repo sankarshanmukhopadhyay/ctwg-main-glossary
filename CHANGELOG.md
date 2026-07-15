@@ -1,5 +1,30 @@
 # Changelog
 
+## v1.4.1 — Publication Navigation and Term-Casing Integrity
+
+This maintenance release restores a single authoritative GitHub Pages navigation tree and normalizes glossary display terms to the repository-wide lowercase convention.
+
+### Fixed
+
+- Removed the mirrored `docs/governance/` publication tree that caused Just the Docs to render governance pages twice.
+- Added a defensive Jekyll exclusion for `docs/governance/` so a future mirror cannot re-enter the published navigation.
+- Corrected the Pages `url` and repository link for the `sankarshanmukhopadhyay/ctwg-main-glossary` deployment.
+- Normalized the 36 cross-repository terms introduced in v1.4.0 from title or sentence capitalization to lowercase display casing.
+
+### Added
+
+- Added a validator rule requiring the authoritative `term` field to use lowercase display casing.
+- Added `tools/validate_jekyll_navigation.py` to reject duplicate publishable `title` and `parent` navigation identities.
+- Added the navigation-integrity check to both validation and Pages workflows.
+
+### Validation
+
+- Validated all 599 structured glossary term files.
+- Regenerated all JSON, JSON-LD, Markdown, inventory, quality-report, and Jekyll outputs.
+- Confirmed 599 terms use the same lowercase display convention.
+- Confirmed the publishable Jekyll navigation contains no duplicate title-parent identities.
+- Confirmed the generated governance quality report remains at 100.0 / 100 with zero findings.
+
 ## v1.4.0 — Cross-Repository Runtime Governance Vocabulary
 
 This release aligns the CTWG Main Glossary with terminology emerging across TSMM, TIS, TGA, and the DTG ZKP Task Force workspace, while improving the rendered GitHub Pages information architecture.

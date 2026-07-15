@@ -29,7 +29,7 @@ acdc, action, address, aid, anonymous, anycast, anycast-address, attribute, auth
 
 Count: **115**
 
-acceptance, acceptance-network, Agent Class, Agent Mandate Envelope, Aggregation Amplification, Attention Policy, attestation, attributional-trust, authenticity, Authority Boundary, Authorization Checkpoint, Capability Negotiation, chain-of-trust, chaining, Content Provenance Policy, Control Mode, Control-Plane Shift, cryptographic-trust, Decision Receipt, Delegation Lineage
+acceptance, acceptance-network, agent class, agent mandate envelope, aggregation amplification, attention policy, attestation, attributional-trust, authenticity, authority boundary, authorization checkpoint, capability negotiation, chain-of-trust, chaining, content provenance policy, control mode, control-plane shift, cryptographic-trust, decision receipt, delegation lineage
 
 ## Authority-bearing terms
 
@@ -42,12 +42,12 @@ acceptance, acceptance-network, Agent Class, Agent Mandate Envelope, Aggregation
 - administering-body
 - agency
 - agent
-- Agent Class
-- Agent Mandate Envelope
-- Aggregation Amplification
+- agent class
+- agent mandate envelope
+- aggregation amplification
 - appraisability
 - assurance-level
-- Attention Policy
+- attention policy
 - attestation
 - attribute-based-access-control
 - audit
@@ -60,9 +60,9 @@ acceptance, acceptance-network, Agent Class, Agent Mandate Envelope, Aggregation
 - authoritative
 - authoritative-source
 - authority
-- Authority Boundary
+- authority boundary
 - authorization
-- Authorization Checkpoint
+- authorization checkpoint
 - authorization-graph
 - authorized-organizational-representative
 - autonomic-namespace
@@ -74,7 +74,7 @@ acceptance, acceptance-network, Agent Class, Agent Mandate Envelope, Aggregation
 - c2pa-manifest
 - ca
 - capability
-- Capability Negotiation
+- capability negotiation
 - certificate-authority
 - certification
 - certification-authority
@@ -83,11 +83,11 @@ acceptance, acceptance-network, Agent Class, Agent Mandate Envelope, Aggregation
 - claim-generator
 - communication-session
 - compliance
-- Content Provenance Policy
+- content provenance policy
 - content-credential
-- Control Mode
+- control mode
 - control-authority
-- Control-Plane Shift
+- control-plane shift
 - controlled-document
 - controlled-identifier
 - controller
@@ -103,10 +103,10 @@ acceptance, acceptance-network, Agent Class, Agent Mandate Envelope, Aggregation
 - dcql
 - dead-drop
 - decentralized-identifier
-- Decision Receipt
+- decision receipt
 - delegatee
 - delegation
-- Delegation Lineage
+- delegation lineage
 - delegation-credential
 - delegator
 - dictionary
@@ -119,18 +119,18 @@ acceptance, acceptance-network, Agent Class, Agent Mandate Envelope, Aggregation
 - digital-vault
 - digital-wallet
 - discovery
-- Discovery Governance
+- discovery governance
 - dpop
-- Dynamic Authorization
+- dynamic authorization
 - ecosystem-governance-framework
 - eidas
 - end-to-end-principle
 - end-verifiability
 - entity-statement
 - eudi-wallet
-- Evidence Artifact
-- Evidence Bundle
-- Extension Contract
+- evidence artifact
+- evidence bundle
+- extension contract
 - fal
 - federation
 - ... and 166 more
@@ -141,65 +141,65 @@ acceptance, acceptance-network, Agent Class, Agent Mandate Envelope, Aggregation
 - administering-body
 - agency
 - agent
-- Agent Class
-- Agent Mandate Envelope
-- Aggregation Amplification
-- Attention Policy
+- agent class
+- agent mandate envelope
+- aggregation amplification
+- attention policy
 - authority
-- Authority Boundary
-- Authorization Checkpoint
+- authority boundary
+- authorization checkpoint
 - authorized-organizational-representative
 - capability
-- Capability Negotiation
-- Content Provenance Policy
-- Control Mode
-- Control-Plane Shift
+- capability negotiation
+- content provenance policy
+- control mode
+- control-plane shift
 - controlled-identifier
 - controller
-- Decision Receipt
+- decision receipt
 - delegatee
 - delegation
-- Delegation Lineage
+- delegation lineage
 - delegation-credential
 - delegator
 - did-document
 - digital-agent
 - digital-vault
 - digital-wallet
-- Discovery Governance
-- Dynamic Authorization
-- Evidence Artifact
-- Evidence Bundle
-- Extension Contract
+- discovery governance
+- dynamic authorization
+- evidence artifact
+- evidence bundle
+- extension contract
 - governing-body
 - holder
-- Interaction Context
-- Interaction Task
+- interaction context
+- interaction task
 - issuer
-- Issuer Concealment
+- issuer concealment
 - keys-at-the-edge
-- Legitimacy Gap
-- Monotonic Attenuation
-- Nullifier
-- Observability Mode
-- Opacity Boundary
-- Peer Trust Relation
+- legitimacy gap
+- monotonic attenuation
+- nullifier
+- observability mode
+- opacity boundary
+- peer trust relation
 - personal-data-store
-- Personhood
-- Predicate Proof
+- personhood
+- predicate proof
 - principal
-- Proof-Carrying Commitment Receipt
+- proof-carrying commitment receipt
 - registration-agent
-- Runtime Authority Envelope
-- Runtime Governance Envelope
+- runtime authority envelope
+- runtime governance envelope
 - second-party
-- Service Descriptor
-- Skill Contract
+- service descriptor
+- skill contract
 - software-agent
 - subscription
-- Task Evidence Lifecycle
-- Trust Task Execution Receipt
-- Unlinkability
+- task evidence lifecycle
+- trust task execution receipt
+- unlinkability
 - user-agent
 - validation
 - verification
@@ -212,11 +212,11 @@ acceptance, acceptance-network, Agent Class, Agent Mandate Envelope, Aggregation
 - administering-authority
 - administering-body
 - agent
-- Agent Class
-- Agent Mandate Envelope
-- Aggregation Amplification
+- agent class
+- agent mandate envelope
+- aggregation amplification
 - assurance-level
-- Attention Policy
+- attention policy
 - auditor
 - authentic-chained-data-container
 - authentication
@@ -224,9 +224,9 @@ acceptance, acceptance-network, Agent Class, Agent Mandate Envelope, Aggregation
 - authoritative
 - authoritative-source
 - authority
-- Authority Boundary
+- authority boundary
 - authorization
-- Authorization Checkpoint
+- authorization checkpoint
 - authorization-graph
 - authorized-organizational-representative
 - autonomic-namespace
@@ -235,14 +235,14 @@ acceptance, acceptance-network, Agent Class, Agent Mandate Envelope, Aggregation
 - broken-object-level-authorization
 - ca
 - capability
-- Capability Negotiation
+- capability negotiation
 - certificate-authority
 - certification-authority
 - chained-credentials
-- Content Provenance Policy
-- Control Mode
+- content provenance policy
+- control mode
 - control-authority
-- Control-Plane Shift
+- control-plane shift
 - controlled-document
 - credential
 - credential-family
@@ -254,10 +254,10 @@ acceptance, acceptance-network, Agent Class, Agent Mandate Envelope, Aggregation
 - data-schema
 - dead-drop
 - decentralized-identifier
-- Decision Receipt
+- decision receipt
 - delegatee
 - delegation
-- Delegation Lineage
+- delegation lineage
 - delegation-credential
 - delegator
 - did-document
@@ -266,12 +266,12 @@ acceptance, acceptance-network, Agent Class, Agent Mandate Envelope, Aggregation
 - digital-trust-utility
 - digital-wallet
 - discovery
-- Discovery Governance
-- Dynamic Authorization
+- discovery governance
+- dynamic authorization
 - ecosystem-governance-framework
-- Evidence Artifact
-- Evidence Bundle
-- Extension Contract
+- evidence artifact
+- evidence bundle
+- extension contract
 - foundational-identity
 - functional-identity
 - governance-diamond
@@ -285,28 +285,28 @@ acceptance, acceptance-network, Agent Class, Agent Mandate Envelope, Aggregation
 - holder
 - identity-binding
 - identity-document
-- Interaction Context
-- Interaction Task
+- interaction context
+- interaction task
 - issuance
 - issuance-request
 - issuer
-- Issuer Concealment
-- Legitimacy Gap
+- issuer concealment
+- legitimacy gap
 - legitimized-human-meaningful-identifier
-- Monotonic Attenuation
-- Nullifier
-- Observability Mode
-- Opacity Boundary
+- monotonic attenuation
+- nullifier
+- observability mode
+- opacity boundary
 - organizational-authority
 - password
 - peer
-- Peer Trust Relation
+- peer trust relation
 - permission
-- Personhood
+- personhood
 - physical-credential
 - pid
 - policy
-- Predicate Proof
+- predicate proof
 - presentation
 - ... and 49 more
 
@@ -326,9 +326,9 @@ acceptance, acceptance-network, Agent Class, Agent Mandate Envelope, Aggregation
 - **administering-body** — proposed, active, suspended, revoked, retired
 - **agency** — documented, active, deprecated
 - **agent** — proposed, active, suspended, revoked, retired
-- **Agent Class** — proposed, active, suspended, revoked, retired
-- **Agent Mandate Envelope** — proposed, active, suspended, revoked, retired
-- **Aggregation Amplification** — proposed, active, suspended, revoked, retired
+- **agent class** — proposed, active, suspended, revoked, retired
+- **agent mandate envelope** — proposed, active, suspended, revoked, retired
+- **aggregation amplification** — proposed, active, suspended, revoked, retired
 - **aid** — documented, active, deprecated
 - **anonymous** — documented, active, deprecated
 - **anycast** — documented, active, deprecated
@@ -336,7 +336,7 @@ acceptance, acceptance-network, Agent Class, Agent Mandate Envelope, Aggregation
 - **appraisability** — documented, active, deprecated
 - **appropriate-friction** — documented, active, deprecated
 - **assurance-level** — proposed, active, suspended, revoked, retired
-- **Attention Policy** — proposed, active, suspended, revoked, retired
+- **attention policy** — proposed, active, suspended, revoked, retired
 - **attestation** — documented, active, deprecated
 - **attribute** — documented, active, deprecated
 - **attribute-based-access-control** — documented, active, deprecated
@@ -353,9 +353,9 @@ acceptance, acceptance-network, Agent Class, Agent Mandate Envelope, Aggregation
 - **authoritative** — proposed, active, suspended, revoked, retired
 - **authoritative-source** — proposed, active, suspended, revoked, retired
 - **authority** — proposed, active, suspended, revoked, retired
-- **Authority Boundary** — proposed, active, suspended, revoked, retired
+- **authority boundary** — proposed, active, suspended, revoked, retired
 - **authorization** — proposed, active, suspended, revoked, retired
-- **Authorization Checkpoint** — proposed, active, suspended, revoked, retired
+- **authorization checkpoint** — proposed, active, suspended, revoked, retired
 - **authorization-graph** — proposed, active, suspended, revoked, retired
 - **authorized-organizational-representative** — proposed, active, suspended, revoked, retired
 - **autonomic-identifier** — documented, active, deprecated
@@ -374,7 +374,7 @@ acceptance, acceptance-network, Agent Class, Agent Mandate Envelope, Aggregation
 - **ca** — proposed, active, suspended, revoked, retired
 - **cai** — documented, active, deprecated
 - **capability** — proposed, active, suspended, revoked, retired
-- **Capability Negotiation** — proposed, active, suspended, revoked, retired
+- **capability negotiation** — proposed, active, suspended, revoked, retired
 - **certificate** — documented, active, deprecated
 - **certificate-authority** — proposed, active, suspended, revoked, retired
 - **certification** — documented, active, deprecated
@@ -401,13 +401,13 @@ acceptance, acceptance-network, Agent Class, Agent Mandate Envelope, Aggregation
 - **confidentiality** — documented, active, deprecated
 - **connection** — documented, active, deprecated
 - **consent-management** — documented, active, deprecated
-- **Content Provenance Policy** — proposed, active, suspended, revoked, retired
+- **content provenance policy** — proposed, active, suspended, revoked, retired
 - **content-authenticity-initiative** — documented, active, deprecated
 - **content-credential** — proposed, active, retired
 - **contextual-linkability** — documented, active, deprecated
-- **Control Mode** — proposed, active, suspended, revoked, retired
+- **control mode** — proposed, active, suspended, revoked, retired
 - **control-authority** — proposed, active, suspended, revoked, retired
-- **Control-Plane Shift** — proposed, active, suspended, revoked, retired
+- **control-plane shift** — proposed, active, suspended, revoked, retired
 - **controlled-document** — proposed, active, suspended, revoked, retired
 - **controlled-identifier** — proposed, active, retired
 - **controller** — documented, active, deprecated
@@ -430,9 +430,9 @@ acceptance, acceptance-network, Agent Class, Agent Mandate Envelope, Aggregation
 - **administering-body** — audit_log, delegation_record, policy_document, registry_entry, status_record, verification_log
 - **agency** — delegation_record
 - **agent** — audit_log, delegation_record, policy_document, registry_entry, status_record, verification_log
-- **Agent Class** — delegation_record, policy_document, status_record, verification_log
-- **Agent Mandate Envelope** — delegation_record, policy_document, status_record, verification_log
-- **Aggregation Amplification** — delegation_record, policy_document, status_record, verification_log
+- **agent class** — delegation_record, policy_document, status_record, verification_log
+- **agent mandate envelope** — delegation_record, policy_document, status_record, verification_log
+- **aggregation amplification** — delegation_record, policy_document, status_record, verification_log
 - **aid** — definition_change_record
 - **anonymous** — definition_change_record
 - **anycast** — definition_change_record
@@ -440,7 +440,7 @@ acceptance, acceptance-network, Agent Class, Agent Mandate Envelope, Aggregation
 - **appraisability** — verification_log
 - **appropriate-friction** — audit_log, definition_change_record, policy_document
 - **assurance-level** — access_decision_log, attestation, audit_log, issuance_log, policy_document, registry_entry, status_record, verification_log
-- **Attention Policy** — delegation_record, policy_document, status_record, verification_log
+- **attention policy** — delegation_record, policy_document, status_record, verification_log
 - **attestation** — attestation
 - **attribute** — definition_change_record
 - **attribute-based-access-control** — access_decision_log, policy_document
@@ -457,9 +457,9 @@ acceptance, acceptance-network, Agent Class, Agent Mandate Envelope, Aggregation
 - **authoritative** — audit_log, definition_change_record, registry_entry, status_record, verification_log
 - **authoritative-source** — policy_document, registry_entry, verification_log
 - **authority** — delegation_record, policy_document, status_record
-- **Authority Boundary** — delegation_record, policy_document, status_record, verification_log
+- **authority boundary** — delegation_record, policy_document, status_record, verification_log
 - **authorization** — access_decision_log, audit_log, issuance_log, policy_document, registry_entry, status_record, verification_log
-- **Authorization Checkpoint** — delegation_record, policy_document, status_record, verification_log
+- **authorization checkpoint** — delegation_record, policy_document, status_record, verification_log
 - **authorization-graph** — access_decision_log, audit_log, policy_document, registry_entry, status_record, verification_log
 - **authorized-organizational-representative** — audit_log, delegation_record, issuance_log, policy_document, registry_entry, status_record, verification_log
 - **autonomic-identifier** — definition_change_record
@@ -478,7 +478,7 @@ acceptance, acceptance-network, Agent Class, Agent Mandate Envelope, Aggregation
 - **ca** — audit_log, definition_change_record, registry_entry, status_record, verification_log
 - **cai** — definition_change_record
 - **capability** — access_decision_log, audit_log, delegation_record, policy_document, registry_entry, status_record, verification_log
-- **Capability Negotiation** — delegation_record, policy_document, status_record, verification_log
+- **capability negotiation** — delegation_record, policy_document, status_record, verification_log
 - **certificate** — definition_change_record
 - **certificate-authority** — audit_log, policy_document, registry_entry, status_record, verification_log
 - **certification** — audit_log, definition_change_record, policy_document
@@ -505,13 +505,13 @@ acceptance, acceptance-network, Agent Class, Agent Mandate Envelope, Aggregation
 - **confidentiality** — audit_log, definition_change_record, policy_document
 - **connection** — definition_change_record
 - **consent-management** — definition_change_record
-- **Content Provenance Policy** — delegation_record, policy_document, status_record, verification_log
+- **content provenance policy** — delegation_record, policy_document, status_record, verification_log
 - **content-authenticity-initiative** — definition_change_record
 - **content-credential** — attestation, audit_log, verification_log
 - **contextual-linkability** — definition_change_record
-- **Control Mode** — delegation_record, policy_document, status_record, verification_log
+- **control mode** — delegation_record, policy_document, status_record, verification_log
 - **control-authority** — audit_log, definition_change_record, registry_entry, status_record, verification_log
-- **Control-Plane Shift** — delegation_record, policy_document, status_record, verification_log
+- **control-plane shift** — delegation_record, policy_document, status_record, verification_log
 - **controlled-document** — audit_log, definition_change_record, registry_entry, status_record, verification_log
 - **controlled-identifier** — audit_log, delegation_record, verification_log
 - **controller** — delegation_record
@@ -531,13 +531,13 @@ acceptance, acceptance-network, Agent Class, Agent Mandate Envelope, Aggregation
 - **administering-body** — policy_approval, delegation_grant, revocation_decision
 - **agency** — delegation_grant
 - **agent** — delegation_grant, revocation_decision
-- **Agent Class** — policy_approval, delegation_grant, reliance_decision, revocation_decision
-- **Agent Mandate Envelope** — policy_approval, delegation_grant, reliance_decision, revocation_decision
-- **Aggregation Amplification** — policy_approval, delegation_grant, reliance_decision, revocation_decision
+- **agent class** — policy_approval, delegation_grant, reliance_decision, revocation_decision
+- **agent mandate envelope** — policy_approval, delegation_grant, reliance_decision, revocation_decision
+- **aggregation amplification** — policy_approval, delegation_grant, reliance_decision, revocation_decision
 - **appraisability** — reliance_decision
 - **appropriate-friction** — definition_approval
 - **assurance-level** — issuance_decision, access_decision, revocation_decision
-- **Attention Policy** — policy_approval, delegation_grant, reliance_decision, revocation_decision
+- **attention policy** — policy_approval, delegation_grant, reliance_decision, revocation_decision
 - **attestation** — definition_approval
 - **attribute-based-access-control** — policy_approval, access_decision
 - **attributional-trust** — definition_approval
@@ -552,9 +552,9 @@ acceptance, acceptance-network, Agent Class, Agent Mandate Envelope, Aggregation
 - **authoritative** — revocation_decision
 - **authoritative-source** — policy_approval, registration_decision, reliance_decision, revocation_decision
 - **authority** — policy_approval, delegation_grant, revocation_decision
-- **Authority Boundary** — policy_approval, delegation_grant, reliance_decision, revocation_decision
+- **authority boundary** — policy_approval, delegation_grant, reliance_decision, revocation_decision
 - **authorization** — policy_approval, issuance_decision, access_decision, revocation_decision
-- **Authorization Checkpoint** — policy_approval, delegation_grant, reliance_decision, revocation_decision
+- **authorization checkpoint** — policy_approval, delegation_grant, reliance_decision, revocation_decision
 - **authorization-graph** — access_decision, revocation_decision
 - **authorized-organizational-representative** — delegation_grant, issuance_decision, revocation_decision
 - **autonomic-identity-system** — definition_approval
@@ -568,7 +568,7 @@ acceptance, acceptance-network, Agent Class, Agent Mandate Envelope, Aggregation
 - **c2pa-manifest** — reliance_decision
 - **ca** — revocation_decision
 - **capability** — delegation_grant, access_decision, revocation_decision
-- **Capability Negotiation** — policy_approval, delegation_grant, reliance_decision, revocation_decision
+- **capability negotiation** — policy_approval, delegation_grant, reliance_decision, revocation_decision
 - **certificate-authority** — policy_approval, revocation_decision
 - **certification** — definition_approval
 - **certification-authority** — revocation_decision
@@ -580,11 +580,11 @@ acceptance, acceptance-network, Agent Class, Agent Mandate Envelope, Aggregation
 - **communication-session** — access_decision
 - **compliance** — policy_approval
 - **confidentiality** — definition_approval
-- **Content Provenance Policy** — policy_approval, delegation_grant, reliance_decision, revocation_decision
+- **content provenance policy** — policy_approval, delegation_grant, reliance_decision, revocation_decision
 - **content-credential** — reliance_decision
-- **Control Mode** — policy_approval, delegation_grant, reliance_decision, revocation_decision
+- **control mode** — policy_approval, delegation_grant, reliance_decision, revocation_decision
 - **control-authority** — revocation_decision
-- **Control-Plane Shift** — policy_approval, delegation_grant, reliance_decision, revocation_decision
+- **control-plane shift** — policy_approval, delegation_grant, reliance_decision, revocation_decision
 - **controlled-document** — revocation_decision
 - **controlled-identifier** — reliance_decision, delegation_grant
 - **controller** — delegation_grant
@@ -606,10 +606,10 @@ acceptance, acceptance-network, Agent Class, Agent Mandate Envelope, Aggregation
 - **dead-drop** — issuance_decision, revocation_decision
 - **decentralized-identifier** — revocation_decision
 - **decentralized-identity** — definition_approval
-- **Decision Receipt** — policy_approval, delegation_grant, reliance_decision, revocation_decision
+- **decision receipt** — policy_approval, delegation_grant, reliance_decision, revocation_decision
 - **delegatee** — delegation_grant, revocation_decision
 - **delegation** — delegation_grant, revocation_decision
-- **Delegation Lineage** — policy_approval, delegation_grant, reliance_decision, revocation_decision
+- **delegation lineage** — policy_approval, delegation_grant, reliance_decision, revocation_decision
 - **delegation-credential** — delegation_grant, issuance_decision, revocation_decision
 - **delegator** — delegation_grant, revocation_decision
 - **device-controller** — definition_approval

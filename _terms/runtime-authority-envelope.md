@@ -1,10 +1,10 @@
 ---
-title: "Runtime Authority Envelope"
+title: "runtime authority envelope"
 ---
 
 > Generated file. Update `glossary/terms/runtime-authority-envelope.yaml` and regenerate artifacts instead of editing this page directly.
 
-# Runtime Authority Envelope
+# runtime authority envelope
 
 ## Definition
 A runtime artifact that carries the currently valid authority, scope, constraints, delegation lineage, and status required before an action may be executed.

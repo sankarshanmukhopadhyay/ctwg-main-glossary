@@ -1,10 +1,10 @@
 ---
-title: "Extension Contract"
+title: "extension contract"
 ---
 
 > Generated file. Update `glossary/terms/extension-contract.yaml` and regenerate artifacts instead of editing this page directly.
 
-# Extension Contract
+# extension contract
 
 ## Definition
 A protocol-neutral record of whether an optional or required extension was proposed, supported, accepted, degraded, rejected, or not attempted, including the applicable failure behavior.

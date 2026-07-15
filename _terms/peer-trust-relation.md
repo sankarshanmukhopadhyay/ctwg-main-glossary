@@ -1,10 +1,10 @@
 ---
-title: "Peer Trust Relation"
+title: "peer trust relation"
 ---
 
 > Generated file. Update `glossary/terms/peer-trust-relation.yaml` and regenerate artifacts instead of editing this page directly.
 
-# Peer Trust Relation
+# peer trust relation
 
 ## Definition
 A lateral trust relationship between parties that do not hold hierarchical authority over one another and that rely on an explicit trust basis such as credential exchange, policy acceptance, or third-party introduction.

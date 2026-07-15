@@ -1,10 +1,10 @@
 ---
-title: "Monotonic Attenuation"
+title: "monotonic attenuation"
 ---
 
 > Generated file. Update `glossary/terms/monotonic-attenuation.yaml` and regenerate artifacts instead of editing this page directly.
 
-# Monotonic Attenuation
+# monotonic attenuation
 
 ## Definition
 The delegation invariant that authority may remain unchanged or become narrower at each delegation hop but must never expand beyond the parent grant.

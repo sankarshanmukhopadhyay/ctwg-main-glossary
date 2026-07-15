@@ -1,7 +1,7 @@
 title: ToIP Main Glossary
 description: Governance-executable glossary for Trust Over IP concepts and ecosystem terminology.
 
-url: "https://trustoverip.github.io"
+url: "https://sankarshanmukhopadhyay.github.io"
 baseurl: "/ctwg-main-glossary"
 
 remote_theme: just-the-docs/just-the-docs
@@ -18,7 +18,7 @@ compress_html:
 
 aux_links:
   "GitHub Repository":
-    - "https://github.com/trustoverip/ctwg-main-glossary"
+    - "https://github.com/sankarshanmukhopadhyay/ctwg-main-glossary"
 
 plugins:
   - jekyll-remote-theme
@@ -33,6 +33,7 @@ exclude:
   - node_modules/
   - vendor/
   - spec/
+  - docs/governance/
   - docs/versions/
 
 just_the_docs:

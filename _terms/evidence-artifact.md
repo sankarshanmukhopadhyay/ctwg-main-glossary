@@ -1,10 +1,10 @@
 ---
-title: "Evidence Artifact"
+title: "evidence artifact"
 ---
 
 > Generated file. Update `glossary/terms/evidence-artifact.yaml` and regenerate artifacts instead of editing this page directly.
 
-# Evidence Artifact
+# evidence artifact
 
 ## Definition
 A typed, structured output produced by a system, authorized actor, or assessment process to demonstrate that a rule was checked, a behavior occurred, or a condition holds.

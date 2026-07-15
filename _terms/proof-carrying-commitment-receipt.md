@@ -1,10 +1,10 @@
 ---
-title: "Proof-Carrying Commitment Receipt"
+title: "proof-carrying commitment receipt"
 ---
 
 > Generated file. Update `glossary/terms/proof-carrying-commitment-receipt.yaml` and regenerate artifacts instead of editing this page directly.
 
-# Proof-Carrying Commitment Receipt
+# proof-carrying commitment receipt
 
 ## Definition
 A receipt that records a commitment together with cryptographic or verifiable evidence sufficient to evaluate who was authorized, what was committed, under which conditions, and with what lifecycle status.

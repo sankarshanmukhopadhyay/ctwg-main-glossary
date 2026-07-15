@@ -1,10 +1,10 @@
 ---
-title: "Authority Boundary"
+title: "authority boundary"
 ---
 
 > Generated file. Update `glossary/terms/authority-boundary.yaml` and regenerate artifacts instead of editing this page directly.
 
-# Authority Boundary
+# authority boundary
 
 ## Definition
 A machine- or human-readable constraint that identifies where authority begins and ends, including the permitted actor, scope, action, target, conditions, and lifecycle state.

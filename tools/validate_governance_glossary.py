@@ -134,6 +134,8 @@ def main() -> int:
                     raise ValueError("basic validation failed: " + "; ".join(required_errors))
 
             term = str(data.get("term", "")).strip()
+            if term != term.lower():
+                raise ValueError("term must use repository-standard lowercase display casing")
             expected_slug = slugify(f.stem)
             computed_slug = slugify(term)
             if expected_slug != computed_slug:

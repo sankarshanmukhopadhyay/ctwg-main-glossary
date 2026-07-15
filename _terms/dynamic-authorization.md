@@ -1,10 +1,10 @@
 ---
-title: "Dynamic Authorization"
+title: "dynamic authorization"
 ---
 
 > Generated file. Update `glossary/terms/dynamic-authorization.yaml` and regenerate artifacts instead of editing this page directly.
 
-# Dynamic Authorization
+# dynamic authorization
 
 ## Definition
 An authorization approach in which runtime decisions are produced by evaluating contextual attributes, evidence, and policy rather than relying only on static permissions.

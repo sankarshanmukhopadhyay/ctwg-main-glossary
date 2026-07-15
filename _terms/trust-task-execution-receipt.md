@@ -1,10 +1,10 @@
 ---
-title: "Trust Task Execution Receipt"
+title: "trust task execution receipt"
 ---
 
 > Generated file. Update `glossary/terms/trust-task-execution-receipt.yaml` and regenerate artifacts instead of editing this page directly.
 
-# Trust Task Execution Receipt
+# trust task execution receipt
 
 ## Definition
 A structured receipt that records how a trust-relevant task was authorized, executed, evidenced, and completed or terminated.

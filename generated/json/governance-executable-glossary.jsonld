@@ -669,10 +669,10 @@
     {
       "@type": "DefinedTerm",
       "@id": "urn:toip:glossary:agent-class",
-      "name": "Agent Class",
+      "name": "agent class",
       "description": "A typed descriptor for the operating posture of an agentic actor, used to distinguish the kind of role the agent performs from the controls governing how it operates.",
       "inDefinedTermSet": "ToIP Main Glossary",
-      "identifier": "Agent Class",
+      "identifier": "agent class",
       "subjectOf": {
         "governance": {
           "authority_scope": [
@@ -730,10 +730,10 @@
     {
       "@type": "DefinedTerm",
       "@id": "urn:toip:glossary:agent-mandate-envelope",
-      "name": "Agent Mandate Envelope",
+      "name": "agent mandate envelope",
       "description": "A structured artifact that binds an agent to an originating principal, delegated mandate, permitted scope, conditions, expiry, revocation semantics, and evidence requirements.",
       "inDefinedTermSet": "ToIP Main Glossary",
-      "identifier": "Agent Mandate Envelope",
+      "identifier": "agent mandate envelope",
       "subjectOf": {
         "governance": {
           "authority_scope": [
@@ -853,10 +853,10 @@
     {
       "@type": "DefinedTerm",
       "@id": "urn:toip:glossary:aggregation-amplification",
-      "name": "Aggregation Amplification",
+      "name": "aggregation amplification",
       "description": "A delegation failure mode in which individually valid and attenuated authority branches combine to produce an effect broader than the originating mandate permits.",
       "inDefinedTermSet": "ToIP Main Glossary",
-      "identifier": "Aggregation Amplification",
+      "identifier": "aggregation amplification",
       "subjectOf": {
         "governance": {
           "authority_scope": [
@@ -1273,10 +1273,10 @@
     {
       "@type": "DefinedTerm",
       "@id": "urn:toip:glossary:attention-policy",
-      "name": "Attention Policy",
+      "name": "attention policy",
       "description": "A policy that governs how inbound signals are admitted, deferred, summarized, rerouted, escalated, or rejected before reaching a principal or downstream decision layer.",
       "inDefinedTermSet": "ToIP Main Glossary",
-      "identifier": "Attention Policy",
+      "identifier": "attention policy",
       "subjectOf": {
         "governance": {
           "authority_scope": [
@@ -2131,10 +2131,10 @@
     {
       "@type": "DefinedTerm",
       "@id": "urn:toip:glossary:authority-boundary",
-      "name": "Authority Boundary",
+      "name": "authority boundary",
       "description": "A machine- or human-readable constraint that identifies where authority begins and ends, including the permitted actor, scope, action, target, conditions, and lifecycle state.",
       "inDefinedTermSet": "ToIP Main Glossary",
-      "identifier": "Authority Boundary",
+      "identifier": "authority boundary",
       "subjectOf": {
         "governance": {
           "authority_scope": [
@@ -2255,10 +2255,10 @@
     {
       "@type": "DefinedTerm",
       "@id": "urn:toip:glossary:authorization-checkpoint",
-      "name": "Authorization Checkpoint",
+      "name": "authorization checkpoint",
       "description": "A runtime trust event that pauses or interrupts an interaction because required authorization, scope, evidence, or input is absent or insufficient.",
       "inDefinedTermSet": "ToIP Main Glossary",
-      "identifier": "Authorization Checkpoint",
+      "identifier": "authorization checkpoint",
       "subjectOf": {
         "governance": {
           "authority_scope": [
@@ -3298,10 +3298,10 @@
     {
       "@type": "DefinedTerm",
       "@id": "urn:toip:glossary:capability-negotiation",
-      "name": "Capability Negotiation",
+      "name": "capability negotiation",
       "description": "A governed process for determining whether an advertised capability is discoverable, compatible, authorized, accepted, and permitted to execute under applicable policy.",
       "inDefinedTermSet": "ToIP Main Glossary",
-      "identifier": "Capability Negotiation",
+      "identifier": "capability negotiation",
       "subjectOf": {
         "governance": {
           "authority_scope": [
@@ -4810,10 +4810,10 @@
     {
       "@type": "DefinedTerm",
       "@id": "urn:toip:glossary:content-provenance-policy",
-      "name": "Content Provenance Policy",
+      "name": "content provenance policy",
       "description": "A governance policy that specifies what provenance, integrity, sanitization, redaction, and evidence conditions must be satisfied before content may be acted upon, stored, or forwarded.",
       "inDefinedTermSet": "ToIP Main Glossary",
-      "identifier": "Content Provenance Policy",
+      "identifier": "content provenance policy",
       "subjectOf": {
         "governance": {
           "authority_scope": [
@@ -4975,10 +4975,10 @@
     {
       "@type": "DefinedTerm",
       "@id": "urn:toip:glossary:control-mode",
-      "name": "Control Mode",
+      "name": "control mode",
       "description": "A descriptor for the human-oversight shape of an agent or automated system at runtime, including whether intervention occurs in-loop, on-loop, through a sidecar, or within pre-bounded autonomy.",
       "inDefinedTermSet": "ToIP Main Glossary",
-      "identifier": "Control Mode",
+      "identifier": "control mode",
       "subjectOf": {
         "governance": {
           "authority_scope": [
@@ -5036,10 +5036,10 @@
     {
       "@type": "DefinedTerm",
       "@id": "urn:toip:glossary:control-plane-shift",
-      "name": "Control-Plane Shift",
+      "name": "control-plane shift",
       "description": "A change in which actor, policy, infrastructure component, or governance mechanism can determine, constrain, or revoke system behavior.",
       "inDefinedTermSet": "ToIP Main Glossary",
-      "identifier": "Control-Plane Shift",
+      "identifier": "control-plane shift",
       "subjectOf": {
         "governance": {
           "authority_scope": [
@@ -7023,10 +7023,10 @@
     {
       "@type": "DefinedTerm",
       "@id": "urn:toip:glossary:decision-receipt",
-      "name": "Decision Receipt",
+      "name": "decision receipt",
       "description": "A structured, integrity-protected record of a trust or governance decision, including the decision context, authority, policy, evidence, outcome, obligations, and traceability data.",
       "inDefinedTermSet": "ToIP Main Glossary",
-      "identifier": "Decision Receipt",
+      "identifier": "decision receipt",
       "subjectOf": {
         "governance": {
           "authority_scope": [
@@ -7352,10 +7352,10 @@
     {
       "@type": "DefinedTerm",
       "@id": "urn:toip:glossary:delegation-lineage",
-      "name": "Delegation Lineage",
+      "name": "delegation lineage",
       "description": "The ordered, verifiable path by which authority exercised by a current actor resolves through intermediate delegators to an originating principal and mandate.",
       "inDefinedTermSet": "ToIP Main Glossary",
-      "identifier": "Delegation Lineage",
+      "identifier": "delegation lineage",
       "subjectOf": {
         "governance": {
           "authority_scope": [
@@ -8615,10 +8615,10 @@
     {
       "@type": "DefinedTerm",
       "@id": "urn:toip:glossary:discovery-governance",
-      "name": "Discovery Governance",
+      "name": "discovery governance",
       "description": "The policies and controls that determine how descriptors or services are discovered, who mediates discovery, what access and freshness rules apply, and how discovery failures are handled.",
       "inDefinedTermSet": "ToIP Main Glossary",
-      "identifier": "Discovery Governance",
+      "identifier": "discovery governance",
       "subjectOf": {
         "governance": {
           "authority_scope": [
@@ -8974,10 +8974,10 @@
     {
       "@type": "DefinedTerm",
       "@id": "urn:toip:glossary:dynamic-authorization",
-      "name": "Dynamic Authorization",
+      "name": "dynamic authorization",
       "description": "An authorization approach in which runtime decisions are produced by evaluating contextual attributes, evidence, and policy rather than relying only on static permissions.",
       "inDefinedTermSet": "ToIP Main Glossary",
-      "identifier": "Dynamic Authorization",
+      "identifier": "dynamic authorization",
       "subjectOf": {
         "governance": {
           "authority_scope": [
@@ -9986,10 +9986,10 @@
     {
       "@type": "DefinedTerm",
       "@id": "urn:toip:glossary:evidence-artifact",
-      "name": "Evidence Artifact",
+      "name": "evidence artifact",
       "description": "A typed, structured output produced by a system, authorized actor, or assessment process to demonstrate that a rule was checked, a behavior occurred, or a condition holds.",
       "inDefinedTermSet": "ToIP Main Glossary",
-      "identifier": "Evidence Artifact",
+      "identifier": "evidence artifact",
       "subjectOf": {
         "governance": {
           "authority_scope": [
@@ -10047,10 +10047,10 @@
     {
       "@type": "DefinedTerm",
       "@id": "urn:toip:glossary:evidence-bundle",
-      "name": "Evidence Bundle",
+      "name": "evidence bundle",
       "description": "A bounded collection of evidence artifacts assembled for a decision, assessment, verification, or audit purpose, with sufficient metadata to support integrity and traceability.",
       "inDefinedTermSet": "ToIP Main Glossary",
-      "identifier": "Evidence Bundle",
+      "identifier": "evidence bundle",
       "subjectOf": {
         "governance": {
           "authority_scope": [
@@ -10155,10 +10155,10 @@
     {
       "@type": "DefinedTerm",
       "@id": "urn:toip:glossary:extension-contract",
-      "name": "Extension Contract",
+      "name": "extension contract",
       "description": "A protocol-neutral record of whether an optional or required extension was proposed, supported, accepted, degraded, rejected, or not attempted, including the applicable failure behavior.",
       "inDefinedTermSet": "ToIP Main Glossary",
-      "identifier": "Extension Contract",
+      "identifier": "extension contract",
       "subjectOf": {
         "governance": {
           "authority_scope": [
@@ -13139,10 +13139,10 @@
     {
       "@type": "DefinedTerm",
       "@id": "urn:toip:glossary:interaction-context",
-      "name": "Interaction Context",
+      "name": "interaction context",
       "description": "A session-level governance envelope that groups related tasks, messages, authority, evidence, and trust decisions across a sequence of interactions.",
       "inDefinedTermSet": "ToIP Main Glossary",
-      "identifier": "Interaction Context",
+      "identifier": "interaction context",
       "subjectOf": {
         "governance": {
           "authority_scope": [
@@ -13200,10 +13200,10 @@
     {
       "@type": "DefinedTerm",
       "@id": "urn:toip:glossary:interaction-task",
-      "name": "Interaction Task",
+      "name": "interaction task",
       "description": "A durable work unit with governance-significant state transitions, artifact accumulation, continuation or cancellation semantics, and evidence obligations.",
       "inDefinedTermSet": "ToIP Main Glossary",
-      "identifier": "Interaction Task",
+      "identifier": "interaction task",
       "subjectOf": {
         "governance": {
           "authority_scope": [
@@ -13618,10 +13618,10 @@
     {
       "@type": "DefinedTerm",
       "@id": "urn:toip:glossary:issuer-concealment",
-      "name": "Issuer Concealment",
+      "name": "issuer concealment",
       "description": "A privacy property in which a proof or presentation does not disclose the identity of the issuer to the verifier, subject to the requirements and trust model of the applicable profile.",
       "inDefinedTermSet": "ToIP Main Glossary",
-      "identifier": "Issuer Concealment",
+      "identifier": "issuer concealment",
       "subjectOf": {
         "governance": {
           "authority_scope": [
@@ -14952,10 +14952,10 @@
     {
       "@type": "DefinedTerm",
       "@id": "urn:toip:glossary:legitimacy-gap",
-      "name": "Legitimacy Gap",
+      "name": "legitimacy gap",
       "description": "A mismatch between an action or decision that a system can technically execute and the authority, recognition, consent, or governance basis required for that action to be legitimate.",
       "inDefinedTermSet": "ToIP Main Glossary",
-      "identifier": "Legitimacy Gap",
+      "identifier": "legitimacy gap",
       "subjectOf": {
         "governance": {
           "authority_scope": [
@@ -15646,10 +15646,10 @@
     {
       "@type": "DefinedTerm",
       "@id": "urn:toip:glossary:monotonic-attenuation",
-      "name": "Monotonic Attenuation",
+      "name": "monotonic attenuation",
       "description": "The delegation invariant that authority may remain unchanged or become narrower at each delegation hop but must never expand beyond the parent grant.",
       "inDefinedTermSet": "ToIP Main Glossary",
-      "identifier": "Monotonic Attenuation",
+      "identifier": "monotonic attenuation",
       "subjectOf": {
         "governance": {
           "authority_scope": [
@@ -16428,10 +16428,10 @@
     {
       "@type": "DefinedTerm",
       "@id": "urn:toip:glossary:nullifier",
-      "name": "Nullifier",
+      "name": "nullifier",
       "description": "A cryptographically derived value used to detect prohibited reuse or duplication within a defined scope without revealing the underlying secret or necessarily enabling correlation across other scopes.",
       "inDefinedTermSet": "ToIP Main Glossary",
-      "identifier": "Nullifier",
+      "identifier": "nullifier",
       "subjectOf": {
         "governance": {
           "authority_scope": [
@@ -16536,10 +16536,10 @@
     {
       "@type": "DefinedTerm",
       "@id": "urn:toip:glossary:observability-mode",
-      "name": "Observability Mode",
+      "name": "observability mode",
       "description": "A descriptor for what can be known and evidenced about delivery, timing, progress, and user awareness for an interaction channel or execution path.",
       "inDefinedTermSet": "ToIP Main Glossary",
-      "identifier": "Observability Mode",
+      "identifier": "observability mode",
       "subjectOf": {
         "governance": {
           "authority_scope": [
@@ -16644,10 +16644,10 @@
     {
       "@type": "DefinedTerm",
       "@id": "urn:toip:glossary:opacity-boundary",
-      "name": "Opacity Boundary",
+      "name": "opacity boundary",
       "description": "A declared limit on what can be observed about an agent or system and the resulting constraints on trust, evidence, assurance, and permitted reliance.",
       "inDefinedTermSet": "ToIP Main Glossary",
-      "identifier": "Opacity Boundary",
+      "identifier": "opacity boundary",
       "subjectOf": {
         "governance": {
           "authority_scope": [
@@ -17469,10 +17469,10 @@
     {
       "@type": "DefinedTerm",
       "@id": "urn:toip:glossary:peer-trust-relation",
-      "name": "Peer Trust Relation",
+      "name": "peer trust relation",
       "description": "A lateral trust relationship between parties that do not hold hierarchical authority over one another and that rely on an explicit trust basis such as credential exchange, policy acceptance, or third-party introduction.",
       "inDefinedTermSet": "ToIP Main Glossary",
-      "identifier": "Peer Trust Relation",
+      "identifier": "peer trust relation",
       "subjectOf": {
         "governance": {
           "authority_scope": [
@@ -18024,10 +18024,10 @@
     {
       "@type": "DefinedTerm",
       "@id": "urn:toip:glossary:personhood",
-      "name": "Personhood",
+      "name": "personhood",
       "description": "The status or quality of being treated as a person for a defined social, legal, governance, or technical purpose; it is not equivalent to civil identity or the possession of an identifier.",
       "inDefinedTermSet": "ToIP Main Glossary",
-      "identifier": "Personhood",
+      "identifier": "personhood",
       "subjectOf": {
         "governance": {
           "authority_scope": [
@@ -18449,10 +18449,10 @@
     {
       "@type": "DefinedTerm",
       "@id": "urn:toip:glossary:predicate-proof",
-      "name": "Predicate Proof",
+      "name": "predicate proof",
       "description": "A proof that establishes whether a defined condition about one or more attributes is satisfied without necessarily disclosing the underlying attribute values.",
       "inDefinedTermSet": "ToIP Main Glossary",
-      "identifier": "Predicate Proof",
+      "identifier": "predicate proof",
       "subjectOf": {
         "governance": {
           "authority_scope": [
@@ -18947,10 +18947,10 @@
     {
       "@type": "DefinedTerm",
       "@id": "urn:toip:glossary:proof-carrying-commitment-receipt",
-      "name": "Proof-Carrying Commitment Receipt",
+      "name": "proof-carrying commitment receipt",
       "description": "A receipt that records a commitment together with cryptographic or verifiable evidence sufficient to evaluate who was authorized, what was committed, under which conditions, and with what lifecycle status.",
       "inDefinedTermSet": "ToIP Main Glossary",
-      "identifier": "Proof-Carrying Commitment Receipt",
+      "identifier": "proof-carrying commitment receipt",
       "subjectOf": {
         "governance": {
           "authority_scope": [
@@ -21457,10 +21457,10 @@
     {
       "@type": "DefinedTerm",
       "@id": "urn:toip:glossary:runtime-authority-envelope",
-      "name": "Runtime Authority Envelope",
+      "name": "runtime authority envelope",
       "description": "A runtime artifact that carries the currently valid authority, scope, constraints, delegation lineage, and status required before an action may be executed.",
       "inDefinedTermSet": "ToIP Main Glossary",
-      "identifier": "Runtime Authority Envelope",
+      "identifier": "runtime authority envelope",
       "subjectOf": {
         "governance": {
           "authority_scope": [
@@ -21518,10 +21518,10 @@
     {
       "@type": "DefinedTerm",
       "@id": "urn:toip:glossary:runtime-governance-envelope",
-      "name": "Runtime Governance Envelope",
+      "name": "runtime governance envelope",
       "description": "A structured envelope that binds the authority, policy, evidence, constraints, obligations, and lifecycle state applicable to a runtime interaction or task.",
       "inDefinedTermSet": "ToIP Main Glossary",
-      "identifier": "Runtime Governance Envelope",
+      "identifier": "runtime governance envelope",
       "subjectOf": {
         "governance": {
           "authority_scope": [
@@ -22572,10 +22572,10 @@
     {
       "@type": "DefinedTerm",
       "@id": "urn:toip:glossary:service-descriptor",
-      "name": "Service Descriptor",
+      "name": "service descriptor",
       "description": "A policy-governed disclosure artifact through which an agent, service, or system states what it is, what it can do, how it can be reached, and under what visibility conditions.",
       "inDefinedTermSet": "ToIP Main Glossary",
-      "identifier": "Service Descriptor",
+      "identifier": "service descriptor",
       "subjectOf": {
         "governance": {
           "authority_scope": [
@@ -22731,10 +22731,10 @@
     {
       "@type": "DefinedTerm",
       "@id": "urn:toip:glossary:skill-contract",
-      "name": "Skill Contract",
+      "name": "skill contract",
       "description": "An operational contract for a discrete capability that defines permitted inputs, outputs, authorization scope, policy conditions, and evidence obligations.",
       "inDefinedTermSet": "ToIP Main Glossary",
-      "identifier": "Skill Contract",
+      "identifier": "skill contract",
       "subjectOf": {
         "governance": {
           "authority_scope": [
@@ -23635,10 +23635,10 @@
     {
       "@type": "DefinedTerm",
       "@id": "urn:toip:glossary:task-evidence-lifecycle",
-      "name": "Task Evidence Lifecycle",
+      "name": "task evidence lifecycle",
       "description": "The sequence of evidence, receipts, artifacts, and review triggers associated with governance-significant task state transitions from initiation through completion, cancellation, or failure.",
       "inDefinedTermSet": "ToIP Main Glossary",
-      "identifier": "Task Evidence Lifecycle",
+      "identifier": "task evidence lifecycle",
       "subjectOf": {
         "governance": {
           "authority_scope": [
@@ -27813,10 +27813,10 @@
     {
       "@type": "DefinedTerm",
       "@id": "urn:toip:glossary:trust-task-execution-receipt",
-      "name": "Trust Task Execution Receipt",
+      "name": "trust task execution receipt",
       "description": "A structured receipt that records how a trust-relevant task was authorized, executed, evidenced, and completed or terminated.",
       "inDefinedTermSet": "ToIP Main Glossary",
-      "identifier": "Trust Task Execution Receipt",
+      "identifier": "trust task execution receipt",
       "subjectOf": {
         "governance": {
           "authority_scope": [
@@ -28887,10 +28887,10 @@
     {
       "@type": "DefinedTerm",
       "@id": "urn:toip:glossary:unlinkability",
-      "name": "Unlinkability",
+      "name": "unlinkability",
       "description": "A privacy property under which two or more transactions, proofs, identifiers, or observations cannot reasonably be determined to concern the same party beyond the permitted correlation scope.",
       "inDefinedTermSet": "ToIP Main Glossary",
-      "identifier": "Unlinkability",
+      "identifier": "unlinkability",
       "subjectOf": {
         "governance": {
           "authority_scope": [

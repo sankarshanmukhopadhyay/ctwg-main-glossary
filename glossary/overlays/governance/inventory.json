@@ -38,15 +38,15 @@
       "slug": "agent"
     },
     {
-      "term": "Agent Class",
+      "term": "agent class",
       "slug": "agent-class"
     },
     {
-      "term": "Agent Mandate Envelope",
+      "term": "agent mandate envelope",
       "slug": "agent-mandate-envelope"
     },
     {
-      "term": "Aggregation Amplification",
+      "term": "aggregation amplification",
       "slug": "aggregation-amplification"
     },
     {
@@ -58,7 +58,7 @@
       "slug": "assurance-level"
     },
     {
-      "term": "Attention Policy",
+      "term": "attention policy",
       "slug": "attention-policy"
     },
     {
@@ -110,7 +110,7 @@
       "slug": "authority"
     },
     {
-      "term": "Authority Boundary",
+      "term": "authority boundary",
       "slug": "authority-boundary"
     },
     {
@@ -118,7 +118,7 @@
       "slug": "authorization"
     },
     {
-      "term": "Authorization Checkpoint",
+      "term": "authorization checkpoint",
       "slug": "authorization-checkpoint"
     },
     {
@@ -166,7 +166,7 @@
       "slug": "capability"
     },
     {
-      "term": "Capability Negotiation",
+      "term": "capability negotiation",
       "slug": "capability-negotiation"
     },
     {
@@ -202,7 +202,7 @@
       "slug": "compliance"
     },
     {
-      "term": "Content Provenance Policy",
+      "term": "content provenance policy",
       "slug": "content-provenance-policy"
     },
     {
@@ -210,7 +210,7 @@
       "slug": "content-credential"
     },
     {
-      "term": "Control Mode",
+      "term": "control mode",
       "slug": "control-mode"
     },
     {
@@ -218,7 +218,7 @@
       "slug": "control-authority"
     },
     {
-      "term": "Control-Plane Shift",
+      "term": "control-plane shift",
       "slug": "control-plane-shift"
     },
     {
@@ -282,7 +282,7 @@
       "slug": "decentralized-identifier"
     },
     {
-      "term": "Decision Receipt",
+      "term": "decision receipt",
       "slug": "decision-receipt"
     },
     {
@@ -294,7 +294,7 @@
       "slug": "delegation"
     },
     {
-      "term": "Delegation Lineage",
+      "term": "delegation lineage",
       "slug": "delegation-lineage"
     },
     {
@@ -346,7 +346,7 @@
       "slug": "discovery"
     },
     {
-      "term": "Discovery Governance",
+      "term": "discovery governance",
       "slug": "discovery-governance"
     },
     {
@@ -354,7 +354,7 @@
       "slug": "dpop"
     },
     {
-      "term": "Dynamic Authorization",
+      "term": "dynamic authorization",
       "slug": "dynamic-authorization"
     },
     {
@@ -382,15 +382,15 @@
       "slug": "eudi-wallet"
     },
     {
-      "term": "Evidence Artifact",
+      "term": "evidence artifact",
       "slug": "evidence-artifact"
     },
     {
-      "term": "Evidence Bundle",
+      "term": "evidence bundle",
       "slug": "evidence-bundle"
     },
     {
-      "term": "Extension Contract",
+      "term": "extension contract",
       "slug": "extension-contract"
     },
     {
@@ -522,11 +522,11 @@
       "slug": "identity-provider"
     },
     {
-      "term": "Interaction Context",
+      "term": "interaction context",
       "slug": "interaction-context"
     },
     {
-      "term": "Interaction Task",
+      "term": "interaction task",
       "slug": "interaction-task"
     },
     {
@@ -546,7 +546,7 @@
       "slug": "issuer"
     },
     {
-      "term": "Issuer Concealment",
+      "term": "issuer concealment",
       "slug": "issuer-concealment"
     },
     {
@@ -570,7 +570,7 @@
       "slug": "legal-system"
     },
     {
-      "term": "Legitimacy Gap",
+      "term": "legitimacy gap",
       "slug": "legitimacy-gap"
     },
     {
@@ -590,19 +590,19 @@
       "slug": "manifest-consumer"
     },
     {
-      "term": "Monotonic Attenuation",
+      "term": "monotonic attenuation",
       "slug": "monotonic-attenuation"
     },
     {
-      "term": "Nullifier",
+      "term": "nullifier",
       "slug": "nullifier"
     },
     {
-      "term": "Observability Mode",
+      "term": "observability mode",
       "slug": "observability-mode"
     },
     {
-      "term": "Opacity Boundary",
+      "term": "opacity boundary",
       "slug": "opacity-boundary"
     },
     {
@@ -630,7 +630,7 @@
       "slug": "password"
     },
     {
-      "term": "Peer Trust Relation",
+      "term": "peer trust relation",
       "slug": "peer-trust-relation"
     },
     {
@@ -642,7 +642,7 @@
       "slug": "personal-data-store"
     },
     {
-      "term": "Personhood",
+      "term": "personhood",
       "slug": "personhood"
     },
     {
@@ -658,7 +658,7 @@
       "slug": "policy"
     },
     {
-      "term": "Predicate Proof",
+      "term": "predicate proof",
       "slug": "predicate-proof"
     },
     {
@@ -686,7 +686,7 @@
       "slug": "proof"
     },
     {
-      "term": "Proof-Carrying Commitment Receipt",
+      "term": "proof-carrying commitment receipt",
       "slug": "proof-carrying-commitment-receipt"
     },
     {
@@ -774,11 +774,11 @@
       "slug": "rule"
     },
     {
-      "term": "Runtime Authority Envelope",
+      "term": "runtime authority envelope",
       "slug": "runtime-authority-envelope"
     },
     {
-      "term": "Runtime Governance Envelope",
+      "term": "runtime governance envelope",
       "slug": "runtime-governance-envelope"
     },
     {
@@ -834,11 +834,11 @@
       "slug": "sender-constrained-token"
     },
     {
-      "term": "Service Descriptor",
+      "term": "service descriptor",
       "slug": "service-descriptor"
     },
     {
-      "term": "Skill Contract",
+      "term": "skill contract",
       "slug": "skill-contract"
     },
     {
@@ -870,7 +870,7 @@
       "slug": "system-of-record"
     },
     {
-      "term": "Task Evidence Lifecycle",
+      "term": "task evidence lifecycle",
       "slug": "task-evidence-lifecycle"
     },
     {
@@ -922,7 +922,7 @@
       "slug": "transitive-trust-decision"
     },
     {
-      "term": "Trust Task Execution Receipt",
+      "term": "trust task execution receipt",
       "slug": "trust-task-execution-receipt"
     },
     {
@@ -994,7 +994,7 @@
       "slug": "tta"
     },
     {
-      "term": "Unlinkability",
+      "term": "unlinkability",
       "slug": "unlinkability"
     },
     {
@@ -1084,19 +1084,19 @@
       "slug": "agent"
     },
     {
-      "term": "Agent Class",
+      "term": "agent class",
       "slug": "agent-class"
     },
     {
-      "term": "Agent Mandate Envelope",
+      "term": "agent mandate envelope",
       "slug": "agent-mandate-envelope"
     },
     {
-      "term": "Aggregation Amplification",
+      "term": "aggregation amplification",
       "slug": "aggregation-amplification"
     },
     {
-      "term": "Attention Policy",
+      "term": "attention policy",
       "slug": "attention-policy"
     },
     {
@@ -1104,11 +1104,11 @@
       "slug": "authority"
     },
     {
-      "term": "Authority Boundary",
+      "term": "authority boundary",
       "slug": "authority-boundary"
     },
     {
-      "term": "Authorization Checkpoint",
+      "term": "authorization checkpoint",
       "slug": "authorization-checkpoint"
     },
     {
@@ -1120,19 +1120,19 @@
       "slug": "capability"
     },
     {
-      "term": "Capability Negotiation",
+      "term": "capability negotiation",
       "slug": "capability-negotiation"
     },
     {
-      "term": "Content Provenance Policy",
+      "term": "content provenance policy",
       "slug": "content-provenance-policy"
     },
     {
-      "term": "Control Mode",
+      "term": "control mode",
       "slug": "control-mode"
     },
     {
-      "term": "Control-Plane Shift",
+      "term": "control-plane shift",
       "slug": "control-plane-shift"
     },
     {
@@ -1144,7 +1144,7 @@
       "slug": "controller"
     },
     {
-      "term": "Decision Receipt",
+      "term": "decision receipt",
       "slug": "decision-receipt"
     },
     {
@@ -1156,7 +1156,7 @@
       "slug": "delegation"
     },
     {
-      "term": "Delegation Lineage",
+      "term": "delegation lineage",
       "slug": "delegation-lineage"
     },
     {
@@ -1184,23 +1184,23 @@
       "slug": "digital-wallet"
     },
     {
-      "term": "Discovery Governance",
+      "term": "discovery governance",
       "slug": "discovery-governance"
     },
     {
-      "term": "Dynamic Authorization",
+      "term": "dynamic authorization",
       "slug": "dynamic-authorization"
     },
     {
-      "term": "Evidence Artifact",
+      "term": "evidence artifact",
       "slug": "evidence-artifact"
     },
     {
-      "term": "Evidence Bundle",
+      "term": "evidence bundle",
       "slug": "evidence-bundle"
     },
     {
-      "term": "Extension Contract",
+      "term": "extension contract",
       "slug": "extension-contract"
     },
     {
@@ -1212,11 +1212,11 @@
       "slug": "holder"
     },
     {
-      "term": "Interaction Context",
+      "term": "interaction context",
       "slug": "interaction-context"
     },
     {
-      "term": "Interaction Task",
+      "term": "interaction task",
       "slug": "interaction-task"
     },
     {
@@ -1224,7 +1224,7 @@
       "slug": "issuer"
     },
     {
-      "term": "Issuer Concealment",
+      "term": "issuer concealment",
       "slug": "issuer-concealment"
     },
     {
@@ -1232,27 +1232,27 @@
       "slug": "keys-at-the-edge"
     },
     {
-      "term": "Legitimacy Gap",
+      "term": "legitimacy gap",
       "slug": "legitimacy-gap"
     },
     {
-      "term": "Monotonic Attenuation",
+      "term": "monotonic attenuation",
       "slug": "monotonic-attenuation"
     },
     {
-      "term": "Nullifier",
+      "term": "nullifier",
       "slug": "nullifier"
     },
     {
-      "term": "Observability Mode",
+      "term": "observability mode",
       "slug": "observability-mode"
     },
     {
-      "term": "Opacity Boundary",
+      "term": "opacity boundary",
       "slug": "opacity-boundary"
     },
     {
-      "term": "Peer Trust Relation",
+      "term": "peer trust relation",
       "slug": "peer-trust-relation"
     },
     {
@@ -1260,11 +1260,11 @@
       "slug": "personal-data-store"
     },
     {
-      "term": "Personhood",
+      "term": "personhood",
       "slug": "personhood"
     },
     {
-      "term": "Predicate Proof",
+      "term": "predicate proof",
       "slug": "predicate-proof"
     },
     {
@@ -1272,7 +1272,7 @@
       "slug": "principal"
     },
     {
-      "term": "Proof-Carrying Commitment Receipt",
+      "term": "proof-carrying commitment receipt",
       "slug": "proof-carrying-commitment-receipt"
     },
     {
@@ -1280,11 +1280,11 @@
       "slug": "registration-agent"
     },
     {
-      "term": "Runtime Authority Envelope",
+      "term": "runtime authority envelope",
       "slug": "runtime-authority-envelope"
     },
     {
-      "term": "Runtime Governance Envelope",
+      "term": "runtime governance envelope",
       "slug": "runtime-governance-envelope"
     },
     {
@@ -1292,11 +1292,11 @@
       "slug": "second-party"
     },
     {
-      "term": "Service Descriptor",
+      "term": "service descriptor",
       "slug": "service-descriptor"
     },
     {
-      "term": "Skill Contract",
+      "term": "skill contract",
       "slug": "skill-contract"
     },
     {
@@ -1308,15 +1308,15 @@
       "slug": "subscription"
     },
     {
-      "term": "Task Evidence Lifecycle",
+      "term": "task evidence lifecycle",
       "slug": "task-evidence-lifecycle"
     },
     {
-      "term": "Trust Task Execution Receipt",
+      "term": "trust task execution receipt",
       "slug": "trust-task-execution-receipt"
     },
     {
-      "term": "Unlinkability",
+      "term": "unlinkability",
       "slug": "unlinkability"
     },
     {
@@ -1358,15 +1358,15 @@
       "slug": "agent"
     },
     {
-      "term": "Agent Class",
+      "term": "agent class",
       "slug": "agent-class"
     },
     {
-      "term": "Agent Mandate Envelope",
+      "term": "agent mandate envelope",
       "slug": "agent-mandate-envelope"
     },
     {
-      "term": "Aggregation Amplification",
+      "term": "aggregation amplification",
       "slug": "aggregation-amplification"
     },
     {
@@ -1374,7 +1374,7 @@
       "slug": "assurance-level"
     },
     {
-      "term": "Attention Policy",
+      "term": "attention policy",
       "slug": "attention-policy"
     },
     {
@@ -1406,7 +1406,7 @@
       "slug": "authority"
     },
     {
-      "term": "Authority Boundary",
+      "term": "authority boundary",
       "slug": "authority-boundary"
     },
     {
@@ -1414,7 +1414,7 @@
       "slug": "authorization"
     },
     {
-      "term": "Authorization Checkpoint",
+      "term": "authorization checkpoint",
       "slug": "authorization-checkpoint"
     },
     {
@@ -1450,7 +1450,7 @@
       "slug": "capability"
     },
     {
-      "term": "Capability Negotiation",
+      "term": "capability negotiation",
       "slug": "capability-negotiation"
     },
     {
@@ -1466,11 +1466,11 @@
       "slug": "chained-credentials"
     },
     {
-      "term": "Content Provenance Policy",
+      "term": "content provenance policy",
       "slug": "content-provenance-policy"
     },
     {
-      "term": "Control Mode",
+      "term": "control mode",
       "slug": "control-mode"
     },
     {
@@ -1478,7 +1478,7 @@
       "slug": "control-authority"
     },
     {
-      "term": "Control-Plane Shift",
+      "term": "control-plane shift",
       "slug": "control-plane-shift"
     },
     {
@@ -1526,7 +1526,7 @@
       "slug": "decentralized-identifier"
     },
     {
-      "term": "Decision Receipt",
+      "term": "decision receipt",
       "slug": "decision-receipt"
     },
     {
@@ -1538,7 +1538,7 @@
       "slug": "delegation"
     },
     {
-      "term": "Delegation Lineage",
+      "term": "delegation lineage",
       "slug": "delegation-lineage"
     },
     {
@@ -1574,11 +1574,11 @@
       "slug": "discovery"
     },
     {
-      "term": "Discovery Governance",
+      "term": "discovery governance",
       "slug": "discovery-governance"
     },
     {
-      "term": "Dynamic Authorization",
+      "term": "dynamic authorization",
       "slug": "dynamic-authorization"
     },
     {
@@ -1586,15 +1586,15 @@
       "slug": "ecosystem-governance-framework"
     },
     {
-      "term": "Evidence Artifact",
+      "term": "evidence artifact",
       "slug": "evidence-artifact"
     },
     {
-      "term": "Evidence Bundle",
+      "term": "evidence bundle",
       "slug": "evidence-bundle"
     },
     {
-      "term": "Extension Contract",
+      "term": "extension contract",
       "slug": "extension-contract"
     },
     {
@@ -1650,11 +1650,11 @@
       "slug": "identity-document"
     },
     {
-      "term": "Interaction Context",
+      "term": "interaction context",
       "slug": "interaction-context"
     },
     {
-      "term": "Interaction Task",
+      "term": "interaction task",
       "slug": "interaction-task"
     },
     {
@@ -1670,11 +1670,11 @@
       "slug": "issuer"
     },
     {
-      "term": "Issuer Concealment",
+      "term": "issuer concealment",
       "slug": "issuer-concealment"
     },
     {
-      "term": "Legitimacy Gap",
+      "term": "legitimacy gap",
       "slug": "legitimacy-gap"
     },
     {
@@ -1682,19 +1682,19 @@
       "slug": "legitimized-human-meaningful-identifier"
     },
     {
-      "term": "Monotonic Attenuation",
+      "term": "monotonic attenuation",
       "slug": "monotonic-attenuation"
     },
     {
-      "term": "Nullifier",
+      "term": "nullifier",
       "slug": "nullifier"
     },
     {
-      "term": "Observability Mode",
+      "term": "observability mode",
       "slug": "observability-mode"
     },
     {
-      "term": "Opacity Boundary",
+      "term": "opacity boundary",
       "slug": "opacity-boundary"
     },
     {
@@ -1710,7 +1710,7 @@
       "slug": "peer"
     },
     {
-      "term": "Peer Trust Relation",
+      "term": "peer trust relation",
       "slug": "peer-trust-relation"
     },
     {
@@ -1718,7 +1718,7 @@
       "slug": "permission"
     },
     {
-      "term": "Personhood",
+      "term": "personhood",
       "slug": "personhood"
     },
     {
@@ -1734,7 +1734,7 @@
       "slug": "policy"
     },
     {
-      "term": "Predicate Proof",
+      "term": "predicate proof",
       "slug": "predicate-proof"
     },
     {
@@ -1746,7 +1746,7 @@
       "slug": "proof"
     },
     {
-      "term": "Proof-Carrying Commitment Receipt",
+      "term": "proof-carrying commitment receipt",
       "slug": "proof-carrying-commitment-receipt"
     },
     {
@@ -1798,11 +1798,11 @@
       "slug": "role-credential"
     },
     {
-      "term": "Runtime Authority Envelope",
+      "term": "runtime authority envelope",
       "slug": "runtime-authority-envelope"
     },
     {
-      "term": "Runtime Governance Envelope",
+      "term": "runtime governance envelope",
       "slug": "runtime-governance-envelope"
     },
     {
@@ -1822,11 +1822,11 @@
       "slug": "self-sovereign-identity"
     },
     {
-      "term": "Service Descriptor",
+      "term": "service descriptor",
       "slug": "service-descriptor"
     },
     {
-      "term": "Skill Contract",
+      "term": "skill contract",
       "slug": "skill-contract"
     },
     {
@@ -1842,7 +1842,7 @@
       "slug": "subject"
     },
     {
-      "term": "Task Evidence Lifecycle",
+      "term": "task evidence lifecycle",
       "slug": "task-evidence-lifecycle"
     },
     {
@@ -1862,7 +1862,7 @@
       "slug": "transitive-trust-decision"
     },
     {
-      "term": "Trust Task Execution Receipt",
+      "term": "trust task execution receipt",
       "slug": "trust-task-execution-receipt"
     },
     {
@@ -1902,7 +1902,7 @@
       "slug": "tta"
     },
     {
-      "term": "Unlinkability",
+      "term": "unlinkability",
       "slug": "unlinkability"
     },
     {
@@ -2074,7 +2074,7 @@
       ]
     },
     {
-      "term": "Agent Class",
+      "term": "agent class",
       "slug": "agent-class",
       "states": [
         "proposed",
@@ -2085,7 +2085,7 @@
       ]
     },
     {
-      "term": "Agent Mandate Envelope",
+      "term": "agent mandate envelope",
       "slug": "agent-mandate-envelope",
       "states": [
         "proposed",
@@ -2096,7 +2096,7 @@
       ]
     },
     {
-      "term": "Aggregation Amplification",
+      "term": "aggregation amplification",
       "slug": "aggregation-amplification",
       "states": [
         "proposed",
@@ -2172,7 +2172,7 @@
       ]
     },
     {
-      "term": "Attention Policy",
+      "term": "attention policy",
       "slug": "attention-policy",
       "states": [
         "proposed",
@@ -2341,7 +2341,7 @@
       ]
     },
     {
-      "term": "Authority Boundary",
+      "term": "authority boundary",
       "slug": "authority-boundary",
       "states": [
         "proposed",
@@ -2363,7 +2363,7 @@
       ]
     },
     {
-      "term": "Authorization Checkpoint",
+      "term": "authorization checkpoint",
       "slug": "authorization-checkpoint",
       "states": [
         "proposed",
@@ -2552,7 +2552,7 @@
       ]
     },
     {
-      "term": "Capability Negotiation",
+      "term": "capability negotiation",
       "slug": "capability-negotiation",
       "states": [
         "proposed",
@@ -2803,7 +2803,7 @@
       ]
     },
     {
-      "term": "Content Provenance Policy",
+      "term": "content provenance policy",
       "slug": "content-provenance-policy",
       "states": [
         "proposed",
@@ -2841,7 +2841,7 @@
       ]
     },
     {
-      "term": "Control Mode",
+      "term": "control mode",
       "slug": "control-mode",
       "states": [
         "proposed",
@@ -2863,7 +2863,7 @@
       ]
     },
     {
-      "term": "Control-Plane Shift",
+      "term": "control-plane shift",
       "slug": "control-plane-shift",
       "states": [
         "proposed",
@@ -3229,7 +3229,7 @@
       ]
     },
     {
-      "term": "Decision Receipt",
+      "term": "decision receipt",
       "slug": "decision-receipt",
       "states": [
         "proposed",
@@ -3289,7 +3289,7 @@
       ]
     },
     {
-      "term": "Delegation Lineage",
+      "term": "delegation lineage",
       "slug": "delegation-lineage",
       "states": [
         "proposed",
@@ -3532,7 +3532,7 @@
       ]
     },
     {
-      "term": "Discovery Governance",
+      "term": "discovery governance",
       "slug": "discovery-governance",
       "states": [
         "proposed",
@@ -3588,7 +3588,7 @@
       ]
     },
     {
-      "term": "Dynamic Authorization",
+      "term": "dynamic authorization",
       "slug": "dynamic-authorization",
       "states": [
         "proposed",
@@ -3772,7 +3772,7 @@
       ]
     },
     {
-      "term": "Evidence Artifact",
+      "term": "evidence artifact",
       "slug": "evidence-artifact",
       "states": [
         "proposed",
@@ -3783,7 +3783,7 @@
       ]
     },
     {
-      "term": "Evidence Bundle",
+      "term": "evidence bundle",
       "slug": "evidence-bundle",
       "states": [
         "proposed",
@@ -3803,7 +3803,7 @@
       ]
     },
     {
-      "term": "Extension Contract",
+      "term": "extension contract",
       "slug": "extension-contract",
       "states": [
         "proposed",
@@ -4353,7 +4353,7 @@
       ]
     },
     {
-      "term": "Interaction Context",
+      "term": "interaction context",
       "slug": "interaction-context",
       "states": [
         "proposed",
@@ -4364,7 +4364,7 @@
       ]
     },
     {
-      "term": "Interaction Task",
+      "term": "interaction task",
       "slug": "interaction-task",
       "states": [
         "proposed",
@@ -4453,7 +4453,7 @@
       ]
     },
     {
-      "term": "Issuer Concealment",
+      "term": "issuer concealment",
       "slug": "issuer-concealment",
       "states": [
         "proposed",
@@ -4689,7 +4689,7 @@
       ]
     },
     {
-      "term": "Legitimacy Gap",
+      "term": "legitimacy gap",
       "slug": "legitimacy-gap",
       "states": [
         "proposed",
@@ -4819,7 +4819,7 @@
       ]
     },
     {
-      "term": "Monotonic Attenuation",
+      "term": "monotonic attenuation",
       "slug": "monotonic-attenuation",
       "states": [
         "proposed",
@@ -4965,7 +4965,7 @@
       ]
     },
     {
-      "term": "Nullifier",
+      "term": "nullifier",
       "slug": "nullifier",
       "states": [
         "proposed",
@@ -4985,7 +4985,7 @@
       ]
     },
     {
-      "term": "Observability Mode",
+      "term": "observability mode",
       "slug": "observability-mode",
       "states": [
         "proposed",
@@ -5005,7 +5005,7 @@
       ]
     },
     {
-      "term": "Opacity Boundary",
+      "term": "opacity boundary",
       "slug": "opacity-boundary",
       "states": [
         "proposed",
@@ -5157,7 +5157,7 @@
       ]
     },
     {
-      "term": "Peer Trust Relation",
+      "term": "peer trust relation",
       "slug": "peer-trust-relation",
       "states": [
         "proposed",
@@ -5260,7 +5260,7 @@
       ]
     },
     {
-      "term": "Personhood",
+      "term": "personhood",
       "slug": "personhood",
       "states": [
         "proposed",
@@ -5340,7 +5340,7 @@
       ]
     },
     {
-      "term": "Predicate Proof",
+      "term": "predicate proof",
       "slug": "predicate-proof",
       "states": [
         "proposed",
@@ -5445,7 +5445,7 @@
       ]
     },
     {
-      "term": "Proof-Carrying Commitment Receipt",
+      "term": "proof-carrying commitment receipt",
       "slug": "proof-carrying-commitment-receipt",
       "states": [
         "proposed",
@@ -5903,7 +5903,7 @@
       ]
     },
     {
-      "term": "Runtime Authority Envelope",
+      "term": "runtime authority envelope",
       "slug": "runtime-authority-envelope",
       "states": [
         "proposed",
@@ -5914,7 +5914,7 @@
       ]
     },
     {
-      "term": "Runtime Governance Envelope",
+      "term": "runtime governance envelope",
       "slug": "runtime-governance-envelope",
       "states": [
         "proposed",
@@ -6104,7 +6104,7 @@
       ]
     },
     {
-      "term": "Service Descriptor",
+      "term": "service descriptor",
       "slug": "service-descriptor",
       "states": [
         "proposed",
@@ -6133,7 +6133,7 @@
       ]
     },
     {
-      "term": "Skill Contract",
+      "term": "skill contract",
       "slug": "skill-contract",
       "states": [
         "proposed",
@@ -6303,7 +6303,7 @@
       ]
     },
     {
-      "term": "Task Evidence Lifecycle",
+      "term": "task evidence lifecycle",
       "slug": "task-evidence-lifecycle",
       "states": [
         "proposed",
@@ -6799,7 +6799,7 @@
       ]
     },
     {
-      "term": "Trust Task Execution Receipt",
+      "term": "trust task execution receipt",
       "slug": "trust-task-execution-receipt",
       "states": [
         "proposed",
@@ -7269,7 +7269,7 @@
       ]
     },
     {
-      "term": "Unlinkability",
+      "term": "unlinkability",
       "slug": "unlinkability",
       "states": [
         "proposed",
@@ -7753,7 +7753,7 @@
       ]
     },
     {
-      "term": "Agent Class",
+      "term": "agent class",
       "slug": "agent-class",
       "evidence_artifacts": [
         "delegation_record",
@@ -7763,7 +7763,7 @@
       ]
     },
     {
-      "term": "Agent Mandate Envelope",
+      "term": "agent mandate envelope",
       "slug": "agent-mandate-envelope",
       "evidence_artifacts": [
         "delegation_record",
@@ -7773,7 +7773,7 @@
       ]
     },
     {
-      "term": "Aggregation Amplification",
+      "term": "aggregation amplification",
       "slug": "aggregation-amplification",
       "evidence_artifacts": [
         "delegation_record",
@@ -7841,7 +7841,7 @@
       ]
     },
     {
-      "term": "Attention Policy",
+      "term": "attention policy",
       "slug": "attention-policy",
       "evidence_artifacts": [
         "delegation_record",
@@ -7992,7 +7992,7 @@
       ]
     },
     {
-      "term": "Authority Boundary",
+      "term": "authority boundary",
       "slug": "authority-boundary",
       "evidence_artifacts": [
         "delegation_record",
@@ -8015,7 +8015,7 @@
       ]
     },
     {
-      "term": "Authorization Checkpoint",
+      "term": "authorization checkpoint",
       "slug": "authorization-checkpoint",
       "evidence_artifacts": [
         "delegation_record",
@@ -8195,7 +8195,7 @@
       ]
     },
     {
-      "term": "Capability Negotiation",
+      "term": "capability negotiation",
       "slug": "capability-negotiation",
       "evidence_artifacts": [
         "delegation_record",
@@ -8410,7 +8410,7 @@
       ]
     },
     {
-      "term": "Content Provenance Policy",
+      "term": "content provenance policy",
       "slug": "content-provenance-policy",
       "evidence_artifacts": [
         "delegation_record",
@@ -8443,7 +8443,7 @@
       ]
     },
     {
-      "term": "Control Mode",
+      "term": "control mode",
       "slug": "control-mode",
       "evidence_artifacts": [
         "delegation_record",
@@ -8464,7 +8464,7 @@
       ]
     },
     {
-      "term": "Control-Plane Shift",
+      "term": "control-plane shift",
       "slug": "control-plane-shift",
       "evidence_artifacts": [
         "delegation_record",
@@ -8797,7 +8797,7 @@
       ]
     },
     {
-      "term": "Decision Receipt",
+      "term": "decision receipt",
       "slug": "decision-receipt",
       "evidence_artifacts": [
         "delegation_record",
@@ -8852,7 +8852,7 @@
       ]
     },
     {
-      "term": "Delegation Lineage",
+      "term": "delegation lineage",
       "slug": "delegation-lineage",
       "evidence_artifacts": [
         "delegation_record",
@@ -9063,7 +9063,7 @@
       ]
     },
     {
-      "term": "Discovery Governance",
+      "term": "discovery governance",
       "slug": "discovery-governance",
       "evidence_artifacts": [
         "delegation_record",
@@ -9110,7 +9110,7 @@
       ]
     },
     {
-      "term": "Dynamic Authorization",
+      "term": "dynamic authorization",
       "slug": "dynamic-authorization",
       "evidence_artifacts": [
         "delegation_record",
@@ -9270,7 +9270,7 @@
       ]
     },
     {
-      "term": "Evidence Artifact",
+      "term": "evidence artifact",
       "slug": "evidence-artifact",
       "evidence_artifacts": [
         "delegation_record",
@@ -9280,7 +9280,7 @@
       ]
     },
     {
-      "term": "Evidence Bundle",
+      "term": "evidence bundle",
       "slug": "evidence-bundle",
       "evidence_artifacts": [
         "delegation_record",
@@ -9297,7 +9297,7 @@
       ]
     },
     {
-      "term": "Extension Contract",
+      "term": "extension contract",
       "slug": "extension-contract",
       "evidence_artifacts": [
         "delegation_record",
@@ -9782,7 +9782,7 @@
       ]
     },
     {
-      "term": "Interaction Context",
+      "term": "interaction context",
       "slug": "interaction-context",
       "evidence_artifacts": [
         "delegation_record",
@@ -9792,7 +9792,7 @@
       ]
     },
     {
-      "term": "Interaction Task",
+      "term": "interaction task",
       "slug": "interaction-task",
       "evidence_artifacts": [
         "delegation_record",
@@ -9871,7 +9871,7 @@
       ]
     },
     {
-      "term": "Issuer Concealment",
+      "term": "issuer concealment",
       "slug": "issuer-concealment",
       "evidence_artifacts": [
         "delegation_record",
@@ -10068,7 +10068,7 @@
       ]
     },
     {
-      "term": "Legitimacy Gap",
+      "term": "legitimacy gap",
       "slug": "legitimacy-gap",
       "evidence_artifacts": [
         "delegation_record",
@@ -10177,7 +10177,7 @@
       ]
     },
     {
-      "term": "Monotonic Attenuation",
+      "term": "monotonic attenuation",
       "slug": "monotonic-attenuation",
       "evidence_artifacts": [
         "delegation_record",
@@ -10300,7 +10300,7 @@
       ]
     },
     {
-      "term": "Nullifier",
+      "term": "nullifier",
       "slug": "nullifier",
       "evidence_artifacts": [
         "delegation_record",
@@ -10317,7 +10317,7 @@
       ]
     },
     {
-      "term": "Observability Mode",
+      "term": "observability mode",
       "slug": "observability-mode",
       "evidence_artifacts": [
         "delegation_record",
@@ -10334,7 +10334,7 @@
       ]
     },
     {
-      "term": "Opacity Boundary",
+      "term": "opacity boundary",
       "slug": "opacity-boundary",
       "evidence_artifacts": [
         "delegation_record",
@@ -10470,7 +10470,7 @@
       ]
     },
     {
-      "term": "Peer Trust Relation",
+      "term": "peer trust relation",
       "slug": "peer-trust-relation",
       "evidence_artifacts": [
         "delegation_record",
@@ -10559,7 +10559,7 @@
       ]
     },
     {
-      "term": "Personhood",
+      "term": "personhood",
       "slug": "personhood",
       "evidence_artifacts": [
         "delegation_record",
@@ -10626,7 +10626,7 @@
       ]
     },
     {
-      "term": "Predicate Proof",
+      "term": "predicate proof",
       "slug": "predicate-proof",
       "evidence_artifacts": [
         "delegation_record",
@@ -10713,7 +10713,7 @@
       ]
     },
     {
-      "term": "Proof-Carrying Commitment Receipt",
+      "term": "proof-carrying commitment receipt",
       "slug": "proof-carrying-commitment-receipt",
       "evidence_artifacts": [
         "delegation_record",
@@ -11106,7 +11106,7 @@
       ]
     },
     {
-      "term": "Runtime Authority Envelope",
+      "term": "runtime authority envelope",
       "slug": "runtime-authority-envelope",
       "evidence_artifacts": [
         "delegation_record",
@@ -11116,7 +11116,7 @@
       ]
     },
     {
-      "term": "Runtime Governance Envelope",
+      "term": "runtime governance envelope",
       "slug": "runtime-governance-envelope",
       "evidence_artifacts": [
         "delegation_record",
@@ -11286,7 +11286,7 @@
       ]
     },
     {
-      "term": "Service Descriptor",
+      "term": "service descriptor",
       "slug": "service-descriptor",
       "evidence_artifacts": [
         "delegation_record",
@@ -11312,7 +11312,7 @@
       ]
     },
     {
-      "term": "Skill Contract",
+      "term": "skill contract",
       "slug": "skill-contract",
       "evidence_artifacts": [
         "delegation_record",
@@ -11452,7 +11452,7 @@
       ]
     },
     {
-      "term": "Task Evidence Lifecycle",
+      "term": "task evidence lifecycle",
       "slug": "task-evidence-lifecycle",
       "evidence_artifacts": [
         "delegation_record",
@@ -11884,7 +11884,7 @@
       ]
     },
     {
-      "term": "Trust Task Execution Receipt",
+      "term": "trust task execution receipt",
       "slug": "trust-task-execution-receipt",
       "evidence_artifacts": [
         "delegation_record",
@@ -12314,7 +12314,7 @@
       ]
     },
     {
-      "term": "Unlinkability",
+      "term": "unlinkability",
       "slug": "unlinkability",
       "evidence_artifacts": [
         "delegation_record",
@@ -12721,7 +12721,7 @@
       ]
     },
     {
-      "term": "Agent Class",
+      "term": "agent class",
       "slug": "agent-class",
       "decision_points": [
         "policy_approval",
@@ -12731,7 +12731,7 @@
       ]
     },
     {
-      "term": "Agent Mandate Envelope",
+      "term": "agent mandate envelope",
       "slug": "agent-mandate-envelope",
       "decision_points": [
         "policy_approval",
@@ -12741,7 +12741,7 @@
       ]
     },
     {
-      "term": "Aggregation Amplification",
+      "term": "aggregation amplification",
       "slug": "aggregation-amplification",
       "decision_points": [
         "policy_approval",
@@ -12774,7 +12774,7 @@
       ]
     },
     {
-      "term": "Attention Policy",
+      "term": "attention policy",
       "slug": "attention-policy",
       "decision_points": [
         "policy_approval",
@@ -12892,7 +12892,7 @@
       ]
     },
     {
-      "term": "Authority Boundary",
+      "term": "authority boundary",
       "slug": "authority-boundary",
       "decision_points": [
         "policy_approval",
@@ -12912,7 +12912,7 @@
       ]
     },
     {
-      "term": "Authorization Checkpoint",
+      "term": "authorization checkpoint",
       "slug": "authorization-checkpoint",
       "decision_points": [
         "policy_approval",
@@ -13021,7 +13021,7 @@
       ]
     },
     {
-      "term": "Capability Negotiation",
+      "term": "capability negotiation",
       "slug": "capability-negotiation",
       "decision_points": [
         "policy_approval",
@@ -13111,7 +13111,7 @@
       ]
     },
     {
-      "term": "Content Provenance Policy",
+      "term": "content provenance policy",
       "slug": "content-provenance-policy",
       "decision_points": [
         "policy_approval",
@@ -13128,7 +13128,7 @@
       ]
     },
     {
-      "term": "Control Mode",
+      "term": "control mode",
       "slug": "control-mode",
       "decision_points": [
         "policy_approval",
@@ -13145,7 +13145,7 @@
       ]
     },
     {
-      "term": "Control-Plane Shift",
+      "term": "control-plane shift",
       "slug": "control-plane-shift",
       "decision_points": [
         "policy_approval",
@@ -13315,7 +13315,7 @@
       ]
     },
     {
-      "term": "Decision Receipt",
+      "term": "decision receipt",
       "slug": "decision-receipt",
       "decision_points": [
         "policy_approval",
@@ -13341,7 +13341,7 @@
       ]
     },
     {
-      "term": "Delegation Lineage",
+      "term": "delegation lineage",
       "slug": "delegation-lineage",
       "decision_points": [
         "policy_approval",
@@ -13465,7 +13465,7 @@
       ]
     },
     {
-      "term": "Discovery Governance",
+      "term": "discovery governance",
       "slug": "discovery-governance",
       "decision_points": [
         "policy_approval",
@@ -13483,7 +13483,7 @@
       ]
     },
     {
-      "term": "Dynamic Authorization",
+      "term": "dynamic authorization",
       "slug": "dynamic-authorization",
       "decision_points": [
         "policy_approval",
@@ -13561,7 +13561,7 @@
       ]
     },
     {
-      "term": "Evidence Artifact",
+      "term": "evidence artifact",
       "slug": "evidence-artifact",
       "decision_points": [
         "policy_approval",
@@ -13571,7 +13571,7 @@
       ]
     },
     {
-      "term": "Evidence Bundle",
+      "term": "evidence bundle",
       "slug": "evidence-bundle",
       "decision_points": [
         "policy_approval",
@@ -13581,7 +13581,7 @@
       ]
     },
     {
-      "term": "Extension Contract",
+      "term": "extension contract",
       "slug": "extension-contract",
       "decision_points": [
         "policy_approval",
@@ -13891,7 +13891,7 @@
       ]
     },
     {
-      "term": "Interaction Context",
+      "term": "interaction context",
       "slug": "interaction-context",
       "decision_points": [
         "policy_approval",
@@ -13901,7 +13901,7 @@
       ]
     },
     {
-      "term": "Interaction Task",
+      "term": "interaction task",
       "slug": "interaction-task",
       "decision_points": [
         "policy_approval",
@@ -13951,7 +13951,7 @@
       ]
     },
     {
-      "term": "Issuer Concealment",
+      "term": "issuer concealment",
       "slug": "issuer-concealment",
       "decision_points": [
         "policy_approval",
@@ -14018,7 +14018,7 @@
       ]
     },
     {
-      "term": "Legitimacy Gap",
+      "term": "legitimacy gap",
       "slug": "legitimacy-gap",
       "decision_points": [
         "policy_approval",
@@ -14064,7 +14064,7 @@
       ]
     },
     {
-      "term": "Monotonic Attenuation",
+      "term": "monotonic attenuation",
       "slug": "monotonic-attenuation",
       "decision_points": [
         "policy_approval",
@@ -14102,7 +14102,7 @@
       ]
     },
     {
-      "term": "Nullifier",
+      "term": "nullifier",
       "slug": "nullifier",
       "decision_points": [
         "policy_approval",
@@ -14112,7 +14112,7 @@
       ]
     },
     {
-      "term": "Observability Mode",
+      "term": "observability mode",
       "slug": "observability-mode",
       "decision_points": [
         "policy_approval",
@@ -14122,7 +14122,7 @@
       ]
     },
     {
-      "term": "Opacity Boundary",
+      "term": "opacity boundary",
       "slug": "opacity-boundary",
       "decision_points": [
         "policy_approval",
@@ -14198,7 +14198,7 @@
       ]
     },
     {
-      "term": "Peer Trust Relation",
+      "term": "peer trust relation",
       "slug": "peer-trust-relation",
       "decision_points": [
         "policy_approval",
@@ -14237,7 +14237,7 @@
       ]
     },
     {
-      "term": "Personhood",
+      "term": "personhood",
       "slug": "personhood",
       "decision_points": [
         "policy_approval",
@@ -14271,7 +14271,7 @@
       ]
     },
     {
-      "term": "Predicate Proof",
+      "term": "predicate proof",
       "slug": "predicate-proof",
       "decision_points": [
         "policy_approval",
@@ -14333,7 +14333,7 @@
       ]
     },
     {
-      "term": "Proof-Carrying Commitment Receipt",
+      "term": "proof-carrying commitment receipt",
       "slug": "proof-carrying-commitment-receipt",
       "decision_points": [
         "policy_approval",
@@ -14575,7 +14575,7 @@
       ]
     },
     {
-      "term": "Runtime Authority Envelope",
+      "term": "runtime authority envelope",
       "slug": "runtime-authority-envelope",
       "decision_points": [
         "policy_approval",
@@ -14585,7 +14585,7 @@
       ]
     },
     {
-      "term": "Runtime Governance Envelope",
+      "term": "runtime governance envelope",
       "slug": "runtime-governance-envelope",
       "decision_points": [
         "policy_approval",
@@ -14701,7 +14701,7 @@
       ]
     },
     {
-      "term": "Service Descriptor",
+      "term": "service descriptor",
       "slug": "service-descriptor",
       "decision_points": [
         "policy_approval",
@@ -14718,7 +14718,7 @@
       ]
     },
     {
-      "term": "Skill Contract",
+      "term": "skill contract",
       "slug": "skill-contract",
       "decision_points": [
         "policy_approval",
@@ -14780,7 +14780,7 @@
       ]
     },
     {
-      "term": "Task Evidence Lifecycle",
+      "term": "task evidence lifecycle",
       "slug": "task-evidence-lifecycle",
       "decision_points": [
         "policy_approval",
@@ -14997,7 +14997,7 @@
       ]
     },
     {
-      "term": "Trust Task Execution Receipt",
+      "term": "trust task execution receipt",
       "slug": "trust-task-execution-receipt",
       "decision_points": [
         "policy_approval",
@@ -15326,7 +15326,7 @@
       ]
     },
     {
-      "term": "Unlinkability",
+      "term": "unlinkability",
       "slug": "unlinkability",
       "decision_points": [
         "policy_approval",
@@ -17479,19 +17479,19 @@
         "slug": "acceptance-network"
       },
       {
-        "term": "Agent Class",
+        "term": "agent class",
         "slug": "agent-class"
       },
       {
-        "term": "Agent Mandate Envelope",
+        "term": "agent mandate envelope",
         "slug": "agent-mandate-envelope"
       },
       {
-        "term": "Aggregation Amplification",
+        "term": "aggregation amplification",
         "slug": "aggregation-amplification"
       },
       {
-        "term": "Attention Policy",
+        "term": "attention policy",
         "slug": "attention-policy"
       },
       {
@@ -17507,15 +17507,15 @@
         "slug": "authenticity"
       },
       {
-        "term": "Authority Boundary",
+        "term": "authority boundary",
         "slug": "authority-boundary"
       },
       {
-        "term": "Authorization Checkpoint",
+        "term": "authorization checkpoint",
         "slug": "authorization-checkpoint"
       },
       {
-        "term": "Capability Negotiation",
+        "term": "capability negotiation",
         "slug": "capability-negotiation"
       },
       {
@@ -17527,15 +17527,15 @@
         "slug": "chaining"
       },
       {
-        "term": "Content Provenance Policy",
+        "term": "content provenance policy",
         "slug": "content-provenance-policy"
       },
       {
-        "term": "Control Mode",
+        "term": "control mode",
         "slug": "control-mode"
       },
       {
-        "term": "Control-Plane Shift",
+        "term": "control-plane shift",
         "slug": "control-plane-shift"
       },
       {
@@ -17543,19 +17543,19 @@
         "slug": "cryptographic-trust"
       },
       {
-        "term": "Decision Receipt",
+        "term": "decision receipt",
         "slug": "decision-receipt"
       },
       {
-        "term": "Delegation Lineage",
+        "term": "delegation lineage",
         "slug": "delegation-lineage"
       },
       {
-        "term": "Discovery Governance",
+        "term": "discovery governance",
         "slug": "discovery-governance"
       },
       {
-        "term": "Dynamic Authorization",
+        "term": "dynamic authorization",
         "slug": "dynamic-authorization"
       },
       {
@@ -17563,15 +17563,15 @@
         "slug": "end-verifiable"
       },
       {
-        "term": "Evidence Artifact",
+        "term": "evidence artifact",
         "slug": "evidence-artifact"
       },
       {
-        "term": "Evidence Bundle",
+        "term": "evidence bundle",
         "slug": "evidence-bundle"
       },
       {
-        "term": "Extension Contract",
+        "term": "extension contract",
         "slug": "extension-contract"
       },
       {
@@ -17619,11 +17619,11 @@
         "slug": "identity-proofing"
       },
       {
-        "term": "Interaction Context",
+        "term": "interaction context",
         "slug": "interaction-context"
       },
       {
-        "term": "Interaction Task",
+        "term": "interaction task",
         "slug": "interaction-task"
       },
       {
@@ -17631,7 +17631,7 @@
         "slug": "intermediary-system"
       },
       {
-        "term": "Issuer Concealment",
+        "term": "issuer concealment",
         "slug": "issuer-concealment"
       },
       {
@@ -17647,7 +17647,7 @@
         "slug": "legal-entity"
       },
       {
-        "term": "Legitimacy Gap",
+        "term": "legitimacy gap",
         "slug": "legitimacy-gap"
       },
       {
@@ -17655,19 +17655,19 @@
         "slug": "level-of-assurance"
       },
       {
-        "term": "Monotonic Attenuation",
+        "term": "monotonic attenuation",
         "slug": "monotonic-attenuation"
       },
       {
-        "term": "Nullifier",
+        "term": "nullifier",
         "slug": "nullifier"
       },
       {
-        "term": "Observability Mode",
+        "term": "observability mode",
         "slug": "observability-mode"
       },
       {
-        "term": "Opacity Boundary",
+        "term": "opacity boundary",
         "slug": "opacity-boundary"
       },
       {
@@ -17675,19 +17675,19 @@
         "slug": "organization"
       },
       {
-        "term": "Peer Trust Relation",
+        "term": "peer trust relation",
         "slug": "peer-trust-relation"
       },
       {
-        "term": "Personhood",
+        "term": "personhood",
         "slug": "personhood"
       },
       {
-        "term": "Predicate Proof",
+        "term": "predicate proof",
         "slug": "predicate-proof"
       },
       {
-        "term": "Proof-Carrying Commitment Receipt",
+        "term": "proof-carrying commitment receipt",
         "slug": "proof-carrying-commitment-receipt"
       },
       {
@@ -17715,11 +17715,11 @@
         "slug": "risk-decision"
       },
       {
-        "term": "Runtime Authority Envelope",
+        "term": "runtime authority envelope",
         "slug": "runtime-authority-envelope"
       },
       {
-        "term": "Runtime Governance Envelope",
+        "term": "runtime governance envelope",
         "slug": "runtime-governance-envelope"
       },
       {
@@ -17727,11 +17727,11 @@
         "slug": "secure-enclave"
       },
       {
-        "term": "Service Descriptor",
+        "term": "service descriptor",
         "slug": "service-descriptor"
       },
       {
-        "term": "Skill Contract",
+        "term": "skill contract",
         "slug": "skill-contract"
       },
       {
@@ -17739,7 +17739,7 @@
         "slug": "supporting-system"
       },
       {
-        "term": "Task Evidence Lifecycle",
+        "term": "task evidence lifecycle",
         "slug": "task-evidence-lifecycle"
       },
       {
@@ -17807,7 +17807,7 @@
         "slug": "trust"
       },
       {
-        "term": "Trust Task Execution Receipt",
+        "term": "trust task execution receipt",
         "slug": "trust-task-execution-receipt"
       },
       {
@@ -17919,7 +17919,7 @@
         "slug": "ttp"
       },
       {
-        "term": "Unlinkability",
+        "term": "unlinkability",
         "slug": "unlinkability"
       },
       {
