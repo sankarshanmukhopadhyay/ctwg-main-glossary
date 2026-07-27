@@ -162,3 +162,8 @@ This release adds or refreshes vocabulary for:
 - C2PA manifests, claim generators, manifest consumers, content credentials, and provenance.
 
 Structured source citations are now supported alongside legacy source strings. New standards-backed terms should prefer structured citation objects so downstream tools can inspect publisher, version, status, date, URL, and normative intent.
+
+
+## Upstream synchronisation
+
+This maintained fork tracks [`trustoverip/ctwg-main-glossary`](https://github.com/trustoverip/ctwg-main-glossary) through a governed, one-way process. Scheduled monitoring raises drift issues here, while maintainers can prepare a draft merge-based synchronisation pull request against this fork. The automation cannot contribute, push, open issues or open pull requests against upstream. See [upstream synchronisation governance](docs/governance/upstream-synchronisation.md).
