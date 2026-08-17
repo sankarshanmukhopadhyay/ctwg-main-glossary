@@ -2,9 +2,7 @@ term: terms-wiki
 aliases:
 - terms wiki
 - terms wikis
-definition: A wiki website used by a terms community to input, maintain, and publish
-  its terminology. The Concepts and Terminology Working Group at the ToIP Foundation
-  has created a simple template for GitHub-based terms wikis.
+definition: A wiki website used by a terms community to input, maintain, and publish its terminology. The Concepts and Terminology Working Group at the ToIP Foundation has created a simple template for GitHub-based terms wikis.
 notes: []
 see_also:
 - glossary

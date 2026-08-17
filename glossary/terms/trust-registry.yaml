@@ -2,13 +2,9 @@ term: trust-registry
 aliases:
 - trust registry
 - trust registries
-definition: A registry that serves as an authoritative source for trust graphs or
-  other governed information describing one or more trust communities. A trust registry
-  is typically authorized by a governance framework.
+definition: A registry that serves as an authoritative source for trust graphs or other governed information describing one or more trust communities. A trust registry is typically authorized by a governance framework.
 notes:
-- In operational terms, a trust registry often functions as a governance decision-plane
-  component because its published information may be used to determine recognition,
-  admission, status, or reliance.
+- In operational terms, a trust registry often functions as a governance decision-plane component because its published information may be used to determine recognition, admission, status, or reliance.
 see_also:
 - trust list
 - verifiable data registry.

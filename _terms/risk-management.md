@@ -6,6 +6,9 @@ title: "risk-management"
 
 # risk-management
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 The process of managing risks to organizational operations (including mission, functions, image, or reputation), organizational assets, or individuals resulting from the operation of an information system, and includes: (i) the conduct of a risk assessment; (ii) the implementation of a risk mitigation strategy; and (iii) employment of techniques and procedures for the continuous monitoring of the security state of the information system.
 

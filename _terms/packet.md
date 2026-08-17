@@ -6,6 +6,9 @@ title: "packet"
 
 # packet
 
+## In Simple English
+The logical unit of network communications produced by the transport layer.
+
 ## Definition
 The logical unit of network communications produced by the transport layer.
 

@@ -2,13 +2,7 @@ term: scope
 aliases:
 - scope
 - scopes
-definition: 'In the context of terminology, scope refers to the set of possible concepts
-  within which: a) a specific term is intended to uniquely identify a concept, or
-  b) a specific glossary is intended to identify a set of concepts. In the context
-  of identification, scope refers to the set of possible entities within which a specific
-  entity must be uniquely identified. In the context of specifications, scope refers
-  to the set of problems (the problem space) within which the specification is intended
-  to specify solutions.'
+definition: 'In the context of terminology, scope refers to the set of possible concepts within which: a) a specific term is intended to uniquely identify a concept, or b) a specific glossary is intended to identify a set of concepts. In the context of identification, scope refers to the set of possible entities within which a specific entity must be uniquely identified. In the context of specifications, scope refers to the set of problems (the problem space) within which the specification is intended to specify solutions.'
 notes: []
 see_also:
 - glossary
@@ -17,11 +11,7 @@ sources:
 - 'ToIP CTWG maintained glossary source: `spec/terms-definitions/scope.md`'
 mental_models: []
 supporting_definitions:
-- '[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#scope):
-  the extent of the area or subject matter (which we use, e.g., to define [pattern](https://essif-lab.github.io/framework/docs/@),
-  [concept](https://essif-lab.github.io/framework/docs/@), [term](https://essif-lab.github.io/framework/docs/@)
-  and [glossaries](https://essif-lab.github.io/framework/docs/@) in, but it serves
-  other purposes as well).'
+- '[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#scope): the extent of the area or subject matter (which we use, e.g., to define [pattern](https://essif-lab.github.io/framework/docs/@), [concept](https://essif-lab.github.io/framework/docs/@), [term](https://essif-lab.github.io/framework/docs/@) and [glossaries](https://essif-lab.github.io/framework/docs/@) in, but it serves other purposes as well).'
 source_file: spec/terms-definitions/scope.md
 governance_profile: descriptive
 governance:

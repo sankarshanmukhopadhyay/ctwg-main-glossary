@@ -6,6 +6,9 @@ title: "end-to-end-principle"
 
 # end-to-end-principle
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 The end-to-end principle is a design framework in computer networking. In networks designed according to this principle, guaranteeing certain application-specific features, such as reliability and security, requires that they reside in the communicating end nodes of the network. Intermediary nodes, such as gateways and routers, that exist to establish the network, may implement these to improve efficiency but cannot guarantee end-to-end correctness.
 

@@ -6,6 +6,9 @@ title: "trust-task"
 
 # trust-task
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A specific task that involves establishing, verifying, or maintaining trust relationships or exchanging verifiable messages or verifiable data that can be performed on behalf of a trust application by a trust task protocol at Layer 3 of the ToIP stack.
 

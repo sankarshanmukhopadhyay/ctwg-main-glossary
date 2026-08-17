@@ -6,6 +6,9 @@ title: "data-packet"
 
 # data-packet
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 In telecommunications and computer networking, a network packet is a formatted unit of data carried by a packet-switched network such as the Internet. A packet consists of control information and user data; the latter is also known as the payload. Control information provides data for delivering the payload (e.g., source and destination network addresses, error detection codes, or sequencing information). Typically, control information is found in packet headers and trailers.
 

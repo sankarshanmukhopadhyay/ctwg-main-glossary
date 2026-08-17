@@ -2,8 +2,7 @@ term: secure-enclave
 aliases:
 - Secure Enclave
 - Secure Enclaves
-definition: A coprocessor on Apple iOS devices that serves as a trusted execution
-  environment.
+definition: A coprocessor on Apple iOS devices that serves as a trusted execution environment.
 notes: []
 see_also:
 - glossary
@@ -45,3 +44,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: A coprocessor on Apple iOS devices that serves as a trusted execution environment.

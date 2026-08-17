@@ -6,6 +6,9 @@ title: "trust-ecosystem"
 
 # trust-ecosystem
 
+## In Simple English
+See digital trust ecosystem.
+
 ## Definition
 See digital trust ecosystem.
 

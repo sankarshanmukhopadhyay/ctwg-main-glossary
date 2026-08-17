@@ -6,6 +6,9 @@ title: "enterprise-data-vault"
 
 # enterprise-data-vault
 
+## In Simple English
+A digital vault whose controller is an organization.
+
 ## Definition
 A digital vault whose controller is an organization.
 

@@ -6,6 +6,9 @@ title: "personal-wallet"
 
 # personal-wallet
 
+## In Simple English
+A digital wallet whose holder is a natural person.
+
 ## Definition
 A digital wallet whose holder is a natural person.
 

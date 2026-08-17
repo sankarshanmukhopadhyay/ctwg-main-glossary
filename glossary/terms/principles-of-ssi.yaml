@@ -1,8 +1,7 @@
 term: principles-of-ssi
 aliases:
 - Principles of SSI
-definition: A set of principles for self-sovereign identity systems originally defined
-  by the Sovrin Foundation and republished by the ToIP Foundation.
+definition: A set of principles for self-sovereign identity systems originally defined by the Sovrin Foundation and republished by the ToIP Foundation.
 notes: []
 see_also:
 - glossary
@@ -41,3 +40,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: A set of principles for self-sovereign identity systems originally defined by the Sovrin Foundation and republished by the ToIP Foundation.

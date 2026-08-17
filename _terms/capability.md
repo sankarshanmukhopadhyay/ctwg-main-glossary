@@ -6,6 +6,9 @@ title: "capability"
 
 # capability
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 The ability or permission for an actor or agent to perform a specific action on behalf of a party within a defined scope and subject to applicable constraints.
 

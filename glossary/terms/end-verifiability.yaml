@@ -2,10 +2,7 @@ term: end-verifiability
 aliases:
 - end-verifiability
 - end verifiability
-definition: a data item or statement may be cryptographically securely attributable
-  to its source (party at the source end) by any recipient verifier (party at the
-  destination end) without reliance on any infrastructure not under the verifier’s
-  ultimate control.
+definition: a data item or statement may be cryptographically securely attributable to its source (party at the source end) by any recipient verifier (party at the destination end) without reliance on any infrastructure not under the verifier’s ultimate control.
 notes: []
 see_also:
 - verification
@@ -17,8 +14,7 @@ sources:
 mental_models: []
 supporting_definitions:
 - 'Also see [[ref: end-verifiable]]'
-- More in <a href="https://weboftrust.github.io/WOT-terms/docs/glossary/end-verifiability">extended
-  KERI glossary</a>
+- More in <a href="https://weboftrust.github.io/WOT-terms/docs/glossary/end-verifiability">extended KERI glossary</a>
 source_file: spec/terms-definitions/end-verifiability.md
 governance_profile: core-operational
 governance:

@@ -6,6 +6,9 @@ title: "did-controller"
 
 # did-controller
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 An entity that has the capability to make changes to a DID document. A DID might have more than one DID controller. The DID controller(s) can be denoted by the optional `controller` property at the top level of the DID document. Note that a DID controller might be the DID subject.
 

@@ -6,6 +6,9 @@ title: "technical-specification"
 
 # technical-specification
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A document that specifies, in a complete, precise, verifiable manner, the requirements, design, behavior, or other characteristics of a system or component and often the procedures for determining whether these provisions have been satisfied.
 

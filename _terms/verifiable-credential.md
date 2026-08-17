@@ -6,6 +6,9 @@ title: "verifiable-credential"
 
 # verifiable-credential
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A cryptographically secured credential whose authenticity and integrity can be verified, including credentials represented using the W3C Verifiable Credentials Data Model, ISO mdoc, or SD-JWT VC profiles depending on the ecosystem profile.
 

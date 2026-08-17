@@ -6,6 +6,9 @@ title: "certification-authority"
 
 # certification-authority
 
+## In Simple English
+See: certificate authority.
+
 ## Definition
 See: certificate authority.
 

@@ -6,6 +6,9 @@ title: "toip-foundation"
 
 # toip-foundation
 
+## In Simple English
+A non-profit project of the Linux Foundation chartered to define an overall architecture for decentralized digital trust infrastructure known as the ToIP stack.
+
 ## Definition
 A non-profit project of the Linux Foundation chartered to define an overall architecture for decentralized digital trust infrastructure known as the ToIP stack.
 

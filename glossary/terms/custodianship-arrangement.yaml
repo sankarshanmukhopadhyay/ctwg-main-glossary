@@ -2,8 +2,7 @@ term: custodianship-arrangement
 aliases:
 - custodianship arrangement
 - custodianship arrangements
-definition: The informal terms or formal legal agreement under which a custodian agrees
-  to provide service to a principal.
+definition: The informal terms or formal legal agreement under which a custodian agrees to provide service to a principal.
 notes: []
 see_also:
 - glossary
@@ -41,3 +40,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: The informal terms or formal legal agreement under which a custodian agrees to provide service to a principal.

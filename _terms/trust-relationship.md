@@ -6,6 +6,9 @@ title: "trust-relationship"
 
 # trust-relationship
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A relationship between a party and an entity in which the party has decided to trust the entity in one or more trust contexts up to a trust limit.
 

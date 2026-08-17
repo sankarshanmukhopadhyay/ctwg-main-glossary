@@ -57,3 +57,4 @@ control_plane:
   - delegation_record
   - status_record
   - verification_log
+simple_definition: A declared limit on what can be observed about an agent or system and the resulting constraints on trust, evidence, assurance, and permitted reliance.

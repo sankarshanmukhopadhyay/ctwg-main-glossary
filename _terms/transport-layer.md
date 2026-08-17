@@ -6,6 +6,9 @@ title: "transport-layer"
 
 # transport-layer
 
+## In Simple English
+Layer of the TCP/IP protocol stack that is responsible for reliable connection-oriented or connectionless end-to-end communications.
+
 ## Definition
 Layer of the TCP/IP protocol stack that is responsible for reliable connection-oriented or connectionless end-to-end communications.
 

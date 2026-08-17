@@ -2,9 +2,7 @@ term: human-auditable
 aliases:
 - human auditable
 - human auditability
-definition: A process or procedure whose compliance with the policies in a trust framework
-  or governance framework can only be verified by a human performing an audit. Human
-  auditability is a primary goal of the ToIP Governance Stack.
+definition: A process or procedure whose compliance with the policies in a trust framework or governance framework can only be verified by a human performing an audit. Human auditability is a primary goal of the ToIP Governance Stack.
 notes: []
 see_also:
 - policy

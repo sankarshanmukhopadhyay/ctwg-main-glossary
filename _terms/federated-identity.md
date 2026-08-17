@@ -6,6 +6,9 @@ title: "federated-identity"
 
 # federated-identity
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A digital identity architecture in which a digital identity established on one computer system, network, or trust domain is linked to other computer systems, networks, or trust domains for the purpose of identifying the same entity across those domains.
 

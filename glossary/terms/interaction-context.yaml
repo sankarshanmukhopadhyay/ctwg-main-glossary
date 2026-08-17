@@ -58,3 +58,4 @@ control_plane:
   - delegation_record
   - status_record
   - verification_log
+simple_definition: A session-level governance envelope that groups related tasks, messages, authority, evidence, and trust decisions across a sequence of interactions.

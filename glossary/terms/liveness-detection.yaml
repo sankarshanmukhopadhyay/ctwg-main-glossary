@@ -1,10 +1,7 @@
 term: liveness-detection
 aliases:
 - liveness detection
-definition: Any technique used to detect a presentation attack by determining whether
-  the source of a biometric sample is a live human being or a fake representation.
-  This is typically accomplished using algorithms that analyze biometric sensor data
-  to detect whether the source is live or reproduced.
+definition: Any technique used to detect a presentation attack by determining whether the source of a biometric sample is a live human being or a fake representation. This is typically accomplished using algorithms that analyze biometric sensor data to detect whether the source is live or reproduced.
 notes: []
 see_also:
 - glossary
@@ -43,3 +40,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: A check intended to show that a person or device is present and responding now, rather than being a recording or replay.

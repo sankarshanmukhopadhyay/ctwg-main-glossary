@@ -6,6 +6,9 @@ title: "verifiable"
 
 # verifiable
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 In the context of digital communications infrastructure, the ability to determine the authenticity of a communication (e.g., sender, contents, claims, metadata, provenance), or the underlying sociotechnical infrastructure (e.g., governance, roles, policies, authorizations, certifications).
 

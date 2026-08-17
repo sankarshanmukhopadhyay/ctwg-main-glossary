@@ -6,6 +6,9 @@ title: "dependent"
 
 # dependent
 
+## In Simple English
+An entity for the caring for and/or protecting/guarding/defending of which a guardianship arrangement has been established with a guardian.
+
 ## Definition
 An entity for the caring for and/or protecting/guarding/defending of which a guardianship arrangement has been established with a guardian.
 

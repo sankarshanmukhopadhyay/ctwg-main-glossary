@@ -6,6 +6,9 @@ title: "verifiable-identifier"
 
 # verifiable-identifier
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 An identifier over which the controller can provide cryptographic proof of control. Each type of VID defines a specific means for discovering the public key, network endpoints, or other metadata necessary to prove control. Decentralized identifiers (DIDs) are a W3C standard for VIDs. VIDs are the cryptographically verifiable identifiers used in the ToIP stack.
 

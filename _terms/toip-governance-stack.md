@@ -6,6 +6,9 @@ title: "toip-governance-stack"
 
 # toip-governance-stack
 
+## In Simple English
+The governance half of the four layer ToIP stack as defined by the ToIP Governance Architecture Specification.
+
 ## Definition
 The governance half of the four layer ToIP stack as defined by the ToIP Governance Architecture Specification.
 

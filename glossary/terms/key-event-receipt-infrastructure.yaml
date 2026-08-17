@@ -41,3 +41,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: A decentralized permissionless key management architecture.

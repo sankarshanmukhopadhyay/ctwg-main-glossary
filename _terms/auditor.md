@@ -6,6 +6,9 @@ title: "auditor"
 
 # auditor
 
+## In Simple English
+The party responsible for performing an audit. Typically an auditor must be accredited.
+
 ## Definition
 The party responsible for performing an audit. Typically an auditor must be accredited.
 

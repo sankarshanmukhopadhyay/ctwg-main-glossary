@@ -2,12 +2,9 @@ term: transitive-trust-decision
 aliases:
 - transitive trust decision
 - transitive trust decisions
-definition: A trust decision made by a first party about a second party or another
-  entity based on information about the second party or the other entity that is obtained
-  from one or more third parties.
+definition: A trust decision made by a first party about a second party or another entity based on information about the second party or the other entity that is obtained from one or more third parties.
 notes:
-- A primary purpose of digital credentials, chained credentials, trust registries,
-  and the ToIP stack is to facilitate transitive trust decisions.
+- A primary purpose of digital credentials, chained credentials, trust registries, and the ToIP stack is to facilitate transitive trust decisions.
 see_also:
 - credential
 - issuer

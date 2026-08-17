@@ -58,3 +58,4 @@ control_plane:
   - delegation_record
   - status_record
   - verification_log
+simple_definition: A descriptor for what can be known and evidenced about delivery, timing, progress, and user awareness for an interaction channel or execution path.

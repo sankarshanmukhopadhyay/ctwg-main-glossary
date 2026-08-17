@@ -6,6 +6,9 @@ title: "datagram"
 
 # datagram
 
+## In Simple English
+See: data packet.
+
 ## Definition
 See: data packet.
 

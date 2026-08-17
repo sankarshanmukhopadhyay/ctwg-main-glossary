@@ -1,8 +1,7 @@
 term: trust-task-layer
 aliases:
 - trust task layer
-definition: In the context of the ToIP stack, the trust task layer is ToIP Layer 3.
-  It supports trust applications operating at ToIP Layer 4.
+definition: In the context of the ToIP stack, the trust task layer is ToIP Layer 3. It supports trust applications operating at ToIP Layer 4.
 notes: []
 see_also:
 - glossary
@@ -46,3 +45,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: In the context of the ToIP stack, the trust task layer is ToIP Layer 3. It supports trust applications operating at ToIP Layer 4.

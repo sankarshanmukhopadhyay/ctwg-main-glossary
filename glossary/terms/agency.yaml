@@ -1,9 +1,7 @@
 term: agency
 aliases:
 - agency
-definition: In the context of decentralized digital trust infrastructure, the empowering
-  of a party to act independently of its own accord, and in particular to empower
-  the party to employ an agent to act on the party's behalf.
+definition: In the context of decentralized digital trust infrastructure, the empowering of a party to act independently of its own accord, and in particular to empower the party to employ an agent to act on the party's behalf.
 notes: []
 see_also:
 - delegation

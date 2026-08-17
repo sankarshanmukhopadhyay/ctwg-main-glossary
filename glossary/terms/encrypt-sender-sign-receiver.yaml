@@ -2,8 +2,7 @@ term: encrypt-sender-sign-receiver
 aliases:
 - encrypt-sender-sign-receiver
 - encrypt sender sign receiver
-definition: An authenticated encryption approach, using PKI. It covers authenticity
-  and confidentiality.
+definition: An authenticated encryption approach, using PKI. It covers authenticity and confidentiality.
 notes: []
 see_also:
 - glossary
@@ -41,3 +40,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: An authenticated encryption approach, using PKI. It covers authenticity and confidentiality.

@@ -6,6 +6,9 @@ title: "grc"
 
 # grc
 
+## In Simple English
+See: Governance - Risk Management - Compliance.
+
 ## Definition
 See: Governance - Risk Management - Compliance.
 

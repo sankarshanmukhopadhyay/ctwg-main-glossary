@@ -6,6 +6,9 @@ title: "human-experience"
 
 # human-experience
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 The processes, patterns and rituals of acquiring knowledge or skill from doing, seeing, or feeling things as a natural person. In the context of decentralized digital trust infrastructure, the direct experience of a natural person using trust applications to make trust decisions within one or more digital trust ecosystems.
 

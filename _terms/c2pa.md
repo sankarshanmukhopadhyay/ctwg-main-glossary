@@ -6,6 +6,9 @@ title: "c2pa"
 
 # c2pa
 
+## In Simple English
+See: Coalition for Content Provenance and Authenticity.
+
 ## Definition
 See: Coalition for Content Provenance and Authenticity.
 

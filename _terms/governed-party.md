@@ -6,6 +6,9 @@ title: "governed-party"
 
 # governed-party
 
+## In Simple English
+A party whose role(s) in a trust community is governed by the governance requirements in a governance framework.
+
 ## Definition
 A party whose role(s) in a trust community is governed by the governance requirements in a governance framework.
 

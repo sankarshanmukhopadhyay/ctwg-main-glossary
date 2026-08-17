@@ -58,3 +58,4 @@ control_plane:
   - delegation_record
   - status_record
   - verification_log
+simple_definition: A durable work unit with governance-significant state transitions, artifact accumulation, continuation or cancellation semantics, and evidence obligations.

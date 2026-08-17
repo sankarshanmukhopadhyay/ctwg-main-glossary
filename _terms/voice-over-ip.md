@@ -6,6 +6,9 @@ title: "voice-over-ip"
 
 # voice-over-ip
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 Voice over Internet Protocol (VoIP), also called IP telephony, is a method and group of technologies for voice calls for the delivery of voice communication sessions over Internet Protocol (IP) networks, such as the Internet.
 

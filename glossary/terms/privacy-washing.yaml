@@ -2,8 +2,7 @@ term: privacy-washing
 aliases:
 - privacy-washing
 - privacy washing
-definition: De-identification so that it provides a personal data safe harbour and
-  could be legally acceptable forwarded.
+definition: De-identification so that it provides a personal data safe harbour and could be legally acceptable forwarded.
 notes: []
 see_also:
 - glossary
@@ -41,3 +40,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: De-identification so that it provides a personal data safe harbour and could be legally acceptable forwarded.

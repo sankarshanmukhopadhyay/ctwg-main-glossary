@@ -6,6 +6,9 @@ title: "functional-identity"
 
 # functional-identity
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A set of identity data, such as a credential, that is issued not for the purpose of establishing a foundational identity for the subject, but for the purpose of establishing other attributes, qualifications, or capabilities of the subject. Loyalty cards, library cards, and employee IDs are all examples of functional identities. Foundational identities are often used to provide identity binding for functional identities.
 

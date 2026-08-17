@@ -6,6 +6,9 @@ title: "kate"
 
 # kate
 
+## In Simple English
+See: keys-at-the-edge.
+
 ## Definition
 See: keys-at-the-edge.
 

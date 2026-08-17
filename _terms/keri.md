@@ -6,6 +6,9 @@ title: "keri"
 
 # keri
 
+## In Simple English
+See: Key Event Receipt Infrastructure.
+
 ## Definition
 See: Key Event Receipt Infrastructure.
 

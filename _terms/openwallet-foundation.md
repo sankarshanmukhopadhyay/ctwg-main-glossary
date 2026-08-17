@@ -6,6 +6,9 @@ title: "openwallet-foundation"
 
 # openwallet-foundation
 
+## In Simple English
+A non-profit project of the Linux Foundation chartered to build a world-class open source wallet engine.
+
 ## Definition
 A non-profit project of the Linux Foundation chartered to build a world-class open source wallet engine.
 

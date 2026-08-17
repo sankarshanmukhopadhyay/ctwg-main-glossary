@@ -6,6 +6,9 @@ title: "tcp-ip-stack"
 
 # tcp-ip-stack
 
+## In Simple English
+The protocol stack implementing the TCP/IP suite.
+
 ## Definition
 The protocol stack implementing the TCP/IP suite.
 

@@ -6,6 +6,9 @@ title: "first-party"
 
 # first-party
 
+## In Simple English
+The party who initiates a trust relationship, connection, or transaction with a second party.
+
 ## Definition
 The party who initiates a trust relationship, connection, or transaction with a second party.
 

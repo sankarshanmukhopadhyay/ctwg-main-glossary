@@ -6,6 +6,9 @@ title: "zkp"
 
 # zkp
 
+## In Simple English
+See: zero-knowledge proof.
+
 ## Definition
 See: zero-knowledge proof.
 

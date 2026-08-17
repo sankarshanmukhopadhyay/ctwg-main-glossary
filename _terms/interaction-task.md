@@ -6,6 +6,9 @@ title: "interaction task"
 
 # interaction task
 
+## In Simple English
+A durable work unit with governance-significant state transitions, artifact accumulation, continuation or cancellation semantics, and evidence obligations.
+
 ## Definition
 A durable work unit with governance-significant state transitions, artifact accumulation, continuation or cancellation semantics, and evidence obligations.
 

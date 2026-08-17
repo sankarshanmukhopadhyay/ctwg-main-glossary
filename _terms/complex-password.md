@@ -6,6 +6,9 @@ title: "complex-password"
 
 # complex-password
 
+## In Simple English
+A password that meets certain security requirements, such as minimum length, inclusion of different character types, non-repetition of characters, and so on.
+
 ## Definition
 A password that meets certain security requirements, such as minimum length, inclusion of different character types, non-repetition of characters, and so on.
 

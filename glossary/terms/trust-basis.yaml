@@ -1,8 +1,7 @@
 term: trust-basis
 aliases:
 - trust basis
-definition: The properties of a verifiable identifier (VID) or a ToIP system that
-  enable a party to appraise it to determine a trust limit.
+definition: The properties of a verifiable identifier (VID) or a ToIP system that enable a party to appraise it to determine a trust limit.
 notes: []
 see_also:
 - appraisability.
@@ -43,3 +42,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: The properties of a verifiable identifier (VID) or a ToIP system that enable a party to appraise it to determine a trust limit.

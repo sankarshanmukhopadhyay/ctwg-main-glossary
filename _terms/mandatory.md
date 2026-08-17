@@ -6,6 +6,9 @@ title: "mandatory"
 
 # mandatory
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A requirement that must be implemented in order for an implementer to be in compliance. In ToIP governance frameworks, a mandatory requirement is expressed using a MUST or REQUIRED keyword as defined in IETF RFC 2119.
 

@@ -2,8 +2,7 @@ term: cryptographic-binding
 aliases:
 - cryptographic binding
 - cryptographic bindings
-definition: Associating two or more related elements of information using cryptographic
-  techniques.
+definition: Associating two or more related elements of information using cryptographic techniques.
 notes: []
 see_also:
 - glossary
@@ -41,3 +40,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: Associating two or more related elements of information using cryptographic techniques.

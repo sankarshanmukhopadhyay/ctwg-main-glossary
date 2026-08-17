@@ -4,9 +4,7 @@ aliases:
 - actions
 - act
 - acts
-definition: Something that is actually done (a 'unit of work' that is executed) by
-  a single actor (on behalf of a given party), as a single operation, in a specific
-  context.
+definition: Something that is actually done (a 'unit of work' that is executed) by a single actor (on behalf of a given party), as a single operation, in a specific context.
 notes: []
 see_also:
 - glossary

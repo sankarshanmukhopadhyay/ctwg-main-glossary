@@ -6,6 +6,9 @@ title: "single-signature-identifier"
 
 # single-signature-identifier
 
+## In Simple English
+or single sig identifier; is an identifier controlled by a one-of-one signing key-pair
+
 ## Definition
 or single sig identifier; is an identifier controlled by a one-of-one signing key-pair
 

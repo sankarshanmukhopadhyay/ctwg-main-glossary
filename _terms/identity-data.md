@@ -6,6 +6,9 @@ title: "identity-data"
 
 # identity-data
 
+## In Simple English
+The set of data held by a party in order to provide an identity for a specific entity.
+
 ## Definition
 The set of data held by a party in order to provide an identity for a specific entity.
 

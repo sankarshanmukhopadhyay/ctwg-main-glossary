@@ -1,8 +1,7 @@
 term: transport-layer
 aliases:
 - transport layer
-definition: Layer of the TCP/IP protocol stack that is responsible for reliable connection-oriented
-  or connectionless end-to-end communications.
+definition: Layer of the TCP/IP protocol stack that is responsible for reliable connection-oriented or connectionless end-to-end communications.
 notes: []
 see_also:
 - glossary
@@ -40,3 +39,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: Layer of the TCP/IP protocol stack that is responsible for reliable connection-oriented or connectionless end-to-end communications.

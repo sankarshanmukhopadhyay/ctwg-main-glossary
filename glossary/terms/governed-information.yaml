@@ -1,9 +1,7 @@
 term: governed-information
 aliases:
 - governed information
-definition: Any information published under the authority of a governing body for
-  the purpose of governing a trust community. This includes its governance framework
-  and any information available via an authorized trust registry.
+definition: Any information published under the authority of a governing body for the purpose of governing a trust community. This includes its governance framework and any information available via an authorized trust registry.
 notes: []
 see_also:
 - policy

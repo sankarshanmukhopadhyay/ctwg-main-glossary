@@ -2,8 +2,7 @@ term: second-party
 aliases:
 - second party
 - second parties
-definition: The party with whom a first party engages to form a trust relationship,
-  establish a connection, make a delegation, or execute a transaction.
+definition: The party with whom a first party engages to form a trust relationship, establish a connection, make a delegation, or execute a transaction.
 notes: []
 see_also:
 - third party.
@@ -54,3 +53,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: The party with whom a first party engages to form a trust relationship, establish a connection, make a delegation, or execute a transaction.

@@ -1,8 +1,7 @@
 term: personal-data
 aliases:
 - personal data
-definition: Any information relating to an identified or identifiable natural person
-  (called a data subject under GDPR).
+definition: Any information relating to an identified or identifiable natural person (called a data subject under GDPR).
 notes: []
 see_also:
 - glossary
@@ -40,3 +39,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: Any information relating to an identified or identifiable natural person (called a data subject under GDPR).

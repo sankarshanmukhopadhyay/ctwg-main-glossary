@@ -6,6 +6,9 @@ title: "trust-decision"
 
 # trust-decision
 
+## In Simple English
+A decision about whether it is safe and appropriate to rely on another party in a specific situation.
+
 ## Definition
 A decision that a party needs to make about whether to engage in a specific interaction or transaction with another entity that involves real or perceived risks.
 

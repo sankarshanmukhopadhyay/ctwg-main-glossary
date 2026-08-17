@@ -6,6 +6,9 @@ title: "anycast"
 
 # anycast
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 Anycast is a network addressing and routing methodology in which a single IP-address is shared by devices (generally servers) in multiple locations. Routers direct packets addressed to this destination to the location nearest the sender, using their normal decision-making algorithms, typically the lowest number of BGP network hops. Anycast routing is widely used by content delivery networks such as web and name servers, to bring their content closer to end users.
 

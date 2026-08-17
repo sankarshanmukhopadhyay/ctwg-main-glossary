@@ -6,6 +6,9 @@ title: "voip"
 
 # voip
 
+## In Simple English
+See: Voice over IP.
+
 ## Definition
 See: Voice over IP.
 

@@ -6,6 +6,9 @@ title: "audit-log"
 
 # audit-log
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 An audit log is a security-relevant chronological record, set of records, and/or destination and source of records that provide documentary evidence of the sequence of activities that have affected at any time a specific operation, procedure, event, or device.
 

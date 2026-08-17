@@ -6,6 +6,9 @@ title: "registration-agent"
 
 # registration-agent
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A party responsible for accepting registration requests and authenticating the registrant. The term may also apply to a party accepting issuance requests for digital credentials.
 

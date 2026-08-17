@@ -6,6 +6,9 @@ title: "manifest-consumer"
 
 # manifest-consumer
 
+## In Simple English
+An actor that consumes an asset with an associated C2PA manifest to obtain and evaluate provenance data.
+
 ## Definition
 An actor that consumes an asset with an associated C2PA manifest to obtain and evaluate provenance data.
 

@@ -1,8 +1,7 @@
 term: toip-layer-2
 aliases:
 - ToIP Layer 2
-definition: The trust spanning layer of the ToIP stack, responsible for enabling trust
-  task protocols at ToIP Layer 3.
+definition: The trust spanning layer of the ToIP stack, responsible for enabling trust task protocols at ToIP Layer 3.
 notes: []
 see_also:
 - glossary
@@ -44,3 +43,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: The trust spanning layer of the ToIP stack, responsible for enabling trust task protocols at ToIP Layer 3.

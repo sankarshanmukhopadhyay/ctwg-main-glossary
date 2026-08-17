@@ -6,6 +6,9 @@ title: "interaction context"
 
 # interaction context
 
+## In Simple English
+A session-level governance envelope that groups related tasks, messages, authority, evidence, and trust decisions across a sequence of interactions.
+
 ## Definition
 A session-level governance envelope that groups related tasks, messages, authority, evidence, and trust decisions across a sequence of interactions.
 

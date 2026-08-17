@@ -2,8 +2,7 @@ term: toip-identifier
 aliases:
 - ToIP identifier
 - ToIP identifiers
-definition: A verifiable identifier (VID) for an entity that is addressable using
-  the ToIP stack.
+definition: A verifiable identifier (VID) for an entity that is addressable using the ToIP stack.
 notes: []
 see_also:
 - autonomic identifier
@@ -13,8 +12,7 @@ sources:
 - 'ToIP CTWG maintained glossary source: `spec/terms-definitions/toip-identifier.md`'
 mental_models: []
 supporting_definitions:
-- 'For more information, see: [Section 6.4](https://github.com/trustoverip/TechArch/blob/main/spec.md#64-toip-identifiers)
-  of the [[ref: ToIP Technology Architecture Specification]].'
+- 'For more information, see: [Section 6.4](https://github.com/trustoverip/TechArch/blob/main/spec.md#64-toip-identifiers) of the [[ref: ToIP Technology Architecture Specification]].'
 source_file: spec/terms-definitions/toip-identifier.md
 governance_profile: descriptive
 governance:
@@ -44,3 +42,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: A verifiable identifier (VID) for an entity that is addressable using the ToIP stack.

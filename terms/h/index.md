@@ -14,6 +14,7 @@ nav_order: 8
 - [host]({{ '/terms/host/' | relative_url }})
 - [hourglass-model]({{ '/terms/hourglass-model/' | relative_url }})
 - [hsm]({{ '/terms/hsm/' | relative_url }})
+- [human harm]({{ '/terms/human-harm/' | relative_url }})
 - [human-auditable]({{ '/terms/human-auditable/' | relative_url }})
 - [human-experience]({{ '/terms/human-experience/' | relative_url }})
 - [human-readable]({{ '/terms/human-readable/' | relative_url }})

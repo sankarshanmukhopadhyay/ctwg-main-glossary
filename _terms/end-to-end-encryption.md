@@ -6,6 +6,9 @@ title: "end-to-end-encryption"
 
 # end-to-end-encryption
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 Encryption that is applied to a communication before it is transmitted from the sender’s communication endpoint and cannot be decrypted until after it is received at the receiver’s communication endpoint. When end-to-end encryption is used, the communication cannot be decrypted in transit no matter how many intermediaries are involved in the routing process.
 

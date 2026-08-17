@@ -3,8 +3,7 @@ aliases:
 - SSI
 definition: 'See: self-sovereign identity.'
 notes:
-- In some contexts, such as academic papers or industry conferences, this acronym
-  has started to replace the term it represents.
+- In some contexts, such as academic papers or industry conferences, this acronym has started to replace the term it represents.
 see_also:
 - glossary
 - definition
@@ -41,3 +40,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: 'See: self-sovereign identity.'

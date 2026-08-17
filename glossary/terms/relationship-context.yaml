@@ -44,3 +44,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: A context established within the boundary of a trust relationship.

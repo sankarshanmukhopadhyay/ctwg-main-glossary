@@ -6,6 +6,9 @@ title: "tls"
 
 # tls
 
+## In Simple English
+See: Transport Layer Security.
+
 ## Definition
 See: Transport Layer Security.
 

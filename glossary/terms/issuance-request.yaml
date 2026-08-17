@@ -2,8 +2,7 @@ term: issuance-request
 aliases:
 - issuance request
 - issuance requests
-definition: A protocol request invoked by the holder of a digital wallet to obtain
-  a digital credential from an issuer.
+definition: A protocol request invoked by the holder of a digital wallet to obtain a digital credential from an issuer.
 notes: []
 see_also:
 - presentation request.
@@ -52,3 +51,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: A protocol request invoked by the holder of a digital wallet to obtain a digital credential from an issuer.

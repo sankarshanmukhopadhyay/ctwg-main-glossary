@@ -6,6 +6,9 @@ title: "certificate-authority"
 
 # certificate-authority
 
+## In Simple English
+The entity in a public key infrastructure (PKI) that is responsible for issuing public key certificates and exacting compliance to a PKI policy.
+
 ## Definition
 The entity in a public key infrastructure (PKI) that is responsible for issuing public key certificates and exacting compliance to a PKI policy.
 

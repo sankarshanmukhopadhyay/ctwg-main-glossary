@@ -6,6 +6,9 @@ title: "multicast-address"
 
 # multicast-address
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A multicast address is a logical identifier for a group of hosts in a computer network that are available to process datagrams or frames intended to be multicast for a designated network service.
 

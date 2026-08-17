@@ -6,6 +6,9 @@ title: "dark-pattern"
 
 # dark-pattern
 
+## In Simple English
+A design pattern, mainly in user interfaces, that has the effect of deceiving individuals into making choices that are advantageous to the designer.
+
 ## Definition
 A design pattern, mainly in user interfaces, that has the effect of deceiving individuals into making choices that are advantageous to the designer.
 

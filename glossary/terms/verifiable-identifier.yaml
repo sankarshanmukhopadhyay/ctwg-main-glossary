@@ -4,11 +4,7 @@ aliases:
 - verifiable identifiers
 - VID
 - VIDs
-definition: An identifier over which the controller can provide cryptographic proof
-  of control. Each type of VID defines a specific means for discovering the public
-  key, network endpoints, or other metadata necessary to prove control. Decentralized
-  identifiers (DIDs) are a W3C standard for VIDs. VIDs are the cryptographically verifiable
-  identifiers used in the ToIP stack.
+definition: An identifier over which the controller can provide cryptographic proof of control. Each type of VID defines a specific means for discovering the public key, network endpoints, or other metadata necessary to prove control. Decentralized identifiers (DIDs) are a W3C standard for VIDs. VIDs are the cryptographically verifiable identifiers used in the ToIP stack.
 notes: []
 see_also:
 - decentralized identifier

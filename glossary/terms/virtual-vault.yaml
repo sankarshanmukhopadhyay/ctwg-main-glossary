@@ -2,9 +2,7 @@ term: virtual-vault
 aliases:
 - virtual vault
 - virtual vaults
-definition: A digital vault enclosed inside another digital vault by virtue of having
-  its own verifiable identifier (VID) and its own set of encryption keys that are
-  separate from those used to unlock the enclosing vault.
+definition: A digital vault enclosed inside another digital vault by virtue of having its own verifiable identifier (VID) and its own set of encryption keys that are separate from those used to unlock the enclosing vault.
 notes: []
 see_also:
 - glossary

@@ -6,6 +6,9 @@ title: "second-party"
 
 # second-party
 
+## In Simple English
+The party with whom a first party engages to form a trust relationship, establish a connection, make a delegation, or execute a transaction.
+
 ## Definition
 The party with whom a first party engages to form a trust relationship, establish a connection, make a delegation, or execute a transaction.
 

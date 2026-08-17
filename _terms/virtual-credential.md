@@ -6,6 +6,9 @@ title: "virtual-credential"
 
 # virtual-credential
 
+## In Simple English
+Digital representations of claims or identity attributes, often used in online environments.
+
 ## Definition
 Digital representations of claims or identity attributes, often used in online environments.
 

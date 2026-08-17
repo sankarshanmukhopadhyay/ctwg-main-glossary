@@ -2,8 +2,7 @@ term: single-signature-identifier
 aliases:
 - single-signature-identifier
 - single-signature identifier
-definition: or single sig identifier; is an identifier controlled by a one-of-one
-  signing key-pair
+definition: or single sig identifier; is an identifier controlled by a one-of-one signing key-pair
 notes: []
 see_also:
 - glossary
@@ -47,3 +46,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: or single sig identifier; is an identifier controlled by a one-of-one signing key-pair

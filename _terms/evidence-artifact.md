@@ -6,6 +6,9 @@ title: "evidence artifact"
 
 # evidence artifact
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A typed, structured output produced by a system, authorized actor, or assessment process to demonstrate that a rule was checked, a behavior occurred, or a condition holds.
 

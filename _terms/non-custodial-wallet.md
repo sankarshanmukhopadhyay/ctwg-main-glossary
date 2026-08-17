@@ -6,6 +6,9 @@ title: "non-custodial-wallet"
 
 # non-custodial-wallet
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A digital wallet that is directly in the control of the holder, usually because the holder is the device controller of the device hosting the digital wallet (smartcard, smartphone, tablet, laptop, desktop, car, etc.) A digital wallet that is in the custody of a third party is called a custodial wallet.
 

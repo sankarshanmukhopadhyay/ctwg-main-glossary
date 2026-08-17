@@ -6,6 +6,9 @@ title: "did"
 
 # did
 
+## In Simple English
+See: decentralized identifier
+
 ## Definition
 See: decentralized identifier
 

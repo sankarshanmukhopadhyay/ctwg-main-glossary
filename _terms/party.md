@@ -6,6 +6,9 @@ title: "party"
 
 # party
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 An entity that sets its objectives, maintains its knowledge, and uses that knowledge to pursue its objectives in an autonomous (sovereign) manner. Natural persons and organizations are the typical examples.
 

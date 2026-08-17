@@ -6,6 +6,9 @@ title: "trust-chain"
 
 # trust-chain
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A sequence of cryptographically verifiable links, statements, or governance-recognized relationships used to establish whether a participant, key, credential, or federation entity should be trusted for a relying decision.
 

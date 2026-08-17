@@ -6,6 +6,9 @@ title: "keys-at-the-edge"
 
 # keys-at-the-edge
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A key management architecture in which keys are stored on a user’s local edge devices, such as a smartphone, tablet, or laptop, and then used in conjunction with a secure protocol to unlock a key management system (KMS) and/or a digital vault in the cloud. This approach can enable the storage and sharing of large data structures that are not feasible on edge devices. This architecture can also be used in conjunction with confidential computing to enable cloud-based digital agents to safely carry out “user not present” operations.
 

@@ -6,6 +6,9 @@ title: "credential-family"
 
 # credential-family
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A set of related digital credentials defined by a governing body (typically in a governance framework) to empower transitive trust decisions among the participants in a digital trust ecosystem.
 

@@ -6,6 +6,9 @@ title: "governance-framework"
 
 # governance-framework
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A collection of one or more governance documents published by the governing body of a trust community that defines the rules, roles, responsibilities, and decision rights under which that community operates.
 

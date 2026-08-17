@@ -6,6 +6,9 @@ title: "information-theoretic-security"
 
 # information-theoretic-security
 
+## In Simple English
+the highest level of cryptographic security concerning a cryptographic secret (seed, salt, or private key).
+
 ## Definition
 the highest level of cryptographic security concerning a cryptographic secret (seed, salt, or private key).
 

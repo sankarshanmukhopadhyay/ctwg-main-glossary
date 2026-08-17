@@ -6,6 +6,9 @@ title: "toip-governance-metamodel"
 
 # toip-governance-metamodel
 
+## In Simple English
+A structural model for governance frameworks that specifies the recommended governance documents that should be included depending on the objectives of the trust community.
+
 ## Definition
 A structural model for governance frameworks that specifies the recommended governance documents that should be included depending on the objectives of the trust community.
 

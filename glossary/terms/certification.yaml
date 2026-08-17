@@ -2,11 +2,7 @@ term: certification
 aliases:
 - certification
 - certifications
-definition: A comprehensive assessment of the management, operational, and technical
-  security controls in an information system, made in support of security accreditation,
-  to determine the extent to which the controls are implemented correctly, operating
-  as intended, and producing the desired outcome with respect to meeting the security
-  requirements for the system.
+definition: A comprehensive assessment of the management, operational, and technical security controls in an information system, made in support of security accreditation, to determine the extent to which the controls are implemented correctly, operating as intended, and producing the desired outcome with respect to meeting the security requirements for the system.
 notes: []
 see_also:
 - accreditation

@@ -2,8 +2,7 @@ term: issuer-metadata
 aliases:
 - credential issuer metadata
 - issuer metadata
-definition: Metadata published by a credential issuer describing issuer capabilities,
-  credential configurations, endpoints, and supported formats.
+definition: Metadata published by a credential issuer describing issuer capabilities, credential configurations, endpoints, and supported formats.
 reader_note: ''
 implementation_relevance: ''
 notes: []
@@ -54,3 +53,4 @@ control_plane:
 crosswalk:
   openid:
   - OpenID4VCI 1.0
+simple_definition: Metadata published by a credential issuer describing issuer capabilities, credential configurations, endpoints, and supported formats.

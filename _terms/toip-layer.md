@@ -6,6 +6,9 @@ title: "toip-layer"
 
 # toip-layer
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 One of four protocol layers in the ToIP stack. The four layers are ToIP Layer 1, ToIP Layer 2, ToIP Layer 3, and ToIP Layer 4.
 

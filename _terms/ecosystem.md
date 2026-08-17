@@ -6,6 +6,9 @@ title: "ecosystem"
 
 # ecosystem
 
+## In Simple English
+See: digital ecosystem.
+
 ## Definition
 See: digital ecosystem.
 

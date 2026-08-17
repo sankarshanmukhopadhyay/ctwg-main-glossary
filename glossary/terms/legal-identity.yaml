@@ -2,8 +2,7 @@ term: legal-identity
 aliases:
 - legal identity
 - legal identities
-definition: A set of identity data considered authoritative to identify a party for
-  purposes of legal accountability under one or more jurisdictions.
+definition: A set of identity data considered authoritative to identify a party for purposes of legal accountability under one or more jurisdictions.
 notes: []
 see_also:
 - foundational identity
@@ -41,3 +40,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: A set of identity data considered authoritative to identify a party for purposes of legal accountability under one or more jurisdictions.

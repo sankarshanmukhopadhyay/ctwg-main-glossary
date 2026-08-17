@@ -6,6 +6,9 @@ title: "accreditation"
 
 # accreditation
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 Formal declaration by an accrediting authority that an information system is approved to operate at an acceptable level of risk, based on the implementation of an approved set of technical, managerial, and procedural safeguards.
 

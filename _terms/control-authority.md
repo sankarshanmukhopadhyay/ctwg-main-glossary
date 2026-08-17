@@ -6,6 +6,9 @@ title: "control-authority"
 
 # control-authority
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 In identity systems, control authority is the power to determine who controls what. It is a primary factor in determining the basis for trust in those systems.
 

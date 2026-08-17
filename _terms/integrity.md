@@ -6,6 +6,9 @@ title: "integrity"
 
 # integrity
 
+## In Simple English
+- General IT: [[xref:toip2, integrity]] and KERI specific: [[xref:keri1, integrity]]
+
 ## Definition
 - General IT: [[xref:toip2, integrity]] and KERI specific: [[xref:keri1, integrity]]
 

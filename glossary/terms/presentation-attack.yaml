@@ -2,8 +2,7 @@ term: presentation-attack
 aliases:
 - presentation attack
 - presentation attacks
-definition: A type of cybersecurity attack in which the attacker attempts to defeat
-  a biometric liveness detection system by providing false inputs.
+definition: A type of cybersecurity attack in which the attacker attempts to defeat a biometric liveness detection system by providing false inputs.
 notes: []
 see_also:
 - glossary
@@ -12,9 +11,7 @@ sources:
 - 'ToIP CTWG maintained glossary source: `spec/terms-definitions/presentation-attack.md`'
 mental_models: []
 supporting_definitions:
-- '[NIST-CSRC](https://csrc.nist.gov/glossary/term/presentation_attack): Presentation
-  to the biometric data capture subsystem with the goal of interfering with the operation
-  of the biometric system.'
+- '[NIST-CSRC](https://csrc.nist.gov/glossary/term/presentation_attack): Presentation to the biometric data capture subsystem with the goal of interfering with the operation of the biometric system.'
 source_file: spec/terms-definitions/presentation-attack.md
 governance_profile: descriptive
 governance:
@@ -44,3 +41,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: A type of cybersecurity attack in which the attacker attempts to defeat a biometric liveness detection system by providing false inputs.

@@ -58,3 +58,4 @@ control_plane:
   - delegation_record
   - status_record
   - verification_log
+simple_definition: A change in which actor, policy, infrastructure component, or governance mechanism can determine, constrain, or revoke system behavior.

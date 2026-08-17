@@ -2,8 +2,7 @@ term: vid-to-vid
 aliases:
 - VID-to-VID
 - V2V
-definition: The specialized type of peer-to-peer communications enabled by the ToIP
-  Trust Spanning Protocol. Each pair of VIDs creates a unique VID relationship.
+definition: The specialized type of peer-to-peer communications enabled by the ToIP Trust Spanning Protocol. Each pair of VIDs creates a unique VID relationship.
 notes: []
 see_also:
 - glossary
@@ -45,3 +44,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: The specialized type of peer-to-peer communications enabled by the ToIP Trust Spanning Protocol. Each pair of VIDs creates a unique VID relationship.

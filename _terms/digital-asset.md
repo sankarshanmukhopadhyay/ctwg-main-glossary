@@ -6,6 +6,9 @@ title: "digital-asset"
 
 # digital-asset
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A digital asset is anything that exists only in digital form and comes with a distinct usage right. Data that do not possess that right are not considered assets.
 

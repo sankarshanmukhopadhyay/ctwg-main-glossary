@@ -1,10 +1,7 @@
 term: recommended
 aliases:
 - recommended
-definition: A requirement that is not mandatory to implement in order for an implementer
-  to be in compliance, but which should be implemented unless the implementer has
-  a good reason. In ToIP governance frameworks, a recommendation is expressed using
-  a SHOULD or RECOMMENDED keyword as defined in IETF RFC 2119.
+definition: A requirement that is not mandatory to implement in order for an implementer to be in compliance, but which should be implemented unless the implementer has a good reason. In ToIP governance frameworks, a recommendation is expressed using a SHOULD or RECOMMENDED keyword as defined in IETF RFC 2119.
 notes: []
 see_also:
 - mandatory

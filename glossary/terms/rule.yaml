@@ -2,8 +2,7 @@ term: rule
 aliases:
 - rule
 - rules
-definition: A prescribed guide for conduct, process or action to achieve a defined
-  result or objective. Rules may be human-readable or machine-readable or both.
+definition: A prescribed guide for conduct, process or action to achieve a defined result or objective. Rules may be human-readable or machine-readable or both.
 notes: []
 see_also:
 - governance framework
@@ -41,3 +40,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: A prescribed guide for conduct, process or action to achieve a defined result or objective. Rules may be human-readable or machine-readable or both.

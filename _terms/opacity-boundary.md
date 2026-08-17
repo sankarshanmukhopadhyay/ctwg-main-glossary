@@ -6,6 +6,9 @@ title: "opacity boundary"
 
 # opacity boundary
 
+## In Simple English
+A declared limit on what can be observed about an agent or system and the resulting constraints on trust, evidence, assurance, and permitted reliance.
+
 ## Definition
 A declared limit on what can be observed about an agent or system and the resulting constraints on trust, evidence, assurance, and permitted reliance.
 

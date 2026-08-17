@@ -6,6 +6,9 @@ title: "secure-attribution"
 
 # secure-attribution
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 Secure attribution is strongly related to _making and proving statements_. A controller makes statements to the a validator or verifier, who in turn validates the statements issued. A controller "_owns_" the statement: content and attribution via digital signatures. Secure attribution is "whodunit?!" in cyberspace.
 

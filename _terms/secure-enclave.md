@@ -6,6 +6,9 @@ title: "secure-enclave"
 
 # secure-enclave
 
+## In Simple English
+A coprocessor on Apple iOS devices that serves as a trusted execution environment.
+
 ## Definition
 A coprocessor on Apple iOS devices that serves as a trusted execution environment.
 

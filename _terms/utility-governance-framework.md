@@ -6,6 +6,9 @@ title: "utility-governance-framework"
 
 # utility-governance-framework
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A governance framework for a digital trust utility. A utility governance framework may be a component of or referenced by an ecosystem governance framework or a credential governance framework.
 

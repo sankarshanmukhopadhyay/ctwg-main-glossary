@@ -6,6 +6,9 @@ title: "urn"
 
 # urn
 
+## In Simple English
+See: Uniform Resource Name.
+
 ## Definition
 See: Uniform Resource Name.
 

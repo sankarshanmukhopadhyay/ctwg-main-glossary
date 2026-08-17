@@ -6,6 +6,9 @@ title: "lei"
 
 # lei
 
+## In Simple English
+See: Legal Entity Identifier.
+
 ## Definition
 See: Legal Entity Identifier.
 

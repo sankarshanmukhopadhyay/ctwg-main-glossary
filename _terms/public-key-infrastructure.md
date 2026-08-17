@@ -6,6 +6,9 @@ title: "public-key-infrastructure"
 
 # public-key-infrastructure
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A set of policies, processes, server platforms, software and workstations used for the purpose of administering certificates and public-private key pairs, including the ability to issue, maintain, and revoke public key certificates. The PKI includes the hierarchy of certificate authorities that allow for the deployment of digital certificates that support encryption, digital signature and authentication to meet business and security requirements.
 

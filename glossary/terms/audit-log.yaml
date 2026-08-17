@@ -2,10 +2,7 @@ term: audit-log
 aliases:
 - audit log
 - audit logs
-definition: An audit log is a security-relevant chronological record, set of records,
-  and/or destination and source of records that provide documentary evidence of the
-  sequence of activities that have affected at any time a specific operation, procedure,
-  event, or device.
+definition: An audit log is a security-relevant chronological record, set of records, and/or destination and source of records that provide documentary evidence of the sequence of activities that have affected at any time a specific operation, procedure, event, or device.
 notes: []
 see_also:
 - key event log.

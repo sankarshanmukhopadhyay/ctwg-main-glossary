@@ -1,9 +1,7 @@
 term: trust-application-layer
 aliases:
 - trust application layer
-definition: In the context of the ToIP stack, the trust application layer is ToIP
-  Layer 4. Applications running at this layer call trust task protocols at ToIP Layer
-  3.
+definition: In the context of the ToIP stack, the trust application layer is ToIP Layer 4. Applications running at this layer call trust task protocols at ToIP Layer 3.
 notes: []
 see_also:
 - glossary

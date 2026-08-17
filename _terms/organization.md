@@ -6,6 +6,9 @@ title: "organization"
 
 # organization
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A party that consists of a group of parties who agree to be organized into a specific form in order to better achieve a common set of objectives. Examples include corporations, partnerships, sole proprietorships, non-profit organizations, associations, and governments.
 

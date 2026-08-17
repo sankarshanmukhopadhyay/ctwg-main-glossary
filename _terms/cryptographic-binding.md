@@ -6,6 +6,9 @@ title: "cryptographic-binding"
 
 # cryptographic-binding
 
+## In Simple English
+Associating two or more related elements of information using cryptographic techniques.
+
 ## Definition
 Associating two or more related elements of information using cryptographic techniques.
 

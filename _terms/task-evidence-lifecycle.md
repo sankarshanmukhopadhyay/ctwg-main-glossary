@@ -6,6 +6,9 @@ title: "task evidence lifecycle"
 
 # task evidence lifecycle
 
+## In Simple English
+The sequence of evidence, receipts, artifacts, and review triggers associated with governance-significant task state transitions from initiation through completion, cancellation, or failure.
+
 ## Definition
 The sequence of evidence, receipts, artifacts, and review triggers associated with governance-significant task state transitions from initiation through completion, cancellation, or failure.
 

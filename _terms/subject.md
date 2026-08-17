@@ -6,6 +6,9 @@ title: "subject"
 
 # subject
 
+## In Simple English
+The entity described by one or more claims, particularly in the context of credentials.
+
 ## Definition
 The entity described by one or more claims, particularly in the context of credentials.
 

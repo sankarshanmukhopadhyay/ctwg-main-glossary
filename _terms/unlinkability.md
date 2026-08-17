@@ -6,6 +6,9 @@ title: "unlinkability"
 
 # unlinkability
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A privacy property under which two or more transactions, proofs, identifiers, or observations cannot reasonably be determined to concern the same party beyond the permitted correlation scope.
 

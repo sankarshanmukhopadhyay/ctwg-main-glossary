@@ -6,6 +6,9 @@ title: "trust-registry"
 
 # trust-registry
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A registry that serves as an authoritative source for trust graphs or other governed information describing one or more trust communities. A trust registry is typically authorized by a governance framework.
 

@@ -1,8 +1,7 @@
 term: toip-technology-architecture-specification
 aliases:
 - ToIP Technology Architecture Specification
-definition: The technical specification defining the requirements for the ToIP Technology
-  Stack published by the ToIP Foundation.
+definition: The technical specification defining the requirements for the ToIP Technology Stack published by the ToIP Foundation.
 notes: []
 see_also:
 - glossary
@@ -41,3 +40,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: The technical specification defining the requirements for the ToIP Technology Stack published by the ToIP Foundation.

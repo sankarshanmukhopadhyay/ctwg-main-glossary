@@ -6,6 +6,9 @@ title: "machine-readable"
 
 # machine-readable
 
+## In Simple English
+Information written in a computer language or expression language so that it can be read and processed by a computing device.
+
 ## Definition
 Information written in a computer language or expression language so that it can be read and processed by a computing device.
 

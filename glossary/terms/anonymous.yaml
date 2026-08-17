@@ -1,8 +1,7 @@
 term: anonymous
 aliases:
 - anonymous
-definition: An adjective describing when the identity of a natural person or other
-  actor is unknown.
+definition: An adjective describing when the identity of a natural person or other actor is unknown.
 notes: []
 see_also:
 - pseudonym.
@@ -39,3 +38,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: An adjective describing when the identity of a natural person or other actor is unknown.

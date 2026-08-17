@@ -58,3 +58,4 @@ control_plane:
   - delegation_record
   - status_record
   - verification_log
+simple_definition: A governed process for determining whether an advertised capability is discoverable, compatible, authorized, accepted, and permitted to execute under applicable policy.

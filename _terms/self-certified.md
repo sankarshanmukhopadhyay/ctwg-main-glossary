@@ -6,6 +6,9 @@ title: "self-certified"
 
 # self-certified
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 When a party provides its own certification that it is compliant with a set of requirements, such as a governance framework. The term is also applied to data structures that are cryptographically verifiable such as self-certifying identifiers.
 

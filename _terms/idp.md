@@ -6,6 +6,9 @@ title: "idp"
 
 # idp
 
+## In Simple English
+See: identity provider.
+
 ## Definition
 See: identity provider.
 

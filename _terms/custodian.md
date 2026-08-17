@@ -6,6 +6,9 @@ title: "custodian"
 
 # custodian
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A third party that has been assigned rights and duties in a custodianship arrangement for the purpose of hosting and safeguarding a principal's private keys, digital wallet and digital assets on the principal’s behalf. Depending on the custodianship arrangement, the custodian may act as an exchange and provide additional services, such as staking, lending, account recovery, or security features.
 

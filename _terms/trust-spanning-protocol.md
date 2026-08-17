@@ -6,6 +6,9 @@ title: "trust-spanning-protocol"
 
 # trust-spanning-protocol
 
+## In Simple English
+See: ToIP Trust Spanning Protocol.
+
 ## Definition
 See: ToIP Trust Spanning Protocol.
 

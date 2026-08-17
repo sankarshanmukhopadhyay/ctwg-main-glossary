@@ -6,6 +6,9 @@ title: "encryption"
 
 # encryption
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 Cryptographic transformation of data (called plaintext) into a form (called ciphertext) that conceals the data's original meaning to prevent it from being known or used. If the transformation is reversible, the corresponding reversal process is called decryption, which is a transformation that restores encrypted data to its original state.
 

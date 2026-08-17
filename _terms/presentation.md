@@ -6,6 +6,9 @@ title: "presentation"
 
 # presentation
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A verifiable message that a holder may send to a verifier containing proofs of one or more claims derived from one or more digital credentials from one or more issuers as a response to a specific presentation request from a  verifier.
 

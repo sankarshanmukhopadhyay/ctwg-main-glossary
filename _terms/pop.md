@@ -6,6 +6,9 @@ title: "pop"
 
 # pop
 
+## In Simple English
+See: proof of personhood.
+
 ## Definition
 See: proof of personhood.
 

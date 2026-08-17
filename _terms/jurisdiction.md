@@ -6,6 +6,9 @@ title: "jurisdiction"
 
 # jurisdiction
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 The composition of: a) a legal system (legislation, enforcement thereof, and conflict resolution), b) a party that governs that legal system, c) a scope within which that legal system is operational, and d) one or more objectives for the purpose of which the legal system is operated.
 

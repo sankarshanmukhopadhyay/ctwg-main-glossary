@@ -1,8 +1,7 @@
 term: toip-relationship
 aliases:
 - ToIP relationship
-definition: A VID-to-VID relationship formed between two entities over the ToIP Trust
-  Spanning Protocol.
+definition: A VID-to-VID relationship formed between two entities over the ToIP Trust Spanning Protocol.
 notes: []
 see_also:
 - glossary
@@ -44,3 +43,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: A VID-to-VID relationship formed between two entities over the ToIP Trust Spanning Protocol.

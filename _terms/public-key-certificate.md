@@ -6,6 +6,9 @@ title: "public-key-certificate"
 
 # public-key-certificate
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A set of data that uniquely identifies a public key (which has a corresponding private key) and an owner that is authorized to use the key pair. The certificate contains the owner’s public key and possibly other information and is digitally signed by a certification authority (i.e., a trusted party), thereby binding the public key to the owner.
 

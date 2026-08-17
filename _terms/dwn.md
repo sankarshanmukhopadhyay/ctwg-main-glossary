@@ -6,6 +6,9 @@ title: "dwn"
 
 # dwn
 
+## In Simple English
+See: Decentralized Web Node.
+
 ## Definition
 See: Decentralized Web Node.
 

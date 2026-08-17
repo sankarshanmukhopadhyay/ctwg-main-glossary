@@ -54,3 +54,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: A governance document whose authority is derived from a primary document.

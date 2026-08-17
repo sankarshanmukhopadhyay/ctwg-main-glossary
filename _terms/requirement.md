@@ -6,6 +6,9 @@ title: "requirement"
 
 # requirement
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A specified condition or behavior to which a system needs to comply. Technical requirements are defined in technical specifications and implemented in computer systems to be executed by software actors. Governance requirements are defined in governance documents that specify policies and procedures to be executed by human actors. In ToIP specifications, requirements are expressed using the keywords defined in Internet RFC 2119.
 

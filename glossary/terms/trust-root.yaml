@@ -46,3 +46,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: 'See: trust anchor'

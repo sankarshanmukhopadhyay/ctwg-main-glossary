@@ -6,6 +6,9 @@ title: "real-world-identity"
 
 # real-world-identity
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A term used to describe the opposite of digital identity, i.e., an identity (typically for a person) in the physical instead of the digital world.
 

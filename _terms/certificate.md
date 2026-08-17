@@ -6,6 +6,9 @@ title: "certificate"
 
 # certificate
 
+## In Simple English
+See: public key certificate.
+
 ## Definition
 See: public key certificate.
 

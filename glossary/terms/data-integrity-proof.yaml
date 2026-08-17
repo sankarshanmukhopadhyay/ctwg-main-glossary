@@ -2,8 +2,7 @@ term: data-integrity-proof
 aliases:
 - Data Integrity proof
 - VC Data Integrity proof
-definition: A cryptographic proof mechanism used to protect the authenticity and integrity
-  of verifiable credentials and similar constrained digital documents.
+definition: A cryptographic proof mechanism used to protect the authenticity and integrity of verifiable credentials and similar constrained digital documents.
 reader_note: ''
 implementation_relevance: ''
 notes: []
@@ -52,3 +51,4 @@ control_plane:
 crosswalk:
   w3c:
   - Verifiable Credential Data Integrity 1.0
+simple_definition: A cryptographic proof mechanism used to protect the authenticity and integrity of verifiable credentials and similar constrained digital documents.

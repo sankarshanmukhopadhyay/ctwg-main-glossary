@@ -6,6 +6,9 @@ title: "trusted-execution-environment"
 
 # trusted-execution-environment
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A trusted execution environment (TEE) is a secure area of a main processor. It helps code and data loaded inside it to be protected with respect to confidentiality and integrity. Data integrity prevents unauthorized entities from outside the TEE from altering data, while code integrity prevents code in the TEE from being replaced or modified by unauthorized entities, which may also be the computer owner itself as in certain DRM schemes.
 

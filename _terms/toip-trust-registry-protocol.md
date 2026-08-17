@@ -6,6 +6,9 @@ title: "toip-trust-registry-protocol"
 
 # toip-trust-registry-protocol
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 The open standard trust task protocol defined by the ToIP Foundation to perform the trust task of querying a trust registry. The ToIP Trust Registry Protocol operates at Layer 3 of the ToIP stack.
 

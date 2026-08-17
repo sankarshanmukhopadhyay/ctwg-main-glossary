@@ -69,6 +69,7 @@
           "SP 800-63-4"
         ]
       },
+      "simple_definition": "See: authenticator assurance level.",
       "slug": "aal"
     },
     {
@@ -132,6 +133,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: attribute-based access control.",
       "slug": "abac"
     },
     {
@@ -193,6 +195,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A trust network designed to facilitate acceptance of verifiable data for its members.",
       "slug": "acceptance-network"
     },
     {
@@ -255,6 +258,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "The action of a party receiving any form of verifiable data and using it to make a trust decision.",
       "slug": "acceptance"
     },
     {
@@ -317,6 +321,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "The process of granting or denying specific requests for obtaining and using information and related information processing services.",
       "slug": "access-control"
     },
     {
@@ -448,6 +453,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: Authentic Chained Data Container.",
       "slug": "acdc"
     },
     {
@@ -627,6 +633,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: network address.",
       "slug": "address"
     },
     {
@@ -699,6 +706,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: administering body.",
       "slug": "administering-authority"
     },
     {
@@ -996,7 +1004,82 @@
           "verification_log"
         ]
       },
+      "simple_definition": "A structured artifact that binds an agent to an originating principal, delegated mandate, permitted scope, conditions, expiry, revocation semantics, and evidence requirements.",
       "slug": "agent-mandate-envelope"
+    },
+    {
+      "term": "agent registry",
+      "aliases": [
+        "agent-registry"
+      ],
+      "definition": "A registry that publishes and manages governed information about agents, including identity, authority, delegation, recognition, lifecycle state, and supporting evidence.",
+      "simple_definition": "A governed registry that helps others discover an agent and understand what it is allowed to do and whether that authority is still valid.",
+      "notes": [
+        "Added in v1.5.0 following a cross-repository terminology review of active trust infrastructure, agent governance, assurance, and national trust framework projects."
+      ],
+      "see_also": [
+        "agent",
+        "registry",
+        "delegation"
+      ],
+      "sources": [
+        {
+          "title": "Portfolio source repository",
+          "publisher": "GitHub",
+          "url": "https://github.com/sankarshanmukhopadhyay/agent-registry-protocol",
+          "normative": false
+        }
+      ],
+      "reader_note": "This is a cross-project glossary term. Individual specifications may define narrower domain-specific requirements.",
+      "implementation_relevance": "Use this term to keep governance, authority, assurance, and implementation discussions consistent across interoperating projects.",
+      "governance_profile": "governance-supporting",
+      "governance": {
+        "authority_scope": [
+          "assurance_and_audit",
+          "governance_recognition",
+          "policy_definition",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct_or_constrained",
+        "revocation_supported": false,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "deprecated"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "reference_term",
+        "enforcement_points": [
+          "policy_approval",
+          "reliance_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "definition_change_record",
+          "policy_document",
+          "audit_log"
+        ],
+        "assurance_level_hint": "AL1+",
+        "auditability": "moderate"
+      },
+      "control_plane": {
+        "decision_points": [
+          "policy_approval",
+          "reliance_decision"
+        ],
+        "accountable_entity": "glossary_maintainers",
+        "evidence_produced": [
+          "definition_change_record",
+          "policy_document",
+          "audit_log"
+        ]
+      },
+      "crosswalk": {
+        "nist": [],
+        "iso": []
+      },
+      "slug": "agent-registry"
     },
     {
       "term": "agent",
@@ -1071,6 +1154,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A person or software component that acts for someone or something else within a defined scope.",
       "slug": "agent"
     },
     {
@@ -1148,6 +1232,7 @@
           "verification_log"
         ]
       },
+      "simple_definition": "A delegation failure mode in which individually valid and attenuated authority branches combine to produce an effect broader than the originating mandate permits.",
       "slug": "aggregation-amplification"
     },
     {
@@ -1209,6 +1294,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See autonomic-identifier.",
       "slug": "aid"
     },
     {
@@ -1265,6 +1351,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "An adjective describing when the identity of a natural person or other actor is unknown.",
       "slug": "anonymous"
     },
     {
@@ -1323,6 +1410,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A network address (especially an IP address used for anycast routing of network transmissions.",
       "slug": "anycast-address"
     },
     {
@@ -1504,6 +1592,79 @@
       "slug": "appropriate-friction"
     },
     {
+      "term": "assurance boundary",
+      "aliases": [
+        "assurance-boundary"
+      ],
+      "definition": "The explicit limit of what an assurance claim, test result, evidence set, or implementation can reasonably support.",
+      "simple_definition": "The line that says what an assurance result does and does not prove.",
+      "notes": [
+        "Added in v1.5.0 following a cross-repository terminology review of active trust infrastructure, agent governance, assurance, and national trust framework projects."
+      ],
+      "see_also": [
+        "assurance-level",
+        "evidence bundle"
+      ],
+      "sources": [
+        {
+          "title": "Portfolio source repository",
+          "publisher": "GitHub",
+          "url": "https://github.com/sankarshanmukhopadhyay/agent-registry-protocol",
+          "normative": false
+        }
+      ],
+      "reader_note": "This is a cross-project glossary term. Individual specifications may define narrower domain-specific requirements.",
+      "implementation_relevance": "Use this term to keep governance, authority, assurance, and implementation discussions consistent across interoperating projects.",
+      "governance_profile": "governance-supporting",
+      "governance": {
+        "authority_scope": [
+          "assurance_and_audit",
+          "governance_recognition",
+          "policy_definition",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct_or_constrained",
+        "revocation_supported": false,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "deprecated"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "reference_term",
+        "enforcement_points": [
+          "policy_approval",
+          "reliance_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "definition_change_record",
+          "policy_document",
+          "audit_log"
+        ],
+        "assurance_level_hint": "AL1+",
+        "auditability": "moderate"
+      },
+      "control_plane": {
+        "decision_points": [
+          "policy_approval",
+          "reliance_decision"
+        ],
+        "accountable_entity": "glossary_maintainers",
+        "evidence_produced": [
+          "definition_change_record",
+          "policy_document",
+          "audit_log"
+        ]
+      },
+      "crosswalk": {
+        "nist": [],
+        "iso": []
+      },
+      "slug": "assurance-boundary"
+    },
+    {
       "term": "assurance-level",
       "aliases": [
         "assurance level",
@@ -1593,6 +1754,7 @@
           "ISO/IEC 29115"
         ]
       },
+      "simple_definition": "A stated level of confidence supported by defined evidence, controls, and review expectations.",
       "slug": "assurance-level"
     },
     {
@@ -1670,6 +1832,7 @@
           "verification_log"
         ]
       },
+      "simple_definition": "A policy that governs how inbound signals are admitted, deferred, summarized, rerouted, escalated, or rejected before reaching a principal or downstream decision layer.",
       "slug": "attention-policy"
     },
     {
@@ -1861,6 +2024,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "An identifiable set of data that describes an entity, which is the subject of the attribute.",
       "slug": "attribute"
     },
     {
@@ -1927,6 +2091,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "KERI offers cryptographic root-of-trust to establish attributional trust. In the real world you'd also need reputational-trust. You can't have reputation without attributional trust.",
       "slug": "attributional-trust"
     },
     {
@@ -2045,6 +2210,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "Independent review and examination of records and activities to assess the adequacy of system controls, to ensure compliance with established policies and operational procedures.",
       "slug": "audit"
     },
     {
@@ -2104,6 +2270,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "The party responsible for performing an audit. Typically an auditor must be accredited.",
       "slug": "auditor"
     },
     {
@@ -2177,6 +2344,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A digital data structure designed for both cryptographic verification and chaining of data containers. ACDC may be used for digital credentials.",
       "slug": "authentic-chained-data-container"
     },
     {
@@ -2235,6 +2403,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "integrity and [[xref:toip2, provenance]]'d data.",
       "slug": "authentic-data"
     },
     {
@@ -2316,6 +2485,7 @@
           "ISO/IEC 27001 A.5.17"
         ]
       },
+      "simple_definition": "Verifying the identity of a user, process, or device, often as a prerequisite to allowing access to resources in an information system.",
       "slug": "authentication"
     },
     {
@@ -2384,6 +2554,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A measure of the strength of an authentication mechanism and, therefore, the confidence in it.",
       "slug": "authenticator-assurance-level"
     },
     {
@@ -2464,6 +2635,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "Something the claimant possesses and controls (typically a cryptographic module or password) that is used to authenticate the claimant\u2019s identity.",
       "slug": "authenticator"
     },
     {
@@ -2677,6 +2849,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "Information or data that comes from an authority for that information.",
       "slug": "authoritative"
     },
     {
@@ -2761,7 +2934,82 @@
           "verification_log"
         ]
       },
+      "simple_definition": "A machine- or human-readable constraint that identifies where authority begins and ends, including the permitted actor, scope, action, target, conditions, and lifecycle state.",
       "slug": "authority-boundary"
+    },
+    {
+      "term": "authority control plane",
+      "aliases": [
+        "authority-control-plane"
+      ],
+      "definition": "The set of governance and runtime mechanisms that determine who may act, under whose authority, within what scope, and with what lifecycle and enforcement conditions.",
+      "simple_definition": "The part of a system that decides who is allowed to do what, under whose authority, and under which limits.",
+      "notes": [
+        "Added in v1.5.0 following a cross-repository terminology review of active trust infrastructure, agent governance, assurance, and national trust framework projects."
+      ],
+      "see_also": [
+        "authority",
+        "control-plane shift",
+        "policy"
+      ],
+      "sources": [
+        {
+          "title": "Portfolio source repository",
+          "publisher": "GitHub",
+          "url": "https://github.com/sankarshanmukhopadhyay/agent-registry-protocol",
+          "normative": false
+        }
+      ],
+      "reader_note": "This is a cross-project glossary term. Individual specifications may define narrower domain-specific requirements.",
+      "implementation_relevance": "Use this term to keep governance, authority, assurance, and implementation discussions consistent across interoperating projects.",
+      "governance_profile": "governance-supporting",
+      "governance": {
+        "authority_scope": [
+          "assurance_and_audit",
+          "governance_recognition",
+          "policy_definition",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct_or_constrained",
+        "revocation_supported": false,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "deprecated"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "reference_term",
+        "enforcement_points": [
+          "policy_approval",
+          "reliance_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "definition_change_record",
+          "policy_document",
+          "audit_log"
+        ],
+        "assurance_level_hint": "AL1+",
+        "auditability": "moderate"
+      },
+      "control_plane": {
+        "decision_points": [
+          "policy_approval",
+          "reliance_decision"
+        ],
+        "accountable_entity": "glossary_maintainers",
+        "evidence_produced": [
+          "definition_change_record",
+          "policy_document",
+          "audit_log"
+        ]
+      },
+      "crosswalk": {
+        "nist": [],
+        "iso": []
+      },
+      "slug": "authority-control-plane"
     },
     {
       "term": "authority",
@@ -2841,6 +3089,7 @@
           "ISO/IEC 42001 5.3"
         ]
       },
+      "simple_definition": "The recognized right or power to make a decision, grant permission, impose a rule, or act within a defined scope.",
       "slug": "authority"
     },
     {
@@ -2919,6 +3168,7 @@
           "verification_log"
         ]
       },
+      "simple_definition": "A runtime trust event that pauses or interrupts an interaction because required authorization, scope, evidence, or input is absent or insufficient.",
       "slug": "authorization-checkpoint"
     },
     {
@@ -3169,6 +3419,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A person who has the authority to make claims, sign documents or otherwise commit resources on behalf of an organization.",
       "slug": "authorized-organizational-representative"
     },
     {
@@ -3231,6 +3482,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "The specific type of self-certifying identifier defined by the KERI specifications: [[xref:keri1, autonomic-identifier]].",
       "slug": "autonomic-identifier"
     },
     {
@@ -3568,6 +3820,7 @@
           "Bitstring Status List v1.0"
         ]
       },
+      "simple_definition": "A W3C status mechanism for publishing credential status information such as revocation or suspension using compressed bitstrings.",
       "slug": "bitstring-status-list"
     },
     {
@@ -3702,6 +3955,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See broken-object-level-authorization",
       "slug": "bola"
     },
     {
@@ -3900,6 +4154,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "Refers to security flaws where users can access data they shouldn't, due to inadequate permission checks on individual (sub)objects.",
       "slug": "broken-object-level-authorization"
     },
     {
@@ -3976,6 +4231,7 @@
           "C2PA Technical Specification 2.2"
         ]
       },
+      "simple_definition": "A verifiable unit of C2PA provenance information that binds claims, assertions, content bindings, and signatures for an asset.",
       "slug": "c2pa-manifest"
     },
     {
@@ -4033,6 +4289,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: Coalition for Content Provenance and Authenticity.",
       "slug": "c2pa"
     },
     {
@@ -4105,6 +4362,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: certificate authority.",
       "slug": "ca"
     },
     {
@@ -4162,6 +4420,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: Content Authenticity Initiative.",
       "slug": "cai"
     },
     {
@@ -4240,6 +4499,7 @@
           "verification_log"
         ]
       },
+      "simple_definition": "A governed process for determining whether an advertised capability is discoverable, compatible, authorized, accepted, and permitted to execute under applicable policy.",
       "slug": "capability-negotiation"
     },
     {
@@ -4397,6 +4657,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "The entity in a public key infrastructure (PKI) that is responsible for issuing public key certificates and exacting compliance to a PKI policy.",
       "slug": "certificate-authority"
     },
     {
@@ -4455,6 +4716,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: public key certificate.",
       "slug": "certificate"
     },
     {
@@ -4527,6 +4789,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: certificate authority.",
       "slug": "certification-authority"
     },
     {
@@ -4587,6 +4850,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A legal entity that performs certification.",
       "slug": "certification-body"
     },
     {
@@ -4712,6 +4976,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: trust chain.",
       "slug": "chain-of-trust"
     },
     {
@@ -4785,6 +5050,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "Two or more credentials linked together to create a trust chain between the credentials that is cryptographically verifiable.",
       "slug": "chained-credentials"
     },
     {
@@ -4846,6 +5112,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: trust chain.",
       "slug": "chaining"
     },
     {
@@ -4904,6 +5171,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: communication channel.",
       "slug": "channel"
     },
     {
@@ -4962,6 +5230,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "Encrypted (enciphered) data. The confidential form of the plaintext that is the output of the encryption function.",
       "slug": "ciphertext"
     },
     {
@@ -5038,6 +5307,7 @@
           "C2PA Technical Specification 2.2"
         ]
       },
+      "simple_definition": "A hardware or software actor that creates a C2PA claim about an asset and signs or causes the signing of the associated manifest data.",
       "slug": "claim-generator"
     },
     {
@@ -5529,6 +5799,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "The transmission of information.",
       "slug": "communication"
     },
     {
@@ -5589,6 +5860,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A password that meets certain security requirements, such as minimum length, inclusion of different character types, non-repetition of characters, and so on.",
       "slug": "complex-password"
     },
     {
@@ -5843,6 +6115,77 @@
       "slug": "confidentiality"
     },
     {
+      "term": "conformance",
+      "aliases": [],
+      "definition": "The degree to which an implementation, process, or artifact satisfies a defined set of requirements.",
+      "simple_definition": "Whether something meets the requirements it claims to follow.",
+      "notes": [
+        "Added in v1.5.0 following a cross-repository terminology review of active trust infrastructure, agent governance, assurance, and national trust framework projects."
+      ],
+      "see_also": [
+        "compliance",
+        "assurance-level"
+      ],
+      "sources": [
+        {
+          "title": "Portfolio source repository",
+          "publisher": "GitHub",
+          "url": "https://github.com/sankarshanmukhopadhyay/agent-registry-protocol",
+          "normative": false
+        }
+      ],
+      "reader_note": "This is a cross-project glossary term. Individual specifications may define narrower domain-specific requirements.",
+      "implementation_relevance": "Use this term to keep governance, authority, assurance, and implementation discussions consistent across interoperating projects.",
+      "governance_profile": "governance-supporting",
+      "governance": {
+        "authority_scope": [
+          "assurance_and_audit",
+          "governance_recognition",
+          "policy_definition",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct_or_constrained",
+        "revocation_supported": false,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "deprecated"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "reference_term",
+        "enforcement_points": [
+          "policy_approval",
+          "reliance_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "definition_change_record",
+          "policy_document",
+          "audit_log"
+        ],
+        "assurance_level_hint": "AL1+",
+        "auditability": "moderate"
+      },
+      "control_plane": {
+        "decision_points": [
+          "policy_approval",
+          "reliance_decision"
+        ],
+        "accountable_entity": "glossary_maintainers",
+        "evidence_produced": [
+          "definition_change_record",
+          "policy_document",
+          "audit_log"
+        ]
+      },
+      "crosswalk": {
+        "nist": [],
+        "iso": []
+      },
+      "slug": "conformance"
+    },
+    {
       "term": "connection",
       "aliases": [
         "connection",
@@ -5897,6 +6240,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A communication channel established between two communication endpoints. A connection may be ephemeral or persistent.",
       "slug": "connection"
     },
     {
@@ -6091,6 +6435,7 @@
           "C2PA Technical Specification 2.2"
         ]
       },
+      "simple_definition": "The user-facing C2PA term for provenance information represented by C2PA manifests associated with an asset.",
       "slug": "content-credential"
     },
     {
@@ -6466,6 +6811,7 @@
           "verification_log"
         ]
       },
+      "simple_definition": "A change in which actor, policy, infrastructure component, or governance mechanism can determine, constrain, or revoke system behavior.",
       "slug": "control-plane-shift"
     },
     {
@@ -6538,6 +6884,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A governance document whose authority is derived from a primary document.",
       "slug": "controlled-document"
     },
     {
@@ -6616,6 +6963,7 @@
           "DID Core"
         ]
       },
+      "simple_definition": "An identifier whose controller can be discovered through an associated controlled identifier document containing verification material and service endpoints.",
       "slug": "controlled-identifier"
     },
     {
@@ -6799,6 +7147,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "From the perspective of one party, the other party in a transaction, such as a financial transaction.",
       "slug": "counterparty"
     },
     {
@@ -6959,6 +7308,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A governance framework for a credential family. A credential governance framework may be included within or referenced by an ecosystem governance framework.",
       "slug": "credential-governance-framework"
     },
     {
@@ -7103,6 +7453,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: issuance request.",
       "slug": "credential-request"
     },
     {
@@ -7362,6 +7713,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "Associating two or more related elements of information using cryptographic techniques.",
       "slug": "cryptographic-binding"
     },
     {
@@ -7486,6 +7838,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A specialized type of technical trust that is achieved using cryptographic algorithms.",
       "slug": "cryptographic-trust"
     },
     {
@@ -7546,6 +7899,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "The property of being cryptographically verifiable.",
       "slug": "cryptographic-verifiability"
     },
     {
@@ -7603,6 +7957,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A state in which two or more elements of information have a cryptographic binding.",
       "slug": "cryptographically-bound"
     },
     {
@@ -7732,6 +8087,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "TODO",
       "slug": "cryptography"
     },
     {
@@ -7918,6 +8274,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "The informal terms or formal legal agreement under which a custodian agrees to provide service to a principal.",
       "slug": "custodianship-arrangement"
     },
     {
@@ -7978,6 +8335,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A design pattern, mainly in user interfaces, that has the effect of deceiving individuals into making choices that are advantageous to the designer.",
       "slug": "dark-pattern"
     },
     {
@@ -8054,6 +8412,7 @@
           "Verifiable Credential Data Integrity 1.0"
         ]
       },
+      "simple_definition": "A cryptographic proof mechanism used to protect the authenticity and integrity of verifiable credentials and similar constrained digital documents.",
       "slug": "data-integrity-proof"
     },
     {
@@ -8248,6 +8607,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "The natural person that is described by personal data. Data subject is the term used by the EU General Data Protection Regulation.",
       "slug": "data-subject"
     },
     {
@@ -8306,6 +8666,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: digital vault.",
       "slug": "data-vault"
     },
     {
@@ -8423,6 +8784,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: data packet.",
       "slug": "datagram"
     },
     {
@@ -8501,6 +8863,7 @@
           "OpenID4VP 1.0"
         ]
       },
+      "simple_definition": "A query language defined by OpenID4VP for requesting credential presentations in a flexible and credential-format-aware way.",
       "slug": "dcql"
     },
     {
@@ -8889,6 +9252,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: dark pattern.",
       "slug": "deceptive-pattern"
     },
     {
@@ -8973,6 +9337,7 @@
           "verification_log"
         ]
       },
+      "simple_definition": "A record that explains what decision was made, under whose authority, using which policy and evidence, and with what result.",
       "slug": "decision-receipt"
     },
     {
@@ -9034,6 +9399,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "The process of changing ciphertext into plaintext using a cryptographic algorithm and key. The opposite of encryption.",
       "slug": "decryption"
     },
     {
@@ -9227,6 +9593,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "The second party receiving a delegation from a first party (the delegator) and authorized to act only within the granted scope and applicable constraints.",
       "slug": "delegatee"
     },
     {
@@ -9308,6 +9675,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A credential used to perform delegation.",
       "slug": "delegation-credential"
     },
     {
@@ -9386,6 +9754,7 @@
           "verification_log"
         ]
       },
+      "simple_definition": "The traceable chain showing how authority passed from one party to another and what limits were carried forward.",
       "slug": "delegation-lineage"
     },
     {
@@ -9548,6 +9917,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "The first party that makes a delegation to a second party (the delegatee) and remains accountable for granting authority within the permitted scope.",
       "slug": "delegator"
     },
     {
@@ -9607,6 +9977,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "An entity for the caring for and/or protecting/guarding/defending of which a guardianship arrangement has been established with a guardian.",
       "slug": "dependent"
     },
     {
@@ -9669,6 +10040,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "The controller of a device capable of digital communications, e.g., a smartphone, tablet, laptop, IoT device, etc.",
       "slug": "device-controller"
     },
     {
@@ -10096,6 +10468,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: decentralized identifier",
       "slug": "did"
     },
     {
@@ -10291,6 +10664,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: public key certificate.",
       "slug": "digital-certificate"
     },
     {
@@ -10483,6 +10857,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "An identity expressed in a digital form for the purpose representing the identified entity within a computer system or digital network.",
       "slug": "digital-identity"
     },
     {
@@ -11161,6 +11536,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: security domain.",
       "slug": "domain"
     },
     {
@@ -11242,6 +11618,7 @@
           "OpenID4VCI"
         ]
       },
+      "simple_definition": "An OAuth 2.0 mechanism for sender-constraining tokens by requiring a client to prove possession of a private key when using a token.",
       "slug": "dpop"
     },
     {
@@ -11299,6 +11676,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: digital rights management.",
       "slug": "drm"
     },
     {
@@ -11356,6 +11734,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: Decentralized Web Node.",
       "slug": "dwn"
     },
     {
@@ -11433,6 +11812,7 @@
           "verification_log"
         ]
       },
+      "simple_definition": "An authorization approach in which runtime decisions are produced by evaluating contextual attributes, evidence, and policy rather than relying only on static permissions.",
       "slug": "dynamic-authorization"
     },
     {
@@ -11577,6 +11957,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: digital ecosystem.",
       "slug": "ecosystem"
     },
     {
@@ -11694,6 +12075,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "An authenticated encryption approach, using PKI. It covers authenticity and confidentiality.",
       "slug": "encrypt-sender-sign-receiver"
     },
     {
@@ -11752,6 +12134,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: digital vault.",
       "slug": "encrypted-data-vault"
     },
     {
@@ -12175,6 +12558,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: communication endpoint.",
       "slug": "endpoint"
     },
     {
@@ -12237,6 +12621,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A digital vault whose controller is an organization.",
       "slug": "enterprise-data-vault"
     },
     {
@@ -12301,6 +12686,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A digital wallet whose holder is an organization.",
       "slug": "enterprise-wallet"
     },
     {
@@ -12378,6 +12764,7 @@
           "OpenID Federation 1.0"
         ]
       },
+      "simple_definition": "A signed statement in OpenID Federation that describes metadata, authority, and trust relationships for a federation entity.",
       "slug": "entity-statement"
     },
     {
@@ -12436,6 +12823,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "Someone or something that is known to exist.",
       "slug": "entity"
     },
     {
@@ -12496,6 +12884,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A connection that only exists for the duration of a single communication session or transaction.",
       "slug": "ephemeral-connection"
     },
     {
@@ -12553,6 +12942,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "Encrypt\u2010Sender\u2010Sign\u2010Receiver",
       "slug": "essr"
     },
     {
@@ -12644,6 +13034,7 @@
           "OpenID4VP"
         ]
       },
+      "simple_definition": "A wallet ecosystem component under the European Digital Identity framework for storing and presenting person identification data, attestations, and credentials across EU contexts.",
       "slug": "eudi-wallet"
     },
     {
@@ -12799,6 +13190,7 @@
           "verification_log"
         ]
       },
+      "simple_definition": "A collected set of records that can be reviewed together to support or explain a decision, claim, control, or assurance result.",
       "slug": "evidence-bundle"
     },
     {
@@ -12857,6 +13249,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A language for creating a computer-interpretable (machine-readable) representation of specific knowledge.",
       "slug": "expression-language"
     },
     {
@@ -12934,6 +13327,7 @@
           "verification_log"
         ]
       },
+      "simple_definition": "A protocol-neutral record of whether an optional or required extension was proposed, supported, accepted, degraded, rejected, or not attempted, including the applicable failure behavior.",
       "slug": "extension-contract"
     },
     {
@@ -13002,6 +13396,7 @@
           "SP 800-63-4"
         ]
       },
+      "simple_definition": "See: federation assurance level.",
       "slug": "fal"
     },
     {
@@ -13321,6 +13716,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "The party who initiates a trust relationship, connection, or transaction with a second party.",
       "slug": "first-party"
     },
     {
@@ -13646,6 +14042,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: General Data Protection Regulation.",
       "slug": "gdpr"
     },
     {
@@ -13905,6 +14302,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A document with at least one identifier that specifies governance requirements for a trust community.",
       "slug": "governance-document"
     },
     {
@@ -14046,6 +14444,79 @@
       "slug": "governance-graph"
     },
     {
+      "term": "governance legitimacy",
+      "aliases": [
+        "governance-legitimacy"
+      ],
+      "definition": "The recognized basis on which a governing authority, rule, mandate, or decision is considered entitled to exercise power in a defined context.",
+      "simple_definition": "Why a governing body or rule is accepted as having the right to make a decision.",
+      "notes": [
+        "Added in v1.5.0 following a cross-repository terminology review of active trust infrastructure, agent governance, assurance, and national trust framework projects."
+      ],
+      "see_also": [
+        "governance",
+        "authority"
+      ],
+      "sources": [
+        {
+          "title": "Portfolio source repository",
+          "publisher": "GitHub",
+          "url": "https://github.com/sankarshanmukhopadhyay/PolicyMesh",
+          "normative": false
+        }
+      ],
+      "reader_note": "This is a cross-project glossary term. Individual specifications may define narrower domain-specific requirements.",
+      "implementation_relevance": "Use this term to keep governance, authority, assurance, and implementation discussions consistent across interoperating projects.",
+      "governance_profile": "governance-supporting",
+      "governance": {
+        "authority_scope": [
+          "assurance_and_audit",
+          "governance_recognition",
+          "policy_definition",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct_or_constrained",
+        "revocation_supported": false,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "deprecated"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "reference_term",
+        "enforcement_points": [
+          "policy_approval",
+          "reliance_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "definition_change_record",
+          "policy_document",
+          "audit_log"
+        ],
+        "assurance_level_hint": "AL1+",
+        "auditability": "moderate"
+      },
+      "control_plane": {
+        "decision_points": [
+          "policy_approval",
+          "reliance_decision"
+        ],
+        "accountable_entity": "glossary_maintainers",
+        "evidence_produced": [
+          "definition_change_record",
+          "policy_document",
+          "audit_log"
+        ]
+      },
+      "crosswalk": {
+        "nist": [],
+        "iso": []
+      },
+      "slug": "governance-legitimacy"
+    },
+    {
       "term": "governance-requirement",
       "aliases": [
         "governance requirement",
@@ -14101,6 +14572,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A requirement such as a policy, rule, or technical specification specified in a governance document.",
       "slug": "governance-requirement"
     },
     {
@@ -14229,7 +14701,82 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "The rules, roles, decision rights, and processes used to direct and control a system or community.",
       "slug": "governance"
+    },
+    {
+      "term": "governed action",
+      "aliases": [
+        "governed-action"
+      ],
+      "definition": "An action whose permission, scope, conditions, evidence, and accountability are determined by applicable governance and authority.",
+      "simple_definition": "An action that is only allowed when the right authority, rules, limits, and evidence are in place.",
+      "notes": [
+        "Added in v1.5.0 following a cross-repository terminology review of active trust infrastructure, agent governance, assurance, and national trust framework projects."
+      ],
+      "see_also": [
+        "action",
+        "authority",
+        "policy"
+      ],
+      "sources": [
+        {
+          "title": "Portfolio source repository",
+          "publisher": "GitHub",
+          "url": "https://github.com/sankarshanmukhopadhyay/open-national-digital-trust-framework",
+          "normative": false
+        }
+      ],
+      "reader_note": "This is a cross-project glossary term. Individual specifications may define narrower domain-specific requirements.",
+      "implementation_relevance": "Use this term to keep governance, authority, assurance, and implementation discussions consistent across interoperating projects.",
+      "governance_profile": "governance-supporting",
+      "governance": {
+        "authority_scope": [
+          "assurance_and_audit",
+          "governance_recognition",
+          "policy_definition",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct_or_constrained",
+        "revocation_supported": false,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "deprecated"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "reference_term",
+        "enforcement_points": [
+          "policy_approval",
+          "reliance_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "definition_change_record",
+          "policy_document",
+          "audit_log"
+        ],
+        "assurance_level_hint": "AL1+",
+        "auditability": "moderate"
+      },
+      "control_plane": {
+        "decision_points": [
+          "policy_approval",
+          "reliance_decision"
+        ],
+        "accountable_entity": "glossary_maintainers",
+        "evidence_produced": [
+          "definition_change_record",
+          "policy_document",
+          "audit_log"
+        ]
+      },
+      "crosswalk": {
+        "nist": [],
+        "iso": []
+      },
+      "slug": "governed-action"
     },
     {
       "term": "governed-information",
@@ -14362,6 +14909,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A party whose role(s) in a trust community is governed by the governance requirements in a governance framework.",
       "slug": "governed-party"
     },
     {
@@ -14505,6 +15053,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: governing body.",
       "slug": "governing-authority"
     },
     {
@@ -14652,6 +15201,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: Governance - Risk Management - Compliance.",
       "slug": "grc"
     },
     {
@@ -14931,6 +15481,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A physical computing device that provides tamper-evident and intrusion-resistant safeguarding and management of digital keys and other secrets, as well as crypto-processing.",
       "slug": "hardware-security-module"
     },
     {
@@ -15052,6 +15603,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "The result of applying a hash function to a message.",
       "slug": "hash"
     },
     {
@@ -15376,6 +15928,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: hardware security module.",
       "slug": "hsm"
     },
     {
@@ -15510,6 +16063,79 @@
       "slug": "human-experience"
     },
     {
+      "term": "human harm",
+      "aliases": [
+        "human-harm"
+      ],
+      "definition": "A negative effect on a person or community, including effects on safety, rights, autonomy, dignity, privacy, access, livelihood, or ability to obtain remedy.",
+      "simple_definition": "A harmful effect on people, their rights, choices, safety, privacy, access, livelihood, or ability to seek a remedy.",
+      "notes": [
+        "Added in v1.5.0 following a cross-repository terminology review of active trust infrastructure, agent governance, assurance, and national trust framework projects."
+      ],
+      "see_also": [
+        "risk",
+        "risk-assessment"
+      ],
+      "sources": [
+        {
+          "title": "Portfolio source repository",
+          "publisher": "GitHub",
+          "url": "https://github.com/sankarshanmukhopadhyay/rahp-toolkit",
+          "normative": false
+        }
+      ],
+      "reader_note": "This is a cross-project glossary term. Individual specifications may define narrower domain-specific requirements.",
+      "implementation_relevance": "Use this term to keep governance, authority, assurance, and implementation discussions consistent across interoperating projects.",
+      "governance_profile": "governance-supporting",
+      "governance": {
+        "authority_scope": [
+          "assurance_and_audit",
+          "governance_recognition",
+          "policy_definition",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct_or_constrained",
+        "revocation_supported": false,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "deprecated"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "reference_term",
+        "enforcement_points": [
+          "policy_approval",
+          "reliance_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "definition_change_record",
+          "policy_document",
+          "audit_log"
+        ],
+        "assurance_level_hint": "AL1+",
+        "auditability": "moderate"
+      },
+      "control_plane": {
+        "decision_points": [
+          "policy_approval",
+          "reliance_decision"
+        ],
+        "accountable_entity": "glossary_maintainers",
+        "evidence_produced": [
+          "definition_change_record",
+          "policy_document",
+          "audit_log"
+        ]
+      },
+      "crosswalk": {
+        "nist": [],
+        "iso": []
+      },
+      "slug": "human-harm"
+    },
+    {
       "term": "human-readable",
       "aliases": [
         "human-readable",
@@ -15565,6 +16191,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "Information that can be processed by a human but that is not intended to be machine-readable.",
       "slug": "human-readable"
     },
     {
@@ -15628,6 +16255,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A level of assurance in a trust relationship or a trust decision that can be achieved only via human evaluation of applicable trust factors.",
       "slug": "human-trust"
     },
     {
@@ -15696,6 +16324,7 @@
           "SP 800-63-4"
         ]
       },
+      "simple_definition": "See: identity assurance level.",
       "slug": "ial"
     },
     {
@@ -15759,6 +16388,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "The action of a party obtaining the set of identity data necessary to serve as that party\u2019s identity for a specific entity.",
       "slug": "identification"
     },
     {
@@ -16087,6 +16717,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "The controller (e.g., a natural person or organization) of an identity, especially a digital identity.",
       "slug": "identity-controller"
     },
     {
@@ -16144,6 +16775,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "The set of data held by a party in order to provide an identity for a specific entity.",
       "slug": "identity-data"
     },
     {
@@ -16276,6 +16908,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "The process of a party gathering sufficient identity data to establish an identity for a particular subject at a particular identity assurance level.",
       "slug": "identity-proofing"
     },
     {
@@ -16466,6 +17099,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: identity provider.",
       "slug": "idp"
     },
     {
@@ -16586,6 +17220,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "the highest level of cryptographic security concerning a cryptographic secret (seed, salt, or private key).",
       "slug": "information-theoretic-security"
     },
     {
@@ -16645,6 +17280,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "- General IT: [[xref:toip2, integrity]] and KERI specific: [[xref:keri1, integrity]]",
       "slug": "integrity"
     },
     {
@@ -16723,6 +17359,7 @@
           "verification_log"
         ]
       },
+      "simple_definition": "A session-level governance envelope that groups related tasks, messages, authority, evidence, and trust decisions across a sequence of interactions.",
       "slug": "interaction-context"
     },
     {
@@ -16801,6 +17438,7 @@
           "verification_log"
         ]
       },
+      "simple_definition": "A durable work unit with governance-significant state transitions, artifact accumulation, continuation or cancellation semantics, and evidence obligations.",
       "slug": "interaction-task"
     },
     {
@@ -16987,6 +17625,77 @@
       "slug": "internet-protocol"
     },
     {
+      "term": "interoperability",
+      "aliases": [],
+      "definition": "The ability of independently developed systems or components to work together correctly within an explicitly defined scope.",
+      "simple_definition": "Whether different systems can work together correctly for a defined purpose.",
+      "notes": [
+        "Added in v1.5.0 following a cross-repository terminology review of active trust infrastructure, agent governance, assurance, and national trust framework projects."
+      ],
+      "see_also": [
+        "trust-registry-protocol",
+        "conformance"
+      ],
+      "sources": [
+        {
+          "title": "Portfolio source repository",
+          "publisher": "GitHub",
+          "url": "https://github.com/sankarshanmukhopadhyay/open-national-digital-trust-framework",
+          "normative": false
+        }
+      ],
+      "reader_note": "This is a cross-project glossary term. Individual specifications may define narrower domain-specific requirements.",
+      "implementation_relevance": "Use this term to keep governance, authority, assurance, and implementation discussions consistent across interoperating projects.",
+      "governance_profile": "governance-supporting",
+      "governance": {
+        "authority_scope": [
+          "assurance_and_audit",
+          "governance_recognition",
+          "policy_definition",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct_or_constrained",
+        "revocation_supported": false,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "deprecated"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "reference_term",
+        "enforcement_points": [
+          "policy_approval",
+          "reliance_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "definition_change_record",
+          "policy_document",
+          "audit_log"
+        ],
+        "assurance_level_hint": "AL1+",
+        "auditability": "moderate"
+      },
+      "control_plane": {
+        "decision_points": [
+          "policy_approval",
+          "reliance_decision"
+        ],
+        "accountable_entity": "glossary_maintainers",
+        "evidence_produced": [
+          "definition_change_record",
+          "policy_document",
+          "audit_log"
+        ]
+      },
+      "crosswalk": {
+        "nist": [],
+        "iso": []
+      },
+      "slug": "interoperability"
+    },
+    {
       "term": "ip-address",
       "aliases": [
         "IP address",
@@ -17099,6 +17808,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: Internet Protocol.",
       "slug": "ip"
     },
     {
@@ -17168,6 +17878,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A protocol request invoked by the holder of a digital wallet to obtain a digital credential from an issuer.",
       "slug": "issuance-request"
     },
     {
@@ -17241,6 +17952,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "The action of an issuer producing and transmitting a digital credential to a holder. A holder may request issuance by submitting an issuance request.",
       "slug": "issuance"
     },
     {
@@ -17399,6 +18111,7 @@
           "OpenID4VCI 1.0"
         ]
       },
+      "simple_definition": "Metadata published by a credential issuer describing issuer capabilities, credential configurations, endpoints, and supported formats.",
       "slug": "issuer-metadata"
     },
     {
@@ -17542,6 +18255,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "information-theoretic-security",
       "slug": "itps"
     },
     {
@@ -17663,6 +18377,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: keys-at-the-edge.",
       "slug": "kate"
     },
     {
@@ -17720,6 +18435,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: Key Event Receipt Infrastructure.",
       "slug": "keri"
     },
     {
@@ -17793,6 +18509,7 @@
           "RFC 9901"
         ]
       },
+      "simple_definition": "A JWT used to demonstrate holder control of a key associated with an SD-JWT or SD-JWT VC presentation.",
       "slug": "key-binding-jwt"
     },
     {
@@ -17910,6 +18627,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "An ordered sequence of records of key events.",
       "slug": "key-event-log"
     },
     {
@@ -17970,6 +18688,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A decentralized permissionless key management architecture.",
       "slug": "key-event-receipt-infrastructure"
     },
     {
@@ -18158,6 +18877,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: cryptographic key.",
       "slug": "key"
     },
     {
@@ -18276,6 +18996,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: key management system.",
       "slug": "kms"
     },
     {
@@ -18449,6 +19170,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: ToIP Layer 1.",
       "slug": "layer-1"
     },
     {
@@ -18506,6 +19228,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: ToIP Layer 2.",
       "slug": "layer-2"
     },
     {
@@ -18563,6 +19286,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: ToIP Layer 3.",
       "slug": "layer-3"
     },
     {
@@ -18620,6 +19344,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: ToIP Layer 4.",
       "slug": "layer-4"
     },
     {
@@ -18809,6 +19534,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A set of identity data considered authoritative to identify a party for purposes of legal accountability under one or more jurisdictions.",
       "slug": "legal-identity"
     },
     {
@@ -19140,6 +19866,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: Legal Entity Identifier.",
       "slug": "lei"
     },
     {
@@ -19202,6 +19929,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: assurance level.",
       "slug": "level-of-assurance"
     },
     {
@@ -19259,6 +19987,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "legitimized-human-meaningful-identifier",
       "slug": "lid"
     },
     {
@@ -19318,6 +20047,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A check intended to show that a person or device is present and responding now, rather than being a recording or replay.",
       "slug": "liveness-detection"
     },
     {
@@ -19379,6 +20109,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "The set of computing systems under a party\u2019s direct control, where messages and data do not cross trust boundaries.",
       "slug": "locus-of-control"
     },
     {
@@ -19439,6 +20170,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "Information written in a computer language or expression language so that it can be read and processed by a computing device.",
       "slug": "machine-readable"
     },
     {
@@ -19634,6 +20366,7 @@
           "C2PA Technical Specification 2.2"
         ]
       },
+      "simple_definition": "An actor that consumes an asset with an associated C2PA manifest to obtain and evaluate provenance data.",
       "slug": "manifest-consumer"
     },
     {
@@ -19692,6 +20425,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A discrete unit of communication intended by the source for consumption by some recipient or group of recipients.",
       "slug": "message"
     },
     {
@@ -19886,6 +20620,7 @@
           "verification_log"
         ]
       },
+      "simple_definition": "The delegation invariant that authority may remain unchanged or become narrower at each delegation hop but must never expand beyond the parent grant.",
       "slug": "monotonic-attenuation"
     },
     {
@@ -19943,6 +20678,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: multi-party computation.",
       "slug": "mpc"
     },
     {
@@ -20121,6 +20857,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A cryptographic signature scheme where the process of signing information (e.g., a transaction) is distributed among multiple private keys.",
       "slug": "multi-signature"
     },
     {
@@ -20475,6 +21212,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "Abbreviation for the NIST Computer Security Resource Center Glossary.",
       "slug": "nist-csrc"
     },
     {
@@ -20655,6 +21393,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "Non-repudiation refers to a situation where a statement's author **cannot successfully dispute** its authorship or the validity of an associated contract, signature or commitment.",
       "slug": "non-repudiable"
     },
     {
@@ -20721,6 +21460,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "Controlling keys over this identifier cannot be rotated and therefore this identifier is non-transferable to other control.",
       "slug": "non-transferable-identifier"
     },
     {
@@ -20785,6 +21525,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "No transferable (the control over) a certain digital asset in an unobstructed or loss-less manner. As opposed to transferable.",
       "slug": "non-transferable"
     },
     {
@@ -20919,6 +21660,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "Something toward which a party (its owner) directs effort (an aim, goal, or end of action).",
       "slug": "objective"
     },
     {
@@ -20997,6 +21739,7 @@
           "verification_log"
         ]
       },
+      "simple_definition": "A descriptor for what can be known and evidenced about delivery, timing, progress, and user awareness for an interaction channel or execution path.",
       "slug": "observability-mode"
     },
     {
@@ -21055,6 +21798,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: out-of-band introduction.",
       "slug": "oobi"
     },
     {
@@ -21132,6 +21876,7 @@
           "verification_log"
         ]
       },
+      "simple_definition": "A declared limit on what can be observed about an agent or system and the resulting constraints on trust, evidence, assurance, and permitted reliance.",
       "slug": "opacity-boundary"
     },
     {
@@ -21212,6 +21957,7 @@
           "OpenID Federation 1.0"
         ]
       },
+      "simple_definition": "A federation framework for establishing trust among OpenID participants using entity statements, trust chains, and federation metadata.",
       "slug": "openid-federation"
     },
     {
@@ -21293,6 +22039,7 @@
           "OpenID4VCI 1.0"
         ]
       },
+      "simple_definition": "An OpenID Foundation protocol that defines OAuth 2.0-based mechanisms for issuing verifiable credentials from credential issuers to wallets.",
       "slug": "openid4vci"
     },
     {
@@ -21370,6 +22117,7 @@
           "OpenID4VP 1.0"
         ]
       },
+      "simple_definition": "An OpenID Foundation protocol that defines mechanisms for requesting and presenting credentials between wallets and verifiers.",
       "slug": "openid4vp"
     },
     {
@@ -21429,6 +22177,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A non-profit project of the Linux Foundation chartered to build a world-class open source wallet engine.",
       "slug": "openwallet-foundation"
     },
     {
@@ -21684,6 +22433,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A type of authority where the party asserting its right is an organization.",
       "slug": "organizational-authority"
     },
     {
@@ -21807,6 +22557,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "The role that a party performs when it is exercising its legal, rightful or natural title to control a specific entity.",
       "slug": "owner"
     },
     {
@@ -21864,6 +22615,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: peer-to-peer.",
       "slug": "p2p"
     },
     {
@@ -21922,6 +22674,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "The logical unit of network communications produced by the transport layer.",
       "slug": "packet"
     },
     {
@@ -22052,6 +22805,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A string of characters (letters, numbers and other symbols) that are used to authenticate an identity, verify access authorization or derive cryptographic keys.",
       "slug": "password"
     },
     {
@@ -22323,6 +23077,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "Authorization to perform some action on a system.",
       "slug": "permission"
     },
     {
@@ -22443,6 +23198,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "transferable-identifier",
       "slug": "persistent-identifier"
     },
     {
@@ -22501,6 +23257,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See natural person.",
       "slug": "person"
     },
     {
@@ -22565,6 +23322,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: personal data vault.",
       "slug": "personal-data-store"
     },
     {
@@ -22627,6 +23385,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A digital vault whose controller is a natural person.",
       "slug": "personal-data-vault"
     },
     {
@@ -22684,6 +23443,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "Any information relating to an identified or identifiable natural person (called a data subject under GDPR).",
       "slug": "personal-data"
     },
     {
@@ -22748,6 +23508,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A digital wallet whose holder is a natural person.",
       "slug": "personal-wallet"
     },
     {
@@ -22959,6 +23720,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A credential in a physical form such as paper, plastic, or metal.",
       "slug": "physical-credential"
     },
     {
@@ -23098,6 +23860,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: personally identifiable information.",
       "slug": "pii"
     },
     {
@@ -23155,6 +23918,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: public key infrastructure.",
       "slug": "pki"
     },
     {
@@ -23213,7 +23977,81 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "Unencrypted information that may be input to an encryption operation. Once encrypted, it becomes ciphertext.",
       "slug": "plaintext"
+    },
+    {
+      "term": "policy enforcement",
+      "aliases": [
+        "policy-enforcement"
+      ],
+      "definition": "The application of an applicable policy at a decision or execution point so that required, allowed, deferred, or prohibited outcomes are actually carried out.",
+      "simple_definition": "Making sure a policy changes what the system actually allows or blocks.",
+      "notes": [
+        "Added in v1.5.0 following a cross-repository terminology review of active trust infrastructure, agent governance, assurance, and national trust framework projects."
+      ],
+      "see_also": [
+        "policy",
+        "access-control"
+      ],
+      "sources": [
+        {
+          "title": "Portfolio source repository",
+          "publisher": "GitHub",
+          "url": "https://github.com/sankarshanmukhopadhyay/PolicyMesh",
+          "normative": false
+        }
+      ],
+      "reader_note": "This is a cross-project glossary term. Individual specifications may define narrower domain-specific requirements.",
+      "implementation_relevance": "Use this term to keep governance, authority, assurance, and implementation discussions consistent across interoperating projects.",
+      "governance_profile": "governance-supporting",
+      "governance": {
+        "authority_scope": [
+          "assurance_and_audit",
+          "governance_recognition",
+          "policy_definition",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct_or_constrained",
+        "revocation_supported": false,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "deprecated"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "reference_term",
+        "enforcement_points": [
+          "policy_approval",
+          "reliance_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "definition_change_record",
+          "policy_document",
+          "audit_log"
+        ],
+        "assurance_level_hint": "AL1+",
+        "auditability": "moderate"
+      },
+      "control_plane": {
+        "decision_points": [
+          "policy_approval",
+          "reliance_decision"
+        ],
+        "accountable_entity": "glossary_maintainers",
+        "evidence_produced": [
+          "definition_change_record",
+          "policy_document",
+          "audit_log"
+        ]
+      },
+      "crosswalk": {
+        "nist": [],
+        "iso": []
+      },
+      "slug": "policy-enforcement"
     },
     {
       "term": "policy",
@@ -23285,6 +24123,7 @@
           "ISO/IEC 42001 5.2"
         ]
       },
+      "simple_definition": "A rule or set of rules that says what is allowed, required, or prohibited in a defined context.",
       "slug": "policy"
     },
     {
@@ -23342,7 +24181,81 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: proof of personhood.",
       "slug": "pop"
+    },
+    {
+      "term": "portable assurance pattern",
+      "aliases": [
+        "portable-assurance-pattern"
+      ],
+      "definition": "A reusable, implementation-neutral description of an assurance concern, control, test, evidence expectation, or review pattern that can be applied across different deployments.",
+      "simple_definition": "A reusable assurance idea that can be applied in more than one project or deployment.",
+      "notes": [
+        "Added in v1.5.0 following a cross-repository terminology review of active trust infrastructure, agent governance, assurance, and national trust framework projects."
+      ],
+      "see_also": [
+        "assurance-level",
+        "evidence bundle"
+      ],
+      "sources": [
+        {
+          "title": "Portfolio source repository",
+          "publisher": "GitHub",
+          "url": "https://github.com/sankarshanmukhopadhyay/rahp-toolkit",
+          "normative": false
+        }
+      ],
+      "reader_note": "This is a cross-project glossary term. Individual specifications may define narrower domain-specific requirements.",
+      "implementation_relevance": "Use this term to keep governance, authority, assurance, and implementation discussions consistent across interoperating projects.",
+      "governance_profile": "governance-supporting",
+      "governance": {
+        "authority_scope": [
+          "assurance_and_audit",
+          "governance_recognition",
+          "policy_definition",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct_or_constrained",
+        "revocation_supported": false,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "deprecated"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "reference_term",
+        "enforcement_points": [
+          "policy_approval",
+          "reliance_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "definition_change_record",
+          "policy_document",
+          "audit_log"
+        ],
+        "assurance_level_hint": "AL1+",
+        "auditability": "moderate"
+      },
+      "control_plane": {
+        "decision_points": [
+          "policy_approval",
+          "reliance_decision"
+        ],
+        "accountable_entity": "glossary_maintainers",
+        "evidence_produced": [
+          "definition_change_record",
+          "policy_document",
+          "audit_log"
+        ]
+      },
+      "crosswalk": {
+        "nist": [],
+        "iso": []
+      },
+      "slug": "portable-assurance-pattern"
     },
     {
       "term": "predicate proof",
@@ -23420,6 +24333,7 @@
           "verification_log"
         ]
       },
+      "simple_definition": "A proof that establishes whether a defined condition about one or more attributes is satisfied without necessarily disclosing the underlying attribute values.",
       "slug": "predicate-proof"
     },
     {
@@ -23480,6 +24394,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A type of cybersecurity attack in which the attacker attempts to defeat a biometric liveness detection system by providing false inputs.",
       "slug": "presentation-attack"
     },
     {
@@ -23537,6 +24452,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A protocol request sent by the verifier to the holder of a digital wallet to request a presentation.",
       "slug": "presentation-request"
     },
     {
@@ -23617,6 +24533,79 @@
       "slug": "presentation"
     },
     {
+      "term": "pressure test",
+      "aliases": [
+        "pressure-test"
+      ],
+      "definition": "A structured review that challenges a specification, policy, design, or system with adverse scenarios to identify risks, harms, control gaps, and weak assumptions.",
+      "simple_definition": "A deliberate attempt to find where a design or specification could fail, cause harm, or rely on weak assumptions.",
+      "notes": [
+        "Added in v1.5.0 following a cross-repository terminology review of active trust infrastructure, agent governance, assurance, and national trust framework projects."
+      ],
+      "see_also": [
+        "risk-assessment",
+        "assurance-level"
+      ],
+      "sources": [
+        {
+          "title": "Portfolio source repository",
+          "publisher": "GitHub",
+          "url": "https://github.com/sankarshanmukhopadhyay/rahp-toolkit",
+          "normative": false
+        }
+      ],
+      "reader_note": "This is a cross-project glossary term. Individual specifications may define narrower domain-specific requirements.",
+      "implementation_relevance": "Use this term to keep governance, authority, assurance, and implementation discussions consistent across interoperating projects.",
+      "governance_profile": "governance-supporting",
+      "governance": {
+        "authority_scope": [
+          "assurance_and_audit",
+          "governance_recognition",
+          "policy_definition",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct_or_constrained",
+        "revocation_supported": false,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "deprecated"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "reference_term",
+        "enforcement_points": [
+          "policy_approval",
+          "reliance_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "definition_change_record",
+          "policy_document",
+          "audit_log"
+        ],
+        "assurance_level_hint": "AL1+",
+        "auditability": "moderate"
+      },
+      "control_plane": {
+        "decision_points": [
+          "policy_approval",
+          "reliance_decision"
+        ],
+        "accountable_entity": "glossary_maintainers",
+        "evidence_produced": [
+          "definition_change_record",
+          "policy_document",
+          "audit_log"
+        ]
+      },
+      "crosswalk": {
+        "nist": [],
+        "iso": []
+      },
+      "slug": "pressure-test"
+    },
+    {
       "term": "primary-document",
       "aliases": [
         "primary document",
@@ -23676,6 +24665,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "The governance document at the root of a governance framework. The primary document specifies the other controlled documents in the governance framework.",
       "slug": "primary-document"
     },
     {
@@ -23795,6 +24785,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A set of principles for self-sovereign identity systems originally defined by the Sovrin Foundation and republished by the ToIP Foundation.",
       "slug": "principles-of-ssi"
     },
     {
@@ -23910,6 +24901,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "De-identification so that it provides a personal data safe harbour and could be legally acceptable forwarded.",
       "slug": "privacy-washing"
     },
     {
@@ -23974,6 +24966,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "In public key cryptography, the cryptographic key which must be kept secret by the controller in order to maintain security.",
       "slug": "private-key"
     },
     {
@@ -24112,6 +25105,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: proof of possession.",
       "slug": "proof-of-control"
     },
     {
@@ -24171,6 +25165,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "Evidence used to support a claim that a participant is a real, distinct person for a particular purpose.",
       "slug": "proof-of-personhood"
     },
     {
@@ -24287,6 +25282,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: liveness detection.",
       "slug": "proof-of-presence"
     },
     {
@@ -24414,6 +25410,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "In the context of digital communication, an attribute of a digital object or data structure, such as a DID document or a schema.",
       "slug": "property"
     },
     {
@@ -24475,6 +25472,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "Data that is not publicly available but requires some type of access control to gain access.",
       "slug": "protected-data"
     },
     {
@@ -24665,6 +25663,7 @@
         ],
         "ietf": []
       },
+      "simple_definition": "Information about where something came from and what happened to it over time.",
       "slug": "provenance"
     },
     {
@@ -25137,6 +26136,7 @@
           "eIDAS 2.0"
         ]
       },
+      "simple_definition": "An attestation of attributes issued under qualified trust service rules in the European digital identity framework.",
       "slug": "qualified-electronic-attestation-of-attributes"
     },
     {
@@ -25198,6 +26198,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: role-based access control.",
       "slug": "rbac"
     },
     {
@@ -25258,6 +26259,77 @@
         "iso": []
       },
       "slug": "real-world-identity"
+    },
+    {
+      "term": "recognition",
+      "aliases": [],
+      "definition": "A governed decision to accept another party, authority, status, credential, assurance result, or rule as valid for a defined purpose and scope.",
+      "simple_definition": "A decision to accept something or someone as valid for a particular purpose.",
+      "notes": [
+        "Added in v1.5.0 following a cross-repository terminology review of active trust infrastructure, agent governance, assurance, and national trust framework projects."
+      ],
+      "see_also": [
+        "authority",
+        "trust-decision"
+      ],
+      "sources": [
+        {
+          "title": "Portfolio source repository",
+          "publisher": "GitHub",
+          "url": "https://github.com/sankarshanmukhopadhyay/agent-registry-protocol",
+          "normative": false
+        }
+      ],
+      "reader_note": "This is a cross-project glossary term. Individual specifications may define narrower domain-specific requirements.",
+      "implementation_relevance": "Use this term to keep governance, authority, assurance, and implementation discussions consistent across interoperating projects.",
+      "governance_profile": "governance-supporting",
+      "governance": {
+        "authority_scope": [
+          "assurance_and_audit",
+          "governance_recognition",
+          "policy_definition",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct_or_constrained",
+        "revocation_supported": false,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "deprecated"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "reference_term",
+        "enforcement_points": [
+          "policy_approval",
+          "reliance_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "definition_change_record",
+          "policy_document",
+          "audit_log"
+        ],
+        "assurance_level_hint": "AL1+",
+        "auditability": "moderate"
+      },
+      "control_plane": {
+        "decision_points": [
+          "policy_approval",
+          "reliance_decision"
+        ],
+        "accountable_entity": "glossary_maintainers",
+        "evidence_produced": [
+          "definition_change_record",
+          "policy_document",
+          "audit_log"
+        ]
+      },
+      "crosswalk": {
+        "nist": [],
+        "iso": []
+      },
+      "slug": "recognition"
     },
     {
       "term": "recommended",
@@ -25381,7 +26453,79 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A uniquely identifiable entry or listing in a database or registry.",
       "slug": "record"
+    },
+    {
+      "term": "redress",
+      "aliases": [],
+      "definition": "A governed path through which an affected party can challenge an outcome, seek correction or remedy, and obtain an accountable response.",
+      "simple_definition": "A way for someone affected by a decision to challenge it and seek a correction or remedy.",
+      "notes": [
+        "Added in v1.5.0 following a cross-repository terminology review of active trust infrastructure, agent governance, assurance, and national trust framework projects."
+      ],
+      "see_also": [
+        "governance",
+        "decision receipt"
+      ],
+      "sources": [
+        {
+          "title": "Portfolio source repository",
+          "publisher": "GitHub",
+          "url": "https://github.com/sankarshanmukhopadhyay/open-national-digital-trust-framework",
+          "normative": false
+        }
+      ],
+      "reader_note": "This is a cross-project glossary term. Individual specifications may define narrower domain-specific requirements.",
+      "implementation_relevance": "Use this term to keep governance, authority, assurance, and implementation discussions consistent across interoperating projects.",
+      "governance_profile": "governance-supporting",
+      "governance": {
+        "authority_scope": [
+          "assurance_and_audit",
+          "governance_recognition",
+          "policy_definition",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct_or_constrained",
+        "revocation_supported": false,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "deprecated"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "reference_term",
+        "enforcement_points": [
+          "policy_approval",
+          "reliance_decision"
+        ]
+      },
+      "assurance": {
+        "evidence_artifacts": [
+          "definition_change_record",
+          "policy_document",
+          "audit_log"
+        ],
+        "assurance_level_hint": "AL1+",
+        "auditability": "moderate"
+      },
+      "control_plane": {
+        "decision_points": [
+          "policy_approval",
+          "reliance_decision"
+        ],
+        "accountable_entity": "glossary_maintainers",
+        "evidence_produced": [
+          "definition_change_record",
+          "policy_document",
+          "audit_log"
+        ]
+      },
+      "crosswalk": {
+        "nist": [],
+        "iso": []
+      },
+      "slug": "redress"
     },
     {
       "term": "registrant",
@@ -25445,6 +26589,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "The party submitting a registration record to a registry.",
       "slug": "registrant"
     },
     {
@@ -25503,6 +26648,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "The party who performs registration on behalf of a registrant.",
       "slug": "registrar"
     },
     {
@@ -25647,6 +26793,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "The process by which a registrant submits a record to a registry.",
       "slug": "registration"
     },
     {
@@ -25709,6 +26856,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A maintained collection of records used to look up information about defined subjects or relationships.",
       "slug": "registry"
     },
     {
@@ -25771,6 +26919,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A context established within the boundary of a trust relationship.",
       "slug": "relationship-context"
     },
     {
@@ -25827,6 +26976,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See ToIP relationship.",
       "slug": "relationship"
     },
     {
@@ -26147,6 +27297,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "Established by a trusted party offering identity-assurance.",
       "slug": "reputational-trust"
     },
     {
@@ -26419,6 +27570,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A structured review of what could go wrong, how likely it is, what harm it could cause, and what controls can reduce the risk.",
       "slug": "risk-assessment"
     },
     {
@@ -26481,6 +27633,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: trust decision.",
       "slug": "risk-decision"
     },
     {
@@ -26603,6 +27756,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "Prioritizing, evaluating, and implementing the appropriate risk-reducing controls/countermeasures recommended from the risk management process.",
       "slug": "risk-mitigation"
     },
     {
@@ -26811,6 +27965,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A credential claiming that the subject has a specific role.",
       "slug": "role-credential"
     },
     {
@@ -26935,6 +28090,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "a change of the key state, including a change to the set of authoritative key pairs for an identifier AID.",
       "slug": "rotation"
     },
     {
@@ -27110,6 +28266,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A prescribed guide for conduct, process or action to achieve a defined result or objective. Rules may be human-readable or machine-readable or both.",
       "slug": "rule"
     },
     {
@@ -27188,6 +28345,7 @@
           "verification_log"
         ]
       },
+      "simple_definition": "The current set of permissions, limits, delegation history, and status that must be checked before an action is allowed.",
       "slug": "runtime-authority-envelope"
     },
     {
@@ -27272,6 +28430,7 @@
           "verification_log"
         ]
       },
+      "simple_definition": "A structured envelope that binds the authority, policy, evidence, constraints, obligations, and lifecycle state applicable to a runtime interaction or task.",
       "slug": "runtime-governance-envelope"
     },
     {
@@ -27329,6 +28488,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: real world identity.",
       "slug": "rwi"
     },
     {
@@ -27470,6 +28630,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: self-certifying identifier.",
       "slug": "scid"
     },
     {
@@ -27612,6 +28773,7 @@
           "OpenID4VP"
         ]
       },
+      "simple_definition": "A verifiable credential encoded using Selective Disclosure JWT mechanisms, enabling selected claims to be disclosed while preserving cryptographic verification.",
       "slug": "sd-jwt-vc"
     },
     {
@@ -27683,6 +28845,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "The party with whom a first party engages to form a trust relationship, establish a connection, make a delegation, or execute a transaction.",
       "slug": "second-party"
     },
     {
@@ -27805,6 +28968,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A coprocessor on Apple iOS devices that serves as a trusted execution environment.",
       "slug": "secure-enclave"
     },
     {
@@ -27862,6 +29026,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: multi-party computation.",
       "slug": "secure-multi-party-computation"
     },
     {
@@ -28080,6 +29245,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A set of policies and rules that governs all aspects of security-relevant system and system element behavior.",
       "slug": "security-policy"
     },
     {
@@ -28157,6 +29323,7 @@
           "RFC 9901"
         ]
       },
+      "simple_definition": "A privacy-preserving presentation capability that allows a holder to disclose only selected claims or attributes from a credential while preserving verifiability.",
       "slug": "selective-disclosure"
     },
     {
@@ -28228,6 +29395,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A term used to describe a claim or a credential whose subject is also the issuer.",
       "slug": "self-asserted"
     },
     {
@@ -28502,6 +29670,7 @@
           "RFC 9449"
         ]
       },
+      "simple_definition": "A token whose use is cryptographically constrained to a specific sender or key holder, reducing replay risk if the token is copied.",
       "slug": "sender-constrained-token"
     },
     {
@@ -28561,6 +29730,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "Personal data that a reasonable person would view from a privacy protection standpoint as requiring special care above and beyond other personal data.",
       "slug": "sensitive-data"
     },
     {
@@ -28696,6 +29866,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: communication session.",
       "slug": "session"
     },
     {
@@ -28760,6 +29931,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "or single sig identifier; is an identifier controlled by a one-of-one signing key-pair",
       "slug": "single-signature-identifier"
     },
     {
@@ -28838,6 +30010,7 @@
           "verification_log"
         ]
       },
+      "simple_definition": "An operational contract for a discrete capability that defines permitted inputs, outputs, authorization scope, policy conditions, and evidence obligations.",
       "slug": "skill-contract"
     },
     {
@@ -29134,6 +30307,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: technical specification.",
       "slug": "specification"
     },
     {
@@ -29193,6 +30367,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: self-sovereign identity.",
       "slug": "ssi"
     },
     {
@@ -29287,6 +30462,7 @@
           "Bitstring Status List v1.0"
         ]
       },
+      "simple_definition": "An entity that provides status information such as suspension or revocation for a credential.",
       "slug": "status-provider"
     },
     {
@@ -29368,6 +30544,7 @@
         "c2pa": [],
         "ietf": []
       },
+      "simple_definition": "An inspectable record that represents the validity, suspension, revocation, or lifecycle status of a credential, authorization, registration, or governed object.",
       "slug": "status-record"
     },
     {
@@ -29558,6 +30735,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "The entity described by one or more claims, particularly in the context of credentials.",
       "slug": "subject"
     },
     {
@@ -29855,6 +31033,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A process which makes alterations to the data easily detectable. Form digital data objects, this is typically achieved via cryptographic verification.",
       "slug": "tamper-evident"
     },
     {
@@ -29993,6 +31172,7 @@
           "verification_log"
         ]
       },
+      "simple_definition": "The sequence of evidence, receipts, artifacts, and review triggers associated with governance-significant task state transitions from initiation through completion, cancellation, or failure.",
       "slug": "task-evidence-lifecycle"
     },
     {
@@ -30051,6 +31231,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "The protocol stack implementing the TCP/IP suite.",
       "slug": "tcp-ip-stack"
     },
     {
@@ -30108,6 +31289,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: Internet Protocol Suite.",
       "slug": "tcp-ip"
     },
     {
@@ -30362,6 +31544,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: trusted execution environment.",
       "slug": "tee"
     },
     {
@@ -30540,6 +31723,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A group of parties who share the need for a common terminology.",
       "slug": "terms-community"
     },
     {
@@ -30790,6 +31974,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "The issuer\u2014holder\u2014verifier model used by all types of physical credentials and digital credentials to enable transitive trust decisions.",
       "slug": "three-party-model"
     },
     {
@@ -30922,6 +32107,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: Transport Layer Security.",
       "slug": "tls"
     },
     {
@@ -30984,6 +32170,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A trust application that runs at ToIP Layer 4, the trust application layer.",
       "slug": "toip-application"
     },
     {
@@ -31042,6 +32229,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: ToiP relationship.",
       "slug": "toip-channel"
     },
     {
@@ -31100,6 +32288,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "Communication that uses the ToIP stack to deliver ToIP messages between ToIP endpoints, optionally using ToIP intermediaries to provide authenticity, confidentiality, and correlation privacy.",
       "slug": "toip-communication"
     },
     {
@@ -31158,6 +32347,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: ToIP relationship.",
       "slug": "toip-connection"
     },
     {
@@ -31220,6 +32410,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "The controller of a verifiable identifier (VID) used with the ToIP stack.",
       "slug": "toip-controller"
     },
     {
@@ -31282,6 +32473,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "An endpoint that communicates via the ToIP Trust Spanning Protocol (TSP) as described in the ToIP Technology Architecture Specification.",
       "slug": "toip-endpoint"
     },
     {
@@ -31345,6 +32537,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A non-profit project of the Linux Foundation chartered to define an overall architecture for decentralized digital trust infrastructure known as the ToIP stack.",
       "slug": "toip-foundation"
     },
     {
@@ -31412,6 +32605,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "The specification defining the requirements for the ToIP Governance Stack published by the ToIP Foundation.",
       "slug": "toip-governance-architecture-specification"
     },
     {
@@ -31474,6 +32668,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A governance framework that conforms to the requirements of the ToIP Governance Architecture Specification.",
       "slug": "toip-governance-framework"
     },
     {
@@ -31535,6 +32730,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A structural model for governance frameworks that specifies the recommended governance documents that should be included depending on the objectives of the trust community.",
       "slug": "toip-governance-metamodel"
     },
     {
@@ -31595,6 +32791,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "The governance half of the four layer ToIP stack as defined by the ToIP Governance Architecture Specification.",
       "slug": "toip-governance-stack"
     },
     {
@@ -31656,6 +32853,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A verifiable identifier (VID) for an entity that is addressable using the ToIP stack.",
       "slug": "toip-identifier"
     },
     {
@@ -31714,6 +32912,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: intermediary system.",
       "slug": "toip-intermediary"
     },
     {
@@ -31775,6 +32974,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "The trust support layer of the ToIP stack, responsible for supporting the trust spanning protocol at ToIP Layer 2.",
       "slug": "toip-layer-1"
     },
     {
@@ -31836,6 +33036,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "The trust spanning layer of the ToIP stack, responsible for enabling trust task protocols at ToIP Layer 3.",
       "slug": "toip-layer-2"
     },
     {
@@ -31897,6 +33098,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "The trust task layer of the ToIP stack, responsible for enabling trust applications at ToIP Layer 4.",
       "slug": "toip-layer-3"
     },
     {
@@ -32141,6 +33343,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A VID-to-VID relationship formed between two entities over the ToIP Trust Spanning Protocol.",
       "slug": "toip-relationship"
     },
     {
@@ -32327,6 +33530,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A computing system that participates in the ToIP Technology Stack. There are three types of ToIP systems: endpoint systems, intermediary systems, and supporting systems.",
       "slug": "toip-system"
     },
     {
@@ -32386,6 +33590,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "The technical specification defining the requirements for the ToIP Technology Stack published by the ToIP Foundation.",
       "slug": "toip-technology-architecture-specification"
     },
     {
@@ -32443,6 +33648,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "The technology half of the four layer ToIP stack as defined by the ToIP Technology Architecture Specification.",
       "slug": "toip-technology-stack"
     },
     {
@@ -32504,6 +33710,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A trust community governed by a ToIP governance framework.",
       "slug": "toip-trust-community"
     },
     {
@@ -32568,6 +33775,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A trust network implemented using the ToIP stack.",
       "slug": "toip-trust-network"
     },
     {
@@ -32760,6 +33968,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: Trust Over IP",
       "slug": "toip"
     },
     {
@@ -32885,6 +34094,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "Control over the identifier transferable by [[xref: keri1, rotation]].",
       "slug": "transferable-identifier"
     },
     {
@@ -32945,6 +34155,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "Capable of being transferred or conveyed from one place or person to another. Place can be its and bits.",
       "slug": "transferable"
     },
     {
@@ -33139,6 +34350,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "Layer of the TCP/IP protocol stack that is responsible for reliable connection-oriented or connectionless end-to-end communications.",
       "slug": "transport-layer"
     },
     {
@@ -33267,6 +34479,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "The authoritative source that serves as the origin of a trust chain.",
       "slug": "trust-anchor"
     },
     {
@@ -33394,6 +34607,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "An application that runs at ToIP Layer 4 in order to perform trust tasks or engage in other verifiable messaging using the ToIP stack.",
       "slug": "trust-application"
     },
     {
@@ -33456,6 +34670,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A process that provides a level of assurance sufficient to make a particular trust decision.",
       "slug": "trust-assurance"
     },
     {
@@ -33516,6 +34731,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "The properties of a verifiable identifier (VID) or a ToIP system that enable a party to appraise it to determine a trust limit.",
       "slug": "trust-basis"
     },
     {
@@ -33580,6 +34796,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "The border of a trust domain.",
       "slug": "trust-boundary"
     },
     {
@@ -33727,6 +34944,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A set of parties who collaborate to achieve a mutual set of trust objectives.",
       "slug": "trust-community"
     },
     {
@@ -33850,6 +35068,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A decision about whether it is safe and appropriate to rely on another party in a specific situation.",
       "slug": "trust-decision"
     },
     {
@@ -33975,6 +35194,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See digital trust ecosystem.",
       "slug": "trust-ecosystem"
     },
     {
@@ -34118,6 +35338,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A property, relationship, or other signal that can contribute to a party making a trust decision.",
       "slug": "trust-factor"
     },
     {
@@ -34180,6 +35401,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A term (most frequently used in the digital identity industry) to describe a governance framework for a digital identity system, especially a federation.",
       "slug": "trust-framework"
     },
     {
@@ -34319,6 +35541,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A limit to the degree a party is willing to trust an entity in a specific trust relationship within a specific trust context.",
       "slug": "trust-limit"
     },
     {
@@ -34507,6 +35730,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "An objective shared by the parties in a trust community to establish and maintain trust relationships.",
       "slug": "trust-objective"
     },
     {
@@ -34635,6 +35859,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: ToIP Trust Registry Protocol.",
       "slug": "trust-registry-protocol"
     },
     {
@@ -34842,6 +36067,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: trust anchor",
       "slug": "trust-root"
     },
     {
@@ -34975,6 +36201,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A spanning layer designed to span between different digital trust domains. In the ToIP stack, the trust spanning layer is ToIP Layer 2.",
       "slug": "trust-spanning-layer"
     },
     {
@@ -35038,6 +36265,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: ToIP Trust Spanning Protocol.",
       "slug": "trust-spanning-protocol"
     },
     {
@@ -35243,6 +36471,7 @@
           "verification_log"
         ]
       },
+      "simple_definition": "A structured receipt that records how a trust-relevant task was authorized, executed, evidenced, and completed or terminated.",
       "slug": "trust-task-execution-receipt"
     },
     {
@@ -35306,6 +36535,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "In the context of the ToIP stack, the trust task layer is ToIP Layer 3. It supports trust applications operating at ToIP Layer 4.",
       "slug": "trust-task-layer"
     },
     {
@@ -35370,6 +36600,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A ToIP Layer 3 protocol that implements a specific trust task on behalf of a trust application operating at ToIP Layer 4.",
       "slug": "trust-task-protocol"
     },
     {
@@ -35500,6 +36731,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: three-party model.",
       "slug": "trust-triangle"
     },
     {
@@ -35694,6 +36926,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A role that performs restricted activities for an organization after meeting competence, security and background verification requirements for that role.",
       "slug": "trusted-role"
     },
     {
@@ -35844,6 +37077,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "An authority that is trusted to provide accurate time information in the form of a timestamp.",
       "slug": "trusted-timestamp-authority"
     },
     {
@@ -35970,6 +37204,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A property of an entity that has the attribute of trustworthiness.",
       "slug": "trustworthy"
     },
     {
@@ -36031,6 +37266,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: ToIP Trust Spanning Protocol.",
       "slug": "tsp"
     },
     {
@@ -36102,6 +37338,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: trusted timestamp authority.",
       "slug": "tta"
     },
     {
@@ -36163,6 +37400,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: trusted third party.",
       "slug": "ttp"
     },
     {
@@ -36220,6 +37458,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: User Datagram Protocol.",
       "slug": "udp"
     },
     {
@@ -36278,6 +37517,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A network address used for a unicast.",
       "slug": "unicast-address"
     },
     {
@@ -36658,6 +37898,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: Uniform Resource Identifier.",
       "slug": "uri"
     },
     {
@@ -36715,6 +37956,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: Uniform Resource Locator.",
       "slug": "url"
     },
     {
@@ -36772,6 +38014,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: Uniform Resource Name.",
       "slug": "urn"
     },
     {
@@ -37092,6 +38335,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: digital vault.",
       "slug": "vault"
     },
     {
@@ -37163,6 +38407,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: verifiable credential.",
       "slug": "vc"
     },
     {
@@ -37251,6 +38496,7 @@
           "SD-JWT VC"
         ]
       },
+      "simple_definition": "The W3C data model for expressing verifiable credentials and verifiable presentations using common roles, properties, lifecycle semantics, and securing mechanisms.",
       "slug": "verifiable-credential-data-model-2-0"
     },
     {
@@ -37501,6 +38747,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "Any digital data or object that is digitally signed in such a manner that it can be cryptographically verified.",
       "slug": "verifiable-data"
     },
     {
@@ -37625,6 +38872,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "A message communicated as verifiable data by virtue of being digitally signed.",
       "slug": "verifiable-message"
     },
     {
@@ -37704,6 +38952,7 @@
           "OpenID4VP 1.0"
         ]
       },
+      "simple_definition": "A presentation with cryptographic proof or securing material that enables a verifier to check integrity, holder binding, or other presentation-specific verification requirements.",
       "slug": "verifiable-presentation"
     },
     {
@@ -37854,6 +39103,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "An action an agent (of a principal) performs to determine the authenticity of a claim or other data object. Cryptographic verification uses cryptographic keys.",
       "slug": "verification"
     },
     {
@@ -38070,6 +39320,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "The specialized type of peer-to-peer communications enabled by the ToIP Trust Spanning Protocol. Each pair of VIDs creates a unique VID relationship.",
       "slug": "vid-to-vid"
     },
     {
@@ -38127,6 +39378,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See \u200b\u200bverifiable identifier.",
       "slug": "vid"
     },
     {
@@ -38198,6 +39450,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "Digital representations of claims or identity attributes, often used in online environments.",
       "slug": "virtual-credential"
     },
     {
@@ -38373,6 +39626,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: Voice over IP.",
       "slug": "voip"
     },
     {
@@ -38446,6 +39700,7 @@
           "OpenID4VP 1.0"
         ]
       },
+      "simple_definition": "An OpenID4VP response artifact containing one or more presentations returned to a verifier in response to an authorization request.",
       "slug": "vp-token"
     },
     {
@@ -38532,6 +39787,7 @@
       },
       "reader_note": "This legacy glossary entry is retained for continuity with existing ToIP terminology and now points readers toward the v2.0 term.",
       "implementation_relevance": "Prefer verifiable-credential-data-model-2-0 for current implementation mapping and use this term when preserving compatibility with earlier glossary references.",
+      "simple_definition": "A W3C Recommendation defining the standard Verifiable Credentials Data Model. The current standards-linked anchor for new work is Verifiable Credentials Data Model v2.0.",
       "slug": "w3c-verifiable-credentials-data-model-specification"
     },
     {
@@ -38634,6 +39890,7 @@
           "OpenID4VP"
         ]
       },
+      "simple_definition": "Evidence about a wallet instance, wallet provider, or wallet capability that can be used by issuers, verifiers, or governance frameworks to make reliance decisions.",
       "slug": "wallet-attestation"
     },
     {
@@ -38754,6 +40011,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: digital wallet.",
       "slug": "wallet"
     },
     {
@@ -39138,6 +40396,7 @@
         "nist": [],
         "iso": []
       },
+      "simple_definition": "See: zero-knowledge proof.",
       "slug": "zkp"
     }
   ]

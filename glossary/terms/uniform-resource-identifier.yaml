@@ -4,11 +4,7 @@ aliases:
 - Uniform Resource Identifiers
 - URI
 - URIs
-definition: A Uniform Resource Identifier (URI) is the generic standard for all types
-  of identifiers used to link resources in the World Wide Web. The most common type
-  of a URI is a URL (Uniform Resource Locator). The URI standard is defined by IETF
-  RFC 3986. URNs (Uniform Resource Names) are another type of URIs intended for persistent
-  identifiers.
+definition: A Uniform Resource Identifier (URI) is the generic standard for all types of identifiers used to link resources in the World Wide Web. The most common type of a URI is a URL (Uniform Resource Locator). The URI standard is defined by IETF RFC 3986. URNs (Uniform Resource Names) are another type of URIs intended for persistent identifiers.
 notes: []
 see_also:
 - glossary

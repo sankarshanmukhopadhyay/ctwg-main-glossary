@@ -4,9 +4,7 @@ aliases:
 - tamper resistance
 - tamper-resistant
 - tamper-resistance
-definition: A process which makes alterations to data difficult (hard to perform),
-  costly (expensive to perform), or both. For digital data objects, this is typically
-  achieved via cryptographic verification.
+definition: A process which makes alterations to data difficult (hard to perform), costly (expensive to perform), or both. For digital data objects, this is typically achieved via cryptographic verification.
 notes: []
 see_also:
 - glossary

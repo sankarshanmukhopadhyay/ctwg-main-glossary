@@ -2,8 +2,7 @@ term: ephemeral-connection
 aliases:
 - ephemeral connection
 - ephemeral connections
-definition: A connection that only exists for the duration of a single communication
-  session or transaction.
+definition: A connection that only exists for the duration of a single communication session or transaction.
 notes: []
 see_also:
 - glossary
@@ -42,3 +41,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: A connection that only exists for the duration of a single communication session or transaction.

@@ -6,6 +6,9 @@ title: "vp-token"
 
 # vp-token
 
+## In Simple English
+An OpenID4VP response artifact containing one or more presentations returned to a verifier in response to an authorization request.
+
 ## Definition
 An OpenID4VP response artifact containing one or more presentations returned to a verifier in response to an authorization request.
 

@@ -6,6 +6,9 @@ title: "record"
 
 # record
 
+## In Simple English
+A uniquely identifiable entry or listing in a database or registry.
+
 ## Definition
 A uniquely identifiable entry or listing in a database or registry.
 

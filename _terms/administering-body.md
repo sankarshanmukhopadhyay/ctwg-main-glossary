@@ -6,6 +6,9 @@ title: "administering-body"
 
 # administering-body
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A legal entity delegated by a governing body to administer the operation of a governance framework and governed infrastructure for a digital trust ecosystem, such as one or more trust registries.
 

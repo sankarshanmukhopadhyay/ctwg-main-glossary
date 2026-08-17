@@ -6,6 +6,9 @@ title: "toip-layer-1"
 
 # toip-layer-1
 
+## In Simple English
+The trust support layer of the ToIP stack, responsible for supporting the trust spanning protocol at ToIP Layer 2.
+
 ## Definition
 The trust support layer of the ToIP stack, responsible for supporting the trust spanning protocol at ToIP Layer 2.
 

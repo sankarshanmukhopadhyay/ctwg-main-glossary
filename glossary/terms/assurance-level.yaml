@@ -2,13 +2,9 @@ term: assurance-level
 aliases:
 - assurance level
 - assurance levels
-definition: A level of confidence in a claim that may be relied on by others. Different
-  types of assurance levels are defined for different types of trust assurance mechanisms.
-  Examples include authenticator assurance level, federation assurance level, and
-  identity assurance level.
+definition: A level of confidence in a claim that may be relied on by others. Different types of assurance levels are defined for different types of trust assurance mechanisms. Examples include authenticator assurance level, federation assurance level, and identity assurance level.
 notes:
-- Assurance levels are most useful when the criteria for each level are explicit,
-  testable, and supported by inspectable evidence.
+- Assurance levels are most useful when the criteria for each level are explicit, testable, and supported by inspectable evidence.
 see_also:
 - credential
 - issuer
@@ -20,11 +16,7 @@ sources:
 - 'ToIP CTWG maintained glossary source: `spec/terms-definitions/assurance-level.md`'
 mental_models: []
 supporting_definitions:
-- For verifiable credentials, an assurance level measures the degree of certainty
-  in an identity's authenticity or a credential's validity. It is influenced by the
-  strength of the identity assurance process, the robustness of the authentication
-  process, the management of the credential issuer, and the evidence available to
-  support those assessments.
+- For verifiable credentials, an assurance level measures the degree of certainty in an identity's authenticity or a credential's validity. It is influenced by the strength of the identity assurance process, the robustness of the authentication process, the management of the credential issuer, and the evidence available to support those assessments.
 source_file: spec/terms-definitions/assurance-level.md
 governance_profile: core-operational
 governance:
@@ -78,3 +70,4 @@ crosswalk:
   - IA-8
   iso:
   - ISO/IEC 29115
+simple_definition: A stated level of confidence supported by defined evidence, controls, and review expectations.

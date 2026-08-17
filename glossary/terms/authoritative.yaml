@@ -54,3 +54,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: Information or data that comes from an authority for that information.

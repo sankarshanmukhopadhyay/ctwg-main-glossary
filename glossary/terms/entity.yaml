@@ -40,3 +40,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: Someone or something that is known to exist.

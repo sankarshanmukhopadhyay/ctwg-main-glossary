@@ -6,6 +6,9 @@ title: "hardware-security-module"
 
 # hardware-security-module
 
+## In Simple English
+A physical computing device that provides tamper-evident and intrusion-resistant safeguarding and management of digital keys and other secrets, as well as crypto-processing.
+
 ## Definition
 A physical computing device that provides tamper-evident and intrusion-resistant safeguarding and management of digital keys and other secrets, as well as crypto-processing.
 

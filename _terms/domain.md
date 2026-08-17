@@ -6,6 +6,9 @@ title: "domain"
 
 # domain
 
+## In Simple English
+See: security domain.
+
 ## Definition
 See: security domain.
 

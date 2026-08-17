@@ -6,6 +6,9 @@ title: "openid4vp"
 
 # openid4vp
 
+## In Simple English
+An OpenID Foundation protocol that defines mechanisms for requesting and presenting credentials between wallets and verifiers.
+
 ## Definition
 An OpenID Foundation protocol that defines mechanisms for requesting and presenting credentials between wallets and verifiers.
 

@@ -58,3 +58,4 @@ control_plane:
   - delegation_record
   - status_record
   - verification_log
+simple_definition: The current set of permissions, limits, delegation history, and status that must be checked before an action is allowed.

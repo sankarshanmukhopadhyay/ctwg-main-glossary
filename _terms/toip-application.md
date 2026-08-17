@@ -6,6 +6,9 @@ title: "toip-application"
 
 # toip-application
 
+## In Simple English
+A trust application that runs at ToIP Layer 4, the trust application layer.
+
 ## Definition
 A trust application that runs at ToIP Layer 4, the trust application layer.
 

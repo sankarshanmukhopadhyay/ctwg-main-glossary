@@ -6,6 +6,9 @@ title: "authoritative"
 
 # authoritative
 
+## In Simple English
+Information or data that comes from an authority for that information.
+
 ## Definition
 Information or data that comes from an authority for that information.
 

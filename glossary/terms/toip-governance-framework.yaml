@@ -2,8 +2,7 @@ term: toip-governance-framework
 aliases:
 - ToIP governance framework
 - ToIP governance frameworks
-definition: A governance framework that conforms to the requirements of the ToIP Governance
-  Architecture Specification.
+definition: A governance framework that conforms to the requirements of the ToIP Governance Architecture Specification.
 notes: []
 see_also:
 - policy
@@ -45,3 +44,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: A governance framework that conforms to the requirements of the ToIP Governance Architecture Specification.

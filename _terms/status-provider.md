@@ -6,6 +6,9 @@ title: "status-provider"
 
 # status-provider
 
+## In Simple English
+An entity that provides status information such as suspension or revocation for a credential.
+
 ## Definition
 An entity that provides status information such as suspension or revocation for a credential.
 

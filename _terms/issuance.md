@@ -6,6 +6,9 @@ title: "issuance"
 
 # issuance
 
+## In Simple English
+The action of an issuer producing and transmitting a digital credential to a holder. A holder may request issuance by submitting an issuance request.
+
 ## Definition
 The action of an issuer producing and transmitting a digital credential to a holder. A holder may request issuance by submitting an issuance request.
 

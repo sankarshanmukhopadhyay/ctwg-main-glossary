@@ -6,6 +6,9 @@ title: "physical-credential"
 
 # physical-credential
 
+## In Simple English
+A credential in a physical form such as paper, plastic, or metal.
+
 ## Definition
 A credential in a physical form such as paper, plastic, or metal.
 

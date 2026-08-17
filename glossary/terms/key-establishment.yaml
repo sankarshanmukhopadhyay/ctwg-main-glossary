@@ -1,9 +1,7 @@
 term: key-establishment
 aliases:
 - key establishment
-definition: A process that results in the sharing of a key between two or more entities,
-  either by transporting a key from one entity to another (key transport) or generating
-  a key from information shared by the entities (key agreement).
+definition: A process that results in the sharing of a key between two or more entities, either by transporting a key from one entity to another (key transport) or generating a key from information shared by the entities (key agreement).
 notes: []
 see_also:
 - glossary

@@ -6,6 +6,9 @@ title: "itps"
 
 # itps
 
+## In Simple English
+information-theoretic-security
+
 ## Definition
 information-theoretic-security
 

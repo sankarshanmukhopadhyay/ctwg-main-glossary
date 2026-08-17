@@ -6,6 +6,9 @@ title: "qualified-electronic-attestation-of-attributes"
 
 # qualified-electronic-attestation-of-attributes
 
+## In Simple English
+An attestation of attributes issued under qualified trust service rules in the European digital identity framework.
+
 ## Definition
 An attestation of attributes issued under qualified trust service rules in the European digital identity framework.
 

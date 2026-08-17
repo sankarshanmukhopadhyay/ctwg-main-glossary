@@ -6,6 +6,9 @@ title: "technical-trust"
 
 # technical-trust
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A level of assurance in a trust relationship that can be achieved only via technical means such as hardware, software, network protocols, and cryptography.Cryptographic trust is a specialized type of technical trust.
 

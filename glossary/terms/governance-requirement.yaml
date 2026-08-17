@@ -2,8 +2,7 @@ term: governance-requirement
 aliases:
 - governance requirement
 - governance requirements
-definition: A requirement such as a policy, rule, or technical specification specified
-  in a governance document.
+definition: A requirement such as a policy, rule, or technical specification specified in a governance document.
 notes: []
 see_also:
 - technical requirement.
@@ -41,3 +40,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: A requirement such as a policy, rule, or technical specification specified in a governance document.

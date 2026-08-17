@@ -6,6 +6,9 @@ title: "monotonic attenuation"
 
 # monotonic attenuation
 
+## In Simple English
+The delegation invariant that authority may remain unchanged or become narrower at each delegation hop but must never expand beyond the parent grant.
+
 ## Definition
 The delegation invariant that authority may remain unchanged or become narrower at each delegation hop but must never expand beyond the parent grant.
 

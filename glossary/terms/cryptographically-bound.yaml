@@ -1,8 +1,7 @@
 term: cryptographically-bound
 aliases:
 - cryptographically bound
-definition: A state in which two or more elements of information have a cryptographic
-  binding.
+definition: A state in which two or more elements of information have a cryptographic binding.
 notes: []
 see_also:
 - glossary
@@ -40,3 +39,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: A state in which two or more elements of information have a cryptographic binding.

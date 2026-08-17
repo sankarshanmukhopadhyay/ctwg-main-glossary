@@ -6,6 +6,9 @@ title: "permission"
 
 # permission
 
+## In Simple English
+Authorization to perform some action on a system.
+
 ## Definition
 Authorization to perform some action on a system.
 

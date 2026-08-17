@@ -1,8 +1,7 @@
 term: controlled-identifier
 aliases:
 - controlled identifier
-definition: An identifier whose controller can be discovered through an associated
-  controlled identifier document containing verification material and service endpoints.
+definition: An identifier whose controller can be discovered through an associated controlled identifier document containing verification material and service endpoints.
 reader_note: ''
 implementation_relevance: ''
 notes: []
@@ -53,3 +52,4 @@ crosswalk:
   w3c:
   - Controlled Identifiers v1.0
   - DID Core
+simple_definition: An identifier whose controller can be discovered through an associated controlled identifier document containing verification material and service endpoints.

@@ -6,6 +6,9 @@ title: "authority boundary"
 
 # authority boundary
 
+## In Simple English
+A machine- or human-readable constraint that identifies where authority begins and ends, including the permitted actor, scope, action, target, conditions, and lifecycle state.
+
 ## Definition
 A machine- or human-readable constraint that identifies where authority begins and ends, including the permitted actor, scope, action, target, conditions, and lifecycle state.
 

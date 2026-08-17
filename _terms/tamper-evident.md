@@ -6,6 +6,9 @@ title: "tamper-evident"
 
 # tamper-evident
 
+## In Simple English
+A process which makes alterations to the data easily detectable. Form digital data objects, this is typically achieved via cryptographic verification.
+
 ## Definition
 A process which makes alterations to the data easily detectable. Form digital data objects, this is typically achieved via cryptographic verification.
 

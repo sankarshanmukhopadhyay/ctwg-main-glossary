@@ -1,8 +1,7 @@
 term: authentic-chained-data-container
 aliases:
 - Authentic Chained Data Container
-definition: A digital data structure designed for both cryptographic verification
-  and chaining of data containers. ACDC may be used for digital credentials.
+definition: A digital data structure designed for both cryptographic verification and chaining of data containers. ACDC may be used for digital credentials.
 notes: []
 see_also:
 - credential
@@ -55,3 +54,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: A digital data structure designed for both cryptographic verification and chaining of data containers. ACDC may be used for digital credentials.

@@ -44,3 +44,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: A digital vault whose controller is a natural person.

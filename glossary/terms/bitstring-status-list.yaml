@@ -2,11 +2,9 @@ term: bitstring-status-list
 aliases:
 - Bitstring Status List
 - BSL
-definition: A W3C status mechanism for publishing credential status information such
-  as revocation or suspension using compressed bitstrings.
+definition: A W3C status mechanism for publishing credential status information such as revocation or suspension using compressed bitstrings.
 reader_note: ''
-implementation_relevance: Use this term when modelling inspectable credential status
-  evidence without exposing unnecessary holder-specific information.
+implementation_relevance: Use this term when modelling inspectable credential status evidence without exposing unnecessary holder-specific information.
 notes: []
 see_also:
 - credential
@@ -57,3 +55,4 @@ control_plane:
 crosswalk:
   w3c:
   - Bitstring Status List v1.0
+simple_definition: A W3C status mechanism for publishing credential status information such as revocation or suspension using compressed bitstrings.

@@ -2,8 +2,7 @@ term: multi-signature
 aliases:
 - multi-signature
 - multi-sig
-definition: A cryptographic signature scheme where the process of signing information
-  (e.g., a transaction) is distributed among multiple private keys.
+definition: A cryptographic signature scheme where the process of signing information (e.g., a transaction) is distributed among multiple private keys.
 notes: []
 see_also:
 - glossary
@@ -41,3 +40,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: A cryptographic signature scheme where the process of signing information (e.g., a transaction) is distributed among multiple private keys.

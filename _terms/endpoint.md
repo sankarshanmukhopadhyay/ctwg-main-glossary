@@ -6,6 +6,9 @@ title: "endpoint"
 
 # endpoint
 
+## In Simple English
+See: communication endpoint.
+
 ## Definition
 See: communication endpoint.
 

@@ -2,12 +2,7 @@ term: requirement
 aliases:
 - requirement
 - requirements
-definition: A specified condition or behavior to which a system needs to comply. Technical
-  requirements are defined in technical specifications and implemented in computer
-  systems to be executed by software actors. Governance requirements are defined in
-  governance documents that specify policies and procedures to be executed by human
-  actors. In ToIP specifications, requirements are expressed using the keywords defined
-  in Internet RFC 2119.
+definition: A specified condition or behavior to which a system needs to comply. Technical requirements are defined in technical specifications and implemented in computer systems to be executed by software actors. Governance requirements are defined in governance documents that specify policies and procedures to be executed by human actors. In ToIP specifications, requirements are expressed using the keywords defined in Internet RFC 2119.
 notes: []
 see_also:
 - mandatory

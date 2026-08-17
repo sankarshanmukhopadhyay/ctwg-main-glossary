@@ -6,6 +6,9 @@ title: "toip-technology-architecture-specification"
 
 # toip-technology-architecture-specification
 
+## In Simple English
+The technical specification defining the requirements for the ToIP Technology Stack published by the ToIP Foundation.
+
 ## Definition
 The technical specification defining the requirements for the ToIP Technology Stack published by the ToIP Foundation.
 

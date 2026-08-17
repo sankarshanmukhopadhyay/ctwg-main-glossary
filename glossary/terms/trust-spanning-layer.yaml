@@ -1,8 +1,7 @@
 term: trust-spanning-layer
 aliases:
 - trust spanning layer
-definition: A spanning layer designed to span between different digital trust domains.
-  In the ToIP stack, the trust spanning layer is ToIP Layer 2.
+definition: A spanning layer designed to span between different digital trust domains. In the ToIP stack, the trust spanning layer is ToIP Layer 2.
 notes: []
 see_also:
 - glossary
@@ -14,8 +13,7 @@ sources:
 mental_models:
 - '[[ref: hourglass model,]] see [[ref: ToIP Technology Architecture Specification]]'
 supporting_definitions:
-- 'For more information, see: [Section 7.3](https://github.com/trustoverip/TechArch/blob/main/spec.md#73-layer-2-trust-spanning)
-  of the [[ref: ToIP Technology Architecture Specification]].'
+- 'For more information, see: [Section 7.3](https://github.com/trustoverip/TechArch/blob/main/spec.md#73-layer-2-trust-spanning) of the [[ref: ToIP Technology Architecture Specification]].'
 source_file: spec/terms-definitions/trust-spanning-layer.md
 governance_profile: governance-supporting
 governance:
@@ -49,3 +47,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: A spanning layer designed to span between different digital trust domains. In the ToIP stack, the trust spanning layer is ToIP Layer 2.

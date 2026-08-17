@@ -6,6 +6,9 @@ title: "connection"
 
 # connection
 
+## In Simple English
+A communication channel established between two communication endpoints. A connection may be ephemeral or persistent.
+
 ## Definition
 A communication channel established between two communication endpoints. A connection may be ephemeral or persistent.
 

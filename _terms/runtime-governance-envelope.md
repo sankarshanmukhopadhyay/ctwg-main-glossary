@@ -6,6 +6,9 @@ title: "runtime governance envelope"
 
 # runtime governance envelope
 
+## In Simple English
+A structured envelope that binds the authority, policy, evidence, constraints, obligations, and lifecycle state applicable to a runtime interaction or task.
+
 ## Definition
 A structured envelope that binds the authority, policy, evidence, constraints, obligations, and lifecycle state applicable to a runtime interaction or task.
 

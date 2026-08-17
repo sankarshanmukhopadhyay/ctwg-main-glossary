@@ -4,10 +4,7 @@ aliases:
 - guardianship arrangements
 - guardianship
 - guardianships
-definition: A guardianship arrangement is the specification, within a jurisdiction,
-  of rights and duties between legal entities for caring for, protecting, guarding,
-  or defending one or more dependents. At a minimum, the participating entities are
-  the guardian and the dependent.
+definition: A guardianship arrangement is the specification, within a jurisdiction, of rights and duties between legal entities for caring for, protecting, guarding, or defending one or more dependents. At a minimum, the participating entities are the guardian and the dependent.
 notes: []
 see_also:
 - guardian
@@ -19,8 +16,7 @@ sources:
 mental_models:
 - '[eSSIF-Lab Guardianship](https://essif-lab.github.io/framework/docs/terms/pattern-guardianship)'
 supporting_definitions:
-- 'For more information, see: [On Guardianship in Self-Sovereign Identity V2.0](https://sovrin.org/wp-content/uploads/Guardianship-Whitepaper-V2.0.pdf)
-  (April, 2023).'
+- 'For more information, see: [On Guardianship in Self-Sovereign Identity V2.0](https://sovrin.org/wp-content/uploads/Guardianship-Whitepaper-V2.0.pdf) (April, 2023).'
 source_file: spec/terms-definitions/guardianship-arrangement.md
 governance_profile: descriptive
 governance:

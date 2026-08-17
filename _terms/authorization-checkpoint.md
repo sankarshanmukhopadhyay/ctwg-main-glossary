@@ -6,6 +6,9 @@ title: "authorization checkpoint"
 
 # authorization checkpoint
 
+## In Simple English
+A runtime trust event that pauses or interrupts an interaction because required authorization, scope, evidence, or input is absent or insufficient.
+
 ## Definition
 A runtime trust event that pauses or interrupts an interaction because required authorization, scope, evidence, or input is absent or insufficient.
 

@@ -6,6 +6,9 @@ title: "runtime authority envelope"
 
 # runtime authority envelope
 
+## In Simple English
+The current set of permissions, limits, delegation history, and status that must be checked before an action is allowed.
+
 ## Definition
 A runtime artifact that carries the currently valid authority, scope, constraints, delegation lineage, and status required before an action may be executed.
 

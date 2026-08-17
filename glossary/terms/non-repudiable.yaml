@@ -2,9 +2,7 @@ term: non-repudiable
 aliases:
 - non-repudiable
 - non repudiable
-definition: Non-repudiation refers to a situation where a statement's author **cannot
-  successfully dispute** its authorship or the validity of an associated contract,
-  signature or commitment.
+definition: Non-repudiation refers to a situation where a statement's author **cannot successfully dispute** its authorship or the validity of an associated contract, signature or commitment.
 notes: []
 see_also:
 - glossary
@@ -13,8 +11,7 @@ sources:
 - 'ToIP CTWG maintained glossary source: `spec/terms-definitions/non-repudiable.md`'
 mental_models: []
 supporting_definitions:
-- The term is often seen in a legal setting when the authenticity of a signature is
-  being challenged. In such an instance, the authenticity is being "repudiated".
+- The term is often seen in a legal setting when the authenticity of a signature is being challenged. In such an instance, the authenticity is being "repudiated".
 source_file: spec/terms-definitions/non-repudiable.md
 governance_profile: descriptive
 governance:
@@ -44,3 +41,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: Non-repudiation refers to a situation where a statement's author **cannot successfully dispute** its authorship or the validity of an associated contract, signature or commitment.

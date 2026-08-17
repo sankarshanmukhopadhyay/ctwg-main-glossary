@@ -6,6 +6,9 @@ title: "data-vault"
 
 # data-vault
 
+## In Simple English
+See: digital vault.
+
 ## Definition
 See: digital vault.
 

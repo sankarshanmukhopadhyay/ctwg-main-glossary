@@ -6,6 +6,9 @@ title: "acdc"
 
 # acdc
 
+## In Simple English
+See: Authentic Chained Data Container.
+
 ## Definition
 See: Authentic Chained Data Container.
 

@@ -6,6 +6,9 @@ title: "key-event-receipt-infrastructure"
 
 # key-event-receipt-infrastructure
 
+## In Simple English
+A decentralized permissionless key management architecture.
+
 ## Definition
 A decentralized permissionless key management architecture.
 

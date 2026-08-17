@@ -6,6 +6,9 @@ title: "attribute-based-access-control"
 
 # attribute-based-access-control
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 An access control approach in which access is mediated based on attributes associated with subjects (requesters) and the objects to be accessed. Each object and subject has a set of associated attributes, such as location, time of creation, access rights, etc. Access to an object is authorized or denied depending upon whether the required (e.g., policy-defined) correlation can be made between the attributes of that object and of the requesting subject.
 

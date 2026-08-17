@@ -3,8 +3,7 @@ aliases:
 - verifiable message
 - verifiable messages
 - verifiable messaging
-definition: A message communicated as verifiable data by virtue of being digitally
-  signed.
+definition: A message communicated as verifiable data by virtue of being digitally signed.
 notes: []
 see_also:
 - ToIP messages
@@ -41,3 +40,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: A message communicated as verifiable data by virtue of being digitally signed.

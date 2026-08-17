@@ -2,8 +2,7 @@ term: private-key
 aliases:
 - private key
 - private keys
-definition: In public key cryptography, the cryptographic key which must be kept secret
-  by the controller in order to maintain security.
+definition: In public key cryptography, the cryptographic key which must be kept secret by the controller in order to maintain security.
 notes: []
 see_also:
 - glossary
@@ -12,8 +11,7 @@ sources:
 - 'ToIP CTWG maintained glossary source: `spec/terms-definitions/private-key.md`'
 mental_models: []
 supporting_definitions:
-- '[NIST-CSRC](https://csrc.nist.gov/glossary/term/private_key): The secret part of
-  an asymmetric key pair that is typically used to digitally sign or decrypt data.'
+- '[NIST-CSRC](https://csrc.nist.gov/glossary/term/private_key): The secret part of an asymmetric key pair that is typically used to digitally sign or decrypt data.'
 source_file: spec/terms-definitions/private-key.md
 governance_profile: core-operational
 governance:
@@ -47,3 +45,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: In public key cryptography, the cryptographic key which must be kept secret by the controller in order to maintain security.

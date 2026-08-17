@@ -6,6 +6,9 @@ title: "key"
 
 # key
 
+## In Simple English
+See: cryptographic key.
+
 ## Definition
 See: cryptographic key.
 

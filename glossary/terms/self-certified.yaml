@@ -1,10 +1,7 @@
 term: self-certified
 aliases:
 - self-certified
-definition: When a party provides its own certification that it is compliant with
-  a set of requirements, such as a governance framework. The term is also applied
-  to data structures that are cryptographically verifiable such as self-certifying
-  identifiers.
+definition: When a party provides its own certification that it is compliant with a set of requirements, such as a governance framework. The term is also applied to data structures that are cryptographically verifiable such as self-certifying identifiers.
 notes: []
 see_also:
 - policy

@@ -6,6 +6,9 @@ title: "internet-protocol-suite"
 
 # internet-protocol-suite
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 The Internet protocol suite, commonly known as TCP/IP, is a framework for organizing the set of communication protocols used in the Internet and similar computer networks according to functional criteria. The foundational protocols in the suite are the Transmission Control Protocol (TCP), the User Datagram Protocol (UDP), and the Internet Protocol (IP).
 

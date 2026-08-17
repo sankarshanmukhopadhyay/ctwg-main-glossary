@@ -2,8 +2,7 @@ term: information-theoretic-security
 aliases:
 - information-theoretic-security
 - information-theoretic security
-definition: the highest level of cryptographic security concerning a cryptographic
-  secret (seed, salt, or private key).
+definition: the highest level of cryptographic security concerning a cryptographic secret (seed, salt, or private key).
 notes: []
 see_also:
 - glossary
@@ -41,3 +40,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: the highest level of cryptographic security concerning a cryptographic secret (seed, salt, or private key).

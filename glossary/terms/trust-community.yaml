@@ -4,10 +4,7 @@ aliases:
 - trust communities
 definition: A set of parties who collaborate to achieve a mutual set of trust objectives.
 notes:
-- A trust community may be large or small, formal or informal. In a formal trust community,
-  the set of policies and rules governing behavior of members are usually published
-  in a governance framework or trust framework. In an informal trust community, the
-  policies or rules governing the behavior of members may be tribal knowledge.
+- A trust community may be large or small, formal or informal. In a formal trust community, the set of policies and rules governing behavior of members are usually published in a governance framework or trust framework. In an informal trust community, the policies or rules governing the behavior of members may be tribal knowledge.
 see_also:
 - digital trust ecosystem
 - ToIP trust community.
@@ -45,3 +42,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: A set of parties who collaborate to achieve a mutual set of trust objectives.

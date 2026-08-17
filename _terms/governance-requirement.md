@@ -6,6 +6,9 @@ title: "governance-requirement"
 
 # governance-requirement
 
+## In Simple English
+A requirement such as a policy, rule, or technical specification specified in a governance document.
+
 ## Definition
 A requirement such as a policy, rule, or technical specification specified in a governance document.
 

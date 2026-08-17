@@ -6,6 +6,9 @@ title: "node"
 
 # node
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 In telecommunications networks, a node (Latin: nodus, ‘knot’) is either a redistribution point or a communication endpoint. The definition of a node depends on the network and protocol layer referred to. A physical network node is an electronic device that is attached to a network, and is capable of creating, receiving, or transmitting information over a communication channel.
 

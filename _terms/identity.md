@@ -6,6 +6,9 @@ title: "identity"
 
 # identity
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A collection of attributes or other identity data that describe an entity and enable it to be distinguished from all other entities within a specific scope of identification. Identity attributes may include one or more identifiers for an entity, however it is possible to establish an identity without using identifiers.
 

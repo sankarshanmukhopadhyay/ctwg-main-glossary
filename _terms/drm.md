@@ -6,6 +6,9 @@ title: "drm"
 
 # drm
 
+## In Simple English
+See: digital rights management.
+
 ## Definition
 See: digital rights management.
 

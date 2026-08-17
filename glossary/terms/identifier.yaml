@@ -2,10 +2,7 @@ term: identifier
 aliases:
 - identifier
 - identifiers
-definition: A single attribute—typically a character string—that uniquely identifies
-  an entity within a specific context (which may be a global context). Examples include
-  the name of a party, the URL of an organization, or a serial number for a man-made
-  thing.
+definition: A single attribute—typically a character string—that uniquely identifies an entity within a specific context (which may be a global context). Examples include the name of a party, the URL of an organization, or a serial number for a man-made thing.
 notes: []
 see_also:
 - glossary
@@ -16,10 +13,7 @@ sources:
 - 'ToIP CTWG maintained glossary source: `spec/terms-definitions/identifier.md`'
 mental_models: []
 supporting_definitions:
-- '[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#identifier):
-  a character string that is being used for the identification of some [entity](https://essif-lab.github.io/framework/docs/terms/entity)
-  (yet may refer to 0, 1, or more [entities](https://essif-lab.github.io/framework/docs/terms/entity),
-  depending on the context within which it is being used).'
+- '[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#identifier): a character string that is being used for the identification of some [entity](https://essif-lab.github.io/framework/docs/terms/entity) (yet may refer to 0, 1, or more [entities](https://essif-lab.github.io/framework/docs/terms/entity), depending on the context within which it is being used).'
 source_file: spec/terms-definitions/identifier.md
 governance_profile: descriptive
 governance:

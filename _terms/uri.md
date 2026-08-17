@@ -6,6 +6,9 @@ title: "uri"
 
 # uri
 
+## In Simple English
+See: Uniform Resource Identifier.
+
 ## Definition
 See: Uniform Resource Identifier.
 

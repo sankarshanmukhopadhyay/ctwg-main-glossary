@@ -6,6 +6,9 @@ title: "ecosystem-governance-framework"
 
 # ecosystem-governance-framework
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A governance framework for a digital trust ecosystem. An ecosystem governance framework may incorporate, aggregate, or reference other types of governance frameworks such as a credential governance framework or a utility governance framework.
 

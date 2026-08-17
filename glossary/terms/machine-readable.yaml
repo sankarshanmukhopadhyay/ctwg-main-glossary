@@ -2,8 +2,7 @@ term: machine-readable
 aliases:
 - machine-readable
 - machine-readability
-definition: Information written in a computer language or expression language so that
-  it can be read and processed by a computing device.
+definition: Information written in a computer language or expression language so that it can be read and processed by a computing device.
 notes: []
 see_also:
 - glossary
@@ -42,3 +41,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: Information written in a computer language or expression language so that it can be read and processed by a computing device.

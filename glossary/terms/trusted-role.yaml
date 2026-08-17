@@ -2,8 +2,7 @@ term: trusted-role
 aliases:
 - trusted role
 - trusted roles
-definition: A role that performs restricted activities for an organization after meeting
-  competence, security and background verification requirements for that role.
+definition: A role that performs restricted activities for an organization after meeting competence, security and background verification requirements for that role.
 notes: []
 see_also:
 - glossary
@@ -47,3 +46,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: A role that performs restricted activities for an organization after meeting competence, security and background verification requirements for that role.

@@ -2,9 +2,7 @@ term: toip-specification
 aliases:
 - ToIP specification
 - ToIP specifications
-definition: 'A specification published by the ToIP Foundation. ToIP specifications
-  may be in one of three states: *Draft Deliverable*, *Working Group Approved Deliverable*,
-  or *ToIP Approved Deliverable*.'
+definition: 'A specification published by the ToIP Foundation. ToIP specifications may be in one of three states: *Draft Deliverable*, *Working Group Approved Deliverable*, or *ToIP Approved Deliverable*.'
 notes: []
 see_also:
 - glossary

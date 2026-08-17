@@ -6,6 +6,9 @@ title: "vid-to-vid"
 
 # vid-to-vid
 
+## In Simple English
+The specialized type of peer-to-peer communications enabled by the ToIP Trust Spanning Protocol. Each pair of VIDs creates a unique VID relationship.
+
 ## Definition
 The specialized type of peer-to-peer communications enabled by the ToIP Trust Spanning Protocol. Each pair of VIDs creates a unique VID relationship.
 

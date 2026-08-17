@@ -6,6 +6,9 @@ title: "assurance-level"
 
 # assurance-level
 
+## In Simple English
+A stated level of confidence supported by defined evidence, controls, and review expectations.
+
 ## Definition
 A level of confidence in a claim that may be relied on by others. Different types of assurance levels are defined for different types of trust assurance mechanisms. Examples include authenticator assurance level, federation assurance level, and identity assurance level.
 

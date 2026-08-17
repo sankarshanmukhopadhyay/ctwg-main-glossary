@@ -6,6 +6,9 @@ title: "identity-assurance"
 
 # identity-assurance
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 The heavy-lifting to be done by a trusted (middle-man) party to establish - and then offer reputational trust. An example of such a party is [[xref:keri1, GLEIF]]. Instead, KERI is for attributional-trust. In the real world you need both.
 

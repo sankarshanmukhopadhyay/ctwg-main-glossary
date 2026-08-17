@@ -2,8 +2,7 @@ term: connection
 aliases:
 - connection
 - connections
-definition: A communication channel established between two communication endpoints.
-  A connection may be ephemeral or persistent.
+definition: A communication channel established between two communication endpoints. A connection may be ephemeral or persistent.
 notes: []
 see_also:
 - ToIP connection.
@@ -40,3 +39,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: A communication channel established between two communication endpoints. A connection may be ephemeral or persistent.

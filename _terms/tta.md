@@ -6,6 +6,9 @@ title: "tta"
 
 # tta
 
+## In Simple English
+See: trusted timestamp authority.
+
 ## Definition
 See: trusted timestamp authority.
 

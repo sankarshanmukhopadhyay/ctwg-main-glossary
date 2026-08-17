@@ -6,6 +6,9 @@ title: "udp"
 
 # udp
 
+## In Simple English
+See: User Datagram Protocol.
+
 ## Definition
 See: User Datagram Protocol.
 

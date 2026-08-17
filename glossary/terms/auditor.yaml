@@ -2,8 +2,7 @@ term: auditor
 aliases:
 - auditor
 - auditors
-definition: The party responsible for performing an audit. Typically an auditor must
-  be accredited.
+definition: The party responsible for performing an audit. Typically an auditor must be accredited.
 notes: []
 see_also:
 - human auditable.
@@ -42,3 +41,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: The party responsible for performing an audit. Typically an auditor must be accredited.

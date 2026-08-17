@@ -6,6 +6,9 @@ title: "personally-identifiable-information"
 
 # personally-identifiable-information
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 Information (any form of data) that can be used to directly or indirectly identify or re-identify an individual person either singly or in combination within a single record or in correlation with other records. This information can be one or more attributes/fields/properties in a record (e.g., date-of-birth) or one or more records (e.g., medical records).
 

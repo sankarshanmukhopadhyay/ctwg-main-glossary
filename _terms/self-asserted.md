@@ -6,6 +6,9 @@ title: "self-asserted"
 
 # self-asserted
 
+## In Simple English
+A term used to describe a claim or a credential whose subject is also the issuer.
+
 ## Definition
 A term used to describe a claim or a credential whose subject is also the issuer.
 

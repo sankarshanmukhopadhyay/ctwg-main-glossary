@@ -58,3 +58,4 @@ control_plane:
   - delegation_record
   - status_record
   - verification_log
+simple_definition: A runtime trust event that pauses or interrupts an interaction because required authorization, scope, evidence, or input is absent or insufficient.

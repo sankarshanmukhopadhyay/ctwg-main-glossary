@@ -6,6 +6,9 @@ title: "persistent-identifier"
 
 # persistent-identifier
 
+## In Simple English
+transferable-identifier
+
 ## Definition
 transferable-identifier
 

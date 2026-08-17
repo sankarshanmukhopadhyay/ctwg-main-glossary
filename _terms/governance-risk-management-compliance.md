@@ -6,6 +6,9 @@ title: "governance-risk-management-compliance"
 
 # governance-risk-management-compliance
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 Governance, risk management, and compliance (GRC) are three related facets that aim to assure an organization reliably achieves objectives, addresses uncertainty and acts with integrity. Governance is the combination of processes established and executed by the directors (or the board of directors) that are reflected in the organization's structure and how it is managed and led toward achieving goals. Risk management is predicting and managing risks that could hinder the organization from reliably achieving its objectives under uncertainty. Compliance refers to adhering with the mandated boundaries (laws and regulations) and voluntary boundaries (company's policies, procedures, etc.)
 

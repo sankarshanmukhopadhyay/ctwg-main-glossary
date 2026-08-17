@@ -6,6 +6,9 @@ title: "toip-endpoint"
 
 # toip-endpoint
 
+## In Simple English
+An endpoint that communicates via the ToIP Trust Spanning Protocol (TSP) as described in the ToIP Technology Architecture Specification.
+
 ## Definition
 An endpoint that communicates via the ToIP Trust Spanning Protocol (TSP) as described in the ToIP Technology Architecture Specification.
 

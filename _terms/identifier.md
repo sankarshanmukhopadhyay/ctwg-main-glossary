@@ -6,6 +6,9 @@ title: "identifier"
 
 # identifier
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A single attribute—typically a character string—that uniquely identifies an entity within a specific context (which may be a global context). Examples include the name of a party, the URL of an organization, or a serial number for a man-made thing.
 

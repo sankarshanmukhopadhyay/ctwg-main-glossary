@@ -6,6 +6,9 @@ title: "rule"
 
 # rule
 
+## In Simple English
+A prescribed guide for conduct, process or action to achieve a defined result or objective. Rules may be human-readable or machine-readable or both.
+
 ## Definition
 A prescribed guide for conduct, process or action to achieve a defined result or objective. Rules may be human-readable or machine-readable or both.
 

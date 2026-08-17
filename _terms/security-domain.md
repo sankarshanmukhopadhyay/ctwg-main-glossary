@@ -6,6 +6,9 @@ title: "security-domain"
 
 # security-domain
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 An environment or context that includes a set of system resources and a set of system entities that have the right to access the resources as defined by a common security policy, security model, or security architecture.
 

@@ -6,6 +6,9 @@ title: "glossary"
 
 # glossary
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A glossary (from Ancient Greek: γλῶσσα, glossa; language, speech, wording), also known as a _vocabulary_ or _clavis_, is an alphabetical list of terms in a particular domain of knowledge (scope) together with the definitions for those terms. Unlike a dictionary, a glossary has only one definition for each term.
 

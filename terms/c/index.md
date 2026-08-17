@@ -36,6 +36,7 @@ nav_order: 3
 - [concept]({{ '/terms/concept/' | relative_url }})
 - [confidential-computing]({{ '/terms/confidential-computing/' | relative_url }})
 - [confidentiality]({{ '/terms/confidentiality/' | relative_url }})
+- [conformance]({{ '/terms/conformance/' | relative_url }})
 - [connection]({{ '/terms/connection/' | relative_url }})
 - [consent-management]({{ '/terms/consent-management/' | relative_url }})
 - [content provenance policy]({{ '/terms/content-provenance-policy/' | relative_url }})

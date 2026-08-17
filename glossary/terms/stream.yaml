@@ -2,9 +2,7 @@ term: stream
 aliases:
 - stream
 - streams
-definition: In the context of digital communications, and in particular streaming
-  media, a flow of data delivered in a continuous manner from a server to a client
-  rather than in discrete messages.
+definition: In the context of digital communications, and in particular streaming media, a flow of data delivered in a continuous manner from a server to a client rather than in discrete messages.
 notes: []
 see_also:
 - glossary

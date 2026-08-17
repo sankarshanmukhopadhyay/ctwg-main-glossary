@@ -6,6 +6,9 @@ title: "control-plane shift"
 
 # control-plane shift
 
+## In Simple English
+A change in which actor, policy, infrastructure component, or governance mechanism can determine, constrain, or revoke system behavior.
+
 ## Definition
 A change in which actor, policy, infrastructure component, or governance mechanism can determine, constrain, or revoke system behavior.
 

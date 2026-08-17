@@ -6,6 +6,9 @@ title: "decentralized-identity"
 
 # decentralized-identity
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A digital identity architecture in which a digital identity is established via the control of a set of cryptographic keys in a digital wallet so that the controller is not dependent on any external identity provider or other third party.
 

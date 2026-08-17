@@ -6,6 +6,9 @@ title: "status-record"
 
 # status-record
 
+## In Simple English
+An inspectable record that represents the validity, suspension, revocation, or lifecycle status of a credential, authorization, registration, or governed object.
+
 ## Definition
 An inspectable record that represents the validity, suspension, revocation, or lifecycle status of a credential, authorization, registration, or governed object.
 

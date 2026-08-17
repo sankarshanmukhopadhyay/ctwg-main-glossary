@@ -2,8 +2,7 @@ term: expression-language
 aliases:
 - expression language
 - expression languages
-definition: A language for creating a computer-interpretable (machine-readable) representation
-  of specific knowledge.
+definition: A language for creating a computer-interpretable (machine-readable) representation of specific knowledge.
 notes: []
 see_also:
 - glossary
@@ -41,3 +40,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: A language for creating a computer-interpretable (machine-readable) representation of specific knowledge.

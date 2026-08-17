@@ -6,6 +6,9 @@ title: "dcql"
 
 # dcql
 
+## In Simple English
+A query language defined by OpenID4VP for requesting credential presentations in a flexible and credential-format-aware way.
+
 ## Definition
 A query language defined by OpenID4VP for requesting credential presentations in a flexible and credential-format-aware way.
 

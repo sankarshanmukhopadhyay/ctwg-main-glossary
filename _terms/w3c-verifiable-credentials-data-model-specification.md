@@ -6,6 +6,9 @@ title: "w3c-verifiable-credentials-data-model-specification"
 
 # w3c-verifiable-credentials-data-model-specification
 
+## In Simple English
+A W3C Recommendation defining the standard Verifiable Credentials Data Model. The current standards-linked anchor for new work is Verifiable Credentials Data Model v2.0.
+
 ## Definition
 A W3C Recommendation defining the standard Verifiable Credentials Data Model. The current standards-linked anchor for new work is Verifiable Credentials Data Model v2.0.
 

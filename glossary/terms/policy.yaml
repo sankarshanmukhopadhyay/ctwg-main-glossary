@@ -2,10 +2,7 @@ term: policy
 aliases:
 - policy
 - policies
-definition: Statements, rules, or assertions that specify required, permitted, prohibited,
-  or expected behavior of an entity within a defined scope. Policies may be human-readable,
-  machine-readable, or both, and may be interpreted, enforced, or audited by people,
-  software, or both.
+definition: Statements, rules, or assertions that specify required, permitted, prohibited, or expected behavior of an entity within a defined scope. Policies may be human-readable, machine-readable, or both, and may be interpreted, enforced, or audited by people, software, or both.
 notes: []
 see_also:
 - governance framework
@@ -15,8 +12,7 @@ sources:
 - '[NIST-CSRC](https://csrc.nist.gov/glossary/term/policy)'
 mental_models: []
 supporting_definitions:
-- 'Example: An [[ref: authorization]] policy might specify the [[ref: access control]]
-  rules applied by a software component at runtime.'
+- 'Example: An [[ref: authorization]] policy might specify the [[ref: access control]] rules applied by a software component at runtime.'
 source_file: spec/terms-definitions/policy.md
 governance_profile: core-operational
 governance:
@@ -55,3 +51,4 @@ crosswalk:
   - PL-1
   iso:
   - ISO/IEC 42001 5.2
+simple_definition: A rule or set of rules that says what is allowed, required, or prohibited in a defined context.

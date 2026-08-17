@@ -6,6 +6,9 @@ title: "authenticity"
 
 # authenticity
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 The property of being genuine and being able to be verified and trusted; confidence in the validity of a transmission, a message, or message originator.
 

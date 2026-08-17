@@ -6,6 +6,9 @@ title: "ip-address"
 
 # ip-address
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 An Internet Protocol address (IP address) is a numerical label such as 192.0.2.1 that is connected to a computer network that uses the Internet Protocol for communication. An IP address serves two main functions: network interface identification, and location addressing.
 

@@ -6,6 +6,9 @@ title: "terms-wiki"
 
 # terms-wiki
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A wiki website used by a terms community to input, maintain, and publish its terminology. The Concepts and Terminology Working Group at the ToIP Foundation has created a simple template for GitHub-based terms wikis.
 

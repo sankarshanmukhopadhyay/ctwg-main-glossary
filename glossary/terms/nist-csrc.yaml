@@ -39,3 +39,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: Abbreviation for the NIST Computer Security Resource Center Glossary.

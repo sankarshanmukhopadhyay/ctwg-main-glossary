@@ -6,6 +6,9 @@ title: "agent"
 
 # agent
 
+## In Simple English
+A person or software component that acts for someone or something else within a defined scope.
+
 ## Definition
 An actor that executes an action on behalf of a party (called the principal of that actor). In the context of decentralized digital trust infrastructure, the term “agent” is most frequently used to mean a digital agent.
 

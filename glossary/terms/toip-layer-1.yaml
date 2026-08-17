@@ -1,8 +1,7 @@
 term: toip-layer-1
 aliases:
 - ToIP Layer 1
-definition: The trust support layer of the ToIP stack, responsible for supporting
-  the trust spanning protocol at ToIP Layer 2.
+definition: The trust support layer of the ToIP stack, responsible for supporting the trust spanning protocol at ToIP Layer 2.
 notes: []
 see_also:
 - glossary
@@ -44,3 +43,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: The trust support layer of the ToIP stack, responsible for supporting the trust spanning protocol at ToIP Layer 2.

@@ -6,6 +6,9 @@ title: "appraisability"
 
 # appraisability
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 The ability for a communication endpoint identified with a verifiable identifier (VID) to be appraised for the set of its properties that enable a relying party or a verifier to make a trust decision about communicating with that endpoint.
 

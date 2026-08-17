@@ -6,6 +6,9 @@ title: "ca"
 
 # ca
 
+## In Simple English
+See: certificate authority.
+
 ## Definition
 See: certificate authority.
 

@@ -6,6 +6,9 @@ title: "relying-party"
 
 # relying-party
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A party who accepts claims, credentials, trust graphs, or any other form of verifiable data from other parties (such as issuers, holders, trust registries, or other authoritative sources) in order to make a trust decision.
 

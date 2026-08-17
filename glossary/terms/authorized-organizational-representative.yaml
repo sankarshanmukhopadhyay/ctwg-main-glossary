@@ -1,8 +1,7 @@
 term: authorized-organizational-representative
 aliases:
 - authorized organizational representative
-definition: A person who has the authority to make claims, sign documents or otherwise
-  commit resources on behalf of an organization.
+definition: A person who has the authority to make claims, sign documents or otherwise commit resources on behalf of an organization.
 notes: []
 see_also:
 - credential
@@ -64,3 +63,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: A person who has the authority to make claims, sign documents or otherwise commit resources on behalf of an organization.

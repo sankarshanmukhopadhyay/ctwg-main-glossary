@@ -6,6 +6,9 @@ title: "legitimacy gap"
 
 # legitimacy gap
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A mismatch between an action or decision that a system can technically execute and the authority, recognition, consent, or governance basis required for that action to be legitimate.
 

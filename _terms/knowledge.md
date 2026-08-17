@@ -6,6 +6,9 @@ title: "knowledge"
 
 # knowledge
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 The (intangible) sum of what is known by a specific party, as well as the familiarity, awareness or understanding of someone or something by that party.
 

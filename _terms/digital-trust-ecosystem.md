@@ -6,6 +6,9 @@ title: "digital-trust-ecosystem"
 
 # digital-trust-ecosystem
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A digital ecosystem in which the participants are one or more interoperating trust communities. Governance of the various roles of governed parties within a digital trust ecosystem (e.g., issuers, holders, verifiers, certification bodies, auditors) is typically managed by a governing body using a governance framework as recommended in the ToIP Governance Stack. Many digital trust ecosystems will also maintain one or more trust lists and/or trust registries.
 

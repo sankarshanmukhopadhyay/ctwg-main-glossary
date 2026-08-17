@@ -1,8 +1,7 @@
 term: openid-federation
 aliases:
 - OpenID Federation
-definition: A federation framework for establishing trust among OpenID participants
-  using entity statements, trust chains, and federation metadata.
+definition: A federation framework for establishing trust among OpenID participants using entity statements, trust chains, and federation metadata.
 reader_note: ''
 implementation_relevance: ''
 notes: []
@@ -54,3 +53,4 @@ control_plane:
 crosswalk:
   openid:
   - OpenID Federation 1.0
+simple_definition: A federation framework for establishing trust among OpenID participants using entity statements, trust chains, and federation metadata.

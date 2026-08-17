@@ -2,8 +2,7 @@ term: sd-jwt-vc
 aliases:
 - SD-JWT VC
 - SD-JWT-based Verifiable Credential
-definition: A verifiable credential encoded using Selective Disclosure JWT mechanisms,
-  enabling selected claims to be disclosed while preserving cryptographic verification.
+definition: A verifiable credential encoded using Selective Disclosure JWT mechanisms, enabling selected claims to be disclosed while preserving cryptographic verification.
 reader_note: ''
 implementation_relevance: ''
 notes: []
@@ -56,3 +55,4 @@ crosswalk:
   openid:
   - OpenID4VCI
   - OpenID4VP
+simple_definition: A verifiable credential encoded using Selective Disclosure JWT mechanisms, enabling selected claims to be disclosed while preserving cryptographic verification.

@@ -6,6 +6,9 @@ title: "toip-technology-stack"
 
 # toip-technology-stack
 
+## In Simple English
+The technology half of the four layer ToIP stack as defined by the ToIP Technology Architecture Specification.
+
 ## Definition
 The technology half of the four layer ToIP stack as defined by the ToIP Technology Architecture Specification.
 

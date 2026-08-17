@@ -6,6 +6,9 @@ title: "protocol-layer"
 
 # protocol-layer
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 In modern protocol design, protocols are layered to form a protocol stack. Layering is a design principle that divides the protocol design task into smaller steps, each of which accomplishes a specific part, interacting with the other parts of the protocol only in a small number of well-defined ways. Layering allows the parts of a protocol to be designed and tested without a combinatorial explosion of cases, keeping each design relatively simple.
 

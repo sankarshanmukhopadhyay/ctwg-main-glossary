@@ -6,6 +6,9 @@ title: "property"
 
 # property
 
+## In Simple English
+In the context of digital communication, an attribute of a digital object or data structure, such as a DID document or a schema.
+
 ## Definition
 In the context of digital communication, an attribute of a digital object or data structure, such as a DID document or a schema.
 

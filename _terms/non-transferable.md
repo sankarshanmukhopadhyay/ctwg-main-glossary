@@ -6,6 +6,9 @@ title: "non-transferable"
 
 # non-transferable
 
+## In Simple English
+No transferable (the control over) a certain digital asset in an unobstructed or loss-less manner. As opposed to transferable.
+
 ## Definition
 No transferable (the control over) a certain digital asset in an unobstructed or loss-less manner. As opposed to transferable.
 

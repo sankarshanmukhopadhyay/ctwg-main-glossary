@@ -6,6 +6,9 @@ title: "deceptive-pattern"
 
 # deceptive-pattern
 
+## In Simple English
+See: dark pattern.
+
 ## Definition
 See: dark pattern.
 

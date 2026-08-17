@@ -6,6 +6,9 @@ title: "organizational-authority"
 
 # organizational-authority
 
+## In Simple English
+A type of authority where the party asserting its right is an organization.
+
 ## Definition
 A type of authority where the party asserting its right is an organization.
 

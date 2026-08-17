@@ -2,8 +2,7 @@ term: data-subject
 aliases:
 - data subject
 - data subjects
-definition: The natural person that is described by personal data. Data subject is
-  the term used by the EU General Data Protection Regulation.
+definition: The natural person that is described by personal data. Data subject is the term used by the EU General Data Protection Regulation.
 notes: []
 see_also:
 - glossary
@@ -41,3 +40,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: The natural person that is described by personal data. Data subject is the term used by the EU General Data Protection Regulation.

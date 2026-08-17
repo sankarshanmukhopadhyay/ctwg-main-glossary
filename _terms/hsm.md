@@ -6,6 +6,9 @@ title: "hsm"
 
 # hsm
 
+## In Simple English
+See: hardware security module.
+
 ## Definition
 See: hardware security module.
 

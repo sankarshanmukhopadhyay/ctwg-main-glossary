@@ -1,9 +1,7 @@
 term: trust-support-layer
 aliases:
 - trust support layer
-definition: In the context of the ToIP stack, the trust support layer is ToIP Layer
-  1. It supports the operations of the ToIP Trust Spanning Protocol at ToIP Layer
-  2.
+definition: In the context of the ToIP stack, the trust support layer is ToIP Layer 1. It supports the operations of the ToIP Trust Spanning Protocol at ToIP Layer 2.
 notes: []
 see_also:
 - glossary

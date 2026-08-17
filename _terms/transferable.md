@@ -6,6 +6,9 @@ title: "transferable"
 
 # transferable
 
+## In Simple English
+Capable of being transferred or conveyed from one place or person to another. Place can be its and bits.
+
 ## Definition
 Capable of being transferred or conveyed from one place or person to another. Place can be its and bits.
 

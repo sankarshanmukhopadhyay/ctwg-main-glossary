@@ -62,3 +62,4 @@ control_plane:
   - delegation_record
   - status_record
   - verification_log
+simple_definition: A record that explains what decision was made, under whose authority, using which policy and evidence, and with what result.

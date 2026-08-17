@@ -6,6 +6,9 @@ title: "identity-proofing"
 
 # identity-proofing
 
+## In Simple English
+The process of a party gathering sufficient identity data to establish an identity for a particular subject at a particular identity assurance level.
+
 ## Definition
 The process of a party gathering sufficient identity data to establish an identity for a particular subject at a particular identity assurance level.
 

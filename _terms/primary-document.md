@@ -6,6 +6,9 @@ title: "primary-document"
 
 # primary-document
 
+## In Simple English
+The governance document at the root of a governance framework. The primary document specifies the other controlled documents in the governance framework.
+
 ## Definition
 The governance document at the root of a governance framework. The primary document specifies the other controlled documents in the governance framework.
 

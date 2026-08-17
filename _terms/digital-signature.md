@@ -6,6 +6,9 @@ title: "digital-signature"
 
 # digital-signature
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A digital signature is a mathematical scheme that uses cryptography for verifying the authenticity of digital messages or documents. A valid digital signature, where the prerequisites are satisfied, gives a recipient very high confidence that the message was created by a known sender (authenticity), and that the message was not altered in transit (integrity).
 

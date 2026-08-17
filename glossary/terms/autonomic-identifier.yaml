@@ -2,8 +2,7 @@ term: autonomic-identifier
 aliases:
 - autonomic identifier
 - autonomic identifiers
-definition: 'The specific type of self-certifying identifier defined by the KERI specifications:
-  [[xref:keri1, autonomic-identifier]].'
+definition: 'The specific type of self-certifying identifier defined by the KERI specifications: [[xref:keri1, autonomic-identifier]].'
 notes: []
 see_also:
 - glossary
@@ -44,3 +43,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: 'The specific type of self-certifying identifier defined by the KERI specifications: [[xref:keri1, autonomic-identifier]].'

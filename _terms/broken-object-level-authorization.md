@@ -6,6 +6,9 @@ title: "broken-object-level-authorization"
 
 # broken-object-level-authorization
 
+## In Simple English
+Refers to security flaws where users can access data they shouldn't, due to inadequate permission checks on individual (sub)objects.
+
 ## Definition
 Refers to security flaws where users can access data they shouldn't, due to inadequate permission checks on individual (sub)objects.
 

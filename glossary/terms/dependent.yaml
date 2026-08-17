@@ -2,8 +2,7 @@ term: dependent
 aliases:
 - dependent
 - dependents
-definition: An entity for the caring for and/or protecting/guarding/defending of which
-  a guardianship arrangement has been established with a guardian.
+definition: An entity for the caring for and/or protecting/guarding/defending of which a guardianship arrangement has been established with a guardian.
 notes: []
 see_also:
 - custodian.
@@ -41,3 +40,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: An entity for the caring for and/or protecting/guarding/defending of which a guardianship arrangement has been established with a guardian.

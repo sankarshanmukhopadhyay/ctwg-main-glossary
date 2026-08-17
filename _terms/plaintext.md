@@ -6,6 +6,9 @@ title: "plaintext"
 
 # plaintext
 
+## In Simple English
+Unencrypted information that may be input to an encryption operation. Once encrypted, it becomes ciphertext.
+
 ## Definition
 Unencrypted information that may be input to an encryption operation. Once encrypted, it becomes ciphertext.
 

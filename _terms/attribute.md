@@ -6,6 +6,9 @@ title: "attribute"
 
 # attribute
 
+## In Simple English
+An identifiable set of data that describes an entity, which is the subject of the attribute.
+
 ## Definition
 An identifiable set of data that describes an entity, which is the subject of the attribute.
 

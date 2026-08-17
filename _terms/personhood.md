@@ -6,6 +6,9 @@ title: "personhood"
 
 # personhood
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 The status or quality of being treated as a person for a defined social, legal, governance, or technical purpose; it is not equivalent to civil identity or the possession of an identifier.
 

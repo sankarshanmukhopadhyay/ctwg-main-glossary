@@ -1,10 +1,7 @@
 term: correlation-privacy
 aliases:
 - correlation privacy
-definition: In a communications context, a type of privacy protection in which messages
-  use encryption, hashes, or other privacy-preserving technologies to avoid the use
-  of identifiers or other content that unauthorized parties may use to correlate the
-  sender and/or receiver(s).
+definition: In a communications context, a type of privacy protection in which messages use encryption, hashes, or other privacy-preserving technologies to avoid the use of identifiers or other content that unauthorized parties may use to correlate the sender and/or receiver(s).
 notes: []
 see_also:
 - authenticity

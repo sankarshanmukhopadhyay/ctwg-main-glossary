@@ -6,6 +6,9 @@ title: "content provenance policy"
 
 # content provenance policy
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A governance policy that specifies what provenance, integrity, sanitization, redaction, and evidence conditions must be satisfied before content may be acted upon, stored, or forwarded.
 

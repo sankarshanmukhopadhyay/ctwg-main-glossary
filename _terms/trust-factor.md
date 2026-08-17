@@ -6,6 +6,9 @@ title: "trust-factor"
 
 # trust-factor
 
+## In Simple English
+A property, relationship, or other signal that can contribute to a party making a trust decision.
+
 ## Definition
 A property, relationship, or other signal that can contribute to a party making a trust decision.
 

@@ -6,6 +6,9 @@ title: "toip-intermediary"
 
 # toip-intermediary
 
+## In Simple English
+See: intermediary system.
+
 ## Definition
 See: intermediary system.
 

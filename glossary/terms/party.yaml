@@ -2,9 +2,7 @@ term: party
 aliases:
 - party
 - parties
-definition: An entity that sets its objectives, maintains its knowledge, and uses
-  that knowledge to pursue its objectives in an autonomous (sovereign) manner. Natural
-  persons and organizations are the typical examples.
+definition: An entity that sets its objectives, maintains its knowledge, and uses that knowledge to pursue its objectives in an autonomous (sovereign) manner. Natural persons and organizations are the typical examples.
 notes: []
 see_also:
 - first party

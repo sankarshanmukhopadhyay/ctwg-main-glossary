@@ -6,6 +6,9 @@ title: "registry"
 
 # registry
 
+## In Simple English
+A maintained collection of records used to look up information about defined subjects or relationships.
+
 ## Definition
 A specialized database of records that serves as an authoritative source of information about entities.
 

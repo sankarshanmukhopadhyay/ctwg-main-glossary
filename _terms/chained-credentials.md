@@ -6,6 +6,9 @@ title: "chained-credentials"
 
 # chained-credentials
 
+## In Simple English
+Two or more credentials linked together to create a trust chain between the credentials that is cryptographically verifiable.
+
 ## Definition
 Two or more credentials linked together to create a trust chain between the credentials that is cryptographically verifiable.
 

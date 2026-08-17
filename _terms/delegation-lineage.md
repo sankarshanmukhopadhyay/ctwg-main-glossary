@@ -6,6 +6,9 @@ title: "delegation lineage"
 
 # delegation lineage
 
+## In Simple English
+The traceable chain showing how authority passed from one party to another and what limits were carried forward.
+
 ## Definition
 The ordered, verifiable path by which authority exercised by a current actor resolves through intermediate delegators to an originating principal and mandate.
 

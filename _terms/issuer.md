@@ -6,6 +6,9 @@ title: "issuer"
 
 # issuer
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A role an agent performs to assert a set of claims, package and digitally sign them, typically in the form of a digital credential, and transmit them to a holder under applicable policy and governance constraints.
 

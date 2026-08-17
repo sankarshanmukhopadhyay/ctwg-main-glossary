@@ -6,6 +6,9 @@ title: "pki"
 
 # pki
 
+## In Simple English
+See: public key infrastructure.
+
 ## Definition
 See: public key infrastructure.
 

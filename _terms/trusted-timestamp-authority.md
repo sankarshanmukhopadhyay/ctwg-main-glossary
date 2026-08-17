@@ -6,6 +6,9 @@ title: "trusted-timestamp-authority"
 
 # trusted-timestamp-authority
 
+## In Simple English
+An authority that is trusted to provide accurate time information in the form of a timestamp.
+
 ## Definition
 An authority that is trusted to provide accurate time information in the form of a timestamp.
 

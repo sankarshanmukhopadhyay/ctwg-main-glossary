@@ -6,6 +6,9 @@ title: "human-readable"
 
 # human-readable
 
+## In Simple English
+Information that can be processed by a human but that is not intended to be machine-readable.
+
 ## Definition
 Information that can be processed by a human but that is not intended to be machine-readable.
 

@@ -6,6 +6,9 @@ title: "hash"
 
 # hash
 
+## In Simple English
+The result of applying a hash function to a message.
+
 ## Definition
 The result of applying a hash function to a message.
 

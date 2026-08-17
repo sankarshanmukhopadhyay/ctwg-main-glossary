@@ -6,6 +6,9 @@ title: "control mode"
 
 # control mode
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A descriptor for the human-oversight shape of an agent or automated system at runtime, including whether intervention occurs in-loop, on-loop, through a sidecar, or within pre-bounded autonomy.
 

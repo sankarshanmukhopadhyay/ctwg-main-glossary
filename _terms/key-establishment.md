@@ -6,6 +6,9 @@ title: "key-establishment"
 
 # key-establishment
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A process that results in the sharing of a key between two or more entities, either by transporting a key from one entity to another (key transport) or generating a key from information shared by the entities (key agreement).
 

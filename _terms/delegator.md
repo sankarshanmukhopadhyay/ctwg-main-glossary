@@ -6,6 +6,9 @@ title: "delegator"
 
 # delegator
 
+## In Simple English
+The first party that makes a delegation to a second party (the delegatee) and remains accountable for granting authority within the permitted scope.
+
 ## Definition
 The first party that makes a delegation to a second party (the delegatee) and remains accountable for granting authority within the permitted scope.
 

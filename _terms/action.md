@@ -6,6 +6,9 @@ title: "action"
 
 # action
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 Something that is actually done (a 'unit of work' that is executed) by a single actor (on behalf of a given party), as a single operation, in a specific context.
 

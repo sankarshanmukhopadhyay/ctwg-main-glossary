@@ -6,6 +6,9 @@ title: "sd-jwt-vc"
 
 # sd-jwt-vc
 
+## In Simple English
+A verifiable credential encoded using Selective Disclosure JWT mechanisms, enabling selected claims to be disclosed while preserving cryptographic verification.
+
 ## Definition
 A verifiable credential encoded using Selective Disclosure JWT mechanisms, enabling selected claims to be disclosed while preserving cryptographic verification.
 

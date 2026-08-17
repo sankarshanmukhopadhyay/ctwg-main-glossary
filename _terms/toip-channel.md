@@ -6,6 +6,9 @@ title: "toip-channel"
 
 # toip-channel
 
+## In Simple English
+See: ToiP relationship.
+
 ## Definition
 See: ToiP relationship.
 

@@ -1,8 +1,7 @@
 term: toip-governance-stack
 aliases:
 - ToIP Governance Stack
-definition: The governance half of the four layer ToIP stack as defined by the ToIP
-  Governance Architecture Specification.
+definition: The governance half of the four layer ToIP stack as defined by the ToIP Governance Architecture Specification.
 notes: []
 see_also:
 - ToIP Technology Stack.
@@ -43,3 +42,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: The governance half of the four layer ToIP stack as defined by the ToIP Governance Architecture Specification.

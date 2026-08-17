@@ -5,8 +5,7 @@ aliases:
 - issues
 - issued
 - issuing
-definition: The action of an issuer producing and transmitting a digital credential
-  to a holder. A holder may request issuance by submitting an issuance request.
+definition: The action of an issuer producing and transmitting a digital credential to a holder. A holder may request issuance by submitting an issuance request.
 notes: []
 see_also:
 - presentation
@@ -56,3 +55,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: The action of an issuer producing and transmitting a digital credential to a holder. A holder may request issuance by submitting an issuance request.

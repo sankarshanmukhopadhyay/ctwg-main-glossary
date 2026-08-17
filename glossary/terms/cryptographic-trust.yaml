@@ -1,8 +1,7 @@
 term: cryptographic-trust
 aliases:
 - cryptographic trust
-definition: A specialized type of technical trust that is achieved using cryptographic
-  algorithms.
+definition: A specialized type of technical trust that is achieved using cryptographic algorithms.
 notes: []
 see_also:
 - glossary
@@ -47,3 +46,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: A specialized type of technical trust that is achieved using cryptographic algorithms.

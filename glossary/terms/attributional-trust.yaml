@@ -2,9 +2,7 @@ term: attributional-trust
 aliases:
 - attributional-trust
 - attributional trust
-definition: KERI offers cryptographic root-of-trust to establish attributional trust.
-  In the real world you'd also need reputational-trust. You can't have reputation
-  without attributional trust.
+definition: KERI offers cryptographic root-of-trust to establish attributional trust. In the real world you'd also need reputational-trust. You can't have reputation without attributional trust.
 notes: []
 see_also:
 - glossary
@@ -49,3 +47,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: KERI offers cryptographic root-of-trust to establish attributional trust. In the real world you'd also need reputational-trust. You can't have reputation without attributional trust.

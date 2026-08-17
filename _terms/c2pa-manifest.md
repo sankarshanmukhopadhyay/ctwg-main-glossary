@@ -6,6 +6,9 @@ title: "c2pa-manifest"
 
 # c2pa-manifest
 
+## In Simple English
+A verifiable unit of C2PA provenance information that binds claims, assertions, content bindings, and signatures for an asset.
+
 ## Definition
 A verifiable unit of C2PA provenance information that binds claims, assertions, content bindings, and signatures for an asset.
 

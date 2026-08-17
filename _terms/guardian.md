@@ -6,6 +6,9 @@ title: "guardian"
 
 # guardian
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A party that has been assigned rights and duties in a guardianship arrangement for the purpose of caring for, protecting, guarding, and defending the entity that is the dependent in that guardianship arrangement. In the context of decentralized digital trust infrastructure, a guardian is issued guardianship credentials into their own digital wallet in order to perform such actions on behalf of the dependent as are required by this role.
 

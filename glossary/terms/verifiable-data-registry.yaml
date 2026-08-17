@@ -4,14 +4,9 @@ aliases:
 - verifiable data registries
 - VDR
 - VDRs
-definition: A registry that facilitates the creation, verification, updating, and/or
-  deactivation of decentralized identifiers and DID documents. A verifiable data registry
-  may also be used for other cryptographically-verifiable data structures such as
-  verifiable credentials.
+definition: A registry that facilitates the creation, verification, updating, and/or deactivation of decentralized identifiers and DID documents. A verifiable data registry may also be used for other cryptographically-verifiable data structures such as verifiable credentials.
 notes:
-- There is an earlier definition in the W3C VC 1.1. glossary that is not as mature
-  as this one (it is not clear about the use of cryptographically verifiable data
-  structures). We do not recommend that definition.
+- There is an earlier definition in the W3C VC 1.1. glossary that is not as mature as this one (it is not clear about the use of cryptographically verifiable data structures). We do not recommend that definition.
 see_also:
 - authoritative source
 - trust registry

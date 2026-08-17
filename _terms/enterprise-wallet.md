@@ -6,6 +6,9 @@ title: "enterprise-wallet"
 
 # enterprise-wallet
 
+## In Simple English
+A digital wallet whose holder is an organization.
+
 ## Definition
 A digital wallet whose holder is an organization.
 

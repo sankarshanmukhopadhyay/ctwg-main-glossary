@@ -6,6 +6,9 @@ title: "confidentiality"
 
 # confidentiality
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 In a communications context, a type of privacy protection in which messages use encryption or other privacy-preserving technologies so that only authorized parties have access.
 

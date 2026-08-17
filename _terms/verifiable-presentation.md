@@ -6,6 +6,9 @@ title: "verifiable-presentation"
 
 # verifiable-presentation
 
+## In Simple English
+A presentation with cryptographic proof or securing material that enables a verifier to check integrity, holder binding, or other presentation-specific verification requirements.
+
 ## Definition
 A presentation with cryptographic proof or securing material that enables a verifier to check integrity, holder binding, or other presentation-specific verification requirements.
 

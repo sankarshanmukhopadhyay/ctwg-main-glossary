@@ -1,8 +1,7 @@
 term: integrity
 aliases:
 - integrity
-definition: '- General IT: [[xref:toip2, integrity]] and KERI specific: [[xref:keri1,
-  integrity]]'
+definition: '- General IT: [[xref:toip2, integrity]] and KERI specific: [[xref:keri1, integrity]]'
 notes: []
 see_also:
 - glossary
@@ -11,9 +10,7 @@ sources:
 - '[Wikipedia](https://en.wikipedia.org/wiki/Information_security#Integrity).'
 mental_models: []
 supporting_definitions:
-- 'In IT security, data integrity means maintaining and assuring the accuracy and
-  completeness of [[ref: data]] over its entire lifecycle. This means that [[ref:
-  data]] cannot be modified in an [[ref: unauthorized]] or undetected manner.'
+- 'In IT security, data integrity means maintaining and assuring the accuracy and completeness of [[ref: data]] over its entire lifecycle. This means that [[ref: data]] cannot be modified in an [[ref: unauthorized]] or undetected manner.'
 source_file: spec/terms-definitions/integrity.md
 governance_profile: descriptive
 governance:
@@ -43,3 +40,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: '- General IT: [[xref:toip2, integrity]] and KERI specific: [[xref:keri1, integrity]]'

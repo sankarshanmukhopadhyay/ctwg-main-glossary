@@ -2,8 +2,7 @@ term: broken-object-level-authorization
 aliases:
 - broken-object-level-authorization
 - broken object level authorization
-definition: Refers to security flaws where users can access data they shouldn't, due
-  to inadequate permission checks on individual (sub)objects.
+definition: Refers to security flaws where users can access data they shouldn't, due to inadequate permission checks on individual (sub)objects.
 notes: []
 see_also:
 - authorization
@@ -58,3 +57,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: Refers to security flaws where users can access data they shouldn't, due to inadequate permission checks on individual (sub)objects.

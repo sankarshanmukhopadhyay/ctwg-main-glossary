@@ -6,6 +6,9 @@ title: "third-party"
 
 # third-party
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A party that is not directly involved in the trust relationship between a first party and a second party, but provides supporting services to either or both of them.
 

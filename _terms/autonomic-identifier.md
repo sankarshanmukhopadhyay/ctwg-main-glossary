@@ -6,6 +6,9 @@ title: "autonomic-identifier"
 
 # autonomic-identifier
 
+## In Simple English
+The specific type of self-certifying identifier defined by the KERI specifications: [[xref:keri1, autonomic-identifier]].
+
 ## Definition
 The specific type of self-certifying identifier defined by the KERI specifications: [[xref:keri1, autonomic-identifier]].
 

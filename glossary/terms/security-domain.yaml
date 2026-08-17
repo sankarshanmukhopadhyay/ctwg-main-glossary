@@ -2,9 +2,7 @@ term: security-domain
 aliases:
 - security domain
 - security domains
-definition: An environment or context that includes a set of system resources and
-  a set of system entities that have the right to access the resources as defined
-  by a common security policy, security model, or security architecture.
+definition: An environment or context that includes a set of system resources and a set of system entities that have the right to access the resources as defined by a common security policy, security model, or security architecture.
 notes: []
 see_also:
 - trust domain.

@@ -6,6 +6,9 @@ title: "revocation"
 
 # revocation
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 In the context of digital credentials, revocation is an event or status change signifying that the issuer no longer attests to the validity of a credential it has issued. In the context of cryptographic keys, revocation is an event or status change signifying that the controller no longer attests to the validity of a public/private key pair for which the controller is authoritative.
 

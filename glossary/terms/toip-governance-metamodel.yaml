@@ -1,9 +1,7 @@
 term: toip-governance-metamodel
 aliases:
 - ToIP Governance Metamodel
-definition: A structural model for governance frameworks that specifies the recommended
-  governance documents that should be included depending on the objectives of the
-  trust community.
+definition: A structural model for governance frameworks that specifies the recommended governance documents that should be included depending on the objectives of the trust community.
 notes: []
 see_also:
 - policy
@@ -45,3 +43,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: A structural model for governance frameworks that specifies the recommended governance documents that should be included depending on the objectives of the trust community.

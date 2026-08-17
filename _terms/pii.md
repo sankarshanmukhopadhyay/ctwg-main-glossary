@@ -6,6 +6,9 @@ title: "pii"
 
 # pii
 
+## In Simple English
+See: personally identifiable information.
+
 ## Definition
 See: personally identifiable information.
 

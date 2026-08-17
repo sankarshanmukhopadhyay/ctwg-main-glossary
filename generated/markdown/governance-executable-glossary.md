@@ -1,6 +1,6 @@
 # Governance-Executable Glossary
 
-Total terms: **599**
+Total terms: **612**
 
 ## aal
 
@@ -197,6 +197,19 @@ A structured artifact that binds an agent to an originating principal, delegated
 - Assurance level hint: AL2+
 - Accountable entity: governance_authority
 
+## agent registry
+
+A registry that publishes and manages governed information about agents, including identity, authority, delegation, recognition, lifecycle state, and supporting evidence.
+
+- Slug: `agent-registry`
+- Governance profile: governance-supporting
+- Authority scope: assurance_and_audit, governance_recognition, policy_definition, verification_and_reliance
+- Delegation mode: direct_or_constrained
+- Revocation supported: False
+- Lifecycle states: proposed, active, deprecated
+- Assurance level hint: AL1+
+- Accountable entity: glossary_maintainers
+
 ## agent
 
 An actor that executes an action on behalf of a party (called the principal of that actor). In the context of decentralized digital trust infrastructure, the term “agent” is most frequently used to mean a digital agent.
@@ -299,6 +312,19 @@ A user-experience design principle for information systems (such as digital wall
 - Revocation supported: False
 - Lifecycle states: documented, active, deprecated
 - Assurance level hint: AL2+
+- Accountable entity: glossary_maintainers
+
+## assurance boundary
+
+The explicit limit of what an assurance claim, test result, evidence set, or implementation can reasonably support.
+
+- Slug: `assurance-boundary`
+- Governance profile: governance-supporting
+- Authority scope: assurance_and_audit, governance_recognition, policy_definition, verification_and_reliance
+- Delegation mode: direct_or_constrained
+- Revocation supported: False
+- Lifecycle states: proposed, active, deprecated
+- Assurance level hint: AL1+
 - Accountable entity: glossary_maintainers
 
 ## assurance-level
@@ -534,6 +560,19 @@ A machine- or human-readable constraint that identifies where authority begins a
 - Lifecycle states: proposed, active, suspended, revoked, retired
 - Assurance level hint: AL2+
 - Accountable entity: governance_authority
+
+## authority control plane
+
+The set of governance and runtime mechanisms that determine who may act, under whose authority, within what scope, and with what lifecycle and enforcement conditions.
+
+- Slug: `authority-control-plane`
+- Governance profile: governance-supporting
+- Authority scope: assurance_and_audit, governance_recognition, policy_definition, verification_and_reliance
+- Delegation mode: direct_or_constrained
+- Revocation supported: False
+- Lifecycle states: proposed, active, deprecated
+- Assurance level hint: AL1+
+- Accountable entity: glossary_maintainers
 
 ## authority
 
@@ -1131,6 +1170,19 @@ In a communications context, a type of privacy protection in which messages use 
 - Revocation supported: False
 - Lifecycle states: documented, active, deprecated
 - Assurance level hint: AL2+
+- Accountable entity: glossary_maintainers
+
+## conformance
+
+The degree to which an implementation, process, or artifact satisfies a defined set of requirements.
+
+- Slug: `conformance`
+- Governance profile: governance-supporting
+- Authority scope: assurance_and_audit, governance_recognition, policy_definition, verification_and_reliance
+- Delegation mode: direct_or_constrained
+- Revocation supported: False
+- Lifecycle states: proposed, active, deprecated
+- Assurance level hint: AL1+
 - Accountable entity: glossary_maintainers
 
 ## connection
@@ -2745,6 +2797,19 @@ A graph of the governance relationships between entities with a trust community.
 - Assurance level hint: AL2+
 - Accountable entity: governance_authority
 
+## governance legitimacy
+
+The recognized basis on which a governing authority, rule, mandate, or decision is considered entitled to exercise power in a defined context.
+
+- Slug: `governance-legitimacy`
+- Governance profile: governance-supporting
+- Authority scope: assurance_and_audit, governance_recognition, policy_definition, verification_and_reliance
+- Delegation mode: direct_or_constrained
+- Revocation supported: False
+- Lifecycle states: proposed, active, deprecated
+- Assurance level hint: AL1+
+- Accountable entity: glossary_maintainers
+
 ## governance-requirement
 
 A requirement such as a policy, rule, or technical specification specified in a governance document.
@@ -2783,6 +2848,19 @@ The act or process of governing or overseeing the realization of (the results as
 - Lifecycle states: documented, active, deprecated
 - Assurance level hint: AL2+
 - Accountable entity: governance_authority
+
+## governed action
+
+An action whose permission, scope, conditions, evidence, and accountability are determined by applicable governance and authority.
+
+- Slug: `governed-action`
+- Governance profile: governance-supporting
+- Authority scope: assurance_and_audit, governance_recognition, policy_definition, verification_and_reliance
+- Delegation mode: direct_or_constrained
+- Revocation supported: False
+- Lifecycle states: proposed, active, deprecated
+- Assurance level hint: AL1+
+- Accountable entity: glossary_maintainers
 
 ## governed-information
 
@@ -3028,6 +3106,19 @@ The processes, patterns and rituals of acquiring knowledge or skill from doing, 
 - Delegation mode: direct
 - Revocation supported: False
 - Lifecycle states: documented, active, deprecated
+- Assurance level hint: AL1+
+- Accountable entity: glossary_maintainers
+
+## human harm
+
+A negative effect on a person or community, including effects on safety, rights, autonomy, dignity, privacy, access, livelihood, or ability to obtain remedy.
+
+- Slug: `human-harm`
+- Governance profile: governance-supporting
+- Authority scope: assurance_and_audit, governance_recognition, policy_definition, verification_and_reliance
+- Delegation mode: direct_or_constrained
+- Revocation supported: False
+- Lifecycle states: proposed, active, deprecated
 - Assurance level hint: AL1+
 - Accountable entity: glossary_maintainers
 
@@ -3328,6 +3419,19 @@ The Internet Protocol (IP) is the network layer communications protocol in the I
 - Revocation supported: False
 - Lifecycle states: documented, active, deprecated
 - Assurance level hint: informative
+- Accountable entity: glossary_maintainers
+
+## interoperability
+
+The ability of independently developed systems or components to work together correctly within an explicitly defined scope.
+
+- Slug: `interoperability`
+- Governance profile: governance-supporting
+- Authority scope: assurance_and_audit, governance_recognition, policy_definition, verification_and_reliance
+- Delegation mode: direct_or_constrained
+- Revocation supported: False
+- Lifecycle states: proposed, active, deprecated
+- Assurance level hint: AL1+
 - Accountable entity: glossary_maintainers
 
 ## ip-address
@@ -4604,6 +4708,19 @@ Unencrypted information that may be input to an encryption operation. Once encry
 - Assurance level hint: informative
 - Accountable entity: glossary_maintainers
 
+## policy enforcement
+
+The application of an applicable policy at a decision or execution point so that required, allowed, deferred, or prohibited outcomes are actually carried out.
+
+- Slug: `policy-enforcement`
+- Governance profile: governance-supporting
+- Authority scope: assurance_and_audit, governance_recognition, policy_definition, verification_and_reliance
+- Delegation mode: direct_or_constrained
+- Revocation supported: False
+- Lifecycle states: proposed, active, deprecated
+- Assurance level hint: AL1+
+- Accountable entity: glossary_maintainers
+
 ## policy
 
 Statements, rules, or assertions that specify required, permitted, prohibited, or expected behavior of an entity within a defined scope. Policies may be human-readable, machine-readable, or both, and may be interpreted, enforced, or audited by people, software, or both.
@@ -4628,6 +4745,19 @@ See: proof of personhood.
 - Revocation supported: False
 - Lifecycle states: documented, active, deprecated
 - Assurance level hint: informative
+- Accountable entity: glossary_maintainers
+
+## portable assurance pattern
+
+A reusable, implementation-neutral description of an assurance concern, control, test, evidence expectation, or review pattern that can be applied across different deployments.
+
+- Slug: `portable-assurance-pattern`
+- Governance profile: governance-supporting
+- Authority scope: assurance_and_audit, governance_recognition, policy_definition, verification_and_reliance
+- Delegation mode: direct_or_constrained
+- Revocation supported: False
+- Lifecycle states: proposed, active, deprecated
+- Assurance level hint: AL1+
 - Accountable entity: glossary_maintainers
 
 ## predicate proof
@@ -4681,6 +4811,19 @@ A verifiable message that a holder may send to a verifier containing proofs of o
 - Lifecycle states: proposed, active, suspended, revoked, retired
 - Assurance level hint: AL2+
 - Accountable entity: issuer_operator
+
+## pressure test
+
+A structured review that challenges a specification, policy, design, or system with adverse scenarios to identify risks, harms, control gaps, and weak assumptions.
+
+- Slug: `pressure-test`
+- Governance profile: governance-supporting
+- Authority scope: assurance_and_audit, governance_recognition, policy_definition, verification_and_reliance
+- Delegation mode: direct_or_constrained
+- Revocation supported: False
+- Lifecycle states: proposed, active, deprecated
+- Assurance level hint: AL1+
+- Accountable entity: glossary_maintainers
 
 ## primary-document
 
@@ -5020,6 +5163,19 @@ A term used to describe the opposite of digital identity, i.e., an identity (typ
 - Assurance level hint: informative
 - Accountable entity: glossary_maintainers
 
+## recognition
+
+A governed decision to accept another party, authority, status, credential, assurance result, or rule as valid for a defined purpose and scope.
+
+- Slug: `recognition`
+- Governance profile: governance-supporting
+- Authority scope: assurance_and_audit, governance_recognition, policy_definition, verification_and_reliance
+- Delegation mode: direct_or_constrained
+- Revocation supported: False
+- Lifecycle states: proposed, active, deprecated
+- Assurance level hint: AL1+
+- Accountable entity: glossary_maintainers
+
 ## recommended
 
 A requirement that is not mandatory to implement in order for an implementer to be in compliance, but which should be implemented unless the implementer has a good reason. In ToIP governance frameworks, a recommendation is expressed using a SHOULD or RECOMMENDED keyword as defined in IETF RFC 2119.
@@ -5045,6 +5201,19 @@ A uniquely identifiable entry or listing in a database or registry.
 - Lifecycle states: proposed, active, suspended, revoked, retired
 - Assurance level hint: AL2+
 - Accountable entity: registry_operator
+
+## redress
+
+A governed path through which an affected party can challenge an outcome, seek correction or remedy, and obtain an accountable response.
+
+- Slug: `redress`
+- Governance profile: governance-supporting
+- Authority scope: assurance_and_audit, governance_recognition, policy_definition, verification_and_reliance
+- Delegation mode: direct_or_constrained
+- Revocation supported: False
+- Lifecycle states: proposed, active, deprecated
+- Assurance level hint: AL1+
+- Accountable entity: glossary_maintainers
 
 ## registrant
 

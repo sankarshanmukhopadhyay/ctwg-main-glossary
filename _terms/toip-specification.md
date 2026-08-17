@@ -6,6 +6,9 @@ title: "toip-specification"
 
 # toip-specification
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A specification published by the ToIP Foundation. ToIP specifications may be in one of three states: *Draft Deliverable*, *Working Group Approved Deliverable*, or *ToIP Approved Deliverable*.
 

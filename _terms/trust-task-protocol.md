@@ -6,6 +6,9 @@ title: "trust-task-protocol"
 
 # trust-task-protocol
 
+## In Simple English
+A ToIP Layer 3 protocol that implements a specific trust task on behalf of a trust application operating at ToIP Layer 4.
+
 ## Definition
 A ToIP Layer 3 protocol that implements a specific trust task on behalf of a trust application operating at ToIP Layer 4.
 

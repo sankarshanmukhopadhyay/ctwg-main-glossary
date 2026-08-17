@@ -6,6 +6,9 @@ title: "scid"
 
 # scid
 
+## In Simple English
+See: self-certifying identifier.
+
 ## Definition
 See: self-certifying identifier.
 

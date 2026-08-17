@@ -6,6 +6,9 @@ title: "consent-management"
 
 # consent-management
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A system, process or set of policies under which a person agrees to share personal data for specific usages. A consent management system will typically create a record of such consent.
 

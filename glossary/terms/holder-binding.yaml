@@ -2,9 +2,7 @@ term: holder-binding
 aliases:
 - holder binding
 - holder bindings
-definition: The process of creating and verifying a relationship between the holder
-  of a digital wallet and the wallet itself. Holder binding is related to but NOT
-  the same as subject binding.
+definition: The process of creating and verifying a relationship between the holder of a digital wallet and the wallet itself. Holder binding is related to but NOT the same as subject binding.
 notes: []
 see_also:
 - glossary

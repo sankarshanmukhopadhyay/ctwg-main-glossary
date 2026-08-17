@@ -6,6 +6,9 @@ title: "credential-offer"
 
 # credential-offer
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A protocol request invoked by an issuer to offer to issue a digital credential to the  holder of a digital wallet. If the request is invoked by the holder, it is called an issuance request.
 

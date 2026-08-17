@@ -2,9 +2,7 @@ term: endpoint-system
 aliases:
 - endpoint system
 - endpoint systems
-definition: The system that operates a communications endpoint. In the context of
-  the ToIP stack, an endpoint system is one of three types of systems defined in the
-  ToIP Technology Architecture Specification.
+definition: The system that operates a communications endpoint. In the context of the ToIP stack, an endpoint system is one of three types of systems defined in the ToIP Technology Architecture Specification.
 notes: []
 see_also:
 - intermediary system

@@ -6,6 +6,9 @@ title: "toip-trust-network"
 
 # toip-trust-network
 
+## In Simple English
+A trust network implemented using the ToIP stack.
+
 ## Definition
 A trust network implemented using the ToIP stack.
 

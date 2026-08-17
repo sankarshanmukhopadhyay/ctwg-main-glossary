@@ -6,6 +6,9 @@ title: "resolver"
 
 # resolver
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 An entity or component that provides discovery for identifiers. A Resolver is the Controller of its own self-referential identifier which may not be the same as the identifier to which it is a Resolver.
 

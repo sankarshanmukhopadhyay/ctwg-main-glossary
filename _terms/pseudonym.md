@@ -6,6 +6,9 @@ title: "pseudonym"
 
 # pseudonym
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A pseudonym is a fictitious name that a person assumes for a particular purpose, which differs from their original or true name (orthonym). This also differs from a new name that entirely or legally replaces an individual's own. Many pseudonym holders use pseudonyms because they wish to remain anonymous, but anonymity is difficult to achieve and often fraught with legal issues.
 

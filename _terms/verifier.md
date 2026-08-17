@@ -6,6 +6,9 @@ title: "verifier"
 
 # verifier
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A role an agent performs to verify one or more proofs of the claims in a digital credential or other verifiable data, and to evaluate whether the presented material satisfies applicable verification and policy criteria.
 

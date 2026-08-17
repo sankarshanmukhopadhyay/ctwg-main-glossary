@@ -2,8 +2,7 @@ term: security-policy
 aliases:
 - security policy
 - security policies
-definition: A set of policies and rules that governs all aspects of security-relevant
-  system and system element behavior.
+definition: A set of policies and rules that governs all aspects of security-relevant system and system element behavior.
 notes: []
 see_also:
 - privacy policy.
@@ -41,3 +40,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: A set of policies and rules that governs all aspects of security-relevant system and system element behavior.

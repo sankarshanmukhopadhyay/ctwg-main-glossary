@@ -6,6 +6,9 @@ title: "identification"
 
 # identification
 
+## In Simple English
+The action of a party obtaining the set of identity data necessary to serve as that party’s identity for a specific entity.
+
 ## Definition
 The action of a party obtaining the set of identity data necessary to serve as that party’s identity for a specific entity.
 

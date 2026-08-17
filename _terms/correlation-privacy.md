@@ -6,6 +6,9 @@ title: "correlation-privacy"
 
 # correlation-privacy
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 In a communications context, a type of privacy protection in which messages use encryption, hashes, or other privacy-preserving technologies to avoid the use of identifiers or other content that unauthorized parties may use to correlate the sender and/or receiver(s).
 

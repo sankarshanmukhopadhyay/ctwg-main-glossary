@@ -6,6 +6,9 @@ title: "vid"
 
 # vid
 
+## In Simple English
+See ​​verifiable identifier.
+
 ## Definition
 See ​​verifiable identifier.
 

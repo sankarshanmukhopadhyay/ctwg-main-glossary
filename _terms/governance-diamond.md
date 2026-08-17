@@ -6,6 +6,9 @@ title: "governance-diamond"
 
 # governance-diamond
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A term that refers to the addition of a governing body to the standard trust triangle of issuers, holders, and verifiers of credentials. The resulting combination of four parties represents the basic structure of a digital trust ecosystem.
 

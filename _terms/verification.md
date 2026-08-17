@@ -6,6 +6,9 @@ title: "verification"
 
 # verification
 
+## In Simple English
+An action an agent (of a principal) performs to determine the authenticity of a claim or other data object. Cryptographic verification uses cryptographic keys.
+
 ## Definition
 An action an agent (of a principal) performs to determine the authenticity of a claim or other data object. Cryptographic verification uses cryptographic keys.
 

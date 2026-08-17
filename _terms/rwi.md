@@ -6,6 +6,9 @@ title: "rwi"
 
 # rwi
 
+## In Simple English
+See: real world identity.
+
 ## Definition
 See: real world identity.
 

@@ -4,10 +4,7 @@ aliases:
 - zero-knowledge proofs
 - ZKP
 - ZKPs
-definition: A specific kind of cryptographic proof that proves facts about data to
-  a verifier without revealing the underlying data itself. A common example is proving
-  that a person is over or under a specific age without revealing the person’s exact
-  birthdate.
+definition: A specific kind of cryptographic proof that proves facts about data to a verifier without revealing the underlying data itself. A common example is proving that a person is over or under a specific age without revealing the person’s exact birthdate.
 notes: []
 see_also:
 - verification
@@ -19,13 +16,8 @@ sources:
 mental_models: []
 supporting_definitions:
 - 'Also known as: zero-knowledge protocol, [[ref: ZKP]].'
-- '[Ethereum:](https://ethereum.org/en/zero-knowledge-proofs/) A zero-knowledge proof
-  is a way of proving the validity of a statement without revealing the statement
-  itself.'
-- '[Wikipedia](https://en.wikipedia.org/wiki/Zero-knowledge_proof): a method by which
-  one [[ref: party]] (the prover) can prove to another party (the verifier) that a
-  given statement is true, while avoiding conveying to the [[ref: verifier]] any information
-  beyond the mere fact of the statement''s truth.'
+- '[Ethereum:](https://ethereum.org/en/zero-knowledge-proofs/) A zero-knowledge proof is a way of proving the validity of a statement without revealing the statement itself.'
+- '[Wikipedia](https://en.wikipedia.org/wiki/Zero-knowledge_proof): a method by which one [[ref: party]] (the prover) can prove to another party (the verifier) that a given statement is true, while avoiding conveying to the [[ref: verifier]] any information beyond the mere fact of the statement''s truth.'
 source_file: spec/terms-definitions/zero-knowledge-proof.md
 governance_profile: core-operational
 governance:

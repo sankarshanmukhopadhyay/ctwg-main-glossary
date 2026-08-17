@@ -6,6 +6,9 @@ title: "trust-domain"
 
 # trust-domain
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A security domain defined by a computer hardware or software architecture, a security policy, or a trust community, typically via a trust framework or governance framework.
 

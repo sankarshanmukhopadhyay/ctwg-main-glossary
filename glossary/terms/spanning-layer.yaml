@@ -1,9 +1,7 @@
 term: spanning-layer
 aliases:
 - spanning layer
-definition: A specific layer within a protocol stack that consists of a single protocol
-  explicitly designed to provide interoperability between the protocol layers above
-  it and below it.
+definition: A specific layer within a protocol stack that consists of a single protocol explicitly designed to provide interoperability between the protocol layers above it and below it.
 notes: []
 see_also:
 - hourglass model
@@ -12,9 +10,7 @@ sources:
 - 'ToIP CTWG maintained glossary source: `spec/terms-definitions/spanning-layer.md`'
 mental_models: []
 supporting_definitions:
-- 'For more information, see: <https://www.isi.edu/newarch/iDOCS/final.finalreport.pdf>,
-  National Academies of Sciences, Engineering, and Medicine. 1997. The Unpredictable
-  Certainty: White Papers. Washington, DC: The National Academies Press. <https://doi.org/10.17226/6062>.'
+- 'For more information, see: <https://www.isi.edu/newarch/iDOCS/final.finalreport.pdf>, National Academies of Sciences, Engineering, and Medicine. 1997. The Unpredictable Certainty: White Papers. Washington, DC: The National Academies Press. <https://doi.org/10.17226/6062>.'
 source_file: spec/terms-definitions/spanning-layer.md
 governance_profile: descriptive
 governance:

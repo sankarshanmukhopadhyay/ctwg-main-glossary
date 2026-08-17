@@ -6,6 +6,9 @@ title: "governing-body"
 
 # governing-body
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 The party (or set of parties) authoritative for governing a trust community, usually (but not always) by developing, publishing, maintaining, and enforcing a governance framework. A governing body may be a government, a formal legal entity of any kind, an informal group of any kind, or an individual. A governing body may also delegate operational responsibilities to an administering body.
 

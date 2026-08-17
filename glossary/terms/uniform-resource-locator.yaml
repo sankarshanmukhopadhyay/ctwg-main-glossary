@@ -4,9 +4,7 @@ aliases:
 - Uniform Resource Locators
 - URL
 - URLs
-definition: A Uniform Resource Locator (URL) is the standard form of a Web address
-  used to link resources in browsers and other Internet applications. Technically,
-  it is a specific type of Uniform Resource Identifier (URI).
+definition: A Uniform Resource Locator (URL) is the standard form of a Web address used to link resources in browsers and other Internet applications. Technically, it is a specific type of Uniform Resource Identifier (URI).
 notes: []
 see_also:
 - glossary

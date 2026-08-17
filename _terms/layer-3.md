@@ -6,6 +6,9 @@ title: "layer-3"
 
 # layer-3
 
+## In Simple English
+See: ToIP Layer 3.
+
 ## Definition
 See: ToIP Layer 3.
 

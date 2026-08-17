@@ -2,9 +2,7 @@ term: zero-knowledge-service-provider
 aliases:
 - zero-knowledge service provider
 - zero-knowledge service providers
-definition: The provider of a zero-knowledge service that hosts encrypted data on
-  behalf of the principal but does not have access to the private keys in order to
-  be able to decrypt it.
+definition: The provider of a zero-knowledge service that hosts encrypted data on behalf of the principal but does not have access to the private keys in order to be able to decrypt it.
 notes: []
 see_also:
 - glossary

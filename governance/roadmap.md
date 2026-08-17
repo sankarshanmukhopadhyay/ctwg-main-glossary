@@ -24,6 +24,21 @@ nav_order: 40
 - added internal `see_also` and reference-marker validation
 - synchronized governance documentation and generated quality-report views
 
+## Completed: v1.5.0 reader comprehension and portfolio vocabulary
+
+- added optional `simple_definition` as a reader-facing comprehension layer without replacing precise definitions
+- added Start Here and Concepts by Topic navigation
+- added a plain-English authoring guide and incremental migration policy
+- added cross-project terms for agent governance, conformance, interoperability, harms, recognition, redress, policy enforcement, and assurance boundaries
+- aligned package and release metadata with repository versioning
+
+## Next: plain-English coverage expansion
+
+- prioritize simple definitions for governance and runtime decision-point terms
+- add readability reporting without treating readability scores as semantic quality
+- review legacy long-form definitions for unnecessary complexity while preserving source fidelity
+- expand topic paths as the glossary grows
+
 ## Next: standards mapping hardening
 
 - continue converting legacy source strings into structured citation objects

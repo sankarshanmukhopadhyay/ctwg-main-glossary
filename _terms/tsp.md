@@ -6,6 +6,9 @@ title: "tsp"
 
 # tsp
 
+## In Simple English
+See: ToIP Trust Spanning Protocol.
+
 ## Definition
 See: ToIP Trust Spanning Protocol.
 

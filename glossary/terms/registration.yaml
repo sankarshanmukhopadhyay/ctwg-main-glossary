@@ -46,3 +46,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: The process by which a registrant submits a record to a registry.

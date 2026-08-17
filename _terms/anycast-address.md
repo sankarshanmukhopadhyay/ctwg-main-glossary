@@ -6,6 +6,9 @@ title: "anycast-address"
 
 # anycast-address
 
+## In Simple English
+A network address (especially an IP address used for anycast routing of network transmissions.
+
 ## Definition
 A network address (especially an IP address used for anycast routing of network transmissions.
 

@@ -2,8 +2,7 @@ term: trust-assurance
 aliases:
 - trust assurance
 - trust assurances
-definition: A process that provides a level of assurance sufficient to make a particular
-  trust decision.
+definition: A process that provides a level of assurance sufficient to make a particular trust decision.
 notes: []
 see_also:
 - audit
@@ -45,3 +44,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: A process that provides a level of assurance sufficient to make a particular trust decision.

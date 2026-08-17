@@ -6,6 +6,9 @@ title: "communication-session"
 
 # communication-session
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A finite period for which a communication channel is instantiated and maintained, during which certain properties of that channel, such as authentication of the participants, are in effect. A session has a beginning, called the session initiation, and an ending, called the session termination.
 

@@ -3,8 +3,7 @@ aliases:
 - identity proofing
 - identity proof
 - identity proofs
-definition: The process of a party gathering sufficient identity data to establish
-  an identity for a particular subject at a particular identity assurance level.
+definition: The process of a party gathering sufficient identity data to establish an identity for a particular subject at a particular identity assurance level.
 notes: []
 see_also:
 - identity binding.
@@ -12,9 +11,7 @@ sources:
 - 'ToIP CTWG maintained glossary source: `spec/terms-definitions/identity-proofing.md`'
 mental_models: []
 supporting_definitions:
-- '[NIST-CSRC](https://csrc.nist.gov/glossary/term/identity_proofing): The process
-  of providing sufficient information (e.g., identity history, credentials, documents)
-  to establish an identity.'
+- '[NIST-CSRC](https://csrc.nist.gov/glossary/term/identity_proofing): The process of providing sufficient information (e.g., identity history, credentials, documents) to establish an identity.'
 source_file: spec/terms-definitions/identity-proofing.md
 governance_profile: governance-supporting
 governance:
@@ -44,3 +41,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: The process of a party gathering sufficient identity data to establish an identity for a particular subject at a particular identity assurance level.

@@ -6,6 +6,9 @@ title: "policy"
 
 # policy
 
+## In Simple English
+A rule or set of rules that says what is allowed, required, or prohibited in a defined context.
+
 ## Definition
 Statements, rules, or assertions that specify required, permitted, prohibited, or expected behavior of an entity within a defined scope. Policies may be human-readable, machine-readable, or both, and may be interpreted, enforced, or audited by people, software, or both.
 

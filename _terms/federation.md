@@ -6,6 +6,9 @@ title: "federation"
 
 # federation
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A group of organizations that collaborate to establish a common trust framework or governance framework for the exchange of identity data in a federated identity system.
 

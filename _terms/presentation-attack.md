@@ -6,6 +6,9 @@ title: "presentation-attack"
 
 # presentation-attack
 
+## In Simple English
+A type of cybersecurity attack in which the attacker attempts to defeat a biometric liveness detection system by providing false inputs.
+
 ## Definition
 A type of cybersecurity attack in which the attacker attempts to defeat a biometric liveness detection system by providing false inputs.
 

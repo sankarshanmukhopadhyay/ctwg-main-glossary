@@ -2,8 +2,7 @@ term: toip-layer
 aliases:
 - ToIP layer
 - ToIP layers
-definition: One of four protocol layers in the ToIP stack. The four layers are ToIP
-  Layer 1, ToIP Layer 2, ToIP Layer 3, and ToIP Layer 4.
+definition: One of four protocol layers in the ToIP stack. The four layers are ToIP Layer 1, ToIP Layer 2, ToIP Layer 3, and ToIP Layer 4.
 notes: []
 see_also:
 - glossary
@@ -12,8 +11,7 @@ sources:
 - 'ToIP CTWG maintained glossary source: `spec/terms-definitions/toip-layer.md`'
 mental_models: []
 supporting_definitions:
-- 'For more information, see: [[ref: ToIP Technology Architecture Specification]],
-  [[ref: ToIP Governance Architecture Specification]].'
+- 'For more information, see: [[ref: ToIP Technology Architecture Specification]], [[ref: ToIP Governance Architecture Specification]].'
 source_file: spec/terms-definitions/toip-layer.md
 governance_profile: descriptive
 governance:

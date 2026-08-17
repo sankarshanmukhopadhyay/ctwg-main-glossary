@@ -6,6 +6,9 @@ title: "authenticator"
 
 # authenticator
 
+## In Simple English
+Something the claimant possesses and controls (typically a cryptographic module or password) that is used to authenticate the claimant’s identity.
+
 ## Definition
 Something the claimant possesses and controls (typically a cryptographic module or password) that is used to authenticate the claimant’s identity.
 

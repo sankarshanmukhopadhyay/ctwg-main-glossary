@@ -6,6 +6,9 @@ title: "ip"
 
 # ip
 
+## In Simple English
+See: Internet Protocol.
+
 ## Definition
 See: Internet Protocol.
 

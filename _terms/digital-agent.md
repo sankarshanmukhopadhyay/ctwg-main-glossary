@@ -6,6 +6,9 @@ title: "digital-agent"
 
 # digital-agent
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 In the context of ​​decentralized digital trust infrastructure, a software agent that operates in conjunction with a digital wallet or similar system component to take actions on behalf of its controller.
 

@@ -6,6 +6,9 @@ title: "public-key"
 
 # public-key
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 In public key cryptography, the cryptographic key that can be freely shared with anyone by the controller without compromising security. A party's public key must be verified as authoritative in order to verify their digital signature.
 

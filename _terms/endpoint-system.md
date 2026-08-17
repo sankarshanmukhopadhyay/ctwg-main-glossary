@@ -6,6 +6,9 @@ title: "endpoint-system"
 
 # endpoint-system
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 The system that operates a communications endpoint. In the context of the ToIP stack, an endpoint system is one of three types of systems defined in the ToIP Technology Architecture Specification.
 

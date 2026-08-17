@@ -45,3 +45,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: A digital wallet whose holder is an organization.

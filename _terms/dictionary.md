@@ -6,6 +6,9 @@ title: "dictionary"
 
 # dictionary
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A dictionary is a listing of lexemes (words or terms) from the lexicon of one or more specific languages, often arranged alphabetically, which may include information on definitions, usage, etymologies, pronunciations, translation, etc. It is a lexicographical reference that shows inter-relationships among the data. Unlike a glossary, a dictionary may provide multiple definitions of a term depending on its scope or context.
 

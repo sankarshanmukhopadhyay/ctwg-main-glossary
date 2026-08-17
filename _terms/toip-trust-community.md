@@ -6,6 +6,9 @@ title: "toip-trust-community"
 
 # toip-trust-community
 
+## In Simple English
+A trust community governed by a ToIP governance framework.
+
 ## Definition
 A trust community governed by a ToIP governance framework.
 

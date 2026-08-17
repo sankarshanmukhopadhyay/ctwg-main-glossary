@@ -6,6 +6,9 @@ title: "legal-identity"
 
 # legal-identity
 
+## In Simple English
+A set of identity data considered authoritative to identify a party for purposes of legal accountability under one or more jurisdictions.
+
 ## Definition
 A set of identity data considered authoritative to identify a party for purposes of legal accountability under one or more jurisdictions.
 

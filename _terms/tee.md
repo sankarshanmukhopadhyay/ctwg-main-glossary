@@ -6,6 +6,9 @@ title: "tee"
 
 # tee
 
+## In Simple English
+See: trusted execution environment.
+
 ## Definition
 See: trusted execution environment.
 

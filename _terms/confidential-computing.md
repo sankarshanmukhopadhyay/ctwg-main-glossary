@@ -6,6 +6,9 @@ title: "confidential-computing"
 
 # confidential-computing
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 Hardware-enabled features that isolate and process encrypted data in memory so that the data is at less risk of exposure and compromise from concurrent workloads or the underlying system and platform.
 

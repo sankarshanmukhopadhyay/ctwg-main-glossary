@@ -6,6 +6,9 @@ title: "controlled-document"
 
 # controlled-document
 
+## In Simple English
+A governance document whose authority is derived from a primary document.
+
 ## Definition
 A governance document whose authority is derived from a primary document.
 

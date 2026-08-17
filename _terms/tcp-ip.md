@@ -6,6 +6,9 @@ title: "tcp-ip"
 
 # tcp-ip
 
+## In Simple English
+See: Internet Protocol Suite.
+
 ## Definition
 See: Internet Protocol Suite.
 

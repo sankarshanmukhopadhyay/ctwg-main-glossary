@@ -46,3 +46,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: A trust network implemented using the ToIP stack.

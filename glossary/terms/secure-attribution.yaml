@@ -2,10 +2,7 @@ term: secure-attribution
 aliases:
 - secure-attribution
 - secure attribution
-definition: 'Secure attribution is strongly related to _making and proving statements_.
-  A controller makes statements to the a validator or verifier, who in turn validates
-  the statements issued. A controller "_owns_" the statement: content and attribution
-  via digital signatures. Secure attribution is "whodunit?!" in cyberspace.'
+definition: 'Secure attribution is strongly related to _making and proving statements_. A controller makes statements to the a validator or verifier, who in turn validates the statements issued. A controller "_owns_" the statement: content and attribution via digital signatures. Secure attribution is "whodunit?!" in cyberspace.'
 notes: []
 see_also:
 - verification

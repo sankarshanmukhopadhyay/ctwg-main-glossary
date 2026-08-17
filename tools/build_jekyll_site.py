@@ -108,6 +108,7 @@ def term_page(data, lookup):
     supporting = data.get("supporting_definitions") or []
     mental_models = data.get("mental_models") or []
     sources = data.get("sources") or []
+    simple_definition = clean_text(data.get("simple_definition"))
     reader_note = clean_text(data.get("reader_note"))
     implementation_relevance = clean_text(data.get("implementation_relevance"))
 
@@ -127,6 +128,9 @@ title: \"{safe_title}\"
 > Generated file. Update `glossary/terms/{slugify(title)}.yaml` and regenerate artifacts instead of editing this page directly.
 
 # {title}
+
+## In Simple English
+{simple_definition or 'A simple-English summary has not yet been added for this term.'}
 
 ## Definition
 {definition or 'Definition not yet provided.'}
@@ -199,7 +203,7 @@ def write_indexes(term_refs):
     lines = [
         '---',
         'title: "Glossary Terms"',
-        'nav_order: 2',
+        'nav_order: 4',
         'has_children: true',
         '---',
         '',

@@ -2,8 +2,7 @@ term: trust-application
 aliases:
 - trust application
 - trust applications
-definition: An application that runs at ToIP Layer 4 in order to perform trust tasks
-  or engage in other verifiable messaging using the ToIP stack.
+definition: An application that runs at ToIP Layer 4 in order to perform trust tasks or engage in other verifiable messaging using the ToIP stack.
 notes: []
 see_also:
 - glossary
@@ -47,3 +46,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: An application that runs at ToIP Layer 4 in order to perform trust tasks or engage in other verifiable messaging using the ToIP stack.

@@ -6,6 +6,9 @@ title: "identity-provider"
 
 # identity-provider
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 An identity provider (abbreviated IdP or IDP) is a system entity that creates, maintains, and manages identity information for principals and also provides authentication services to relying applications within a federation or distributed network.
 

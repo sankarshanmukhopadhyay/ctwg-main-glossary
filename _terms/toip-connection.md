@@ -6,6 +6,9 @@ title: "toip-connection"
 
 # toip-connection
 
+## In Simple English
+See: ToIP relationship.
+
 ## Definition
 See: ToIP relationship.
 

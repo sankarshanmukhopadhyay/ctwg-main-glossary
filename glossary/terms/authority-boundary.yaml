@@ -62,3 +62,4 @@ control_plane:
   - delegation_record
   - status_record
   - verification_log
+simple_definition: A machine- or human-readable constraint that identifies where authority begins and ends, including the permitted actor, scope, action, target, conditions, and lifecycle state.

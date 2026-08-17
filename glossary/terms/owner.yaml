@@ -2,8 +2,7 @@ term: owner
 aliases:
 - owner
 - owners
-definition: The role that a party performs when it is exercising its legal, rightful
-  or natural title to control a specific entity.
+definition: The role that a party performs when it is exercising its legal, rightful or natural title to control a specific entity.
 notes: []
 see_also:
 - controller.
@@ -44,3 +43,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: The role that a party performs when it is exercising its legal, rightful or natural title to control a specific entity.

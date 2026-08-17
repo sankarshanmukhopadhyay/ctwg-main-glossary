@@ -6,6 +6,9 @@ title: "trust-graph"
 
 # trust-graph
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A data structure describing the trust relationship between two or more entities. A simple trust graph may be expressed as a trust list. More complex trust graphs can be recorded or registered in and queried from a trust registry. Trust graphs can also be expressed using trust chains and chained credentials. Trust graphs can enable verifiers and relying parties to make transitive trust decisions.
 

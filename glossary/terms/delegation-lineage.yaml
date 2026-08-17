@@ -58,3 +58,4 @@ control_plane:
   - delegation_record
   - status_record
   - verification_log
+simple_definition: The traceable chain showing how authority passed from one party to another and what limits were carried forward.

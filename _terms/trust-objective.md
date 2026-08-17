@@ -6,6 +6,9 @@ title: "trust-objective"
 
 # trust-objective
 
+## In Simple English
+An objective shared by the parties in a trust community to establish and maintain trust relationships.
+
 ## Definition
 An objective shared by the parties in a trust community to establish and maintain trust relationships.
 

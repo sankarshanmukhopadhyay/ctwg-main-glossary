@@ -6,6 +6,9 @@ title: "trust-application"
 
 # trust-application
 
+## In Simple English
+An application that runs at ToIP Layer 4 in order to perform trust tasks or engage in other verifiable messaging using the ToIP stack.
+
 ## Definition
 An application that runs at ToIP Layer 4 in order to perform trust tasks or engage in other verifiable messaging using the ToIP stack.
 

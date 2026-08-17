@@ -6,6 +6,9 @@ title: "persistent-connection"
 
 # persistent-connection
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A connection that is able to persist across multiple communication sessions. In a ToIP context, a persistent connection is established when two ToIP endpoints exchange verifiable identifiers (VIDs) that they can use to re-establish the connection with each other whenever it is needed.
 

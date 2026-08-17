@@ -6,6 +6,9 @@ title: "capability negotiation"
 
 # capability negotiation
 
+## In Simple English
+A governed process for determining whether an advertised capability is discoverable, compatible, authorized, accepted, and permitted to execute under applicable policy.
+
 ## Definition
 A governed process for determining whether an advertised capability is discoverable, compatible, authorized, accepted, and permitted to execute under applicable policy.
 

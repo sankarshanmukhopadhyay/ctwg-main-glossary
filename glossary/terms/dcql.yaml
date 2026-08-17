@@ -2,8 +2,7 @@ term: dcql
 aliases:
 - Digital Credentials Query Language
 - DCQL
-definition: A query language defined by OpenID4VP for requesting credential presentations
-  in a flexible and credential-format-aware way.
+definition: A query language defined by OpenID4VP for requesting credential presentations in a flexible and credential-format-aware way.
 reader_note: ''
 implementation_relevance: ''
 notes: []
@@ -53,3 +52,4 @@ control_plane:
 crosswalk:
   openid:
   - OpenID4VP 1.0
+simple_definition: A query language defined by OpenID4VP for requesting credential presentations in a flexible and credential-format-aware way.

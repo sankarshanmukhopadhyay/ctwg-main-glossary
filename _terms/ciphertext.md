@@ -6,6 +6,9 @@ title: "ciphertext"
 
 # ciphertext
 
+## In Simple English
+Encrypted (enciphered) data. The confidential form of the plaintext that is the output of the encryption function.
+
 ## Definition
 Encrypted (enciphered) data. The confidential form of the plaintext that is the output of the encryption function.
 

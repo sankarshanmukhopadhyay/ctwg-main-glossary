@@ -6,6 +6,9 @@ title: "personal-data-vault"
 
 # personal-data-vault
 
+## In Simple English
+A digital vault whose controller is a natural person.
+
 ## Definition
 A digital vault whose controller is a natural person.
 

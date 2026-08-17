@@ -4,14 +4,9 @@ aliases:
 - verifiable presentations
 - VP
 - VPs
-definition: A presentation with cryptographic proof or securing material that enables
-  a verifier to check integrity, holder binding, or other presentation-specific verification
-  requirements.
-reader_note: Use this term for the presented artifact. Use openid4vp or vp-token when
-  referring to the OpenID protocol container and flow.
-implementation_relevance: A verifier should validate the presentation, intended audience,
-  challenge or nonce binding, status information, and applicable policy before relying
-  on it.
+definition: A presentation with cryptographic proof or securing material that enables a verifier to check integrity, holder binding, or other presentation-specific verification requirements.
+reader_note: Use this term for the presented artifact. Use openid4vp or vp-token when referring to the OpenID protocol container and flow.
+implementation_relevance: A verifier should validate the presentation, intended audience, challenge or nonce binding, status information, and applicable policy before relying on it.
 notes: []
 see_also:
 - presentation
@@ -62,3 +57,4 @@ crosswalk:
   - VC Data Model v2.0
   openid:
   - OpenID4VP 1.0
+simple_definition: A presentation with cryptographic proof or securing material that enables a verifier to check integrity, holder binding, or other presentation-specific verification requirements.

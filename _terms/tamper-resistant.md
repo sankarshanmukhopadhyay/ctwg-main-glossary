@@ -6,6 +6,9 @@ title: "tamper-resistant"
 
 # tamper-resistant
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A process which makes alterations to data difficult (hard to perform), costly (expensive to perform), or both. For digital data objects, this is typically achieved via cryptographic verification.
 

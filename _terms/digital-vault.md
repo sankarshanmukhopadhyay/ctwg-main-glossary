@@ -6,6 +6,9 @@ title: "digital-vault"
 
 # digital-vault
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A secure container for data whose controller is the principal. A digital vault is most commonly used in conjunction with a digital wallet and a digital agent. A digital vault may be implemented on a local device or in the cloud; multiple digital vaults may be used by the same principal across different devices and/or the cloud; if so they may use some type of synchronization. If the capability is supported, data may flow into or out of the digital vault automatically based on subscriptions approved by the controller.
 

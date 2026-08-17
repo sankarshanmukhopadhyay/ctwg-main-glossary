@@ -2,8 +2,7 @@ term: thing
 aliases:
 - thing
 - things
-definition: An entity that is neither a natural person nor an organization and thus
-  cannot be a party. A thing may be a natural thing or a man-made thing.
+definition: An entity that is neither a natural person nor an organization and thus cannot be a party. A thing may be a natural thing or a man-made thing.
 notes: []
 see_also:
 - glossary

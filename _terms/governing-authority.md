@@ -6,6 +6,9 @@ title: "governing-authority"
 
 # governing-authority
 
+## In Simple English
+See: governing body.
+
 ## Definition
 See: governing body.
 

@@ -6,6 +6,9 @@ title: "hourglass-model"
 
 # hourglass-model
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 An architectural model for layered systems—and specifically for the protocol layers in a protocol stack—in which a diversity of supporting protocols and services at the lower layers are able to support a great diversity of protocols and applications at the higher layers through the use of a single protocol in the spanning layer in the middle—the “neck” of the hourglass.
 

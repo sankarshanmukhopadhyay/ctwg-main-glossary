@@ -6,6 +6,9 @@ title: "decentralized-identifier"
 
 # decentralized-identifier
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A globally unique persistent identifier that does not require a centralized registration authority and is often generated and/or registered cryptographically. The generic format of a DID is defined in section 3.1 DID Syntax of the W3C Decentralized Identifiers (DIDs) 1.0 specification. A specific DID scheme is defined in a DID method specification.
 

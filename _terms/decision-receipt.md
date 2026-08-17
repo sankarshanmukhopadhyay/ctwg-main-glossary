@@ -6,6 +6,9 @@ title: "decision receipt"
 
 # decision receipt
 
+## In Simple English
+A record that explains what decision was made, under whose authority, using which policy and evidence, and with what result.
+
 ## Definition
 A structured, integrity-protected record of a trust or governance decision, including the decision context, authority, policy, evidence, outcome, obligations, and traceability data.
 

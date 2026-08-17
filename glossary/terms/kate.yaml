@@ -39,3 +39,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: 'See: keys-at-the-edge.'

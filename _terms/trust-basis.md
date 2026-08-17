@@ -6,6 +6,9 @@ title: "trust-basis"
 
 # trust-basis
 
+## In Simple English
+The properties of a verifiable identifier (VID) or a ToIP system that enable a party to appraise it to determine a trust limit.
+
 ## Definition
 The properties of a verifiable identifier (VID) or a ToIP system that enable a party to appraise it to determine a trust limit.
 

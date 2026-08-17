@@ -1,5 +1,5 @@
 {
-  "term_count": 599,
+  "term_count": 612,
   "authority_terms": [
     {
       "term": "aal",
@@ -46,12 +46,20 @@
       "slug": "agent-mandate-envelope"
     },
     {
+      "term": "agent registry",
+      "slug": "agent-registry"
+    },
+    {
       "term": "aggregation amplification",
       "slug": "aggregation-amplification"
     },
     {
       "term": "appraisability",
       "slug": "appraisability"
+    },
+    {
+      "term": "assurance boundary",
+      "slug": "assurance-boundary"
     },
     {
       "term": "assurance-level",
@@ -112,6 +120,10 @@
     {
       "term": "authority boundary",
       "slug": "authority-boundary"
+    },
+    {
+      "term": "authority control plane",
+      "slug": "authority-control-plane"
     },
     {
       "term": "authorization",
@@ -200,6 +212,10 @@
     {
       "term": "compliance",
       "slug": "compliance"
+    },
+    {
+      "term": "conformance",
+      "slug": "conformance"
     },
     {
       "term": "content provenance policy",
@@ -422,6 +438,10 @@
       "slug": "governance"
     },
     {
+      "term": "governance legitimacy",
+      "slug": "governance-legitimacy"
+    },
+    {
       "term": "governance-diamond",
       "slug": "governance-diamond"
     },
@@ -444,6 +464,10 @@
     {
       "term": "governance-risk-management-compliance",
       "slug": "governance-risk-management-compliance"
+    },
+    {
+      "term": "governed action",
+      "slug": "governed-action"
     },
     {
       "term": "governed-information",
@@ -484,6 +508,10 @@
     {
       "term": "host",
       "slug": "host"
+    },
+    {
+      "term": "human harm",
+      "slug": "human-harm"
     },
     {
       "term": "human-auditable",
@@ -532,6 +560,10 @@
     {
       "term": "internet-protocol-suite",
       "slug": "internet-protocol-suite"
+    },
+    {
+      "term": "interoperability",
+      "slug": "interoperability"
     },
     {
       "term": "issuance",
@@ -658,6 +690,14 @@
       "slug": "policy"
     },
     {
+      "term": "policy enforcement",
+      "slug": "policy-enforcement"
+    },
+    {
+      "term": "portable assurance pattern",
+      "slug": "portable-assurance-pattern"
+    },
+    {
       "term": "predicate proof",
       "slug": "predicate-proof"
     },
@@ -668,6 +708,10 @@
     {
       "term": "presentation-request",
       "slug": "presentation-request"
+    },
+    {
+      "term": "pressure test",
+      "slug": "pressure-test"
     },
     {
       "term": "primary-document",
@@ -718,12 +762,20 @@
       "slug": "qualified-electronic-attestation-of-attributes"
     },
     {
+      "term": "recognition",
+      "slug": "recognition"
+    },
+    {
       "term": "recommended",
       "slug": "recommended"
     },
     {
       "term": "record",
       "slug": "record"
+    },
+    {
+      "term": "redress",
+      "slug": "redress"
     },
     {
       "term": "registrant",
@@ -2096,6 +2148,15 @@
       ]
     },
     {
+      "term": "agent registry",
+      "slug": "agent-registry",
+      "states": [
+        "proposed",
+        "active",
+        "deprecated"
+      ]
+    },
+    {
       "term": "aggregation amplification",
       "slug": "aggregation-amplification",
       "states": [
@@ -2156,6 +2217,15 @@
       "slug": "appropriate-friction",
       "states": [
         "documented",
+        "active",
+        "deprecated"
+      ]
+    },
+    {
+      "term": "assurance boundary",
+      "slug": "assurance-boundary",
+      "states": [
+        "proposed",
         "active",
         "deprecated"
       ]
@@ -2349,6 +2419,15 @@
         "suspended",
         "revoked",
         "retired"
+      ]
+    },
+    {
+      "term": "authority control plane",
+      "slug": "authority-control-plane",
+      "states": [
+        "proposed",
+        "active",
+        "deprecated"
       ]
     },
     {
@@ -2780,6 +2859,15 @@
       "slug": "confidentiality",
       "states": [
         "documented",
+        "active",
+        "deprecated"
+      ]
+    },
+    {
+      "term": "conformance",
+      "slug": "conformance",
+      "states": [
+        "proposed",
         "active",
         "deprecated"
       ]
@@ -3944,6 +4032,15 @@
       ]
     },
     {
+      "term": "governance legitimacy",
+      "slug": "governance-legitimacy",
+      "states": [
+        "proposed",
+        "active",
+        "deprecated"
+      ]
+    },
+    {
       "term": "governance-diamond",
       "slug": "governance-diamond",
       "states": [
@@ -3997,6 +4094,15 @@
       "slug": "governance-risk-management-compliance",
       "states": [
         "documented",
+        "active",
+        "deprecated"
+      ]
+    },
+    {
+      "term": "governed action",
+      "slug": "governed-action",
+      "states": [
+        "proposed",
         "active",
         "deprecated"
       ]
@@ -4164,6 +4270,15 @@
       "slug": "hsm",
       "states": [
         "documented",
+        "active",
+        "deprecated"
+      ]
+    },
+    {
+      "term": "human harm",
+      "slug": "human-harm",
+      "states": [
+        "proposed",
         "active",
         "deprecated"
       ]
@@ -4397,6 +4512,15 @@
       "slug": "internet-protocol-suite",
       "states": [
         "documented",
+        "active",
+        "deprecated"
+      ]
+    },
+    {
+      "term": "interoperability",
+      "slug": "interoperability",
+      "states": [
+        "proposed",
         "active",
         "deprecated"
       ]
@@ -5331,10 +5455,28 @@
       ]
     },
     {
+      "term": "policy enforcement",
+      "slug": "policy-enforcement",
+      "states": [
+        "proposed",
+        "active",
+        "deprecated"
+      ]
+    },
+    {
       "term": "pop",
       "slug": "pop",
       "states": [
         "documented",
+        "active",
+        "deprecated"
+      ]
+    },
+    {
+      "term": "portable assurance pattern",
+      "slug": "portable-assurance-pattern",
+      "states": [
+        "proposed",
         "active",
         "deprecated"
       ]
@@ -5375,6 +5517,15 @@
       "slug": "presentation-request",
       "states": [
         "documented",
+        "active",
+        "deprecated"
+      ]
+    },
+    {
+      "term": "pressure test",
+      "slug": "pressure-test",
+      "states": [
+        "proposed",
         "active",
         "deprecated"
       ]
@@ -5624,6 +5775,15 @@
       ]
     },
     {
+      "term": "recognition",
+      "slug": "recognition",
+      "states": [
+        "proposed",
+        "active",
+        "deprecated"
+      ]
+    },
+    {
       "term": "recommended",
       "slug": "recommended",
       "states": [
@@ -5641,6 +5801,15 @@
         "suspended",
         "revoked",
         "retired"
+      ]
+    },
+    {
+      "term": "redress",
+      "slug": "redress",
+      "states": [
+        "proposed",
+        "active",
+        "deprecated"
       ]
     },
     {
@@ -7773,6 +7942,15 @@
       ]
     },
     {
+      "term": "agent registry",
+      "slug": "agent-registry",
+      "evidence_artifacts": [
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
+      ]
+    },
+    {
       "term": "aggregation amplification",
       "slug": "aggregation-amplification",
       "evidence_artifacts": [
@@ -7820,6 +7998,15 @@
     {
       "term": "appropriate-friction",
       "slug": "appropriate-friction",
+      "evidence_artifacts": [
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
+      ]
+    },
+    {
+      "term": "assurance boundary",
+      "slug": "assurance-boundary",
       "evidence_artifacts": [
         "audit_log",
         "definition_change_record",
@@ -7999,6 +8186,15 @@
         "policy_document",
         "status_record",
         "verification_log"
+      ]
+    },
+    {
+      "term": "authority control plane",
+      "slug": "authority-control-plane",
+      "evidence_artifacts": [
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -8389,6 +8585,15 @@
     {
       "term": "confidentiality",
       "slug": "confidentiality",
+      "evidence_artifacts": [
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
+      ]
+    },
+    {
+      "term": "conformance",
+      "slug": "conformance",
       "evidence_artifacts": [
         "audit_log",
         "definition_change_record",
@@ -9427,6 +9632,15 @@
       ]
     },
     {
+      "term": "governance legitimacy",
+      "slug": "governance-legitimacy",
+      "evidence_artifacts": [
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
+      ]
+    },
+    {
       "term": "governance-diamond",
       "slug": "governance-diamond",
       "evidence_artifacts": [
@@ -9469,6 +9683,15 @@
     {
       "term": "governance-risk-management-compliance",
       "slug": "governance-risk-management-compliance",
+      "evidence_artifacts": [
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
+      ]
+    },
+    {
+      "term": "governed action",
+      "slug": "governed-action",
       "evidence_artifacts": [
         "audit_log",
         "definition_change_record",
@@ -9621,6 +9844,15 @@
       "slug": "hsm",
       "evidence_artifacts": [
         "definition_change_record"
+      ]
+    },
+    {
+      "term": "human harm",
+      "slug": "human-harm",
+      "evidence_artifacts": [
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -9821,6 +10053,15 @@
       "term": "internet-protocol-suite",
       "slug": "internet-protocol-suite",
       "evidence_artifacts": [
+        "policy_document"
+      ]
+    },
+    {
+      "term": "interoperability",
+      "slug": "interoperability",
+      "evidence_artifacts": [
+        "audit_log",
+        "definition_change_record",
         "policy_document"
       ]
     },
@@ -10619,10 +10860,28 @@
       ]
     },
     {
+      "term": "policy enforcement",
+      "slug": "policy-enforcement",
+      "evidence_artifacts": [
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
+      ]
+    },
+    {
       "term": "pop",
       "slug": "pop",
       "evidence_artifacts": [
         "definition_change_record"
+      ]
+    },
+    {
+      "term": "portable assurance pattern",
+      "slug": "portable-assurance-pattern",
+      "evidence_artifacts": [
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -10655,6 +10914,15 @@
       "slug": "presentation-request",
       "evidence_artifacts": [
         "verification_log"
+      ]
+    },
+    {
+      "term": "pressure test",
+      "slug": "pressure-test",
+      "evidence_artifacts": [
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -10867,6 +11135,15 @@
       ]
     },
     {
+      "term": "recognition",
+      "slug": "recognition",
+      "evidence_artifacts": [
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
+      ]
+    },
+    {
       "term": "recommended",
       "slug": "recommended",
       "evidence_artifacts": [
@@ -10878,6 +11155,15 @@
       "slug": "record",
       "evidence_artifacts": [
         "registry_entry"
+      ]
+    },
+    {
+      "term": "redress",
+      "slug": "redress",
+      "evidence_artifacts": [
+        "audit_log",
+        "definition_change_record",
+        "policy_document"
       ]
     },
     {
@@ -12741,6 +13027,14 @@
       ]
     },
     {
+      "term": "agent registry",
+      "slug": "agent-registry",
+      "decision_points": [
+        "policy_approval",
+        "reliance_decision"
+      ]
+    },
+    {
       "term": "aggregation amplification",
       "slug": "aggregation-amplification",
       "decision_points": [
@@ -12762,6 +13056,14 @@
       "slug": "appropriate-friction",
       "decision_points": [
         "definition_approval"
+      ]
+    },
+    {
+      "term": "assurance boundary",
+      "slug": "assurance-boundary",
+      "decision_points": [
+        "policy_approval",
+        "reliance_decision"
       ]
     },
     {
@@ -12899,6 +13201,14 @@
         "delegation_grant",
         "reliance_decision",
         "revocation_decision"
+      ]
+    },
+    {
+      "term": "authority control plane",
+      "slug": "authority-control-plane",
+      "decision_points": [
+        "policy_approval",
+        "reliance_decision"
       ]
     },
     {
@@ -13108,6 +13418,14 @@
       "slug": "confidentiality",
       "decision_points": [
         "definition_approval"
+      ]
+    },
+    {
+      "term": "conformance",
+      "slug": "conformance",
+      "decision_points": [
+        "policy_approval",
+        "reliance_decision"
       ]
     },
     {
@@ -13678,6 +13996,14 @@
       ]
     },
     {
+      "term": "governance legitimacy",
+      "slug": "governance-legitimacy",
+      "decision_points": [
+        "policy_approval",
+        "reliance_decision"
+      ]
+    },
+    {
       "term": "governance-diamond",
       "slug": "governance-diamond",
       "decision_points": [
@@ -13720,6 +14046,14 @@
       "slug": "governance-risk-management-compliance",
       "decision_points": [
         "definition_approval"
+      ]
+    },
+    {
+      "term": "governed action",
+      "slug": "governed-action",
+      "decision_points": [
+        "policy_approval",
+        "reliance_decision"
       ]
     },
     {
@@ -13807,6 +14141,14 @@
       "slug": "host",
       "decision_points": [
         "access_decision"
+      ]
+    },
+    {
+      "term": "human harm",
+      "slug": "human-harm",
+      "decision_points": [
+        "policy_approval",
+        "reliance_decision"
       ]
     },
     {
@@ -13922,6 +14264,14 @@
       "slug": "internet-protocol-suite",
       "decision_points": [
         "policy_approval"
+      ]
+    },
+    {
+      "term": "interoperability",
+      "slug": "interoperability",
+      "decision_points": [
+        "policy_approval",
+        "reliance_decision"
       ]
     },
     {
@@ -14271,6 +14621,22 @@
       ]
     },
     {
+      "term": "policy enforcement",
+      "slug": "policy-enforcement",
+      "decision_points": [
+        "policy_approval",
+        "reliance_decision"
+      ]
+    },
+    {
+      "term": "portable assurance pattern",
+      "slug": "portable-assurance-pattern",
+      "decision_points": [
+        "policy_approval",
+        "reliance_decision"
+      ]
+    },
+    {
       "term": "predicate proof",
       "slug": "predicate-proof",
       "decision_points": [
@@ -14293,6 +14659,14 @@
       "term": "presentation-request",
       "slug": "presentation-request",
       "decision_points": [
+        "reliance_decision"
+      ]
+    },
+    {
+      "term": "pressure test",
+      "slug": "pressure-test",
+      "decision_points": [
+        "policy_approval",
         "reliance_decision"
       ]
     },
@@ -14416,6 +14790,14 @@
       ]
     },
     {
+      "term": "recognition",
+      "slug": "recognition",
+      "decision_points": [
+        "policy_approval",
+        "reliance_decision"
+      ]
+    },
+    {
       "term": "recommended",
       "slug": "recommended",
       "decision_points": [
@@ -14428,6 +14810,14 @@
       "decision_points": [
         "registration_decision",
         "revocation_decision"
+      ]
+    },
+    {
+      "term": "redress",
+      "slug": "redress",
+      "decision_points": [
+        "policy_approval",
+        "reliance_decision"
       ]
     },
     {
@@ -17487,8 +17877,16 @@
         "slug": "agent-mandate-envelope"
       },
       {
+        "term": "agent registry",
+        "slug": "agent-registry"
+      },
+      {
         "term": "aggregation amplification",
         "slug": "aggregation-amplification"
+      },
+      {
+        "term": "assurance boundary",
+        "slug": "assurance-boundary"
       },
       {
         "term": "attention policy",
@@ -17511,6 +17909,10 @@
         "slug": "authority-boundary"
       },
       {
+        "term": "authority control plane",
+        "slug": "authority-control-plane"
+      },
+      {
         "term": "authorization checkpoint",
         "slug": "authorization-checkpoint"
       },
@@ -17525,6 +17927,10 @@
       {
         "term": "chaining",
         "slug": "chaining"
+      },
+      {
+        "term": "conformance",
+        "slug": "conformance"
       },
       {
         "term": "content provenance policy",
@@ -17595,6 +18001,18 @@
         "slug": "fourth-party"
       },
       {
+        "term": "governance legitimacy",
+        "slug": "governance-legitimacy"
+      },
+      {
+        "term": "governed action",
+        "slug": "governed-action"
+      },
+      {
+        "term": "human harm",
+        "slug": "human-harm"
+      },
+      {
         "term": "human-experience",
         "slug": "human-experience"
       },
@@ -17629,6 +18047,10 @@
       {
         "term": "intermediary-system",
         "slug": "intermediary-system"
+      },
+      {
+        "term": "interoperability",
+        "slug": "interoperability"
       },
       {
         "term": "issuer concealment",
@@ -17683,12 +18105,32 @@
         "slug": "personhood"
       },
       {
+        "term": "policy enforcement",
+        "slug": "policy-enforcement"
+      },
+      {
+        "term": "portable assurance pattern",
+        "slug": "portable-assurance-pattern"
+      },
+      {
         "term": "predicate proof",
         "slug": "predicate-proof"
       },
       {
+        "term": "pressure test",
+        "slug": "pressure-test"
+      },
+      {
         "term": "proof-carrying commitment receipt",
         "slug": "proof-carrying-commitment-receipt"
+      },
+      {
+        "term": "recognition",
+        "slug": "recognition"
+      },
+      {
+        "term": "redress",
+        "slug": "redress"
       },
       {
         "term": "relationship-context",
@@ -17933,29 +18375,29 @@
     ]
   },
   "assurance_level_hints": {
-    "AL1+": 82,
+    "AL1+": 95,
     "AL2+": 292,
     "informative": 225
   },
   "authority_scope_counts": {
     "access_decisioning": 29,
-    "assurance_and_audit": 68,
+    "assurance_and_audit": 81,
     "credential_issuance": 68,
     "delegation_and_scope": 68,
-    "governance_recognition": 85,
-    "policy_definition": 88,
+    "governance_recognition": 98,
+    "policy_definition": 101,
     "registry_management": 21,
     "terminology_definition": 333,
-    "verification_and_reliance": 86
+    "verification_and_reliance": 99
   },
   "evidence_artifact_counts": {
     "access_decision_log": 28,
     "attestation": 24,
-    "audit_log": 234,
-    "definition_change_record": 361,
+    "audit_log": 247,
+    "definition_change_record": 374,
     "delegation_record": 68,
     "issuance_log": 67,
-    "policy_document": 242,
+    "policy_document": 255,
     "registry_entry": 102,
     "status_record": 123,
     "verification_log": 165
@@ -17965,9 +18407,9 @@
     "definition_approval": 359,
     "delegation_grant": 68,
     "issuance_decision": 68,
-    "policy_approval": 88,
+    "policy_approval": 101,
     "registration_decision": 22,
-    "reliance_decision": 87,
+    "reliance_decision": 100,
     "revocation_decision": 147
   }
 }

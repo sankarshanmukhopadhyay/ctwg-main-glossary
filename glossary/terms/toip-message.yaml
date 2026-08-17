@@ -2,9 +2,7 @@ term: toip-message
 aliases:
 - ToIP message
 - ToIP messages
-definition: A message communicated between ToIP endpoints using the ToIP stack. ToIP
-  messages are transmitted over the ToIP Trust Spanning Protocol (TSP) at Layer 2
-  of the ToIP stack.
+definition: A message communicated between ToIP endpoints using the ToIP stack. ToIP messages are transmitted over the ToIP Trust Spanning Protocol (TSP) at Layer 2 of the ToIP stack.
 notes: []
 see_also:
 - glossary

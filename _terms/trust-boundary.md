@@ -6,6 +6,9 @@ title: "trust-boundary"
 
 # trust-boundary
 
+## In Simple English
+The border of a trust domain.
+
 ## Definition
 The border of a trust domain.
 

@@ -6,6 +6,9 @@ title: "definition"
 
 # definition
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A textual statement defining the meaning of a term by specifying criterion that enable the concept identified by the term to be distinguished from all other concepts within the intended scope.
 

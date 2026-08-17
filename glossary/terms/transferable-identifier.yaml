@@ -47,3 +47,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: 'Control over the identifier transferable by [[xref: keri1, rotation]].'

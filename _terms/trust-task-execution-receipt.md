@@ -6,6 +6,9 @@ title: "trust task execution receipt"
 
 # trust task execution receipt
 
+## In Simple English
+A structured receipt that records how a trust-relevant task was authorized, executed, evidenced, and completed or terminated.
+
 ## Definition
 A structured receipt that records how a trust-relevant task was authorized, executed, evidenced, and completed or terminated.
 

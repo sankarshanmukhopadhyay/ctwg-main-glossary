@@ -2,9 +2,7 @@ term: multicast-address
 aliases:
 - multicast address
 - multicast addresses
-definition: A multicast address is a logical identifier for a group of hosts in a
-  computer network that are available to process datagrams or frames intended to be
-  multicast for a designated network service.
+definition: A multicast address is a logical identifier for a group of hosts in a computer network that are available to process datagrams or frames intended to be multicast for a designated network service.
 notes: []
 see_also:
 - broadcast address

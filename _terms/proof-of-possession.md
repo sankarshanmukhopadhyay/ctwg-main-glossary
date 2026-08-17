@@ -6,6 +6,9 @@ title: "proof-of-possession"
 
 # proof-of-possession
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A verification process whereby a level of assurance is obtained that the owner of a key pair actually controls the private key associated with the public key.
 

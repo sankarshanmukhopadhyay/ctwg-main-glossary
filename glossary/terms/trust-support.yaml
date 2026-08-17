@@ -2,9 +2,7 @@ term: trust-support
 aliases:
 - trust support
 - trust supports
-definition: A system, protocol, or other infrastructure whose function is to facilitate
-  the establishment and maintenance of trust relationships at higher protocol layers.
-  In the ToIP stack, the trust support layer is Layer 1.
+definition: A system, protocol, or other infrastructure whose function is to facilitate the establishment and maintenance of trust relationships at higher protocol layers. In the ToIP stack, the trust support layer is Layer 1.
 notes: []
 see_also:
 - glossary

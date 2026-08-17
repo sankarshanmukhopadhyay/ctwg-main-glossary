@@ -6,6 +6,9 @@ title: "decryption"
 
 # decryption
 
+## In Simple English
+The process of changing ciphertext into plaintext using a cryptographic algorithm and key. The opposite of encryption.
+
 ## Definition
 The process of changing ciphertext into plaintext using a cryptographic algorithm and key. The opposite of encryption.
 

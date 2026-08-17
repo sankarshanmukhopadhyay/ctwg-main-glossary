@@ -6,6 +6,9 @@ title: "trust-support-layer"
 
 # trust-support-layer
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 In the context of the ToIP stack, the trust support layer is ToIP Layer 1. It supports the operations of the ToIP Trust Spanning Protocol at ToIP Layer 2.
 

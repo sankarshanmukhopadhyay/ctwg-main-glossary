@@ -6,6 +6,9 @@ title: "device-controller"
 
 # device-controller
 
+## In Simple English
+The controller of a device capable of digital communications, e.g., a smartphone, tablet, laptop, IoT device, etc.
+
 ## Definition
 The controller of a device capable of digital communications, e.g., a smartphone, tablet, laptop, IoT device, etc.
 

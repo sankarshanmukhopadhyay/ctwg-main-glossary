@@ -6,6 +6,9 @@ title: "privacy-policy"
 
 # privacy-policy
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A statement or legal document (in privacy law) that discloses some or all of the ways a party gathers, uses, discloses, and manages a customer or client's data.
 

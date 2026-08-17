@@ -6,6 +6,9 @@ title: "access-control"
 
 # access-control
 
+## In Simple English
+The process of granting or denying specific requests for obtaining and using information and related information processing services.
+
 ## Definition
 The process of granting or denying specific requests for obtaining and using information and related information processing services.
 

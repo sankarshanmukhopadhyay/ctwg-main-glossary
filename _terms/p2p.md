@@ -6,6 +6,9 @@ title: "p2p"
 
 # p2p
 
+## In Simple English
+See: peer-to-peer.
+
 ## Definition
 See: peer-to-peer.
 

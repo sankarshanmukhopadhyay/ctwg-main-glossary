@@ -6,6 +6,9 @@ title: "credential-request"
 
 # credential-request
 
+## In Simple English
+See: issuance request.
+
 ## Definition
 See: issuance request.
 

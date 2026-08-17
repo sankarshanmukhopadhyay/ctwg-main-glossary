@@ -2,8 +2,7 @@ term: toip-endpoint
 aliases:
 - ToIP endpoint
 - ToIP endpoints
-definition: An endpoint that communicates via the ToIP Trust Spanning Protocol (TSP)
-  as described in the ToIP Technology Architecture Specification.
+definition: An endpoint that communicates via the ToIP Trust Spanning Protocol (TSP) as described in the ToIP Technology Architecture Specification.
 notes: []
 see_also:
 - glossary
@@ -45,3 +44,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: An endpoint that communicates via the ToIP Trust Spanning Protocol (TSP) as described in the ToIP Technology Architecture Specification.

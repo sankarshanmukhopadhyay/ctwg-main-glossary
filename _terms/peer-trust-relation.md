@@ -6,6 +6,9 @@ title: "peer trust relation"
 
 # peer trust relation
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A lateral trust relationship between parties that do not hold hierarchical authority over one another and that rely on an explicit trust basis such as credential exchange, policy acceptance, or third-party introduction.
 

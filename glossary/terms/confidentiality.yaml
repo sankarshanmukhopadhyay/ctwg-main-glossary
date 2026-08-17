@@ -2,9 +2,7 @@ term: confidentiality
 aliases:
 - confidentiality
 - confidential
-definition: In a communications context, a type of privacy protection in which messages
-  use encryption or other privacy-preserving technologies so that only authorized
-  parties have access.
+definition: In a communications context, a type of privacy protection in which messages use encryption or other privacy-preserving technologies so that only authorized parties have access.
 notes: []
 see_also:
 - authenticity
@@ -13,12 +11,8 @@ sources:
 - 'ToIP CTWG maintained glossary source: `spec/terms-definitions/confidentiality.md`'
 mental_models: []
 supporting_definitions:
-- '[NIST-CSRC](https://csrc.nist.gov/glossary/term/confidentiality): Preserving authorized
-  restrictions on information access and disclosure, including means for protecting
-  personal privacy and proprietary information.'
-- '[Wikipedia](https://en.wikipedia.org/wiki/Confidentiality): Confidentiality involves
-  a set of rules or a promise usually executed through [confidentiality agreements](https://en.wikipedia.org/wiki/Confidentiality_agreements)
-  that limits the access or places restrictions on certain types of [information](https://en.wikipedia.org/wiki/Information).'
+- '[NIST-CSRC](https://csrc.nist.gov/glossary/term/confidentiality): Preserving authorized restrictions on information access and disclosure, including means for protecting personal privacy and proprietary information.'
+- '[Wikipedia](https://en.wikipedia.org/wiki/Confidentiality): Confidentiality involves a set of rules or a promise usually executed through [confidentiality agreements](https://en.wikipedia.org/wiki/Confidentiality_agreements) that limits the access or places restrictions on certain types of [information](https://en.wikipedia.org/wiki/Information).'
 source_file: spec/terms-definitions/confidentiality.md
 governance_profile: core-operational
 governance:

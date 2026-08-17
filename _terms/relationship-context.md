@@ -6,6 +6,9 @@ title: "relationship-context"
 
 # relationship-context
 
+## In Simple English
+A context established within the boundary of a trust relationship.
+
 ## Definition
 A context established within the boundary of a trust relationship.
 

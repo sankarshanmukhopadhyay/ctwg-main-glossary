@@ -6,6 +6,9 @@ title: "non-repudiable"
 
 # non-repudiable
 
+## In Simple English
+Non-repudiation refers to a situation where a statement's author **cannot successfully dispute** its authorship or the validity of an associated contract, signature or commitment.
+
 ## Definition
 Non-repudiation refers to a situation where a statement's author **cannot successfully dispute** its authorship or the validity of an associated contract, signature or commitment.
 

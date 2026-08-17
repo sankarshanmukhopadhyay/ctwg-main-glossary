@@ -6,6 +6,9 @@ title: "toip-layer-3"
 
 # toip-layer-3
 
+## In Simple English
+The trust task layer of the ToIP stack, responsible for enabling trust applications at ToIP Layer 4.
+
 ## Definition
 The trust task layer of the ToIP stack, responsible for enabling trust applications at ToIP Layer 4.
 

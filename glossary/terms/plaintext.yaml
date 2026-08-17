@@ -2,8 +2,7 @@ term: plaintext
 aliases:
 - plaintext
 - plaintexts
-definition: Unencrypted information that may be input to an encryption operation.
-  Once encrypted, it becomes ciphertext.
+definition: Unencrypted information that may be input to an encryption operation. Once encrypted, it becomes ciphertext.
 notes: []
 see_also:
 - glossary
@@ -41,3 +40,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: Unencrypted information that may be input to an encryption operation. Once encrypted, it becomes ciphertext.

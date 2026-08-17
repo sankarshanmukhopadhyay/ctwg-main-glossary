@@ -2,8 +2,7 @@ term: subject
 aliases:
 - subject
 - subjects
-definition: The entity described by one or more claims, particularly in the context
-  of credentials.
+definition: The entity described by one or more claims, particularly in the context of credentials.
 notes: []
 see_also:
 - credential
@@ -14,14 +13,8 @@ sources:
 - 'ToIP CTWG maintained glossary source: `spec/terms-definitions/subject.md`'
 mental_models: []
 supporting_definitions:
-- '[W3C VC](https://www.w3.org/TR/vc-data-model/#terminology): A thing about which
-  [claims](https://www.w3.org/TR/vc-data-model/#dfn-claims) are made.'
-- '[eSSIF-Lab:](https://essif-lab.github.io/framework/docs/essifLab-glossary#subject)
-  the (single) [[ref: entity]] to which a given set of coherent [[ref: data]] relates/pertains.
-  Examples of such sets include attributes, [[ref: Claims]]/Assertions, files/dossiers,
-  [[ref: verifiable credentials]], [(partial) identities](https://essif-lab.github.io/framework/docs/terms/partial-identity),
-  [employment contracts](https://essif-lab.github.io/framework/docs/terms/employment-contract),
-  etc.'
+- '[W3C VC](https://www.w3.org/TR/vc-data-model/#terminology): A thing about which [claims](https://www.w3.org/TR/vc-data-model/#dfn-claims) are made.'
+- '[eSSIF-Lab:](https://essif-lab.github.io/framework/docs/essifLab-glossary#subject) the (single) [[ref: entity]] to which a given set of coherent [[ref: data]] relates/pertains. Examples of such sets include attributes, [[ref: Claims]]/Assertions, files/dossiers, [[ref: verifiable credentials]], [(partial) identities](https://essif-lab.github.io/framework/docs/terms/partial-identity), [employment contracts](https://essif-lab.github.io/framework/docs/terms/employment-contract), etc.'
 source_file: spec/terms-definitions/subject.md
 governance_profile: core-operational
 governance:
@@ -63,3 +56,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: The entity described by one or more claims, particularly in the context of credentials.

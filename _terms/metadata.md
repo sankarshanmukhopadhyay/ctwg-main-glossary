@@ -6,6 +6,9 @@ title: "metadata"
 
 # metadata
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 Information describing the characteristics of data including, for example, structural metadata describing data structures (e.g., data format, syntax, and semantics) and descriptive metadata describing data contents (e.g., information security labels).
 

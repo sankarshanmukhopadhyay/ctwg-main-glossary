@@ -6,6 +6,9 @@ title: "digital-wallet"
 
 # digital-wallet
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A user agent, optionally including a hardware component, capable of securely storing and processing cryptographic keys, digital credentials, digital assets and other sensitive private data that enables the controller to perform cryptographically verifiable operations. A non-custodial wallet is directly in the custody of a principal. A custodial wallet is in the custody of a third party. Personal wallets are held by individual persons; enterprise wallets are held by organizations or other legal entities.
 

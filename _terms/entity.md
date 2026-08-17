@@ -6,6 +6,9 @@ title: "entity"
 
 # entity
 
+## In Simple English
+Someone or something that is known to exist.
+
 ## Definition
 Someone or something that is known to exist.
 

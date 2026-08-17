@@ -6,6 +6,9 @@ title: "trustworthy"
 
 # trustworthy
 
+## In Simple English
+A property of an entity that has the attribute of trustworthiness.
+
 ## Definition
 A property of an entity that has the attribute of trustworthiness.
 

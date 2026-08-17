@@ -6,6 +6,9 @@ title: "data-integrity-proof"
 
 # data-integrity-proof
 
+## In Simple English
+A cryptographic proof mechanism used to protect the authenticity and integrity of verifiable credentials and similar constrained digital documents.
+
 ## Definition
 A cryptographic proof mechanism used to protect the authenticity and integrity of verifiable credentials and similar constrained digital documents.
 

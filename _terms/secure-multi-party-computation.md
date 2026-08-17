@@ -6,6 +6,9 @@ title: "secure-multi-party-computation"
 
 # secure-multi-party-computation
 
+## In Simple English
+See: multi-party computation.
+
 ## Definition
 See: multi-party computation.
 

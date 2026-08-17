@@ -6,6 +6,9 @@ title: "toip-communication"
 
 # toip-communication
 
+## In Simple English
+Communication that uses the ToIP stack to deliver ToIP messages between ToIP endpoints, optionally using ToIP intermediaries to provide authenticity, confidentiality, and correlation privacy.
+
 ## Definition
 Communication that uses the ToIP stack to deliver ToIP messages between ToIP endpoints, optionally using ToIP intermediaries to provide authenticity, confidentiality, and correlation privacy.
 

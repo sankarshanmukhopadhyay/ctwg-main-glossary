@@ -27,6 +27,7 @@ nav_order: 9
 - [intermediary-system]({{ '/terms/intermediary-system/' | relative_url }})
 - [internet-protocol]({{ '/terms/internet-protocol/' | relative_url }})
 - [internet-protocol-suite]({{ '/terms/internet-protocol-suite/' | relative_url }})
+- [interoperability]({{ '/terms/interoperability/' | relative_url }})
 - [ip]({{ '/terms/ip/' | relative_url }})
 - [ip-address]({{ '/terms/ip-address/' | relative_url }})
 - [issuance]({{ '/terms/issuance/' | relative_url }})

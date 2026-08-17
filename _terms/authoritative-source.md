@@ -6,6 +6,9 @@ title: "authoritative-source"
 
 # authoritative-source
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A source of information that a relying party considers to be authoritative for that information. In ToIP architecture, the trust registry authorized by the governance framework for a trust community is typically considered an authoritative source by the members of that trust community. A system of record is an authoritative source for the data records it holds. A trust anchor is an authoritative source for the beginning of a trust chain.
 

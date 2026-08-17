@@ -6,6 +6,9 @@ title: "vc"
 
 # vc
 
+## In Simple English
+See: verifiable credential.
+
 ## Definition
 See: verifiable credential.
 

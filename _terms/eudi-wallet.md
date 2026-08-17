@@ -6,6 +6,9 @@ title: "eudi-wallet"
 
 # eudi-wallet
 
+## In Simple English
+A wallet ecosystem component under the European Digital Identity framework for storing and presenting person identification data, attestations, and credentials across EU contexts.
+
 ## Definition
 A wallet ecosystem component under the European Digital Identity framework for storing and presenting person identification data, attestations, and credentials across EU contexts.
 

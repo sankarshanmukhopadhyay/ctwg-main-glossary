@@ -2,8 +2,7 @@ term: openid4vci
 aliases:
 - OpenID4VCI
 - OID4VCI
-definition: An OpenID Foundation protocol that defines OAuth 2.0-based mechanisms
-  for issuing verifiable credentials from credential issuers to wallets.
+definition: An OpenID Foundation protocol that defines OAuth 2.0-based mechanisms for issuing verifiable credentials from credential issuers to wallets.
 reader_note: ''
 implementation_relevance: ''
 notes: []
@@ -55,3 +54,4 @@ control_plane:
 crosswalk:
   openid:
   - OpenID4VCI 1.0
+simple_definition: An OpenID Foundation protocol that defines OAuth 2.0-based mechanisms for issuing verifiable credentials from credential issuers to wallets.

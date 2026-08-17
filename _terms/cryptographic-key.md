@@ -6,6 +6,9 @@ title: "cryptographic-key"
 
 # cryptographic-key
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A key in cryptography is a piece of information, usually a string of numbers or letters that are stored in a file, which, when processed through a cryptographic algorithm, can encode or decode cryptographic data. Symmetric cryptography refers to the practice of the same key being used for both encryption and decryption. Asymmetric cryptography has separate keys for encrypting and decrypting. These keys are known as the public keys and private keys, respectively.
 

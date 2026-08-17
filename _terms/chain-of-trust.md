@@ -6,6 +6,9 @@ title: "chain-of-trust"
 
 # chain-of-trust
 
+## In Simple English
+See: trust chain.
+
 ## Definition
 See: trust chain.
 

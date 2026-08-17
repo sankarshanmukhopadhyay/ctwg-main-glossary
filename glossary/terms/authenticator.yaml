@@ -1,8 +1,7 @@
 term: authenticator
 aliases:
 - authenticator
-definition: Something the claimant possesses and controls (typically a cryptographic
-  module or password) that is used to authenticate the claimant’s identity.
+definition: Something the claimant possesses and controls (typically a cryptographic module or password) that is used to authenticate the claimant’s identity.
 notes: []
 see_also:
 - credential
@@ -63,3 +62,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: Something the claimant possesses and controls (typically a cryptographic module or password) that is used to authenticate the claimant’s identity.

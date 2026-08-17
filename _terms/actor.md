@@ -6,6 +6,9 @@ title: "actor"
 
 # actor
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 An entity that can act (do things/execute actions), e.g. people, machines, but not organizations. A digital agent can serve as an actor acting on behalf of its principal.
 

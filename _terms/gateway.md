@@ -6,6 +6,9 @@ title: "gateway"
 
 # gateway
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A gateway is a piece of networking hardware or software used in telecommunications networks that allows data to flow from one discrete network to another. Gateways are distinct from routers or switches in that they communicate using more than one protocol to connect multiple networks<sup>\[1\]\[2\]</sup>#cite_note-1) and can operate at any of the seven layers of the open systems interconnection model (OSI).
 

@@ -6,6 +6,9 @@ title: "software-agent"
 
 # software-agent
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 In computer science, a software agent is a computer program that acts for a user or other program in a relationship of agency, which derives from the Latin *agere* (to do): an agreement to act on one's behalf. A user agent is a specific type of software agent that is used directly by an end-user as the principal.
 

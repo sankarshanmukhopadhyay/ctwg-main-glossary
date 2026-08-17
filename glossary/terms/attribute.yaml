@@ -2,8 +2,7 @@ term: attribute
 aliases:
 - attribute
 - attributes
-definition: An identifiable set of data that describes an entity, which is the subject
-  of the attribute.
+definition: An identifiable set of data that describes an entity, which is the subject of the attribute.
 notes:
 - An identifier is an attribute that uniquely identifies an entity within some context.
 see_also:
@@ -13,13 +12,7 @@ sources:
 mental_models: []
 supporting_definitions:
 - 'KERI Suite: [[xref: keri1, attribute]]'
-- '[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#attribute):
-  [Data](https://essif-lab.github.io/framework/docs/terms/data) that represents a
-  characteristic that a [party](https://essif-lab.github.io/framework/docs/terms/party)
-  (the [owner](https://essif-lab.github.io/framework/docs/terms/owner) of the [attribute](https://essif-lab.github.io/framework/docs/terms/attribute))
-  has attributed to an [entity](https://essif-lab.github.io/framework/docs/terms/entity)
-  (which is the [subject](https://essif-lab.github.io/framework/docs/terms/subject)
-  of that attribute).'
+- '[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#attribute): [Data](https://essif-lab.github.io/framework/docs/terms/data) that represents a characteristic that a [party](https://essif-lab.github.io/framework/docs/terms/party) (the [owner](https://essif-lab.github.io/framework/docs/terms/owner) of the [attribute](https://essif-lab.github.io/framework/docs/terms/attribute)) has attributed to an [entity](https://essif-lab.github.io/framework/docs/terms/entity) (which is the [subject](https://essif-lab.github.io/framework/docs/terms/subject) of that attribute).'
 source_file: spec/terms-definitions/attribute.md
 governance_profile: descriptive
 governance:
@@ -49,3 +42,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: An identifiable set of data that describes an entity, which is the subject of the attribute.

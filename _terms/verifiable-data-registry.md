@@ -6,6 +6,9 @@ title: "verifiable-data-registry"
 
 # verifiable-data-registry
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A registry that facilitates the creation, verification, updating, and/or deactivation of decentralized identifiers and DID documents. A verifiable data registry may also be used for other cryptographically-verifiable data structures such as verifiable credentials.
 

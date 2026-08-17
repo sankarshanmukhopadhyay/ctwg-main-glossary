@@ -6,6 +6,9 @@ title: "dynamic authorization"
 
 # dynamic authorization
 
+## In Simple English
+An authorization approach in which runtime decisions are produced by evaluating contextual attributes, evidence, and policy rather than relying only on static permissions.
+
 ## Definition
 An authorization approach in which runtime decisions are produced by evaluating contextual attributes, evidence, and policy rather than relying only on static permissions.
 

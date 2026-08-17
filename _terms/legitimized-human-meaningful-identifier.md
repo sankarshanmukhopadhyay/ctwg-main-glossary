@@ -6,6 +6,9 @@ title: "legitimized-human-meaningful-identifier"
 
 # legitimized-human-meaningful-identifier
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 An AID and its associated self-certifying trust basis gives rise to a trust domain for associated cryptographically verifiable non-repudiable statements. Every other type of identifier including human meaningful identifiers may then be secured in this resultant trust domain via an end-verifiable authorization. This authorization legitimizes that human meaningful identifier as an LID through its association with an AID. The result is a secured trust domain specific identifier couplet of aid|lid.
 

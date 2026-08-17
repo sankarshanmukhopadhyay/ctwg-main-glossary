@@ -6,6 +6,9 @@ title: "validation"
 
 # validation
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 An action an agent (of a principal) performs to determine whether a digital object or set of data meets the requirements of a specific party.
 

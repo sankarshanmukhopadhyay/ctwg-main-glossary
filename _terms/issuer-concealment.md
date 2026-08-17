@@ -6,6 +6,9 @@ title: "issuer concealment"
 
 # issuer concealment
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A privacy property in which a proof or presentation does not disclose the identity of the issuer to the verifier, subject to the requirements and trust model of the applicable profile.
 

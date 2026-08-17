@@ -6,6 +6,9 @@ title: "scope"
 
 # scope
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 In the context of terminology, scope refers to the set of possible concepts within which: a) a specific term is intended to uniquely identify a concept, or b) a specific glossary is intended to identify a set of concepts. In the context of identification, scope refers to the set of possible entities within which a specific entity must be uniquely identified. In the context of specifications, scope refers to the set of problems (the problem space) within which the specification is intended to specify solutions.
 

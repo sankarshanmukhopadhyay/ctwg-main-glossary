@@ -6,6 +6,9 @@ title: "streaming-media"
 
 # streaming-media
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 Streaming media is multimedia for playback using an offline or online media player. Technically, the stream is delivered and consumed in a continuous manner from a client, with little or no intermediate storage in network elements. Streaming refers to the delivery method of content, rather than the content itself.
 

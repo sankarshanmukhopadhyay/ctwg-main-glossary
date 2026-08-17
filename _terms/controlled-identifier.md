@@ -6,6 +6,9 @@ title: "controlled-identifier"
 
 # controlled-identifier
 
+## In Simple English
+An identifier whose controller can be discovered through an associated controlled identifier document containing verification material and service endpoints.
+
 ## Definition
 An identifier whose controller can be discovered through an associated controlled identifier document containing verification material and service endpoints.
 

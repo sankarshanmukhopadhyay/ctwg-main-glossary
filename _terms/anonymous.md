@@ -6,6 +6,9 @@ title: "anonymous"
 
 # anonymous
 
+## In Simple English
+An adjective describing when the identity of a natural person or other actor is unknown.
+
 ## Definition
 An adjective describing when the identity of a natural person or other actor is unknown.
 

@@ -44,3 +44,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: Established by a trusted party offering identity-assurance.

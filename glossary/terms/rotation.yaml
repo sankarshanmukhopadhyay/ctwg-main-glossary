@@ -5,8 +5,7 @@ aliases:
 - key-rotation
 - rotation event
 - key rotation
-definition: a change of the key state, including a change to the set of authoritative
-  key pairs for an identifier AID.
+definition: a change of the key state, including a change to the set of authoritative key pairs for an identifier AID.
 notes: []
 see_also:
 - governance
@@ -49,3 +48,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: a change of the key state, including a change to the set of authoritative key pairs for an identifier AID.

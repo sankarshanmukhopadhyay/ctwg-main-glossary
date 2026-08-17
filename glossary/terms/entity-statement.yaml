@@ -1,12 +1,9 @@
 term: entity-statement
 aliases:
 - entity statement
-definition: A signed statement in OpenID Federation that describes metadata, authority,
-  and trust relationships for a federation entity.
-reader_note: This term is part of the v1.2.0 standards-linked refresh and is anchored
-  to active implementation vocabulary.
-implementation_relevance: Use this term when mapping glossary language to implementation
-  profiles, governance controls, conformance checks, or assurance evidence.
+definition: A signed statement in OpenID Federation that describes metadata, authority, and trust relationships for a federation entity.
+reader_note: This term is part of the v1.2.0 standards-linked refresh and is anchored to active implementation vocabulary.
+implementation_relevance: Use this term when mapping glossary language to implementation profiles, governance controls, conformance checks, or assurance evidence.
 notes: []
 see_also:
 - openid-federation
@@ -54,3 +51,4 @@ control_plane:
 crosswalk:
   openid:
   - OpenID Federation 1.0
+simple_definition: A signed statement in OpenID Federation that describes metadata, authority, and trust relationships for a federation entity.

@@ -6,6 +6,9 @@ title: "trust-application-layer"
 
 # trust-application-layer
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 In the context of the ToIP stack, the trust application layer is ToIP Layer 4. Applications running at this layer call trust task protocols at ToIP Layer 3.
 

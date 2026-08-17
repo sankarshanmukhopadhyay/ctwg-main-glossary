@@ -50,3 +50,4 @@ control_plane:
 crosswalk:
   nist:
   - SP 800-63-4
+simple_definition: 'See: authenticator assurance level.'

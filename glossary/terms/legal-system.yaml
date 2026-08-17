@@ -2,10 +2,7 @@ term: legal-system
 aliases:
 - legal system
 - legal systems
-definition: A system in which policies and rules are defined, and mechanisms for their
-  enforcement and conflict resolution are (implicitly or explicitly) specified. Legal
-  systems are not just defined by governments; they can also be defined by a governance
-  framework.
+definition: A system in which policies and rules are defined, and mechanisms for their enforcement and conflict resolution are (implicitly or explicitly) specified. Legal systems are not just defined by governments; they can also be defined by a governance framework.
 notes: []
 see_also:
 - policy

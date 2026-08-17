@@ -6,6 +6,9 @@ title: "schema"
 
 # schema
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A framework, pattern, or set of rules for enforcing a specific structure on a digital object or a set of digital data. There are many types of schemas, e.g., data schema, credential verification schema, database schema.
 

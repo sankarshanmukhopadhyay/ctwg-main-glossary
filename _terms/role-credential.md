@@ -6,6 +6,9 @@ title: "role-credential"
 
 # role-credential
 
+## In Simple English
+A credential claiming that the subject has a specific role.
+
 ## Definition
 A credential claiming that the subject has a specific role.
 

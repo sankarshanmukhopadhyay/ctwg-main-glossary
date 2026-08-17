@@ -2,10 +2,7 @@ term: toip-stack
 aliases:
 - ToIP stack
 - ToIP stacks
-definition: 'The layered architecture for decentralized digital trust infrastructure
-  defined by the ToIP Foundation. The ToIP stack is a dual stack consisting of two
-  halves: the ToIP Technology Stack and the ToIP Governance Stack. The four layers
-  in the ToIP stack are ToIP Layer 1, ToIP Layer 2, ToIP Layer 3, and ToIP Layer 4.'
+definition: 'The layered architecture for decentralized digital trust infrastructure defined by the ToIP Foundation. The ToIP stack is a dual stack consisting of two halves: the ToIP Technology Stack and the ToIP Governance Stack. The four layers in the ToIP stack are ToIP Layer 1, ToIP Layer 2, ToIP Layer 3, and ToIP Layer 4.'
 notes: []
 see_also:
 - governance
@@ -18,8 +15,7 @@ sources:
 - 'ToIP CTWG maintained glossary source: `spec/terms-definitions/toip-stack.md`'
 mental_models: []
 supporting_definitions:
-- 'For more information, see: [[ref: ToIP Technology Architecture Specification]],
-  [[ref: ToIP Governance Architecture Specification]].'
+- 'For more information, see: [[ref: ToIP Technology Architecture Specification]], [[ref: ToIP Governance Architecture Specification]].'
 source_file: spec/terms-definitions/toip-stack.md
 governance_profile: core-operational
 governance:

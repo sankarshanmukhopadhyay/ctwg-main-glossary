@@ -2,13 +2,21 @@
 
 [![Validate Governance-Executable Glossary](https://github.com/sankarshanmukhopadhyay/ctwg-main-glossary/actions/workflows/validate-governance-glossary.yml/badge.svg)](https://github.com/sankarshanmukhopadhyay/ctwg-main-glossary/actions/workflows/validate-governance-glossary.yml)
 [![Pages](https://github.com/sankarshanmukhopadhyay/ctwg-main-glossary/actions/workflows/pages.yml/badge.svg)](https://github.com/sankarshanmukhopadhyay/ctwg-main-glossary/actions/workflows/pages.yml)
-![Terms](https://img.shields.io/badge/terms-599-blue)
+![Terms](https://img.shields.io/badge/terms-612-blue)
 ![Quality](https://img.shields.io/badge/quality-100.0%2F100-brightgreen)
 ![License](https://img.shields.io/badge/license-OWFa%201.0-blue)
 
 The ToIP Main Glossary is a **governance-executable terminology repository**. It publishes a human-readable GitHub Pages glossary while also producing machine-readable artifacts that describe authority, delegation, revocation, lifecycle state, evidence, auditability, and control-plane relevance for each structured term.
 
-Version `v1.4.1` fixes duplicated GitHub Pages navigation, normalizes glossary display-term casing, and adds publication-integrity checks that prevent the same defects from recurring.
+Version `v1.5.0` adds a plain-English comprehension layer, topic-based navigation, and cross-project vocabulary for agent governance, assurance, interoperability, harms, recognition, redress, and executable policy.
+
+
+## Reader-first navigation
+
+- [Start Here](start-here.md) routes readers by task.
+- [Concepts by Topic](concepts.md) groups high-value vocabulary by the problems readers are trying to solve.
+- Generated term pages show **In Simple English** before the formal definition when a curated `simple_definition` is available.
+- [Plain-English Authoring Guide](governance/plain-language-guide.md) defines the editorial standard and migration approach.
 
 ## Repository operating model
 
@@ -76,13 +84,13 @@ Use `generated/json/artifact-manifest.json` to discover the current machine-read
 
 ## Current assurance-readiness posture
 
-The current generated quality report evaluates all 599 structured terms and reports:
+The current generated quality report evaluates all 612 structured terms and reports:
 
 - quality score: `100.0 / 100`;
 - total findings: `0`;
-- terms with source coverage: `599`;
-- terms with `see_also` coverage: `599`;
-- terms with evidence coverage: `599`; and
+- terms with source coverage: `612`;
+- terms with `see_also` coverage: `612`;
+- terms with evidence coverage: `612`; and
 - revocation-supported terms with revocation-relevant evidence: `149`.
 
 This score is not a certification claim. It means that all checks currently implemented by `tools/build_quality_report.py` have been satisfied and that the glossary has no open generated quality-report findings under the current assurance-readiness rubric.

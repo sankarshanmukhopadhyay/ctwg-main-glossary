@@ -1,8 +1,7 @@
 term: three-party-model
 aliases:
 - three party model
-definition: The issuer—holder—verifier model used by all types of physical credentials
-  and digital credentials to enable transitive trust decisions.
+definition: The issuer—holder—verifier model used by all types of physical credentials and digital credentials to enable transitive trust decisions.
 notes: []
 see_also:
 - credential
@@ -54,3 +53,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: The issuer—holder—verifier model used by all types of physical credentials and digital credentials to enable transitive trust decisions.

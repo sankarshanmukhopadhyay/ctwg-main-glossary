@@ -6,6 +6,9 @@ title: "specification"
 
 # specification
 
+## In Simple English
+See: technical specification.
+
 ## Definition
 See: technical specification.
 

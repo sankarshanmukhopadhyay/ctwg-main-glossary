@@ -2,9 +2,7 @@ term: reputation
 aliases:
 - reputation
 - reputations
-definition: The beliefs or opinions that are generally held about an entity, typically
-  developed as a result of social evaluation on a set of criteria, such as behavior,
-  performance, or trustworthiness.
+definition: The beliefs or opinions that are generally held about an entity, typically developed as a result of social evaluation on a set of criteria, such as behavior, performance, or trustworthiness.
 notes: []
 see_also:
 - glossary

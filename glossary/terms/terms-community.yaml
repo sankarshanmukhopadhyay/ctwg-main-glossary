@@ -39,3 +39,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: A group of parties who share the need for a common terminology.

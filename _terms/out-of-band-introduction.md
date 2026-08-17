@@ -6,6 +6,9 @@ title: "out-of-band-introduction"
 
 # out-of-band-introduction
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A process by which two or more entities exchange VIDs in order to form a cryptographically verifiable connection (e.g., a ToIP connection), such as by scanning a QR code (in person or remotely) or clicking a deep link.
 

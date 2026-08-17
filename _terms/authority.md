@@ -6,6 +6,9 @@ title: "authority"
 
 # authority
 
+## In Simple English
+The recognized right or power to make a decision, grant permission, impose a rule, or act within a defined scope.
+
 ## Definition
 A party whose decisions, policies, rules, or recognition outcomes are accepted as governing, directive, or controlling by other parties within a defined scope.
 

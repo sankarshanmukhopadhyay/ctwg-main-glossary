@@ -6,6 +6,9 @@ title: "concept"
 
 # concept
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 An abstract idea that enables the classification of entities, i.e., a mental construct that enables an instance of a class of entities to be distinguished from entities that are not an instance of that class. A concept can be identified with a term.
 

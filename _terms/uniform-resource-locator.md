@@ -6,6 +6,9 @@ title: "uniform-resource-locator"
 
 # uniform-resource-locator
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A Uniform Resource Locator (URL) is the standard form of a Web address used to link resources in browsers and other Internet applications. Technically, it is a specific type of Uniform Resource Identifier (URI).
 

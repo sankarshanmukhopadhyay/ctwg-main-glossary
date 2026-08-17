@@ -6,6 +6,9 @@ title: "kms"
 
 # kms
 
+## In Simple English
+See: key management system.
+
 ## Definition
 See: key management system.
 

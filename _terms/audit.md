@@ -6,6 +6,9 @@ title: "audit"
 
 # audit
 
+## In Simple English
+Independent review and examination of records and activities to assess the adequacy of system controls, to ensure compliance with established policies and operational procedures.
+
 ## Definition
 Independent review and examination of records and activities to assess the adequacy of system controls, to ensure compliance with established policies and operational procedures.
 

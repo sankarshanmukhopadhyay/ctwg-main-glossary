@@ -6,6 +6,9 @@ title: "transport-layer-security"
 
 # transport-layer-security
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 Transport Layer Security (TLS) is a cryptographic protocol designed to provide communications security over a computer network. The protocol is widely used in applications such as email, instant messaging, and Voice over IP, but its use in securing HTTPS remains the most publicly visible. The TLS protocol aims primarily to provide security, including privacy (confidentiality), integrity, and authenticity through the use of cryptography, such as the use of certificates, between two or more communicating computer applications.
 

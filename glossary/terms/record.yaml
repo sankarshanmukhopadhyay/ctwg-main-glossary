@@ -46,3 +46,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: A uniquely identifiable entry or listing in a database or registry.

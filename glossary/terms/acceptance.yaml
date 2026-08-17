@@ -3,8 +3,7 @@ aliases:
 - acceptance
 - accept
 - accepts
-definition: The action of a party receiving any form of verifiable data and using
-  it to make a trust decision.
+definition: The action of a party receiving any form of verifiable data and using it to make a trust decision.
 notes: []
 see_also:
 - acceptance network.
@@ -45,3 +44,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: The action of a party receiving any form of verifiable data and using it to make a trust decision.

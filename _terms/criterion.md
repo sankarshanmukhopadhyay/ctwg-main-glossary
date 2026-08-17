@@ -6,6 +6,9 @@ title: "criterion"
 
 # criterion
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 In the context of terminology, a written description of a concept that anyone can evaluate to determine whether or not an entity is an instance or example of that concept. Evaluation leads to a yes/no result.
 

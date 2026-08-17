@@ -2,8 +2,7 @@ term: capability
 aliases:
 - capability
 - capabilities
-definition: The ability or permission for an actor or agent to perform a specific
-  action on behalf of a party within a defined scope and subject to applicable constraints.
+definition: The ability or permission for an actor or agent to perform a specific action on behalf of a party within a defined scope and subject to applicable constraints.
 notes: []
 see_also:
 - delegation

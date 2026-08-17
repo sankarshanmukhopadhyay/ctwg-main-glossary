@@ -6,6 +6,9 @@ title: "did-document"
 
 # did-document
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A set of data describing the DID subject, including mechanisms, such as cryptographic public keys, that the DID subject or a DID delegate can use to authenticate itself and prove its association with the DID. A DID document might have one or more different representations as defined in section 6 of the W3C Decentralized Identifiers (DIDs) 1.0 specification.
 

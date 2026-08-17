@@ -6,6 +6,9 @@ title: "governance"
 
 # governance
 
+## In Simple English
+The rules, roles, decision rights, and processes used to direct and control a system or community.
+
 ## Definition
 The act or process of governing or overseeing the realization of (the results associated with) a set of objectives by the owner of these objectives, in order to ensure they will be fit for the purposes that this owner intends to use them for.
 

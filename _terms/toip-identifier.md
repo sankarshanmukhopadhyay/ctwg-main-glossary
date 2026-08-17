@@ -6,6 +6,9 @@ title: "toip-identifier"
 
 # toip-identifier
 
+## In Simple English
+A verifiable identifier (VID) for an entity that is addressable using the ToIP stack.
+
 ## Definition
 A verifiable identifier (VID) for an entity that is addressable using the ToIP stack.
 

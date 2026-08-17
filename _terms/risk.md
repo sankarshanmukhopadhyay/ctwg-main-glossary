@@ -6,6 +6,9 @@ title: "risk"
 
 # risk
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 The effects that uncertainty (i.e. a lack of information, understanding or knowledge of events, their consequences or likelihoods) can have on the intended realization of an objective of a party.
 

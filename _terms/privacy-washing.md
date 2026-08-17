@@ -6,6 +6,9 @@ title: "privacy-washing"
 
 # privacy-washing
 
+## In Simple English
+De-identification so that it provides a personal data safe harbour and could be legally acceptable forwarded.
+
 ## Definition
 De-identification so that it provides a personal data safe harbour and could be legally acceptable forwarded.
 

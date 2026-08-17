@@ -6,6 +6,9 @@ title: "encrypted-data-vault"
 
 # encrypted-data-vault
 
+## In Simple English
+See: digital vault.
+
 ## Definition
 See: digital vault.
 

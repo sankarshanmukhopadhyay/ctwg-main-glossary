@@ -6,6 +6,9 @@ title: "uniform-resource-identifier"
 
 # uniform-resource-identifier
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A Uniform Resource Identifier (URI) is the generic standard for all types of identifiers used to link resources in the World Wide Web. The most common type of a URI is a URL (Uniform Resource Locator). The URI standard is defined by IETF RFC 3986. URNs (Uniform Resource Names) are another type of URIs intended for persistent identifiers.
 

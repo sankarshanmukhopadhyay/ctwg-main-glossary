@@ -6,6 +6,9 @@ title: "trust-assurance"
 
 # trust-assurance
 
+## In Simple English
+A process that provides a level of assurance sufficient to make a particular trust decision.
+
 ## Definition
 A process that provides a level of assurance sufficient to make a particular trust decision.
 

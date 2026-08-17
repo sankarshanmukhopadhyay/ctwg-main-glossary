@@ -6,6 +6,9 @@ title: "identity-binding"
 
 # identity-binding
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 The process of associating a set of identity data, such as a credential, with its subject, such as a natural person. The strength of an identity binding is one factor in determining an authenticator assurance level.
 

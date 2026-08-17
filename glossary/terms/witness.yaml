@@ -2,11 +2,7 @@ term: witness
 aliases:
 - witness
 - witnesses
-definition: A computer system that receives, verifies, and stores proofs of key events
-  for a verifiable identifier (especially an autonomic identifier). Each witness controls
-  its own verifiable identifier used to sign key event messages stored by the witness.
-  A witness may use any suitable computer system or database architecture, including
-  a file, centralized database, distributed database, distributed ledger, or blockchain.
+definition: A computer system that receives, verifies, and stores proofs of key events for a verifiable identifier (especially an autonomic identifier). Each witness controls its own verifiable identifier used to sign key event messages stored by the witness. A witness may use any suitable computer system or database architecture, including a file, centralized database, distributed database, distributed ledger, or blockchain.
 notes:
 - KERI is an example of a key management system that uses witnesses.
 see_also:

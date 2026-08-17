@@ -6,6 +6,9 @@ title: "transitive-trust-decision"
 
 # transitive-trust-decision
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A trust decision made by a first party about a second party or another entity based on information about the second party or the other entity that is obtained from one or more third parties.
 

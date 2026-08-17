@@ -6,6 +6,9 @@ title: "address"
 
 # address
 
+## In Simple English
+See: network address.
+
 ## Definition
 See: network address.
 

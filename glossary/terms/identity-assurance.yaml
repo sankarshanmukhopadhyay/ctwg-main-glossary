@@ -2,9 +2,7 @@ term: identity-assurance
 aliases:
 - identity assurance
 - identity-assurance
-definition: The heavy-lifting to be done by a trusted (middle-man) party to establish
-  - and then offer reputational trust. An example of such a party is [[xref:keri1,
-  GLEIF]]. Instead, KERI is for attributional-trust. In the real world you need both.
+definition: The heavy-lifting to be done by a trusted (middle-man) party to establish - and then offer reputational trust. An example of such a party is [[xref:keri1, GLEIF]]. Instead, KERI is for attributional-trust. In the real world you need both.
 notes: []
 see_also:
 - audit

@@ -6,6 +6,9 @@ title: "governed-use-case"
 
 # governed-use-case
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A use case specified in a governance document that results in specific governance requirements within that governance framework. Governed use cases may optionally be discovered via a trust registry authorized by the relevant governance framework.
 

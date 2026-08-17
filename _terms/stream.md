@@ -6,6 +6,9 @@ title: "stream"
 
 # stream
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 In the context of digital communications, and in particular streaming media, a flow of data delivered in a continuous manner from a server to a client rather than in discrete messages.
 

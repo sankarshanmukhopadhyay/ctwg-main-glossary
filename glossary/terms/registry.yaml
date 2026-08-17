@@ -2,8 +2,7 @@ term: registry
 aliases:
 - registry
 - registries
-definition: A specialized database of records that serves as an authoritative source
-  of information about entities.
+definition: A specialized database of records that serves as an authoritative source of information about entities.
 notes: []
 see_also:
 - trust registry.
@@ -45,3 +44,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: A maintained collection of records used to look up information about defined subjects or relationships.

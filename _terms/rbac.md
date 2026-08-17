@@ -6,6 +6,9 @@ title: "rbac"
 
 # rbac
 
+## In Simple English
+See: role-based access control.
+
 ## Definition
 See: role-based access control.
 

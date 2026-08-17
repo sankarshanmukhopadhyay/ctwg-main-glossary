@@ -6,6 +6,9 @@ title: "toip"
 
 # toip
 
+## In Simple English
+See: Trust Over IP
+
 ## Definition
 See: Trust Over IP
 

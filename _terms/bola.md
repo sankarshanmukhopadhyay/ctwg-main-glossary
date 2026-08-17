@@ -6,6 +6,9 @@ title: "bola"
 
 # bola
 
+## In Simple English
+See broken-object-level-authorization
+
 ## Definition
 See broken-object-level-authorization
 

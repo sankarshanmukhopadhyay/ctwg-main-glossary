@@ -44,3 +44,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: The result of applying a hash function to a message.

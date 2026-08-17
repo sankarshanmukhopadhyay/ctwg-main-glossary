@@ -6,6 +6,9 @@ title: "private-key"
 
 # private-key
 
+## In Simple English
+In public key cryptography, the cryptographic key which must be kept secret by the controller in order to maintain security.
+
 ## Definition
 In public key cryptography, the cryptographic key which must be kept secret by the controller in order to maintain security.
 

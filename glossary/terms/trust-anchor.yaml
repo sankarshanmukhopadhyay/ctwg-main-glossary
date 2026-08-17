@@ -51,3 +51,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: The authoritative source that serves as the origin of a trust chain.

@@ -6,6 +6,9 @@ title: "proof-of-personhood"
 
 # proof-of-personhood
 
+## In Simple English
+Evidence used to support a claim that a participant is a real, distinct person for a particular purpose.
+
 ## Definition
 Proof of personhood (PoP) is a means of resisting malicious attacks on peer-to-peer networks, particularly, attacks that utilize multiple fake identities, otherwise known as a Sybil attack. Decentralized online platforms are particularly vulnerable to such attacks by their very nature, as notionally democratic and responsive to large voting blocks. In PoP, each unique human participant obtains one equal unit of voting power, and any associated rewards.
 

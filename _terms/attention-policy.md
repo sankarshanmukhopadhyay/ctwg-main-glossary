@@ -6,6 +6,9 @@ title: "attention policy"
 
 # attention policy
 
+## In Simple English
+A policy that governs how inbound signals are admitted, deferred, summarized, rerouted, escalated, or rejected before reaching a principal or downstream decision layer.
+
 ## Definition
 A policy that governs how inbound signals are admitted, deferred, summarized, rerouted, escalated, or rejected before reaching a principal or downstream decision layer.
 

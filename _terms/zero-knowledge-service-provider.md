@@ -6,6 +6,9 @@ title: "zero-knowledge-service-provider"
 
 # zero-knowledge-service-provider
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 The provider of a zero-knowledge service that hosts encrypted data on behalf of the principal but does not have access to the private keys in order to be able to decrypt it.
 

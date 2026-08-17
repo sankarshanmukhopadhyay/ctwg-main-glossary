@@ -6,6 +6,9 @@ title: "transaction"
 
 # transaction
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A discrete event between a user and a system that supports a business or programmatic purpose. A digital system may have multiple categories or types of transactions, which may require separate analysis within the overall digital identity risk assessment.
 

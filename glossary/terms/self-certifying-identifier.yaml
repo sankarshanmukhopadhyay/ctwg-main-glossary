@@ -4,9 +4,7 @@ aliases:
 - self-certifying identifiers
 - SCID
 - SCIDs
-definition: A subclass of verifiable identifier (VID) that is cryptographically verifiable
-  without the need to rely on any third party for verification because the identifier
-  is cryptographically bound to the cryptographic keys from which it was generated.
+definition: A subclass of verifiable identifier (VID) that is cryptographically verifiable without the need to rely on any third party for verification because the identifier is cryptographically bound to the cryptographic keys from which it was generated.
 notes: []
 see_also:
 - autonomic-identifier

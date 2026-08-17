@@ -2,8 +2,7 @@ term: validation
 aliases:
 - validation
 - validity
-definition: An action an agent (of a principal) performs to determine whether a digital
-  object or set of data meets the requirements of a specific party.
+definition: An action an agent (of a principal) performs to determine whether a digital object or set of data meets the requirements of a specific party.
 notes: []
 see_also:
 - verification.
@@ -11,13 +10,8 @@ sources:
 - 'ToIP CTWG maintained glossary source: `spec/terms-definitions/validation.md`'
 mental_models: []
 supporting_definitions:
-- '[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#validate):
-  The act, by or on behalf of a [party](https://essif-lab.github.io/framework/docs/terms/party),
-  of determining whether or not that data is valid to be used for some specific purpose(s)
-  of that [party](https://essif-lab.github.io/framework/docs/terms/party).'
-- '[NIST](https://csrc.nist.gov/glossary/term/validation)Confirmation, through the
-  provision of objective evidence, that the requirements for a specific intended use
-  or application have been fulfilled.'
+- '[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#validate): The act, by or on behalf of a [party](https://essif-lab.github.io/framework/docs/terms/party), of determining whether or not that data is valid to be used for some specific purpose(s) of that [party](https://essif-lab.github.io/framework/docs/terms/party).'
+- '[NIST](https://csrc.nist.gov/glossary/term/validation)Confirmation, through the provision of objective evidence, that the requirements for a specific intended use or application have been fulfilled.'
 source_file: spec/terms-definitions/validation.md
 governance_profile: core-operational
 governance:

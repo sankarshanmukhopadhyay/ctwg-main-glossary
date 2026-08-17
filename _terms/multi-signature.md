@@ -6,6 +6,9 @@ title: "multi-signature"
 
 # multi-signature
 
+## In Simple English
+A cryptographic signature scheme where the process of signing information (e.g., a transaction) is distributed among multiple private keys.
+
 ## Definition
 A cryptographic signature scheme where the process of signing information (e.g., a transaction) is distributed among multiple private keys.
 

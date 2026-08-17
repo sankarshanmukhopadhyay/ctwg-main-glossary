@@ -6,6 +6,9 @@ title: "attributional-trust"
 
 # attributional-trust
 
+## In Simple English
+KERI offers cryptographic root-of-trust to establish attributional trust. In the real world you'd also need reputational-trust. You can't have reputation without attributional trust.
+
 ## Definition
 KERI offers cryptographic root-of-trust to establish attributional trust. In the real world you'd also need reputational-trust. You can't have reputation without attributional trust.
 

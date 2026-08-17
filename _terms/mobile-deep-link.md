@@ -6,6 +6,9 @@ title: "mobile-deep-link"
 
 # mobile-deep-link
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 In the context of mobile apps, deep linking consists of using a uniform resource identifier (URI) that links to a specific location within a mobile app rather than simply launching the app. Deferred deep linking allows users to deep link to content even if the app is not already installed. Depending on the mobile device platform, the URI required to trigger the app may be different.
 

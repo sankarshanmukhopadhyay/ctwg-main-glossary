@@ -6,6 +6,9 @@ title: "user-datagram-protocol"
 
 # user-datagram-protocol
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 In computer networking, the User Datagram Protocol (UDP) is one of the core communication protocols of the Internet protocol suite used to send messages (transported as datagrams in packets) to other hosts on an Internet Protocol (IP) network. Within an IP network, UDP does not require prior communication to set up communication channels or data paths.
 

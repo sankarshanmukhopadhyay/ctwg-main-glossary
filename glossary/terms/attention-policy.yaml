@@ -57,3 +57,4 @@ control_plane:
   - delegation_record
   - status_record
   - verification_log
+simple_definition: A policy that governs how inbound signals are admitted, deferred, summarized, rerouted, escalated, or rejected before reaching a principal or downstream decision layer.

@@ -6,6 +6,9 @@ title: "channel"
 
 # channel
 
+## In Simple English
+See: communication channel.
+
 ## Definition
 See: communication channel.
 

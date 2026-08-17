@@ -2,8 +2,7 @@ term: primary-document
 aliases:
 - primary document
 - primary documents
-definition: The governance document at the root of a governance framework. The primary
-  document specifies the other controlled documents in the governance framework.
+definition: The governance document at the root of a governance framework. The primary document specifies the other controlled documents in the governance framework.
 notes: []
 see_also:
 - policy
@@ -45,3 +44,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: The governance document at the root of a governance framework. The primary document specifies the other controlled documents in the governance framework.

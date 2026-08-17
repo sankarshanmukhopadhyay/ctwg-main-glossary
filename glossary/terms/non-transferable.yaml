@@ -2,8 +2,7 @@ term: non-transferable
 aliases:
 - non-transferable
 - non transferable
-definition: No transferable (the control over) a certain digital asset in an unobstructed
-  or loss-less manner. As opposed to transferable.
+definition: No transferable (the control over) a certain digital asset in an unobstructed or loss-less manner. As opposed to transferable.
 notes: []
 see_also:
 - glossary
@@ -46,3 +45,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: No transferable (the control over) a certain digital asset in an unobstructed or loss-less manner. As opposed to transferable.

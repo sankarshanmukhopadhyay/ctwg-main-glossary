@@ -6,6 +6,9 @@ title: "digital-credential"
 
 # digital-credential
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A credential in digital form that is signed with a digital signature and held in a digital wallet. A digital credential is issued to a holder by an issuer; a proof of the credential is presented by the holder to a verifier.
 

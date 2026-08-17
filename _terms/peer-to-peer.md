@@ -6,6 +6,9 @@ title: "peer-to-peer"
 
 # peer-to-peer
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 Peer-to-peer (P2P) computing or networking is a distributed application architecture that partitions tasks or workloads between peers. Peers are equally privileged, equipotent participants in the network. This forms a peer-to-peer network of nodes.
 

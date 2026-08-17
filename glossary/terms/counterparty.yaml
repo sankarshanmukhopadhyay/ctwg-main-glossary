@@ -2,8 +2,7 @@ term: counterparty
 aliases:
 - counterparty
 - counterparties
-definition: From the perspective of one party, the other party in a transaction, such
-  as a financial transaction.
+definition: From the perspective of one party, the other party in a transaction, such as a financial transaction.
 notes: []
 see_also:
 - first party
@@ -13,11 +12,7 @@ sources:
 - 'ToIP CTWG maintained glossary source: `spec/terms-definitions/counterparty.md`'
 mental_models: []
 supporting_definitions:
-- '[Wikipedia](https://en.wikipedia.org/wiki/Counterparty): A counterparty (sometimes
-  contraparty) is a [legal entity](https://en.wikipedia.org/wiki/Juristic_person),
-  [unincorporated entity](https://en.wikipedia.org/wiki/Unincorporated_entity), or
-  collection of entities to which an exposure of [financial risk](https://en.wikipedia.org/wiki/Financial_risk)
-  may exist.'
+- '[Wikipedia](https://en.wikipedia.org/wiki/Counterparty): A counterparty (sometimes contraparty) is a [legal entity](https://en.wikipedia.org/wiki/Juristic_person), [unincorporated entity](https://en.wikipedia.org/wiki/Unincorporated_entity), or collection of entities to which an exposure of [financial risk](https://en.wikipedia.org/wiki/Financial_risk) may exist.'
 source_file: spec/terms-definitions/counterparty.md
 governance_profile: descriptive
 governance:
@@ -47,3 +42,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: From the perspective of one party, the other party in a transaction, such as a financial transaction.

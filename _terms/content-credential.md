@@ -6,6 +6,9 @@ title: "content-credential"
 
 # content-credential
 
+## In Simple English
+The user-facing C2PA term for provenance information represented by C2PA manifests associated with an asset.
+
 ## Definition
 The user-facing C2PA term for provenance information represented by C2PA manifests associated with an asset.
 

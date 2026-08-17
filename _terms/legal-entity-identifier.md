@@ -6,6 +6,9 @@ title: "legal-entity-identifier"
 
 # legal-entity-identifier
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 The Legal Entity Identifier (LEI) is a unique global identifier for legal entities participating in financial transactions. Also known as an LEI code or LEI number, its purpose is to help identify legal entities on a globally accessible database. Legal entities are organisations such as companies or government entities that participate in financial transactions.
 

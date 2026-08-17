@@ -57,3 +57,4 @@ control_plane:
   - delegation_record
   - status_record
   - verification_log
+simple_definition: A collected set of records that can be reviewed together to support or explain a decision, claim, control, or assurance result.

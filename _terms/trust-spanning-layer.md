@@ -6,6 +6,9 @@ title: "trust-spanning-layer"
 
 # trust-spanning-layer
 
+## In Simple English
+A spanning layer designed to span between different digital trust domains. In the ToIP stack, the trust spanning layer is ToIP Layer 2.
+
 ## Definition
 A spanning layer designed to span between different digital trust domains. In the ToIP stack, the trust spanning layer is ToIP Layer 2.
 

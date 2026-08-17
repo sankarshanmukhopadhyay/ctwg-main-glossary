@@ -2,9 +2,7 @@ term: public-key
 aliases:
 - public key
 - public keys
-definition: In public key cryptography, the cryptographic key that can be freely shared
-  with anyone by the controller without compromising security. A party's public key
-  must be verified as authoritative in order to verify their digital signature.
+definition: In public key cryptography, the cryptographic key that can be freely shared with anyone by the controller without compromising security. A party's public key must be verified as authoritative in order to verify their digital signature.
 notes: []
 see_also:
 - governance
@@ -17,8 +15,7 @@ sources:
 - 'ToIP CTWG maintained glossary source: `spec/terms-definitions/public-key.md`'
 mental_models: []
 supporting_definitions:
-- '[NIST-CSRC](https://csrc.nist.gov/glossary/term/public_key): The public part of
-  an asymmetric key pair that is typically used to verify signatures or encrypt data.'
+- '[NIST-CSRC](https://csrc.nist.gov/glossary/term/public_key): The public part of an asymmetric key pair that is typically used to verify signatures or encrypt data.'
 source_file: spec/terms-definitions/public-key.md
 governance_profile: core-operational
 governance:

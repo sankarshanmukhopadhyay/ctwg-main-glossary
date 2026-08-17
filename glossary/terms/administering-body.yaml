@@ -2,9 +2,7 @@ term: administering-body
 aliases:
 - administering body
 - administering bodies
-definition: A legal entity delegated by a governing body to administer the operation
-  of a governance framework and governed infrastructure for a digital trust ecosystem,
-  such as one or more trust registries.
+definition: A legal entity delegated by a governing body to administer the operation of a governance framework and governed infrastructure for a digital trust ecosystem, such as one or more trust registries.
 notes: []
 see_also:
 - policy

@@ -6,6 +6,9 @@ title: "level-of-assurance"
 
 # level-of-assurance
 
+## In Simple English
+See: assurance level.
+
 ## Definition
 See: assurance level.
 

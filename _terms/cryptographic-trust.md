@@ -6,6 +6,9 @@ title: "cryptographic-trust"
 
 # cryptographic-trust
 
+## In Simple English
+A specialized type of technical trust that is achieved using cryptographic algorithms.
+
 ## Definition
 A specialized type of technical trust that is achieved using cryptographic algorithms.
 

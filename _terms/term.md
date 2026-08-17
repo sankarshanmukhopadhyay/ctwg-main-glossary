@@ -6,6 +6,9 @@ title: "term"
 
 # term
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A unit of text (i.e., a word or phrase) that is used in a particular context or scope to refer to a concept (or a relation between concepts, or a property of a concept).
 

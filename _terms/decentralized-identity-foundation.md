@@ -6,6 +6,9 @@ title: "decentralized-identity-foundation"
 
 # decentralized-identity-foundation
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A non-profit project of the Linux Foundation chartered to develop the foundational components of an open, standards-based, decentralized identity ecosystem for people, organizations, apps, and devices.
 

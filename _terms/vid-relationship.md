@@ -6,6 +6,9 @@ title: "vid-relationship"
 
 # vid-relationship
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 The communications relationship formed between two VIDs using the ToIP Trust Spanning Protocol. A particular feature of this protocol is its ability to establish as many VID relationships as needed to establish different relationship contexts between the communicating entities.
 

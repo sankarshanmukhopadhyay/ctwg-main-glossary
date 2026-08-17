@@ -2,8 +2,7 @@ term: trust-relationship
 aliases:
 - trust relationship
 - trust relationships
-definition: A relationship between a party and an entity in which the party has decided
-  to trust the entity in one or more trust contexts up to a trust limit.
+definition: A relationship between a party and an entity in which the party has decided to trust the entity in one or more trust contexts up to a trust limit.
 notes: []
 see_also:
 - glossary
@@ -14,10 +13,7 @@ sources:
 - 'ToIP CTWG maintained glossary source: `spec/terms-definitions/trust-relationship.md`'
 mental_models: []
 supporting_definitions:
-- '[NIST](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-160v1r1.pdf):
-  An agreed upon relationship between two or more system elements that is governed
-  by criteria for secure interaction, behavior, and outcomes relative to the protection
-  of assets.'
+- '[NIST](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-160v1r1.pdf): An agreed upon relationship between two or more system elements that is governed by criteria for secure interaction, behavior, and outcomes relative to the protection of assets.'
 - 'For more information, see: [Design Principles for the ToIP Stack](https://trustoverip.org/our-work/design-principles/).'
 source_file: spec/terms-definitions/trust-relationship.md
 governance_profile: governance-supporting

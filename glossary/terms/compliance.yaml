@@ -6,10 +6,7 @@ aliases:
 - complied
 - complying
 - compliant
-definition: In the context of decentralized digital trust infrastructure, compliance
-  is the extent to which a system, actor, or party conforms to the requirements of
-  a regulation, governance framework, or trust framework that pertains to that particular
-  entity.
+definition: In the context of decentralized digital trust infrastructure, compliance is the extent to which a system, actor, or party conforms to the requirements of a regulation, governance framework, or trust framework that pertains to that particular entity.
 notes: []
 see_also:
 - governance-risk-management-compliance
@@ -19,9 +16,7 @@ sources:
 - 'ToIP CTWG maintained glossary source: `spec/terms-definitions/compliance.md`'
 mental_models: []
 supporting_definitions:
-- '[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#compliance):
-  The state of realization of a set of conformance criteria or normative framework
-  of a [party](https://essif-lab.github.io/framework/docs/terms/party).'
+- '[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#compliance): The state of realization of a set of conformance criteria or normative framework of a [party](https://essif-lab.github.io/framework/docs/terms/party).'
 source_file: spec/terms-definitions/compliance.md
 governance_profile: core-operational
 governance:

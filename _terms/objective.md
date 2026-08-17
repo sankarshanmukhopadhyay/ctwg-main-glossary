@@ -6,6 +6,9 @@ title: "objective"
 
 # objective
 
+## In Simple English
+Something toward which a party (its owner) directs effort (an aim, goal, or end of action).
+
 ## Definition
 Something toward which a party (its owner) directs effort (an aim, goal, or end of action).
 

@@ -6,6 +6,9 @@ title: "zero-knowledge-proof"
 
 # zero-knowledge-proof
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A specific kind of cryptographic proof that proves facts about data to a verifier without revealing the underlying data itself. A common example is proving that a person is over or under a specific age without revealing the person’s exact birthdate.
 

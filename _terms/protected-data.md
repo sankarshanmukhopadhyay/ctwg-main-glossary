@@ -6,6 +6,9 @@ title: "protected-data"
 
 # protected-data
 
+## In Simple English
+Data that is not publicly available but requires some type of access control to gain access.
+
 ## Definition
 Data that is not publicly available but requires some type of access control to gain access.
 

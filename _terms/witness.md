@@ -6,6 +6,9 @@ title: "witness"
 
 # witness
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A computer system that receives, verifies, and stores proofs of key events for a verifiable identifier (especially an autonomic identifier). Each witness controls its own verifiable identifier used to sign key event messages stored by the witness. A witness may use any suitable computer system or database architecture, including a file, centralized database, distributed database, distributed ledger, or blockchain.
 

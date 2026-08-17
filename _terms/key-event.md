@@ -6,6 +6,9 @@ title: "key-event"
 
 # key-event
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 An event in the history of the usage of a cryptographic key pair. There are multiple types of key events. The inception event is when the key pair is first generated. A rotation event is when the key pair is changed to a new key pair. In some key management systems (such as KERI), key events are tracked in a key event log.
 

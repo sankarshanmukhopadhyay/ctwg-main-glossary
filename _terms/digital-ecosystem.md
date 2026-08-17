@@ -6,6 +6,9 @@ title: "digital-ecosystem"
 
 # digital-ecosystem
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A digital ecosystem is a distributed, adaptive, open socio-technical system with properties of self-organization, scalability and sustainability inspired from natural ecosystems. Digital ecosystem models are informed by knowledge of natural ecosystems, especially for aspects related to competition and collaboration among diverse entities.
 

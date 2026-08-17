@@ -6,6 +6,9 @@ title: "fal"
 
 # fal
 
+## In Simple English
+See: federation assurance level.
+
 ## Definition
 See: federation assurance level.
 

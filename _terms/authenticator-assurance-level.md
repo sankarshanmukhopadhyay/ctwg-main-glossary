@@ -6,6 +6,9 @@ title: "authenticator-assurance-level"
 
 # authenticator-assurance-level
 
+## In Simple English
+A measure of the strength of an authentication mechanism and, therefore, the confidence in it.
+
 ## Definition
 A measure of the strength of an authentication mechanism and, therefore, the confidence in it.
 

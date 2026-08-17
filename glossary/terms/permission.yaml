@@ -57,3 +57,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: Authorization to perform some action on a system.

@@ -2,8 +2,7 @@ term: anycast-address
 aliases:
 - anycast address
 - anycast addresses
-definition: A network address (especially an IP address used for anycast routing of
-  network transmissions.
+definition: A network address (especially an IP address used for anycast routing of network transmissions.
 notes: []
 see_also:
 - glossary
@@ -41,3 +40,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: A network address (especially an IP address used for anycast routing of network transmissions.

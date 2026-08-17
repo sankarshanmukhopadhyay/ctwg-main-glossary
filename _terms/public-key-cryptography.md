@@ -6,6 +6,9 @@ title: "public-key-cryptography"
 
 # public-key-cryptography
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 Public key cryptography, or asymmetric cryptography, is the field of cryptographic systems that use pairs of related keys. Each key pair consists of a public key and a corresponding private key. Key pairs are generated with cryptographic algorithms based on mathematical problems termed one-way functions. Security of public key cryptography depends on keeping the private key secret; the public key can be openly distributed without compromising security.
 

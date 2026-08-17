@@ -6,6 +6,9 @@ title: "toip-relationship"
 
 # toip-relationship
 
+## In Simple English
+A VID-to-VID relationship formed between two entities over the ToIP Trust Spanning Protocol.
+
 ## Definition
 A VID-to-VID relationship formed between two entities over the ToIP Trust Spanning Protocol.
 

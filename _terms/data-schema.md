@@ -6,6 +6,9 @@ title: "data-schema"
 
 # data-schema
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A description of the structure of a digital document or object, typically expressed in a machine-readable language in terms of constraints on the structure and content of documents or objects of that type. A credential schema is a particular type of data schema.
 

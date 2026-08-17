@@ -6,6 +6,9 @@ title: "zero-trust-architecture"
 
 # zero-trust-architecture
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A network security architecture based on the core design principle “never trust, always verify”, so that all actors are denied access to resources pending verification.
 

@@ -6,6 +6,9 @@ title: "toip-message"
 
 # toip-message
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A message communicated between ToIP endpoints using the ToIP stack. ToIP messages are transmitted over the ToIP Trust Spanning Protocol (TSP) at Layer 2 of the ToIP stack.
 

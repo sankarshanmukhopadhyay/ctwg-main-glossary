@@ -1,12 +1,7 @@
 term: unicast
 aliases:
 - unicast
-definition: In computer networking, unicast is a one-to-one transmission from one
-  point in the network to another point; that is, one sender and one receiver, each
-  identified by a network address (a unicast address). Unicast is in contrast to multicast
-  and broadcast which are one-to-many transmissions. Internet Protocol unicast delivery
-  methods such as Transmission Control Protocol (TCP) and User Datagram Protocol (UDP)
-  are typically used.
+definition: In computer networking, unicast is a one-to-one transmission from one point in the network to another point; that is, one sender and one receiver, each identified by a network address (a unicast address). Unicast is in contrast to multicast and broadcast which are one-to-many transmissions. Internet Protocol unicast delivery methods such as Transmission Control Protocol (TCP) and User Datagram Protocol (UDP) are typically used.
 notes: []
 see_also:
 - anycast.

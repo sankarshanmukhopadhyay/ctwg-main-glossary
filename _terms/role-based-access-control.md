@@ -6,6 +6,9 @@ title: "role-based-access-control"
 
 # role-based-access-control
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 Access control based on user roles (i.e., a collection of access authorizations a user receives based on an explicit or implicit assumption of a given role). Role permissions may be inherited through a role hierarchy and typically reflect the permissions needed to perform defined functions within an organization. A given role may apply to a single individual or to several individuals.
 

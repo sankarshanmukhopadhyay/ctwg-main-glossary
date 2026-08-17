@@ -6,6 +6,9 @@ title: "aggregation amplification"
 
 # aggregation amplification
 
+## In Simple English
+A delegation failure mode in which individually valid and attenuated authority branches combine to produce an effect broader than the originating mandate permits.
+
 ## Definition
 A delegation failure mode in which individually valid and attenuated authority branches combine to produce an effect broader than the originating mandate permits.
 

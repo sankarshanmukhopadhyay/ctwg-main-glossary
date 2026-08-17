@@ -1,13 +1,7 @@
 term: broadcast
 aliases:
 - broadcast
-definition: In computer networking, telecommunication and information theory, broadcasting
-  is a method of transferring a message to all recipients simultaneously. Broadcast
-  delivers a message to all nodes in the network using a one-to-all association; a
-  single datagram (or packet) from one sender is routed to all of the possibly multiple
-  endpoints associated with the broadcast address. The network automatically replicates
-  datagrams as needed to reach all the recipients within the scope of the broadcast,
-  which is generally an entire network subnet.
+definition: In computer networking, telecommunication and information theory, broadcasting is a method of transferring a message to all recipients simultaneously. Broadcast delivers a message to all nodes in the network using a one-to-all association; a single datagram (or packet) from one sender is routed to all of the possibly multiple endpoints associated with the broadcast address. The network automatically replicates datagrams as needed to reach all the recipients within the scope of the broadcast, which is generally an entire network subnet.
 notes: []
 see_also:
 - anycast
@@ -17,8 +11,7 @@ sources:
 - '[Wikipedia](https://en.wikipedia.org/wiki/Broadcasting_\(networking\)).'
 mental_models: []
 supporting_definitions:
-- '[NIST-CSRC](https://csrc.nist.gov/glossary/term/broadcast): Transmission to all
-  devices in a network without any acknowledgment by the receivers.'
+- '[NIST-CSRC](https://csrc.nist.gov/glossary/term/broadcast): Transmission to all devices in a network without any acknowledgment by the receivers.'
 source_file: spec/terms-definitions/broadcast.md
 governance_profile: descriptive
 governance:

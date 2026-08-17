@@ -87,6 +87,10 @@
       },
       "uniqueItems": true
     },
+    "simple_definition": {
+      "type": "string",
+      "minLength": 1
+    },
     "reader_note": {
       "type": "string"
     },

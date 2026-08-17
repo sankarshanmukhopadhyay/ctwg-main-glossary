@@ -6,6 +6,9 @@ title: "biometric"
 
 # biometric
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A measurable physical characteristic or personal behavioral trait used to recognize the AID, or verify the claimed identity, of an applicant. Facial images, fingerprints, and iris scan samples are all examples of biometrics.
 

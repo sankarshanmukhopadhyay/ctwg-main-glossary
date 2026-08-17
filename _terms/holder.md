@@ -6,6 +6,9 @@ title: "holder"
 
 # holder
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A role an agent performs by serving as the controller of the cryptographic keys and digital credentials in a digital wallet. The holder makes issuance requests for credentials and responds to presentation requests for credentials. A holder is usually, but not always, a subject of the credentials they are holding.
 

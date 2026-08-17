@@ -62,3 +62,4 @@ control_plane:
   - delegation_record
   - status_record
   - verification_log
+simple_definition: A structured envelope that binds the authority, policy, evidence, constraints, obligations, and lifecycle state applicable to a runtime interaction or task.

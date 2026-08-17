@@ -43,3 +43,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: A trust community governed by a ToIP governance framework.

@@ -6,6 +6,9 @@ title: "agent class"
 
 # agent class
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A typed descriptor for the operating posture of an agentic actor, used to distinguish the kind of role the agent performs from the controls governing how it operates.
 

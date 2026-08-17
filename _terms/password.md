@@ -6,6 +6,9 @@ title: "password"
 
 # password
 
+## In Simple English
+A string of characters (letters, numbers and other symbols) that are used to authenticate an identity, verify access authorization or derive cryptographic keys.
+
 ## Definition
 A string of characters (letters, numbers and other symbols) that are used to authenticate an identity, verify access authorization or derive cryptographic keys.
 

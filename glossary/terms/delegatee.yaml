@@ -2,8 +2,7 @@ term: delegatee
 aliases:
 - delegatee
 - delegatees
-definition: The second party receiving a delegation from a first party (the delegator)
-  and authorized to act only within the granted scope and applicable constraints.
+definition: The second party receiving a delegation from a first party (the delegator) and authorized to act only within the granted scope and applicable constraints.
 notes: []
 see_also:
 - delegation
@@ -57,3 +56,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: The second party receiving a delegation from a first party (the delegator) and authorized to act only within the granted scope and applicable constraints.

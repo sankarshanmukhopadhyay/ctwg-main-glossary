@@ -6,6 +6,9 @@ title: "cryptographic-verifiability"
 
 # cryptographic-verifiability
 
+## In Simple English
+The property of being cryptographically verifiable.
+
 ## Definition
 The property of being cryptographically verifiable.
 

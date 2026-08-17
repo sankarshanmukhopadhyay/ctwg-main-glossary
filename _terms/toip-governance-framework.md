@@ -6,6 +6,9 @@ title: "toip-governance-framework"
 
 # toip-governance-framework
 
+## In Simple English
+A governance framework that conforms to the requirements of the ToIP Governance Architecture Specification.
+
 ## Definition
 A governance framework that conforms to the requirements of the ToIP Governance Architecture Specification.
 

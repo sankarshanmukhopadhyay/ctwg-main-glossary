@@ -6,6 +6,9 @@ title: "aal"
 
 # aal
 
+## In Simple English
+See: authenticator assurance level.
+
 ## Definition
 See: authenticator assurance level.
 

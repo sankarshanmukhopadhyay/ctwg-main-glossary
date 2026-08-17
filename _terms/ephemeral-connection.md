@@ -6,6 +6,9 @@ title: "ephemeral-connection"
 
 # ephemeral-connection
 
+## In Simple English
+A connection that only exists for the duration of a single communication session or transaction.
+
 ## Definition
 A connection that only exists for the duration of a single communication session or transaction.
 

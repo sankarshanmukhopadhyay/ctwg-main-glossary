@@ -6,6 +6,9 @@ title: "rotation"
 
 # rotation
 
+## In Simple English
+a change of the key state, including a change to the set of authoritative key pairs for an identifier AID.
+
 ## Definition
 a change of the key state, including a change to the set of authoritative key pairs for an identifier AID.
 

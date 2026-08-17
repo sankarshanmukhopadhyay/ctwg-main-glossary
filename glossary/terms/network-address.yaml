@@ -2,12 +2,7 @@ term: network-address
 aliases:
 - network address
 - network addresses
-definition: A network address is an identifier for a node or host on a telecommunications
-  network. Network addresses are designed to be unique identifiers across the network,
-  although some networks allow for local, private addresses, or locally administered
-  addresses that may not be unique. Special network addresses are allocated as broadcast
-  or multicast addresses. A network address designed to address a single device is
-  called a unicast address.
+definition: A network address is an identifier for a node or host on a telecommunications network. Network addresses are designed to be unique identifiers across the network, although some networks allow for local, private addresses, or locally administered addresses that may not be unique. Special network addresses are allocated as broadcast or multicast addresses. A network address designed to address a single device is called a unicast address.
 notes: []
 see_also:
 - glossary

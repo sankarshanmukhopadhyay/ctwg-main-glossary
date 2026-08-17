@@ -6,6 +6,9 @@ title: "trust-framework"
 
 # trust-framework
 
+## In Simple English
+A term (most frequently used in the digital identity industry) to describe a governance framework for a digital identity system, especially a federation.
+
 ## Definition
 A term (most frequently used in the digital identity industry) to describe a governance framework for a digital identity system, especially a federation.
 

@@ -6,6 +6,9 @@ title: "verifiable-credential-data-model-2-0"
 
 # verifiable-credential-data-model-2-0
 
+## In Simple English
+The W3C data model for expressing verifiable credentials and verifiable presentations using common roles, properties, lifecycle semantics, and securing mechanisms.
+
 ## Definition
 The W3C data model for expressing verifiable credentials and verifiable presentations using common roles, properties, lifecycle semantics, and securing mechanisms.
 

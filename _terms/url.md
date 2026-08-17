@@ -6,6 +6,9 @@ title: "url"
 
 # url
 
+## In Simple English
+See: Uniform Resource Locator.
+
 ## Definition
 See: Uniform Resource Locator.
 

@@ -6,6 +6,9 @@ title: "identity-controller"
 
 # identity-controller
 
+## In Simple English
+The controller (e.g., a natural person or organization) of an identity, especially a digital identity.
+
 ## Definition
 The controller (e.g., a natural person or organization) of an identity, especially a digital identity.
 

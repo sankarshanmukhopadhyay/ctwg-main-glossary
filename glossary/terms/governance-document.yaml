@@ -2,8 +2,7 @@ term: governance-document
 aliases:
 - governance document
 - governance documents
-definition: A document with at least one identifier that specifies governance requirements
-  for a trust community.
+definition: A document with at least one identifier that specifies governance requirements for a trust community.
 notes:
 - A governance document is a component of a governance framework.
 see_also:
@@ -46,3 +45,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: A document with at least one identifier that specifies governance requirements for a trust community.

@@ -6,6 +6,9 @@ title: "nullifier"
 
 # nullifier
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A cryptographically derived value used to detect prohibited reuse or duplication within a defined scope without revealing the underlying secret or necessarily enabling correlation across other scopes.
 

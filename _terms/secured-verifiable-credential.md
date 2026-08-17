@@ -6,6 +6,9 @@ title: "secured-verifiable-credential"
 
 # secured-verifiable-credential
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A verifiable credential protected by a securing mechanism such as Data Integrity proofs, JOSE, COSE, or SD-JWT so that authenticity and integrity can be verified.
 

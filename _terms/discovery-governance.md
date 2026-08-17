@@ -6,6 +6,9 @@ title: "discovery governance"
 
 # discovery governance
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 The policies and controls that determine how descriptors or services are discovered, who mediates discovery, what access and freshness rules apply, and how discovery failures are handled.
 

@@ -6,6 +6,9 @@ title: "broadcast-address"
 
 # broadcast-address
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A broadcast address is a network address used to transmit to all devices connected to a multiple-access communications network. A message sent to a broadcast address may be received by all network-attached hosts. In contrast, a multicast address is used to address a specific group of devices, and a unicast address is used to address a single device. For network layer communications, a broadcast address may be a specific IP address.
 

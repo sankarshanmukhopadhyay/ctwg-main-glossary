@@ -6,6 +6,9 @@ title: "evidence bundle"
 
 # evidence bundle
 
+## In Simple English
+A collected set of records that can be reviewed together to support or explain a decision, claim, control, or assurance result.
+
 ## Definition
 A bounded collection of evidence artifacts assembled for a decision, assessment, verification, or audit purpose, with sufficient metadata to support integrity and traceability.
 

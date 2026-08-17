@@ -2,10 +2,7 @@ term: verifiable
 aliases:
 - verifiable
 - verifiability
-definition: In the context of digital communications infrastructure, the ability to
-  determine the authenticity of a communication (e.g., sender, contents, claims, metadata,
-  provenance), or the underlying sociotechnical infrastructure (e.g., governance,
-  roles, policies, authorizations, certifications).
+definition: In the context of digital communications infrastructure, the ability to determine the authenticity of a communication (e.g., sender, contents, claims, metadata, provenance), or the underlying sociotechnical infrastructure (e.g., governance, roles, policies, authorizations, certifications).
 notes: []
 see_also:
 - appraisable

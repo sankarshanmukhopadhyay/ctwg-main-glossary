@@ -1,8 +1,7 @@
 term: human-trust
 aliases:
 - human trust
-definition: A level of assurance in a trust relationship or a trust decision that
-  can be achieved only via human evaluation of applicable trust factors.
+definition: A level of assurance in a trust relationship or a trust decision that can be achieved only via human evaluation of applicable trust factors.
 notes: []
 see_also:
 - audit
@@ -45,3 +44,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: A level of assurance in a trust relationship or a trust decision that can be achieved only via human evaluation of applicable trust factors.

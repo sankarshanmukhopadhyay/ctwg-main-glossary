@@ -6,6 +6,9 @@ title: "security-policy"
 
 # security-policy
 
+## In Simple English
+A set of policies and rules that governs all aspects of security-relevant system and system element behavior.
+
 ## Definition
 A set of policies and rules that governs all aspects of security-relevant system and system element behavior.
 

@@ -6,6 +6,9 @@ title: "appropriate-friction"
 
 # appropriate-friction
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A user-experience design principle for information systems (such as digital wallets) specifying that the level of attention required of the holder for a particular transaction should provide a reasonable opportunity for an informed choice by the holder.
 

@@ -2,8 +2,7 @@ term: trust-objective
 aliases:
 - trust objective
 - trust objectives
-definition: An objective shared by the parties in a trust community to establish and
-  maintain trust relationships.
+definition: An objective shared by the parties in a trust community to establish and maintain trust relationships.
 notes: []
 see_also:
 - glossary
@@ -47,3 +46,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: An objective shared by the parties in a trust community to establish and maintain trust relationships.

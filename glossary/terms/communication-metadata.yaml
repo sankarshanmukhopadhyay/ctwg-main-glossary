@@ -2,9 +2,7 @@ term: communication-metadata
 aliases:
 - communication metadata
 - communications metadata
-definition: Metadata that describes the sender, receiver, routing, handling, or contents
-  of a communication. Communication metadata is often observable even if the contents
-  of the communication are encrypted.
+definition: Metadata that describes the sender, receiver, routing, handling, or contents of a communication. Communication metadata is often observable even if the contents of the communication are encrypted.
 notes: []
 see_also:
 - correlation privacy.

@@ -6,6 +6,9 @@ title: "authentication"
 
 # authentication
 
+## In Simple English
+Verifying the identity of a user, process, or device, often as a prerequisite to allowing access to resources in an information system.
+
 ## Definition
 Verifying the identity of a user, process, or device, often as a prerequisite to allowing access to resources in an information system.
 

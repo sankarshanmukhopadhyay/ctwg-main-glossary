@@ -2,8 +2,7 @@ term: first-party
 aliases:
 - first party
 - first parties
-definition: The party who initiates a trust relationship, connection, or transaction
-  with a second party.
+definition: The party who initiates a trust relationship, connection, or transaction with a second party.
 notes: []
 see_also:
 - third party
@@ -45,3 +44,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: The party who initiates a trust relationship, connection, or transaction with a second party.

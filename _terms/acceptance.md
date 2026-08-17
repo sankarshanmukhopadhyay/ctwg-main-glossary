@@ -6,6 +6,9 @@ title: "acceptance"
 
 # acceptance
 
+## In Simple English
+The action of a party receiving any form of verifiable data and using it to make a trust decision.
+
 ## Definition
 The action of a party receiving any form of verifiable data and using it to make a trust decision.
 

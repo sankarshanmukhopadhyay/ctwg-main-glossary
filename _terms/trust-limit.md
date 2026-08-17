@@ -6,6 +6,9 @@ title: "trust-limit"
 
 # trust-limit
 
+## In Simple English
+A limit to the degree a party is willing to trust an entity in a specific trust relationship within a specific trust context.
+
 ## Definition
 A limit to the degree a party is willing to trust an entity in a specific trust relationship within a specific trust context.
 

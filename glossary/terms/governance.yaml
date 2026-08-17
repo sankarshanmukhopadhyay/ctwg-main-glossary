@@ -1,10 +1,7 @@
 term: governance
 aliases:
 - governance
-definition: The act or process of governing or overseeing the realization of (the
-  results associated with) a set of objectives by the owner of these objectives, in
-  order to ensure they will be fit for the purposes that this owner intends to use
-  them for.
+definition: The act or process of governing or overseeing the realization of (the results associated with) a set of objectives by the owner of these objectives, in order to ensure they will be fit for the purposes that this owner intends to use them for.
 notes: []
 see_also:
 - governing body
@@ -46,3 +43,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: The rules, roles, decision rights, and processes used to direct and control a system or community.

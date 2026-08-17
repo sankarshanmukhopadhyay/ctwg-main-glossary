@@ -6,6 +6,9 @@ title: "fourth-party"
 
 # fourth-party
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A party that is not directly involved in the trust relationship between a first party and a second party, but provides supporting services exclusively to the first party (in contrast with a third party, who in most cases provides supporting services to the second party). In its strongest form, a fourth party has a fiduciary relationship with the first party.
 

@@ -58,3 +58,4 @@ control_plane:
   - delegation_record
   - status_record
   - verification_log
+simple_definition: A proof that establishes whether a defined condition about one or more attributes is satisfied without necessarily disclosing the underlying attribute values.

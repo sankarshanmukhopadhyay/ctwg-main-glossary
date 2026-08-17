@@ -6,6 +6,9 @@ title: "ial"
 
 # ial
 
+## In Simple English
+See: identity assurance level.
+
 ## Definition
 See: identity assurance level.
 

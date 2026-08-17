@@ -2,9 +2,7 @@ term: third-party
 aliases:
 - third party
 - third parties
-definition: A party that is not directly involved in the trust relationship between
-  a first party and a second party, but provides supporting services to either or
-  both of them.
+definition: A party that is not directly involved in the trust relationship between a first party and a second party, but provides supporting services to either or both of them.
 notes: []
 see_also:
 - glossary

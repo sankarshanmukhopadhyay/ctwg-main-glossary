@@ -6,6 +6,9 @@ title: "certification-body"
 
 # certification-body
 
+## In Simple English
+A legal entity that performs certification.
+
 ## Definition
 A legal entity that performs certification.
 

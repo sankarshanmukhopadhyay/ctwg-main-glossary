@@ -6,6 +6,9 @@ title: "trust-list"
 
 # trust-list
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A one-dimensional trust graph in which an authoritative source publishes a list of entities that are trusted in a specific trust context. A trust list can be considered a simplified form of a trust registry.
 

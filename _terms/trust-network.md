@@ -6,6 +6,9 @@ title: "trust-network"
 
 # trust-network
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A network of parties who are connected via trust relationships (such as via a membership agreement) conforming to requirements defined in a legal regulation, trust framework or governance framework. A trust network is more formal than a digital trust ecosystem; the latter may connect parties more loosely via transitive trust relationships and/or across multiple trust networks.
 

@@ -6,6 +6,9 @@ title: "terms-community"
 
 # terms-community
 
+## In Simple English
+A group of parties who share the need for a common terminology.
+
 ## Definition
 A group of parties who share the need for a common terminology.
 

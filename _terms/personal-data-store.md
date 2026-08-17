@@ -6,6 +6,9 @@ title: "personal-data-store"
 
 # personal-data-store
 
+## In Simple English
+See: personal data vault.
+
 ## Definition
 See: personal data vault.
 

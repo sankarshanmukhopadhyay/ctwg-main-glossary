@@ -6,6 +6,9 @@ title: "key-binding-jwt"
 
 # key-binding-jwt
 
+## In Simple English
+A JWT used to demonstrate holder control of a key associated with an SD-JWT or SD-JWT VC presentation.
+
 ## Definition
 A JWT used to demonstrate holder control of a key associated with an SD-JWT or SD-JWT VC presentation.
 

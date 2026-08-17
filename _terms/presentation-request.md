@@ -6,6 +6,9 @@ title: "presentation-request"
 
 # presentation-request
 
+## In Simple English
+A protocol request sent by the verifier to the holder of a digital wallet to request a presentation.
+
 ## Definition
 A protocol request sent by the verifier to the holder of a digital wallet to request a presentation.
 

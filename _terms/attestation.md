@@ -6,6 +6,9 @@ title: "attestation"
 
 # attestation
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 The issue of a statement, based on a decision, that fulfillment of specified requirements has been demonstrated. In the context of decentralized digital trust infrastructure, an attestation usually has a digital signature so that it is cryptographically verifiable.
 

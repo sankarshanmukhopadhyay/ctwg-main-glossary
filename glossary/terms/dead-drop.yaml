@@ -2,10 +2,7 @@ term: dead-drop
 aliases:
 - dead-drop
 - dead drop
-definition: In cybersecurity or digital privacy scenarios, the term "dead drop" refers
-  to encrypted or secure virtual spaces where information can be deposited or retrieved
-  anonymously. In the credentials field, the presenter controls the disclosure, so
-  you can't re-identify the data.
+definition: In cybersecurity or digital privacy scenarios, the term "dead drop" refers to encrypted or secure virtual spaces where information can be deposited or retrieved anonymously. In the credentials field, the presenter controls the disclosure, so you can't re-identify the data.
 notes: []
 see_also:
 - credential
@@ -13,8 +10,7 @@ see_also:
 - issuance
 - verifiable-credential
 sources:
-- Discussed in tech meet KERI [recording](https://hackmd.io/-soUScAqQEaSw5MJ71899w#2023-06-27),
-  date June 27 2023.
+- Discussed in tech meet KERI [recording](https://hackmd.io/-soUScAqQEaSw5MJ71899w#2023-06-27), date June 27 2023.
 mental_models: []
 supporting_definitions: []
 source_file: spec/terms-definitions/dead-drop.md

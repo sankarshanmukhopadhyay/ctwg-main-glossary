@@ -6,6 +6,9 @@ title: "foundational-identity"
 
 # foundational-identity
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A set of identity data, such as a credential, issued by an authoritative source for the legal identity of the subject. Birth certificates, passports, driving licenses, and other forms of government ID documents are considered foundational identity documents. Foundational identities are often used to provide identity binding for functional identities.
 

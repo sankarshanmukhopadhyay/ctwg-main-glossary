@@ -6,6 +6,9 @@ title: "selective-disclosure"
 
 # selective-disclosure
 
+## In Simple English
+A privacy-preserving presentation capability that allows a holder to disclose only selected claims or attributes from a credential while preserving verifiability.
+
 ## Definition
 A privacy-preserving presentation capability that allows a holder to disclose only selected claims or attributes from a credential while preserving verifiability.
 

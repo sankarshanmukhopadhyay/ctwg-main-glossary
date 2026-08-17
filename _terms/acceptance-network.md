@@ -6,6 +6,9 @@ title: "acceptance-network"
 
 # acceptance-network
 
+## In Simple English
+A trust network designed to facilitate acceptance of verifiable data for its members.
+
 ## Definition
 A trust network designed to facilitate acceptance of verifiable data for its members.
 

@@ -6,6 +6,9 @@ title: "governance-document"
 
 # governance-document
 
+## In Simple English
+A document with at least one identifier that specifies governance requirements for a trust community.
+
 ## Definition
 A document with at least one identifier that specifies governance requirements for a trust community.
 

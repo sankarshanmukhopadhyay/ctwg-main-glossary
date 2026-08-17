@@ -6,6 +6,9 @@ title: "toip-governance-architecture-specification"
 
 # toip-governance-architecture-specification
 
+## In Simple English
+The specification defining the requirements for the ToIP Governance Stack published by the ToIP Foundation.
+
 ## Definition
 The specification defining the requirements for the ToIP Governance Stack published by the ToIP Foundation.
 

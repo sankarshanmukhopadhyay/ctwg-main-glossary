@@ -6,6 +6,9 @@ title: "sensitive-data"
 
 # sensitive-data
 
+## In Simple English
+Personal data that a reasonable person would view from a privacy protection standpoint as requiring special care above and beyond other personal data.
+
 ## Definition
 Personal data that a reasonable person would view from a privacy protection standpoint as requiring special care above and beyond other personal data.
 

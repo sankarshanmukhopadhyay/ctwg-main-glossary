@@ -1,11 +1,9 @@
 term: verifiable-data
 aliases:
 - verifiable data
-definition: Any digital data or object that is digitally signed in such a manner that
-  it can be cryptographically verified.
+definition: Any digital data or object that is digitally signed in such a manner that it can be cryptographically verified.
 notes:
-- In the context of ToIP architecture, verifiable data is signed with the cryptographic
-  keys associated with the verifiable identifier (VID) of the data controller.
+- In the context of ToIP architecture, verifiable data is signed with the cryptographic keys associated with the verifiable identifier (VID) of the data controller.
 see_also:
 - glossary
 - definition
@@ -46,3 +44,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: Any digital data or object that is digitally signed in such a manner that it can be cryptographically verified.

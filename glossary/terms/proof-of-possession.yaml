@@ -1,9 +1,7 @@
 term: proof-of-possession
 aliases:
 - proof of possession
-definition: A verification process whereby a level of assurance is obtained that the
-  owner of a key pair actually controls the private key associated with the public
-  key.
+definition: A verification process whereby a level of assurance is obtained that the owner of a key pair actually controls the private key associated with the public key.
 notes: []
 see_also:
 - audit

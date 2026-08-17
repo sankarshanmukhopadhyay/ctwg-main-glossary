@@ -1,8 +1,7 @@
 term: identity-data
 aliases:
 - identity data
-definition: The set of data held by a party in order to provide an identity for a
-  specific entity.
+definition: The set of data held by a party in order to provide an identity for a specific entity.
 notes: []
 see_also:
 - glossary
@@ -40,3 +39,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: The set of data held by a party in order to provide an identity for a specific entity.

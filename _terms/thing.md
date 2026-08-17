@@ -6,6 +6,9 @@ title: "thing"
 
 # thing
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 An entity that is neither a natural person nor an organization and thus cannot be a party. A thing may be a natural thing or a man-made thing.
 

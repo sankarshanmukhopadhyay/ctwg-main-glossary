@@ -6,6 +6,9 @@ title: "digital-identity"
 
 # digital-identity
 
+## In Simple English
+An identity expressed in a digital form for the purpose representing the identified entity within a computer system or digital network.
+
 ## Definition
 An identity expressed in a digital form for the purpose representing the identified entity within a computer system or digital network.
 

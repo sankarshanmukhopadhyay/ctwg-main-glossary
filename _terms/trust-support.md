@@ -6,6 +6,9 @@ title: "trust-support"
 
 # trust-support
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A system, protocol, or other infrastructure whose function is to facilitate the establishment and maintenance of trust relationships at higher protocol layers. In the ToIP stack, the trust support layer is Layer 1.
 

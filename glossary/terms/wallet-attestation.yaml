@@ -1,9 +1,7 @@
 term: wallet-attestation
 aliases:
 - wallet attestation
-definition: Evidence about a wallet instance, wallet provider, or wallet capability
-  that can be used by issuers, verifiers, or governance frameworks to make reliance
-  decisions.
+definition: Evidence about a wallet instance, wallet provider, or wallet capability that can be used by issuers, verifiers, or governance frameworks to make reliance decisions.
 reader_note: ''
 implementation_relevance: ''
 notes: []
@@ -72,3 +70,4 @@ crosswalk:
   openid:
   - OpenID4VCI
   - OpenID4VP
+simple_definition: Evidence about a wallet instance, wallet provider, or wallet capability that can be used by issuers, verifiers, or governance frameworks to make reliance decisions.

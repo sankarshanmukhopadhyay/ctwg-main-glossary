@@ -6,14 +6,9 @@ aliases:
 - revokes
 - revoked
 - revoking
-definition: In the context of digital credentials, revocation is an event or status
-  change signifying that the issuer no longer attests to the validity of a credential
-  it has issued. In the context of cryptographic keys, revocation is an event or status
-  change signifying that the controller no longer attests to the validity of a public/private
-  key pair for which the controller is authoritative.
+definition: In the context of digital credentials, revocation is an event or status change signifying that the issuer no longer attests to the validity of a credential it has issued. In the context of cryptographic keys, revocation is an event or status change signifying that the controller no longer attests to the validity of a public/private key pair for which the controller is authoritative.
 notes:
-- Revocation only has practical effect when relying parties or other affected actors
-  can discover and act on the changed status.
+- Revocation only has practical effect when relying parties or other affected actors can discover and act on the changed status.
 see_also:
 - issuance
 - presentation.
@@ -21,17 +16,8 @@ sources:
 - 'ToIP CTWG maintained glossary source: `spec/terms-definitions/revocation.md`'
 mental_models: []
 supporting_definitions:
-- '[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#revokerevocation):
-  the act, by or on behalf of the [party](https://essif-lab.github.io/framework/docs/terms/party)
-  that has issued the [credential](https://essif-lab.github.io/framework/docs/terms/credential),
-  of no longer vouching for the correctness or any other qualification of (arbitrary
-  parts of) that [credential](https://essif-lab.github.io/framework/docs/terms/credential).'
-- '[NIST-CSRC](https://csrc.nist.gov/glossary/term/revocation): **​​For digital certificates**:
-  The process of permanently ending the binding between a certificate and the identity
-  asserted in the certificate from a specified time forward. **For cryptographic keys**:
-  A process whereby a notice is made available to affected entities that keys should
-  be removed from operational use prior to the end of the established cryptoperiod
-  of those keys.'
+- '[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#revokerevocation): the act, by or on behalf of the [party](https://essif-lab.github.io/framework/docs/terms/party) that has issued the [credential](https://essif-lab.github.io/framework/docs/terms/credential), of no longer vouching for the correctness or any other qualification of (arbitrary parts of) that [credential](https://essif-lab.github.io/framework/docs/terms/credential).'
+- '[NIST-CSRC](https://csrc.nist.gov/glossary/term/revocation): **​​For digital certificates**: The process of permanently ending the binding between a certificate and the identity asserted in the certificate from a specified time forward. **For cryptographic keys**: A process whereby a notice is made available to affected entities that keys should be removed from operational use prior to the end of the established cryptoperiod of those keys.'
 source_file: spec/terms-definitions/revocation.md
 governance_profile: core-operational
 governance:

@@ -6,6 +6,9 @@ title: "peer"
 
 # peer
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 In the context of digital networks, an actor on the network that has the same status, privileges, and communications options as the other actors on the network.
 

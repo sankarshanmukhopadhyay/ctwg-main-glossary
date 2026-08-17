@@ -6,6 +6,9 @@ title: "recommended"
 
 # recommended
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A requirement that is not mandatory to implement in order for an implementer to be in compliance, but which should be implemented unless the implementer has a good reason. In ToIP governance frameworks, a recommendation is expressed using a SHOULD or RECOMMENDED keyword as defined in IETF RFC 2119.
 

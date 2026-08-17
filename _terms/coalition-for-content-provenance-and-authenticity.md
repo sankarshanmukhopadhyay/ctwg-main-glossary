@@ -6,6 +6,9 @@ title: "coalition-for-content-provenance-and-authenticity"
 
 # coalition-for-content-provenance-and-authenticity
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 C2PA is a Joint Development Foundation project of the Linux Foundation that addresses the prevalence of misleading information online through the development of technical standards for certifying the source and history (or provenance) of media content.
 

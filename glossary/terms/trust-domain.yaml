@@ -2,9 +2,7 @@ term: trust-domain
 aliases:
 - trust domain
 - trust domains
-definition: A security domain defined by a computer hardware or software architecture,
-  a security policy, or a trust community, typically via a trust framework or governance
-  framework.
+definition: A security domain defined by a computer hardware or software architecture, a security policy, or a trust community, typically via a trust framework or governance framework.
 notes: []
 see_also:
 - trust-context

@@ -6,6 +6,9 @@ title: "cai"
 
 # cai
 
+## In Simple English
+See: Content Authenticity Initiative.
+
 ## Definition
 See: Content Authenticity Initiative.
 

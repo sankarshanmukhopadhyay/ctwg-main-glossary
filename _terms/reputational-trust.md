@@ -6,6 +6,9 @@ title: "reputational-trust"
 
 # reputational-trust
 
+## In Simple English
+Established by a trusted party offering identity-assurance.
+
 ## Definition
 Established by a trusted party offering identity-assurance.
 

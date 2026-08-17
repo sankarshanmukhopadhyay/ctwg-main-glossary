@@ -6,6 +6,9 @@ title: "proof-carrying commitment receipt"
 
 # proof-carrying commitment receipt
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A receipt that records a commitment together with cryptographic or verifiable evidence sufficient to evaluate who was authorized, what was committed, under which conditions, and with what lifecycle status.
 

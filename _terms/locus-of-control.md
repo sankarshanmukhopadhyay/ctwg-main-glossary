@@ -6,6 +6,9 @@ title: "locus-of-control"
 
 # locus-of-control
 
+## In Simple English
+The set of computing systems under a party’s direct control, where messages and data do not cross trust boundaries.
+
 ## Definition
 The set of computing systems under a party’s direct control, where messages and data do not cross trust boundaries.
 

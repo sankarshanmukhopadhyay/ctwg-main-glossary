@@ -2,8 +2,7 @@ term: human-readable
 aliases:
 - human-readable
 - human-readability
-definition: Information that can be processed by a human but that is not intended
-  to be machine-readable.
+definition: Information that can be processed by a human but that is not intended to be machine-readable.
 notes: []
 see_also:
 - glossary
@@ -41,3 +40,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: Information that can be processed by a human but that is not intended to be machine-readable.

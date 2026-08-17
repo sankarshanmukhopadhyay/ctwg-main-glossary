@@ -1,5 +1,5 @@
 {
-  "term_count": 599,
+  "term_count": 612,
   "terms": [
     {
       "term": "aal",
@@ -107,6 +107,13 @@
       "assurance_level_hint": "AL2+"
     },
     {
+      "term": "agent registry",
+      "slug": "agent-registry",
+      "source_file": null,
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
+    },
+    {
       "term": "agent",
       "slug": "agent",
       "source_file": "spec/terms-definitions/agent.md",
@@ -161,6 +168,13 @@
       "source_file": "spec/terms-definitions/appropriate-friction.md",
       "governance_profile": "core-operational",
       "assurance_level_hint": "AL2+"
+    },
+    {
+      "term": "assurance boundary",
+      "slug": "assurance-boundary",
+      "source_file": null,
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "assurance-level",
@@ -287,6 +301,13 @@
       "source_file": null,
       "governance_profile": "governance-supporting",
       "assurance_level_hint": "AL2+"
+    },
+    {
+      "term": "authority control plane",
+      "slug": "authority-control-plane",
+      "source_file": null,
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "authority",
@@ -609,6 +630,13 @@
       "source_file": "spec/terms-definitions/confidentiality.md",
       "governance_profile": "core-operational",
       "assurance_level_hint": "AL2+"
+    },
+    {
+      "term": "conformance",
+      "slug": "conformance",
+      "source_file": null,
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "connection",
@@ -1479,6 +1507,13 @@
       "assurance_level_hint": "AL2+"
     },
     {
+      "term": "governance legitimacy",
+      "slug": "governance-legitimacy",
+      "source_file": null,
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
+    },
+    {
       "term": "governance-requirement",
       "slug": "governance-requirement",
       "source_file": "spec/terms-definitions/governance-requirement.md",
@@ -1498,6 +1533,13 @@
       "source_file": "spec/terms-definitions/governance.md",
       "governance_profile": "core-operational",
       "assurance_level_hint": "AL2+"
+    },
+    {
+      "term": "governed action",
+      "slug": "governed-action",
+      "source_file": null,
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "governed-information",
@@ -1629,6 +1671,13 @@
       "term": "human-experience",
       "slug": "human-experience",
       "source_file": "spec/terms-definitions/human-experience.md",
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
+    },
+    {
+      "term": "human harm",
+      "slug": "human-harm",
+      "source_file": null,
       "governance_profile": "governance-supporting",
       "assurance_level_hint": "AL1+"
     },
@@ -1792,6 +1841,13 @@
       "source_file": "spec/terms-definitions/internet-protocol.md",
       "governance_profile": "descriptive",
       "assurance_level_hint": "informative"
+    },
+    {
+      "term": "interoperability",
+      "slug": "interoperability",
+      "source_file": null,
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "ip-address",
@@ -2480,6 +2536,13 @@
       "assurance_level_hint": "informative"
     },
     {
+      "term": "policy enforcement",
+      "slug": "policy-enforcement",
+      "source_file": null,
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
+    },
+    {
       "term": "policy",
       "slug": "policy",
       "source_file": "spec/terms-definitions/policy.md",
@@ -2492,6 +2555,13 @@
       "source_file": "spec/terms-definitions/pop.md",
       "governance_profile": "descriptive",
       "assurance_level_hint": "informative"
+    },
+    {
+      "term": "portable assurance pattern",
+      "slug": "portable-assurance-pattern",
+      "source_file": null,
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "predicate proof",
@@ -2520,6 +2590,13 @@
       "source_file": "spec/terms-definitions/presentation.md",
       "governance_profile": "core-operational",
       "assurance_level_hint": "AL2+"
+    },
+    {
+      "term": "pressure test",
+      "slug": "pressure-test",
+      "source_file": null,
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "primary-document",
@@ -2704,6 +2781,13 @@
       "assurance_level_hint": "informative"
     },
     {
+      "term": "recognition",
+      "slug": "recognition",
+      "source_file": null,
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
+    },
+    {
       "term": "recommended",
       "slug": "recommended",
       "source_file": "spec/terms-definitions/recommended.md",
@@ -2716,6 +2800,13 @@
       "source_file": "spec/terms-definitions/record.md",
       "governance_profile": "core-operational",
       "assurance_level_hint": "AL2+"
+    },
+    {
+      "term": "redress",
+      "slug": "redress",
+      "source_file": null,
+      "governance_profile": "governance-supporting",
+      "assurance_level_hint": "AL1+"
     },
     {
       "term": "registrant",

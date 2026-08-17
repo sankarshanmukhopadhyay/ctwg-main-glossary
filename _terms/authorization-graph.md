@@ -6,6 +6,9 @@ title: "authorization-graph"
 
 # authorization-graph
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A graph of the authorization relationships between different entities in a trust-community. In a digital trust ecosystem, the governing body is typically the trust root of an authorization graph. In some cases, an authorization graph can be traversed by making queries to one or more trust registries.
 

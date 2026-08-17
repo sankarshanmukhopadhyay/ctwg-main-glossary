@@ -1,10 +1,7 @@
 term: sovrin-foundation
 aliases:
 - Sovrin Foundation
-definition: A 501 (c)(4) nonprofit organization established to administer the governance
-  framework governing the Sovrin Network, a public service utility enabling self-sovereign
-  identity on the internet. The Sovrin Foundation is an independent organization that
-  is responsible for ensuring the Sovrin identity system is public and globally accessible.
+definition: A 501 (c)(4) nonprofit organization established to administer the governance framework governing the Sovrin Network, a public service utility enabling self-sovereign identity on the internet. The Sovrin Foundation is an independent organization that is responsible for ensuring the Sovrin identity system is public and globally accessible.
 notes: []
 see_also:
 - policy

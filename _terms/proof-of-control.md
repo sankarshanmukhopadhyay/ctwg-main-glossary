@@ -6,6 +6,9 @@ title: "proof-of-control"
 
 # proof-of-control
 
+## In Simple English
+See: proof of possession.
+
 ## Definition
 See: proof of possession.
 

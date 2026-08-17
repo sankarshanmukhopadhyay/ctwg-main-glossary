@@ -6,6 +6,9 @@ title: "legal-system"
 
 # legal-system
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A system in which policies and rules are defined, and mechanisms for their enforcement and conflict resolution are (implicitly or explicitly) specified. Legal systems are not just defined by governments; they can also be defined by a governance framework.
 

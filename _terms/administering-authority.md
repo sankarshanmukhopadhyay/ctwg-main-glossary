@@ -6,6 +6,9 @@ title: "administering-authority"
 
 # administering-authority
 
+## In Simple English
+See: administering body.
+
 ## Definition
 See: administering body.
 

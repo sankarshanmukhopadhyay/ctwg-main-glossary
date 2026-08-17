@@ -2,8 +2,7 @@ term: openid4vp
 aliases:
 - OpenID4VP
 - OID4VP
-definition: An OpenID Foundation protocol that defines mechanisms for requesting and
-  presenting credentials between wallets and verifiers.
+definition: An OpenID Foundation protocol that defines mechanisms for requesting and presenting credentials between wallets and verifiers.
 reader_note: ''
 implementation_relevance: ''
 notes: []
@@ -53,3 +52,4 @@ control_plane:
 crosswalk:
   openid:
   - OpenID4VP 1.0
+simple_definition: An OpenID Foundation protocol that defines mechanisms for requesting and presenting credentials between wallets and verifiers.

@@ -6,6 +6,9 @@ title: "dpop"
 
 # dpop
 
+## In Simple English
+An OAuth 2.0 mechanism for sender-constraining tokens by requiring a client to prove possession of a private key when using a token.
+
 ## Definition
 An OAuth 2.0 mechanism for sender-constraining tokens by requiring a client to prove possession of a private key when using a token.
 

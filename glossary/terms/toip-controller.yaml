@@ -44,3 +44,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: The controller of a verifiable identifier (VID) used with the ToIP stack.

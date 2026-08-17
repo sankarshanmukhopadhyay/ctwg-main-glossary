@@ -6,6 +6,9 @@ title: "communication-metadata"
 
 # communication-metadata
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 Metadata that describes the sender, receiver, routing, handling, or contents of a communication. Communication metadata is often observable even if the contents of the communication are encrypted.
 

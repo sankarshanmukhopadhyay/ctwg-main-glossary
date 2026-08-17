@@ -57,3 +57,4 @@ control_plane:
   - delegation_record
   - status_record
   - verification_log
+simple_definition: An authorization approach in which runtime decisions are produced by evaluating contextual attributes, evidence, and policy rather than relying only on static permissions.

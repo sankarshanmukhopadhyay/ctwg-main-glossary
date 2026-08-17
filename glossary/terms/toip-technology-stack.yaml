@@ -1,8 +1,7 @@
 term: toip-technology-stack
 aliases:
 - ToIP Technology Stack
-definition: The technology half of the four layer ToIP stack as defined by the ToIP
-  Technology Architecture Specification.
+definition: The technology half of the four layer ToIP stack as defined by the ToIP Technology Architecture Specification.
 notes: []
 see_also:
 - ToIP Governance Stack
@@ -40,3 +39,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: The technology half of the four layer ToIP stack as defined by the ToIP Technology Architecture Specification.

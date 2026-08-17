@@ -6,6 +6,9 @@ title: "chaining"
 
 # chaining
 
+## In Simple English
+See: trust chain.
+
 ## Definition
 See: trust chain.
 

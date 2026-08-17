@@ -6,6 +6,9 @@ title: "agency"
 
 # agency
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 In the context of decentralized digital trust infrastructure, the empowering of a party to act independently of its own accord, and in particular to empower the party to employ an agent to act on the party's behalf.
 

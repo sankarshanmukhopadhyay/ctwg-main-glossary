@@ -6,6 +6,9 @@ title: "ttp"
 
 # ttp
 
+## In Simple English
+See: trusted third party.
+
 ## Definition
 See: trusted third party.
 

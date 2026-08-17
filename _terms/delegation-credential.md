@@ -6,6 +6,9 @@ title: "delegation-credential"
 
 # delegation-credential
 
+## In Simple English
+A credential used to perform delegation.
+
 ## Definition
 A credential used to perform delegation.
 

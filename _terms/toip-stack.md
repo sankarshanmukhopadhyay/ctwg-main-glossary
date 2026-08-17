@@ -6,6 +6,9 @@ title: "toip-stack"
 
 # toip-stack
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 The layered architecture for decentralized digital trust infrastructure defined by the ToIP Foundation. The ToIP stack is a dual stack consisting of two halves: the ToIP Technology Stack and the ToIP Governance Stack. The four layers in the ToIP stack are ToIP Layer 1, ToIP Layer 2, ToIP Layer 3, and ToIP Layer 4.
 

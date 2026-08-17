@@ -6,6 +6,9 @@ title: "multicast"
 
 # multicast
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 In computer networking, multicast is group communication where data transmission is addressed (using a multicast address) to a group of destination computers simultaneously. Multicast can be one-to-many or many-to-many distribution. Multicast should not be confused with physical layer point-to-multipoint communication.
 

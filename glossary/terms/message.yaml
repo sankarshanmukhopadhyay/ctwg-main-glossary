@@ -2,8 +2,7 @@ term: message
 aliases:
 - message
 - messages
-definition: A discrete unit of communication intended by the source for consumption
-  by some recipient or group of recipients.
+definition: A discrete unit of communication intended by the source for consumption by some recipient or group of recipients.
 notes: []
 see_also:
 - ToIP message
@@ -41,3 +40,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: A discrete unit of communication intended by the source for consumption by some recipient or group of recipients.

@@ -1,8 +1,7 @@
 term: acceptance-network
 aliases:
 - acceptance network
-definition: A trust network designed to facilitate acceptance of verifiable data for
-  its members.
+definition: A trust network designed to facilitate acceptance of verifiable data for its members.
 notes: []
 see_also:
 - glossary
@@ -44,3 +43,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: A trust network designed to facilitate acceptance of verifiable data for its members.

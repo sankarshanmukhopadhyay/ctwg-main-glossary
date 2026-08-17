@@ -6,6 +6,9 @@ title: "claim"
 
 # claim
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 An assertion about a subject, typically expressed as an attribute or property of the subject. It is called a “claim” because the assertion is always made by some party, called the issuer of the claim, and the validity of the claim must be judged by the verifier.
 

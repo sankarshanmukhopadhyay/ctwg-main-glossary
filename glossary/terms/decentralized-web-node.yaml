@@ -2,9 +2,7 @@ term: decentralized-web-node
 aliases:
 - Decentralized Web Node
 - Decentralized Web Nodes
-definition: A decentralized personal and application data storage and message relay
-  node, as defined in the DIF Decentralized Web Node specification. Users may have
-  multiple nodes that replicate their data between them.
+definition: A decentralized personal and application data storage and message relay node, as defined in the DIF Decentralized Web Node specification. Users may have multiple nodes that replicate their data between them.
 notes: []
 see_also:
 - glossary

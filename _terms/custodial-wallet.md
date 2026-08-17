@@ -6,6 +6,9 @@ title: "custodial-wallet"
 
 # custodial-wallet
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A digital wallet that is directly in the custody of a principal, i.e., under the principal’s direct personal or organizational control. A digital wallet that is in the custody of a third party is called a non-custodial wallet.
 

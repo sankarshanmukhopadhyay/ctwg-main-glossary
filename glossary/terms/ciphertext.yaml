@@ -2,8 +2,7 @@ term: ciphertext
 aliases:
 - ciphertext
 - ciphertexts
-definition: Encrypted (enciphered) data. The confidential form of the plaintext that
-  is the output of the encryption function.
+definition: Encrypted (enciphered) data. The confidential form of the plaintext that is the output of the encryption function.
 notes: []
 see_also:
 - glossary
@@ -41,3 +40,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: Encrypted (enciphered) data. The confidential form of the plaintext that is the output of the encryption function.

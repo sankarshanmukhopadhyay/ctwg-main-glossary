@@ -6,6 +6,9 @@ title: "message"
 
 # message
 
+## In Simple English
+A discrete unit of communication intended by the source for consumption by some recipient or group of recipients.
+
 ## Definition
 A discrete unit of communication intended by the source for consumption by some recipient or group of recipients.
 

@@ -2,8 +2,7 @@ term: objective
 aliases:
 - objective
 - objectives
-definition: Something toward which a party (its owner) directs effort (an aim, goal,
-  or end of action).
+definition: Something toward which a party (its owner) directs effort (an aim, goal, or end of action).
 notes: []
 see_also:
 - glossary
@@ -41,3 +40,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: Something toward which a party (its owner) directs effort (an aim, goal, or end of action).

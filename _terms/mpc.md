@@ -6,6 +6,9 @@ title: "mpc"
 
 # mpc
 
+## In Simple English
+See: multi-party computation.
+
 ## Definition
 See: multi-party computation.
 

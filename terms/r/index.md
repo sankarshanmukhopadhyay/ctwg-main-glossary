@@ -8,8 +8,10 @@ nav_order: 18
 
 - [rbac]({{ '/terms/rbac/' | relative_url }})
 - [real-world-identity]({{ '/terms/real-world-identity/' | relative_url }})
+- [recognition]({{ '/terms/recognition/' | relative_url }})
 - [recommended]({{ '/terms/recommended/' | relative_url }})
 - [record]({{ '/terms/record/' | relative_url }})
+- [redress]({{ '/terms/redress/' | relative_url }})
 - [registrant]({{ '/terms/registrant/' | relative_url }})
 - [registrar]({{ '/terms/registrar/' | relative_url }})
 - [registration]({{ '/terms/registration/' | relative_url }})

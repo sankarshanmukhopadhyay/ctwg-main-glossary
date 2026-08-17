@@ -6,6 +6,9 @@ title: "did-method"
 
 # did-method
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A definition of how a specific DID method scheme is implemented. A DID method is defined by a DID method specification, which specifies the precise operations by which DIDs and DID documents are created, resolved, updated, and deactivated.
 

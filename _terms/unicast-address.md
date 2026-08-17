@@ -6,6 +6,9 @@ title: "unicast-address"
 
 # unicast-address
 
+## In Simple English
+A network address used for a unicast.
+
 ## Definition
 A network address used for a unicast.
 

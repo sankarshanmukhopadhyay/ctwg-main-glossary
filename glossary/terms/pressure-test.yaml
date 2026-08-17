@@ -1,0 +1,54 @@
+term: pressure test
+aliases:
+- pressure-test
+definition: A structured review that challenges a specification, policy, design, or system with adverse scenarios to identify risks, harms, control gaps, and weak assumptions.
+simple_definition: A deliberate attempt to find where a design or specification could fail, cause harm, or rely on weak assumptions.
+notes:
+- Added in v1.5.0 following a cross-repository terminology review of active trust infrastructure, agent governance, assurance, and national trust framework projects.
+see_also:
+- risk-assessment
+- assurance-level
+sources:
+- title: Portfolio source repository
+  publisher: GitHub
+  url: https://github.com/sankarshanmukhopadhyay/rahp-toolkit
+  normative: false
+reader_note: This is a cross-project glossary term. Individual specifications may define narrower domain-specific requirements.
+implementation_relevance: Use this term to keep governance, authority, assurance, and implementation discussions consistent across interoperating projects.
+governance_profile: governance-supporting
+governance:
+  authority_scope:
+  - assurance_and_audit
+  - governance_recognition
+  - policy_definition
+  - verification_and_reliance
+  delegation_mode: direct_or_constrained
+  revocation_supported: false
+  lifecycle_states:
+  - proposed
+  - active
+  - deprecated
+  execution_role: hybrid
+  control_plane_role: reference_term
+  enforcement_points:
+  - policy_approval
+  - reliance_decision
+assurance:
+  evidence_artifacts:
+  - definition_change_record
+  - policy_document
+  - audit_log
+  assurance_level_hint: AL1+
+  auditability: moderate
+control_plane:
+  decision_points:
+  - policy_approval
+  - reliance_decision
+  accountable_entity: glossary_maintainers
+  evidence_produced:
+  - definition_change_record
+  - policy_document
+  - audit_log
+crosswalk:
+  nist: []
+  iso: []

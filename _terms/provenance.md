@@ -6,6 +6,9 @@ title: "provenance"
 
 # provenance
 
+## In Simple English
+Information about where something came from and what happened to it over time.
+
 ## Definition
 Information about the origin, history, custody, transformation, or source lineage of data, content, credentials, or governed artifacts.
 

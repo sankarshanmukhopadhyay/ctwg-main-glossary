@@ -1,9 +1,7 @@
 term: technical-trust
 aliases:
 - technical trust
-definition: A level of assurance in a trust relationship that can be achieved only
-  via technical means such as hardware, software, network protocols, and cryptography.Cryptographic
-  trust is a specialized type of technical trust.
+definition: A level of assurance in a trust relationship that can be achieved only via technical means such as hardware, software, network protocols, and cryptography.Cryptographic trust is a specialized type of technical trust.
 notes: []
 see_also:
 - audit

@@ -6,6 +6,9 @@ title: "trust-triangle"
 
 # trust-triangle
 
+## In Simple English
+See: three-party model.
+
 ## Definition
 See: three-party model.
 

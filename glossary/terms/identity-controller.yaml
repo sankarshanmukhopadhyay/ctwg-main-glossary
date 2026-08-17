@@ -1,8 +1,7 @@
 term: identity-controller
 aliases:
 - identity controller
-definition: The controller (e.g., a natural person or organization) of an identity,
-  especially a digital identity.
+definition: The controller (e.g., a natural person or organization) of an identity, especially a digital identity.
 notes: []
 see_also:
 - glossary
@@ -44,3 +43,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: The controller (e.g., a natural person or organization) of an identity, especially a digital identity.

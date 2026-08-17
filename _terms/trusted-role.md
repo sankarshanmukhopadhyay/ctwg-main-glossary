@@ -6,6 +6,9 @@ title: "trusted-role"
 
 # trusted-role
 
+## In Simple English
+A role that performs restricted activities for an organization after meeting competence, security and background verification requirements for that role.
+
 ## Definition
 A role that performs restricted activities for an organization after meeting competence, security and background verification requirements for that role.
 

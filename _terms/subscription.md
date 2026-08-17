@@ -6,6 +6,9 @@ title: "subscription"
 
 # subscription
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 In the context of decentralized digital trust infrastructure, a subscription is an agreement between a first digital agent—the *publisher*—to automatically send a second digital agent—the *subscriber*—a message when a specific type of event happens in the wallet or vault managed by the first digital agent.
 

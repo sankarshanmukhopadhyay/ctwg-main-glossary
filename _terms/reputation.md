@@ -6,6 +6,9 @@ title: "reputation"
 
 # reputation
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 The beliefs or opinions that are generally held about an entity, typically developed as a result of social evaluation on a set of criteria, such as behavior, performance, or trustworthiness.
 

@@ -2,9 +2,7 @@ term: identity-binding
 aliases:
 - identity binding
 - identity bindings
-definition: The process of associating a set of identity data, such as a credential,
-  with its subject, such as a natural person. The strength of an identity binding
-  is one factor in determining an authenticator assurance level.
+definition: The process of associating a set of identity data, such as a credential, with its subject, such as a natural person. The strength of an identity binding is one factor in determining an authenticator assurance level.
 notes: []
 see_also:
 - identity assurance level

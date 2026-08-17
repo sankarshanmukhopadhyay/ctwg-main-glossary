@@ -6,6 +6,9 @@ title: "identity-assurance-level"
 
 # identity-assurance-level
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A category that conveys the degree of confidence that a person’s claimed identity is their real identity, for example as defined in NIST SP 800-63-3 in terms of three levels: IAL 1 (Some confidence), IAL 2 (High confidence), IAL 3 (Very high confidence).
 

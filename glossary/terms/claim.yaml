@@ -4,10 +4,7 @@ aliases:
 - claims
 - claimed
 - claiming
-definition: An assertion about a subject, typically expressed as an attribute or property
-  of the subject. It is called a “claim” because the assertion is always made by some
-  party, called the issuer of the claim, and the validity of the claim must be judged
-  by the verifier.
+definition: An assertion about a subject, typically expressed as an attribute or property of the subject. It is called a “claim” because the assertion is always made by some party, called the issuer of the claim, and the validity of the claim must be judged by the verifier.
 notes:
 - If the issuer of the claim is also the subject of the claim, the claim is self-asserted.
 see_also:
@@ -21,12 +18,8 @@ sources:
 - 'ToIP CTWG maintained glossary source: `spec/terms-definitions/claim.md`'
 mental_models: []
 supporting_definitions:
-- '[W3C VC](https://www.w3.org/TR/vc-data-model/#terminology): An assertion made about
-  a [subject](https://www.w3.org/TR/vc-data-model/#dfn-subjects).'
-- '[Wikipedia](https://en.wikipedia.org/wiki/Claims-based_identity): A claim is a
-  statement that one subject, such as a person or organization, makes about itself
-  or another subject. For example, the statement can be about a name, group, buying
-  preference, ethnicity, privilege, association or capability.'
+- '[W3C VC](https://www.w3.org/TR/vc-data-model/#terminology): An assertion made about a [subject](https://www.w3.org/TR/vc-data-model/#dfn-subjects).'
+- '[Wikipedia](https://en.wikipedia.org/wiki/Claims-based_identity): A claim is a statement that one subject, such as a person or organization, makes about itself or another subject. For example, the statement can be about a name, group, buying preference, ethnicity, privilege, association or capability.'
 source_file: spec/terms-definitions/claim.md
 governance_profile: core-operational
 governance:

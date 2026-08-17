@@ -6,6 +6,9 @@ title: "person"
 
 # person
 
+## In Simple English
+See natural person.
+
 ## Definition
 See natural person.
 

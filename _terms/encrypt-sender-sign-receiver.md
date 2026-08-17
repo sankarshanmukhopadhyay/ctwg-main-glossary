@@ -6,6 +6,9 @@ title: "encrypt-sender-sign-receiver"
 
 # encrypt-sender-sign-receiver
 
+## In Simple English
+An authenticated encryption approach, using PKI. It covers authenticity and confidentiality.
+
 ## Definition
 An authenticated encryption approach, using PKI. It covers authenticity and confidentiality.
 

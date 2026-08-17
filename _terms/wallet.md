@@ -6,6 +6,9 @@ title: "wallet"
 
 # wallet
 
+## In Simple English
+See: digital wallet.
+
 ## Definition
 See: digital wallet.
 

@@ -6,6 +6,9 @@ title: "natural-person"
 
 # natural-person
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A person (in legal meaning, one who has its own legal personality) that is an individual human being, as distinguished from the broader category of a legal person, which may refer to either a natural person or an organization of any kind.
 

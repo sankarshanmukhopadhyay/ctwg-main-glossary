@@ -5,8 +5,7 @@ aliases:
 - decrypts
 - decrypting
 - decrypted
-definition: The process of changing ciphertext into plaintext using a cryptographic
-  algorithm and key. The opposite of encryption.
+definition: The process of changing ciphertext into plaintext using a cryptographic algorithm and key. The opposite of encryption.
 notes: []
 see_also:
 - glossary
@@ -44,3 +43,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: The process of changing ciphertext into plaintext using a cryptographic algorithm and key. The opposite of encryption.

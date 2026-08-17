@@ -14,9 +14,7 @@ aliases:
 - unauthorised
 - authorising
 - unauthorising
-definition: The process of determining whether a requested action or service is approved
-  for a specific entity under applicable policies, rules, credentials, or other governing
-  criteria.
+definition: The process of determining whether a requested action or service is approved for a specific entity under applicable policies, rules, credentials, or other governing criteria.
 notes: []
 see_also:
 - permission.

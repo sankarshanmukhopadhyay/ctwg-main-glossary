@@ -1,10 +1,7 @@
 term: peer-to-peer
 aliases:
 - peer-to-peer
-definition: Peer-to-peer (P2P) computing or networking is a distributed application
-  architecture that partitions tasks or workloads between peers. Peers are equally
-  privileged, equipotent participants in the network. This forms a peer-to-peer network
-  of nodes.
+definition: Peer-to-peer (P2P) computing or networking is a distributed application architecture that partitions tasks or workloads between peers. Peers are equally privileged, equipotent participants in the network. This forms a peer-to-peer network of nodes.
 notes: []
 see_also:
 - glossary

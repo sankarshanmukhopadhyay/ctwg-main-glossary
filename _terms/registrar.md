@@ -6,6 +6,9 @@ title: "registrar"
 
 # registrar
 
+## In Simple English
+The party who performs registration on behalf of a registrant.
+
 ## Definition
 The party who performs registration on behalf of a registrant.
 

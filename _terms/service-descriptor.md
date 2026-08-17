@@ -6,6 +6,9 @@ title: "service descriptor"
 
 # service descriptor
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A policy-governed disclosure artifact through which an agent, service, or system states what it is, what it can do, how it can be reached, and under what visibility conditions.
 

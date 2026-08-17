@@ -6,6 +6,9 @@ title: "credential-governance-framework"
 
 # credential-governance-framework
 
+## In Simple English
+A governance framework for a credential family. A credential governance framework may be included within or referenced by an ecosystem governance framework.
+
 ## Definition
 A governance framework for a credential family. A credential governance framework may be included within or referenced by an ecosystem governance framework.
 

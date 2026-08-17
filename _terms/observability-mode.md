@@ -6,6 +6,9 @@ title: "observability mode"
 
 # observability mode
 
+## In Simple English
+A descriptor for what can be known and evidenced about delivery, timing, progress, and user awareness for an interaction channel or execution path.
+
 ## Definition
 A descriptor for what can be known and evidenced about delivery, timing, progress, and user awareness for an interaction channel or execution path.
 

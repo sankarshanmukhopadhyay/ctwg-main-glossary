@@ -41,3 +41,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: An ordered sequence of records of key events.

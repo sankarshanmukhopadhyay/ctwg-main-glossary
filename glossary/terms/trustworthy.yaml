@@ -45,3 +45,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: A property of an entity that has the attribute of trustworthiness.

@@ -6,6 +6,9 @@ title: "natural-thing"
 
 # natural-thing
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A thing that exists in the natural world independently of humans. Although natural things may form part of a man-made thing, natural things are mutually exclusive with man-made things.
 

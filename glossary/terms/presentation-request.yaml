@@ -2,8 +2,7 @@ term: presentation-request
 aliases:
 - presentation request
 - presentation requests
-definition: A protocol request sent by the verifier to the holder of a digital wallet
-  to request a presentation.
+definition: A protocol request sent by the verifier to the holder of a digital wallet to request a presentation.
 notes: []
 see_also:
 - issuance request.
@@ -40,3 +39,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: A protocol request sent by the verifier to the holder of a digital wallet to request a presentation.

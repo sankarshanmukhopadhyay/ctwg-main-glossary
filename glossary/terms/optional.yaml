@@ -1,10 +1,7 @@
 term: optional
 aliases:
 - optional
-definition: A requirement that is not mandatory or recommended to implement in order
-  for an implementer to be in compliance, but which is left to the implementer’s choice.
-  In ToIP governance frameworks, an optional requirement is expressed using a MAY
-  or OPTIONAL keyword as defined in IETF RFC 2119.
+definition: A requirement that is not mandatory or recommended to implement in order for an implementer to be in compliance, but which is left to the implementer’s choice. In ToIP governance frameworks, an optional requirement is expressed using a MAY or OPTIONAL keyword as defined in IETF RFC 2119.
 notes: []
 see_also:
 - mandatory

@@ -6,6 +6,9 @@ title: "issuer-metadata"
 
 # issuer-metadata
 
+## In Simple English
+Metadata published by a credential issuer describing issuer capabilities, credential configurations, endpoints, and supported formats.
+
 ## Definition
 Metadata published by a credential issuer describing issuer capabilities, credential configurations, endpoints, and supported formats.
 

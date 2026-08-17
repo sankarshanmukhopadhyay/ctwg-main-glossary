@@ -6,6 +6,9 @@ title: "abac"
 
 # abac
 
+## In Simple English
+See: attribute-based access control.
+
 ## Definition
 See: attribute-based access control.
 

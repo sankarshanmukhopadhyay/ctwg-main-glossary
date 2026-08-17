@@ -1,12 +1,9 @@
 term: status-record
 aliases:
 - status record
-definition: An inspectable record that represents the validity, suspension, revocation,
-  or lifecycle status of a credential, authorization, registration, or governed object.
-reader_note: This bridge term improves navigation across privacy, status, provenance,
-  and assurance concepts.
-implementation_relevance: Use this term where evidence needs to be carried across
-  both reader-facing documentation and machine-verifiable assurance artifacts.
+definition: An inspectable record that represents the validity, suspension, revocation, or lifecycle status of a credential, authorization, registration, or governed object.
+reader_note: This bridge term improves navigation across privacy, status, provenance, and assurance concepts.
+implementation_relevance: Use this term where evidence needs to be carried across both reader-facing documentation and machine-verifiable assurance artifacts.
 notes: []
 see_also:
 - revocation
@@ -63,3 +60,4 @@ crosswalk:
   - VC Data Model v2.0
   c2pa: []
   ietf: []
+simple_definition: An inspectable record that represents the validity, suspension, revocation, or lifecycle status of a credential, authorization, registration, or governed object.

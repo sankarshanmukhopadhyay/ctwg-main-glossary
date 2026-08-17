@@ -6,6 +6,9 @@ title: "key-management-system"
 
 # key-management-system
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A system for the management of cryptographic keys and their metadata (e.g., generation, distribution, storage, backup, archive, recovery, use, revocation, and destruction). An automated key management system may be used to oversee, automate, and secure the key management process. A key management is often protected by implementing it within the trusted execution environment (TEE) of a device. An example is the Secure Enclave on Apple iOS devices.
 

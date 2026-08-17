@@ -6,6 +6,9 @@ title: "transferable-identifier"
 
 # transferable-identifier
 
+## In Simple English
+Control over the identifier transferable by [[xref: keri1, rotation]].
+
 ## Definition
 Control over the identifier transferable by [[xref: keri1, rotation]].
 

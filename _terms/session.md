@@ -6,6 +6,9 @@ title: "session"
 
 # session
 
+## In Simple English
+See: communication session.
+
 ## Definition
 See: communication session.
 

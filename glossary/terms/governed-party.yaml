@@ -2,8 +2,7 @@ term: governed-party
 aliases:
 - governed party
 - governed parties
-definition: A party whose role(s) in a trust community is governed by the governance
-  requirements in a governance framework.
+definition: A party whose role(s) in a trust community is governed by the governance requirements in a governance framework.
 notes: []
 see_also:
 - policy
@@ -45,3 +44,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: A party whose role(s) in a trust community is governed by the governance requirements in a governance framework.

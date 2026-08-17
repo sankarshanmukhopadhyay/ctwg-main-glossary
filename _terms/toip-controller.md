@@ -6,6 +6,9 @@ title: "toip-controller"
 
 # toip-controller
 
+## In Simple English
+The controller of a verifiable identifier (VID) used with the ToIP stack.
+
 ## Definition
 The controller of a verifiable identifier (VID) used with the ToIP stack.
 

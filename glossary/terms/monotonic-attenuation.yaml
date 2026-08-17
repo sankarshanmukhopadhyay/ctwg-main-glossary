@@ -57,3 +57,4 @@ control_plane:
   - delegation_record
   - status_record
   - verification_log
+simple_definition: The delegation invariant that authority may remain unchanged or become narrower at each delegation hop but must never expand beyond the parent grant.

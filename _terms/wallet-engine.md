@@ -6,6 +6,9 @@ title: "wallet-engine"
 
 # wallet-engine
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 The set of software components that form the core of a digital wallet, but which by themselves are not sufficient to deliver a fully functional wallet for use by a digital agent (of a principal). A wallet engine is to a digital wallet what a browser engine is to a web browser.
 

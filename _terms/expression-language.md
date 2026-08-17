@@ -6,6 +6,9 @@ title: "expression-language"
 
 # expression-language
 
+## In Simple English
+A language for creating a computer-interpretable (machine-readable) representation of specific knowledge.
+
 ## Definition
 A language for creating a computer-interpretable (machine-readable) representation of specific knowledge.
 

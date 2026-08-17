@@ -6,6 +6,9 @@ title: "relationship"
 
 # relationship
 
+## In Simple English
+See ToIP relationship.
+
 ## Definition
 See ToIP relationship.
 

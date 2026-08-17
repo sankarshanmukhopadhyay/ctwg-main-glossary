@@ -6,6 +6,9 @@ title: "federation-assurance-level"
 
 # federation-assurance-level
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A category that describes the federation protocol used to communicate an assertion containing authentication) and attribute information (if applicable) to a relying party, as defined in NIST SP 800-63-3 in terms of three levels: FAL 1 (Some confidence), FAL 2 (High confidence), FAL 3 (Very high confidence).
 

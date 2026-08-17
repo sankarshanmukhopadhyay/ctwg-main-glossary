@@ -6,6 +6,9 @@ title: "virtual-vault"
 
 # virtual-vault
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A digital vault enclosed inside another digital vault by virtue of having its own verifiable identifier (VID) and its own set of encryption keys that are separate from those used to unlock the enclosing vault.
 

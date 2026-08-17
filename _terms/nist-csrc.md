@@ -6,6 +6,9 @@ title: "nist-csrc"
 
 # nist-csrc
 
+## In Simple English
+Abbreviation for the NIST Computer Security Resource Center Glossary.
+
 ## Definition
 Abbreviation for the NIST Computer Security Resource Center Glossary.
 

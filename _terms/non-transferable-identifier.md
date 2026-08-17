@@ -6,6 +6,9 @@ title: "non-transferable-identifier"
 
 # non-transferable-identifier
 
+## In Simple English
+Controlling keys over this identifier cannot be rotated and therefore this identifier is non-transferable to other control.
+
 ## Definition
 Controlling keys over this identifier cannot be rotated and therefore this identifier is non-transferable to other control.
 

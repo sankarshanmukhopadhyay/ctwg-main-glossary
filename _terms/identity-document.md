@@ -6,6 +6,9 @@ title: "identity-document"
 
 # identity-document
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A physical or digital document containing identity data. A credential is a specialized form of identity document. Birth certificates, bank statements, and utility bills can all be considered identity documents.
 

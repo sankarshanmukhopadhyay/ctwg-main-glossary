@@ -2,11 +2,7 @@ term: controller
 aliases:
 - controller
 - controllers
-definition: In the context of digital communications, the entity in control of sending
-  and receiving digital communications. In the context of decentralized digital trust
-  infrastructure, the entity in control of the cryptographic keys necessary to perform
-  cryptographically verifiable actions using a digital agent and digital wallet. In
-  a ToIP context, the entity in control of a ToIP endpoint.
+definition: In the context of digital communications, the entity in control of sending and receiving digital communications. In the context of decentralized digital trust infrastructure, the entity in control of the cryptographic keys necessary to perform cryptographically verifiable actions using a digital agent and digital wallet. In a ToIP context, the entity in control of a ToIP endpoint.
 notes: []
 see_also:
 - device controller
@@ -16,11 +12,7 @@ sources:
 - 'ToIP CTWG maintained glossary source: `spec/terms-definitions/controller.md`'
 mental_models: []
 supporting_definitions:
-- '[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#controller):
-  the role that an [actor](https://essif-lab.github.io/framework/docs/terms/actor)
-  performs as it is executing actions on that [entity](https://essif-lab.github.io/framework/docs/terms/entity)
-  for the purpose of ensuring that the [entity](https://essif-lab.github.io/framework/docs/terms/entity)
-  will act/behave, or be used, in a particular way.'
+- '[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#controller): the role that an [actor](https://essif-lab.github.io/framework/docs/terms/actor) performs as it is executing actions on that [entity](https://essif-lab.github.io/framework/docs/terms/entity) for the purpose of ensuring that the [entity](https://essif-lab.github.io/framework/docs/terms/entity) will act/behave, or be used, in a particular way.'
 source_file: spec/terms-definitions/controller.md
 governance_profile: core-operational
 governance:

@@ -6,6 +6,9 @@ title: "bitstring-status-list"
 
 # bitstring-status-list
 
+## In Simple English
+A W3C status mechanism for publishing credential status information such as revocation or suspension using compressed bitstrings.
+
 ## Definition
 A W3C status mechanism for publishing credential status information such as revocation or suspension using compressed bitstrings.
 

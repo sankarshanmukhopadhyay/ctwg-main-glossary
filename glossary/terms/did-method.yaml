@@ -2,9 +2,7 @@ term: did-method
 aliases:
 - DID method
 - DID methods
-definition: A definition of how a specific DID method scheme is implemented. A DID
-  method is defined by a DID method specification, which specifies the precise operations
-  by which DIDs and DID documents are created, resolved, updated, and deactivated.
+definition: A definition of how a specific DID method scheme is implemented. A DID method is defined by a DID method specification, which specifies the precise operations by which DIDs and DID documents are created, resolved, updated, and deactivated.
 notes: []
 see_also:
 - glossary

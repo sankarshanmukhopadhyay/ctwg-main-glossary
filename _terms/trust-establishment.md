@@ -6,6 +6,9 @@ title: "trust-establishment"
 
 # trust-establishment
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 The process two or more parties go through to establish a trust relationship. In the context of decentralized digital trust infrastructure, trust establishment takes place at two levels. At the technical trust level, it includes some form of key establishment. At the human trust level, it may be accomplished via an out-of-band introduction, the exchange of digital credentials, queries to one or more trust registries, or evaluation of some combination of human-readable and machine-readable governance frameworks.
 

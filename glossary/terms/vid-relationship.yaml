@@ -2,10 +2,7 @@ term: vid-relationship
 aliases:
 - VID relationship
 - VID relationships
-definition: The communications relationship formed between two VIDs using the ToIP
-  Trust Spanning Protocol. A particular feature of this protocol is its ability to
-  establish as many VID relationships as needed to establish different relationship
-  contexts between the communicating entities.
+definition: The communications relationship formed between two VIDs using the ToIP Trust Spanning Protocol. A particular feature of this protocol is its ability to establish as many VID relationships as needed to establish different relationship contexts between the communicating entities.
 notes: []
 see_also:
 - glossary

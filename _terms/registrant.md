@@ -6,6 +6,9 @@ title: "registrant"
 
 # registrant
 
+## In Simple English
+The party submitting a registration record to a registry.
+
 ## Definition
 The party submitting a registration record to a registry.
 

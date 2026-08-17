@@ -6,6 +6,9 @@ title: "wallet-attestation"
 
 # wallet-attestation
 
+## In Simple English
+Evidence about a wallet instance, wallet provider, or wallet capability that can be used by issuers, verifiers, or governance frameworks to make reliance decisions.
+
 ## Definition
 Evidence about a wallet instance, wallet provider, or wallet capability that can be used by issuers, verifiers, or governance frameworks to make reliance decisions.
 

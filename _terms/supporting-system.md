@@ -6,6 +6,9 @@ title: "supporting-system"
 
 # supporting-system
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A system that operates at ToIP Layer 1, the trust support layer of the ToIP stack. A supporting system is one of three types of systems defined in the ToIP Technology Architecture Specification.
 

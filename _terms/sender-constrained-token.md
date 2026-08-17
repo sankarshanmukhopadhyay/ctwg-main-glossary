@@ -6,6 +6,9 @@ title: "sender-constrained-token"
 
 # sender-constrained-token
 
+## In Simple English
+A token whose use is cryptographically constrained to a specific sender or key holder, reducing replay risk if the token is copied.
+
 ## Definition
 A token whose use is cryptographically constrained to a specific sender or key holder, reducing replay risk if the token is copied.
 

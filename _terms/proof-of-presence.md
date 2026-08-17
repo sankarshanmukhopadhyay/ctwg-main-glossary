@@ -6,6 +6,9 @@ title: "proof-of-presence"
 
 # proof-of-presence
 
+## In Simple English
+See: liveness detection.
+
 ## Definition
 See: liveness detection.
 

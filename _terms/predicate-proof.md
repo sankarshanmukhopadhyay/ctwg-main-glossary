@@ -6,6 +6,9 @@ title: "predicate proof"
 
 # predicate proof
 
+## In Simple English
+A proof that establishes whether a defined condition about one or more attributes is satisfied without necessarily disclosing the underlying attribute values.
+
 ## Definition
 A proof that establishes whether a defined condition about one or more attributes is satisfied without necessarily disclosing the underlying attribute values.
 

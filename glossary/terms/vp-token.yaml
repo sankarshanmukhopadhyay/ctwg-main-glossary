@@ -2,8 +2,7 @@ term: vp-token
 aliases:
 - VP Token
 - vp_token
-definition: An OpenID4VP response artifact containing one or more presentations returned
-  to a verifier in response to an authorization request.
+definition: An OpenID4VP response artifact containing one or more presentations returned to a verifier in response to an authorization request.
 reader_note: ''
 implementation_relevance: ''
 notes: []
@@ -50,3 +49,4 @@ control_plane:
 crosswalk:
   openid:
   - OpenID4VP 1.0
+simple_definition: An OpenID4VP response artifact containing one or more presentations returned to a verifier in response to an authorization request.

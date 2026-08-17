@@ -2,9 +2,7 @@ term: decentralized-identity
 aliases:
 - decentralized identity
 - decentralized identities
-definition: A digital identity architecture in which a digital identity is established
-  via the control of a set of cryptographic keys in a digital wallet so that the controller
-  is not dependent on any external identity provider or other third party.
+definition: A digital identity architecture in which a digital identity is established via the control of a set of cryptographic keys in a digital wallet so that the controller is not dependent on any external identity provider or other third party.
 notes: []
 see_also:
 - federated-identity

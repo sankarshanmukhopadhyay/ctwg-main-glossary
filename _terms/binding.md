@@ -6,6 +6,9 @@ title: "binding"
 
 # binding
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 The technique of connecting two data elements together. In the context of key-event-receipt-infrastructure it's the association of data or an identifier with another identifier or a subject (a person, organization or machine), thereby lifting the privacy of the subject through that connection, i.e. **binding**.
 

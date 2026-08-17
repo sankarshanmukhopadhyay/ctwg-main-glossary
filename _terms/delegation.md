@@ -6,6 +6,9 @@ title: "delegation"
 
 # delegation
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 The act of a first party (the delegator) authorizing a second party (the delegatee) to perform a defined set of actions on behalf of the first party within an authorized scope and subject to applicable constraints.
 

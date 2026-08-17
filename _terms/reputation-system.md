@@ -6,6 +6,9 @@ title: "reputation-system"
 
 # reputation-system
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 Reputation systems are programs or algorithms that allow users to rate each other in online communities in order to build trust through reputation. Some common uses of these systems can be found on e-commerce websites such as eBay, Amazon.com, and Etsy as well as online advice communities such as Stack Exchange.
 

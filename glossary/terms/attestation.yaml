@@ -2,10 +2,7 @@ term: attestation
 aliases:
 - attestation
 - attestations
-definition: The issue of a statement, based on a decision, that fulfillment of specified
-  requirements has been demonstrated. In the context of decentralized digital trust
-  infrastructure, an attestation usually has a digital signature so that it is cryptographically
-  verifiable.
+definition: The issue of a statement, based on a decision, that fulfillment of specified requirements has been demonstrated. In the context of decentralized digital trust infrastructure, an attestation usually has a digital signature so that it is cryptographically verifiable.
 notes: []
 see_also:
 - audit

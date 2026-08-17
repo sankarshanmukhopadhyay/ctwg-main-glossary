@@ -2,11 +2,7 @@ term: trust-network
 aliases:
 - trust network
 - trust networks
-definition: A network of parties who are connected via trust relationships (such as
-  via a membership agreement) conforming to requirements defined in a legal regulation,
-  trust framework or governance framework. A trust network is more formal than a digital
-  trust ecosystem; the latter may connect parties more loosely via transitive trust
-  relationships and/or across multiple trust networks.
+definition: A network of parties who are connected via trust relationships (such as via a membership agreement) conforming to requirements defined in a legal regulation, trust framework or governance framework. A trust network is more formal than a digital trust ecosystem; the latter may connect parties more loosely via transitive trust relationships and/or across multiple trust networks.
 notes: []
 see_also:
 - ToIP trust network.

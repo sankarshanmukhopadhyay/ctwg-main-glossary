@@ -2,8 +2,7 @@ term: key-binding-jwt
 aliases:
 - KB-JWT
 - Key Binding JWT
-definition: A JWT used to demonstrate holder control of a key associated with an SD-JWT
-  or SD-JWT VC presentation.
+definition: A JWT used to demonstrate holder control of a key associated with an SD-JWT or SD-JWT VC presentation.
 reader_note: ''
 implementation_relevance: ''
 notes: []
@@ -50,3 +49,4 @@ control_plane:
 crosswalk:
   ietf:
   - RFC 9901
+simple_definition: A JWT used to demonstrate holder control of a key associated with an SD-JWT or SD-JWT VC presentation.

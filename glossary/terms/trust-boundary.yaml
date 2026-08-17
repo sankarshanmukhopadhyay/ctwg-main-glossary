@@ -46,3 +46,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: The border of a trust domain.

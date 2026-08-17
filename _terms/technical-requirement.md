@@ -6,6 +6,9 @@ title: "technical-requirement"
 
 # technical-requirement
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A requirement for a hardware or software component or system. In the context of decentralized digital trust infrastructure, technical requirements are a subset of governance requirements. Technical requirements are often specified in a technical specification.
 

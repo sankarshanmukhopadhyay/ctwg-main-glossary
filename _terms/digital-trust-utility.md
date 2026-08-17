@@ -6,6 +6,9 @@ title: "digital-trust-utility"
 
 # digital-trust-utility
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 An information system, network, distributed database, or blockchain designed to provide one or more supporting services to higher level components of decentralized digital trust infrastructure. In the ToIP stack, digital trust utilities are at Layer 1. A verifiable data registry is one type of digital trust utility.
 

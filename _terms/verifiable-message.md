@@ -6,6 +6,9 @@ title: "verifiable-message"
 
 # verifiable-message
 
+## In Simple English
+A message communicated as verifiable data by virtue of being digitally signed.
+
 ## Definition
 A message communicated as verifiable data by virtue of being digitally signed.
 

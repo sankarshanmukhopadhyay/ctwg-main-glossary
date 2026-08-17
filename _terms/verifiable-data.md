@@ -6,6 +6,9 @@ title: "verifiable-data"
 
 # verifiable-data
 
+## In Simple English
+Any digital data or object that is digitally signed in such a manner that it can be cryptographically verified.
+
 ## Definition
 Any digital data or object that is digitally signed in such a manner that it can be cryptographically verified.
 

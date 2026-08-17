@@ -6,6 +6,9 @@ title: "oobi"
 
 # oobi
 
+## In Simple English
+See: out-of-band introduction.
+
 ## Definition
 See: out-of-band introduction.
 

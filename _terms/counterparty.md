@@ -6,6 +6,9 @@ title: "counterparty"
 
 # counterparty
 
+## In Simple English
+From the perspective of one party, the other party in a transaction, such as a financial transaction.
+
 ## Definition
 From the perspective of one party, the other party in a transaction, such as a financial transaction.
 

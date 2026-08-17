@@ -6,6 +6,9 @@ title: "user-agent"
 
 # user-agent
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A software agent that is used directly by the end-user as the principal. Browsers, email clients, and digital wallets are all examples of user agents.
 

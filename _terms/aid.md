@@ -6,6 +6,9 @@ title: "aid"
 
 # aid
 
+## In Simple English
+See autonomic-identifier.
+
 ## Definition
 See autonomic-identifier.
 

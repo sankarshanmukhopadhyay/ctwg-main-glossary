@@ -6,6 +6,9 @@ title: "self-certifying-identifier"
 
 # self-certifying-identifier
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A subclass of verifiable identifier (VID) that is cryptographically verifiable without the need to rely on any third party for verification because the identifier is cryptographically bound to the cryptographic keys from which it was generated.
 

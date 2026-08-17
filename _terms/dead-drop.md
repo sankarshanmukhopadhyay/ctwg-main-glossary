@@ -6,6 +6,9 @@ title: "dead-drop"
 
 # dead-drop
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 In cybersecurity or digital privacy scenarios, the term "dead drop" refers to encrypted or secure virtual spaces where information can be deposited or retrieved anonymously. In the credentials field, the presenter controls the disclosure, so you can't re-identify the data.
 

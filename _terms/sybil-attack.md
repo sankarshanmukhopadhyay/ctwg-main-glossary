@@ -6,6 +6,9 @@ title: "sybil-attack"
 
 # sybil-attack
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A Sybil attack is a type of attack on a computer network service in which an attacker subverts the service's reputation system by creating a large number of pseudonymous identities and uses them to gain a disproportionately large influence. It is named after the subject of the book _Sybil_, a case study of a woman diagnosed with dissociative identity disorder.
 

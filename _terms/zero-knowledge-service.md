@@ -6,6 +6,9 @@ title: "zero-knowledge-service"
 
 # zero-knowledge-service
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 In cloud computing, the term “zero-knowledge” refers to an online service that stores, transfers or manipulates data in a way that maintains a high level of confidentiality, where the data is only accessible to the data's owner (the client), and not to the service provider. This is achieved by encrypting the raw data at the client's side or end-to-end (in case there is more than one client), without disclosing the password to the service provider. This means that neither the service provider, nor any third party that might intercept the data, can decrypt and access the data without prior permission, allowing the client a higher degree of privacy than would otherwise be possible. In addition, zero-knowledge services often strive to hold as little metadata as possible, holding only that data that is functionally needed by the service.
 

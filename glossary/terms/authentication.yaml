@@ -5,8 +5,7 @@ aliases:
 - authenticates
 - authenticated
 - authenticating
-definition: Verifying the identity of a user, process, or device, often as a prerequisite
-  to allowing access to resources in an information system.
+definition: Verifying the identity of a user, process, or device, often as a prerequisite to allowing access to resources in an information system.
 notes: []
 see_also:
 - authenticator
@@ -15,9 +14,7 @@ sources:
 - '[NIST-CSRC](https://csrc.nist.gov/glossary/term/authentication).'
 mental_models: []
 supporting_definitions:
-- '[Wikipedia](https://en.wikipedia.org/wiki/Authentication): The act of proving an
-  [assertion](https://en.wikipedia.org/wiki/Logical_assertion), such as the [identity](https://en.wikipedia.org/wiki/Digital_identity)
-  of a computer system user.'
+- '[Wikipedia](https://en.wikipedia.org/wiki/Authentication): The act of proving an [assertion](https://en.wikipedia.org/wiki/Logical_assertion), such as the [identity](https://en.wikipedia.org/wiki/Digital_identity) of a computer system user.'
 source_file: spec/terms-definitions/authentication.md
 governance_profile: core-operational
 governance:
@@ -63,3 +60,4 @@ crosswalk:
   - IA-2
   iso:
   - ISO/IEC 27001 A.5.17
+simple_definition: Verifying the identity of a user, process, or device, often as a prerequisite to allowing access to resources in an information system.

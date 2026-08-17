@@ -6,6 +6,9 @@ title: "entity-statement"
 
 # entity-statement
 
+## In Simple English
+A signed statement in OpenID Federation that describes metadata, authority, and trust relationships for a federation entity.
+
 ## Definition
 A signed statement in OpenID Federation that describes metadata, authority, and trust relationships for a federation entity.
 

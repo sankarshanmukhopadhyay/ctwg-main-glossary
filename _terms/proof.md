@@ -6,6 +6,9 @@ title: "proof"
 
 # proof
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A digital object that enables cryptographic verification of either: a) the claims from one or more digital credentials, or b) facts about claims that do not reveal the data  itself (e.g., proof of the subject being over/under a specific age without revealing a birthdate).
 

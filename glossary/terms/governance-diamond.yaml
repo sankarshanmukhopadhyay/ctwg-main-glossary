@@ -2,9 +2,7 @@ term: governance-diamond
 aliases:
 - governance diamond
 - governance diamonds
-definition: A term that refers to the addition of a governing body to the standard
-  trust triangle of issuers, holders, and verifiers of credentials. The resulting
-  combination of four parties represents the basic structure of a digital trust ecosystem.
+definition: A term that refers to the addition of a governing body to the standard trust triangle of issuers, holders, and verifiers of credentials. The resulting combination of four parties represents the basic structure of a digital trust ecosystem.
 notes: []
 see_also:
 - credential

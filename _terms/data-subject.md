@@ -6,6 +6,9 @@ title: "data-subject"
 
 # data-subject
 
+## In Simple English
+The natural person that is described by personal data. Data subject is the term used by the EU General Data Protection Regulation.
+
 ## Definition
 The natural person that is described by personal data. Data subject is the term used by the EU General Data Protection Regulation.
 

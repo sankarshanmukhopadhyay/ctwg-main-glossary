@@ -6,6 +6,9 @@ title: "owner"
 
 # owner
 
+## In Simple English
+The role that a party performs when it is exercising its legal, rightful or natural title to control a specific entity.
+
 ## Definition
 The role that a party performs when it is exercising its legal, rightful or natural title to control a specific entity.
 

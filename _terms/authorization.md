@@ -6,6 +6,9 @@ title: "authorization"
 
 # authorization
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 The process of determining whether a requested action or service is approved for a specific entity under applicable policies, rules, credentials, or other governing criteria.
 

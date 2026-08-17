@@ -1,8 +1,7 @@
 term: toip-governance-architecture-specification
 aliases:
 - ToIP Governance Architecture Specification
-definition: The specification defining the requirements for the ToIP Governance Stack
-  published by the ToIP Foundation.
+definition: The specification defining the requirements for the ToIP Governance Stack published by the ToIP Foundation.
 notes: []
 see_also:
 - governance
@@ -49,3 +48,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: The specification defining the requirements for the ToIP Governance Stack published by the ToIP Foundation.

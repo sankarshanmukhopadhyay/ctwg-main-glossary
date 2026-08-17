@@ -6,6 +6,9 @@ title: "trust-anchor"
 
 # trust-anchor
 
+## In Simple English
+The authoritative source that serves as the origin of a trust chain.
+
 ## Definition
 The authoritative source that serves as the origin of a trust chain.
 

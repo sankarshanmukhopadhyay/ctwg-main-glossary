@@ -6,6 +6,9 @@ title: "controller"
 
 # controller
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 In the context of digital communications, the entity in control of sending and receiving digital communications. In the context of decentralized digital trust infrastructure, the entity in control of the cryptographic keys necessary to perform cryptographically verifiable actions using a digital agent and digital wallet. In a ToIP context, the entity in control of a ToIP endpoint.
 

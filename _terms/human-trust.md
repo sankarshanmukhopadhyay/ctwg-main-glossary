@@ -6,6 +6,9 @@ title: "human-trust"
 
 # human-trust
 
+## In Simple English
+A level of assurance in a trust relationship or a trust decision that can be achieved only via human evaluation of applicable trust factors.
+
 ## Definition
 A level of assurance in a trust relationship or a trust decision that can be achieved only via human evaluation of applicable trust factors.
 

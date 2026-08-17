@@ -6,6 +6,9 @@ title: "lid"
 
 # lid
 
+## In Simple English
+legitimized-human-meaningful-identifier
+
 ## Definition
 legitimized-human-meaningful-identifier
 

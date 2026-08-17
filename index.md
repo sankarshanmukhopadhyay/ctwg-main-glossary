@@ -20,6 +20,8 @@ It combines human-readable glossary pages with machine-readable governance metad
 
 ## Site sections
 
+- [Start Here]({{ '/start-here/' | relative_url }})
+- [Concepts by Topic]({{ '/concepts/' | relative_url }})
 - [Glossary Terms]({{ '/terms-index/' | relative_url }})
 - [Governance Documentation]({{ '/governance/' | relative_url }})
 - [Machine-readable Artifacts]({{ '/artifacts/' | relative_url }})

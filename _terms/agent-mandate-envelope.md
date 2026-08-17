@@ -6,6 +6,9 @@ title: "agent mandate envelope"
 
 # agent mandate envelope
 
+## In Simple English
+A structured artifact that binds an agent to an originating principal, delegated mandate, permitted scope, conditions, expiry, revocation semantics, and evidence requirements.
+
 ## Definition
 A structured artifact that binds an agent to an originating principal, delegated mandate, permitted scope, conditions, expiry, revocation semantics, and evidence requirements.
 

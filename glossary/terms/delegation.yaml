@@ -4,9 +4,7 @@ aliases:
 - delegate
 - delegated
 - delegates
-definition: The act of a first party (the delegator) authorizing a second party (the
-  delegatee) to perform a defined set of actions on behalf of the first party within
-  an authorized scope and subject to applicable constraints.
+definition: The act of a first party (the delegator) authorizing a second party (the delegatee) to perform a defined set of actions on behalf of the first party within an authorized scope and subject to applicable constraints.
 notes: []
 see_also:
 - delegator
@@ -17,8 +15,7 @@ sources:
 - 'ToIP CTWG maintained glossary source: `spec/terms-definitions/delegation.md`'
 mental_models: []
 supporting_definitions:
-- 'Delegation may be expressed through a [[ref: delegation credential]] or other policy-governed
-  mechanism and may be limited by scope, time, conditions, or revocation.'
+- 'Delegation may be expressed through a [[ref: delegation credential]] or other policy-governed mechanism and may be limited by scope, time, conditions, or revocation.'
 - 'More specific for KERI see: [[xref: keri1, delegated-identifier]]'
 source_file: spec/terms-definitions/delegation.md
 governance_profile: core-operational

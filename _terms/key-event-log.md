@@ -6,6 +6,9 @@ title: "key-event-log"
 
 # key-event-log
 
+## In Simple English
+An ordered sequence of records of key events.
+
 ## Definition
 An ordered sequence of records of key events.
 

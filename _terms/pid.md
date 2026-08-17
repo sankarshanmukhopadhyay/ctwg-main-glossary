@@ -6,6 +6,9 @@ title: "pid"
 
 # pid
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A set of identity attributes used in the EUDI Wallet ecosystem to identify a natural or legal person under the applicable legal and governance framework.
 

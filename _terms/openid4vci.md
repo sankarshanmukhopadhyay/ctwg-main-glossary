@@ -6,6 +6,9 @@ title: "openid4vci"
 
 # openid4vci
 
+## In Simple English
+An OpenID Foundation protocol that defines OAuth 2.0-based mechanisms for issuing verifiable credentials from credential issuers to wallets.
+
 ## Definition
 An OpenID Foundation protocol that defines OAuth 2.0-based mechanisms for issuing verifiable credentials from credential issuers to wallets.
 

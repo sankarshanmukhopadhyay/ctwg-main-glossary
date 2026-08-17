@@ -4,11 +4,9 @@ aliases:
 - authenticator assurance levels
 - AAL
 - AALs
-definition: A measure of the strength of an authentication mechanism and, therefore,
-  the confidence in it.
+definition: A measure of the strength of an authentication mechanism and, therefore, the confidence in it.
 notes:
-- 'In NIST SP 800-63-3, AAL is defined in terms of three levels: AAL1 (Some confidence),
-  AAL2 (High confidence), AAL3 (Very high confidence).'
+- 'In NIST SP 800-63-3, AAL is defined in terms of three levels: AAL1 (Some confidence), AAL2 (High confidence), AAL3 (Very high confidence).'
 see_also:
 - federation assurance level
 - identity assurance level
@@ -50,3 +48,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: A measure of the strength of an authentication mechanism and, therefore, the confidence in it.

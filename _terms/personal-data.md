@@ -6,6 +6,9 @@ title: "personal-data"
 
 # personal-data
 
+## In Simple English
+Any information relating to an identified or identifiable natural person (called a data subject under GDPR).
+
 ## Definition
 Any information relating to an identified or identifiable natural person (called a data subject under GDPR).
 

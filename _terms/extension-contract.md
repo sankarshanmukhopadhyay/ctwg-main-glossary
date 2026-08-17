@@ -6,6 +6,9 @@ title: "extension contract"
 
 # extension contract
 
+## In Simple English
+A protocol-neutral record of whether an optional or required extension was proposed, supported, accepted, degraded, rejected, or not attempted, including the applicable failure behavior.
+
 ## Definition
 A protocol-neutral record of whether an optional or required extension was proposed, supported, accepted, degraded, rejected, or not attempted, including the applicable failure behavior.
 

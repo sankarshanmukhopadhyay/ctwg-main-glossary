@@ -1,10 +1,7 @@
 term: trust-over-ip
 aliases:
 - Trust over IP
-definition: A term coined by John Jordan to describe the decentralized digital trust
-  infrastructure made possible by the ToIP stack. A play on the term *Voice over IP*
-  (abbreviated *VoIP*). The term was adopted as the name for the Trust over IP Foundation
-  aka ToIP Foundation.
+definition: A term coined by John Jordan to describe the decentralized digital trust infrastructure made possible by the ToIP stack. A play on the term *Voice over IP* (abbreviated *VoIP*). The term was adopted as the name for the Trust over IP Foundation aka ToIP Foundation.
 notes: []
 see_also:
 - glossary

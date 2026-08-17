@@ -6,6 +6,9 @@ title: "impersonation"
 
 # impersonation
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 In the context of cybersecurity, impersonation is when an attacker pretends to be another person in order to commit fraud or some other digital crime.
 

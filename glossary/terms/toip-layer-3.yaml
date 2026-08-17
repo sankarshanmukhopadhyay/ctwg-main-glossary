@@ -1,8 +1,7 @@
 term: toip-layer-3
 aliases:
 - ToIP Layer 3
-definition: The trust task layer of the ToIP stack, responsible for enabling trust
-  applications at ToIP Layer 4.
+definition: The trust task layer of the ToIP stack, responsible for enabling trust applications at ToIP Layer 4.
 notes: []
 see_also:
 - glossary
@@ -44,3 +43,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: The trust task layer of the ToIP stack, responsible for enabling trust applications at ToIP Layer 4.

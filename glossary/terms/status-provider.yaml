@@ -2,8 +2,7 @@ term: status-provider
 aliases:
 - credential status provider
 - status provider
-definition: An entity that provides status information such as suspension or revocation
-  for a credential.
+definition: An entity that provides status information such as suspension or revocation for a credential.
 reader_note: ''
 implementation_relevance: ''
 notes: []
@@ -65,3 +64,4 @@ crosswalk:
   - RFC 9901
   w3c:
   - Bitstring Status List v1.0
+simple_definition: An entity that provides status information such as suspension or revocation for a credential.

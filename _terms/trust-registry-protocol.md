@@ -6,6 +6,9 @@ title: "trust-registry-protocol"
 
 # trust-registry-protocol
 
+## In Simple English
+See: ToIP Trust Registry Protocol.
+
 ## Definition
 See: ToIP Trust Registry Protocol.
 

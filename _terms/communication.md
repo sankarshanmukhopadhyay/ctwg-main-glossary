@@ -6,6 +6,9 @@ title: "communication"
 
 # communication
 
+## In Simple English
+The transmission of information.
+
 ## Definition
 The transmission of information.
 

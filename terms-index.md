@@ -1,12 +1,12 @@
 ---
 title: "Glossary Terms"
-nav_order: 2
+nav_order: 4
 has_children: true
 ---
 
 # Glossary Terms
 
-This index is generated from `glossary/terms/` and currently includes **599** terms.
+This index is generated from `glossary/terms/` and currently includes **612** terms.
 
 ## Browse by letter
 
@@ -53,6 +53,7 @@ This index is generated from `glossary/terms/` and currently includes **599** te
 - [agent]({{ '/terms/agent/' | relative_url }})
 - [agent class]({{ '/terms/agent-class/' | relative_url }})
 - [agent mandate envelope]({{ '/terms/agent-mandate-envelope/' | relative_url }})
+- [agent registry]({{ '/terms/agent-registry/' | relative_url }})
 - [aggregation amplification]({{ '/terms/aggregation-amplification/' | relative_url }})
 - [aid]({{ '/terms/aid/' | relative_url }})
 - [anonymous]({{ '/terms/anonymous/' | relative_url }})
@@ -60,9 +61,8 @@ This index is generated from `glossary/terms/` and currently includes **599** te
 - [anycast-address]({{ '/terms/anycast-address/' | relative_url }})
 - [appraisability]({{ '/terms/appraisability/' | relative_url }})
 - [appropriate-friction]({{ '/terms/appropriate-friction/' | relative_url }})
-- [assurance-level]({{ '/terms/assurance-level/' | relative_url }})
-- [attention policy]({{ '/terms/attention-policy/' | relative_url }})
-- [View all 49 terms for A]({{ '/terms/a/' | relative_url }})
+- [assurance boundary]({{ '/terms/assurance-boundary/' | relative_url }})
+- [View all 52 terms for A]({{ '/terms/a/' | relative_url }})
 
 ## B
 
@@ -102,7 +102,7 @@ This index is generated from `glossary/terms/` and currently includes **599** te
 - [communication-endpoint]({{ '/terms/communication-endpoint/' | relative_url }})
 - [communication-metadata]({{ '/terms/communication-metadata/' | relative_url }})
 - [communication-session]({{ '/terms/communication-session/' | relative_url }})
-- [View all 61 terms for C]({{ '/terms/c/' | relative_url }})
+- [View all 62 terms for C]({{ '/terms/c/' | relative_url }})
 
 ## D
 
@@ -178,12 +178,14 @@ This index is generated from `glossary/terms/` and currently includes **599** te
 - [general-data-protection-regulation]({{ '/terms/general-data-protection-regulation/' | relative_url }})
 - [glossary]({{ '/terms/glossary/' | relative_url }})
 - [governance]({{ '/terms/governance/' | relative_url }})
+- [governance legitimacy]({{ '/terms/governance-legitimacy/' | relative_url }})
 - [governance-diamond]({{ '/terms/governance-diamond/' | relative_url }})
 - [governance-document]({{ '/terms/governance-document/' | relative_url }})
 - [governance-framework]({{ '/terms/governance-framework/' | relative_url }})
 - [governance-graph]({{ '/terms/governance-graph/' | relative_url }})
 - [governance-requirement]({{ '/terms/governance-requirement/' | relative_url }})
 - [governance-risk-management-compliance]({{ '/terms/governance-risk-management-compliance/' | relative_url }})
+- [governed action]({{ '/terms/governed-action/' | relative_url }})
 - [governed-information]({{ '/terms/governed-information/' | relative_url }})
 - [governed-party]({{ '/terms/governed-party/' | relative_url }})
 - [governed-use-case]({{ '/terms/governed-use-case/' | relative_url }})
@@ -204,6 +206,7 @@ This index is generated from `glossary/terms/` and currently includes **599** te
 - [host]({{ '/terms/host/' | relative_url }})
 - [hourglass-model]({{ '/terms/hourglass-model/' | relative_url }})
 - [hsm]({{ '/terms/hsm/' | relative_url }})
+- [human harm]({{ '/terms/human-harm/' | relative_url }})
 - [human-auditable]({{ '/terms/human-auditable/' | relative_url }})
 - [human-experience]({{ '/terms/human-experience/' | relative_url }})
 - [human-readable]({{ '/terms/human-readable/' | relative_url }})
@@ -232,11 +235,11 @@ This index is generated from `glossary/terms/` and currently includes **599** te
 - [intermediary-system]({{ '/terms/intermediary-system/' | relative_url }})
 - [internet-protocol]({{ '/terms/internet-protocol/' | relative_url }})
 - [internet-protocol-suite]({{ '/terms/internet-protocol-suite/' | relative_url }})
+- [interoperability]({{ '/terms/interoperability/' | relative_url }})
 - [ip]({{ '/terms/ip/' | relative_url }})
 - [ip-address]({{ '/terms/ip-address/' | relative_url }})
 - [issuance]({{ '/terms/issuance/' | relative_url }})
-- [issuance-request]({{ '/terms/issuance-request/' | relative_url }})
-- [View all 29 terms for I]({{ '/terms/i/' | relative_url }})
+- [View all 30 terms for I]({{ '/terms/i/' | relative_url }})
 
 ## J
 
@@ -349,9 +352,9 @@ This index is generated from `glossary/terms/` and currently includes **599** te
 - [pki]({{ '/terms/pki/' | relative_url }})
 - [plaintext]({{ '/terms/plaintext/' | relative_url }})
 - [policy]({{ '/terms/policy/' | relative_url }})
+- [policy enforcement]({{ '/terms/policy-enforcement/' | relative_url }})
 - [pop]({{ '/terms/pop/' | relative_url }})
-- [predicate proof]({{ '/terms/predicate-proof/' | relative_url }})
-- [View all 50 terms for P]({{ '/terms/p/' | relative_url }})
+- [View all 53 terms for P]({{ '/terms/p/' | relative_url }})
 
 ## Q
 
@@ -362,8 +365,10 @@ This index is generated from `glossary/terms/` and currently includes **599** te
 
 - [rbac]({{ '/terms/rbac/' | relative_url }})
 - [real-world-identity]({{ '/terms/real-world-identity/' | relative_url }})
+- [recognition]({{ '/terms/recognition/' | relative_url }})
 - [recommended]({{ '/terms/recommended/' | relative_url }})
 - [record]({{ '/terms/record/' | relative_url }})
+- [redress]({{ '/terms/redress/' | relative_url }})
 - [registrant]({{ '/terms/registrant/' | relative_url }})
 - [registrar]({{ '/terms/registrar/' | relative_url }})
 - [registration]({{ '/terms/registration/' | relative_url }})
@@ -383,9 +388,7 @@ This index is generated from `glossary/terms/` and currently includes **599** te
 - [risk-assessment]({{ '/terms/risk-assessment/' | relative_url }})
 - [risk-decision]({{ '/terms/risk-decision/' | relative_url }})
 - [risk-management]({{ '/terms/risk-management/' | relative_url }})
-- [risk-mitigation]({{ '/terms/risk-mitigation/' | relative_url }})
-- [role]({{ '/terms/role/' | relative_url }})
-- [View all 34 terms for R]({{ '/terms/r/' | relative_url }})
+- [View all 36 terms for R]({{ '/terms/r/' | relative_url }})
 
 ## S
 

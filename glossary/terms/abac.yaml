@@ -45,3 +45,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: 'See: attribute-based access control.'

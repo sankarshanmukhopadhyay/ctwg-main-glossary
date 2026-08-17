@@ -6,6 +6,9 @@ title: "guardianship-credential"
 
 # guardianship-credential
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A digital credential issued by a governing body to a guardian to empower the guardian to undertake the rights and duties of a guardianship arrangement on behalf of a dependent.
 

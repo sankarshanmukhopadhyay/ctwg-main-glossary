@@ -6,6 +6,9 @@ title: "ssi"
 
 # ssi
 
+## In Simple English
+See: self-sovereign identity.
+
 ## Definition
 See: self-sovereign identity.
 

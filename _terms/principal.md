@@ -6,6 +6,9 @@ title: "principal"
 
 # principal
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 The party for whom, or on behalf of whom, an actor is executing an action (this actor is then called an agent of that party).
 

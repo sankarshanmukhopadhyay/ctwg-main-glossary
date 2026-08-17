@@ -2,9 +2,7 @@ term: actor
 aliases:
 - actor
 - actors
-definition: An entity that can act (do things/execute actions), e.g. people, machines,
-  but not organizations. A digital agent can serve as an actor acting on behalf of
-  its principal.
+definition: An entity that can act (do things/execute actions), e.g. people, machines, but not organizations. A digital agent can serve as an actor acting on behalf of its principal.
 notes: []
 see_also:
 - delegation

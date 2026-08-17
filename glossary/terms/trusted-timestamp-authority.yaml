@@ -4,8 +4,7 @@ aliases:
 - trusted timestamp authorities
 - TTA
 - TTAs
-definition: An authority that is trusted to provide accurate time information in the
-  form of a timestamp.
+definition: An authority that is trusted to provide accurate time information in the form of a timestamp.
 notes: []
 see_also:
 - governance
@@ -58,3 +57,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: An authority that is trusted to provide accurate time information in the form of a timestamp.

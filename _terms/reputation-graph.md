@@ -6,6 +6,9 @@ title: "reputation-graph"
 
 # reputation-graph
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A graph of the reputation relationships between different entities in a trust community. In a digital trust ecosystem, the governing body may be one trust anchor of a reputation graph. In some cases, a reputation graph can be traversed by making queries to one or more trust registries.
 

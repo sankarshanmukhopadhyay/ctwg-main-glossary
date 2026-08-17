@@ -6,6 +6,9 @@ title: "trust-task-layer"
 
 # trust-task-layer
 
+## In Simple English
+In the context of the ToIP stack, the trust task layer is ToIP Layer 3. It supports trust applications operating at ToIP Layer 4.
+
 ## Definition
 In the context of the ToIP stack, the trust task layer is ToIP Layer 3. It supports trust applications operating at ToIP Layer 4.
 

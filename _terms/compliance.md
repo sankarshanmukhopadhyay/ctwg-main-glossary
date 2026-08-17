@@ -6,6 +6,9 @@ title: "compliance"
 
 # compliance
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 In the context of decentralized digital trust infrastructure, compliance is the extent to which a system, actor, or party conforms to the requirements of a regulation, governance framework, or trust framework that pertains to that particular entity.
 

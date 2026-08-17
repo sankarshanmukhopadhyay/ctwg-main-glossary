@@ -6,6 +6,9 @@ title: "three-party-model"
 
 # three-party-model
 
+## In Simple English
+The issuer—holder—verifier model used by all types of physical credentials and digital credentials to enable transitive trust decisions.
+
 ## Definition
 The issuer—holder—verifier model used by all types of physical credentials and digital credentials to enable transitive trust decisions.
 

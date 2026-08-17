@@ -6,6 +6,9 @@ title: "trust-community"
 
 # trust-community
 
+## In Simple English
+A set of parties who collaborate to achieve a mutual set of trust objectives.
+
 ## Definition
 A set of parties who collaborate to achieve a mutual set of trust objectives.
 

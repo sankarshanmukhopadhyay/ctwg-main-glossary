@@ -6,6 +6,9 @@ title: "host"
 
 # host
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A host is any hardware device that has the capability of permitting access to a network via a user interface, specialized software, network address, protocol stack, or any other means. Some examples include, but are not limited to, computers, personal electronic devices, thin clients, and multi-functional devices.
 

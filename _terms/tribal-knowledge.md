@@ -6,6 +6,9 @@ title: "tribal-knowledge"
 
 # tribal-knowledge
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 Knowledge that is known within an “in-group” of people but unknown outside of it. A tribe, in this sense, is a group of people that share such a common knowledge.
 

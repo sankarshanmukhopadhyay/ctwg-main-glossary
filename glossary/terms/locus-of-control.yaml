@@ -1,8 +1,7 @@
 term: locus-of-control
 aliases:
 - locus of control
-definition: The set of computing systems under a party’s direct control, where messages
-  and data do not cross trust boundaries.
+definition: The set of computing systems under a party’s direct control, where messages and data do not cross trust boundaries.
 notes: []
 see_also:
 - glossary
@@ -44,3 +43,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: The set of computing systems under a party’s direct control, where messages and data do not cross trust boundaries.

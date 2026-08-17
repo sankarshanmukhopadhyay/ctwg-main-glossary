@@ -2,9 +2,7 @@ term: technical-specification
 aliases:
 - technical specification
 - technical specifications
-definition: A document that specifies, in a complete, precise, verifiable manner,
-  the requirements, design, behavior, or other characteristics of a system or component
-  and often the procedures for determining whether these provisions have been satisfied.
+definition: A document that specifies, in a complete, precise, verifiable manner, the requirements, design, behavior, or other characteristics of a system or component and often the procedures for determining whether these provisions have been satisfied.
 notes: []
 see_also:
 - governance framework

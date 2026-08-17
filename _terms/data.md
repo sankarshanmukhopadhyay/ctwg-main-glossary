@@ -6,6 +6,9 @@ title: "data"
 
 # data
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 In the pursuit of knowledge, data is a collection of discrete values that convey information, describing quantity, quality, fact, statistics, other basic units of meaning, or simply sequences of symbols that may be further interpreted. A datum is an individual value in a collection of data.
 

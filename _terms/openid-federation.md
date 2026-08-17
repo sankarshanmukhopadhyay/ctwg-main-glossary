@@ -6,6 +6,9 @@ title: "openid-federation"
 
 # openid-federation
 
+## In Simple English
+A federation framework for establishing trust among OpenID participants using entity statements, trust chains, and federation metadata.
+
 ## Definition
 A federation framework for establishing trust among OpenID participants using entity statements, trust chains, and federation metadata.
 

@@ -2,10 +2,7 @@ term: glossary
 aliases:
 - glossary
 - glossaries
-definition: 'A glossary (from Ancient Greek: γλῶσσα, glossa; language, speech, wording),
-  also known as a _vocabulary_ or _clavis_, is an alphabetical list of terms in a
-  particular domain of knowledge (scope) together with the definitions for those terms.
-  Unlike a dictionary, a glossary has only one definition for each term.'
+definition: 'A glossary (from Ancient Greek: γλῶσσα, glossa; language, speech, wording), also known as a _vocabulary_ or _clavis_, is an alphabetical list of terms in a particular domain of knowledge (scope) together with the definitions for those terms. Unlike a dictionary, a glossary has only one definition for each term.'
 notes: []
 see_also:
 - registry

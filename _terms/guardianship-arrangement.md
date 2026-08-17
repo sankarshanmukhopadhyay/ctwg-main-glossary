@@ -6,6 +6,9 @@ title: "guardianship-arrangement"
 
 # guardianship-arrangement
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A guardianship arrangement is the specification, within a jurisdiction, of rights and duties between legal entities for caring for, protecting, guarding, or defending one or more dependents. At a minimum, the participating entities are the guardian and the dependent.
 

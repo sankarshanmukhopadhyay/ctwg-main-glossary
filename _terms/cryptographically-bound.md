@@ -6,6 +6,9 @@ title: "cryptographically-bound"
 
 # cryptographically-bound
 
+## In Simple English
+A state in which two or more elements of information have a cryptographic binding.
+
 ## Definition
 A state in which two or more elements of information have a cryptographic binding.
 

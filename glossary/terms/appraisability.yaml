@@ -3,9 +3,7 @@ aliases:
 - appraisability
 - appraisable
 - appraise
-definition: The ability for a communication endpoint identified with a verifiable
-  identifier (VID) to be appraised for the set of its properties that enable a relying
-  party or a verifier to make a trust decision about communicating with that endpoint.
+definition: The ability for a communication endpoint identified with a verifiable identifier (VID) to be appraised for the set of its properties that enable a relying party or a verifier to make a trust decision about communicating with that endpoint.
 notes: []
 see_also:
 - trust basis

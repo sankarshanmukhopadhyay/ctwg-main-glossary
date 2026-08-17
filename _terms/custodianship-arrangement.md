@@ -6,6 +6,9 @@ title: "custodianship-arrangement"
 
 # custodianship-arrangement
 
+## In Simple English
+The informal terms or formal legal agreement under which a custodian agrees to provide service to a principal.
+
 ## Definition
 The informal terms or formal legal agreement under which a custodian agrees to provide service to a principal.
 

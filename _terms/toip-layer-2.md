@@ -6,6 +6,9 @@ title: "toip-layer-2"
 
 # toip-layer-2
 
+## In Simple English
+The trust spanning layer of the ToIP stack, responsible for enabling trust task protocols at ToIP Layer 3.
+
 ## Definition
 The trust spanning layer of the ToIP stack, responsible for enabling trust task protocols at ToIP Layer 3.
 

@@ -6,6 +6,9 @@ title: "gdpr"
 
 # gdpr
 
+## In Simple English
+See: General Data Protection Regulation.
+
 ## Definition
 See: General Data Protection Regulation.
 

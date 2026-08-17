@@ -58,3 +58,4 @@ control_plane:
   - delegation_record
   - status_record
   - verification_log
+simple_definition: A structured receipt that records how a trust-relevant task was authorized, executed, evidenced, and completed or terminated.

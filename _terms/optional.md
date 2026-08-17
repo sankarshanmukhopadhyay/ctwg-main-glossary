@@ -6,6 +6,9 @@ title: "optional"
 
 # optional
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A requirement that is not mandatory or recommended to implement in order for an implementer to be in compliance, but which is left to the implementer’s choice. In ToIP governance frameworks, an optional requirement is expressed using a MAY or OPTIONAL keyword as defined in IETF RFC 2119.
 

@@ -6,6 +6,9 @@ title: "authentic-chained-data-container"
 
 # authentic-chained-data-container
 
+## In Simple English
+A digital data structure designed for both cryptographic verification and chaining of data containers. ACDC may be used for digital credentials.
+
 ## Definition
 A digital data structure designed for both cryptographic verification and chaining of data containers. ACDC may be used for digital credentials.
 

@@ -2,8 +2,7 @@ term: trust-framework
 aliases:
 - trust framework
 - trust frameworks
-definition: A term (most frequently used in the digital identity industry) to describe
-  a governance framework for a digital identity system, especially a federation.
+definition: A term (most frequently used in the digital identity industry) to describe a governance framework for a digital identity system, especially a federation.
 notes: []
 see_also:
 - policy
@@ -45,3 +44,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: A term (most frequently used in the digital identity industry) to describe a governance framework for a digital identity system, especially a federation.

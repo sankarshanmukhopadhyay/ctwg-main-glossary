@@ -6,6 +6,9 @@ title: "credential-schema"
 
 # credential-schema
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A data schema describing the structure of a digital credential. The W3C Verifiable Credentials Data Model Specification defines a set of requirements for credential schemas.
 

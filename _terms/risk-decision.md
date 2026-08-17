@@ -6,6 +6,9 @@ title: "risk-decision"
 
 # risk-decision
 
+## In Simple English
+See: trust decision.
+
 ## Definition
 See: trust decision.
 

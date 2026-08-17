@@ -6,6 +6,9 @@ title: "trust-root"
 
 # trust-root
 
+## In Simple English
+See: trust anchor
+
 ## Definition
 See: trust anchor
 

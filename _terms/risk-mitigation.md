@@ -6,6 +6,9 @@ title: "risk-mitigation"
 
 # risk-mitigation
 
+## In Simple English
+Prioritizing, evaluating, and implementing the appropriate risk-reducing controls/countermeasures recommended from the risk management process.
+
 ## Definition
 Prioritizing, evaluating, and implementing the appropriate risk-reducing controls/countermeasures recommended from the risk management process.
 

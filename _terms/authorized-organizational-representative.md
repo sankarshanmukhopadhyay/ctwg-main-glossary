@@ -6,6 +6,9 @@ title: "authorized-organizational-representative"
 
 # authorized-organizational-representative
 
+## In Simple English
+A person who has the authority to make claims, sign documents or otherwise commit resources on behalf of an organization.
+
 ## Definition
 A person who has the authority to make claims, sign documents or otherwise commit resources on behalf of an organization.
 

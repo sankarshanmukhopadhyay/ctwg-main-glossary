@@ -6,6 +6,9 @@ title: "issuance-request"
 
 # issuance-request
 
+## In Simple English
+A protocol request invoked by the holder of a digital wallet to obtain a digital credential from an issuer.
+
 ## Definition
 A protocol request invoked by the holder of a digital wallet to obtain a digital credential from an issuer.
 

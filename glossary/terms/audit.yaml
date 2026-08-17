@@ -2,9 +2,7 @@ term: audit
 aliases:
 - audit
 - audits
-definition: Independent review and examination of records and activities to assess
-  the adequacy of system controls, to ensure compliance with established policies
-  and operational procedures.
+definition: Independent review and examination of records and activities to assess the adequacy of system controls, to ensure compliance with established policies and operational procedures.
 notes: []
 see_also:
 - verification
@@ -43,3 +41,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: Independent review and examination of records and activities to assess the adequacy of system controls, to ensure compliance with established policies and operational procedures.

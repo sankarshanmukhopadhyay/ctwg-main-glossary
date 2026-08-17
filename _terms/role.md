@@ -6,6 +6,9 @@ title: "role"
 
 # role
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A defined set of characteristics that an entity has in some context, such as responsibilities it may have, actions (behaviors) it may execute, or pieces of knowledge that it is expected to have in that context, which are referenced by a specific role name.
 

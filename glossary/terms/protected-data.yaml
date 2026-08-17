@@ -1,8 +1,7 @@
 term: protected-data
 aliases:
 - protected data
-definition: Data that is not publicly available but requires some type of access control
-  to gain access.
+definition: Data that is not publicly available but requires some type of access control to gain access.
 notes: []
 see_also:
 - glossary
@@ -44,3 +43,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: Data that is not publicly available but requires some type of access control to gain access.

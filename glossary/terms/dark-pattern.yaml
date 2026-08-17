@@ -2,8 +2,7 @@ term: dark-pattern
 aliases:
 - dark pattern
 - dark patterns
-definition: A design pattern, mainly in user interfaces, that has the effect of deceiving
-  individuals into making choices that are advantageous to the designer.
+definition: A design pattern, mainly in user interfaces, that has the effect of deceiving individuals into making choices that are advantageous to the designer.
 notes: []
 see_also:
 - glossary
@@ -42,3 +41,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: A design pattern, mainly in user interfaces, that has the effect of deceiving individuals into making choices that are advantageous to the designer.

@@ -6,6 +6,9 @@ title: "authentic-data"
 
 # authentic-data
 
+## In Simple English
+integrity and [[xref:toip2, provenance]]'d data.
+
 ## Definition
 integrity and [[xref:toip2, provenance]]'d data.
 

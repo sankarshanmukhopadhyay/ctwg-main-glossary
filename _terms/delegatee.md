@@ -6,6 +6,9 @@ title: "delegatee"
 
 # delegatee
 
+## In Simple English
+The second party receiving a delegation from a first party (the delegator) and authorized to act only within the granted scope and applicable constraints.
+
 ## Definition
 The second party receiving a delegation from a first party (the delegator) and authorized to act only within the granted scope and applicable constraints.
 

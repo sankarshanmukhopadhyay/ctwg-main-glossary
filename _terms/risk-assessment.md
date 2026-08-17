@@ -6,6 +6,9 @@ title: "risk-assessment"
 
 # risk-assessment
 
+## In Simple English
+A structured review of what could go wrong, how likely it is, what harm it could cause, and what controls can reduce the risk.
+
 ## Definition
 The process of identifying risks to organizational operations (including mission, functions, image, reputation), organizational assets, individuals, other organizations, and the overall ecosystem, resulting from the operation of an information system. Risk assessment is part of risk management, incorporates threat and vulnerability analyses, and considers risk mitigations provided by security controls planned or in place.
 

@@ -6,6 +6,9 @@ title: "skill contract"
 
 # skill contract
 
+## In Simple English
+An operational contract for a discrete capability that defines permitted inputs, outputs, authorization scope, policy conditions, and evidence obligations.
+
 ## Definition
 An operational contract for a discrete capability that defines permitted inputs, outputs, authorization scope, policy conditions, and evidence obligations.
 

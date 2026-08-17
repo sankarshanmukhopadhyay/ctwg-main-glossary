@@ -2,8 +2,7 @@ term: trust-decision
 aliases:
 - trust decision
 - trust decisions
-definition: A decision that a party needs to make about whether to engage in a specific
-  interaction or transaction with another entity that involves real or perceived risks.
+definition: A decision that a party needs to make about whether to engage in a specific interaction or transaction with another entity that involves real or perceived risks.
 notes: []
 see_also:
 - transitive trust decision.
@@ -45,3 +44,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: A decision about whether it is safe and appropriate to rely on another party in a specific situation.

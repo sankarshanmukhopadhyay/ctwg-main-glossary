@@ -54,3 +54,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: A type of authority where the party asserting its right is an organization.

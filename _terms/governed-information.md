@@ -6,6 +6,9 @@ title: "governed-information"
 
 # governed-information
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 Any information published under the authority of a governing body for the purpose of governing a trust community. This includes its governance framework and any information available via an authorized trust registry.
 

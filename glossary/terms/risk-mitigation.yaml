@@ -2,8 +2,7 @@ term: risk-mitigation
 aliases:
 - risk mitigation
 - risk mitigations
-definition: Prioritizing, evaluating, and implementing the appropriate risk-reducing
-  controls/countermeasures recommended from the risk management process.
+definition: Prioritizing, evaluating, and implementing the appropriate risk-reducing controls/countermeasures recommended from the risk management process.
 notes: []
 see_also:
 - glossary
@@ -45,3 +44,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: Prioritizing, evaluating, and implementing the appropriate risk-reducing controls/countermeasures recommended from the risk management process.

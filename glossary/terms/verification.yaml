@@ -5,8 +5,7 @@ aliases:
 - verifies
 - verified
 - verifying
-definition: An action an agent (of a principal) performs to determine the authenticity
-  of a claim or other data object. Cryptographic verification uses cryptographic keys.
+definition: An action an agent (of a principal) performs to determine the authenticity of a claim or other data object. Cryptographic verification uses cryptographic keys.
 notes: []
 see_also:
 - validation
@@ -18,11 +17,7 @@ sources:
 mental_models:
 - '[W3C Verifiable Credentials Data Model Roles & Information Flows](https://www.w3.org/TR/vc-data-model/#roles)'
 supporting_definitions:
-- '[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#verify):
-  The act, by or on behalf of a [party](https://essif-lab.github.io/framework/docs/terms/party),
-  of determining whether that data is authentic (i.e. originates from the [party](https://essif-lab.github.io/framework/docs/terms/party)
-  that authored it), timely (i.e. has not expired), and conforms to other specifications
-  that apply to its structure.'
+- '[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#verify): The act, by or on behalf of a [party](https://essif-lab.github.io/framework/docs/terms/party), of determining whether that data is authentic (i.e. originates from the [party](https://essif-lab.github.io/framework/docs/terms/party) that authored it), timely (i.e. has not expired), and conforms to other specifications that apply to its structure.'
 source_file: spec/terms-definitions/verification.md
 governance_profile: core-operational
 governance:
@@ -57,3 +52,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: An action an agent (of a principal) performs to determine the authenticity of a claim or other data object. Cryptographic verification uses cryptographic keys.

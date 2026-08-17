@@ -2,8 +2,7 @@ term: trust-factor
 aliases:
 - trust factor
 - trust factors
-definition: A property, relationship, or other signal that can contribute to a party
-  making a trust decision.
+definition: A property, relationship, or other signal that can contribute to a party making a trust decision.
 notes: []
 see_also:
 - glossary
@@ -47,3 +46,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: A property, relationship, or other signal that can contribute to a party making a trust decision.

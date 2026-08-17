@@ -6,6 +6,9 @@ title: "did-subject"
 
 # did-subject
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 The entity identified by a DID and described by a DID document. Anything can be a DID subject: person, group, organization, physical thing, digital thing, logical thing, etc.
 

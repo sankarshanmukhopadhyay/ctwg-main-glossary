@@ -2,12 +2,9 @@ term: qualified-electronic-attestation-of-attributes
 aliases:
 - QEAA
 - qualified attribute attestation
-definition: An attestation of attributes issued under qualified trust service rules
-  in the European digital identity framework.
-reader_note: This term is part of the v1.2.0 standards-linked refresh and is anchored
-  to active implementation vocabulary.
-implementation_relevance: Use this term when mapping glossary language to implementation
-  profiles, governance controls, conformance checks, or assurance evidence.
+definition: An attestation of attributes issued under qualified trust service rules in the European digital identity framework.
+reader_note: This term is part of the v1.2.0 standards-linked refresh and is anchored to active implementation vocabulary.
+implementation_relevance: Use this term when mapping glossary language to implementation profiles, governance controls, conformance checks, or assurance evidence.
 notes: []
 see_also:
 - attestation
@@ -62,3 +59,4 @@ crosswalk:
   eu:
   - EUDI ARF 2.0
   - eIDAS 2.0
+simple_definition: An attestation of attributes issued under qualified trust service rules in the European digital identity framework.

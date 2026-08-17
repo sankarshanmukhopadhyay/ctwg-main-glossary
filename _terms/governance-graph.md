@@ -6,6 +6,9 @@ title: "governance-graph"
 
 # governance-graph
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A graph of the governance relationships between entities with a trust community. A governance graph shows which nodes are the governing bodies and which are the governed parties. In some cases, a governance graph can be traversed by making queries to one or more trust registries.Note: a party can play both roles and also be a participant in multiple governance frameworks.
 

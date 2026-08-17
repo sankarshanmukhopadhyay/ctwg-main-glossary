@@ -6,6 +6,9 @@ title: "toip-layer-4"
 
 # toip-layer-4
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 The trust application layer of the ToIP stack, where end-users have the direct human experience of using applications that call trust task protocols to engage in trust relationships and make trust decisions using ToIP decentralized digital trust infrastructure.
 

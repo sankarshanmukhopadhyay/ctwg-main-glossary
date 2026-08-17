@@ -790,6 +790,62 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "urn:toip:glossary:agent-registry",
+      "name": "agent registry",
+      "description": "A registry that publishes and manages governed information about agents, including identity, authority, delegation, recognition, lifecycle state, and supporting evidence.",
+      "inDefinedTermSet": "ToIP Main Glossary",
+      "identifier": "agent registry",
+      "subjectOf": {
+        "governance": {
+          "authority_scope": [
+            "assurance_and_audit",
+            "governance_recognition",
+            "policy_definition",
+            "verification_and_reliance"
+          ],
+          "delegation_mode": "direct_or_constrained",
+          "revocation_supported": false,
+          "lifecycle_states": [
+            "proposed",
+            "active",
+            "deprecated"
+          ],
+          "execution_role": "hybrid",
+          "control_plane_role": "reference_term",
+          "enforcement_points": [
+            "policy_approval",
+            "reliance_decision"
+          ]
+        },
+        "assurance": {
+          "evidence_artifacts": [
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
+          ],
+          "assurance_level_hint": "AL1+",
+          "auditability": "moderate"
+        },
+        "control_plane": {
+          "decision_points": [
+            "policy_approval",
+            "reliance_decision"
+          ],
+          "accountable_entity": "glossary_maintainers",
+          "evidence_produced": [
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
+          ]
+        },
+        "crosswalk": {
+          "nist": [],
+          "iso": []
+        }
+      }
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "urn:toip:glossary:agent",
       "name": "agent",
       "description": "An actor that executes an action on behalf of a party (called the principal of that actor). In the context of decentralized digital trust infrastructure, the term \u201cagent\u201d is most frequently used to mean a digital agent.",
@@ -1183,6 +1239,62 @@
         "control_plane": {
           "decision_points": [
             "definition_approval"
+          ],
+          "accountable_entity": "glossary_maintainers",
+          "evidence_produced": [
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
+          ]
+        },
+        "crosswalk": {
+          "nist": [],
+          "iso": []
+        }
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "urn:toip:glossary:assurance-boundary",
+      "name": "assurance boundary",
+      "description": "The explicit limit of what an assurance claim, test result, evidence set, or implementation can reasonably support.",
+      "inDefinedTermSet": "ToIP Main Glossary",
+      "identifier": "assurance boundary",
+      "subjectOf": {
+        "governance": {
+          "authority_scope": [
+            "assurance_and_audit",
+            "governance_recognition",
+            "policy_definition",
+            "verification_and_reliance"
+          ],
+          "delegation_mode": "direct_or_constrained",
+          "revocation_supported": false,
+          "lifecycle_states": [
+            "proposed",
+            "active",
+            "deprecated"
+          ],
+          "execution_role": "hybrid",
+          "control_plane_role": "reference_term",
+          "enforcement_points": [
+            "policy_approval",
+            "reliance_decision"
+          ]
+        },
+        "assurance": {
+          "evidence_artifacts": [
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
+          ],
+          "assurance_level_hint": "AL1+",
+          "auditability": "moderate"
+        },
+        "control_plane": {
+          "decision_points": [
+            "policy_approval",
+            "reliance_decision"
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
@@ -2187,6 +2299,62 @@
           ]
         },
         "crosswalk": {}
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "urn:toip:glossary:authority-control-plane",
+      "name": "authority control plane",
+      "description": "The set of governance and runtime mechanisms that determine who may act, under whose authority, within what scope, and with what lifecycle and enforcement conditions.",
+      "inDefinedTermSet": "ToIP Main Glossary",
+      "identifier": "authority control plane",
+      "subjectOf": {
+        "governance": {
+          "authority_scope": [
+            "assurance_and_audit",
+            "governance_recognition",
+            "policy_definition",
+            "verification_and_reliance"
+          ],
+          "delegation_mode": "direct_or_constrained",
+          "revocation_supported": false,
+          "lifecycle_states": [
+            "proposed",
+            "active",
+            "deprecated"
+          ],
+          "execution_role": "hybrid",
+          "control_plane_role": "reference_term",
+          "enforcement_points": [
+            "policy_approval",
+            "reliance_decision"
+          ]
+        },
+        "assurance": {
+          "evidence_artifacts": [
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
+          ],
+          "assurance_level_hint": "AL1+",
+          "auditability": "moderate"
+        },
+        "control_plane": {
+          "decision_points": [
+            "policy_approval",
+            "reliance_decision"
+          ],
+          "accountable_entity": "glossary_maintainers",
+          "evidence_produced": [
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
+          ]
+        },
+        "crosswalk": {
+          "nist": [],
+          "iso": []
+        }
       }
     },
     {
@@ -4599,6 +4767,62 @@
         "control_plane": {
           "decision_points": [
             "definition_approval"
+          ],
+          "accountable_entity": "glossary_maintainers",
+          "evidence_produced": [
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
+          ]
+        },
+        "crosswalk": {
+          "nist": [],
+          "iso": []
+        }
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "urn:toip:glossary:conformance",
+      "name": "conformance",
+      "description": "The degree to which an implementation, process, or artifact satisfies a defined set of requirements.",
+      "inDefinedTermSet": "ToIP Main Glossary",
+      "identifier": "conformance",
+      "subjectOf": {
+        "governance": {
+          "authority_scope": [
+            "assurance_and_audit",
+            "governance_recognition",
+            "policy_definition",
+            "verification_and_reliance"
+          ],
+          "delegation_mode": "direct_or_constrained",
+          "revocation_supported": false,
+          "lifecycle_states": [
+            "proposed",
+            "active",
+            "deprecated"
+          ],
+          "execution_role": "hybrid",
+          "control_plane_role": "reference_term",
+          "enforcement_points": [
+            "policy_approval",
+            "reliance_decision"
+          ]
+        },
+        "assurance": {
+          "evidence_artifacts": [
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
+          ],
+          "assurance_level_hint": "AL1+",
+          "auditability": "moderate"
+        },
+        "control_plane": {
+          "decision_points": [
+            "policy_approval",
+            "reliance_decision"
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
@@ -11094,6 +11318,62 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "urn:toip:glossary:governance-legitimacy",
+      "name": "governance legitimacy",
+      "description": "The recognized basis on which a governing authority, rule, mandate, or decision is considered entitled to exercise power in a defined context.",
+      "inDefinedTermSet": "ToIP Main Glossary",
+      "identifier": "governance legitimacy",
+      "subjectOf": {
+        "governance": {
+          "authority_scope": [
+            "assurance_and_audit",
+            "governance_recognition",
+            "policy_definition",
+            "verification_and_reliance"
+          ],
+          "delegation_mode": "direct_or_constrained",
+          "revocation_supported": false,
+          "lifecycle_states": [
+            "proposed",
+            "active",
+            "deprecated"
+          ],
+          "execution_role": "hybrid",
+          "control_plane_role": "reference_term",
+          "enforcement_points": [
+            "policy_approval",
+            "reliance_decision"
+          ]
+        },
+        "assurance": {
+          "evidence_artifacts": [
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
+          ],
+          "assurance_level_hint": "AL1+",
+          "auditability": "moderate"
+        },
+        "control_plane": {
+          "decision_points": [
+            "policy_approval",
+            "reliance_decision"
+          ],
+          "accountable_entity": "glossary_maintainers",
+          "evidence_produced": [
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
+          ]
+        },
+        "crosswalk": {
+          "nist": [],
+          "iso": []
+        }
+      }
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "urn:toip:glossary:governance-requirement",
       "name": "governance-requirement",
       "description": "A requirement such as a policy, rule, or technical specification specified in a governance document.",
@@ -11230,6 +11510,62 @@
             "definition_approval"
           ],
           "accountable_entity": "governance_authority",
+          "evidence_produced": [
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
+          ]
+        },
+        "crosswalk": {
+          "nist": [],
+          "iso": []
+        }
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "urn:toip:glossary:governed-action",
+      "name": "governed action",
+      "description": "An action whose permission, scope, conditions, evidence, and accountability are determined by applicable governance and authority.",
+      "inDefinedTermSet": "ToIP Main Glossary",
+      "identifier": "governed action",
+      "subjectOf": {
+        "governance": {
+          "authority_scope": [
+            "assurance_and_audit",
+            "governance_recognition",
+            "policy_definition",
+            "verification_and_reliance"
+          ],
+          "delegation_mode": "direct_or_constrained",
+          "revocation_supported": false,
+          "lifecycle_states": [
+            "proposed",
+            "active",
+            "deprecated"
+          ],
+          "execution_role": "hybrid",
+          "control_plane_role": "reference_term",
+          "enforcement_points": [
+            "policy_approval",
+            "reliance_decision"
+          ]
+        },
+        "assurance": {
+          "evidence_artifacts": [
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
+          ],
+          "assurance_level_hint": "AL1+",
+          "auditability": "moderate"
+        },
+        "control_plane": {
+          "decision_points": [
+            "policy_approval",
+            "reliance_decision"
+          ],
+          "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
             "definition_change_record",
             "policy_document",
@@ -12229,6 +12565,62 @@
         "control_plane": {
           "decision_points": [
             "definition_approval"
+          ],
+          "accountable_entity": "glossary_maintainers",
+          "evidence_produced": [
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
+          ]
+        },
+        "crosswalk": {
+          "nist": [],
+          "iso": []
+        }
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "urn:toip:glossary:human-harm",
+      "name": "human harm",
+      "description": "A negative effect on a person or community, including effects on safety, rights, autonomy, dignity, privacy, access, livelihood, or ability to obtain remedy.",
+      "inDefinedTermSet": "ToIP Main Glossary",
+      "identifier": "human harm",
+      "subjectOf": {
+        "governance": {
+          "authority_scope": [
+            "assurance_and_audit",
+            "governance_recognition",
+            "policy_definition",
+            "verification_and_reliance"
+          ],
+          "delegation_mode": "direct_or_constrained",
+          "revocation_supported": false,
+          "lifecycle_states": [
+            "proposed",
+            "active",
+            "deprecated"
+          ],
+          "execution_role": "hybrid",
+          "control_plane_role": "reference_term",
+          "enforcement_points": [
+            "policy_approval",
+            "reliance_decision"
+          ]
+        },
+        "assurance": {
+          "evidence_artifacts": [
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
+          ],
+          "assurance_level_hint": "AL1+",
+          "auditability": "moderate"
+        },
+        "control_plane": {
+          "decision_points": [
+            "policy_approval",
+            "reliance_decision"
           ],
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
@@ -13395,6 +13787,62 @@
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
             "definition_change_record"
+          ]
+        },
+        "crosswalk": {
+          "nist": [],
+          "iso": []
+        }
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "urn:toip:glossary:interoperability",
+      "name": "interoperability",
+      "description": "The ability of independently developed systems or components to work together correctly within an explicitly defined scope.",
+      "inDefinedTermSet": "ToIP Main Glossary",
+      "identifier": "interoperability",
+      "subjectOf": {
+        "governance": {
+          "authority_scope": [
+            "assurance_and_audit",
+            "governance_recognition",
+            "policy_definition",
+            "verification_and_reliance"
+          ],
+          "delegation_mode": "direct_or_constrained",
+          "revocation_supported": false,
+          "lifecycle_states": [
+            "proposed",
+            "active",
+            "deprecated"
+          ],
+          "execution_role": "hybrid",
+          "control_plane_role": "reference_term",
+          "enforcement_points": [
+            "policy_approval",
+            "reliance_decision"
+          ]
+        },
+        "assurance": {
+          "evidence_artifacts": [
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
+          ],
+          "assurance_level_hint": "AL1+",
+          "auditability": "moderate"
+        },
+        "control_plane": {
+          "decision_points": [
+            "policy_approval",
+            "reliance_decision"
+          ],
+          "accountable_entity": "glossary_maintainers",
+          "evidence_produced": [
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -18343,6 +18791,62 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "urn:toip:glossary:policy-enforcement",
+      "name": "policy enforcement",
+      "description": "The application of an applicable policy at a decision or execution point so that required, allowed, deferred, or prohibited outcomes are actually carried out.",
+      "inDefinedTermSet": "ToIP Main Glossary",
+      "identifier": "policy enforcement",
+      "subjectOf": {
+        "governance": {
+          "authority_scope": [
+            "assurance_and_audit",
+            "governance_recognition",
+            "policy_definition",
+            "verification_and_reliance"
+          ],
+          "delegation_mode": "direct_or_constrained",
+          "revocation_supported": false,
+          "lifecycle_states": [
+            "proposed",
+            "active",
+            "deprecated"
+          ],
+          "execution_role": "hybrid",
+          "control_plane_role": "reference_term",
+          "enforcement_points": [
+            "policy_approval",
+            "reliance_decision"
+          ]
+        },
+        "assurance": {
+          "evidence_artifacts": [
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
+          ],
+          "assurance_level_hint": "AL1+",
+          "auditability": "moderate"
+        },
+        "control_plane": {
+          "decision_points": [
+            "policy_approval",
+            "reliance_decision"
+          ],
+          "accountable_entity": "glossary_maintainers",
+          "evidence_produced": [
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
+          ]
+        },
+        "crosswalk": {
+          "nist": [],
+          "iso": []
+        }
+      }
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "urn:toip:glossary:policy",
       "name": "policy",
       "description": "Statements, rules, or assertions that specify required, permitted, prohibited, or expected behavior of an entity within a defined scope. Policies may be human-readable, machine-readable, or both, and may be interpreted, enforced, or audited by people, software, or both.",
@@ -18438,6 +18942,62 @@
           "accountable_entity": "glossary_maintainers",
           "evidence_produced": [
             "definition_change_record"
+          ]
+        },
+        "crosswalk": {
+          "nist": [],
+          "iso": []
+        }
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "urn:toip:glossary:portable-assurance-pattern",
+      "name": "portable assurance pattern",
+      "description": "A reusable, implementation-neutral description of an assurance concern, control, test, evidence expectation, or review pattern that can be applied across different deployments.",
+      "inDefinedTermSet": "ToIP Main Glossary",
+      "identifier": "portable assurance pattern",
+      "subjectOf": {
+        "governance": {
+          "authority_scope": [
+            "assurance_and_audit",
+            "governance_recognition",
+            "policy_definition",
+            "verification_and_reliance"
+          ],
+          "delegation_mode": "direct_or_constrained",
+          "revocation_supported": false,
+          "lifecycle_states": [
+            "proposed",
+            "active",
+            "deprecated"
+          ],
+          "execution_role": "hybrid",
+          "control_plane_role": "reference_term",
+          "enforcement_points": [
+            "policy_approval",
+            "reliance_decision"
+          ]
+        },
+        "assurance": {
+          "evidence_artifacts": [
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
+          ],
+          "assurance_level_hint": "AL1+",
+          "auditability": "moderate"
+        },
+        "control_plane": {
+          "decision_points": [
+            "policy_approval",
+            "reliance_decision"
+          ],
+          "accountable_entity": "glossary_maintainers",
+          "evidence_produced": [
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -18649,6 +19209,62 @@
           "evidence_produced": [
             "issuance_log",
             "verification_log"
+          ]
+        },
+        "crosswalk": {
+          "nist": [],
+          "iso": []
+        }
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "urn:toip:glossary:pressure-test",
+      "name": "pressure test",
+      "description": "A structured review that challenges a specification, policy, design, or system with adverse scenarios to identify risks, harms, control gaps, and weak assumptions.",
+      "inDefinedTermSet": "ToIP Main Glossary",
+      "identifier": "pressure test",
+      "subjectOf": {
+        "governance": {
+          "authority_scope": [
+            "assurance_and_audit",
+            "governance_recognition",
+            "policy_definition",
+            "verification_and_reliance"
+          ],
+          "delegation_mode": "direct_or_constrained",
+          "revocation_supported": false,
+          "lifecycle_states": [
+            "proposed",
+            "active",
+            "deprecated"
+          ],
+          "execution_role": "hybrid",
+          "control_plane_role": "reference_term",
+          "enforcement_points": [
+            "policy_approval",
+            "reliance_decision"
+          ]
+        },
+        "assurance": {
+          "evidence_artifacts": [
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
+          ],
+          "assurance_level_hint": "AL1+",
+          "auditability": "moderate"
+        },
+        "control_plane": {
+          "decision_points": [
+            "policy_approval",
+            "reliance_decision"
+          ],
+          "accountable_entity": "glossary_maintainers",
+          "evidence_produced": [
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {
@@ -19968,6 +20584,62 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "urn:toip:glossary:recognition",
+      "name": "recognition",
+      "description": "A governed decision to accept another party, authority, status, credential, assurance result, or rule as valid for a defined purpose and scope.",
+      "inDefinedTermSet": "ToIP Main Glossary",
+      "identifier": "recognition",
+      "subjectOf": {
+        "governance": {
+          "authority_scope": [
+            "assurance_and_audit",
+            "governance_recognition",
+            "policy_definition",
+            "verification_and_reliance"
+          ],
+          "delegation_mode": "direct_or_constrained",
+          "revocation_supported": false,
+          "lifecycle_states": [
+            "proposed",
+            "active",
+            "deprecated"
+          ],
+          "execution_role": "hybrid",
+          "control_plane_role": "reference_term",
+          "enforcement_points": [
+            "policy_approval",
+            "reliance_decision"
+          ]
+        },
+        "assurance": {
+          "evidence_artifacts": [
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
+          ],
+          "assurance_level_hint": "AL1+",
+          "auditability": "moderate"
+        },
+        "control_plane": {
+          "decision_points": [
+            "policy_approval",
+            "reliance_decision"
+          ],
+          "accountable_entity": "glossary_maintainers",
+          "evidence_produced": [
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
+          ]
+        },
+        "crosswalk": {
+          "nist": [],
+          "iso": []
+        }
+      }
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "urn:toip:glossary:recommended",
       "name": "recommended",
       "description": "A requirement that is not mandatory to implement in order for an implementer to be in compliance, but which should be implemented unless the implementer has a good reason. In ToIP governance frameworks, a recommendation is expressed using a SHOULD or RECOMMENDED keyword as defined in IETF RFC 2119.",
@@ -20057,6 +20729,62 @@
           "accountable_entity": "registry_operator",
           "evidence_produced": [
             "registry_entry"
+          ]
+        },
+        "crosswalk": {
+          "nist": [],
+          "iso": []
+        }
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "urn:toip:glossary:redress",
+      "name": "redress",
+      "description": "A governed path through which an affected party can challenge an outcome, seek correction or remedy, and obtain an accountable response.",
+      "inDefinedTermSet": "ToIP Main Glossary",
+      "identifier": "redress",
+      "subjectOf": {
+        "governance": {
+          "authority_scope": [
+            "assurance_and_audit",
+            "governance_recognition",
+            "policy_definition",
+            "verification_and_reliance"
+          ],
+          "delegation_mode": "direct_or_constrained",
+          "revocation_supported": false,
+          "lifecycle_states": [
+            "proposed",
+            "active",
+            "deprecated"
+          ],
+          "execution_role": "hybrid",
+          "control_plane_role": "reference_term",
+          "enforcement_points": [
+            "policy_approval",
+            "reliance_decision"
+          ]
+        },
+        "assurance": {
+          "evidence_artifacts": [
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
+          ],
+          "assurance_level_hint": "AL1+",
+          "auditability": "moderate"
+        },
+        "control_plane": {
+          "decision_points": [
+            "policy_approval",
+            "reliance_decision"
+          ],
+          "accountable_entity": "glossary_maintainers",
+          "evidence_produced": [
+            "definition_change_record",
+            "policy_document",
+            "audit_log"
           ]
         },
         "crosswalk": {

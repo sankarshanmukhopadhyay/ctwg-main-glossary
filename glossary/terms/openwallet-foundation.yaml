@@ -1,8 +1,7 @@
 term: openwallet-foundation
 aliases:
 - OpenWallet Foundation
-definition: A non-profit project of the Linux Foundation chartered to build a world-class
-  open source wallet engine.
+definition: A non-profit project of the Linux Foundation chartered to build a world-class open source wallet engine.
 notes: []
 see_also:
 - Decentralized Identity Foundation
@@ -41,3 +40,4 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+simple_definition: A non-profit project of the Linux Foundation chartered to build a world-class open source wallet engine.

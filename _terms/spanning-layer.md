@@ -6,6 +6,9 @@ title: "spanning-layer"
 
 # spanning-layer
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 A specific layer within a protocol stack that consists of a single protocol explicitly designed to provide interoperability between the protocol layers above it and below it.
 

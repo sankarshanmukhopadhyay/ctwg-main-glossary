@@ -6,6 +6,9 @@ title: "registration"
 
 # registration
 
+## In Simple English
+The process by which a registrant submits a record to a registry.
+
 ## Definition
 The process by which a registrant submits a record to a registry.
 

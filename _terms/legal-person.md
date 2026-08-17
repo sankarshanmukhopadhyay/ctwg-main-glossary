@@ -6,6 +6,9 @@ title: "legal-person"
 
 # legal-person
 
+## In Simple English
+A simple-English summary has not yet been added for this term.
+
 ## Definition
 In law, a legal person is any person or 'thing' that can do the things a human person is usually able to do in law – such as enter into contracts, sue and be sued, own property, and so on.<sup>\[3\]\[4\]\[5\]</sup> The reason for the term "legal person" is that some legal persons are not people: companies and corporations are "persons" legally speaking (they can legally do most of the things an ordinary person can do), but they are not people in a literal sense (human beings).
 
