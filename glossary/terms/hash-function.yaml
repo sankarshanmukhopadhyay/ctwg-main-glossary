@@ -1,8 +1,24 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:hash-function
+designations:
+- label: hash-function
+  language: en
+  status: preferred
+- label: hash function
+  language: en
+  status: alternative
+- label: hash functions
+  language: en
+  status: alternative
 term: hash-function
 aliases:
 - hash function
 - hash functions
-definition: 'An algorithm that computes a numerical value (called the hash value) on a data file or electronic message that is used to represent that file or message, and depends on the entire contents of the file or message. A hash function can be considered to be a fingerprint of the file or message. Approved hash functions satisfy the following properties: _one-way_ (it is computationally infeasible to find any input that maps to any pre-specified output); and _collision resistant_ (it is computationally infeasible to find any two distinct inputs that map to the same output).'
+definition: 'An algorithm that computes a numerical value (called the hash value) on a data file or electronic message that
+  is used to represent that file or message, and depends on the entire contents of the file or message. A hash function can
+  be considered to be a fingerprint of the file or message. Approved hash functions satisfy the following properties: _one-way_
+  (it is computationally infeasible to find any input that maps to any pre-specified output); and _collision resistant_ (it
+  is computationally infeasible to find any two distinct inputs that map to the same output).'
 notes: []
 see_also:
 - glossary
@@ -40,3 +56,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

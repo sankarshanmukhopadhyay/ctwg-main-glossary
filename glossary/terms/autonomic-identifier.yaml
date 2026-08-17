@@ -1,3 +1,15 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:autonomic-identifier
+designations:
+- label: autonomic-identifier
+  language: en
+  status: preferred
+- label: autonomic identifier
+  language: en
+  status: alternative
+- label: autonomic identifiers
+  language: en
+  status: alternative
 term: autonomic-identifier
 aliases:
 - autonomic identifier
@@ -44,3 +56,25 @@ crosswalk:
   nist: []
   iso: []
 simple_definition: 'The specific type of self-certifying identifier defined by the KERI specifications: [[xref:keri1, autonomic-identifier]].'
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+  - urn:tig:concept:identifier
+  - urn:tig:concept:decentralized-identifier
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

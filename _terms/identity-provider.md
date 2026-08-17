@@ -6,6 +6,12 @@ title: "identity-provider"
 
 # identity-provider
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:identity-provider`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,25 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **identity provider** (`en`, `alternative`)
+- **identity providers** (`en`, `alternative`)
+- **IdP** (`en`, `alternative`)
+- **IdPs** (`en`, `alternative`)
+
+## Legacy Aliases
 identity provider, identity providers, IdP, IdPs
+
+## Semantic Relations
+- **related**: `urn:tig:concept:verification`
+- **related**: `urn:tig:concept:verifier`
+- **related**: `urn:tig:concept:relying-party`
+- **related**: `urn:tig:concept:trust-decision`
+- **related**: `urn:tig:concept:authorization`
+- **related**: `urn:tig:concept:permission`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [verification]({{ '/terms/verification/' | relative_url }})

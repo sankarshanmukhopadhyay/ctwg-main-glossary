@@ -6,6 +6,12 @@ title: "functional-identity"
 
 # functional-identity
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:functional-identity`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,21 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **functional identity** (`en`, `alternative`)
+- **functional identities** (`en`, `alternative`)
+
+## Legacy Aliases
 functional identity, functional identities
+
+## Semantic Relations
+- **related**: `urn:tig:concept:credential`
+- **related**: `urn:tig:concept:issuer`
+- **related**: `urn:tig:concept:issuance`
+- **related**: `urn:tig:concept:verifiable-credential`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [credential]({{ '/terms/credential/' | relative_url }})

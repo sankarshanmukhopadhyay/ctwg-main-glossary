@@ -1,3 +1,12 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:tta
+designations:
+- label: tta
+  language: en
+  status: preferred
+- label: TTA
+  language: en
+  status: alternative
 term: tta
 aliases:
 - TTA
@@ -54,3 +63,27 @@ crosswalk:
   nist: []
   iso: []
 simple_definition: 'See: trusted timestamp authority.'
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:governance
+  - urn:tig:concept:governance-framework
+  - urn:tig:concept:governing-authority
+  - urn:tig:concept:trust-registry
+  - urn:tig:concept:revocation
+  - urn:tig:concept:verification
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

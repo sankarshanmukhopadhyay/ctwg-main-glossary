@@ -1,10 +1,10 @@
 ---
-title: "Terms: L"
-parent: "Glossary Terms"
+title: "Concepts: L"
+parent: "Concepts"
 nav_order: 12
 ---
 
-# Terms: L
+# Concepts: L
 
 - [laws-of-identity]({{ '/terms/laws-of-identity/' | relative_url }})
 - [layer-1]({{ '/terms/layer-1/' | relative_url }})

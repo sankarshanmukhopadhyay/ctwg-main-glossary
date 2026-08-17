@@ -1,9 +1,24 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:routing
+designations:
+- label: routing
+  language: en
+  status: preferred
+- label: routes
+  language: en
+  status: alternative
+- label: routed
+  language: en
+  status: alternative
 term: routing
 aliases:
 - routing
 - routes
 - routed
-definition: Routing is the process of selecting a path for traffic in a network or between or across multiple networks. Broadly, routing is performed in many types of networks, including circuit-switched networks, such as the public switched telephone network (PSTN), and computer networks, such as the Internet. A router is a computing device that specializes in performing routing.
+definition: Routing is the process of selecting a path for traffic in a network or between or across multiple networks. Broadly,
+  routing is performed in many types of networks, including circuit-switched networks, such as the public switched telephone
+  network (PSTN), and computer networks, such as the Internet. A router is a computing device that specializes in performing
+  routing.
 notes: []
 see_also:
 - glossary
@@ -41,3 +56,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

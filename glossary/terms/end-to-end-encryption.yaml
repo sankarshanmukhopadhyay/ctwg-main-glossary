@@ -1,8 +1,23 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:end-to-end-encryption
+designations:
+- label: end-to-end-encryption
+  language: en
+  status: preferred
+- label: end-to-end encryption
+  language: en
+  status: alternative
+- label: end-to-end encrypt
+  language: en
+  status: alternative
 term: end-to-end-encryption
 aliases:
 - end-to-end encryption
 - end-to-end encrypt
-definition: Encryption that is applied to a communication before it is transmitted from the sender’s communication endpoint and cannot be decrypted until after it is received at the receiver’s communication endpoint. When end-to-end encryption is used, the communication cannot be decrypted in transit no matter how many intermediaries are involved in the routing process.
+definition: Encryption that is applied to a communication before it is transmitted from the sender’s communication endpoint
+  and cannot be decrypted until after it is received at the receiver’s communication endpoint. When end-to-end encryption
+  is used, the communication cannot be decrypted in transit no matter how many intermediaries are involved in the routing
+  process.
 notes: []
 see_also:
 - glossary
@@ -11,7 +26,13 @@ sources:
 - 'ToIP CTWG maintained glossary source: `spec/terms-definitions/end-to-end-encryption.md`'
 mental_models: []
 supporting_definitions:
-- '[Wikipedia](https://en.wikipedia.org/wiki/End-to-end_encryption): End-to-end encryption (E2EE) is a private communication system in which only communicating users can participate. As such, no one, including the communication system provider, [telecom providers](https://en.wikipedia.org/wiki/Telecommunications_service_providers), [Internet providers](https://en.wikipedia.org/wiki/Internet_providers) or malicious actors, can access the [cryptographic keys](https://en.wikipedia.org/wiki/Key_\(cryptography\)) needed to converse. End-to-end [encryption](https://en.wikipedia.org/wiki/Encryption) is intended to prevent data being read or secretly modified, other than by the true sender and recipient(s). The messages are encrypted by the sender but the third party does not have a means to decrypt them, and stores them encrypted. The recipients retrieve the encrypted data and decrypt it themselves.'
+- '[Wikipedia](https://en.wikipedia.org/wiki/End-to-end_encryption): End-to-end encryption (E2EE) is a private communication
+  system in which only communicating users can participate. As such, no one, including the communication system provider,
+  [telecom providers](https://en.wikipedia.org/wiki/Telecommunications_service_providers), [Internet providers](https://en.wikipedia.org/wiki/Internet_providers)
+  or malicious actors, can access the [cryptographic keys](https://en.wikipedia.org/wiki/Key_\(cryptography\)) needed to converse.
+  End-to-end [encryption](https://en.wikipedia.org/wiki/Encryption) is intended to prevent data being read or secretly modified,
+  other than by the true sender and recipient(s). The messages are encrypted by the sender but the third party does not have
+  a means to decrypt them, and stores them encrypted. The recipients retrieve the encrypted data and decrypt it themselves.'
 source_file: spec/terms-definitions/end-to-end-encryption.md
 governance_profile: descriptive
 governance:
@@ -41,3 +62,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

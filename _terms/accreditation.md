@@ -6,6 +6,12 @@ title: "accreditation"
 
 # accreditation
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:accreditation`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,23 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **accredit** (`en`, `alternative`)
+- **accredited** (`en`, `alternative`)
+
+## Legacy Aliases
 accreditation, accredit, accredited
+
+## Semantic Relations
+- **related**: `urn:tig:concept:governance`
+- **related**: `urn:tig:concept:governance-framework`
+- **related**: `urn:tig:concept:governing-authority`
+- **related**: `urn:tig:concept:trust-registry`
+- **related**: `urn:tig:concept:revocation`
+- **related**: `urn:tig:concept:verification`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [governance]({{ '/terms/governance/' | relative_url }})

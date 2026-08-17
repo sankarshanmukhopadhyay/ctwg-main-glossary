@@ -6,6 +6,12 @@ title: "cryptographic-trust"
 
 # cryptographic-trust
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:cryptographic-trust`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 A specialized type of technical trust that is achieved using cryptographic algorithms.
 
@@ -18,8 +24,20 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **cryptographic trust** (`en`, `alternative`)
+
+## Legacy Aliases
 cryptographic trust
+
+## Semantic Relations
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:definition`
+- **related**: `urn:tig:concept:trust`
+- **related**: `urn:tig:concept:trust-registry`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [glossary]({{ '/terms/glossary/' | relative_url }})

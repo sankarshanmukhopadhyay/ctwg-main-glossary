@@ -6,6 +6,12 @@ title: "first-party"
 
 # first-party
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:first-party`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 The party who initiates a trust relationship, connection, or transaction with a second party.
 
@@ -18,8 +24,19 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **first party** (`en`, `alternative`)
+- **first parties** (`en`, `alternative`)
+
+## Legacy Aliases
 first party, first parties
+
+## Semantic Relations
+- **related**: `urn:tig:concept:third-party`
+- **related**: `urn:tig:concept:fourth-party`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [third party]({{ '/terms/third-party/' | relative_url }})

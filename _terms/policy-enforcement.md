@@ -6,6 +6,12 @@ title: "policy enforcement"
 
 # policy enforcement
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:policy-enforcement`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 Making sure a policy changes what the system actually allows or blocks.
 
@@ -18,8 +24,18 @@ This is a cross-project glossary term. Individual specifications may define narr
 ## Implementation Relevance
 Use this term to keep governance, authority, assurance, and implementation discussions consistent across interoperating projects.
 
-## Aliases
+## Alternative Designations
+- **policy-enforcement** (`en`, `alternative`)
+
+## Legacy Aliases
 policy-enforcement
+
+## Semantic Relations
+- **related**: `urn:tig:concept:policy`
+- **related**: `urn:tig:concept:access-control`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [policy]({{ '/terms/policy/' | relative_url }})

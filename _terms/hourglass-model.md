@@ -6,6 +6,12 @@ title: "hourglass-model"
 
 # hourglass-model
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:hourglass-model`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,18 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **hourglass model** (`en`, `alternative`)
+- **hourglass models** (`en`, `alternative`)
+
+## Legacy Aliases
 hourglass model, hourglass models
+
+## Semantic Relations
+- **related**: `urn:tig:concept:trust-spanning-protocol`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [trust spanning protocol]({{ '/terms/trust-spanning-protocol/' | relative_url }})

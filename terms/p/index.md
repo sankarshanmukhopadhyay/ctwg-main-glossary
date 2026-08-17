@@ -1,10 +1,10 @@
 ---
-title: "Terms: P"
-parent: "Glossary Terms"
+title: "Concepts: P"
+parent: "Concepts"
 nav_order: 16
 ---
 
-# Terms: P
+# Concepts: P
 
 - [p2p]({{ '/terms/p2p/' | relative_url }})
 - [packet]({{ '/terms/packet/' | relative_url }})

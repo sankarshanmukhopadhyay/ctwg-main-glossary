@@ -6,6 +6,12 @@ title: "aal"
 
 # aal
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:aal`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 See: authenticator assurance level.
 
@@ -18,8 +24,22 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **AAL** (`en`, `alternative`)
+
+## Legacy Aliases
 AAL
+
+## Semantic Relations
+- **related**: `urn:tig:concept:authorization`
+- **related**: `urn:tig:concept:permission`
+- **related**: `urn:tig:concept:role-based-access-control`
+- **related**: `urn:tig:concept:attribute-based-access-control`
+- **related**: `urn:tig:concept:audit`
+- **related**: `urn:tig:concept:verification`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [authorization]({{ '/terms/authorization/' | relative_url }})

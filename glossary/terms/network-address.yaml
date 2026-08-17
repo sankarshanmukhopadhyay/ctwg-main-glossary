@@ -1,8 +1,23 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:network-address
+designations:
+- label: network-address
+  language: en
+  status: preferred
+- label: network address
+  language: en
+  status: alternative
+- label: network addresses
+  language: en
+  status: alternative
 term: network-address
 aliases:
 - network address
 - network addresses
-definition: A network address is an identifier for a node or host on a telecommunications network. Network addresses are designed to be unique identifiers across the network, although some networks allow for local, private addresses, or locally administered addresses that may not be unique. Special network addresses are allocated as broadcast or multicast addresses. A network address designed to address a single device is called a unicast address.
+definition: A network address is an identifier for a node or host on a telecommunications network. Network addresses are designed
+  to be unique identifiers across the network, although some networks allow for local, private addresses, or locally administered
+  addresses that may not be unique. Special network addresses are allocated as broadcast or multicast addresses. A network
+  address designed to address a single device is called a unicast address.
 notes: []
 see_also:
 - glossary
@@ -40,3 +55,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

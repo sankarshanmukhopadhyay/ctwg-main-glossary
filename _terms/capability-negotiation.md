@@ -6,6 +6,12 @@ title: "capability negotiation"
 
 # capability negotiation
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:capability-negotiation`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A governed process for determining whether an advertised capability is discoverable, compatible, authorized, accepted, and permitted to execute under applicable policy.
 
@@ -18,8 +24,19 @@ This term was added following a cross-repository terminology review of TSMM, TIS
 ## Implementation Relevance
 Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.
 
-## Aliases
+## Alternative Designations
+- **capability-negotiation** (`en`, `alternative`)
+
+## Legacy Aliases
 capability negotiation, capability-negotiation
+
+## Semantic Relations
+- **related**: `urn:tig:concept:capability`
+- **related**: `urn:tig:concept:authority`
+- **related**: `urn:tig:concept:policy`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [capability]({{ '/terms/capability/' | relative_url }})

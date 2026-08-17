@@ -1,3 +1,21 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:encryption
+designations:
+- label: encryption
+  language: en
+  status: preferred
+- label: encrypt
+  language: en
+  status: alternative
+- label: encrypts
+  language: en
+  status: alternative
+- label: encrypted
+  language: en
+  status: alternative
+- label: encrypting
+  language: en
+  status: alternative
 term: encryption
 aliases:
 - encryption
@@ -5,7 +23,9 @@ aliases:
 - encrypts
 - encrypted
 - encrypting
-definition: Cryptographic transformation of data (called plaintext) into a form (called ciphertext) that conceals the data's original meaning to prevent it from being known or used. If the transformation is reversible, the corresponding reversal process is called decryption, which is a transformation that restores encrypted data to its original state.
+definition: Cryptographic transformation of data (called plaintext) into a form (called ciphertext) that conceals the data's
+  original meaning to prevent it from being known or used. If the transformation is reversible, the corresponding reversal
+  process is called decryption, which is a transformation that restores encrypted data to its original state.
 notes: []
 see_also:
 - glossary
@@ -43,3 +63,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

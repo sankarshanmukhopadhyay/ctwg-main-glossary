@@ -6,6 +6,12 @@ title: "pid"
 
 # pid
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:pid`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,21 @@ This term is part of the v1.2.0 standards-linked refresh and is anchored to acti
 ## Implementation Relevance
 Use this term when mapping glossary language to implementation profiles, governance controls, conformance checks, or assurance evidence.
 
-## Aliases
+## Alternative Designations
+- **Person Identification Data** (`en`, `alternative`)
+- **PID** (`en`, `alternative`)
+
+## Legacy Aliases
 Person Identification Data, PID
+
+## Semantic Relations
+- **related**: `urn:tig:concept:eudi-wallet`
+- **related**: `urn:tig:concept:identity-data`
+- **related**: `urn:tig:concept:natural-person`
+- **related**: `urn:tig:concept:legal-person`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [eudi-wallet]({{ '/terms/eudi-wallet/' | relative_url }})

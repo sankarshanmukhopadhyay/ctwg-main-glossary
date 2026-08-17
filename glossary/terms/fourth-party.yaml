@@ -1,8 +1,23 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:fourth-party
+designations:
+- label: fourth-party
+  language: en
+  status: preferred
+- label: fourth party
+  language: en
+  status: alternative
+- label: fourth parties
+  language: en
+  status: alternative
 term: fourth-party
 aliases:
 - fourth party
 - fourth parties
-definition: A party that is not directly involved in the trust relationship between a first party and a second party, but provides supporting services exclusively to the first party (in contrast with a third party, who in most cases provides supporting services to the second party). In its strongest form, a fourth party has a fiduciary relationship with the first party.
+definition: A party that is not directly involved in the trust relationship between a first party and a second party, but
+  provides supporting services exclusively to the first party (in contrast with a third party, who in most cases provides
+  supporting services to the second party). In its strongest form, a fourth party has a fiduciary relationship with the first
+  party.
 notes: []
 see_also:
 - glossary
@@ -44,3 +59,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

@@ -1,7 +1,17 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:toip-foundation
+designations:
+- label: toip-foundation
+  language: en
+  status: preferred
+- label: ToIP Foundation
+  language: en
+  status: alternative
 term: toip-foundation
 aliases:
 - ToIP Foundation
-definition: A non-profit project of the Linux Foundation chartered to define an overall architecture for decentralized digital trust infrastructure known as the ToIP stack.
+definition: A non-profit project of the Linux Foundation chartered to define an overall architecture for decentralized digital
+  trust infrastructure known as the ToIP stack.
 notes: []
 see_also:
 - Decentralized Identity Foundation
@@ -44,4 +54,25 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
-simple_definition: A non-profit project of the Linux Foundation chartered to define an overall architecture for decentralized digital trust infrastructure known as the ToIP stack.
+simple_definition: A non-profit project of the Linux Foundation chartered to define an overall architecture for decentralized
+  digital trust infrastructure known as the ToIP stack.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:decentralized-identity-foundation
+  - urn:tig:concept:openwallet-foundation
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

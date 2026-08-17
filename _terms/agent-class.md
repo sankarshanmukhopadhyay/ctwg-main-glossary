@@ -6,6 +6,12 @@ title: "agent class"
 
 # agent class
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:agent-class`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,18 @@ This term was added following a cross-repository terminology review of TSMM, TIS
 ## Implementation Relevance
 Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.
 
-## Aliases
+## Alternative Designations
+- **agent-class** (`en`, `alternative`)
+
+## Legacy Aliases
 agent class, agent-class
+
+## Semantic Relations
+- **related**: `urn:tig:concept:agent`
+- **related**: `urn:tig:concept:role`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [agent]({{ '/terms/agent/' | relative_url }})

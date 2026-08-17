@@ -6,6 +6,12 @@ title: "appraisability"
 
 # appraisability
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:appraisability`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,19 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **appraisable** (`en`, `alternative`)
+- **appraise** (`en`, `alternative`)
+
+## Legacy Aliases
 appraisability, appraisable, appraise
+
+## Semantic Relations
+- **related**: `urn:tig:concept:trust-basis`
+- **related**: `urn:tig:concept:verifiability`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [trust basis]({{ '/terms/trust-basis/' | relative_url }})

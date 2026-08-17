@@ -6,6 +6,12 @@ title: "non-repudiable"
 
 # non-repudiable
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:non-repudiable`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 Non-repudiation refers to a situation where a statement's author **cannot successfully dispute** its authorship or the validity of an associated contract, signature or commitment.
 
@@ -18,8 +24,18 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **non repudiable** (`en`, `alternative`)
+
+## Legacy Aliases
 non-repudiable, non repudiable
+
+## Semantic Relations
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:definition`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [glossary]({{ '/terms/glossary/' | relative_url }})

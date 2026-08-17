@@ -1,8 +1,18 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:party
+designations:
+- label: party
+  language: en
+  status: preferred
+- label: parties
+  language: en
+  status: alternative
 term: party
 aliases:
 - party
 - parties
-definition: An entity that sets its objectives, maintains its knowledge, and uses that knowledge to pursue its objectives in an autonomous (sovereign) manner. Natural persons and organizations are the typical examples.
+definition: An entity that sets its objectives, maintains its knowledge, and uses that knowledge to pursue its objectives
+  in an autonomous (sovereign) manner. Natural persons and organizations are the typical examples.
 notes: []
 see_also:
 - first party
@@ -41,3 +51,24 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:first-party
+  - urn:tig:concept:second-party
+  - urn:tig:concept:third-party
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

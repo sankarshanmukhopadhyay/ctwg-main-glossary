@@ -1,10 +1,29 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:out-of-band-introduction
+designations:
+- label: out-of-band-introduction
+  language: en
+  status: preferred
+- label: out-of-band introduction
+  language: en
+  status: alternative
+- label: out-of-band introductions
+  language: en
+  status: alternative
+- label: OOBI
+  language: en
+  status: alternative
+- label: OOBIs
+  language: en
+  status: alternative
 term: out-of-band-introduction
 aliases:
 - out-of-band introduction
 - out-of-band introductions
 - OOBI
 - OOBIs
-definition: A process by which two or more entities exchange VIDs in order to form a cryptographically verifiable connection (e.g., a ToIP connection), such as by scanning a QR code (in person or remotely) or clicking a deep link.
+definition: A process by which two or more entities exchange VIDs in order to form a cryptographically verifiable connection
+  (e.g., a ToIP connection), such as by scanning a QR code (in person or remotely) or clicking a deep link.
 notes: []
 see_also:
 - glossary
@@ -43,3 +62,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

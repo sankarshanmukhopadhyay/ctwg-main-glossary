@@ -1,8 +1,22 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:assurance-level
+designations:
+- label: assurance-level
+  language: en
+  status: preferred
+- label: assurance level
+  language: en
+  status: alternative
+- label: assurance levels
+  language: en
+  status: alternative
 term: assurance-level
 aliases:
 - assurance level
 - assurance levels
-definition: A level of confidence in a claim that may be relied on by others. Different types of assurance levels are defined for different types of trust assurance mechanisms. Examples include authenticator assurance level, federation assurance level, and identity assurance level.
+definition: A level of confidence in a claim that may be relied on by others. Different types of assurance levels are defined
+  for different types of trust assurance mechanisms. Examples include authenticator assurance level, federation assurance
+  level, and identity assurance level.
 notes:
 - Assurance levels are most useful when the criteria for each level are explicit, testable, and supported by inspectable evidence.
 see_also:
@@ -16,7 +30,9 @@ sources:
 - 'ToIP CTWG maintained glossary source: `spec/terms-definitions/assurance-level.md`'
 mental_models: []
 supporting_definitions:
-- For verifiable credentials, an assurance level measures the degree of certainty in an identity's authenticity or a credential's validity. It is influenced by the strength of the identity assurance process, the robustness of the authentication process, the management of the credential issuer, and the evidence available to support those assessments.
+- For verifiable credentials, an assurance level measures the degree of certainty in an identity's authenticity or a credential's
+  validity. It is influenced by the strength of the identity assurance process, the robustness of the authentication process,
+  the management of the credential issuer, and the evidence available to support those assessments.
 source_file: spec/terms-definitions/assurance-level.md
 governance_profile: core-operational
 governance:
@@ -71,3 +87,27 @@ crosswalk:
   iso:
   - ISO/IEC 29115
 simple_definition: A stated level of confidence supported by defined evidence, controls, and review expectations.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:credential
+  - urn:tig:concept:issuer
+  - urn:tig:concept:issuance
+  - urn:tig:concept:verifiable-credential
+  - urn:tig:concept:authorization
+  - urn:tig:concept:permission
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

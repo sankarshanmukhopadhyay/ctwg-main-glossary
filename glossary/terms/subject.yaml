@@ -1,3 +1,12 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:subject
+designations:
+- label: subject
+  language: en
+  status: preferred
+- label: subjects
+  language: en
+  status: alternative
 term: subject
 aliases:
 - subject
@@ -13,8 +22,12 @@ sources:
 - 'ToIP CTWG maintained glossary source: `spec/terms-definitions/subject.md`'
 mental_models: []
 supporting_definitions:
-- '[W3C VC](https://www.w3.org/TR/vc-data-model/#terminology): A thing about which [claims](https://www.w3.org/TR/vc-data-model/#dfn-claims) are made.'
-- '[eSSIF-Lab:](https://essif-lab.github.io/framework/docs/essifLab-glossary#subject) the (single) [[ref: entity]] to which a given set of coherent [[ref: data]] relates/pertains. Examples of such sets include attributes, [[ref: Claims]]/Assertions, files/dossiers, [[ref: verifiable credentials]], [(partial) identities](https://essif-lab.github.io/framework/docs/terms/partial-identity), [employment contracts](https://essif-lab.github.io/framework/docs/terms/employment-contract), etc.'
+- '[W3C VC](https://www.w3.org/TR/vc-data-model/#terminology): A thing about which [claims](https://www.w3.org/TR/vc-data-model/#dfn-claims)
+  are made.'
+- '[eSSIF-Lab:](https://essif-lab.github.io/framework/docs/essifLab-glossary#subject) the (single) [[ref: entity]] to which
+  a given set of coherent [[ref: data]] relates/pertains. Examples of such sets include attributes, [[ref: Claims]]/Assertions,
+  files/dossiers, [[ref: verifiable credentials]], [(partial) identities](https://essif-lab.github.io/framework/docs/terms/partial-identity),
+  [employment contracts](https://essif-lab.github.io/framework/docs/terms/employment-contract), etc.'
 source_file: spec/terms-definitions/subject.md
 governance_profile: core-operational
 governance:
@@ -57,3 +70,25 @@ crosswalk:
   nist: []
   iso: []
 simple_definition: The entity described by one or more claims, particularly in the context of credentials.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:credential
+  - urn:tig:concept:issuer
+  - urn:tig:concept:issuance
+  - urn:tig:concept:verifiable-credential
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

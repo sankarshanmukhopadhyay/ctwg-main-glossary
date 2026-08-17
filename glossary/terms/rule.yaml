@@ -1,8 +1,18 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:rule
+designations:
+- label: rule
+  language: en
+  status: preferred
+- label: rules
+  language: en
+  status: alternative
 term: rule
 aliases:
 - rule
 - rules
-definition: A prescribed guide for conduct, process or action to achieve a defined result or objective. Rules may be human-readable or machine-readable or both.
+definition: A prescribed guide for conduct, process or action to achieve a defined result or objective. Rules may be human-readable
+  or machine-readable or both.
 notes: []
 see_also:
 - governance framework
@@ -40,4 +50,25 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
-simple_definition: A prescribed guide for conduct, process or action to achieve a defined result or objective. Rules may be human-readable or machine-readable or both.
+simple_definition: A prescribed guide for conduct, process or action to achieve a defined result or objective. Rules may be
+  human-readable or machine-readable or both.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:governance-framework
+  - urn:tig:concept:policy
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

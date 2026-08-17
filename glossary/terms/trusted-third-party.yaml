@@ -1,3 +1,27 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:trusted-third-party
+designations:
+- label: trusted-third-party
+  language: en
+  status: preferred
+- label: trusted third party
+  language: en
+  status: alternative
+- label: trusted third parties
+  language: en
+  status: alternative
+- label: trusted 3rd party
+  language: en
+  status: alternative
+- label: trusted 3rd parties
+  language: en
+  status: alternative
+- label: TTP
+  language: en
+  status: alternative
+- label: TTPs
+  language: en
+  status: alternative
 term: trusted-third-party
 aliases:
 - trusted third party
@@ -6,7 +30,13 @@ aliases:
 - trusted 3rd parties
 - TTP
 - TTPs
-definition: In cryptography, a trusted third party (TTP) is an entity which facilitates interactions between two parties who both trust the third party; the third party reviews all critical transaction communications between the parties, based on the ease of creating fraudulent digital content. In TTP models, the relying parties use this trust to secure their own interactions. TTPs are common in any number of commercial transactions and in cryptographic digital transactions as well as cryptographic protocols, for example, a certificate authority (CA) would issue a digital certificate to one of two parties. The CA then becomes the TTP to that certificate's issuance. Likewise transactions that need a third party recordation would also need a third-party repository service of some kind.
+definition: In cryptography, a trusted third party (TTP) is an entity which facilitates interactions between two parties who
+  both trust the third party; the third party reviews all critical transaction communications between the parties, based on
+  the ease of creating fraudulent digital content. In TTP models, the relying parties use this trust to secure their own interactions.
+  TTPs are common in any number of commercial transactions and in cryptographic digital transactions as well as cryptographic
+  protocols, for example, a certificate authority (CA) would issue a digital certificate to one of two parties. The CA then
+  becomes the TTP to that certificate's issuance. Likewise transactions that need a third party recordation would also need
+  a third-party repository service of some kind.
 notes: []
 see_also:
 - verification
@@ -20,7 +50,9 @@ sources:
 mental_models: []
 supporting_definitions:
 - 'Also known as: [[ref: TTP]].'
-- '[NIST-CSRC](https://csrc.nist.gov/glossary/term/trusted_third_party): A third party, such as a CA, that is trusted by its clients to perform certain services. (By contrast, the two participants in a key-establishment transaction are considered to be the first and second parties.)'
+- '[NIST-CSRC](https://csrc.nist.gov/glossary/term/trusted_third_party): A third party, such as a CA, that is trusted by its
+  clients to perform certain services. (By contrast, the two participants in a key-establishment transaction are considered
+  to be the first and second parties.)'
 source_file: spec/terms-definitions/trusted-third-party.md
 governance_profile: core-operational
 governance:
@@ -55,3 +87,27 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:verification
+  - urn:tig:concept:verifier
+  - urn:tig:concept:relying-party
+  - urn:tig:concept:trust-decision
+  - urn:tig:concept:governance
+  - urn:tig:concept:governance-framework
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

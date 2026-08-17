@@ -6,6 +6,12 @@ title: "governance legitimacy"
 
 # governance legitimacy
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:governance-legitimacy`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 Why a governing body or rule is accepted as having the right to make a decision.
 
@@ -18,8 +24,18 @@ This is a cross-project glossary term. Individual specifications may define narr
 ## Implementation Relevance
 Use this term to keep governance, authority, assurance, and implementation discussions consistent across interoperating projects.
 
-## Aliases
+## Alternative Designations
+- **governance-legitimacy** (`en`, `alternative`)
+
+## Legacy Aliases
 governance-legitimacy
+
+## Semantic Relations
+- **related**: `urn:tig:concept:governance`
+- **related**: `urn:tig:concept:authority`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [governance]({{ '/terms/governance/' | relative_url }})

@@ -6,6 +6,12 @@ title: "authority control plane"
 
 # authority control plane
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:authority-control-plane`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 The part of a system that decides who is allowed to do what, under whose authority, and under which limits.
 
@@ -18,8 +24,19 @@ This is a cross-project glossary term. Individual specifications may define narr
 ## Implementation Relevance
 Use this term to keep governance, authority, assurance, and implementation discussions consistent across interoperating projects.
 
-## Aliases
+## Alternative Designations
+- **authority-control-plane** (`en`, `alternative`)
+
+## Legacy Aliases
 authority-control-plane
+
+## Semantic Relations
+- **related**: `urn:tig:concept:authority`
+- **related**: `urn:tig:concept:control-plane-shift`
+- **related**: `urn:tig:concept:policy`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [authority]({{ '/terms/authority/' | relative_url }})

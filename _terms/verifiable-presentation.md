@@ -6,6 +6,12 @@ title: "verifiable-presentation"
 
 # verifiable-presentation
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:verifiable-presentation`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A presentation with cryptographic proof or securing material that enables a verifier to check integrity, holder binding, or other presentation-specific verification requirements.
 
@@ -18,8 +24,24 @@ Use this term for the presented artifact. Use openid4vp or vp-token when referri
 ## Implementation Relevance
 A verifier should validate the presentation, intended audience, challenge or nonce binding, status information, and applicable policy before relying on it.
 
-## Aliases
+## Alternative Designations
+- **verifiable presentation** (`en`, `alternative`)
+- **verifiable presentations** (`en`, `alternative`)
+- **VP** (`en`, `alternative`)
+- **VPs** (`en`, `alternative`)
+
+## Legacy Aliases
 verifiable presentation, verifiable presentations, VP, VPs
+
+## Semantic Relations
+- **related**: `urn:tig:concept:presentation`
+- **related**: `urn:tig:concept:vp-token`
+- **related**: `urn:tig:concept:openid4vp`
+- **related**: `urn:tig:concept:verifiable-credential`
+- **related**: `urn:tig:concept:holder-binding`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [presentation]({{ '/terms/presentation/' | relative_url }})

@@ -1,10 +1,21 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:governance-legitimacy
+designations:
+- label: governance legitimacy
+  language: en
+  status: preferred
+- label: governance-legitimacy
+  language: en
+  status: alternative
 term: governance legitimacy
 aliases:
 - governance-legitimacy
-definition: The recognized basis on which a governing authority, rule, mandate, or decision is considered entitled to exercise power in a defined context.
+definition: The recognized basis on which a governing authority, rule, mandate, or decision is considered entitled to exercise
+  power in a defined context.
 simple_definition: Why a governing body or rule is accepted as having the right to make a decision.
 notes:
-- Added in v1.5.0 following a cross-repository terminology review of active trust infrastructure, agent governance, assurance, and national trust framework projects.
+- Added in v1.5.0 following a cross-repository terminology review of active trust infrastructure, agent governance, assurance,
+  and national trust framework projects.
 see_also:
 - governance
 - authority
@@ -14,7 +25,8 @@ sources:
   url: https://github.com/sankarshanmukhopadhyay/PolicyMesh
   normative: false
 reader_note: This is a cross-project glossary term. Individual specifications may define narrower domain-specific requirements.
-implementation_relevance: Use this term to keep governance, authority, assurance, and implementation discussions consistent across interoperating projects.
+implementation_relevance: Use this term to keep governance, authority, assurance, and implementation discussions consistent
+  across interoperating projects.
 governance_profile: governance-supporting
 governance:
   authority_scope:
@@ -52,3 +64,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:governance
+  - urn:tig:concept:authority
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

@@ -1,3 +1,21 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:decentralized-identifier
+designations:
+- label: decentralized-identifier
+  language: en
+  status: preferred
+- label: decentralized identifier
+  language: en
+  status: alternative
+- label: decentralized identifiers
+  language: en
+  status: alternative
+- label: DID
+  language: en
+  status: alternative
+- label: DIDs
+  language: en
+  status: alternative
 term: decentralized-identifier
 aliases:
 - decentralized identifier
@@ -5,7 +23,9 @@ aliases:
 - decentralized identifiers
 - DID
 - DIDs
-definition: A globally unique persistent identifier that does not require a centralized registration authority and is often generated and/or registered cryptographically. The generic format of a DID is defined in section 3.1 DID Syntax of the W3C Decentralized Identifiers (DIDs) 1.0 specification. A specific DID scheme is defined in a DID method specification.
+definition: A globally unique persistent identifier that does not require a centralized registration authority and is often
+  generated and/or registered cryptographically. The generic format of a DID is defined in section 3.1 DID Syntax of the W3C
+  Decentralized Identifiers (DIDs) 1.0 specification. A specific DID scheme is defined in a DID method specification.
 notes: []
 see_also:
 - DID method
@@ -54,3 +74,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:did-method
+  - urn:tig:concept:did-url
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

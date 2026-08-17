@@ -1,8 +1,22 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:system-of-record
+designations:
+- label: system-of-record
+  language: en
+  status: preferred
+- label: system of record
+  language: en
+  status: alternative
+- label: systems of record
+  language: en
+  status: alternative
 term: system-of-record
 aliases:
 - system of record
 - systems of record
-definition: A system of record (SOR) or source system of record (SSoR) is a data management term for an information storage system (commonly implemented on a computer system running a database management system) that is the authoritative source for a given data element or piece of information.
+definition: A system of record (SOR) or source system of record (SSoR) is a data management term for an information storage
+  system (commonly implemented on a computer system running a database management system) that is the authoritative source
+  for a given data element or piece of information.
 notes: []
 see_also:
 - authoritative source
@@ -41,3 +55,24 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:authoritative-source
+  - urn:tig:concept:trust-registry
+  - urn:tig:concept:verifiable-data-registry
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

@@ -1,10 +1,10 @@
 ---
-title: "Terms: H"
-parent: "Glossary Terms"
+title: "Concepts: H"
+parent: "Concepts"
 nav_order: 8
 ---
 
-# Terms: H
+# Concepts: H
 
 - [hardware-security-module]({{ '/terms/hardware-security-module/' | relative_url }})
 - [hash]({{ '/terms/hash/' | relative_url }})

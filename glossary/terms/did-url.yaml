@@ -1,8 +1,22 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:did-url
+designations:
+- label: did-url
+  language: en
+  status: preferred
+- label: DID URL
+  language: en
+  status: alternative
+- label: DID URLs
+  language: en
+  status: alternative
 term: did-url
 aliases:
 - DID URL
 - DID URLs
-definition: 'A DID plus any additional syntactic component that conforms to the definition in section 3.2 of the W3C Decentralized Identifiers (DIDs) 1.0 specification. This includes an optional DID path (with its leading / character), optional DID query (with its leading ? character), and optional DID fragment (with its leading # character).'
+definition: 'A DID plus any additional syntactic component that conforms to the definition in section 3.2 of the W3C Decentralized
+  Identifiers (DIDs) 1.0 specification. This includes an optional DID path (with its leading / character), optional DID query
+  (with its leading ? character), and optional DID fragment (with its leading # character).'
 notes: []
 see_also:
 - glossary
@@ -40,3 +54,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

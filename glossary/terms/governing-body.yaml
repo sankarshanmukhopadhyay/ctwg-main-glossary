@@ -1,8 +1,23 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:governing-body
+designations:
+- label: governing-body
+  language: en
+  status: preferred
+- label: governing body
+  language: en
+  status: alternative
+- label: governing bodies
+  language: en
+  status: alternative
 term: governing-body
 aliases:
 - governing body
 - governing bodies
-definition: The party (or set of parties) authoritative for governing a trust community, usually (but not always) by developing, publishing, maintaining, and enforcing a governance framework. A governing body may be a government, a formal legal entity of any kind, an informal group of any kind, or an individual. A governing body may also delegate operational responsibilities to an administering body.
+definition: The party (or set of parties) authoritative for governing a trust community, usually (but not always) by developing,
+  publishing, maintaining, and enforcing a governance framework. A governing body may be a government, a formal legal entity
+  of any kind, an informal group of any kind, or an individual. A governing body may also delegate operational responsibilities
+  to an administering body.
 notes: []
 see_also:
 - policy
@@ -63,3 +78,27 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:policy
+  - urn:tig:concept:governance-framework
+  - urn:tig:concept:requirement
+  - urn:tig:concept:delegation
+  - urn:tig:concept:delegator
+  - urn:tig:concept:delegatee
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

@@ -1,8 +1,21 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:did-method
+designations:
+- label: did-method
+  language: en
+  status: preferred
+- label: DID method
+  language: en
+  status: alternative
+- label: DID methods
+  language: en
+  status: alternative
 term: did-method
 aliases:
 - DID method
 - DID methods
-definition: A definition of how a specific DID method scheme is implemented. A DID method is defined by a DID method specification, which specifies the precise operations by which DIDs and DID documents are created, resolved, updated, and deactivated.
+definition: A definition of how a specific DID method scheme is implemented. A DID method is defined by a DID method specification,
+  which specifies the precise operations by which DIDs and DID documents are created, resolved, updated, and deactivated.
 notes: []
 see_also:
 - glossary
@@ -41,3 +54,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

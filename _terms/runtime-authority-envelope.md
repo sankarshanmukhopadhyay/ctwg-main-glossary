@@ -6,6 +6,12 @@ title: "runtime authority envelope"
 
 # runtime authority envelope
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:runtime-authority-envelope`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 The current set of permissions, limits, delegation history, and status that must be checked before an action is allowed.
 
@@ -18,8 +24,19 @@ This term was added following a cross-repository terminology review of TSMM, TIS
 ## Implementation Relevance
 Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.
 
-## Aliases
+## Alternative Designations
+- **runtime-authority-envelope** (`en`, `alternative`)
+
+## Legacy Aliases
 runtime authority envelope, runtime-authority-envelope
+
+## Semantic Relations
+- **related**: `urn:tig:concept:authority`
+- **related**: `urn:tig:concept:policy`
+- **related**: `urn:tig:concept:governance-framework`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [authority]({{ '/terms/authority/' | relative_url }})

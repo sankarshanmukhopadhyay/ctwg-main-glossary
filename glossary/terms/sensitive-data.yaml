@@ -1,7 +1,17 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:sensitive-data
+designations:
+- label: sensitive-data
+  language: en
+  status: preferred
+- label: sensitive data
+  language: en
+  status: alternative
 term: sensitive-data
 aliases:
 - sensitive data
-definition: Personal data that a reasonable person would view from a privacy protection standpoint as requiring special care above and beyond other personal data.
+definition: Personal data that a reasonable person would view from a privacy protection standpoint as requiring special care
+  above and beyond other personal data.
 notes: []
 see_also:
 - glossary
@@ -10,7 +20,11 @@ sources:
 - 'ToIP CTWG maintained glossary source: `spec/terms-definitions/sensitive-data.md`'
 mental_models: []
 supporting_definitions:
-- '[PEMC IGR](https://kantarainitiative.org/download/pemc-implementors-guidance-report/): While all Personal Information may be regarded as sensitive in that an unauthorized processing of an individual’s data may be offensive to that person, we use the term here to denote information that a reasonable person would view as requiring special care above and beyond other personal data. For reference see [GDPR Recital #51](https://www.privacy-regulation.eu/en/recital-51-GDPR.htm) or [Sensitive Personal Data](https://w3c.github.io/dpv/dpv/#SensitivePersonalData) in the W3C [Data Privacy Vocabulary](https://w3id.org/dpv).'
+- '[PEMC IGR](https://kantarainitiative.org/download/pemc-implementors-guidance-report/): While all Personal Information may
+  be regarded as sensitive in that an unauthorized processing of an individual’s data may be offensive to that person, we
+  use the term here to denote information that a reasonable person would view as requiring special care above and beyond other
+  personal data. For reference see [GDPR Recital #51](https://www.privacy-regulation.eu/en/recital-51-GDPR.htm) or [Sensitive
+  Personal Data](https://w3c.github.io/dpv/dpv/#SensitivePersonalData) in the W3C [Data Privacy Vocabulary](https://w3id.org/dpv).'
 source_file: spec/terms-definitions/sensitive-data.md
 governance_profile: descriptive
 governance:
@@ -40,4 +54,25 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
-simple_definition: Personal data that a reasonable person would view from a privacy protection standpoint as requiring special care above and beyond other personal data.
+simple_definition: Personal data that a reasonable person would view from a privacy protection standpoint as requiring special
+  care above and beyond other personal data.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

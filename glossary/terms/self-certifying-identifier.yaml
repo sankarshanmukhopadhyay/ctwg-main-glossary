@@ -1,10 +1,30 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:self-certifying-identifier
+designations:
+- label: self-certifying-identifier
+  language: en
+  status: preferred
+- label: self-certifying identifier
+  language: en
+  status: alternative
+- label: self-certifying identifiers
+  language: en
+  status: alternative
+- label: SCID
+  language: en
+  status: alternative
+- label: SCIDs
+  language: en
+  status: alternative
 term: self-certifying-identifier
 aliases:
 - self-certifying identifier
 - self-certifying identifiers
 - SCID
 - SCIDs
-definition: A subclass of verifiable identifier (VID) that is cryptographically verifiable without the need to rely on any third party for verification because the identifier is cryptographically bound to the cryptographic keys from which it was generated.
+definition: A subclass of verifiable identifier (VID) that is cryptographically verifiable without the need to rely on any
+  third party for verification because the identifier is cryptographically bound to the cryptographic keys from which it was
+  generated.
 notes: []
 see_also:
 - autonomic-identifier
@@ -44,3 +64,24 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:autonomic-identifier
+  - urn:tig:concept:verifiable-identifier
+  - urn:tig:concept:cryptographic-key
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

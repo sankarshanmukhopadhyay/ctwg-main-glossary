@@ -6,6 +6,12 @@ title: "proof-of-personhood"
 
 # proof-of-personhood
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:proof-of-personhood`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 Evidence used to support a claim that a participant is a real, distinct person for a particular purpose.
 
@@ -18,8 +24,18 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **proof of personhood** (`en`, `alternative`)
+
+## Legacy Aliases
 proof of personhood
+
+## Semantic Relations
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:definition`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [glossary]({{ '/terms/glossary/' | relative_url }})

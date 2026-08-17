@@ -1,8 +1,22 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:sybil-attack
+designations:
+- label: sybil-attack
+  language: en
+  status: preferred
+- label: Sybil attack
+  language: en
+  status: alternative
+- label: Sybil attacks
+  language: en
+  status: alternative
 term: sybil-attack
 aliases:
 - Sybil attack
 - Sybil attacks
-definition: A Sybil attack is a type of attack on a computer network service in which an attacker subverts the service's reputation system by creating a large number of pseudonymous identities and uses them to gain a disproportionately large influence. It is named after the subject of the book _Sybil_, a case study of a woman diagnosed with dissociative identity disorder.
+definition: A Sybil attack is a type of attack on a computer network service in which an attacker subverts the service's reputation
+  system by creating a large number of pseudonymous identities and uses them to gain a disproportionately large influence.
+  It is named after the subject of the book _Sybil_, a case study of a woman diagnosed with dissociative identity disorder.
 notes: []
 see_also:
 - glossary
@@ -40,3 +54,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

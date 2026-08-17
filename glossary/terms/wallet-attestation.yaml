@@ -1,7 +1,17 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:wallet-attestation
+designations:
+- label: wallet-attestation
+  language: en
+  status: preferred
+- label: wallet attestation
+  language: en
+  status: alternative
 term: wallet-attestation
 aliases:
 - wallet attestation
-definition: Evidence about a wallet instance, wallet provider, or wallet capability that can be used by issuers, verifiers, or governance frameworks to make reliance decisions.
+definition: Evidence about a wallet instance, wallet provider, or wallet capability that can be used by issuers, verifiers,
+  or governance frameworks to make reliance decisions.
 reader_note: ''
 implementation_relevance: ''
 notes: []
@@ -70,4 +80,28 @@ crosswalk:
   openid:
   - OpenID4VCI
   - OpenID4VP
-simple_definition: Evidence about a wallet instance, wallet provider, or wallet capability that can be used by issuers, verifiers, or governance frameworks to make reliance decisions.
+simple_definition: Evidence about a wallet instance, wallet provider, or wallet capability that can be used by issuers, verifiers,
+  or governance frameworks to make reliance decisions.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:digital-wallet
+  - urn:tig:concept:attestation
+  - urn:tig:concept:issuer
+  - urn:tig:concept:verifier
+  - urn:tig:concept:assurance-level
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

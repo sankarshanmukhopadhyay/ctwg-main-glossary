@@ -1,10 +1,34 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:distributed-ledger
+designations:
+- label: distributed-ledger
+  language: en
+  status: preferred
+- label: distributed ledger
+  language: en
+  status: alternative
+- label: distributed ledgers
+  language: en
+  status: alternative
+- label: DLT
+  language: en
+  status: alternative
+- label: DLTs
+  language: en
+  status: alternative
 term: distributed-ledger
 aliases:
 - distributed ledger
 - distributed ledgers
 - DLT
 - DLTs
-definition: A distributed ledger (also called a shared ledger or distributed ledger technology or DLT) is the consensus of replicated, shared, and synchronized digital data that is geographically spread (distributed) across many sites, countries, or institutions. In contrast to a centralized database, a distributed ledger does not require a central administrator, and consequently does not have a single (central) point-of-failure. In general, a distributed ledger requires a peer-to-peer (P2P) computer network and consensus algorithms so that the ledger is reliably replicated across distributed computer nodes (servers, clients, etc.). The most common form of distributed ledger technology is the blockchain, which can either be on a public or private network.
+definition: A distributed ledger (also called a shared ledger or distributed ledger technology or DLT) is the consensus of
+  replicated, shared, and synchronized digital data that is geographically spread (distributed) across many sites, countries,
+  or institutions. In contrast to a centralized database, a distributed ledger does not require a central administrator, and
+  consequently does not have a single (central) point-of-failure. In general, a distributed ledger requires a peer-to-peer
+  (P2P) computer network and consensus algorithms so that the ledger is reliably replicated across distributed computer nodes
+  (servers, clients, etc.). The most common form of distributed ledger technology is the blockchain, which can either be on
+  a public or private network.
 notes: []
 see_also:
 - glossary
@@ -42,3 +66,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

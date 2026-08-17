@@ -6,6 +6,12 @@ title: "record"
 
 # record
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:record`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 A uniquely identifiable entry or listing in a database or registry.
 
@@ -18,8 +24,20 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **records** (`en`, `alternative`)
+
+## Legacy Aliases
 record, records
+
+## Semantic Relations
+- **related**: `urn:tig:concept:registry`
+- **related**: `urn:tig:concept:trust-registry`
+- **related**: `urn:tig:concept:registration`
+- **related**: `urn:tig:concept:governance-framework`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [registry]({{ '/terms/registry/' | relative_url }})

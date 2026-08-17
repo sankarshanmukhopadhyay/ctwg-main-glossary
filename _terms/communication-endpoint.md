@@ -6,6 +6,12 @@ title: "communication-endpoint"
 
 # communication-endpoint
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:communication-endpoint`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,20 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **communication endpoint** (`en`, `alternative`)
+- **communication endpoints** (`en`, `alternative`)
+- **communications endpoint** (`en`, `alternative`)
+- **communications endpoints** (`en`, `alternative`)
+
+## Legacy Aliases
 communication endpoint, communication endpoints, communications endpoint, communications endpoints
+
+## Semantic Relations
+- **related**: `urn:tig:concept:toip-endpoint`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [ToIP endpoint]({{ '/terms/toip-endpoint/' | relative_url }})

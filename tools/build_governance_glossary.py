@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build machine-readable and markdown bundles from governance-executable glossary YAML artifacts."""
+"""Build v2 Trust Infrastructure Glossary machine-readable and human-readable artifacts."""
 from pathlib import Path
 from collections import Counter, defaultdict
 import json
@@ -52,32 +52,106 @@ def load_terms():
 
 
 def build_jsonld(terms):
-    graph = []
-    for term in terms:
-        graph.append({
-            "@type": "DefinedTerm",
-            "@id": f"urn:toip:glossary:{term['slug']}",
-            "name": term.get("term"),
-            "description": term.get("definition"),
-            "inDefinedTermSet": "ToIP Main Glossary",
-            "identifier": term.get("term"),
-            "subjectOf": {
-                "governance": term.get("governance", {}),
-                "assurance": term.get("assurance", {}),
-                "control_plane": term.get("control_plane", {}),
-                "crosswalk": term.get("crosswalk", {})
-            }
-        })
-    return {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "ToIP Main Glossary",
-        "@graph": graph
+    """Publish concept-centric JSON-LD using SKOS terms plus TIG governance metadata."""
+    context = {
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tig": "https://sankarshanmukhopadhyay.github.io/trust-infrastructure-glossary/ns#",
+        "prefLabel": "skos:prefLabel",
+        "altLabel": "skos:altLabel",
+        "definition": "skos:definition",
+        "broader": {"@id": "skos:broader", "@type": "@id"},
+        "narrower": {"@id": "skos:narrower", "@type": "@id"},
+        "related": {"@id": "skos:related", "@type": "@id"},
+        "exactMatch": {"@id": "skos:exactMatch", "@type": "@id"},
+        "closeMatch": {"@id": "skos:closeMatch", "@type": "@id"},
+        "broadMatch": {"@id": "skos:broadMatch", "@type": "@id"},
+        "narrowMatch": {"@id": "skos:narrowMatch", "@type": "@id"},
+        "relatedMatch": {"@id": "skos:relatedMatch", "@type": "@id"}
     }
+    graph = [{
+        "@id": "urn:tig:scheme:core",
+        "@type": "skos:ConceptScheme",
+        "prefLabel": {"@value": "Trust Infrastructure Glossary", "@language": "en"}
+    }]
+    for concept in terms:
+        preferred = [d for d in concept.get("designations", []) if d.get("status") == "preferred"]
+        alternatives = [d for d in concept.get("designations", []) if d.get("status") == "alternative"]
+        relations = concept.get("semantic_relations") or {}
+        mappings = concept.get("concept_mappings") or {}
+        item = {
+            "@id": concept.get("concept_id"),
+            "@type": "skos:Concept",
+            "skos:inScheme": {"@id": "urn:tig:scheme:core"},
+            "prefLabel": [
+                {"@value": d.get("label"), "@language": d.get("language", "en")} for d in preferred
+            ],
+            "altLabel": [
+                {"@value": d.get("label"), "@language": d.get("language", "en")} for d in alternatives
+            ],
+            "definition": {"@value": concept.get("definition", ""), "@language": "en"},
+            "broader": relations.get("broader", []),
+            "narrower": relations.get("narrower", []),
+            "related": relations.get("related", []),
+            "exactMatch": mappings.get("exact", []),
+            "closeMatch": mappings.get("close", []),
+            "broadMatch": mappings.get("broad", []),
+            "narrowMatch": mappings.get("narrow", []),
+            "relatedMatch": mappings.get("related", []),
+            "tig:editorial": concept.get("editorial", {}),
+            "tig:provenance": concept.get("provenance", {}),
+            "tig:governance": concept.get("governance", {}),
+            "tig:assurance": concept.get("assurance", {}),
+            "tig:controlPlane": concept.get("control_plane", {})
+        }
+        graph.append(item)
+    return {"@context": context, "@graph": graph}
+
+
+def build_skos_turtle(terms):
+    """Generate a compact SKOS Turtle representation without requiring RDF libraries."""
+    def esc(value):
+        return str(value).replace("\\", "\\\\").replace('"', '\\"').replace("\n", "\\n")
+    lines = [
+        "@prefix skos: <http://www.w3.org/2004/02/skos/core#> .",
+        "@prefix tig: <https://sankarshanmukhopadhyay.github.io/trust-infrastructure-glossary/ns#> .",
+        "",
+        "<urn:tig:scheme:core> a skos:ConceptScheme ;",
+        '  skos:prefLabel "Trust Infrastructure Glossary"@en .',
+        ""
+    ]
+    for c in terms:
+        lines.append(f"<{c['concept_id']}> a skos:Concept ;")
+        lines.append("  skos:inScheme <urn:tig:scheme:core> ;")
+        prefs = [d for d in c.get("designations", []) if d.get("status") == "preferred"]
+        alts = [d for d in c.get("designations", []) if d.get("status") == "alternative"]
+        if prefs:
+            d = prefs[0]
+            lines.append(f'  skos:prefLabel "{esc(d["label"])}"@{d.get("language","en")} ;')
+        for d in alts:
+            lines.append(f'  skos:altLabel "{esc(d["label"])}"@{d.get("language","en")} ;')
+        lines.append(f'  skos:definition "{esc(c.get("definition",""))}"@en' +
+                     (" ;" if (c.get("semantic_relations") or c.get("concept_mappings")) else " ."))
+        predicates = [
+            ("skos:broader", (c.get("semantic_relations") or {}).get("broader", [])),
+            ("skos:narrower", (c.get("semantic_relations") or {}).get("narrower", [])),
+            ("skos:related", (c.get("semantic_relations") or {}).get("related", [])),
+            ("skos:exactMatch", (c.get("concept_mappings") or {}).get("exact", [])),
+            ("skos:closeMatch", (c.get("concept_mappings") or {}).get("close", [])),
+            ("skos:broadMatch", (c.get("concept_mappings") or {}).get("broad", [])),
+            ("skos:narrowMatch", (c.get("concept_mappings") or {}).get("narrow", [])),
+            ("skos:relatedMatch", (c.get("concept_mappings") or {}).get("related", [])),
+        ]
+        triples = [(pred, value) for pred, vals in predicates for value in vals]
+        for i, (pred, value) in enumerate(triples):
+            lines.append(f"  {pred} <{value}>" + (" ." if i == len(triples)-1 else " ;"))
+        if not triples and lines[-1].endswith(" ;"):
+            lines[-1] = lines[-1][:-2] + " ."
+        lines.append("")
+    return "\n".join(lines)
 
 
 def build_markdown(terms):
-    lines = ["# Governance-Executable Glossary", "", f"Total terms: **{len(terms)}**", ""]
+    lines = ["# Trust Infrastructure Glossary", "", f"Total concepts: **{len(terms)}**", ""]
     for term in terms:
         lines.append(f"## {term.get('term', 'Untitled Term')}")
         lines.append("")
@@ -240,6 +314,33 @@ def render_core_operational_terms(inventory):
 def build_artifact_manifest(term_count):
     artifacts = [
         {
+            "path": "generated/json/trust-infrastructure-glossary.json",
+            "type": "json_concept_bundle",
+            "origin": "generated",
+            "source_inputs": ["glossary/terms/*.yaml"],
+            "generator": "tools/build_governance_glossary.py",
+            "consumer_use_case": "Canonical v2 concept bundle for downstream integration.",
+            "stability": "stable_generated"
+        },
+        {
+            "path": "generated/json/trust-infrastructure-glossary.catalog.json",
+            "type": "json_concept_catalog",
+            "origin": "generated",
+            "source_inputs": ["glossary/terms/*.yaml"],
+            "generator": "tools/build_governance_glossary.py",
+            "consumer_use_case": "Lightweight v2 concept discovery and profile construction.",
+            "stability": "stable_generated"
+        },
+        {
+            "path": "generated/json/trust-infrastructure-glossary.jsonld",
+            "type": "jsonld_skos_bundle",
+            "origin": "generated",
+            "source_inputs": ["glossary/terms/*.yaml"],
+            "generator": "tools/build_governance_glossary.py",
+            "consumer_use_case": "Canonical linked-data representation with SKOS-aligned semantics.",
+            "stability": "stable_generated"
+        },
+        {
             "path": "generated/json/governance-executable-glossary.json",
             "type": "json_bundle",
             "origin": "generated",
@@ -265,6 +366,15 @@ def build_artifact_manifest(term_count):
             "generator": "tools/build_governance_glossary.py",
             "consumer_use_case": "Linked-data publication of defined terms and governance metadata.",
             "stability": "experimental_semantic_mapping"
+        },
+        {
+            "path": "generated/rdf/trust-infrastructure-glossary.ttl",
+            "type": "skos_turtle",
+            "origin": "generated",
+            "source_inputs": ["glossary/terms/*.yaml"],
+            "generator": "tools/build_governance_glossary.py",
+            "consumer_use_case": "SKOS-compatible concept exchange, vocabulary mapping, and semantic-web integration.",
+            "stability": "stable_generated"
         },
         {
             "path": "generated/json/governance-inventory.json",
@@ -323,7 +433,7 @@ def build_artifact_manifest(term_count):
     ]
     return {
         "manifest_type": "governance_glossary_artifact_manifest",
-        "version": "1.1.0",
+        "version": "2.0.0",
         "term_count": term_count,
         "artifacts": artifacts,
     }
@@ -355,18 +465,45 @@ def main():
 
     inventory = classify_terms(terms)
 
+    canonical_bundle = {"schema_version": "2.0", "concept_count": len(terms), "concepts": terms}
+    (JSON_OUT / "trust-infrastructure-glossary.json").write_text(json.dumps(canonical_bundle, indent=2), encoding="utf-8")
     (JSON_OUT / "governance-executable-glossary.json").write_text(json.dumps({"terms": terms}, indent=2), encoding="utf-8")
+    catalog = {
+        "schema_version": "2.0",
+        "concept_count": len(terms),
+        "concepts": [{
+            "concept_id": t.get("concept_id"),
+            "term": t.get("term"),
+            "designations": t.get("designations", []),
+            "editorial_status": (t.get("editorial") or {}).get("status"),
+            "provenance_classification": (t.get("provenance") or {}).get("classification"),
+            "slug": t.get("slug"),
+            "source_file": t.get("source_file"),
+            "governance_profile": t.get("governance_profile"),
+            "assurance_level_hint": (t.get("assurance") or {}).get("assurance_level_hint")
+        } for t in terms]
+    }
+    (JSON_OUT / "trust-infrastructure-glossary.catalog.json").write_text(json.dumps(catalog, indent=2), encoding="utf-8")
     (JSON_OUT / "governance-executable-glossary.catalog.json").write_text(json.dumps({
         "term_count": len(terms),
         "terms": [{
+            "concept_id": t.get("concept_id"),
             "term": t.get("term"),
+            "designations": t.get("designations", []),
+            "editorial_status": (t.get("editorial") or {}).get("status"),
+            "provenance_classification": (t.get("provenance") or {}).get("classification"),
             "slug": t.get("slug"),
             "source_file": t.get("source_file"),
             "governance_profile": t.get("governance_profile"),
             "assurance_level_hint": (t.get("assurance") or {}).get("assurance_level_hint")
         } for t in terms]
     }, indent=2), encoding="utf-8")
-    (JSON_OUT / "governance-executable-glossary.jsonld").write_text(json.dumps(build_jsonld(terms), indent=2), encoding="utf-8")
+    jsonld = build_jsonld(terms)
+    (JSON_OUT / "trust-infrastructure-glossary.jsonld").write_text(json.dumps(jsonld, indent=2), encoding="utf-8")
+    (JSON_OUT / "governance-executable-glossary.jsonld").write_text(json.dumps(jsonld, indent=2), encoding="utf-8")
+    rdf_out = ROOT / "generated" / "rdf"
+    rdf_out.mkdir(parents=True, exist_ok=True)
+    (rdf_out / "trust-infrastructure-glossary.ttl").write_text(build_skos_turtle(terms), encoding="utf-8")
     (JSON_OUT / "governance-inventory.json").write_text(json.dumps(inventory, indent=2), encoding="utf-8")
     (MD_OUT / "governance-executable-glossary.md").write_text(build_markdown(terms), encoding="utf-8")
     (MD_OUT / "governance-inventory.md").write_text(render_inventory_markdown(inventory), encoding="utf-8")
@@ -378,14 +515,17 @@ def main():
     (MD_OUT / "artifact-manifest.md").write_text(render_artifact_manifest_markdown(manifest), encoding="utf-8")
 
     summary = {
+        "schema_version": "2.0",
+        "concept_count": len(terms),
         "term_count": len(terms),
         "generated_json": sorted(p.name for p in JSON_OUT.glob("*.json*")),
+        "generated_rdf": sorted(p.name for p in (ROOT / "generated" / "rdf").glob("*")),
         "generated_markdown": sorted(p.name for p in MD_OUT.glob("*.md")),
         "overlay_files": sorted(p.name for p in OVERLAY_GOV.glob("*")),
     }
     (JSON_OUT / "build-summary.json").write_text(json.dumps(summary, indent=2), encoding="utf-8")
 
-    print(f"Built bundles and inventories for {len(terms)} terms")
+    print(f"Built bundles and inventories for {len(terms)} concepts")
 
 
 if __name__ == "__main__":

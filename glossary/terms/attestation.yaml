@@ -1,8 +1,19 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:attestation
+designations:
+- label: attestation
+  language: en
+  status: preferred
+- label: attestations
+  language: en
+  status: alternative
 term: attestation
 aliases:
 - attestation
 - attestations
-definition: The issue of a statement, based on a decision, that fulfillment of specified requirements has been demonstrated. In the context of decentralized digital trust infrastructure, an attestation usually has a digital signature so that it is cryptographically verifiable.
+definition: The issue of a statement, based on a decision, that fulfillment of specified requirements has been demonstrated.
+  In the context of decentralized digital trust infrastructure, an attestation usually has a digital signature so that it
+  is cryptographically verifiable.
 notes: []
 see_also:
 - audit
@@ -42,3 +53,25 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:audit
+  - urn:tig:concept:verification
+  - urn:tig:concept:definition
+  - urn:tig:concept:glossary
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

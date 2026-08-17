@@ -6,6 +6,12 @@ title: "protocol-layer"
 
 # protocol-layer
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:protocol-layer`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,19 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **protocol layer** (`en`, `alternative`)
+- **protocol layers** (`en`, `alternative`)
+
+## Legacy Aliases
 protocol layer, protocol layers
+
+## Semantic Relations
+- **related**: `urn:tig:concept:hourglass-model`
+- **related**: `urn:tig:concept:toip-stack`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [hourglass model]({{ '/terms/hourglass-model/' | relative_url }})

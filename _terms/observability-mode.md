@@ -6,6 +6,12 @@ title: "observability mode"
 
 # observability mode
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:observability-mode`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A descriptor for what can be known and evidenced about delivery, timing, progress, and user awareness for an interaction channel or execution path.
 
@@ -18,8 +24,19 @@ This term was added following a cross-repository terminology review of TSMM, TIS
 ## Implementation Relevance
 Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.
 
-## Aliases
+## Alternative Designations
+- **observability-mode** (`en`, `alternative`)
+
+## Legacy Aliases
 observability mode, observability-mode
+
+## Semantic Relations
+- **related**: `urn:tig:concept:audit-log`
+- **related**: `urn:tig:concept:human-auditable`
+- **related**: `urn:tig:concept:communication-channel`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [audit-log]({{ '/terms/audit-log/' | relative_url }})

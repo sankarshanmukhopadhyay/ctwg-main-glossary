@@ -6,6 +6,12 @@ title: "trust-network"
 
 # trust-network
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:trust-network`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,18 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **trust network** (`en`, `alternative`)
+- **trust networks** (`en`, `alternative`)
+
+## Legacy Aliases
 trust network, trust networks
+
+## Semantic Relations
+- **related**: `urn:tig:concept:toip-trust-network`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [ToIP trust network]({{ '/terms/toip-trust-network/' | relative_url }})

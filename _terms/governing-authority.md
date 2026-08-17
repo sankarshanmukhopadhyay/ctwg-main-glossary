@@ -6,6 +6,12 @@ title: "governing-authority"
 
 # governing-authority
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:governing-authority`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 See: governing body.
 
@@ -18,8 +24,22 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **governing authority** (`en`, `alternative`)
+- **governing authorities** (`en`, `alternative`)
+
+## Legacy Aliases
 governing authority, governing authorities
+
+## Semantic Relations
+- **related**: `urn:tig:concept:governance`
+- **related**: `urn:tig:concept:governance-framework`
+- **related**: `urn:tig:concept:trust-registry`
+- **related**: `urn:tig:concept:revocation`
+- **related**: `urn:tig:concept:verification`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [governance]({{ '/terms/governance/' | relative_url }})

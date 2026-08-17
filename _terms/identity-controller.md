@@ -6,6 +6,12 @@ title: "identity-controller"
 
 # identity-controller
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:identity-controller`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 The controller (e.g., a natural person or organization) of an identity, especially a digital identity.
 
@@ -18,8 +24,18 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **identity controller** (`en`, `alternative`)
+
+## Legacy Aliases
 identity controller
+
+## Semantic Relations
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:definition`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [glossary]({{ '/terms/glossary/' | relative_url }})

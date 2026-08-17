@@ -1,8 +1,21 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:openid4vci
+designations:
+- label: openid4vci
+  language: en
+  status: preferred
+- label: OpenID4VCI
+  language: en
+  status: alternative
+- label: OID4VCI
+  language: en
+  status: alternative
 term: openid4vci
 aliases:
 - OpenID4VCI
 - OID4VCI
-definition: An OpenID Foundation protocol that defines OAuth 2.0-based mechanisms for issuing verifiable credentials from credential issuers to wallets.
+definition: An OpenID Foundation protocol that defines OAuth 2.0-based mechanisms for issuing verifiable credentials from
+  credential issuers to wallets.
 reader_note: ''
 implementation_relevance: ''
 notes: []
@@ -54,4 +67,28 @@ control_plane:
 crosswalk:
   openid:
   - OpenID4VCI 1.0
-simple_definition: An OpenID Foundation protocol that defines OAuth 2.0-based mechanisms for issuing verifiable credentials from credential issuers to wallets.
+simple_definition: An OpenID Foundation protocol that defines OAuth 2.0-based mechanisms for issuing verifiable credentials
+  from credential issuers to wallets.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:issuer
+  - urn:tig:concept:credential-offer
+  - urn:tig:concept:credential-request
+  - urn:tig:concept:digital-wallet
+  - urn:tig:concept:verifiable-credential
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

@@ -6,6 +6,12 @@ title: "decryption"
 
 # decryption
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:decryption`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 The process of changing ciphertext into plaintext using a cryptographic algorithm and key. The opposite of encryption.
 
@@ -18,8 +24,21 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **decrypt** (`en`, `alternative`)
+- **decrypts** (`en`, `alternative`)
+- **decrypting** (`en`, `alternative`)
+- **decrypted** (`en`, `alternative`)
+
+## Legacy Aliases
 decryption, decrypt, decrypts, decrypting, decrypted
+
+## Semantic Relations
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:definition`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [glossary]({{ '/terms/glossary/' | relative_url }})

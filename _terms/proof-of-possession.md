@@ -6,6 +6,12 @@ title: "proof-of-possession"
 
 # proof-of-possession
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:proof-of-possession`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,20 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **proof of possession** (`en`, `alternative`)
+
+## Legacy Aliases
 proof of possession
+
+## Semantic Relations
+- **related**: `urn:tig:concept:audit`
+- **related**: `urn:tig:concept:verification`
+- **related**: `urn:tig:concept:definition`
+- **related**: `urn:tig:concept:glossary`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [audit]({{ '/terms/audit/' | relative_url }})

@@ -1,8 +1,24 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:trust-context
+designations:
+- label: trust-context
+  language: en
+  status: preferred
+- label: trust context
+  language: en
+  status: alternative
+- label: trust contexts
+  language: en
+  status: alternative
 term: trust-context
 aliases:
 - trust context
 - trust contexts
-definition: 'The context in which a specific party makes a specific trust decision. Many different factors may be involved in establishing a trust context, such as: the relevant interaction or transaction; the presence or absence of existing trust relationships; the applicability of one or more governance frameworks; and the location, time, network, and/or devices involved. A trust context may be implicit or explicit; if explicit, it may be identified using an identifier. A ToIP governance framework is an example of an explicit trust context identified by a verifiable identifier (VID).'
+definition: 'The context in which a specific party makes a specific trust decision. Many different factors may be involved
+  in establishing a trust context, such as: the relevant interaction or transaction; the presence or absence of existing trust
+  relationships; the applicability of one or more governance frameworks; and the location, time, network, and/or devices involved.
+  A trust context may be implicit or explicit; if explicit, it may be identified using an identifier. A ToIP governance framework
+  is an example of an explicit trust context identified by a verifiable identifier (VID).'
 notes: []
 see_also:
 - trust domain.
@@ -41,3 +57,22 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:trust-domain
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

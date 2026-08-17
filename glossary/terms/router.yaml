@@ -1,8 +1,20 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:router
+designations:
+- label: router
+  language: en
+  status: preferred
+- label: routers
+  language: en
+  status: alternative
 term: router
 aliases:
 - router
 - routers
-definition: A router is a networking device that forwards data packets between computer networks. Routers perform the traffic directing functions between networks and on the global Internet. Data sent through a network, such as a web page or email, is in the form of data packets. A packet is typically forwarded from one router to another router through the networks that constitute an internetwork (e.g. the Internet) until it reaches its destination node. This process is called routing.
+definition: A router is a networking device that forwards data packets between computer networks. Routers perform the traffic
+  directing functions between networks and on the global Internet. Data sent through a network, such as a web page or email,
+  is in the form of data packets. A packet is typically forwarded from one router to another router through the networks that
+  constitute an internetwork (e.g. the Internet) until it reaches its destination node. This process is called routing.
 notes: []
 see_also:
 - glossary
@@ -40,3 +52,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

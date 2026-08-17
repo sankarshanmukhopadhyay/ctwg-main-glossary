@@ -1,10 +1,30 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:zero-knowledge-proof
+designations:
+- label: zero-knowledge-proof
+  language: en
+  status: preferred
+- label: zero-knowledge proof
+  language: en
+  status: alternative
+- label: zero-knowledge proofs
+  language: en
+  status: alternative
+- label: ZKP
+  language: en
+  status: alternative
+- label: ZKPs
+  language: en
+  status: alternative
 term: zero-knowledge-proof
 aliases:
 - zero-knowledge proof
 - zero-knowledge proofs
 - ZKP
 - ZKPs
-definition: A specific kind of cryptographic proof that proves facts about data to a verifier without revealing the underlying data itself. A common example is proving that a person is over or under a specific age without revealing the person’s exact birthdate.
+definition: A specific kind of cryptographic proof that proves facts about data to a verifier without revealing the underlying
+  data itself. A common example is proving that a person is over or under a specific age without revealing the person’s exact
+  birthdate.
 notes: []
 see_also:
 - verification
@@ -16,8 +36,11 @@ sources:
 mental_models: []
 supporting_definitions:
 - 'Also known as: zero-knowledge protocol, [[ref: ZKP]].'
-- '[Ethereum:](https://ethereum.org/en/zero-knowledge-proofs/) A zero-knowledge proof is a way of proving the validity of a statement without revealing the statement itself.'
-- '[Wikipedia](https://en.wikipedia.org/wiki/Zero-knowledge_proof): a method by which one [[ref: party]] (the prover) can prove to another party (the verifier) that a given statement is true, while avoiding conveying to the [[ref: verifier]] any information beyond the mere fact of the statement''s truth.'
+- '[Ethereum:](https://ethereum.org/en/zero-knowledge-proofs/) A zero-knowledge proof is a way of proving the validity of
+  a statement without revealing the statement itself.'
+- '[Wikipedia](https://en.wikipedia.org/wiki/Zero-knowledge_proof): a method by which one [[ref: party]] (the prover) can
+  prove to another party (the verifier) that a given statement is true, while avoiding conveying to the [[ref: verifier]]
+  any information beyond the mere fact of the statement''s truth.'
 source_file: spec/terms-definitions/zero-knowledge-proof.md
 governance_profile: core-operational
 governance:
@@ -47,3 +70,25 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:verification
+  - urn:tig:concept:verifier
+  - urn:tig:concept:relying-party
+  - urn:tig:concept:trust-decision
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

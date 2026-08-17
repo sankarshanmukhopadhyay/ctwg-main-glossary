@@ -1,8 +1,23 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:role-based-access-control
+designations:
+- label: role-based-access-control
+  language: en
+  status: preferred
+- label: role-based access control
+  language: en
+  status: alternative
+- label: role-based access controls
+  language: en
+  status: alternative
 term: role-based-access-control
 aliases:
 - role-based access control
 - role-based access controls
-definition: Access control based on user roles (i.e., a collection of access authorizations a user receives based on an explicit or implicit assumption of a given role). Role permissions may be inherited through a role hierarchy and typically reflect the permissions needed to perform defined functions within an organization. A given role may apply to a single individual or to several individuals.
+definition: Access control based on user roles (i.e., a collection of access authorizations a user receives based on an explicit
+  or implicit assumption of a given role). Role permissions may be inherited through a role hierarchy and typically reflect
+  the permissions needed to perform defined functions within an organization. A given role may apply to a single individual
+  or to several individuals.
 notes: []
 see_also:
 - authorization
@@ -13,7 +28,10 @@ sources:
 - '[NIST-CSRC](https://csrc.nist.gov/glossary/term/role_based_access_control).'
 mental_models: []
 supporting_definitions:
-- '[Wikipedia](https://en.wikipedia.org/wiki/Role-based_access_control): In computer systems security, role-based access control (RBAC) or role-based security is an approach to restricting system access to authorized users, and to implementing [mandatory access control](https://en.wikipedia.org/wiki/Mandatory_access_control) (MAC) or [discretionary access control](https://en.wikipedia.org/wiki/Discretionary_access_control) (DAC).'
+- '[Wikipedia](https://en.wikipedia.org/wiki/Role-based_access_control): In computer systems security, role-based access control
+  (RBAC) or role-based security is an approach to restricting system access to authorized users, and to implementing [mandatory
+  access control](https://en.wikipedia.org/wiki/Mandatory_access_control) (MAC) or [discretionary access control](https://en.wikipedia.org/wiki/Discretionary_access_control)
+  (DAC).'
 source_file: spec/terms-definitions/role-based-access-control.md
 governance_profile: core-operational
 governance:
@@ -57,3 +75,25 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:authorization
+  - urn:tig:concept:permission
+  - urn:tig:concept:attribute-based-access-control
+  - urn:tig:concept:access-control
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

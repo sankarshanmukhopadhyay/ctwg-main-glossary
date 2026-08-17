@@ -6,6 +6,12 @@ title: "c2pa-manifest"
 
 # c2pa-manifest
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:c2pa-manifest`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A verifiable unit of C2PA provenance information that binds claims, assertions, content bindings, and signatures for an asset.
 
@@ -18,8 +24,21 @@ This term is part of the v1.2.0 standards-linked refresh and is anchored to acti
 ## Implementation Relevance
 Use this term when mapping glossary language to implementation profiles, governance controls, conformance checks, or assurance evidence.
 
-## Aliases
+## Alternative Designations
+- **C2PA Manifest** (`en`, `alternative`)
+
+## Legacy Aliases
 C2PA Manifest
+
+## Semantic Relations
+- **related**: `urn:tig:concept:c2pa`
+- **related**: `urn:tig:concept:content-credential`
+- **related**: `urn:tig:concept:claim-generator`
+- **related**: `urn:tig:concept:digital-signature`
+- **related**: `urn:tig:concept:provenance`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [c2pa]({{ '/terms/c2pa/' | relative_url }})

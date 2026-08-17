@@ -6,6 +6,12 @@ title: "openwallet-foundation"
 
 # openwallet-foundation
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:openwallet-foundation`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 A non-profit project of the Linux Foundation chartered to build a world-class open source wallet engine.
 
@@ -18,8 +24,18 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **OpenWallet Foundation** (`en`, `alternative`)
+
+## Legacy Aliases
 OpenWallet Foundation
+
+## Semantic Relations
+- **related**: `urn:tig:concept:decentralized-identity-foundation`
+- **related**: `urn:tig:concept:toip-foundation`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [Decentralized Identity Foundation]({{ '/terms/decentralized-identity-foundation/' | relative_url }})

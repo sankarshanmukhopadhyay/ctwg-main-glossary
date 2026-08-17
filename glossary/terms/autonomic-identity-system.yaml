@@ -1,8 +1,19 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:autonomic-identity-system
+designations:
+- label: autonomic-identity-system
+  language: en
+  status: preferred
+- label: autonomic identity system
+  language: en
+  status: alternative
 term: autonomic-identity-system
 aliases:
 - autonomic-identity-system
 - autonomic identity system
-definition: an identity system that includes a primary root-of-trust in self-certifying identifiers that are strongly bound at issuance to a cryptographic signing (public, private) key pair. An AIS enables any entity to establish control over an AN in an independent, interoperable, and portable way.
+definition: an identity system that includes a primary root-of-trust in self-certifying identifiers that are strongly bound
+  at issuance to a cryptographic signing (public, private) key pair. An AIS enables any entity to establish control over an
+  AN in an independent, interoperable, and portable way.
 notes: []
 see_also:
 - glossary
@@ -11,7 +22,8 @@ sources:
 - Dr. S.Smith, 2024
 mental_models: []
 supporting_definitions:
-- There's nobody that can intervene with the establishment of the authenticity of a control operation because you can verify all the way back to the root-of-trust.
+- There's nobody that can intervene with the establishment of the authenticity of a control operation because you can verify
+  all the way back to the root-of-trust.
 source_file: spec/terms-definitions/autonomic-identity-system.md
 governance_profile: core-operational
 governance:
@@ -45,3 +57,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

@@ -6,6 +6,12 @@ title: "rotation"
 
 # rotation
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:rotation`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 a change of the key state, including a change to the set of authoritative key pairs for an identifier AID.
 
@@ -18,8 +24,25 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **rotation-event** (`en`, `alternative`)
+- **key-rotation** (`en`, `alternative`)
+- **rotation event** (`en`, `alternative`)
+- **key rotation** (`en`, `alternative`)
+
+## Legacy Aliases
 rotation, rotation-event, key-rotation, rotation event, key rotation
+
+## Semantic Relations
+- **related**: `urn:tig:concept:governance`
+- **related**: `urn:tig:concept:governance-framework`
+- **related**: `urn:tig:concept:governing-authority`
+- **related**: `urn:tig:concept:trust-registry`
+- **related**: `urn:tig:concept:definition`
+- **related**: `urn:tig:concept:glossary`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [governance]({{ '/terms/governance/' | relative_url }})

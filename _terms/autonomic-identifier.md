@@ -6,6 +6,12 @@ title: "autonomic-identifier"
 
 # autonomic-identifier
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:autonomic-identifier`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 The specific type of self-certifying identifier defined by the KERI specifications: [[xref:keri1, autonomic-identifier]].
 
@@ -18,8 +24,21 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **autonomic identifier** (`en`, `alternative`)
+- **autonomic identifiers** (`en`, `alternative`)
+
+## Legacy Aliases
 autonomic identifier, autonomic identifiers
+
+## Semantic Relations
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:definition`
+- **related**: `urn:tig:concept:identifier`
+- **related**: `urn:tig:concept:decentralized-identifier`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [glossary]({{ '/terms/glossary/' | relative_url }})

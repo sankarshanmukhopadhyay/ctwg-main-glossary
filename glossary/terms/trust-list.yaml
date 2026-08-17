@@ -1,8 +1,21 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:trust-list
+designations:
+- label: trust-list
+  language: en
+  status: preferred
+- label: trust list
+  language: en
+  status: alternative
+- label: trust lists
+  language: en
+  status: alternative
 term: trust-list
 aliases:
 - trust list
 - trust lists
-definition: A one-dimensional trust graph in which an authoritative source publishes a list of entities that are trusted in a specific trust context. A trust list can be considered a simplified form of a trust registry.
+definition: A one-dimensional trust graph in which an authoritative source publishes a list of entities that are trusted in
+  a specific trust context. A trust list can be considered a simplified form of a trust registry.
 notes: []
 see_also:
 - registry
@@ -48,3 +61,26 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:registry
+  - urn:tig:concept:trust-registry
+  - urn:tig:concept:registration
+  - urn:tig:concept:governance-framework
+  - urn:tig:concept:governance
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

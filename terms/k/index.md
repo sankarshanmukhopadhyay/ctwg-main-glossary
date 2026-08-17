@@ -1,10 +1,10 @@
 ---
-title: "Terms: K"
-parent: "Glossary Terms"
+title: "Concepts: K"
+parent: "Concepts"
 nav_order: 11
 ---
 
-# Terms: K
+# Concepts: K
 
 - [kate]({{ '/terms/kate/' | relative_url }})
 - [keri]({{ '/terms/keri/' | relative_url }})

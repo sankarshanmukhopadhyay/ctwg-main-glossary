@@ -6,6 +6,12 @@ title: "machine-readable"
 
 # machine-readable
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:machine-readable`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 Information written in a computer language or expression language so that it can be read and processed by a computing device.
 
@@ -18,8 +24,18 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **machine-readability** (`en`, `alternative`)
+
+## Legacy Aliases
 machine-readable, machine-readability
+
+## Semantic Relations
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:definition`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [glossary]({{ '/terms/glossary/' | relative_url }})

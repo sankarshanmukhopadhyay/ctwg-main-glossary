@@ -6,6 +6,12 @@ title: "identity-binding"
 
 # identity-binding
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:identity-binding`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,19 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **identity binding** (`en`, `alternative`)
+- **identity bindings** (`en`, `alternative`)
+
+## Legacy Aliases
 identity binding, identity bindings
+
+## Semantic Relations
+- **related**: `urn:tig:concept:identity-assurance-level`
+- **related**: `urn:tig:concept:identity-proofing`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [identity assurance level]({{ '/terms/identity-assurance-level/' | relative_url }})

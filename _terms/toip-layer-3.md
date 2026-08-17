@@ -6,6 +6,12 @@ title: "toip-layer-3"
 
 # toip-layer-3
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:toip-layer-3`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 The trust task layer of the ToIP stack, responsible for enabling trust applications at ToIP Layer 4.
 
@@ -18,8 +24,18 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **ToIP Layer 3** (`en`, `alternative`)
+
+## Legacy Aliases
 ToIP Layer 3
+
+## Semantic Relations
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:definition`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [glossary]({{ '/terms/glossary/' | relative_url }})

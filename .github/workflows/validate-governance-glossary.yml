@@ -1,4 +1,4 @@
-name: Validate Governance-Executable Glossary
+name: Validate Trust Infrastructure Glossary
 
 on:
   pull_request:
@@ -24,6 +24,7 @@ jobs:
       - name: Validate and regenerate glossary artifacts
         run: |
           python tools/validate_governance_glossary.py
+          python tools/validate_profiles.py
           python tools/build_governance_glossary.py
           python tools/build_quality_report.py
           python tools/build_jekyll_site.py

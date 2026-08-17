@@ -1,7 +1,17 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:openid-federation
+designations:
+- label: openid-federation
+  language: en
+  status: preferred
+- label: OpenID Federation
+  language: en
+  status: alternative
 term: openid-federation
 aliases:
 - OpenID Federation
-definition: A federation framework for establishing trust among OpenID participants using entity statements, trust chains, and federation metadata.
+definition: A federation framework for establishing trust among OpenID participants using entity statements, trust chains,
+  and federation metadata.
 reader_note: ''
 implementation_relevance: ''
 notes: []
@@ -53,4 +63,27 @@ control_plane:
 crosswalk:
   openid:
   - OpenID Federation 1.0
-simple_definition: A federation framework for establishing trust among OpenID participants using entity statements, trust chains, and federation metadata.
+simple_definition: A federation framework for establishing trust among OpenID participants using entity statements, trust
+  chains, and federation metadata.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:federation
+  - urn:tig:concept:trust-chain
+  - urn:tig:concept:entity-statement
+  - urn:tig:concept:trust-anchor
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

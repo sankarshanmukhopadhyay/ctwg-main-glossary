@@ -1,8 +1,22 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:audit-log
+designations:
+- label: audit-log
+  language: en
+  status: preferred
+- label: audit log
+  language: en
+  status: alternative
+- label: audit logs
+  language: en
+  status: alternative
 term: audit-log
 aliases:
 - audit log
 - audit logs
-definition: An audit log is a security-relevant chronological record, set of records, and/or destination and source of records that provide documentary evidence of the sequence of activities that have affected at any time a specific operation, procedure, event, or device.
+definition: An audit log is a security-relevant chronological record, set of records, and/or destination and source of records
+  that provide documentary evidence of the sequence of activities that have affected at any time a specific operation, procedure,
+  event, or device.
 notes: []
 see_also:
 - key event log.
@@ -40,3 +54,22 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:key-event-log
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

@@ -1,7 +1,18 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:user-datagram-protocol
+designations:
+- label: user-datagram-protocol
+  language: en
+  status: preferred
+- label: User Datagram Protocol
+  language: en
+  status: alternative
 term: user-datagram-protocol
 aliases:
 - User Datagram Protocol
-definition: In computer networking, the User Datagram Protocol (UDP) is one of the core communication protocols of the Internet protocol suite used to send messages (transported as datagrams in packets) to other hosts on an Internet Protocol (IP) network. Within an IP network, UDP does not require prior communication to set up communication channels or data paths.
+definition: In computer networking, the User Datagram Protocol (UDP) is one of the core communication protocols of the Internet
+  protocol suite used to send messages (transported as datagrams in packets) to other hosts on an Internet Protocol (IP) network.
+  Within an IP network, UDP does not require prior communication to set up communication channels or data paths.
 notes: []
 see_also:
 - glossary
@@ -40,3 +51,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

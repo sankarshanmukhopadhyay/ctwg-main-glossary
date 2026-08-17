@@ -6,6 +6,12 @@ title: "interaction context"
 
 # interaction context
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:interaction-context`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A session-level governance envelope that groups related tasks, messages, authority, evidence, and trust decisions across a sequence of interactions.
 
@@ -18,8 +24,19 @@ This term was added following a cross-repository terminology review of TSMM, TIS
 ## Implementation Relevance
 Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.
 
-## Aliases
+## Alternative Designations
+- **interaction-context** (`en`, `alternative`)
+
+## Legacy Aliases
 interaction context, interaction-context
+
+## Semantic Relations
+- **related**: `urn:tig:concept:trust-context`
+- **related**: `urn:tig:concept:authority`
+- **related**: `urn:tig:concept:policy`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [trust-context]({{ '/terms/trust-context/' | relative_url }})

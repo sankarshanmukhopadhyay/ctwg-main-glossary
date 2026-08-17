@@ -1,7 +1,15 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:discovery
+designations:
+- label: discovery
+  language: en
+  status: preferred
 term: discovery
 aliases:
 - discovery
-definition: A mechanism that helps systems or devices find each other automatically, often used in networks to identify services or resources. In decentralized identifier systems it helps to locate and verify digital identities without relying on a central authority.
+definition: A mechanism that helps systems or devices find each other automatically, often used in networks to identify services
+  or resources. In decentralized identifier systems it helps to locate and verify digital identities without relying on a
+  central authority.
 notes: []
 see_also:
 - verification
@@ -48,3 +56,27 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:verification
+  - urn:tig:concept:verifier
+  - urn:tig:concept:relying-party
+  - urn:tig:concept:trust-decision
+  - urn:tig:concept:governance
+  - urn:tig:concept:governance-framework
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

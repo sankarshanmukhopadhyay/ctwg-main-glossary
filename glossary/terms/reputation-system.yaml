@@ -1,8 +1,22 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:reputation-system
+designations:
+- label: reputation-system
+  language: en
+  status: preferred
+- label: reputation system
+  language: en
+  status: alternative
+- label: reputation systems
+  language: en
+  status: alternative
 term: reputation-system
 aliases:
 - reputation system
 - reputation systems
-definition: Reputation systems are programs or algorithms that allow users to rate each other in online communities in order to build trust through reputation. Some common uses of these systems can be found on e-commerce websites such as eBay, Amazon.com, and Etsy as well as online advice communities such as Stack Exchange.
+definition: Reputation systems are programs or algorithms that allow users to rate each other in online communities in order
+  to build trust through reputation. Some common uses of these systems can be found on e-commerce websites such as eBay, Amazon.com,
+  and Etsy as well as online advice communities such as Stack Exchange.
 notes: []
 see_also:
 - glossary
@@ -44,3 +58,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

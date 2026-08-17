@@ -6,6 +6,12 @@ title: "manifest-consumer"
 
 # manifest-consumer
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:manifest-consumer`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 An actor that consumes an asset with an associated C2PA manifest to obtain and evaluate provenance data.
 
@@ -18,8 +24,21 @@ This term is part of the v1.2.0 standards-linked refresh and is anchored to acti
 ## Implementation Relevance
 Use this term when mapping glossary language to implementation profiles, governance controls, conformance checks, or assurance evidence.
 
-## Aliases
+## Alternative Designations
+- **C2PA manifest consumer** (`en`, `alternative`)
+- **manifest consumer** (`en`, `alternative`)
+
+## Legacy Aliases
 C2PA manifest consumer, manifest consumer
+
+## Semantic Relations
+- **related**: `urn:tig:concept:c2pa-manifest`
+- **related**: `urn:tig:concept:content-credential`
+- **related**: `urn:tig:concept:validation`
+- **related**: `urn:tig:concept:provenance`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [c2pa-manifest]({{ '/terms/c2pa-manifest/' | relative_url }})

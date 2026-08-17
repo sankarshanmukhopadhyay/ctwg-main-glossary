@@ -6,6 +6,12 @@ title: "dark-pattern"
 
 # dark-pattern
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:dark-pattern`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A design pattern, mainly in user interfaces, that has the effect of deceiving individuals into making choices that are advantageous to the designer.
 
@@ -18,8 +24,19 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **dark pattern** (`en`, `alternative`)
+- **dark patterns** (`en`, `alternative`)
+
+## Legacy Aliases
 dark pattern, dark patterns
+
+## Semantic Relations
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:definition`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [glossary]({{ '/terms/glossary/' | relative_url }})

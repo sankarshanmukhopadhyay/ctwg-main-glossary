@@ -6,6 +6,12 @@ title: "trust-decision"
 
 # trust-decision
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:trust-decision`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 A decision about whether it is safe and appropriate to rely on another party in a specific situation.
 
@@ -18,8 +24,18 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **trust decision** (`en`, `alternative`)
+- **trust decisions** (`en`, `alternative`)
+
+## Legacy Aliases
 trust decision, trust decisions
+
+## Semantic Relations
+- **related**: `urn:tig:concept:transitive-trust-decision`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [transitive trust decision]({{ '/terms/transitive-trust-decision/' | relative_url }})

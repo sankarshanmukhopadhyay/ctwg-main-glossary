@@ -6,6 +6,12 @@ title: "sensitive-data"
 
 # sensitive-data
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:sensitive-data`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 Personal data that a reasonable person would view from a privacy protection standpoint as requiring special care above and beyond other personal data.
 
@@ -18,8 +24,18 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **sensitive data** (`en`, `alternative`)
+
+## Legacy Aliases
 sensitive data
+
+## Semantic Relations
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:definition`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [glossary]({{ '/terms/glossary/' | relative_url }})

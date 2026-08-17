@@ -1,8 +1,23 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:digital-trust-ecosystem
+designations:
+- label: digital-trust-ecosystem
+  language: en
+  status: preferred
+- label: digital trust ecosystem
+  language: en
+  status: alternative
+- label: digital trust ecosystems
+  language: en
+  status: alternative
 term: digital-trust-ecosystem
 aliases:
 - digital trust ecosystem
 - digital trust ecosystems
-definition: A digital ecosystem in which the participants are one or more interoperating trust communities. Governance of the various roles of governed parties within a digital trust ecosystem (e.g., issuers, holders, verifiers, certification bodies, auditors) is typically managed by a governing body using a governance framework as recommended in the ToIP Governance Stack. Many digital trust ecosystems will also maintain one or more trust lists and/or trust registries.
+definition: A digital ecosystem in which the participants are one or more interoperating trust communities. Governance of
+  the various roles of governed parties within a digital trust ecosystem (e.g., issuers, holders, verifiers, certification
+  bodies, auditors) is typically managed by a governing body using a governance framework as recommended in the ToIP Governance
+  Stack. Many digital trust ecosystems will also maintain one or more trust lists and/or trust registries.
 notes: []
 see_also:
 - credential
@@ -63,3 +78,27 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:credential
+  - urn:tig:concept:issuer
+  - urn:tig:concept:issuance
+  - urn:tig:concept:verifiable-credential
+  - urn:tig:concept:verification
+  - urn:tig:concept:verifier
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

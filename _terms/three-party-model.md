@@ -6,6 +6,12 @@ title: "three-party-model"
 
 # three-party-model
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:three-party-model`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 The issuer—holder—verifier model used by all types of physical credentials and digital credentials to enable transitive trust decisions.
 
@@ -18,8 +24,22 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **three party model** (`en`, `alternative`)
+
+## Legacy Aliases
 three party model
+
+## Semantic Relations
+- **related**: `urn:tig:concept:credential`
+- **related**: `urn:tig:concept:issuer`
+- **related**: `urn:tig:concept:issuance`
+- **related**: `urn:tig:concept:verifiable-credential`
+- **related**: `urn:tig:concept:verification`
+- **related**: `urn:tig:concept:verifier`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [credential]({{ '/terms/credential/' | relative_url }})

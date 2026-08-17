@@ -6,6 +6,12 @@ title: "party"
 
 # party
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:party`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,19 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **parties** (`en`, `alternative`)
+
+## Legacy Aliases
 party, parties
+
+## Semantic Relations
+- **related**: `urn:tig:concept:first-party`
+- **related**: `urn:tig:concept:second-party`
+- **related**: `urn:tig:concept:third-party`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [first party]({{ '/terms/first-party/' | relative_url }})

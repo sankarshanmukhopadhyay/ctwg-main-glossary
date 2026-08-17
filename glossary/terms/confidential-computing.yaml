@@ -1,7 +1,17 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:confidential-computing
+designations:
+- label: confidential-computing
+  language: en
+  status: preferred
+- label: confidential computing
+  language: en
+  status: alternative
 term: confidential-computing
 aliases:
 - confidential computing
-definition: Hardware-enabled features that isolate and process encrypted data in memory so that the data is at less risk of exposure and compromise from concurrent workloads or the underlying system and platform.
+definition: Hardware-enabled features that isolate and process encrypted data in memory so that the data is at less risk of
+  exposure and compromise from concurrent workloads or the underlying system and platform.
 notes: []
 see_also:
 - glossary
@@ -10,7 +20,12 @@ sources:
 - '[NIST-CSRC](https://csrc.nist.gov/glossary/term/confidential_computing).'
 mental_models: []
 supporting_definitions:
-- '[Wikipedia](https://en.wikipedia.org/wiki/Confidential_computing): Confidential computing is a security and [privacy-enhancing computational technique](https://en.wikipedia.org/wiki/Privacy-enhancing_technologies) focused on protecting [data in use](https://en.wikipedia.org/wiki/Data_in_use). Confidential computing can be used in conjunction with storage and network encryption, which protect [data at rest](https://en.wikipedia.org/wiki/Data_at_rest) and [data in transit](https://en.wikipedia.org/wiki/Data_in_transit) respectively. It is designed to address software, protocol, cryptographic, and basic physical and supply-chain attacks, although some critics have demonstrated architectural and [side-channel attacks](https://en.wikipedia.org/wiki/Side-channel_attack) effective against the technology.'
+- '[Wikipedia](https://en.wikipedia.org/wiki/Confidential_computing): Confidential computing is a security and [privacy-enhancing
+  computational technique](https://en.wikipedia.org/wiki/Privacy-enhancing_technologies) focused on protecting [data in use](https://en.wikipedia.org/wiki/Data_in_use).
+  Confidential computing can be used in conjunction with storage and network encryption, which protect [data at rest](https://en.wikipedia.org/wiki/Data_at_rest)
+  and [data in transit](https://en.wikipedia.org/wiki/Data_in_transit) respectively. It is designed to address software, protocol,
+  cryptographic, and basic physical and supply-chain attacks, although some critics have demonstrated architectural and [side-channel
+  attacks](https://en.wikipedia.org/wiki/Side-channel_attack) effective against the technology.'
 source_file: spec/terms-definitions/confidential-computing.md
 governance_profile: descriptive
 governance:
@@ -40,3 +55,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

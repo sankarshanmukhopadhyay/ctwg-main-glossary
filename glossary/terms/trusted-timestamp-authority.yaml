@@ -1,3 +1,21 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:trusted-timestamp-authority
+designations:
+- label: trusted-timestamp-authority
+  language: en
+  status: preferred
+- label: trusted timestamp authority
+  language: en
+  status: alternative
+- label: trusted timestamp authorities
+  language: en
+  status: alternative
+- label: TTA
+  language: en
+  status: alternative
+- label: TTAs
+  language: en
+  status: alternative
 term: trusted-timestamp-authority
 aliases:
 - trusted timestamp authority
@@ -58,3 +76,27 @@ crosswalk:
   nist: []
   iso: []
 simple_definition: An authority that is trusted to provide accurate time information in the form of a timestamp.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:governance
+  - urn:tig:concept:governance-framework
+  - urn:tig:concept:governing-authority
+  - urn:tig:concept:trust-registry
+  - urn:tig:concept:revocation
+  - urn:tig:concept:verification
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

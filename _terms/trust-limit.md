@@ -6,6 +6,12 @@ title: "trust-limit"
 
 # trust-limit
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:trust-limit`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 A limit to the degree a party is willing to trust an entity in a specific trust relationship within a specific trust context.
 
@@ -18,8 +24,21 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **trust limit** (`en`, `alternative`)
+- **trust limits** (`en`, `alternative`)
+
+## Legacy Aliases
 trust limit, trust limits
+
+## Semantic Relations
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:definition`
+- **related**: `urn:tig:concept:trust`
+- **related**: `urn:tig:concept:trust-registry`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [glossary]({{ '/terms/glossary/' | relative_url }})

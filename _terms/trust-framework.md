@@ -6,6 +6,12 @@ title: "trust-framework"
 
 # trust-framework
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:trust-framework`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 A term (most frequently used in the digital identity industry) to describe a governance framework for a digital identity system, especially a federation.
 
@@ -18,8 +24,22 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **trust framework** (`en`, `alternative`)
+- **trust frameworks** (`en`, `alternative`)
+
+## Legacy Aliases
 trust framework, trust frameworks
+
+## Semantic Relations
+- **related**: `urn:tig:concept:policy`
+- **related**: `urn:tig:concept:governance-framework`
+- **related**: `urn:tig:concept:requirement`
+- **related**: `urn:tig:concept:governance`
+- **related**: `urn:tig:concept:governing-authority`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [policy]({{ '/terms/policy/' | relative_url }})

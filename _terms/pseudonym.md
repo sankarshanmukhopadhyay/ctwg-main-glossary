@@ -6,6 +6,12 @@ title: "pseudonym"
 
 # pseudonym
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:pseudonym`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,22 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **pseudonyms** (`en`, `alternative`)
+- **pseudonymous** (`en`, `alternative`)
+- **pseudonymity** (`en`, `alternative`)
+
+## Legacy Aliases
 pseudonym, pseudonyms, pseudonymous, pseudonymity
+
+## Semantic Relations
+- **related**: `urn:tig:concept:verification`
+- **related**: `urn:tig:concept:verifier`
+- **related**: `urn:tig:concept:relying-party`
+- **related**: `urn:tig:concept:trust-decision`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [verification]({{ '/terms/verification/' | relative_url }})

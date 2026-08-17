@@ -1,8 +1,22 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:persistent-connection
+designations:
+- label: persistent-connection
+  language: en
+  status: preferred
+- label: persistent connection
+  language: en
+  status: alternative
+- label: persistent connections
+  language: en
+  status: alternative
 term: persistent-connection
 aliases:
 - persistent connection
 - persistent connections
-definition: A connection that is able to persist across multiple communication sessions. In a ToIP context, a persistent connection is established when two ToIP endpoints exchange verifiable identifiers (VIDs) that they can use to re-establish the connection with each other whenever it is needed.
+definition: A connection that is able to persist across multiple communication sessions. In a ToIP context, a persistent connection
+  is established when two ToIP endpoints exchange verifiable identifiers (VIDs) that they can use to re-establish the connection
+  with each other whenever it is needed.
 notes: []
 see_also:
 - glossary
@@ -41,3 +55,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

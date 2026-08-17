@@ -6,6 +6,12 @@ title: "verification"
 
 # verification
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:verification`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 An action an agent (of a principal) performs to determine the authenticity of a claim or other data object. Cryptographic verification uses cryptographic keys.
 
@@ -18,8 +24,23 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **verify** (`en`, `alternative`)
+- **verifies** (`en`, `alternative`)
+- **verified** (`en`, `alternative`)
+- **verifying** (`en`, `alternative`)
+
+## Legacy Aliases
 verification, verify, verifies, verified, verifying
+
+## Semantic Relations
+- **related**: `urn:tig:concept:validation`
+- **related**: `urn:tig:concept:verifier`
+- **related**: `urn:tig:concept:proof`
+- **related**: `urn:tig:concept:cryptographic-verifiability`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [validation]({{ '/terms/validation/' | relative_url }})

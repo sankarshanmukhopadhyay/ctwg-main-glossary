@@ -6,6 +6,12 @@ title: "property"
 
 # property
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:property`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 In the context of digital communication, an attribute of a digital object or data structure, such as a DID document or a schema.
 
@@ -18,8 +24,18 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **properties** (`en`, `alternative`)
+
+## Legacy Aliases
 property, properties
+
+## Semantic Relations
+- **related**: `urn:tig:concept:attribute`
+- **related**: `urn:tig:concept:claim`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [attribute]({{ '/terms/attribute/' | relative_url }})

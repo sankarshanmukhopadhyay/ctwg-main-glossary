@@ -6,6 +6,12 @@ title: "vp-token"
 
 # vp-token
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:vp-token`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 An OpenID4VP response artifact containing one or more presentations returned to a verifier in response to an authorization request.
 
@@ -18,8 +24,21 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **VP Token** (`en`, `alternative`)
+- **vp_token** (`en`, `alternative`)
+
+## Legacy Aliases
 VP Token, vp_token
+
+## Semantic Relations
+- **related**: `urn:tig:concept:openid4vp`
+- **related**: `urn:tig:concept:verifiable-presentation`
+- **related**: `urn:tig:concept:presentation`
+- **related**: `urn:tig:concept:verifier`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [openid4vp]({{ '/terms/openid4vp/' | relative_url }})

@@ -6,6 +6,12 @@ title: "custodianship-arrangement"
 
 # custodianship-arrangement
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:custodianship-arrangement`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 The informal terms or formal legal agreement under which a custodian agrees to provide service to a principal.
 
@@ -18,8 +24,19 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **custodianship arrangement** (`en`, `alternative`)
+- **custodianship arrangements** (`en`, `alternative`)
+
+## Legacy Aliases
 custodianship arrangement, custodianship arrangements
+
+## Semantic Relations
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:definition`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [glossary]({{ '/terms/glossary/' | relative_url }})

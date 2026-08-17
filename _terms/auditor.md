@@ -6,6 +6,12 @@ title: "auditor"
 
 # auditor
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:auditor`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 The party responsible for performing an audit. Typically an auditor must be accredited.
 
@@ -18,8 +24,17 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **auditors** (`en`, `alternative`)
+
+## Legacy Aliases
 auditor, auditors
+
+## Semantic Relations
+- **related**: `urn:tig:concept:human-auditable`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [human auditable]({{ '/terms/human-auditable/' | relative_url }})

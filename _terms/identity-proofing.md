@@ -6,6 +6,12 @@ title: "identity-proofing"
 
 # identity-proofing
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:identity-proofing`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 The process of a party gathering sufficient identity data to establish an identity for a particular subject at a particular identity assurance level.
 
@@ -18,8 +24,19 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **identity proofing** (`en`, `alternative`)
+- **identity proof** (`en`, `alternative`)
+- **identity proofs** (`en`, `alternative`)
+
+## Legacy Aliases
 identity proofing, identity proof, identity proofs
+
+## Semantic Relations
+- **related**: `urn:tig:concept:identity-binding`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [identity binding]({{ '/terms/identity-binding/' | relative_url }})

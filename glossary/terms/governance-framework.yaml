@@ -1,10 +1,24 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:governance-framework
+designations:
+- label: governance-framework
+  language: en
+  status: preferred
+- label: governance framework
+  language: en
+  status: alternative
+- label: governance frameworks
+  language: en
+  status: alternative
 term: governance-framework
 aliases:
 - governance framework
 - governance frameworks
-definition: A collection of one or more governance documents published by the governing body of a trust community that defines the rules, roles, responsibilities, and decision rights under which that community operates.
+definition: A collection of one or more governance documents published by the governing body of a trust community that defines
+  the rules, roles, responsibilities, and decision rights under which that community operates.
 notes:
-- In the digital identity industry specifically, a governance framework is better known as a trust framework. ToIP-conformant governance frameworks conform to the ToIP Governance Architecture Specification and follow the ToIP Governance Metamodel.
+- In the digital identity industry specifically, a governance framework is better known as a trust framework. ToIP-conformant
+  governance frameworks conform to the ToIP Governance Architecture Specification and follow the ToIP Governance Metamodel.
 see_also:
 - policy
 - requirement
@@ -58,3 +72,26 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:policy
+  - urn:tig:concept:requirement
+  - urn:tig:concept:governance
+  - urn:tig:concept:governing-authority
+  - urn:tig:concept:trust-registry
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

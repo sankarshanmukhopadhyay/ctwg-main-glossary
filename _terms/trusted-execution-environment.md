@@ -6,6 +6,12 @@ title: "trusted-execution-environment"
 
 # trusted-execution-environment
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:trusted-execution-environment`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,20 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **trusted execution environment** (`en`, `alternative`)
+- **trusted execution environments** (`en`, `alternative`)
+- **TEE** (`en`, `alternative`)
+- **TEEs** (`en`, `alternative`)
+
+## Legacy Aliases
 trusted execution environment, trusted execution environments, TEE, TEEs
+
+## Semantic Relations
+- **related**: `urn:tig:concept:secure-enclave`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [Secure Enclave]({{ '/terms/secure-enclave/' | relative_url }})

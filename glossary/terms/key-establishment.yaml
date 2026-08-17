@@ -1,7 +1,17 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:key-establishment
+designations:
+- label: key-establishment
+  language: en
+  status: preferred
+- label: key establishment
+  language: en
+  status: alternative
 term: key-establishment
 aliases:
 - key establishment
-definition: A process that results in the sharing of a key between two or more entities, either by transporting a key from one entity to another (key transport) or generating a key from information shared by the entities (key agreement).
+definition: A process that results in the sharing of a key between two or more entities, either by transporting a key from
+  one entity to another (key transport) or generating a key from information shared by the entities (key agreement).
 notes: []
 see_also:
 - glossary
@@ -39,3 +49,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

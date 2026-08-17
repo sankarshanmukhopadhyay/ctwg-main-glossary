@@ -1,10 +1,24 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:transitive-trust-decision
+designations:
+- label: transitive-trust-decision
+  language: en
+  status: preferred
+- label: transitive trust decision
+  language: en
+  status: alternative
+- label: transitive trust decisions
+  language: en
+  status: alternative
 term: transitive-trust-decision
 aliases:
 - transitive trust decision
 - transitive trust decisions
-definition: A trust decision made by a first party about a second party or another entity based on information about the second party or the other entity that is obtained from one or more third parties.
+definition: A trust decision made by a first party about a second party or another entity based on information about the second
+  party or the other entity that is obtained from one or more third parties.
 notes:
-- A primary purpose of digital credentials, chained credentials, trust registries, and the ToIP stack is to facilitate transitive trust decisions.
+- A primary purpose of digital credentials, chained credentials, trust registries, and the ToIP stack is to facilitate transitive
+  trust decisions.
 see_also:
 - credential
 - issuer
@@ -56,3 +70,25 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:credential
+  - urn:tig:concept:issuer
+  - urn:tig:concept:issuance
+  - urn:tig:concept:verifiable-credential
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

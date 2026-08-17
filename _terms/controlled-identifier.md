@@ -6,6 +6,12 @@ title: "controlled-identifier"
 
 # controlled-identifier
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:controlled-identifier`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 An identifier whose controller can be discovered through an associated controlled identifier document containing verification material and service endpoints.
 
@@ -18,8 +24,20 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **controlled identifier** (`en`, `alternative`)
+
+## Legacy Aliases
 controlled identifier
+
+## Semantic Relations
+- **related**: `urn:tig:concept:decentralized-identifier`
+- **related**: `urn:tig:concept:did-document`
+- **related**: `urn:tig:concept:controller`
+- **related**: `urn:tig:concept:cryptographic-key`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [decentralized-identifier]({{ '/terms/decentralized-identifier/' | relative_url }})

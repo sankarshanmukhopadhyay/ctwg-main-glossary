@@ -6,6 +6,12 @@ title: "coalition-for-content-provenance-and-authenticity"
 
 # coalition-for-content-provenance-and-authenticity
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:coalition-for-content-provenance-and-authenticity`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,17 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **Coalition for Content Provenance and Authenticity** (`en`, `alternative`)
+
+## Legacy Aliases
 Coalition for Content Provenance and Authenticity
+
+## Semantic Relations
+- **related**: `urn:tig:concept:content-authenticity-initiative`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [Content Authenticity Initiative]({{ '/terms/content-authenticity-initiative/' | relative_url }})

@@ -1,3 +1,21 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:decryption
+designations:
+- label: decryption
+  language: en
+  status: preferred
+- label: decrypt
+  language: en
+  status: alternative
+- label: decrypts
+  language: en
+  status: alternative
+- label: decrypting
+  language: en
+  status: alternative
+- label: decrypted
+  language: en
+  status: alternative
 term: decryption
 aliases:
 - decryption
@@ -43,4 +61,25 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
-simple_definition: The process of changing ciphertext into plaintext using a cryptographic algorithm and key. The opposite of encryption.
+simple_definition: The process of changing ciphertext into plaintext using a cryptographic algorithm and key. The opposite
+  of encryption.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

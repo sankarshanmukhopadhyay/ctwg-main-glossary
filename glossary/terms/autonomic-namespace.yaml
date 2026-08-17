@@ -1,8 +1,20 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:autonomic-namespace
+designations:
+- label: autonomic-namespace
+  language: en
+  status: preferred
+- label: autonomic namespace
+  language: en
+  status: alternative
 term: autonomic-namespace
 aliases:
 - autonomic-namespace
 - autonomic namespace
-definition: a namespace that is self-certifying and hence self-administrating. An AN has a self-certifying prefix that provides cryptographic verification of root control authority over its namespace. All derived AIDs in the same AN share the same root-of-trust, source-of-truth, and locus-of-control (RSL). The governance of the namespace is, therefore, unified into one entity, that is, the controller who is/holds the root authority over the namespace.
+definition: a namespace that is self-certifying and hence self-administrating. An AN has a self-certifying prefix that provides
+  cryptographic verification of root control authority over its namespace. All derived AIDs in the same AN share the same
+  root-of-trust, source-of-truth, and locus-of-control (RSL). The governance of the namespace is, therefore, unified into
+  one entity, that is, the controller who is/holds the root authority over the namespace.
 notes: []
 see_also:
 - governance
@@ -55,3 +67,27 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:governance
+  - urn:tig:concept:governance-framework
+  - urn:tig:concept:governing-authority
+  - urn:tig:concept:trust-registry
+  - urn:tig:concept:revocation
+  - urn:tig:concept:verification
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

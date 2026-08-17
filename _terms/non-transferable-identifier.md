@@ -6,6 +6,12 @@ title: "non-transferable-identifier"
 
 # non-transferable-identifier
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:non-transferable-identifier`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 Controlling keys over this identifier cannot be rotated and therefore this identifier is non-transferable to other control.
 
@@ -18,8 +24,20 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+None
+
+## Legacy Aliases
 non-transferable-identifier
+
+## Semantic Relations
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:definition`
+- **related**: `urn:tig:concept:identifier`
+- **related**: `urn:tig:concept:decentralized-identifier`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [glossary]({{ '/terms/glossary/' | relative_url }})

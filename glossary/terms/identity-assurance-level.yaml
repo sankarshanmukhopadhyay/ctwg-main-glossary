@@ -1,10 +1,30 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:identity-assurance-level
+designations:
+- label: identity-assurance-level
+  language: en
+  status: preferred
+- label: identity assurance level
+  language: en
+  status: alternative
+- label: identity assurance levels
+  language: en
+  status: alternative
+- label: IAL
+  language: en
+  status: alternative
+- label: IALs
+  language: en
+  status: alternative
 term: identity-assurance-level
 aliases:
 - identity assurance level
 - identity assurance levels
 - IAL
 - IALs
-definition: 'A category that conveys the degree of confidence that a person’s claimed identity is their real identity, for example as defined in NIST SP 800-63-3 in terms of three levels: IAL 1 (Some confidence), IAL 2 (High confidence), IAL 3 (Very high confidence).'
+definition: 'A category that conveys the degree of confidence that a person’s claimed identity is their real identity, for
+  example as defined in NIST SP 800-63-3 in terms of three levels: IAL 1 (Some confidence), IAL 2 (High confidence), IAL 3
+  (Very high confidence).'
 notes: []
 see_also:
 - authenticator assurance level
@@ -45,3 +65,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:authenticator-assurance-level
+  - urn:tig:concept:federation-assurance-level
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

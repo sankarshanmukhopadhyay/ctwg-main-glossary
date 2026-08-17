@@ -6,6 +6,12 @@ title: "openid4vci"
 
 # openid4vci
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:openid4vci`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 An OpenID Foundation protocol that defines OAuth 2.0-based mechanisms for issuing verifiable credentials from credential issuers to wallets.
 
@@ -18,8 +24,22 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **OpenID4VCI** (`en`, `alternative`)
+- **OID4VCI** (`en`, `alternative`)
+
+## Legacy Aliases
 OpenID4VCI, OID4VCI
+
+## Semantic Relations
+- **related**: `urn:tig:concept:issuer`
+- **related**: `urn:tig:concept:credential-offer`
+- **related**: `urn:tig:concept:credential-request`
+- **related**: `urn:tig:concept:digital-wallet`
+- **related**: `urn:tig:concept:verifiable-credential`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [issuer]({{ '/terms/issuer/' | relative_url }})

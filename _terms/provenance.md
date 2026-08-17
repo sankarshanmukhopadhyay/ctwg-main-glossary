@@ -6,6 +6,12 @@ title: "provenance"
 
 # provenance
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:provenance`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 Information about where something came from and what happened to it over time.
 
@@ -18,8 +24,20 @@ This bridge term improves navigation across privacy, status, provenance, and ass
 ## Implementation Relevance
 Use this term where evidence needs to be carried across both reader-facing documentation and machine-verifiable assurance artifacts.
 
-## Aliases
+## Alternative Designations
+None
+
+## Legacy Aliases
 provenance
+
+## Semantic Relations
+- **related**: `urn:tig:concept:c2pa-manifest`
+- **related**: `urn:tig:concept:content-credential`
+- **related**: `urn:tig:concept:audit-log`
+- **related**: `urn:tig:concept:authenticity`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [c2pa-manifest]({{ '/terms/c2pa-manifest/' | relative_url }})

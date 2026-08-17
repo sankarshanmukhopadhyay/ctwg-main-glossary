@@ -1,3 +1,21 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:authentication
+designations:
+- label: authentication
+  language: en
+  status: preferred
+- label: authenticate
+  language: en
+  status: alternative
+- label: authenticates
+  language: en
+  status: alternative
+- label: authenticated
+  language: en
+  status: alternative
+- label: authenticating
+  language: en
+  status: alternative
 term: authentication
 aliases:
 - authentication
@@ -5,7 +23,8 @@ aliases:
 - authenticates
 - authenticated
 - authenticating
-definition: Verifying the identity of a user, process, or device, often as a prerequisite to allowing access to resources in an information system.
+definition: Verifying the identity of a user, process, or device, often as a prerequisite to allowing access to resources
+  in an information system.
 notes: []
 see_also:
 - authenticator
@@ -14,7 +33,8 @@ sources:
 - '[NIST-CSRC](https://csrc.nist.gov/glossary/term/authentication).'
 mental_models: []
 supporting_definitions:
-- '[Wikipedia](https://en.wikipedia.org/wiki/Authentication): The act of proving an [assertion](https://en.wikipedia.org/wiki/Logical_assertion), such as the [identity](https://en.wikipedia.org/wiki/Digital_identity) of a computer system user.'
+- '[Wikipedia](https://en.wikipedia.org/wiki/Authentication): The act of proving an [assertion](https://en.wikipedia.org/wiki/Logical_assertion),
+  such as the [identity](https://en.wikipedia.org/wiki/Digital_identity) of a computer system user.'
 source_file: spec/terms-definitions/authentication.md
 governance_profile: core-operational
 governance:
@@ -60,4 +80,25 @@ crosswalk:
   - IA-2
   iso:
   - ISO/IEC 27001 A.5.17
-simple_definition: Verifying the identity of a user, process, or device, often as a prerequisite to allowing access to resources in an information system.
+simple_definition: Verifying the identity of a user, process, or device, often as a prerequisite to allowing access to resources
+  in an information system.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:authenticator
+  - urn:tig:concept:verifiable-message
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

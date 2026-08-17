@@ -1,8 +1,20 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:node
+designations:
+- label: node
+  language: en
+  status: preferred
+- label: nodes
+  language: en
+  status: alternative
 term: node
 aliases:
 - node
 - nodes
-definition: 'In telecommunications networks, a node (Latin: nodus, ‘knot’) is either a redistribution point or a communication endpoint. The definition of a node depends on the network and protocol layer referred to. A physical network node is an electronic device that is attached to a network, and is capable of creating, receiving, or transmitting information over a communication channel.'
+definition: 'In telecommunications networks, a node (Latin: nodus, ‘knot’) is either a redistribution point or a communication
+  endpoint. The definition of a node depends on the network and protocol layer referred to. A physical network node is an
+  electronic device that is attached to a network, and is capable of creating, receiving, or transmitting information over
+  a communication channel.'
 notes: []
 see_also:
 - glossary
@@ -40,3 +52,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

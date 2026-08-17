@@ -6,6 +6,12 @@ title: "status-record"
 
 # status-record
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:status-record`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 An inspectable record that represents the validity, suspension, revocation, or lifecycle status of a credential, authorization, registration, or governed object.
 
@@ -18,8 +24,20 @@ This bridge term improves navigation across privacy, status, provenance, and ass
 ## Implementation Relevance
 Use this term where evidence needs to be carried across both reader-facing documentation and machine-verifiable assurance artifacts.
 
-## Aliases
+## Alternative Designations
+- **status record** (`en`, `alternative`)
+
+## Legacy Aliases
 status record
+
+## Semantic Relations
+- **related**: `urn:tig:concept:revocation`
+- **related**: `urn:tig:concept:bitstring-status-list`
+- **related**: `urn:tig:concept:audit-log`
+- **related**: `urn:tig:concept:verification`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [revocation]({{ '/terms/revocation/' | relative_url }})

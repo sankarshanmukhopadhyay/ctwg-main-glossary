@@ -1,3 +1,24 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:presentation
+designations:
+- label: presentation
+  language: en
+  status: preferred
+- label: presentations
+  language: en
+  status: alternative
+- label: present
+  language: en
+  status: alternative
+- label: presents
+  language: en
+  status: alternative
+- label: presenting
+  language: en
+  status: alternative
+- label: presented
+  language: en
+  status: alternative
 term: presentation
 aliases:
 - presentation
@@ -6,7 +27,8 @@ aliases:
 - presents
 - presenting
 - presented
-definition: A verifiable message that a holder may send to a verifier containing proofs of one or more claims derived from one or more digital credentials from one or more issuers as a response to a specific presentation request from a  verifier.
+definition: A verifiable message that a holder may send to a verifier containing proofs of one or more claims derived from
+  one or more digital credentials from one or more issuers as a response to a specific presentation request from a  verifier.
 notes: []
 see_also:
 - credential
@@ -19,7 +41,12 @@ sources:
 - 'ToIP CTWG maintained glossary source: `spec/terms-definitions/presentation.md`'
 mental_models: []
 supporting_definitions:
-- '[eSSIF-Lab](https://essif-lab.github.io/framework/docs/terms/presentation): A (signed) digital [[ref: message]] that a [[ref: holder]] component may send to a [[ref: verifier]] component that contains [[ref: data]] derived from one or more [[ref: verifiable credentials]] (that (a [colleague](https://essif-lab.github.io/framework/docs/terms/colleague) component of) the [holder](https://essif-lab.github.io/framework/docs/terms/holder) component has received from [issuer](https://essif-lab.github.io/framework/docs/terms/issuer) components of one or more [parties](https://essif-lab.github.io/framework/docs/terms/party)), as a response to a specific [[ref: presentation request]] of a  [[ref: verifier ]]component.'
+- '[eSSIF-Lab](https://essif-lab.github.io/framework/docs/terms/presentation): A (signed) digital [[ref: message]] that a
+  [[ref: holder]] component may send to a [[ref: verifier]] component that contains [[ref: data]] derived from one or more
+  [[ref: verifiable credentials]] (that (a [colleague](https://essif-lab.github.io/framework/docs/terms/colleague) component
+  of) the [holder](https://essif-lab.github.io/framework/docs/terms/holder) component has received from [issuer](https://essif-lab.github.io/framework/docs/terms/issuer)
+  components of one or more [parties](https://essif-lab.github.io/framework/docs/terms/party)), as a response to a specific
+  [[ref: presentation request]] of a  [[ref: verifier ]]component.'
 source_file: spec/terms-definitions/presentation.md
 governance_profile: core-operational
 governance:
@@ -58,3 +85,27 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:credential
+  - urn:tig:concept:issuer
+  - urn:tig:concept:issuance
+  - urn:tig:concept:verifiable-credential
+  - urn:tig:concept:verification
+  - urn:tig:concept:verifier
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

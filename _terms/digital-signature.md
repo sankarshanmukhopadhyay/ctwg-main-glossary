@@ -6,6 +6,12 @@ title: "digital-signature"
 
 # digital-signature
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:digital-signature`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,24 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **digital signature** (`en`, `alternative`)
+- **digital signatures** (`en`, `alternative`)
+- **digitally sign** (`en`, `alternative`)
+- **digitally signed** (`en`, `alternative`)
+- **digital signing** (`en`, `alternative`)
+- **cryptographic signature** (`en`, `alternative`)
+- **cryptographic signatures** (`en`, `alternative`)
+
+## Legacy Aliases
 digital signature, digital signatures, digitally sign, digitally signed, digital signing, cryptographic signature, cryptographic signatures
+
+## Semantic Relations
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:definition`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [glossary]({{ '/terms/glossary/' | relative_url }})

@@ -6,6 +6,12 @@ title: "risk-assessment"
 
 # risk-assessment
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:risk-assessment`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A structured review of what could go wrong, how likely it is, what harm it could cause, and what controls can reduce the risk.
 
@@ -18,8 +24,19 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **risk assessment** (`en`, `alternative`)
+- **risk assessments** (`en`, `alternative`)
+
+## Legacy Aliases
 risk assessment, risk assessments
+
+## Semantic Relations
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:definition`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [glossary]({{ '/terms/glossary/' | relative_url }})

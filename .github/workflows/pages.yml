@@ -39,7 +39,9 @@ jobs:
         run: pip install pyyaml jsonschema
 
       - name: Validate glossary
-        run: python tools/validate_governance_glossary.py
+        run: |
+          python tools/validate_governance_glossary.py
+          python tools/validate_profiles.py
 
       - name: Generate machine-readable bundles
         run: python tools/build_governance_glossary.py

@@ -6,6 +6,12 @@ title: "ephemeral-connection"
 
 # ephemeral-connection
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:ephemeral-connection`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 A connection that only exists for the duration of a single communication session or transaction.
 
@@ -18,8 +24,19 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **ephemeral connection** (`en`, `alternative`)
+- **ephemeral connections** (`en`, `alternative`)
+
+## Legacy Aliases
 ephemeral connection, ephemeral connections
+
+## Semantic Relations
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:definition`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [glossary]({{ '/terms/glossary/' | relative_url }})

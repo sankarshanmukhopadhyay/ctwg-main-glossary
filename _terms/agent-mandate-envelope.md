@@ -6,6 +6,12 @@ title: "agent mandate envelope"
 
 # agent mandate envelope
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:agent-mandate-envelope`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A structured artifact that binds an agent to an originating principal, delegated mandate, permitted scope, conditions, expiry, revocation semantics, and evidence requirements.
 
@@ -18,8 +24,18 @@ This term was added following a cross-repository terminology review of TSMM, TIS
 ## Implementation Relevance
 Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.
 
-## Aliases
+## Alternative Designations
+- **agent-mandate-envelope** (`en`, `alternative`)
+
+## Legacy Aliases
 agent mandate envelope, agent-mandate-envelope
+
+## Semantic Relations
+- **related**: `urn:tig:concept:agent`
+- **related**: `urn:tig:concept:authority`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [agent]({{ '/terms/agent/' | relative_url }})

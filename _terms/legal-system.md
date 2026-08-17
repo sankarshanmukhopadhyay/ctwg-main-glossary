@@ -6,6 +6,12 @@ title: "legal-system"
 
 # legal-system
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:legal-system`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,22 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **legal system** (`en`, `alternative`)
+- **legal systems** (`en`, `alternative`)
+
+## Legacy Aliases
 legal system, legal systems
+
+## Semantic Relations
+- **related**: `urn:tig:concept:policy`
+- **related**: `urn:tig:concept:governance-framework`
+- **related**: `urn:tig:concept:requirement`
+- **related**: `urn:tig:concept:governance`
+- **related**: `urn:tig:concept:governing-authority`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [policy]({{ '/terms/policy/' | relative_url }})

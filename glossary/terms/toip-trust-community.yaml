@@ -1,3 +1,12 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:toip-trust-community
+designations:
+- label: toip-trust-community
+  language: en
+  status: preferred
+- label: ToIP trust community
+  language: en
+  status: alternative
 term: toip-trust-community
 aliases:
 - ToIP trust community
@@ -44,3 +53,26 @@ crosswalk:
   nist: []
   iso: []
 simple_definition: A trust community governed by a ToIP governance framework.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:policy
+  - urn:tig:concept:governance-framework
+  - urn:tig:concept:requirement
+  - urn:tig:concept:governance
+  - urn:tig:concept:governing-authority
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

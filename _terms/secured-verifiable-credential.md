@@ -6,6 +6,12 @@ title: "secured-verifiable-credential"
 
 # secured-verifiable-credential
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:secured-verifiable-credential`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,21 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **secured VC** (`en`, `alternative`)
+- **secured credential** (`en`, `alternative`)
+
+## Legacy Aliases
 secured VC, secured credential
+
+## Semantic Relations
+- **related**: `urn:tig:concept:verifiable-credential`
+- **related**: `urn:tig:concept:data-integrity-proof`
+- **related**: `urn:tig:concept:sd-jwt-vc`
+- **related**: `urn:tig:concept:cryptographic-verifiability`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [verifiable-credential]({{ '/terms/verifiable-credential/' | relative_url }})

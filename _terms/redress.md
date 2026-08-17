@@ -6,6 +6,12 @@ title: "redress"
 
 # redress
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:redress`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A way for someone affected by a decision to challenge it and seek a correction or remedy.
 
@@ -18,8 +24,18 @@ This is a cross-project glossary term. Individual specifications may define narr
 ## Implementation Relevance
 Use this term to keep governance, authority, assurance, and implementation discussions consistent across interoperating projects.
 
-## Aliases
+## Alternative Designations
 None
+
+## Legacy Aliases
+None
+
+## Semantic Relations
+- **related**: `urn:tig:concept:governance`
+- **related**: `urn:tig:concept:decision-receipt`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [governance]({{ '/terms/governance/' | relative_url }})

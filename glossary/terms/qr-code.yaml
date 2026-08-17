@@ -1,8 +1,22 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:qr-code
+designations:
+- label: qr-code
+  language: en
+  status: preferred
+- label: QR code
+  language: en
+  status: alternative
+- label: QR codes
+  language: en
+  status: alternative
 term: qr-code
 aliases:
 - QR code
 - QR codes
-definition: A QR code (short for "quick-response code") is a type of two-dimensional matrix barcode—a machine-readable optical image that contains information specific to the identified item. In practice, QR codes contain data for a locator, an identifier, and web tracking.
+definition: A QR code (short for "quick-response code") is a type of two-dimensional matrix barcode—a machine-readable optical
+  image that contains information specific to the identified item. In practice, QR codes contain data for a locator, an identifier,
+  and web tracking.
 notes: []
 see_also:
 - out-of-band introduction.
@@ -39,3 +53,22 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:out-of-band-introduction
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

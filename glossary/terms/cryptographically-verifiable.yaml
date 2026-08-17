@@ -1,8 +1,22 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:cryptographically-verifiable
+designations:
+- label: cryptographically-verifiable
+  language: en
+  status: preferred
+- label: cryptographically verifiable
+  language: en
+  status: alternative
+- label: cryptographically verified
+  language: en
+  status: alternative
 term: cryptographically-verifiable
 aliases:
 - cryptographically verifiable
 - cryptographically verified
-definition: A property of a data structure that has been digitally signed using a private key such that the digital signature can be verified using the public key. Verifiable data, verifiable messages, verifiable credentials, and verifiable data registries are all cryptographically verifiable. Cryptographic verifiability is a primary goal of the ToIP Technology Stack.
+definition: A property of a data structure that has been digitally signed using a private key such that the digital signature
+  can be verified using the public key. Verifiable data, verifiable messages, verifiable credentials, and verifiable data
+  registries are all cryptographically verifiable. Cryptographic verifiability is a primary goal of the ToIP Technology Stack.
 notes: []
 see_also:
 - tamper evident
@@ -53,3 +67,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:tamper-evident
+  - urn:tig:concept:tamper-resistant
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

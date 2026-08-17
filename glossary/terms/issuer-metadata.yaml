@@ -1,8 +1,21 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:issuer-metadata
+designations:
+- label: issuer-metadata
+  language: en
+  status: preferred
+- label: credential issuer metadata
+  language: en
+  status: alternative
+- label: issuer metadata
+  language: en
+  status: alternative
 term: issuer-metadata
 aliases:
 - credential issuer metadata
 - issuer metadata
-definition: Metadata published by a credential issuer describing issuer capabilities, credential configurations, endpoints, and supported formats.
+definition: Metadata published by a credential issuer describing issuer capabilities, credential configurations, endpoints,
+  and supported formats.
 reader_note: ''
 implementation_relevance: ''
 notes: []
@@ -53,4 +66,27 @@ control_plane:
 crosswalk:
   openid:
   - OpenID4VCI 1.0
-simple_definition: Metadata published by a credential issuer describing issuer capabilities, credential configurations, endpoints, and supported formats.
+simple_definition: Metadata published by a credential issuer describing issuer capabilities, credential configurations, endpoints,
+  and supported formats.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:issuer
+  - urn:tig:concept:openid4vci
+  - urn:tig:concept:credential-schema
+  - urn:tig:concept:digital-wallet
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

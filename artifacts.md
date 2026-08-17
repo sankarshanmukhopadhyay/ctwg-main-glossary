@@ -5,14 +5,31 @@ nav_order: 6
 
 # Machine-readable Artifacts
 
-The repository publishes generated artifacts for downstream systems that need glossary terms as structured governance inputs rather than static prose. These artifacts are regenerated from `glossary/terms/` and must remain synchronized with the source layer.
+TIG publishes generated artifacts for downstream systems that need stable concept semantics rather than static prose. All generated artifacts are derived from `glossary/terms/`.
 
-## Core bundles
+## Canonical v2 bundles
+
+- `generated/json/trust-infrastructure-glossary.json`
+- `generated/json/trust-infrastructure-glossary.jsonld`
+- `generated/rdf/trust-infrastructure-glossary.ttl`
+- `generated/json/trust-infrastructure-glossary.catalog.json`
+
+The JSON-LD and Turtle representations use SKOS-aligned concept, label, relation, and mapping semantics.
+
+## v1 compatibility bundles
+
+The following filenames remain generated during the v2 migration window:
 
 - `generated/json/governance-executable-glossary.json`
 - `generated/json/governance-executable-glossary.jsonld`
 - `generated/json/governance-executable-glossary.catalog.json`
 - `generated/markdown/governance-executable-glossary.md`
+
+Consumers should migrate to the canonical TIG filenames.
+
+## Profiles
+
+Reusable selection profiles live under `profiles/` and are validated against stable `concept_id` values.
 
 ## Inventory and assurance-readiness artifacts
 
@@ -20,55 +37,22 @@ The repository publishes generated artifacts for downstream systems that need gl
 - `generated/markdown/governance-inventory.md`
 - `generated/json/governance-quality-report.json`
 - `generated/markdown/governance-quality-report.md`
-- `governance/generated-inventories.md`
-- `governance/quality-report.md`
 
 ## Artifact manifest
 
 - `generated/json/artifact-manifest.json`
 - `generated/markdown/artifact-manifest.md`
 
-The manifest identifies each major generated artifact, its source inputs, generator, consumer use case, and stability expectation.
-
-## Governance overlay artifacts
-
-- `glossary/overlays/governance/inventory.json`
-- `glossary/overlays/governance/core-operational-terms.md`
-- `glossary/overlays/assurance/evidence-patterns.json`
-
-## Generated inventory views
-
-The inventory bundle and markdown view classify terms across several operational dimensions:
-
-- authority-bearing terms
-- delegation-sensitive terms
-- revocation-sensitive terms
-- lifecycle-sensitive terms
-- evidence-producing terms
-- control-plane terms
-- assurance level hints
-- governance profile groupings
-
-
-## Current quality-report status
-
-The regenerated quality report currently has a score of `100.0 / 100` with `0` findings across the implemented checks. This means all terms have source coverage, cross-reference coverage, evidence coverage, and revocation-sensitive terms include revocation-relevant evidence artifacts.
-
-## Quality report interpretation
-
-The quality report is a maintainer and adopter signal. It identifies where terms may need stronger sources, better cross-references, more specific evidence artifacts, clearer revocation evidence, or a stronger assurance hint.
-
-The report is not a pass/fail certification. It is a machine-readable evidence-quality backlog that supports review, prioritization, and continuous improvement.
+The manifest identifies source inputs, generators, intended consumer use, and stability expectations.
 
 ## Generation workflow
 
-Run the following before publication:
-
 ```bash
 python tools/validate_governance_glossary.py
+python tools/validate_profiles.py
 python tools/build_governance_glossary.py
 python tools/build_quality_report.py
 python tools/build_jekyll_site.py
 ```
 
-GitHub Actions run the same generation steps and fail if committed generated artifacts are out of sync with the authoritative source layer.
+GitHub Actions run the same steps and fail when generated output drifts from authoritative source.

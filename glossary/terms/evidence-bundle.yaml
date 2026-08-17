@@ -1,10 +1,21 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:evidence-bundle
+designations:
+- label: evidence bundle
+  language: en
+  status: preferred
+- label: evidence-bundle
+  language: en
+  status: alternative
 term: evidence bundle
 aliases:
 - evidence bundle
 - evidence-bundle
-definition: A bounded collection of evidence artifacts assembled for a decision, assessment, verification, or audit purpose, with sufficient metadata to support integrity and traceability.
+definition: A bounded collection of evidence artifacts assembled for a decision, assessment, verification, or audit purpose,
+  with sufficient metadata to support integrity and traceability.
 notes:
-- This definition is normalized for cross-repository use and should be applied together with the governing profile or specification that supplies domain-specific constraints.
+- This definition is normalized for cross-repository use and should be applied together with the governing profile or specification
+  that supplies domain-specific constraints.
 see_also:
 - attestation
 - c2pa-manifest
@@ -13,8 +24,10 @@ sources:
   publisher: GitHub
   url: https://github.com/sankarshanmukhopadhyay/trust-infrastructure-schemas
   normative: false
-reader_note: This term was added following a cross-repository terminology review of TSMM, TIS, TGA, and the DTG ZKP Task Force workspace.
-implementation_relevance: Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.
+reader_note: This term was added following a cross-repository terminology review of TSMM, TIS, TGA, and the DTG ZKP Task Force
+  workspace.
+implementation_relevance: Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent
+  across interoperating trust infrastructure repositories.
 governance_profile: governance-supporting
 governance:
   authority_scope:
@@ -57,4 +70,25 @@ control_plane:
   - delegation_record
   - status_record
   - verification_log
-simple_definition: A collected set of records that can be reviewed together to support or explain a decision, claim, control, or assurance result.
+simple_definition: A collected set of records that can be reviewed together to support or explain a decision, claim, control,
+  or assurance result.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:attestation
+  - urn:tig:concept:c2pa-manifest
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

@@ -1,8 +1,20 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:controller
+designations:
+- label: controller
+  language: en
+  status: preferred
+- label: controllers
+  language: en
+  status: alternative
 term: controller
 aliases:
 - controller
 - controllers
-definition: In the context of digital communications, the entity in control of sending and receiving digital communications. In the context of decentralized digital trust infrastructure, the entity in control of the cryptographic keys necessary to perform cryptographically verifiable actions using a digital agent and digital wallet. In a ToIP context, the entity in control of a ToIP endpoint.
+definition: In the context of digital communications, the entity in control of sending and receiving digital communications.
+  In the context of decentralized digital trust infrastructure, the entity in control of the cryptographic keys necessary
+  to perform cryptographically verifiable actions using a digital agent and digital wallet. In a ToIP context, the entity
+  in control of a ToIP endpoint.
 notes: []
 see_also:
 - device controller
@@ -12,7 +24,10 @@ sources:
 - 'ToIP CTWG maintained glossary source: `spec/terms-definitions/controller.md`'
 mental_models: []
 supporting_definitions:
-- '[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#controller): the role that an [actor](https://essif-lab.github.io/framework/docs/terms/actor) performs as it is executing actions on that [entity](https://essif-lab.github.io/framework/docs/terms/entity) for the purpose of ensuring that the [entity](https://essif-lab.github.io/framework/docs/terms/entity) will act/behave, or be used, in a particular way.'
+- '[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#controller): the role that an [actor](https://essif-lab.github.io/framework/docs/terms/actor)
+  performs as it is executing actions on that [entity](https://essif-lab.github.io/framework/docs/terms/entity) for the purpose
+  of ensuring that the [entity](https://essif-lab.github.io/framework/docs/terms/entity) will act/behave, or be used, in a
+  particular way.'
 source_file: spec/terms-definitions/controller.md
 governance_profile: core-operational
 governance:
@@ -42,3 +57,24 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:device-controller
+  - urn:tig:concept:did-controller
+  - urn:tig:concept:toip-controller
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

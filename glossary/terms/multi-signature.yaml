@@ -1,8 +1,18 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:multi-signature
+designations:
+- label: multi-signature
+  language: en
+  status: preferred
+- label: multi-sig
+  language: en
+  status: alternative
 term: multi-signature
 aliases:
 - multi-signature
 - multi-sig
-definition: A cryptographic signature scheme where the process of signing information (e.g., a transaction) is distributed among multiple private keys.
+definition: A cryptographic signature scheme where the process of signing information (e.g., a transaction) is distributed
+  among multiple private keys.
 notes: []
 see_also:
 - glossary
@@ -40,4 +50,25 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
-simple_definition: A cryptographic signature scheme where the process of signing information (e.g., a transaction) is distributed among multiple private keys.
+simple_definition: A cryptographic signature scheme where the process of signing information (e.g., a transaction) is distributed
+  among multiple private keys.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

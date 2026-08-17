@@ -6,6 +6,12 @@ title: "assurance-level"
 
 # assurance-level
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:assurance-level`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 A stated level of confidence supported by defined evidence, controls, and review expectations.
 
@@ -18,8 +24,23 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **assurance level** (`en`, `alternative`)
+- **assurance levels** (`en`, `alternative`)
+
+## Legacy Aliases
 assurance level, assurance levels
+
+## Semantic Relations
+- **related**: `urn:tig:concept:credential`
+- **related**: `urn:tig:concept:issuer`
+- **related**: `urn:tig:concept:issuance`
+- **related**: `urn:tig:concept:verifiable-credential`
+- **related**: `urn:tig:concept:authorization`
+- **related**: `urn:tig:concept:permission`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [credential]({{ '/terms/credential/' | relative_url }})

@@ -1,10 +1,27 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:organization
+designations:
+- label: organization
+  language: en
+  status: preferred
+- label: organizations
+  language: en
+  status: alternative
+- label: organisation
+  language: en
+  status: alternative
+- label: organisations
+  language: en
+  status: alternative
 term: organization
 aliases:
 - organization
 - organizations
 - organisation
 - organisations
-definition: A party that consists of a group of parties who agree to be organized into a specific form in order to better achieve a common set of objectives. Examples include corporations, partnerships, sole proprietorships, non-profit organizations, associations, and governments.
+definition: A party that consists of a group of parties who agree to be organized into a specific form in order to better
+  achieve a common set of objectives. Examples include corporations, partnerships, sole proprietorships, non-profit organizations,
+  associations, and governments.
 notes: []
 see_also:
 - legal entity
@@ -13,7 +30,11 @@ sources:
 - 'ToIP CTWG maintained glossary source: `spec/terms-definitions/organization.md`'
 mental_models: []
 supporting_definitions:
-- '[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#organization): a [party](https://essif-lab.github.io/framework/docs/terms/party) that is capable of setting [objectives](https://essif-lab.github.io/framework/docs/terms/objective) and making sure these are realized by [actors](https://essif-lab.github.io/framework/docs/terms/actor) that it has [onboarded](https://essif-lab.github.io/framework/docs/terms/onboarding) and/or by (vetted) [parties](https://essif-lab.github.io/framework/docs/terms/party) that are committed to contribute to these [objectives](https://essif-lab.github.io/framework/docs/terms/objective).'
+- '[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#organization): a [party](https://essif-lab.github.io/framework/docs/terms/party)
+  that is capable of setting [objectives](https://essif-lab.github.io/framework/docs/terms/objective) and making sure these
+  are realized by [actors](https://essif-lab.github.io/framework/docs/terms/actor) that it has [onboarded](https://essif-lab.github.io/framework/docs/terms/onboarding)
+  and/or by (vetted) [parties](https://essif-lab.github.io/framework/docs/terms/party) that are committed to contribute to
+  these [objectives](https://essif-lab.github.io/framework/docs/terms/objective).'
 source_file: spec/terms-definitions/organization.md
 governance_profile: governance-supporting
 governance:
@@ -47,3 +68,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:legal-entity
+  - urn:tig:concept:legal-person
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

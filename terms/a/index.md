@@ -1,10 +1,10 @@
 ---
-title: "Terms: A"
-parent: "Glossary Terms"
+title: "Concepts: A"
+parent: "Concepts"
 nav_order: 1
 ---
 
-# Terms: A
+# Concepts: A
 
 - [aal]({{ '/terms/aal/' | relative_url }})
 - [abac]({{ '/terms/abac/' | relative_url }})

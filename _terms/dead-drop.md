@@ -6,6 +6,12 @@ title: "dead-drop"
 
 # dead-drop
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:dead-drop`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,20 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **dead drop** (`en`, `alternative`)
+
+## Legacy Aliases
 dead-drop, dead drop
+
+## Semantic Relations
+- **related**: `urn:tig:concept:credential`
+- **related**: `urn:tig:concept:issuer`
+- **related**: `urn:tig:concept:issuance`
+- **related**: `urn:tig:concept:verifiable-credential`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [credential]({{ '/terms/credential/' | relative_url }})

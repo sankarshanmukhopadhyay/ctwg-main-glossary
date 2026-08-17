@@ -6,6 +6,12 @@ title: "level-of-assurance"
 
 # level-of-assurance
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:level-of-assurance`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 See: assurance level.
 
@@ -18,8 +24,23 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **level of assurance** (`en`, `alternative`)
+- **levels of assurance** (`en`, `alternative`)
+- **LOA** (`en`, `alternative`)
+- **LOAs** (`en`, `alternative`)
+
+## Legacy Aliases
 level of assurance, levels of assurance, LOA, LOAs
+
+## Semantic Relations
+- **related**: `urn:tig:concept:audit`
+- **related**: `urn:tig:concept:verification`
+- **related**: `urn:tig:concept:definition`
+- **related**: `urn:tig:concept:glossary`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [audit]({{ '/terms/audit/' | relative_url }})

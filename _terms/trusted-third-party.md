@@ -6,6 +6,12 @@ title: "trusted-third-party"
 
 # trusted-third-party
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:trusted-third-party`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,27 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **trusted third party** (`en`, `alternative`)
+- **trusted third parties** (`en`, `alternative`)
+- **trusted 3rd party** (`en`, `alternative`)
+- **trusted 3rd parties** (`en`, `alternative`)
+- **TTP** (`en`, `alternative`)
+- **TTPs** (`en`, `alternative`)
+
+## Legacy Aliases
 trusted third party, trusted third parties, trusted 3rd party, trusted 3rd parties, TTP, TTPs
+
+## Semantic Relations
+- **related**: `urn:tig:concept:verification`
+- **related**: `urn:tig:concept:verifier`
+- **related**: `urn:tig:concept:relying-party`
+- **related**: `urn:tig:concept:trust-decision`
+- **related**: `urn:tig:concept:governance`
+- **related**: `urn:tig:concept:governance-framework`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [verification]({{ '/terms/verification/' | relative_url }})

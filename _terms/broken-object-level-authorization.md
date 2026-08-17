@@ -6,6 +6,12 @@ title: "broken-object-level-authorization"
 
 # broken-object-level-authorization
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:broken-object-level-authorization`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 Refers to security flaws where users can access data they shouldn't, due to inadequate permission checks on individual (sub)objects.
 
@@ -18,8 +24,20 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **broken object level authorization** (`en`, `alternative`)
+
+## Legacy Aliases
 broken-object-level-authorization, broken object level authorization
+
+## Semantic Relations
+- **related**: `urn:tig:concept:authorization`
+- **related**: `urn:tig:concept:permission`
+- **related**: `urn:tig:concept:role-based-access-control`
+- **related**: `urn:tig:concept:attribute-based-access-control`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [authorization]({{ '/terms/authorization/' | relative_url }})

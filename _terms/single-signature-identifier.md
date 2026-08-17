@@ -6,6 +6,12 @@ title: "single-signature-identifier"
 
 # single-signature-identifier
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:single-signature-identifier`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 or single sig identifier; is an identifier controlled by a one-of-one signing key-pair
 
@@ -18,8 +24,20 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **single-signature identifier** (`en`, `alternative`)
+
+## Legacy Aliases
 single-signature-identifier, single-signature identifier
+
+## Semantic Relations
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:definition`
+- **related**: `urn:tig:concept:identifier`
+- **related**: `urn:tig:concept:decentralized-identifier`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [glossary]({{ '/terms/glossary/' | relative_url }})

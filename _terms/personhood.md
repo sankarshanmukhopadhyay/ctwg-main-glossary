@@ -6,6 +6,12 @@ title: "personhood"
 
 # personhood
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:personhood`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,19 @@ This term was added following a cross-repository terminology review of TSMM, TIS
 ## Implementation Relevance
 Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.
 
-## Aliases
+## Alternative Designations
+None
+
+## Legacy Aliases
 personhood
+
+## Semantic Relations
+- **related**: `urn:tig:concept:proof-of-personhood`
+- **related**: `urn:tig:concept:identity`
+- **related**: `urn:tig:concept:natural-person`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [proof-of-personhood]({{ '/terms/proof-of-personhood/' | relative_url }})

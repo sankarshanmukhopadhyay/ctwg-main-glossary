@@ -6,6 +6,12 @@ title: "tamper-evident"
 
 # tamper-evident
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:tamper-evident`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A process which makes alterations to the data easily detectable. Form digital data objects, this is typically achieved via cryptographic verification.
 
@@ -18,8 +24,18 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **tamper evident** (`en`, `alternative`)
+
+## Legacy Aliases
 tamper evident, tamper-evident
+
+## Semantic Relations
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:definition`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [glossary]({{ '/terms/glossary/' | relative_url }})

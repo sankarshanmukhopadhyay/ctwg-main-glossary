@@ -1,10 +1,26 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:action
+designations:
+- label: action
+  language: en
+  status: preferred
+- label: actions
+  language: en
+  status: alternative
+- label: act
+  language: en
+  status: alternative
+- label: acts
+  language: en
+  status: alternative
 term: action
 aliases:
 - action
 - actions
 - act
 - acts
-definition: Something that is actually done (a 'unit of work' that is executed) by a single actor (on behalf of a given party), as a single operation, in a specific context.
+definition: Something that is actually done (a 'unit of work' that is executed) by a single actor (on behalf of a given party),
+  as a single operation, in a specific context.
 notes: []
 see_also:
 - glossary
@@ -42,3 +58,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

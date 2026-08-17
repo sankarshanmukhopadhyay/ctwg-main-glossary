@@ -6,6 +6,12 @@ title: "key-event-receipt-infrastructure"
 
 # key-event-receipt-infrastructure
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:key-event-receipt-infrastructure`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 A decentralized permissionless key management architecture.
 
@@ -18,8 +24,18 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **Key Event Receipt Infrastructure** (`en`, `alternative`)
+
+## Legacy Aliases
 Key Event Receipt Infrastructure
+
+## Semantic Relations
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:definition`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [glossary]({{ '/terms/glossary/' | relative_url }})

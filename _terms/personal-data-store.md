@@ -6,6 +6,12 @@ title: "personal-data-store"
 
 # personal-data-store
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:personal-data-store`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 See: personal data vault.
 
@@ -18,8 +24,23 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **personal data store** (`en`, `alternative`)
+- **personal data stores** (`en`, `alternative`)
+- **PDS** (`en`, `alternative`)
+- **PDSs** (`en`, `alternative`)
+
+## Legacy Aliases
 personal data store, personal data stores, PDS, PDSs
+
+## Semantic Relations
+- **related**: `urn:tig:concept:delegation`
+- **related**: `urn:tig:concept:delegator`
+- **related**: `urn:tig:concept:delegatee`
+- **related**: `urn:tig:concept:authorization`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [delegation]({{ '/terms/delegation/' | relative_url }})

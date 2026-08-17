@@ -1,7 +1,14 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:mandatory
+designations:
+- label: mandatory
+  language: en
+  status: preferred
 term: mandatory
 aliases:
 - mandatory
-definition: A requirement that must be implemented in order for an implementer to be in compliance. In ToIP governance frameworks, a mandatory requirement is expressed using a MUST or REQUIRED keyword as defined in IETF RFC 2119.
+definition: A requirement that must be implemented in order for an implementer to be in compliance. In ToIP governance frameworks,
+  a mandatory requirement is expressed using a MUST or REQUIRED keyword as defined in IETF RFC 2119.
 notes: []
 see_also:
 - recommended
@@ -41,3 +48,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:recommended
+  - urn:tig:concept:optional
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

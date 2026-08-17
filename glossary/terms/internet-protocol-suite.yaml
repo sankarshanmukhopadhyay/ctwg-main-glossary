@@ -1,7 +1,18 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:internet-protocol-suite
+designations:
+- label: internet-protocol-suite
+  language: en
+  status: preferred
+- label: Internet protocol suite
+  language: en
+  status: alternative
 term: internet-protocol-suite
 aliases:
 - Internet protocol suite
-definition: The Internet protocol suite, commonly known as TCP/IP, is a framework for organizing the set of communication protocols used in the Internet and similar computer networks according to functional criteria. The foundational protocols in the suite are the Transmission Control Protocol (TCP), the User Datagram Protocol (UDP), and the Internet Protocol (IP).
+definition: The Internet protocol suite, commonly known as TCP/IP, is a framework for organizing the set of communication
+  protocols used in the Internet and similar computer networks according to functional criteria. The foundational protocols
+  in the suite are the Transmission Control Protocol (TCP), the User Datagram Protocol (UDP), and the Internet Protocol (IP).
 notes: []
 see_also:
 - protocol stack.
@@ -39,3 +50,22 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:protocol-stack
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

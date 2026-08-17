@@ -6,6 +6,12 @@ title: "role-based-access-control"
 
 # role-based-access-control
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:role-based-access-control`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,21 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **role-based access control** (`en`, `alternative`)
+- **role-based access controls** (`en`, `alternative`)
+
+## Legacy Aliases
 role-based access control, role-based access controls
+
+## Semantic Relations
+- **related**: `urn:tig:concept:authorization`
+- **related**: `urn:tig:concept:permission`
+- **related**: `urn:tig:concept:attribute-based-access-control`
+- **related**: `urn:tig:concept:access-control`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [authorization]({{ '/terms/authorization/' | relative_url }})

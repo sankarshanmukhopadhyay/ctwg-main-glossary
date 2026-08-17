@@ -6,21 +6,18 @@ has_children: true
 
 # Governance Documentation
 
-This section explains how the glossary is operated as governance-executable publication infrastructure.
+This section explains how TIG is governed as an independent, concept-centric semantic infrastructure project.
 
-The documentation covers:
+Key topics include:
 
-- repository authority and source-of-truth rules;
-- schema validation and controlled vocabularies;
-- term authoring and review expectations;
-- generated inventories and quality reports;
-- assurance-level interpretation;
-- publication integrity; and
-- downstream consumption by governance, conformance, and assurance tooling.
+- [Repository Operating Model](repository-operating-model.md)
+- [Semantic Model](semantic-model.md)
+- [Source Intake and Provenance](source-intake-and-provenance.md)
+- [Project Lineage](project-lineage.md)
+- [Vocabulary Profiles](vocabulary-profiles.md)
+- [Plain-English Authoring Guide](plain-language-guide.md)
+- [Assurance Model](assurance-model.md)
+- [Term Authoring Guide](term-authoring-guide.md)
+- [Governance Improvement Roadmap](roadmap.md)
 
-The practical aim is to keep the glossary readable for humans while making its operational semantics inspectable by machines.
-
-
-## Current quality closure
-
-The current increment closes the generated v1.1.0 quality-report backlog and records the remediation strategy in [Quality Closure Summary](quality-closure-summary.md).
+The project keeps reader comprehension, semantic precision, source provenance, operational governance metadata, and machine-readable interoperability as separate but coordinated concerns.

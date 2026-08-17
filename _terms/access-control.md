@@ -6,6 +6,12 @@ title: "access-control"
 
 # access-control
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:access-control`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 The process of granting or denying specific requests for obtaining and using information and related information processing services.
 
@@ -18,8 +24,21 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **access control** (`en`, `alternative`)
+- **access controls** (`en`, `alternative`)
+
+## Legacy Aliases
 access control, access controls
+
+## Semantic Relations
+- **related**: `urn:tig:concept:authorization`
+- **related**: `urn:tig:concept:permission`
+- **related**: `urn:tig:concept:role-based-access-control`
+- **related**: `urn:tig:concept:attribute-based-access-control`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [authorization]({{ '/terms/authorization/' | relative_url }})

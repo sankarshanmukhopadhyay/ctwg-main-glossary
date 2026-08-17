@@ -1,8 +1,21 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:decentralized-web-node
+designations:
+- label: decentralized-web-node
+  language: en
+  status: preferred
+- label: Decentralized Web Node
+  language: en
+  status: alternative
+- label: Decentralized Web Nodes
+  language: en
+  status: alternative
 term: decentralized-web-node
 aliases:
 - Decentralized Web Node
 - Decentralized Web Nodes
-definition: A decentralized personal and application data storage and message relay node, as defined in the DIF Decentralized Web Node specification. Users may have multiple nodes that replicate their data between them.
+definition: A decentralized personal and application data storage and message relay node, as defined in the DIF Decentralized
+  Web Node specification. Users may have multiple nodes that replicate their data between them.
 notes: []
 see_also:
 - glossary
@@ -42,3 +55,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

@@ -1,8 +1,22 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:ip-address
+designations:
+- label: ip-address
+  language: en
+  status: preferred
+- label: IP address
+  language: en
+  status: alternative
+- label: IP addresses
+  language: en
+  status: alternative
 term: ip-address
 aliases:
 - IP address
 - IP addresses
-definition: 'An Internet Protocol address (IP address) is a numerical label such as 192.0.2.1 that is connected to a computer network that uses the Internet Protocol for communication. An IP address serves two main functions: network interface identification, and location addressing.'
+definition: 'An Internet Protocol address (IP address) is a numerical label such as 192.0.2.1 that is connected to a computer
+  network that uses the Internet Protocol for communication. An IP address serves two main functions: network interface identification,
+  and location addressing.'
 notes: []
 see_also:
 - glossary
@@ -40,3 +54,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

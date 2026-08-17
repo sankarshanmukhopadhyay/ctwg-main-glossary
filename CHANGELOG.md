@@ -1,5 +1,40 @@
 # Changelog
 
+## v2.0.0 — Trust Infrastructure Glossary independence and concept model
+
+v2.0.0 establishes the Trust Infrastructure Glossary as an independent project with its own semantic authority, source-intake governance, stable concept identifiers, concept/designation separation, provenance classifications, SKOS-aligned relations and mappings, vocabulary profiles, and canonical JSON/JSON-LD/Turtle artifacts.
+
+### Added
+
+- stable `urn:tig:concept:*` identifiers across all 612 concepts
+- language-tagged designation objects and editorial maturity
+- adopted/adapted/locally-defined/mapped provenance model
+- semantic relation and cross-vocabulary mapping structures
+- source-intake, lineage, semantic-model, and profile governance
+- SKOS-compatible Turtle generation
+- canonical TIG JSON and JSON-LD bundles
+- three validated vocabulary profiles
+- v2 migration guide
+
+### Changed
+
+- project identity from ToIP Main Glossary fork to Trust Infrastructure Glossary
+- ToIP from governing upstream to attributed source corpus
+- generated concept pages to expose identity, designations, provenance, relations, and mappings
+- Pages, package, citation, README, and contribution metadata for the new repository identity
+- `term` and `aliases` retained only as compatibility fields alongside the authoritative v2 concept/designation model
+
+### Removed
+
+- upstream drift monitor and synchronization workflows
+- upstream checkpoint state, templates, and policy validator
+- obsolete Spec-Up runtime scaffolding no longer used by the Jekyll/Python publication pipeline
+
+### Compatibility
+
+v2 is a breaking semantic-contract release. Legacy artifact filenames remain generated in v2.0.0 to support staged consumer migration.
+
+
 ## v1.5.0 — Reader Comprehension, Information Architecture, and Portfolio Vocabulary
 
 v1.5.0 makes the governance-executable glossary substantially easier to enter and use without weakening its precise or machine-readable semantics.

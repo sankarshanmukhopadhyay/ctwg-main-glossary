@@ -1,8 +1,23 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:data-packet
+designations:
+- label: data-packet
+  language: en
+  status: preferred
+- label: data packet
+  language: en
+  status: alternative
+- label: data packets
+  language: en
+  status: alternative
 term: data-packet
 aliases:
 - data packet
 - data packets
-definition: In telecommunications and computer networking, a network packet is a formatted unit of data carried by a packet-switched network such as the Internet. A packet consists of control information and user data; the latter is also known as the payload. Control information provides data for delivering the payload (e.g., source and destination network addresses, error detection codes, or sequencing information). Typically, control information is found in packet headers and trailers.
+definition: In telecommunications and computer networking, a network packet is a formatted unit of data carried by a packet-switched
+  network such as the Internet. A packet consists of control information and user data; the latter is also known as the payload.
+  Control information provides data for delivering the payload (e.g., source and destination network addresses, error detection
+  codes, or sequencing information). Typically, control information is found in packet headers and trailers.
 notes: []
 see_also:
 - glossary
@@ -44,3 +59,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

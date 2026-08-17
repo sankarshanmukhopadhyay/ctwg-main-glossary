@@ -6,6 +6,12 @@ title: "validation"
 
 # validation
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:validation`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,17 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **validity** (`en`, `alternative`)
+
+## Legacy Aliases
 validation, validity
+
+## Semantic Relations
+- **related**: `urn:tig:concept:verification`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [verification]({{ '/terms/verification/' | relative_url }})

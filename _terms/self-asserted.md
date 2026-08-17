@@ -6,6 +6,12 @@ title: "self-asserted"
 
 # self-asserted
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:self-asserted`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 A term used to describe a claim or a credential whose subject is also the issuer.
 
@@ -18,8 +24,20 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+None
+
+## Legacy Aliases
 self-asserted
+
+## Semantic Relations
+- **related**: `urn:tig:concept:credential`
+- **related**: `urn:tig:concept:issuer`
+- **related**: `urn:tig:concept:issuance`
+- **related**: `urn:tig:concept:verifiable-credential`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [credential]({{ '/terms/credential/' | relative_url }})

@@ -1,10 +1,21 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:authority
+designations:
+- label: authority
+  language: en
+  status: preferred
+- label: authorities
+  language: en
+  status: alternative
 term: authority
 aliases:
 - authority
 - authorities
-definition: A party whose decisions, policies, rules, or recognition outcomes are accepted as governing, directive, or controlling by other parties within a defined scope.
+definition: A party whose decisions, policies, rules, or recognition outcomes are accepted as governing, directive, or controlling
+  by other parties within a defined scope.
 notes:
-- The practical significance of an authority depends on the scope in which its decisions are recognized, how that scope is established, and whether that recognition can be delegated, constrained, contested, or revoked.
+- The practical significance of an authority depends on the scope in which its decisions are recognized, how that scope is
+  established, and whether that recognition can be delegated, constrained, contested, or revoked.
 see_also:
 - policy
 - governance-framework
@@ -59,4 +70,29 @@ crosswalk:
   - PM-1
   iso:
   - ISO/IEC 42001 5.3
-simple_definition: The recognized right or power to make a decision, grant permission, impose a rule, or act within a defined scope.
+simple_definition: The recognized right or power to make a decision, grant permission, impose a rule, or act within a defined
+  scope.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:policy
+  - urn:tig:concept:governance-framework
+  - urn:tig:concept:requirement
+  - urn:tig:concept:delegation
+  - urn:tig:concept:delegator
+  - urn:tig:concept:delegatee
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

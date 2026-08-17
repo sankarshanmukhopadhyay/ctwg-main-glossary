@@ -1,9 +1,22 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:accreditation
+designations:
+- label: accreditation
+  language: en
+  status: preferred
+- label: accredit
+  language: en
+  status: alternative
+- label: accredited
+  language: en
+  status: alternative
 term: accreditation
 aliases:
 - accreditation
 - accredit
 - accredited
-definition: Formal declaration by an accrediting authority that an information system is approved to operate at an acceptable level of risk, based on the implementation of an approved set of technical, managerial, and procedural safeguards.
+definition: Formal declaration by an accrediting authority that an information system is approved to operate at an acceptable
+  level of risk, based on the implementation of an approved set of technical, managerial, and procedural safeguards.
 notes: []
 see_also:
 - governance
@@ -55,3 +68,27 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:governance
+  - urn:tig:concept:governance-framework
+  - urn:tig:concept:governing-authority
+  - urn:tig:concept:trust-registry
+  - urn:tig:concept:revocation
+  - urn:tig:concept:verification
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

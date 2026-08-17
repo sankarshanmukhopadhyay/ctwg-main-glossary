@@ -6,6 +6,12 @@ title: "attestation"
 
 # attestation
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:attestation`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,20 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **attestations** (`en`, `alternative`)
+
+## Legacy Aliases
 attestation, attestations
+
+## Semantic Relations
+- **related**: `urn:tig:concept:audit`
+- **related**: `urn:tig:concept:verification`
+- **related**: `urn:tig:concept:definition`
+- **related**: `urn:tig:concept:glossary`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [audit]({{ '/terms/audit/' | relative_url }})

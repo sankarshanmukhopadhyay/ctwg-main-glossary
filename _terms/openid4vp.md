@@ -6,6 +6,12 @@ title: "openid4vp"
 
 # openid4vp
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:openid4vp`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 An OpenID Foundation protocol that defines mechanisms for requesting and presenting credentials between wallets and verifiers.
 
@@ -18,8 +24,23 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **OpenID4VP** (`en`, `alternative`)
+- **OID4VP** (`en`, `alternative`)
+
+## Legacy Aliases
 OpenID4VP, OID4VP
+
+## Semantic Relations
+- **related**: `urn:tig:concept:presentation`
+- **related**: `urn:tig:concept:presentation-request`
+- **related**: `urn:tig:concept:verifiable-presentation`
+- **related**: `urn:tig:concept:vp-token`
+- **related**: `urn:tig:concept:digital-wallet`
+- **related**: `urn:tig:concept:verifier`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [presentation]({{ '/terms/presentation/' | relative_url }})

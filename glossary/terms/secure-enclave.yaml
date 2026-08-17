@@ -1,3 +1,15 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:secure-enclave
+designations:
+- label: secure-enclave
+  language: en
+  status: preferred
+- label: Secure Enclave
+  language: en
+  status: alternative
+- label: Secure Enclaves
+  language: en
+  status: alternative
 term: secure-enclave
 aliases:
 - Secure Enclave
@@ -45,3 +57,23 @@ crosswalk:
   nist: []
   iso: []
 simple_definition: A coprocessor on Apple iOS devices that serves as a trusted execution environment.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

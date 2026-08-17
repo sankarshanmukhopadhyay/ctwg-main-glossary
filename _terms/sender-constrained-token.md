@@ -6,6 +6,12 @@ title: "sender-constrained-token"
 
 # sender-constrained-token
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:sender-constrained-token`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A token whose use is cryptographically constrained to a specific sender or key holder, reducing replay risk if the token is copied.
 
@@ -18,8 +24,20 @@ This term is part of the v1.2.0 standards-linked refresh and is anchored to acti
 ## Implementation Relevance
 Use this term when mapping glossary language to implementation profiles, governance controls, conformance checks, or assurance evidence.
 
-## Aliases
+## Alternative Designations
+- **sender constrained token** (`en`, `alternative`)
+
+## Legacy Aliases
 sender constrained token
+
+## Semantic Relations
+- **related**: `urn:tig:concept:dpop`
+- **related**: `urn:tig:concept:proof-of-possession`
+- **related**: `urn:tig:concept:authorization`
+- **related**: `urn:tig:concept:access-control`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [dpop]({{ '/terms/dpop/' | relative_url }})

@@ -6,6 +6,12 @@ title: "deep-link"
 
 # deep-link
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:deep-link`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,20 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **deep link** (`en`, `alternative`)
+- **deep links** (`en`, `alternative`)
+- **deep linking** (`en`, `alternative`)
+- **deep linked** (`en`, `alternative`)
+
+## Legacy Aliases
 deep link, deep links, deep linking, deep linked
+
+## Semantic Relations
+- **related**: `urn:tig:concept:out-of-band-introduction`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [out-of-band introduction]({{ '/terms/out-of-band-introduction/' | relative_url }})

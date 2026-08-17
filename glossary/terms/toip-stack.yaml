@@ -1,8 +1,22 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:toip-stack
+designations:
+- label: toip-stack
+  language: en
+  status: preferred
+- label: ToIP stack
+  language: en
+  status: alternative
+- label: ToIP stacks
+  language: en
+  status: alternative
 term: toip-stack
 aliases:
 - ToIP stack
 - ToIP stacks
-definition: 'The layered architecture for decentralized digital trust infrastructure defined by the ToIP Foundation. The ToIP stack is a dual stack consisting of two halves: the ToIP Technology Stack and the ToIP Governance Stack. The four layers in the ToIP stack are ToIP Layer 1, ToIP Layer 2, ToIP Layer 3, and ToIP Layer 4.'
+definition: 'The layered architecture for decentralized digital trust infrastructure defined by the ToIP Foundation. The ToIP
+  stack is a dual stack consisting of two halves: the ToIP Technology Stack and the ToIP Governance Stack. The four layers
+  in the ToIP stack are ToIP Layer 1, ToIP Layer 2, ToIP Layer 3, and ToIP Layer 4.'
 notes: []
 see_also:
 - governance
@@ -49,3 +63,27 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:governance
+  - urn:tig:concept:governance-framework
+  - urn:tig:concept:governing-authority
+  - urn:tig:concept:trust-registry
+  - urn:tig:concept:definition
+  - urn:tig:concept:glossary
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

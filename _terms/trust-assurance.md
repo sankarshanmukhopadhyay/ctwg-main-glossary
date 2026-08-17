@@ -6,6 +6,12 @@ title: "trust-assurance"
 
 # trust-assurance
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:trust-assurance`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 A process that provides a level of assurance sufficient to make a particular trust decision.
 
@@ -18,8 +24,23 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **trust assurance** (`en`, `alternative`)
+- **trust assurances** (`en`, `alternative`)
+
+## Legacy Aliases
 trust assurance, trust assurances
+
+## Semantic Relations
+- **related**: `urn:tig:concept:audit`
+- **related**: `urn:tig:concept:verification`
+- **related**: `urn:tig:concept:definition`
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:trust`
+- **related**: `urn:tig:concept:trust-registry`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [audit]({{ '/terms/audit/' | relative_url }})

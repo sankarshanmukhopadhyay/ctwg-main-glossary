@@ -6,6 +6,12 @@ title: "data-subject"
 
 # data-subject
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:data-subject`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 The natural person that is described by personal data. Data subject is the term used by the EU General Data Protection Regulation.
 
@@ -18,8 +24,19 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **data subject** (`en`, `alternative`)
+- **data subjects** (`en`, `alternative`)
+
+## Legacy Aliases
 data subject, data subjects
+
+## Semantic Relations
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:definition`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [glossary]({{ '/terms/glossary/' | relative_url }})

@@ -1,8 +1,22 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:protocol-stack
+designations:
+- label: protocol-stack
+  language: en
+  status: preferred
+- label: protocol stack
+  language: en
+  status: alternative
+- label: protocol stacks
+  language: en
+  status: alternative
 term: protocol-stack
 aliases:
 - protocol stack
 - protocol stacks
-definition: The protocol stack or network stack is an implementation of a computer networking protocol suite or protocol family. Some of these terms are used interchangeably but strictly speaking, the _suite_ is the definition of the communication protocols, and the _stack_ is the software implementation of them.
+definition: The protocol stack or network stack is an implementation of a computer networking protocol suite or protocol family.
+  Some of these terms are used interchangeably but strictly speaking, the _suite_ is the definition of the communication protocols,
+  and the _stack_ is the software implementation of them.
 notes: []
 see_also:
 - protocol layer.
@@ -39,3 +53,22 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:protocol-layer
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

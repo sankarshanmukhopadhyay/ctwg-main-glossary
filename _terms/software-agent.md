@@ -6,6 +6,12 @@ title: "software-agent"
 
 # software-agent
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:software-agent`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,18 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **software agent** (`en`, `alternative`)
+- **software agents** (`en`, `alternative`)
+
+## Legacy Aliases
 software agent, software agents
+
+## Semantic Relations
+- **related**: `urn:tig:concept:digital-agent`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [digital agent]({{ '/terms/digital-agent/' | relative_url }})

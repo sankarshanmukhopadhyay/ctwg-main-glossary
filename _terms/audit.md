@@ -6,6 +6,12 @@ title: "audit"
 
 # audit
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:audit`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 Independent review and examination of records and activities to assess the adequacy of system controls, to ensure compliance with established policies and operational procedures.
 
@@ -18,8 +24,19 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **audits** (`en`, `alternative`)
+
+## Legacy Aliases
 audit, audits
+
+## Semantic Relations
+- **related**: `urn:tig:concept:verification`
+- **related**: `urn:tig:concept:definition`
+- **related**: `urn:tig:concept:glossary`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [verification]({{ '/terms/verification/' | relative_url }})

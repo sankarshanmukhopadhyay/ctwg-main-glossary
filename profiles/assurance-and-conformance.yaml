@@ -1,0 +1,16 @@
+profile_id: urn:tig:profile:assurance-and-conformance
+title: Assurance and Conformance
+version: 2.0.0
+minimum_tig_version: 2.0.0
+purpose: Vocabulary for conformance, verification, validation, auditability, risk, governance, policy, and evidence-oriented
+  implementation review.
+concepts:
+- urn:tig:concept:conformance
+- urn:tig:concept:verification
+- urn:tig:concept:validation
+- urn:tig:concept:risk
+- urn:tig:concept:governance
+- urn:tig:concept:policy
+- urn:tig:concept:credential
+- urn:tig:concept:revocation
+- urn:tig:concept:interoperability

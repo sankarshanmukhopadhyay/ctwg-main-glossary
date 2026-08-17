@@ -1,8 +1,19 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:transaction
+designations:
+- label: transaction
+  language: en
+  status: preferred
+- label: transactions
+  language: en
+  status: alternative
 term: transaction
 aliases:
 - transaction
 - transactions
-definition: A discrete event between a user and a system that supports a business or programmatic purpose. A digital system may have multiple categories or types of transactions, which may require separate analysis within the overall digital identity risk assessment.
+definition: A discrete event between a user and a system that supports a business or programmatic purpose. A digital system
+  may have multiple categories or types of transactions, which may require separate analysis within the overall digital identity
+  risk assessment.
 notes: []
 see_also:
 - connection.
@@ -10,7 +21,8 @@ sources:
 - '[NIST-CSRC](https://csrc.nist.gov/glossary/term/transaction).'
 mental_models: []
 supporting_definitions:
-- 'eSSIF-Lab: the exchange of goods, services, funds, or data between some [parties](https://essif-lab.github.io/framework/docs/terms/party) (called [participants](https://essif-lab.github.io/framework/docs/terms/participant) of the [transaction](https://essif-lab.github.io/framework/docs/terms/transaction)).'
+- 'eSSIF-Lab: the exchange of goods, services, funds, or data between some [parties](https://essif-lab.github.io/framework/docs/terms/party)
+  (called [participants](https://essif-lab.github.io/framework/docs/terms/participant) of the [transaction](https://essif-lab.github.io/framework/docs/terms/transaction)).'
 source_file: spec/terms-definitions/transaction.md
 governance_profile: descriptive
 governance:
@@ -40,3 +52,22 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:connection
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

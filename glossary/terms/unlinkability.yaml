@@ -1,9 +1,17 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:unlinkability
+designations:
+- label: unlinkability
+  language: en
+  status: preferred
 term: unlinkability
 aliases:
 - unlinkability
-definition: A privacy property under which two or more transactions, proofs, identifiers, or observations cannot reasonably be determined to concern the same party beyond the permitted correlation scope.
+definition: A privacy property under which two or more transactions, proofs, identifiers, or observations cannot reasonably
+  be determined to concern the same party beyond the permitted correlation scope.
 notes:
-- This definition is normalized for cross-repository use and should be applied together with the governing profile or specification that supplies domain-specific constraints.
+- This definition is normalized for cross-repository use and should be applied together with the governing profile or specification
+  that supplies domain-specific constraints.
 see_also:
 - correlation-privacy
 - selective-disclosure
@@ -13,8 +21,10 @@ sources:
   publisher: GitHub
   url: https://github.com/trustoverip/dtgwg-zkp-tf
   normative: false
-reader_note: This term was added following a cross-repository terminology review of TSMM, TIS, TGA, and the DTG ZKP Task Force workspace.
-implementation_relevance: Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.
+reader_note: This term was added following a cross-repository terminology review of TSMM, TIS, TGA, and the DTG ZKP Task Force
+  workspace.
+implementation_relevance: Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent
+  across interoperating trust infrastructure repositories.
 governance_profile: governance-supporting
 governance:
   authority_scope:
@@ -57,3 +67,24 @@ control_plane:
   - delegation_record
   - status_record
   - verification_log
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:correlation-privacy
+  - urn:tig:concept:selective-disclosure
+  - urn:tig:concept:zero-knowledge-proof
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

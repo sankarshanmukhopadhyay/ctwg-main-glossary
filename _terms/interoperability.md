@@ -6,6 +6,12 @@ title: "interoperability"
 
 # interoperability
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:interoperability`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 Whether different systems can work together correctly for a defined purpose.
 
@@ -18,8 +24,18 @@ This is a cross-project glossary term. Individual specifications may define narr
 ## Implementation Relevance
 Use this term to keep governance, authority, assurance, and implementation discussions consistent across interoperating projects.
 
-## Aliases
+## Alternative Designations
 None
+
+## Legacy Aliases
+None
+
+## Semantic Relations
+- **related**: `urn:tig:concept:trust-registry-protocol`
+- **related**: `urn:tig:concept:conformance`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [trust-registry-protocol]({{ '/terms/trust-registry-protocol/' | relative_url }})

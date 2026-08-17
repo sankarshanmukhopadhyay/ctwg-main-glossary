@@ -1,8 +1,19 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:certification
+designations:
+- label: certification
+  language: en
+  status: preferred
+- label: certifications
+  language: en
+  status: alternative
 term: certification
 aliases:
 - certification
 - certifications
-definition: A comprehensive assessment of the management, operational, and technical security controls in an information system, made in support of security accreditation, to determine the extent to which the controls are implemented correctly, operating as intended, and producing the desired outcome with respect to meeting the security requirements for the system.
+definition: A comprehensive assessment of the management, operational, and technical security controls in an information system,
+  made in support of security accreditation, to determine the extent to which the controls are implemented correctly, operating
+  as intended, and producing the desired outcome with respect to meeting the security requirements for the system.
 notes: []
 see_also:
 - accreditation
@@ -43,3 +54,22 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:accreditation
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

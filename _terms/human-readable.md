@@ -6,6 +6,12 @@ title: "human-readable"
 
 # human-readable
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:human-readable`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 Information that can be processed by a human but that is not intended to be machine-readable.
 
@@ -18,8 +24,18 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **human-readability** (`en`, `alternative`)
+
+## Legacy Aliases
 human-readable, human-readability
+
+## Semantic Relations
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:definition`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [glossary]({{ '/terms/glossary/' | relative_url }})

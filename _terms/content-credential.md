@@ -6,6 +6,12 @@ title: "content-credential"
 
 # content-credential
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:content-credential`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 The user-facing C2PA term for provenance information represented by C2PA manifests associated with an asset.
 
@@ -18,8 +24,21 @@ This term is part of the v1.2.0 standards-linked refresh and is anchored to acti
 ## Implementation Relevance
 Use this term when mapping glossary language to implementation profiles, governance controls, conformance checks, or assurance evidence.
 
-## Aliases
+## Alternative Designations
+- **Content Credential** (`en`, `alternative`)
+- **Content Credentials** (`en`, `alternative`)
+
+## Legacy Aliases
 Content Credential, Content Credentials
+
+## Semantic Relations
+- **related**: `urn:tig:concept:c2pa`
+- **related**: `urn:tig:concept:c2pa-manifest`
+- **related**: `urn:tig:concept:provenance`
+- **related**: `urn:tig:concept:authenticity`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [c2pa]({{ '/terms/c2pa/' | relative_url }})

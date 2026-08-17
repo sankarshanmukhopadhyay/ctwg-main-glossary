@@ -1,7 +1,21 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:internet-protocol
+designations:
+- label: internet-protocol
+  language: en
+  status: preferred
+- label: Internet Protocol
+  language: en
+  status: alternative
 term: internet-protocol
 aliases:
 - Internet Protocol
-definition: The Internet Protocol (IP) is the network layer communications protocol in the Internet protocol suite (also known as the TCP/IP suite) for relaying datagrams across network boundaries. Its routing function enables internetworking, and essentially establishes the Internet. IP has the task of delivering packets from the source host to the destination host solely based on the IP addresses in the packet headers. For this purpose, IP defines packet structures that encapsulate the data to be delivered. It also defines addressing methods that are used to label the datagram with source and destination information.
+definition: The Internet Protocol (IP) is the network layer communications protocol in the Internet protocol suite (also known
+  as the TCP/IP suite) for relaying datagrams across network boundaries. Its routing function enables internetworking, and
+  essentially establishes the Internet. IP has the task of delivering packets from the source host to the destination host
+  solely based on the IP addresses in the packet headers. For this purpose, IP defines packet structures that encapsulate
+  the data to be delivered. It also defines addressing methods that are used to label the datagram with source and destination
+  information.
 notes: []
 see_also:
 - tcp-ip
@@ -42,3 +56,25 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:tcp-ip
+  - urn:tig:concept:user-datagram-protocol
+  - urn:tig:concept:ip-address
+  - urn:tig:concept:internet-protocol-suite
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

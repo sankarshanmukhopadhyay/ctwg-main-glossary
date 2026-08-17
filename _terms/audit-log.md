@@ -6,6 +6,12 @@ title: "audit-log"
 
 # audit-log
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:audit-log`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,18 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **audit log** (`en`, `alternative`)
+- **audit logs** (`en`, `alternative`)
+
+## Legacy Aliases
 audit log, audit logs
+
+## Semantic Relations
+- **related**: `urn:tig:concept:key-event-log`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [key event log]({{ '/terms/key-event-log/' | relative_url }})

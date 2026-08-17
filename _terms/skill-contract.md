@@ -6,6 +6,12 @@ title: "skill contract"
 
 # skill contract
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:skill-contract`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 An operational contract for a discrete capability that defines permitted inputs, outputs, authorization scope, policy conditions, and evidence obligations.
 
@@ -18,8 +24,19 @@ This term was added following a cross-repository terminology review of TSMM, TIS
 ## Implementation Relevance
 Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.
 
-## Aliases
+## Alternative Designations
+- **skill-contract** (`en`, `alternative`)
+
+## Legacy Aliases
 skill contract, skill-contract
+
+## Semantic Relations
+- **related**: `urn:tig:concept:capability`
+- **related**: `urn:tig:concept:policy`
+- **related**: `urn:tig:concept:authorization`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [capability]({{ '/terms/capability/' | relative_url }})

@@ -1,6 +1,6 @@
-# Governance-Executable Glossary
+# Trust Infrastructure Glossary
 
-Total terms: **612**
+Total concepts: **612**
 
 ## aal
 

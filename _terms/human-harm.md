@@ -6,6 +6,12 @@ title: "human harm"
 
 # human harm
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:human-harm`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A harmful effect on people, their rights, choices, safety, privacy, access, livelihood, or ability to seek a remedy.
 
@@ -18,8 +24,18 @@ This is a cross-project glossary term. Individual specifications may define narr
 ## Implementation Relevance
 Use this term to keep governance, authority, assurance, and implementation discussions consistent across interoperating projects.
 
-## Aliases
+## Alternative Designations
+- **human-harm** (`en`, `alternative`)
+
+## Legacy Aliases
 human-harm
+
+## Semantic Relations
+- **related**: `urn:tig:concept:risk`
+- **related**: `urn:tig:concept:risk-assessment`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [risk]({{ '/terms/risk/' | relative_url }})

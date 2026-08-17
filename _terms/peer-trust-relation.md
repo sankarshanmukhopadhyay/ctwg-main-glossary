@@ -6,6 +6,12 @@ title: "peer trust relation"
 
 # peer trust relation
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:peer-trust-relation`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,19 @@ This term was added following a cross-repository terminology review of TSMM, TIS
 ## Implementation Relevance
 Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.
 
-## Aliases
+## Alternative Designations
+- **peer-trust-relation** (`en`, `alternative`)
+
+## Legacy Aliases
 peer trust relation, peer-trust-relation
+
+## Semantic Relations
+- **related**: `urn:tig:concept:trust-relationship`
+- **related**: `urn:tig:concept:counterparty`
+- **related**: `urn:tig:concept:delegation`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [trust-relationship]({{ '/terms/trust-relationship/' | relative_url }})

@@ -1,3 +1,24 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:key-management-system
+designations:
+- label: key-management-system
+  language: en
+  status: preferred
+- label: key management system
+  language: en
+  status: alternative
+- label: key management systems
+  language: en
+  status: alternative
+- label: key management
+  language: en
+  status: alternative
+- label: KMS
+  language: en
+  status: alternative
+- label: KMSs
+  language: en
+  status: alternative
 term: key-management-system
 aliases:
 - key management system
@@ -5,7 +26,10 @@ aliases:
 - key management
 - KMS
 - KMSs
-definition: A system for the management of cryptographic keys and their metadata (e.g., generation, distribution, storage, backup, archive, recovery, use, revocation, and destruction). An automated key management system may be used to oversee, automate, and secure the key management process. A key management is often protected by implementing it within the trusted execution environment (TEE) of a device. An example is the Secure Enclave on Apple iOS devices.
+definition: A system for the management of cryptographic keys and their metadata (e.g., generation, distribution, storage,
+  backup, archive, recovery, use, revocation, and destruction). An automated key management system may be used to oversee,
+  automate, and secure the key management process. A key management is often protected by implementing it within the trusted
+  execution environment (TEE) of a device. An example is the Secure Enclave on Apple iOS devices.
 notes: []
 see_also:
 - glossary
@@ -48,3 +72,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

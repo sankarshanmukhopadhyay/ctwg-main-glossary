@@ -1,7 +1,20 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:general-data-protection-regulation
+designations:
+- label: general-data-protection-regulation
+  language: en
+  status: preferred
+- label: General Data Protection Regulation
+  language: en
+  status: alternative
 term: general-data-protection-regulation
 aliases:
 - General Data Protection Regulation
-definition: The General Data Protection Regulation (Regulation (EU) 2016/679, abbreviated GDPR) is a European Union regulation on information privacy in the European Union (EU) and the European Economic Area (EEA). The GDPR is an important component of EU privacy law and human rights law, in particular Article 8(1) of the Charter of Fundamental Rights of the European Union. It also governs the transfer of personal data outside the EU and EEA. The GDPR's goals are to enhance individuals' control and rights over their personal information and to simplify the regulations for international business.
+definition: The General Data Protection Regulation (Regulation (EU) 2016/679, abbreviated GDPR) is a European Union regulation
+  on information privacy in the European Union (EU) and the European Economic Area (EEA). The GDPR is an important component
+  of EU privacy law and human rights law, in particular Article 8(1) of the Charter of Fundamental Rights of the European
+  Union. It also governs the transfer of personal data outside the EU and EEA. The GDPR's goals are to enhance individuals'
+  control and rights over their personal information and to simplify the regulations for international business.
 notes: []
 see_also:
 - glossary
@@ -44,3 +57,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

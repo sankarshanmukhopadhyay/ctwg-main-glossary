@@ -6,6 +6,12 @@ title: "liveness-detection"
 
 # liveness-detection
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:liveness-detection`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 A check intended to show that a person or device is present and responding now, rather than being a recording or replay.
 
@@ -18,8 +24,18 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **liveness detection** (`en`, `alternative`)
+
+## Legacy Aliases
 liveness detection
+
+## Semantic Relations
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:definition`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [glossary]({{ '/terms/glossary/' | relative_url }})

@@ -1,0 +1,20 @@
+profile_id: urn:tig:profile:core-trust-infrastructure
+title: Core Trust Infrastructure
+version: 2.0.0
+minimum_tig_version: 2.0.0
+purpose: Baseline vocabulary for authority, governance, identity, credentials, policy, registries, delegation, authorization,
+  revocation, risk, and interoperability.
+concepts:
+- urn:tig:concept:trust
+- urn:tig:concept:governance
+- urn:tig:concept:authority
+- urn:tig:concept:identity
+- urn:tig:concept:credential
+- urn:tig:concept:verifiable-credential
+- urn:tig:concept:policy
+- urn:tig:concept:trust-registry
+- urn:tig:concept:delegation
+- urn:tig:concept:authorization
+- urn:tig:concept:revocation
+- urn:tig:concept:risk
+- urn:tig:concept:interoperability

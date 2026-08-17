@@ -6,6 +6,12 @@ title: "rule"
 
 # rule
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:rule`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 A prescribed guide for conduct, process or action to achieve a defined result or objective. Rules may be human-readable or machine-readable or both.
 
@@ -18,8 +24,18 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **rules** (`en`, `alternative`)
+
+## Legacy Aliases
 rule, rules
+
+## Semantic Relations
+- **related**: `urn:tig:concept:governance-framework`
+- **related**: `urn:tig:concept:policy`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [governance framework]({{ '/terms/governance-framework/' | relative_url }})

@@ -1,10 +1,10 @@
 ---
-title: "Terms: W"
-parent: "Glossary Terms"
+title: "Concepts: W"
+parent: "Concepts"
 nav_order: 23
 ---
 
-# Terms: W
+# Concepts: W
 
 - [w3c-verifiable-credentials-data-model-specification]({{ '/terms/w3c-verifiable-credentials-data-model-specification/' | relative_url }})
 - [wallet]({{ '/terms/wallet/' | relative_url }})

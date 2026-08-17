@@ -6,6 +6,12 @@ title: "runtime governance envelope"
 
 # runtime governance envelope
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:runtime-governance-envelope`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A structured envelope that binds the authority, policy, evidence, constraints, obligations, and lifecycle state applicable to a runtime interaction or task.
 
@@ -18,8 +24,19 @@ This term was added following a cross-repository terminology review of TSMM, TIS
 ## Implementation Relevance
 Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.
 
-## Aliases
+## Alternative Designations
+- **runtime-governance-envelope** (`en`, `alternative`)
+
+## Legacy Aliases
 runtime governance envelope, runtime-governance-envelope
+
+## Semantic Relations
+- **related**: `urn:tig:concept:governance`
+- **related**: `urn:tig:concept:authority`
+- **related**: `urn:tig:concept:policy`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [governance]({{ '/terms/governance/' | relative_url }})

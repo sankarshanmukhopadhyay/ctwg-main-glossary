@@ -1,8 +1,21 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:trust-task-protocol
+designations:
+- label: trust-task-protocol
+  language: en
+  status: preferred
+- label: trust task protocol
+  language: en
+  status: alternative
+- label: trust task protocols
+  language: en
+  status: alternative
 term: trust-task-protocol
 aliases:
 - trust task protocol
 - trust task protocols
-definition: A ToIP Layer 3 protocol that implements a specific trust task on behalf of a trust application operating at ToIP Layer 4.
+definition: A ToIP Layer 3 protocol that implements a specific trust task on behalf of a trust application operating at ToIP
+  Layer 4.
 notes: []
 see_also:
 - glossary
@@ -46,4 +59,27 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
-simple_definition: A ToIP Layer 3 protocol that implements a specific trust task on behalf of a trust application operating at ToIP Layer 4.
+simple_definition: A ToIP Layer 3 protocol that implements a specific trust task on behalf of a trust application operating
+  at ToIP Layer 4.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+  - urn:tig:concept:trust
+  - urn:tig:concept:trust-registry
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

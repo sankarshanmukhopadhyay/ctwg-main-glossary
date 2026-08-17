@@ -6,6 +6,12 @@ title: "technical-specification"
 
 # technical-specification
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:technical-specification`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,21 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **technical specification** (`en`, `alternative`)
+- **technical specifications** (`en`, `alternative`)
+
+## Legacy Aliases
 technical specification, technical specifications
+
+## Semantic Relations
+- **related**: `urn:tig:concept:governance-framework`
+- **related**: `urn:tig:concept:governance-requirement`
+- **related**: `urn:tig:concept:policy`
+- **related**: `urn:tig:concept:rule`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [governance framework]({{ '/terms/governance-framework/' | relative_url }})

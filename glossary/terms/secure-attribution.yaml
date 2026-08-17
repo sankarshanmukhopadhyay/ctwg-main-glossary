@@ -1,8 +1,19 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:secure-attribution
+designations:
+- label: secure-attribution
+  language: en
+  status: preferred
+- label: secure attribution
+  language: en
+  status: alternative
 term: secure-attribution
 aliases:
 - secure-attribution
 - secure attribution
-definition: 'Secure attribution is strongly related to _making and proving statements_. A controller makes statements to the a validator or verifier, who in turn validates the statements issued. A controller "_owns_" the statement: content and attribution via digital signatures. Secure attribution is "whodunit?!" in cyberspace.'
+definition: 'Secure attribution is strongly related to _making and proving statements_. A controller makes statements to the
+  a validator or verifier, who in turn validates the statements issued. A controller "_owns_" the statement: content and attribution
+  via digital signatures. Secure attribution is "whodunit?!" in cyberspace.'
 notes: []
 see_also:
 - verification
@@ -42,3 +53,25 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:verification
+  - urn:tig:concept:verifier
+  - urn:tig:concept:relying-party
+  - urn:tig:concept:trust-decision
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

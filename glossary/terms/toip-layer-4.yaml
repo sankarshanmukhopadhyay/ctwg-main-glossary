@@ -1,7 +1,18 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:toip-layer-4
+designations:
+- label: toip-layer-4
+  language: en
+  status: preferred
+- label: ToIP Layer 4
+  language: en
+  status: alternative
 term: toip-layer-4
 aliases:
 - ToIP Layer 4
-definition: The trust application layer of the ToIP stack, where end-users have the direct human experience of using applications that call trust task protocols to engage in trust relationships and make trust decisions using ToIP decentralized digital trust infrastructure.
+definition: The trust application layer of the ToIP stack, where end-users have the direct human experience of using applications
+  that call trust task protocols to engage in trust relationships and make trust decisions using ToIP decentralized digital
+  trust infrastructure.
 notes: []
 see_also:
 - glossary
@@ -43,3 +54,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

@@ -6,6 +6,12 @@ title: "attributional-trust"
 
 # attributional-trust
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:attributional-trust`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 KERI offers cryptographic root-of-trust to establish attributional trust. In the real world you'd also need reputational-trust. You can't have reputation without attributional trust.
 
@@ -18,8 +24,20 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **attributional trust** (`en`, `alternative`)
+
+## Legacy Aliases
 attributional-trust, attributional trust
+
+## Semantic Relations
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:definition`
+- **related**: `urn:tig:concept:trust`
+- **related**: `urn:tig:concept:trust-registry`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [glossary]({{ '/terms/glossary/' | relative_url }})

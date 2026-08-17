@@ -1,8 +1,21 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:sd-jwt-vc
+designations:
+- label: sd-jwt-vc
+  language: en
+  status: preferred
+- label: SD-JWT VC
+  language: en
+  status: alternative
+- label: SD-JWT-based Verifiable Credential
+  language: en
+  status: alternative
 term: sd-jwt-vc
 aliases:
 - SD-JWT VC
 - SD-JWT-based Verifiable Credential
-definition: A verifiable credential encoded using Selective Disclosure JWT mechanisms, enabling selected claims to be disclosed while preserving cryptographic verification.
+definition: A verifiable credential encoded using Selective Disclosure JWT mechanisms, enabling selected claims to be disclosed
+  while preserving cryptographic verification.
 reader_note: ''
 implementation_relevance: ''
 notes: []
@@ -55,4 +68,27 @@ crosswalk:
   openid:
   - OpenID4VCI
   - OpenID4VP
-simple_definition: A verifiable credential encoded using Selective Disclosure JWT mechanisms, enabling selected claims to be disclosed while preserving cryptographic verification.
+simple_definition: A verifiable credential encoded using Selective Disclosure JWT mechanisms, enabling selected claims to
+  be disclosed while preserving cryptographic verification.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:selective-disclosure
+  - urn:tig:concept:verifiable-credential
+  - urn:tig:concept:secured-verifiable-credential
+  - urn:tig:concept:key-binding-jwt
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

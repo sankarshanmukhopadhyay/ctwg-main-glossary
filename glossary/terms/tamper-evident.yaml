@@ -1,8 +1,18 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:tamper-evident
+designations:
+- label: tamper-evident
+  language: en
+  status: preferred
+- label: tamper evident
+  language: en
+  status: alternative
 term: tamper-evident
 aliases:
 - tamper evident
 - tamper-evident
-definition: A process which makes alterations to the data easily detectable. Form digital data objects, this is typically achieved via cryptographic verification.
+definition: A process which makes alterations to the data easily detectable. Form digital data objects, this is typically
+  achieved via cryptographic verification.
 notes: []
 see_also:
 - glossary
@@ -40,4 +50,25 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
-simple_definition: A process which makes alterations to the data easily detectable. Form digital data objects, this is typically achieved via cryptographic verification.
+simple_definition: A process which makes alterations to the data easily detectable. Form digital data objects, this is typically
+  achieved via cryptographic verification.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

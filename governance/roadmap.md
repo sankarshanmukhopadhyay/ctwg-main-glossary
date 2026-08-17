@@ -6,56 +6,44 @@ nav_order: 40
 
 # Governance Improvement Roadmap
 
-## Completed: v1.1.0 assurance-ready infrastructure
+## Completed: v2.0.0 independent concept system
 
-- schema-aware validation using `jsonschema`
-- controlled vocabularies for governance and assurance fields
-- schema-aligned examples under `examples/governance-term/`
-- generated governance quality report
-- generated artifact manifest
-- CI updates for validation, generation, quality reporting, and drift detection
-- refreshed maintainer and contributor documentation
+- renamed and repositioned the project as the **Trust Infrastructure Glossary**
+- replaced upstream synchronization with governed source intake and provenance review
+- preserved Trust over IP lineage without retaining upstream authority
+- introduced stable `urn:tig:concept:*` identifiers
+- separated concepts from language-tagged designations
+- introduced designation states: preferred, alternative, deprecated, discouraged
+- separated editorial maturity from represented lifecycle semantics
+- introduced adopted, adapted, locally defined, and mapped provenance classifications
+- added SKOS-aligned semantic relations and cross-vocabulary mapping relations
+- added JSON-LD and SKOS-compatible Turtle generation
+- added vocabulary profiles and profile validation
+- retained v1 compatibility fields and artifact filenames during migration
+- refreshed reader navigation, governance docs, contribution guidance, release metadata, and Pages identity
 
-## Completed: v1.2.0 standards-linked glossary refresh
+## Next: v2.1 source-corpus mapping
 
-- added structured citation support for standards and specifications
-- expanded coverage for VC 2.0, OpenID4VCI, OpenID4VP, SD-JWT VC, OpenID Federation, EUDI Wallet, DPoP, and C2PA vocabulary
-- improved generated term pages with reader notes, implementation relevance, source references, and linked related terms
-- added internal `see_also` and reference-marker validation
-- synchronized governance documentation and generated quality-report views
+- review priority concepts against W3C SKOS/DCMI, OpenSSF, CNCF, Schema.org, SPDX, ToIP, DTG, CAWG, OpenID, IETF, C2PA, EUDI, DIF, NIST, and ISO sources
+- populate `exact`, `close`, `broad`, `narrow`, and `related` mappings only after semantic review
+- convert more legacy source strings to structured citations
+- add machine-readable source-corpus inventories and license metadata
 
-## Completed: v1.5.0 reader comprehension and portfolio vocabulary
+## Next: plain-English coverage
 
-- added optional `simple_definition` as a reader-facing comprehension layer without replacing precise definitions
-- added Start Here and Concepts by Topic navigation
-- added a plain-English authoring guide and incremental migration policy
-- added cross-project terms for agent governance, conformance, interoperability, harms, recognition, redress, policy enforcement, and assurance boundaries
-- aligned package and release metadata with repository versioning
+- extend `simple_definition` coverage
+- add comprehension checks that do not treat readability formulas as semantic truth
+- add explicit review status for simple-language quality
 
-## Next: plain-English coverage expansion
+## Next: localization readiness
 
-- prioritize simple definitions for governance and runtime decision-point terms
-- add readability reporting without treating readability scores as semantic quality
-- review legacy long-form definitions for unnecessary complexity while preserving source fidelity
-- expand topic paths as the glossary grows
+- document translation governance
+- support more than one preferred designation by language while preserving one preferred designation per language
+- define translation provenance and review expectations
 
-## Next: standards mapping hardening
+## Future: profile and namespace ecosystem
 
-- continue converting legacy source strings into structured citation objects
-- add curated standards profiles for W3C, OpenID, IETF, C2PA, EU, ISO, NIST, DIF, and ToIP mappings
-- add optional external link checking in CI when network access is available
-- refine crosswalks for high-impact governance concepts
-
-## Next: downstream consumption support
-
-- publish stable guidance for policy engines, conformance suites, trust registries, and assurance dashboards
-- document artifact versioning expectations
-- define compatibility expectations for consumers of generated JSON and JSON-LD artifacts
-- consider a dedicated JSON-LD context once downstream consumers stabilize
-
-## Future: assurance and conformance alignment
-
-- define AL3+ term-quality expectations for high-assurance ecosystems
-- add optional conformance profiles for downstream consumers
-- link glossary terms to external trust infrastructure schemas where appropriate
-- provide machine-readable mappings for standards working groups and governance frameworks
+- allow downstream projects to publish interoperable TIG-derived profiles
+- document local concept namespaces and mapping expectations
+- add versioned compatibility guidance for profile consumers
+- consider stable HTTP concept identifiers if long-term hosting governance is established

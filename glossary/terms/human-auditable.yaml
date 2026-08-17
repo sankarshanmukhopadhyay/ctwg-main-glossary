@@ -1,8 +1,21 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:human-auditable
+designations:
+- label: human-auditable
+  language: en
+  status: preferred
+- label: human auditable
+  language: en
+  status: alternative
+- label: human auditability
+  language: en
+  status: alternative
 term: human-auditable
 aliases:
 - human auditable
 - human auditability
-definition: A process or procedure whose compliance with the policies in a trust framework or governance framework can only be verified by a human performing an audit. Human auditability is a primary goal of the ToIP Governance Stack.
+definition: A process or procedure whose compliance with the policies in a trust framework or governance framework can only
+  be verified by a human performing an audit. Human auditability is a primary goal of the ToIP Governance Stack.
 notes: []
 see_also:
 - policy
@@ -49,3 +62,27 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:policy
+  - urn:tig:concept:governance-framework
+  - urn:tig:concept:requirement
+  - urn:tig:concept:audit
+  - urn:tig:concept:verification
+  - urn:tig:concept:governance
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

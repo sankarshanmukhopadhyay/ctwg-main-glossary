@@ -6,6 +6,12 @@ title: "authentication"
 
 # authentication
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:authentication`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 Verifying the identity of a user, process, or device, often as a prerequisite to allowing access to resources in an information system.
 
@@ -18,8 +24,21 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **authenticate** (`en`, `alternative`)
+- **authenticates** (`en`, `alternative`)
+- **authenticated** (`en`, `alternative`)
+- **authenticating** (`en`, `alternative`)
+
+## Legacy Aliases
 authentication, authenticate, authenticates, authenticated, authenticating
+
+## Semantic Relations
+- **related**: `urn:tig:concept:authenticator`
+- **related**: `urn:tig:concept:verifiable-message`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [authenticator]({{ '/terms/authenticator/' | relative_url }})

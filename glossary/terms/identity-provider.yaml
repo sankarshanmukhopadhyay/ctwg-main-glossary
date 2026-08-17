@@ -1,12 +1,34 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:identity-provider
+designations:
+- label: identity-provider
+  language: en
+  status: preferred
+- label: identity provider
+  language: en
+  status: alternative
+- label: identity providers
+  language: en
+  status: alternative
+- label: IdP
+  language: en
+  status: alternative
+- label: IdPs
+  language: en
+  status: alternative
 term: identity-provider
 aliases:
 - identity provider
 - identity providers
 - IdP
 - IdPs
-definition: An identity provider (abbreviated IdP or IDP) is a system entity that creates, maintains, and manages identity information for principals and also provides authentication services to relying applications within a federation or distributed network.
+definition: An identity provider (abbreviated IdP or IDP) is a system entity that creates, maintains, and manages identity
+  information for principals and also provides authentication services to relying applications within a federation or distributed
+  network.
 notes:
-- The term “identity provider” is used in federated identity systems because it is a required component of their architecture. By contrast, decentralized identity and self-sovereign identity systems do not use the term because they are architected to enable entities to create and control their own digital identities without the need to depend on an external provider.
+- The term “identity provider” is used in federated identity systems because it is a required component of their architecture.
+  By contrast, decentralized identity and self-sovereign identity systems do not use the term because they are architected
+  to enable entities to create and control their own digital identities without the need to depend on an external provider.
 see_also:
 - verification
 - verifier
@@ -52,3 +74,27 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:verification
+  - urn:tig:concept:verifier
+  - urn:tig:concept:relying-party
+  - urn:tig:concept:trust-decision
+  - urn:tig:concept:authorization
+  - urn:tig:concept:permission
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

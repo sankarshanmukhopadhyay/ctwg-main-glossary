@@ -6,6 +6,12 @@ title: "technical-trust"
 
 # technical-trust
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:technical-trust`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,22 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **technical trust** (`en`, `alternative`)
+
+## Legacy Aliases
 technical trust
+
+## Semantic Relations
+- **related**: `urn:tig:concept:audit`
+- **related**: `urn:tig:concept:verification`
+- **related**: `urn:tig:concept:definition`
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:trust`
+- **related**: `urn:tig:concept:trust-registry`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [audit]({{ '/terms/audit/' | relative_url }})

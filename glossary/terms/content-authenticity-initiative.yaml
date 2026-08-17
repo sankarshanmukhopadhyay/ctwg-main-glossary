@@ -1,7 +1,18 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:content-authenticity-initiative
+designations:
+- label: content-authenticity-initiative
+  language: en
+  status: preferred
+- label: Content Authenticity Initiative
+  language: en
+  status: alternative
 term: content-authenticity-initiative
 aliases:
 - Content Authenticity Initiative
-definition: The Content Authenticity Initiative (CAI) is an association founded in November 2019 by Adobe, the New York Times and Twitter. The CAI promotes an industry standard for provenance metadata defined by the C2PA. The CAI cites curbing disinformation as one motivation for its activities.
+definition: The Content Authenticity Initiative (CAI) is an association founded in November 2019 by Adobe, the New York Times
+  and Twitter. The CAI promotes an industry standard for provenance metadata defined by the C2PA. The CAI cites curbing disinformation
+  as one motivation for its activities.
 notes: []
 see_also:
 - glossary
@@ -40,3 +51,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

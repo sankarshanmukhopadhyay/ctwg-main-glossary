@@ -1,8 +1,23 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:protocol-layer
+designations:
+- label: protocol-layer
+  language: en
+  status: preferred
+- label: protocol layer
+  language: en
+  status: alternative
+- label: protocol layers
+  language: en
+  status: alternative
 term: protocol-layer
 aliases:
 - protocol layer
 - protocol layers
-definition: In modern protocol design, protocols are layered to form a protocol stack. Layering is a design principle that divides the protocol design task into smaller steps, each of which accomplishes a specific part, interacting with the other parts of the protocol only in a small number of well-defined ways. Layering allows the parts of a protocol to be designed and tested without a combinatorial explosion of cases, keeping each design relatively simple.
+definition: In modern protocol design, protocols are layered to form a protocol stack. Layering is a design principle that
+  divides the protocol design task into smaller steps, each of which accomplishes a specific part, interacting with the other
+  parts of the protocol only in a small number of well-defined ways. Layering allows the parts of a protocol to be designed
+  and tested without a combinatorial explosion of cases, keeping each design relatively simple.
 notes: []
 see_also:
 - hourglass model
@@ -40,3 +55,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:hourglass-model
+  - urn:tig:concept:toip-stack
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

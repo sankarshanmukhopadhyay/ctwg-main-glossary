@@ -1,9 +1,9 @@
 ---
-title: "Terms: J"
-parent: "Glossary Terms"
+title: "Concepts: J"
+parent: "Concepts"
 nav_order: 10
 ---
 
-# Terms: J
+# Concepts: J
 
 - [jurisdiction]({{ '/terms/jurisdiction/' | relative_url }})

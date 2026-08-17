@@ -1,8 +1,18 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:non-repudiable
+designations:
+- label: non-repudiable
+  language: en
+  status: preferred
+- label: non repudiable
+  language: en
+  status: alternative
 term: non-repudiable
 aliases:
 - non-repudiable
 - non repudiable
-definition: Non-repudiation refers to a situation where a statement's author **cannot successfully dispute** its authorship or the validity of an associated contract, signature or commitment.
+definition: Non-repudiation refers to a situation where a statement's author **cannot successfully dispute** its authorship
+  or the validity of an associated contract, signature or commitment.
 notes: []
 see_also:
 - glossary
@@ -11,7 +21,8 @@ sources:
 - 'ToIP CTWG maintained glossary source: `spec/terms-definitions/non-repudiable.md`'
 mental_models: []
 supporting_definitions:
-- The term is often seen in a legal setting when the authenticity of a signature is being challenged. In such an instance, the authenticity is being "repudiated".
+- The term is often seen in a legal setting when the authenticity of a signature is being challenged. In such an instance,
+  the authenticity is being "repudiated".
 source_file: spec/terms-definitions/non-repudiable.md
 governance_profile: descriptive
 governance:
@@ -41,4 +52,25 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
-simple_definition: Non-repudiation refers to a situation where a statement's author **cannot successfully dispute** its authorship or the validity of an associated contract, signature or commitment.
+simple_definition: Non-repudiation refers to a situation where a statement's author **cannot successfully dispute** its authorship
+  or the validity of an associated contract, signature or commitment.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

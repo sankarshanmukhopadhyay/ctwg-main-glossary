@@ -1,8 +1,21 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:certificate-authority
+designations:
+- label: certificate-authority
+  language: en
+  status: preferred
+- label: certificate authority
+  language: en
+  status: alternative
+- label: certificate authorities
+  language: en
+  status: alternative
 term: certificate-authority
 aliases:
 - certificate authority
 - certificate authorities
-definition: The entity in a public key infrastructure (PKI) that is responsible for issuing public key certificates and exacting compliance to a PKI policy.
+definition: The entity in a public key infrastructure (PKI) that is responsible for issuing public key certificates and exacting
+  compliance to a PKI policy.
 notes: []
 see_also:
 - policy
@@ -15,7 +28,14 @@ sources:
 mental_models: []
 supporting_definitions:
 - 'Also known as: [[ref: certification authority]].'
-- '[Wikipedia](https://en.wikipedia.org/wiki/Certificate_authority): In [cryptography](https://en.wikipedia.org/wiki/Cryptography), a certificate authority or certification authority (CA) is an entity that stores, signs, and issues [digital certificates](https://en.wikipedia.org/wiki/Public_key_certificate). A digital certificate certifies the ownership of a public key by the named subject of the certificate. This allows others (relying parties) to rely upon signatures or on assertions made about the private key that corresponds to the certified public key. A CA acts as a trusted third party—trusted both by the subject (owner) of the certificate and by the party relying upon the certificate.[<sup>\[1\]</sup>](https://en.wikipedia.org/wiki/Certificate_authority#cite_note-1) The format of these certificates is specified by the [X.509](https://en.wikipedia.org/wiki/X.509) or [EMV](https://en.wikipedia.org/wiki/EMV) standard.'
+- '[Wikipedia](https://en.wikipedia.org/wiki/Certificate_authority): In [cryptography](https://en.wikipedia.org/wiki/Cryptography),
+  a certificate authority or certification authority (CA) is an entity that stores, signs, and issues [digital certificates](https://en.wikipedia.org/wiki/Public_key_certificate).
+  A digital certificate certifies the ownership of a public key by the named subject of the certificate. This allows others
+  (relying parties) to rely upon signatures or on assertions made about the private key that corresponds to the certified
+  public key. A CA acts as a trusted third party—trusted both by the subject (owner) of the certificate and by the party relying
+  upon the certificate.[<sup>\[1\]</sup>](https://en.wikipedia.org/wiki/Certificate_authority#cite_note-1) The format of these
+  certificates is specified by the [X.509](https://en.wikipedia.org/wiki/X.509) or [EMV](https://en.wikipedia.org/wiki/EMV)
+  standard.'
 source_file: spec/terms-definitions/certificate-authority.md
 governance_profile: core-operational
 governance:
@@ -58,4 +78,28 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
-simple_definition: The entity in a public key infrastructure (PKI) that is responsible for issuing public key certificates and exacting compliance to a PKI policy.
+simple_definition: The entity in a public key infrastructure (PKI) that is responsible for issuing public key certificates
+  and exacting compliance to a PKI policy.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:policy
+  - urn:tig:concept:governance-framework
+  - urn:tig:concept:requirement
+  - urn:tig:concept:governance
+  - urn:tig:concept:governing-authority
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

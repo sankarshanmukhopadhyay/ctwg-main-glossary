@@ -6,6 +6,12 @@ title: "agent registry"
 
 # agent registry
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:agent-registry`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A governed registry that helps others discover an agent and understand what it is allowed to do and whether that authority is still valid.
 
@@ -18,8 +24,19 @@ This is a cross-project glossary term. Individual specifications may define narr
 ## Implementation Relevance
 Use this term to keep governance, authority, assurance, and implementation discussions consistent across interoperating projects.
 
-## Aliases
+## Alternative Designations
+- **agent-registry** (`en`, `alternative`)
+
+## Legacy Aliases
 agent-registry
+
+## Semantic Relations
+- **related**: `urn:tig:concept:agent`
+- **related**: `urn:tig:concept:registry`
+- **related**: `urn:tig:concept:delegation`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [agent]({{ '/terms/agent/' | relative_url }})

@@ -1,3 +1,21 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:issuance
+designations:
+- label: issuance
+  language: en
+  status: preferred
+- label: issue
+  language: en
+  status: alternative
+- label: issues
+  language: en
+  status: alternative
+- label: issued
+  language: en
+  status: alternative
+- label: issuing
+  language: en
+  status: alternative
 term: issuance
 aliases:
 - issuance
@@ -5,7 +23,8 @@ aliases:
 - issues
 - issued
 - issuing
-definition: The action of an issuer producing and transmitting a digital credential to a holder. A holder may request issuance by submitting an issuance request.
+definition: The action of an issuer producing and transmitting a digital credential to a holder. A holder may request issuance
+  by submitting an issuance request.
 notes: []
 see_also:
 - presentation
@@ -55,4 +74,25 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
-simple_definition: The action of an issuer producing and transmitting a digital credential to a holder. A holder may request issuance by submitting an issuance request.
+simple_definition: The action of an issuer producing and transmitting a digital credential to a holder. A holder may request
+  issuance by submitting an issuance request.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:presentation
+  - urn:tig:concept:revocation
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

@@ -1,3 +1,21 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:verification
+designations:
+- label: verification
+  language: en
+  status: preferred
+- label: verify
+  language: en
+  status: alternative
+- label: verifies
+  language: en
+  status: alternative
+- label: verified
+  language: en
+  status: alternative
+- label: verifying
+  language: en
+  status: alternative
 term: verification
 aliases:
 - verification
@@ -5,7 +23,8 @@ aliases:
 - verifies
 - verified
 - verifying
-definition: An action an agent (of a principal) performs to determine the authenticity of a claim or other data object. Cryptographic verification uses cryptographic keys.
+definition: An action an agent (of a principal) performs to determine the authenticity of a claim or other data object. Cryptographic
+  verification uses cryptographic keys.
 notes: []
 see_also:
 - validation
@@ -17,7 +36,9 @@ sources:
 mental_models:
 - '[W3C Verifiable Credentials Data Model Roles & Information Flows](https://www.w3.org/TR/vc-data-model/#roles)'
 supporting_definitions:
-- '[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#verify): The act, by or on behalf of a [party](https://essif-lab.github.io/framework/docs/terms/party), of determining whether that data is authentic (i.e. originates from the [party](https://essif-lab.github.io/framework/docs/terms/party) that authored it), timely (i.e. has not expired), and conforms to other specifications that apply to its structure.'
+- '[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#verify): The act, by or on behalf of a [party](https://essif-lab.github.io/framework/docs/terms/party),
+  of determining whether that data is authentic (i.e. originates from the [party](https://essif-lab.github.io/framework/docs/terms/party)
+  that authored it), timely (i.e. has not expired), and conforms to other specifications that apply to its structure.'
 source_file: spec/terms-definitions/verification.md
 governance_profile: core-operational
 governance:
@@ -52,4 +73,27 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
-simple_definition: An action an agent (of a principal) performs to determine the authenticity of a claim or other data object. Cryptographic verification uses cryptographic keys.
+simple_definition: An action an agent (of a principal) performs to determine the authenticity of a claim or other data object.
+  Cryptographic verification uses cryptographic keys.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:validation
+  - urn:tig:concept:verifier
+  - urn:tig:concept:proof
+  - urn:tig:concept:cryptographic-verifiability
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

@@ -6,6 +6,12 @@ title: "presentation-attack"
 
 # presentation-attack
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:presentation-attack`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 A type of cybersecurity attack in which the attacker attempts to defeat a biometric liveness detection system by providing false inputs.
 
@@ -18,8 +24,19 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **presentation attack** (`en`, `alternative`)
+- **presentation attacks** (`en`, `alternative`)
+
+## Legacy Aliases
 presentation attack, presentation attacks
+
+## Semantic Relations
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:definition`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [glossary]({{ '/terms/glossary/' | relative_url }})

@@ -1,8 +1,18 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:attributional-trust
+designations:
+- label: attributional-trust
+  language: en
+  status: preferred
+- label: attributional trust
+  language: en
+  status: alternative
 term: attributional-trust
 aliases:
 - attributional-trust
 - attributional trust
-definition: KERI offers cryptographic root-of-trust to establish attributional trust. In the real world you'd also need reputational-trust. You can't have reputation without attributional trust.
+definition: KERI offers cryptographic root-of-trust to establish attributional trust. In the real world you'd also need reputational-trust.
+  You can't have reputation without attributional trust.
 notes: []
 see_also:
 - glossary
@@ -47,4 +57,27 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
-simple_definition: KERI offers cryptographic root-of-trust to establish attributional trust. In the real world you'd also need reputational-trust. You can't have reputation without attributional trust.
+simple_definition: KERI offers cryptographic root-of-trust to establish attributional trust. In the real world you'd also
+  need reputational-trust. You can't have reputation without attributional trust.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+  - urn:tig:concept:trust
+  - urn:tig:concept:trust-registry
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

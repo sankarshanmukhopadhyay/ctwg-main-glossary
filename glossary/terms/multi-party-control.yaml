@@ -1,7 +1,18 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:multi-party-control
+designations:
+- label: multi-party-control
+  language: en
+  status: preferred
+- label: multi-party control
+  language: en
+  status: alternative
 term: multi-party-control
 aliases:
 - multi-party control
-definition: A variant of multi-party computation where multiple parties must act in concert to meet a control requirement without revealing each other’s data. All parties are privy to the output of the control, but no party learns anything about the others.
+definition: A variant of multi-party computation where multiple parties must act in concert to meet a control requirement
+  without revealing each other’s data. All parties are privy to the output of the control, but no party learns anything about
+  the others.
 notes: []
 see_also:
 - glossary
@@ -43,3 +54,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

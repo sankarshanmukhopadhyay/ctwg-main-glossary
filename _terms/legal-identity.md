@@ -6,6 +6,12 @@ title: "legal-identity"
 
 # legal-identity
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:legal-identity`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 A set of identity data considered authoritative to identify a party for purposes of legal accountability under one or more jurisdictions.
 
@@ -18,8 +24,19 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **legal identity** (`en`, `alternative`)
+- **legal identities** (`en`, `alternative`)
+
+## Legacy Aliases
 legal identity, legal identities
+
+## Semantic Relations
+- **related**: `urn:tig:concept:foundational-identity`
+- **related**: `urn:tig:concept:functional-identity`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [foundational identity]({{ '/terms/foundational-identity/' | relative_url }})

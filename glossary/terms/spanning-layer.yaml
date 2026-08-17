@@ -1,7 +1,17 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:spanning-layer
+designations:
+- label: spanning-layer
+  language: en
+  status: preferred
+- label: spanning layer
+  language: en
+  status: alternative
 term: spanning-layer
 aliases:
 - spanning layer
-definition: A specific layer within a protocol stack that consists of a single protocol explicitly designed to provide interoperability between the protocol layers above it and below it.
+definition: A specific layer within a protocol stack that consists of a single protocol explicitly designed to provide interoperability
+  between the protocol layers above it and below it.
 notes: []
 see_also:
 - hourglass model
@@ -10,7 +20,8 @@ sources:
 - 'ToIP CTWG maintained glossary source: `spec/terms-definitions/spanning-layer.md`'
 mental_models: []
 supporting_definitions:
-- 'For more information, see: <https://www.isi.edu/newarch/iDOCS/final.finalreport.pdf>, National Academies of Sciences, Engineering, and Medicine. 1997. The Unpredictable Certainty: White Papers. Washington, DC: The National Academies Press. <https://doi.org/10.17226/6062>.'
+- 'For more information, see: <https://www.isi.edu/newarch/iDOCS/final.finalreport.pdf>, National Academies of Sciences, Engineering,
+  and Medicine. 1997. The Unpredictable Certainty: White Papers. Washington, DC: The National Academies Press. <https://doi.org/10.17226/6062>.'
 source_file: spec/terms-definitions/spanning-layer.md
 governance_profile: descriptive
 governance:
@@ -40,3 +51,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:hourglass-model
+  - urn:tig:concept:trust-spanning-layer
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

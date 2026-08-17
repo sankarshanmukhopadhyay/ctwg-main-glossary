@@ -1,7 +1,14 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:agency
+designations:
+- label: agency
+  language: en
+  status: preferred
 term: agency
 aliases:
 - agency
-definition: In the context of decentralized digital trust infrastructure, the empowering of a party to act independently of its own accord, and in particular to empower the party to employ an agent to act on the party's behalf.
+definition: In the context of decentralized digital trust infrastructure, the empowering of a party to act independently of
+  its own accord, and in particular to empower the party to employ an agent to act on the party's behalf.
 notes: []
 see_also:
 - delegation
@@ -42,3 +49,25 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:delegation
+  - urn:tig:concept:delegator
+  - urn:tig:concept:delegatee
+  - urn:tig:concept:authorization
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

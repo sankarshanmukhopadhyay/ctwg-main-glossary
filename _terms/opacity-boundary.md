@@ -6,6 +6,12 @@ title: "opacity boundary"
 
 # opacity boundary
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:opacity-boundary`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A declared limit on what can be observed about an agent or system and the resulting constraints on trust, evidence, assurance, and permitted reliance.
 
@@ -18,8 +24,18 @@ This term was added following a cross-repository terminology review of TSMM, TIS
 ## Implementation Relevance
 Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.
 
-## Aliases
+## Alternative Designations
+- **opacity-boundary** (`en`, `alternative`)
+
+## Legacy Aliases
 opacity boundary, opacity-boundary
+
+## Semantic Relations
+- **related**: `urn:tig:concept:trust-boundary`
+- **related**: `urn:tig:concept:trust-assurance`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [trust-boundary]({{ '/terms/trust-boundary/' | relative_url }})

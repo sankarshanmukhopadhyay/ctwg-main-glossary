@@ -1,10 +1,10 @@
 ---
-title: "Terms: O"
-parent: "Glossary Terms"
+title: "Concepts: O"
+parent: "Concepts"
 nav_order: 15
 ---
 
-# Terms: O
+# Concepts: O
 
 - [objective]({{ '/terms/objective/' | relative_url }})
 - [observability mode]({{ '/terms/observability-mode/' | relative_url }})

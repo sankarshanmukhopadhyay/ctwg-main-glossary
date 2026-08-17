@@ -6,6 +6,12 @@ title: "connection"
 
 # connection
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:connection`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 A communication channel established between two communication endpoints. A connection may be ephemeral or persistent.
 
@@ -18,8 +24,17 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **connections** (`en`, `alternative`)
+
+## Legacy Aliases
 connection, connections
+
+## Semantic Relations
+- **related**: `urn:tig:concept:toip-connection`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [ToIP connection]({{ '/terms/toip-connection/' | relative_url }})

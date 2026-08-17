@@ -6,6 +6,12 @@ title: "predicate proof"
 
 # predicate proof
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:predicate-proof`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A proof that establishes whether a defined condition about one or more attributes is satisfied without necessarily disclosing the underlying attribute values.
 
@@ -18,8 +24,19 @@ This term was added following a cross-repository terminology review of TSMM, TIS
 ## Implementation Relevance
 Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.
 
-## Aliases
+## Alternative Designations
+- **predicate-proof** (`en`, `alternative`)
+
+## Legacy Aliases
 predicate proof, predicate-proof
+
+## Semantic Relations
+- **related**: `urn:tig:concept:zero-knowledge-proof`
+- **related**: `urn:tig:concept:selective-disclosure`
+- **related**: `urn:tig:concept:claim`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [zero-knowledge-proof]({{ '/terms/zero-knowledge-proof/' | relative_url }})

@@ -1,10 +1,10 @@
 ---
-title: "Terms: G"
-parent: "Glossary Terms"
+title: "Concepts: G"
+parent: "Concepts"
 nav_order: 7
 ---
 
-# Terms: G
+# Concepts: G
 
 - [gateway]({{ '/terms/gateway/' | relative_url }})
 - [gdpr]({{ '/terms/gdpr/' | relative_url }})

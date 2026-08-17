@@ -1,7 +1,18 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:correlation-privacy
+designations:
+- label: correlation-privacy
+  language: en
+  status: preferred
+- label: correlation privacy
+  language: en
+  status: alternative
 term: correlation-privacy
 aliases:
 - correlation privacy
-definition: In a communications context, a type of privacy protection in which messages use encryption, hashes, or other privacy-preserving technologies to avoid the use of identifiers or other content that unauthorized parties may use to correlate the sender and/or receiver(s).
+definition: In a communications context, a type of privacy protection in which messages use encryption, hashes, or other privacy-preserving
+  technologies to avoid the use of identifiers or other content that unauthorized parties may use to correlate the sender
+  and/or receiver(s).
 notes: []
 see_also:
 - authenticity
@@ -43,3 +54,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:authenticity
+  - urn:tig:concept:confidentiality
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

@@ -6,6 +6,12 @@ title: "tamper-resistant"
 
 # tamper-resistant
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:tamper-resistant`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,20 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **tamper resistant** (`en`, `alternative`)
+- **tamper resistance** (`en`, `alternative`)
+- **tamper-resistance** (`en`, `alternative`)
+
+## Legacy Aliases
 tamper resistant, tamper resistance, tamper-resistant, tamper-resistance
+
+## Semantic Relations
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:definition`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [glossary]({{ '/terms/glossary/' | relative_url }})

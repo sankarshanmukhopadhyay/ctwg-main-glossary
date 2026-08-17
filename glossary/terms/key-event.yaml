@@ -1,9 +1,23 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:key-event
+designations:
+- label: key-event
+  language: en
+  status: preferred
+- label: key event
+  language: en
+  status: alternative
+- label: key events
+  language: en
+  status: alternative
 term: key-event
 aliases:
 - key event
 - key-event
 - key events
-definition: An event in the history of the usage of a cryptographic key pair. There are multiple types of key events. The inception event is when the key pair is first generated. A rotation event is when the key pair is changed to a new key pair. In some key management systems (such as KERI), key events are tracked in a key event log.
+definition: An event in the history of the usage of a cryptographic key pair. There are multiple types of key events. The
+  inception event is when the key pair is first generated. A rotation event is when the key pair is changed to a new key pair.
+  In some key management systems (such as KERI), key events are tracked in a key event log.
 notes: []
 see_also:
 - glossary
@@ -42,3 +56,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

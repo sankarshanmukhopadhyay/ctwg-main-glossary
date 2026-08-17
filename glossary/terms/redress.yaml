@@ -1,9 +1,17 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:redress
+designations:
+- label: redress
+  language: en
+  status: preferred
 term: redress
 aliases: []
-definition: A governed path through which an affected party can challenge an outcome, seek correction or remedy, and obtain an accountable response.
+definition: A governed path through which an affected party can challenge an outcome, seek correction or remedy, and obtain
+  an accountable response.
 simple_definition: A way for someone affected by a decision to challenge it and seek a correction or remedy.
 notes:
-- Added in v1.5.0 following a cross-repository terminology review of active trust infrastructure, agent governance, assurance, and national trust framework projects.
+- Added in v1.5.0 following a cross-repository terminology review of active trust infrastructure, agent governance, assurance,
+  and national trust framework projects.
 see_also:
 - governance
 - decision receipt
@@ -13,7 +21,8 @@ sources:
   url: https://github.com/sankarshanmukhopadhyay/open-national-digital-trust-framework
   normative: false
 reader_note: This is a cross-project glossary term. Individual specifications may define narrower domain-specific requirements.
-implementation_relevance: Use this term to keep governance, authority, assurance, and implementation discussions consistent across interoperating projects.
+implementation_relevance: Use this term to keep governance, authority, assurance, and implementation discussions consistent
+  across interoperating projects.
 governance_profile: governance-supporting
 governance:
   authority_scope:
@@ -51,3 +60,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:governance
+  - urn:tig:concept:decision-receipt
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

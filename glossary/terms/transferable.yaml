@@ -1,3 +1,9 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:transferable
+designations:
+- label: transferable
+  language: en
+  status: preferred
 term: transferable
 aliases:
 - transferable
@@ -10,7 +16,9 @@ sources:
 - 'ToIP CTWG maintained glossary source: `spec/terms-definitions/transferable.md`'
 mental_models: []
 supporting_definitions:
-- 'The adjective transferable also means ''Negotiable'', as a note, bill of exchange, or other evidence of property, that may be conveyed from one person to another by indorsement or other writing; capable of being transferred with no loss of value. As opposed to [[ref: non-transferable]].'
+- 'The adjective transferable also means ''Negotiable'', as a note, bill of exchange, or other evidence of property, that
+  may be conveyed from one person to another by indorsement or other writing; capable of being transferred with no loss of
+  value. As opposed to [[ref: non-transferable]].'
 - '[Source](https://www.wordnik.com/words/transferable)'
 source_file: spec/terms-definitions/transferable.md
 governance_profile: descriptive
@@ -42,3 +50,23 @@ crosswalk:
   nist: []
   iso: []
 simple_definition: Capable of being transferred or conveyed from one place or person to another. Place can be its and bits.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

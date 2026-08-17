@@ -6,6 +6,12 @@ title: "password"
 
 # password
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:password`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A string of characters (letters, numbers and other symbols) that are used to authenticate an identity, verify access authorization or derive cryptographic keys.
 
@@ -18,8 +24,17 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **passwords** (`en`, `alternative`)
+
+## Legacy Aliases
 password, passwords
+
+## Semantic Relations
+- **related**: `urn:tig:concept:complex-password`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [complex password]({{ '/terms/complex-password/' | relative_url }})

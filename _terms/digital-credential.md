@@ -6,6 +6,12 @@ title: "digital-credential"
 
 # digital-credential
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:digital-credential`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,20 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **digital credential** (`en`, `alternative`)
+- **digital credentials** (`en`, `alternative`)
+
+## Legacy Aliases
 digital credential, digital credentials
+
+## Semantic Relations
+- **related**: `urn:tig:concept:issuance-request`
+- **related**: `urn:tig:concept:presentation-request`
+- **related**: `urn:tig:concept:verifiable-credential`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [issuance request]({{ '/terms/issuance-request/' | relative_url }})

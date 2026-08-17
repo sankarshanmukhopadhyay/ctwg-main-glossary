@@ -1,10 +1,24 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:custodian
+designations:
+- label: custodian
+  language: en
+  status: preferred
+- label: custodians
+  language: en
+  status: alternative
 term: custodian
 aliases:
 - custodian
 - custodians
-definition: A third party that has been assigned rights and duties in a custodianship arrangement for the purpose of hosting and safeguarding a principal's private keys, digital wallet and digital assets on the principal’s behalf. Depending on the custodianship arrangement, the custodian may act as an exchange and provide additional services, such as staking, lending, account recovery, or security features.
+definition: A third party that has been assigned rights and duties in a custodianship arrangement for the purpose of hosting
+  and safeguarding a principal's private keys, digital wallet and digital assets on the principal’s behalf. Depending on the
+  custodianship arrangement, the custodian may act as an exchange and provide additional services, such as staking, lending,
+  account recovery, or security features.
 notes:
-- While a custodian technically has the necessary access to in theory impersonate the principal, in most cases a custodian is expressly prohibited from taking any action on the principal’s account unless explicitly authorized by the principal. This is what distinguishes custodianship from guardianship.
+- While a custodian technically has the necessary access to in theory impersonate the principal, in most cases a custodian
+  is expressly prohibited from taking any action on the principal’s account unless explicitly authorized by the principal.
+  This is what distinguishes custodianship from guardianship.
 see_also:
 - custodial wallet.
 sources:
@@ -12,7 +26,9 @@ sources:
 mental_models: []
 supporting_definitions:
 - 'Contrast with: [[ref: guardian]], [[ref: zero-knowledge service provider]].'
-- '[NIST-CSRC](https://csrc.nist.gov/glossary/term/custodian): A third-party [[ref: entity]] that holds and safeguards a user’s [[ref: private keys]] or digital assets on their behalf. Depending on the system, a custodian may act as an exchange and provide additional services, such as staking, lending, account recovery, or security features.'
+- '[NIST-CSRC](https://csrc.nist.gov/glossary/term/custodian): A third-party [[ref: entity]] that holds and safeguards a user’s
+  [[ref: private keys]] or digital assets on their behalf. Depending on the system, a custodian may act as an exchange and
+  provide additional services, such as staking, lending, account recovery, or security features.'
 source_file: spec/terms-definitions/custodian.md
 governance_profile: core-operational
 governance:
@@ -46,3 +62,22 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:custodial-wallet
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

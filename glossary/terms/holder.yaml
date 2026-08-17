@@ -1,8 +1,19 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:holder
+designations:
+- label: holder
+  language: en
+  status: preferred
+- label: holders
+  language: en
+  status: alternative
 term: holder
 aliases:
 - holder
 - holders
-definition: A role an agent performs by serving as the controller of the cryptographic keys and digital credentials in a digital wallet. The holder makes issuance requests for credentials and responds to presentation requests for credentials. A holder is usually, but not always, a subject of the credentials they are holding.
+definition: A role an agent performs by serving as the controller of the cryptographic keys and digital credentials in a digital
+  wallet. The holder makes issuance requests for credentials and responds to presentation requests for credentials. A holder
+  is usually, but not always, a subject of the credentials they are holding.
 notes: []
 see_also:
 - issuer
@@ -12,8 +23,16 @@ sources:
 mental_models:
 - '[W3C Verifiable Credentials Data Model Roles & Information Flows](https://www.w3.org/TR/vc-data-model/#roles)'
 supporting_definitions:
-- '[eSSIF-Lab](https://essif-lab.github.io/framework/docs/terms/holder): a component that implements the [capability](https://essif-lab.github.io/framework/docs/terms/capability) to handle [presentation requests](https://essif-lab.github.io/framework/docs/terms/presentation-request) from a [peer agent](https://essif-lab.github.io/framework/docs/terms/peer-agent), produce the requested data (a presentation) according to its [principal](https://essif-lab.github.io/framework/docs/terms/principal)''s [holder-policy](https://essif-lab.github.io/framework/docs/terms/holder-policy), and send that in response to the request.'
-- '[W3C VC](https://www.w3.org/TR/vc-data-model/#dfn-holders): A role an [entity](https://www.w3.org/TR/vc-data-model/#dfn-entities) might perform by possessing one or more [verifiable credentials](https://www.w3.org/TR/vc-data-model/#dfn-verifiable-credentials) and generating [presentations](https://www.w3.org/TR/vc-data-model/#dfn-presentations) from them. A holder is usually, but not always, a [subject](https://www.w3.org/TR/vc-data-model/#dfn-subjects) of the [verifiable credentials](https://www.w3.org/TR/vc-data-model/#dfn-verifiable-credentials) they are holding. Holders store their [credentials](https://www.w3.org/TR/vc-data-model/#dfn-credential) in [credential repositories](https://www.w3.org/TR/vc-data-model/#dfn-credential-repository).'
+- '[eSSIF-Lab](https://essif-lab.github.io/framework/docs/terms/holder): a component that implements the [capability](https://essif-lab.github.io/framework/docs/terms/capability)
+  to handle [presentation requests](https://essif-lab.github.io/framework/docs/terms/presentation-request) from a [peer agent](https://essif-lab.github.io/framework/docs/terms/peer-agent),
+  produce the requested data (a presentation) according to its [principal](https://essif-lab.github.io/framework/docs/terms/principal)''s
+  [holder-policy](https://essif-lab.github.io/framework/docs/terms/holder-policy), and send that in response to the request.'
+- '[W3C VC](https://www.w3.org/TR/vc-data-model/#dfn-holders): A role an [entity](https://www.w3.org/TR/vc-data-model/#dfn-entities)
+  might perform by possessing one or more [verifiable credentials](https://www.w3.org/TR/vc-data-model/#dfn-verifiable-credentials)
+  and generating [presentations](https://www.w3.org/TR/vc-data-model/#dfn-presentations) from them. A holder is usually, but
+  not always, a [subject](https://www.w3.org/TR/vc-data-model/#dfn-subjects) of the [verifiable credentials](https://www.w3.org/TR/vc-data-model/#dfn-verifiable-credentials)
+  they are holding. Holders store their [credentials](https://www.w3.org/TR/vc-data-model/#dfn-credential) in [credential
+  repositories](https://www.w3.org/TR/vc-data-model/#dfn-credential-repository).'
 source_file: spec/terms-definitions/holder.md
 governance_profile: core-operational
 governance:
@@ -62,3 +81,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:issuer
+  - urn:tig:concept:verifier
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

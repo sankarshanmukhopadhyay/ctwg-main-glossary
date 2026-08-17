@@ -1,10 +1,29 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:uniform-resource-locator
+designations:
+- label: uniform-resource-locator
+  language: en
+  status: preferred
+- label: Uniform Resource Locator
+  language: en
+  status: alternative
+- label: Uniform Resource Locators
+  language: en
+  status: alternative
+- label: URL
+  language: en
+  status: alternative
+- label: URLs
+  language: en
+  status: alternative
 term: uniform-resource-locator
 aliases:
 - Uniform Resource Locator
 - Uniform Resource Locators
 - URL
 - URLs
-definition: A Uniform Resource Locator (URL) is the standard form of a Web address used to link resources in browsers and other Internet applications. Technically, it is a specific type of Uniform Resource Identifier (URI).
+definition: A Uniform Resource Locator (URL) is the standard form of a Web address used to link resources in browsers and
+  other Internet applications. Technically, it is a specific type of Uniform Resource Identifier (URI).
 notes: []
 see_also:
 - glossary
@@ -43,3 +62,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

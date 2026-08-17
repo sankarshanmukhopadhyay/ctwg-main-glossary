@@ -6,6 +6,12 @@ title: "governance"
 
 # governance
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:governance`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 The rules, roles, decision rights, and processes used to direct and control a system or community.
 
@@ -18,8 +24,18 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+None
+
+## Legacy Aliases
 governance
+
+## Semantic Relations
+- **related**: `urn:tig:concept:governing-body`
+- **related**: `urn:tig:concept:governance-framework`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [governing body]({{ '/terms/governing-body/' | relative_url }})

@@ -6,6 +6,12 @@ title: "delegatee"
 
 # delegatee
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:delegatee`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 The second party receiving a delegation from a first party (the delegator) and authorized to act only within the granted scope and applicable constraints.
 
@@ -18,8 +24,20 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **delegatees** (`en`, `alternative`)
+
+## Legacy Aliases
 delegatee, delegatees
+
+## Semantic Relations
+- **related**: `urn:tig:concept:delegation`
+- **related**: `urn:tig:concept:delegator`
+- **related**: `urn:tig:concept:authorization`
+- **related**: `urn:tig:concept:revocation`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [delegation]({{ '/terms/delegation/' | relative_url }})

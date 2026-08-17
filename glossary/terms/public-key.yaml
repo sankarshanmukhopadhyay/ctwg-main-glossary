@@ -1,8 +1,21 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:public-key
+designations:
+- label: public-key
+  language: en
+  status: preferred
+- label: public key
+  language: en
+  status: alternative
+- label: public keys
+  language: en
+  status: alternative
 term: public-key
 aliases:
 - public key
 - public keys
-definition: In public key cryptography, the cryptographic key that can be freely shared with anyone by the controller without compromising security. A party's public key must be verified as authoritative in order to verify their digital signature.
+definition: In public key cryptography, the cryptographic key that can be freely shared with anyone by the controller without
+  compromising security. A party's public key must be verified as authoritative in order to verify their digital signature.
 notes: []
 see_also:
 - governance
@@ -15,7 +28,8 @@ sources:
 - 'ToIP CTWG maintained glossary source: `spec/terms-definitions/public-key.md`'
 mental_models: []
 supporting_definitions:
-- '[NIST-CSRC](https://csrc.nist.gov/glossary/term/public_key): The public part of an asymmetric key pair that is typically used to verify signatures or encrypt data.'
+- '[NIST-CSRC](https://csrc.nist.gov/glossary/term/public_key): The public part of an asymmetric key pair that is typically
+  used to verify signatures or encrypt data.'
 source_file: spec/terms-definitions/public-key.md
 governance_profile: core-operational
 governance:
@@ -49,3 +63,27 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:governance
+  - urn:tig:concept:governance-framework
+  - urn:tig:concept:governing-authority
+  - urn:tig:concept:trust-registry
+  - urn:tig:concept:definition
+  - urn:tig:concept:glossary
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

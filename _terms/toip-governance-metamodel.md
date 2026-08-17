@@ -6,6 +6,12 @@ title: "toip-governance-metamodel"
 
 # toip-governance-metamodel
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:toip-governance-metamodel`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 A structural model for governance frameworks that specifies the recommended governance documents that should be included depending on the objectives of the trust community.
 
@@ -18,8 +24,21 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **ToIP Governance Metamodel** (`en`, `alternative`)
+
+## Legacy Aliases
 ToIP Governance Metamodel
+
+## Semantic Relations
+- **related**: `urn:tig:concept:policy`
+- **related**: `urn:tig:concept:governance-framework`
+- **related**: `urn:tig:concept:requirement`
+- **related**: `urn:tig:concept:governance`
+- **related**: `urn:tig:concept:governing-authority`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [policy]({{ '/terms/policy/' | relative_url }})

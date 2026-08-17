@@ -6,6 +6,12 @@ title: "nullifier"
 
 # nullifier
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:nullifier`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,18 @@ This term was added following a cross-repository terminology review of TSMM, TIS
 ## Implementation Relevance
 Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.
 
-## Aliases
+## Alternative Designations
+None
+
+## Legacy Aliases
 nullifier
+
+## Semantic Relations
+- **related**: `urn:tig:concept:zero-knowledge-proof`
+- **related**: `urn:tig:concept:correlation-privacy`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [zero-knowledge-proof]({{ '/terms/zero-knowledge-proof/' | relative_url }})

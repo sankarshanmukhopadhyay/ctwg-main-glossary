@@ -6,6 +6,12 @@ title: "system-of-record"
 
 # system-of-record
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:system-of-record`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,20 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **system of record** (`en`, `alternative`)
+- **systems of record** (`en`, `alternative`)
+
+## Legacy Aliases
 system of record, systems of record
+
+## Semantic Relations
+- **related**: `urn:tig:concept:authoritative-source`
+- **related**: `urn:tig:concept:trust-registry`
+- **related**: `urn:tig:concept:verifiable-data-registry`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [authoritative source]({{ '/terms/authoritative-source/' | relative_url }})

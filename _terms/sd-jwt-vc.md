@@ -6,6 +6,12 @@ title: "sd-jwt-vc"
 
 # sd-jwt-vc
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:sd-jwt-vc`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A verifiable credential encoded using Selective Disclosure JWT mechanisms, enabling selected claims to be disclosed while preserving cryptographic verification.
 
@@ -18,8 +24,21 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **SD-JWT VC** (`en`, `alternative`)
+- **SD-JWT-based Verifiable Credential** (`en`, `alternative`)
+
+## Legacy Aliases
 SD-JWT VC, SD-JWT-based Verifiable Credential
+
+## Semantic Relations
+- **related**: `urn:tig:concept:selective-disclosure`
+- **related**: `urn:tig:concept:verifiable-credential`
+- **related**: `urn:tig:concept:secured-verifiable-credential`
+- **related**: `urn:tig:concept:key-binding-jwt`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [selective-disclosure]({{ '/terms/selective-disclosure/' | relative_url }})

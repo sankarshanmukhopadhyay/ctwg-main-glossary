@@ -6,6 +6,12 @@ title: "issuance-request"
 
 # issuance-request
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:issuance-request`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 A protocol request invoked by the holder of a digital wallet to obtain a digital credential from an issuer.
 
@@ -18,8 +24,18 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **issuance request** (`en`, `alternative`)
+- **issuance requests** (`en`, `alternative`)
+
+## Legacy Aliases
 issuance request, issuance requests
+
+## Semantic Relations
+- **related**: `urn:tig:concept:presentation-request`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [presentation request]({{ '/terms/presentation-request/' | relative_url }})

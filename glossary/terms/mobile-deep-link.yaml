@@ -1,9 +1,27 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:mobile-deep-link
+designations:
+- label: mobile-deep-link
+  language: en
+  status: preferred
+- label: mobile deep link
+  language: en
+  status: alternative
+- label: mobile deep links
+  language: en
+  status: alternative
+- label: mobile deep linking
+  language: en
+  status: alternative
 term: mobile-deep-link
 aliases:
 - mobile deep link
 - mobile deep links
 - mobile deep linking
-definition: In the context of mobile apps, deep linking consists of using a uniform resource identifier (URI) that links to a specific location within a mobile app rather than simply launching the app. Deferred deep linking allows users to deep link to content even if the app is not already installed. Depending on the mobile device platform, the URI required to trigger the app may be different.
+definition: In the context of mobile apps, deep linking consists of using a uniform resource identifier (URI) that links to
+  a specific location within a mobile app rather than simply launching the app. Deferred deep linking allows users to deep
+  link to content even if the app is not already installed. Depending on the mobile device platform, the URI required to trigger
+  the app may be different.
 notes: []
 see_also:
 - glossary
@@ -41,3 +59,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

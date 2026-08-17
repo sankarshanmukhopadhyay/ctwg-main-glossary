@@ -6,6 +6,12 @@ title: "qualified-electronic-attestation-of-attributes"
 
 # qualified-electronic-attestation-of-attributes
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:qualified-electronic-attestation-of-attributes`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 An attestation of attributes issued under qualified trust service rules in the European digital identity framework.
 
@@ -18,8 +24,21 @@ This term is part of the v1.2.0 standards-linked refresh and is anchored to acti
 ## Implementation Relevance
 Use this term when mapping glossary language to implementation profiles, governance controls, conformance checks, or assurance evidence.
 
-## Aliases
+## Alternative Designations
+- **QEAA** (`en`, `alternative`)
+- **qualified attribute attestation** (`en`, `alternative`)
+
+## Legacy Aliases
 QEAA, qualified attribute attestation
+
+## Semantic Relations
+- **related**: `urn:tig:concept:attestation`
+- **related**: `urn:tig:concept:eudi-wallet`
+- **related**: `urn:tig:concept:trust-service-provider`
+- **related**: `urn:tig:concept:credential`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [attestation]({{ '/terms/attestation/' | relative_url }})

@@ -6,6 +6,12 @@ title: "hardware-security-module"
 
 # hardware-security-module
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:hardware-security-module`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A physical computing device that provides tamper-evident and intrusion-resistant safeguarding and management of digital keys and other secrets, as well as crypto-processing.
 
@@ -18,8 +24,21 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **hardware security module** (`en`, `alternative`)
+- **hardware security modules** (`en`, `alternative`)
+- **HSM** (`en`, `alternative`)
+- **HSMs** (`en`, `alternative`)
+
+## Legacy Aliases
 hardware security module, hardware security modules, HSM, HSMs
+
+## Semantic Relations
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:definition`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [glossary]({{ '/terms/glossary/' | relative_url }})

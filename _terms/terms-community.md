@@ -6,6 +6,12 @@ title: "terms-community"
 
 # terms-community
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:terms-community`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 A group of parties who share the need for a common terminology.
 
@@ -18,8 +24,18 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **terms community** (`en`, `alternative`)
+- **terms communities** (`en`, `alternative`)
+
+## Legacy Aliases
 terms community, terms communities
+
+## Semantic Relations
+- **related**: `urn:tig:concept:trust-community`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [trust community]({{ '/terms/trust-community/' | relative_url }})

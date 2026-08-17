@@ -1,8 +1,23 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:functional-identity
+designations:
+- label: functional-identity
+  language: en
+  status: preferred
+- label: functional identity
+  language: en
+  status: alternative
+- label: functional identities
+  language: en
+  status: alternative
 term: functional-identity
 aliases:
 - functional identity
 - functional identities
-definition: A set of identity data, such as a credential, that is issued not for the purpose of establishing a foundational identity for the subject, but for the purpose of establishing other attributes, qualifications, or capabilities of the subject. Loyalty cards, library cards, and employee IDs are all examples of functional identities. Foundational identities are often used to provide identity binding for functional identities.
+definition: A set of identity data, such as a credential, that is issued not for the purpose of establishing a foundational
+  identity for the subject, but for the purpose of establishing other attributes, qualifications, or capabilities of the subject.
+  Loyalty cards, library cards, and employee IDs are all examples of functional identities. Foundational identities are often
+  used to provide identity binding for functional identities.
 notes: []
 see_also:
 - credential
@@ -54,3 +69,25 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:credential
+  - urn:tig:concept:issuer
+  - urn:tig:concept:issuance
+  - urn:tig:concept:verifiable-credential
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

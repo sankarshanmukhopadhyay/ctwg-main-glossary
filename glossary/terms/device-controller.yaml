@@ -1,8 +1,21 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:device-controller
+designations:
+- label: device-controller
+  language: en
+  status: preferred
+- label: device controller
+  language: en
+  status: alternative
+- label: device controllers
+  language: en
+  status: alternative
 term: device-controller
 aliases:
 - device controller
 - device controllers
-definition: The controller of a device capable of digital communications, e.g., a smartphone, tablet, laptop, IoT device, etc.
+definition: The controller of a device capable of digital communications, e.g., a smartphone, tablet, laptop, IoT device,
+  etc.
 notes: []
 see_also:
 - glossary
@@ -44,4 +57,25 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
-simple_definition: The controller of a device capable of digital communications, e.g., a smartphone, tablet, laptop, IoT device, etc.
+simple_definition: The controller of a device capable of digital communications, e.g., a smartphone, tablet, laptop, IoT device,
+  etc.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

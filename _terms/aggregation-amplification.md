@@ -6,6 +6,12 @@ title: "aggregation amplification"
 
 # aggregation amplification
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:aggregation-amplification`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A delegation failure mode in which individually valid and attenuated authority branches combine to produce an effect broader than the originating mandate permits.
 
@@ -18,8 +24,18 @@ This term was added following a cross-repository terminology review of TSMM, TIS
 ## Implementation Relevance
 Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.
 
-## Aliases
+## Alternative Designations
+- **aggregation-amplification** (`en`, `alternative`)
+
+## Legacy Aliases
 aggregation amplification, aggregation-amplification
+
+## Semantic Relations
+- **related**: `urn:tig:concept:authority`
+- **related**: `urn:tig:concept:scope`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [authority]({{ '/terms/authority/' | relative_url }})

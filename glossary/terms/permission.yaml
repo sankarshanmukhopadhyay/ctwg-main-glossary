@@ -1,3 +1,12 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:permission
+designations:
+- label: permission
+  language: en
+  status: preferred
+- label: permissions
+  language: en
+  status: alternative
 term: permission
 aliases:
 - permission
@@ -58,3 +67,26 @@ crosswalk:
   nist: []
   iso: []
 simple_definition: Authorization to perform some action on a system.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:authorization
+  - urn:tig:concept:role-based-access-control
+  - urn:tig:concept:attribute-based-access-control
+  - urn:tig:concept:access-control
+  - urn:tig:concept:revocation
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

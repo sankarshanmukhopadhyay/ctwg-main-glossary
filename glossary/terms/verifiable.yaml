@@ -1,8 +1,19 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:verifiable
+designations:
+- label: verifiable
+  language: en
+  status: preferred
+- label: verifiability
+  language: en
+  status: alternative
 term: verifiable
 aliases:
 - verifiable
 - verifiability
-definition: In the context of digital communications infrastructure, the ability to determine the authenticity of a communication (e.g., sender, contents, claims, metadata, provenance), or the underlying sociotechnical infrastructure (e.g., governance, roles, policies, authorizations, certifications).
+definition: In the context of digital communications infrastructure, the ability to determine the authenticity of a communication
+  (e.g., sender, contents, claims, metadata, provenance), or the underlying sociotechnical infrastructure (e.g., governance,
+  roles, policies, authorizations, certifications).
 notes: []
 see_also:
 - appraisable
@@ -60,3 +71,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:appraisable
+  - urn:tig:concept:digital-signature
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

@@ -6,6 +6,12 @@ title: "trust-basis"
 
 # trust-basis
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:trust-basis`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 The properties of a verifiable identifier (VID) or a ToIP system that enable a party to appraise it to determine a trust limit.
 
@@ -18,8 +24,17 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **trust basis** (`en`, `alternative`)
+
+## Legacy Aliases
 trust basis
+
+## Semantic Relations
+- **related**: `urn:tig:concept:appraisability`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [appraisability]({{ '/terms/appraisability/' | relative_url }})

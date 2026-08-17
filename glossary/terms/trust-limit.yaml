@@ -1,8 +1,21 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:trust-limit
+designations:
+- label: trust-limit
+  language: en
+  status: preferred
+- label: trust limit
+  language: en
+  status: alternative
+- label: trust limits
+  language: en
+  status: alternative
 term: trust-limit
 aliases:
 - trust limit
 - trust limits
-definition: A limit to the degree a party is willing to trust an entity in a specific trust relationship within a specific trust context.
+definition: A limit to the degree a party is willing to trust an entity in a specific trust relationship within a specific
+  trust context.
 notes: []
 see_also:
 - glossary
@@ -47,4 +60,27 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
-simple_definition: A limit to the degree a party is willing to trust an entity in a specific trust relationship within a specific trust context.
+simple_definition: A limit to the degree a party is willing to trust an entity in a specific trust relationship within a specific
+  trust context.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+  - urn:tig:concept:trust
+  - urn:tig:concept:trust-registry
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

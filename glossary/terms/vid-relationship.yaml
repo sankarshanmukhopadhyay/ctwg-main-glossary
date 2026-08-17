@@ -1,8 +1,22 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:vid-relationship
+designations:
+- label: vid-relationship
+  language: en
+  status: preferred
+- label: VID relationship
+  language: en
+  status: alternative
+- label: VID relationships
+  language: en
+  status: alternative
 term: vid-relationship
 aliases:
 - VID relationship
 - VID relationships
-definition: The communications relationship formed between two VIDs using the ToIP Trust Spanning Protocol. A particular feature of this protocol is its ability to establish as many VID relationships as needed to establish different relationship contexts between the communicating entities.
+definition: The communications relationship formed between two VIDs using the ToIP Trust Spanning Protocol. A particular feature
+  of this protocol is its ability to establish as many VID relationships as needed to establish different relationship contexts
+  between the communicating entities.
 notes: []
 see_also:
 - glossary
@@ -44,3 +58,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

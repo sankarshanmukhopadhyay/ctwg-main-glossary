@@ -1,8 +1,21 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:legal-identity
+designations:
+- label: legal-identity
+  language: en
+  status: preferred
+- label: legal identity
+  language: en
+  status: alternative
+- label: legal identities
+  language: en
+  status: alternative
 term: legal-identity
 aliases:
 - legal identity
 - legal identities
-definition: A set of identity data considered authoritative to identify a party for purposes of legal accountability under one or more jurisdictions.
+definition: A set of identity data considered authoritative to identify a party for purposes of legal accountability under
+  one or more jurisdictions.
 notes: []
 see_also:
 - foundational identity
@@ -40,4 +53,25 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
-simple_definition: A set of identity data considered authoritative to identify a party for purposes of legal accountability under one or more jurisdictions.
+simple_definition: A set of identity data considered authoritative to identify a party for purposes of legal accountability
+  under one or more jurisdictions.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:foundational-identity
+  - urn:tig:concept:functional-identity
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

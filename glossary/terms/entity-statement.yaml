@@ -1,9 +1,20 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:entity-statement
+designations:
+- label: entity-statement
+  language: en
+  status: preferred
+- label: entity statement
+  language: en
+  status: alternative
 term: entity-statement
 aliases:
 - entity statement
-definition: A signed statement in OpenID Federation that describes metadata, authority, and trust relationships for a federation entity.
+definition: A signed statement in OpenID Federation that describes metadata, authority, and trust relationships for a federation
+  entity.
 reader_note: This term is part of the v1.2.0 standards-linked refresh and is anchored to active implementation vocabulary.
-implementation_relevance: Use this term when mapping glossary language to implementation profiles, governance controls, conformance checks, or assurance evidence.
+implementation_relevance: Use this term when mapping glossary language to implementation profiles, governance controls, conformance
+  checks, or assurance evidence.
 notes: []
 see_also:
 - openid-federation
@@ -51,4 +62,27 @@ control_plane:
 crosswalk:
   openid:
   - OpenID Federation 1.0
-simple_definition: A signed statement in OpenID Federation that describes metadata, authority, and trust relationships for a federation entity.
+simple_definition: A signed statement in OpenID Federation that describes metadata, authority, and trust relationships for
+  a federation entity.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:openid-federation
+  - urn:tig:concept:federation
+  - urn:tig:concept:trust-chain
+  - urn:tig:concept:metadata
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

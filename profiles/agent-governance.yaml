@@ -1,0 +1,15 @@
+profile_id: urn:tig:profile:agent-governance
+title: Agent Governance
+version: 2.0.0
+minimum_tig_version: 2.0.0
+purpose: Vocabulary for governed agent participation, delegation, authorization, policy, identity, accountability, and interoperability.
+concepts:
+- urn:tig:concept:agent
+- urn:tig:concept:delegation
+- urn:tig:concept:authorization
+- urn:tig:concept:authority
+- urn:tig:concept:policy
+- urn:tig:concept:identity
+- urn:tig:concept:governance
+- urn:tig:concept:risk
+- urn:tig:concept:interoperability

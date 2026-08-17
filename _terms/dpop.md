@@ -6,6 +6,12 @@ title: "dpop"
 
 # dpop
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:dpop`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 An OAuth 2.0 mechanism for sender-constraining tokens by requiring a client to prove possession of a private key when using a token.
 
@@ -18,8 +24,21 @@ This term is part of the v1.2.0 standards-linked refresh and is anchored to acti
 ## Implementation Relevance
 Use this term when mapping glossary language to implementation profiles, governance controls, conformance checks, or assurance evidence.
 
-## Aliases
+## Alternative Designations
+- **DPoP** (`en`, `alternative`)
+- **Demonstrating Proof of Possession** (`en`, `alternative`)
+
+## Legacy Aliases
 DPoP, Demonstrating Proof of Possession
+
+## Semantic Relations
+- **related**: `urn:tig:concept:proof-of-possession`
+- **related**: `urn:tig:concept:sender-constrained-token`
+- **related**: `urn:tig:concept:cryptographic-key`
+- **related**: `urn:tig:concept:authorization`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [proof-of-possession]({{ '/terms/proof-of-possession/' | relative_url }})

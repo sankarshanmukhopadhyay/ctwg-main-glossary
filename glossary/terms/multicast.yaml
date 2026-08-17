@@ -1,7 +1,15 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:multicast
+designations:
+- label: multicast
+  language: en
+  status: preferred
 term: multicast
 aliases:
 - multicast
-definition: In computer networking, multicast is group communication where data transmission is addressed (using a multicast address) to a group of destination computers simultaneously. Multicast can be one-to-many or many-to-many distribution. Multicast should not be confused with physical layer point-to-multipoint communication.
+definition: In computer networking, multicast is group communication where data transmission is addressed (using a multicast
+  address) to a group of destination computers simultaneously. Multicast can be one-to-many or many-to-many distribution.
+  Multicast should not be confused with physical layer point-to-multipoint communication.
 notes: []
 see_also:
 - anycast
@@ -40,3 +48,24 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:anycast
+  - urn:tig:concept:broadcast
+  - urn:tig:concept:unicast
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

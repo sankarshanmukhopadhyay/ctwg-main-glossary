@@ -1,3 +1,12 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:ciphertext
+designations:
+- label: ciphertext
+  language: en
+  status: preferred
+- label: ciphertexts
+  language: en
+  status: alternative
 term: ciphertext
 aliases:
 - ciphertext
@@ -40,4 +49,25 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
-simple_definition: Encrypted (enciphered) data. The confidential form of the plaintext that is the output of the encryption function.
+simple_definition: Encrypted (enciphered) data. The confidential form of the plaintext that is the output of the encryption
+  function.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

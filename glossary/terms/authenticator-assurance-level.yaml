@@ -1,3 +1,21 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:authenticator-assurance-level
+designations:
+- label: authenticator-assurance-level
+  language: en
+  status: preferred
+- label: authenticator assurance level
+  language: en
+  status: alternative
+- label: authenticator assurance levels
+  language: en
+  status: alternative
+- label: AAL
+  language: en
+  status: alternative
+- label: AALs
+  language: en
+  status: alternative
 term: authenticator-assurance-level
 aliases:
 - authenticator assurance level
@@ -6,7 +24,8 @@ aliases:
 - AALs
 definition: A measure of the strength of an authentication mechanism and, therefore, the confidence in it.
 notes:
-- 'In NIST SP 800-63-3, AAL is defined in terms of three levels: AAL1 (Some confidence), AAL2 (High confidence), AAL3 (Very high confidence).'
+- 'In NIST SP 800-63-3, AAL is defined in terms of three levels: AAL1 (Some confidence), AAL2 (High confidence), AAL3 (Very
+  high confidence).'
 see_also:
 - federation assurance level
 - identity assurance level
@@ -49,3 +68,24 @@ crosswalk:
   nist: []
   iso: []
 simple_definition: A measure of the strength of an authentication mechanism and, therefore, the confidence in it.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:federation-assurance-level
+  - urn:tig:concept:identity-assurance-level
+  - urn:tig:concept:identity-binding
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

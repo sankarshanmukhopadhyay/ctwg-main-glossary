@@ -1,8 +1,21 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:risk-mitigation
+designations:
+- label: risk-mitigation
+  language: en
+  status: preferred
+- label: risk mitigation
+  language: en
+  status: alternative
+- label: risk mitigations
+  language: en
+  status: alternative
 term: risk-mitigation
 aliases:
 - risk mitigation
 - risk mitigations
-definition: Prioritizing, evaluating, and implementing the appropriate risk-reducing controls/countermeasures recommended from the risk management process.
+definition: Prioritizing, evaluating, and implementing the appropriate risk-reducing controls/countermeasures recommended
+  from the risk management process.
 notes: []
 see_also:
 - glossary
@@ -44,4 +57,25 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
-simple_definition: Prioritizing, evaluating, and implementing the appropriate risk-reducing controls/countermeasures recommended from the risk management process.
+simple_definition: Prioritizing, evaluating, and implementing the appropriate risk-reducing controls/countermeasures recommended
+  from the risk management process.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

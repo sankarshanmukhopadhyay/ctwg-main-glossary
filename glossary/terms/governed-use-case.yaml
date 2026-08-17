@@ -1,8 +1,21 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:governed-use-case
+designations:
+- label: governed-use-case
+  language: en
+  status: preferred
+- label: governed use case
+  language: en
+  status: alternative
+- label: governed use cases
+  language: en
+  status: alternative
 term: governed-use-case
 aliases:
 - governed use case
 - governed use cases
-definition: A use case specified in a governance document that results in specific governance requirements within that governance framework. Governed use cases may optionally be discovered via a trust registry authorized by the relevant governance framework.
+definition: A use case specified in a governance document that results in specific governance requirements within that governance
+  framework. Governed use cases may optionally be discovered via a trust registry authorized by the relevant governance framework.
 notes: []
 see_also:
 - policy
@@ -54,3 +67,27 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:policy
+  - urn:tig:concept:governance-framework
+  - urn:tig:concept:requirement
+  - urn:tig:concept:registry
+  - urn:tig:concept:trust-registry
+  - urn:tig:concept:registration
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

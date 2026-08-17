@@ -1,8 +1,22 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:legal-entity
+designations:
+- label: legal-entity
+  language: en
+  status: preferred
+- label: legal entity
+  language: en
+  status: alternative
+- label: legal entities
+  language: en
+  status: alternative
 term: legal-entity
 aliases:
 - legal entity
 - legal entities
-definition: An entity that is not a natural person but is recognized as having legal rights and responsibilities. Examples include corporations, partnerships, sole proprietorships, non-profit organizations, associations, and governments. (In some cases even natural systems such as rivers are treated as legal entities.)
+definition: An entity that is not a natural person but is recognized as having legal rights and responsibilities. Examples
+  include corporations, partnerships, sole proprietorships, non-profit organizations, associations, and governments. (In some
+  cases even natural systems such as rivers are treated as legal entities.)
 notes: []
 see_also:
 - Legal Entity Identifier
@@ -45,3 +59,24 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:legal-entity-identifier
+  - urn:tig:concept:legal-person
+  - urn:tig:concept:organization
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

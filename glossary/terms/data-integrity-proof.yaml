@@ -1,8 +1,21 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:data-integrity-proof
+designations:
+- label: data-integrity-proof
+  language: en
+  status: preferred
+- label: Data Integrity proof
+  language: en
+  status: alternative
+- label: VC Data Integrity proof
+  language: en
+  status: alternative
 term: data-integrity-proof
 aliases:
 - Data Integrity proof
 - VC Data Integrity proof
-definition: A cryptographic proof mechanism used to protect the authenticity and integrity of verifiable credentials and similar constrained digital documents.
+definition: A cryptographic proof mechanism used to protect the authenticity and integrity of verifiable credentials and similar
+  constrained digital documents.
 reader_note: ''
 implementation_relevance: ''
 notes: []
@@ -51,4 +64,27 @@ control_plane:
 crosswalk:
   w3c:
   - Verifiable Credential Data Integrity 1.0
-simple_definition: A cryptographic proof mechanism used to protect the authenticity and integrity of verifiable credentials and similar constrained digital documents.
+simple_definition: A cryptographic proof mechanism used to protect the authenticity and integrity of verifiable credentials
+  and similar constrained digital documents.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:digital-signature
+  - urn:tig:concept:cryptographic-verifiability
+  - urn:tig:concept:verifiable-credential
+  - urn:tig:concept:proof
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

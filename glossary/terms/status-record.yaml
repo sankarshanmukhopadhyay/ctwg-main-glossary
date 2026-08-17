@@ -1,9 +1,20 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:status-record
+designations:
+- label: status-record
+  language: en
+  status: preferred
+- label: status record
+  language: en
+  status: alternative
 term: status-record
 aliases:
 - status record
-definition: An inspectable record that represents the validity, suspension, revocation, or lifecycle status of a credential, authorization, registration, or governed object.
+definition: An inspectable record that represents the validity, suspension, revocation, or lifecycle status of a credential,
+  authorization, registration, or governed object.
 reader_note: This bridge term improves navigation across privacy, status, provenance, and assurance concepts.
-implementation_relevance: Use this term where evidence needs to be carried across both reader-facing documentation and machine-verifiable assurance artifacts.
+implementation_relevance: Use this term where evidence needs to be carried across both reader-facing documentation and machine-verifiable
+  assurance artifacts.
 notes: []
 see_also:
 - revocation
@@ -60,4 +71,27 @@ crosswalk:
   - VC Data Model v2.0
   c2pa: []
   ietf: []
-simple_definition: An inspectable record that represents the validity, suspension, revocation, or lifecycle status of a credential, authorization, registration, or governed object.
+simple_definition: An inspectable record that represents the validity, suspension, revocation, or lifecycle status of a credential,
+  authorization, registration, or governed object.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:revocation
+  - urn:tig:concept:bitstring-status-list
+  - urn:tig:concept:audit-log
+  - urn:tig:concept:verification
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

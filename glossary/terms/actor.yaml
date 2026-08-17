@@ -1,8 +1,18 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:actor
+designations:
+- label: actor
+  language: en
+  status: preferred
+- label: actors
+  language: en
+  status: alternative
 term: actor
 aliases:
 - actor
 - actors
-definition: An entity that can act (do things/execute actions), e.g. people, machines, but not organizations. A digital agent can serve as an actor acting on behalf of its principal.
+definition: An entity that can act (do things/execute actions), e.g. people, machines, but not organizations. A digital agent
+  can serve as an actor acting on behalf of its principal.
 notes: []
 see_also:
 - delegation
@@ -42,3 +52,25 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:delegation
+  - urn:tig:concept:delegator
+  - urn:tig:concept:delegatee
+  - urn:tig:concept:authorization
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

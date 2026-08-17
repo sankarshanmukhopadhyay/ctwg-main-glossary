@@ -6,6 +6,12 @@ title: "authorization"
 
 # authorization
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:authorization`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,29 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **authorizations** (`en`, `alternative`)
+- **authorize** (`en`, `alternative`)
+- **authorized** (`en`, `alternative`)
+- **unauthorized** (`en`, `alternative`)
+- **authorizing** (`en`, `alternative`)
+- **unauthorizing** (`en`, `alternative`)
+- **authorisation** (`en`, `alternative`)
+- **authorisations** (`en`, `alternative`)
+- **authorise** (`en`, `alternative`)
+- **authorised** (`en`, `alternative`)
+- **unauthorised** (`en`, `alternative`)
+- **authorising** (`en`, `alternative`)
+- **unauthorising** (`en`, `alternative`)
+
+## Legacy Aliases
 authorization, authorizations, authorize, authorized, unauthorized, authorizing, unauthorizing, authorisation, authorisations, authorise, authorised, unauthorised, authorising, unauthorising
+
+## Semantic Relations
+- **related**: `urn:tig:concept:permission`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [permission]({{ '/terms/permission/' | relative_url }})

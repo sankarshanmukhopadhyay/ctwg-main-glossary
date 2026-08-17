@@ -6,6 +6,12 @@ title: "claim-generator"
 
 # claim-generator
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:claim-generator`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A hardware or software actor that creates a C2PA claim about an asset and signs or causes the signing of the associated manifest data.
 
@@ -18,8 +24,21 @@ This term is part of the v1.2.0 standards-linked refresh and is anchored to acti
 ## Implementation Relevance
 Use this term when mapping glossary language to implementation profiles, governance controls, conformance checks, or assurance evidence.
 
-## Aliases
+## Alternative Designations
+- **C2PA claim generator** (`en`, `alternative`)
+- **claim generator** (`en`, `alternative`)
+
+## Legacy Aliases
 C2PA claim generator, claim generator
+
+## Semantic Relations
+- **related**: `urn:tig:concept:c2pa-manifest`
+- **related**: `urn:tig:concept:content-credential`
+- **related**: `urn:tig:concept:actor`
+- **related**: `urn:tig:concept:digital-signature`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [c2pa-manifest]({{ '/terms/c2pa-manifest/' | relative_url }})

@@ -1,8 +1,18 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:risk
+designations:
+- label: risk
+  language: en
+  status: preferred
+- label: risks
+  language: en
+  status: alternative
 term: risk
 aliases:
 - risk
 - risks
-definition: The effects that uncertainty (i.e. a lack of information, understanding or knowledge of events, their consequences or likelihoods) can have on the intended realization of an objective of a party.
+definition: The effects that uncertainty (i.e. a lack of information, understanding or knowledge of events, their consequences
+  or likelihoods) can have on the intended realization of an objective of a party.
 notes: []
 see_also:
 - glossary
@@ -11,7 +21,9 @@ sources:
 - '[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary)'
 mental_models: []
 supporting_definitions:
-- '[NIST-CSRC](https://csrc.nist.gov/glossary/term/risk): A measure of the extent to which an entity is threatened by a potential circumstance or event, and typically a function of: (i) the adverse impacts that would arise if the circumstance or event occurs; and (ii) the likelihood of occurrence.'
+- '[NIST-CSRC](https://csrc.nist.gov/glossary/term/risk): A measure of the extent to which an entity is threatened by a potential
+  circumstance or event, and typically a function of: (i) the adverse impacts that would arise if the circumstance or event
+  occurs; and (ii) the likelihood of occurrence.'
 source_file: spec/terms-definitions/risk.md
 governance_profile: descriptive
 governance:
@@ -41,3 +53,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

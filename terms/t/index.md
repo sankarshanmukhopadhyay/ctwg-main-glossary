@@ -1,10 +1,10 @@
 ---
-title: "Terms: T"
-parent: "Glossary Terms"
+title: "Concepts: T"
+parent: "Concepts"
 nav_order: 20
 ---
 
-# Terms: T
+# Concepts: T
 
 - [tamper-evident]({{ '/terms/tamper-evident/' | relative_url }})
 - [tamper-resistant]({{ '/terms/tamper-resistant/' | relative_url }})

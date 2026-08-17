@@ -1,10 +1,21 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:control-authority
+designations:
+- label: control-authority
+  language: en
+  status: preferred
+- label: control authority
+  language: en
+  status: alternative
 term: control-authority
 aliases:
 - control-authority
 - control authority
-definition: In identity systems, control authority is the power to determine who controls what. It is a primary factor in determining the basis for trust in those systems.
+definition: In identity systems, control authority is the power to determine who controls what. It is a primary factor in
+  determining the basis for trust in those systems.
 notes:
-- Control authority is especially important because it identifies where effective operational power resides, including the power to change, invalidate, or reassign control relationships.
+- Control authority is especially important because it identifies where effective operational power resides, including the
+  power to change, invalidate, or reassign control relationships.
 see_also:
 - governance
 - governance-framework
@@ -63,3 +74,27 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:governance
+  - urn:tig:concept:governance-framework
+  - urn:tig:concept:governing-authority
+  - urn:tig:concept:trust-registry
+  - urn:tig:concept:revocation
+  - urn:tig:concept:verification
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

@@ -1,8 +1,21 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:toip-message
+designations:
+- label: toip-message
+  language: en
+  status: preferred
+- label: ToIP message
+  language: en
+  status: alternative
+- label: ToIP messages
+  language: en
+  status: alternative
 term: toip-message
 aliases:
 - ToIP message
 - ToIP messages
-definition: A message communicated between ToIP endpoints using the ToIP stack. ToIP messages are transmitted over the ToIP Trust Spanning Protocol (TSP) at Layer 2 of the ToIP stack.
+definition: A message communicated between ToIP endpoints using the ToIP stack. ToIP messages are transmitted over the ToIP
+  Trust Spanning Protocol (TSP) at Layer 2 of the ToIP stack.
 notes: []
 see_also:
 - glossary
@@ -44,3 +57,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

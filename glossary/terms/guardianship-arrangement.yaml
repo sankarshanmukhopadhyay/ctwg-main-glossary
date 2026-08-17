@@ -1,10 +1,30 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:guardianship-arrangement
+designations:
+- label: guardianship-arrangement
+  language: en
+  status: preferred
+- label: guardianship arrangement
+  language: en
+  status: alternative
+- label: guardianship arrangements
+  language: en
+  status: alternative
+- label: guardianship
+  language: en
+  status: alternative
+- label: guardianships
+  language: en
+  status: alternative
 term: guardianship-arrangement
 aliases:
 - guardianship arrangement
 - guardianship arrangements
 - guardianship
 - guardianships
-definition: A guardianship arrangement is the specification, within a jurisdiction, of rights and duties between legal entities for caring for, protecting, guarding, or defending one or more dependents. At a minimum, the participating entities are the guardian and the dependent.
+definition: A guardianship arrangement is the specification, within a jurisdiction, of rights and duties between legal entities
+  for caring for, protecting, guarding, or defending one or more dependents. At a minimum, the participating entities are
+  the guardian and the dependent.
 notes: []
 see_also:
 - guardian
@@ -16,7 +36,8 @@ sources:
 mental_models:
 - '[eSSIF-Lab Guardianship](https://essif-lab.github.io/framework/docs/terms/pattern-guardianship)'
 supporting_definitions:
-- 'For more information, see: [On Guardianship in Self-Sovereign Identity V2.0](https://sovrin.org/wp-content/uploads/Guardianship-Whitepaper-V2.0.pdf) (April, 2023).'
+- 'For more information, see: [On Guardianship in Self-Sovereign Identity V2.0](https://sovrin.org/wp-content/uploads/Guardianship-Whitepaper-V2.0.pdf)
+  (April, 2023).'
 source_file: spec/terms-definitions/guardianship-arrangement.md
 governance_profile: descriptive
 governance:
@@ -46,3 +67,25 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:guardian
+  - urn:tig:concept:dependent
+  - urn:tig:concept:custodianship-arrangement
+  - urn:tig:concept:jurisdiction
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

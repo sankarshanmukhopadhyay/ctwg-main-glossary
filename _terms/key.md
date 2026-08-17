@@ -6,6 +6,12 @@ title: "key"
 
 # key
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:key`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 See: cryptographic key.
 
@@ -18,8 +24,20 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **keys** (`en`, `alternative`)
+- **key pair** (`en`, `alternative`)
+- **key pairs** (`en`, `alternative`)
+
+## Legacy Aliases
 key, keys, key pair, key pairs
+
+## Semantic Relations
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:definition`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [glossary]({{ '/terms/glossary/' | relative_url }})

@@ -6,6 +6,12 @@ title: "governance-requirement"
 
 # governance-requirement
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:governance-requirement`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 A requirement such as a policy, rule, or technical specification specified in a governance document.
 
@@ -18,8 +24,18 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **governance requirement** (`en`, `alternative`)
+- **governance requirements** (`en`, `alternative`)
+
+## Legacy Aliases
 governance requirement, governance requirements
+
+## Semantic Relations
+- **related**: `urn:tig:concept:technical-requirement`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [technical requirement]({{ '/terms/technical-requirement/' | relative_url }})

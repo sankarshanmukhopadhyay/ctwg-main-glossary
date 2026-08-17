@@ -1,7 +1,18 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:streaming-media
+designations:
+- label: streaming-media
+  language: en
+  status: preferred
+- label: streaming media
+  language: en
+  status: alternative
 term: streaming-media
 aliases:
 - streaming media
-definition: Streaming media is multimedia for playback using an offline or online media player. Technically, the stream is delivered and consumed in a continuous manner from a client, with little or no intermediate storage in network elements. Streaming refers to the delivery method of content, rather than the content itself.
+definition: Streaming media is multimedia for playback using an offline or online media player. Technically, the stream is
+  delivered and consumed in a continuous manner from a client, with little or no intermediate storage in network elements.
+  Streaming refers to the delivery method of content, rather than the content itself.
 notes: []
 see_also:
 - glossary
@@ -39,3 +50,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

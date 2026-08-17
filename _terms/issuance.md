@@ -6,6 +6,12 @@ title: "issuance"
 
 # issuance
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:issuance`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 The action of an issuer producing and transmitting a digital credential to a holder. A holder may request issuance by submitting an issuance request.
 
@@ -18,8 +24,21 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **issue** (`en`, `alternative`)
+- **issues** (`en`, `alternative`)
+- **issued** (`en`, `alternative`)
+- **issuing** (`en`, `alternative`)
+
+## Legacy Aliases
 issuance, issue, issues, issued, issuing
+
+## Semantic Relations
+- **related**: `urn:tig:concept:presentation`
+- **related**: `urn:tig:concept:revocation`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [presentation]({{ '/terms/presentation/' | relative_url }})

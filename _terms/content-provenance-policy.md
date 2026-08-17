@@ -6,6 +6,12 @@ title: "content provenance policy"
 
 # content provenance policy
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:content-provenance-policy`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,19 @@ This term was added following a cross-repository terminology review of TSMM, TIS
 ## Implementation Relevance
 Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.
 
-## Aliases
+## Alternative Designations
+- **content-provenance-policy** (`en`, `alternative`)
+
+## Legacy Aliases
 content provenance policy, content-provenance-policy
+
+## Semantic Relations
+- **related**: `urn:tig:concept:policy`
+- **related**: `urn:tig:concept:provenance`
+- **related**: `urn:tig:concept:attestation`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [policy]({{ '/terms/policy/' | relative_url }})

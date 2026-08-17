@@ -1,10 +1,29 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:hardware-security-module
+designations:
+- label: hardware-security-module
+  language: en
+  status: preferred
+- label: hardware security module
+  language: en
+  status: alternative
+- label: hardware security modules
+  language: en
+  status: alternative
+- label: HSM
+  language: en
+  status: alternative
+- label: HSMs
+  language: en
+  status: alternative
 term: hardware-security-module
 aliases:
 - hardware security module
 - hardware security modules
 - HSM
 - HSMs
-definition: A physical computing device that provides tamper-evident and intrusion-resistant safeguarding and management of digital keys and other secrets, as well as crypto-processing.
+definition: A physical computing device that provides tamper-evident and intrusion-resistant safeguarding and management of
+  digital keys and other secrets, as well as crypto-processing.
 notes: []
 see_also:
 - glossary
@@ -14,8 +33,16 @@ sources:
 mental_models: []
 supporting_definitions:
 - 'Also known as: [[ref: HSM]].'
-- '[NIST-CSRC](https://csrc.nist.gov/glossary/term/hardware_security_module_hsm): A physical computing device that provides tamper-evident and intrusion-resistant safeguarding and management of digital keys and other secrets, as well as crypto-processing. FIPS 140-2 specifies requirements for HSMs.'
-- '[Wikipedia](https://en.wikipedia.org/wiki/Hardware_security_module): A physical computing device that safeguards and manages secrets (most importantly [digital keys](https://en.wikipedia.org/wiki/Digital_keys)), performs [encryption](https://en.wikipedia.org/wiki/Encryption) and decryption functions for [digital signatures](https://en.wikipedia.org/wiki/Digital_signature), [strong authentication](https://en.wikipedia.org/wiki/Strong_authentication) and other cryptographic functions. These modules traditionally come in the form of a plug-in card or an external device that attaches directly to a [computer](https://en.wikipedia.org/wiki/Computer) or [network server](https://en.wikipedia.org/wiki/Server_\(computing\)). A hardware security module contains one or more [secure cryptoprocessor](https://en.wikipedia.org/wiki/Secure_cryptoprocessor) [chips](https://en.wikipedia.org/wiki/Integrated_circuit).'
+- '[NIST-CSRC](https://csrc.nist.gov/glossary/term/hardware_security_module_hsm): A physical computing device that provides
+  tamper-evident and intrusion-resistant safeguarding and management of digital keys and other secrets, as well as crypto-processing.
+  FIPS 140-2 specifies requirements for HSMs.'
+- '[Wikipedia](https://en.wikipedia.org/wiki/Hardware_security_module): A physical computing device that safeguards and manages
+  secrets (most importantly [digital keys](https://en.wikipedia.org/wiki/Digital_keys)), performs [encryption](https://en.wikipedia.org/wiki/Encryption)
+  and decryption functions for [digital signatures](https://en.wikipedia.org/wiki/Digital_signature), [strong authentication](https://en.wikipedia.org/wiki/Strong_authentication)
+  and other cryptographic functions. These modules traditionally come in the form of a plug-in card or an external device
+  that attaches directly to a [computer](https://en.wikipedia.org/wiki/Computer) or [network server](https://en.wikipedia.org/wiki/Server_\(computing\)).
+  A hardware security module contains one or more [secure cryptoprocessor](https://en.wikipedia.org/wiki/Secure_cryptoprocessor)
+  [chips](https://en.wikipedia.org/wiki/Integrated_circuit).'
 source_file: spec/terms-definitions/hardware-security-module.md
 governance_profile: descriptive
 governance:
@@ -45,4 +72,25 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
-simple_definition: A physical computing device that provides tamper-evident and intrusion-resistant safeguarding and management of digital keys and other secrets, as well as crypto-processing.
+simple_definition: A physical computing device that provides tamper-evident and intrusion-resistant safeguarding and management
+  of digital keys and other secrets, as well as crypto-processing.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

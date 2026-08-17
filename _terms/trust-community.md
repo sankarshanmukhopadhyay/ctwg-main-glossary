@@ -6,6 +6,12 @@ title: "trust-community"
 
 # trust-community
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:trust-community`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 A set of parties who collaborate to achieve a mutual set of trust objectives.
 
@@ -18,8 +24,19 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **trust community** (`en`, `alternative`)
+- **trust communities** (`en`, `alternative`)
+
+## Legacy Aliases
 trust community, trust communities
+
+## Semantic Relations
+- **related**: `urn:tig:concept:digital-trust-ecosystem`
+- **related**: `urn:tig:concept:toip-trust-community`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [digital trust ecosystem]({{ '/terms/digital-trust-ecosystem/' | relative_url }})

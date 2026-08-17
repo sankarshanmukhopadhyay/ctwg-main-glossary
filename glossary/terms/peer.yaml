@@ -1,8 +1,18 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:peer
+designations:
+- label: peer
+  language: en
+  status: preferred
+- label: peers
+  language: en
+  status: alternative
 term: peer
 aliases:
 - peer
 - peers
-definition: In the context of digital networks, an actor on the network that has the same status, privileges, and communications options as the other actors on the network.
+definition: In the context of digital networks, an actor on the network that has the same status, privileges, and communications
+  options as the other actors on the network.
 notes: []
 see_also:
 - peer-to-peer.
@@ -10,7 +20,9 @@ sources:
 - 'ToIP CTWG maintained glossary source: `spec/terms-definitions/peer.md`'
 mental_models: []
 supporting_definitions:
-- '[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#peer-actor): the [actor](https://essif-lab.github.io/framework/docs/terms/actor) with whom/which this other [actor](https://essif-lab.github.io/framework/docs/terms/actor) is communicating in that [communication session](https://essif-lab.github.io/framework/docs/terms/communication-session).'
+- '[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#peer-actor): the [actor](https://essif-lab.github.io/framework/docs/terms/actor)
+  with whom/which this other [actor](https://essif-lab.github.io/framework/docs/terms/actor) is communicating in that [communication
+  session](https://essif-lab.github.io/framework/docs/terms/communication-session).'
 source_file: spec/terms-definitions/peer.md
 governance_profile: descriptive
 governance:
@@ -42,3 +54,22 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:peer-to-peer
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

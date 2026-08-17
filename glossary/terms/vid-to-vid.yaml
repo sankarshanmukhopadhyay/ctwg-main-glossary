@@ -1,8 +1,21 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:vid-to-vid
+designations:
+- label: vid-to-vid
+  language: en
+  status: preferred
+- label: VID-to-VID
+  language: en
+  status: alternative
+- label: V2V
+  language: en
+  status: alternative
 term: vid-to-vid
 aliases:
 - VID-to-VID
 - V2V
-definition: The specialized type of peer-to-peer communications enabled by the ToIP Trust Spanning Protocol. Each pair of VIDs creates a unique VID relationship.
+definition: The specialized type of peer-to-peer communications enabled by the ToIP Trust Spanning Protocol. Each pair of
+  VIDs creates a unique VID relationship.
 notes: []
 see_also:
 - glossary
@@ -44,4 +57,25 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
-simple_definition: The specialized type of peer-to-peer communications enabled by the ToIP Trust Spanning Protocol. Each pair of VIDs creates a unique VID relationship.
+simple_definition: The specialized type of peer-to-peer communications enabled by the ToIP Trust Spanning Protocol. Each pair
+  of VIDs creates a unique VID relationship.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

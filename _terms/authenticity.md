@@ -6,6 +6,12 @@ title: "authenticity"
 
 # authenticity
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:authenticity`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,19 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **authentic** (`en`, `alternative`)
+
+## Legacy Aliases
 authenticity, authentic
+
+## Semantic Relations
+- **related**: `urn:tig:concept:confidentiality`
+- **related**: `urn:tig:concept:correlation-privacy`
+- **related**: `urn:tig:concept:cryptographic-verifiability`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [confidentiality]({{ '/terms/confidentiality/' | relative_url }})

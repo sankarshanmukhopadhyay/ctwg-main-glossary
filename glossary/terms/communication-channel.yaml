@@ -1,8 +1,22 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:communication-channel
+designations:
+- label: communication-channel
+  language: en
+  status: preferred
+- label: communication channel
+  language: en
+  status: alternative
+- label: communication channels
+  language: en
+  status: alternative
 term: communication-channel
 aliases:
 - communication channel
 - communication channels
-definition: A communication channel refers either to a physical transmission medium such as a wire, or to a logical connection over a multiplexed medium such as a radio channel in telecommunications and computer networking. A channel is used for information transfer of, for example, a digital bit stream, from one or several senders to one or several receivers.
+definition: A communication channel refers either to a physical transmission medium such as a wire, or to a logical connection
+  over a multiplexed medium such as a radio channel in telecommunications and computer networking. A channel is used for information
+  transfer of, for example, a digital bit stream, from one or several senders to one or several receivers.
 notes: []
 see_also:
 - ToIP channel.
@@ -10,7 +24,8 @@ sources:
 - '[Wikipedia](https://en.wikipedia.org/wiki/Communication_channel).'
 mental_models: []
 supporting_definitions:
-- '[eSSIF-Lab](https://essif-lab.github.io/framework/docs/terms/communication-channel): a (digital or non-digital) means by which two [actors](https://essif-lab.github.io/framework/docs/terms/actor) can exchange messages with one another.'
+- '[eSSIF-Lab](https://essif-lab.github.io/framework/docs/terms/communication-channel): a (digital or non-digital) means by
+  which two [actors](https://essif-lab.github.io/framework/docs/terms/actor) can exchange messages with one another.'
 source_file: spec/terms-definitions/communication-channel.md
 governance_profile: descriptive
 governance:
@@ -40,3 +55,22 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:toip-channel
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

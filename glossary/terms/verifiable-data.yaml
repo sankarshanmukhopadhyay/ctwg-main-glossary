@@ -1,9 +1,19 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:verifiable-data
+designations:
+- label: verifiable-data
+  language: en
+  status: preferred
+- label: verifiable data
+  language: en
+  status: alternative
 term: verifiable-data
 aliases:
 - verifiable data
 definition: Any digital data or object that is digitally signed in such a manner that it can be cryptographically verified.
 notes:
-- In the context of ToIP architecture, verifiable data is signed with the cryptographic keys associated with the verifiable identifier (VID) of the data controller.
+- In the context of ToIP architecture, verifiable data is signed with the cryptographic keys associated with the verifiable
+  identifier (VID) of the data controller.
 see_also:
 - glossary
 - definition
@@ -45,3 +55,23 @@ crosswalk:
   nist: []
   iso: []
 simple_definition: Any digital data or object that is digitally signed in such a manner that it can be cryptographically verified.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

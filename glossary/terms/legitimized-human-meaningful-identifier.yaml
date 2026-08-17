@@ -1,8 +1,21 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:legitimized-human-meaningful-identifier
+designations:
+- label: legitimized-human-meaningful-identifier
+  language: en
+  status: preferred
+- label: legitimized human-meaningful identifier
+  language: en
+  status: alternative
 term: legitimized-human-meaningful-identifier
 aliases:
 - legitimized-human-meaningful-identifier
 - legitimized human-meaningful identifier
-definition: An AID and its associated self-certifying trust basis gives rise to a trust domain for associated cryptographically verifiable non-repudiable statements. Every other type of identifier including human meaningful identifiers may then be secured in this resultant trust domain via an end-verifiable authorization. This authorization legitimizes that human meaningful identifier as an LID through its association with an AID. The result is a secured trust domain specific identifier couplet of aid|lid.
+definition: An AID and its associated self-certifying trust basis gives rise to a trust domain for associated cryptographically
+  verifiable non-repudiable statements. Every other type of identifier including human meaningful identifiers may then be
+  secured in this resultant trust domain via an end-verifiable authorization. This authorization legitimizes that human meaningful
+  identifier as an LID through its association with an AID. The result is a secured trust domain specific identifier couplet
+  of aid|lid.
 notes: []
 see_also:
 - authorization
@@ -56,3 +69,25 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:authorization
+  - urn:tig:concept:permission
+  - urn:tig:concept:role-based-access-control
+  - urn:tig:concept:attribute-based-access-control
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

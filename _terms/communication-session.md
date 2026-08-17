@@ -6,6 +6,12 @@ title: "communication-session"
 
 # communication-session
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:communication-session`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,23 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **communication session** (`en`, `alternative`)
+- **communication sessions** (`en`, `alternative`)
+- **communications session** (`en`, `alternative`)
+- **communications sessions** (`en`, `alternative`)
+
+## Legacy Aliases
 communication session, communication sessions, communications session, communications sessions
+
+## Semantic Relations
+- **related**: `urn:tig:concept:authorization`
+- **related**: `urn:tig:concept:permission`
+- **related**: `urn:tig:concept:role-based-access-control`
+- **related**: `urn:tig:concept:attribute-based-access-control`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [authorization]({{ '/terms/authorization/' | relative_url }})

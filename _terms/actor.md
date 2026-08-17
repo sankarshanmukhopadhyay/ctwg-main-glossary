@@ -6,6 +6,12 @@ title: "actor"
 
 # actor
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:actor`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,20 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **actors** (`en`, `alternative`)
+
+## Legacy Aliases
 actor, actors
+
+## Semantic Relations
+- **related**: `urn:tig:concept:delegation`
+- **related**: `urn:tig:concept:delegator`
+- **related**: `urn:tig:concept:delegatee`
+- **related**: `urn:tig:concept:authorization`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [delegation]({{ '/terms/delegation/' | relative_url }})

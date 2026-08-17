@@ -1,8 +1,21 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:zero-knowledge-service-provider
+designations:
+- label: zero-knowledge-service-provider
+  language: en
+  status: preferred
+- label: zero-knowledge service provider
+  language: en
+  status: alternative
+- label: zero-knowledge service providers
+  language: en
+  status: alternative
 term: zero-knowledge-service-provider
 aliases:
 - zero-knowledge service provider
 - zero-knowledge service providers
-definition: The provider of a zero-knowledge service that hosts encrypted data on behalf of the principal but does not have access to the private keys in order to be able to decrypt it.
+definition: The provider of a zero-knowledge service that hosts encrypted data on behalf of the principal but does not have
+  access to the private keys in order to be able to decrypt it.
 notes: []
 see_also:
 - glossary
@@ -44,3 +57,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

@@ -1,8 +1,22 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:did-controller
+designations:
+- label: did-controller
+  language: en
+  status: preferred
+- label: DID controller
+  language: en
+  status: alternative
+- label: DID controllers
+  language: en
+  status: alternative
 term: did-controller
 aliases:
 - DID controller
 - DID controllers
-definition: An entity that has the capability to make changes to a DID document. A DID might have more than one DID controller. The DID controller(s) can be denoted by the optional `controller` property at the top level of the DID document. Note that a DID controller might be the DID subject.
+definition: An entity that has the capability to make changes to a DID document. A DID might have more than one DID controller.
+  The DID controller(s) can be denoted by the optional `controller` property at the top level of the DID document. Note that
+  a DID controller might be the DID subject.
 notes: []
 see_also:
 - controller.
@@ -39,3 +53,22 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:controller
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

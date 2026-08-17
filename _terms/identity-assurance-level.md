@@ -6,6 +6,12 @@ title: "identity-assurance-level"
 
 # identity-assurance-level
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:identity-assurance-level`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,21 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **identity assurance level** (`en`, `alternative`)
+- **identity assurance levels** (`en`, `alternative`)
+- **IAL** (`en`, `alternative`)
+- **IALs** (`en`, `alternative`)
+
+## Legacy Aliases
 identity assurance level, identity assurance levels, IAL, IALs
+
+## Semantic Relations
+- **related**: `urn:tig:concept:authenticator-assurance-level`
+- **related**: `urn:tig:concept:federation-assurance-level`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [authenticator assurance level]({{ '/terms/authenticator-assurance-level/' | relative_url }})

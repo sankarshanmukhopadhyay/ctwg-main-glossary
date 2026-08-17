@@ -6,6 +6,12 @@ title: "pressure test"
 
 # pressure test
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:pressure-test`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A deliberate attempt to find where a design or specification could fail, cause harm, or rely on weak assumptions.
 
@@ -18,8 +24,18 @@ This is a cross-project glossary term. Individual specifications may define narr
 ## Implementation Relevance
 Use this term to keep governance, authority, assurance, and implementation discussions consistent across interoperating projects.
 
-## Aliases
+## Alternative Designations
+- **pressure-test** (`en`, `alternative`)
+
+## Legacy Aliases
 pressure-test
+
+## Semantic Relations
+- **related**: `urn:tig:concept:risk-assessment`
+- **related**: `urn:tig:concept:assurance-level`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [risk-assessment]({{ '/terms/risk-assessment/' | relative_url }})

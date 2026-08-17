@@ -1,9 +1,17 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:personhood
+designations:
+- label: personhood
+  language: en
+  status: preferred
 term: personhood
 aliases:
 - personhood
-definition: The status or quality of being treated as a person for a defined social, legal, governance, or technical purpose; it is not equivalent to civil identity or the possession of an identifier.
+definition: The status or quality of being treated as a person for a defined social, legal, governance, or technical purpose;
+  it is not equivalent to civil identity or the possession of an identifier.
 notes:
-- This definition is normalized for cross-repository use and should be applied together with the governing profile or specification that supplies domain-specific constraints.
+- This definition is normalized for cross-repository use and should be applied together with the governing profile or specification
+  that supplies domain-specific constraints.
 see_also:
 - proof-of-personhood
 - identity
@@ -13,8 +21,10 @@ sources:
   publisher: GitHub
   url: https://github.com/trustoverip/dtgwg-zkp-tf
   normative: false
-reader_note: This term was added following a cross-repository terminology review of TSMM, TIS, TGA, and the DTG ZKP Task Force workspace.
-implementation_relevance: Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.
+reader_note: This term was added following a cross-repository terminology review of TSMM, TIS, TGA, and the DTG ZKP Task Force
+  workspace.
+implementation_relevance: Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent
+  across interoperating trust infrastructure repositories.
 governance_profile: governance-supporting
 governance:
   authority_scope:
@@ -57,3 +67,24 @@ control_plane:
   - delegation_record
   - status_record
   - verification_log
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:proof-of-personhood
+  - urn:tig:concept:identity
+  - urn:tig:concept:natural-person
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

@@ -1,7 +1,15 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:recommended
+designations:
+- label: recommended
+  language: en
+  status: preferred
 term: recommended
 aliases:
 - recommended
-definition: A requirement that is not mandatory to implement in order for an implementer to be in compliance, but which should be implemented unless the implementer has a good reason. In ToIP governance frameworks, a recommendation is expressed using a SHOULD or RECOMMENDED keyword as defined in IETF RFC 2119.
+definition: A requirement that is not mandatory to implement in order for an implementer to be in compliance, but which should
+  be implemented unless the implementer has a good reason. In ToIP governance frameworks, a recommendation is expressed using
+  a SHOULD or RECOMMENDED keyword as defined in IETF RFC 2119.
 notes: []
 see_also:
 - mandatory
@@ -41,3 +49,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:mandatory
+  - urn:tig:concept:optional
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

@@ -1,10 +1,10 @@
 ---
-title: "Terms: S"
-parent: "Glossary Terms"
+title: "Concepts: S"
+parent: "Concepts"
 nav_order: 19
 ---
 
-# Terms: S
+# Concepts: S
 
 - [schema]({{ '/terms/schema/' | relative_url }})
 - [scid]({{ '/terms/scid/' | relative_url }})

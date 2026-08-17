@@ -1,7 +1,18 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:laws-of-identity
+designations:
+- label: laws-of-identity
+  language: en
+  status: preferred
+- label: Laws of Identity
+  language: en
+  status: alternative
 term: laws-of-identity
 aliases:
 - Laws of Identity
-definition: A set of seven “laws” written by Kim Cameron, former Chief Identity Architect of Microsoft (1941-2021), to describe the dynamics that cause digital identity systems to succeed or fail in various contexts. His goal was to define the requirements for a unifying identity metasystem that can offer the Internet the identity layer it needs.
+definition: A set of seven “laws” written by Kim Cameron, former Chief Identity Architect of Microsoft (1941-2021), to describe
+  the dynamics that cause digital identity systems to succeed or fail in various contexts. His goal was to define the requirements
+  for a unifying identity metasystem that can offer the Internet the identity layer it needs.
 notes: []
 see_also:
 - glossary
@@ -40,3 +51,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

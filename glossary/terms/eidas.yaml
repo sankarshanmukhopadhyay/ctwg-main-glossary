@@ -1,7 +1,18 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:eidas
+designations:
+- label: eidas
+  language: en
+  status: preferred
+- label: eIDAS
+  language: en
+  status: alternative
 term: eidas
 aliases:
 - eIDAS
-definition: eIDAS (electronic IDentification, Authentication and trust Services) is an EU regulation with the stated purpose of governing "electronic identification and trust services for electronic transactions". It passed in 2014 and its provisions came into effect between 2016-2018.
+definition: eIDAS (electronic IDentification, Authentication and trust Services) is an EU regulation with the stated purpose
+  of governing "electronic identification and trust services for electronic transactions". It passed in 2014 and its provisions
+  came into effect between 2016-2018.
 notes: []
 see_also:
 - authorization
@@ -41,3 +52,25 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:authorization
+  - urn:tig:concept:permission
+  - urn:tig:concept:role-based-access-control
+  - urn:tig:concept:attribute-based-access-control
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

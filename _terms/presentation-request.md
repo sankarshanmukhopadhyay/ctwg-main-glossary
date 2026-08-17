@@ -6,6 +6,12 @@ title: "presentation-request"
 
 # presentation-request
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:presentation-request`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 A protocol request sent by the verifier to the holder of a digital wallet to request a presentation.
 
@@ -18,8 +24,18 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **presentation request** (`en`, `alternative`)
+- **presentation requests** (`en`, `alternative`)
+
+## Legacy Aliases
 presentation request, presentation requests
+
+## Semantic Relations
+- **related**: `urn:tig:concept:issuance-request`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [issuance request]({{ '/terms/issuance-request/' | relative_url }})

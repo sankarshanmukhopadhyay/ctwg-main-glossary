@@ -1,10 +1,10 @@
 ---
-title: "Terms: D"
-parent: "Glossary Terms"
+title: "Concepts: D"
+parent: "Concepts"
 nav_order: 4
 ---
 
-# Terms: D
+# Concepts: D
 
 - [dark-pattern]({{ '/terms/dark-pattern/' | relative_url }})
 - [data]({{ '/terms/data/' | relative_url }})

@@ -1,8 +1,18 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:dependent
+designations:
+- label: dependent
+  language: en
+  status: preferred
+- label: dependents
+  language: en
+  status: alternative
 term: dependent
 aliases:
 - dependent
 - dependents
-definition: An entity for the caring for and/or protecting/guarding/defending of which a guardianship arrangement has been established with a guardian.
+definition: An entity for the caring for and/or protecting/guarding/defending of which a guardianship arrangement has been
+  established with a guardian.
 notes: []
 see_also:
 - custodian.
@@ -40,4 +50,24 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
-simple_definition: An entity for the caring for and/or protecting/guarding/defending of which a guardianship arrangement has been established with a guardian.
+simple_definition: An entity for the caring for and/or protecting/guarding/defending of which a guardianship arrangement has
+  been established with a guardian.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:custodian
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

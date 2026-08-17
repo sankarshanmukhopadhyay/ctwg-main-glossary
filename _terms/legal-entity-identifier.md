@@ -6,6 +6,12 @@ title: "legal-entity-identifier"
 
 # legal-entity-identifier
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:legal-entity-identifier`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,23 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **Legal Entity Identifier** (`en`, `alternative`)
+- **Legal Entity Identifiers** (`en`, `alternative`)
+- **LEI** (`en`, `alternative`)
+- **LEIs** (`en`, `alternative`)
+
+## Legacy Aliases
 Legal Entity Identifier, Legal Entity Identifiers, LEI, LEIs
+
+## Semantic Relations
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:definition`
+- **related**: `urn:tig:concept:identifier`
+- **related**: `urn:tig:concept:decentralized-identifier`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [glossary]({{ '/terms/glossary/' | relative_url }})

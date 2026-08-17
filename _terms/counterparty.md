@@ -6,6 +6,12 @@ title: "counterparty"
 
 # counterparty
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:counterparty`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 From the perspective of one party, the other party in a transaction, such as a financial transaction.
 
@@ -18,8 +24,19 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **counterparties** (`en`, `alternative`)
+
+## Legacy Aliases
 counterparty, counterparties
+
+## Semantic Relations
+- **related**: `urn:tig:concept:first-party`
+- **related**: `urn:tig:concept:second-party`
+- **related**: `urn:tig:concept:third-party`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [first party]({{ '/terms/first-party/' | relative_url }})

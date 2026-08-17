@@ -6,6 +6,12 @@ title: "portable assurance pattern"
 
 # portable assurance pattern
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:portable-assurance-pattern`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A reusable assurance idea that can be applied in more than one project or deployment.
 
@@ -18,8 +24,18 @@ This is a cross-project glossary term. Individual specifications may define narr
 ## Implementation Relevance
 Use this term to keep governance, authority, assurance, and implementation discussions consistent across interoperating projects.
 
-## Aliases
+## Alternative Designations
+- **portable-assurance-pattern** (`en`, `alternative`)
+
+## Legacy Aliases
 portable-assurance-pattern
+
+## Semantic Relations
+- **related**: `urn:tig:concept:assurance-level`
+- **related**: `urn:tig:concept:evidence-bundle`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [assurance-level]({{ '/terms/assurance-level/' | relative_url }})

@@ -6,6 +6,12 @@ title: "policy"
 
 # policy
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:policy`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A rule or set of rules that says what is allowed, required, or prohibited in a defined context.
 
@@ -18,8 +24,19 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **policies** (`en`, `alternative`)
+
+## Legacy Aliases
 policy, policies
+
+## Semantic Relations
+- **related**: `urn:tig:concept:governance-framework`
+- **related**: `urn:tig:concept:governance-requirement`
+- **related**: `urn:tig:concept:rule`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [governance framework]({{ '/terms/governance-framework/' | relative_url }})

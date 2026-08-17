@@ -6,6 +6,12 @@ title: "control-plane shift"
 
 # control-plane shift
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:control-plane-shift`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A change in which actor, policy, infrastructure component, or governance mechanism can determine, constrain, or revoke system behavior.
 
@@ -18,8 +24,19 @@ This term was added following a cross-repository terminology review of TSMM, TIS
 ## Implementation Relevance
 Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.
 
-## Aliases
+## Alternative Designations
+- **control-plane-shift** (`en`, `alternative`)
+
+## Legacy Aliases
 control-plane shift, control-plane-shift
+
+## Semantic Relations
+- **related**: `urn:tig:concept:locus-of-control`
+- **related**: `urn:tig:concept:authority`
+- **related**: `urn:tig:concept:governance`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [locus-of-control]({{ '/terms/locus-of-control/' | relative_url }})

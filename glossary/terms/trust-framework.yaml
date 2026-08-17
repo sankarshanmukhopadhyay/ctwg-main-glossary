@@ -1,8 +1,21 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:trust-framework
+designations:
+- label: trust-framework
+  language: en
+  status: preferred
+- label: trust framework
+  language: en
+  status: alternative
+- label: trust frameworks
+  language: en
+  status: alternative
 term: trust-framework
 aliases:
 - trust framework
 - trust frameworks
-definition: A term (most frequently used in the digital identity industry) to describe a governance framework for a digital identity system, especially a federation.
+definition: A term (most frequently used in the digital identity industry) to describe a governance framework for a digital
+  identity system, especially a federation.
 notes: []
 see_also:
 - policy
@@ -44,4 +57,28 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
-simple_definition: A term (most frequently used in the digital identity industry) to describe a governance framework for a digital identity system, especially a federation.
+simple_definition: A term (most frequently used in the digital identity industry) to describe a governance framework for a
+  digital identity system, especially a federation.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:policy
+  - urn:tig:concept:governance-framework
+  - urn:tig:concept:requirement
+  - urn:tig:concept:governance
+  - urn:tig:concept:governing-authority
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

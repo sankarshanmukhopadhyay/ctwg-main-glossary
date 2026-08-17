@@ -1,10 +1,24 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:dpop
+designations:
+- label: dpop
+  language: en
+  status: preferred
+- label: DPoP
+  language: en
+  status: alternative
+- label: Demonstrating Proof of Possession
+  language: en
+  status: alternative
 term: dpop
 aliases:
 - DPoP
 - Demonstrating Proof of Possession
-definition: An OAuth 2.0 mechanism for sender-constraining tokens by requiring a client to prove possession of a private key when using a token.
+definition: An OAuth 2.0 mechanism for sender-constraining tokens by requiring a client to prove possession of a private key
+  when using a token.
 reader_note: This term is part of the v1.2.0 standards-linked refresh and is anchored to active implementation vocabulary.
-implementation_relevance: Use this term when mapping glossary language to implementation profiles, governance controls, conformance checks, or assurance evidence.
+implementation_relevance: Use this term when mapping glossary language to implementation profiles, governance controls, conformance
+  checks, or assurance evidence.
 notes: []
 see_also:
 - proof-of-possession
@@ -54,4 +68,27 @@ crosswalk:
   - RFC 9449
   openid:
   - OpenID4VCI
-simple_definition: An OAuth 2.0 mechanism for sender-constraining tokens by requiring a client to prove possession of a private key when using a token.
+simple_definition: An OAuth 2.0 mechanism for sender-constraining tokens by requiring a client to prove possession of a private
+  key when using a token.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:proof-of-possession
+  - urn:tig:concept:sender-constrained-token
+  - urn:tig:concept:cryptographic-key
+  - urn:tig:concept:authorization
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

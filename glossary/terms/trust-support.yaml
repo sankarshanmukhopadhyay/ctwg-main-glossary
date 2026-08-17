@@ -1,8 +1,21 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:trust-support
+designations:
+- label: trust-support
+  language: en
+  status: preferred
+- label: trust support
+  language: en
+  status: alternative
+- label: trust supports
+  language: en
+  status: alternative
 term: trust-support
 aliases:
 - trust support
 - trust supports
-definition: A system, protocol, or other infrastructure whose function is to facilitate the establishment and maintenance of trust relationships at higher protocol layers. In the ToIP stack, the trust support layer is Layer 1.
+definition: A system, protocol, or other infrastructure whose function is to facilitate the establishment and maintenance
+  of trust relationships at higher protocol layers. In the ToIP stack, the trust support layer is Layer 1.
 notes: []
 see_also:
 - glossary
@@ -46,3 +59,25 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+  - urn:tig:concept:trust
+  - urn:tig:concept:trust-registry
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

@@ -1,3 +1,30 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:digital-signature
+designations:
+- label: digital-signature
+  language: en
+  status: preferred
+- label: digital signature
+  language: en
+  status: alternative
+- label: digital signatures
+  language: en
+  status: alternative
+- label: digitally sign
+  language: en
+  status: alternative
+- label: digitally signed
+  language: en
+  status: alternative
+- label: digital signing
+  language: en
+  status: alternative
+- label: cryptographic signature
+  language: en
+  status: alternative
+- label: cryptographic signatures
+  language: en
+  status: alternative
 term: digital-signature
 aliases:
 - digital signature
@@ -7,7 +34,9 @@ aliases:
 - digital signing
 - cryptographic signature
 - cryptographic signatures
-definition: A digital signature is a mathematical scheme that uses cryptography for verifying the authenticity of digital messages or documents. A valid digital signature, where the prerequisites are satisfied, gives a recipient very high confidence that the message was created by a known sender (authenticity), and that the message was not altered in transit (integrity).
+definition: A digital signature is a mathematical scheme that uses cryptography for verifying the authenticity of digital
+  messages or documents. A valid digital signature, where the prerequisites are satisfied, gives a recipient very high confidence
+  that the message was created by a known sender (authenticity), and that the message was not altered in transit (integrity).
 notes: []
 see_also:
 - glossary
@@ -16,7 +45,8 @@ sources:
 - '[Wikipedia](https://en.wikipedia.org/wiki/Digital_signature).'
 mental_models: []
 supporting_definitions:
-- '[NIST-CSRC](https://csrc.nist.gov/glossary/term/digital_signature): The result of a cryptographic transformation of data which, when properly implemented, provides the services of: 1. origin authentication, 2. data integrity, and 3. signer non-repudiation.'
+- '[NIST-CSRC](https://csrc.nist.gov/glossary/term/digital_signature): The result of a cryptographic transformation of data
+  which, when properly implemented, provides the services of: 1. origin authentication, 2. data integrity, and 3. signer non-repudiation.'
 source_file: spec/terms-definitions/digital-signature.md
 governance_profile: descriptive
 governance:
@@ -46,3 +76,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

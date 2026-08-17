@@ -6,6 +6,12 @@ title: "wallet-attestation"
 
 # wallet-attestation
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:wallet-attestation`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 Evidence about a wallet instance, wallet provider, or wallet capability that can be used by issuers, verifiers, or governance frameworks to make reliance decisions.
 
@@ -18,8 +24,21 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **wallet attestation** (`en`, `alternative`)
+
+## Legacy Aliases
 wallet attestation
+
+## Semantic Relations
+- **related**: `urn:tig:concept:digital-wallet`
+- **related**: `urn:tig:concept:attestation`
+- **related**: `urn:tig:concept:issuer`
+- **related**: `urn:tig:concept:verifier`
+- **related**: `urn:tig:concept:assurance-level`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [digital-wallet]({{ '/terms/digital-wallet/' | relative_url }})

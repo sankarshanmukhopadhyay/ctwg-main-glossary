@@ -6,6 +6,12 @@ title: "encrypt-sender-sign-receiver"
 
 # encrypt-sender-sign-receiver
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:encrypt-sender-sign-receiver`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 An authenticated encryption approach, using PKI. It covers authenticity and confidentiality.
 
@@ -18,8 +24,18 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **encrypt sender sign receiver** (`en`, `alternative`)
+
+## Legacy Aliases
 encrypt-sender-sign-receiver, encrypt sender sign receiver
+
+## Semantic Relations
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:definition`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [glossary]({{ '/terms/glossary/' | relative_url }})

@@ -1,8 +1,21 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:holder-binding
+designations:
+- label: holder-binding
+  language: en
+  status: preferred
+- label: holder binding
+  language: en
+  status: alternative
+- label: holder bindings
+  language: en
+  status: alternative
 term: holder-binding
 aliases:
 - holder binding
 - holder bindings
-definition: The process of creating and verifying a relationship between the holder of a digital wallet and the wallet itself. Holder binding is related to but NOT the same as subject binding.
+definition: The process of creating and verifying a relationship between the holder of a digital wallet and the wallet itself.
+  Holder binding is related to but NOT the same as subject binding.
 notes: []
 see_also:
 - glossary
@@ -44,3 +57,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

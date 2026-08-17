@@ -1,10 +1,10 @@
 ---
-title: "Terms: B"
-parent: "Glossary Terms"
+title: "Concepts: B"
+parent: "Concepts"
 nav_order: 2
 ---
 
-# Terms: B
+# Concepts: B
 
 - [binding]({{ '/terms/binding/' | relative_url }})
 - [biometric]({{ '/terms/biometric/' | relative_url }})

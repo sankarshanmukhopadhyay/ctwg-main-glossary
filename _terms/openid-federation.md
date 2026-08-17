@@ -6,6 +6,12 @@ title: "openid-federation"
 
 # openid-federation
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:openid-federation`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A federation framework for establishing trust among OpenID participants using entity statements, trust chains, and federation metadata.
 
@@ -18,8 +24,20 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **OpenID Federation** (`en`, `alternative`)
+
+## Legacy Aliases
 OpenID Federation
+
+## Semantic Relations
+- **related**: `urn:tig:concept:federation`
+- **related**: `urn:tig:concept:trust-chain`
+- **related**: `urn:tig:concept:entity-statement`
+- **related**: `urn:tig:concept:trust-anchor`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [federation]({{ '/terms/federation/' | relative_url }})

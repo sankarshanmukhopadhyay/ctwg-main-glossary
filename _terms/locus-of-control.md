@@ -6,6 +6,12 @@ title: "locus-of-control"
 
 # locus-of-control
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:locus-of-control`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 The set of computing systems under a party’s direct control, where messages and data do not cross trust boundaries.
 
@@ -18,8 +24,18 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **locus of control** (`en`, `alternative`)
+
+## Legacy Aliases
 locus of control
+
+## Semantic Relations
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:definition`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [glossary]({{ '/terms/glossary/' | relative_url }})

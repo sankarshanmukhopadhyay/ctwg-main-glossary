@@ -6,6 +6,12 @@ title: "communication"
 
 # communication
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:communication`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 The transmission of information.
 
@@ -18,8 +24,17 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **communications** (`en`, `alternative`)
+
+## Legacy Aliases
 communication, communications
+
+## Semantic Relations
+- **related**: `urn:tig:concept:toip-communication`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [ToIP communication]({{ '/terms/toip-communication/' | relative_url }})

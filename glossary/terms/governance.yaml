@@ -1,7 +1,15 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:governance
+designations:
+- label: governance
+  language: en
+  status: preferred
 term: governance
 aliases:
 - governance
-definition: The act or process of governing or overseeing the realization of (the results associated with) a set of objectives by the owner of these objectives, in order to ensure they will be fit for the purposes that this owner intends to use them for.
+definition: The act or process of governing or overseeing the realization of (the results associated with) a set of objectives
+  by the owner of these objectives, in order to ensure they will be fit for the purposes that this owner intends to use them
+  for.
 notes: []
 see_also:
 - governing body
@@ -44,3 +52,23 @@ crosswalk:
   nist: []
   iso: []
 simple_definition: The rules, roles, decision rights, and processes used to direct and control a system or community.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:governing-body
+  - urn:tig:concept:governance-framework
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

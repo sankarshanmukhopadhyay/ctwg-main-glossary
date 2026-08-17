@@ -1,8 +1,18 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:owner
+designations:
+- label: owner
+  language: en
+  status: preferred
+- label: owners
+  language: en
+  status: alternative
 term: owner
 aliases:
 - owner
 - owners
-definition: The role that a party performs when it is exercising its legal, rightful or natural title to control a specific entity.
+definition: The role that a party performs when it is exercising its legal, rightful or natural title to control a specific
+  entity.
 notes: []
 see_also:
 - controller.
@@ -43,4 +53,24 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
-simple_definition: The role that a party performs when it is exercising its legal, rightful or natural title to control a specific entity.
+simple_definition: The role that a party performs when it is exercising its legal, rightful or natural title to control a
+  specific entity.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:controller
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

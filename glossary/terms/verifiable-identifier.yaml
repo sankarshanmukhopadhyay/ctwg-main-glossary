@@ -1,10 +1,30 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:verifiable-identifier
+designations:
+- label: verifiable-identifier
+  language: en
+  status: preferred
+- label: verifiable identifier
+  language: en
+  status: alternative
+- label: verifiable identifiers
+  language: en
+  status: alternative
+- label: VID
+  language: en
+  status: alternative
+- label: VIDs
+  language: en
+  status: alternative
 term: verifiable-identifier
 aliases:
 - verifiable identifier
 - verifiable identifiers
 - VID
 - VIDs
-definition: An identifier over which the controller can provide cryptographic proof of control. Each type of VID defines a specific means for discovering the public key, network endpoints, or other metadata necessary to prove control. Decentralized identifiers (DIDs) are a W3C standard for VIDs. VIDs are the cryptographically verifiable identifiers used in the ToIP stack.
+definition: An identifier over which the controller can provide cryptographic proof of control. Each type of VID defines a
+  specific means for discovering the public key, network endpoints, or other metadata necessary to prove control. Decentralized
+  identifiers (DIDs) are a W3C standard for VIDs. VIDs are the cryptographically verifiable identifiers used in the ToIP stack.
 notes: []
 see_also:
 - decentralized identifier
@@ -47,3 +67,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:decentralized-identifier
+  - urn:tig:concept:autonomic-identifier
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

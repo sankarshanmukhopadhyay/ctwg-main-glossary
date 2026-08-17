@@ -1,10 +1,10 @@
 ---
-title: "Terms: Z"
-parent: "Glossary Terms"
+title: "Concepts: Z"
+parent: "Concepts"
 nav_order: 24
 ---
 
-# Terms: Z
+# Concepts: Z
 
 - [zero-knowledge-proof]({{ '/terms/zero-knowledge-proof/' | relative_url }})
 - [zero-knowledge-service]({{ '/terms/zero-knowledge-service/' | relative_url }})

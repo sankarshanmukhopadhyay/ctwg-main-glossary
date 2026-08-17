@@ -86,7 +86,7 @@ def assert_vocab_schema_alignment(schema: dict, vocab: dict) -> list[str]:
 
 
 def basic_required_field_errors(data: dict) -> list[str]:
-    required = ["term", "definition", "governance", "assurance", "control_plane"]
+    required = ["schema_version", "concept_id", "designations", "term", "definition", "editorial", "provenance", "governance", "assurance", "control_plane"]
     errors = []
     for key in required:
         if key not in data:
@@ -110,6 +110,7 @@ def main() -> int:
     term_names: dict[str, str] = {}
     alias_map: dict[str, str] = {}
     slug_map: dict[str, str] = {}
+    concept_ids: dict[str, str] = {}
     source_objects = 0
 
     for f in files:
@@ -140,6 +141,22 @@ def main() -> int:
             computed_slug = slugify(term)
             if expected_slug != computed_slug:
                 raise ValueError(f'filename slug mismatch: file implies "{expected_slug}" but term implies "{computed_slug}"')
+
+            concept_id = str(data.get("concept_id", "")).strip()
+            expected_concept_id = f"urn:tig:concept:{expected_slug}"
+            if concept_id != expected_concept_id:
+                raise ValueError(f'concept_id must be "{expected_concept_id}"')
+            if concept_id in concept_ids:
+                raise ValueError(f'duplicate concept_id also used by {concept_ids[concept_id]}')
+            concept_ids[concept_id] = f.name
+
+            designations = data.get("designations") or []
+            preferred_en = [
+                d for d in designations
+                if isinstance(d, dict) and d.get("status") == "preferred" and d.get("language") == "en"
+            ]
+            if len(preferred_en) != 1 or preferred_en[0].get("label") != term:
+                raise ValueError("designations must contain exactly one English preferred label equal to term")
 
             term_key = term.casefold()
             if term_key in term_names:

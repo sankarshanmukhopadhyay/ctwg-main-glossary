@@ -4,20 +4,28 @@ nav_order: 2
 ---
 # Start Here
 
-The glossary serves two audiences: people who need to understand a term, and systems that need stable machine-readable terminology.
+TIG serves readers who need to understand trust-infrastructure concepts and systems that need stable machine-readable semantics.
 
-## I want to understand a term
+## I want to understand a concept
 
-Start with [Glossary Terms]({{ '/terms-index/' | relative_url }}). Each generated term page now puts a short **In Simple English** explanation before the more precise definition when one is available.
+Start with the [Concept Index]({{ '/terms-index/' | relative_url }}). Generated pages show a simple-English explanation where available, followed by the formal definition, concept identity, alternative designations, provenance, relations, and governance metadata.
 
-## I want to understand the trust-system vocabulary
+## I want to explore by problem area
 
-Use [Concepts by Topic]({{ '/concepts/' | relative_url }}) to enter through common questions about authority, agents, assurance, governance, risk, evidence, credentials, registries and interoperability.
+Use [Concepts by Topic]({{ '/concepts/' | relative_url }}) for authority, agents, assurance, governance, risk, evidence, credentials, registries, interoperability, harms, redress, and policy.
 
-## I want to use the glossary in software
+## I want to understand the v2 model
 
-Use [Machine-readable Artifacts]({{ '/artifacts/' | relative_url }}) for JSON, JSON-LD, manifests and inventories.
+Read the [Semantic Model]({{ '/governance/semantic-model/' | relative_url }}), then [Source Intake and Provenance]({{ '/governance/source-intake-and-provenance/' | relative_url }}).
 
-## I want to contribute or maintain terms
+## I want to use TIG in software
+
+Use [Machine-readable Artifacts]({{ '/artifacts/' | relative_url }}) for JSON, JSON-LD, SKOS-compatible Turtle, manifests, inventories, and profiles.
+
+## I want to consume a bounded vocabulary
+
+Use [Vocabulary Profiles]({{ '/governance/vocabulary-profiles/' | relative_url }}).
+
+## I want to contribute
 
 Use [Governance Documentation]({{ '/governance/' | relative_url }}) and the [Plain-English Authoring Guide]({{ '/governance/plain-language-guide/' | relative_url }}).

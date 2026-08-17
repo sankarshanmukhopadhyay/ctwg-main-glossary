@@ -1,8 +1,21 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:toip-specification
+designations:
+- label: toip-specification
+  language: en
+  status: preferred
+- label: ToIP specification
+  language: en
+  status: alternative
+- label: ToIP specifications
+  language: en
+  status: alternative
 term: toip-specification
 aliases:
 - ToIP specification
 - ToIP specifications
-definition: 'A specification published by the ToIP Foundation. ToIP specifications may be in one of three states: *Draft Deliverable*, *Working Group Approved Deliverable*, or *ToIP Approved Deliverable*.'
+definition: 'A specification published by the ToIP Foundation. ToIP specifications may be in one of three states: *Draft Deliverable*,
+  *Working Group Approved Deliverable*, or *ToIP Approved Deliverable*.'
 notes: []
 see_also:
 - glossary
@@ -40,3 +53,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

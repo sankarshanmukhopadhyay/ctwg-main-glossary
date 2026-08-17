@@ -6,6 +6,12 @@ title: "authorization checkpoint"
 
 # authorization checkpoint
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:authorization-checkpoint`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A runtime trust event that pauses or interrupts an interaction because required authorization, scope, evidence, or input is absent or insufficient.
 
@@ -18,8 +24,19 @@ This term was added following a cross-repository terminology review of TSMM, TIS
 ## Implementation Relevance
 Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.
 
-## Aliases
+## Alternative Designations
+- **authorization-checkpoint** (`en`, `alternative`)
+
+## Legacy Aliases
 authorization checkpoint, authorization-checkpoint
+
+## Semantic Relations
+- **related**: `urn:tig:concept:authorization`
+- **related**: `urn:tig:concept:authority`
+- **related**: `urn:tig:concept:policy`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [authorization]({{ '/terms/authorization/' | relative_url }})

@@ -6,6 +6,12 @@ title: "compliance"
 
 # compliance
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:compliance`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,23 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **comply** (`en`, `alternative`)
+- **complies** (`en`, `alternative`)
+- **complied** (`en`, `alternative`)
+- **complying** (`en`, `alternative`)
+- **compliant** (`en`, `alternative`)
+
+## Legacy Aliases
 compliance, comply, complies, complied, complying, compliant
+
+## Semantic Relations
+- **related**: `urn:tig:concept:governance-risk-management-compliance`
+- **related**: `urn:tig:concept:governance-framework`
+- **related**: `urn:tig:concept:trust-framework`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [governance-risk-management-compliance]({{ '/terms/governance-risk-management-compliance/' | relative_url }})

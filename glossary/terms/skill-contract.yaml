@@ -1,10 +1,21 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:skill-contract
+designations:
+- label: skill contract
+  language: en
+  status: preferred
+- label: skill-contract
+  language: en
+  status: alternative
 term: skill contract
 aliases:
 - skill contract
 - skill-contract
-definition: An operational contract for a discrete capability that defines permitted inputs, outputs, authorization scope, policy conditions, and evidence obligations.
+definition: An operational contract for a discrete capability that defines permitted inputs, outputs, authorization scope,
+  policy conditions, and evidence obligations.
 notes:
-- This definition is normalized for cross-repository use and should be applied together with the governing profile or specification that supplies domain-specific constraints.
+- This definition is normalized for cross-repository use and should be applied together with the governing profile or specification
+  that supplies domain-specific constraints.
 see_also:
 - capability
 - policy
@@ -14,8 +25,10 @@ sources:
   publisher: GitHub
   url: https://github.com/sankarshanmukhopadhyay/trust-systems-meta-model
   normative: false
-reader_note: This term was added following a cross-repository terminology review of TSMM, TIS, TGA, and the DTG ZKP Task Force workspace.
-implementation_relevance: Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.
+reader_note: This term was added following a cross-repository terminology review of TSMM, TIS, TGA, and the DTG ZKP Task Force
+  workspace.
+implementation_relevance: Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent
+  across interoperating trust infrastructure repositories.
 governance_profile: governance-supporting
 governance:
   authority_scope:
@@ -58,4 +71,26 @@ control_plane:
   - delegation_record
   - status_record
   - verification_log
-simple_definition: An operational contract for a discrete capability that defines permitted inputs, outputs, authorization scope, policy conditions, and evidence obligations.
+simple_definition: An operational contract for a discrete capability that defines permitted inputs, outputs, authorization
+  scope, policy conditions, and evidence obligations.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:capability
+  - urn:tig:concept:policy
+  - urn:tig:concept:authorization
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

@@ -6,6 +6,12 @@ title: "attention policy"
 
 # attention policy
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:attention-policy`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A policy that governs how inbound signals are admitted, deferred, summarized, rerouted, escalated, or rejected before reaching a principal or downstream decision layer.
 
@@ -18,8 +24,18 @@ This term was added following a cross-repository terminology review of TSMM, TIS
 ## Implementation Relevance
 Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.
 
-## Aliases
+## Alternative Designations
+- **attention-policy** (`en`, `alternative`)
+
+## Legacy Aliases
 attention policy, attention-policy
+
+## Semantic Relations
+- **related**: `urn:tig:concept:policy`
+- **related**: `urn:tig:concept:agent`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [policy]({{ '/terms/policy/' | relative_url }})

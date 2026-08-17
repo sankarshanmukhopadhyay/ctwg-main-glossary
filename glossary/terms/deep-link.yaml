@@ -1,10 +1,31 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:deep-link
+designations:
+- label: deep-link
+  language: en
+  status: preferred
+- label: deep link
+  language: en
+  status: alternative
+- label: deep links
+  language: en
+  status: alternative
+- label: deep linking
+  language: en
+  status: alternative
+- label: deep linked
+  language: en
+  status: alternative
 term: deep-link
 aliases:
 - deep link
 - deep links
 - deep linking
 - deep linked
-definition: In the context of the World Wide Web, deep linking is the use of a hyperlink that links to a specific, generally searchable or indexed, piece of web content on a website (e.g. "https\://example.com/path/page"), rather than the website's home page (e.g., "https\://example.com"). The URL contains all the information needed to point to a particular item. Deep linking is different from mobile deep linking, which refers to directly linking to in-app content using a non-HTTP URI.
+definition: In the context of the World Wide Web, deep linking is the use of a hyperlink that links to a specific, generally
+  searchable or indexed, piece of web content on a website (e.g. "https\://example.com/path/page"), rather than the website's
+  home page (e.g., "https\://example.com"). The URL contains all the information needed to point to a particular item. Deep
+  linking is different from mobile deep linking, which refers to directly linking to in-app content using a non-HTTP URI.
 notes: []
 see_also:
 - out-of-band introduction.
@@ -41,3 +62,22 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:out-of-band-introduction
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

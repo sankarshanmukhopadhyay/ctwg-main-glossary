@@ -1,7 +1,14 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:non-transferable-identifier
+designations:
+- label: non-transferable-identifier
+  language: en
+  status: preferred
 term: non-transferable-identifier
 aliases:
 - non-transferable-identifier
-definition: Controlling keys over this identifier cannot be rotated and therefore this identifier is non-transferable to other control.
+definition: Controlling keys over this identifier cannot be rotated and therefore this identifier is non-transferable to other
+  control.
 notes: []
 see_also:
 - glossary
@@ -12,7 +19,9 @@ sources:
 - 'ToIP CTWG maintained glossary source: `spec/terms-definitions/non-transferable-identifier.md`'
 mental_models: []
 supporting_definitions:
-- 'An identifier of this type has specific positive features like short-lived, peer to peer, one-time use, discardable, etc. that are very practical in certain use cases. Moreover non-transferable identifiers are much easier to govern than persistent identifiers that are [[ref: transferable]].'
+- 'An identifier of this type has specific positive features like short-lived, peer to peer, one-time use, discardable, etc.
+  that are very practical in certain use cases. Moreover non-transferable identifiers are much easier to govern than persistent
+  identifiers that are [[ref: transferable]].'
 - More in <a href="https://weboftrust.github.io/WOT-terms/docs/glossary/non-transferable-identifier">extended KERI glossary</a>
 source_file: spec/terms-definitions/non-transferable-identifier.md
 governance_profile: core-operational
@@ -47,4 +56,27 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
-simple_definition: Controlling keys over this identifier cannot be rotated and therefore this identifier is non-transferable to other control.
+simple_definition: Controlling keys over this identifier cannot be rotated and therefore this identifier is non-transferable
+  to other control.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+  - urn:tig:concept:identifier
+  - urn:tig:concept:decentralized-identifier
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

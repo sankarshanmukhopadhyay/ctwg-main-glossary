@@ -6,6 +6,12 @@ title: "agent"
 
 # agent
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:agent`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A person or software component that acts for someone or something else within a defined scope.
 
@@ -18,8 +24,17 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **agents** (`en`, `alternative`)
+
+## Legacy Aliases
 agent, agents
+
+## Semantic Relations
+- **related**: `urn:tig:concept:wallet`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [wallet]({{ '/terms/wallet/' | relative_url }})

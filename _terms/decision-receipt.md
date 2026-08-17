@@ -6,6 +6,12 @@ title: "decision receipt"
 
 # decision receipt
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:decision-receipt`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A record that explains what decision was made, under whose authority, using which policy and evidence, and with what result.
 
@@ -18,8 +24,19 @@ This term was added following a cross-repository terminology review of TSMM, TIS
 ## Implementation Relevance
 Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.
 
-## Aliases
+## Alternative Designations
+- **decision-receipt** (`en`, `alternative`)
+
+## Legacy Aliases
 decision receipt, decision-receipt
+
+## Semantic Relations
+- **related**: `urn:tig:concept:trust-decision`
+- **related**: `urn:tig:concept:audit-log`
+- **related**: `urn:tig:concept:attestation`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [trust-decision]({{ '/terms/trust-decision/' | relative_url }})

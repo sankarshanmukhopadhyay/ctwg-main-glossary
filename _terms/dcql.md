@@ -6,6 +6,12 @@ title: "dcql"
 
 # dcql
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:dcql`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A query language defined by OpenID4VP for requesting credential presentations in a flexible and credential-format-aware way.
 
@@ -18,8 +24,21 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **Digital Credentials Query Language** (`en`, `alternative`)
+- **DCQL** (`en`, `alternative`)
+
+## Legacy Aliases
 Digital Credentials Query Language, DCQL
+
+## Semantic Relations
+- **related**: `urn:tig:concept:openid4vp`
+- **related**: `urn:tig:concept:presentation-request`
+- **related**: `urn:tig:concept:verifiable-presentation`
+- **related**: `urn:tig:concept:credential`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [openid4vp]({{ '/terms/openid4vp/' | relative_url }})

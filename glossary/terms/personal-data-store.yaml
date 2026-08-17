@@ -1,3 +1,21 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:personal-data-store
+designations:
+- label: personal-data-store
+  language: en
+  status: preferred
+- label: personal data store
+  language: en
+  status: alternative
+- label: personal data stores
+  language: en
+  status: alternative
+- label: PDS
+  language: en
+  status: alternative
+- label: PDSs
+  language: en
+  status: alternative
 term: personal-data-store
 aliases:
 - personal data store
@@ -6,7 +24,8 @@ aliases:
 - PDSs
 definition: 'See: personal data vault.'
 notes:
-- In the market, the term “personal data store” has also been used to generally mean a combination of the functions of a personal digital agent, personal wallet, and personal data vault.
+- In the market, the term “personal data store” has also been used to generally mean a combination of the functions of a personal
+  digital agent, personal wallet, and personal data vault.
 see_also:
 - delegation
 - delegator
@@ -46,3 +65,25 @@ crosswalk:
   nist: []
   iso: []
 simple_definition: 'See: personal data vault.'
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:delegation
+  - urn:tig:concept:delegator
+  - urn:tig:concept:delegatee
+  - urn:tig:concept:authorization
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

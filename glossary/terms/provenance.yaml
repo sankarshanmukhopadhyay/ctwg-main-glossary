@@ -1,9 +1,17 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:provenance
+designations:
+- label: provenance
+  language: en
+  status: preferred
 term: provenance
 aliases:
 - provenance
-definition: Information about the origin, history, custody, transformation, or source lineage of data, content, credentials, or governed artifacts.
+definition: Information about the origin, history, custody, transformation, or source lineage of data, content, credentials,
+  or governed artifacts.
 reader_note: This bridge term improves navigation across privacy, status, provenance, and assurance concepts.
-implementation_relevance: Use this term where evidence needs to be carried across both reader-facing documentation and machine-verifiable assurance artifacts.
+implementation_relevance: Use this term where evidence needs to be carried across both reader-facing documentation and machine-verifiable
+  assurance artifacts.
 notes: []
 see_also:
 - c2pa-manifest
@@ -55,3 +63,25 @@ crosswalk:
   - C2PA Technical Specification 2.2
   ietf: []
 simple_definition: Information about where something came from and what happened to it over time.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:c2pa-manifest
+  - urn:tig:concept:content-credential
+  - urn:tig:concept:audit-log
+  - urn:tig:concept:authenticity
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

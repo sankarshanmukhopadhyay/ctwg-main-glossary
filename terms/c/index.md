@@ -1,10 +1,10 @@
 ---
-title: "Terms: C"
-parent: "Glossary Terms"
+title: "Concepts: C"
+parent: "Concepts"
 nav_order: 3
 ---
 
-# Terms: C
+# Concepts: C
 
 - [c2pa]({{ '/terms/c2pa/' | relative_url }})
 - [c2pa-manifest]({{ '/terms/c2pa-manifest/' | relative_url }})

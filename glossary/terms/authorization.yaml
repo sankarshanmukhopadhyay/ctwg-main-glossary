@@ -1,3 +1,48 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:authorization
+designations:
+- label: authorization
+  language: en
+  status: preferred
+- label: authorizations
+  language: en
+  status: alternative
+- label: authorize
+  language: en
+  status: alternative
+- label: authorized
+  language: en
+  status: alternative
+- label: unauthorized
+  language: en
+  status: alternative
+- label: authorizing
+  language: en
+  status: alternative
+- label: unauthorizing
+  language: en
+  status: alternative
+- label: authorisation
+  language: en
+  status: alternative
+- label: authorisations
+  language: en
+  status: alternative
+- label: authorise
+  language: en
+  status: alternative
+- label: authorised
+  language: en
+  status: alternative
+- label: unauthorised
+  language: en
+  status: alternative
+- label: authorising
+  language: en
+  status: alternative
+- label: unauthorising
+  language: en
+  status: alternative
 term: authorization
 aliases:
 - authorization
@@ -14,7 +59,8 @@ aliases:
 - unauthorised
 - authorising
 - unauthorising
-definition: The process of determining whether a requested action or service is approved for a specific entity under applicable policies, rules, credentials, or other governing criteria.
+definition: The process of determining whether a requested action or service is approved for a specific entity under applicable
+  policies, rules, credentials, or other governing criteria.
 notes: []
 see_also:
 - permission.
@@ -77,3 +123,22 @@ crosswalk:
   iso:
   - ISO/IEC 27001 A.5.15
   - ISO/IEC 42001 8.2
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:permission
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

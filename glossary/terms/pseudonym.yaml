@@ -1,10 +1,28 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:pseudonym
+designations:
+- label: pseudonym
+  language: en
+  status: preferred
+- label: pseudonyms
+  language: en
+  status: alternative
+- label: pseudonymous
+  language: en
+  status: alternative
+- label: pseudonymity
+  language: en
+  status: alternative
 term: pseudonym
 aliases:
 - pseudonym
 - pseudonyms
 - pseudonymous
 - pseudonymity
-definition: A pseudonym is a fictitious name that a person assumes for a particular purpose, which differs from their original or true name (orthonym). This also differs from a new name that entirely or legally replaces an individual's own. Many pseudonym holders use pseudonyms because they wish to remain anonymous, but anonymity is difficult to achieve and often fraught with legal issues.
+definition: A pseudonym is a fictitious name that a person assumes for a particular purpose, which differs from their original
+  or true name (orthonym). This also differs from a new name that entirely or legally replaces an individual's own. Many pseudonym
+  holders use pseudonyms because they wish to remain anonymous, but anonymity is difficult to achieve and often fraught with
+  legal issues.
 notes: []
 see_also:
 - verification
@@ -44,3 +62,25 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:verification
+  - urn:tig:concept:verifier
+  - urn:tig:concept:relying-party
+  - urn:tig:concept:trust-decision
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

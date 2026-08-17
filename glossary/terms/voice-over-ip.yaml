@@ -1,8 +1,21 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:voice-over-ip
+designations:
+- label: voice-over-ip
+  language: en
+  status: preferred
+- label: Voice over IP
+  language: en
+  status: alternative
+- label: VoIP
+  language: en
+  status: alternative
 term: voice-over-ip
 aliases:
 - Voice over IP
 - VoIP
-definition: Voice over Internet Protocol (VoIP), also called IP telephony, is a method and group of technologies for voice calls for the delivery of voice communication sessions over Internet Protocol (IP) networks, such as the Internet.
+definition: Voice over Internet Protocol (VoIP), also called IP telephony, is a method and group of technologies for voice
+  calls for the delivery of voice communication sessions over Internet Protocol (IP) networks, such as the Internet.
 notes: []
 see_also:
 - glossary
@@ -41,3 +54,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

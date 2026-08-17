@@ -1,10 +1,24 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:relying-party
+designations:
+- label: relying-party
+  language: en
+  status: preferred
+- label: relying party
+  language: en
+  status: alternative
+- label: relying parties
+  language: en
+  status: alternative
 term: relying-party
 aliases:
 - relying party
 - relying parties
-definition: A party who accepts claims, credentials, trust graphs, or any other form of verifiable data from other parties (such as issuers, holders, trust registries, or other authoritative sources) in order to make a trust decision.
+definition: A party who accepts claims, credentials, trust graphs, or any other form of verifiable data from other parties
+  (such as issuers, holders, trust registries, or other authoritative sources) in order to make a trust decision.
 notes:
-- The term “relying party” is more commonly used in federated identity architecture; the term “verifier” is more commonly used with decentralized identity architecture and verifiable credentials.
+- The term “relying party” is more commonly used in federated identity architecture; the term “verifier” is more commonly
+  used with decentralized identity architecture and verifiable credentials.
 see_also:
 - verifier.
 sources:
@@ -50,3 +64,22 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:verifier
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

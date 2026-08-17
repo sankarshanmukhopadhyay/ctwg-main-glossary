@@ -6,6 +6,12 @@ title: "verifiable-identifier"
 
 # verifiable-identifier
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:verifiable-identifier`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,21 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **verifiable identifier** (`en`, `alternative`)
+- **verifiable identifiers** (`en`, `alternative`)
+- **VID** (`en`, `alternative`)
+- **VIDs** (`en`, `alternative`)
+
+## Legacy Aliases
 verifiable identifier, verifiable identifiers, VID, VIDs
+
+## Semantic Relations
+- **related**: `urn:tig:concept:decentralized-identifier`
+- **related**: `urn:tig:concept:autonomic-identifier`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [decentralized identifier]({{ '/terms/decentralized-identifier/' | relative_url }})

@@ -6,6 +6,12 @@ title: "key-binding-jwt"
 
 # key-binding-jwt
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:key-binding-jwt`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A JWT used to demonstrate holder control of a key associated with an SD-JWT or SD-JWT VC presentation.
 
@@ -18,8 +24,21 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **KB-JWT** (`en`, `alternative`)
+- **Key Binding JWT** (`en`, `alternative`)
+
+## Legacy Aliases
 KB-JWT, Key Binding JWT
+
+## Semantic Relations
+- **related**: `urn:tig:concept:holder-binding`
+- **related**: `urn:tig:concept:sd-jwt-vc`
+- **related**: `urn:tig:concept:proof-of-possession`
+- **related**: `urn:tig:concept:cryptographic-key`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [holder-binding]({{ '/terms/holder-binding/' | relative_url }})

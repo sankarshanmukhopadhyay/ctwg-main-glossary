@@ -6,6 +6,12 @@ title: "expression-language"
 
 # expression-language
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:expression-language`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A language for creating a computer-interpretable (machine-readable) representation of specific knowledge.
 
@@ -18,8 +24,19 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **expression language** (`en`, `alternative`)
+- **expression languages** (`en`, `alternative`)
+
+## Legacy Aliases
 expression language, expression languages
+
+## Semantic Relations
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:definition`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [glossary]({{ '/terms/glossary/' | relative_url }})

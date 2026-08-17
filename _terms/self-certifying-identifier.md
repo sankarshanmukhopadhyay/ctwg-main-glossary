@@ -6,6 +6,12 @@ title: "self-certifying-identifier"
 
 # self-certifying-identifier
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:self-certifying-identifier`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,22 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **self-certifying identifier** (`en`, `alternative`)
+- **self-certifying identifiers** (`en`, `alternative`)
+- **SCID** (`en`, `alternative`)
+- **SCIDs** (`en`, `alternative`)
+
+## Legacy Aliases
 self-certifying identifier, self-certifying identifiers, SCID, SCIDs
+
+## Semantic Relations
+- **related**: `urn:tig:concept:autonomic-identifier`
+- **related**: `urn:tig:concept:verifiable-identifier`
+- **related**: `urn:tig:concept:cryptographic-key`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [autonomic-identifier]({{ '/terms/autonomic-identifier/' | relative_url }})

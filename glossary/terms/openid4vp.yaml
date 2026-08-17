@@ -1,8 +1,21 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:openid4vp
+designations:
+- label: openid4vp
+  language: en
+  status: preferred
+- label: OpenID4VP
+  language: en
+  status: alternative
+- label: OID4VP
+  language: en
+  status: alternative
 term: openid4vp
 aliases:
 - OpenID4VP
 - OID4VP
-definition: An OpenID Foundation protocol that defines mechanisms for requesting and presenting credentials between wallets and verifiers.
+definition: An OpenID Foundation protocol that defines mechanisms for requesting and presenting credentials between wallets
+  and verifiers.
 reader_note: ''
 implementation_relevance: ''
 notes: []
@@ -52,4 +65,29 @@ control_plane:
 crosswalk:
   openid:
   - OpenID4VP 1.0
-simple_definition: An OpenID Foundation protocol that defines mechanisms for requesting and presenting credentials between wallets and verifiers.
+simple_definition: An OpenID Foundation protocol that defines mechanisms for requesting and presenting credentials between
+  wallets and verifiers.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:presentation
+  - urn:tig:concept:presentation-request
+  - urn:tig:concept:verifiable-presentation
+  - urn:tig:concept:vp-token
+  - urn:tig:concept:digital-wallet
+  - urn:tig:concept:verifier
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

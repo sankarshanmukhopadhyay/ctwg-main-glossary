@@ -6,9 +6,13 @@ Terms covered: **612**
 
 | Artifact | Type | Origin | Generator | Consumer use case | Stability |
 |---|---|---|---|---|---|
+| `generated/json/trust-infrastructure-glossary.json` | `json_concept_bundle` | `generated` | `tools/build_governance_glossary.py` | Canonical v2 concept bundle for downstream integration. | `stable_generated` |
+| `generated/json/trust-infrastructure-glossary.catalog.json` | `json_concept_catalog` | `generated` | `tools/build_governance_glossary.py` | Lightweight v2 concept discovery and profile construction. | `stable_generated` |
+| `generated/json/trust-infrastructure-glossary.jsonld` | `jsonld_skos_bundle` | `generated` | `tools/build_governance_glossary.py` | Canonical linked-data representation with SKOS-aligned semantics. | `stable_generated` |
 | `generated/json/governance-executable-glossary.json` | `json_bundle` | `generated` | `tools/build_governance_glossary.py` | Complete machine-readable glossary corpus for indexing, policy mapping, and downstream assurance tooling. | `stable_generated` |
 | `generated/json/governance-executable-glossary.catalog.json` | `json_catalog` | `generated` | `tools/build_governance_glossary.py` | Lightweight term discovery, version comparison, and adoption dashboards. | `stable_generated` |
 | `generated/json/governance-executable-glossary.jsonld` | `jsonld_bundle` | `generated` | `tools/build_governance_glossary.py` | Linked-data publication of defined terms and governance metadata. | `experimental_semantic_mapping` |
+| `generated/rdf/trust-infrastructure-glossary.ttl` | `skos_turtle` | `generated` | `tools/build_governance_glossary.py` | SKOS-compatible concept exchange, vocabulary mapping, and semantic-web integration. | `stable_generated` |
 | `generated/json/governance-inventory.json` | `json_inventory` | `generated` | `tools/build_governance_glossary.py` | Authority, delegation, revocation, lifecycle, evidence, and control-plane coverage analysis. | `stable_generated` |
 | `generated/json/governance-quality-report.json` | `json_quality_report` | `generated` | `tools/build_quality_report.py` | Assurance-readiness findings for source attribution, evidence quality, revocation inspectability, and term cross-reference hygiene. | `stable_generated` |
 | `generated/markdown/governance-executable-glossary.md` | `markdown_bundle` | `generated` | `tools/build_governance_glossary.py` | Human-readable full corpus export. | `stable_generated` |

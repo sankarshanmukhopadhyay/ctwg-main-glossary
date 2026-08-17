@@ -6,6 +6,12 @@ title: "w3c-verifiable-credentials-data-model-specification"
 
 # w3c-verifiable-credentials-data-model-specification
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:w3c-verifiable-credentials-data-model-specification`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A W3C Recommendation defining the standard Verifiable Credentials Data Model. The current standards-linked anchor for new work is Verifiable Credentials Data Model v2.0.
 
@@ -18,8 +24,22 @@ This legacy glossary entry is retained for continuity with existing ToIP termino
 ## Implementation Relevance
 Prefer verifiable-credential-data-model-2-0 for current implementation mapping and use this term when preserving compatibility with earlier glossary references.
 
-## Aliases
+## Alternative Designations
+- **W3C Verifiable Credentials Data Model Specification** (`en`, `alternative`)
+
+## Legacy Aliases
 W3C Verifiable Credentials Data Model Specification
+
+## Semantic Relations
+- **related**: `urn:tig:concept:verifiable-credential-data-model-2-0`
+- **related**: `urn:tig:concept:verifiable-credential`
+- **related**: `urn:tig:concept:verifiable-presentation`
+- **related**: `urn:tig:concept:issuer`
+- **related**: `urn:tig:concept:holder`
+- **related**: `urn:tig:concept:verifier`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [verifiable-credential-data-model-2-0]({{ '/terms/verifiable-credential-data-model-2-0/' | relative_url }})

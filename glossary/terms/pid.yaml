@@ -1,10 +1,24 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:pid
+designations:
+- label: pid
+  language: en
+  status: preferred
+- label: Person Identification Data
+  language: en
+  status: alternative
+- label: PID
+  language: en
+  status: alternative
 term: pid
 aliases:
 - Person Identification Data
 - PID
-definition: A set of identity attributes used in the EUDI Wallet ecosystem to identify a natural or legal person under the applicable legal and governance framework.
+definition: A set of identity attributes used in the EUDI Wallet ecosystem to identify a natural or legal person under the
+  applicable legal and governance framework.
 reader_note: This term is part of the v1.2.0 standards-linked refresh and is anchored to active implementation vocabulary.
-implementation_relevance: Use this term when mapping glossary language to implementation profiles, governance controls, conformance checks, or assurance evidence.
+implementation_relevance: Use this term when mapping glossary language to implementation profiles, governance controls, conformance
+  checks, or assurance evidence.
 notes: []
 see_also:
 - eudi-wallet
@@ -55,3 +69,25 @@ control_plane:
 crosswalk:
   eu:
   - EUDI ARF 2.0
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:eudi-wallet
+  - urn:tig:concept:identity-data
+  - urn:tig:concept:natural-person
+  - urn:tig:concept:legal-person
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

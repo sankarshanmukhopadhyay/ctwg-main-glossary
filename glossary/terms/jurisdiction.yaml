@@ -1,8 +1,19 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:jurisdiction
+designations:
+- label: jurisdiction
+  language: en
+  status: preferred
+- label: jurisdictions
+  language: en
+  status: alternative
 term: jurisdiction
 aliases:
 - jurisdiction
 - jurisdictions
-definition: 'The composition of: a) a legal system (legislation, enforcement thereof, and conflict resolution), b) a party that governs that legal system, c) a scope within which that legal system is operational, and d) one or more objectives for the purpose of which the legal system is operated.'
+definition: 'The composition of: a) a legal system (legislation, enforcement thereof, and conflict resolution), b) a party
+  that governs that legal system, c) a scope within which that legal system is operational, and d) one or more objectives
+  for the purpose of which the legal system is operated.'
 notes: []
 see_also:
 - glossary
@@ -45,3 +56,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

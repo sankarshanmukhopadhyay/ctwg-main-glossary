@@ -1,3 +1,24 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:compliance
+designations:
+- label: compliance
+  language: en
+  status: preferred
+- label: comply
+  language: en
+  status: alternative
+- label: complies
+  language: en
+  status: alternative
+- label: complied
+  language: en
+  status: alternative
+- label: complying
+  language: en
+  status: alternative
+- label: compliant
+  language: en
+  status: alternative
 term: compliance
 aliases:
 - compliance
@@ -6,7 +27,9 @@ aliases:
 - complied
 - complying
 - compliant
-definition: In the context of decentralized digital trust infrastructure, compliance is the extent to which a system, actor, or party conforms to the requirements of a regulation, governance framework, or trust framework that pertains to that particular entity.
+definition: In the context of decentralized digital trust infrastructure, compliance is the extent to which a system, actor,
+  or party conforms to the requirements of a regulation, governance framework, or trust framework that pertains to that particular
+  entity.
 notes: []
 see_also:
 - governance-risk-management-compliance
@@ -16,7 +39,8 @@ sources:
 - 'ToIP CTWG maintained glossary source: `spec/terms-definitions/compliance.md`'
 mental_models: []
 supporting_definitions:
-- '[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#compliance): The state of realization of a set of conformance criteria or normative framework of a [party](https://essif-lab.github.io/framework/docs/terms/party).'
+- '[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#compliance): The state of realization of a set
+  of conformance criteria or normative framework of a [party](https://essif-lab.github.io/framework/docs/terms/party).'
 source_file: spec/terms-definitions/compliance.md
 governance_profile: core-operational
 governance:
@@ -47,3 +71,24 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:governance-risk-management-compliance
+  - urn:tig:concept:governance-framework
+  - urn:tig:concept:trust-framework
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

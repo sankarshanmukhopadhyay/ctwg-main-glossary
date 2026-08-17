@@ -1,8 +1,22 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:digital-trust-utility
+designations:
+- label: digital-trust-utility
+  language: en
+  status: preferred
+- label: digital trust utility
+  language: en
+  status: alternative
+- label: digital trust utilities
+  language: en
+  status: alternative
 term: digital-trust-utility
 aliases:
 - digital trust utility
 - digital trust utilities
-definition: An information system, network, distributed database, or blockchain designed to provide one or more supporting services to higher level components of decentralized digital trust infrastructure. In the ToIP stack, digital trust utilities are at Layer 1. A verifiable data registry is one type of digital trust utility.
+definition: An information system, network, distributed database, or blockchain designed to provide one or more supporting
+  services to higher level components of decentralized digital trust infrastructure. In the ToIP stack, digital trust utilities
+  are at Layer 1. A verifiable data registry is one type of digital trust utility.
 notes: []
 see_also:
 - registry
@@ -46,3 +60,25 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:registry
+  - urn:tig:concept:trust-registry
+  - urn:tig:concept:registration
+  - urn:tig:concept:governance-framework
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

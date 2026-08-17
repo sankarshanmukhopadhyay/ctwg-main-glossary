@@ -1,12 +1,12 @@
 ---
-title: "Glossary Terms"
+title: "Concepts"
 nav_order: 4
 has_children: true
 ---
 
-# Glossary Terms
+# Concepts
 
-This index is generated from `glossary/terms/` and currently includes **612** terms.
+This index is generated from `glossary/terms/` and currently includes **612** concepts.
 
 ## Browse by letter
 

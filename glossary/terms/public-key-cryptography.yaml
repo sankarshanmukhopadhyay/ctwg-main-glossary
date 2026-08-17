@@ -1,7 +1,19 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:public-key-cryptography
+designations:
+- label: public-key-cryptography
+  language: en
+  status: preferred
+- label: public key cryptography
+  language: en
+  status: alternative
 term: public-key-cryptography
 aliases:
 - public key cryptography
-definition: Public key cryptography, or asymmetric cryptography, is the field of cryptographic systems that use pairs of related keys. Each key pair consists of a public key and a corresponding private key. Key pairs are generated with cryptographic algorithms based on mathematical problems termed one-way functions. Security of public key cryptography depends on keeping the private key secret; the public key can be openly distributed without compromising security.
+definition: Public key cryptography, or asymmetric cryptography, is the field of cryptographic systems that use pairs of related
+  keys. Each key pair consists of a public key and a corresponding private key. Key pairs are generated with cryptographic
+  algorithms based on mathematical problems termed one-way functions. Security of public key cryptography depends on keeping
+  the private key secret; the public key can be openly distributed without compromising security.
 notes: []
 see_also:
 - public key infrastructure.
@@ -38,3 +50,22 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:public-key-infrastructure
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

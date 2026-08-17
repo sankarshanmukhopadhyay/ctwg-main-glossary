@@ -6,6 +6,12 @@ title: "toip-communication"
 
 # toip-communication
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:toip-communication`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 Communication that uses the ToIP stack to deliver ToIP messages between ToIP endpoints, optionally using ToIP intermediaries to provide authenticity, confidentiality, and correlation privacy.
 
@@ -18,8 +24,19 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **ToIP communication** (`en`, `alternative`)
+- **ToIP communications** (`en`, `alternative`)
+
+## Legacy Aliases
 ToIP communication, ToIP communications
+
+## Semantic Relations
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:definition`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [glossary]({{ '/terms/glossary/' | relative_url }})

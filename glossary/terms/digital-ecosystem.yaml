@@ -1,8 +1,22 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:digital-ecosystem
+designations:
+- label: digital-ecosystem
+  language: en
+  status: preferred
+- label: digital ecosystem
+  language: en
+  status: alternative
+- label: digital ecosystems
+  language: en
+  status: alternative
 term: digital-ecosystem
 aliases:
 - digital ecosystem
 - digital ecosystems
-definition: A digital ecosystem is a distributed, adaptive, open socio-technical system with properties of self-organization, scalability and sustainability inspired from natural ecosystems. Digital ecosystem models are informed by knowledge of natural ecosystems, especially for aspects related to competition and collaboration among diverse entities.
+definition: A digital ecosystem is a distributed, adaptive, open socio-technical system with properties of self-organization,
+  scalability and sustainability inspired from natural ecosystems. Digital ecosystem models are informed by knowledge of natural
+  ecosystems, especially for aspects related to competition and collaboration among diverse entities.
 notes: []
 see_also:
 - digital trust ecosystem
@@ -40,3 +54,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:digital-trust-ecosystem
+  - urn:tig:concept:trust-community
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

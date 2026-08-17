@@ -1,10 +1,10 @@
 ---
-title: "Terms: V"
-parent: "Glossary Terms"
+title: "Concepts: V"
+parent: "Concepts"
 nav_order: 22
 ---
 
-# Terms: V
+# Concepts: V
 
 - [validation]({{ '/terms/validation/' | relative_url }})
 - [vault]({{ '/terms/vault/' | relative_url }})

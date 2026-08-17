@@ -1,3 +1,15 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:cryptographic-binding
+designations:
+- label: cryptographic-binding
+  language: en
+  status: preferred
+- label: cryptographic binding
+  language: en
+  status: alternative
+- label: cryptographic bindings
+  language: en
+  status: alternative
 term: cryptographic-binding
 aliases:
 - cryptographic binding
@@ -41,3 +53,23 @@ crosswalk:
   nist: []
   iso: []
 simple_definition: Associating two or more related elements of information using cryptographic techniques.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

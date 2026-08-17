@@ -6,6 +6,12 @@ title: "anonymous"
 
 # anonymous
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:anonymous`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 An adjective describing when the identity of a natural person or other actor is unknown.
 
@@ -18,8 +24,17 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+None
+
+## Legacy Aliases
 anonymous
+
+## Semantic Relations
+- **related**: `urn:tig:concept:pseudonym`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [pseudonym]({{ '/terms/pseudonym/' | relative_url }})

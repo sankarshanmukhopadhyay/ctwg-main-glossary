@@ -1,8 +1,8 @@
-title: ToIP Main Glossary
-description: Governance-executable glossary for Trust Over IP concepts and ecosystem terminology.
+title: Trust Infrastructure Glossary
+description: Governance-executable concept system for digital trust infrastructure.
 
 url: "https://sankarshanmukhopadhyay.github.io"
-baseurl: "/ctwg-main-glossary"
+baseurl: "/trust-infrastructure-glossary"
 
 remote_theme: just-the-docs/just-the-docs
 color_scheme: light
@@ -18,7 +18,7 @@ compress_html:
 
 aux_links:
   "GitHub Repository":
-    - "https://github.com/sankarshanmukhopadhyay/ctwg-main-glossary"
+    - "https://github.com/sankarshanmukhopadhyay/trust-infrastructure-glossary"
 
 plugins:
   - jekyll-remote-theme
@@ -39,7 +39,7 @@ exclude:
 just_the_docs:
   collections:
     terms:
-      name: Glossary Terms
+      name: Concepts
       nav_fold: true
 
 collections:
@@ -53,5 +53,5 @@ defaults:
       type: "terms"
     values:
       layout: "default"
-      parent: "Glossary Terms"
+      parent: "Concepts"
       nav_exclude: true

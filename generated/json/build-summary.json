@@ -1,4 +1,6 @@
 {
+  "schema_version": "2.0",
+  "concept_count": 612,
   "term_count": 612,
   "generated_json": [
     "artifact-manifest.json",
@@ -8,7 +10,13 @@
     "governance-executable-glossary.jsonld",
     "governance-inventory.json",
     "governance-quality-report.json",
-    "jekyll-site-build-summary.json"
+    "jekyll-site-build-summary.json",
+    "trust-infrastructure-glossary.catalog.json",
+    "trust-infrastructure-glossary.json",
+    "trust-infrastructure-glossary.jsonld"
+  ],
+  "generated_rdf": [
+    "trust-infrastructure-glossary.ttl"
   ],
   "generated_markdown": [
     "artifact-manifest.md",

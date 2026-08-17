@@ -1,10 +1,30 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:communication-endpoint
+designations:
+- label: communication-endpoint
+  language: en
+  status: preferred
+- label: communication endpoint
+  language: en
+  status: alternative
+- label: communication endpoints
+  language: en
+  status: alternative
+- label: communications endpoint
+  language: en
+  status: alternative
+- label: communications endpoints
+  language: en
+  status: alternative
 term: communication-endpoint
 aliases:
 - communication endpoint
 - communication endpoints
 - communications endpoint
 - communications endpoints
-definition: A type of communication network node. It is an interface exposed by a communicating party or by a communication channel. An example of the latter type of a communication endpoint is a publish-subscribe topic or a group in group communication systems.
+definition: A type of communication network node. It is an interface exposed by a communicating party or by a communication
+  channel. An example of the latter type of a communication endpoint is a publish-subscribe topic or a group in group communication
+  systems.
 notes: []
 see_also:
 - ToIP endpoint.
@@ -41,3 +61,22 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:toip-endpoint
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

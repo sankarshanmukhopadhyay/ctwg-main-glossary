@@ -6,6 +6,12 @@ title: "acceptance"
 
 # acceptance
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:acceptance`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 The action of a party receiving any form of verifiable data and using it to make a trust decision.
 
@@ -18,8 +24,18 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **accept** (`en`, `alternative`)
+- **accepts** (`en`, `alternative`)
+
+## Legacy Aliases
 acceptance, accept, accepts
+
+## Semantic Relations
+- **related**: `urn:tig:concept:acceptance-network`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [acceptance network]({{ '/terms/acceptance-network/' | relative_url }})

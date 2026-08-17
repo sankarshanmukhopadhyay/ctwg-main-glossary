@@ -1,7 +1,19 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:risk-management
+designations:
+- label: risk-management
+  language: en
+  status: preferred
+- label: risk management
+  language: en
+  status: alternative
 term: risk-management
 aliases:
 - risk management
-definition: 'The process of managing risks to organizational operations (including mission, functions, image, or reputation), organizational assets, or individuals resulting from the operation of an information system, and includes: (i) the conduct of a risk assessment; (ii) the implementation of a risk mitigation strategy; and (iii) employment of techniques and procedures for the continuous monitoring of the security state of the information system.'
+definition: 'The process of managing risks to organizational operations (including mission, functions, image, or reputation),
+  organizational assets, or individuals resulting from the operation of an information system, and includes: (i) the conduct
+  of a risk assessment; (ii) the implementation of a risk mitigation strategy; and (iii) employment of techniques and procedures
+  for the continuous monitoring of the security state of the information system.'
 notes: []
 see_also:
 - glossary
@@ -10,8 +22,14 @@ sources:
 - '[NIST-CSRC](https://csrc.nist.gov/glossary/term/risk_management).'
 mental_models: []
 supporting_definitions:
-- '[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#risk-management): a process that is run by (or on behalf of) a specific [party](https://essif-lab.github.io/framework/docs/terms/party) for the purpose of [managing](https://essif-lab.github.io/framework/docs/terms/management) the [risks](https://essif-lab.github.io/framework/docs/terms/risk) that it [owns](https://essif-lab.github.io/framework/docs/terms/owner) (thereby realizing specific [risk objectives](https://essif-lab.github.io/framework/docs/terms/risk-objective)).'
-- '[Wikipedia](https://en.wikipedia.org/wiki/Risk_management): Risk management is the identification, evaluation, and prioritization of [risks](https://en.wikipedia.org/wiki/Risk) (defined in [ISO 31000](https://en.wikipedia.org/wiki/ISO_31000) as the effect of uncertainty on objectives) followed by coordinated and economical application of resources to minimize, monitor, and control the probability or impact of unfortunate events or to maximize the realization of opportunities.'
+- '[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#risk-management): a process that is run by (or
+  on behalf of) a specific [party](https://essif-lab.github.io/framework/docs/terms/party) for the purpose of [managing](https://essif-lab.github.io/framework/docs/terms/management)
+  the [risks](https://essif-lab.github.io/framework/docs/terms/risk) that it [owns](https://essif-lab.github.io/framework/docs/terms/owner)
+  (thereby realizing specific [risk objectives](https://essif-lab.github.io/framework/docs/terms/risk-objective)).'
+- '[Wikipedia](https://en.wikipedia.org/wiki/Risk_management): Risk management is the identification, evaluation, and prioritization
+  of [risks](https://en.wikipedia.org/wiki/Risk) (defined in [ISO 31000](https://en.wikipedia.org/wiki/ISO_31000) as the effect
+  of uncertainty on objectives) followed by coordinated and economical application of resources to minimize, monitor, and
+  control the probability or impact of unfortunate events or to maximize the realization of opportunities.'
 source_file: spec/terms-definitions/risk-management.md
 governance_profile: descriptive
 governance:
@@ -41,3 +59,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

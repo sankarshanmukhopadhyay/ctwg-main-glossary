@@ -1,8 +1,21 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:digital-asset
+designations:
+- label: digital-asset
+  language: en
+  status: preferred
+- label: digital asset
+  language: en
+  status: alternative
+- label: digital assets
+  language: en
+  status: alternative
 term: digital-asset
 aliases:
 - digital asset
 - digital assets
-definition: A digital asset is anything that exists only in digital form and comes with a distinct usage right. Data that do not possess that right are not considered assets.
+definition: A digital asset is anything that exists only in digital form and comes with a distinct usage right. Data that
+  do not possess that right are not considered assets.
 notes: []
 see_also:
 - digital credential.
@@ -39,3 +52,22 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:digital-credential
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

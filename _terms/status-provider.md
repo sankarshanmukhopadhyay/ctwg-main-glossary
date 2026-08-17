@@ -6,6 +6,12 @@ title: "status-provider"
 
 # status-provider
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:status-provider`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 An entity that provides status information such as suspension or revocation for a credential.
 
@@ -18,8 +24,21 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **credential status provider** (`en`, `alternative`)
+- **status provider** (`en`, `alternative`)
+
+## Legacy Aliases
 credential status provider, status provider
+
+## Semantic Relations
+- **related**: `urn:tig:concept:bitstring-status-list`
+- **related**: `urn:tig:concept:revocation`
+- **related**: `urn:tig:concept:status-record`
+- **related**: `urn:tig:concept:verifiable-credential`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [bitstring-status-list]({{ '/terms/bitstring-status-list/' | relative_url }})

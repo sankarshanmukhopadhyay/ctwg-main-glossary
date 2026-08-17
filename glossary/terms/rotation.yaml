@@ -1,3 +1,21 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:rotation
+designations:
+- label: rotation
+  language: en
+  status: preferred
+- label: rotation-event
+  language: en
+  status: alternative
+- label: key-rotation
+  language: en
+  status: alternative
+- label: rotation event
+  language: en
+  status: alternative
+- label: key rotation
+  language: en
+  status: alternative
 term: rotation
 aliases:
 - rotation
@@ -49,3 +67,27 @@ crosswalk:
   nist: []
   iso: []
 simple_definition: a change of the key state, including a change to the set of authoritative key pairs for an identifier AID.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:governance
+  - urn:tig:concept:governance-framework
+  - urn:tig:concept:governing-authority
+  - urn:tig:concept:trust-registry
+  - urn:tig:concept:definition
+  - urn:tig:concept:glossary
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

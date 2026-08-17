@@ -6,6 +6,12 @@ title: "internet-protocol"
 
 # internet-protocol
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:internet-protocol`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,20 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **Internet Protocol** (`en`, `alternative`)
+
+## Legacy Aliases
 Internet Protocol
+
+## Semantic Relations
+- **related**: `urn:tig:concept:tcp-ip`
+- **related**: `urn:tig:concept:user-datagram-protocol`
+- **related**: `urn:tig:concept:ip-address`
+- **related**: `urn:tig:concept:internet-protocol-suite`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [tcp-ip]({{ '/terms/tcp-ip/' | relative_url }})

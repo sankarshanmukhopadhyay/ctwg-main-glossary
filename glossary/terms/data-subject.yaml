@@ -1,8 +1,21 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:data-subject
+designations:
+- label: data-subject
+  language: en
+  status: preferred
+- label: data subject
+  language: en
+  status: alternative
+- label: data subjects
+  language: en
+  status: alternative
 term: data-subject
 aliases:
 - data subject
 - data subjects
-definition: The natural person that is described by personal data. Data subject is the term used by the EU General Data Protection Regulation.
+definition: The natural person that is described by personal data. Data subject is the term used by the EU General Data Protection
+  Regulation.
 notes: []
 see_also:
 - glossary
@@ -40,4 +53,25 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
-simple_definition: The natural person that is described by personal data. Data subject is the term used by the EU General Data Protection Regulation.
+simple_definition: The natural person that is described by personal data. Data subject is the term used by the EU General
+  Data Protection Regulation.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

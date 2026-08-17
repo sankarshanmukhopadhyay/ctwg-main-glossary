@@ -6,6 +6,12 @@ title: "monotonic attenuation"
 
 # monotonic attenuation
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:monotonic-attenuation`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 The delegation invariant that authority may remain unchanged or become narrower at each delegation hop but must never expand beyond the parent grant.
 
@@ -18,8 +24,18 @@ This term was added following a cross-repository terminology review of TSMM, TIS
 ## Implementation Relevance
 Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.
 
-## Aliases
+## Alternative Designations
+- **monotonic-attenuation** (`en`, `alternative`)
+
+## Legacy Aliases
 monotonic attenuation, monotonic-attenuation
+
+## Semantic Relations
+- **related**: `urn:tig:concept:delegation`
+- **related**: `urn:tig:concept:scope`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [delegation]({{ '/terms/delegation/' | relative_url }})

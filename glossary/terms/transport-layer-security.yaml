@@ -1,7 +1,20 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:transport-layer-security
+designations:
+- label: transport-layer-security
+  language: en
+  status: preferred
+- label: Transport Layer Security
+  language: en
+  status: alternative
 term: transport-layer-security
 aliases:
 - Transport Layer Security
-definition: Transport Layer Security (TLS) is a cryptographic protocol designed to provide communications security over a computer network. The protocol is widely used in applications such as email, instant messaging, and Voice over IP, but its use in securing HTTPS remains the most publicly visible. The TLS protocol aims primarily to provide security, including privacy (confidentiality), integrity, and authenticity through the use of cryptography, such as the use of certificates, between two or more communicating computer applications.
+definition: Transport Layer Security (TLS) is a cryptographic protocol designed to provide communications security over a
+  computer network. The protocol is widely used in applications such as email, instant messaging, and Voice over IP, but its
+  use in securing HTTPS remains the most publicly visible. The TLS protocol aims primarily to provide security, including
+  privacy (confidentiality), integrity, and authenticity through the use of cryptography, such as the use of certificates,
+  between two or more communicating computer applications.
 notes:
 - TLS replaced the deprecated Secure Sockets Layer (SSL) protocol.
 see_also:
@@ -41,3 +54,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

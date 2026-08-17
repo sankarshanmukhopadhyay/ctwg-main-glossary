@@ -1,8 +1,19 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:glossary
+designations:
+- label: glossary
+  language: en
+  status: preferred
+- label: glossaries
+  language: en
+  status: alternative
 term: glossary
 aliases:
 - glossary
 - glossaries
-definition: 'A glossary (from Ancient Greek: γλῶσσα, glossa; language, speech, wording), also known as a _vocabulary_ or _clavis_, is an alphabetical list of terms in a particular domain of knowledge (scope) together with the definitions for those terms. Unlike a dictionary, a glossary has only one definition for each term.'
+definition: 'A glossary (from Ancient Greek: γλῶσσα, glossa; language, speech, wording), also known as a _vocabulary_ or _clavis_,
+  is an alphabetical list of terms in a particular domain of knowledge (scope) together with the definitions for those terms.
+  Unlike a dictionary, a glossary has only one definition for each term.'
 notes: []
 see_also:
 - registry
@@ -42,3 +53,25 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:registry
+  - urn:tig:concept:trust-registry
+  - urn:tig:concept:registration
+  - urn:tig:concept:governance-framework
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

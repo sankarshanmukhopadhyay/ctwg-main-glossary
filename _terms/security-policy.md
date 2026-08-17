@@ -6,6 +6,12 @@ title: "security-policy"
 
 # security-policy
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:security-policy`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A set of policies and rules that governs all aspects of security-relevant system and system element behavior.
 
@@ -18,8 +24,18 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **security policy** (`en`, `alternative`)
+- **security policies** (`en`, `alternative`)
+
+## Legacy Aliases
 security policy, security policies
+
+## Semantic Relations
+- **related**: `urn:tig:concept:privacy-policy`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [privacy policy]({{ '/terms/privacy-policy/' | relative_url }})

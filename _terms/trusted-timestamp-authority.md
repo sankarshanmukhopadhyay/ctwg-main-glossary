@@ -6,6 +6,12 @@ title: "trusted-timestamp-authority"
 
 # trusted-timestamp-authority
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:trusted-timestamp-authority`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 An authority that is trusted to provide accurate time information in the form of a timestamp.
 
@@ -18,8 +24,25 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **trusted timestamp authority** (`en`, `alternative`)
+- **trusted timestamp authorities** (`en`, `alternative`)
+- **TTA** (`en`, `alternative`)
+- **TTAs** (`en`, `alternative`)
+
+## Legacy Aliases
 trusted timestamp authority, trusted timestamp authorities, TTA, TTAs
+
+## Semantic Relations
+- **related**: `urn:tig:concept:governance`
+- **related**: `urn:tig:concept:governance-framework`
+- **related**: `urn:tig:concept:governing-authority`
+- **related**: `urn:tig:concept:trust-registry`
+- **related**: `urn:tig:concept:revocation`
+- **related**: `urn:tig:concept:verification`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [governance]({{ '/terms/governance/' | relative_url }})

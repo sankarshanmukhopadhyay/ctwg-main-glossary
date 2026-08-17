@@ -6,6 +6,12 @@ title: "verifiable-message"
 
 # verifiable-message
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:verifiable-message`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 A message communicated as verifiable data by virtue of being digitally signed.
 
@@ -18,8 +24,19 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **verifiable message** (`en`, `alternative`)
+- **verifiable messages** (`en`, `alternative`)
+- **verifiable messaging** (`en`, `alternative`)
+
+## Legacy Aliases
 verifiable message, verifiable messages, verifiable messaging
+
+## Semantic Relations
+- **related**: `urn:tig:concept:toip-messages`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [ToIP messages]({{ '/terms/toip-message/' | relative_url }})

@@ -1,10 +1,10 @@
 ---
-title: "Terms: I"
-parent: "Glossary Terms"
+title: "Concepts: I"
+parent: "Concepts"
 nav_order: 9
 ---
 
-# Terms: I
+# Concepts: I
 
 - [ial]({{ '/terms/ial/' | relative_url }})
 - [identification]({{ '/terms/identification/' | relative_url }})

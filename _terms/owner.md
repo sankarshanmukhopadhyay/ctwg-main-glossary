@@ -6,6 +6,12 @@ title: "owner"
 
 # owner
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:owner`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 The role that a party performs when it is exercising its legal, rightful or natural title to control a specific entity.
 
@@ -18,8 +24,17 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **owners** (`en`, `alternative`)
+
+## Legacy Aliases
 owner, owners
+
+## Semantic Relations
+- **related**: `urn:tig:concept:controller`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [controller]({{ '/terms/controller/' | relative_url }})

@@ -6,6 +6,12 @@ title: "guardianship-arrangement"
 
 # guardianship-arrangement
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:guardianship-arrangement`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,23 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **guardianship arrangement** (`en`, `alternative`)
+- **guardianship arrangements** (`en`, `alternative`)
+- **guardianship** (`en`, `alternative`)
+- **guardianships** (`en`, `alternative`)
+
+## Legacy Aliases
 guardianship arrangement, guardianship arrangements, guardianship, guardianships
+
+## Semantic Relations
+- **related**: `urn:tig:concept:guardian`
+- **related**: `urn:tig:concept:dependent`
+- **related**: `urn:tig:concept:custodianship-arrangement`
+- **related**: `urn:tig:concept:jurisdiction`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [guardian]({{ '/terms/guardian/' | relative_url }})

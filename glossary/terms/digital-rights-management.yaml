@@ -1,7 +1,19 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:digital-rights-management
+designations:
+- label: digital-rights-management
+  language: en
+  status: preferred
+- label: digital rights management
+  language: en
+  status: alternative
 term: digital-rights-management
 aliases:
 - digital rights management
-definition: Digital rights management (DRM) is the management of legal access to digital content. Various tools or technological protection measures (TPM) like access control technologies, can restrict the use of proprietary hardware and copyrighted works. DRM technologies govern the use, modification and distribution of copyrighted works (e.g. software, multimedia content) and of systems that enforce these policies within devices.
+definition: Digital rights management (DRM) is the management of legal access to digital content. Various tools or technological
+  protection measures (TPM) like access control technologies, can restrict the use of proprietary hardware and copyrighted
+  works. DRM technologies govern the use, modification and distribution of copyrighted works (e.g. software, multimedia content)
+  and of systems that enforce these policies within devices.
 notes: []
 see_also:
 - glossary
@@ -44,3 +56,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

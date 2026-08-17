@@ -6,6 +6,12 @@ title: "verifiable-credential"
 
 # verifiable-credential
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:verifiable-credential`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,27 @@ Use this term for the general governance role of verifiable credentials. Use ver
 ## Implementation Relevance
 Implementers should distinguish the credential data model, securing format, transport protocol, holder binding, status mechanism, and presentation protocol.
 
-## Aliases
+## Alternative Designations
+- **verifiable credential** (`en`, `alternative`)
+- **verifiable credentials** (`en`, `alternative`)
+- **VC** (`en`, `alternative`)
+- **VCs** (`en`, `alternative`)
+
+## Legacy Aliases
 verifiable credential, verifiable credentials, VC, VCs
+
+## Semantic Relations
+- **related**: `urn:tig:concept:digital-credential`
+- **related**: `urn:tig:concept:verifiable-credential-data-model-2-0`
+- **related**: `urn:tig:concept:secured-verifiable-credential`
+- **related**: `urn:tig:concept:verifiable-presentation`
+- **related**: `urn:tig:concept:bitstring-status-list`
+- **related**: `urn:tig:concept:openid4vci`
+- **related**: `urn:tig:concept:openid4vp`
+- **related**: `urn:tig:concept:sd-jwt-vc`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [digital-credential]({{ '/terms/digital-credential/' | relative_url }})

@@ -6,6 +6,12 @@ title: "discovery governance"
 
 # discovery governance
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:discovery-governance`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,18 @@ This term was added following a cross-repository terminology review of TSMM, TIS
 ## Implementation Relevance
 Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.
 
-## Aliases
+## Alternative Designations
+- **discovery-governance** (`en`, `alternative`)
+
+## Legacy Aliases
 discovery governance, discovery-governance
+
+## Semantic Relations
+- **related**: `urn:tig:concept:discovery`
+- **related**: `urn:tig:concept:policy`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [discovery]({{ '/terms/discovery/' | relative_url }})

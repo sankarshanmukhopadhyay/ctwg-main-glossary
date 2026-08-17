@@ -6,6 +6,12 @@ title: "toip-endpoint"
 
 # toip-endpoint
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:toip-endpoint`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 An endpoint that communicates via the ToIP Trust Spanning Protocol (TSP) as described in the ToIP Technology Architecture Specification.
 
@@ -18,8 +24,19 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **ToIP endpoint** (`en`, `alternative`)
+- **ToIP endpoints** (`en`, `alternative`)
+
+## Legacy Aliases
 ToIP endpoint, ToIP endpoints
+
+## Semantic Relations
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:definition`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [glossary]({{ '/terms/glossary/' | relative_url }})

@@ -1,3 +1,12 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:attribute
+designations:
+- label: attribute
+  language: en
+  status: preferred
+- label: attributes
+  language: en
+  status: alternative
 term: attribute
 aliases:
 - attribute
@@ -12,7 +21,10 @@ sources:
 mental_models: []
 supporting_definitions:
 - 'KERI Suite: [[xref: keri1, attribute]]'
-- '[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#attribute): [Data](https://essif-lab.github.io/framework/docs/terms/data) that represents a characteristic that a [party](https://essif-lab.github.io/framework/docs/terms/party) (the [owner](https://essif-lab.github.io/framework/docs/terms/owner) of the [attribute](https://essif-lab.github.io/framework/docs/terms/attribute)) has attributed to an [entity](https://essif-lab.github.io/framework/docs/terms/entity) (which is the [subject](https://essif-lab.github.io/framework/docs/terms/subject) of that attribute).'
+- '[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#attribute): [Data](https://essif-lab.github.io/framework/docs/terms/data)
+  that represents a characteristic that a [party](https://essif-lab.github.io/framework/docs/terms/party) (the [owner](https://essif-lab.github.io/framework/docs/terms/owner)
+  of the [attribute](https://essif-lab.github.io/framework/docs/terms/attribute)) has attributed to an [entity](https://essif-lab.github.io/framework/docs/terms/entity)
+  (which is the [subject](https://essif-lab.github.io/framework/docs/terms/subject) of that attribute).'
 source_file: spec/terms-definitions/attribute.md
 governance_profile: descriptive
 governance:
@@ -43,3 +55,22 @@ crosswalk:
   nist: []
   iso: []
 simple_definition: An identifiable set of data that describes an entity, which is the subject of the attribute.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:property
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

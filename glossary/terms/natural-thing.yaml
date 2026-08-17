@@ -1,10 +1,24 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:natural-thing
+designations:
+- label: natural-thing
+  language: en
+  status: preferred
+- label: natural thing
+  language: en
+  status: alternative
+- label: natural things
+  language: en
+  status: alternative
 term: natural-thing
 aliases:
 - natural thing
 - natural things
-definition: A thing that exists in the natural world independently of humans. Although natural things may form part of a man-made thing, natural things are mutually exclusive with man-made things.
+definition: A thing that exists in the natural world independently of humans. Although natural things may form part of a man-made
+  thing, natural things are mutually exclusive with man-made things.
 notes:
-- Natural things (those recognized to have legal rights) can be parties but never actors in the eSSIF-Lab mental model Parties, Actors, Actions.
+- Natural things (those recognized to have legal rights) can be parties but never actors in the eSSIF-Lab mental model Parties,
+  Actors, Actions.
 see_also:
 - glossary
 - definition
@@ -13,7 +27,9 @@ sources:
 mental_models: []
 supporting_definitions:
 - 'Contrast with: [[ref: man-made thing]].'
-- 'For more information see: [Appendix B](https://docs.google.com/document/d/1gfIz5TT0cNp2kxGMLFXr19x1uoZsruUe_0glHst2fZ8/edit#heading=h.mq7pzglc1j96) and[ Appendix C](https://docs.google.com/document/d/1gfIz5TT0cNp2kxGMLFXr19x1uoZsruUe_0glHst2fZ8/edit#heading=h.uiq9py7xnmxd) of the Sovrin Glossary'
+- 'For more information see: [Appendix B](https://docs.google.com/document/d/1gfIz5TT0cNp2kxGMLFXr19x1uoZsruUe_0glHst2fZ8/edit#heading=h.mq7pzglc1j96)
+  and[ Appendix C](https://docs.google.com/document/d/1gfIz5TT0cNp2kxGMLFXr19x1uoZsruUe_0glHst2fZ8/edit#heading=h.uiq9py7xnmxd)
+  of the Sovrin Glossary'
 source_file: spec/terms-definitions/natural-thing.md
 governance_profile: descriptive
 governance:
@@ -43,3 +59,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

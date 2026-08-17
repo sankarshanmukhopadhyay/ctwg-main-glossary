@@ -1,11 +1,23 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:agent
+designations:
+- label: agent
+  language: en
+  status: preferred
+- label: agents
+  language: en
+  status: alternative
 term: agent
 aliases:
 - agent
 - agents
-definition: An actor that executes an action on behalf of a party (called the principal of that actor). In the context of decentralized digital trust infrastructure, the term “agent” is most frequently used to mean a digital agent.
+definition: An actor that executes an action on behalf of a party (called the principal of that actor). In the context of
+  decentralized digital trust infrastructure, the term “agent” is most frequently used to mean a digital agent.
 notes:
-- The governance significance of an agent depends on what authority it exercises, under what policies it operates, and what controls exist for oversight, limitation, and revocation.
-- In a ToIP context, an agent is frequently assumed to have privileged access to the wallet(s) of its principal. In market parlance, a mobile app performing the actions of an agent is often simply called a wallet or a digital wallet.
+- The governance significance of an agent depends on what authority it exercises, under what policies it operates, and what
+  controls exist for oversight, limitation, and revocation.
+- In a ToIP context, an agent is frequently assumed to have privileged access to the wallet(s) of its principal. In market
+  parlance, a mobile app performing the actions of an agent is often simply called a wallet or a digital wallet.
 see_also:
 - wallet.
 sources:
@@ -57,3 +69,22 @@ crosswalk:
   nist: []
   iso: []
 simple_definition: A person or software component that acts for someone or something else within a defined scope.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:wallet
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

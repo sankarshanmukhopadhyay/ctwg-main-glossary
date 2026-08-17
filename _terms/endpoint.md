@@ -6,6 +6,12 @@ title: "endpoint"
 
 # endpoint
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:endpoint`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 See: communication endpoint.
 
@@ -18,8 +24,17 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **endpoints** (`en`, `alternative`)
+
+## Legacy Aliases
 endpoint, endpoints
+
+## Semantic Relations
+- **related**: `urn:tig:concept:toip-endpoint`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [ToIP endpoint]({{ '/terms/toip-endpoint/' | relative_url }})

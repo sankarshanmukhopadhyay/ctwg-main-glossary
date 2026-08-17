@@ -1,10 +1,30 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:did-document
+designations:
+- label: did-document
+  language: en
+  status: preferred
+- label: DID document
+  language: en
+  status: alternative
+- label: DID documents
+  language: en
+  status: alternative
+- label: DID doc
+  language: en
+  status: alternative
+- label: DID docs
+  language: en
+  status: alternative
 term: did-document
 aliases:
 - DID document
 - DID documents
 - DID doc
 - DID docs
-definition: A set of data describing the DID subject, including mechanisms, such as cryptographic public keys, that the DID subject or a DID delegate can use to authenticate itself and prove its association with the DID. A DID document might have one or more different representations as defined in section 6 of the W3C Decentralized Identifiers (DIDs) 1.0 specification.
+definition: A set of data describing the DID subject, including mechanisms, such as cryptographic public keys, that the DID
+  subject or a DID delegate can use to authenticate itself and prove its association with the DID. A DID document might have
+  one or more different representations as defined in section 6 of the W3C Decentralized Identifiers (DIDs) 1.0 specification.
 notes: []
 see_also:
 - delegation
@@ -58,3 +78,25 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:delegation
+  - urn:tig:concept:delegator
+  - urn:tig:concept:delegatee
+  - urn:tig:concept:authorization
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

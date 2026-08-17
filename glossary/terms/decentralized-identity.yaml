@@ -1,8 +1,21 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:decentralized-identity
+designations:
+- label: decentralized-identity
+  language: en
+  status: preferred
+- label: decentralized identity
+  language: en
+  status: alternative
+- label: decentralized identities
+  language: en
+  status: alternative
 term: decentralized-identity
 aliases:
 - decentralized identity
 - decentralized identities
-definition: A digital identity architecture in which a digital identity is established via the control of a set of cryptographic keys in a digital wallet so that the controller is not dependent on any external identity provider or other third party.
+definition: A digital identity architecture in which a digital identity is established via the control of a set of cryptographic
+  keys in a digital wallet so that the controller is not dependent on any external identity provider or other third party.
 notes: []
 see_also:
 - federated-identity
@@ -46,3 +59,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:federated-identity
+  - urn:tig:concept:self-sovereign-identity
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

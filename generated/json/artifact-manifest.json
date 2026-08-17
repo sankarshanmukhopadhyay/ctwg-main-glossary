@@ -1,8 +1,41 @@
 {
   "manifest_type": "governance_glossary_artifact_manifest",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "term_count": 612,
   "artifacts": [
+    {
+      "path": "generated/json/trust-infrastructure-glossary.json",
+      "type": "json_concept_bundle",
+      "origin": "generated",
+      "source_inputs": [
+        "glossary/terms/*.yaml"
+      ],
+      "generator": "tools/build_governance_glossary.py",
+      "consumer_use_case": "Canonical v2 concept bundle for downstream integration.",
+      "stability": "stable_generated"
+    },
+    {
+      "path": "generated/json/trust-infrastructure-glossary.catalog.json",
+      "type": "json_concept_catalog",
+      "origin": "generated",
+      "source_inputs": [
+        "glossary/terms/*.yaml"
+      ],
+      "generator": "tools/build_governance_glossary.py",
+      "consumer_use_case": "Lightweight v2 concept discovery and profile construction.",
+      "stability": "stable_generated"
+    },
+    {
+      "path": "generated/json/trust-infrastructure-glossary.jsonld",
+      "type": "jsonld_skos_bundle",
+      "origin": "generated",
+      "source_inputs": [
+        "glossary/terms/*.yaml"
+      ],
+      "generator": "tools/build_governance_glossary.py",
+      "consumer_use_case": "Canonical linked-data representation with SKOS-aligned semantics.",
+      "stability": "stable_generated"
+    },
     {
       "path": "generated/json/governance-executable-glossary.json",
       "type": "json_bundle",
@@ -35,6 +68,17 @@
       "generator": "tools/build_governance_glossary.py",
       "consumer_use_case": "Linked-data publication of defined terms and governance metadata.",
       "stability": "experimental_semantic_mapping"
+    },
+    {
+      "path": "generated/rdf/trust-infrastructure-glossary.ttl",
+      "type": "skos_turtle",
+      "origin": "generated",
+      "source_inputs": [
+        "glossary/terms/*.yaml"
+      ],
+      "generator": "tools/build_governance_glossary.py",
+      "consumer_use_case": "SKOS-compatible concept exchange, vocabulary mapping, and semantic-web integration.",
+      "stability": "stable_generated"
     },
     {
       "path": "generated/json/governance-inventory.json",

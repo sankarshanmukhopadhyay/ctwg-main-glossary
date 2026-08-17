@@ -1,3 +1,15 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:status-provider
+designations:
+- label: status-provider
+  language: en
+  status: preferred
+- label: credential status provider
+  language: en
+  status: alternative
+- label: status provider
+  language: en
+  status: alternative
 term: status-provider
 aliases:
 - credential status provider
@@ -65,3 +77,25 @@ crosswalk:
   w3c:
   - Bitstring Status List v1.0
 simple_definition: An entity that provides status information such as suspension or revocation for a credential.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:bitstring-status-list
+  - urn:tig:concept:revocation
+  - urn:tig:concept:status-record
+  - urn:tig:concept:verifiable-credential
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

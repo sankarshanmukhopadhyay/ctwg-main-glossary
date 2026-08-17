@@ -6,6 +6,12 @@ title: "proof-carrying commitment receipt"
 
 # proof-carrying commitment receipt
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:proof-carrying-commitment-receipt`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,18 @@ This term was added following a cross-repository terminology review of TSMM, TIS
 ## Implementation Relevance
 Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.
 
-## Aliases
+## Alternative Designations
+- **proof-carrying-commitment-receipt** (`en`, `alternative`)
+
+## Legacy Aliases
 proof-carrying commitment receipt, proof-carrying-commitment-receipt
+
+## Semantic Relations
+- **related**: `urn:tig:concept:claim`
+- **related**: `urn:tig:concept:proof`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [claim]({{ '/terms/claim/' | relative_url }})

@@ -6,6 +6,12 @@ title: "authenticator-assurance-level"
 
 # authenticator-assurance-level
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:authenticator-assurance-level`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A measure of the strength of an authentication mechanism and, therefore, the confidence in it.
 
@@ -18,8 +24,22 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **authenticator assurance level** (`en`, `alternative`)
+- **authenticator assurance levels** (`en`, `alternative`)
+- **AAL** (`en`, `alternative`)
+- **AALs** (`en`, `alternative`)
+
+## Legacy Aliases
 authenticator assurance level, authenticator assurance levels, AAL, AALs
+
+## Semantic Relations
+- **related**: `urn:tig:concept:federation-assurance-level`
+- **related**: `urn:tig:concept:identity-assurance-level`
+- **related**: `urn:tig:concept:identity-binding`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [federation assurance level]({{ '/terms/federation-assurance-level/' | relative_url }})

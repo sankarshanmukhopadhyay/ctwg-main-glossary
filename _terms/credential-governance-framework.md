@@ -6,6 +6,12 @@ title: "credential-governance-framework"
 
 # credential-governance-framework
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:credential-governance-framework`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 A governance framework for a credential family. A credential governance framework may be included within or referenced by an ecosystem governance framework.
 
@@ -18,8 +24,23 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **credential governance framework** (`en`, `alternative`)
+- **credential governance frameworks** (`en`, `alternative`)
+
+## Legacy Aliases
 credential governance framework, credential governance frameworks
+
+## Semantic Relations
+- **related**: `urn:tig:concept:credential`
+- **related**: `urn:tig:concept:issuer`
+- **related**: `urn:tig:concept:issuance`
+- **related**: `urn:tig:concept:verifiable-credential`
+- **related**: `urn:tig:concept:policy`
+- **related**: `urn:tig:concept:governance-framework`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [credential]({{ '/terms/credential/' | relative_url }})

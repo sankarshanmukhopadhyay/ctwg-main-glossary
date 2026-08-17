@@ -6,6 +6,12 @@ title: "eudi-wallet"
 
 # eudi-wallet
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:eudi-wallet`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A wallet ecosystem component under the European Digital Identity framework for storing and presenting person identification data, attestations, and credentials across EU contexts.
 
@@ -18,8 +24,22 @@ This term is part of the v1.2.0 standards-linked refresh and is anchored to acti
 ## Implementation Relevance
 Use this term when mapping glossary language to implementation profiles, governance controls, conformance checks, or assurance evidence.
 
-## Aliases
+## Alternative Designations
+- **European Digital Identity Wallet** (`en`, `alternative`)
+- **EUDI Wallet** (`en`, `alternative`)
+- **EUDIW** (`en`, `alternative`)
+
+## Legacy Aliases
 European Digital Identity Wallet, EUDI Wallet, EUDIW
+
+## Semantic Relations
+- **related**: `urn:tig:concept:digital-wallet`
+- **related**: `urn:tig:concept:pid`
+- **related**: `urn:tig:concept:qualified-electronic-attestation-of-attributes`
+- **related**: `urn:tig:concept:eidas`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [digital-wallet]({{ '/terms/digital-wallet/' | relative_url }})

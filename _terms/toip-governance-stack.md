@@ -6,6 +6,12 @@ title: "toip-governance-stack"
 
 # toip-governance-stack
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:toip-governance-stack`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 The governance half of the four layer ToIP stack as defined by the ToIP Governance Architecture Specification.
 
@@ -18,8 +24,17 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **ToIP Governance Stack** (`en`, `alternative`)
+
+## Legacy Aliases
 ToIP Governance Stack
+
+## Semantic Relations
+- **related**: `urn:tig:concept:toip-technology-stack`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [ToIP Technology Stack]({{ '/terms/toip-technology-stack/' | relative_url }})

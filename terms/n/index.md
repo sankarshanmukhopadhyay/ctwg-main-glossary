@@ -1,10 +1,10 @@
 ---
-title: "Terms: N"
-parent: "Glossary Terms"
+title: "Concepts: N"
+parent: "Concepts"
 nav_order: 14
 ---
 
-# Terms: N
+# Concepts: N
 
 - [natural-person]({{ '/terms/natural-person/' | relative_url }})
 - [natural-thing]({{ '/terms/natural-thing/' | relative_url }})

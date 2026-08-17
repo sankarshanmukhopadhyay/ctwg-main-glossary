@@ -1,10 +1,24 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:trust-community
+designations:
+- label: trust-community
+  language: en
+  status: preferred
+- label: trust community
+  language: en
+  status: alternative
+- label: trust communities
+  language: en
+  status: alternative
 term: trust-community
 aliases:
 - trust community
 - trust communities
 definition: A set of parties who collaborate to achieve a mutual set of trust objectives.
 notes:
-- A trust community may be large or small, formal or informal. In a formal trust community, the set of policies and rules governing behavior of members are usually published in a governance framework or trust framework. In an informal trust community, the policies or rules governing the behavior of members may be tribal knowledge.
+- A trust community may be large or small, formal or informal. In a formal trust community, the set of policies and rules
+  governing behavior of members are usually published in a governance framework or trust framework. In an informal trust community,
+  the policies or rules governing the behavior of members may be tribal knowledge.
 see_also:
 - digital trust ecosystem
 - ToIP trust community.
@@ -43,3 +57,23 @@ crosswalk:
   nist: []
   iso: []
 simple_definition: A set of parties who collaborate to achieve a mutual set of trust objectives.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:digital-trust-ecosystem
+  - urn:tig:concept:toip-trust-community
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

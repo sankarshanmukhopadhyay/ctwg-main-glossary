@@ -6,6 +6,12 @@ title: "legal-person"
 
 # legal-person
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:legal-person`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,19 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **legal person** (`en`, `alternative`)
+- **legal persons** (`en`, `alternative`)
+
+## Legacy Aliases
 legal person, legal persons
+
+## Semantic Relations
+- **related**: `urn:tig:concept:legal-entity`
+- **related**: `urn:tig:concept:organization`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [legal entity]({{ '/terms/legal-entity/' | relative_url }})

@@ -1,10 +1,10 @@
 ---
-title: "Terms: E"
-parent: "Glossary Terms"
+title: "Concepts: E"
+parent: "Concepts"
 nav_order: 5
 ---
 
-# Terms: E
+# Concepts: E
 
 - [ecosystem]({{ '/terms/ecosystem/' | relative_url }})
 - [ecosystem-governance-framework]({{ '/terms/ecosystem-governance-framework/' | relative_url }})

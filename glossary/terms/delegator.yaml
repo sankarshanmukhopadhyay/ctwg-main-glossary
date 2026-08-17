@@ -1,8 +1,18 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:delegator
+designations:
+- label: delegator
+  language: en
+  status: preferred
+- label: delegators
+  language: en
+  status: alternative
 term: delegator
 aliases:
 - delegator
 - delegators
-definition: The first party that makes a delegation to a second party (the delegatee) and remains accountable for granting authority within the permitted scope.
+definition: The first party that makes a delegation to a second party (the delegatee) and remains accountable for granting
+  authority within the permitted scope.
 notes: []
 see_also:
 - delegation
@@ -15,7 +25,10 @@ sources:
 - 'ToIP CTWG maintained glossary source: `spec/terms-definitions/delegator.md`'
 mental_models: []
 supporting_definitions:
-- '[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab): the transferral of [ownership](https://essif-lab.github.io/framework/docs/terms/ownership) of one or more obligation of a [party](https://essif-lab.github.io/framework/docs/terms/party) (the [delegator](https://essif-lab.github.io/framework/docs/terms/delegate)), including the associated accountability, to another party (the [delegatee](https://essif-lab.github.io/framework/docs/terms/delegate)), which implies that the delegatee can realize such obligation as it sees fit.'
+- '[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab): the transferral of [ownership](https://essif-lab.github.io/framework/docs/terms/ownership)
+  of one or more obligation of a [party](https://essif-lab.github.io/framework/docs/terms/party) (the [delegator](https://essif-lab.github.io/framework/docs/terms/delegate)),
+  including the associated accountability, to another party (the [delegatee](https://essif-lab.github.io/framework/docs/terms/delegate)),
+  which implies that the delegatee can realize such obligation as it sees fit.'
 source_file: spec/terms-definitions/delegator.md
 governance_profile: core-operational
 governance:
@@ -60,4 +73,29 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
-simple_definition: The first party that makes a delegation to a second party (the delegatee) and remains accountable for granting authority within the permitted scope.
+simple_definition: The first party that makes a delegation to a second party (the delegatee) and remains accountable for granting
+  authority within the permitted scope.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:delegation
+  - urn:tig:concept:delegatee
+  - urn:tig:concept:authorization
+  - urn:tig:concept:governance
+  - urn:tig:concept:governance-framework
+  - urn:tig:concept:governing-authority
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

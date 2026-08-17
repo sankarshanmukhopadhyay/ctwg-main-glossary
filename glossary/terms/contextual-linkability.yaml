@@ -1,8 +1,19 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:contextual-linkability
+designations:
+- label: contextual-linkability
+  language: en
+  status: preferred
+- label: contextual linkability
+  language: en
+  status: alternative
 term: contextual-linkability
 aliases:
 - contextual-linkability
 - contextual linkability
-definition: Refers to the condition where vendors or other data capture points provide enough context at point of capture to be able to use statistical correlation with existing data sets to link any of a person's disclosed attributes to a set of already known data points about a given person.
+definition: Refers to the condition where vendors or other data capture points provide enough context at point of capture
+  to be able to use statistical correlation with existing data sets to link any of a person's disclosed attributes to a set
+  of already known data points about a given person.
 notes: []
 see_also:
 - glossary
@@ -40,3 +51,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

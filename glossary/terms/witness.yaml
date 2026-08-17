@@ -1,8 +1,20 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:witness
+designations:
+- label: witness
+  language: en
+  status: preferred
+- label: witnesses
+  language: en
+  status: alternative
 term: witness
 aliases:
 - witness
 - witnesses
-definition: A computer system that receives, verifies, and stores proofs of key events for a verifiable identifier (especially an autonomic identifier). Each witness controls its own verifiable identifier used to sign key event messages stored by the witness. A witness may use any suitable computer system or database architecture, including a file, centralized database, distributed database, distributed ledger, or blockchain.
+definition: A computer system that receives, verifies, and stores proofs of key events for a verifiable identifier (especially
+  an autonomic identifier). Each witness controls its own verifiable identifier used to sign key event messages stored by
+  the witness. A witness may use any suitable computer system or database architecture, including a file, centralized database,
+  distributed database, distributed ledger, or blockchain.
 notes:
 - KERI is an example of a key management system that uses witnesses.
 see_also:
@@ -45,3 +57,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

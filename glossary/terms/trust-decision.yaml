@@ -1,8 +1,21 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:trust-decision
+designations:
+- label: trust-decision
+  language: en
+  status: preferred
+- label: trust decision
+  language: en
+  status: alternative
+- label: trust decisions
+  language: en
+  status: alternative
 term: trust-decision
 aliases:
 - trust decision
 - trust decisions
-definition: A decision that a party needs to make about whether to engage in a specific interaction or transaction with another entity that involves real or perceived risks.
+definition: A decision that a party needs to make about whether to engage in a specific interaction or transaction with another
+  entity that involves real or perceived risks.
 notes: []
 see_also:
 - transitive trust decision.
@@ -45,3 +58,22 @@ crosswalk:
   nist: []
   iso: []
 simple_definition: A decision about whether it is safe and appropriate to rely on another party in a specific situation.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:transitive-trust-decision
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

@@ -1,8 +1,21 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:trusted-role
+designations:
+- label: trusted-role
+  language: en
+  status: preferred
+- label: trusted role
+  language: en
+  status: alternative
+- label: trusted roles
+  language: en
+  status: alternative
 term: trusted-role
 aliases:
 - trusted role
 - trusted roles
-definition: A role that performs restricted activities for an organization after meeting competence, security and background verification requirements for that role.
+definition: A role that performs restricted activities for an organization after meeting competence, security and background
+  verification requirements for that role.
 notes: []
 see_also:
 - glossary
@@ -46,4 +59,27 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
-simple_definition: A role that performs restricted activities for an organization after meeting competence, security and background verification requirements for that role.
+simple_definition: A role that performs restricted activities for an organization after meeting competence, security and background
+  verification requirements for that role.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+  - urn:tig:concept:trust
+  - urn:tig:concept:trust-registry
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

@@ -6,6 +6,12 @@ title: "entity-statement"
 
 # entity-statement
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:entity-statement`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A signed statement in OpenID Federation that describes metadata, authority, and trust relationships for a federation entity.
 
@@ -18,8 +24,20 @@ This term is part of the v1.2.0 standards-linked refresh and is anchored to acti
 ## Implementation Relevance
 Use this term when mapping glossary language to implementation profiles, governance controls, conformance checks, or assurance evidence.
 
-## Aliases
+## Alternative Designations
+- **entity statement** (`en`, `alternative`)
+
+## Legacy Aliases
 entity statement
+
+## Semantic Relations
+- **related**: `urn:tig:concept:openid-federation`
+- **related**: `urn:tig:concept:federation`
+- **related**: `urn:tig:concept:trust-chain`
+- **related**: `urn:tig:concept:metadata`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [openid-federation]({{ '/terms/openid-federation/' | relative_url }})

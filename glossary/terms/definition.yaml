@@ -1,8 +1,18 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:definition
+designations:
+- label: definition
+  language: en
+  status: preferred
+- label: definitions
+  language: en
+  status: alternative
 term: definition
 aliases:
 - definition
 - definitions
-definition: A textual statement defining the meaning of a term by specifying criterion that enable the concept identified by the term to be distinguished from all other concepts within the intended scope.
+definition: A textual statement defining the meaning of a term by specifying criterion that enable the concept identified
+  by the term to be distinguished from all other concepts within the intended scope.
 notes: []
 see_also:
 - glossary
@@ -10,8 +20,17 @@ sources:
 - 'ToIP CTWG maintained glossary source: `spec/terms-definitions/definition.md`'
 mental_models: []
 supporting_definitions:
-- '[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#definition): a text that helps [parties](https://essif-lab.github.io/framework/docs/@) to have the same understanding about the meaning of (and [concept](https://essif-lab.github.io/framework/docs/@) behind) a [term](https://essif-lab.github.io/framework/docs/@), ideally in such a way that these [parties](https://essif-lab.github.io/framework/docs/@) can determine whether or not they make the same distinction.'
-- 'Wikipedia: A definition is a statement of the meaning of a term (a [word](https://en.wikipedia.org/wiki/Word), [phrase](https://en.wikipedia.org/wiki/Phrase), or other set of [symbols](https://en.wikipedia.org/wiki/Symbol)). Definitions can be classified into two large categories: [intensional definitions](https://en.wikipedia.org/wiki/Intensional_definition) (which try to give the sense of a term), and [extensional definitions](https://en.wikipedia.org/wiki/Extensional_definition) (which try to list the objects that a term describes). Another important category of definitions is the class of [ostensive definitions](https://en.wikipedia.org/wiki/Ostensive_definition), which convey the meaning of a term by pointing out examples. A term may have many different senses and multiple meanings, and thus require multiple definitions.'
+- '[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#definition): a text that helps [parties](https://essif-lab.github.io/framework/docs/@)
+  to have the same understanding about the meaning of (and [concept](https://essif-lab.github.io/framework/docs/@) behind)
+  a [term](https://essif-lab.github.io/framework/docs/@), ideally in such a way that these [parties](https://essif-lab.github.io/framework/docs/@)
+  can determine whether or not they make the same distinction.'
+- 'Wikipedia: A definition is a statement of the meaning of a term (a [word](https://en.wikipedia.org/wiki/Word), [phrase](https://en.wikipedia.org/wiki/Phrase),
+  or other set of [symbols](https://en.wikipedia.org/wiki/Symbol)). Definitions can be classified into two large categories:
+  [intensional definitions](https://en.wikipedia.org/wiki/Intensional_definition) (which try to give the sense of a term),
+  and [extensional definitions](https://en.wikipedia.org/wiki/Extensional_definition) (which try to list the objects that
+  a term describes). Another important category of definitions is the class of [ostensive definitions](https://en.wikipedia.org/wiki/Ostensive_definition),
+  which convey the meaning of a term by pointing out examples. A term may have many different senses and multiple meanings,
+  and thus require multiple definitions.'
 source_file: spec/terms-definitions/definition.md
 governance_profile: descriptive
 governance:
@@ -41,3 +60,22 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

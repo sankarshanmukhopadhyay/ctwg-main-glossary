@@ -1,3 +1,12 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:counterparty
+designations:
+- label: counterparty
+  language: en
+  status: preferred
+- label: counterparties
+  language: en
+  status: alternative
 term: counterparty
 aliases:
 - counterparty
@@ -12,7 +21,9 @@ sources:
 - 'ToIP CTWG maintained glossary source: `spec/terms-definitions/counterparty.md`'
 mental_models: []
 supporting_definitions:
-- '[Wikipedia](https://en.wikipedia.org/wiki/Counterparty): A counterparty (sometimes contraparty) is a [legal entity](https://en.wikipedia.org/wiki/Juristic_person), [unincorporated entity](https://en.wikipedia.org/wiki/Unincorporated_entity), or collection of entities to which an exposure of [financial risk](https://en.wikipedia.org/wiki/Financial_risk) may exist.'
+- '[Wikipedia](https://en.wikipedia.org/wiki/Counterparty): A counterparty (sometimes contraparty) is a [legal entity](https://en.wikipedia.org/wiki/Juristic_person),
+  [unincorporated entity](https://en.wikipedia.org/wiki/Unincorporated_entity), or collection of entities to which an exposure
+  of [financial risk](https://en.wikipedia.org/wiki/Financial_risk) may exist.'
 source_file: spec/terms-definitions/counterparty.md
 governance_profile: descriptive
 governance:
@@ -43,3 +54,24 @@ crosswalk:
   nist: []
   iso: []
 simple_definition: From the perspective of one party, the other party in a transaction, such as a financial transaction.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:first-party
+  - urn:tig:concept:second-party
+  - urn:tig:concept:third-party
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

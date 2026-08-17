@@ -1,8 +1,22 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:data-schema
+designations:
+- label: data-schema
+  language: en
+  status: preferred
+- label: data schema
+  language: en
+  status: alternative
+- label: data schemas
+  language: en
+  status: alternative
 term: data-schema
 aliases:
 - data schema
 - data schemas
-definition: A description of the structure of a digital document or object, typically expressed in a machine-readable language in terms of constraints on the structure and content of documents or objects of that type. A credential schema is a particular type of data schema.
+definition: A description of the structure of a digital document or object, typically expressed in a machine-readable language
+  in terms of constraints on the structure and content of documents or objects of that type. A credential schema is a particular
+  type of data schema.
 notes: []
 see_also:
 - credential
@@ -13,7 +27,13 @@ sources:
 - 'ToIP CTWG maintained glossary source: `spec/terms-definitions/data-schema.md`'
 mental_models: []
 supporting_definitions:
-- '[Wikipedia](https://en.wikipedia.org/wiki/XML_schema): An XML schema is a description of a type of [XML](https://en.wikipedia.org/wiki/Extensible_Markup_Language) document, typically expressed in terms of constraints on the structure and content of documents of that type, above and beyond the basic syntactical constraints imposed by XML itself. These constraints are generally expressed using some combination of grammatical rules governing the order of elements, [Boolean predicates](https://en.wikipedia.org/wiki/Boolean_predicates) that the content must satisfy, data types governing the content of elements and attributes, and more specialized rules such as [uniqueness](https://en.wikipedia.org/wiki/Uniqueness_quantification) and [referential integrity](https://en.wikipedia.org/wiki/Referential_integrity) constraints.'
+- '[Wikipedia](https://en.wikipedia.org/wiki/XML_schema): An XML schema is a description of a type of [XML](https://en.wikipedia.org/wiki/Extensible_Markup_Language)
+  document, typically expressed in terms of constraints on the structure and content of documents of that type, above and
+  beyond the basic syntactical constraints imposed by XML itself. These constraints are generally expressed using some combination
+  of grammatical rules governing the order of elements, [Boolean predicates](https://en.wikipedia.org/wiki/Boolean_predicates)
+  that the content must satisfy, data types governing the content of elements and attributes, and more specialized rules such
+  as [uniqueness](https://en.wikipedia.org/wiki/Uniqueness_quantification) and [referential integrity](https://en.wikipedia.org/wiki/Referential_integrity)
+  constraints.'
 source_file: spec/terms-definitions/data-schema.md
 governance_profile: core-operational
 governance:
@@ -55,3 +75,25 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:credential
+  - urn:tig:concept:issuer
+  - urn:tig:concept:issuance
+  - urn:tig:concept:verifiable-credential
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

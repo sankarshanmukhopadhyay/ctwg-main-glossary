@@ -1,10 +1,30 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:legal-entity-identifier
+designations:
+- label: legal-entity-identifier
+  language: en
+  status: preferred
+- label: Legal Entity Identifier
+  language: en
+  status: alternative
+- label: Legal Entity Identifiers
+  language: en
+  status: alternative
+- label: LEI
+  language: en
+  status: alternative
+- label: LEIs
+  language: en
+  status: alternative
 term: legal-entity-identifier
 aliases:
 - Legal Entity Identifier
 - Legal Entity Identifiers
 - LEI
 - LEIs
-definition: The Legal Entity Identifier (LEI) is a unique global identifier for legal entities participating in financial transactions. Also known as an LEI code or LEI number, its purpose is to help identify legal entities on a globally accessible database. Legal entities are organisations such as companies or government entities that participate in financial transactions.
+definition: The Legal Entity Identifier (LEI) is a unique global identifier for legal entities participating in financial
+  transactions. Also known as an LEI code or LEI number, its purpose is to help identify legal entities on a globally accessible
+  database. Legal entities are organisations such as companies or government entities that participate in financial transactions.
 notes:
 - LEIs are administered by the Global Legal Entity Identifier Foundation (GLEIF).
 see_also:
@@ -49,3 +69,25 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+  - urn:tig:concept:identifier
+  - urn:tig:concept:decentralized-identifier
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

@@ -6,6 +6,12 @@ title: "trust-spanning-layer"
 
 # trust-spanning-layer
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:trust-spanning-layer`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 A spanning layer designed to span between different digital trust domains. In the ToIP stack, the trust spanning layer is ToIP Layer 2.
 
@@ -18,8 +24,20 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **trust spanning layer** (`en`, `alternative`)
+
+## Legacy Aliases
 trust spanning layer
+
+## Semantic Relations
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:definition`
+- **related**: `urn:tig:concept:trust`
+- **related**: `urn:tig:concept:trust-registry`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [glossary]({{ '/terms/glossary/' | relative_url }})

@@ -6,6 +6,12 @@ title: "unlinkability"
 
 # unlinkability
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:unlinkability`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,19 @@ This term was added following a cross-repository terminology review of TSMM, TIS
 ## Implementation Relevance
 Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.
 
-## Aliases
+## Alternative Designations
+None
+
+## Legacy Aliases
 unlinkability
+
+## Semantic Relations
+- **related**: `urn:tig:concept:correlation-privacy`
+- **related**: `urn:tig:concept:selective-disclosure`
+- **related**: `urn:tig:concept:zero-knowledge-proof`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [correlation-privacy]({{ '/terms/correlation-privacy/' | relative_url }})

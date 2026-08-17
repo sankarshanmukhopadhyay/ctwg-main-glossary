@@ -6,6 +6,12 @@ title: "digital-ecosystem"
 
 # digital-ecosystem
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:digital-ecosystem`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,19 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **digital ecosystem** (`en`, `alternative`)
+- **digital ecosystems** (`en`, `alternative`)
+
+## Legacy Aliases
 digital ecosystem, digital ecosystems
+
+## Semantic Relations
+- **related**: `urn:tig:concept:digital-trust-ecosystem`
+- **related**: `urn:tig:concept:trust-community`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [digital trust ecosystem]({{ '/terms/digital-trust-ecosystem/' | relative_url }})

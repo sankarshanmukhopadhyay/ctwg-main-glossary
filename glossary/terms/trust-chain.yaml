@@ -1,8 +1,21 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:trust-chain
+designations:
+- label: trust-chain
+  language: en
+  status: preferred
+- label: trust chain
+  language: en
+  status: alternative
+- label: trust chains
+  language: en
+  status: alternative
 term: trust-chain
 aliases:
 - trust chain
 - trust chains
-definition: A sequence of cryptographically verifiable links, statements, or governance-recognized relationships used to establish whether a participant, key, credential, or federation entity should be trusted for a relying decision.
+definition: A sequence of cryptographically verifiable links, statements, or governance-recognized relationships used to establish
+  whether a participant, key, credential, or federation entity should be trusted for a relying decision.
 notes: []
 see_also:
 - openid-federation
@@ -62,5 +75,30 @@ control_plane:
 crosswalk:
   openid:
   - OpenID Federation 1.0
-reader_note: In OpenID Federation this concept is expressed through signed entity statements and trust anchors. In credential ecosystems it can also describe transitive credential or registry relationships.
-implementation_relevance: Use this term when a verifier or relying party must validate more than one link of authority before accepting a credential, key, or participant.
+reader_note: In OpenID Federation this concept is expressed through signed entity statements and trust anchors. In credential
+  ecosystems it can also describe transitive credential or registry relationships.
+implementation_relevance: Use this term when a verifier or relying party must validate more than one link of authority before
+  accepting a credential, key, or participant.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:openid-federation
+  - urn:tig:concept:entity-statement
+  - urn:tig:concept:trust-anchor
+  - urn:tig:concept:chain-of-trust
+  - urn:tig:concept:trust-registry
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

@@ -6,6 +6,12 @@ title: "extension contract"
 
 # extension contract
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:extension-contract`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A protocol-neutral record of whether an optional or required extension was proposed, supported, accepted, degraded, rejected, or not attempted, including the applicable failure behavior.
 
@@ -18,8 +24,18 @@ This term was added following a cross-repository terminology review of TSMM, TIS
 ## Implementation Relevance
 Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.
 
-## Aliases
+## Alternative Designations
+- **extension-contract** (`en`, `alternative`)
+
+## Legacy Aliases
 extension contract, extension-contract
+
+## Semantic Relations
+- **related**: `urn:tig:concept:policy`
+- **related**: `urn:tig:concept:trust-framework`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [policy]({{ '/terms/policy/' | relative_url }})

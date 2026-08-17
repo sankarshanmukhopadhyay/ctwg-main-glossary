@@ -1,7 +1,18 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:sovrin-foundation
+designations:
+- label: sovrin-foundation
+  language: en
+  status: preferred
+- label: Sovrin Foundation
+  language: en
+  status: alternative
 term: sovrin-foundation
 aliases:
 - Sovrin Foundation
-definition: A 501 (c)(4) nonprofit organization established to administer the governance framework governing the Sovrin Network, a public service utility enabling self-sovereign identity on the internet. The Sovrin Foundation is an independent organization that is responsible for ensuring the Sovrin identity system is public and globally accessible.
+definition: A 501 (c)(4) nonprofit organization established to administer the governance framework governing the Sovrin Network,
+  a public service utility enabling self-sovereign identity on the internet. The Sovrin Foundation is an independent organization
+  that is responsible for ensuring the Sovrin identity system is public and globally accessible.
 notes: []
 see_also:
 - policy
@@ -44,3 +55,26 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:policy
+  - urn:tig:concept:governance-framework
+  - urn:tig:concept:requirement
+  - urn:tig:concept:governance
+  - urn:tig:concept:governing-authority
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

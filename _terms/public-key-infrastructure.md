@@ -6,6 +6,12 @@ title: "public-key-infrastructure"
 
 # public-key-infrastructure
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:public-key-infrastructure`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,23 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **public key infrastructure** (`en`, `alternative`)
+- **public key infrastructures** (`en`, `alternative`)
+- **PKI** (`en`, `alternative`)
+- **PKIs** (`en`, `alternative`)
+
+## Legacy Aliases
 public key infrastructure, public key infrastructures, PKI, PKIs
+
+## Semantic Relations
+- **related**: `urn:tig:concept:authorization`
+- **related**: `urn:tig:concept:permission`
+- **related**: `urn:tig:concept:role-based-access-control`
+- **related**: `urn:tig:concept:attribute-based-access-control`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [authorization]({{ '/terms/authorization/' | relative_url }})

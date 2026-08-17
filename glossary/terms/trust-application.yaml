@@ -1,8 +1,21 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:trust-application
+designations:
+- label: trust-application
+  language: en
+  status: preferred
+- label: trust application
+  language: en
+  status: alternative
+- label: trust applications
+  language: en
+  status: alternative
 term: trust-application
 aliases:
 - trust application
 - trust applications
-definition: An application that runs at ToIP Layer 4 in order to perform trust tasks or engage in other verifiable messaging using the ToIP stack.
+definition: An application that runs at ToIP Layer 4 in order to perform trust tasks or engage in other verifiable messaging
+  using the ToIP stack.
 notes: []
 see_also:
 - glossary
@@ -46,4 +59,27 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
-simple_definition: An application that runs at ToIP Layer 4 in order to perform trust tasks or engage in other verifiable messaging using the ToIP stack.
+simple_definition: An application that runs at ToIP Layer 4 in order to perform trust tasks or engage in other verifiable
+  messaging using the ToIP stack.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+  - urn:tig:concept:trust
+  - urn:tig:concept:trust-registry
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

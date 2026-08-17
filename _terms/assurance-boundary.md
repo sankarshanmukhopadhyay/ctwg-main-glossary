@@ -6,6 +6,12 @@ title: "assurance boundary"
 
 # assurance boundary
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:assurance-boundary`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 The line that says what an assurance result does and does not prove.
 
@@ -18,8 +24,18 @@ This is a cross-project glossary term. Individual specifications may define narr
 ## Implementation Relevance
 Use this term to keep governance, authority, assurance, and implementation discussions consistent across interoperating projects.
 
-## Aliases
+## Alternative Designations
+- **assurance-boundary** (`en`, `alternative`)
+
+## Legacy Aliases
 assurance-boundary
+
+## Semantic Relations
+- **related**: `urn:tig:concept:assurance-level`
+- **related**: `urn:tig:concept:evidence-bundle`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [assurance-level]({{ '/terms/assurance-level/' | relative_url }})

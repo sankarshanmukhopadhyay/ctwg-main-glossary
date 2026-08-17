@@ -6,6 +6,12 @@ title: "legitimacy gap"
 
 # legitimacy gap
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:legitimacy-gap`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,19 @@ This term was added following a cross-repository terminology review of TSMM, TIS
 ## Implementation Relevance
 Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.
 
-## Aliases
+## Alternative Designations
+- **legitimacy-gap** (`en`, `alternative`)
+
+## Legacy Aliases
 legitimacy gap, legitimacy-gap
+
+## Semantic Relations
+- **related**: `urn:tig:concept:governance-framework`
+- **related**: `urn:tig:concept:authority`
+- **related**: `urn:tig:concept:governance`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [governance-framework]({{ '/terms/governance-framework/' | relative_url }})

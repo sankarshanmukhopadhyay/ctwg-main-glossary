@@ -1,8 +1,21 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:vp-token
+designations:
+- label: vp-token
+  language: en
+  status: preferred
+- label: VP Token
+  language: en
+  status: alternative
+- label: vp_token
+  language: en
+  status: alternative
 term: vp-token
 aliases:
 - VP Token
 - vp_token
-definition: An OpenID4VP response artifact containing one or more presentations returned to a verifier in response to an authorization request.
+definition: An OpenID4VP response artifact containing one or more presentations returned to a verifier in response to an authorization
+  request.
 reader_note: ''
 implementation_relevance: ''
 notes: []
@@ -49,4 +62,27 @@ control_plane:
 crosswalk:
   openid:
   - OpenID4VP 1.0
-simple_definition: An OpenID4VP response artifact containing one or more presentations returned to a verifier in response to an authorization request.
+simple_definition: An OpenID4VP response artifact containing one or more presentations returned to a verifier in response
+  to an authorization request.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:openid4vp
+  - urn:tig:concept:verifiable-presentation
+  - urn:tig:concept:presentation
+  - urn:tig:concept:verifier
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

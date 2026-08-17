@@ -1,10 +1,31 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:public-key-infrastructure
+designations:
+- label: public-key-infrastructure
+  language: en
+  status: preferred
+- label: public key infrastructure
+  language: en
+  status: alternative
+- label: public key infrastructures
+  language: en
+  status: alternative
+- label: PKI
+  language: en
+  status: alternative
+- label: PKIs
+  language: en
+  status: alternative
 term: public-key-infrastructure
 aliases:
 - public key infrastructure
 - public key infrastructures
 - PKI
 - PKIs
-definition: A set of policies, processes, server platforms, software and workstations used for the purpose of administering certificates and public-private key pairs, including the ability to issue, maintain, and revoke public key certificates. The PKI includes the hierarchy of certificate authorities that allow for the deployment of digital certificates that support encryption, digital signature and authentication to meet business and security requirements.
+definition: A set of policies, processes, server platforms, software and workstations used for the purpose of administering
+  certificates and public-private key pairs, including the ability to issue, maintain, and revoke public key certificates.
+  The PKI includes the hierarchy of certificate authorities that allow for the deployment of digital certificates that support
+  encryption, digital signature and authentication to meet business and security requirements.
 notes: []
 see_also:
 - authorization
@@ -15,7 +36,11 @@ sources:
 - '[NIST-CSRC](https://csrc.nist.gov/glossary/term/public_key_infrastructure).'
 mental_models: []
 supporting_definitions:
-- '[Wikipedia](https://en.wikipedia.org/wiki/Public_key_infrastructure): A public key infrastructure (PKI) is a set of roles, policies, hardware, software and procedures needed to create, manage, distribute, use, store and revoke [digital certificates](https://en.wikipedia.org/wiki/Public_key_certificate) and manage [public-key encryption](https://en.wikipedia.org/wiki/Public-key_cryptography). The purpose of a PKI is to facilitate the secure electronic transfer of information for a range of network activities such as e-commerce, internet banking and confidential email.'
+- '[Wikipedia](https://en.wikipedia.org/wiki/Public_key_infrastructure): A public key infrastructure (PKI) is a set of roles,
+  policies, hardware, software and procedures needed to create, manage, distribute, use, store and revoke [digital certificates](https://en.wikipedia.org/wiki/Public_key_certificate)
+  and manage [public-key encryption](https://en.wikipedia.org/wiki/Public-key_cryptography). The purpose of a PKI is to facilitate
+  the secure electronic transfer of information for a range of network activities such as e-commerce, internet banking and
+  confidential email.'
 source_file: spec/terms-definitions/public-key-infrastructure.md
 governance_profile: core-operational
 governance:
@@ -51,3 +76,25 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:authorization
+  - urn:tig:concept:permission
+  - urn:tig:concept:role-based-access-control
+  - urn:tig:concept:attribute-based-access-control
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

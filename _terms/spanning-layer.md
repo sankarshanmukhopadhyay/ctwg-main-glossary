@@ -6,6 +6,12 @@ title: "spanning-layer"
 
 # spanning-layer
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:spanning-layer`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,18 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **spanning layer** (`en`, `alternative`)
+
+## Legacy Aliases
 spanning layer
+
+## Semantic Relations
+- **related**: `urn:tig:concept:hourglass-model`
+- **related**: `urn:tig:concept:trust-spanning-layer`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [hourglass model]({{ '/terms/hourglass-model/' | relative_url }})

@@ -6,6 +6,12 @@ title: "plaintext"
 
 # plaintext
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:plaintext`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 Unencrypted information that may be input to an encryption operation. Once encrypted, it becomes ciphertext.
 
@@ -18,8 +24,18 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **plaintexts** (`en`, `alternative`)
+
+## Legacy Aliases
 plaintext, plaintexts
+
+## Semantic Relations
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:definition`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [glossary]({{ '/terms/glossary/' | relative_url }})

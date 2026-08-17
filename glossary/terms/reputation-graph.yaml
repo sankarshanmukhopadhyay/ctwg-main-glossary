@@ -1,8 +1,22 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:reputation-graph
+designations:
+- label: reputation-graph
+  language: en
+  status: preferred
+- label: reputation graph
+  language: en
+  status: alternative
+- label: reputation graphs
+  language: en
+  status: alternative
 term: reputation-graph
 aliases:
 - reputation graph
 - reputation graphs
-definition: A graph of the reputation relationships between different entities in a trust community. In a digital trust ecosystem, the governing body may be one trust anchor of a reputation graph. In some cases, a reputation graph can be traversed by making queries to one or more trust registries.
+definition: A graph of the reputation relationships between different entities in a trust community. In a digital trust ecosystem,
+  the governing body may be one trust anchor of a reputation graph. In some cases, a reputation graph can be traversed by
+  making queries to one or more trust registries.
 notes: []
 see_also:
 - authorization graph
@@ -45,3 +59,24 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:authorization-graph
+  - urn:tig:concept:governance-graph
+  - urn:tig:concept:trust-graph
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

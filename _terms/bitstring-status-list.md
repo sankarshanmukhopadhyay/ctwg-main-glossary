@@ -6,6 +6,12 @@ title: "bitstring-status-list"
 
 # bitstring-status-list
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:bitstring-status-list`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A W3C status mechanism for publishing credential status information such as revocation or suspension using compressed bitstrings.
 
@@ -18,8 +24,21 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term when modelling inspectable credential status evidence without exposing unnecessary holder-specific information.
 
-## Aliases
+## Alternative Designations
+- **Bitstring Status List** (`en`, `alternative`)
+- **BSL** (`en`, `alternative`)
+
+## Legacy Aliases
 Bitstring Status List, BSL
+
+## Semantic Relations
+- **related**: `urn:tig:concept:credential`
+- **related**: `urn:tig:concept:verifiable-credential`
+- **related**: `urn:tig:concept:revocation`
+- **related**: `urn:tig:concept:status-record`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [credential]({{ '/terms/credential/' | relative_url }})

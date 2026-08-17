@@ -1,8 +1,22 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:software-agent
+designations:
+- label: software-agent
+  language: en
+  status: preferred
+- label: software agent
+  language: en
+  status: alternative
+- label: software agents
+  language: en
+  status: alternative
 term: software-agent
 aliases:
 - software agent
 - software agents
-definition: 'In computer science, a software agent is a computer program that acts for a user or other program in a relationship of agency, which derives from the Latin *agere* (to do): an agreement to act on one''s behalf. A user agent is a specific type of software agent that is used directly by an end-user as the principal.'
+definition: 'In computer science, a software agent is a computer program that acts for a user or other program in a relationship
+  of agency, which derives from the Latin *agere* (to do): an agreement to act on one''s behalf. A user agent is a specific
+  type of software agent that is used directly by an end-user as the principal.'
 notes: []
 see_also:
 - digital agent.
@@ -39,3 +53,22 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:digital-agent
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

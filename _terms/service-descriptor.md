@@ -6,6 +6,12 @@ title: "service descriptor"
 
 # service descriptor
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:service-descriptor`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,18 @@ This term was added following a cross-repository terminology review of TSMM, TIS
 ## Implementation Relevance
 Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.
 
-## Aliases
+## Alternative Designations
+- **service-descriptor** (`en`, `alternative`)
+
+## Legacy Aliases
 service descriptor, service-descriptor
+
+## Semantic Relations
+- **related**: `urn:tig:concept:trust-service-provider`
+- **related**: `urn:tig:concept:capability`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [trust-service-provider]({{ '/terms/trust-service-provider/' | relative_url }})

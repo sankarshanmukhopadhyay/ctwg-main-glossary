@@ -6,6 +6,12 @@ title: "digital-identity"
 
 # digital-identity
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:digital-identity`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 An identity expressed in a digital form for the purpose representing the identified entity within a computer system or digital network.
 
@@ -18,8 +24,21 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **digital identity** (`en`, `alternative`)
+- **digital identities** (`en`, `alternative`)
+- **digital ID** (`en`, `alternative`)
+- **digital IDs** (`en`, `alternative`)
+
+## Legacy Aliases
 digital identity, digital identities, digital ID, digital IDs
+
+## Semantic Relations
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:definition`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [glossary]({{ '/terms/glossary/' | relative_url }})

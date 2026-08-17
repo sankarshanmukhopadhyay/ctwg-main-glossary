@@ -6,6 +6,12 @@ title: "evidence bundle"
 
 # evidence bundle
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:evidence-bundle`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A collected set of records that can be reviewed together to support or explain a decision, claim, control, or assurance result.
 
@@ -18,8 +24,18 @@ This term was added following a cross-repository terminology review of TSMM, TIS
 ## Implementation Relevance
 Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.
 
-## Aliases
+## Alternative Designations
+- **evidence-bundle** (`en`, `alternative`)
+
+## Legacy Aliases
 evidence bundle, evidence-bundle
+
+## Semantic Relations
+- **related**: `urn:tig:concept:attestation`
+- **related**: `urn:tig:concept:c2pa-manifest`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [attestation]({{ '/terms/attestation/' | relative_url }})

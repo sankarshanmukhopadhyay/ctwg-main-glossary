@@ -1,8 +1,21 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:endpoint-system
+designations:
+- label: endpoint-system
+  language: en
+  status: preferred
+- label: endpoint system
+  language: en
+  status: alternative
+- label: endpoint systems
+  language: en
+  status: alternative
 term: endpoint-system
 aliases:
 - endpoint system
 - endpoint systems
-definition: The system that operates a communications endpoint. In the context of the ToIP stack, an endpoint system is one of three types of systems defined in the ToIP Technology Architecture Specification.
+definition: The system that operates a communications endpoint. In the context of the ToIP stack, an endpoint system is one
+  of three types of systems defined in the ToIP Technology Architecture Specification.
 notes: []
 see_also:
 - intermediary system
@@ -40,3 +53,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:intermediary-system
+  - urn:tig:concept:supporting-system
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

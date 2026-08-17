@@ -1,8 +1,21 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:did-subject
+designations:
+- label: did-subject
+  language: en
+  status: preferred
+- label: DID subject
+  language: en
+  status: alternative
+- label: DID subjects
+  language: en
+  status: alternative
 term: did-subject
 aliases:
 - DID subject
 - DID subjects
-definition: 'The entity identified by a DID and described by a DID document. Anything can be a DID subject: person, group, organization, physical thing, digital thing, logical thing, etc.'
+definition: 'The entity identified by a DID and described by a DID document. Anything can be a DID subject: person, group,
+  organization, physical thing, digital thing, logical thing, etc.'
 notes: []
 see_also:
 - subject.
@@ -39,3 +52,22 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:subject
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

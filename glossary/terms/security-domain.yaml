@@ -1,8 +1,21 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:security-domain
+designations:
+- label: security-domain
+  language: en
+  status: preferred
+- label: security domain
+  language: en
+  status: alternative
+- label: security domains
+  language: en
+  status: alternative
 term: security-domain
 aliases:
 - security domain
 - security domains
-definition: An environment or context that includes a set of system resources and a set of system entities that have the right to access the resources as defined by a common security policy, security model, or security architecture.
+definition: An environment or context that includes a set of system resources and a set of system entities that have the right
+  to access the resources as defined by a common security policy, security model, or security architecture.
 notes: []
 see_also:
 - trust domain.
@@ -40,3 +53,22 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:trust-domain
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

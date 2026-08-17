@@ -6,6 +6,12 @@ title: "permission"
 
 # permission
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:permission`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 Authorization to perform some action on a system.
 
@@ -18,8 +24,21 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **permissions** (`en`, `alternative`)
+
+## Legacy Aliases
 permission, permissions
+
+## Semantic Relations
+- **related**: `urn:tig:concept:authorization`
+- **related**: `urn:tig:concept:role-based-access-control`
+- **related**: `urn:tig:concept:attribute-based-access-control`
+- **related**: `urn:tig:concept:access-control`
+- **related**: `urn:tig:concept:revocation`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [authorization]({{ '/terms/authorization/' | relative_url }})

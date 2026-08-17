@@ -6,6 +6,12 @@ title: "organization"
 
 # organization
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:organization`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,20 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **organizations** (`en`, `alternative`)
+- **organisation** (`en`, `alternative`)
+- **organisations** (`en`, `alternative`)
+
+## Legacy Aliases
 organization, organizations, organisation, organisations
+
+## Semantic Relations
+- **related**: `urn:tig:concept:legal-entity`
+- **related**: `urn:tig:concept:legal-person`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [legal entity]({{ '/terms/legal-entity/' | relative_url }})

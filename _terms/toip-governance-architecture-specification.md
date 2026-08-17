@@ -6,6 +6,12 @@ title: "toip-governance-architecture-specification"
 
 # toip-governance-architecture-specification
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:toip-governance-architecture-specification`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 The specification defining the requirements for the ToIP Governance Stack published by the ToIP Foundation.
 
@@ -18,8 +24,22 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **ToIP Governance Architecture Specification** (`en`, `alternative`)
+
+## Legacy Aliases
 ToIP Governance Architecture Specification
+
+## Semantic Relations
+- **related**: `urn:tig:concept:governance`
+- **related**: `urn:tig:concept:governance-framework`
+- **related**: `urn:tig:concept:governing-authority`
+- **related**: `urn:tig:concept:trust-registry`
+- **related**: `urn:tig:concept:definition`
+- **related**: `urn:tig:concept:glossary`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [governance]({{ '/terms/governance/' | relative_url }})

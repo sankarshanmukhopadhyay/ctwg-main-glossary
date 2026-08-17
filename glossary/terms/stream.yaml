@@ -1,8 +1,18 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:stream
+designations:
+- label: stream
+  language: en
+  status: preferred
+- label: streams
+  language: en
+  status: alternative
 term: stream
 aliases:
 - stream
 - streams
-definition: In the context of digital communications, and in particular streaming media, a flow of data delivered in a continuous manner from a server to a client rather than in discrete messages.
+definition: In the context of digital communications, and in particular streaming media, a flow of data delivered in a continuous
+  manner from a server to a client rather than in discrete messages.
 notes: []
 see_also:
 - glossary
@@ -40,3 +50,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

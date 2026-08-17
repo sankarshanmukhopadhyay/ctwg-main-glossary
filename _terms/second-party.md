@@ -6,6 +6,12 @@ title: "second-party"
 
 # second-party
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:second-party`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 The party with whom a first party engages to form a trust relationship, establish a connection, make a delegation, or execute a transaction.
 
@@ -18,8 +24,18 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **second party** (`en`, `alternative`)
+- **second parties** (`en`, `alternative`)
+
+## Legacy Aliases
 second party, second parties
+
+## Semantic Relations
+- **related**: `urn:tig:concept:third-party`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [third party]({{ '/terms/third-party/' | relative_url }})

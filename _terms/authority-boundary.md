@@ -6,6 +6,12 @@ title: "authority boundary"
 
 # authority boundary
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:authority-boundary`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A machine- or human-readable constraint that identifies where authority begins and ends, including the permitted actor, scope, action, target, conditions, and lifecycle state.
 
@@ -18,8 +24,19 @@ This term was added following a cross-repository terminology review of TSMM, TIS
 ## Implementation Relevance
 Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.
 
-## Aliases
+## Alternative Designations
+- **authority-boundary** (`en`, `alternative`)
+
+## Legacy Aliases
 authority boundary, authority-boundary
+
+## Semantic Relations
+- **related**: `urn:tig:concept:authority`
+- **related**: `urn:tig:concept:scope`
+- **related**: `urn:tig:concept:trust-boundary`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [authority]({{ '/terms/authority/' | relative_url }})

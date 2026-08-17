@@ -6,6 +6,12 @@ title: "decentralized-identity-foundation"
 
 # decentralized-identity-foundation
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:decentralized-identity-foundation`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,18 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **Decentralized Identity Foundation** (`en`, `alternative`)
+
+## Legacy Aliases
 Decentralized Identity Foundation
+
+## Semantic Relations
+- **related**: `urn:tig:concept:openwallet-foundation`
+- **related**: `urn:tig:concept:toip-foundation`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [OpenWallet Foundation]({{ '/terms/openwallet-foundation/' | relative_url }})

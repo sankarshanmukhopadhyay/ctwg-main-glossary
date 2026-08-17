@@ -1,8 +1,20 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:gateway
+designations:
+- label: gateway
+  language: en
+  status: preferred
+- label: gateways
+  language: en
+  status: alternative
 term: gateway
 aliases:
 - gateway
 - gateways
-definition: A gateway is a piece of networking hardware or software used in telecommunications networks that allows data to flow from one discrete network to another. Gateways are distinct from routers or switches in that they communicate using more than one protocol to connect multiple networks<sup>\[1\]\[2\]</sup>#cite_note-1) and can operate at any of the seven layers of the open systems interconnection model (OSI).
+definition: A gateway is a piece of networking hardware or software used in telecommunications networks that allows data to
+  flow from one discrete network to another. Gateways are distinct from routers or switches in that they communicate using
+  more than one protocol to connect multiple networks<sup>\[1\]\[2\]</sup>#cite_note-1) and can operate at any of the seven
+  layers of the open systems interconnection model (OSI).
 notes: []
 see_also:
 - intermediary.
@@ -39,3 +51,22 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:intermediary
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

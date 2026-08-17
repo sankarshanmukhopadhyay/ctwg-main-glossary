@@ -6,6 +6,12 @@ title: "dynamic authorization"
 
 # dynamic authorization
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:dynamic-authorization`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 An authorization approach in which runtime decisions are produced by evaluating contextual attributes, evidence, and policy rather than relying only on static permissions.
 
@@ -18,8 +24,18 @@ This term was added following a cross-repository terminology review of TSMM, TIS
 ## Implementation Relevance
 Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.
 
-## Aliases
+## Alternative Designations
+- **dynamic-authorization** (`en`, `alternative`)
+
+## Legacy Aliases
 dynamic authorization, dynamic-authorization
+
+## Semantic Relations
+- **related**: `urn:tig:concept:authorization`
+- **related**: `urn:tig:concept:attribute-based-access-control`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [authorization]({{ '/terms/authorization/' | relative_url }})

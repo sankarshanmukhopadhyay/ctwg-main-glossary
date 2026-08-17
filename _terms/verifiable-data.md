@@ -6,6 +6,12 @@ title: "verifiable-data"
 
 # verifiable-data
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:verifiable-data`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 Any digital data or object that is digitally signed in such a manner that it can be cryptographically verified.
 
@@ -18,8 +24,18 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **verifiable data** (`en`, `alternative`)
+
+## Legacy Aliases
 verifiable data
+
+## Semantic Relations
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:definition`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [glossary]({{ '/terms/glossary/' | relative_url }})

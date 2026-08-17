@@ -1,8 +1,19 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:end-verifiability
+designations:
+- label: end-verifiability
+  language: en
+  status: preferred
+- label: end verifiability
+  language: en
+  status: alternative
 term: end-verifiability
 aliases:
 - end-verifiability
 - end verifiability
-definition: a data item or statement may be cryptographically securely attributable to its source (party at the source end) by any recipient verifier (party at the destination end) without reliance on any infrastructure not under the verifier’s ultimate control.
+definition: a data item or statement may be cryptographically securely attributable to its source (party at the source end)
+  by any recipient verifier (party at the destination end) without reliance on any infrastructure not under the verifier’s
+  ultimate control.
 notes: []
 see_also:
 - verification
@@ -44,3 +55,25 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:verification
+  - urn:tig:concept:verifier
+  - urn:tig:concept:relying-party
+  - urn:tig:concept:trust-decision
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

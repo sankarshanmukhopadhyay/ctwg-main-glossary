@@ -1,10 +1,10 @@
 ---
-title: "Terms: M"
-parent: "Glossary Terms"
+title: "Concepts: M"
+parent: "Concepts"
 nav_order: 13
 ---
 
-# Terms: M
+# Concepts: M
 
 - [machine-readable]({{ '/terms/machine-readable/' | relative_url }})
 - [man-made-thing]({{ '/terms/man-made-thing/' | relative_url }})

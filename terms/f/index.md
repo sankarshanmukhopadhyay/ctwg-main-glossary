@@ -1,10 +1,10 @@
 ---
-title: "Terms: F"
-parent: "Glossary Terms"
+title: "Concepts: F"
+parent: "Concepts"
 nav_order: 6
 ---
 
-# Terms: F
+# Concepts: F
 
 - [fal]({{ '/terms/fal/' | relative_url }})
 - [federated-identity]({{ '/terms/federated-identity/' | relative_url }})

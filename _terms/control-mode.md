@@ -6,6 +6,12 @@ title: "control mode"
 
 # control mode
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:control-mode`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,19 @@ This term was added following a cross-repository terminology review of TSMM, TIS
 ## Implementation Relevance
 Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.
 
-## Aliases
+## Alternative Designations
+- **control-mode** (`en`, `alternative`)
+
+## Legacy Aliases
 control mode, control-mode
+
+## Semantic Relations
+- **related**: `urn:tig:concept:access-control`
+- **related**: `urn:tig:concept:agent`
+- **related**: `urn:tig:concept:appropriate-friction`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [access-control]({{ '/terms/access-control/' | relative_url }})

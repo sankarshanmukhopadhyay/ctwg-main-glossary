@@ -1,7 +1,17 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:decentralized-identity-foundation
+designations:
+- label: decentralized-identity-foundation
+  language: en
+  status: preferred
+- label: Decentralized Identity Foundation
+  language: en
+  status: alternative
 term: decentralized-identity-foundation
 aliases:
 - Decentralized Identity Foundation
-definition: A non-profit project of the Linux Foundation chartered to develop the foundational components of an open, standards-based, decentralized identity ecosystem for people, organizations, apps, and devices.
+definition: A non-profit project of the Linux Foundation chartered to develop the foundational components of an open, standards-based,
+  decentralized identity ecosystem for people, organizations, apps, and devices.
 notes: []
 see_also:
 - OpenWallet Foundation
@@ -40,3 +50,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:openwallet-foundation
+  - urn:tig:concept:toip-foundation
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

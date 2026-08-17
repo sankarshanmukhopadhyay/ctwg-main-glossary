@@ -6,6 +6,12 @@ title: "toip-layer-2"
 
 # toip-layer-2
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:toip-layer-2`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 The trust spanning layer of the ToIP stack, responsible for enabling trust task protocols at ToIP Layer 3.
 
@@ -18,8 +24,18 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **ToIP Layer 2** (`en`, `alternative`)
+
+## Legacy Aliases
 ToIP Layer 2
+
+## Semantic Relations
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:definition`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [glossary]({{ '/terms/glossary/' | relative_url }})

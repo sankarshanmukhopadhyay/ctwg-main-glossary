@@ -1,10 +1,30 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:uniform-resource-identifier
+designations:
+- label: uniform-resource-identifier
+  language: en
+  status: preferred
+- label: Uniform Resource Identifier
+  language: en
+  status: alternative
+- label: Uniform Resource Identifiers
+  language: en
+  status: alternative
+- label: URI
+  language: en
+  status: alternative
+- label: URIs
+  language: en
+  status: alternative
 term: uniform-resource-identifier
 aliases:
 - Uniform Resource Identifier
 - Uniform Resource Identifiers
 - URI
 - URIs
-definition: A Uniform Resource Identifier (URI) is the generic standard for all types of identifiers used to link resources in the World Wide Web. The most common type of a URI is a URL (Uniform Resource Locator). The URI standard is defined by IETF RFC 3986. URNs (Uniform Resource Names) are another type of URIs intended for persistent identifiers.
+definition: A Uniform Resource Identifier (URI) is the generic standard for all types of identifiers used to link resources
+  in the World Wide Web. The most common type of a URI is a URL (Uniform Resource Locator). The URI standard is defined by
+  IETF RFC 3986. URNs (Uniform Resource Names) are another type of URIs intended for persistent identifiers.
 notes: []
 see_also:
 - glossary
@@ -44,3 +64,25 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+  - urn:tig:concept:identifier
+  - urn:tig:concept:decentralized-identifier
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

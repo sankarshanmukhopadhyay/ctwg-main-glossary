@@ -6,6 +6,12 @@ title: "toip-foundation"
 
 # toip-foundation
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:toip-foundation`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 A non-profit project of the Linux Foundation chartered to define an overall architecture for decentralized digital trust infrastructure known as the ToIP stack.
 
@@ -18,8 +24,18 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **ToIP Foundation** (`en`, `alternative`)
+
+## Legacy Aliases
 ToIP Foundation
+
+## Semantic Relations
+- **related**: `urn:tig:concept:decentralized-identity-foundation`
+- **related**: `urn:tig:concept:openwallet-foundation`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [Decentralized Identity Foundation]({{ '/terms/decentralized-identity-foundation/' | relative_url }})

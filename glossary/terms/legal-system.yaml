@@ -1,8 +1,22 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:legal-system
+designations:
+- label: legal-system
+  language: en
+  status: preferred
+- label: legal system
+  language: en
+  status: alternative
+- label: legal systems
+  language: en
+  status: alternative
 term: legal-system
 aliases:
 - legal system
 - legal systems
-definition: A system in which policies and rules are defined, and mechanisms for their enforcement and conflict resolution are (implicitly or explicitly) specified. Legal systems are not just defined by governments; they can also be defined by a governance framework.
+definition: A system in which policies and rules are defined, and mechanisms for their enforcement and conflict resolution
+  are (implicitly or explicitly) specified. Legal systems are not just defined by governments; they can also be defined by
+  a governance framework.
 notes: []
 see_also:
 - policy
@@ -44,3 +58,26 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:policy
+  - urn:tig:concept:governance-framework
+  - urn:tig:concept:requirement
+  - urn:tig:concept:governance
+  - urn:tig:concept:governing-authority
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

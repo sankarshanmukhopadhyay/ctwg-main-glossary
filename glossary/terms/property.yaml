@@ -1,8 +1,18 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:property
+designations:
+- label: property
+  language: en
+  status: preferred
+- label: properties
+  language: en
+  status: alternative
 term: property
 aliases:
 - property
 - properties
-definition: In the context of digital communication, an attribute of a digital object or data structure, such as a DID document or a schema.
+definition: In the context of digital communication, an attribute of a digital object or data structure, such as a DID document
+  or a schema.
 notes: []
 see_also:
 - attribute
@@ -40,4 +50,25 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
-simple_definition: In the context of digital communication, an attribute of a digital object or data structure, such as a DID document or a schema.
+simple_definition: In the context of digital communication, an attribute of a digital object or data structure, such as a
+  DID document or a schema.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:attribute
+  - urn:tig:concept:claim
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

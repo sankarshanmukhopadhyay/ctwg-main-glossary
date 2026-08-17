@@ -1,10 +1,31 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:trusted-execution-environment
+designations:
+- label: trusted-execution-environment
+  language: en
+  status: preferred
+- label: trusted execution environment
+  language: en
+  status: alternative
+- label: trusted execution environments
+  language: en
+  status: alternative
+- label: TEE
+  language: en
+  status: alternative
+- label: TEEs
+  language: en
+  status: alternative
 term: trusted-execution-environment
 aliases:
 - trusted execution environment
 - trusted execution environments
 - TEE
 - TEEs
-definition: A trusted execution environment (TEE) is a secure area of a main processor. It helps code and data loaded inside it to be protected with respect to confidentiality and integrity. Data integrity prevents unauthorized entities from outside the TEE from altering data, while code integrity prevents code in the TEE from being replaced or modified by unauthorized entities, which may also be the computer owner itself as in certain DRM schemes.
+definition: A trusted execution environment (TEE) is a secure area of a main processor. It helps code and data loaded inside
+  it to be protected with respect to confidentiality and integrity. Data integrity prevents unauthorized entities from outside
+  the TEE from altering data, while code integrity prevents code in the TEE from being replaced or modified by unauthorized
+  entities, which may also be the computer owner itself as in certain DRM schemes.
 notes: []
 see_also:
 - Secure Enclave.
@@ -46,3 +67,22 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:secure-enclave
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

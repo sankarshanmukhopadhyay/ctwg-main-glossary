@@ -6,6 +6,12 @@ title: "digital-wallet"
 
 # digital-wallet
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:digital-wallet`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,20 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **digital wallet** (`en`, `alternative`)
+- **digital wallets** (`en`, `alternative`)
+
+## Legacy Aliases
 digital wallet, digital wallets
+
+## Semantic Relations
+- **related**: `urn:tig:concept:digital-agent`
+- **related**: `urn:tig:concept:key-management-system`
+- **related**: `urn:tig:concept:wallet-engine`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [digital agent]({{ '/terms/digital-agent/' | relative_url }})

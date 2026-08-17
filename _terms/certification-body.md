@@ -6,6 +6,12 @@ title: "certification-body"
 
 # certification-body
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:certification-body`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 A legal entity that performs certification.
 
@@ -18,8 +24,19 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **certification body** (`en`, `alternative`)
+- **certification bodies** (`en`, `alternative`)
+
+## Legacy Aliases
 certification body, certification bodies
+
+## Semantic Relations
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:definition`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [glossary]({{ '/terms/glossary/' | relative_url }})

@@ -6,6 +6,12 @@ title: "governed action"
 
 # governed action
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:governed-action`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 An action that is only allowed when the right authority, rules, limits, and evidence are in place.
 
@@ -18,8 +24,19 @@ This is a cross-project glossary term. Individual specifications may define narr
 ## Implementation Relevance
 Use this term to keep governance, authority, assurance, and implementation discussions consistent across interoperating projects.
 
-## Aliases
+## Alternative Designations
+- **governed-action** (`en`, `alternative`)
+
+## Legacy Aliases
 governed-action
+
+## Semantic Relations
+- **related**: `urn:tig:concept:action`
+- **related**: `urn:tig:concept:authority`
+- **related**: `urn:tig:concept:policy`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [action]({{ '/terms/action/' | relative_url }})

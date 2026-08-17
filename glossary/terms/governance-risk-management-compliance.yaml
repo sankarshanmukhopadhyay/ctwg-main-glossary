@@ -1,7 +1,21 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:governance-risk-management-compliance
+designations:
+- label: governance-risk-management-compliance
+  language: en
+  status: preferred
+- label: Governance - Risk Management - Compliance
+  language: en
+  status: alternative
 term: governance-risk-management-compliance
 aliases:
 - Governance - Risk Management - Compliance
-definition: Governance, risk management, and compliance (GRC) are three related facets that aim to assure an organization reliably achieves objectives, addresses uncertainty and acts with integrity. Governance is the combination of processes established and executed by the directors (or the board of directors) that are reflected in the organization's structure and how it is managed and led toward achieving goals. Risk management is predicting and managing risks that could hinder the organization from reliably achieving its objectives under uncertainty. Compliance refers to adhering with the mandated boundaries (laws and regulations) and voluntary boundaries (company's policies, procedures, etc.)
+definition: Governance, risk management, and compliance (GRC) are three related facets that aim to assure an organization
+  reliably achieves objectives, addresses uncertainty and acts with integrity. Governance is the combination of processes
+  established and executed by the directors (or the board of directors) that are reflected in the organization's structure
+  and how it is managed and led toward achieving goals. Risk management is predicting and managing risks that could hinder
+  the organization from reliably achieving its objectives under uncertainty. Compliance refers to adhering with the mandated
+  boundaries (laws and regulations) and voluntary boundaries (company's policies, procedures, etc.)
 notes: []
 see_also:
 - governance
@@ -48,3 +62,27 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:governance
+  - urn:tig:concept:governance-framework
+  - urn:tig:concept:governing-authority
+  - urn:tig:concept:trust-registry
+  - urn:tig:concept:definition
+  - urn:tig:concept:glossary
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

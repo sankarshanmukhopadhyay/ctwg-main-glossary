@@ -6,6 +6,12 @@ title: "identification"
 
 # identification
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:identification`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 The action of a party obtaining the set of identity data necessary to serve as that party’s identity for a specific entity.
 
@@ -18,8 +24,21 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **identify** (`en`, `alternative`)
+- **identified** (`en`, `alternative`)
+- **identifies** (`en`, `alternative`)
+- **identifying** (`en`, `alternative`)
+
+## Legacy Aliases
 identification, identify, identified, identifies, identifying
+
+## Semantic Relations
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:definition`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [glossary]({{ '/terms/glossary/' | relative_url }})

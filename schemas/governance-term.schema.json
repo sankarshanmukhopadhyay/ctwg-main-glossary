@@ -1,18 +1,211 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://glossary.trustoverip.org/schemas/governance-term.schema.json",
-  "title": "Governance Executable Glossary Term",
-  "description": "Schema for authoritative governance-executable glossary term YAML artifacts under glossary/terms/.",
+  "$id": "https://sankarshanmukhopadhyay.github.io/trust-infrastructure-glossary/schemas/governance-term.schema.json",
+  "title": "Trust Infrastructure Glossary Concept Artifact",
+  "description": "Schema for v2 governance-executable concept artifacts with language-tagged designations, provenance, semantic relations and assurance metadata.",
   "type": "object",
   "additionalProperties": true,
   "required": [
+    "schema_version",
+    "concept_id",
+    "designations",
     "term",
     "definition",
+    "editorial",
+    "provenance",
     "governance",
     "assurance",
     "control_plane"
   ],
   "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "2.0",
+      "description": "Artifact schema major version."
+    },
+    "concept_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Stable identifier for the concept, independent of any particular designation."
+    },
+    "designations": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "description": "Language-tagged labels that designate this concept.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "label",
+          "language",
+          "status"
+        ],
+        "properties": {
+          "label": {
+            "type": "string",
+            "minLength": 1
+          },
+          "language": {
+            "type": "string",
+            "pattern": "^[A-Za-z]{2,3}(-[A-Za-z0-9]+)*$"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "preferred",
+              "alternative",
+              "deprecated",
+              "discouraged"
+            ]
+          },
+          "scope": {
+            "type": "string",
+            "minLength": 1
+          },
+          "rationale": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "editorial": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status"
+      ],
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": [
+            "proposed",
+            "draft",
+            "review-needed",
+            "stable",
+            "deprecated"
+          ]
+        },
+        "reviewed": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "domain": {
+              "type": "boolean"
+            },
+            "plain_language": {
+              "type": "boolean"
+            },
+            "governance": {
+              "type": "boolean"
+            }
+          }
+        }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "classification"
+      ],
+      "properties": {
+        "classification": {
+          "type": "string",
+          "enum": [
+            "adopted",
+            "adapted",
+            "locally_defined",
+            "mapped"
+          ]
+        },
+        "source_corpus": {
+          "type": "string",
+          "minLength": 1
+        },
+        "lineage_note": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "semantic_relations": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "broader": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "narrower": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "related": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        }
+      }
+    },
+    "concept_mappings": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "exact": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "close": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "broad": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "narrow": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "related": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        }
+      }
+    },
     "term": {
       "type": "string",
       "minLength": 1

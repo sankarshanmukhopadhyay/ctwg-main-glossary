@@ -1,8 +1,18 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:term
+designations:
+- label: term
+  language: en
+  status: preferred
+- label: terms
+  language: en
+  status: alternative
 term: term
 aliases:
 - term
 - terms
-definition: A unit of text (i.e., a word or phrase) that is used in a particular context or scope to refer to a concept (or a relation between concepts, or a property of a concept).
+definition: A unit of text (i.e., a word or phrase) that is used in a particular context or scope to refer to a concept (or
+  a relation between concepts, or a property of a concept).
 notes:
 - A term MUST NOT be confused with the concept it refers to (which is an extremely common mistake).
 see_also:
@@ -12,8 +22,10 @@ sources:
 - 'ToIP CTWG maintained glossary source: `spec/terms-definitions/term.md`'
 mental_models: []
 supporting_definitions:
-- '[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#term): a word or phrase (i.e.: text) that is used in at least one [scope](https://essif-lab.github.io/framework/docs/terms/scope)/context to represent a specific [concept](https://essif-lab.github.io/framework/docs/terms/concept).'
-- '[Merriam Webster:](https://www.merriam-webster.com/dictionary/term) a word or expression that has a precise meaning in some uses or is peculiar to a science, art, profession, or subject.'
+- '[eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#term): a word or phrase (i.e.: text) that is used
+  in at least one [scope](https://essif-lab.github.io/framework/docs/terms/scope)/context to represent a specific [concept](https://essif-lab.github.io/framework/docs/terms/concept).'
+- '[Merriam Webster:](https://www.merriam-webster.com/dictionary/term) a word or expression that has a precise meaning in
+  some uses or is peculiar to a science, art, profession, or subject.'
 source_file: spec/terms-definitions/term.md
 governance_profile: descriptive
 governance:
@@ -43,3 +55,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

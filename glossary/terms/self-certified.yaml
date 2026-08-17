@@ -1,7 +1,14 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:self-certified
+designations:
+- label: self-certified
+  language: en
+  status: preferred
 term: self-certified
 aliases:
 - self-certified
-definition: When a party provides its own certification that it is compliant with a set of requirements, such as a governance framework. The term is also applied to data structures that are cryptographically verifiable such as self-certifying identifiers.
+definition: When a party provides its own certification that it is compliant with a set of requirements, such as a governance
+  framework. The term is also applied to data structures that are cryptographically verifiable such as self-certifying identifiers.
 notes: []
 see_also:
 - policy
@@ -43,3 +50,26 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:policy
+  - urn:tig:concept:governance-framework
+  - urn:tig:concept:requirement
+  - urn:tig:concept:governance
+  - urn:tig:concept:governing-authority
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

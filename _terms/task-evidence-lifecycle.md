@@ -6,6 +6,12 @@ title: "task evidence lifecycle"
 
 # task evidence lifecycle
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:task-evidence-lifecycle`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 The sequence of evidence, receipts, artifacts, and review triggers associated with governance-significant task state transitions from initiation through completion, cancellation, or failure.
 
@@ -18,8 +24,19 @@ This term was added following a cross-repository terminology review of TSMM, TIS
 ## Implementation Relevance
 Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.
 
-## Aliases
+## Alternative Designations
+- **task-evidence-lifecycle** (`en`, `alternative`)
+
+## Legacy Aliases
 task evidence lifecycle, task-evidence-lifecycle
+
+## Semantic Relations
+- **related**: `urn:tig:concept:trust-task`
+- **related**: `urn:tig:concept:audit-log`
+- **related**: `urn:tig:concept:attestation`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [trust-task]({{ '/terms/trust-task/' | relative_url }})

@@ -6,6 +6,12 @@ title: "non-transferable"
 
 # non-transferable
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:non-transferable`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 No transferable (the control over) a certain digital asset in an unobstructed or loss-less manner. As opposed to transferable.
 
@@ -18,8 +24,18 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **non transferable** (`en`, `alternative`)
+
+## Legacy Aliases
 non-transferable, non transferable
+
+## Semantic Relations
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:definition`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [glossary]({{ '/terms/glossary/' | relative_url }})

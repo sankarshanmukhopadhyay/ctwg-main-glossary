@@ -1,10 +1,10 @@
 ---
-title: "Terms: U"
-parent: "Glossary Terms"
+title: "Concepts: U"
+parent: "Concepts"
 nav_order: 21
 ---
 
-# Terms: U
+# Concepts: U
 
 - [udp]({{ '/terms/udp/' | relative_url }})
 - [unicast]({{ '/terms/unicast/' | relative_url }})

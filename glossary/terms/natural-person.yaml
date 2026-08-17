@@ -1,8 +1,21 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:natural-person
+designations:
+- label: natural-person
+  language: en
+  status: preferred
+- label: natural person
+  language: en
+  status: alternative
+- label: natural persons
+  language: en
+  status: alternative
 term: natural-person
 aliases:
 - natural person
 - natural persons
-definition: A person (in legal meaning, one who has its own legal personality) that is an individual human being, as distinguished from the broader category of a legal person, which may refer to either a natural person or an organization of any kind.
+definition: A person (in legal meaning, one who has its own legal personality) that is an individual human being, as distinguished
+  from the broader category of a legal person, which may refer to either a natural person or an organization of any kind.
 notes: []
 see_also:
 - legal entity
@@ -41,3 +54,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:legal-entity
+  - urn:tig:concept:party
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

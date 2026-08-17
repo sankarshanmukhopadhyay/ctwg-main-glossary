@@ -1,10 +1,10 @@
 ---
-title: "Terms: R"
-parent: "Glossary Terms"
+title: "Concepts: R"
+parent: "Concepts"
 nav_order: 18
 ---
 
-# Terms: R
+# Concepts: R
 
 - [rbac]({{ '/terms/rbac/' | relative_url }})
 - [real-world-identity]({{ '/terms/real-world-identity/' | relative_url }})

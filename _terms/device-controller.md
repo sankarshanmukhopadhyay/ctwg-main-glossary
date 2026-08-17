@@ -6,6 +6,12 @@ title: "device-controller"
 
 # device-controller
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:device-controller`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 The controller of a device capable of digital communications, e.g., a smartphone, tablet, laptop, IoT device, etc.
 
@@ -18,8 +24,19 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **device controller** (`en`, `alternative`)
+- **device controllers** (`en`, `alternative`)
+
+## Legacy Aliases
 device controller, device controllers
+
+## Semantic Relations
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:definition`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [glossary]({{ '/terms/glossary/' | relative_url }})

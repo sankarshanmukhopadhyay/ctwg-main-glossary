@@ -1,8 +1,21 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:trust-domain
+designations:
+- label: trust-domain
+  language: en
+  status: preferred
+- label: trust domain
+  language: en
+  status: alternative
+- label: trust domains
+  language: en
+  status: alternative
 term: trust-domain
 aliases:
 - trust domain
 - trust domains
-definition: A security domain defined by a computer hardware or software architecture, a security policy, or a trust community, typically via a trust framework or governance framework.
+definition: A security domain defined by a computer hardware or software architecture, a security policy, or a trust community,
+  typically via a trust framework or governance framework.
 notes: []
 see_also:
 - trust-context
@@ -43,3 +56,25 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:trust-context
+  - urn:tig:concept:digital-trust-ecosystem
+  - urn:tig:concept:security-domain
+  - urn:tig:concept:trust-framework
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

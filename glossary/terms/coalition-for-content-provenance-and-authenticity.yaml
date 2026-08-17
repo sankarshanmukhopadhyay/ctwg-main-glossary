@@ -1,7 +1,18 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:coalition-for-content-provenance-and-authenticity
+designations:
+- label: coalition-for-content-provenance-and-authenticity
+  language: en
+  status: preferred
+- label: Coalition for Content Provenance and Authenticity
+  language: en
+  status: alternative
 term: coalition-for-content-provenance-and-authenticity
 aliases:
 - Coalition for Content Provenance and Authenticity
-definition: C2PA is a Joint Development Foundation project of the Linux Foundation that addresses the prevalence of misleading information online through the development of technical standards for certifying the source and history (or provenance) of media content.
+definition: C2PA is a Joint Development Foundation project of the Linux Foundation that addresses the prevalence of misleading
+  information online through the development of technical standards for certifying the source and history (or provenance)
+  of media content.
 notes: []
 see_also:
 - Content Authenticity Initiative.
@@ -39,3 +50,22 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:content-authenticity-initiative
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

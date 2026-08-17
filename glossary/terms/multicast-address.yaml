@@ -1,8 +1,21 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:multicast-address
+designations:
+- label: multicast-address
+  language: en
+  status: preferred
+- label: multicast address
+  language: en
+  status: alternative
+- label: multicast addresses
+  language: en
+  status: alternative
 term: multicast-address
 aliases:
 - multicast address
 - multicast addresses
-definition: A multicast address is a logical identifier for a group of hosts in a computer network that are available to process datagrams or frames intended to be multicast for a designated network service.
+definition: A multicast address is a logical identifier for a group of hosts in a computer network that are available to process
+  datagrams or frames intended to be multicast for a designated network service.
 notes: []
 see_also:
 - broadcast address
@@ -40,3 +53,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:broadcast-address
+  - urn:tig:concept:unicast-address
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

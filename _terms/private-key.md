@@ -6,6 +6,12 @@ title: "private-key"
 
 # private-key
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:private-key`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 In public key cryptography, the cryptographic key which must be kept secret by the controller in order to maintain security.
 
@@ -18,8 +24,19 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **private key** (`en`, `alternative`)
+- **private keys** (`en`, `alternative`)
+
+## Legacy Aliases
 private key, private keys
+
+## Semantic Relations
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:definition`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [glossary]({{ '/terms/glossary/' | relative_url }})

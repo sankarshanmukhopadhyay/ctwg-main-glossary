@@ -6,6 +6,12 @@ title: "message"
 
 # message
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:message`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A discrete unit of communication intended by the source for consumption by some recipient or group of recipients.
 
@@ -18,8 +24,18 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **messages** (`en`, `alternative`)
+
+## Legacy Aliases
 message, messages
+
+## Semantic Relations
+- **related**: `urn:tig:concept:toip-message`
+- **related**: `urn:tig:concept:verifiable-message`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [ToIP message]({{ '/terms/toip-message/' | relative_url }})

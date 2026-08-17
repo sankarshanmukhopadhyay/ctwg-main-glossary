@@ -1,7 +1,20 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:multi-party-computation
+designations:
+- label: multi-party-computation
+  language: en
+  status: preferred
+- label: multi-party computation
+  language: en
+  status: alternative
 term: multi-party-computation
 aliases:
 - multi-party computation
-definition: Secure multi-party computation (also known as secure computation, multi-party computation (MPC) or privacy-preserving computation) is a subfield of cryptography with the goal of creating methods for parties to jointly compute a function over their inputs while keeping those inputs private. Unlike traditional cryptographic tasks, where cryptography assures security and integrity of communication or storage and the adversary is outside the system of participants (an eavesdropper on the sender and receiver), the cryptography in this model protects participants' privacy from each other.
+definition: Secure multi-party computation (also known as secure computation, multi-party computation (MPC) or privacy-preserving
+  computation) is a subfield of cryptography with the goal of creating methods for parties to jointly compute a function over
+  their inputs while keeping those inputs private. Unlike traditional cryptographic tasks, where cryptography assures security
+  and integrity of communication or storage and the adversary is outside the system of participants (an eavesdropper on the
+  sender and receiver), the cryptography in this model protects participants' privacy from each other.
 notes: []
 see_also:
 - glossary
@@ -40,3 +53,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

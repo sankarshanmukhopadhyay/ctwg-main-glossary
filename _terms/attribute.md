@@ -6,6 +6,12 @@ title: "attribute"
 
 # attribute
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:attribute`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 An identifiable set of data that describes an entity, which is the subject of the attribute.
 
@@ -18,8 +24,17 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **attributes** (`en`, `alternative`)
+
+## Legacy Aliases
 attribute, attributes
+
+## Semantic Relations
+- **related**: `urn:tig:concept:property`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [property]({{ '/terms/property/' | relative_url }})

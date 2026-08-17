@@ -6,6 +6,12 @@ title: "selective-disclosure"
 
 # selective-disclosure
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:selective-disclosure`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A privacy-preserving presentation capability that allows a holder to disclose only selected claims or attributes from a credential while preserving verifiability.
 
@@ -18,8 +24,20 @@ This bridge term improves navigation across privacy, status, provenance, and ass
 ## Implementation Relevance
 Use this term where evidence needs to be carried across both reader-facing documentation and machine-verifiable assurance artifacts.
 
-## Aliases
+## Alternative Designations
+- **selective disclosure** (`en`, `alternative`)
+
+## Legacy Aliases
 selective disclosure
+
+## Semantic Relations
+- **related**: `urn:tig:concept:sd-jwt-vc`
+- **related**: `urn:tig:concept:verifiable-presentation`
+- **related**: `urn:tig:concept:zero-knowledge-proof`
+- **related**: `urn:tig:concept:correlation-privacy`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [sd-jwt-vc]({{ '/terms/sd-jwt-vc/' | relative_url }})

@@ -1,10 +1,21 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:content-provenance-policy
+designations:
+- label: content provenance policy
+  language: en
+  status: preferred
+- label: content-provenance-policy
+  language: en
+  status: alternative
 term: content provenance policy
 aliases:
 - content provenance policy
 - content-provenance-policy
-definition: A governance policy that specifies what provenance, integrity, sanitization, redaction, and evidence conditions must be satisfied before content may be acted upon, stored, or forwarded.
+definition: A governance policy that specifies what provenance, integrity, sanitization, redaction, and evidence conditions
+  must be satisfied before content may be acted upon, stored, or forwarded.
 notes:
-- This definition is normalized for cross-repository use and should be applied together with the governing profile or specification that supplies domain-specific constraints.
+- This definition is normalized for cross-repository use and should be applied together with the governing profile or specification
+  that supplies domain-specific constraints.
 see_also:
 - policy
 - provenance
@@ -14,8 +25,10 @@ sources:
   publisher: GitHub
   url: https://github.com/sankarshanmukhopadhyay/trust-systems-meta-model
   normative: false
-reader_note: This term was added following a cross-repository terminology review of TSMM, TIS, TGA, and the DTG ZKP Task Force workspace.
-implementation_relevance: Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.
+reader_note: This term was added following a cross-repository terminology review of TSMM, TIS, TGA, and the DTG ZKP Task Force
+  workspace.
+implementation_relevance: Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent
+  across interoperating trust infrastructure repositories.
 governance_profile: governance-supporting
 governance:
   authority_scope:
@@ -58,3 +71,24 @@ control_plane:
   - delegation_record
   - status_record
   - verification_log
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:policy
+  - urn:tig:concept:provenance
+  - urn:tig:concept:attestation
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

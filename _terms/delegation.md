@@ -6,6 +6,12 @@ title: "delegation"
 
 # delegation
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:delegation`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,22 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **delegate** (`en`, `alternative`)
+- **delegated** (`en`, `alternative`)
+- **delegates** (`en`, `alternative`)
+
+## Legacy Aliases
 delegation, delegate, delegated, delegates
+
+## Semantic Relations
+- **related**: `urn:tig:concept:delegator`
+- **related**: `urn:tig:concept:delegatee`
+- **related**: `urn:tig:concept:authorization`
+- **related**: `urn:tig:concept:revocation`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [delegator]({{ '/terms/delegator/' | relative_url }})

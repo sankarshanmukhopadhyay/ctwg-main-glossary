@@ -111,6 +111,12 @@ def term_page(data, lookup):
     simple_definition = clean_text(data.get("simple_definition"))
     reader_note = clean_text(data.get("reader_note"))
     implementation_relevance = clean_text(data.get("implementation_relevance"))
+    concept_id = clean_text(data.get("concept_id"))
+    designations = data.get("designations") or []
+    editorial = data.get("editorial") or {}
+    provenance = data.get("provenance") or {}
+    semantic_relations = data.get("semantic_relations") or {}
+    concept_mappings = data.get("concept_mappings") or {}
 
     aliases_md = ", ".join(aliases) if aliases else "None"
     crosswalk_lines = []
@@ -118,6 +124,29 @@ def term_page(data, lookup):
         if vals:
             crosswalk_lines.append(f"- **{key.upper()}**: {', '.join(vals)}")
     crosswalk_md = "\n".join(crosswalk_lines) if crosswalk_lines else "Not specified"
+
+    designation_lines = []
+    for d in designations:
+        if d.get("status") != "preferred":
+            label = clean_text(d.get("label"))
+            lang = clean_text(d.get("language")) or "und"
+            status = clean_text(d.get("status")) or "alternative"
+            designation_lines.append(f"- **{label}** (`{lang}`, `{status}`)")
+    designations_md = "\n".join(designation_lines) if designation_lines else "None"
+
+    relation_lines = []
+    for rel_name in ["broader", "narrower", "related"]:
+        values = semantic_relations.get(rel_name) or []
+        for value in values:
+            relation_lines.append(f"- **{rel_name}**: `{value}`")
+    relations_md = "\n".join(relation_lines) if relation_lines else "Not specified"
+
+    mapping_lines = []
+    for map_name in ["exact", "close", "broad", "narrow", "related"]:
+        values = concept_mappings.get(map_name) or []
+        for value in values:
+            mapping_lines.append(f"- **{map_name} match**: `{value}`")
+    mappings_md = "\n".join(mapping_lines) if mapping_lines else "Not specified"
 
     safe_title = title.replace('"', "'")
 
@@ -128,6 +157,12 @@ title: \"{safe_title}\"
 > Generated file. Update `glossary/terms/{slugify(title)}.yaml` and regenerate artifacts instead of editing this page directly.
 
 # {title}
+
+## Concept Identity
+- **Concept ID**: `{concept_id or 'Not specified'}`
+- **Editorial status**: `{clean_text(editorial.get('status')) or 'Not specified'}`
+- **Provenance classification**: `{clean_text(provenance.get('classification')) or 'Not specified'}`
+- **Source corpus**: {clean_text(provenance.get('source_corpus')) or 'Not specified'}
 
 ## In Simple English
 {simple_definition or 'A simple-English summary has not yet been added for this term.'}
@@ -141,8 +176,17 @@ title: \"{safe_title}\"
 ## Implementation Relevance
 {implementation_relevance or 'Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.'}
 
-## Aliases
+## Alternative Designations
+{designations_md}
+
+## Legacy Aliases
 {aliases_md}
+
+## Semantic Relations
+{relations_md}
+
+## Cross-Vocabulary Mappings
+{mappings_md}
 
 ## See Also
 {format_term_refs(see_also, lookup)}
@@ -202,14 +246,14 @@ def write_indexes(term_refs):
     letters = sorted(grouped.keys(), key=lambda x: ('{' if x == '#' else x))
     lines = [
         '---',
-        'title: "Glossary Terms"',
+        'title: "Concepts"',
         'nav_order: 4',
         'has_children: true',
         '---',
         '',
-        '# Glossary Terms',
+        '# Concepts',
         '',
-        f'This index is generated from `{TERMS_DIR.relative_to(ROOT)}/` and currently includes **{len(term_refs)}** terms.',
+        f'This index is generated from `{TERMS_DIR.relative_to(ROOT)}/` and currently includes **{len(term_refs)}** concepts.',
         '',
         '## Browse by letter',
         ''
@@ -235,12 +279,12 @@ def write_indexes(term_refs):
         subdir.mkdir(parents=True, exist_ok=True)
         page = [
             '---',
-            f'title: "Terms: {letter}"',
-            'parent: "Glossary Terms"',
+            f'title: "Concepts: {letter}"',
+            'parent: "Concepts"',
             f'nav_order: {letters.index(letter) + 1}',
             '---',
             '',
-            f'# Terms: {letter}',
+            f'# Concepts: {letter}',
             ''
         ]
         for title, url in grouped[letter]:

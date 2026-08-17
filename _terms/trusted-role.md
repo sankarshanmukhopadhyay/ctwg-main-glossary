@@ -6,6 +6,12 @@ title: "trusted-role"
 
 # trusted-role
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:trusted-role`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 A role that performs restricted activities for an organization after meeting competence, security and background verification requirements for that role.
 
@@ -18,8 +24,21 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **trusted role** (`en`, `alternative`)
+- **trusted roles** (`en`, `alternative`)
+
+## Legacy Aliases
 trusted role, trusted roles
+
+## Semantic Relations
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:definition`
+- **related**: `urn:tig:concept:trust`
+- **related**: `urn:tig:concept:trust-registry`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [glossary]({{ '/terms/glossary/' | relative_url }})

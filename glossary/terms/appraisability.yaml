@@ -1,9 +1,22 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:appraisability
+designations:
+- label: appraisability
+  language: en
+  status: preferred
+- label: appraisable
+  language: en
+  status: alternative
+- label: appraise
+  language: en
+  status: alternative
 term: appraisability
 aliases:
 - appraisability
 - appraisable
 - appraise
-definition: The ability for a communication endpoint identified with a verifiable identifier (VID) to be appraised for the set of its properties that enable a relying party or a verifier to make a trust decision about communicating with that endpoint.
+definition: The ability for a communication endpoint identified with a verifiable identifier (VID) to be appraised for the
+  set of its properties that enable a relying party or a verifier to make a trust decision about communicating with that endpoint.
 notes: []
 see_also:
 - trust basis
@@ -41,3 +54,23 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:trust-basis
+  - urn:tig:concept:verifiability
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

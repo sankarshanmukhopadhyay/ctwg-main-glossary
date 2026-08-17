@@ -1,3 +1,12 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:ial
+designations:
+- label: ial
+  language: en
+  status: preferred
+- label: IAL
+  language: en
+  status: alternative
 term: ial
 aliases:
 - IAL
@@ -48,3 +57,25 @@ crosswalk:
   nist:
   - SP 800-63-4
 simple_definition: 'See: identity assurance level.'
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:audit
+  - urn:tig:concept:verification
+  - urn:tig:concept:definition
+  - urn:tig:concept:glossary
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

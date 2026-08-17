@@ -1,112 +1,120 @@
-# ToIP Main Glossary
+# Trust Infrastructure Glossary
 
-[![Validate Governance-Executable Glossary](https://github.com/sankarshanmukhopadhyay/ctwg-main-glossary/actions/workflows/validate-governance-glossary.yml/badge.svg)](https://github.com/sankarshanmukhopadhyay/ctwg-main-glossary/actions/workflows/validate-governance-glossary.yml)
-[![Pages](https://github.com/sankarshanmukhopadhyay/ctwg-main-glossary/actions/workflows/pages.yml/badge.svg)](https://github.com/sankarshanmukhopadhyay/ctwg-main-glossary/actions/workflows/pages.yml)
-![Terms](https://img.shields.io/badge/terms-612-blue)
-![Quality](https://img.shields.io/badge/quality-100.0%2F100-brightgreen)
+[![Validate Trust Infrastructure Glossary](https://github.com/sankarshanmukhopadhyay/trust-infrastructure-glossary/actions/workflows/validate-governance-glossary.yml/badge.svg)](https://github.com/sankarshanmukhopadhyay/trust-infrastructure-glossary/actions/workflows/validate-governance-glossary.yml)
+[![Pages](https://github.com/sankarshanmukhopadhyay/trust-infrastructure-glossary/actions/workflows/pages.yml/badge.svg)](https://github.com/sankarshanmukhopadhyay/trust-infrastructure-glossary/actions/workflows/pages.yml)
+![Concepts](https://img.shields.io/badge/concepts-612-blue)
+![Version](https://img.shields.io/badge/version-v2.0.0-blue)
 ![License](https://img.shields.io/badge/license-OWFa%201.0-blue)
 
-The ToIP Main Glossary is a **governance-executable terminology repository**. It publishes a human-readable GitHub Pages glossary while also producing machine-readable artifacts that describe authority, delegation, revocation, lifecycle state, evidence, auditability, and control-plane relevance for each structured term.
+The **Trust Infrastructure Glossary (TIG)** is an independent, governance-executable concept system for digital trust infrastructure. It combines plain-English and formal definitions with stable concept identifiers, language-tagged designations, provenance, lifecycle and assurance semantics, semantic relationships, cross-vocabulary mappings, deterministic validation, and machine-readable publication.
 
-Version `v1.5.0` adds a plain-English comprehension layer, topic-based navigation, and cross-project vocabulary for agent governance, assurance, interoperability, harms, recognition, redress, and executable policy.
+Version `v2.0.0` establishes the project as independent from its Trust over IP ancestry. ToIP remains an important source corpus and is explicitly attributed where applicable, but it is no longer a governing upstream repository.
 
-
-## Reader-first navigation
+## Start here
 
 - [Start Here](start-here.md) routes readers by task.
-- [Concepts by Topic](concepts.md) groups high-value vocabulary by the problems readers are trying to solve.
-- Generated term pages show **In Simple English** before the formal definition when a curated `simple_definition` is available.
-- [Plain-English Authoring Guide](governance/plain-language-guide.md) defines the editorial standard and migration approach.
+- [Concepts by Topic](concepts.md) groups important vocabulary by problem area.
+- [Concept index](terms-index.md) lists all published concepts.
+- [Semantic Model](governance/semantic-model.md) explains concepts, designations, mappings, provenance, and stable identifiers.
+- [Source Intake and Provenance](governance/source-intake-and-provenance.md) explains how external vocabularies are monitored, evaluated, adapted, and attributed.
+- [Vocabulary Profiles](governance/vocabulary-profiles.md) explains how downstream projects can consume bounded concept sets.
+- [Plain-English Authoring Guide](governance/plain-language-guide.md) defines the reader-facing editorial standard.
+
+## v2 semantic contract
+
+The authoritative unit is a **concept**, not a string label.
+
+Each concept artifact can include:
+
+- a stable `concept_id` such as `urn:tig:concept:delegation`;
+- one preferred designation and zero or more alternative, deprecated, or discouraged designations;
+- language tags so additional languages can be added without changing the concept identity;
+- a formal definition and optional simple-English definition;
+- editorial maturity that is separate from the lifecycle semantics described by the concept;
+- provenance classification: `adopted`, `adapted`, `locally_defined`, or `mapped`;
+- SKOS-aligned semantic relations (`broader`, `narrower`, `related`);
+- SKOS-aligned cross-vocabulary mappings (`exact`, `close`, `broad`, `narrow`, `related`);
+- governance, assurance, evidence, lifecycle, and control-plane metadata.
+
+The legacy `term` and `aliases` fields remain in v2 as compatibility fields for existing consumers. New integrations should treat `concept_id` and `designations` as authoritative.
 
 ## Repository operating model
 
 | Layer | Role | Authority |
 |---|---|---|
-| `glossary/terms/` | Structured YAML term artifacts | **Authoritative source** for executable term metadata and generated term pages |
-| `schemas/` | JSON Schema and controlled vocabularies | **Validation contract** for machine-readable term artifacts |
-| `tools/` | Validation, generation, and quality-report utilities | Operational control plane for publication integrity |
-| `governance/` | Maintainer, contributor, assurance, and publication documentation | Maintainer-authored documentation |
-| `examples/governance-term/` | Schema-aligned examples | Contributor enablement layer |
-| `_terms/` | Generated Jekyll term pages | **Generated output only** |
-| `generated/json/` | Machine-readable bundles, inventories, manifest, and quality report | **Generated output only** |
-| `generated/markdown/` | Human-readable generated bundles, inventory, manifest, and quality report | **Generated output only** |
-| `glossary/overlays/` | Generated and curated governance overlays | Mixed layer. Generated overlays must remain reproducible from source |
+| `glossary/terms/` | Structured concept artifacts | **Authoritative semantic source** |
+| `schemas/` | JSON Schema and controlled vocabularies | **Validation contract** |
+| `profiles/` | Reusable vocabulary profiles | Curated downstream consumption layer |
+| `tools/` | Validation, generation, and quality utilities | Publication and integrity control plane |
+| `governance/` | Maintainer, semantic, provenance, assurance, and publication guidance | Maintainer-authored governance |
+| `_terms/` | Generated Jekyll concept pages | **Generated output only** |
+| `generated/json/` | JSON, JSON-LD, manifests, inventories, reports | **Generated output only** |
+| `generated/rdf/` | SKOS-compatible Turtle | **Generated output only** |
+| `generated/markdown/` | Human-readable bundles and reports | **Generated output only** |
 
 ## Source-of-truth policy
 
-The repository treats `glossary/terms/` as the authoritative operational source for generated glossary pages and bundle artifacts.
+Edit `glossary/terms/*.yaml`, not generated renderings. Generated paths must be reproducible from source and regenerated in the same change set.
 
-Generated directories must not be edited manually unless the corresponding generator logic is being changed and the outputs are immediately regenerated in the same change set.
+## Independence and lineage
 
-**Generated-only paths:**
+This project originated as a fork of the Trust over IP Main Glossary. The v2.0.0 release creates an independent project identity, authority model, semantic contract, release process, and source-intake policy.
 
-- `_terms/`
-- `generated/json/`
-- `generated/markdown/`
-- `terms-index.md`
-- `terms/*/index.md`
-- `glossary/overlays/governance/inventory.json`
-- `glossary/overlays/governance/core-operational-terms.md`
-- `governance/generated-inventories.md`
-- `governance/quality-report.md`
+The project does **not** erase that lineage:
 
-## Using the glossary in your project
+- concepts inherited or adapted from ToIP retain source citations and provenance;
+- ToIP is treated as one monitored source corpus among standards, specifications, frameworks, and project vocabularies;
+- new material is admitted through review rather than repository synchronization;
+- source provenance does not automatically imply semantic or governance authority in TIG.
 
-Most downstream consumers do not need the maintainer build pipeline. Use the generated artifacts directly and pin to a release tag when reproducibility matters.
+See [Project Lineage](governance/project-lineage.md).
 
-Fetch the JSON bundle:
+## External practices adopted in v2
 
-```bash
-curl -L -o governance-glossary.json \
-  https://raw.githubusercontent.com/sankarshanmukhopadhyay/ctwg-main-glossary/main/generated/json/governance-executable-glossary.json
-```
+v2 draws on established open vocabulary practices without copying their governance wholesale:
 
-Fetch the JSON-LD bundle:
+- **CNCF / OpenSSF:** reader-first and plain-language review;
+- **Glossarist / terminology-management practice:** separation of concepts from designations;
+- **W3C SKOS:** preferred/alternative labels, concept relations, and mapping relations;
+- **DCMI:** stable semantic identifiers and long-lived vocabulary governance;
+- **Schema.org:** retirement instead of deletion and machine/human representations of the same vocabulary;
+- **SPDX:** model-driven generated artifacts and bounded downstream profiles;
+- **MDN:** layered reader experience and concise entry points;
+- **Inclusive Naming Initiative:** distinction between deprecated concepts and discouraged designations.
 
-```bash
-curl -L -o governance-glossary.jsonld \
-  https://raw.githubusercontent.com/sankarshanmukhopadhyay/ctwg-main-glossary/main/generated/json/governance-executable-glossary.jsonld
-```
-
-Use `generated/json/artifact-manifest.json` to discover the current machine-readable bundle set and `generated/json/governance-quality-report.json` to inspect quality posture.
-
-## What the generated layer provides
-
-- per-term Jekyll pages under `_terms/`
-- aggregate JSON and JSON-LD bundles under `generated/json/`
-- a lightweight catalog for downstream discovery
-- a machine-readable artifact manifest
-- generated markdown exports under `generated/markdown/`
-- governance inventory overlays for authority, delegation, revocation, lifecycle, evidence, and control-plane analysis
-- a governance quality report for attribution, cross-reference, evidence, revocation, and assurance-readiness review
-- deterministic site indexes for `terms-index.md` and `terms/<letter>/index.md`
+These are design influences. Actual definition text is incorporated only through the repository's source-intake and licensing policy.
 
 
-## Current assurance-readiness posture
+## Current quality posture
 
-The current generated quality report evaluates all 612 structured terms and reports:
+The generated governance quality report evaluates all **612** concepts and currently reports:
 
-- quality score: `100.0 / 100`;
-- total findings: `0`;
-- terms with source coverage: `612`;
-- terms with `see_also` coverage: `612`;
-- terms with evidence coverage: `612`; and
-- revocation-supported terms with revocation-relevant evidence: `149`.
+- quality score: `100.0 / 100`
+- findings: `0`
+- concepts with source coverage: `612`
+- concepts with cross-reference coverage: `612`
+- concepts with evidence coverage: `612`
+- revocation-supported concepts with revocation-relevant evidence: `149`
 
-This score is not a certification claim. It means that all checks currently implemented by `tools/build_quality_report.py` have been satisfied and that the glossary has no open generated quality-report findings under the current assurance-readiness rubric.
+This is a repository quality signal, not a certification claim.
+
+## Machine-readable artifacts
+
+Run the generators to produce:
+
+- `generated/json/governance-executable-glossary.json`
+- `generated/json/governance-executable-glossary.catalog.json`
+- `generated/json/governance-executable-glossary.jsonld`
+- `generated/rdf/trust-infrastructure-glossary.ttl`
+- governance inventories and quality reports
+- deterministic Jekyll pages and indexes
 
 ## Local maintainer workflow
 
-Install Python dependencies:
-
 ```bash
 pip install -r requirements.txt
-```
-
-Run the validation and generation pipeline:
-
-```bash
 python tools/validate_governance_glossary.py
+python tools/validate_profiles.py
 python tools/build_governance_glossary.py
 python tools/build_quality_report.py
 python tools/build_jekyll_site.py
@@ -119,59 +127,18 @@ bundle install
 bundle exec jekyll serve
 ```
 
-## CI and publication workflow
-
-GitHub Actions validate the source layer, regenerate artifacts, and fail when committed generated files drift from the authoritative source.
-
-Publication sequence:
-
-1. validate `glossary/terms/*.yaml` against the JSON Schema and controlled vocabularies;
-2. run repository-specific checks for slugs, aliases, source files, revocation semantics, and evidence alignment;
-3. generate machine-readable bundles, catalogs, inventories, and artifact manifest;
-4. generate the governance quality report;
-5. generate Jekyll term pages and navigation indexes;
-6. fail if generated artifacts are not committed; and
-7. build and deploy the GitHub Pages site.
-
 ## Contribution guidance
 
-1. Edit or add the relevant YAML file under `glossary/terms/`.
-2. Use `examples/governance-term/` as the authoring template.
-3. Keep values within `schemas/governance-vocabularies.yaml` unless a vocabulary expansion is intentionally part of the change.
-4. Run validation and rebuild scripts locally.
-5. Review diffs in generated output.
-6. Update governance documentation when semantics, workflow, or artifact expectations change.
-7. Submit a change set that keeps source, generated output, and documentation in sync.
+1. Treat the concept as the semantic object and the preferred label as one designation of it.
+2. Preserve stable `concept_id` values after publication.
+3. Distinguish adopted, adapted, locally defined, and mapped material.
+4. Add plain-English text without weakening the formal definition.
+5. Record mapping strength deliberately; do not use `exact` when meanings differ materially.
+6. Retain provenance and applicable licensing/attribution evidence.
+7. Regenerate and review all derived artifacts before merge.
 
-See also:
-
-- [Contributing](Contributing.md)
-- [Code of Conduct](CODE_OF_CONDUCT.md)
-- [Repository Operating Model](governance/repository-operating-model.md)
-- [Term Authoring Guide](governance/term-authoring-guide.md)
-- [Assurance Model](governance/assurance-model.md)
-- [Governance Quality Report](governance/quality-report.md)
-- [Machine-readable Artifacts](artifacts.md)
+See [Contributing](Contributing.md), [Repository Operating Model](governance/repository-operating-model.md), and [Term Authoring Guide](governance/term-authoring-guide.md).
 
 ## Design intent
 
-The objective is to make glossary content easier to publish, easier to maintain, and more useful as machine-verifiable governance infrastructure. Markdown remains first-class for readers. Structured term artifacts remain first-class for assurance, interoperability, downstream indexing, conformance tooling, and automation workflows.
-
-The glossary is not a certification authority and does not certify implementations. It provides a controlled vocabulary and evidence-aware semantic layer that downstream governance, conformance, and assurance systems can use as an inspectable reference.
-
-## v1.2.0 standards-linked coverage
-
-This release adds or refreshes vocabulary for:
-
-- W3C Verifiable Credentials Data Model v2.0, Data Integrity, Controlled Identifiers, secured credentials, verifiable presentations, and Bitstring Status List;
-- OpenID4VCI, OpenID4VP, VP Token, DCQL, issuer metadata, wallet attestation, OpenID Federation, entity statements, and trust chains;
-- IETF SD-JWT VC, Key Binding JWT, DPoP, and sender-constrained tokens;
-- EUDI Wallet, PID, and qualified electronic attestations of attributes; and
-- C2PA manifests, claim generators, manifest consumers, content credentials, and provenance.
-
-Structured source citations are now supported alongside legacy source strings. New standards-backed terms should prefer structured citation objects so downstream tools can inspect publisher, version, status, date, URL, and normative intent.
-
-
-## Upstream synchronisation
-
-This maintained fork tracks [`trustoverip/ctwg-main-glossary`](https://github.com/trustoverip/ctwg-main-glossary) through a governed, one-way process. Scheduled monitoring raises drift issues here, while maintainers can prepare a draft merge-based synchronisation pull request against this fork. The automation cannot contribute, push, open issues or open pull requests against upstream. See [upstream synchronisation governance](docs/governance/upstream-synchronisation.md).
+TIG is not a certification authority and does not certify implementations. It provides a controlled, inspectable semantic layer that standards, governance frameworks, policy engines, conformance systems, registries, agents, and assurance tooling can reference consistently.

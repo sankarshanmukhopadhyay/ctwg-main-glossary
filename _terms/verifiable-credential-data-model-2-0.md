@@ -6,6 +6,12 @@ title: "verifiable-credential-data-model-2-0"
 
 # verifiable-credential-data-model-2-0
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:verifiable-credential-data-model-2-0`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 The W3C data model for expressing verifiable credentials and verifiable presentations using common roles, properties, lifecycle semantics, and securing mechanisms.
 
@@ -18,8 +24,22 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term when distinguishing the W3C credential data model from credential transport protocols and credential securing formats.
 
-## Aliases
+## Alternative Designations
+- **VC Data Model 2.0** (`en`, `alternative`)
+- **VCDM 2.0** (`en`, `alternative`)
+
+## Legacy Aliases
 VC Data Model 2.0, VCDM 2.0
+
+## Semantic Relations
+- **related**: `urn:tig:concept:verifiable-credential`
+- **related**: `urn:tig:concept:verifiable-presentation`
+- **related**: `urn:tig:concept:data-integrity-proof`
+- **related**: `urn:tig:concept:secured-verifiable-credential`
+- **related**: `urn:tig:concept:bitstring-status-list`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [verifiable-credential]({{ '/terms/verifiable-credential/' | relative_url }})

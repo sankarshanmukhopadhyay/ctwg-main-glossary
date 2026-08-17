@@ -6,6 +6,12 @@ title: "out-of-band-introduction"
 
 # out-of-band-introduction
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:out-of-band-introduction`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,21 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **out-of-band introduction** (`en`, `alternative`)
+- **out-of-band introductions** (`en`, `alternative`)
+- **OOBI** (`en`, `alternative`)
+- **OOBIs** (`en`, `alternative`)
+
+## Legacy Aliases
 out-of-band introduction, out-of-band introductions, OOBI, OOBIs
+
+## Semantic Relations
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:definition`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [glossary]({{ '/terms/glossary/' | relative_url }})

@@ -6,6 +6,12 @@ title: "delegation lineage"
 
 # delegation lineage
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:delegation-lineage`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 The traceable chain showing how authority passed from one party to another and what limits were carried forward.
 
@@ -18,8 +24,19 @@ This term was added following a cross-repository terminology review of TSMM, TIS
 ## Implementation Relevance
 Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.
 
-## Aliases
+## Alternative Designations
+- **delegation-lineage** (`en`, `alternative`)
+
+## Legacy Aliases
 delegation lineage, delegation-lineage
+
+## Semantic Relations
+- **related**: `urn:tig:concept:delegation`
+- **related**: `urn:tig:concept:delegator`
+- **related**: `urn:tig:concept:principal`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [delegation]({{ '/terms/delegation/' | relative_url }})

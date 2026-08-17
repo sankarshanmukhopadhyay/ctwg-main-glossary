@@ -6,6 +6,12 @@ title: "communication-channel"
 
 # communication-channel
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:communication-channel`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,18 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **communication channel** (`en`, `alternative`)
+- **communication channels** (`en`, `alternative`)
+
+## Legacy Aliases
 communication channel, communication channels
+
+## Semantic Relations
+- **related**: `urn:tig:concept:toip-channel`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [ToIP channel]({{ '/terms/toip-channel/' | relative_url }})

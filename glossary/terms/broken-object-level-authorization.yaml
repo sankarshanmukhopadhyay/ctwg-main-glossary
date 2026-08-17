@@ -1,8 +1,18 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:broken-object-level-authorization
+designations:
+- label: broken-object-level-authorization
+  language: en
+  status: preferred
+- label: broken object level authorization
+  language: en
+  status: alternative
 term: broken-object-level-authorization
 aliases:
 - broken-object-level-authorization
 - broken object level authorization
-definition: Refers to security flaws where users can access data they shouldn't, due to inadequate permission checks on individual (sub)objects.
+definition: Refers to security flaws where users can access data they shouldn't, due to inadequate permission checks on individual
+  (sub)objects.
 notes: []
 see_also:
 - authorization
@@ -57,4 +67,27 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
-simple_definition: Refers to security flaws where users can access data they shouldn't, due to inadequate permission checks on individual (sub)objects.
+simple_definition: Refers to security flaws where users can access data they shouldn't, due to inadequate permission checks
+  on individual (sub)objects.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:authorization
+  - urn:tig:concept:permission
+  - urn:tig:concept:role-based-access-control
+  - urn:tig:concept:attribute-based-access-control
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

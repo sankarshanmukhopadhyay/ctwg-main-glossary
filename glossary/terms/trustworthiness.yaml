@@ -1,7 +1,18 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:trustworthiness
+designations:
+- label: trustworthiness
+  language: en
+  status: preferred
 term: trustworthiness
 aliases:
 - trustworthiness
-definition: An attribute of an entity, such as a person or organization, that provides confidence to others of the qualifications, capabilities, and reliability of that entity to perform specific tasks and fulfill assigned responsibilities. Trustworthiness is also a characteristic of information technology products and systems. The attribute of trustworthiness, whether applied to people, processes, or technologies, can be measured, at least in relative terms if not quantitatively. The determination of trustworthiness plays a key role in establishing trust relationships among persons and organizations. The trust relationships are key factors in risk decisions made by senior leaders/executives.
+definition: An attribute of an entity, such as a person or organization, that provides confidence to others of the qualifications,
+  capabilities, and reliability of that entity to perform specific tasks and fulfill assigned responsibilities. Trustworthiness
+  is also a characteristic of information technology products and systems. The attribute of trustworthiness, whether applied
+  to people, processes, or technologies, can be measured, at least in relative terms if not quantitatively. The determination
+  of trustworthiness plays a key role in establishing trust relationships among persons and organizations. The trust relationships
+  are key factors in risk decisions made by senior leaders/executives.
 notes: []
 see_also:
 - glossary
@@ -45,3 +56,25 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: false
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+  - urn:tig:concept:trust
+  - urn:tig:concept:trust-registry
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

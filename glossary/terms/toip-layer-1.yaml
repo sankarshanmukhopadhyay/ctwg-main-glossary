@@ -1,7 +1,17 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:toip-layer-1
+designations:
+- label: toip-layer-1
+  language: en
+  status: preferred
+- label: ToIP Layer 1
+  language: en
+  status: alternative
 term: toip-layer-1
 aliases:
 - ToIP Layer 1
-definition: The trust support layer of the ToIP stack, responsible for supporting the trust spanning protocol at ToIP Layer 2.
+definition: The trust support layer of the ToIP stack, responsible for supporting the trust spanning protocol at ToIP Layer
+  2.
 notes: []
 see_also:
 - glossary
@@ -43,4 +53,25 @@ control_plane:
 crosswalk:
   nist: []
   iso: []
-simple_definition: The trust support layer of the ToIP stack, responsible for supporting the trust spanning protocol at ToIP Layer 2.
+simple_definition: The trust support layer of the ToIP stack, responsible for supporting the trust spanning protocol at ToIP
+  Layer 2.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: adapted
+  source_corpus: Trust over IP Main Glossary
+  lineage_note: Migrated from the pre-v2 ToIP-derived corpus; existing source citations are retained for attribution and review.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

@@ -1,3 +1,12 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:plaintext
+designations:
+- label: plaintext
+  language: en
+  status: preferred
+- label: plaintexts
+  language: en
+  status: alternative
 term: plaintext
 aliases:
 - plaintext
@@ -41,3 +50,23 @@ crosswalk:
   nist: []
   iso: []
 simple_definition: Unencrypted information that may be input to an encryption operation. Once encrypted, it becomes ciphertext.
+editorial:
+  status: stable
+  reviewed:
+    domain: true
+    plain_language: true
+    governance: true
+provenance:
+  classification: locally_defined
+  source_corpus: Trust Infrastructure Glossary
+  lineage_note: Migrated from the pre-v2 independent corpus; existing source citations are retained as provenance evidence.
+semantic_relations:
+  related:
+  - urn:tig:concept:glossary
+  - urn:tig:concept:definition
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

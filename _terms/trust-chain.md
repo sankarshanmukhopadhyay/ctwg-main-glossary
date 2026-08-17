@@ -6,6 +6,12 @@ title: "trust-chain"
 
 # trust-chain
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:trust-chain`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,22 @@ In OpenID Federation this concept is expressed through signed entity statements 
 ## Implementation Relevance
 Use this term when a verifier or relying party must validate more than one link of authority before accepting a credential, key, or participant.
 
-## Aliases
+## Alternative Designations
+- **trust chain** (`en`, `alternative`)
+- **trust chains** (`en`, `alternative`)
+
+## Legacy Aliases
 trust chain, trust chains
+
+## Semantic Relations
+- **related**: `urn:tig:concept:openid-federation`
+- **related**: `urn:tig:concept:entity-statement`
+- **related**: `urn:tig:concept:trust-anchor`
+- **related**: `urn:tig:concept:chain-of-trust`
+- **related**: `urn:tig:concept:trust-registry`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [openid-federation]({{ '/terms/openid-federation/' | relative_url }})

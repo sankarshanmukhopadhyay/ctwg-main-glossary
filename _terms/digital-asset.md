@@ -6,6 +6,12 @@ title: "digital-asset"
 
 # digital-asset
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:digital-asset`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 A simple-English summary has not yet been added for this term.
 
@@ -18,8 +24,18 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **digital asset** (`en`, `alternative`)
+- **digital assets** (`en`, `alternative`)
+
+## Legacy Aliases
 digital asset, digital assets
+
+## Semantic Relations
+- **related**: `urn:tig:concept:digital-credential`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [digital credential]({{ '/terms/digital-credential/' | relative_url }})

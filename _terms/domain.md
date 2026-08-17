@@ -6,6 +6,12 @@ title: "domain"
 
 # domain
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:domain`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 See: security domain.
 
@@ -18,8 +24,17 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **domains** (`en`, `alternative`)
+
+## Legacy Aliases
 domain, domains
+
+## Semantic Relations
+- **related**: `urn:tig:concept:trust-domain`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [trust domain]({{ '/terms/trust-domain/' | relative_url }})

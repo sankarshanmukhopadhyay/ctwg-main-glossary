@@ -6,6 +6,12 @@ title: "cryptographic-binding"
 
 # cryptographic-binding
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:cryptographic-binding`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
 ## In Simple English
 Associating two or more related elements of information using cryptographic techniques.
 
@@ -18,8 +24,19 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **cryptographic binding** (`en`, `alternative`)
+- **cryptographic bindings** (`en`, `alternative`)
+
+## Legacy Aliases
 cryptographic binding, cryptographic bindings
+
+## Semantic Relations
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:definition`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [glossary]({{ '/terms/glossary/' | relative_url }})

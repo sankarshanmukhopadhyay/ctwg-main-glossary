@@ -6,6 +6,12 @@ title: "toip-technology-architecture-specification"
 
 # toip-technology-architecture-specification
 
+## Concept Identity
+- **Concept ID**: `urn:tig:concept:toip-technology-architecture-specification`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
 ## In Simple English
 The technical specification defining the requirements for the ToIP Technology Stack published by the ToIP Foundation.
 
@@ -18,8 +24,18 @@ This term is provided as a controlled glossary entry for standards, governance, 
 ## Implementation Relevance
 Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Aliases
+## Alternative Designations
+- **ToIP Technology Architecture Specification** (`en`, `alternative`)
+
+## Legacy Aliases
 ToIP Technology Architecture Specification
+
+## Semantic Relations
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:definition`
+
+## Cross-Vocabulary Mappings
+Not specified
 
 ## See Also
 - [glossary]({{ '/terms/glossary/' | relative_url }})
