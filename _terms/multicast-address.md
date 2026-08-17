@@ -2,50 +2,51 @@
 title: "multicast-address"
 ---
 
-> Generated file. Update `glossary/terms/multicast-address.yaml` and regenerate artifacts instead of editing this page directly.
-
 # multicast-address
 
-## Concept Identity
+A simple-English summary has not yet been added for this concept.
+
+## Formal definition
+A multicast address is a logical identifier for a group of hosts in a computer network that are available to process datagrams or frames intended to be multicast for a designated network service.
+
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
+## Names and relationships
+
+### Alternative designations
+- **multicast address** (`en`, `alternative`)
+- **multicast addresses** (`en`, `alternative`)
+
+### Related concepts
+- [broadcast address]({{ '/terms/broadcast-address/' | relative_url }})
+- [unicast address]({{ '/terms/unicast-address/' | relative_url }})
+
+### Semantic relations
+- **related**: `urn:tig:concept:broadcast-address`
+- **related**: `urn:tig:concept:unicast-address`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
 - **Concept ID**: `urn:tig:concept:multicast-address`
 - **Editorial status**: `stable`
 - **Provenance classification**: `locally_defined`
 - **Source corpus**: Trust Infrastructure Glossary
 
-## In Simple English
-A simple-English summary has not yet been added for this term.
-
-## Definition
-A multicast address is a logical identifier for a group of hosts in a computer network that are available to process datagrams or frames intended to be multicast for a designated network service.
-
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
-
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
-
-## Alternative Designations
-- **multicast address** (`en`, `alternative`)
-- **multicast addresses** (`en`, `alternative`)
-
-## Legacy Aliases
-multicast address, multicast addresses
-
-## Semantic Relations
-- **related**: `urn:tig:concept:broadcast-address`
-- **related**: `urn:tig:concept:unicast-address`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
-- [broadcast address]({{ '/terms/broadcast-address/' | relative_url }})
-- [unicast address]({{ '/terms/unicast-address/' | relative_url }})
-
-## Standards and Source References
+### Standards and source references
 - [Wikipedia](https://en.wikipedia.org/wiki/Multicast_address).
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+multicast address, multicast addresses
+
+### Governance profile
 - **Authority scope**: terminology_definition
 - **Delegation mode**: direct
 - **Revocation supported**: False
@@ -53,17 +54,17 @@ Not specified
 - **Execution role**: design
 - **Control-plane role**: reference_term
 
-## Enforcement Points
+### Enforcement points
 - definition_approval
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - definition_change_record
 
 - **Assurance level hint**: informative
 - **Auditability**: basic
 
-## Control Plane
+### Control plane
 **Decision points**
 - definition_approval
 
@@ -72,14 +73,20 @@ Not specified
 **Evidence produced**
 - definition_change_record
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/multicast-address.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

@@ -1,10 +1,11 @@
 ---
-title: "Concepts: D"
-parent: "Concepts"
+title: "D"
+parent: "A–Z Concept Index"
+grand_parent: "Explore Concepts"
 nav_order: 4
 ---
 
-# Concepts: D
+# Concepts beginning with D
 
 - [dark-pattern]({{ '/terms/dark-pattern/' | relative_url }})
 - [data]({{ '/terms/data/' | relative_url }})

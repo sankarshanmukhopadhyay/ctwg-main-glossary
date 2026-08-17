@@ -2,56 +2,57 @@
 title: "public-key-infrastructure"
 ---
 
-> Generated file. Update `glossary/terms/public-key-infrastructure.yaml` and regenerate artifacts instead of editing this page directly.
-
 # public-key-infrastructure
 
-## Concept Identity
-- **Concept ID**: `urn:tig:concept:public-key-infrastructure`
-- **Editorial status**: `stable`
-- **Provenance classification**: `locally_defined`
-- **Source corpus**: Trust Infrastructure Glossary
+A simple-English summary has not yet been added for this concept.
 
-## In Simple English
-A simple-English summary has not yet been added for this term.
-
-## Definition
+## Formal definition
 A set of policies, processes, server platforms, software and workstations used for the purpose of administering certificates and public-private key pairs, including the ability to issue, maintain, and revoke public key certificates. The PKI includes the hierarchy of certificate authorities that allow for the deployment of digital certificates that support encryption, digital signature and authentication to meet business and security requirements.
 
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
 
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Alternative Designations
+## Names and relationships
+
+### Alternative designations
 - **public key infrastructure** (`en`, `alternative`)
 - **public key infrastructures** (`en`, `alternative`)
 - **PKI** (`en`, `alternative`)
 - **PKIs** (`en`, `alternative`)
 
-## Legacy Aliases
-public key infrastructure, public key infrastructures, PKI, PKIs
-
-## Semantic Relations
-- **related**: `urn:tig:concept:authorization`
-- **related**: `urn:tig:concept:permission`
-- **related**: `urn:tig:concept:role-based-access-control`
-- **related**: `urn:tig:concept:attribute-based-access-control`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
+### Related concepts
 - [authorization]({{ '/terms/authorization/' | relative_url }})
 - [permission]({{ '/terms/permission/' | relative_url }})
 - [role-based-access-control]({{ '/terms/role-based-access-control/' | relative_url }})
 - [attribute-based-access-control]({{ '/terms/attribute-based-access-control/' | relative_url }})
 
-## Standards and Source References
+### Semantic relations
+- **related**: `urn:tig:concept:authorization`
+- **related**: `urn:tig:concept:permission`
+- **related**: `urn:tig:concept:role-based-access-control`
+- **related**: `urn:tig:concept:attribute-based-access-control`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
+- **Concept ID**: `urn:tig:concept:public-key-infrastructure`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
+### Standards and source references
 - [NIST-CSRC](https://csrc.nist.gov/glossary/term/public_key_infrastructure).
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+public key infrastructure, public key infrastructures, PKI, PKIs
+
+### Governance profile
 - **Authority scope**: access_decisioning
 - **Delegation mode**: direct
 - **Revocation supported**: True
@@ -59,11 +60,11 @@ Not specified
 - **Execution role**: runtime
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - access_decision
 - revocation_decision
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - status_record
 - access_decision_log
@@ -71,7 +72,7 @@ Not specified
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - access_decision
 - revocation_decision
@@ -82,14 +83,20 @@ Not specified
 - status_record
 - access_decision_log
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 - [Wikipedia](https://en.wikipedia.org/wiki/Public_key_infrastructure): A public key infrastructure (PKI) is a set of roles, policies, hardware, software and procedures needed to create, manage, distribute, use, store and revoke [digital certificates](https://en.wikipedia.org/wiki/Public_key_certificate) and manage [public-key encryption](https://en.wikipedia.org/wiki/Public-key_cryptography). The purpose of a PKI is to facilitate the secure electronic transfer of information for a range of network activities such as e-commerce, internet banking and confidential email.
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/public-key-infrastructure.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

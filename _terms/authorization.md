@@ -2,29 +2,21 @@
 title: "authorization"
 ---
 
-> Generated file. Update `glossary/terms/authorization.yaml` and regenerate artifacts instead of editing this page directly.
-
 # authorization
 
-## Concept Identity
-- **Concept ID**: `urn:tig:concept:authorization`
-- **Editorial status**: `stable`
-- **Provenance classification**: `locally_defined`
-- **Source corpus**: Trust Infrastructure Glossary
+A simple-English summary has not yet been added for this concept.
 
-## In Simple English
-A simple-English summary has not yet been added for this term.
-
-## Definition
+## Formal definition
 The process of determining whether a requested action or service is approved for a specific entity under applicable policies, rules, credentials, or other governing criteria.
 
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
 
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Alternative Designations
+## Names and relationships
+
+### Alternative designations
 - **authorizations** (`en`, `alternative`)
 - **authorize** (`en`, `alternative`)
 - **authorized** (`en`, `alternative`)
@@ -39,22 +31,31 @@ Use this term consistently when mapping authority, evidence, reliance, and audit
 - **authorising** (`en`, `alternative`)
 - **unauthorising** (`en`, `alternative`)
 
-## Legacy Aliases
-authorization, authorizations, authorize, authorized, unauthorized, authorizing, unauthorizing, authorisation, authorisations, authorise, authorised, unauthorised, authorising, unauthorising
-
-## Semantic Relations
-- **related**: `urn:tig:concept:permission`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
+### Related concepts
 - [permission]({{ '/terms/permission/' | relative_url }})
 
-## Standards and Source References
+### Semantic relations
+- **related**: `urn:tig:concept:permission`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
+- **Concept ID**: `urn:tig:concept:authorization`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
+### Standards and source references
 - [NIST-CSRC](https://csrc.nist.gov/glossary/term/authorization).
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+authorization, authorizations, authorize, authorized, unauthorized, authorizing, unauthorizing, authorisation, authorisations, authorise, authorised, unauthorised, authorising, unauthorising
+
+### Governance profile
 - **Authority scope**: credential_issuance, policy_definition, access_decisioning
 - **Delegation mode**: direct
 - **Revocation supported**: True
@@ -62,13 +63,13 @@ Not specified
 - **Execution role**: runtime
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - policy_approval
 - issuance_decision
 - access_decision
 - revocation_decision
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - policy_document
 - issuance_log
@@ -81,7 +82,7 @@ Not specified
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - policy_approval
 - issuance_decision
@@ -99,15 +100,21 @@ Not specified
 - status_record
 - verification_log
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 - **NIST**: AC-2, AC-3
 - **ISO**: ISO/IEC 27001 A.5.15, ISO/IEC 42001 8.2
+
+</details>
+
+---
+
+*Generated from `glossary/terms/authorization.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

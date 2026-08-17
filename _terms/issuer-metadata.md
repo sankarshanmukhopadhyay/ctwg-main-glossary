@@ -2,54 +2,55 @@
 title: "issuer-metadata"
 ---
 
-> Generated file. Update `glossary/terms/issuer-metadata.yaml` and regenerate artifacts instead of editing this page directly.
-
 # issuer-metadata
 
-## Concept Identity
-- **Concept ID**: `urn:tig:concept:issuer-metadata`
-- **Editorial status**: `stable`
-- **Provenance classification**: `locally_defined`
-- **Source corpus**: Trust Infrastructure Glossary
-
-## In Simple English
 Metadata published by a credential issuer describing issuer capabilities, credential configurations, endpoints, and supported formats.
 
-## Definition
+## Formal definition
 Metadata published by a credential issuer describing issuer capabilities, credential configurations, endpoints, and supported formats.
 
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
 
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Alternative Designations
+## Names and relationships
+
+### Alternative designations
 - **credential issuer metadata** (`en`, `alternative`)
 - **issuer metadata** (`en`, `alternative`)
 
-## Legacy Aliases
-credential issuer metadata, issuer metadata
-
-## Semantic Relations
-- **related**: `urn:tig:concept:issuer`
-- **related**: `urn:tig:concept:openid4vci`
-- **related**: `urn:tig:concept:credential-schema`
-- **related**: `urn:tig:concept:digital-wallet`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
+### Related concepts
 - [issuer]({{ '/terms/issuer/' | relative_url }})
 - [openid4vci]({{ '/terms/openid4vci/' | relative_url }})
 - [credential-schema]({{ '/terms/credential-schema/' | relative_url }})
 - [digital-wallet]({{ '/terms/digital-wallet/' | relative_url }})
 
-## Standards and Source References
+### Semantic relations
+- **related**: `urn:tig:concept:issuer`
+- **related**: `urn:tig:concept:openid4vci`
+- **related**: `urn:tig:concept:credential-schema`
+- **related**: `urn:tig:concept:digital-wallet`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
+- **Concept ID**: `urn:tig:concept:issuer-metadata`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
+### Standards and source references
 - [OpenID for Verifiable Credential Issuance 1.0](https://openid.net/specs/openid-4-verifiable-credential-issuance-1_0.html) (OpenID Foundation; Final Specification; 1.0; 2025-09-16) — normative
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+credential issuer metadata, issuer metadata
+
+### Governance profile
 - **Authority scope**: credential_issuance, registry_management
 - **Delegation mode**: direct
 - **Revocation supported**: False
@@ -57,11 +58,11 @@ Not specified
 - **Execution role**: hybrid
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - issuance_decision
 - registration_decision
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - registry_entry
 - policy_document
@@ -71,7 +72,7 @@ Not specified
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - issuance_decision
 - registration_decision
@@ -84,14 +85,20 @@ Not specified
 - issuance_log
 - audit_log
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 - **OPENID**: OpenID4VCI 1.0
+
+</details>
+
+---
+
+*Generated from `glossary/terms/issuer-metadata.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

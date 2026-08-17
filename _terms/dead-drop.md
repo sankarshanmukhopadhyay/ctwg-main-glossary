@@ -2,53 +2,54 @@
 title: "dead-drop"
 ---
 
-> Generated file. Update `glossary/terms/dead-drop.yaml` and regenerate artifacts instead of editing this page directly.
-
 # dead-drop
 
-## Concept Identity
-- **Concept ID**: `urn:tig:concept:dead-drop`
-- **Editorial status**: `stable`
-- **Provenance classification**: `locally_defined`
-- **Source corpus**: Trust Infrastructure Glossary
+A simple-English summary has not yet been added for this concept.
 
-## In Simple English
-A simple-English summary has not yet been added for this term.
-
-## Definition
+## Formal definition
 In cybersecurity or digital privacy scenarios, the term "dead drop" refers to encrypted or secure virtual spaces where information can be deposited or retrieved anonymously. In the credentials field, the presenter controls the disclosure, so you can't re-identify the data.
 
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
 
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Alternative Designations
+## Names and relationships
+
+### Alternative designations
 - **dead drop** (`en`, `alternative`)
 
-## Legacy Aliases
-dead-drop, dead drop
-
-## Semantic Relations
-- **related**: `urn:tig:concept:credential`
-- **related**: `urn:tig:concept:issuer`
-- **related**: `urn:tig:concept:issuance`
-- **related**: `urn:tig:concept:verifiable-credential`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
+### Related concepts
 - [credential]({{ '/terms/credential/' | relative_url }})
 - [issuer]({{ '/terms/issuer/' | relative_url }})
 - [issuance]({{ '/terms/issuance/' | relative_url }})
 - [verifiable-credential]({{ '/terms/verifiable-credential/' | relative_url }})
 
-## Standards and Source References
+### Semantic relations
+- **related**: `urn:tig:concept:credential`
+- **related**: `urn:tig:concept:issuer`
+- **related**: `urn:tig:concept:issuance`
+- **related**: `urn:tig:concept:verifiable-credential`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
+- **Concept ID**: `urn:tig:concept:dead-drop`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
+### Standards and source references
 - Discussed in tech meet KERI [recording](https://hackmd.io/-soUScAqQEaSw5MJ71899w#2023-06-27), date June 27 2023.
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+dead-drop, dead drop
+
+### Governance profile
 - **Authority scope**: credential_issuance
 - **Delegation mode**: direct
 - **Revocation supported**: True
@@ -56,11 +57,11 @@ Not specified
 - **Execution role**: design
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - issuance_decision
 - revocation_decision
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - issuance_log
 - registry_entry
@@ -71,7 +72,7 @@ Not specified
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - issuance_decision
 - revocation_decision
@@ -85,14 +86,20 @@ Not specified
 - audit_log
 - verification_log
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/dead-drop.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

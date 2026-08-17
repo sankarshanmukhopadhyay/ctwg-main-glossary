@@ -2,52 +2,53 @@
 title: "decryption"
 ---
 
-> Generated file. Update `glossary/terms/decryption.yaml` and regenerate artifacts instead of editing this page directly.
-
 # decryption
 
-## Concept Identity
-- **Concept ID**: `urn:tig:concept:decryption`
-- **Editorial status**: `stable`
-- **Provenance classification**: `locally_defined`
-- **Source corpus**: Trust Infrastructure Glossary
-
-## In Simple English
 The process of changing ciphertext into plaintext using a cryptographic algorithm and key. The opposite of encryption.
 
-## Definition
+## Formal definition
 The process of changing ciphertext into plaintext using a cryptographic algorithm and key. The opposite of encryption.
 
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
 
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Alternative Designations
+## Names and relationships
+
+### Alternative designations
 - **decrypt** (`en`, `alternative`)
 - **decrypts** (`en`, `alternative`)
 - **decrypting** (`en`, `alternative`)
 - **decrypted** (`en`, `alternative`)
 
-## Legacy Aliases
-decryption, decrypt, decrypts, decrypting, decrypted
-
-## Semantic Relations
-- **related**: `urn:tig:concept:glossary`
-- **related**: `urn:tig:concept:definition`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
+### Related concepts
 - [glossary]({{ '/terms/glossary/' | relative_url }})
 - [definition]({{ '/terms/definition/' | relative_url }})
 
-## Standards and Source References
+### Semantic relations
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:definition`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
+- **Concept ID**: `urn:tig:concept:decryption`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
+### Standards and source references
 - [NIST-CSRC](https://csrc.nist.gov/glossary/term/decryption).
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+decryption, decrypt, decrypts, decrypting, decrypted
+
+### Governance profile
 - **Authority scope**: terminology_definition
 - **Delegation mode**: direct
 - **Revocation supported**: False
@@ -55,17 +56,17 @@ Not specified
 - **Execution role**: design
 - **Control-plane role**: reference_term
 
-## Enforcement Points
+### Enforcement points
 - definition_approval
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - definition_change_record
 
 - **Assurance level hint**: informative
 - **Auditability**: basic
 
-## Control Plane
+### Control plane
 **Decision points**
 - definition_approval
 
@@ -74,14 +75,20 @@ Not specified
 **Evidence produced**
 - definition_change_record
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/decryption.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

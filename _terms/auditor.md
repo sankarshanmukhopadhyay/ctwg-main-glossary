@@ -2,47 +2,48 @@
 title: "auditor"
 ---
 
-> Generated file. Update `glossary/terms/auditor.yaml` and regenerate artifacts instead of editing this page directly.
-
 # auditor
 
-## Concept Identity
+The party responsible for performing an audit. Typically an auditor must be accredited.
+
+## Formal definition
+The party responsible for performing an audit. Typically an auditor must be accredited.
+
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
+## Names and relationships
+
+### Alternative designations
+- **auditors** (`en`, `alternative`)
+
+### Related concepts
+- [human auditable]({{ '/terms/human-auditable/' | relative_url }})
+
+### Semantic relations
+- **related**: `urn:tig:concept:human-auditable`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
 - **Concept ID**: `urn:tig:concept:auditor`
 - **Editorial status**: `stable`
 - **Provenance classification**: `adapted`
 - **Source corpus**: Trust over IP Main Glossary
 
-## In Simple English
-The party responsible for performing an audit. Typically an auditor must be accredited.
-
-## Definition
-The party responsible for performing an audit. Typically an auditor must be accredited.
-
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
-
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
-
-## Alternative Designations
-- **auditors** (`en`, `alternative`)
-
-## Legacy Aliases
-auditor, auditors
-
-## Semantic Relations
-- **related**: `urn:tig:concept:human-auditable`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
-- [human auditable]({{ '/terms/human-auditable/' | relative_url }})
-
-## Standards and Source References
+### Standards and source references
 - ToIP CTWG maintained glossary source: `spec/terms-definitions/auditor.md`
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+auditor, auditors
+
+### Governance profile
 - **Authority scope**: assurance_and_audit
 - **Delegation mode**: direct
 - **Revocation supported**: True
@@ -50,17 +51,17 @@ Not specified
 - **Execution role**: runtime
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - revocation_decision
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - audit_log
 
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - revocation_decision
 
@@ -69,14 +70,20 @@ Not specified
 **Evidence produced**
 - audit_log
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/auditor.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

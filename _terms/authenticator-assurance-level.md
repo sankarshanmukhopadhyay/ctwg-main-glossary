@@ -2,54 +2,55 @@
 title: "authenticator-assurance-level"
 ---
 
-> Generated file. Update `glossary/terms/authenticator-assurance-level.yaml` and regenerate artifacts instead of editing this page directly.
-
 # authenticator-assurance-level
 
-## Concept Identity
-- **Concept ID**: `urn:tig:concept:authenticator-assurance-level`
-- **Editorial status**: `stable`
-- **Provenance classification**: `locally_defined`
-- **Source corpus**: Trust Infrastructure Glossary
-
-## In Simple English
 A measure of the strength of an authentication mechanism and, therefore, the confidence in it.
 
-## Definition
+## Formal definition
 A measure of the strength of an authentication mechanism and, therefore, the confidence in it.
 
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
 
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Alternative Designations
+## Names and relationships
+
+### Alternative designations
 - **authenticator assurance level** (`en`, `alternative`)
 - **authenticator assurance levels** (`en`, `alternative`)
 - **AAL** (`en`, `alternative`)
 - **AALs** (`en`, `alternative`)
 
-## Legacy Aliases
-authenticator assurance level, authenticator assurance levels, AAL, AALs
-
-## Semantic Relations
-- **related**: `urn:tig:concept:federation-assurance-level`
-- **related**: `urn:tig:concept:identity-assurance-level`
-- **related**: `urn:tig:concept:identity-binding`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
+### Related concepts
 - [federation assurance level]({{ '/terms/federation-assurance-level/' | relative_url }})
 - [identity assurance level]({{ '/terms/identity-assurance-level/' | relative_url }})
 - [identity binding]({{ '/terms/identity-binding/' | relative_url }})
 
-## Standards and Source References
+### Semantic relations
+- **related**: `urn:tig:concept:federation-assurance-level`
+- **related**: `urn:tig:concept:identity-assurance-level`
+- **related**: `urn:tig:concept:identity-binding`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
+- **Concept ID**: `urn:tig:concept:authenticator-assurance-level`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
+### Standards and source references
 - [NIST-CSRC](https://csrc.nist.gov/glossary/term/authenticator_assurance_level).
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+authenticator assurance level, authenticator assurance levels, AAL, AALs
+
+### Governance profile
 - **Authority scope**: access_decisioning, assurance_and_audit
 - **Delegation mode**: direct
 - **Revocation supported**: False
@@ -57,10 +58,10 @@ Not specified
 - **Execution role**: runtime
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - access_decision
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - attestation
 - access_decision_log
@@ -68,7 +69,7 @@ Not specified
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - access_decision
 
@@ -78,14 +79,20 @@ Not specified
 - attestation
 - access_decision_log
 
-## Notes
+### Notes
 - In NIST SP 800-63-3, AAL is defined in terms of three levels: AAL1 (Some confidence), AAL2 (High confidence), AAL3 (Very high confidence).
 
-## Supporting Definitions
+### Supporting definitions
 - Also known as: [[ref: AAL]]
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/authenticator-assurance-level.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

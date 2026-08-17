@@ -2,47 +2,25 @@
 title: "trust-anchor"
 ---
 
-> Generated file. Update `glossary/terms/trust-anchor.yaml` and regenerate artifacts instead of editing this page directly.
-
 # trust-anchor
 
-## Concept Identity
-- **Concept ID**: `urn:tig:concept:trust-anchor`
-- **Editorial status**: `stable`
-- **Provenance classification**: `adapted`
-- **Source corpus**: Trust over IP Main Glossary
-
-## In Simple English
 The authoritative source that serves as the origin of a trust chain.
 
-## Definition
+## Formal definition
 The authoritative source that serves as the origin of a trust chain.
 
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
 
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Alternative Designations
+## Names and relationships
+
+### Alternative designations
 - **trust anchor** (`en`, `alternative`)
 - **trust anchors** (`en`, `alternative`)
 
-## Legacy Aliases
-trust anchor, trust anchors
-
-## Semantic Relations
-- **related**: `urn:tig:concept:governance`
-- **related**: `urn:tig:concept:governance-framework`
-- **related**: `urn:tig:concept:governing-authority`
-- **related**: `urn:tig:concept:trust-registry`
-- **related**: `urn:tig:concept:definition`
-- **related**: `urn:tig:concept:glossary`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
+### Related concepts
 - [governance]({{ '/terms/governance/' | relative_url }})
 - [governance-framework]({{ '/terms/governance-framework/' | relative_url }})
 - [governing-authority]({{ '/terms/governing-authority/' | relative_url }})
@@ -50,10 +28,33 @@ Not specified
 - [definition]({{ '/terms/definition/' | relative_url }})
 - [glossary]({{ '/terms/glossary/' | relative_url }})
 
-## Standards and Source References
+### Semantic relations
+- **related**: `urn:tig:concept:governance`
+- **related**: `urn:tig:concept:governance-framework`
+- **related**: `urn:tig:concept:governing-authority`
+- **related**: `urn:tig:concept:trust-registry`
+- **related**: `urn:tig:concept:definition`
+- **related**: `urn:tig:concept:glossary`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
+- **Concept ID**: `urn:tig:concept:trust-anchor`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
+### Standards and source references
 - ToIP CTWG maintained glossary source: `spec/terms-definitions/trust-anchor.md`
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+trust anchor, trust anchors
+
+### Governance profile
 - **Authority scope**: governance_recognition
 - **Delegation mode**: direct
 - **Revocation supported**: False
@@ -61,10 +62,10 @@ Not specified
 - **Execution role**: design
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - definition_approval
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - definition_change_record
 - policy_document
@@ -73,7 +74,7 @@ Not specified
 - **Assurance level hint**: AL1+
 - **Auditability**: moderate
 
-## Control Plane
+### Control plane
 **Decision points**
 - definition_approval
 
@@ -84,15 +85,21 @@ Not specified
 - policy_document
 - audit_log
 
-## Notes
+### Notes
 - The term “trust anchor” is most commonly used in cryptography and public key infrastructure.
 
-## Supporting Definitions
+### Supporting definitions
 - Also known as: [[ref: trust root]].
 - For more information, see: [Design Principles for the ToIP Stack](https://trustoverip.org/our-work/design-principles/).
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/trust-anchor.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

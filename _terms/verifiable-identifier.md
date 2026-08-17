@@ -2,52 +2,53 @@
 title: "verifiable-identifier"
 ---
 
-> Generated file. Update `glossary/terms/verifiable-identifier.yaml` and regenerate artifacts instead of editing this page directly.
-
 # verifiable-identifier
 
-## Concept Identity
-- **Concept ID**: `urn:tig:concept:verifiable-identifier`
-- **Editorial status**: `stable`
-- **Provenance classification**: `adapted`
-- **Source corpus**: Trust over IP Main Glossary
+A simple-English summary has not yet been added for this concept.
 
-## In Simple English
-A simple-English summary has not yet been added for this term.
-
-## Definition
+## Formal definition
 An identifier over which the controller can provide cryptographic proof of control. Each type of VID defines a specific means for discovering the public key, network endpoints, or other metadata necessary to prove control. Decentralized identifiers (DIDs) are a W3C standard for VIDs. VIDs are the cryptographically verifiable identifiers used in the ToIP stack.
 
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
 
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Alternative Designations
+## Names and relationships
+
+### Alternative designations
 - **verifiable identifier** (`en`, `alternative`)
 - **verifiable identifiers** (`en`, `alternative`)
 - **VID** (`en`, `alternative`)
 - **VIDs** (`en`, `alternative`)
 
-## Legacy Aliases
-verifiable identifier, verifiable identifiers, VID, VIDs
-
-## Semantic Relations
-- **related**: `urn:tig:concept:decentralized-identifier`
-- **related**: `urn:tig:concept:autonomic-identifier`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
+### Related concepts
 - [decentralized identifier]({{ '/terms/decentralized-identifier/' | relative_url }})
 - [autonomic identifier]({{ '/terms/autonomic-identifier/' | relative_url }})
 
-## Standards and Source References
+### Semantic relations
+- **related**: `urn:tig:concept:decentralized-identifier`
+- **related**: `urn:tig:concept:autonomic-identifier`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
+- **Concept ID**: `urn:tig:concept:verifiable-identifier`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
+### Standards and source references
 - ToIP CTWG maintained glossary source: `spec/terms-definitions/verifiable-identifier.md`
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+verifiable identifier, verifiable identifiers, VID, VIDs
+
+### Governance profile
 - **Authority scope**: terminology_definition
 - **Delegation mode**: direct
 - **Revocation supported**: False
@@ -55,10 +56,10 @@ Not specified
 - **Execution role**: runtime
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - definition_approval
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - definition_change_record
 - policy_document
@@ -67,7 +68,7 @@ Not specified
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - definition_approval
 
@@ -78,14 +79,20 @@ Not specified
 - policy_document
 - audit_log
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 - - Also known as: [[ref: VID]]
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/verifiable-identifier.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

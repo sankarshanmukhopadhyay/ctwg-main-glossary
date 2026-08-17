@@ -1,7 +1,8 @@
 ---
 title: "Vocabulary Profiles"
-parent: Governance Documentation
-nav_order: 9
+parent: "Operations & Evolution"
+nav_order: 5
+grand_parent: "Govern TIG"
 ---
 
 # Vocabulary Profiles

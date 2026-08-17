@@ -2,56 +2,57 @@
 title: "did-document"
 ---
 
-> Generated file. Update `glossary/terms/did-document.yaml` and regenerate artifacts instead of editing this page directly.
-
 # did-document
 
-## Concept Identity
-- **Concept ID**: `urn:tig:concept:did-document`
-- **Editorial status**: `stable`
-- **Provenance classification**: `locally_defined`
-- **Source corpus**: Trust Infrastructure Glossary
+A simple-English summary has not yet been added for this concept.
 
-## In Simple English
-A simple-English summary has not yet been added for this term.
-
-## Definition
+## Formal definition
 A set of data describing the DID subject, including mechanisms, such as cryptographic public keys, that the DID subject or a DID delegate can use to authenticate itself and prove its association with the DID. A DID document might have one or more different representations as defined in section 6 of the W3C Decentralized Identifiers (DIDs) 1.0 specification.
 
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
 
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Alternative Designations
+## Names and relationships
+
+### Alternative designations
 - **DID document** (`en`, `alternative`)
 - **DID documents** (`en`, `alternative`)
 - **DID doc** (`en`, `alternative`)
 - **DID docs** (`en`, `alternative`)
 
-## Legacy Aliases
-DID document, DID documents, DID doc, DID docs
-
-## Semantic Relations
-- **related**: `urn:tig:concept:delegation`
-- **related**: `urn:tig:concept:delegator`
-- **related**: `urn:tig:concept:delegatee`
-- **related**: `urn:tig:concept:authorization`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
+### Related concepts
 - [delegation]({{ '/terms/delegation/' | relative_url }})
 - [delegator]({{ '/terms/delegator/' | relative_url }})
 - [delegatee]({{ '/terms/delegatee/' | relative_url }})
 - [authorization]({{ '/terms/authorization/' | relative_url }})
 
-## Standards and Source References
+### Semantic relations
+- **related**: `urn:tig:concept:delegation`
+- **related**: `urn:tig:concept:delegator`
+- **related**: `urn:tig:concept:delegatee`
+- **related**: `urn:tig:concept:authorization`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
+- **Concept ID**: `urn:tig:concept:did-document`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
+### Standards and source references
 - [W3C DID](https://www.w3.org/TR/did-core/#terminology).
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+DID document, DID documents, DID doc, DID docs
+
+### Governance profile
 - **Authority scope**: delegation_and_scope
 - **Delegation mode**: direct_or_constrained
 - **Revocation supported**: True
@@ -59,11 +60,11 @@ Not specified
 - **Execution role**: runtime
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - delegation_grant
 - revocation_decision
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - delegation_record
 - policy_document
@@ -75,7 +76,7 @@ Not specified
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - delegation_grant
 - revocation_decision
@@ -90,14 +91,20 @@ Not specified
 - verification_log
 - registry_entry
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/did-document.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

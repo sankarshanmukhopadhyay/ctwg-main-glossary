@@ -2,47 +2,25 @@
 title: "authoritative-source"
 ---
 
-> Generated file. Update `glossary/terms/authoritative-source.yaml` and regenerate artifacts instead of editing this page directly.
-
 # authoritative-source
 
-## Concept Identity
-- **Concept ID**: `urn:tig:concept:authoritative-source`
-- **Editorial status**: `stable`
-- **Provenance classification**: `adapted`
-- **Source corpus**: Trust over IP Main Glossary
+A simple-English summary has not yet been added for this concept.
 
-## In Simple English
-A simple-English summary has not yet been added for this term.
-
-## Definition
+## Formal definition
 A source of information that a relying party considers to be authoritative for that information. In ToIP architecture, the trust registry authorized by the governance framework for a trust community is typically considered an authoritative source by the members of that trust community. A system of record is an authoritative source for the data records it holds. A trust anchor is an authoritative source for the beginning of a trust chain.
 
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
 
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Alternative Designations
+## Names and relationships
+
+### Alternative designations
 - **authoritative source** (`en`, `alternative`)
 - **authoritative sources** (`en`, `alternative`)
 
-## Legacy Aliases
-authoritative source, authoritative sources
-
-## Semantic Relations
-- **related**: `urn:tig:concept:verification`
-- **related**: `urn:tig:concept:verifier`
-- **related**: `urn:tig:concept:relying-party`
-- **related**: `urn:tig:concept:trust-decision`
-- **related**: `urn:tig:concept:policy`
-- **related**: `urn:tig:concept:governance-framework`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
+### Related concepts
 - [verification]({{ '/terms/verification/' | relative_url }})
 - [verifier]({{ '/terms/verifier/' | relative_url }})
 - [relying-party]({{ '/terms/relying-party/' | relative_url }})
@@ -50,10 +28,33 @@ Not specified
 - [policy]({{ '/terms/policy/' | relative_url }})
 - [governance-framework]({{ '/terms/governance-framework/' | relative_url }})
 
-## Standards and Source References
+### Semantic relations
+- **related**: `urn:tig:concept:verification`
+- **related**: `urn:tig:concept:verifier`
+- **related**: `urn:tig:concept:relying-party`
+- **related**: `urn:tig:concept:trust-decision`
+- **related**: `urn:tig:concept:policy`
+- **related**: `urn:tig:concept:governance-framework`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
+- **Concept ID**: `urn:tig:concept:authoritative-source`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
+### Standards and source references
 - ToIP CTWG maintained glossary source: `spec/terms-definitions/authoritative-source.md`
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+authoritative source, authoritative sources
+
+### Governance profile
 - **Authority scope**: verification_and_reliance, policy_definition, registry_management, governance_recognition
 - **Delegation mode**: direct
 - **Revocation supported**: True
@@ -61,13 +62,13 @@ Not specified
 - **Execution role**: runtime
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - policy_approval
 - registration_decision
 - reliance_decision
 - revocation_decision
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - policy_document
 - registry_entry
@@ -76,7 +77,7 @@ Not specified
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - policy_approval
 - registration_decision
@@ -90,14 +91,20 @@ Not specified
 - registry_entry
 - verification_log
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/authoritative-source.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

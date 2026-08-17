@@ -2,50 +2,51 @@
 title: "trust"
 ---
 
-> Generated file. Update `glossary/terms/trust.yaml` and regenerate artifacts instead of editing this page directly.
-
 # trust
 
-## Concept Identity
+A simple-English summary has not yet been added for this concept.
+
+## Formal definition
+A belief that an entity will behave in a predictable manner in specified circumstances. The entity may be a person, process, object or any combination of such components. The entity can be of any size from a single hardware component or software module, to a piece of equipment identified by make and model, to a site or location, to an organization, to a nation-state. Trust, while inherently a subjective determination, can be based on objective evidence and subjective elements. The objective grounds for trust can include for example, the results of information technology product testing and evaluation. Subjective belief, level of comfort, and experience may supplement (or even replace) objective evidence, or substitute for such evidence when it is unavailable. Trust is usually relative to a specific circumstance or situation (e.g., the amount of money involved in a transaction, the sensitivity or criticality of information, or whether safety is an issue with human lives at stake). Trust is generally not transitive (e.g., you trust a friend but not necessarily a friend of a friend). Finally, trust is generally earned, based on experience or measurement.
+
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
+## Names and relationships
+
+### Alternative designations
+- **trusts** (`en`, `alternative`)
+- **trusted** (`en`, `alternative`)
+
+### Related concepts
+- [trust decision]({{ '/terms/trust-decision/' | relative_url }})
+- [transitive trust decision]({{ '/terms/transitive-trust-decision/' | relative_url }})
+
+### Semantic relations
+- **related**: `urn:tig:concept:trust-decision`
+- **related**: `urn:tig:concept:transitive-trust-decision`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
 - **Concept ID**: `urn:tig:concept:trust`
 - **Editorial status**: `stable`
 - **Provenance classification**: `locally_defined`
 - **Source corpus**: Trust Infrastructure Glossary
 
-## In Simple English
-A simple-English summary has not yet been added for this term.
-
-## Definition
-A belief that an entity will behave in a predictable manner in specified circumstances. The entity may be a person, process, object or any combination of such components. The entity can be of any size from a single hardware component or software module, to a piece of equipment identified by make and model, to a site or location, to an organization, to a nation-state. Trust, while inherently a subjective determination, can be based on objective evidence and subjective elements. The objective grounds for trust can include for example, the results of information technology product testing and evaluation. Subjective belief, level of comfort, and experience may supplement (or even replace) objective evidence, or substitute for such evidence when it is unavailable. Trust is usually relative to a specific circumstance or situation (e.g., the amount of money involved in a transaction, the sensitivity or criticality of information, or whether safety is an issue with human lives at stake). Trust is generally not transitive (e.g., you trust a friend but not necessarily a friend of a friend). Finally, trust is generally earned, based on experience or measurement.
-
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
-
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
-
-## Alternative Designations
-- **trusts** (`en`, `alternative`)
-- **trusted** (`en`, `alternative`)
-
-## Legacy Aliases
-trust, trusts, trusted
-
-## Semantic Relations
-- **related**: `urn:tig:concept:trust-decision`
-- **related**: `urn:tig:concept:transitive-trust-decision`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
-- [trust decision]({{ '/terms/trust-decision/' | relative_url }})
-- [transitive trust decision]({{ '/terms/transitive-trust-decision/' | relative_url }})
-
-## Standards and Source References
+### Standards and source references
 - [NIST Special Publication 800-39](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-39.pdf) p.24
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+trust, trusts, trusted
+
+### Governance profile
 - **Authority scope**: terminology_definition
 - **Delegation mode**: direct
 - **Revocation supported**: False
@@ -53,10 +54,10 @@ Not specified
 - **Execution role**: hybrid
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - definition_approval
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - definition_change_record
 - policy_document
@@ -65,7 +66,7 @@ Not specified
 - **Assurance level hint**: AL1+
 - **Auditability**: moderate
 
-## Control Plane
+### Control plane
 **Decision points**
 - definition_approval
 
@@ -76,14 +77,20 @@ Not specified
 - policy_document
 - audit_log
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 - For more information, see: [Design Principles for the ToIP Stack](https://trustoverip.org/our-work/design-principles/).
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/trust.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

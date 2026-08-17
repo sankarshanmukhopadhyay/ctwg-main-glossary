@@ -2,54 +2,55 @@
 title: "guardianship-credential"
 ---
 
-> Generated file. Update `glossary/terms/guardianship-credential.yaml` and regenerate artifacts instead of editing this page directly.
-
 # guardianship-credential
 
-## Concept Identity
-- **Concept ID**: `urn:tig:concept:guardianship-credential`
-- **Editorial status**: `stable`
-- **Provenance classification**: `adapted`
-- **Source corpus**: Trust over IP Main Glossary
+A simple-English summary has not yet been added for this concept.
 
-## In Simple English
-A simple-English summary has not yet been added for this term.
-
-## Definition
+## Formal definition
 A digital credential issued by a governing body to a guardian to empower the guardian to undertake the rights and duties of a guardianship arrangement on behalf of a dependent.
 
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
 
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Alternative Designations
+## Names and relationships
+
+### Alternative designations
 - **guardianship credential** (`en`, `alternative`)
 - **guardianship credentials** (`en`, `alternative`)
 
-## Legacy Aliases
-guardianship credential, guardianship credentials
-
-## Semantic Relations
-- **related**: `urn:tig:concept:credential`
-- **related**: `urn:tig:concept:issuer`
-- **related**: `urn:tig:concept:issuance`
-- **related**: `urn:tig:concept:verifiable-credential`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
+### Related concepts
 - [credential]({{ '/terms/credential/' | relative_url }})
 - [issuer]({{ '/terms/issuer/' | relative_url }})
 - [issuance]({{ '/terms/issuance/' | relative_url }})
 - [verifiable-credential]({{ '/terms/verifiable-credential/' | relative_url }})
 
-## Standards and Source References
+### Semantic relations
+- **related**: `urn:tig:concept:credential`
+- **related**: `urn:tig:concept:issuer`
+- **related**: `urn:tig:concept:issuance`
+- **related**: `urn:tig:concept:verifiable-credential`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
+- **Concept ID**: `urn:tig:concept:guardianship-credential`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
+### Standards and source references
 - ToIP CTWG maintained glossary source: `spec/terms-definitions/guardianship-credential.md`
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+guardianship credential, guardianship credentials
+
+### Governance profile
 - **Authority scope**: credential_issuance
 - **Delegation mode**: direct
 - **Revocation supported**: True
@@ -57,11 +58,11 @@ Not specified
 - **Execution role**: design
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - issuance_decision
 - revocation_decision
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - issuance_log
 - registry_entry
@@ -72,7 +73,7 @@ Not specified
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - issuance_decision
 - revocation_decision
@@ -86,14 +87,20 @@ Not specified
 - audit_log
 - verification_log
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/guardianship-credential.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

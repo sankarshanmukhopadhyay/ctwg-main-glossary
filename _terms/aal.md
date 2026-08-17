@@ -2,46 +2,24 @@
 title: "aal"
 ---
 
-> Generated file. Update `glossary/terms/aal.yaml` and regenerate artifacts instead of editing this page directly.
-
 # aal
 
-## Concept Identity
-- **Concept ID**: `urn:tig:concept:aal`
-- **Editorial status**: `stable`
-- **Provenance classification**: `locally_defined`
-- **Source corpus**: Trust Infrastructure Glossary
-
-## In Simple English
 See: authenticator assurance level.
 
-## Definition
+## Formal definition
 See: authenticator assurance level.
 
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
 
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Alternative Designations
+## Names and relationships
+
+### Alternative designations
 - **AAL** (`en`, `alternative`)
 
-## Legacy Aliases
-AAL
-
-## Semantic Relations
-- **related**: `urn:tig:concept:authorization`
-- **related**: `urn:tig:concept:permission`
-- **related**: `urn:tig:concept:role-based-access-control`
-- **related**: `urn:tig:concept:attribute-based-access-control`
-- **related**: `urn:tig:concept:audit`
-- **related**: `urn:tig:concept:verification`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
+### Related concepts
 - [authorization]({{ '/terms/authorization/' | relative_url }})
 - [permission]({{ '/terms/permission/' | relative_url }})
 - [role-based-access-control]({{ '/terms/role-based-access-control/' | relative_url }})
@@ -49,10 +27,33 @@ Not specified
 - [audit]({{ '/terms/audit/' | relative_url }})
 - [verification]({{ '/terms/verification/' | relative_url }})
 
-## Standards and Source References
+### Semantic relations
+- **related**: `urn:tig:concept:authorization`
+- **related**: `urn:tig:concept:permission`
+- **related**: `urn:tig:concept:role-based-access-control`
+- **related**: `urn:tig:concept:attribute-based-access-control`
+- **related**: `urn:tig:concept:audit`
+- **related**: `urn:tig:concept:verification`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
+- **Concept ID**: `urn:tig:concept:aal`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
+### Standards and source references
 - [NIST SP 800-63-4 Digital Identity Guidelines](https://doi.org/10.6028/NIST.SP.800-63-4) (NIST; Final; 800-63-4; 2025-08-01) — normative
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+AAL
+
+### Governance profile
 - **Authority scope**: access_decisioning, assurance_and_audit
 - **Delegation mode**: direct
 - **Revocation supported**: False
@@ -60,17 +61,17 @@ Not specified
 - **Execution role**: design
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - access_decision
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - attestation
 
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - access_decision
 
@@ -79,14 +80,20 @@ Not specified
 **Evidence produced**
 - attestation
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 - **NIST**: SP 800-63-4
+
+</details>
+
+---
+
+*Generated from `glossary/terms/aal.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

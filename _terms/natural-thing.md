@@ -2,50 +2,51 @@
 title: "natural-thing"
 ---
 
-> Generated file. Update `glossary/terms/natural-thing.yaml` and regenerate artifacts instead of editing this page directly.
-
 # natural-thing
 
-## Concept Identity
+A simple-English summary has not yet been added for this concept.
+
+## Formal definition
+A thing that exists in the natural world independently of humans. Although natural things may form part of a man-made thing, natural things are mutually exclusive with man-made things.
+
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
+## Names and relationships
+
+### Alternative designations
+- **natural thing** (`en`, `alternative`)
+- **natural things** (`en`, `alternative`)
+
+### Related concepts
+- [glossary]({{ '/terms/glossary/' | relative_url }})
+- [definition]({{ '/terms/definition/' | relative_url }})
+
+### Semantic relations
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:definition`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
 - **Concept ID**: `urn:tig:concept:natural-thing`
 - **Editorial status**: `stable`
 - **Provenance classification**: `locally_defined`
 - **Source corpus**: Trust Infrastructure Glossary
 
-## In Simple English
-A simple-English summary has not yet been added for this term.
-
-## Definition
-A thing that exists in the natural world independently of humans. Although natural things may form part of a man-made thing, natural things are mutually exclusive with man-made things.
-
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
-
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
-
-## Alternative Designations
-- **natural thing** (`en`, `alternative`)
-- **natural things** (`en`, `alternative`)
-
-## Legacy Aliases
-natural thing, natural things
-
-## Semantic Relations
-- **related**: `urn:tig:concept:glossary`
-- **related**: `urn:tig:concept:definition`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
-- [glossary]({{ '/terms/glossary/' | relative_url }})
-- [definition]({{ '/terms/definition/' | relative_url }})
-
-## Standards and Source References
+### Standards and source references
 - [Sovrin Foundation Glossary V3](https://docs.google.com/document/d/1gfIz5TT0cNp2kxGMLFXr19x1uoZsruUe_0glHst2fZ8/edit).
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+natural thing, natural things
+
+### Governance profile
 - **Authority scope**: terminology_definition
 - **Delegation mode**: direct
 - **Revocation supported**: False
@@ -53,17 +54,17 @@ Not specified
 - **Execution role**: hybrid
 - **Control-plane role**: reference_term
 
-## Enforcement Points
+### Enforcement points
 - definition_approval
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - definition_change_record
 
 - **Assurance level hint**: informative
 - **Auditability**: basic
 
-## Control Plane
+### Control plane
 **Decision points**
 - definition_approval
 
@@ -72,15 +73,21 @@ Not specified
 **Evidence produced**
 - definition_change_record
 
-## Notes
+### Notes
 - Natural things (those recognized to have legal rights) can be parties but never actors in the eSSIF-Lab mental model Parties, Actors, Actions.
 
-## Supporting Definitions
+### Supporting definitions
 - Contrast with: [[ref: man-made thing]].
 - For more information see: [Appendix B](https://docs.google.com/document/d/1gfIz5TT0cNp2kxGMLFXr19x1uoZsruUe_0glHst2fZ8/edit#heading=h.mq7pzglc1j96) and[ Appendix C](https://docs.google.com/document/d/1gfIz5TT0cNp2kxGMLFXr19x1uoZsruUe_0glHst2fZ8/edit#heading=h.uiq9py7xnmxd) of the Sovrin Glossary
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/natural-thing.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

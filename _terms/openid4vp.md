@@ -2,47 +2,25 @@
 title: "openid4vp"
 ---
 
-> Generated file. Update `glossary/terms/openid4vp.yaml` and regenerate artifacts instead of editing this page directly.
-
 # openid4vp
 
-## Concept Identity
-- **Concept ID**: `urn:tig:concept:openid4vp`
-- **Editorial status**: `stable`
-- **Provenance classification**: `locally_defined`
-- **Source corpus**: Trust Infrastructure Glossary
-
-## In Simple English
 An OpenID Foundation protocol that defines mechanisms for requesting and presenting credentials between wallets and verifiers.
 
-## Definition
+## Formal definition
 An OpenID Foundation protocol that defines mechanisms for requesting and presenting credentials between wallets and verifiers.
 
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
 
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Alternative Designations
+## Names and relationships
+
+### Alternative designations
 - **OpenID4VP** (`en`, `alternative`)
 - **OID4VP** (`en`, `alternative`)
 
-## Legacy Aliases
-OpenID4VP, OID4VP
-
-## Semantic Relations
-- **related**: `urn:tig:concept:presentation`
-- **related**: `urn:tig:concept:presentation-request`
-- **related**: `urn:tig:concept:verifiable-presentation`
-- **related**: `urn:tig:concept:vp-token`
-- **related**: `urn:tig:concept:digital-wallet`
-- **related**: `urn:tig:concept:verifier`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
+### Related concepts
 - [presentation]({{ '/terms/presentation/' | relative_url }})
 - [presentation-request]({{ '/terms/presentation-request/' | relative_url }})
 - [verifiable-presentation]({{ '/terms/verifiable-presentation/' | relative_url }})
@@ -50,10 +28,33 @@ Not specified
 - [digital-wallet]({{ '/terms/digital-wallet/' | relative_url }})
 - [verifier]({{ '/terms/verifier/' | relative_url }})
 
-## Standards and Source References
+### Semantic relations
+- **related**: `urn:tig:concept:presentation`
+- **related**: `urn:tig:concept:presentation-request`
+- **related**: `urn:tig:concept:verifiable-presentation`
+- **related**: `urn:tig:concept:vp-token`
+- **related**: `urn:tig:concept:digital-wallet`
+- **related**: `urn:tig:concept:verifier`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
+- **Concept ID**: `urn:tig:concept:openid4vp`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
+### Standards and source references
 - [OpenID for Verifiable Presentations 1.0](https://openid.net/specs/openid-4-verifiable-presentations-1_0.html) (OpenID Foundation; Final Specification; 1.0; 2025-07-09) — normative
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+OpenID4VP, OID4VP
+
+### Governance profile
 - **Authority scope**: verification_and_reliance
 - **Delegation mode**: direct
 - **Revocation supported**: False
@@ -61,10 +62,10 @@ Not specified
 - **Execution role**: hybrid
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - reliance_decision
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - verification_log
 - audit_log
@@ -73,7 +74,7 @@ Not specified
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - reliance_decision
 
@@ -84,14 +85,20 @@ Not specified
 - audit_log
 - policy_document
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 - **OPENID**: OpenID4VP 1.0
+
+</details>
+
+---
+
+*Generated from `glossary/terms/openid4vp.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

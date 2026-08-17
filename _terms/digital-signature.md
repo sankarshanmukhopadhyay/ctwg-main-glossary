@@ -2,29 +2,21 @@
 title: "digital-signature"
 ---
 
-> Generated file. Update `glossary/terms/digital-signature.yaml` and regenerate artifacts instead of editing this page directly.
-
 # digital-signature
 
-## Concept Identity
-- **Concept ID**: `urn:tig:concept:digital-signature`
-- **Editorial status**: `stable`
-- **Provenance classification**: `locally_defined`
-- **Source corpus**: Trust Infrastructure Glossary
+A simple-English summary has not yet been added for this concept.
 
-## In Simple English
-A simple-English summary has not yet been added for this term.
-
-## Definition
+## Formal definition
 A digital signature is a mathematical scheme that uses cryptography for verifying the authenticity of digital messages or documents. A valid digital signature, where the prerequisites are satisfied, gives a recipient very high confidence that the message was created by a known sender (authenticity), and that the message was not altered in transit (integrity).
 
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
 
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Alternative Designations
+## Names and relationships
+
+### Alternative designations
 - **digital signature** (`en`, `alternative`)
 - **digital signatures** (`en`, `alternative`)
 - **digitally sign** (`en`, `alternative`)
@@ -33,24 +25,33 @@ Use this term consistently when mapping authority, evidence, reliance, and audit
 - **cryptographic signature** (`en`, `alternative`)
 - **cryptographic signatures** (`en`, `alternative`)
 
-## Legacy Aliases
-digital signature, digital signatures, digitally sign, digitally signed, digital signing, cryptographic signature, cryptographic signatures
-
-## Semantic Relations
-- **related**: `urn:tig:concept:glossary`
-- **related**: `urn:tig:concept:definition`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
+### Related concepts
 - [glossary]({{ '/terms/glossary/' | relative_url }})
 - [definition]({{ '/terms/definition/' | relative_url }})
 
-## Standards and Source References
+### Semantic relations
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:definition`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
+- **Concept ID**: `urn:tig:concept:digital-signature`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
+### Standards and source references
 - [Wikipedia](https://en.wikipedia.org/wiki/Digital_signature).
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+digital signature, digital signatures, digitally sign, digitally signed, digital signing, cryptographic signature, cryptographic signatures
+
+### Governance profile
 - **Authority scope**: terminology_definition
 - **Delegation mode**: direct
 - **Revocation supported**: False
@@ -58,17 +59,17 @@ Not specified
 - **Execution role**: design
 - **Control-plane role**: reference_term
 
-## Enforcement Points
+### Enforcement points
 - definition_approval
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - definition_change_record
 
 - **Assurance level hint**: informative
 - **Auditability**: basic
 
-## Control Plane
+### Control plane
 **Decision points**
 - definition_approval
 
@@ -77,14 +78,20 @@ Not specified
 **Evidence produced**
 - definition_change_record
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 - [NIST-CSRC](https://csrc.nist.gov/glossary/term/digital_signature): The result of a cryptographic transformation of data which, when properly implemented, provides the services of: 1. origin authentication, 2. data integrity, and 3. signer non-repudiation.
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/digital-signature.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

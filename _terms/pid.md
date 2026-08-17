@@ -2,54 +2,55 @@
 title: "pid"
 ---
 
-> Generated file. Update `glossary/terms/pid.yaml` and regenerate artifacts instead of editing this page directly.
-
 # pid
 
-## Concept Identity
-- **Concept ID**: `urn:tig:concept:pid`
-- **Editorial status**: `stable`
-- **Provenance classification**: `locally_defined`
-- **Source corpus**: Trust Infrastructure Glossary
+A simple-English summary has not yet been added for this concept.
 
-## In Simple English
-A simple-English summary has not yet been added for this term.
-
-## Definition
+## Formal definition
 A set of identity attributes used in the EUDI Wallet ecosystem to identify a natural or legal person under the applicable legal and governance framework.
 
-## Reader Note
+## Why this concept matters
 This term is part of the v1.2.0 standards-linked refresh and is anchored to active implementation vocabulary.
 
-## Implementation Relevance
 Use this term when mapping glossary language to implementation profiles, governance controls, conformance checks, or assurance evidence.
 
-## Alternative Designations
+## Names and relationships
+
+### Alternative designations
 - **Person Identification Data** (`en`, `alternative`)
 - **PID** (`en`, `alternative`)
 
-## Legacy Aliases
-Person Identification Data, PID
-
-## Semantic Relations
-- **related**: `urn:tig:concept:eudi-wallet`
-- **related**: `urn:tig:concept:identity-data`
-- **related**: `urn:tig:concept:natural-person`
-- **related**: `urn:tig:concept:legal-person`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
+### Related concepts
 - [eudi-wallet]({{ '/terms/eudi-wallet/' | relative_url }})
 - [identity-data]({{ '/terms/identity-data/' | relative_url }})
 - [natural-person]({{ '/terms/natural-person/' | relative_url }})
 - [legal-person]({{ '/terms/legal-person/' | relative_url }})
 
-## Standards and Source References
+### Semantic relations
+- **related**: `urn:tig:concept:eudi-wallet`
+- **related**: `urn:tig:concept:identity-data`
+- **related**: `urn:tig:concept:natural-person`
+- **related**: `urn:tig:concept:legal-person`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
+- **Concept ID**: `urn:tig:concept:pid`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
+### Standards and source references
 - [EUDI Wallet Architecture and Reference Framework 2.0](https://github.com/eu-digital-identity-wallet/eudi-doc-architecture-and-reference-framework) (European Commission; Architecture Reference Framework; 2.0; 2025-05-29) — normative
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+Person Identification Data, PID
+
+### Governance profile
 - **Authority scope**: credential_issuance, verification_and_reliance
 - **Delegation mode**: direct
 - **Revocation supported**: True
@@ -57,11 +58,11 @@ Not specified
 - **Execution role**: hybrid
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - issuance_decision
 - reliance_decision
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - issuance_log
 - verification_log
@@ -71,7 +72,7 @@ Not specified
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - issuance_decision
 - reliance_decision
@@ -84,14 +85,20 @@ Not specified
 - policy_document
 - audit_log
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 - **EU**: EUDI ARF 2.0
+
+</details>
+
+---
+
+*Generated from `glossary/terms/pid.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

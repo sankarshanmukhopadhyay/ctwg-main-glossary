@@ -1,10 +1,11 @@
 ---
-title: "Concepts: V"
-parent: "Concepts"
+title: "V"
+parent: "A–Z Concept Index"
+grand_parent: "Explore Concepts"
 nav_order: 22
 ---
 
-# Concepts: V
+# Concepts beginning with V
 
 - [validation]({{ '/terms/validation/' | relative_url }})
 - [vault]({{ '/terms/vault/' | relative_url }})

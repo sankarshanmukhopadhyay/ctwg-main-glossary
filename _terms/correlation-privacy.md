@@ -2,49 +2,50 @@
 title: "correlation-privacy"
 ---
 
-> Generated file. Update `glossary/terms/correlation-privacy.yaml` and regenerate artifacts instead of editing this page directly.
-
 # correlation-privacy
 
-## Concept Identity
+A simple-English summary has not yet been added for this concept.
+
+## Formal definition
+In a communications context, a type of privacy protection in which messages use encryption, hashes, or other privacy-preserving technologies to avoid the use of identifiers or other content that unauthorized parties may use to correlate the sender and/or receiver(s).
+
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
+## Names and relationships
+
+### Alternative designations
+- **correlation privacy** (`en`, `alternative`)
+
+### Related concepts
+- [authenticity]({{ '/terms/authenticity/' | relative_url }})
+- [confidentiality]({{ '/terms/confidentiality/' | relative_url }})
+
+### Semantic relations
+- **related**: `urn:tig:concept:authenticity`
+- **related**: `urn:tig:concept:confidentiality`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
 - **Concept ID**: `urn:tig:concept:correlation-privacy`
 - **Editorial status**: `stable`
 - **Provenance classification**: `adapted`
 - **Source corpus**: Trust over IP Main Glossary
 
-## In Simple English
-A simple-English summary has not yet been added for this term.
-
-## Definition
-In a communications context, a type of privacy protection in which messages use encryption, hashes, or other privacy-preserving technologies to avoid the use of identifiers or other content that unauthorized parties may use to correlate the sender and/or receiver(s).
-
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
-
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
-
-## Alternative Designations
-- **correlation privacy** (`en`, `alternative`)
-
-## Legacy Aliases
-correlation privacy
-
-## Semantic Relations
-- **related**: `urn:tig:concept:authenticity`
-- **related**: `urn:tig:concept:confidentiality`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
-- [authenticity]({{ '/terms/authenticity/' | relative_url }})
-- [confidentiality]({{ '/terms/confidentiality/' | relative_url }})
-
-## Standards and Source References
+### Standards and source references
 - ToIP CTWG maintained glossary source: `spec/terms-definitions/correlation-privacy.md`
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+correlation privacy
+
+### Governance profile
 - **Authority scope**: terminology_definition
 - **Delegation mode**: direct
 - **Revocation supported**: False
@@ -52,10 +53,10 @@ Not specified
 - **Execution role**: design
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - definition_approval
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - definition_change_record
 - policy_document
@@ -64,7 +65,7 @@ Not specified
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - definition_approval
 
@@ -75,14 +76,20 @@ Not specified
 - policy_document
 - audit_log
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/correlation-privacy.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

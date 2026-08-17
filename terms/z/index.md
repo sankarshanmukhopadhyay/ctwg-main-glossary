@@ -1,10 +1,11 @@
 ---
-title: "Concepts: Z"
-parent: "Concepts"
+title: "Z"
+parent: "A–Z Concept Index"
+grand_parent: "Explore Concepts"
 nav_order: 24
 ---
 
-# Concepts: Z
+# Concepts beginning with Z
 
 - [zero-knowledge-proof]({{ '/terms/zero-knowledge-proof/' | relative_url }})
 - [zero-knowledge-service]({{ '/terms/zero-knowledge-service/' | relative_url }})

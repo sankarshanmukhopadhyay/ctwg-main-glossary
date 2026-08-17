@@ -1,7 +1,8 @@
 ---
 title: "Quality Closure Summary"
-parent: Governance Documentation
-nav_order: 22
+parent: "Assurance & Quality"
+nav_order: 4
+grand_parent: "Govern TIG"
 ---
 
 # Quality Closure Summary

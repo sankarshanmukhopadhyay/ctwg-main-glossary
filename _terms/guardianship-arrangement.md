@@ -2,56 +2,57 @@
 title: "guardianship-arrangement"
 ---
 
-> Generated file. Update `glossary/terms/guardianship-arrangement.yaml` and regenerate artifacts instead of editing this page directly.
-
 # guardianship-arrangement
 
-## Concept Identity
-- **Concept ID**: `urn:tig:concept:guardianship-arrangement`
-- **Editorial status**: `stable`
-- **Provenance classification**: `locally_defined`
-- **Source corpus**: Trust Infrastructure Glossary
+A simple-English summary has not yet been added for this concept.
 
-## In Simple English
-A simple-English summary has not yet been added for this term.
-
-## Definition
+## Formal definition
 A guardianship arrangement is the specification, within a jurisdiction, of rights and duties between legal entities for caring for, protecting, guarding, or defending one or more dependents. At a minimum, the participating entities are the guardian and the dependent.
 
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
 
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Alternative Designations
+## Names and relationships
+
+### Alternative designations
 - **guardianship arrangement** (`en`, `alternative`)
 - **guardianship arrangements** (`en`, `alternative`)
 - **guardianship** (`en`, `alternative`)
 - **guardianships** (`en`, `alternative`)
 
-## Legacy Aliases
-guardianship arrangement, guardianship arrangements, guardianship, guardianships
-
-## Semantic Relations
-- **related**: `urn:tig:concept:guardian`
-- **related**: `urn:tig:concept:dependent`
-- **related**: `urn:tig:concept:custodianship-arrangement`
-- **related**: `urn:tig:concept:jurisdiction`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
+### Related concepts
 - [guardian]({{ '/terms/guardian/' | relative_url }})
 - [dependent]({{ '/terms/dependent/' | relative_url }})
 - [custodianship-arrangement]({{ '/terms/custodianship-arrangement/' | relative_url }})
 - [jurisdiction]({{ '/terms/jurisdiction/' | relative_url }})
 
-## Standards and Source References
+### Semantic relations
+- **related**: `urn:tig:concept:guardian`
+- **related**: `urn:tig:concept:dependent`
+- **related**: `urn:tig:concept:custodianship-arrangement`
+- **related**: `urn:tig:concept:jurisdiction`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
+- **Concept ID**: `urn:tig:concept:guardianship-arrangement`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
+### Standards and source references
 - [eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#guardian)
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+guardianship arrangement, guardianship arrangements, guardianship, guardianships
+
+### Governance profile
 - **Authority scope**: terminology_definition
 - **Delegation mode**: direct
 - **Revocation supported**: False
@@ -59,17 +60,17 @@ Not specified
 - **Execution role**: design
 - **Control-plane role**: reference_term
 
-## Enforcement Points
+### Enforcement points
 - definition_approval
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - definition_change_record
 
 - **Assurance level hint**: informative
 - **Auditability**: basic
 
-## Control Plane
+### Control plane
 **Decision points**
 - definition_approval
 
@@ -78,14 +79,20 @@ Not specified
 **Evidence produced**
 - definition_change_record
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 - For more information, see: [On Guardianship in Self-Sovereign Identity V2.0](https://sovrin.org/wp-content/uploads/Guardianship-Whitepaper-V2.0.pdf) (April, 2023).
 
-## Mental Models
+### Mental models
 - [eSSIF-Lab Guardianship](https://essif-lab.github.io/framework/docs/terms/pattern-guardianship)
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/guardianship-arrangement.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

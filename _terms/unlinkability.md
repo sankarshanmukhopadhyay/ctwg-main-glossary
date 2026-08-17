@@ -2,51 +2,52 @@
 title: "unlinkability"
 ---
 
-> Generated file. Update `glossary/terms/unlinkability.yaml` and regenerate artifacts instead of editing this page directly.
-
 # unlinkability
 
-## Concept Identity
+A simple-English summary has not yet been added for this concept.
+
+## Formal definition
+A privacy property under which two or more transactions, proofs, identifiers, or observations cannot reasonably be determined to concern the same party beyond the permitted correlation scope.
+
+## Why this concept matters
+This term was added following a cross-repository terminology review of TSMM, TIS, TGA, and the DTG ZKP Task Force workspace.
+
+Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.
+
+## Names and relationships
+
+### Alternative designations
+None
+
+### Related concepts
+- [correlation-privacy]({{ '/terms/correlation-privacy/' | relative_url }})
+- [selective-disclosure]({{ '/terms/selective-disclosure/' | relative_url }})
+- [zero-knowledge-proof]({{ '/terms/zero-knowledge-proof/' | relative_url }})
+
+### Semantic relations
+- **related**: `urn:tig:concept:correlation-privacy`
+- **related**: `urn:tig:concept:selective-disclosure`
+- **related**: `urn:tig:concept:zero-knowledge-proof`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
 - **Concept ID**: `urn:tig:concept:unlinkability`
 - **Editorial status**: `stable`
 - **Provenance classification**: `locally_defined`
 - **Source corpus**: Trust Infrastructure Glossary
 
-## In Simple English
-A simple-English summary has not yet been added for this term.
-
-## Definition
-A privacy property under which two or more transactions, proofs, identifiers, or observations cannot reasonably be determined to concern the same party beyond the permitted correlation scope.
-
-## Reader Note
-This term was added following a cross-repository terminology review of TSMM, TIS, TGA, and the DTG ZKP Task Force workspace.
-
-## Implementation Relevance
-Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.
-
-## Alternative Designations
-None
-
-## Legacy Aliases
-unlinkability
-
-## Semantic Relations
-- **related**: `urn:tig:concept:correlation-privacy`
-- **related**: `urn:tig:concept:selective-disclosure`
-- **related**: `urn:tig:concept:zero-knowledge-proof`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
-- [correlation-privacy]({{ '/terms/correlation-privacy/' | relative_url }})
-- [selective-disclosure]({{ '/terms/selective-disclosure/' | relative_url }})
-- [zero-knowledge-proof]({{ '/terms/zero-knowledge-proof/' | relative_url }})
-
-## Standards and Source References
+### Standards and source references
 - [ZKP repository terminology and model documentation](https://github.com/trustoverip/dtgwg-zkp-tf) (GitHub) — informative
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+unlinkability
+
+### Governance profile
 - **Authority scope**: assurance_and_audit, delegation_and_scope, policy_definition, verification_and_reliance
 - **Delegation mode**: direct_or_constrained
 - **Revocation supported**: True
@@ -54,13 +55,13 @@ Not specified
 - **Execution role**: hybrid
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - policy_approval
 - delegation_grant
 - reliance_decision
 - revocation_decision
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - policy_document
 - delegation_record
@@ -70,7 +71,7 @@ Not specified
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - policy_approval
 - delegation_grant
@@ -85,14 +86,20 @@ Not specified
 - status_record
 - verification_log
 
-## Notes
+### Notes
 - This definition is normalized for cross-repository use and should be applied together with the governing profile or specification that supplies domain-specific constraints.
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/unlinkability.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

@@ -2,47 +2,48 @@
 title: "relationship"
 ---
 
-> Generated file. Update `glossary/terms/relationship.yaml` and regenerate artifacts instead of editing this page directly.
-
 # relationship
 
-## Concept Identity
+See ToIP relationship.
+
+## Formal definition
+See ToIP relationship.
+
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
+## Names and relationships
+
+### Alternative designations
+None
+
+### Related concepts
+- [trust relationship]({{ '/terms/trust-relationship/' | relative_url }})
+
+### Semantic relations
+- **related**: `urn:tig:concept:trust-relationship`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
 - **Concept ID**: `urn:tig:concept:relationship`
 - **Editorial status**: `stable`
 - **Provenance classification**: `adapted`
 - **Source corpus**: Trust over IP Main Glossary
 
-## In Simple English
-See ToIP relationship.
-
-## Definition
-See ToIP relationship.
-
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
-
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
-
-## Alternative Designations
-None
-
-## Legacy Aliases
-relationship
-
-## Semantic Relations
-- **related**: `urn:tig:concept:trust-relationship`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
-- [trust relationship]({{ '/terms/trust-relationship/' | relative_url }})
-
-## Standards and Source References
+### Standards and source references
 - ToIP CTWG maintained glossary source: `spec/terms-definitions/relationship.md`
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+relationship
+
+### Governance profile
 - **Authority scope**: terminology_definition
 - **Delegation mode**: direct
 - **Revocation supported**: False
@@ -50,17 +51,17 @@ Not specified
 - **Execution role**: design
 - **Control-plane role**: reference_term
 
-## Enforcement Points
+### Enforcement points
 - definition_approval
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - definition_change_record
 
 - **Assurance level hint**: informative
 - **Auditability**: basic
 
-## Control Plane
+### Control plane
 **Decision points**
 - definition_approval
 
@@ -69,14 +70,20 @@ Not specified
 **Evidence produced**
 - definition_change_record
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/relationship.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

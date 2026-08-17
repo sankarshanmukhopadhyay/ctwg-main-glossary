@@ -2,50 +2,51 @@
 title: "identity-binding"
 ---
 
-> Generated file. Update `glossary/terms/identity-binding.yaml` and regenerate artifacts instead of editing this page directly.
-
 # identity-binding
 
-## Concept Identity
+A simple-English summary has not yet been added for this concept.
+
+## Formal definition
+The process of associating a set of identity data, such as a credential, with its subject, such as a natural person. The strength of an identity binding is one factor in determining an authenticator assurance level.
+
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
+## Names and relationships
+
+### Alternative designations
+- **identity binding** (`en`, `alternative`)
+- **identity bindings** (`en`, `alternative`)
+
+### Related concepts
+- [identity assurance level]({{ '/terms/identity-assurance-level/' | relative_url }})
+- [identity proofing]({{ '/terms/identity-proofing/' | relative_url }})
+
+### Semantic relations
+- **related**: `urn:tig:concept:identity-assurance-level`
+- **related**: `urn:tig:concept:identity-proofing`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
 - **Concept ID**: `urn:tig:concept:identity-binding`
 - **Editorial status**: `stable`
 - **Provenance classification**: `adapted`
 - **Source corpus**: Trust over IP Main Glossary
 
-## In Simple English
-A simple-English summary has not yet been added for this term.
-
-## Definition
-The process of associating a set of identity data, such as a credential, with its subject, such as a natural person. The strength of an identity binding is one factor in determining an authenticator assurance level.
-
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
-
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
-
-## Alternative Designations
-- **identity binding** (`en`, `alternative`)
-- **identity bindings** (`en`, `alternative`)
-
-## Legacy Aliases
-identity binding, identity bindings
-
-## Semantic Relations
-- **related**: `urn:tig:concept:identity-assurance-level`
-- **related**: `urn:tig:concept:identity-proofing`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
-- [identity assurance level]({{ '/terms/identity-assurance-level/' | relative_url }})
-- [identity proofing]({{ '/terms/identity-proofing/' | relative_url }})
-
-## Standards and Source References
+### Standards and source references
 - ToIP CTWG maintained glossary source: `spec/terms-definitions/identity-binding.md`
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+identity binding, identity bindings
+
+### Governance profile
 - **Authority scope**: credential_issuance, access_decisioning, assurance_and_audit
 - **Delegation mode**: direct
 - **Revocation supported**: True
@@ -53,12 +54,12 @@ Not specified
 - **Execution role**: design
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - issuance_decision
 - access_decision
 - revocation_decision
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - issuance_log
 - attestation
@@ -72,7 +73,7 @@ Not specified
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - issuance_decision
 - access_decision
@@ -90,14 +91,20 @@ Not specified
 - audit_log
 - verification_log
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/identity-binding.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

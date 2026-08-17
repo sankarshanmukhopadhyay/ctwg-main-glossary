@@ -2,56 +2,57 @@
 title: "legal-entity-identifier"
 ---
 
-> Generated file. Update `glossary/terms/legal-entity-identifier.yaml` and regenerate artifacts instead of editing this page directly.
-
 # legal-entity-identifier
 
-## Concept Identity
-- **Concept ID**: `urn:tig:concept:legal-entity-identifier`
-- **Editorial status**: `stable`
-- **Provenance classification**: `locally_defined`
-- **Source corpus**: Trust Infrastructure Glossary
+A simple-English summary has not yet been added for this concept.
 
-## In Simple English
-A simple-English summary has not yet been added for this term.
-
-## Definition
+## Formal definition
 The Legal Entity Identifier (LEI) is a unique global identifier for legal entities participating in financial transactions. Also known as an LEI code or LEI number, its purpose is to help identify legal entities on a globally accessible database. Legal entities are organisations such as companies or government entities that participate in financial transactions.
 
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
 
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Alternative Designations
+## Names and relationships
+
+### Alternative designations
 - **Legal Entity Identifier** (`en`, `alternative`)
 - **Legal Entity Identifiers** (`en`, `alternative`)
 - **LEI** (`en`, `alternative`)
 - **LEIs** (`en`, `alternative`)
 
-## Legacy Aliases
-Legal Entity Identifier, Legal Entity Identifiers, LEI, LEIs
-
-## Semantic Relations
-- **related**: `urn:tig:concept:glossary`
-- **related**: `urn:tig:concept:definition`
-- **related**: `urn:tig:concept:identifier`
-- **related**: `urn:tig:concept:decentralized-identifier`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
+### Related concepts
 - [glossary]({{ '/terms/glossary/' | relative_url }})
 - [definition]({{ '/terms/definition/' | relative_url }})
 - [identifier]({{ '/terms/identifier/' | relative_url }})
 - [decentralized-identifier]({{ '/terms/decentralized-identifier/' | relative_url }})
 
-## Standards and Source References
+### Semantic relations
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:definition`
+- **related**: `urn:tig:concept:identifier`
+- **related**: `urn:tig:concept:decentralized-identifier`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
+- **Concept ID**: `urn:tig:concept:legal-entity-identifier`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
+### Standards and source references
 - [Wikipedia](https://en.wikipedia.org/wiki/Legal_Entity_Identifier).
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+Legal Entity Identifier, Legal Entity Identifiers, LEI, LEIs
+
+### Governance profile
 - **Authority scope**: terminology_definition
 - **Delegation mode**: direct
 - **Revocation supported**: False
@@ -59,10 +60,10 @@ Not specified
 - **Execution role**: design
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - definition_approval
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - definition_change_record
 - policy_document
@@ -71,7 +72,7 @@ Not specified
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - definition_approval
 
@@ -82,14 +83,20 @@ Not specified
 - policy_document
 - audit_log
 
-## Notes
+### Notes
 - LEIs are administered by the Global Legal Entity Identifier Foundation (GLEIF).
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/legal-entity-identifier.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

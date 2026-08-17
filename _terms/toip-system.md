@@ -2,50 +2,51 @@
 title: "toip-system"
 ---
 
-> Generated file. Update `glossary/terms/toip-system.yaml` and regenerate artifacts instead of editing this page directly.
-
 # toip-system
 
-## Concept Identity
+A computing system that participates in the ToIP Technology Stack. There are three types of ToIP systems: endpoint systems, intermediary systems, and supporting systems.
+
+## Formal definition
+A computing system that participates in the ToIP Technology Stack. There are three types of ToIP systems: endpoint systems, intermediary systems, and supporting systems.
+
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
+## Names and relationships
+
+### Alternative designations
+- **ToIP system** (`en`, `alternative`)
+- **ToIP systems** (`en`, `alternative`)
+
+### Related concepts
+- [glossary]({{ '/terms/glossary/' | relative_url }})
+- [definition]({{ '/terms/definition/' | relative_url }})
+
+### Semantic relations
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:definition`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
 - **Concept ID**: `urn:tig:concept:toip-system`
 - **Editorial status**: `stable`
 - **Provenance classification**: `adapted`
 - **Source corpus**: Trust over IP Main Glossary
 
-## In Simple English
-A computing system that participates in the ToIP Technology Stack. There are three types of ToIP systems: endpoint systems, intermediary systems, and supporting systems.
-
-## Definition
-A computing system that participates in the ToIP Technology Stack. There are three types of ToIP systems: endpoint systems, intermediary systems, and supporting systems.
-
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
-
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
-
-## Alternative Designations
-- **ToIP system** (`en`, `alternative`)
-- **ToIP systems** (`en`, `alternative`)
-
-## Legacy Aliases
-ToIP system, ToIP systems
-
-## Semantic Relations
-- **related**: `urn:tig:concept:glossary`
-- **related**: `urn:tig:concept:definition`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
-- [glossary]({{ '/terms/glossary/' | relative_url }})
-- [definition]({{ '/terms/definition/' | relative_url }})
-
-## Standards and Source References
+### Standards and source references
 - ToIP CTWG maintained glossary source: `spec/terms-definitions/toip-system.md`
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+ToIP system, ToIP systems
+
+### Governance profile
 - **Authority scope**: terminology_definition
 - **Delegation mode**: direct
 - **Revocation supported**: False
@@ -53,17 +54,17 @@ Not specified
 - **Execution role**: design
 - **Control-plane role**: reference_term
 
-## Enforcement Points
+### Enforcement points
 - definition_approval
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - definition_change_record
 
 - **Assurance level hint**: informative
 - **Auditability**: basic
 
-## Control Plane
+### Control plane
 **Decision points**
 - definition_approval
 
@@ -72,14 +73,20 @@ Not specified
 **Evidence produced**
 - definition_change_record
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 - For more information, see: [Section 6.3](https://github.com/trustoverip/TechArch/blob/main/spec.md#63-high-level-system-architecture) of the [[ref: ToIP Technology Architecture Specification]].
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/toip-system.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

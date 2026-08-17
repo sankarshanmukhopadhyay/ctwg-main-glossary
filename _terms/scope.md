@@ -2,49 +2,50 @@
 title: "scope"
 ---
 
-> Generated file. Update `glossary/terms/scope.yaml` and regenerate artifacts instead of editing this page directly.
-
 # scope
 
-## Concept Identity
+A simple-English summary has not yet been added for this concept.
+
+## Formal definition
+In the context of terminology, scope refers to the set of possible concepts within which: a) a specific term is intended to uniquely identify a concept, or b) a specific glossary is intended to identify a set of concepts. In the context of identification, scope refers to the set of possible entities within which a specific entity must be uniquely identified. In the context of specifications, scope refers to the set of problems (the problem space) within which the specification is intended to specify solutions.
+
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
+## Names and relationships
+
+### Alternative designations
+- **scopes** (`en`, `alternative`)
+
+### Related concepts
+- [glossary]({{ '/terms/glossary/' | relative_url }})
+- [definition]({{ '/terms/definition/' | relative_url }})
+
+### Semantic relations
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:definition`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
 - **Concept ID**: `urn:tig:concept:scope`
 - **Editorial status**: `stable`
 - **Provenance classification**: `adapted`
 - **Source corpus**: Trust over IP Main Glossary
 
-## In Simple English
-A simple-English summary has not yet been added for this term.
-
-## Definition
-In the context of terminology, scope refers to the set of possible concepts within which: a) a specific term is intended to uniquely identify a concept, or b) a specific glossary is intended to identify a set of concepts. In the context of identification, scope refers to the set of possible entities within which a specific entity must be uniquely identified. In the context of specifications, scope refers to the set of problems (the problem space) within which the specification is intended to specify solutions.
-
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
-
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
-
-## Alternative Designations
-- **scopes** (`en`, `alternative`)
-
-## Legacy Aliases
-scope, scopes
-
-## Semantic Relations
-- **related**: `urn:tig:concept:glossary`
-- **related**: `urn:tig:concept:definition`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
-- [glossary]({{ '/terms/glossary/' | relative_url }})
-- [definition]({{ '/terms/definition/' | relative_url }})
-
-## Standards and Source References
+### Standards and source references
 - ToIP CTWG maintained glossary source: `spec/terms-definitions/scope.md`
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+scope, scopes
+
+### Governance profile
 - **Authority scope**: terminology_definition
 - **Delegation mode**: direct
 - **Revocation supported**: False
@@ -52,17 +53,17 @@ Not specified
 - **Execution role**: hybrid
 - **Control-plane role**: reference_term
 
-## Enforcement Points
+### Enforcement points
 - definition_approval
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - definition_change_record
 
 - **Assurance level hint**: informative
 - **Auditability**: basic
 
-## Control Plane
+### Control plane
 **Decision points**
 - definition_approval
 
@@ -71,14 +72,20 @@ Not specified
 **Evidence produced**
 - definition_change_record
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 - [eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#scope): the extent of the area or subject matter (which we use, e.g., to define [pattern](https://essif-lab.github.io/framework/docs/@), [concept](https://essif-lab.github.io/framework/docs/@), [term](https://essif-lab.github.io/framework/docs/@) and [glossaries](https://essif-lab.github.io/framework/docs/@) in, but it serves other purposes as well).
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/scope.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

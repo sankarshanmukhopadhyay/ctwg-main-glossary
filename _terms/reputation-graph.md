@@ -2,52 +2,53 @@
 title: "reputation-graph"
 ---
 
-> Generated file. Update `glossary/terms/reputation-graph.yaml` and regenerate artifacts instead of editing this page directly.
-
 # reputation-graph
 
-## Concept Identity
+A simple-English summary has not yet been added for this concept.
+
+## Formal definition
+A graph of the reputation relationships between different entities in a trust community. In a digital trust ecosystem, the governing body may be one trust anchor of a reputation graph. In some cases, a reputation graph can be traversed by making queries to one or more trust registries.
+
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
+## Names and relationships
+
+### Alternative designations
+- **reputation graph** (`en`, `alternative`)
+- **reputation graphs** (`en`, `alternative`)
+
+### Related concepts
+- [authorization graph]({{ '/terms/authorization-graph/' | relative_url }})
+- [governance graph]({{ '/terms/governance-graph/' | relative_url }})
+- [trust graph]({{ '/terms/trust-graph/' | relative_url }})
+
+### Semantic relations
+- **related**: `urn:tig:concept:authorization-graph`
+- **related**: `urn:tig:concept:governance-graph`
+- **related**: `urn:tig:concept:trust-graph`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
 - **Concept ID**: `urn:tig:concept:reputation-graph`
 - **Editorial status**: `stable`
 - **Provenance classification**: `adapted`
 - **Source corpus**: Trust over IP Main Glossary
 
-## In Simple English
-A simple-English summary has not yet been added for this term.
-
-## Definition
-A graph of the reputation relationships between different entities in a trust community. In a digital trust ecosystem, the governing body may be one trust anchor of a reputation graph. In some cases, a reputation graph can be traversed by making queries to one or more trust registries.
-
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
-
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
-
-## Alternative Designations
-- **reputation graph** (`en`, `alternative`)
-- **reputation graphs** (`en`, `alternative`)
-
-## Legacy Aliases
-reputation graph, reputation graphs
-
-## Semantic Relations
-- **related**: `urn:tig:concept:authorization-graph`
-- **related**: `urn:tig:concept:governance-graph`
-- **related**: `urn:tig:concept:trust-graph`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
-- [authorization graph]({{ '/terms/authorization-graph/' | relative_url }})
-- [governance graph]({{ '/terms/governance-graph/' | relative_url }})
-- [trust graph]({{ '/terms/trust-graph/' | relative_url }})
-
-## Standards and Source References
+### Standards and source references
 - ToIP CTWG maintained glossary source: `spec/terms-definitions/reputation-graph.md`
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+reputation graph, reputation graphs
+
+### Governance profile
 - **Authority scope**: terminology_definition
 - **Delegation mode**: direct
 - **Revocation supported**: False
@@ -55,10 +56,10 @@ Not specified
 - **Execution role**: design
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - definition_approval
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - definition_change_record
 - policy_document
@@ -67,7 +68,7 @@ Not specified
 - **Assurance level hint**: AL1+
 - **Auditability**: moderate
 
-## Control Plane
+### Control plane
 **Decision points**
 - definition_approval
 
@@ -78,14 +79,20 @@ Not specified
 - policy_document
 - audit_log
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/reputation-graph.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

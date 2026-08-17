@@ -2,47 +2,48 @@
 title: "transaction"
 ---
 
-> Generated file. Update `glossary/terms/transaction.yaml` and regenerate artifacts instead of editing this page directly.
-
 # transaction
 
-## Concept Identity
+A simple-English summary has not yet been added for this concept.
+
+## Formal definition
+A discrete event between a user and a system that supports a business or programmatic purpose. A digital system may have multiple categories or types of transactions, which may require separate analysis within the overall digital identity risk assessment.
+
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
+## Names and relationships
+
+### Alternative designations
+- **transactions** (`en`, `alternative`)
+
+### Related concepts
+- [connection]({{ '/terms/connection/' | relative_url }})
+
+### Semantic relations
+- **related**: `urn:tig:concept:connection`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
 - **Concept ID**: `urn:tig:concept:transaction`
 - **Editorial status**: `stable`
 - **Provenance classification**: `locally_defined`
 - **Source corpus**: Trust Infrastructure Glossary
 
-## In Simple English
-A simple-English summary has not yet been added for this term.
-
-## Definition
-A discrete event between a user and a system that supports a business or programmatic purpose. A digital system may have multiple categories or types of transactions, which may require separate analysis within the overall digital identity risk assessment.
-
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
-
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
-
-## Alternative Designations
-- **transactions** (`en`, `alternative`)
-
-## Legacy Aliases
-transaction, transactions
-
-## Semantic Relations
-- **related**: `urn:tig:concept:connection`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
-- [connection]({{ '/terms/connection/' | relative_url }})
-
-## Standards and Source References
+### Standards and source references
 - [NIST-CSRC](https://csrc.nist.gov/glossary/term/transaction).
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+transaction, transactions
+
+### Governance profile
 - **Authority scope**: terminology_definition
 - **Delegation mode**: direct
 - **Revocation supported**: False
@@ -50,17 +51,17 @@ Not specified
 - **Execution role**: design
 - **Control-plane role**: reference_term
 
-## Enforcement Points
+### Enforcement points
 - definition_approval
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - definition_change_record
 
 - **Assurance level hint**: informative
 - **Auditability**: basic
 
-## Control Plane
+### Control plane
 **Decision points**
 - definition_approval
 
@@ -69,14 +70,20 @@ Not specified
 **Evidence produced**
 - definition_change_record
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 - eSSIF-Lab: the exchange of goods, services, funds, or data between some [parties](https://essif-lab.github.io/framework/docs/terms/party) (called [participants](https://essif-lab.github.io/framework/docs/terms/participant) of the [transaction](https://essif-lab.github.io/framework/docs/terms/transaction)).
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/transaction.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

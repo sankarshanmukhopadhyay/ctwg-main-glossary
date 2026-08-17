@@ -1,10 +1,11 @@
 ---
-title: "Concepts: O"
-parent: "Concepts"
+title: "O"
+parent: "A–Z Concept Index"
+grand_parent: "Explore Concepts"
 nav_order: 15
 ---
 
-# Concepts: O
+# Concepts beginning with O
 
 - [objective]({{ '/terms/objective/' | relative_url }})
 - [observability mode]({{ '/terms/observability-mode/' | relative_url }})

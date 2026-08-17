@@ -2,47 +2,48 @@
 title: "communication"
 ---
 
-> Generated file. Update `glossary/terms/communication.yaml` and regenerate artifacts instead of editing this page directly.
-
 # communication
 
-## Concept Identity
+The transmission of information.
+
+## Formal definition
+The transmission of information.
+
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
+## Names and relationships
+
+### Alternative designations
+- **communications** (`en`, `alternative`)
+
+### Related concepts
+- [ToIP communication]({{ '/terms/toip-communication/' | relative_url }})
+
+### Semantic relations
+- **related**: `urn:tig:concept:toip-communication`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
 - **Concept ID**: `urn:tig:concept:communication`
 - **Editorial status**: `stable`
 - **Provenance classification**: `locally_defined`
 - **Source corpus**: Trust Infrastructure Glossary
 
-## In Simple English
-The transmission of information.
-
-## Definition
-The transmission of information.
-
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
-
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
-
-## Alternative Designations
-- **communications** (`en`, `alternative`)
-
-## Legacy Aliases
-communication, communications
-
-## Semantic Relations
-- **related**: `urn:tig:concept:toip-communication`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
-- [ToIP communication]({{ '/terms/toip-communication/' | relative_url }})
-
-## Standards and Source References
+### Standards and source references
 - [Wikipedia](https://en.wikipedia.org/wiki/Communication).
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+communication, communications
+
+### Governance profile
 - **Authority scope**: terminology_definition
 - **Delegation mode**: direct
 - **Revocation supported**: False
@@ -50,17 +51,17 @@ Not specified
 - **Execution role**: design
 - **Control-plane role**: reference_term
 
-## Enforcement Points
+### Enforcement points
 - definition_approval
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - definition_change_record
 
 - **Assurance level hint**: informative
 - **Auditability**: basic
 
-## Control Plane
+### Control plane
 **Decision points**
 - definition_approval
 
@@ -69,14 +70,20 @@ Not specified
 **Evidence produced**
 - definition_change_record
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/communication.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

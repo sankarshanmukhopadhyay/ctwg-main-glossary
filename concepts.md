@@ -1,6 +1,7 @@
 ---
-title: "Concepts by Topic"
-nav_order: 3
+title: "Browse by Topic"
+nav_order: 1
+parent: "Explore Concepts"
 ---
 # Concepts by Topic
 

@@ -2,47 +2,48 @@
 title: "attribute"
 ---
 
-> Generated file. Update `glossary/terms/attribute.yaml` and regenerate artifacts instead of editing this page directly.
-
 # attribute
 
-## Concept Identity
+An identifiable set of data that describes an entity, which is the subject of the attribute.
+
+## Formal definition
+An identifiable set of data that describes an entity, which is the subject of the attribute.
+
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
+## Names and relationships
+
+### Alternative designations
+- **attributes** (`en`, `alternative`)
+
+### Related concepts
+- [property]({{ '/terms/property/' | relative_url }})
+
+### Semantic relations
+- **related**: `urn:tig:concept:property`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
 - **Concept ID**: `urn:tig:concept:attribute`
 - **Editorial status**: `stable`
 - **Provenance classification**: `adapted`
 - **Source corpus**: Trust over IP Main Glossary
 
-## In Simple English
-An identifiable set of data that describes an entity, which is the subject of the attribute.
-
-## Definition
-An identifiable set of data that describes an entity, which is the subject of the attribute.
-
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
-
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
-
-## Alternative Designations
-- **attributes** (`en`, `alternative`)
-
-## Legacy Aliases
-attribute, attributes
-
-## Semantic Relations
-- **related**: `urn:tig:concept:property`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
-- [property]({{ '/terms/property/' | relative_url }})
-
-## Standards and Source References
+### Standards and source references
 - ToIP CTWG maintained glossary source: `spec/terms-definitions/attribute.md`
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+attribute, attributes
+
+### Governance profile
 - **Authority scope**: terminology_definition
 - **Delegation mode**: direct
 - **Revocation supported**: False
@@ -50,17 +51,17 @@ Not specified
 - **Execution role**: design
 - **Control-plane role**: reference_term
 
-## Enforcement Points
+### Enforcement points
 - definition_approval
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - definition_change_record
 
 - **Assurance level hint**: informative
 - **Auditability**: basic
 
-## Control Plane
+### Control plane
 **Decision points**
 - definition_approval
 
@@ -69,15 +70,21 @@ Not specified
 **Evidence produced**
 - definition_change_record
 
-## Notes
+### Notes
 - An identifier is an attribute that uniquely identifies an entity within some context.
 
-## Supporting Definitions
+### Supporting definitions
 - KERI Suite: [[xref: keri1, attribute]]
 - [eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#attribute): [Data](https://essif-lab.github.io/framework/docs/terms/data) that represents a characteristic that a [party](https://essif-lab.github.io/framework/docs/terms/party) (the [owner](https://essif-lab.github.io/framework/docs/terms/owner) of the [attribute](https://essif-lab.github.io/framework/docs/terms/attribute)) has attributed to an [entity](https://essif-lab.github.io/framework/docs/terms/entity) (which is the [subject](https://essif-lab.github.io/framework/docs/terms/subject) of that attribute).
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/attribute.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

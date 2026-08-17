@@ -2,52 +2,53 @@
 title: "digital-wallet"
 ---
 
-> Generated file. Update `glossary/terms/digital-wallet.yaml` and regenerate artifacts instead of editing this page directly.
-
 # digital-wallet
 
-## Concept Identity
+A simple-English summary has not yet been added for this concept.
+
+## Formal definition
+A user agent, optionally including a hardware component, capable of securely storing and processing cryptographic keys, digital credentials, digital assets and other sensitive private data that enables the controller to perform cryptographically verifiable operations. A non-custodial wallet is directly in the custody of a principal. A custodial wallet is in the custody of a third party. Personal wallets are held by individual persons; enterprise wallets are held by organizations or other legal entities.
+
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
+## Names and relationships
+
+### Alternative designations
+- **digital wallet** (`en`, `alternative`)
+- **digital wallets** (`en`, `alternative`)
+
+### Related concepts
+- [digital agent]({{ '/terms/digital-agent/' | relative_url }})
+- [key management system]({{ '/terms/key-management-system/' | relative_url }})
+- [wallet engine]({{ '/terms/wallet-engine/' | relative_url }})
+
+### Semantic relations
+- **related**: `urn:tig:concept:digital-agent`
+- **related**: `urn:tig:concept:key-management-system`
+- **related**: `urn:tig:concept:wallet-engine`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
 - **Concept ID**: `urn:tig:concept:digital-wallet`
 - **Editorial status**: `stable`
 - **Provenance classification**: `adapted`
 - **Source corpus**: Trust over IP Main Glossary
 
-## In Simple English
-A simple-English summary has not yet been added for this term.
-
-## Definition
-A user agent, optionally including a hardware component, capable of securely storing and processing cryptographic keys, digital credentials, digital assets and other sensitive private data that enables the controller to perform cryptographically verifiable operations. A non-custodial wallet is directly in the custody of a principal. A custodial wallet is in the custody of a third party. Personal wallets are held by individual persons; enterprise wallets are held by organizations or other legal entities.
-
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
-
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
-
-## Alternative Designations
-- **digital wallet** (`en`, `alternative`)
-- **digital wallets** (`en`, `alternative`)
-
-## Legacy Aliases
-digital wallet, digital wallets
-
-## Semantic Relations
-- **related**: `urn:tig:concept:digital-agent`
-- **related**: `urn:tig:concept:key-management-system`
-- **related**: `urn:tig:concept:wallet-engine`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
-- [digital agent]({{ '/terms/digital-agent/' | relative_url }})
-- [key management system]({{ '/terms/key-management-system/' | relative_url }})
-- [wallet engine]({{ '/terms/wallet-engine/' | relative_url }})
-
-## Standards and Source References
+### Standards and source references
 - ToIP CTWG maintained glossary source: `spec/terms-definitions/digital-wallet.md`
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+digital wallet, digital wallets
+
+### Governance profile
 - **Authority scope**: credential_issuance, verification_and_reliance, delegation_and_scope
 - **Delegation mode**: direct_or_constrained
 - **Revocation supported**: True
@@ -55,13 +56,13 @@ Not specified
 - **Execution role**: runtime
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - delegation_grant
 - reliance_decision
 - issuance_decision
 - revocation_decision
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - delegation_record
 - issuance_log
@@ -70,7 +71,7 @@ Not specified
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - delegation_grant
 - reliance_decision
@@ -84,15 +85,21 @@ Not specified
 - issuance_log
 - verification_log
 
-## Notes
+### Notes
 - In market parlance, a mobile app that performs the actions of a digital agent and has access to a set of cryptographic keys is often simply called a wallet or a digital wallet.
 
-## Supporting Definitions
+### Supporting definitions
 - [eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#wallet): a component that implements the [capability](https://essif-lab.github.io/framework/docs/terms/capability) to securely store data as requested by [colleague agents](https://essif-lab.github.io/framework/docs/terms/colleague), and to provide stored data to [colleague agents](https://essif-lab.github.io/framework/docs/terms/colleague) or [peer agents](https://essif-lab.github.io/framework/docs/terms/peer-agent), all in [compliance](https://essif-lab.github.io/framework/docs/terms/compliance) with the rules of its [principal](https://essif-lab.github.io/framework/docs/terms/principal)'s [wallet policy](https://essif-lab.github.io/framework/docs/terms/wallet-policy).
 - [Wikipedia](https://en.wikipedia.org/wiki/Digital_wallet): A digital wallet, also known as an e-wallet, is an [electronic device](https://en.wikipedia.org/wiki/Consumer_electronics), [online service](https://en.wikipedia.org/wiki/Online_service_provider), or [software program](https://en.wikipedia.org/wiki/Computer_program) that allows one party to make [electronic transactions](https://en.wikipedia.org/wiki/Electronic_transaction) with another party bartering [digital currency](https://en.wikipedia.org/wiki/Digital_currency) units for [goods and services](https://en.wikipedia.org/wiki/Goods_and_services). This can include purchasing items either [online](https://en.wikipedia.org/wiki/Online_and_offline) or at the [point of sale](https://en.wikipedia.org/wiki/Point_of_sale) in a [brick and mortar](https://en.wikipedia.org/wiki/Brick_and_mortar) store, using either [mobile payment](https://en.wikipedia.org/wiki/Mobile_payment) (on a [smartphone](https://en.wikipedia.org/wiki/Smartphone) or other [mobile device](https://en.wikipedia.org/wiki/Mobile_device)) or (for online buying only) using a [laptop](https://en.wikipedia.org/wiki/Laptop) or other [personal computer](https://en.wikipedia.org/wiki/Personal_computer). Money can be deposited in the digital wallet prior to any transactions or, in other cases, an individual's bank account can be linked to the digital wallet. Users might also have their [driver's license](https://en.wikipedia.org/wiki/Driver%27s_license), [health card](https://en.wikipedia.org/wiki/Health_Care_Card), loyalty card(s) and other ID documents stored within the wallet. The credentials can be passed to a merchant's terminal wirelessly via [near field communication](https://en.wikipedia.org/wiki/Near_field_communication) (NFC).
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/digital-wallet.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

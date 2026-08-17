@@ -2,47 +2,48 @@
 title: "dependent"
 ---
 
-> Generated file. Update `glossary/terms/dependent.yaml` and regenerate artifacts instead of editing this page directly.
-
 # dependent
 
-## Concept Identity
+An entity for the caring for and/or protecting/guarding/defending of which a guardianship arrangement has been established with a guardian.
+
+## Formal definition
+An entity for the caring for and/or protecting/guarding/defending of which a guardianship arrangement has been established with a guardian.
+
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
+## Names and relationships
+
+### Alternative designations
+- **dependents** (`en`, `alternative`)
+
+### Related concepts
+- [custodian]({{ '/terms/custodian/' | relative_url }})
+
+### Semantic relations
+- **related**: `urn:tig:concept:custodian`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
 - **Concept ID**: `urn:tig:concept:dependent`
 - **Editorial status**: `stable`
 - **Provenance classification**: `locally_defined`
 - **Source corpus**: Trust Infrastructure Glossary
 
-## In Simple English
-An entity for the caring for and/or protecting/guarding/defending of which a guardianship arrangement has been established with a guardian.
-
-## Definition
-An entity for the caring for and/or protecting/guarding/defending of which a guardianship arrangement has been established with a guardian.
-
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
-
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
-
-## Alternative Designations
-- **dependents** (`en`, `alternative`)
-
-## Legacy Aliases
-dependent, dependents
-
-## Semantic Relations
-- **related**: `urn:tig:concept:custodian`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
-- [custodian]({{ '/terms/custodian/' | relative_url }})
-
-## Standards and Source References
+### Standards and source references
 - [eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#dependent)
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+dependent, dependents
+
+### Governance profile
 - **Authority scope**: terminology_definition
 - **Delegation mode**: direct
 - **Revocation supported**: False
@@ -50,17 +51,17 @@ Not specified
 - **Execution role**: design
 - **Control-plane role**: reference_term
 
-## Enforcement Points
+### Enforcement points
 - definition_approval
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - definition_change_record
 
 - **Assurance level hint**: informative
 - **Auditability**: basic
 
-## Control Plane
+### Control plane
 **Decision points**
 - definition_approval
 
@@ -69,14 +70,20 @@ Not specified
 **Evidence produced**
 - definition_change_record
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 - [eSSIF-Lab Guardianship](https://essif-lab.github.io/framework/docs/terms/pattern-guardianship)
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/dependent.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

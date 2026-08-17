@@ -2,47 +2,48 @@
 title: "proof"
 ---
 
-> Generated file. Update `glossary/terms/proof.yaml` and regenerate artifacts instead of editing this page directly.
-
 # proof
 
-## Concept Identity
+A simple-English summary has not yet been added for this concept.
+
+## Formal definition
+A digital object that enables cryptographic verification of either: a) the claims from one or more digital credentials, or b) facts about claims that do not reveal the data  itself (e.g., proof of the subject being over/under a specific age without revealing a birthdate).
+
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
+## Names and relationships
+
+### Alternative designations
+- **proofs** (`en`, `alternative`)
+
+### Related concepts
+- [zero-knowledge proof]({{ '/terms/zero-knowledge-proof/' | relative_url }})
+
+### Semantic relations
+- **related**: `urn:tig:concept:zero-knowledge-proof`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
 - **Concept ID**: `urn:tig:concept:proof`
 - **Editorial status**: `stable`
 - **Provenance classification**: `adapted`
 - **Source corpus**: Trust over IP Main Glossary
 
-## In Simple English
-A simple-English summary has not yet been added for this term.
-
-## Definition
-A digital object that enables cryptographic verification of either: a) the claims from one or more digital credentials, or b) facts about claims that do not reveal the data  itself (e.g., proof of the subject being over/under a specific age without revealing a birthdate).
-
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
-
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
-
-## Alternative Designations
-- **proofs** (`en`, `alternative`)
-
-## Legacy Aliases
-proof, proofs
-
-## Semantic Relations
-- **related**: `urn:tig:concept:zero-knowledge-proof`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
-- [zero-knowledge proof]({{ '/terms/zero-knowledge-proof/' | relative_url }})
-
-## Standards and Source References
+### Standards and source references
 - ToIP CTWG maintained glossary source: `spec/terms-definitions/proof.md`
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+proof, proofs
+
+### Governance profile
 - **Authority scope**: credential_issuance
 - **Delegation mode**: direct
 - **Revocation supported**: True
@@ -50,11 +51,11 @@ Not specified
 - **Execution role**: design
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - issuance_decision
 - revocation_decision
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - issuance_log
 - registry_entry
@@ -65,7 +66,7 @@ Not specified
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - issuance_decision
 - revocation_decision
@@ -79,14 +80,20 @@ Not specified
 - audit_log
 - verification_log
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/proof.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

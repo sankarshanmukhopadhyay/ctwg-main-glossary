@@ -1,10 +1,11 @@
 ---
-title: "Concepts: N"
-parent: "Concepts"
+title: "N"
+parent: "A–Z Concept Index"
+grand_parent: "Explore Concepts"
 nav_order: 14
 ---
 
-# Concepts: N
+# Concepts beginning with N
 
 - [natural-person]({{ '/terms/natural-person/' | relative_url }})
 - [natural-thing]({{ '/terms/natural-thing/' | relative_url }})

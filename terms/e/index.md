@@ -1,10 +1,11 @@
 ---
-title: "Concepts: E"
-parent: "Concepts"
+title: "E"
+parent: "A–Z Concept Index"
+grand_parent: "Explore Concepts"
 nav_order: 5
 ---
 
-# Concepts: E
+# Concepts beginning with E
 
 - [ecosystem]({{ '/terms/ecosystem/' | relative_url }})
 - [ecosystem-governance-framework]({{ '/terms/ecosystem-governance-framework/' | relative_url }})

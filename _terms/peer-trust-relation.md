@@ -2,51 +2,52 @@
 title: "peer trust relation"
 ---
 
-> Generated file. Update `glossary/terms/peer-trust-relation.yaml` and regenerate artifacts instead of editing this page directly.
-
 # peer trust relation
 
-## Concept Identity
+A simple-English summary has not yet been added for this concept.
+
+## Formal definition
+A lateral trust relationship between parties that do not hold hierarchical authority over one another and that rely on an explicit trust basis such as credential exchange, policy acceptance, or third-party introduction.
+
+## Why this concept matters
+This term was added following a cross-repository terminology review of TSMM, TIS, TGA, and the DTG ZKP Task Force workspace.
+
+Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.
+
+## Names and relationships
+
+### Alternative designations
+- **peer-trust-relation** (`en`, `alternative`)
+
+### Related concepts
+- [trust-relationship]({{ '/terms/trust-relationship/' | relative_url }})
+- [counterparty]({{ '/terms/counterparty/' | relative_url }})
+- [delegation]({{ '/terms/delegation/' | relative_url }})
+
+### Semantic relations
+- **related**: `urn:tig:concept:trust-relationship`
+- **related**: `urn:tig:concept:counterparty`
+- **related**: `urn:tig:concept:delegation`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
 - **Concept ID**: `urn:tig:concept:peer-trust-relation`
 - **Editorial status**: `stable`
 - **Provenance classification**: `locally_defined`
 - **Source corpus**: Trust Infrastructure Glossary
 
-## In Simple English
-A simple-English summary has not yet been added for this term.
-
-## Definition
-A lateral trust relationship between parties that do not hold hierarchical authority over one another and that rely on an explicit trust basis such as credential exchange, policy acceptance, or third-party introduction.
-
-## Reader Note
-This term was added following a cross-repository terminology review of TSMM, TIS, TGA, and the DTG ZKP Task Force workspace.
-
-## Implementation Relevance
-Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.
-
-## Alternative Designations
-- **peer-trust-relation** (`en`, `alternative`)
-
-## Legacy Aliases
-peer trust relation, peer-trust-relation
-
-## Semantic Relations
-- **related**: `urn:tig:concept:trust-relationship`
-- **related**: `urn:tig:concept:counterparty`
-- **related**: `urn:tig:concept:delegation`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
-- [trust-relationship]({{ '/terms/trust-relationship/' | relative_url }})
-- [counterparty]({{ '/terms/counterparty/' | relative_url }})
-- [delegation]({{ '/terms/delegation/' | relative_url }})
-
-## Standards and Source References
+### Standards and source references
 - [TSMM repository terminology and model documentation](https://github.com/sankarshanmukhopadhyay/trust-systems-meta-model) (GitHub) — informative
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+peer trust relation, peer-trust-relation
+
+### Governance profile
 - **Authority scope**: assurance_and_audit, delegation_and_scope, policy_definition, verification_and_reliance
 - **Delegation mode**: direct_or_constrained
 - **Revocation supported**: True
@@ -54,13 +55,13 @@ Not specified
 - **Execution role**: hybrid
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - policy_approval
 - delegation_grant
 - reliance_decision
 - revocation_decision
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - policy_document
 - delegation_record
@@ -70,7 +71,7 @@ Not specified
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - policy_approval
 - delegation_grant
@@ -85,14 +86,20 @@ Not specified
 - status_record
 - verification_log
 
-## Notes
+### Notes
 - This definition is normalized for cross-repository use and should be applied together with the governing profile or specification that supplies domain-specific constraints.
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/peer-trust-relation.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

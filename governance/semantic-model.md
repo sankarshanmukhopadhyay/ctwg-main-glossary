@@ -1,7 +1,8 @@
 ---
 title: "Semantic Model"
-parent: Governance Documentation
-nav_order: 6
+parent: "Semantic Model & Authoring"
+nav_order: 1
+grand_parent: "Govern TIG"
 ---
 
 # Semantic Model

@@ -2,48 +2,49 @@
 title: "self-sovereign-identity"
 ---
 
-> Generated file. Update `glossary/terms/self-sovereign-identity.yaml` and regenerate artifacts instead of editing this page directly.
-
 # self-sovereign-identity
 
-## Concept Identity
+A simple-English summary has not yet been added for this concept.
+
+## Formal definition
+Self-sovereign identity is a decentralized identity architecture that implements the Principles of SSI — principally that it puts the identity controller (e.g., a natural person or organization) directly in control of the identifiers and credentials they use to assert their digital identity.
+
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
+## Names and relationships
+
+### Alternative designations
+- **self-sovereign identity** (`en`, `alternative`)
+- **SSI** (`en`, `alternative`)
+
+### Related concepts
+- [federated identity]({{ '/terms/federated-identity/' | relative_url }})
+
+### Semantic relations
+- **related**: `urn:tig:concept:federated-identity`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
 - **Concept ID**: `urn:tig:concept:self-sovereign-identity`
 - **Editorial status**: `stable`
 - **Provenance classification**: `adapted`
 - **Source corpus**: Trust over IP Main Glossary
 
-## In Simple English
-A simple-English summary has not yet been added for this term.
-
-## Definition
-Self-sovereign identity is a decentralized identity architecture that implements the Principles of SSI — principally that it puts the identity controller (e.g., a natural person or organization) directly in control of the identifiers and credentials they use to assert their digital identity.
-
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
-
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
-
-## Alternative Designations
-- **self-sovereign identity** (`en`, `alternative`)
-- **SSI** (`en`, `alternative`)
-
-## Legacy Aliases
-self-sovereign identity, SSI
-
-## Semantic Relations
-- **related**: `urn:tig:concept:federated-identity`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
-- [federated identity]({{ '/terms/federated-identity/' | relative_url }})
-
-## Standards and Source References
+### Standards and source references
 - ToIP CTWG maintained glossary source: `spec/terms-definitions/self-sovereign-identity.md`
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+self-sovereign identity, SSI
+
+### Governance profile
 - **Authority scope**: credential_issuance
 - **Delegation mode**: direct
 - **Revocation supported**: True
@@ -51,11 +52,11 @@ Not specified
 - **Execution role**: runtime
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - issuance_decision
 - revocation_decision
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - issuance_log
 - registry_entry
@@ -66,7 +67,7 @@ Not specified
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - issuance_decision
 - revocation_decision
@@ -80,16 +81,22 @@ Not specified
 - audit_log
 - verification_log
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 - Also known as: [[ref: SSI]].
 - [eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#ssi-self-sovereign-identity): SSI (Self-Sovereign Identity) is a term that has many different interpretations, and that we use to refer to concepts/ideas, architectures, processes and technologies that aim to support (autonomous) [parties](https://essif-lab.github.io/framework/docs/terms/party) as they negotiate and execute electronic [transactions](https://essif-lab.github.io/framework/docs/terms/transaction) with one another.
 - [Wikipedia](https://en.wikipedia.org/wiki/Self-sovereign_identity): Self-sovereign identity (SSI) is an approach to [digital identity](https://en.wikipedia.org/wiki/Digital_identity) that gives individuals control over the information they use to prove who they are to [websites](https://en.wikipedia.org/wiki/Website), services, and [applications](https://en.wikipedia.org/wiki/Application_software) across the web. Without SSI, individuals with persistent accounts (identities) across the [internet](https://en.wikipedia.org/wiki/Internet) must rely on a number of large identity providers, such as [Facebook](https://en.wikipedia.org/wiki/Facebook) (Facebook Connect) and [Google](https://en.wikipedia.org/wiki/Google) (Google Sign-In), that have control of the information associated with their identity.
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/self-sovereign-identity.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

@@ -151,50 +151,51 @@ def term_page(data, lookup):
     safe_title = title.replace('"', "'")
 
     return f"""---
-title: \"{safe_title}\"
+title: "{safe_title}"
 ---
-
-> Generated file. Update `glossary/terms/{slugify(title)}.yaml` and regenerate artifacts instead of editing this page directly.
 
 # {title}
 
-## Concept Identity
+{simple_definition or 'A simple-English summary has not yet been added for this concept.'}
+
+## Formal definition
+{definition or 'Definition not yet provided.'}
+
+## Why this concept matters
+{reader_note or 'This concept is provided as a controlled glossary entry for standards, governance, and implementation review.'}
+
+{implementation_relevance or 'Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.'}
+
+## Names and relationships
+
+### Alternative designations
+{designations_md}
+
+### Related concepts
+{format_term_refs(see_also, lookup)}
+
+### Semantic relations
+{relations_md}
+
+### Cross-vocabulary mappings
+{mappings_md}
+
+## Provenance and identity
 - **Concept ID**: `{concept_id or 'Not specified'}`
 - **Editorial status**: `{clean_text(editorial.get('status')) or 'Not specified'}`
 - **Provenance classification**: `{clean_text(provenance.get('classification')) or 'Not specified'}`
 - **Source corpus**: {clean_text(provenance.get('source_corpus')) or 'Not specified'}
 
-## In Simple English
-{simple_definition or 'A simple-English summary has not yet been added for this term.'}
-
-## Definition
-{definition or 'Definition not yet provided.'}
-
-## Reader Note
-{reader_note or 'This term is provided as a controlled glossary entry for standards, governance, and implementation review.'}
-
-## Implementation Relevance
-{implementation_relevance or 'Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.'}
-
-## Alternative Designations
-{designations_md}
-
-## Legacy Aliases
-{aliases_md}
-
-## Semantic Relations
-{relations_md}
-
-## Cross-Vocabulary Mappings
-{mappings_md}
-
-## See Also
-{format_term_refs(see_also, lookup)}
-
-## Standards and Source References
+### Standards and source references
 {format_sources(sources)}
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+{aliases_md}
+
+### Governance profile
 - **Authority scope**: {', '.join(gov.get('authority_scope', [])) or 'Not specified'}
 - **Delegation mode**: {clean_text(gov.get('delegation_mode')) or 'Not specified'}
 - **Revocation supported**: {gov.get('revocation_supported', 'Not specified')}
@@ -202,17 +203,17 @@ title: \"{safe_title}\"
 - **Execution role**: {clean_text(gov.get('execution_role')) or 'Not specified'}
 - **Control-plane role**: {clean_text(gov.get('control_plane_role')) or 'Not specified'}
 
-## Enforcement Points
+### Enforcement points
 {format_list(gov.get('enforcement_points'))}
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 {format_list(assurance.get('evidence_artifacts'))}
 
 - **Assurance level hint**: {clean_text(assurance.get('assurance_level_hint')) or 'Not specified'}
 - **Auditability**: {clean_text(assurance.get('auditability')) or 'Not specified'}
 
-## Control Plane
+### Control plane
 **Decision points**
 {format_list(control.get('decision_points'))}
 
@@ -221,17 +222,23 @@ title: \"{safe_title}\"
 **Evidence produced**
 {format_list(control.get('evidence_produced'))}
 
-## Notes
+### Notes
 {format_list(notes)}
 
-## Supporting Definitions
+### Supporting definitions
 {format_list(supporting)}
 
-## Mental Models
+### Mental models
 {format_list(mental_models)}
 
-## Crosswalk References
+### Crosswalk references
 {crosswalk_md}
+
+</details>
+
+---
+
+*Generated from `glossary/terms/{slugify(title)}.yaml`. Edit the source concept and regenerate rather than editing this page directly.*
 """
 
 
@@ -246,14 +253,15 @@ def write_indexes(term_refs):
     letters = sorted(grouped.keys(), key=lambda x: ('{' if x == '#' else x))
     lines = [
         '---',
-        'title: "Concepts"',
-        'nav_order: 4',
+        'title: "A–Z Concept Index"',
+        'parent: "Explore Concepts"',
+        'nav_order: 2',
         'has_children: true',
         '---',
         '',
-        '# Concepts',
+        '# A–Z Concept Index',
         '',
-        f'This index is generated from `{TERMS_DIR.relative_to(ROOT)}/` and currently includes **{len(term_refs)}** concepts.',
+        f"Browse all **{len(term_refs)}** TIG concepts alphabetically. Use [Browse by Topic]({{{{ '/concepts/' | relative_url }}}}) when you know the problem area but not the exact term.",
         '',
         '## Browse by letter',
         ''
@@ -279,12 +287,13 @@ def write_indexes(term_refs):
         subdir.mkdir(parents=True, exist_ok=True)
         page = [
             '---',
-            f'title: "Concepts: {letter}"',
-            'parent: "Concepts"',
+            f'title: "{letter}"',
+            'parent: "A–Z Concept Index"',
+            'grand_parent: "Explore Concepts"',
             f'nav_order: {letters.index(letter) + 1}',
             '---',
             '',
-            f'# Concepts: {letter}',
+            f'# Concepts beginning with {letter}',
             ''
         ]
         for title, url in grouped[letter]:
@@ -301,8 +310,9 @@ def write_generated_inventory_page():
     page = [
         '---',
         'title: "Generated Inventories"',
-        'parent: Governance Documentation',
-        'nav_order: 20',
+        'parent: "Assurance & Quality"',
+        'grand_parent: "Govern TIG"',
+        'nav_order: 2',
         '---',
         '',
         '# Generated Inventories',

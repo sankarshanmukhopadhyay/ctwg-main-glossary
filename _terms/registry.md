@@ -2,47 +2,48 @@
 title: "registry"
 ---
 
-> Generated file. Update `glossary/terms/registry.yaml` and regenerate artifacts instead of editing this page directly.
-
 # registry
 
-## Concept Identity
+A maintained collection of records used to look up information about defined subjects or relationships.
+
+## Formal definition
+A specialized database of records that serves as an authoritative source of information about entities.
+
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
+## Names and relationships
+
+### Alternative designations
+- **registries** (`en`, `alternative`)
+
+### Related concepts
+- [trust registry]({{ '/terms/trust-registry/' | relative_url }})
+
+### Semantic relations
+- **related**: `urn:tig:concept:trust-registry`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
 - **Concept ID**: `urn:tig:concept:registry`
 - **Editorial status**: `stable`
 - **Provenance classification**: `adapted`
 - **Source corpus**: Trust over IP Main Glossary
 
-## In Simple English
-A maintained collection of records used to look up information about defined subjects or relationships.
-
-## Definition
-A specialized database of records that serves as an authoritative source of information about entities.
-
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
-
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
-
-## Alternative Designations
-- **registries** (`en`, `alternative`)
-
-## Legacy Aliases
-registry, registries
-
-## Semantic Relations
-- **related**: `urn:tig:concept:trust-registry`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
-- [trust registry]({{ '/terms/trust-registry/' | relative_url }})
-
-## Standards and Source References
+### Standards and source references
 - ToIP CTWG maintained glossary source: `spec/terms-definitions/registry.md`
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+registry, registries
+
+### Governance profile
 - **Authority scope**: registry_management, governance_recognition
 - **Delegation mode**: direct
 - **Revocation supported**: True
@@ -50,18 +51,18 @@ Not specified
 - **Execution role**: runtime
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - registration_decision
 - revocation_decision
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - registry_entry
 
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - registration_decision
 - revocation_decision
@@ -71,14 +72,20 @@ Not specified
 **Evidence produced**
 - registry_entry
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/registry.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

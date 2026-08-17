@@ -2,33 +2,55 @@
 layout: home
 title: Trust Infrastructure Glossary
 nav_order: 1
+nav_exclude: true
 description: Governance-executable concept system for digital trust infrastructure.
 ---
 
 # Trust Infrastructure Glossary
 
-The **Trust Infrastructure Glossary (TIG)** publishes stable concepts for digital trust infrastructure in forms that both people and software can use.
+**Stable concepts for digital trust infrastructure, written for people and published for machines.**
 
-It combines plain-English and formal definitions with language-tagged designations, provenance, semantic relations, lifecycle and assurance semantics, and machine-readable artifacts.
+TIG combines plain-English explanations and formal definitions with stable concept identifiers, provenance, semantic relationships, lifecycle and assurance metadata, and machine-readable artifacts.
 
-## What you can do here
+## Choose your path
 
-- browse concepts and alternative designations
-- understand concepts through simple-English and formal definitions
-- inspect provenance and source references
-- review semantic relationships and cross-vocabulary mappings
-- consume JSON, JSON-LD, and SKOS-compatible Turtle
-- use curated vocabulary profiles in downstream projects
-- inspect governance, assurance, lifecycle, evidence, and control-plane metadata
+### I need to understand a concept
 
-## Site sections
+Browse by problem area or use the A–Z index. Concept pages lead with meaning and progressively expose provenance, relationships and implementation metadata.
 
-- [Start Here]({{ '/start-here/' | relative_url }})
-- [Concepts by Topic]({{ '/concepts/' | relative_url }})
-- [Concept Index]({{ '/terms-index/' | relative_url }})
-- [Governance Documentation]({{ '/governance/' | relative_url }})
-- [Machine-readable Artifacts]({{ '/artifacts/' | relative_url }})
+[Explore concepts]({{ '/explore/' | relative_url }})
 
-## v2 independence
+### I need vocabulary for a project
 
-TIG originated from the Trust over IP Main Glossary and retains that lineage through explicit provenance. Version 2.0.0 is independently governed: ToIP is now one source corpus among several rather than the project's governing upstream.
+Use curated profiles or consume the canonical JSON, JSON-LD and SKOS-compatible Turtle artifacts.
+
+[Use TIG]({{ '/use/' | relative_url }})
+
+### I need to review or contribute semantics
+
+Inspect the concept model, authoring rules, provenance policy, assurance checks and source-intake process.
+
+[Govern TIG]({{ '/governance/' | relative_url }})
+
+### I need project context
+
+Understand the v2 independence transition, lineage, releases and roadmap.
+
+[Project context]({{ '/project/' | relative_url }})
+
+## What makes TIG different
+
+| Layer | What it provides |
+|---|---|
+| **Readable** | Plain-English explanations before formal definitions |
+| **Referenceable** | Stable concept IDs independent of labels and page names |
+| **Traceable** | Explicit source provenance and editorial status |
+| **Connected** | Semantic relations and governed cross-vocabulary mappings |
+| **Executable** | Structured authority, lifecycle, evidence and assurance metadata |
+| **Reusable** | Versioned bundles and bounded vocabulary profiles |
+
+## v2.0.0 independence
+
+TIG originated from the Trust over IP Main Glossary and retains that lineage through explicit provenance. **Version 2.0.0 is independently governed:** ToIP is a source corpus, not TIG's governing upstream.
+
+[Read about project lineage]({{ '/governance/project-lineage/' | relative_url }}) · [Read the v2 release notes]({{ '/release-notes-v2-0-0/' | relative_url }})

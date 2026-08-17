@@ -1,7 +1,8 @@
 ---
 title: "Repository Operating Model"
-parent: Governance Documentation
-nav_order: 5
+parent: "Operations & Evolution"
+nav_order: 1
+grand_parent: "Govern TIG"
 ---
 
 # Repository Operating Model

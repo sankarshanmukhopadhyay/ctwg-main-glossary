@@ -1,7 +1,8 @@
 ---
 title: "Plain-English Authoring Guide"
-parent: Governance Documentation
-nav_order: 24
+parent: "Semantic Model & Authoring"
+nav_order: 3
+grand_parent: "Govern TIG"
 ---
 # Plain-English Authoring Guide
 

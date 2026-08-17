@@ -2,52 +2,53 @@
 title: "decentralized-identifier"
 ---
 
-> Generated file. Update `glossary/terms/decentralized-identifier.yaml` and regenerate artifacts instead of editing this page directly.
-
 # decentralized-identifier
 
-## Concept Identity
-- **Concept ID**: `urn:tig:concept:decentralized-identifier`
-- **Editorial status**: `stable`
-- **Provenance classification**: `locally_defined`
-- **Source corpus**: Trust Infrastructure Glossary
+A simple-English summary has not yet been added for this concept.
 
-## In Simple English
-A simple-English summary has not yet been added for this term.
-
-## Definition
+## Formal definition
 A globally unique persistent identifier that does not require a centralized registration authority and is often generated and/or registered cryptographically. The generic format of a DID is defined in section 3.1 DID Syntax of the W3C Decentralized Identifiers (DIDs) 1.0 specification. A specific DID scheme is defined in a DID method specification.
 
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
 
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Alternative Designations
+## Names and relationships
+
+### Alternative designations
 - **decentralized identifier** (`en`, `alternative`)
 - **decentralized identifiers** (`en`, `alternative`)
 - **DID** (`en`, `alternative`)
 - **DIDs** (`en`, `alternative`)
 
-## Legacy Aliases
-decentralized identifier, decentralized-identifier, decentralized identifiers, DID, DIDs
-
-## Semantic Relations
-- **related**: `urn:tig:concept:did-method`
-- **related**: `urn:tig:concept:did-url`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
+### Related concepts
 - [DID method]({{ '/terms/did-method/' | relative_url }})
 - [DID URL]({{ '/terms/did-url/' | relative_url }})
 
-## Standards and Source References
+### Semantic relations
+- **related**: `urn:tig:concept:did-method`
+- **related**: `urn:tig:concept:did-url`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
+- **Concept ID**: `urn:tig:concept:decentralized-identifier`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
+### Standards and source references
 - [W3C DID](https://www.w3.org/TR/did-core/#terminology).
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+decentralized identifier, decentralized-identifier, decentralized identifiers, DID, DIDs
+
+### Governance profile
 - **Authority scope**: governance_recognition
 - **Delegation mode**: direct
 - **Revocation supported**: True
@@ -55,10 +56,10 @@ Not specified
 - **Execution role**: runtime
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - revocation_decision
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - definition_change_record
 - status_record
@@ -69,7 +70,7 @@ Not specified
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - revocation_decision
 
@@ -82,14 +83,20 @@ Not specified
 - verification_log
 - registry_entry
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 - Also known as: [[ref: DID]].
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/decentralized-identifier.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

@@ -2,50 +2,51 @@
 title: "first-party"
 ---
 
-> Generated file. Update `glossary/terms/first-party.yaml` and regenerate artifacts instead of editing this page directly.
-
 # first-party
 
-## Concept Identity
+The party who initiates a trust relationship, connection, or transaction with a second party.
+
+## Formal definition
+The party who initiates a trust relationship, connection, or transaction with a second party.
+
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
+## Names and relationships
+
+### Alternative designations
+- **first party** (`en`, `alternative`)
+- **first parties** (`en`, `alternative`)
+
+### Related concepts
+- [third party]({{ '/terms/third-party/' | relative_url }})
+- [fourth party]({{ '/terms/fourth-party/' | relative_url }})
+
+### Semantic relations
+- **related**: `urn:tig:concept:third-party`
+- **related**: `urn:tig:concept:fourth-party`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
 - **Concept ID**: `urn:tig:concept:first-party`
 - **Editorial status**: `stable`
 - **Provenance classification**: `adapted`
 - **Source corpus**: Trust over IP Main Glossary
 
-## In Simple English
-The party who initiates a trust relationship, connection, or transaction with a second party.
-
-## Definition
-The party who initiates a trust relationship, connection, or transaction with a second party.
-
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
-
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
-
-## Alternative Designations
-- **first party** (`en`, `alternative`)
-- **first parties** (`en`, `alternative`)
-
-## Legacy Aliases
-first party, first parties
-
-## Semantic Relations
-- **related**: `urn:tig:concept:third-party`
-- **related**: `urn:tig:concept:fourth-party`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
-- [third party]({{ '/terms/third-party/' | relative_url }})
-- [fourth party]({{ '/terms/fourth-party/' | relative_url }})
-
-## Standards and Source References
+### Standards and source references
 - ToIP CTWG maintained glossary source: `spec/terms-definitions/first-party.md`
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+first party, first parties
+
+### Governance profile
 - **Authority scope**: terminology_definition
 - **Delegation mode**: direct
 - **Revocation supported**: False
@@ -53,10 +54,10 @@ Not specified
 - **Execution role**: design
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - definition_approval
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - definition_change_record
 - policy_document
@@ -65,7 +66,7 @@ Not specified
 - **Assurance level hint**: AL1+
 - **Auditability**: moderate
 
-## Control Plane
+### Control plane
 **Decision points**
 - definition_approval
 
@@ -76,14 +77,20 @@ Not specified
 - policy_document
 - audit_log
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/first-party.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

@@ -2,53 +2,54 @@
 title: "status-record"
 ---
 
-> Generated file. Update `glossary/terms/status-record.yaml` and regenerate artifacts instead of editing this page directly.
-
 # status-record
 
-## Concept Identity
-- **Concept ID**: `urn:tig:concept:status-record`
-- **Editorial status**: `stable`
-- **Provenance classification**: `locally_defined`
-- **Source corpus**: Trust Infrastructure Glossary
-
-## In Simple English
 An inspectable record that represents the validity, suspension, revocation, or lifecycle status of a credential, authorization, registration, or governed object.
 
-## Definition
+## Formal definition
 An inspectable record that represents the validity, suspension, revocation, or lifecycle status of a credential, authorization, registration, or governed object.
 
-## Reader Note
+## Why this concept matters
 This bridge term improves navigation across privacy, status, provenance, and assurance concepts.
 
-## Implementation Relevance
 Use this term where evidence needs to be carried across both reader-facing documentation and machine-verifiable assurance artifacts.
 
-## Alternative Designations
+## Names and relationships
+
+### Alternative designations
 - **status record** (`en`, `alternative`)
 
-## Legacy Aliases
-status record
-
-## Semantic Relations
-- **related**: `urn:tig:concept:revocation`
-- **related**: `urn:tig:concept:bitstring-status-list`
-- **related**: `urn:tig:concept:audit-log`
-- **related**: `urn:tig:concept:verification`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
+### Related concepts
 - [revocation]({{ '/terms/revocation/' | relative_url }})
 - [bitstring-status-list]({{ '/terms/bitstring-status-list/' | relative_url }})
 - [audit-log]({{ '/terms/audit-log/' | relative_url }})
 - [verification]({{ '/terms/verification/' | relative_url }})
 
-## Standards and Source References
+### Semantic relations
+- **related**: `urn:tig:concept:revocation`
+- **related**: `urn:tig:concept:bitstring-status-list`
+- **related**: `urn:tig:concept:audit-log`
+- **related**: `urn:tig:concept:verification`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
+- **Concept ID**: `urn:tig:concept:status-record`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
+### Standards and source references
 - [Verifiable Credentials Data Model v2.0](https://www.w3.org/TR/vc-data-model-2.0/) (W3C; Recommendation; 2.0; 2025-05-15) — normative
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+status record
+
+### Governance profile
 - **Authority scope**: assurance_and_audit, verification_and_reliance
 - **Delegation mode**: direct
 - **Revocation supported**: True
@@ -56,11 +57,11 @@ Not specified
 - **Execution role**: hybrid
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - revocation_decision
 - reliance_decision
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - status_record
 - verification_log
@@ -69,7 +70,7 @@ Not specified
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - revocation_decision
 - reliance_decision
@@ -81,14 +82,20 @@ Not specified
 - verification_log
 - audit_log
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 - **W3C**: VC Data Model v2.0
+
+</details>
+
+---
+
+*Generated from `glossary/terms/status-record.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

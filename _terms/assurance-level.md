@@ -2,47 +2,25 @@
 title: "assurance-level"
 ---
 
-> Generated file. Update `glossary/terms/assurance-level.yaml` and regenerate artifacts instead of editing this page directly.
-
 # assurance-level
 
-## Concept Identity
-- **Concept ID**: `urn:tig:concept:assurance-level`
-- **Editorial status**: `stable`
-- **Provenance classification**: `adapted`
-- **Source corpus**: Trust over IP Main Glossary
-
-## In Simple English
 A stated level of confidence supported by defined evidence, controls, and review expectations.
 
-## Definition
+## Formal definition
 A level of confidence in a claim that may be relied on by others. Different types of assurance levels are defined for different types of trust assurance mechanisms. Examples include authenticator assurance level, federation assurance level, and identity assurance level.
 
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
 
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Alternative Designations
+## Names and relationships
+
+### Alternative designations
 - **assurance level** (`en`, `alternative`)
 - **assurance levels** (`en`, `alternative`)
 
-## Legacy Aliases
-assurance level, assurance levels
-
-## Semantic Relations
-- **related**: `urn:tig:concept:credential`
-- **related**: `urn:tig:concept:issuer`
-- **related**: `urn:tig:concept:issuance`
-- **related**: `urn:tig:concept:verifiable-credential`
-- **related**: `urn:tig:concept:authorization`
-- **related**: `urn:tig:concept:permission`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
+### Related concepts
 - [credential]({{ '/terms/credential/' | relative_url }})
 - [issuer]({{ '/terms/issuer/' | relative_url }})
 - [issuance]({{ '/terms/issuance/' | relative_url }})
@@ -50,10 +28,33 @@ Not specified
 - [authorization]({{ '/terms/authorization/' | relative_url }})
 - [permission]({{ '/terms/permission/' | relative_url }})
 
-## Standards and Source References
+### Semantic relations
+- **related**: `urn:tig:concept:credential`
+- **related**: `urn:tig:concept:issuer`
+- **related**: `urn:tig:concept:issuance`
+- **related**: `urn:tig:concept:verifiable-credential`
+- **related**: `urn:tig:concept:authorization`
+- **related**: `urn:tig:concept:permission`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
+- **Concept ID**: `urn:tig:concept:assurance-level`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
+### Standards and source references
 - ToIP CTWG maintained glossary source: `spec/terms-definitions/assurance-level.md`
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+assurance level, assurance levels
+
+### Governance profile
 - **Authority scope**: credential_issuance, access_decisioning, assurance_and_audit
 - **Delegation mode**: direct
 - **Revocation supported**: True
@@ -61,12 +62,12 @@ Not specified
 - **Execution role**: runtime
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - issuance_decision
 - access_decision
 - revocation_decision
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - issuance_log
 - attestation
@@ -80,7 +81,7 @@ Not specified
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - issuance_decision
 - access_decision
@@ -98,15 +99,21 @@ Not specified
 - audit_log
 - verification_log
 
-## Notes
+### Notes
 - Assurance levels are most useful when the criteria for each level are explicit, testable, and supported by inspectable evidence.
 
-## Supporting Definitions
+### Supporting definitions
 - For verifiable credentials, an assurance level measures the degree of certainty in an identity's authenticity or a credential's validity. It is influenced by the strength of the identity assurance process, the robustness of the authentication process, the management of the credential issuer, and the evidence available to support those assessments.
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 - **NIST**: IA-8
 - **ISO**: ISO/IEC 29115
+
+</details>
+
+---
+
+*Generated from `glossary/terms/assurance-level.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

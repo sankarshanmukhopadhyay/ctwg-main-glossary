@@ -2,47 +2,25 @@
 title: "credential-governance-framework"
 ---
 
-> Generated file. Update `glossary/terms/credential-governance-framework.yaml` and regenerate artifacts instead of editing this page directly.
-
 # credential-governance-framework
 
-## Concept Identity
-- **Concept ID**: `urn:tig:concept:credential-governance-framework`
-- **Editorial status**: `stable`
-- **Provenance classification**: `adapted`
-- **Source corpus**: Trust over IP Main Glossary
-
-## In Simple English
 A governance framework for a credential family. A credential governance framework may be included within or referenced by an ecosystem governance framework.
 
-## Definition
+## Formal definition
 A governance framework for a credential family. A credential governance framework may be included within or referenced by an ecosystem governance framework.
 
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
 
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Alternative Designations
+## Names and relationships
+
+### Alternative designations
 - **credential governance framework** (`en`, `alternative`)
 - **credential governance frameworks** (`en`, `alternative`)
 
-## Legacy Aliases
-credential governance framework, credential governance frameworks
-
-## Semantic Relations
-- **related**: `urn:tig:concept:credential`
-- **related**: `urn:tig:concept:issuer`
-- **related**: `urn:tig:concept:issuance`
-- **related**: `urn:tig:concept:verifiable-credential`
-- **related**: `urn:tig:concept:policy`
-- **related**: `urn:tig:concept:governance-framework`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
+### Related concepts
 - [credential]({{ '/terms/credential/' | relative_url }})
 - [issuer]({{ '/terms/issuer/' | relative_url }})
 - [issuance]({{ '/terms/issuance/' | relative_url }})
@@ -50,10 +28,33 @@ Not specified
 - [policy]({{ '/terms/policy/' | relative_url }})
 - [governance-framework]({{ '/terms/governance-framework/' | relative_url }})
 
-## Standards and Source References
+### Semantic relations
+- **related**: `urn:tig:concept:credential`
+- **related**: `urn:tig:concept:issuer`
+- **related**: `urn:tig:concept:issuance`
+- **related**: `urn:tig:concept:verifiable-credential`
+- **related**: `urn:tig:concept:policy`
+- **related**: `urn:tig:concept:governance-framework`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
+- **Concept ID**: `urn:tig:concept:credential-governance-framework`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
+### Standards and source references
 - ToIP CTWG maintained glossary source: `spec/terms-definitions/credential-governance-framework.md`
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+credential governance framework, credential governance frameworks
+
+### Governance profile
 - **Authority scope**: credential_issuance, policy_definition, governance_recognition
 - **Delegation mode**: direct
 - **Revocation supported**: True
@@ -61,12 +62,12 @@ Not specified
 - **Execution role**: runtime
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - policy_approval
 - issuance_decision
 - revocation_decision
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - policy_document
 - issuance_log
@@ -78,7 +79,7 @@ Not specified
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - policy_approval
 - issuance_decision
@@ -94,14 +95,20 @@ Not specified
 - status_record
 - verification_log
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/credential-governance-framework.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

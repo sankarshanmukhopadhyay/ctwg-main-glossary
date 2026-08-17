@@ -2,46 +2,24 @@
 title: "authorized-organizational-representative"
 ---
 
-> Generated file. Update `glossary/terms/authorized-organizational-representative.yaml` and regenerate artifacts instead of editing this page directly.
-
 # authorized-organizational-representative
 
-## Concept Identity
-- **Concept ID**: `urn:tig:concept:authorized-organizational-representative`
-- **Editorial status**: `stable`
-- **Provenance classification**: `locally_defined`
-- **Source corpus**: Trust Infrastructure Glossary
-
-## In Simple English
 A person who has the authority to make claims, sign documents or otherwise commit resources on behalf of an organization.
 
-## Definition
+## Formal definition
 A person who has the authority to make claims, sign documents or otherwise commit resources on behalf of an organization.
 
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
 
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Alternative Designations
+## Names and relationships
+
+### Alternative designations
 - **authorized organizational representative** (`en`, `alternative`)
 
-## Legacy Aliases
-authorized organizational representative
-
-## Semantic Relations
-- **related**: `urn:tig:concept:credential`
-- **related**: `urn:tig:concept:issuer`
-- **related**: `urn:tig:concept:issuance`
-- **related**: `urn:tig:concept:verifiable-credential`
-- **related**: `urn:tig:concept:delegation`
-- **related**: `urn:tig:concept:delegator`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
+### Related concepts
 - [credential]({{ '/terms/credential/' | relative_url }})
 - [issuer]({{ '/terms/issuer/' | relative_url }})
 - [issuance]({{ '/terms/issuance/' | relative_url }})
@@ -49,10 +27,33 @@ Not specified
 - [delegation]({{ '/terms/delegation/' | relative_url }})
 - [delegator]({{ '/terms/delegator/' | relative_url }})
 
-## Standards and Source References
+### Semantic relations
+- **related**: `urn:tig:concept:credential`
+- **related**: `urn:tig:concept:issuer`
+- **related**: `urn:tig:concept:issuance`
+- **related**: `urn:tig:concept:verifiable-credential`
+- **related**: `urn:tig:concept:delegation`
+- **related**: `urn:tig:concept:delegator`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
+- **Concept ID**: `urn:tig:concept:authorized-organizational-representative`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
+### Standards and source references
 - [Law Insider](https://www.lawinsider.com/dictionary/authorized-organizational-representative#:~:text=Authorized%20Organizational%20Representative%20means%20the,the%20resources%20of%20the%20organization.)
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+authorized organizational representative
+
+### Governance profile
 - **Authority scope**: credential_issuance, delegation_and_scope, governance_recognition
 - **Delegation mode**: direct_or_constrained
 - **Revocation supported**: True
@@ -60,12 +61,12 @@ Not specified
 - **Execution role**: runtime
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - delegation_grant
 - issuance_decision
 - revocation_decision
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - delegation_record
 - issuance_log
@@ -78,7 +79,7 @@ Not specified
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - delegation_grant
 - issuance_decision
@@ -95,14 +96,20 @@ Not specified
 - audit_log
 - verification_log
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/authorized-organizational-representative.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

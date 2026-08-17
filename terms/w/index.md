@@ -1,10 +1,11 @@
 ---
-title: "Concepts: W"
-parent: "Concepts"
+title: "W"
+parent: "A–Z Concept Index"
+grand_parent: "Explore Concepts"
 nav_order: 23
 ---
 
-# Concepts: W
+# Concepts beginning with W
 
 - [w3c-verifiable-credentials-data-model-specification]({{ '/terms/w3c-verifiable-credentials-data-model-specification/' | relative_url }})
 - [wallet]({{ '/terms/wallet/' | relative_url }})

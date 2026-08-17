@@ -1,10 +1,11 @@
 ---
-title: "Concepts: B"
-parent: "Concepts"
+title: "B"
+parent: "A–Z Concept Index"
+grand_parent: "Explore Concepts"
 nav_order: 2
 ---
 
-# Concepts: B
+# Concepts beginning with B
 
 - [binding]({{ '/terms/binding/' | relative_url }})
 - [biometric]({{ '/terms/biometric/' | relative_url }})

@@ -2,46 +2,24 @@
 title: "governed-information"
 ---
 
-> Generated file. Update `glossary/terms/governed-information.yaml` and regenerate artifacts instead of editing this page directly.
-
 # governed-information
 
-## Concept Identity
-- **Concept ID**: `urn:tig:concept:governed-information`
-- **Editorial status**: `stable`
-- **Provenance classification**: `adapted`
-- **Source corpus**: Trust over IP Main Glossary
+A simple-English summary has not yet been added for this concept.
 
-## In Simple English
-A simple-English summary has not yet been added for this term.
-
-## Definition
+## Formal definition
 Any information published under the authority of a governing body for the purpose of governing a trust community. This includes its governance framework and any information available via an authorized trust registry.
 
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
 
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Alternative Designations
+## Names and relationships
+
+### Alternative designations
 - **governed information** (`en`, `alternative`)
 
-## Legacy Aliases
-governed information
-
-## Semantic Relations
-- **related**: `urn:tig:concept:policy`
-- **related**: `urn:tig:concept:governance-framework`
-- **related**: `urn:tig:concept:requirement`
-- **related**: `urn:tig:concept:registry`
-- **related**: `urn:tig:concept:trust-registry`
-- **related**: `urn:tig:concept:registration`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
+### Related concepts
 - [policy]({{ '/terms/policy/' | relative_url }})
 - [governance-framework]({{ '/terms/governance-framework/' | relative_url }})
 - [requirement]({{ '/terms/requirement/' | relative_url }})
@@ -49,10 +27,33 @@ Not specified
 - [trust-registry]({{ '/terms/trust-registry/' | relative_url }})
 - [registration]({{ '/terms/registration/' | relative_url }})
 
-## Standards and Source References
+### Semantic relations
+- **related**: `urn:tig:concept:policy`
+- **related**: `urn:tig:concept:governance-framework`
+- **related**: `urn:tig:concept:requirement`
+- **related**: `urn:tig:concept:registry`
+- **related**: `urn:tig:concept:trust-registry`
+- **related**: `urn:tig:concept:registration`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
+- **Concept ID**: `urn:tig:concept:governed-information`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
+### Standards and source references
 - ToIP CTWG maintained glossary source: `spec/terms-definitions/governed-information.md`
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+governed information
+
+### Governance profile
 - **Authority scope**: policy_definition, registry_management, governance_recognition
 - **Delegation mode**: direct
 - **Revocation supported**: True
@@ -60,12 +61,12 @@ Not specified
 - **Execution role**: runtime
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - policy_approval
 - registration_decision
 - revocation_decision
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - policy_document
 - registry_entry
@@ -73,7 +74,7 @@ Not specified
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - policy_approval
 - registration_decision
@@ -85,14 +86,20 @@ Not specified
 - policy_document
 - registry_entry
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/governed-information.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

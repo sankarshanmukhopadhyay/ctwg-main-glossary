@@ -2,47 +2,48 @@
 title: "certification"
 ---
 
-> Generated file. Update `glossary/terms/certification.yaml` and regenerate artifacts instead of editing this page directly.
-
 # certification
 
-## Concept Identity
+A simple-English summary has not yet been added for this concept.
+
+## Formal definition
+A comprehensive assessment of the management, operational, and technical security controls in an information system, made in support of security accreditation, to determine the extent to which the controls are implemented correctly, operating as intended, and producing the desired outcome with respect to meeting the security requirements for the system.
+
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
+## Names and relationships
+
+### Alternative designations
+- **certifications** (`en`, `alternative`)
+
+### Related concepts
+- [accreditation]({{ '/terms/accreditation/' | relative_url }})
+
+### Semantic relations
+- **related**: `urn:tig:concept:accreditation`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
 - **Concept ID**: `urn:tig:concept:certification`
 - **Editorial status**: `stable`
 - **Provenance classification**: `locally_defined`
 - **Source corpus**: Trust Infrastructure Glossary
 
-## In Simple English
-A simple-English summary has not yet been added for this term.
-
-## Definition
-A comprehensive assessment of the management, operational, and technical security controls in an information system, made in support of security accreditation, to determine the extent to which the controls are implemented correctly, operating as intended, and producing the desired outcome with respect to meeting the security requirements for the system.
-
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
-
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
-
-## Alternative Designations
-- **certifications** (`en`, `alternative`)
-
-## Legacy Aliases
-certification, certifications
-
-## Semantic Relations
-- **related**: `urn:tig:concept:accreditation`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
-- [accreditation]({{ '/terms/accreditation/' | relative_url }})
-
-## Standards and Source References
+### Standards and source references
 - [NIST-CSRC](https://csrc.nist.gov/glossary/term/certification).
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+certification, certifications
+
+### Governance profile
 - **Authority scope**: governance_recognition
 - **Delegation mode**: direct
 - **Revocation supported**: False
@@ -50,10 +51,10 @@ Not specified
 - **Execution role**: design
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - definition_approval
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - definition_change_record
 - policy_document
@@ -62,7 +63,7 @@ Not specified
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - definition_approval
 
@@ -73,14 +74,20 @@ Not specified
 - policy_document
 - audit_log
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/certification.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

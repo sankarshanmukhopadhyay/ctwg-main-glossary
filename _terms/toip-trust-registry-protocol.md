@@ -2,53 +2,54 @@
 title: "toip-trust-registry-protocol"
 ---
 
-> Generated file. Update `glossary/terms/toip-trust-registry-protocol.yaml` and regenerate artifacts instead of editing this page directly.
-
 # toip-trust-registry-protocol
 
-## Concept Identity
-- **Concept ID**: `urn:tig:concept:toip-trust-registry-protocol`
-- **Editorial status**: `stable`
-- **Provenance classification**: `adapted`
-- **Source corpus**: Trust over IP Main Glossary
+A simple-English summary has not yet been added for this concept.
 
-## In Simple English
-A simple-English summary has not yet been added for this term.
-
-## Definition
+## Formal definition
 The open standard trust task protocol defined by the ToIP Foundation to perform the trust task of querying a trust registry. The ToIP Trust Registry Protocol operates at Layer 3 of the ToIP stack.
 
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
 
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Alternative Designations
+## Names and relationships
+
+### Alternative designations
 - **ToIP Trust Registry Protocol** (`en`, `alternative`)
 
-## Legacy Aliases
-ToIP Trust Registry Protocol
-
-## Semantic Relations
-- **related**: `urn:tig:concept:registry`
-- **related**: `urn:tig:concept:trust-registry`
-- **related**: `urn:tig:concept:registration`
-- **related**: `urn:tig:concept:governance-framework`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
+### Related concepts
 - [registry]({{ '/terms/registry/' | relative_url }})
 - [trust-registry]({{ '/terms/trust-registry/' | relative_url }})
 - [registration]({{ '/terms/registration/' | relative_url }})
 - [governance-framework]({{ '/terms/governance-framework/' | relative_url }})
 
-## Standards and Source References
+### Semantic relations
+- **related**: `urn:tig:concept:registry`
+- **related**: `urn:tig:concept:trust-registry`
+- **related**: `urn:tig:concept:registration`
+- **related**: `urn:tig:concept:governance-framework`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
+- **Concept ID**: `urn:tig:concept:toip-trust-registry-protocol`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
+### Standards and source references
 - ToIP CTWG maintained glossary source: `spec/terms-definitions/toip-trust-registry-protocol.md`
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+ToIP Trust Registry Protocol
+
+### Governance profile
 - **Authority scope**: registry_management
 - **Delegation mode**: direct
 - **Revocation supported**: True
@@ -56,18 +57,18 @@ Not specified
 - **Execution role**: runtime
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - registration_decision
 - revocation_decision
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - registry_entry
 
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - registration_decision
 - revocation_decision
@@ -77,14 +78,20 @@ Not specified
 **Evidence produced**
 - registry_entry
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/toip-trust-registry-protocol.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

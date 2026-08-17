@@ -2,50 +2,51 @@
 title: "complex-password"
 ---
 
-> Generated file. Update `glossary/terms/complex-password.yaml` and regenerate artifacts instead of editing this page directly.
-
 # complex-password
 
-## Concept Identity
+A password that meets certain security requirements, such as minimum length, inclusion of different character types, non-repetition of characters, and so on.
+
+## Formal definition
+A password that meets certain security requirements, such as minimum length, inclusion of different character types, non-repetition of characters, and so on.
+
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
+## Names and relationships
+
+### Alternative designations
+- **complex password** (`en`, `alternative`)
+- **complex passwords** (`en`, `alternative`)
+
+### Related concepts
+- [glossary]({{ '/terms/glossary/' | relative_url }})
+- [definition]({{ '/terms/definition/' | relative_url }})
+
+### Semantic relations
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:definition`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
 - **Concept ID**: `urn:tig:concept:complex-password`
 - **Editorial status**: `stable`
 - **Provenance classification**: `adapted`
 - **Source corpus**: Trust over IP Main Glossary
 
-## In Simple English
-A password that meets certain security requirements, such as minimum length, inclusion of different character types, non-repetition of characters, and so on.
-
-## Definition
-A password that meets certain security requirements, such as minimum length, inclusion of different character types, non-repetition of characters, and so on.
-
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
-
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
-
-## Alternative Designations
-- **complex password** (`en`, `alternative`)
-- **complex passwords** (`en`, `alternative`)
-
-## Legacy Aliases
-complex password, complex passwords
-
-## Semantic Relations
-- **related**: `urn:tig:concept:glossary`
-- **related**: `urn:tig:concept:definition`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
-- [glossary]({{ '/terms/glossary/' | relative_url }})
-- [definition]({{ '/terms/definition/' | relative_url }})
-
-## Standards and Source References
+### Standards and source references
 - ToIP CTWG maintained glossary source: `spec/terms-definitions/complex-password.md`
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+complex password, complex passwords
+
+### Governance profile
 - **Authority scope**: terminology_definition
 - **Delegation mode**: direct
 - **Revocation supported**: False
@@ -53,17 +54,17 @@ Not specified
 - **Execution role**: design
 - **Control-plane role**: reference_term
 
-## Enforcement Points
+### Enforcement points
 - definition_approval
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - definition_change_record
 
 - **Assurance level hint**: informative
 - **Auditability**: basic
 
-## Control Plane
+### Control plane
 **Decision points**
 - definition_approval
 
@@ -72,14 +73,20 @@ Not specified
 **Evidence produced**
 - definition_change_record
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 - [Science Direct](https://www.sciencedirect.com/topics/computer-science/complex-password): According to Microsoft, complex passwords consist of at least seven characters, including three of the following four character types: uppercase letters, lowercase letters, numeric digits, and non-alphanumeric characters such as & $ \* and !
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/complex-password.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

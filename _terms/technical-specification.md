@@ -2,54 +2,55 @@
 title: "technical-specification"
 ---
 
-> Generated file. Update `glossary/terms/technical-specification.yaml` and regenerate artifacts instead of editing this page directly.
-
 # technical-specification
 
-## Concept Identity
-- **Concept ID**: `urn:tig:concept:technical-specification`
-- **Editorial status**: `stable`
-- **Provenance classification**: `locally_defined`
-- **Source corpus**: Trust Infrastructure Glossary
+A simple-English summary has not yet been added for this concept.
 
-## In Simple English
-A simple-English summary has not yet been added for this term.
-
-## Definition
+## Formal definition
 A document that specifies, in a complete, precise, verifiable manner, the requirements, design, behavior, or other characteristics of a system or component and often the procedures for determining whether these provisions have been satisfied.
 
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
 
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Alternative Designations
+## Names and relationships
+
+### Alternative designations
 - **technical specification** (`en`, `alternative`)
 - **technical specifications** (`en`, `alternative`)
 
-## Legacy Aliases
-technical specification, technical specifications
-
-## Semantic Relations
-- **related**: `urn:tig:concept:governance-framework`
-- **related**: `urn:tig:concept:governance-requirement`
-- **related**: `urn:tig:concept:policy`
-- **related**: `urn:tig:concept:rule`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
+### Related concepts
 - [governance framework]({{ '/terms/governance-framework/' | relative_url }})
 - [governance requirement]({{ '/terms/governance-requirement/' | relative_url }})
 - [policy]({{ '/terms/policy/' | relative_url }})
 - [rule]({{ '/terms/rule/' | relative_url }})
 
-## Standards and Source References
+### Semantic relations
+- **related**: `urn:tig:concept:governance-framework`
+- **related**: `urn:tig:concept:governance-requirement`
+- **related**: `urn:tig:concept:policy`
+- **related**: `urn:tig:concept:rule`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
+- **Concept ID**: `urn:tig:concept:technical-specification`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
+### Standards and source references
 - [NIST-CSRC](https://csrc.nist.gov/glossary/term/specification)
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+technical specification, technical specifications
+
+### Governance profile
 - **Authority scope**: terminology_definition
 - **Delegation mode**: direct
 - **Revocation supported**: False
@@ -57,17 +58,17 @@ Not specified
 - **Execution role**: design
 - **Control-plane role**: reference_term
 
-## Enforcement Points
+### Enforcement points
 - definition_approval
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - definition_change_record
 
 - **Assurance level hint**: informative
 - **Auditability**: basic
 
-## Control Plane
+### Control plane
 **Decision points**
 - definition_approval
 
@@ -76,14 +77,20 @@ Not specified
 **Evidence produced**
 - definition_change_record
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/technical-specification.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

@@ -2,48 +2,49 @@
 title: "terms-community"
 ---
 
-> Generated file. Update `glossary/terms/terms-community.yaml` and regenerate artifacts instead of editing this page directly.
-
 # terms-community
 
-## Concept Identity
+A group of parties who share the need for a common terminology.
+
+## Formal definition
+A group of parties who share the need for a common terminology.
+
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
+## Names and relationships
+
+### Alternative designations
+- **terms community** (`en`, `alternative`)
+- **terms communities** (`en`, `alternative`)
+
+### Related concepts
+- [trust community]({{ '/terms/trust-community/' | relative_url }})
+
+### Semantic relations
+- **related**: `urn:tig:concept:trust-community`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
 - **Concept ID**: `urn:tig:concept:terms-community`
 - **Editorial status**: `stable`
 - **Provenance classification**: `adapted`
 - **Source corpus**: Trust over IP Main Glossary
 
-## In Simple English
-A group of parties who share the need for a common terminology.
-
-## Definition
-A group of parties who share the need for a common terminology.
-
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
-
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
-
-## Alternative Designations
-- **terms community** (`en`, `alternative`)
-- **terms communities** (`en`, `alternative`)
-
-## Legacy Aliases
-terms community, terms communities
-
-## Semantic Relations
-- **related**: `urn:tig:concept:trust-community`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
-- [trust community]({{ '/terms/trust-community/' | relative_url }})
-
-## Standards and Source References
+### Standards and source references
 - ToIP CTWG maintained glossary source: `spec/terms-definitions/terms-community.md`
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+terms community, terms communities
+
+### Governance profile
 - **Authority scope**: terminology_definition
 - **Delegation mode**: direct
 - **Revocation supported**: False
@@ -51,17 +52,17 @@ Not specified
 - **Execution role**: design
 - **Control-plane role**: reference_term
 
-## Enforcement Points
+### Enforcement points
 - definition_approval
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - definition_change_record
 
 - **Assurance level hint**: informative
 - **Auditability**: basic
 
-## Control Plane
+### Control plane
 **Decision points**
 - definition_approval
 
@@ -70,14 +71,20 @@ Not specified
 **Evidence produced**
 - definition_change_record
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/terms-community.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

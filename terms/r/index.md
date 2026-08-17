@@ -1,10 +1,11 @@
 ---
-title: "Concepts: R"
-parent: "Concepts"
+title: "R"
+parent: "A–Z Concept Index"
+grand_parent: "Explore Concepts"
 nav_order: 18
 ---
 
-# Concepts: R
+# Concepts beginning with R
 
 - [rbac]({{ '/terms/rbac/' | relative_url }})
 - [real-world-identity]({{ '/terms/real-world-identity/' | relative_url }})

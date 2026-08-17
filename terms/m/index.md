@@ -1,10 +1,11 @@
 ---
-title: "Concepts: M"
-parent: "Concepts"
+title: "M"
+parent: "A–Z Concept Index"
+grand_parent: "Explore Concepts"
 nav_order: 13
 ---
 
-# Concepts: M
+# Concepts beginning with M
 
 - [machine-readable]({{ '/terms/machine-readable/' | relative_url }})
 - [man-made-thing]({{ '/terms/man-made-thing/' | relative_url }})

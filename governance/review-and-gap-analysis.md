@@ -1,7 +1,8 @@
 ---
 title: "Review and Gap Analysis"
-parent: Governance Documentation
-nav_order: 45
+parent: "Assurance & Quality"
+nav_order: 5
+grand_parent: "Govern TIG"
 ---
 
 # Main Glossary Review: Gaps and Improvement Areas

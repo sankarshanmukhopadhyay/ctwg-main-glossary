@@ -1,7 +1,7 @@
 ---
 title: "Downstream Consumption"
-parent: Governance Documentation
-nav_order: 27
+parent: "Use TIG"
+nav_order: 3
 ---
 
 # Downstream Consumption

@@ -1,8 +1,22 @@
+---
+title: v2.0.0 Release Notes
+parent: Project
+nav_order: 2
+permalink: /release-notes-v2-0-0/
+---
+
 # Trust Infrastructure Glossary v2.0.0
 
 **Release date:** 17 August 2026
 
 v2.0.0 is the independence and semantic-model release. It establishes the former ToIP-derived glossary fork as the **Trust Infrastructure Glossary (TIG)**: an independently governed, governance-executable concept system for digital trust infrastructure.
+
+## Reader-first GitHub Pages information architecture
+
+The v2 publication site is reorganized around four reader tasks: **Explore Concepts**, **Use TIG**, **Govern TIG**, and **Project**. Alphabetical browsing and topic browsing now sit under a single exploration hierarchy; profiles, artifacts, and downstream integration sit together; governance material is grouped into semantic authoring, assurance/quality, and operations/evolution; and project lineage, migration, releases, roadmap, and contribution guidance are separated from glossary governance.
+
+Generated concept pages now lead with plain-English meaning, formal definition, relevance, names, and relationships. Provenance and stable identity follow, while detailed governance, assurance, control-plane, evidence, and crosswalk metadata is progressively disclosed for readers who need it.
+
 
 ## Breaking changes
 

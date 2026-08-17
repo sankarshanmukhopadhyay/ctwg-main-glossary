@@ -1,7 +1,8 @@
 ---
 title: "Governance-Executable Glossary"
-parent: Governance Documentation
-nav_order: 10
+parent: "Semantic Model & Authoring"
+nav_order: 5
+grand_parent: "Govern TIG"
 ---
 
 # Governance-Executable Glossary

@@ -1,7 +1,8 @@
 ---
 title: "Governance Quality Report"
-parent: Governance Documentation
-nav_order: 21
+parent: "Assurance & Quality"
+grand_parent: "Govern TIG"
+nav_order: 3
 ---
 
 # Governance Quality Report

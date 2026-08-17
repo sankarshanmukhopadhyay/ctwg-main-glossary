@@ -2,56 +2,57 @@
 title: "personal-data-store"
 ---
 
-> Generated file. Update `glossary/terms/personal-data-store.yaml` and regenerate artifacts instead of editing this page directly.
-
 # personal-data-store
 
-## Concept Identity
-- **Concept ID**: `urn:tig:concept:personal-data-store`
-- **Editorial status**: `stable`
-- **Provenance classification**: `adapted`
-- **Source corpus**: Trust over IP Main Glossary
-
-## In Simple English
 See: personal data vault.
 
-## Definition
+## Formal definition
 See: personal data vault.
 
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
 
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Alternative Designations
+## Names and relationships
+
+### Alternative designations
 - **personal data store** (`en`, `alternative`)
 - **personal data stores** (`en`, `alternative`)
 - **PDS** (`en`, `alternative`)
 - **PDSs** (`en`, `alternative`)
 
-## Legacy Aliases
-personal data store, personal data stores, PDS, PDSs
-
-## Semantic Relations
-- **related**: `urn:tig:concept:delegation`
-- **related**: `urn:tig:concept:delegator`
-- **related**: `urn:tig:concept:delegatee`
-- **related**: `urn:tig:concept:authorization`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
+### Related concepts
 - [delegation]({{ '/terms/delegation/' | relative_url }})
 - [delegator]({{ '/terms/delegator/' | relative_url }})
 - [delegatee]({{ '/terms/delegatee/' | relative_url }})
 - [authorization]({{ '/terms/authorization/' | relative_url }})
 
-## Standards and Source References
+### Semantic relations
+- **related**: `urn:tig:concept:delegation`
+- **related**: `urn:tig:concept:delegator`
+- **related**: `urn:tig:concept:delegatee`
+- **related**: `urn:tig:concept:authorization`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
+- **Concept ID**: `urn:tig:concept:personal-data-store`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
+### Standards and source references
 - ToIP CTWG maintained glossary source: `spec/terms-definitions/personal-data-store.md`
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+personal data store, personal data stores, PDS, PDSs
+
+### Governance profile
 - **Authority scope**: delegation_and_scope
 - **Delegation mode**: direct_or_constrained
 - **Revocation supported**: False
@@ -59,17 +60,17 @@ Not specified
 - **Execution role**: runtime
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - delegation_grant
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - delegation_record
 
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - delegation_grant
 
@@ -78,14 +79,20 @@ Not specified
 **Evidence produced**
 - delegation_record
 
-## Notes
+### Notes
 - In the market, the term “personal data store” has also been used to generally mean a combination of the functions of a personal digital agent, personal wallet, and personal data vault.
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/personal-data-store.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

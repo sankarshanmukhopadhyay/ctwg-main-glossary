@@ -2,51 +2,52 @@
 title: "anycast"
 ---
 
-> Generated file. Update `glossary/terms/anycast.yaml` and regenerate artifacts instead of editing this page directly.
-
 # anycast
 
-## Concept Identity
+A simple-English summary has not yet been added for this concept.
+
+## Formal definition
+Anycast is a network addressing and routing methodology in which a single IP-address is shared by devices (generally servers) in multiple locations. Routers direct packets addressed to this destination to the location nearest the sender, using their normal decision-making algorithms, typically the lowest number of BGP network hops. Anycast routing is widely used by content delivery networks such as web and name servers, to bring their content closer to end users.
+
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
+## Names and relationships
+
+### Alternative designations
+None
+
+### Related concepts
+- [broadcast]({{ '/terms/broadcast/' | relative_url }})
+- [multicast]({{ '/terms/multicast/' | relative_url }})
+- [unicast]({{ '/terms/unicast/' | relative_url }})
+
+### Semantic relations
+- **related**: `urn:tig:concept:broadcast`
+- **related**: `urn:tig:concept:multicast`
+- **related**: `urn:tig:concept:unicast`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
 - **Concept ID**: `urn:tig:concept:anycast`
 - **Editorial status**: `stable`
 - **Provenance classification**: `locally_defined`
 - **Source corpus**: Trust Infrastructure Glossary
 
-## In Simple English
-A simple-English summary has not yet been added for this term.
-
-## Definition
-Anycast is a network addressing and routing methodology in which a single IP-address is shared by devices (generally servers) in multiple locations. Routers direct packets addressed to this destination to the location nearest the sender, using their normal decision-making algorithms, typically the lowest number of BGP network hops. Anycast routing is widely used by content delivery networks such as web and name servers, to bring their content closer to end users.
-
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
-
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
-
-## Alternative Designations
-None
-
-## Legacy Aliases
-anycast
-
-## Semantic Relations
-- **related**: `urn:tig:concept:broadcast`
-- **related**: `urn:tig:concept:multicast`
-- **related**: `urn:tig:concept:unicast`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
-- [broadcast]({{ '/terms/broadcast/' | relative_url }})
-- [multicast]({{ '/terms/multicast/' | relative_url }})
-- [unicast]({{ '/terms/unicast/' | relative_url }})
-
-## Standards and Source References
+### Standards and source references
 - [Wikipedia](https://en.wikipedia.org/wiki/Anycast).
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+anycast
+
+### Governance profile
 - **Authority scope**: terminology_definition
 - **Delegation mode**: direct
 - **Revocation supported**: False
@@ -54,17 +55,17 @@ Not specified
 - **Execution role**: design
 - **Control-plane role**: reference_term
 
-## Enforcement Points
+### Enforcement points
 - definition_approval
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - definition_change_record
 
 - **Assurance level hint**: informative
 - **Auditability**: basic
 
-## Control Plane
+### Control plane
 **Decision points**
 - definition_approval
 
@@ -73,14 +74,20 @@ Not specified
 **Evidence produced**
 - definition_change_record
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/anycast.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

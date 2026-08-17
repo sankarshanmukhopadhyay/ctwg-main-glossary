@@ -2,46 +2,24 @@
 title: "authenticator"
 ---
 
-> Generated file. Update `glossary/terms/authenticator.yaml` and regenerate artifacts instead of editing this page directly.
-
 # authenticator
 
-## Concept Identity
-- **Concept ID**: `urn:tig:concept:authenticator`
-- **Editorial status**: `stable`
-- **Provenance classification**: `locally_defined`
-- **Source corpus**: Trust Infrastructure Glossary
-
-## In Simple English
 Something the claimant possesses and controls (typically a cryptographic module or password) that is used to authenticate the claimant’s identity.
 
-## Definition
+## Formal definition
 Something the claimant possesses and controls (typically a cryptographic module or password) that is used to authenticate the claimant’s identity.
 
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
 
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Alternative Designations
+## Names and relationships
+
+### Alternative designations
 None
 
-## Legacy Aliases
-authenticator
-
-## Semantic Relations
-- **related**: `urn:tig:concept:credential`
-- **related**: `urn:tig:concept:issuer`
-- **related**: `urn:tig:concept:issuance`
-- **related**: `urn:tig:concept:verifiable-credential`
-- **related**: `urn:tig:concept:authorization`
-- **related**: `urn:tig:concept:permission`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
+### Related concepts
 - [credential]({{ '/terms/credential/' | relative_url }})
 - [issuer]({{ '/terms/issuer/' | relative_url }})
 - [issuance]({{ '/terms/issuance/' | relative_url }})
@@ -49,10 +27,33 @@ Not specified
 - [authorization]({{ '/terms/authorization/' | relative_url }})
 - [permission]({{ '/terms/permission/' | relative_url }})
 
-## Standards and Source References
+### Semantic relations
+- **related**: `urn:tig:concept:credential`
+- **related**: `urn:tig:concept:issuer`
+- **related**: `urn:tig:concept:issuance`
+- **related**: `urn:tig:concept:verifiable-credential`
+- **related**: `urn:tig:concept:authorization`
+- **related**: `urn:tig:concept:permission`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
+- **Concept ID**: `urn:tig:concept:authenticator`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
+### Standards and source references
 - [NIST-CSRC](https://csrc.nist.gov/glossary/term/authenticator).
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+authenticator
+
+### Governance profile
 - **Authority scope**: credential_issuance, access_decisioning
 - **Delegation mode**: direct
 - **Revocation supported**: True
@@ -60,12 +61,12 @@ Not specified
 - **Execution role**: runtime
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - issuance_decision
 - access_decision
 - revocation_decision
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - issuance_log
 - access_decision_log
@@ -78,7 +79,7 @@ Not specified
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - issuance_decision
 - access_decision
@@ -95,14 +96,20 @@ Not specified
 - audit_log
 - verification_log
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/authenticator.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

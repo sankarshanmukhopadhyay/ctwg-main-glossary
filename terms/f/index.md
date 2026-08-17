@@ -1,10 +1,11 @@
 ---
-title: "Concepts: F"
-parent: "Concepts"
+title: "F"
+parent: "A–Z Concept Index"
+grand_parent: "Explore Concepts"
 nav_order: 6
 ---
 
-# Concepts: F
+# Concepts beginning with F
 
 - [fal]({{ '/terms/fal/' | relative_url }})
 - [federated-identity]({{ '/terms/federated-identity/' | relative_url }})

@@ -12,13 +12,14 @@ Version `v2.0.0` establishes the project as independent from its Trust over IP a
 
 ## Start here
 
-- [Start Here](start-here.md) routes readers by task.
-- [Concepts by Topic](concepts.md) groups important vocabulary by problem area.
-- [Concept index](terms-index.md) lists all published concepts.
-- [Semantic Model](governance/semantic-model.md) explains concepts, designations, mappings, provenance, and stable identifiers.
-- [Source Intake and Provenance](governance/source-intake-and-provenance.md) explains how external vocabularies are monitored, evaluated, adapted, and attributed.
-- [Vocabulary Profiles](governance/vocabulary-profiles.md) explains how downstream projects can consume bounded concept sets.
-- [Plain-English Authoring Guide](governance/plain-language-guide.md) defines the reader-facing editorial standard.
+The rendered GitHub Pages site is organized around what a reader is trying to accomplish rather than the repository's directory structure:
+
+- **[Explore Concepts](explore/index.md)** — browse by topic, A–Z, or search.
+- **[Use TIG](use/index.md)** — select vocabulary profiles, consume machine-readable artifacts, or integrate TIG downstream.
+- **[Govern TIG](governance/index.md)** — review the semantic model, authoring rules, assurance, quality, source intake, and publication controls.
+- **[Project](project/index.md)** — understand lineage, v2 migration, release notes, roadmap, and contribution paths.
+
+Individual concept pages are progressive: plain-English meaning and the formal definition appear first; identity, provenance, relationships, and implementation/governance metadata follow at increasing levels of detail.
 
 ## v2 semantic contract
 

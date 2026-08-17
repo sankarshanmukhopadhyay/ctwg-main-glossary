@@ -1,7 +1,8 @@
 ---
 title: "Publication Integration"
-parent: Governance Documentation
-nav_order: 15
+parent: "Operations & Evolution"
+nav_order: 3
+grand_parent: "Govern TIG"
 ---
 
 # Publication Integration

@@ -202,8 +202,9 @@ def main() -> None:
     (MD_OUT / "governance-quality-report.md").write_text(markdown, encoding="utf-8")
     page = """---
 title: "Governance Quality Report"
-parent: Governance Documentation
-nav_order: 21
+parent: "Assurance & Quality"
+grand_parent: "Govern TIG"
+nav_order: 3
 ---
 
 """ + markdown

@@ -1,7 +1,8 @@
 ---
 title: "Source Intake and Provenance"
-parent: Governance Documentation
-nav_order: 7
+parent: "Operations & Evolution"
+nav_order: 2
+grand_parent: "Govern TIG"
 ---
 
 # Source Intake and Provenance

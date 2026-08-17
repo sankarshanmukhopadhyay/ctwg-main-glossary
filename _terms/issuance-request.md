@@ -2,48 +2,49 @@
 title: "issuance-request"
 ---
 
-> Generated file. Update `glossary/terms/issuance-request.yaml` and regenerate artifacts instead of editing this page directly.
-
 # issuance-request
 
-## Concept Identity
+A protocol request invoked by the holder of a digital wallet to obtain a digital credential from an issuer.
+
+## Formal definition
+A protocol request invoked by the holder of a digital wallet to obtain a digital credential from an issuer.
+
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
+## Names and relationships
+
+### Alternative designations
+- **issuance request** (`en`, `alternative`)
+- **issuance requests** (`en`, `alternative`)
+
+### Related concepts
+- [presentation request]({{ '/terms/presentation-request/' | relative_url }})
+
+### Semantic relations
+- **related**: `urn:tig:concept:presentation-request`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
 - **Concept ID**: `urn:tig:concept:issuance-request`
 - **Editorial status**: `stable`
 - **Provenance classification**: `adapted`
 - **Source corpus**: Trust over IP Main Glossary
 
-## In Simple English
-A protocol request invoked by the holder of a digital wallet to obtain a digital credential from an issuer.
-
-## Definition
-A protocol request invoked by the holder of a digital wallet to obtain a digital credential from an issuer.
-
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
-
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
-
-## Alternative Designations
-- **issuance request** (`en`, `alternative`)
-- **issuance requests** (`en`, `alternative`)
-
-## Legacy Aliases
-issuance request, issuance requests
-
-## Semantic Relations
-- **related**: `urn:tig:concept:presentation-request`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
-- [presentation request]({{ '/terms/presentation-request/' | relative_url }})
-
-## Standards and Source References
+### Standards and source references
 - ToIP CTWG maintained glossary source: `spec/terms-definitions/issuance-request.md`
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+issuance request, issuance requests
+
+### Governance profile
 - **Authority scope**: credential_issuance
 - **Delegation mode**: direct
 - **Revocation supported**: True
@@ -51,11 +52,11 @@ Not specified
 - **Execution role**: runtime
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - issuance_decision
 - revocation_decision
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - issuance_log
 - registry_entry
@@ -66,7 +67,7 @@ Not specified
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - issuance_decision
 - revocation_decision
@@ -80,14 +81,20 @@ Not specified
 - audit_log
 - verification_log
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/issuance-request.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

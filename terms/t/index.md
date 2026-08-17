@@ -1,10 +1,11 @@
 ---
-title: "Concepts: T"
-parent: "Concepts"
+title: "T"
+parent: "A–Z Concept Index"
+grand_parent: "Explore Concepts"
 nav_order: 20
 ---
 
-# Concepts: T
+# Concepts beginning with T
 
 - [tamper-evident]({{ '/terms/tamper-evident/' | relative_url }})
 - [tamper-resistant]({{ '/terms/tamper-resistant/' | relative_url }})

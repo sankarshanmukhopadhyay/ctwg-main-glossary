@@ -2,49 +2,50 @@
 title: "holder"
 ---
 
-> Generated file. Update `glossary/terms/holder.yaml` and regenerate artifacts instead of editing this page directly.
-
 # holder
 
-## Concept Identity
+A simple-English summary has not yet been added for this concept.
+
+## Formal definition
+A role an agent performs by serving as the controller of the cryptographic keys and digital credentials in a digital wallet. The holder makes issuance requests for credentials and responds to presentation requests for credentials. A holder is usually, but not always, a subject of the credentials they are holding.
+
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
+## Names and relationships
+
+### Alternative designations
+- **holders** (`en`, `alternative`)
+
+### Related concepts
+- [issuer]({{ '/terms/issuer/' | relative_url }})
+- [verifier]({{ '/terms/verifier/' | relative_url }})
+
+### Semantic relations
+- **related**: `urn:tig:concept:issuer`
+- **related**: `urn:tig:concept:verifier`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
 - **Concept ID**: `urn:tig:concept:holder`
 - **Editorial status**: `stable`
 - **Provenance classification**: `adapted`
 - **Source corpus**: Trust over IP Main Glossary
 
-## In Simple English
-A simple-English summary has not yet been added for this term.
-
-## Definition
-A role an agent performs by serving as the controller of the cryptographic keys and digital credentials in a digital wallet. The holder makes issuance requests for credentials and responds to presentation requests for credentials. A holder is usually, but not always, a subject of the credentials they are holding.
-
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
-
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
-
-## Alternative Designations
-- **holders** (`en`, `alternative`)
-
-## Legacy Aliases
-holder, holders
-
-## Semantic Relations
-- **related**: `urn:tig:concept:issuer`
-- **related**: `urn:tig:concept:verifier`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
-- [issuer]({{ '/terms/issuer/' | relative_url }})
-- [verifier]({{ '/terms/verifier/' | relative_url }})
-
-## Standards and Source References
+### Standards and source references
 - ToIP CTWG maintained glossary source: `spec/terms-definitions/holder.md`
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+holder, holders
+
+### Governance profile
 - **Authority scope**: credential_issuance, delegation_and_scope
 - **Delegation mode**: direct_or_constrained
 - **Revocation supported**: True
@@ -52,12 +53,12 @@ Not specified
 - **Execution role**: runtime
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - delegation_grant
 - issuance_decision
 - revocation_decision
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - delegation_record
 - issuance_log
@@ -70,7 +71,7 @@ Not specified
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - delegation_grant
 - issuance_decision
@@ -87,15 +88,21 @@ Not specified
 - audit_log
 - verification_log
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 - [eSSIF-Lab](https://essif-lab.github.io/framework/docs/terms/holder): a component that implements the [capability](https://essif-lab.github.io/framework/docs/terms/capability) to handle [presentation requests](https://essif-lab.github.io/framework/docs/terms/presentation-request) from a [peer agent](https://essif-lab.github.io/framework/docs/terms/peer-agent), produce the requested data (a presentation) according to its [principal](https://essif-lab.github.io/framework/docs/terms/principal)'s [holder-policy](https://essif-lab.github.io/framework/docs/terms/holder-policy), and send that in response to the request.
 - [W3C VC](https://www.w3.org/TR/vc-data-model/#dfn-holders): A role an [entity](https://www.w3.org/TR/vc-data-model/#dfn-entities) might perform by possessing one or more [verifiable credentials](https://www.w3.org/TR/vc-data-model/#dfn-verifiable-credentials) and generating [presentations](https://www.w3.org/TR/vc-data-model/#dfn-presentations) from them. A holder is usually, but not always, a [subject](https://www.w3.org/TR/vc-data-model/#dfn-subjects) of the [verifiable credentials](https://www.w3.org/TR/vc-data-model/#dfn-verifiable-credentials) they are holding. Holders store their [credentials](https://www.w3.org/TR/vc-data-model/#dfn-credential) in [credential repositories](https://www.w3.org/TR/vc-data-model/#dfn-credential-repository).
 
-## Mental Models
+### Mental models
 - [W3C Verifiable Credentials Data Model Roles & Information Flows](https://www.w3.org/TR/vc-data-model/#roles)
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/holder.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

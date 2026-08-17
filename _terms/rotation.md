@@ -2,49 +2,27 @@
 title: "rotation"
 ---
 
-> Generated file. Update `glossary/terms/rotation.yaml` and regenerate artifacts instead of editing this page directly.
-
 # rotation
 
-## Concept Identity
-- **Concept ID**: `urn:tig:concept:rotation`
-- **Editorial status**: `stable`
-- **Provenance classification**: `adapted`
-- **Source corpus**: Trust over IP Main Glossary
-
-## In Simple English
 a change of the key state, including a change to the set of authoritative key pairs for an identifier AID.
 
-## Definition
+## Formal definition
 a change of the key state, including a change to the set of authoritative key pairs for an identifier AID.
 
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
 
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Alternative Designations
+## Names and relationships
+
+### Alternative designations
 - **rotation-event** (`en`, `alternative`)
 - **key-rotation** (`en`, `alternative`)
 - **rotation event** (`en`, `alternative`)
 - **key rotation** (`en`, `alternative`)
 
-## Legacy Aliases
-rotation, rotation-event, key-rotation, rotation event, key rotation
-
-## Semantic Relations
-- **related**: `urn:tig:concept:governance`
-- **related**: `urn:tig:concept:governance-framework`
-- **related**: `urn:tig:concept:governing-authority`
-- **related**: `urn:tig:concept:trust-registry`
-- **related**: `urn:tig:concept:definition`
-- **related**: `urn:tig:concept:glossary`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
+### Related concepts
 - [governance]({{ '/terms/governance/' | relative_url }})
 - [governance-framework]({{ '/terms/governance-framework/' | relative_url }})
 - [governing-authority]({{ '/terms/governing-authority/' | relative_url }})
@@ -52,10 +30,33 @@ Not specified
 - [definition]({{ '/terms/definition/' | relative_url }})
 - [glossary]({{ '/terms/glossary/' | relative_url }})
 
-## Standards and Source References
+### Semantic relations
+- **related**: `urn:tig:concept:governance`
+- **related**: `urn:tig:concept:governance-framework`
+- **related**: `urn:tig:concept:governing-authority`
+- **related**: `urn:tig:concept:trust-registry`
+- **related**: `urn:tig:concept:definition`
+- **related**: `urn:tig:concept:glossary`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
+- **Concept ID**: `urn:tig:concept:rotation`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
+### Standards and source references
 - ToIP CTWG maintained glossary source: `spec/terms-definitions/rotation.md`
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+rotation, rotation-event, key-rotation, rotation event, key rotation
+
+### Governance profile
 - **Authority scope**: governance_recognition
 - **Delegation mode**: direct
 - **Revocation supported**: False
@@ -63,17 +64,17 @@ Not specified
 - **Execution role**: design
 - **Control-plane role**: reference_term
 
-## Enforcement Points
+### Enforcement points
 - definition_approval
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - definition_change_record
 
 - **Assurance level hint**: informative
 - **Auditability**: basic
 
-## Control Plane
+### Control plane
 **Decision points**
 - definition_approval
 
@@ -82,14 +83,20 @@ Not specified
 **Evidence produced**
 - definition_change_record
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 - Also see KERI [[ref: rotation-event]]
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/rotation.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

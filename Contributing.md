@@ -1,3 +1,10 @@
+---
+title: Contributing
+parent: Project
+nav_order: 5
+permalink: /contributing/
+---
+
 # Contributing
 
 Thank you for improving the Trust Infrastructure Glossary.

@@ -2,47 +2,48 @@
 title: "agent"
 ---
 
-> Generated file. Update `glossary/terms/agent.yaml` and regenerate artifacts instead of editing this page directly.
-
 # agent
 
-## Concept Identity
+A person or software component that acts for someone or something else within a defined scope.
+
+## Formal definition
+An actor that executes an action on behalf of a party (called the principal of that actor). In the context of decentralized digital trust infrastructure, the term “agent” is most frequently used to mean a digital agent.
+
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
+## Names and relationships
+
+### Alternative designations
+- **agents** (`en`, `alternative`)
+
+### Related concepts
+- [wallet]({{ '/terms/wallet/' | relative_url }})
+
+### Semantic relations
+- **related**: `urn:tig:concept:wallet`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
 - **Concept ID**: `urn:tig:concept:agent`
 - **Editorial status**: `stable`
 - **Provenance classification**: `locally_defined`
 - **Source corpus**: Trust Infrastructure Glossary
 
-## In Simple English
-A person or software component that acts for someone or something else within a defined scope.
-
-## Definition
-An actor that executes an action on behalf of a party (called the principal of that actor). In the context of decentralized digital trust infrastructure, the term “agent” is most frequently used to mean a digital agent.
-
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
-
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
-
-## Alternative Designations
-- **agents** (`en`, `alternative`)
-
-## Legacy Aliases
-agent, agents
-
-## Semantic Relations
-- **related**: `urn:tig:concept:wallet`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
-- [wallet]({{ '/terms/wallet/' | relative_url }})
-
-## Standards and Source References
+### Standards and source references
 - [eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#agent).
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+agent, agents
+
+### Governance profile
 - **Authority scope**: delegation_and_scope, governance_recognition
 - **Delegation mode**: direct_or_constrained
 - **Revocation supported**: True
@@ -50,11 +51,11 @@ Not specified
 - **Execution role**: runtime
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - delegation_grant
 - revocation_decision
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - delegation_record
 - policy_document
@@ -66,7 +67,7 @@ Not specified
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - delegation_grant
 - revocation_decision
@@ -81,15 +82,21 @@ Not specified
 - verification_log
 - registry_entry
 
-## Notes
+### Notes
 - The governance significance of an agent depends on what authority it exercises, under what policies it operates, and what controls exist for oversight, limitation, and revocation.
 - In a ToIP context, an agent is frequently assumed to have privileged access to the wallet(s) of its principal. In market parlance, a mobile app performing the actions of an agent is often simply called a wallet or a digital wallet.
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/agent.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

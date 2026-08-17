@@ -2,54 +2,55 @@
 title: "toip-trust-spanning-protocol"
 ---
 
-> Generated file. Update `glossary/terms/toip-trust-spanning-protocol.yaml` and regenerate artifacts instead of editing this page directly.
-
 # toip-trust-spanning-protocol
 
-## Concept Identity
-- **Concept ID**: `urn:tig:concept:toip-trust-spanning-protocol`
-- **Editorial status**: `stable`
-- **Provenance classification**: `adapted`
-- **Source corpus**: Trust over IP Main Glossary
+A simple-English summary has not yet been added for this concept.
 
-## In Simple English
-A simple-English summary has not yet been added for this term.
-
-## Definition
+## Formal definition
 The ToIP Trust Spanning Protocol (TSP) is the ToIP Layer 2 protocol for verifiable messaging that implements the trust spanning layer of the ToIP stack.  The TSP enables actors in different digital trust domains to interact in a similar way to how the Internet Protocol (IP) enables devices on different local area networks to exchange data.
 
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
 
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Alternative Designations
+## Names and relationships
+
+### Alternative designations
 - **ToIP Trust Spanning Protocol** (`en`, `alternative`)
 - **TSP** (`en`, `alternative`)
 
-## Legacy Aliases
-ToIP Trust Spanning Protocol, TSP
-
-## Semantic Relations
-- **related**: `urn:tig:concept:glossary`
-- **related**: `urn:tig:concept:definition`
-- **related**: `urn:tig:concept:trust`
-- **related**: `urn:tig:concept:trust-registry`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
+### Related concepts
 - [glossary]({{ '/terms/glossary/' | relative_url }})
 - [definition]({{ '/terms/definition/' | relative_url }})
 - [trust]({{ '/terms/trust/' | relative_url }})
 - [trust-registry]({{ '/terms/trust-registry/' | relative_url }})
 
-## Standards and Source References
+### Semantic relations
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:definition`
+- **related**: `urn:tig:concept:trust`
+- **related**: `urn:tig:concept:trust-registry`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
+- **Concept ID**: `urn:tig:concept:toip-trust-spanning-protocol`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
+### Standards and source references
 - ToIP CTWG maintained glossary source: `spec/terms-definitions/toip-trust-spanning-protocol.md`
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+ToIP Trust Spanning Protocol, TSP
+
+### Governance profile
 - **Authority scope**: terminology_definition
 - **Delegation mode**: direct
 - **Revocation supported**: False
@@ -57,10 +58,10 @@ Not specified
 - **Execution role**: design
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - definition_approval
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - definition_change_record
 - policy_document
@@ -69,7 +70,7 @@ Not specified
 - **Assurance level hint**: AL1+
 - **Auditability**: moderate
 
-## Control Plane
+### Control plane
 **Decision points**
 - definition_approval
 
@@ -80,14 +81,20 @@ Not specified
 - policy_document
 - audit_log
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 - For more information, see: [Section 7.3](https://github.com/trustoverip/TechArch/blob/main/spec.md#73-layer-2-trust-spanning) of the [[ref: ToIP Technology Architecture Specification]] and the [Trust Spanning Protocol Task Force](https://wiki.trustoverip.org/display/HOME/ToIP+Trust+Spanning+Protocol+Specification).
 
-## Mental Models
+### Mental models
 - [[ref: hourglass model,]] see the [Design Principles for the ToIP Stack](https://trustoverip.org/permalink/Design-Principles-for-the-ToIP-Stack-V1.0-2022-11-17.pdf).
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/toip-trust-spanning-protocol.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

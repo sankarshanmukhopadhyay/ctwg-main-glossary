@@ -2,48 +2,49 @@
 title: "relying-party"
 ---
 
-> Generated file. Update `glossary/terms/relying-party.yaml` and regenerate artifacts instead of editing this page directly.
-
 # relying-party
 
-## Concept Identity
+A simple-English summary has not yet been added for this concept.
+
+## Formal definition
+A party who accepts claims, credentials, trust graphs, or any other form of verifiable data from other parties (such as issuers, holders, trust registries, or other authoritative sources) in order to make a trust decision.
+
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
+## Names and relationships
+
+### Alternative designations
+- **relying party** (`en`, `alternative`)
+- **relying parties** (`en`, `alternative`)
+
+### Related concepts
+- [verifier]({{ '/terms/verifier/' | relative_url }})
+
+### Semantic relations
+- **related**: `urn:tig:concept:verifier`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
 - **Concept ID**: `urn:tig:concept:relying-party`
 - **Editorial status**: `stable`
 - **Provenance classification**: `adapted`
 - **Source corpus**: Trust over IP Main Glossary
 
-## In Simple English
-A simple-English summary has not yet been added for this term.
-
-## Definition
-A party who accepts claims, credentials, trust graphs, or any other form of verifiable data from other parties (such as issuers, holders, trust registries, or other authoritative sources) in order to make a trust decision.
-
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
-
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
-
-## Alternative Designations
-- **relying party** (`en`, `alternative`)
-- **relying parties** (`en`, `alternative`)
-
-## Legacy Aliases
-relying party, relying parties
-
-## Semantic Relations
-- **related**: `urn:tig:concept:verifier`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
-- [verifier]({{ '/terms/verifier/' | relative_url }})
-
-## Standards and Source References
+### Standards and source references
 - ToIP CTWG maintained glossary source: `spec/terms-definitions/relying-party.md`
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+relying party, relying parties
+
+### Governance profile
 - **Authority scope**: credential_issuance, verification_and_reliance, governance_recognition
 - **Delegation mode**: direct
 - **Revocation supported**: True
@@ -51,12 +52,12 @@ Not specified
 - **Execution role**: runtime
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - reliance_decision
 - issuance_decision
 - revocation_decision
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - issuance_log
 - verification_log
@@ -64,7 +65,7 @@ Not specified
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - reliance_decision
 - issuance_decision
@@ -76,14 +77,20 @@ Not specified
 - issuance_log
 - verification_log
 
-## Notes
+### Notes
 - The term “relying party” is more commonly used in federated identity architecture; the term “verifier” is more commonly used with decentralized identity architecture and verifiable credentials.
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/relying-party.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

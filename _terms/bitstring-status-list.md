@@ -2,54 +2,55 @@
 title: "bitstring-status-list"
 ---
 
-> Generated file. Update `glossary/terms/bitstring-status-list.yaml` and regenerate artifacts instead of editing this page directly.
-
 # bitstring-status-list
 
-## Concept Identity
-- **Concept ID**: `urn:tig:concept:bitstring-status-list`
-- **Editorial status**: `stable`
-- **Provenance classification**: `locally_defined`
-- **Source corpus**: Trust Infrastructure Glossary
-
-## In Simple English
 A W3C status mechanism for publishing credential status information such as revocation or suspension using compressed bitstrings.
 
-## Definition
+## Formal definition
 A W3C status mechanism for publishing credential status information such as revocation or suspension using compressed bitstrings.
 
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
 
-## Implementation Relevance
 Use this term when modelling inspectable credential status evidence without exposing unnecessary holder-specific information.
 
-## Alternative Designations
+## Names and relationships
+
+### Alternative designations
 - **Bitstring Status List** (`en`, `alternative`)
 - **BSL** (`en`, `alternative`)
 
-## Legacy Aliases
-Bitstring Status List, BSL
-
-## Semantic Relations
-- **related**: `urn:tig:concept:credential`
-- **related**: `urn:tig:concept:verifiable-credential`
-- **related**: `urn:tig:concept:revocation`
-- **related**: `urn:tig:concept:status-record`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
+### Related concepts
 - [credential]({{ '/terms/credential/' | relative_url }})
 - [verifiable-credential]({{ '/terms/verifiable-credential/' | relative_url }})
 - [revocation]({{ '/terms/revocation/' | relative_url }})
 - [status-record]({{ '/terms/status-record/' | relative_url }})
 
-## Standards and Source References
+### Semantic relations
+- **related**: `urn:tig:concept:credential`
+- **related**: `urn:tig:concept:verifiable-credential`
+- **related**: `urn:tig:concept:revocation`
+- **related**: `urn:tig:concept:status-record`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
+- **Concept ID**: `urn:tig:concept:bitstring-status-list`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
+### Standards and source references
 - [Bitstring Status List v1.0](https://www.w3.org/TR/vc-bitstring-status-list/) (W3C; Recommendation; 1.0; 2025-05-15) — normative
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+Bitstring Status List, BSL
+
+### Governance profile
 - **Authority scope**: credential_issuance, verification_and_reliance
 - **Delegation mode**: direct
 - **Revocation supported**: True
@@ -57,11 +58,11 @@ Not specified
 - **Execution role**: hybrid
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - revocation_decision
 - reliance_decision
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - status_record
 - verification_log
@@ -71,7 +72,7 @@ Not specified
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - revocation_decision
 - reliance_decision
@@ -84,14 +85,20 @@ Not specified
 - audit_log
 - registry_entry
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 - **W3C**: Bitstring Status List v1.0
+
+</details>
+
+---
+
+*Generated from `glossary/terms/bitstring-status-list.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

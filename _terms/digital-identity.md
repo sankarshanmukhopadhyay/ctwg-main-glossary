@@ -2,52 +2,53 @@
 title: "digital-identity"
 ---
 
-> Generated file. Update `glossary/terms/digital-identity.yaml` and regenerate artifacts instead of editing this page directly.
-
 # digital-identity
 
-## Concept Identity
-- **Concept ID**: `urn:tig:concept:digital-identity`
-- **Editorial status**: `stable`
-- **Provenance classification**: `adapted`
-- **Source corpus**: Trust over IP Main Glossary
-
-## In Simple English
 An identity expressed in a digital form for the purpose representing the identified entity within a computer system or digital network.
 
-## Definition
+## Formal definition
 An identity expressed in a digital form for the purpose representing the identified entity within a computer system or digital network.
 
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
 
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Alternative Designations
+## Names and relationships
+
+### Alternative designations
 - **digital identity** (`en`, `alternative`)
 - **digital identities** (`en`, `alternative`)
 - **digital ID** (`en`, `alternative`)
 - **digital IDs** (`en`, `alternative`)
 
-## Legacy Aliases
-digital identity, digital identities, digital ID, digital IDs
-
-## Semantic Relations
-- **related**: `urn:tig:concept:glossary`
-- **related**: `urn:tig:concept:definition`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
+### Related concepts
 - [glossary]({{ '/terms/glossary/' | relative_url }})
 - [definition]({{ '/terms/definition/' | relative_url }})
 
-## Standards and Source References
+### Semantic relations
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:definition`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
+- **Concept ID**: `urn:tig:concept:digital-identity`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
+### Standards and source references
 - ToIP CTWG maintained glossary source: `spec/terms-definitions/digital-identity.md`
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+digital identity, digital identities, digital ID, digital IDs
+
+### Governance profile
 - **Authority scope**: terminology_definition
 - **Delegation mode**: direct
 - **Revocation supported**: False
@@ -55,17 +56,17 @@ Not specified
 - **Execution role**: design
 - **Control-plane role**: reference_term
 
-## Enforcement Points
+### Enforcement points
 - definition_approval
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - definition_change_record
 
 - **Assurance level hint**: informative
 - **Auditability**: basic
 
-## Control Plane
+### Control plane
 **Decision points**
 - definition_approval
 
@@ -74,15 +75,21 @@ Not specified
 **Evidence produced**
 - definition_change_record
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 - [eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary): [Digital data](https://essif-lab.github.io/framework/docs/essifLab-glossary#data) that enables a specific [entity](https://essif-lab.github.io/framework/docs/essifLab-glossary#entity) to be distinguished from all others in a specific context.
 - [Wikipedia](https://en.wikipedia.org/wiki/Digital_identity): Digital identity refers to the information utilized by [computer systems](https://en.wikipedia.org/wiki/Computer_systems) to represent external entities, including a person, organization, application, or device. When used to describe an individual, it encompasses a person's compiled information and plays a crucial role in automating access to computer-based services, verifying identity online, and enabling computers to mediate relationships between entities.
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/digital-identity.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

@@ -2,56 +2,57 @@
 title: "verifiable-credential-data-model-2-0"
 ---
 
-> Generated file. Update `glossary/terms/verifiable-credential-data-model-2-0.yaml` and regenerate artifacts instead of editing this page directly.
-
 # verifiable-credential-data-model-2-0
 
-## Concept Identity
-- **Concept ID**: `urn:tig:concept:verifiable-credential-data-model-2-0`
-- **Editorial status**: `stable`
-- **Provenance classification**: `locally_defined`
-- **Source corpus**: Trust Infrastructure Glossary
-
-## In Simple English
 The W3C data model for expressing verifiable credentials and verifiable presentations using common roles, properties, lifecycle semantics, and securing mechanisms.
 
-## Definition
+## Formal definition
 The W3C data model for expressing verifiable credentials and verifiable presentations using common roles, properties, lifecycle semantics, and securing mechanisms.
 
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
 
-## Implementation Relevance
 Use this term when distinguishing the W3C credential data model from credential transport protocols and credential securing formats.
 
-## Alternative Designations
+## Names and relationships
+
+### Alternative designations
 - **VC Data Model 2.0** (`en`, `alternative`)
 - **VCDM 2.0** (`en`, `alternative`)
 
-## Legacy Aliases
-VC Data Model 2.0, VCDM 2.0
-
-## Semantic Relations
-- **related**: `urn:tig:concept:verifiable-credential`
-- **related**: `urn:tig:concept:verifiable-presentation`
-- **related**: `urn:tig:concept:data-integrity-proof`
-- **related**: `urn:tig:concept:secured-verifiable-credential`
-- **related**: `urn:tig:concept:bitstring-status-list`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
+### Related concepts
 - [verifiable-credential]({{ '/terms/verifiable-credential/' | relative_url }})
 - [verifiable-presentation]({{ '/terms/verifiable-presentation/' | relative_url }})
 - [data-integrity-proof]({{ '/terms/data-integrity-proof/' | relative_url }})
 - [secured-verifiable-credential]({{ '/terms/secured-verifiable-credential/' | relative_url }})
 - [bitstring-status-list]({{ '/terms/bitstring-status-list/' | relative_url }})
 
-## Standards and Source References
+### Semantic relations
+- **related**: `urn:tig:concept:verifiable-credential`
+- **related**: `urn:tig:concept:verifiable-presentation`
+- **related**: `urn:tig:concept:data-integrity-proof`
+- **related**: `urn:tig:concept:secured-verifiable-credential`
+- **related**: `urn:tig:concept:bitstring-status-list`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
+- **Concept ID**: `urn:tig:concept:verifiable-credential-data-model-2-0`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
+### Standards and source references
 - [Verifiable Credentials Data Model v2.0](https://www.w3.org/TR/vc-data-model-2.0/) (W3C; Recommendation; 2.0; 2025-05-15) — normative
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+VC Data Model 2.0, VCDM 2.0
+
+### Governance profile
 - **Authority scope**: credential_issuance, verification_and_reliance
 - **Delegation mode**: direct
 - **Revocation supported**: False
@@ -59,11 +60,11 @@ Not specified
 - **Execution role**: hybrid
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - issuance_decision
 - reliance_decision
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - policy_document
 - issuance_log
@@ -73,7 +74,7 @@ Not specified
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - issuance_decision
 - reliance_decision
@@ -86,16 +87,22 @@ Not specified
 - verification_log
 - audit_log
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 - **W3C**: VC Data Model v2.0
 - **OPENID**: OpenID4VCI, OpenID4VP
 - **IETF**: SD-JWT VC
+
+</details>
+
+---
+
+*Generated from `glossary/terms/verifiable-credential-data-model-2-0.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

@@ -1,10 +1,11 @@
 ---
-title: "Concepts: H"
-parent: "Concepts"
+title: "H"
+parent: "A–Z Concept Index"
+grand_parent: "Explore Concepts"
 nav_order: 8
 ---
 
-# Concepts: H
+# Concepts beginning with H
 
 - [hardware-security-module]({{ '/terms/hardware-security-module/' | relative_url }})
 - [hash]({{ '/terms/hash/' | relative_url }})

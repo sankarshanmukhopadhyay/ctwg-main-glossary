@@ -1,10 +1,11 @@
 ---
-title: "Concepts: L"
-parent: "Concepts"
+title: "L"
+parent: "A–Z Concept Index"
+grand_parent: "Explore Concepts"
 nav_order: 12
 ---
 
-# Concepts: L
+# Concepts beginning with L
 
 - [laws-of-identity]({{ '/terms/laws-of-identity/' | relative_url }})
 - [layer-1]({{ '/terms/layer-1/' | relative_url }})

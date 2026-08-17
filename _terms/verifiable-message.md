@@ -2,49 +2,50 @@
 title: "verifiable-message"
 ---
 
-> Generated file. Update `glossary/terms/verifiable-message.yaml` and regenerate artifacts instead of editing this page directly.
-
 # verifiable-message
 
-## Concept Identity
+A message communicated as verifiable data by virtue of being digitally signed.
+
+## Formal definition
+A message communicated as verifiable data by virtue of being digitally signed.
+
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
+## Names and relationships
+
+### Alternative designations
+- **verifiable message** (`en`, `alternative`)
+- **verifiable messages** (`en`, `alternative`)
+- **verifiable messaging** (`en`, `alternative`)
+
+### Related concepts
+- [ToIP messages]({{ '/terms/toip-message/' | relative_url }})
+
+### Semantic relations
+- **related**: `urn:tig:concept:toip-messages`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
 - **Concept ID**: `urn:tig:concept:verifiable-message`
 - **Editorial status**: `stable`
 - **Provenance classification**: `adapted`
 - **Source corpus**: Trust over IP Main Glossary
 
-## In Simple English
-A message communicated as verifiable data by virtue of being digitally signed.
-
-## Definition
-A message communicated as verifiable data by virtue of being digitally signed.
-
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
-
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
-
-## Alternative Designations
-- **verifiable message** (`en`, `alternative`)
-- **verifiable messages** (`en`, `alternative`)
-- **verifiable messaging** (`en`, `alternative`)
-
-## Legacy Aliases
-verifiable message, verifiable messages, verifiable messaging
-
-## Semantic Relations
-- **related**: `urn:tig:concept:toip-messages`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
-- [ToIP messages]({{ '/terms/toip-message/' | relative_url }})
-
-## Standards and Source References
+### Standards and source references
 - ToIP CTWG maintained glossary source: `spec/terms-definitions/verifiable-message.md`
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+verifiable message, verifiable messages, verifiable messaging
+
+### Governance profile
 - **Authority scope**: terminology_definition
 - **Delegation mode**: direct
 - **Revocation supported**: False
@@ -52,17 +53,17 @@ Not specified
 - **Execution role**: design
 - **Control-plane role**: reference_term
 
-## Enforcement Points
+### Enforcement points
 - definition_approval
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - definition_change_record
 
 - **Assurance level hint**: informative
 - **Auditability**: basic
 
-## Control Plane
+### Control plane
 **Decision points**
 - definition_approval
 
@@ -71,14 +72,20 @@ Not specified
 **Evidence produced**
 - definition_change_record
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/verifiable-message.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

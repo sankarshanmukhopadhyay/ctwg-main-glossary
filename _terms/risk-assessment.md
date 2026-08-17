@@ -2,50 +2,51 @@
 title: "risk-assessment"
 ---
 
-> Generated file. Update `glossary/terms/risk-assessment.yaml` and regenerate artifacts instead of editing this page directly.
-
 # risk-assessment
 
-## Concept Identity
+A structured review of what could go wrong, how likely it is, what harm it could cause, and what controls can reduce the risk.
+
+## Formal definition
+The process of identifying risks to organizational operations (including mission, functions, image, reputation), organizational assets, individuals, other organizations, and the overall ecosystem, resulting from the operation of an information system. Risk assessment is part of risk management, incorporates threat and vulnerability analyses, and considers risk mitigations provided by security controls planned or in place.
+
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
+## Names and relationships
+
+### Alternative designations
+- **risk assessment** (`en`, `alternative`)
+- **risk assessments** (`en`, `alternative`)
+
+### Related concepts
+- [glossary]({{ '/terms/glossary/' | relative_url }})
+- [definition]({{ '/terms/definition/' | relative_url }})
+
+### Semantic relations
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:definition`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
 - **Concept ID**: `urn:tig:concept:risk-assessment`
 - **Editorial status**: `stable`
 - **Provenance classification**: `locally_defined`
 - **Source corpus**: Trust Infrastructure Glossary
 
-## In Simple English
-A structured review of what could go wrong, how likely it is, what harm it could cause, and what controls can reduce the risk.
-
-## Definition
-The process of identifying risks to organizational operations (including mission, functions, image, reputation), organizational assets, individuals, other organizations, and the overall ecosystem, resulting from the operation of an information system. Risk assessment is part of risk management, incorporates threat and vulnerability analyses, and considers risk mitigations provided by security controls planned or in place.
-
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
-
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
-
-## Alternative Designations
-- **risk assessment** (`en`, `alternative`)
-- **risk assessments** (`en`, `alternative`)
-
-## Legacy Aliases
-risk assessment, risk assessments
-
-## Semantic Relations
-- **related**: `urn:tig:concept:glossary`
-- **related**: `urn:tig:concept:definition`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
-- [glossary]({{ '/terms/glossary/' | relative_url }})
-- [definition]({{ '/terms/definition/' | relative_url }})
-
-## Standards and Source References
+### Standards and source references
 - [NIST-CSRC](https://csrc.nist.gov/glossary/term/risk_assessment).
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+risk assessment, risk assessments
+
+### Governance profile
 - **Authority scope**: terminology_definition
 - **Delegation mode**: direct
 - **Revocation supported**: False
@@ -53,10 +54,10 @@ Not specified
 - **Execution role**: design
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - definition_approval
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - definition_change_record
 - policy_document
@@ -65,7 +66,7 @@ Not specified
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - definition_approval
 
@@ -76,15 +77,21 @@ Not specified
 - policy_document
 - audit_log
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 - Also known as: risk analysis.
 - [Wikipedia](https://en.wikipedia.org/wiki/Risk_assessment): Risk assessment determines possible mishaps, their likelihood and consequences, and the [tolerances](https://en.wikipedia.org/wiki/Engineering_tolerance) for such events.[<sup>\[1\]</sup>](https://en.wikipedia.org/wiki/Risk_assessment#cite_note-RausandRisk13-1) The results of this process may be expressed in a [quantitative](https://en.wikipedia.org/wiki/Quantitative_property) or [qualitative](https://en.wikipedia.org/wiki/Qualitative_data) fashion. Risk assessment is an inherent part of a broader [risk management](https://en.wikipedia.org/wiki/Risk_management) strategy to help reduce any potential risk-related consequences. More precisely, risk assessment identifies and analyses potential (future) events that may negatively impact individuals, assets, and/or the environment (i.e. [hazard analysis](https://en.wikipedia.org/wiki/Hazard_analysis)). It also makes judgments "on the [tolerability](https://en.wikipedia.org/wiki/Tolerability) of the risk on the basis of a risk analysis" while considering influencing factors (i.e. risk evaluation).
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/risk-assessment.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

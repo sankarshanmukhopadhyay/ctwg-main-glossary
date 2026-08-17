@@ -2,47 +2,25 @@
 title: "controlled-document"
 ---
 
-> Generated file. Update `glossary/terms/controlled-document.yaml` and regenerate artifacts instead of editing this page directly.
-
 # controlled-document
 
-## Concept Identity
-- **Concept ID**: `urn:tig:concept:controlled-document`
-- **Editorial status**: `stable`
-- **Provenance classification**: `adapted`
-- **Source corpus**: Trust over IP Main Glossary
-
-## In Simple English
 A governance document whose authority is derived from a primary document.
 
-## Definition
+## Formal definition
 A governance document whose authority is derived from a primary document.
 
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
 
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Alternative Designations
+## Names and relationships
+
+### Alternative designations
 - **controlled document** (`en`, `alternative`)
 - **controlled documents** (`en`, `alternative`)
 
-## Legacy Aliases
-controlled document, controlled documents
-
-## Semantic Relations
-- **related**: `urn:tig:concept:governance`
-- **related**: `urn:tig:concept:governance-framework`
-- **related**: `urn:tig:concept:governing-authority`
-- **related**: `urn:tig:concept:trust-registry`
-- **related**: `urn:tig:concept:revocation`
-- **related**: `urn:tig:concept:verification`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
+### Related concepts
 - [governance]({{ '/terms/governance/' | relative_url }})
 - [governance-framework]({{ '/terms/governance-framework/' | relative_url }})
 - [governing-authority]({{ '/terms/governing-authority/' | relative_url }})
@@ -50,10 +28,33 @@ Not specified
 - [revocation]({{ '/terms/revocation/' | relative_url }})
 - [verification]({{ '/terms/verification/' | relative_url }})
 
-## Standards and Source References
+### Semantic relations
+- **related**: `urn:tig:concept:governance`
+- **related**: `urn:tig:concept:governance-framework`
+- **related**: `urn:tig:concept:governing-authority`
+- **related**: `urn:tig:concept:trust-registry`
+- **related**: `urn:tig:concept:revocation`
+- **related**: `urn:tig:concept:verification`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
+- **Concept ID**: `urn:tig:concept:controlled-document`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
+### Standards and source references
 - ToIP CTWG maintained glossary source: `spec/terms-definitions/controlled-document.md`
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+controlled document, controlled documents
+
+### Governance profile
 - **Authority scope**: governance_recognition
 - **Delegation mode**: direct
 - **Revocation supported**: True
@@ -61,10 +62,10 @@ Not specified
 - **Execution role**: runtime
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - revocation_decision
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - definition_change_record
 - status_record
@@ -75,7 +76,7 @@ Not specified
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - revocation_decision
 
@@ -88,14 +89,20 @@ Not specified
 - verification_log
 - registry_entry
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/controlled-document.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

@@ -2,47 +2,48 @@
 title: "internet-protocol-suite"
 ---
 
-> Generated file. Update `glossary/terms/internet-protocol-suite.yaml` and regenerate artifacts instead of editing this page directly.
-
 # internet-protocol-suite
 
-## Concept Identity
+A simple-English summary has not yet been added for this concept.
+
+## Formal definition
+The Internet protocol suite, commonly known as TCP/IP, is a framework for organizing the set of communication protocols used in the Internet and similar computer networks according to functional criteria. The foundational protocols in the suite are the Transmission Control Protocol (TCP), the User Datagram Protocol (UDP), and the Internet Protocol (IP).
+
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
+## Names and relationships
+
+### Alternative designations
+- **Internet protocol suite** (`en`, `alternative`)
+
+### Related concepts
+- [protocol stack]({{ '/terms/protocol-stack/' | relative_url }})
+
+### Semantic relations
+- **related**: `urn:tig:concept:protocol-stack`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
 - **Concept ID**: `urn:tig:concept:internet-protocol-suite`
 - **Editorial status**: `stable`
 - **Provenance classification**: `locally_defined`
 - **Source corpus**: Trust Infrastructure Glossary
 
-## In Simple English
-A simple-English summary has not yet been added for this term.
-
-## Definition
-The Internet protocol suite, commonly known as TCP/IP, is a framework for organizing the set of communication protocols used in the Internet and similar computer networks according to functional criteria. The foundational protocols in the suite are the Transmission Control Protocol (TCP), the User Datagram Protocol (UDP), and the Internet Protocol (IP).
-
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
-
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
-
-## Alternative Designations
-- **Internet protocol suite** (`en`, `alternative`)
-
-## Legacy Aliases
-Internet protocol suite
-
-## Semantic Relations
-- **related**: `urn:tig:concept:protocol-stack`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
-- [protocol stack]({{ '/terms/protocol-stack/' | relative_url }})
-
-## Standards and Source References
+### Standards and source references
 - [Wikipedia](https://en.wikipedia.org/wiki/Internet_protocol_suite)
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+Internet protocol suite
+
+### Governance profile
 - **Authority scope**: policy_definition
 - **Delegation mode**: direct
 - **Revocation supported**: False
@@ -50,17 +51,17 @@ Not specified
 - **Execution role**: hybrid
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - policy_approval
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - policy_document
 
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - policy_approval
 
@@ -69,14 +70,20 @@ Not specified
 **Evidence produced**
 - policy_document
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 - Also known as: [[ref: TCP/IP]].
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/internet-protocol-suite.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

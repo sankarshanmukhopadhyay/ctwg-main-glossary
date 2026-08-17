@@ -1,7 +1,7 @@
 ---
 title: "Project Lineage"
-parent: Governance Documentation
-nav_order: 8
+parent: "Project"
+nav_order: 1
 ---
 
 # Project Lineage

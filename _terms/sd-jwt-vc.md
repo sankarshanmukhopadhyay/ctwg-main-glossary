@@ -2,54 +2,55 @@
 title: "sd-jwt-vc"
 ---
 
-> Generated file. Update `glossary/terms/sd-jwt-vc.yaml` and regenerate artifacts instead of editing this page directly.
-
 # sd-jwt-vc
 
-## Concept Identity
-- **Concept ID**: `urn:tig:concept:sd-jwt-vc`
-- **Editorial status**: `stable`
-- **Provenance classification**: `locally_defined`
-- **Source corpus**: Trust Infrastructure Glossary
-
-## In Simple English
 A verifiable credential encoded using Selective Disclosure JWT mechanisms, enabling selected claims to be disclosed while preserving cryptographic verification.
 
-## Definition
+## Formal definition
 A verifiable credential encoded using Selective Disclosure JWT mechanisms, enabling selected claims to be disclosed while preserving cryptographic verification.
 
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
 
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Alternative Designations
+## Names and relationships
+
+### Alternative designations
 - **SD-JWT VC** (`en`, `alternative`)
 - **SD-JWT-based Verifiable Credential** (`en`, `alternative`)
 
-## Legacy Aliases
-SD-JWT VC, SD-JWT-based Verifiable Credential
-
-## Semantic Relations
-- **related**: `urn:tig:concept:selective-disclosure`
-- **related**: `urn:tig:concept:verifiable-credential`
-- **related**: `urn:tig:concept:secured-verifiable-credential`
-- **related**: `urn:tig:concept:key-binding-jwt`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
+### Related concepts
 - [selective-disclosure]({{ '/terms/selective-disclosure/' | relative_url }})
 - [verifiable-credential]({{ '/terms/verifiable-credential/' | relative_url }})
 - [secured-verifiable-credential]({{ '/terms/secured-verifiable-credential/' | relative_url }})
 - [key-binding-jwt]({{ '/terms/key-binding-jwt/' | relative_url }})
 
-## Standards and Source References
+### Semantic relations
+- **related**: `urn:tig:concept:selective-disclosure`
+- **related**: `urn:tig:concept:verifiable-credential`
+- **related**: `urn:tig:concept:secured-verifiable-credential`
+- **related**: `urn:tig:concept:key-binding-jwt`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
+- **Concept ID**: `urn:tig:concept:sd-jwt-vc`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
+### Standards and source references
 - [SD-JWT-based Verifiable Credentials](https://www.rfc-editor.org/rfc/rfc9901.html) (IETF; RFC; 9901; 2025) — normative
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+SD-JWT VC, SD-JWT-based Verifiable Credential
+
+### Governance profile
 - **Authority scope**: credential_issuance, verification_and_reliance
 - **Delegation mode**: direct
 - **Revocation supported**: False
@@ -57,11 +58,11 @@ Not specified
 - **Execution role**: hybrid
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - issuance_decision
 - reliance_decision
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - issuance_log
 - verification_log
@@ -70,7 +71,7 @@ Not specified
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - issuance_decision
 - reliance_decision
@@ -82,15 +83,21 @@ Not specified
 - verification_log
 - audit_log
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 - **IETF**: RFC 9901
 - **OPENID**: OpenID4VCI, OpenID4VP
+
+</details>
+
+---
+
+*Generated from `glossary/terms/sd-jwt-vc.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

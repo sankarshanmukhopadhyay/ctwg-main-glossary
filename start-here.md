@@ -1,31 +1,32 @@
 ---
 title: "Start Here"
-nav_order: 2
+nav_order: 1
 ---
 # Start Here
 
-TIG serves readers who need to understand trust-infrastructure concepts and systems that need stable machine-readable semantics.
+TIG serves both **readers who need to understand trust-infrastructure language** and **systems that need stable machine-readable semantics**.
 
-## I want to understand a concept
+## If you are reading
 
-Start with the [Concept Index]({{ '/terms-index/' | relative_url }}). Generated pages show a simple-English explanation where available, followed by the formal definition, concept identity, alternative designations, provenance, relations, and governance metadata.
+- [Explore by topic]({{ '/concepts/' | relative_url }}) when you know the problem area.
+- [Browse A–Z]({{ '/terms-index/' | relative_url }}) when you know the term.
+- Use search when terminology varies across specifications.
 
-## I want to explore by problem area
+## If you are implementing
 
-Use [Concepts by Topic]({{ '/concepts/' | relative_url }}) for authority, agents, assurance, governance, risk, evidence, credentials, registries, interoperability, harms, redress, and policy.
+- [Use a vocabulary profile]({{ '/profiles/' | relative_url }}) for a bounded concept set.
+- [Consume machine-readable artifacts]({{ '/artifacts/' | relative_url }}) for JSON, JSON-LD and SKOS-compatible Turtle.
+- [Read downstream guidance]({{ '/governance/downstream-consumption/' | relative_url }}) for stable IDs and release pinning.
 
-## I want to understand the v2 model
+## If you are reviewing or contributing
 
-Read the [Semantic Model]({{ '/governance/semantic-model/' | relative_url }}), then [Source Intake and Provenance]({{ '/governance/source-intake-and-provenance/' | relative_url }}).
+- [Understand the semantic model]({{ '/governance/semantic-model/' | relative_url }}).
+- [Read the term authoring guide]({{ '/governance/term-authoring-guide/' | relative_url }}).
+- [Review source intake and provenance]({{ '/governance/source-intake-and-provenance/' | relative_url }}).
+- [Check assurance and quality]({{ '/governance/quality-report/' | relative_url }}).
 
-## I want to use TIG in software
+## If you knew this project before v2
 
-Use [Machine-readable Artifacts]({{ '/artifacts/' | relative_url }}) for JSON, JSON-LD, SKOS-compatible Turtle, manifests, inventories, and profiles.
+TIG is no longer governed as a downstream ToIP fork. Existing lineage is preserved through provenance, and v1 consumers have a documented compatibility path.
 
-## I want to consume a bounded vocabulary
-
-Use [Vocabulary Profiles]({{ '/governance/vocabulary-profiles/' | relative_url }}).
-
-## I want to contribute
-
-Use [Governance Documentation]({{ '/governance/' | relative_url }}) and the [Plain-English Authoring Guide]({{ '/governance/plain-language-guide/' | relative_url }}).
+[Read the v2 migration guide]({{ '/migration-v2/' | relative_url }})

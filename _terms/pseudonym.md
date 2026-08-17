@@ -2,55 +2,56 @@
 title: "pseudonym"
 ---
 
-> Generated file. Update `glossary/terms/pseudonym.yaml` and regenerate artifacts instead of editing this page directly.
-
 # pseudonym
 
-## Concept Identity
-- **Concept ID**: `urn:tig:concept:pseudonym`
-- **Editorial status**: `stable`
-- **Provenance classification**: `locally_defined`
-- **Source corpus**: Trust Infrastructure Glossary
+A simple-English summary has not yet been added for this concept.
 
-## In Simple English
-A simple-English summary has not yet been added for this term.
-
-## Definition
+## Formal definition
 A pseudonym is a fictitious name that a person assumes for a particular purpose, which differs from their original or true name (orthonym). This also differs from a new name that entirely or legally replaces an individual's own. Many pseudonym holders use pseudonyms because they wish to remain anonymous, but anonymity is difficult to achieve and often fraught with legal issues.
 
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
 
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Alternative Designations
+## Names and relationships
+
+### Alternative designations
 - **pseudonyms** (`en`, `alternative`)
 - **pseudonymous** (`en`, `alternative`)
 - **pseudonymity** (`en`, `alternative`)
 
-## Legacy Aliases
-pseudonym, pseudonyms, pseudonymous, pseudonymity
-
-## Semantic Relations
-- **related**: `urn:tig:concept:verification`
-- **related**: `urn:tig:concept:verifier`
-- **related**: `urn:tig:concept:relying-party`
-- **related**: `urn:tig:concept:trust-decision`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
+### Related concepts
 - [verification]({{ '/terms/verification/' | relative_url }})
 - [verifier]({{ '/terms/verifier/' | relative_url }})
 - [relying-party]({{ '/terms/relying-party/' | relative_url }})
 - [trust-decision]({{ '/terms/trust-decision/' | relative_url }})
 
-## Standards and Source References
+### Semantic relations
+- **related**: `urn:tig:concept:verification`
+- **related**: `urn:tig:concept:verifier`
+- **related**: `urn:tig:concept:relying-party`
+- **related**: `urn:tig:concept:trust-decision`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
+- **Concept ID**: `urn:tig:concept:pseudonym`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
+### Standards and source references
 - [Wikipedia](https://en.wikipedia.org/wiki/Pseudonym).
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+pseudonym, pseudonyms, pseudonymous, pseudonymity
+
+### Governance profile
 - **Authority scope**: verification_and_reliance
 - **Delegation mode**: direct
 - **Revocation supported**: False
@@ -58,17 +59,17 @@ Not specified
 - **Execution role**: design
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - reliance_decision
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - verification_log
 
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - reliance_decision
 
@@ -77,14 +78,20 @@ Not specified
 **Evidence produced**
 - verification_log
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/pseudonym.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

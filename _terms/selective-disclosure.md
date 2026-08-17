@@ -2,53 +2,54 @@
 title: "selective-disclosure"
 ---
 
-> Generated file. Update `glossary/terms/selective-disclosure.yaml` and regenerate artifacts instead of editing this page directly.
-
 # selective-disclosure
 
-## Concept Identity
-- **Concept ID**: `urn:tig:concept:selective-disclosure`
-- **Editorial status**: `stable`
-- **Provenance classification**: `locally_defined`
-- **Source corpus**: Trust Infrastructure Glossary
-
-## In Simple English
 A privacy-preserving presentation capability that allows a holder to disclose only selected claims or attributes from a credential while preserving verifiability.
 
-## Definition
+## Formal definition
 A privacy-preserving presentation capability that allows a holder to disclose only selected claims or attributes from a credential while preserving verifiability.
 
-## Reader Note
+## Why this concept matters
 This bridge term improves navigation across privacy, status, provenance, and assurance concepts.
 
-## Implementation Relevance
 Use this term where evidence needs to be carried across both reader-facing documentation and machine-verifiable assurance artifacts.
 
-## Alternative Designations
+## Names and relationships
+
+### Alternative designations
 - **selective disclosure** (`en`, `alternative`)
 
-## Legacy Aliases
-selective disclosure
-
-## Semantic Relations
-- **related**: `urn:tig:concept:sd-jwt-vc`
-- **related**: `urn:tig:concept:verifiable-presentation`
-- **related**: `urn:tig:concept:zero-knowledge-proof`
-- **related**: `urn:tig:concept:correlation-privacy`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
+### Related concepts
 - [sd-jwt-vc]({{ '/terms/sd-jwt-vc/' | relative_url }})
 - [verifiable-presentation]({{ '/terms/verifiable-presentation/' | relative_url }})
 - [zero-knowledge-proof]({{ '/terms/zero-knowledge-proof/' | relative_url }})
 - [correlation-privacy]({{ '/terms/correlation-privacy/' | relative_url }})
 
-## Standards and Source References
+### Semantic relations
+- **related**: `urn:tig:concept:sd-jwt-vc`
+- **related**: `urn:tig:concept:verifiable-presentation`
+- **related**: `urn:tig:concept:zero-knowledge-proof`
+- **related**: `urn:tig:concept:correlation-privacy`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
+- **Concept ID**: `urn:tig:concept:selective-disclosure`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
+### Standards and source references
 - [SD-JWT-based Verifiable Credentials](https://www.rfc-editor.org/rfc/rfc9901.html) (IETF; RFC; 9901; 2025) — normative
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+selective disclosure
+
+### Governance profile
 - **Authority scope**: assurance_and_audit, verification_and_reliance
 - **Delegation mode**: direct
 - **Revocation supported**: False
@@ -56,10 +57,10 @@ Not specified
 - **Execution role**: hybrid
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - reliance_decision
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - verification_log
 - audit_log
@@ -67,7 +68,7 @@ Not specified
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - reliance_decision
 
@@ -77,15 +78,21 @@ Not specified
 - verification_log
 - audit_log
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 - **W3C**: VC Data Model v2.0
 - **IETF**: RFC 9901
+
+</details>
+
+---
+
+*Generated from `glossary/terms/selective-disclosure.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

@@ -2,54 +2,55 @@
 title: "trust-task"
 ---
 
-> Generated file. Update `glossary/terms/trust-task.yaml` and regenerate artifacts instead of editing this page directly.
-
 # trust-task
 
-## Concept Identity
-- **Concept ID**: `urn:tig:concept:trust-task`
-- **Editorial status**: `stable`
-- **Provenance classification**: `adapted`
-- **Source corpus**: Trust over IP Main Glossary
+A simple-English summary has not yet been added for this concept.
 
-## In Simple English
-A simple-English summary has not yet been added for this term.
-
-## Definition
+## Formal definition
 A specific task that involves establishing, verifying, or maintaining trust relationships or exchanging verifiable messages or verifiable data that can be performed on behalf of a trust application by a trust task protocol at Layer 3 of the ToIP stack.
 
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
 
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Alternative Designations
+## Names and relationships
+
+### Alternative designations
 - **trust task** (`en`, `alternative`)
 - **trust tasks** (`en`, `alternative`)
 
-## Legacy Aliases
-trust task, trust tasks
-
-## Semantic Relations
-- **related**: `urn:tig:concept:glossary`
-- **related**: `urn:tig:concept:definition`
-- **related**: `urn:tig:concept:trust`
-- **related**: `urn:tig:concept:trust-registry`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
+### Related concepts
 - [glossary]({{ '/terms/glossary/' | relative_url }})
 - [definition]({{ '/terms/definition/' | relative_url }})
 - [trust]({{ '/terms/trust/' | relative_url }})
 - [trust-registry]({{ '/terms/trust-registry/' | relative_url }})
 
-## Standards and Source References
+### Semantic relations
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:definition`
+- **related**: `urn:tig:concept:trust`
+- **related**: `urn:tig:concept:trust-registry`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
+- **Concept ID**: `urn:tig:concept:trust-task`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
+### Standards and source references
 - ToIP CTWG maintained glossary source: `spec/terms-definitions/trust-task.md`
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+trust task, trust tasks
+
+### Governance profile
 - **Authority scope**: terminology_definition
 - **Delegation mode**: direct
 - **Revocation supported**: False
@@ -57,10 +58,10 @@ Not specified
 - **Execution role**: design
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - definition_approval
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - definition_change_record
 - policy_document
@@ -69,7 +70,7 @@ Not specified
 - **Assurance level hint**: AL1+
 - **Auditability**: moderate
 
-## Control Plane
+### Control plane
 **Decision points**
 - definition_approval
 
@@ -80,14 +81,20 @@ Not specified
 - policy_document
 - audit_log
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 - For more information, see [Section 7.4](https://github.com/trustoverip/TechArch/blob/main/spec.md#74-layer-3-trust-tasks) of the [[ref: ToIP Technology Architecture Specification]].
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/trust-task.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

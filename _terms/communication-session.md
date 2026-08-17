@@ -2,56 +2,57 @@
 title: "communication-session"
 ---
 
-> Generated file. Update `glossary/terms/communication-session.yaml` and regenerate artifacts instead of editing this page directly.
-
 # communication-session
 
-## Concept Identity
-- **Concept ID**: `urn:tig:concept:communication-session`
-- **Editorial status**: `stable`
-- **Provenance classification**: `adapted`
-- **Source corpus**: Trust over IP Main Glossary
+A simple-English summary has not yet been added for this concept.
 
-## In Simple English
-A simple-English summary has not yet been added for this term.
-
-## Definition
+## Formal definition
 A finite period for which a communication channel is instantiated and maintained, during which certain properties of that channel, such as authentication of the participants, are in effect. A session has a beginning, called the session initiation, and an ending, called the session termination.
 
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
 
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Alternative Designations
+## Names and relationships
+
+### Alternative designations
 - **communication session** (`en`, `alternative`)
 - **communication sessions** (`en`, `alternative`)
 - **communications session** (`en`, `alternative`)
 - **communications sessions** (`en`, `alternative`)
 
-## Legacy Aliases
-communication session, communication sessions, communications session, communications sessions
-
-## Semantic Relations
-- **related**: `urn:tig:concept:authorization`
-- **related**: `urn:tig:concept:permission`
-- **related**: `urn:tig:concept:role-based-access-control`
-- **related**: `urn:tig:concept:attribute-based-access-control`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
+### Related concepts
 - [authorization]({{ '/terms/authorization/' | relative_url }})
 - [permission]({{ '/terms/permission/' | relative_url }})
 - [role-based-access-control]({{ '/terms/role-based-access-control/' | relative_url }})
 - [attribute-based-access-control]({{ '/terms/attribute-based-access-control/' | relative_url }})
 
-## Standards and Source References
+### Semantic relations
+- **related**: `urn:tig:concept:authorization`
+- **related**: `urn:tig:concept:permission`
+- **related**: `urn:tig:concept:role-based-access-control`
+- **related**: `urn:tig:concept:attribute-based-access-control`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
+- **Concept ID**: `urn:tig:concept:communication-session`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
+### Standards and source references
 - ToIP CTWG maintained glossary source: `spec/terms-definitions/communication-session.md`
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+communication session, communication sessions, communications session, communications sessions
+
+### Governance profile
 - **Authority scope**: access_decisioning
 - **Delegation mode**: direct
 - **Revocation supported**: False
@@ -59,17 +60,17 @@ Not specified
 - **Execution role**: runtime
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - access_decision
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - access_decision_log
 
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - access_decision
 
@@ -78,15 +79,21 @@ Not specified
 **Evidence produced**
 - access_decision_log
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 - [NIST-CSRC](https://csrc.nist.gov/glossary/term/session): A persistent interaction between a subscriber and an end point, either a relying party or a Credential Service Provider. A session begins with an authentication event and ends with a session termination event. A session is bound by use of a session secret that the subscriber’s software (a browser, application, or operating system) can present to the relying party or the Credential Service Provider in lieu of the subscriber’s authentication credentials.
 - [Wikipedia](https://en.wikipedia.org/wiki/Session_\(computer_science\)): In [computer science](https://en.wikipedia.org/wiki/Computer_science) and [networking](https://en.wikipedia.org/wiki/Computer_network) in particular, a session is a time-delimited two-way link, a practical (relatively high) layer in the [TCP/IP protocol](https://en.wikipedia.org/wiki/Internet_protocol_suite) enabling interactive expression and information exchange between two or more communication devices or ends – be they computers, [automated systems](https://en.wikipedia.org/wiki/Automation), or live active users (see [login session](https://en.wikipedia.org/wiki/Login_session)). A session is established at a certain point in time, and then ‘torn down’ - brought to an end - at some later point. An established communication session may involve more than one message in each direction. A session is typically [stateful](https://en.wikipedia.org/wiki/Stateful), meaning that at least one of the communicating parties needs to hold current state information and save information about the session history to be able to communicate, as opposed to [stateless](https://en.wikipedia.org/wiki/Stateless_server) communication, where the communication consists of independent [requests](https://en.wikipedia.org/wiki/Request-response) with responses. An established session is the basic requirement to perform a [connection-oriented communication](https://en.wikipedia.org/wiki/Connection-oriented_communication). A session also is the basic step to transmit in [connectionless communication](https://en.wikipedia.org/wiki/Connectionless_communication) modes. However, any unidirectional transmission does not define a session.
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/communication-session.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

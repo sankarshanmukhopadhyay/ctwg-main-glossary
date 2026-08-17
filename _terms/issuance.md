@@ -2,52 +2,53 @@
 title: "issuance"
 ---
 
-> Generated file. Update `glossary/terms/issuance.yaml` and regenerate artifacts instead of editing this page directly.
-
 # issuance
 
-## Concept Identity
-- **Concept ID**: `urn:tig:concept:issuance`
-- **Editorial status**: `stable`
-- **Provenance classification**: `adapted`
-- **Source corpus**: Trust over IP Main Glossary
-
-## In Simple English
 The action of an issuer producing and transmitting a digital credential to a holder. A holder may request issuance by submitting an issuance request.
 
-## Definition
+## Formal definition
 The action of an issuer producing and transmitting a digital credential to a holder. A holder may request issuance by submitting an issuance request.
 
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
 
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Alternative Designations
+## Names and relationships
+
+### Alternative designations
 - **issue** (`en`, `alternative`)
 - **issues** (`en`, `alternative`)
 - **issued** (`en`, `alternative`)
 - **issuing** (`en`, `alternative`)
 
-## Legacy Aliases
-issuance, issue, issues, issued, issuing
-
-## Semantic Relations
-- **related**: `urn:tig:concept:presentation`
-- **related**: `urn:tig:concept:revocation`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
+### Related concepts
 - [presentation]({{ '/terms/presentation/' | relative_url }})
 - [revocation]({{ '/terms/revocation/' | relative_url }})
 
-## Standards and Source References
+### Semantic relations
+- **related**: `urn:tig:concept:presentation`
+- **related**: `urn:tig:concept:revocation`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
+- **Concept ID**: `urn:tig:concept:issuance`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
+### Standards and source references
 - ToIP CTWG maintained glossary source: `spec/terms-definitions/issuance.md`
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+issuance, issue, issues, issued, issuing
+
+### Governance profile
 - **Authority scope**: credential_issuance
 - **Delegation mode**: direct
 - **Revocation supported**: True
@@ -55,11 +56,11 @@ Not specified
 - **Execution role**: runtime
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - issuance_decision
 - revocation_decision
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - issuance_log
 - registry_entry
@@ -70,7 +71,7 @@ Not specified
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - issuance_decision
 - revocation_decision
@@ -84,14 +85,20 @@ Not specified
 - audit_log
 - verification_log
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/issuance.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

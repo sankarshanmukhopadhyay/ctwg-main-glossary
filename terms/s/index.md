@@ -1,10 +1,11 @@
 ---
-title: "Concepts: S"
-parent: "Concepts"
+title: "S"
+parent: "A–Z Concept Index"
+grand_parent: "Explore Concepts"
 nav_order: 19
 ---
 
-# Concepts: S
+# Concepts beginning with S
 
 - [schema]({{ '/terms/schema/' | relative_url }})
 - [scid]({{ '/terms/scid/' | relative_url }})

@@ -2,49 +2,50 @@
 title: "federation"
 ---
 
-> Generated file. Update `glossary/terms/federation.yaml` and regenerate artifacts instead of editing this page directly.
-
 # federation
 
-## Concept Identity
+A simple-English summary has not yet been added for this concept.
+
+## Formal definition
+A group of organizations that collaborate to establish a common trust framework or governance framework for the exchange of identity data in a federated identity system.
+
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
+## Names and relationships
+
+### Alternative designations
+- **federate** (`en`, `alternative`)
+- **federates** (`en`, `alternative`)
+- **federated** (`en`, `alternative`)
+
+### Related concepts
+- [trust community]({{ '/terms/trust-community/' | relative_url }})
+
+### Semantic relations
+- **related**: `urn:tig:concept:trust-community`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
 - **Concept ID**: `urn:tig:concept:federation`
 - **Editorial status**: `stable`
 - **Provenance classification**: `adapted`
 - **Source corpus**: Trust over IP Main Glossary
 
-## In Simple English
-A simple-English summary has not yet been added for this term.
-
-## Definition
-A group of organizations that collaborate to establish a common trust framework or governance framework for the exchange of identity data in a federated identity system.
-
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
-
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
-
-## Alternative Designations
-- **federate** (`en`, `alternative`)
-- **federates** (`en`, `alternative`)
-- **federated** (`en`, `alternative`)
-
-## Legacy Aliases
-federation, federate, federates, federated
-
-## Semantic Relations
-- **related**: `urn:tig:concept:trust-community`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
-- [trust community]({{ '/terms/trust-community/' | relative_url }})
-
-## Standards and Source References
+### Standards and source references
 - ToIP CTWG maintained glossary source: `spec/terms-definitions/federation.md`
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+federation, federate, federates, federated
+
+### Governance profile
 - **Authority scope**: policy_definition, governance_recognition
 - **Delegation mode**: direct
 - **Revocation supported**: False
@@ -52,17 +53,17 @@ Not specified
 - **Execution role**: runtime
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - policy_approval
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - policy_document
 
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - policy_approval
 
@@ -71,14 +72,20 @@ Not specified
 **Evidence produced**
 - policy_document
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 - [NIST-CSRC](https://csrc.nist.gov/glossary/term/federation): A collection of realms (domains) that have established trust among themselves. The level of trust may vary, but typically includes authentication and may include authorization.
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/federation.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

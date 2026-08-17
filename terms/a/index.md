@@ -1,10 +1,11 @@
 ---
-title: "Concepts: A"
-parent: "Concepts"
+title: "A"
+parent: "A–Z Concept Index"
+grand_parent: "Explore Concepts"
 nav_order: 1
 ---
 
-# Concepts: A
+# Concepts beginning with A
 
 - [aal]({{ '/terms/aal/' | relative_url }})
 - [abac]({{ '/terms/abac/' | relative_url }})

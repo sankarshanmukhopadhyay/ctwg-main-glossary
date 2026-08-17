@@ -1,7 +1,7 @@
 ---
 title: "Governance Improvement Roadmap"
-parent: Governance Documentation
-nav_order: 40
+parent: "Project"
+nav_order: 3
 ---
 
 # Governance Improvement Roadmap

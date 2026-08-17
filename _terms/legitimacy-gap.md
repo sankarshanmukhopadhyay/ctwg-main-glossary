@@ -2,51 +2,52 @@
 title: "legitimacy gap"
 ---
 
-> Generated file. Update `glossary/terms/legitimacy-gap.yaml` and regenerate artifacts instead of editing this page directly.
-
 # legitimacy gap
 
-## Concept Identity
+A simple-English summary has not yet been added for this concept.
+
+## Formal definition
+A mismatch between an action or decision that a system can technically execute and the authority, recognition, consent, or governance basis required for that action to be legitimate.
+
+## Why this concept matters
+This term was added following a cross-repository terminology review of TSMM, TIS, TGA, and the DTG ZKP Task Force workspace.
+
+Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.
+
+## Names and relationships
+
+### Alternative designations
+- **legitimacy-gap** (`en`, `alternative`)
+
+### Related concepts
+- [governance-framework]({{ '/terms/governance-framework/' | relative_url }})
+- [authority]({{ '/terms/authority/' | relative_url }})
+- [governance]({{ '/terms/governance/' | relative_url }})
+
+### Semantic relations
+- **related**: `urn:tig:concept:governance-framework`
+- **related**: `urn:tig:concept:authority`
+- **related**: `urn:tig:concept:governance`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
 - **Concept ID**: `urn:tig:concept:legitimacy-gap`
 - **Editorial status**: `stable`
 - **Provenance classification**: `locally_defined`
 - **Source corpus**: Trust Infrastructure Glossary
 
-## In Simple English
-A simple-English summary has not yet been added for this term.
-
-## Definition
-A mismatch between an action or decision that a system can technically execute and the authority, recognition, consent, or governance basis required for that action to be legitimate.
-
-## Reader Note
-This term was added following a cross-repository terminology review of TSMM, TIS, TGA, and the DTG ZKP Task Force workspace.
-
-## Implementation Relevance
-Use this term to keep runtime governance, delegation, evidence, and privacy semantics consistent across interoperating trust infrastructure repositories.
-
-## Alternative Designations
-- **legitimacy-gap** (`en`, `alternative`)
-
-## Legacy Aliases
-legitimacy gap, legitimacy-gap
-
-## Semantic Relations
-- **related**: `urn:tig:concept:governance-framework`
-- **related**: `urn:tig:concept:authority`
-- **related**: `urn:tig:concept:governance`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
-- [governance-framework]({{ '/terms/governance-framework/' | relative_url }})
-- [authority]({{ '/terms/authority/' | relative_url }})
-- [governance]({{ '/terms/governance/' | relative_url }})
-
-## Standards and Source References
+### Standards and source references
 - [TGA repository terminology and model documentation](https://github.com/sankarshanmukhopadhyay/trust-graph-artifacts) (GitHub) — informative
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+legitimacy gap, legitimacy-gap
+
+### Governance profile
 - **Authority scope**: assurance_and_audit, delegation_and_scope, policy_definition, verification_and_reliance
 - **Delegation mode**: direct_or_constrained
 - **Revocation supported**: True
@@ -54,13 +55,13 @@ Not specified
 - **Execution role**: hybrid
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - policy_approval
 - delegation_grant
 - reliance_decision
 - revocation_decision
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - policy_document
 - delegation_record
@@ -70,7 +71,7 @@ Not specified
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - policy_approval
 - delegation_grant
@@ -85,14 +86,20 @@ Not specified
 - status_record
 - verification_log
 
-## Notes
+### Notes
 - This definition is normalized for cross-repository use and should be applied together with the governing profile or specification that supplies domain-specific constraints.
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/legitimacy-gap.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

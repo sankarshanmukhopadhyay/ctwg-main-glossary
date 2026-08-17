@@ -1,7 +1,8 @@
 ---
 title: "Cross-Repository Terminology Review"
-parent: Governance Documentation
-nav_order: 12
+parent: "Semantic Model & Authoring"
+nav_order: 6
+grand_parent: "Govern TIG"
 ---
 
 # Cross-Repository Terminology Review

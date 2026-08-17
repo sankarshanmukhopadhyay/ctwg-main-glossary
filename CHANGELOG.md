@@ -18,6 +18,11 @@ v2.0.0 establishes the Trust Infrastructure Glossary as an independent project w
 
 ### Changed
 
+- reorganized GitHub Pages around reader tasks: Explore Concepts, Use TIG, Govern TIG, and Project
+- grouped governance documentation into semantic authoring, assurance/quality, and operations/evolution
+- changed generated concept pages to present meaning and relationships before implementation metadata
+- moved detailed governance, assurance, control-plane, evidence, and crosswalk metadata into progressive disclosure
+- added profile and section landing pages so navigation no longer mirrors repository folders
 - project identity from ToIP Main Glossary fork to Trust Infrastructure Glossary
 - ToIP from governing upstream to attributed source corpus
 - generated concept pages to expose identity, designations, provenance, relations, and mappings

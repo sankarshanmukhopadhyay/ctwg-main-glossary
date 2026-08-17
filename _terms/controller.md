@@ -2,51 +2,52 @@
 title: "controller"
 ---
 
-> Generated file. Update `glossary/terms/controller.yaml` and regenerate artifacts instead of editing this page directly.
-
 # controller
 
-## Concept Identity
+A simple-English summary has not yet been added for this concept.
+
+## Formal definition
+In the context of digital communications, the entity in control of sending and receiving digital communications. In the context of decentralized digital trust infrastructure, the entity in control of the cryptographic keys necessary to perform cryptographically verifiable actions using a digital agent and digital wallet. In a ToIP context, the entity in control of a ToIP endpoint.
+
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
+## Names and relationships
+
+### Alternative designations
+- **controllers** (`en`, `alternative`)
+
+### Related concepts
+- [device controller]({{ '/terms/device-controller/' | relative_url }})
+- [DID controller]({{ '/terms/did-controller/' | relative_url }})
+- [ToIP controller]({{ '/terms/toip-controller/' | relative_url }})
+
+### Semantic relations
+- **related**: `urn:tig:concept:device-controller`
+- **related**: `urn:tig:concept:did-controller`
+- **related**: `urn:tig:concept:toip-controller`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
 - **Concept ID**: `urn:tig:concept:controller`
 - **Editorial status**: `stable`
 - **Provenance classification**: `adapted`
 - **Source corpus**: Trust over IP Main Glossary
 
-## In Simple English
-A simple-English summary has not yet been added for this term.
-
-## Definition
-In the context of digital communications, the entity in control of sending and receiving digital communications. In the context of decentralized digital trust infrastructure, the entity in control of the cryptographic keys necessary to perform cryptographically verifiable actions using a digital agent and digital wallet. In a ToIP context, the entity in control of a ToIP endpoint.
-
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
-
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
-
-## Alternative Designations
-- **controllers** (`en`, `alternative`)
-
-## Legacy Aliases
-controller, controllers
-
-## Semantic Relations
-- **related**: `urn:tig:concept:device-controller`
-- **related**: `urn:tig:concept:did-controller`
-- **related**: `urn:tig:concept:toip-controller`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
-- [device controller]({{ '/terms/device-controller/' | relative_url }})
-- [DID controller]({{ '/terms/did-controller/' | relative_url }})
-- [ToIP controller]({{ '/terms/toip-controller/' | relative_url }})
-
-## Standards and Source References
+### Standards and source references
 - ToIP CTWG maintained glossary source: `spec/terms-definitions/controller.md`
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+controller, controllers
+
+### Governance profile
 - **Authority scope**: delegation_and_scope
 - **Delegation mode**: direct_or_constrained
 - **Revocation supported**: False
@@ -54,17 +55,17 @@ Not specified
 - **Execution role**: runtime
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - delegation_grant
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - delegation_record
 
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - delegation_grant
 
@@ -73,14 +74,20 @@ Not specified
 **Evidence produced**
 - delegation_record
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 - [eSSIF-Lab](https://essif-lab.github.io/framework/docs/essifLab-glossary#controller): the role that an [actor](https://essif-lab.github.io/framework/docs/terms/actor) performs as it is executing actions on that [entity](https://essif-lab.github.io/framework/docs/terms/entity) for the purpose of ensuring that the [entity](https://essif-lab.github.io/framework/docs/terms/entity) will act/behave, or be used, in a particular way.
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/controller.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

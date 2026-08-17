@@ -1,10 +1,11 @@
 ---
-title: "Concepts: P"
-parent: "Concepts"
+title: "P"
+parent: "A–Z Concept Index"
+grand_parent: "Explore Concepts"
 nav_order: 16
 ---
 
-# Concepts: P
+# Concepts beginning with P
 
 - [p2p]({{ '/terms/p2p/' | relative_url }})
 - [packet]({{ '/terms/packet/' | relative_url }})

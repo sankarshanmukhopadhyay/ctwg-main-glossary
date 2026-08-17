@@ -2,50 +2,51 @@
 title: "deep-link"
 ---
 
-> Generated file. Update `glossary/terms/deep-link.yaml` and regenerate artifacts instead of editing this page directly.
-
 # deep-link
 
-## Concept Identity
-- **Concept ID**: `urn:tig:concept:deep-link`
-- **Editorial status**: `stable`
-- **Provenance classification**: `locally_defined`
-- **Source corpus**: Trust Infrastructure Glossary
+A simple-English summary has not yet been added for this concept.
 
-## In Simple English
-A simple-English summary has not yet been added for this term.
-
-## Definition
+## Formal definition
 In the context of the World Wide Web, deep linking is the use of a hyperlink that links to a specific, generally searchable or indexed, piece of web content on a website (e.g. "https\://example.com/path/page"), rather than the website's home page (e.g., "https\://example.com"). The URL contains all the information needed to point to a particular item. Deep linking is different from mobile deep linking, which refers to directly linking to in-app content using a non-HTTP URI.
 
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
 
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Alternative Designations
+## Names and relationships
+
+### Alternative designations
 - **deep link** (`en`, `alternative`)
 - **deep links** (`en`, `alternative`)
 - **deep linking** (`en`, `alternative`)
 - **deep linked** (`en`, `alternative`)
 
-## Legacy Aliases
-deep link, deep links, deep linking, deep linked
-
-## Semantic Relations
-- **related**: `urn:tig:concept:out-of-band-introduction`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
+### Related concepts
 - [out-of-band introduction]({{ '/terms/out-of-band-introduction/' | relative_url }})
 
-## Standards and Source References
+### Semantic relations
+- **related**: `urn:tig:concept:out-of-band-introduction`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
+- **Concept ID**: `urn:tig:concept:deep-link`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
+### Standards and source references
 - [Wikipedia](https://en.wikipedia.org/wiki/Deep_linking).
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+deep link, deep links, deep linking, deep linked
+
+### Governance profile
 - **Authority scope**: terminology_definition
 - **Delegation mode**: direct
 - **Revocation supported**: False
@@ -53,17 +54,17 @@ Not specified
 - **Execution role**: design
 - **Control-plane role**: reference_term
 
-## Enforcement Points
+### Enforcement points
 - definition_approval
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - definition_change_record
 
 - **Assurance level hint**: informative
 - **Auditability**: basic
 
-## Control Plane
+### Control plane
 **Decision points**
 - definition_approval
 
@@ -72,14 +73,20 @@ Not specified
 **Evidence produced**
 - definition_change_record
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/deep-link.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

@@ -2,54 +2,55 @@
 title: "self-certifying-identifier"
 ---
 
-> Generated file. Update `glossary/terms/self-certifying-identifier.yaml` and regenerate artifacts instead of editing this page directly.
-
 # self-certifying-identifier
 
-## Concept Identity
-- **Concept ID**: `urn:tig:concept:self-certifying-identifier`
-- **Editorial status**: `stable`
-- **Provenance classification**: `adapted`
-- **Source corpus**: Trust over IP Main Glossary
+A simple-English summary has not yet been added for this concept.
 
-## In Simple English
-A simple-English summary has not yet been added for this term.
-
-## Definition
+## Formal definition
 A subclass of verifiable identifier (VID) that is cryptographically verifiable without the need to rely on any third party for verification because the identifier is cryptographically bound to the cryptographic keys from which it was generated.
 
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
 
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Alternative Designations
+## Names and relationships
+
+### Alternative designations
 - **self-certifying identifier** (`en`, `alternative`)
 - **self-certifying identifiers** (`en`, `alternative`)
 - **SCID** (`en`, `alternative`)
 - **SCIDs** (`en`, `alternative`)
 
-## Legacy Aliases
-self-certifying identifier, self-certifying identifiers, SCID, SCIDs
-
-## Semantic Relations
-- **related**: `urn:tig:concept:autonomic-identifier`
-- **related**: `urn:tig:concept:verifiable-identifier`
-- **related**: `urn:tig:concept:cryptographic-key`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
+### Related concepts
 - [autonomic-identifier]({{ '/terms/autonomic-identifier/' | relative_url }})
 - [verifiable-identifier]({{ '/terms/verifiable-identifier/' | relative_url }})
 - [cryptographic-key]({{ '/terms/cryptographic-key/' | relative_url }})
 
-## Standards and Source References
+### Semantic relations
+- **related**: `urn:tig:concept:autonomic-identifier`
+- **related**: `urn:tig:concept:verifiable-identifier`
+- **related**: `urn:tig:concept:cryptographic-key`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
+- **Concept ID**: `urn:tig:concept:self-certifying-identifier`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
+### Standards and source references
 - ToIP CTWG maintained glossary source: `spec/terms-definitions/self-certifying-identifier.md`
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+self-certifying identifier, self-certifying identifiers, SCID, SCIDs
+
+### Governance profile
 - **Authority scope**: verification_and_reliance
 - **Delegation mode**: direct
 - **Revocation supported**: False
@@ -57,17 +58,17 @@ Not specified
 - **Execution role**: design
 - **Control-plane role**: reference_term
 
-## Enforcement Points
+### Enforcement points
 - reliance_decision
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - verification_log
 
 - **Assurance level hint**: AL1+
 - **Auditability**: moderate
 
-## Control Plane
+### Control plane
 **Decision points**
 - reliance_decision
 
@@ -76,14 +77,20 @@ Not specified
 **Evidence produced**
 - verification_log
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 - Also known as: [[ref: SCID]].
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/self-certifying-identifier.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

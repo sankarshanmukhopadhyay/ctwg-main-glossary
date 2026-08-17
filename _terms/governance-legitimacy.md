@@ -2,49 +2,50 @@
 title: "governance legitimacy"
 ---
 
-> Generated file. Update `glossary/terms/governance-legitimacy.yaml` and regenerate artifacts instead of editing this page directly.
-
 # governance legitimacy
 
-## Concept Identity
+Why a governing body or rule is accepted as having the right to make a decision.
+
+## Formal definition
+The recognized basis on which a governing authority, rule, mandate, or decision is considered entitled to exercise power in a defined context.
+
+## Why this concept matters
+This is a cross-project glossary term. Individual specifications may define narrower domain-specific requirements.
+
+Use this term to keep governance, authority, assurance, and implementation discussions consistent across interoperating projects.
+
+## Names and relationships
+
+### Alternative designations
+- **governance-legitimacy** (`en`, `alternative`)
+
+### Related concepts
+- [governance]({{ '/terms/governance/' | relative_url }})
+- [authority]({{ '/terms/authority/' | relative_url }})
+
+### Semantic relations
+- **related**: `urn:tig:concept:governance`
+- **related**: `urn:tig:concept:authority`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
 - **Concept ID**: `urn:tig:concept:governance-legitimacy`
 - **Editorial status**: `stable`
 - **Provenance classification**: `locally_defined`
 - **Source corpus**: Trust Infrastructure Glossary
 
-## In Simple English
-Why a governing body or rule is accepted as having the right to make a decision.
-
-## Definition
-The recognized basis on which a governing authority, rule, mandate, or decision is considered entitled to exercise power in a defined context.
-
-## Reader Note
-This is a cross-project glossary term. Individual specifications may define narrower domain-specific requirements.
-
-## Implementation Relevance
-Use this term to keep governance, authority, assurance, and implementation discussions consistent across interoperating projects.
-
-## Alternative Designations
-- **governance-legitimacy** (`en`, `alternative`)
-
-## Legacy Aliases
-governance-legitimacy
-
-## Semantic Relations
-- **related**: `urn:tig:concept:governance`
-- **related**: `urn:tig:concept:authority`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
-- [governance]({{ '/terms/governance/' | relative_url }})
-- [authority]({{ '/terms/authority/' | relative_url }})
-
-## Standards and Source References
+### Standards and source references
 - [Portfolio source repository](https://github.com/sankarshanmukhopadhyay/PolicyMesh) (GitHub) — informative
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+governance-legitimacy
+
+### Governance profile
 - **Authority scope**: assurance_and_audit, governance_recognition, policy_definition, verification_and_reliance
 - **Delegation mode**: direct_or_constrained
 - **Revocation supported**: False
@@ -52,11 +53,11 @@ Not specified
 - **Execution role**: hybrid
 - **Control-plane role**: reference_term
 
-## Enforcement Points
+### Enforcement points
 - policy_approval
 - reliance_decision
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - definition_change_record
 - policy_document
@@ -65,7 +66,7 @@ Not specified
 - **Assurance level hint**: AL1+
 - **Auditability**: moderate
 
-## Control Plane
+### Control plane
 **Decision points**
 - policy_approval
 - reliance_decision
@@ -77,14 +78,20 @@ Not specified
 - policy_document
 - audit_log
 
-## Notes
+### Notes
 - Added in v1.5.0 following a cross-repository terminology review of active trust infrastructure, agent governance, assurance, and national trust framework projects.
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/governance-legitimacy.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

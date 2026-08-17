@@ -2,47 +2,48 @@
 title: "coalition-for-content-provenance-and-authenticity"
 ---
 
-> Generated file. Update `glossary/terms/coalition-for-content-provenance-and-authenticity.yaml` and regenerate artifacts instead of editing this page directly.
-
 # coalition-for-content-provenance-and-authenticity
 
-## Concept Identity
+A simple-English summary has not yet been added for this concept.
+
+## Formal definition
+C2PA is a Joint Development Foundation project of the Linux Foundation that addresses the prevalence of misleading information online through the development of technical standards for certifying the source and history (or provenance) of media content.
+
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
+## Names and relationships
+
+### Alternative designations
+- **Coalition for Content Provenance and Authenticity** (`en`, `alternative`)
+
+### Related concepts
+- [Content Authenticity Initiative]({{ '/terms/content-authenticity-initiative/' | relative_url }})
+
+### Semantic relations
+- **related**: `urn:tig:concept:content-authenticity-initiative`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
 - **Concept ID**: `urn:tig:concept:coalition-for-content-provenance-and-authenticity`
 - **Editorial status**: `stable`
 - **Provenance classification**: `adapted`
 - **Source corpus**: Trust over IP Main Glossary
 
-## In Simple English
-A simple-English summary has not yet been added for this term.
-
-## Definition
-C2PA is a Joint Development Foundation project of the Linux Foundation that addresses the prevalence of misleading information online through the development of technical standards for certifying the source and history (or provenance) of media content.
-
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
-
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
-
-## Alternative Designations
-- **Coalition for Content Provenance and Authenticity** (`en`, `alternative`)
-
-## Legacy Aliases
-Coalition for Content Provenance and Authenticity
-
-## Semantic Relations
-- **related**: `urn:tig:concept:content-authenticity-initiative`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
-- [Content Authenticity Initiative]({{ '/terms/content-authenticity-initiative/' | relative_url }})
-
-## Standards and Source References
+### Standards and source references
 - ToIP CTWG maintained glossary source: `spec/terms-definitions/coalition-for-content-provenance-and-authenticity.md`
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+Coalition for Content Provenance and Authenticity
+
+### Governance profile
 - **Authority scope**: terminology_definition
 - **Delegation mode**: direct
 - **Revocation supported**: False
@@ -50,17 +51,17 @@ Not specified
 - **Execution role**: design
 - **Control-plane role**: reference_term
 
-## Enforcement Points
+### Enforcement points
 - definition_approval
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - definition_change_record
 
 - **Assurance level hint**: informative
 - **Auditability**: basic
 
-## Control Plane
+### Control plane
 **Decision points**
 - definition_approval
 
@@ -69,14 +70,20 @@ Not specified
 **Evidence produced**
 - definition_change_record
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 - Also known as: [[ref: C2PA]].
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/coalition-for-content-provenance-and-authenticity.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

@@ -2,54 +2,55 @@
 title: "verifiable-data-registry"
 ---
 
-> Generated file. Update `glossary/terms/verifiable-data-registry.yaml` and regenerate artifacts instead of editing this page directly.
-
 # verifiable-data-registry
 
-## Concept Identity
-- **Concept ID**: `urn:tig:concept:verifiable-data-registry`
-- **Editorial status**: `stable`
-- **Provenance classification**: `locally_defined`
-- **Source corpus**: Trust Infrastructure Glossary
+A simple-English summary has not yet been added for this concept.
 
-## In Simple English
-A simple-English summary has not yet been added for this term.
-
-## Definition
+## Formal definition
 A registry that facilitates the creation, verification, updating, and/or deactivation of decentralized identifiers and DID documents. A verifiable data registry may also be used for other cryptographically-verifiable data structures such as verifiable credentials.
 
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
 
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Alternative Designations
+## Names and relationships
+
+### Alternative designations
 - **verifiable data registry** (`en`, `alternative`)
 - **verifiable data registries** (`en`, `alternative`)
 - **VDR** (`en`, `alternative`)
 - **VDRs** (`en`, `alternative`)
 
-## Legacy Aliases
-verifiable data registry, verifiable data registries, VDR, VDRs
-
-## Semantic Relations
-- **related**: `urn:tig:concept:authoritative-source`
-- **related**: `urn:tig:concept:trust-registry`
-- **related**: `urn:tig:concept:system-of-record`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
+### Related concepts
 - [authoritative source]({{ '/terms/authoritative-source/' | relative_url }})
 - [trust registry]({{ '/terms/trust-registry/' | relative_url }})
 - [system of record]({{ '/terms/system-of-record/' | relative_url }})
 
-## Standards and Source References
+### Semantic relations
+- **related**: `urn:tig:concept:authoritative-source`
+- **related**: `urn:tig:concept:trust-registry`
+- **related**: `urn:tig:concept:system-of-record`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
+- **Concept ID**: `urn:tig:concept:verifiable-data-registry`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
+### Standards and source references
 - [W3C DID](https://www.w3.org/TR/did-core/#terminology)
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+verifiable data registry, verifiable data registries, VDR, VDRs
+
+### Governance profile
 - **Authority scope**: credential_issuance, registry_management
 - **Delegation mode**: direct
 - **Revocation supported**: True
@@ -57,12 +58,12 @@ Not specified
 - **Execution role**: runtime
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - registration_decision
 - issuance_decision
 - revocation_decision
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - registry_entry
 - issuance_log
@@ -70,7 +71,7 @@ Not specified
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - registration_decision
 - issuance_decision
@@ -82,15 +83,21 @@ Not specified
 - registry_entry
 - issuance_log
 
-## Notes
+### Notes
 - There is an earlier definition in the W3C VC 1.1. glossary that is not as mature as this one (it is not clear about the use of cryptographically verifiable data structures). We do not recommend that definition.
 
-## Supporting Definitions
+### Supporting definitions
 - Also known as: [[ref: VDR]].
 - For more information, see: [[ref: W3C Verifiable Credentials Data Model Specification]].
 
-## Mental Models
+### Mental models
 - [W3C Verifiable Credentials Data Model Roles & Information Flows](https://www.w3.org/TR/vc-data-model/#roles)
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/verifiable-data-registry.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

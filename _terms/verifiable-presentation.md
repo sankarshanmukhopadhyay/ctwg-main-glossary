@@ -2,58 +2,59 @@
 title: "verifiable-presentation"
 ---
 
-> Generated file. Update `glossary/terms/verifiable-presentation.yaml` and regenerate artifacts instead of editing this page directly.
-
 # verifiable-presentation
 
-## Concept Identity
-- **Concept ID**: `urn:tig:concept:verifiable-presentation`
-- **Editorial status**: `stable`
-- **Provenance classification**: `locally_defined`
-- **Source corpus**: Trust Infrastructure Glossary
-
-## In Simple English
 A presentation with cryptographic proof or securing material that enables a verifier to check integrity, holder binding, or other presentation-specific verification requirements.
 
-## Definition
+## Formal definition
 A presentation with cryptographic proof or securing material that enables a verifier to check integrity, holder binding, or other presentation-specific verification requirements.
 
-## Reader Note
+## Why this concept matters
 Use this term for the presented artifact. Use openid4vp or vp-token when referring to the OpenID protocol container and flow.
 
-## Implementation Relevance
 A verifier should validate the presentation, intended audience, challenge or nonce binding, status information, and applicable policy before relying on it.
 
-## Alternative Designations
+## Names and relationships
+
+### Alternative designations
 - **verifiable presentation** (`en`, `alternative`)
 - **verifiable presentations** (`en`, `alternative`)
 - **VP** (`en`, `alternative`)
 - **VPs** (`en`, `alternative`)
 
-## Legacy Aliases
-verifiable presentation, verifiable presentations, VP, VPs
-
-## Semantic Relations
-- **related**: `urn:tig:concept:presentation`
-- **related**: `urn:tig:concept:vp-token`
-- **related**: `urn:tig:concept:openid4vp`
-- **related**: `urn:tig:concept:verifiable-credential`
-- **related**: `urn:tig:concept:holder-binding`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
+### Related concepts
 - [presentation]({{ '/terms/presentation/' | relative_url }})
 - [vp-token]({{ '/terms/vp-token/' | relative_url }})
 - [openid4vp]({{ '/terms/openid4vp/' | relative_url }})
 - [verifiable-credential]({{ '/terms/verifiable-credential/' | relative_url }})
 - [holder-binding]({{ '/terms/holder-binding/' | relative_url }})
 
-## Standards and Source References
+### Semantic relations
+- **related**: `urn:tig:concept:presentation`
+- **related**: `urn:tig:concept:vp-token`
+- **related**: `urn:tig:concept:openid4vp`
+- **related**: `urn:tig:concept:verifiable-credential`
+- **related**: `urn:tig:concept:holder-binding`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
+- **Concept ID**: `urn:tig:concept:verifiable-presentation`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
+### Standards and source references
 - [Verifiable Credentials Data Model v2.0](https://www.w3.org/TR/vc-data-model-2.0/) (W3C; Recommendation; 2.0; 2025-05-15) — normative
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+verifiable presentation, verifiable presentations, VP, VPs
+
+### Governance profile
 - **Authority scope**: verification_and_reliance
 - **Delegation mode**: direct
 - **Revocation supported**: False
@@ -61,10 +62,10 @@ Not specified
 - **Execution role**: runtime
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - reliance_decision
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - verification_log
 - audit_log
@@ -72,7 +73,7 @@ Not specified
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - reliance_decision
 
@@ -82,15 +83,21 @@ Not specified
 - verification_log
 - audit_log
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 - **W3C**: VC Data Model v2.0
 - **OPENID**: OpenID4VP 1.0
+
+</details>
+
+---
+
+*Generated from `glossary/terms/verifiable-presentation.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

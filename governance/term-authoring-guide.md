@@ -1,7 +1,8 @@
 ---
 title: "Concept Authoring Guide"
-parent: Governance Documentation
-nav_order: 25
+parent: "Semantic Model & Authoring"
+nav_order: 2
+grand_parent: "Govern TIG"
 ---
 
 # Concept Authoring Guide

@@ -2,47 +2,25 @@
 title: "governing-body"
 ---
 
-> Generated file. Update `glossary/terms/governing-body.yaml` and regenerate artifacts instead of editing this page directly.
-
 # governing-body
 
-## Concept Identity
-- **Concept ID**: `urn:tig:concept:governing-body`
-- **Editorial status**: `stable`
-- **Provenance classification**: `adapted`
-- **Source corpus**: Trust over IP Main Glossary
+A simple-English summary has not yet been added for this concept.
 
-## In Simple English
-A simple-English summary has not yet been added for this term.
-
-## Definition
+## Formal definition
 The party (or set of parties) authoritative for governing a trust community, usually (but not always) by developing, publishing, maintaining, and enforcing a governance framework. A governing body may be a government, a formal legal entity of any kind, an informal group of any kind, or an individual. A governing body may also delegate operational responsibilities to an administering body.
 
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
 
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Alternative Designations
+## Names and relationships
+
+### Alternative designations
 - **governing body** (`en`, `alternative`)
 - **governing bodies** (`en`, `alternative`)
 
-## Legacy Aliases
-governing body, governing bodies
-
-## Semantic Relations
-- **related**: `urn:tig:concept:policy`
-- **related**: `urn:tig:concept:governance-framework`
-- **related**: `urn:tig:concept:requirement`
-- **related**: `urn:tig:concept:delegation`
-- **related**: `urn:tig:concept:delegator`
-- **related**: `urn:tig:concept:delegatee`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
+### Related concepts
 - [policy]({{ '/terms/policy/' | relative_url }})
 - [governance-framework]({{ '/terms/governance-framework/' | relative_url }})
 - [requirement]({{ '/terms/requirement/' | relative_url }})
@@ -50,10 +28,33 @@ Not specified
 - [delegator]({{ '/terms/delegator/' | relative_url }})
 - [delegatee]({{ '/terms/delegatee/' | relative_url }})
 
-## Standards and Source References
+### Semantic relations
+- **related**: `urn:tig:concept:policy`
+- **related**: `urn:tig:concept:governance-framework`
+- **related**: `urn:tig:concept:requirement`
+- **related**: `urn:tig:concept:delegation`
+- **related**: `urn:tig:concept:delegator`
+- **related**: `urn:tig:concept:delegatee`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
+- **Concept ID**: `urn:tig:concept:governing-body`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
+### Standards and source references
 - ToIP CTWG maintained glossary source: `spec/terms-definitions/governing-body.md`
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+governing body, governing bodies
+
+### Governance profile
 - **Authority scope**: policy_definition, delegation_and_scope, governance_recognition
 - **Delegation mode**: direct_or_constrained
 - **Revocation supported**: True
@@ -61,12 +62,12 @@ Not specified
 - **Execution role**: runtime
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - policy_approval
 - delegation_grant
 - revocation_decision
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - policy_document
 - delegation_record
@@ -78,7 +79,7 @@ Not specified
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - policy_approval
 - delegation_grant
@@ -94,14 +95,20 @@ Not specified
 - verification_log
 - registry_entry
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 - Also known as: [[ref: governing authority]].
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/governing-body.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

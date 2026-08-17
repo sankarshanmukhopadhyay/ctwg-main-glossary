@@ -1,3 +1,10 @@
+---
+title: Migrating from v1
+parent: Project
+nav_order: 4
+permalink: /migration-v2/
+---
+
 # Migrating to Trust Infrastructure Glossary v2
 
 ## Project identity

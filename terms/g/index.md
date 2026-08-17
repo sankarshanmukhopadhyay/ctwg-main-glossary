@@ -1,10 +1,11 @@
 ---
-title: "Concepts: G"
-parent: "Concepts"
+title: "G"
+parent: "A–Z Concept Index"
+grand_parent: "Explore Concepts"
 nav_order: 7
 ---
 
-# Concepts: G
+# Concepts beginning with G
 
 - [gateway]({{ '/terms/gateway/' | relative_url }})
 - [gdpr]({{ '/terms/gdpr/' | relative_url }})

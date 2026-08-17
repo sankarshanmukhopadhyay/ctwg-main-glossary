@@ -2,49 +2,50 @@
 title: "verifiable"
 ---
 
-> Generated file. Update `glossary/terms/verifiable.yaml` and regenerate artifacts instead of editing this page directly.
-
 # verifiable
 
-## Concept Identity
+A simple-English summary has not yet been added for this concept.
+
+## Formal definition
+In the context of digital communications infrastructure, the ability to determine the authenticity of a communication (e.g., sender, contents, claims, metadata, provenance), or the underlying sociotechnical infrastructure (e.g., governance, roles, policies, authorizations, certifications).
+
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
+## Names and relationships
+
+### Alternative designations
+- **verifiability** (`en`, `alternative`)
+
+### Related concepts
+- [appraisable]({{ '/terms/appraisability/' | relative_url }})
+- [digital signature]({{ '/terms/digital-signature/' | relative_url }})
+
+### Semantic relations
+- **related**: `urn:tig:concept:appraisable`
+- **related**: `urn:tig:concept:digital-signature`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
 - **Concept ID**: `urn:tig:concept:verifiable`
 - **Editorial status**: `stable`
 - **Provenance classification**: `adapted`
 - **Source corpus**: Trust over IP Main Glossary
 
-## In Simple English
-A simple-English summary has not yet been added for this term.
-
-## Definition
-In the context of digital communications infrastructure, the ability to determine the authenticity of a communication (e.g., sender, contents, claims, metadata, provenance), or the underlying sociotechnical infrastructure (e.g., governance, roles, policies, authorizations, certifications).
-
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
-
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
-
-## Alternative Designations
-- **verifiability** (`en`, `alternative`)
-
-## Legacy Aliases
-verifiable, verifiability
-
-## Semantic Relations
-- **related**: `urn:tig:concept:appraisable`
-- **related**: `urn:tig:concept:digital-signature`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
-- [appraisable]({{ '/terms/appraisability/' | relative_url }})
-- [digital signature]({{ '/terms/digital-signature/' | relative_url }})
-
-## Standards and Source References
+### Standards and source references
 - ToIP CTWG maintained glossary source: `spec/terms-definitions/verifiable.md`
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+verifiable, verifiability
+
+### Governance profile
 - **Authority scope**: credential_issuance, access_decisioning, governance_recognition
 - **Delegation mode**: direct
 - **Revocation supported**: True
@@ -52,12 +53,12 @@ Not specified
 - **Execution role**: runtime
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - issuance_decision
 - access_decision
 - revocation_decision
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - issuance_log
 - access_decision_log
@@ -70,7 +71,7 @@ Not specified
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - issuance_decision
 - access_decision
@@ -87,14 +88,20 @@ Not specified
 - audit_log
 - verification_log
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/verifiable.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

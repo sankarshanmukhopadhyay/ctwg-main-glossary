@@ -2,51 +2,52 @@
 title: "tamper-resistant"
 ---
 
-> Generated file. Update `glossary/terms/tamper-resistant.yaml` and regenerate artifacts instead of editing this page directly.
-
 # tamper-resistant
 
-## Concept Identity
+A simple-English summary has not yet been added for this concept.
+
+## Formal definition
+A process which makes alterations to data difficult (hard to perform), costly (expensive to perform), or both. For digital data objects, this is typically achieved via cryptographic verification.
+
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
+## Names and relationships
+
+### Alternative designations
+- **tamper resistant** (`en`, `alternative`)
+- **tamper resistance** (`en`, `alternative`)
+- **tamper-resistance** (`en`, `alternative`)
+
+### Related concepts
+- [glossary]({{ '/terms/glossary/' | relative_url }})
+- [definition]({{ '/terms/definition/' | relative_url }})
+
+### Semantic relations
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:definition`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
 - **Concept ID**: `urn:tig:concept:tamper-resistant`
 - **Editorial status**: `stable`
 - **Provenance classification**: `locally_defined`
 - **Source corpus**: Trust Infrastructure Glossary
 
-## In Simple English
-A simple-English summary has not yet been added for this term.
-
-## Definition
-A process which makes alterations to data difficult (hard to perform), costly (expensive to perform), or both. For digital data objects, this is typically achieved via cryptographic verification.
-
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
-
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
-
-## Alternative Designations
-- **tamper resistant** (`en`, `alternative`)
-- **tamper resistance** (`en`, `alternative`)
-- **tamper-resistance** (`en`, `alternative`)
-
-## Legacy Aliases
-tamper resistant, tamper resistance, tamper-resistant, tamper-resistance
-
-## Semantic Relations
-- **related**: `urn:tig:concept:glossary`
-- **related**: `urn:tig:concept:definition`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
-- [glossary]({{ '/terms/glossary/' | relative_url }})
-- [definition]({{ '/terms/definition/' | relative_url }})
-
-## Standards and Source References
+### Standards and source references
 - [NIST-CSRC](https://csrc.nist.gov/glossary/term/tamper_resistant).
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+tamper resistant, tamper resistance, tamper-resistant, tamper-resistance
+
+### Governance profile
 - **Authority scope**: terminology_definition
 - **Delegation mode**: direct
 - **Revocation supported**: False
@@ -54,17 +55,17 @@ Not specified
 - **Execution role**: design
 - **Control-plane role**: reference_term
 
-## Enforcement Points
+### Enforcement points
 - definition_approval
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - definition_change_record
 
 - **Assurance level hint**: informative
 - **Auditability**: basic
 
-## Control Plane
+### Control plane
 **Decision points**
 - definition_approval
 
@@ -73,14 +74,20 @@ Not specified
 **Evidence produced**
 - definition_change_record
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/tamper-resistant.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

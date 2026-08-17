@@ -2,54 +2,55 @@
 title: "claim-generator"
 ---
 
-> Generated file. Update `glossary/terms/claim-generator.yaml` and regenerate artifacts instead of editing this page directly.
-
 # claim-generator
 
-## Concept Identity
-- **Concept ID**: `urn:tig:concept:claim-generator`
-- **Editorial status**: `stable`
-- **Provenance classification**: `locally_defined`
-- **Source corpus**: Trust Infrastructure Glossary
-
-## In Simple English
 A hardware or software actor that creates a C2PA claim about an asset and signs or causes the signing of the associated manifest data.
 
-## Definition
+## Formal definition
 A hardware or software actor that creates a C2PA claim about an asset and signs or causes the signing of the associated manifest data.
 
-## Reader Note
+## Why this concept matters
 This term is part of the v1.2.0 standards-linked refresh and is anchored to active implementation vocabulary.
 
-## Implementation Relevance
 Use this term when mapping glossary language to implementation profiles, governance controls, conformance checks, or assurance evidence.
 
-## Alternative Designations
+## Names and relationships
+
+### Alternative designations
 - **C2PA claim generator** (`en`, `alternative`)
 - **claim generator** (`en`, `alternative`)
 
-## Legacy Aliases
-C2PA claim generator, claim generator
-
-## Semantic Relations
-- **related**: `urn:tig:concept:c2pa-manifest`
-- **related**: `urn:tig:concept:content-credential`
-- **related**: `urn:tig:concept:actor`
-- **related**: `urn:tig:concept:digital-signature`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
+### Related concepts
 - [c2pa-manifest]({{ '/terms/c2pa-manifest/' | relative_url }})
 - [content-credential]({{ '/terms/content-credential/' | relative_url }})
 - [actor]({{ '/terms/actor/' | relative_url }})
 - [digital-signature]({{ '/terms/digital-signature/' | relative_url }})
 
-## Standards and Source References
+### Semantic relations
+- **related**: `urn:tig:concept:c2pa-manifest`
+- **related**: `urn:tig:concept:content-credential`
+- **related**: `urn:tig:concept:actor`
+- **related**: `urn:tig:concept:digital-signature`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
+- **Concept ID**: `urn:tig:concept:claim-generator`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
+### Standards and source references
 - [C2PA Technical Specification 2.2](https://spec.c2pa.org/specifications/specifications/2.2/specs/C2PA_Specification.html) (C2PA; Technical Specification; 2.2; 2025) — normative
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+C2PA claim generator, claim generator
+
+### Governance profile
 - **Authority scope**: assurance_and_audit, verification_and_reliance
 - **Delegation mode**: direct
 - **Revocation supported**: False
@@ -57,10 +58,10 @@ Not specified
 - **Execution role**: hybrid
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - reliance_decision
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - attestation
 - verification_log
@@ -69,7 +70,7 @@ Not specified
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - reliance_decision
 
@@ -80,14 +81,20 @@ Not specified
 - verification_log
 - audit_log
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 - **C2PA**: C2PA Technical Specification 2.2
+
+</details>
+
+---
+
+*Generated from `glossary/terms/claim-generator.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

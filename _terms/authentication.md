@@ -2,52 +2,53 @@
 title: "authentication"
 ---
 
-> Generated file. Update `glossary/terms/authentication.yaml` and regenerate artifacts instead of editing this page directly.
-
 # authentication
 
-## Concept Identity
-- **Concept ID**: `urn:tig:concept:authentication`
-- **Editorial status**: `stable`
-- **Provenance classification**: `locally_defined`
-- **Source corpus**: Trust Infrastructure Glossary
-
-## In Simple English
 Verifying the identity of a user, process, or device, often as a prerequisite to allowing access to resources in an information system.
 
-## Definition
+## Formal definition
 Verifying the identity of a user, process, or device, often as a prerequisite to allowing access to resources in an information system.
 
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
 
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Alternative Designations
+## Names and relationships
+
+### Alternative designations
 - **authenticate** (`en`, `alternative`)
 - **authenticates** (`en`, `alternative`)
 - **authenticated** (`en`, `alternative`)
 - **authenticating** (`en`, `alternative`)
 
-## Legacy Aliases
-authentication, authenticate, authenticates, authenticated, authenticating
-
-## Semantic Relations
-- **related**: `urn:tig:concept:authenticator`
-- **related**: `urn:tig:concept:verifiable-message`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
+### Related concepts
 - [authenticator]({{ '/terms/authenticator/' | relative_url }})
 - [verifiable message]({{ '/terms/verifiable-message/' | relative_url }})
 
-## Standards and Source References
+### Semantic relations
+- **related**: `urn:tig:concept:authenticator`
+- **related**: `urn:tig:concept:verifiable-message`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
+- **Concept ID**: `urn:tig:concept:authentication`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
+### Standards and source references
 - [NIST-CSRC](https://csrc.nist.gov/glossary/term/authentication).
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+authentication, authenticate, authenticates, authenticated, authenticating
+
+### Governance profile
 - **Authority scope**: access_decisioning
 - **Delegation mode**: direct
 - **Revocation supported**: True
@@ -55,11 +56,11 @@ Not specified
 - **Execution role**: runtime
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - access_decision
 - revocation_decision
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - access_decision_log
 - policy_document
@@ -71,7 +72,7 @@ Not specified
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - access_decision
 - revocation_decision
@@ -86,15 +87,21 @@ Not specified
 - verification_log
 - registry_entry
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 - [Wikipedia](https://en.wikipedia.org/wiki/Authentication): The act of proving an [assertion](https://en.wikipedia.org/wiki/Logical_assertion), such as the [identity](https://en.wikipedia.org/wiki/Digital_identity) of a computer system user.
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 - **NIST**: IA-2
 - **ISO**: ISO/IEC 27001 A.5.17
+
+</details>
+
+---
+
+*Generated from `glossary/terms/authentication.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

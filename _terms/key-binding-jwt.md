@@ -2,54 +2,55 @@
 title: "key-binding-jwt"
 ---
 
-> Generated file. Update `glossary/terms/key-binding-jwt.yaml` and regenerate artifacts instead of editing this page directly.
-
 # key-binding-jwt
 
-## Concept Identity
-- **Concept ID**: `urn:tig:concept:key-binding-jwt`
-- **Editorial status**: `stable`
-- **Provenance classification**: `locally_defined`
-- **Source corpus**: Trust Infrastructure Glossary
-
-## In Simple English
 A JWT used to demonstrate holder control of a key associated with an SD-JWT or SD-JWT VC presentation.
 
-## Definition
+## Formal definition
 A JWT used to demonstrate holder control of a key associated with an SD-JWT or SD-JWT VC presentation.
 
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
 
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Alternative Designations
+## Names and relationships
+
+### Alternative designations
 - **KB-JWT** (`en`, `alternative`)
 - **Key Binding JWT** (`en`, `alternative`)
 
-## Legacy Aliases
-KB-JWT, Key Binding JWT
-
-## Semantic Relations
-- **related**: `urn:tig:concept:holder-binding`
-- **related**: `urn:tig:concept:sd-jwt-vc`
-- **related**: `urn:tig:concept:proof-of-possession`
-- **related**: `urn:tig:concept:cryptographic-key`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
+### Related concepts
 - [holder-binding]({{ '/terms/holder-binding/' | relative_url }})
 - [sd-jwt-vc]({{ '/terms/sd-jwt-vc/' | relative_url }})
 - [proof-of-possession]({{ '/terms/proof-of-possession/' | relative_url }})
 - [cryptographic-key]({{ '/terms/cryptographic-key/' | relative_url }})
 
-## Standards and Source References
+### Semantic relations
+- **related**: `urn:tig:concept:holder-binding`
+- **related**: `urn:tig:concept:sd-jwt-vc`
+- **related**: `urn:tig:concept:proof-of-possession`
+- **related**: `urn:tig:concept:cryptographic-key`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
+- **Concept ID**: `urn:tig:concept:key-binding-jwt`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
+### Standards and source references
 - [SD-JWT-based Verifiable Credentials](https://www.rfc-editor.org/rfc/rfc9901.html) (IETF; RFC; 9901; 2025) — normative
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+KB-JWT, Key Binding JWT
+
+### Governance profile
 - **Authority scope**: verification_and_reliance
 - **Delegation mode**: direct
 - **Revocation supported**: False
@@ -57,10 +58,10 @@ Not specified
 - **Execution role**: hybrid
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - reliance_decision
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - verification_log
 - audit_log
@@ -68,7 +69,7 @@ Not specified
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - reliance_decision
 
@@ -78,14 +79,20 @@ Not specified
 - verification_log
 - audit_log
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 - **IETF**: RFC 9901
+
+</details>
+
+---
+
+*Generated from `glossary/terms/key-binding-jwt.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

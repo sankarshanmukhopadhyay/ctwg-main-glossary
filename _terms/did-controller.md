@@ -2,48 +2,49 @@
 title: "did-controller"
 ---
 
-> Generated file. Update `glossary/terms/did-controller.yaml` and regenerate artifacts instead of editing this page directly.
-
 # did-controller
 
-## Concept Identity
+A simple-English summary has not yet been added for this concept.
+
+## Formal definition
+An entity that has the capability to make changes to a DID document. A DID might have more than one DID controller. The DID controller(s) can be denoted by the optional `controller` property at the top level of the DID document. Note that a DID controller might be the DID subject.
+
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
+## Names and relationships
+
+### Alternative designations
+- **DID controller** (`en`, `alternative`)
+- **DID controllers** (`en`, `alternative`)
+
+### Related concepts
+- [controller]({{ '/terms/controller/' | relative_url }})
+
+### Semantic relations
+- **related**: `urn:tig:concept:controller`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
 - **Concept ID**: `urn:tig:concept:did-controller`
 - **Editorial status**: `stable`
 - **Provenance classification**: `locally_defined`
 - **Source corpus**: Trust Infrastructure Glossary
 
-## In Simple English
-A simple-English summary has not yet been added for this term.
-
-## Definition
-An entity that has the capability to make changes to a DID document. A DID might have more than one DID controller. The DID controller(s) can be denoted by the optional `controller` property at the top level of the DID document. Note that a DID controller might be the DID subject.
-
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
-
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
-
-## Alternative Designations
-- **DID controller** (`en`, `alternative`)
-- **DID controllers** (`en`, `alternative`)
-
-## Legacy Aliases
-DID controller, DID controllers
-
-## Semantic Relations
-- **related**: `urn:tig:concept:controller`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
-- [controller]({{ '/terms/controller/' | relative_url }})
-
-## Standards and Source References
+### Standards and source references
 - [W3C DID](https://www.w3.org/TR/did-core/#terminology).
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+DID controller, DID controllers
+
+### Governance profile
 - **Authority scope**: access_decisioning
 - **Delegation mode**: direct
 - **Revocation supported**: False
@@ -51,17 +52,17 @@ Not specified
 - **Execution role**: runtime
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - access_decision
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - access_decision_log
 
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - access_decision
 
@@ -70,14 +71,20 @@ Not specified
 **Evidence produced**
 - access_decision_log
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/did-controller.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

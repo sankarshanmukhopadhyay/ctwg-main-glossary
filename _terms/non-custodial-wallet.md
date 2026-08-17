@@ -2,50 +2,51 @@
 title: "non-custodial-wallet"
 ---
 
-> Generated file. Update `glossary/terms/non-custodial-wallet.yaml` and regenerate artifacts instead of editing this page directly.
-
 # non-custodial-wallet
 
-## Concept Identity
+A simple-English summary has not yet been added for this concept.
+
+## Formal definition
+A digital wallet that is directly in the control of the holder, usually because the holder is the device controller of the device hosting the digital wallet (smartcard, smartphone, tablet, laptop, desktop, car, etc.) A digital wallet that is in the custody of a third party is called a custodial wallet.
+
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
+## Names and relationships
+
+### Alternative designations
+- **non-custodial wallet** (`en`, `alternative`)
+- **non-custodial wallets** (`en`, `alternative`)
+
+### Related concepts
+- [glossary]({{ '/terms/glossary/' | relative_url }})
+- [definition]({{ '/terms/definition/' | relative_url }})
+
+### Semantic relations
+- **related**: `urn:tig:concept:glossary`
+- **related**: `urn:tig:concept:definition`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
 - **Concept ID**: `urn:tig:concept:non-custodial-wallet`
 - **Editorial status**: `stable`
 - **Provenance classification**: `adapted`
 - **Source corpus**: Trust over IP Main Glossary
 
-## In Simple English
-A simple-English summary has not yet been added for this term.
-
-## Definition
-A digital wallet that is directly in the control of the holder, usually because the holder is the device controller of the device hosting the digital wallet (smartcard, smartphone, tablet, laptop, desktop, car, etc.) A digital wallet that is in the custody of a third party is called a custodial wallet.
-
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
-
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
-
-## Alternative Designations
-- **non-custodial wallet** (`en`, `alternative`)
-- **non-custodial wallets** (`en`, `alternative`)
-
-## Legacy Aliases
-non-custodial wallet, non-custodial wallets
-
-## Semantic Relations
-- **related**: `urn:tig:concept:glossary`
-- **related**: `urn:tig:concept:definition`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
-- [glossary]({{ '/terms/glossary/' | relative_url }})
-- [definition]({{ '/terms/definition/' | relative_url }})
-
-## Standards and Source References
+### Standards and source references
 - ToIP CTWG maintained glossary source: `spec/terms-definitions/non-custodial-wallet.md`
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+non-custodial wallet, non-custodial wallets
+
+### Governance profile
 - **Authority scope**: terminology_definition
 - **Delegation mode**: direct
 - **Revocation supported**: False
@@ -53,10 +54,10 @@ Not specified
 - **Execution role**: runtime
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - definition_approval
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - definition_change_record
 - policy_document
@@ -65,7 +66,7 @@ Not specified
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - definition_approval
 
@@ -76,14 +77,20 @@ Not specified
 - policy_document
 - audit_log
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/non-custodial-wallet.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

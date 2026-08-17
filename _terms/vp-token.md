@@ -2,54 +2,55 @@
 title: "vp-token"
 ---
 
-> Generated file. Update `glossary/terms/vp-token.yaml` and regenerate artifacts instead of editing this page directly.
-
 # vp-token
 
-## Concept Identity
-- **Concept ID**: `urn:tig:concept:vp-token`
-- **Editorial status**: `stable`
-- **Provenance classification**: `locally_defined`
-- **Source corpus**: Trust Infrastructure Glossary
-
-## In Simple English
 An OpenID4VP response artifact containing one or more presentations returned to a verifier in response to an authorization request.
 
-## Definition
+## Formal definition
 An OpenID4VP response artifact containing one or more presentations returned to a verifier in response to an authorization request.
 
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
 
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Alternative Designations
+## Names and relationships
+
+### Alternative designations
 - **VP Token** (`en`, `alternative`)
 - **vp_token** (`en`, `alternative`)
 
-## Legacy Aliases
-VP Token, vp_token
-
-## Semantic Relations
-- **related**: `urn:tig:concept:openid4vp`
-- **related**: `urn:tig:concept:verifiable-presentation`
-- **related**: `urn:tig:concept:presentation`
-- **related**: `urn:tig:concept:verifier`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
+### Related concepts
 - [openid4vp]({{ '/terms/openid4vp/' | relative_url }})
 - [verifiable-presentation]({{ '/terms/verifiable-presentation/' | relative_url }})
 - [presentation]({{ '/terms/presentation/' | relative_url }})
 - [verifier]({{ '/terms/verifier/' | relative_url }})
 
-## Standards and Source References
+### Semantic relations
+- **related**: `urn:tig:concept:openid4vp`
+- **related**: `urn:tig:concept:verifiable-presentation`
+- **related**: `urn:tig:concept:presentation`
+- **related**: `urn:tig:concept:verifier`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
+- **Concept ID**: `urn:tig:concept:vp-token`
+- **Editorial status**: `stable`
+- **Provenance classification**: `locally_defined`
+- **Source corpus**: Trust Infrastructure Glossary
+
+### Standards and source references
 - [OpenID for Verifiable Presentations 1.0](https://openid.net/specs/openid-4-verifiable-presentations-1_0.html) (OpenID Foundation; Final Specification; 1.0; 2025-07-09) — normative
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+VP Token, vp_token
+
+### Governance profile
 - **Authority scope**: verification_and_reliance
 - **Delegation mode**: direct
 - **Revocation supported**: False
@@ -57,10 +58,10 @@ Not specified
 - **Execution role**: hybrid
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - reliance_decision
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - verification_log
 - audit_log
@@ -68,7 +69,7 @@ Not specified
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - reliance_decision
 
@@ -78,14 +79,20 @@ Not specified
 - verification_log
 - audit_log
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 - **OPENID**: OpenID4VP 1.0
+
+</details>
+
+---
+
+*Generated from `glossary/terms/vp-token.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

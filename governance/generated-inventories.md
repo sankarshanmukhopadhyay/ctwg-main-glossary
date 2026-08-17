@@ -1,7 +1,8 @@
 ---
 title: "Generated Inventories"
-parent: Governance Documentation
-nav_order: 20
+parent: "Assurance & Quality"
+grand_parent: "Govern TIG"
+nav_order: 2
 ---
 
 # Generated Inventories

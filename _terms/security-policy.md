@@ -2,48 +2,49 @@
 title: "security-policy"
 ---
 
-> Generated file. Update `glossary/terms/security-policy.yaml` and regenerate artifacts instead of editing this page directly.
-
 # security-policy
 
-## Concept Identity
+A set of policies and rules that governs all aspects of security-relevant system and system element behavior.
+
+## Formal definition
+A set of policies and rules that governs all aspects of security-relevant system and system element behavior.
+
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
+## Names and relationships
+
+### Alternative designations
+- **security policy** (`en`, `alternative`)
+- **security policies** (`en`, `alternative`)
+
+### Related concepts
+- [privacy policy]({{ '/terms/privacy-policy/' | relative_url }})
+
+### Semantic relations
+- **related**: `urn:tig:concept:privacy-policy`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
 - **Concept ID**: `urn:tig:concept:security-policy`
 - **Editorial status**: `stable`
 - **Provenance classification**: `locally_defined`
 - **Source corpus**: Trust Infrastructure Glossary
 
-## In Simple English
-A set of policies and rules that governs all aspects of security-relevant system and system element behavior.
-
-## Definition
-A set of policies and rules that governs all aspects of security-relevant system and system element behavior.
-
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
-
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
-
-## Alternative Designations
-- **security policy** (`en`, `alternative`)
-- **security policies** (`en`, `alternative`)
-
-## Legacy Aliases
-security policy, security policies
-
-## Semantic Relations
-- **related**: `urn:tig:concept:privacy-policy`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
-- [privacy policy]({{ '/terms/privacy-policy/' | relative_url }})
-
-## Standards and Source References
+### Standards and source references
 - [NIST-CSRC](https://csrc.nist.gov/glossary/term/security_policy)
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+security policy, security policies
+
+### Governance profile
 - **Authority scope**: policy_definition
 - **Delegation mode**: direct
 - **Revocation supported**: False
@@ -51,17 +52,17 @@ Not specified
 - **Execution role**: runtime
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - policy_approval
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - policy_document
 
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - policy_approval
 
@@ -70,14 +71,20 @@ Not specified
 **Evidence produced**
 - policy_document
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 - Also see: KERI's vision on [[xref: keri1, security]]
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/security-policy.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

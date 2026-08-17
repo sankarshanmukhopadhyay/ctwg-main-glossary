@@ -2,46 +2,24 @@
 title: "discovery"
 ---
 
-> Generated file. Update `glossary/terms/discovery.yaml` and regenerate artifacts instead of editing this page directly.
-
 # discovery
 
-## Concept Identity
-- **Concept ID**: `urn:tig:concept:discovery`
-- **Editorial status**: `stable`
-- **Provenance classification**: `adapted`
-- **Source corpus**: Trust over IP Main Glossary
+A simple-English summary has not yet been added for this concept.
 
-## In Simple English
-A simple-English summary has not yet been added for this term.
-
-## Definition
+## Formal definition
 A mechanism that helps systems or devices find each other automatically, often used in networks to identify services or resources. In decentralized identifier systems it helps to locate and verify digital identities without relying on a central authority.
 
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
 
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Alternative Designations
+## Names and relationships
+
+### Alternative designations
 None
 
-## Legacy Aliases
-discovery
-
-## Semantic Relations
-- **related**: `urn:tig:concept:verification`
-- **related**: `urn:tig:concept:verifier`
-- **related**: `urn:tig:concept:relying-party`
-- **related**: `urn:tig:concept:trust-decision`
-- **related**: `urn:tig:concept:governance`
-- **related**: `urn:tig:concept:governance-framework`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
+### Related concepts
 - [verification]({{ '/terms/verification/' | relative_url }})
 - [verifier]({{ '/terms/verifier/' | relative_url }})
 - [relying-party]({{ '/terms/relying-party/' | relative_url }})
@@ -49,10 +27,33 @@ Not specified
 - [governance]({{ '/terms/governance/' | relative_url }})
 - [governance-framework]({{ '/terms/governance-framework/' | relative_url }})
 
-## Standards and Source References
+### Semantic relations
+- **related**: `urn:tig:concept:verification`
+- **related**: `urn:tig:concept:verifier`
+- **related**: `urn:tig:concept:relying-party`
+- **related**: `urn:tig:concept:trust-decision`
+- **related**: `urn:tig:concept:governance`
+- **related**: `urn:tig:concept:governance-framework`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
+- **Concept ID**: `urn:tig:concept:discovery`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
+### Standards and source references
 - ToIP CTWG maintained glossary source: `spec/terms-definitions/discovery.md`
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+discovery
+
+### Governance profile
 - **Authority scope**: verification_and_reliance, governance_recognition
 - **Delegation mode**: direct
 - **Revocation supported**: True
@@ -60,18 +61,18 @@ Not specified
 - **Execution role**: runtime
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - reliance_decision
 - revocation_decision
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - verification_log
 
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - reliance_decision
 - revocation_decision
@@ -81,14 +82,20 @@ Not specified
 **Evidence produced**
 - verification_log
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/discovery.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

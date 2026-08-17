@@ -1,12 +1,13 @@
 ---
-title: "Concepts"
-nav_order: 4
+title: "A–Z Concept Index"
+parent: "Explore Concepts"
+nav_order: 2
 has_children: true
 ---
 
-# Concepts
+# A–Z Concept Index
 
-This index is generated from `glossary/terms/` and currently includes **612** concepts.
+Browse all **612** TIG concepts alphabetically. Use [Browse by Topic]({{ '/concepts/' | relative_url }}) when you know the problem area but not the exact term.
 
 ## Browse by letter
 

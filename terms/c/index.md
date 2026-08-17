@@ -1,10 +1,11 @@
 ---
-title: "Concepts: C"
-parent: "Concepts"
+title: "C"
+parent: "A–Z Concept Index"
+grand_parent: "Explore Concepts"
 nav_order: 3
 ---
 
-# Concepts: C
+# Concepts beginning with C
 
 - [c2pa]({{ '/terms/c2pa/' | relative_url }})
 - [c2pa-manifest]({{ '/terms/c2pa-manifest/' | relative_url }})

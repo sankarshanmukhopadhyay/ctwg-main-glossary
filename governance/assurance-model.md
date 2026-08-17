@@ -1,7 +1,8 @@
 ---
 title: "Assurance Model"
-parent: Governance Documentation
-nav_order: 26
+parent: "Assurance & Quality"
+nav_order: 1
+grand_parent: "Govern TIG"
 ---
 
 # Assurance Model

@@ -2,48 +2,49 @@
 title: "governance-requirement"
 ---
 
-> Generated file. Update `glossary/terms/governance-requirement.yaml` and regenerate artifacts instead of editing this page directly.
-
 # governance-requirement
 
-## Concept Identity
+A requirement such as a policy, rule, or technical specification specified in a governance document.
+
+## Formal definition
+A requirement such as a policy, rule, or technical specification specified in a governance document.
+
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
+## Names and relationships
+
+### Alternative designations
+- **governance requirement** (`en`, `alternative`)
+- **governance requirements** (`en`, `alternative`)
+
+### Related concepts
+- [technical requirement]({{ '/terms/technical-requirement/' | relative_url }})
+
+### Semantic relations
+- **related**: `urn:tig:concept:technical-requirement`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
 - **Concept ID**: `urn:tig:concept:governance-requirement`
 - **Editorial status**: `stable`
 - **Provenance classification**: `adapted`
 - **Source corpus**: Trust over IP Main Glossary
 
-## In Simple English
-A requirement such as a policy, rule, or technical specification specified in a governance document.
-
-## Definition
-A requirement such as a policy, rule, or technical specification specified in a governance document.
-
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
-
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
-
-## Alternative Designations
-- **governance requirement** (`en`, `alternative`)
-- **governance requirements** (`en`, `alternative`)
-
-## Legacy Aliases
-governance requirement, governance requirements
-
-## Semantic Relations
-- **related**: `urn:tig:concept:technical-requirement`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
-- [technical requirement]({{ '/terms/technical-requirement/' | relative_url }})
-
-## Standards and Source References
+### Standards and source references
 - ToIP CTWG maintained glossary source: `spec/terms-definitions/governance-requirement.md`
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+governance requirement, governance requirements
+
+### Governance profile
 - **Authority scope**: policy_definition, governance_recognition
 - **Delegation mode**: direct
 - **Revocation supported**: False
@@ -51,17 +52,17 @@ Not specified
 - **Execution role**: runtime
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - policy_approval
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - policy_document
 
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - policy_approval
 
@@ -70,14 +71,20 @@ Not specified
 **Evidence produced**
 - policy_document
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/governance-requirement.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

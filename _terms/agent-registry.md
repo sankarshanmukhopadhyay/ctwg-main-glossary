@@ -2,51 +2,52 @@
 title: "agent registry"
 ---
 
-> Generated file. Update `glossary/terms/agent-registry.yaml` and regenerate artifacts instead of editing this page directly.
-
 # agent registry
 
-## Concept Identity
+A governed registry that helps others discover an agent and understand what it is allowed to do and whether that authority is still valid.
+
+## Formal definition
+A registry that publishes and manages governed information about agents, including identity, authority, delegation, recognition, lifecycle state, and supporting evidence.
+
+## Why this concept matters
+This is a cross-project glossary term. Individual specifications may define narrower domain-specific requirements.
+
+Use this term to keep governance, authority, assurance, and implementation discussions consistent across interoperating projects.
+
+## Names and relationships
+
+### Alternative designations
+- **agent-registry** (`en`, `alternative`)
+
+### Related concepts
+- [agent]({{ '/terms/agent/' | relative_url }})
+- [registry]({{ '/terms/registry/' | relative_url }})
+- [delegation]({{ '/terms/delegation/' | relative_url }})
+
+### Semantic relations
+- **related**: `urn:tig:concept:agent`
+- **related**: `urn:tig:concept:registry`
+- **related**: `urn:tig:concept:delegation`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
 - **Concept ID**: `urn:tig:concept:agent-registry`
 - **Editorial status**: `stable`
 - **Provenance classification**: `locally_defined`
 - **Source corpus**: Trust Infrastructure Glossary
 
-## In Simple English
-A governed registry that helps others discover an agent and understand what it is allowed to do and whether that authority is still valid.
-
-## Definition
-A registry that publishes and manages governed information about agents, including identity, authority, delegation, recognition, lifecycle state, and supporting evidence.
-
-## Reader Note
-This is a cross-project glossary term. Individual specifications may define narrower domain-specific requirements.
-
-## Implementation Relevance
-Use this term to keep governance, authority, assurance, and implementation discussions consistent across interoperating projects.
-
-## Alternative Designations
-- **agent-registry** (`en`, `alternative`)
-
-## Legacy Aliases
-agent-registry
-
-## Semantic Relations
-- **related**: `urn:tig:concept:agent`
-- **related**: `urn:tig:concept:registry`
-- **related**: `urn:tig:concept:delegation`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
-- [agent]({{ '/terms/agent/' | relative_url }})
-- [registry]({{ '/terms/registry/' | relative_url }})
-- [delegation]({{ '/terms/delegation/' | relative_url }})
-
-## Standards and Source References
+### Standards and source references
 - [Portfolio source repository](https://github.com/sankarshanmukhopadhyay/agent-registry-protocol) (GitHub) — informative
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+agent-registry
+
+### Governance profile
 - **Authority scope**: assurance_and_audit, governance_recognition, policy_definition, verification_and_reliance
 - **Delegation mode**: direct_or_constrained
 - **Revocation supported**: False
@@ -54,11 +55,11 @@ Not specified
 - **Execution role**: hybrid
 - **Control-plane role**: reference_term
 
-## Enforcement Points
+### Enforcement points
 - policy_approval
 - reliance_decision
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - definition_change_record
 - policy_document
@@ -67,7 +68,7 @@ Not specified
 - **Assurance level hint**: AL1+
 - **Auditability**: moderate
 
-## Control Plane
+### Control plane
 **Decision points**
 - policy_approval
 - reliance_decision
@@ -79,14 +80,20 @@ Not specified
 - policy_document
 - audit_log
 
-## Notes
+### Notes
 - Added in v1.5.0 following a cross-repository terminology review of active trust infrastructure, agent governance, assurance, and national trust framework projects.
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/agent-registry.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

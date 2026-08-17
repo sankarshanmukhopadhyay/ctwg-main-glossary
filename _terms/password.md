@@ -2,47 +2,48 @@
 title: "password"
 ---
 
-> Generated file. Update `glossary/terms/password.yaml` and regenerate artifacts instead of editing this page directly.
-
 # password
 
-## Concept Identity
+A string of characters (letters, numbers and other symbols) that are used to authenticate an identity, verify access authorization or derive cryptographic keys.
+
+## Formal definition
+A string of characters (letters, numbers and other symbols) that are used to authenticate an identity, verify access authorization or derive cryptographic keys.
+
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
+## Names and relationships
+
+### Alternative designations
+- **passwords** (`en`, `alternative`)
+
+### Related concepts
+- [complex password]({{ '/terms/complex-password/' | relative_url }})
+
+### Semantic relations
+- **related**: `urn:tig:concept:complex-password`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
 - **Concept ID**: `urn:tig:concept:password`
 - **Editorial status**: `stable`
 - **Provenance classification**: `locally_defined`
 - **Source corpus**: Trust Infrastructure Glossary
 
-## In Simple English
-A string of characters (letters, numbers and other symbols) that are used to authenticate an identity, verify access authorization or derive cryptographic keys.
-
-## Definition
-A string of characters (letters, numbers and other symbols) that are used to authenticate an identity, verify access authorization or derive cryptographic keys.
-
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
-
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
-
-## Alternative Designations
-- **passwords** (`en`, `alternative`)
-
-## Legacy Aliases
-password, passwords
-
-## Semantic Relations
-- **related**: `urn:tig:concept:complex-password`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
-- [complex password]({{ '/terms/complex-password/' | relative_url }})
-
-## Standards and Source References
+### Standards and source references
 - [NIST-CSRC](https://csrc.nist.gov/glossary/term/password).
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+password, passwords
+
+### Governance profile
 - **Authority scope**: access_decisioning
 - **Delegation mode**: direct
 - **Revocation supported**: True
@@ -50,11 +51,11 @@ Not specified
 - **Execution role**: runtime
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - access_decision
 - revocation_decision
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - access_decision_log
 - policy_document
@@ -66,7 +67,7 @@ Not specified
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - access_decision
 - revocation_decision
@@ -81,14 +82,20 @@ Not specified
 - verification_log
 - registry_entry
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/password.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

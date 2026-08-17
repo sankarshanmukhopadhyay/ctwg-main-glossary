@@ -1,7 +1,8 @@
 ---
 title: "Extension Model"
-parent: Governance Documentation
-nav_order: 28
+parent: "Operations & Evolution"
+nav_order: 4
+grand_parent: "Govern TIG"
 ---
 
 # Governance-Aware Glossary Extension Model

@@ -2,52 +2,53 @@
 title: "system-of-record"
 ---
 
-> Generated file. Update `glossary/terms/system-of-record.yaml` and regenerate artifacts instead of editing this page directly.
-
 # system-of-record
 
-## Concept Identity
+A simple-English summary has not yet been added for this concept.
+
+## Formal definition
+A system of record (SOR) or source system of record (SSoR) is a data management term for an information storage system (commonly implemented on a computer system running a database management system) that is the authoritative source for a given data element or piece of information.
+
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
+
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+
+## Names and relationships
+
+### Alternative designations
+- **system of record** (`en`, `alternative`)
+- **systems of record** (`en`, `alternative`)
+
+### Related concepts
+- [authoritative source]({{ '/terms/authoritative-source/' | relative_url }})
+- [trust registry]({{ '/terms/trust-registry/' | relative_url }})
+- [verifiable data registry]({{ '/terms/verifiable-data-registry/' | relative_url }})
+
+### Semantic relations
+- **related**: `urn:tig:concept:authoritative-source`
+- **related**: `urn:tig:concept:trust-registry`
+- **related**: `urn:tig:concept:verifiable-data-registry`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
 - **Concept ID**: `urn:tig:concept:system-of-record`
 - **Editorial status**: `stable`
 - **Provenance classification**: `locally_defined`
 - **Source corpus**: Trust Infrastructure Glossary
 
-## In Simple English
-A simple-English summary has not yet been added for this term.
-
-## Definition
-A system of record (SOR) or source system of record (SSoR) is a data management term for an information storage system (commonly implemented on a computer system running a database management system) that is the authoritative source for a given data element or piece of information.
-
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
-
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
-
-## Alternative Designations
-- **system of record** (`en`, `alternative`)
-- **systems of record** (`en`, `alternative`)
-
-## Legacy Aliases
-system of record, systems of record
-
-## Semantic Relations
-- **related**: `urn:tig:concept:authoritative-source`
-- **related**: `urn:tig:concept:trust-registry`
-- **related**: `urn:tig:concept:verifiable-data-registry`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
-- [authoritative source]({{ '/terms/authoritative-source/' | relative_url }})
-- [trust registry]({{ '/terms/trust-registry/' | relative_url }})
-- [verifiable data registry]({{ '/terms/verifiable-data-registry/' | relative_url }})
-
-## Standards and Source References
+### Standards and source references
 - [Wikipedia](https://en.wikipedia.org/wiki/System_of_record)
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+system of record, systems of record
+
+### Governance profile
 - **Authority scope**: governance_recognition
 - **Delegation mode**: direct
 - **Revocation supported**: False
@@ -55,17 +56,17 @@ Not specified
 - **Execution role**: design
 - **Control-plane role**: reference_term
 
-## Enforcement Points
+### Enforcement points
 - definition_approval
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - definition_change_record
 
 - **Assurance level hint**: informative
 - **Auditability**: basic
 
-## Control Plane
+### Control plane
 **Decision points**
 - definition_approval
 
@@ -74,14 +75,20 @@ Not specified
 **Evidence produced**
 - definition_change_record
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/system-of-record.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

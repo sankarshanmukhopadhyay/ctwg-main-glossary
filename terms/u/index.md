@@ -1,10 +1,11 @@
 ---
-title: "Concepts: U"
-parent: "Concepts"
+title: "U"
+parent: "A–Z Concept Index"
+grand_parent: "Explore Concepts"
 nav_order: 21
 ---
 
-# Concepts: U
+# Concepts beginning with U
 
 - [udp]({{ '/terms/udp/' | relative_url }})
 - [unicast]({{ '/terms/unicast/' | relative_url }})

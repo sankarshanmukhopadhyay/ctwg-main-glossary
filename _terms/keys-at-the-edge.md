@@ -2,53 +2,54 @@
 title: "keys-at-the-edge"
 ---
 
-> Generated file. Update `glossary/terms/keys-at-the-edge.yaml` and regenerate artifacts instead of editing this page directly.
-
 # keys-at-the-edge
 
-## Concept Identity
-- **Concept ID**: `urn:tig:concept:keys-at-the-edge`
-- **Editorial status**: `stable`
-- **Provenance classification**: `adapted`
-- **Source corpus**: Trust over IP Main Glossary
+A simple-English summary has not yet been added for this concept.
 
-## In Simple English
-A simple-English summary has not yet been added for this term.
-
-## Definition
+## Formal definition
 A key management architecture in which keys are stored on a user’s local edge devices, such as a smartphone, tablet, or laptop, and then used in conjunction with a secure protocol to unlock a key management system (KMS) and/or a digital vault in the cloud. This approach can enable the storage and sharing of large data structures that are not feasible on edge devices. This architecture can also be used in conjunction with confidential computing to enable cloud-based digital agents to safely carry out “user not present” operations.
 
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
 
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Alternative Designations
+## Names and relationships
+
+### Alternative designations
 None
 
-## Legacy Aliases
-keys-at-the-edge
-
-## Semantic Relations
-- **related**: `urn:tig:concept:delegation`
-- **related**: `urn:tig:concept:delegator`
-- **related**: `urn:tig:concept:delegatee`
-- **related**: `urn:tig:concept:authorization`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
+### Related concepts
 - [delegation]({{ '/terms/delegation/' | relative_url }})
 - [delegator]({{ '/terms/delegator/' | relative_url }})
 - [delegatee]({{ '/terms/delegatee/' | relative_url }})
 - [authorization]({{ '/terms/authorization/' | relative_url }})
 
-## Standards and Source References
+### Semantic relations
+- **related**: `urn:tig:concept:delegation`
+- **related**: `urn:tig:concept:delegator`
+- **related**: `urn:tig:concept:delegatee`
+- **related**: `urn:tig:concept:authorization`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
+- **Concept ID**: `urn:tig:concept:keys-at-the-edge`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
+### Standards and source references
 - ToIP CTWG maintained glossary source: `spec/terms-definitions/keys-at-the-edge.md`
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+keys-at-the-edge
+
+### Governance profile
 - **Authority scope**: delegation_and_scope
 - **Delegation mode**: direct_or_constrained
 - **Revocation supported**: False
@@ -56,17 +57,17 @@ Not specified
 - **Execution role**: runtime
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - delegation_grant
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - delegation_record
 
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - delegation_grant
 
@@ -75,14 +76,20 @@ Not specified
 **Evidence produced**
 - delegation_record
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 - Also known as: [[ref: KATE]].
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/keys-at-the-edge.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

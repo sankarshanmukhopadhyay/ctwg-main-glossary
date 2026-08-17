@@ -1,23 +1,27 @@
 ---
-title: "Governance Documentation"
-nav_order: 5
+title: "Govern TIG"
+nav_order: 4
 has_children: true
 ---
 
-# Governance Documentation
+# Govern TIG
 
-This section explains how TIG is governed as an independent, concept-centric semantic infrastructure project.
+TIG treats terminology as maintained semantic infrastructure. Governance therefore covers not only wording, but concept identity, provenance, mappings, lifecycle, evidence, publication integrity and downstream compatibility.
 
-Key topics include:
+## Semantic model & authoring
 
-- [Repository Operating Model](repository-operating-model.md)
-- [Semantic Model](semantic-model.md)
-- [Source Intake and Provenance](source-intake-and-provenance.md)
-- [Project Lineage](project-lineage.md)
-- [Vocabulary Profiles](vocabulary-profiles.md)
-- [Plain-English Authoring Guide](plain-language-guide.md)
-- [Assurance Model](assurance-model.md)
-- [Term Authoring Guide](term-authoring-guide.md)
-- [Governance Improvement Roadmap](roadmap.md)
+Understand how concepts and designations are represented and how changes are reviewed.
 
-The project keeps reader comprehension, semantic precision, source provenance, operational governance metadata, and machine-readable interoperability as separate but coordinated concerns.
+[Open semantic model & authoring]({{ '/governance/semantic/' | relative_url }})
+
+## Assurance & quality
+
+Inspect validation, generated inventories and the assurance-readiness model.
+
+[Open assurance & quality]({{ '/governance/assurance/' | relative_url }})
+
+## Operations & evolution
+
+Understand source intake, publication, extensions and repository operating rules.
+
+[Open operations & evolution]({{ '/governance/operations/' | relative_url }})

@@ -1,10 +1,11 @@
 ---
-title: "Concepts: K"
-parent: "Concepts"
+title: "K"
+parent: "A–Z Concept Index"
+grand_parent: "Explore Concepts"
 nav_order: 11
 ---
 
-# Concepts: K
+# Concepts beginning with K
 
 - [kate]({{ '/terms/kate/' | relative_url }})
 - [keri]({{ '/terms/keri/' | relative_url }})

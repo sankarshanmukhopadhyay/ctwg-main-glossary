@@ -2,54 +2,55 @@
 title: "trust-domain"
 ---
 
-> Generated file. Update `glossary/terms/trust-domain.yaml` and regenerate artifacts instead of editing this page directly.
-
 # trust-domain
 
-## Concept Identity
-- **Concept ID**: `urn:tig:concept:trust-domain`
-- **Editorial status**: `stable`
-- **Provenance classification**: `adapted`
-- **Source corpus**: Trust over IP Main Glossary
+A simple-English summary has not yet been added for this concept.
 
-## In Simple English
-A simple-English summary has not yet been added for this term.
-
-## Definition
+## Formal definition
 A security domain defined by a computer hardware or software architecture, a security policy, or a trust community, typically via a trust framework or governance framework.
 
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
 
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Alternative Designations
+## Names and relationships
+
+### Alternative designations
 - **trust domain** (`en`, `alternative`)
 - **trust domains** (`en`, `alternative`)
 
-## Legacy Aliases
-trust domain, trust domains
-
-## Semantic Relations
-- **related**: `urn:tig:concept:trust-context`
-- **related**: `urn:tig:concept:digital-trust-ecosystem`
-- **related**: `urn:tig:concept:security-domain`
-- **related**: `urn:tig:concept:trust-framework`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
+### Related concepts
 - [trust-context]({{ '/terms/trust-context/' | relative_url }})
 - [digital-trust-ecosystem]({{ '/terms/digital-trust-ecosystem/' | relative_url }})
 - [security-domain]({{ '/terms/security-domain/' | relative_url }})
 - [trust-framework]({{ '/terms/trust-framework/' | relative_url }})
 
-## Standards and Source References
+### Semantic relations
+- **related**: `urn:tig:concept:trust-context`
+- **related**: `urn:tig:concept:digital-trust-ecosystem`
+- **related**: `urn:tig:concept:security-domain`
+- **related**: `urn:tig:concept:trust-framework`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
+- **Concept ID**: `urn:tig:concept:trust-domain`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
+### Standards and source references
 - ToIP CTWG maintained glossary source: `spec/terms-definitions/trust-domain.md`
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+trust domain, trust domains
+
+### Governance profile
 - **Authority scope**: policy_definition, governance_recognition
 - **Delegation mode**: direct
 - **Revocation supported**: False
@@ -57,17 +58,17 @@ Not specified
 - **Execution role**: runtime
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - policy_approval
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - policy_document
 
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - policy_approval
 
@@ -76,14 +77,20 @@ Not specified
 **Evidence produced**
 - policy_document
 
-## Notes
+### Notes
 Not specified
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/trust-domain.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

@@ -2,47 +2,25 @@
 title: "digital-agent"
 ---
 
-> Generated file. Update `glossary/terms/digital-agent.yaml` and regenerate artifacts instead of editing this page directly.
-
 # digital-agent
 
-## Concept Identity
-- **Concept ID**: `urn:tig:concept:digital-agent`
-- **Editorial status**: `stable`
-- **Provenance classification**: `adapted`
-- **Source corpus**: Trust over IP Main Glossary
+A simple-English summary has not yet been added for this concept.
 
-## In Simple English
-A simple-English summary has not yet been added for this term.
-
-## Definition
+## Formal definition
 In the context of ​​decentralized digital trust infrastructure, a software agent that operates in conjunction with a digital wallet or similar system component to take actions on behalf of its controller.
 
-## Reader Note
-This term is provided as a controlled glossary entry for standards, governance, and implementation review.
+## Why this concept matters
+This concept is provided as a controlled glossary entry for standards, governance, and implementation review.
 
-## Implementation Relevance
-Use this term consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
+Use this concept consistently when mapping authority, evidence, reliance, and auditability across governance and implementation artifacts.
 
-## Alternative Designations
+## Names and relationships
+
+### Alternative designations
 - **digital agent** (`en`, `alternative`)
 - **digital agents** (`en`, `alternative`)
 
-## Legacy Aliases
-digital agent, digital agents
-
-## Semantic Relations
-- **related**: `urn:tig:concept:delegation`
-- **related**: `urn:tig:concept:delegator`
-- **related**: `urn:tig:concept:delegatee`
-- **related**: `urn:tig:concept:authorization`
-- **related**: `urn:tig:concept:governance`
-- **related**: `urn:tig:concept:governance-framework`
-
-## Cross-Vocabulary Mappings
-Not specified
-
-## See Also
+### Related concepts
 - [delegation]({{ '/terms/delegation/' | relative_url }})
 - [delegator]({{ '/terms/delegator/' | relative_url }})
 - [delegatee]({{ '/terms/delegatee/' | relative_url }})
@@ -50,10 +28,33 @@ Not specified
 - [governance]({{ '/terms/governance/' | relative_url }})
 - [governance-framework]({{ '/terms/governance-framework/' | relative_url }})
 
-## Standards and Source References
+### Semantic relations
+- **related**: `urn:tig:concept:delegation`
+- **related**: `urn:tig:concept:delegator`
+- **related**: `urn:tig:concept:delegatee`
+- **related**: `urn:tig:concept:authorization`
+- **related**: `urn:tig:concept:governance`
+- **related**: `urn:tig:concept:governance-framework`
+
+### Cross-vocabulary mappings
+Not specified
+
+## Provenance and identity
+- **Concept ID**: `urn:tig:concept:digital-agent`
+- **Editorial status**: `stable`
+- **Provenance classification**: `adapted`
+- **Source corpus**: Trust over IP Main Glossary
+
+### Standards and source references
 - ToIP CTWG maintained glossary source: `spec/terms-definitions/digital-agent.md`
 
-## Governance Profile
+<details markdown="1">
+<summary><strong>Implementation and governance metadata</strong></summary>
+
+### Legacy aliases
+digital agent, digital agents
+
+### Governance profile
 - **Authority scope**: delegation_and_scope, governance_recognition
 - **Delegation mode**: direct_or_constrained
 - **Revocation supported**: True
@@ -61,11 +62,11 @@ Not specified
 - **Execution role**: runtime
 - **Control-plane role**: decision_plane_component
 
-## Enforcement Points
+### Enforcement points
 - delegation_grant
 - revocation_decision
 
-## Assurance
+### Assurance
 **Evidence artifacts**
 - delegation_record
 - policy_document
@@ -77,7 +78,7 @@ Not specified
 - **Assurance level hint**: AL2+
 - **Auditability**: high
 
-## Control Plane
+### Control plane
 **Decision points**
 - delegation_grant
 - revocation_decision
@@ -92,15 +93,21 @@ Not specified
 - verification_log
 - registry_entry
 
-## Notes
+### Notes
 - A digital agent may act with significant operational authority. Its governance characteristics therefore depend on the policies, permissions, lifecycle controls, and revocation mechanisms under which it operates.
 - In a ToIP context, a digital agent is frequently assumed to have privileged access to the digital wallets of its principal. In market parlance, a mobile app that performs the actions of a digital agent is often simply called a wallet or a digital wallet.
 
-## Supporting Definitions
+### Supporting definitions
 Not specified
 
-## Mental Models
+### Mental models
 Not specified
 
-## Crosswalk References
+### Crosswalk references
 Not specified
+
+</details>
+
+---
+
+*Generated from `glossary/terms/digital-agent.yaml`. Edit the source concept and regenerate rather than editing this page directly.*

@@ -1,7 +1,8 @@
 ---
 title: "Term Quality Rubric"
-parent: Governance Documentation
-nav_order: 30
+parent: "Semantic Model & Authoring"
+nav_order: 4
+grand_parent: "Govern TIG"
 ---
 
 # Term Quality Rubric
