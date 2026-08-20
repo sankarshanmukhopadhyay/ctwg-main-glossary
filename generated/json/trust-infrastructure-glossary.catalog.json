@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "concept_count": 612,
+  "concept_count": 617,
   "concepts": [
     {
       "concept_id": "urn:tig:concept:aal",
@@ -121,6 +121,23 @@
       "source_file": "spec/terms-definitions/access-control.md",
       "governance_profile": "core-operational",
       "assurance_level_hint": "AL2+"
+    },
+    {
+      "concept_id": "urn:tig:concept:accountability",
+      "term": "accountability",
+      "designations": [
+        {
+          "label": "accountability",
+          "language": "en",
+          "status": "preferred"
+        }
+      ],
+      "editorial_status": "proposed",
+      "provenance_classification": "locally_defined",
+      "slug": "accountability",
+      "source_file": null,
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL1+"
     },
     {
       "concept_id": "urn:tig:concept:accreditation",
@@ -618,6 +635,23 @@
       "source_file": "spec/terms-definitions/assurance-level.md",
       "governance_profile": "core-operational",
       "assurance_level_hint": "AL2+"
+    },
+    {
+      "concept_id": "urn:tig:concept:assurance",
+      "term": "assurance",
+      "designations": [
+        {
+          "label": "assurance",
+          "language": "en",
+          "status": "preferred"
+        }
+      ],
+      "editorial_status": "proposed",
+      "provenance_classification": "locally_defined",
+      "slug": "assurance",
+      "source_file": null,
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL1+"
     },
     {
       "concept_id": "urn:tig:concept:attention-policy",
@@ -3414,6 +3448,23 @@
       "assurance_level_hint": "AL2+"
     },
     {
+      "concept_id": "urn:tig:concept:decision",
+      "term": "decision",
+      "designations": [
+        {
+          "label": "decision",
+          "language": "en",
+          "status": "preferred"
+        }
+      ],
+      "editorial_status": "proposed",
+      "provenance_classification": "locally_defined",
+      "slug": "decision",
+      "source_file": null,
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
+    },
+    {
       "concept_id": "urn:tig:concept:decryption",
       "term": "decryption",
       "designations": [
@@ -4477,6 +4528,23 @@
       "assurance_level_hint": "informative"
     },
     {
+      "concept_id": "urn:tig:concept:effect",
+      "term": "effect",
+      "designations": [
+        {
+          "label": "effect",
+          "language": "en",
+          "status": "preferred"
+        }
+      ],
+      "editorial_status": "proposed",
+      "provenance_classification": "locally_defined",
+      "slug": "effect",
+      "source_file": null,
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL2+"
+    },
+    {
       "concept_id": "urn:tig:concept:eidas",
       "term": "eidas",
       "designations": [
@@ -4948,6 +5016,23 @@
       "source_file": null,
       "governance_profile": "governance-supporting",
       "assurance_level_hint": "AL2+"
+    },
+    {
+      "concept_id": "urn:tig:concept:evidence",
+      "term": "evidence",
+      "designations": [
+        {
+          "label": "evidence",
+          "language": "en",
+          "status": "preferred"
+        }
+      ],
+      "editorial_status": "proposed",
+      "provenance_classification": "locally_defined",
+      "slug": "evidence",
+      "source_file": null,
+      "governance_profile": "core-operational",
+      "assurance_level_hint": "AL1+"
     },
     {
       "concept_id": "urn:tig:concept:expression-language",

@@ -476,6 +476,90 @@
       }
     },
     {
+      "@id": "urn:tig:concept:accountability",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "urn:tig:scheme:core"
+      },
+      "prefLabel": [
+        {
+          "@value": "accountability",
+          "@language": "en"
+        }
+      ],
+      "altLabel": [],
+      "definition": {
+        "@value": "The condition in which responsibility for a governed action, decision, control, or effect is attributable to an identified actor or authority that can be required to explain, justify, correct, or answer for it.",
+        "@language": "en"
+      },
+      "broader": [],
+      "narrower": [],
+      "related": [
+        "urn:tig:concept:actor",
+        "urn:tig:concept:authority",
+        "urn:tig:concept:audit",
+        "urn:tig:concept:governance"
+      ],
+      "exactMatch": [],
+      "closeMatch": [],
+      "broadMatch": [],
+      "narrowMatch": [],
+      "relatedMatch": [],
+      "tig:editorial": {
+        "status": "proposed",
+        "reviewed": {
+          "domain": false,
+          "plain_language": false,
+          "governance": false
+        }
+      },
+      "tig:provenance": {
+        "classification": "locally_defined",
+        "source_corpus": "Cross-repository trust infrastructure portfolio",
+        "lineage_note": "Defined from recurring usage across the cited portfolio repositories; wording is independently authored for TIG."
+      },
+      "tig:governance": {
+        "authority_scope": [
+          "governance_recognition",
+          "assurance_and_audit"
+        ],
+        "delegation_mode": "direct_or_constrained",
+        "revocation_supported": false,
+        "lifecycle_states": [
+          "documented",
+          "active",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "reference_term",
+        "enforcement_points": [
+          "policy_approval",
+          "reliance_decision"
+        ]
+      },
+      "tig:assurance": {
+        "evidence_artifacts": [
+          "audit_log",
+          "policy_document",
+          "status_record"
+        ],
+        "assurance_level_hint": "AL1+",
+        "auditability": "high"
+      },
+      "tig:controlPlane": {
+        "decision_points": [
+          "policy_approval",
+          "reliance_decision"
+        ],
+        "accountable_entity": "accountable_authority",
+        "evidence_produced": [
+          "audit_log",
+          "policy_document",
+          "status_record"
+        ]
+      }
+    },
+    {
       "@id": "urn:tig:concept:accreditation",
       "@type": "skos:Concept",
       "skos:inScheme": {
@@ -2345,6 +2429,89 @@
           "policy_document",
           "registry_entry",
           "status_record",
+          "audit_log",
+          "verification_log"
+        ]
+      }
+    },
+    {
+      "@id": "urn:tig:concept:assurance",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "urn:tig:scheme:core"
+      },
+      "prefLabel": [
+        {
+          "@value": "assurance",
+          "@language": "en"
+        }
+      ],
+      "altLabel": [],
+      "definition": {
+        "@value": "A justified level of confidence that defined claims, controls, processes, artifacts, or system properties satisfy stated requirements within a specified scope and context.",
+        "@language": "en"
+      },
+      "broader": [],
+      "narrower": [],
+      "related": [
+        "urn:tig:concept:assurance-level",
+        "urn:tig:concept:risk-assessment",
+        "urn:tig:concept:audit",
+        "urn:tig:concept:evidence"
+      ],
+      "exactMatch": [],
+      "closeMatch": [],
+      "broadMatch": [],
+      "narrowMatch": [],
+      "relatedMatch": [],
+      "tig:editorial": {
+        "status": "proposed",
+        "reviewed": {
+          "domain": false,
+          "plain_language": false,
+          "governance": false
+        }
+      },
+      "tig:provenance": {
+        "classification": "locally_defined",
+        "source_corpus": "Cross-repository trust infrastructure portfolio",
+        "lineage_note": "Defined from recurring usage across the cited portfolio repositories; wording is independently authored for TIG."
+      },
+      "tig:governance": {
+        "authority_scope": [
+          "assurance_and_audit",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct",
+        "revocation_supported": false,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "documented",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "reference_term",
+        "enforcement_points": [
+          "reliance_decision"
+        ]
+      },
+      "tig:assurance": {
+        "evidence_artifacts": [
+          "attestation",
+          "audit_log",
+          "verification_log"
+        ],
+        "assurance_level_hint": "AL1+",
+        "auditability": "high"
+      },
+      "tig:controlPlane": {
+        "decision_points": [
+          "reliance_decision"
+        ],
+        "accountable_entity": "assurance_authority",
+        "evidence_produced": [
+          "attestation",
           "audit_log",
           "verification_log"
         ]
@@ -12339,6 +12506,93 @@
       }
     },
     {
+      "@id": "urn:tig:concept:decision",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "urn:tig:scheme:core"
+      },
+      "prefLabel": [
+        {
+          "@value": "decision",
+          "@language": "en"
+        }
+      ],
+      "altLabel": [],
+      "definition": {
+        "@value": "An attributable determination by an authorized actor or mechanism that selects an outcome, state transition, permission, denial, requirement, or other governed effect under applicable policy and evidence.",
+        "@language": "en"
+      },
+      "broader": [],
+      "narrower": [],
+      "related": [
+        "urn:tig:concept:authority",
+        "urn:tig:concept:policy",
+        "urn:tig:concept:action"
+      ],
+      "exactMatch": [],
+      "closeMatch": [],
+      "broadMatch": [],
+      "narrowMatch": [],
+      "relatedMatch": [],
+      "tig:editorial": {
+        "status": "proposed",
+        "reviewed": {
+          "domain": false,
+          "plain_language": false,
+          "governance": false
+        }
+      },
+      "tig:provenance": {
+        "classification": "locally_defined",
+        "source_corpus": "Cross-repository trust infrastructure portfolio",
+        "lineage_note": "Defined from recurring usage across the cited portfolio repositories; wording is independently authored for TIG."
+      },
+      "tig:governance": {
+        "authority_scope": [
+          "access_decisioning",
+          "governance_recognition",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct_or_constrained",
+        "revocation_supported": true,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "revoked",
+          "retired"
+        ],
+        "execution_role": "runtime",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "access_decision",
+          "reliance_decision",
+          "policy_approval"
+        ]
+      },
+      "tig:assurance": {
+        "evidence_artifacts": [
+          "audit_log",
+          "verification_log",
+          "policy_document"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "tig:controlPlane": {
+        "decision_points": [
+          "access_decision",
+          "reliance_decision",
+          "policy_approval"
+        ],
+        "accountable_entity": "decision_authority",
+        "evidence_produced": [
+          "audit_log",
+          "verification_log",
+          "policy_document"
+        ]
+      }
+    },
+    {
       "@id": "urn:tig:concept:decryption",
       "@type": "skos:Concept",
       "skos:inScheme": {
@@ -15888,6 +16142,89 @@
       }
     },
     {
+      "@id": "urn:tig:concept:effect",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "urn:tig:scheme:core"
+      },
+      "prefLabel": [
+        {
+          "@value": "effect",
+          "@language": "en"
+        }
+      ],
+      "altLabel": [],
+      "definition": {
+        "@value": "A material state change, permission, restriction, publication, transaction, invocation, or other externally meaningful consequence produced or authorized by a decision or governed action.",
+        "@language": "en"
+      },
+      "broader": [],
+      "narrower": [],
+      "related": [
+        "urn:tig:concept:action",
+        "urn:tig:concept:authorization",
+        "urn:tig:concept:decision",
+        "urn:tig:concept:policy"
+      ],
+      "exactMatch": [],
+      "closeMatch": [],
+      "broadMatch": [],
+      "narrowMatch": [],
+      "relatedMatch": [],
+      "tig:editorial": {
+        "status": "proposed",
+        "reviewed": {
+          "domain": false,
+          "plain_language": false,
+          "governance": false
+        }
+      },
+      "tig:provenance": {
+        "classification": "locally_defined",
+        "source_corpus": "Cross-repository trust infrastructure portfolio",
+        "lineage_note": "Defined from recurring usage across the cited portfolio repositories; wording is independently authored for TIG."
+      },
+      "tig:governance": {
+        "authority_scope": [
+          "access_decisioning",
+          "governance_recognition"
+        ],
+        "delegation_mode": "direct_or_constrained",
+        "revocation_supported": true,
+        "lifecycle_states": [
+          "proposed",
+          "active",
+          "revoked",
+          "retired"
+        ],
+        "execution_role": "runtime",
+        "control_plane_role": "decision_plane_component",
+        "enforcement_points": [
+          "access_decision",
+          "reliance_decision"
+        ]
+      },
+      "tig:assurance": {
+        "evidence_artifacts": [
+          "access_decision_log",
+          "audit_log"
+        ],
+        "assurance_level_hint": "AL2+",
+        "auditability": "high"
+      },
+      "tig:controlPlane": {
+        "decision_points": [
+          "access_decision",
+          "reliance_decision"
+        ],
+        "accountable_entity": "effect_authority",
+        "evidence_produced": [
+          "access_decision_log",
+          "audit_log"
+        ]
+      }
+    },
+    {
       "@id": "urn:tig:concept:eidas",
       "@type": "skos:Concept",
       "skos:inScheme": {
@@ -17523,6 +17860,88 @@
           "policy_document",
           "delegation_record",
           "status_record",
+          "verification_log"
+        ]
+      }
+    },
+    {
+      "@id": "urn:tig:concept:evidence",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "urn:tig:scheme:core"
+      },
+      "prefLabel": [
+        {
+          "@value": "evidence",
+          "@language": "en"
+        }
+      ],
+      "altLabel": [],
+      "definition": {
+        "@value": "Information, records, observations, attestations, or other artifacts used to support, challenge, or evaluate a claim, control, requirement, decision, or assurance conclusion.",
+        "@language": "en"
+      },
+      "broader": [],
+      "narrower": [],
+      "related": [
+        "urn:tig:concept:claim",
+        "urn:tig:concept:attestation",
+        "urn:tig:concept:audit",
+        "urn:tig:concept:proof"
+      ],
+      "exactMatch": [],
+      "closeMatch": [],
+      "broadMatch": [],
+      "narrowMatch": [],
+      "relatedMatch": [],
+      "tig:editorial": {
+        "status": "proposed",
+        "reviewed": {
+          "domain": false,
+          "plain_language": false,
+          "governance": false
+        }
+      },
+      "tig:provenance": {
+        "classification": "locally_defined",
+        "source_corpus": "Cross-repository trust infrastructure portfolio",
+        "lineage_note": "Defined from recurring usage across the cited portfolio repositories; wording is independently authored for TIG."
+      },
+      "tig:governance": {
+        "authority_scope": [
+          "assurance_and_audit",
+          "verification_and_reliance"
+        ],
+        "delegation_mode": "direct",
+        "revocation_supported": false,
+        "lifecycle_states": [
+          "documented",
+          "active",
+          "retired"
+        ],
+        "execution_role": "hybrid",
+        "control_plane_role": "reference_term",
+        "enforcement_points": [
+          "reliance_decision"
+        ]
+      },
+      "tig:assurance": {
+        "evidence_artifacts": [
+          "attestation",
+          "audit_log",
+          "verification_log"
+        ],
+        "assurance_level_hint": "AL1+",
+        "auditability": "high"
+      },
+      "tig:controlPlane": {
+        "decision_points": [
+          "reliance_decision"
+        ],
+        "accountable_entity": "evidence_producer",
+        "evidence_produced": [
+          "attestation",
+          "audit_log",
           "verification_log"
         ]
       }

@@ -22,6 +22,7 @@ nav_order: 4
 - [decentralized-identity-foundation]({{ '/terms/decentralized-identity-foundation/' | relative_url }})
 - [decentralized-web-node]({{ '/terms/decentralized-web-node/' | relative_url }})
 - [deceptive-pattern]({{ '/terms/deceptive-pattern/' | relative_url }})
+- [decision]({{ '/terms/decision/' | relative_url }})
 - [decision receipt]({{ '/terms/decision-receipt/' | relative_url }})
 - [decryption]({{ '/terms/decryption/' | relative_url }})
 - [deep-link]({{ '/terms/deep-link/' | relative_url }})

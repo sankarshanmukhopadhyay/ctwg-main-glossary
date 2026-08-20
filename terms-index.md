@@ -7,7 +7,7 @@ has_children: true
 
 # A–Z Concept Index
 
-Browse all **612** TIG concepts alphabetically. Use [Browse by Topic]({{ '/concepts/' | relative_url }}) when you know the problem area but not the exact term.
+Browse all **617** TIG concepts alphabetically. Use [Browse by Topic]({{ '/concepts/' | relative_url }}) when you know the problem area but not the exact term.
 
 ## Browse by letter
 
@@ -43,6 +43,7 @@ Browse all **612** TIG concepts alphabetically. Use [Browse by Topic]({{ '/conce
 - [acceptance]({{ '/terms/acceptance/' | relative_url }})
 - [acceptance-network]({{ '/terms/acceptance-network/' | relative_url }})
 - [access-control]({{ '/terms/access-control/' | relative_url }})
+- [accountability]({{ '/terms/accountability/' | relative_url }})
 - [accreditation]({{ '/terms/accreditation/' | relative_url }})
 - [acdc]({{ '/terms/acdc/' | relative_url }})
 - [action]({{ '/terms/action/' | relative_url }})
@@ -62,8 +63,7 @@ Browse all **612** TIG concepts alphabetically. Use [Browse by Topic]({{ '/conce
 - [anycast-address]({{ '/terms/anycast-address/' | relative_url }})
 - [appraisability]({{ '/terms/appraisability/' | relative_url }})
 - [appropriate-friction]({{ '/terms/appropriate-friction/' | relative_url }})
-- [assurance boundary]({{ '/terms/assurance-boundary/' | relative_url }})
-- [View all 52 terms for A]({{ '/terms/a/' | relative_url }})
+- [View all 54 terms for A]({{ '/terms/a/' | relative_url }})
 
 ## B
 
@@ -122,6 +122,7 @@ Browse all **612** TIG concepts alphabetically. Use [Browse by Topic]({{ '/conce
 - [decentralized-identity-foundation]({{ '/terms/decentralized-identity-foundation/' | relative_url }})
 - [decentralized-web-node]({{ '/terms/decentralized-web-node/' | relative_url }})
 - [deceptive-pattern]({{ '/terms/deceptive-pattern/' | relative_url }})
+- [decision]({{ '/terms/decision/' | relative_url }})
 - [decision receipt]({{ '/terms/decision-receipt/' | relative_url }})
 - [decryption]({{ '/terms/decryption/' | relative_url }})
 - [deep-link]({{ '/terms/deep-link/' | relative_url }})
@@ -131,13 +132,13 @@ Browse all **612** TIG concepts alphabetically. Use [Browse by Topic]({{ '/conce
 - [delegation lineage]({{ '/terms/delegation-lineage/' | relative_url }})
 - [delegation-credential]({{ '/terms/delegation-credential/' | relative_url }})
 - [delegator]({{ '/terms/delegator/' | relative_url }})
-- [dependent]({{ '/terms/dependent/' | relative_url }})
-- [View all 53 terms for D]({{ '/terms/d/' | relative_url }})
+- [View all 54 terms for D]({{ '/terms/d/' | relative_url }})
 
 ## E
 
 - [ecosystem]({{ '/terms/ecosystem/' | relative_url }})
 - [ecosystem-governance-framework]({{ '/terms/ecosystem-governance-framework/' | relative_url }})
+- [effect]({{ '/terms/effect/' | relative_url }})
 - [eidas]({{ '/terms/eidas/' | relative_url }})
 - [encrypt-sender-sign-receiver]({{ '/terms/encrypt-sender-sign-receiver/' | relative_url }})
 - [encrypted-data-vault]({{ '/terms/encrypted-data-vault/' | relative_url }})
@@ -155,6 +156,7 @@ Browse all **612** TIG concepts alphabetically. Use [Browse by Topic]({{ '/conce
 - [ephemeral-connection]({{ '/terms/ephemeral-connection/' | relative_url }})
 - [essr]({{ '/terms/essr/' | relative_url }})
 - [eudi-wallet]({{ '/terms/eudi-wallet/' | relative_url }})
+- [evidence]({{ '/terms/evidence/' | relative_url }})
 - [evidence artifact]({{ '/terms/evidence-artifact/' | relative_url }})
 - [evidence bundle]({{ '/terms/evidence-bundle/' | relative_url }})
 - [expression-language]({{ '/terms/expression-language/' | relative_url }})

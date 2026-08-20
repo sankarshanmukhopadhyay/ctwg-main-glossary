@@ -1,6 +1,6 @@
 # Trust Infrastructure Glossary
 
-Total concepts: **612**
+Total concepts: **617**
 
 ## aal
 
@@ -66,6 +66,19 @@ The process of granting or denying specific requests for obtaining and using inf
 - Lifecycle states: documented, active, deprecated
 - Assurance level hint: AL2+
 - Accountable entity: glossary_maintainers
+
+## accountability
+
+The condition in which responsibility for a governed action, decision, control, or effect is attributable to an identified actor or authority that can be required to explain, justify, correct, or answer for it.
+
+- Slug: `accountability`
+- Governance profile: core-operational
+- Authority scope: governance_recognition, assurance_and_audit
+- Delegation mode: direct_or_constrained
+- Revocation supported: False
+- Lifecycle states: documented, active, retired
+- Assurance level hint: AL1+
+- Accountable entity: accountable_authority
 
 ## accreditation
 
@@ -339,6 +352,19 @@ A level of confidence in a claim that may be relied on by others. Different type
 - Lifecycle states: proposed, active, suspended, revoked, retired
 - Assurance level hint: AL2+
 - Accountable entity: glossary_maintainers
+
+## assurance
+
+A justified level of confidence that defined claims, controls, processes, artifacts, or system properties satisfy stated requirements within a specified scope and context.
+
+- Slug: `assurance`
+- Governance profile: core-operational
+- Authority scope: assurance_and_audit, verification_and_reliance
+- Delegation mode: direct
+- Revocation supported: False
+- Lifecycle states: proposed, active, documented, retired
+- Assurance level hint: AL1+
+- Accountable entity: assurance_authority
 
 ## attention policy
 
@@ -1796,6 +1822,19 @@ A structured, integrity-protected record of a trust or governance decision, incl
 - Assurance level hint: AL2+
 - Accountable entity: governance_authority
 
+## decision
+
+An attributable determination by an authorized actor or mechanism that selects an outcome, state transition, permission, denial, requirement, or other governed effect under applicable policy and evidence.
+
+- Slug: `decision`
+- Governance profile: core-operational
+- Authority scope: access_decisioning, governance_recognition, verification_and_reliance
+- Delegation mode: direct_or_constrained
+- Revocation supported: True
+- Lifecycle states: proposed, active, revoked, retired
+- Assurance level hint: AL2+
+- Accountable entity: decision_authority
+
 ## decryption
 
 The process of changing ciphertext into plaintext using a cryptographic algorithm and key. The opposite of encryption.
@@ -2303,6 +2342,19 @@ See: digital ecosystem.
 - Assurance level hint: informative
 - Accountable entity: glossary_maintainers
 
+## effect
+
+A material state change, permission, restriction, publication, transaction, invocation, or other externally meaningful consequence produced or authorized by a decision or governed action.
+
+- Slug: `effect`
+- Governance profile: core-operational
+- Authority scope: access_decisioning, governance_recognition
+- Delegation mode: direct_or_constrained
+- Revocation supported: True
+- Lifecycle states: proposed, active, revoked, retired
+- Assurance level hint: AL2+
+- Accountable entity: effect_authority
+
 ## eidas
 
 eIDAS (electronic IDentification, Authentication and trust Services) is an EU regulation with the stated purpose of governing "electronic identification and trust services for electronic transactions". It passed in 2014 and its provisions came into effect between 2016-2018.
@@ -2549,6 +2601,19 @@ A bounded collection of evidence artifacts assembled for a decision, assessment,
 - Lifecycle states: proposed, active, suspended, revoked, retired
 - Assurance level hint: AL2+
 - Accountable entity: governance_authority
+
+## evidence
+
+Information, records, observations, attestations, or other artifacts used to support, challenge, or evaluate a claim, control, requirement, decision, or assurance conclusion.
+
+- Slug: `evidence`
+- Governance profile: core-operational
+- Authority scope: assurance_and_audit, verification_and_reliance
+- Delegation mode: direct
+- Revocation supported: False
+- Lifecycle states: documented, active, retired
+- Assurance level hint: AL1+
+- Accountable entity: evidence_producer
 
 ## expression-language
 
