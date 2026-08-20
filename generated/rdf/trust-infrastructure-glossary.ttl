@@ -53,6 +53,15 @@
   skos:related <urn:tig:concept:role-based-access-control> ;
   skos:related <urn:tig:concept:attribute-based-access-control> .
 
+<urn:tig:concept:accountability> a skos:Concept ;
+  skos:inScheme <urn:tig:scheme:core> ;
+  skos:prefLabel "accountability"@en ;
+  skos:definition "The condition in which responsibility for a governed action, decision, control, or effect is attributable to an identified actor or authority that can be required to explain, justify, correct, or answer for it."@en ;
+  skos:related <urn:tig:concept:actor> ;
+  skos:related <urn:tig:concept:authority> ;
+  skos:related <urn:tig:concept:audit> ;
+  skos:related <urn:tig:concept:governance> .
+
 <urn:tig:concept:accreditation> a skos:Concept ;
   skos:inScheme <urn:tig:scheme:core> ;
   skos:prefLabel "accreditation"@en ;
@@ -249,6 +258,15 @@
   skos:related <urn:tig:concept:verifiable-credential> ;
   skos:related <urn:tig:concept:authorization> ;
   skos:related <urn:tig:concept:permission> .
+
+<urn:tig:concept:assurance> a skos:Concept ;
+  skos:inScheme <urn:tig:scheme:core> ;
+  skos:prefLabel "assurance"@en ;
+  skos:definition "A justified level of confidence that defined claims, controls, processes, artifacts, or system properties satisfy stated requirements within a specified scope and context."@en ;
+  skos:related <urn:tig:concept:assurance-level> ;
+  skos:related <urn:tig:concept:risk-assessment> ;
+  skos:related <urn:tig:concept:audit> ;
+  skos:related <urn:tig:concept:evidence> .
 
 <urn:tig:concept:attention-policy> a skos:Concept ;
   skos:inScheme <urn:tig:scheme:core> ;
@@ -1323,6 +1341,14 @@
   skos:related <urn:tig:concept:audit-log> ;
   skos:related <urn:tig:concept:attestation> .
 
+<urn:tig:concept:decision> a skos:Concept ;
+  skos:inScheme <urn:tig:scheme:core> ;
+  skos:prefLabel "decision"@en ;
+  skos:definition "An attributable determination by an authorized actor or mechanism that selects an outcome, state transition, permission, denial, requirement, or other governed effect under applicable policy and evidence."@en ;
+  skos:related <urn:tig:concept:authority> ;
+  skos:related <urn:tig:concept:policy> ;
+  skos:related <urn:tig:concept:action> .
+
 <urn:tig:concept:decryption> a skos:Concept ;
   skos:inScheme <urn:tig:scheme:core> ;
   skos:prefLabel "decryption"@en ;
@@ -1711,6 +1737,15 @@
   skos:related <urn:tig:concept:glossary> ;
   skos:related <urn:tig:concept:definition> .
 
+<urn:tig:concept:effect> a skos:Concept ;
+  skos:inScheme <urn:tig:scheme:core> ;
+  skos:prefLabel "effect"@en ;
+  skos:definition "A material state change, permission, restriction, publication, transaction, invocation, or other externally meaningful consequence produced or authorized by a decision or governed action."@en ;
+  skos:related <urn:tig:concept:action> ;
+  skos:related <urn:tig:concept:authorization> ;
+  skos:related <urn:tig:concept:decision> ;
+  skos:related <urn:tig:concept:policy> .
+
 <urn:tig:concept:eidas> a skos:Concept ;
   skos:inScheme <urn:tig:scheme:core> ;
   skos:prefLabel "eidas"@en ;
@@ -1882,6 +1917,15 @@
   skos:definition "A bounded collection of evidence artifacts assembled for a decision, assessment, verification, or audit purpose, with sufficient metadata to support integrity and traceability."@en ;
   skos:related <urn:tig:concept:attestation> ;
   skos:related <urn:tig:concept:c2pa-manifest> .
+
+<urn:tig:concept:evidence> a skos:Concept ;
+  skos:inScheme <urn:tig:scheme:core> ;
+  skos:prefLabel "evidence"@en ;
+  skos:definition "Information, records, observations, attestations, or other artifacts used to support, challenge, or evaluate a claim, control, requirement, decision, or assurance conclusion."@en ;
+  skos:related <urn:tig:concept:claim> ;
+  skos:related <urn:tig:concept:attestation> ;
+  skos:related <urn:tig:concept:audit> ;
+  skos:related <urn:tig:concept:proof> .
 
 <urn:tig:concept:expression-language> a skos:Concept ;
   skos:inScheme <urn:tig:scheme:core> ;

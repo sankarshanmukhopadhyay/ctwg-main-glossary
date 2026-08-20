@@ -1,23 +1,23 @@
 # Governance Inventory
 
-Total terms: **612**
+Total terms: **617**
 
 ## Coverage summary
 
-- Authority-bearing terms: **279**
+- Authority-bearing terms: **284**
 - Delegation-sensitive terms: **68**
-- Revocation-sensitive terms: **149**
-- Lifecycle-sensitive terms: **612**
-- Evidence-producing terms: **612**
-- Control-plane terms: **387**
+- Revocation-sensitive terms: **151**
+- Lifecycle-sensitive terms: **617**
+- Evidence-producing terms: **617**
+- Control-plane terms: **392**
 
 ## Governance profiles
 
 ### core-operational
 
-Count: **256**
+Count: **261**
 
-aal, abac, access-control, accreditation, actor, administering-authority, administering-body, agency, agent, appraisability, appropriate-friction, assurance-level, attribute-based-access-control, audit, audit-log, auditor, authentic-chained-data-container, authentication, authenticator, authenticator-assurance-level
+aal, abac, access-control, accountability, accreditation, actor, administering-authority, administering-body, agency, agent, appraisability, appropriate-friction, assurance, assurance-level, attribute-based-access-control, audit, audit-log, auditor, authentic-chained-data-container, authentication
 
 ### descriptive
 
@@ -36,6 +36,7 @@ acceptance, acceptance-network, agent class, agent mandate envelope, agent regis
 - aal
 - abac
 - access-control
+- accountability
 - accreditation
 - actor
 - administering-authority
@@ -47,6 +48,7 @@ acceptance, acceptance-network, agent class, agent mandate envelope, agent regis
 - agent registry
 - aggregation amplification
 - appraisability
+- assurance
 - assurance boundary
 - assurance-level
 - attention policy
@@ -107,6 +109,7 @@ acceptance, acceptance-network, agent class, agent mandate envelope, agent regis
 - dcql
 - dead-drop
 - decentralized-identifier
+- decision
 - decision receipt
 - delegatee
 - delegation
@@ -127,13 +130,10 @@ acceptance, acceptance-network, agent class, agent mandate envelope, agent regis
 - dpop
 - dynamic authorization
 - ecosystem-governance-framework
+- effect
 - eidas
 - end-to-end-principle
-- end-verifiability
-- entity-statement
-- eudi-wallet
-- evidence artifact
-- ... and 179 more
+- ... and 184 more
 
 ## Delegation-sensitive terms
 
@@ -254,6 +254,7 @@ acceptance, acceptance-network, agent class, agent mandate envelope, agent regis
 - data-schema
 - dead-drop
 - decentralized-identifier
+- decision
 - decision receipt
 - delegatee
 - delegation
@@ -269,6 +270,7 @@ acceptance, acceptance-network, agent class, agent mandate envelope, agent regis
 - discovery governance
 - dynamic authorization
 - ecosystem-governance-framework
+- effect
 - evidence artifact
 - evidence bundle
 - extension contract
@@ -306,9 +308,7 @@ acceptance, acceptance-network, agent class, agent mandate envelope, agent regis
 - physical-credential
 - pid
 - policy
-- predicate proof
-- presentation
-- ... and 49 more
+- ... and 51 more
 
 ## Lifecycle-sensitive terms
 
@@ -317,6 +317,7 @@ acceptance, acceptance-network, agent class, agent mandate envelope, agent regis
 - **acceptance** — documented, active, deprecated
 - **acceptance-network** — documented, active, deprecated
 - **access-control** — documented, active, deprecated
+- **accountability** — documented, active, retired
 - **accreditation** — proposed, active, suspended, revoked, retired
 - **acdc** — documented, active, deprecated
 - **action** — documented, active, deprecated
@@ -336,6 +337,7 @@ acceptance, acceptance-network, agent class, agent mandate envelope, agent regis
 - **anycast-address** — documented, active, deprecated
 - **appraisability** — documented, active, deprecated
 - **appropriate-friction** — documented, active, deprecated
+- **assurance** — proposed, active, documented, retired
 - **assurance boundary** — proposed, active, deprecated
 - **assurance-level** — proposed, active, suspended, revoked, retired
 - **attention policy** — proposed, active, suspended, revoked, retired
@@ -410,9 +412,7 @@ acceptance, acceptance-network, agent class, agent mandate envelope, agent regis
 - **content-credential** — proposed, active, retired
 - **contextual-linkability** — documented, active, deprecated
 - **control mode** — proposed, active, suspended, revoked, retired
-- **control-authority** — proposed, active, suspended, revoked, retired
-- **control-plane shift** — proposed, active, suspended, revoked, retired
-- ... and 512 more
+- ... and 517 more
 
 ## Evidence-producing terms
 
@@ -421,6 +421,7 @@ acceptance, acceptance-network, agent class, agent mandate envelope, agent regis
 - **acceptance** — audit_log, definition_change_record, policy_document
 - **acceptance-network** — audit_log, definition_change_record, policy_document
 - **access-control** — access_decision_log
+- **accountability** — audit_log, policy_document, status_record
 - **accreditation** — audit_log, definition_change_record, registry_entry, status_record, verification_log
 - **acdc** — definition_change_record
 - **action** — definition_change_record
@@ -440,6 +441,7 @@ acceptance, acceptance-network, agent class, agent mandate envelope, agent regis
 - **anycast-address** — definition_change_record
 - **appraisability** — verification_log
 - **appropriate-friction** — audit_log, definition_change_record, policy_document
+- **assurance** — attestation, audit_log, verification_log
 - **assurance boundary** — audit_log, definition_change_record, policy_document
 - **assurance-level** — access_decision_log, attestation, audit_log, issuance_log, policy_document, registry_entry, status_record, verification_log
 - **attention policy** — delegation_record, policy_document, status_record, verification_log
@@ -514,9 +516,7 @@ acceptance, acceptance-network, agent class, agent mandate envelope, agent regis
 - **content-credential** — attestation, audit_log, verification_log
 - **contextual-linkability** — definition_change_record
 - **control mode** — delegation_record, policy_document, status_record, verification_log
-- **control-authority** — audit_log, definition_change_record, registry_entry, status_record, verification_log
-- **control-plane shift** — delegation_record, policy_document, status_record, verification_log
-- ... and 512 more
+- ... and 517 more
 
 ## Control-plane terms
 
@@ -525,6 +525,7 @@ acceptance, acceptance-network, agent class, agent mandate envelope, agent regis
 - **acceptance** — definition_approval
 - **acceptance-network** — definition_approval
 - **access-control** — access_decision
+- **accountability** — policy_approval, reliance_decision
 - **accreditation** — revocation_decision
 - **actor** — delegation_grant
 - **administering-authority** — revocation_decision
@@ -537,6 +538,7 @@ acceptance, acceptance-network, agent class, agent mandate envelope, agent regis
 - **aggregation amplification** — policy_approval, delegation_grant, reliance_decision, revocation_decision
 - **appraisability** — reliance_decision
 - **appropriate-friction** — definition_approval
+- **assurance** — reliance_decision
 - **assurance boundary** — policy_approval, reliance_decision
 - **assurance-level** — issuance_decision, access_decision, revocation_decision
 - **attention policy** — policy_approval, delegation_grant, reliance_decision, revocation_decision
@@ -610,6 +612,7 @@ acceptance, acceptance-network, agent class, agent mandate envelope, agent regis
 - **dead-drop** — issuance_decision, revocation_decision
 - **decentralized-identifier** — revocation_decision
 - **decentralized-identity** — definition_approval
+- **decision** — access_decision, reliance_decision, policy_approval
 - **decision receipt** — policy_approval, delegation_grant, reliance_decision, revocation_decision
 - **delegatee** — delegation_grant, revocation_decision
 - **delegation** — delegation_grant, revocation_decision
@@ -617,13 +620,10 @@ acceptance, acceptance-network, agent class, agent mandate envelope, agent regis
 - **delegation-credential** — delegation_grant, issuance_decision, revocation_decision
 - **delegator** — delegation_grant, revocation_decision
 - **device-controller** — definition_approval
-- **dictionary** — registration_decision
-- **did-controller** — access_decision
-- **did-document** — delegation_grant, revocation_decision
-- ... and 287 more
+- ... and 292 more
 
 ## Assurance level hints
 
-- `AL1+`: 95
-- `AL2+`: 292
+- `AL1+`: 98
+- `AL2+`: 294
 - `informative`: 225

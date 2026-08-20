@@ -1,5 +1,5 @@
 {
-  "term_count": 612,
+  "term_count": 617,
   "authority_terms": [
     {
       "term": "aal",
@@ -12,6 +12,10 @@
     {
       "term": "access-control",
       "slug": "access-control"
+    },
+    {
+      "term": "accountability",
+      "slug": "accountability"
     },
     {
       "term": "accreditation",
@@ -56,6 +60,10 @@
     {
       "term": "appraisability",
       "slug": "appraisability"
+    },
+    {
+      "term": "assurance",
+      "slug": "assurance"
     },
     {
       "term": "assurance boundary",
@@ -298,6 +306,10 @@
       "slug": "decentralized-identifier"
     },
     {
+      "term": "decision",
+      "slug": "decision"
+    },
+    {
       "term": "decision receipt",
       "slug": "decision-receipt"
     },
@@ -378,6 +390,10 @@
       "slug": "ecosystem-governance-framework"
     },
     {
+      "term": "effect",
+      "slug": "effect"
+    },
+    {
       "term": "eidas",
       "slug": "eidas"
     },
@@ -396,6 +412,10 @@
     {
       "term": "eudi-wallet",
       "slug": "eudi-wallet"
+    },
+    {
+      "term": "evidence",
+      "slug": "evidence"
     },
     {
       "term": "evidence artifact",
@@ -1578,6 +1598,10 @@
       "slug": "decentralized-identifier"
     },
     {
+      "term": "decision",
+      "slug": "decision"
+    },
+    {
       "term": "decision receipt",
       "slug": "decision-receipt"
     },
@@ -1636,6 +1660,10 @@
     {
       "term": "ecosystem-governance-framework",
       "slug": "ecosystem-governance-framework"
+    },
+    {
+      "term": "effect",
+      "slug": "effect"
     },
     {
       "term": "evidence artifact",
@@ -2037,6 +2065,15 @@
       ]
     },
     {
+      "term": "accountability",
+      "slug": "accountability",
+      "states": [
+        "documented",
+        "active",
+        "retired"
+      ]
+    },
+    {
       "term": "accreditation",
       "slug": "accreditation",
       "states": [
@@ -2219,6 +2256,16 @@
         "documented",
         "active",
         "deprecated"
+      ]
+    },
+    {
+      "term": "assurance",
+      "slug": "assurance",
+      "states": [
+        "proposed",
+        "active",
+        "documented",
+        "retired"
       ]
     },
     {
@@ -3317,6 +3364,16 @@
       ]
     },
     {
+      "term": "decision",
+      "slug": "decision",
+      "states": [
+        "proposed",
+        "active",
+        "revoked",
+        "retired"
+      ]
+    },
+    {
       "term": "decision receipt",
       "slug": "decision-receipt",
       "states": [
@@ -3707,6 +3764,16 @@
       ]
     },
     {
+      "term": "effect",
+      "slug": "effect",
+      "states": [
+        "proposed",
+        "active",
+        "revoked",
+        "retired"
+      ]
+    },
+    {
       "term": "eidas",
       "slug": "eidas",
       "states": [
@@ -3855,6 +3922,15 @@
       "slug": "eudi-wallet",
       "states": [
         "proposed",
+        "active",
+        "retired"
+      ]
+    },
+    {
+      "term": "evidence",
+      "slug": "evidence",
+      "states": [
+        "documented",
         "active",
         "retired"
       ]
@@ -7841,6 +7917,15 @@
       ]
     },
     {
+      "term": "accountability",
+      "slug": "accountability",
+      "evidence_artifacts": [
+        "audit_log",
+        "policy_document",
+        "status_record"
+      ]
+    },
+    {
       "term": "accreditation",
       "slug": "accreditation",
       "evidence_artifacts": [
@@ -8002,6 +8087,15 @@
         "audit_log",
         "definition_change_record",
         "policy_document"
+      ]
+    },
+    {
+      "term": "assurance",
+      "slug": "assurance",
+      "evidence_artifacts": [
+        "attestation",
+        "audit_log",
+        "verification_log"
       ]
     },
     {
@@ -9002,6 +9096,15 @@
       ]
     },
     {
+      "term": "decision",
+      "slug": "decision",
+      "evidence_artifacts": [
+        "audit_log",
+        "policy_document",
+        "verification_log"
+      ]
+    },
+    {
       "term": "decision receipt",
       "slug": "decision-receipt",
       "evidence_artifacts": [
@@ -9344,6 +9447,14 @@
       ]
     },
     {
+      "term": "effect",
+      "slug": "effect",
+      "evidence_artifacts": [
+        "access_decision_log",
+        "audit_log"
+      ]
+    },
+    {
       "term": "eidas",
       "slug": "eidas",
       "evidence_artifacts": [
@@ -9471,6 +9582,15 @@
         "issuance_log",
         "policy_document",
         "registry_entry",
+        "verification_log"
+      ]
+    },
+    {
+      "term": "evidence",
+      "slug": "evidence",
+      "evidence_artifacts": [
+        "attestation",
+        "audit_log",
         "verification_log"
       ]
     },
@@ -12962,6 +13082,14 @@
       ]
     },
     {
+      "term": "accountability",
+      "slug": "accountability",
+      "decision_points": [
+        "policy_approval",
+        "reliance_decision"
+      ]
+    },
+    {
       "term": "accreditation",
       "slug": "accreditation",
       "decision_points": [
@@ -13056,6 +13184,13 @@
       "slug": "appropriate-friction",
       "decision_points": [
         "definition_approval"
+      ]
+    },
+    {
+      "term": "assurance",
+      "slug": "assurance",
+      "decision_points": [
+        "reliance_decision"
       ]
     },
     {
@@ -13633,6 +13768,15 @@
       ]
     },
     {
+      "term": "decision",
+      "slug": "decision",
+      "decision_points": [
+        "access_decision",
+        "reliance_decision",
+        "policy_approval"
+      ]
+    },
+    {
       "term": "decision receipt",
       "slug": "decision-receipt",
       "decision_points": [
@@ -13820,6 +13964,14 @@
       ]
     },
     {
+      "term": "effect",
+      "slug": "effect",
+      "decision_points": [
+        "access_decision",
+        "reliance_decision"
+      ]
+    },
+    {
       "term": "eidas",
       "slug": "eidas",
       "decision_points": [
@@ -13876,6 +14028,13 @@
         "issuance_decision",
         "reliance_decision",
         "registration_decision"
+      ]
+    },
+    {
+      "term": "evidence",
+      "slug": "evidence",
+      "decision_points": [
+        "reliance_decision"
       ]
     },
     {
@@ -15933,6 +16092,10 @@
         "slug": "access-control"
       },
       {
+        "term": "accountability",
+        "slug": "accountability"
+      },
+      {
         "term": "accreditation",
         "slug": "accreditation"
       },
@@ -15963,6 +16126,10 @@
       {
         "term": "appropriate-friction",
         "slug": "appropriate-friction"
+      },
+      {
+        "term": "assurance",
+        "slug": "assurance"
       },
       {
         "term": "assurance-level",
@@ -16189,6 +16356,10 @@
         "slug": "decentralized-identity"
       },
       {
+        "term": "decision",
+        "slug": "decision"
+      },
+      {
         "term": "delegatee",
         "slug": "delegatee"
       },
@@ -16261,6 +16432,10 @@
         "slug": "ecosystem-governance-framework"
       },
       {
+        "term": "effect",
+        "slug": "effect"
+      },
+      {
         "term": "eidas",
         "slug": "eidas"
       },
@@ -16287,6 +16462,10 @@
       {
         "term": "eudi-wallet",
         "slug": "eudi-wallet"
+      },
+      {
+        "term": "evidence",
+        "slug": "evidence"
       },
       {
         "term": "federation",
@@ -18375,41 +18554,41 @@
     ]
   },
   "assurance_level_hints": {
-    "AL1+": 95,
-    "AL2+": 292,
+    "AL1+": 98,
+    "AL2+": 294,
     "informative": 225
   },
   "authority_scope_counts": {
-    "access_decisioning": 29,
-    "assurance_and_audit": 81,
+    "access_decisioning": 31,
+    "assurance_and_audit": 84,
     "credential_issuance": 68,
     "delegation_and_scope": 68,
-    "governance_recognition": 98,
+    "governance_recognition": 101,
     "policy_definition": 101,
     "registry_management": 21,
     "terminology_definition": 333,
-    "verification_and_reliance": 99
+    "verification_and_reliance": 102
   },
   "evidence_artifact_counts": {
-    "access_decision_log": 28,
-    "attestation": 24,
-    "audit_log": 247,
+    "access_decision_log": 29,
+    "attestation": 26,
+    "audit_log": 252,
     "definition_change_record": 374,
     "delegation_record": 68,
     "issuance_log": 67,
-    "policy_document": 255,
+    "policy_document": 257,
     "registry_entry": 102,
-    "status_record": 123,
-    "verification_log": 165
+    "status_record": 124,
+    "verification_log": 168
   },
   "decision_point_counts": {
-    "access_decision": 29,
+    "access_decision": 31,
     "definition_approval": 359,
     "delegation_grant": 68,
     "issuance_decision": 68,
-    "policy_approval": 101,
+    "policy_approval": 103,
     "registration_decision": 22,
-    "reliance_decision": 100,
+    "reliance_decision": 105,
     "revocation_decision": 147
   }
 }

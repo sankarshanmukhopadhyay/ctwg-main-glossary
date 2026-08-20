@@ -9,6 +9,7 @@ nav_order: 5
 
 - [ecosystem]({{ '/terms/ecosystem/' | relative_url }})
 - [ecosystem-governance-framework]({{ '/terms/ecosystem-governance-framework/' | relative_url }})
+- [effect]({{ '/terms/effect/' | relative_url }})
 - [eidas]({{ '/terms/eidas/' | relative_url }})
 - [encrypt-sender-sign-receiver]({{ '/terms/encrypt-sender-sign-receiver/' | relative_url }})
 - [encrypted-data-vault]({{ '/terms/encrypted-data-vault/' | relative_url }})
@@ -26,6 +27,7 @@ nav_order: 5
 - [ephemeral-connection]({{ '/terms/ephemeral-connection/' | relative_url }})
 - [essr]({{ '/terms/essr/' | relative_url }})
 - [eudi-wallet]({{ '/terms/eudi-wallet/' | relative_url }})
+- [evidence]({{ '/terms/evidence/' | relative_url }})
 - [evidence artifact]({{ '/terms/evidence-artifact/' | relative_url }})
 - [evidence bundle]({{ '/terms/evidence-bundle/' | relative_url }})
 - [expression-language]({{ '/terms/expression-language/' | relative_url }})

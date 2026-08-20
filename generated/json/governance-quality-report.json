@@ -1,17 +1,17 @@
 {
   "report_type": "governance_quality_report",
   "version": "1.1.0",
-  "term_count": 612,
+  "term_count": 617,
   "quality_score": 100.0,
   "summary": {
     "issue_count": 0,
     "severity_counts": {},
     "coverage": {
-      "decision_plane_component": 371,
-      "revocation_supported": 149,
-      "with_evidence": 612,
-      "with_see_also": 612,
-      "with_sources": 612
+      "decision_plane_component": 373,
+      "revocation_supported": 151,
+      "with_evidence": 617,
+      "with_see_also": 617,
+      "with_sources": 617
     }
   },
   "issue_codes": {

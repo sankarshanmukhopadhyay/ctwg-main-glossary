@@ -1,12 +1,13 @@
 # Core Operational Terms
 
-Count: **256**
+Count: **261**
 
 This generated view lists terms currently classified under the `core-operational` governance profile.
 
 - aal
 - abac
 - access-control
+- accountability
 - accreditation
 - actor
 - administering-authority
@@ -15,6 +16,7 @@ This generated view lists terms currently classified under the `core-operational
 - agent
 - appraisability
 - appropriate-friction
+- assurance
 - assurance-level
 - attribute-based-access-control
 - audit
@@ -71,6 +73,7 @@ This generated view lists terms currently classified under the `core-operational
 - dead-drop
 - decentralized-identifier
 - decentralized-identity
+- decision
 - delegatee
 - delegation
 - delegation-credential
@@ -89,6 +92,7 @@ This generated view lists terms currently classified under the `core-operational
 - discovery
 - dpop
 - ecosystem-governance-framework
+- effect
 - eidas
 - end-to-end-principle
 - end-verifiability
@@ -96,6 +100,7 @@ This generated view lists terms currently classified under the `core-operational
 - enterprise-wallet
 - entity-statement
 - eudi-wallet
+- evidence
 - federation
 - federation-assurance-level
 - foundational-identity
