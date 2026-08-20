@@ -1,0 +1,56 @@
+name: Regenerate TIG PR artifacts
+
+on:
+  push:
+    branches:
+      - feat/portfolio-vocabulary-expansion-2026-08
+
+permissions:
+  contents: write
+
+jobs:
+  regenerate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout feature branch
+        uses: actions/checkout@v4
+        with:
+          ref: feat/portfolio-vocabulary-expansion-2026-08
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Validate source concepts
+        run: |
+          python tools/validate_governance_glossary.py
+          python tools/validate_profiles.py
+
+      - name: Regenerate governed artifacts
+        run: |
+          python tools/build_governance_glossary.py
+          python tools/build_quality_report.py
+          python tools/build_jekyll_site.py
+
+      - name: Validate regenerated state
+        run: |
+          python tools/validate_governance_glossary.py
+          python tools/validate_profiles.py
+
+      - name: Commit generated outputs and remove one-time workflow
+        run: |
+          rm .github/workflows/regenerate-pr-artifacts.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- generated _terms terms glossary/overlays term-index.json terms-index.md .github/workflows/regenerate-pr-artifacts.yml
+          if git diff --cached --quiet; then
+            echo "No generated changes to commit"
+            exit 0
+          fi
+          git commit -m "build(glossary): regenerate v2.1 portfolio vocabulary artifacts"
+          git push origin HEAD:feat/portfolio-vocabulary-expansion-2026-08
