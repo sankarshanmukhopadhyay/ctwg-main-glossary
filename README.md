@@ -2,13 +2,13 @@
 
 [![Validate Trust Infrastructure Glossary](https://github.com/sankarshanmukhopadhyay/trust-infrastructure-glossary/actions/workflows/validate-governance-glossary.yml/badge.svg)](https://github.com/sankarshanmukhopadhyay/trust-infrastructure-glossary/actions/workflows/validate-governance-glossary.yml)
 [![Pages](https://github.com/sankarshanmukhopadhyay/trust-infrastructure-glossary/actions/workflows/pages.yml/badge.svg)](https://github.com/sankarshanmukhopadhyay/trust-infrastructure-glossary/actions/workflows/pages.yml)
-![Concepts](https://img.shields.io/badge/concepts-612-blue)
-![Version](https://img.shields.io/badge/version-v2.0.0-blue)
+![Concepts](https://img.shields.io/badge/concepts-617-blue)
+![Version](https://img.shields.io/badge/version-v2.1.0-blue)
 ![License](https://img.shields.io/badge/license-OWFa%201.0-blue)
 
 The **Trust Infrastructure Glossary (TIG)** is an independent, governance-executable concept system for digital trust infrastructure. It combines plain-English and formal definitions with stable concept identifiers, language-tagged designations, provenance, lifecycle and assurance semantics, semantic relationships, cross-vocabulary mappings, deterministic validation, and machine-readable publication.
 
-Version `v2.0.0` establishes the project as independent from its Trust over IP ancestry. ToIP remains an important source corpus and is explicitly attributed where applicable, but it is no longer a governing upstream repository.
+Version `v2.1.0` extends the v2 semantic contract with foundational portfolio vocabulary for accountability, assurance, decision, effect, and evidence. The release also introduces a governed portfolio vocabulary-gap inventory for subsequent cross-repository expansion. ToIP remains an important source corpus and is explicitly attributed where applicable, but it is not a governing upstream repository.
 
 ## Start here
 
@@ -59,7 +59,7 @@ Edit `glossary/terms/*.yaml`, not generated renderings. Generated paths must be 
 
 ## Independence and lineage
 
-This project originated as a fork of the Trust over IP Main Glossary. The v2.0.0 release creates an independent project identity, authority model, semantic contract, release process, and source-intake policy.
+This project originated as a fork of the Trust over IP Main Glossary. The v2.0.0 release created an independent project identity, authority model, semantic contract, release process, and source-intake policy. v2.1.0 preserves those boundaries while expanding reusable vocabulary from the active trust-infrastructure portfolio.
 
 The project does **not** erase that lineage:
 
@@ -85,17 +85,16 @@ v2 draws on established open vocabulary practices without copying their governan
 
 These are design influences. Actual definition text is incorporated only through the repository's source-intake and licensing policy.
 
-
 ## Current quality posture
 
-The generated governance quality report evaluates all **612** concepts and currently reports:
+The generated governance quality report evaluates all **617** concepts and currently reports:
 
 - quality score: `100.0 / 100`
 - findings: `0`
-- concepts with source coverage: `612`
-- concepts with cross-reference coverage: `612`
-- concepts with evidence coverage: `612`
-- revocation-supported concepts with revocation-relevant evidence: `149`
+- concepts with source coverage: `617`
+- concepts with cross-reference coverage: `617`
+- concepts with evidence coverage: `617`
+- revocation-supported concepts with revocation-relevant evidence: `151`
 
 This is a repository quality signal, not a certification claim.
 
