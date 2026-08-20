@@ -1,0 +1,81 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:evidence
+designations:
+- label: evidence
+  language: en
+  status: preferred
+term: evidence
+aliases:
+- evidence
+definition: Information, records, observations, attestations, or other artifacts used to support, challenge, or
+  evaluate a claim, control, requirement, decision, or assurance conclusion.
+notes:
+- Evidence is not equivalent to a conclusion. Its relevance, integrity, provenance, freshness, and sufficiency must
+  be evaluated in context.
+see_also:
+- claim
+- attestation
+- audit
+- proof
+sources:
+- https://github.com/sankarshanmukhopadhyay/trust-systems-meta-model
+- https://github.com/sankarshanmukhopadhyay/trust-infrastructure-schemas
+- https://github.com/sankarshanmukhopadhyay/governance-authority-assurance-metamodel
+- https://github.com/sankarshanmukhopadhyay/rahp-toolkit
+mental_models: []
+supporting_definitions: []
+governance_profile: core-operational
+governance:
+  authority_scope:
+  - assurance_and_audit
+  - verification_and_reliance
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+  - documented
+  - active
+  - retired
+  execution_role: hybrid
+  control_plane_role: reference_term
+  enforcement_points:
+  - reliance_decision
+assurance:
+  evidence_artifacts:
+  - attestation
+  - audit_log
+  - verification_log
+  assurance_level_hint: AL1+
+  auditability: high
+control_plane:
+  decision_points:
+  - reliance_decision
+  accountable_entity: evidence_producer
+  evidence_produced:
+  - attestation
+  - audit_log
+  - verification_log
+crosswalk: {}
+simple_definition: Material that can be examined to decide whether a claim, control, or conclusion is supported.
+editorial:
+  status: proposed
+  reviewed:
+    domain: false
+    plain_language: false
+    governance: false
+provenance:
+  classification: locally_defined
+  source_corpus: Cross-repository trust infrastructure portfolio
+  lineage_note: Defined from recurring usage across the cited portfolio repositories; wording is independently authored
+    for TIG.
+semantic_relations:
+  related:
+  - urn:tig:concept:claim
+  - urn:tig:concept:attestation
+  - urn:tig:concept:audit
+  - urn:tig:concept:proof
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

@@ -1,0 +1,84 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:assurance
+designations:
+- label: assurance
+  language: en
+  status: preferred
+term: assurance
+aliases:
+- assurance
+definition: A justified level of confidence that defined claims, controls, processes, artifacts, or system properties
+  satisfy stated requirements within a specified scope and context.
+notes:
+- Assurance depends on explicit scope, criteria, evidence, and evaluation. It should not be inferred solely from
+  successful technical validation.
+see_also:
+- assurance-level
+- risk-assessment
+- audit
+- evidence
+sources:
+- https://github.com/sankarshanmukhopadhyay/trust-systems-meta-model
+- https://github.com/sankarshanmukhopadhyay/trust-infrastructure-schemas
+- https://github.com/sankarshanmukhopadhyay/governance-authority-assurance-metamodel
+- https://github.com/sankarshanmukhopadhyay/rahp-toolkit
+- https://github.com/sankarshanmukhopadhyay/TRQP-TSPP
+mental_models: []
+supporting_definitions: []
+governance_profile: core-operational
+governance:
+  authority_scope:
+  - assurance_and_audit
+  - verification_and_reliance
+  delegation_mode: direct
+  revocation_supported: false
+  lifecycle_states:
+  - proposed
+  - active
+  - documented
+  - retired
+  execution_role: hybrid
+  control_plane_role: reference_term
+  enforcement_points:
+  - reliance_decision
+assurance:
+  evidence_artifacts:
+  - attestation
+  - audit_log
+  - verification_log
+  assurance_level_hint: AL1+
+  auditability: high
+control_plane:
+  decision_points:
+  - reliance_decision
+  accountable_entity: assurance_authority
+  evidence_produced:
+  - attestation
+  - audit_log
+  - verification_log
+crosswalk: {}
+simple_definition: A reasoned level of confidence, backed by evidence, that something meets the requirements that matter
+  for the stated context.
+editorial:
+  status: proposed
+  reviewed:
+    domain: false
+    plain_language: false
+    governance: false
+provenance:
+  classification: locally_defined
+  source_corpus: Cross-repository trust infrastructure portfolio
+  lineage_note: Defined from recurring usage across the cited portfolio repositories; wording is independently authored
+    for TIG.
+semantic_relations:
+  related:
+  - urn:tig:concept:assurance-level
+  - urn:tig:concept:risk-assessment
+  - urn:tig:concept:audit
+  - urn:tig:concept:evidence
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

@@ -1,0 +1,86 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:decision
+designations:
+- label: decision
+  language: en
+  status: preferred
+term: decision
+aliases:
+- decision
+definition: An attributable determination by an authorized actor or mechanism that selects an outcome, state transition,
+  permission, denial, requirement, or other governed effect under applicable policy and evidence.
+notes:
+- A decision should be distinguishable from the evidence considered and from the downstream effect produced by acting
+  on the decision.
+see_also:
+- authority
+- policy
+- action
+- risk-decision
+sources:
+- https://github.com/sankarshanmukhopadhyay/trust-systems-meta-model
+- https://github.com/sankarshanmukhopadhyay/trust-infrastructure-schemas
+- https://github.com/sankarshanmukhopadhyay/PolicyMesh
+- https://github.com/sankarshanmukhopadhyay/open-national-digital-trust-framework
+mental_models: []
+supporting_definitions: []
+governance_profile: core-operational
+governance:
+  authority_scope:
+  - access_decisioning
+  - governance_recognition
+  - verification_and_reliance
+  delegation_mode: direct_or_constrained
+  revocation_supported: true
+  lifecycle_states:
+  - proposed
+  - active
+  - revoked
+  - retired
+  execution_role: runtime
+  control_plane_role: decision_plane_component
+  enforcement_points:
+  - access_decision
+  - reliance_decision
+  - policy_approval
+assurance:
+  evidence_artifacts:
+  - audit_log
+  - verification_log
+  - policy_document
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points:
+  - access_decision
+  - reliance_decision
+  - policy_approval
+  accountable_entity: decision_authority
+  evidence_produced:
+  - audit_log
+  - verification_log
+  - policy_document
+crosswalk: {}
+simple_definition: A governed determination that chooses what should happen next or what state should apply.
+editorial:
+  status: proposed
+  reviewed:
+    domain: false
+    plain_language: false
+    governance: false
+provenance:
+  classification: locally_defined
+  source_corpus: Cross-repository trust infrastructure portfolio
+  lineage_note: Defined from recurring usage across the cited portfolio repositories; wording is independently authored
+    for TIG.
+semantic_relations:
+  related:
+  - urn:tig:concept:authority
+  - urn:tig:concept:policy
+  - urn:tig:concept:action
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []

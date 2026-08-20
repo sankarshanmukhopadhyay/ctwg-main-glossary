@@ -1,0 +1,81 @@
+schema_version: '2.0'
+concept_id: urn:tig:concept:effect
+designations:
+- label: effect
+  language: en
+  status: preferred
+term: effect
+aliases:
+- effect
+definition: A material state change, permission, restriction, publication, transaction, invocation, or other externally
+  meaningful consequence produced or authorized by a decision or governed action.
+notes:
+- 'An effect is distinct from a decision: a decision may authorize or require an effect, while execution determines
+  whether that effect actually occurs.'
+see_also:
+- action
+- authorization
+- decision
+- policy
+sources:
+- https://github.com/sankarshanmukhopadhyay/trust-systems-meta-model
+- https://github.com/sankarshanmukhopadhyay/governance-authority-assurance-metamodel
+- https://github.com/sankarshanmukhopadhyay/open-national-digital-trust-framework
+mental_models: []
+supporting_definitions: []
+governance_profile: core-operational
+governance:
+  authority_scope:
+  - access_decisioning
+  - governance_recognition
+  delegation_mode: direct_or_constrained
+  revocation_supported: true
+  lifecycle_states:
+  - proposed
+  - active
+  - revoked
+  - retired
+  execution_role: runtime
+  control_plane_role: decision_plane_component
+  enforcement_points:
+  - access_decision
+  - reliance_decision
+assurance:
+  evidence_artifacts:
+  - access_decision_log
+  - audit_log
+  assurance_level_hint: AL2+
+  auditability: high
+control_plane:
+  decision_points:
+  - access_decision
+  - reliance_decision
+  accountable_entity: effect_authority
+  evidence_produced:
+  - access_decision_log
+  - audit_log
+crosswalk: {}
+simple_definition: The real-world or system consequence that follows from a governed decision or action.
+editorial:
+  status: proposed
+  reviewed:
+    domain: false
+    plain_language: false
+    governance: false
+provenance:
+  classification: locally_defined
+  source_corpus: Cross-repository trust infrastructure portfolio
+  lineage_note: Defined from recurring usage across the cited portfolio repositories; wording is independently authored
+    for TIG.
+semantic_relations:
+  related:
+  - urn:tig:concept:action
+  - urn:tig:concept:authorization
+  - urn:tig:concept:decision
+  - urn:tig:concept:policy
+concept_mappings:
+  exact: []
+  close: []
+  broad: []
+  narrow: []
+  related: []
